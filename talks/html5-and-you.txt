@@ -1,6 +1,5 @@
 HTML5 and You
 =============
-type: talk
 link: http://smustalks.appspot.com/sxsw-11/
 posted: 2011-03-13
 

@@ -1,8 +1,9 @@
 About this site
 ===============
 
-This site is statically generated with Lightning, a blogging engine I
-wrote. The basic idea is that I write all of my content like this:
+This site is statically generated with [Lightning][lightning], a
+blogging engine I wrote. The basic idea is that I write all of my
+content like this:
 
     About this site
     ===============
@@ -34,7 +35,7 @@ this):
 - Output that doesn't require htaccess, rewrite rules and other HTTPD
   specific setup.
 
-I will publish it when it graduates to be more thoroughly tested.
+An early version of [Lightning is available on github][lightning].
 
 [octopress]: http://octopress.org/
 [hyde]: http://ringce.com/hyde
