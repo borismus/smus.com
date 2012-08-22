@@ -137,9 +137,9 @@ make web applications fit better into native mobile platforms.
 
   [PhoneGap]: http://phonegap.com/
   [Intents]: http://developer.android.com/reference/android/content/Intent.html
-  [my github]: https://github.com/borismus/phonegap-plugins/tree/master/Android/WebIntent/
-  [webintent.js]: https://github.com/borismus/phonegap-plugins/blob/master/Android/WebIntent/webintent.js
-  [WebIntent.java]: https://github.com/borismus/phonegap-plugins/blob/master/Android/WebIntent/WebIntent.java
+  [my github]: https://github.com/phonegap/phonegap-plugins/tree/master/Android/WebIntent/
+  [webintent.js]: https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/webintent.js
+  [WebIntent.java]: https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/WebIntent.java
   [plugin architecture]: http://blogs.nitobi.com/joe/2009/12/17/introducing-ponygap-phonegap-plugins-for-android/
   [the github]: https://github.com/phonegap/phonegap-plugins/tree/master/Android/
 
