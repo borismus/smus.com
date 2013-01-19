@@ -28,7 +28,7 @@ considerations made me change my mind:
 2.  The simplicity and data-centric nature of the app lends itself well
     to a web implementation.
 
-<img src="/media/images/blog/2009/phone.png" class="left">
+<img src="phone.png" class="left">
 
 There are a few interesting technical challenges to overcome in implementing
 this application. Firstly, the app needs to blend visually with the iPhone look
