@@ -236,11 +236,10 @@ The problem with Backbone's approach is that it doesn't separate two
 parts of data stores: internal collection management and the interface
 with the backend API.
 
-Ember data, on the other hand, has the concept API adapters, which let
-you specify the interface the server in response to the inner workings
-of the adapter. And, additionally it has a DataStore model. I haven't
-experimented with this in Ember yet, but SproutCore's version of this
-worked quite well.
+Ember data, on the other hand, has the concept of API adapters, which
+let you specify the interface the server. Additionally it has a
+DataStore model. I haven't experimented with this in Ember yet, but
+SproutCore's version of this worked quite well.
 
 ### Performance considerations
 

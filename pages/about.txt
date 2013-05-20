@@ -2,36 +2,30 @@ About the author
 ================
 
 Hey! I'm most passionate about creating useful, enjoyable user
-interfaces, especially at the cusp of hardware and software. In my
-projects, I tend to gravitate to web technologies because of the
-flexibility of the platform.
+interfaces (in the broadest sense of the word), especially at the cusp
+of hardware and software. In my projects, I tend to gravitate to web
+technologies because of the flexibility of the platform.
 
-I'm currently an engineer in research working on new UI paradigms. Prior
-to that I was on the Chrome developer relations team, doing my part to
-bring more awesomeness to the modern web platform.
+I'm currently employed as a software engineer working on emerging user
+interfaces at Google Research. Prior to that I was on the Chrome
+developer relations team, doing my part to bring more awesomeness to the
+modern web platform.
 
 Before Google, I was a graduate student at Carnegie Mellon University,
-where I mostly did HCI research in physical, wearable and social
-computing.
+where I focused on wearable and social computing research. Prior to
+that, I worked at Apple for two years, contributing to iWeb, iWork and
+iWork.com.
 
-I am from Vancouver, Canada and spent my formative childhood years in
-St. Petersburg, Russia. For a complete chronicle, here is my [resume][].
+For a more detailed chronicle, here is my [resume][].
 
 [resume]: /resume
-
-## Hobbies and stuff
-
-* Backpacking around the world
-* Long distance running (5K in under 19m, 10K in under 39m)
-* Downhill skiing (CSIA L1)
-* Classical piano playing (RCM Grade 10)
-* Mediocre guitaring and singing
-* [Genealogy](/family)
 
 ## Contact
 
 If you want to leave a brief, public note, please tweet at me via
 [@borismus][tw]. If your thoughts are long and/or secretive, I can be
-contacted by email via boris (at this domain).
+contacted by email via boris at this domain.
+
+Thanks for visiting!
 
 [tw]: http://twitter.com/borismus

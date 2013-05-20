@@ -13,3 +13,5 @@ permalink_format:
   archive: 'archive/{{slug}}'
   feed: '{{slug}}'
   index: ''
+  image_index: '{{slug}}'
+  project: 'projects/{{slug}}'

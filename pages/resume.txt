@@ -1,16 +1,25 @@
 Resume
 ======
 
-
 ## Experience
 
+**2012 - Current: Software Engineer, [Google][]**
 
+- Prototyping emerging user interfaces at Google Research.
 
-**2011 - Current: Developer Programs Engineer, [Google][]**
+**2010 - 2012: Chrome Developer Programs Engineer, [Google][]**
+
+- Released and maintained widely used libraries to help mobile web
+  developers
+- Wrote significant open source sample applications (see [github][])
+- Wrote technical articles on <http://html5rocks.com> and
+  <http://smus.com> totalling over 500K page views
+- Presented over 20 public talks, reaching over 100K people (including
+  video views)
+- Software engineer on the Google +1 chrome extension
 
 **Summer 2010: Software Engineer Intern, [Google][]**
 
--   *Note: kept deliberately vague for confidentiality.*
 -   Wrote product requirements and designed UI concepts for a major
     Google TV feature
 -   Implemented a working prototype in Java/Android
@@ -96,7 +105,7 @@ Resume
 
 **Patents**
 
--   *Several at Google*
+-   5+ at Google.
 
 -   Bultrowicz, M., Smus, B. Shared Comments for Online Document
     Collaboration, Apple Inc (2009)
@@ -108,3 +117,4 @@ Resume
 [Custom House]: http://www.customhouse.ca/
 [Carnegie Mellon University]: http://www.cmu.edu
 [University of British Columbia]: http://www.ubc.edu
+[github]: https://github.com/borismus/

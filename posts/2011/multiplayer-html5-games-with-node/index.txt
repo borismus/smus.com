@@ -20,7 +20,7 @@ better than it sounds!
 
 Osmos really caught my attention because of its simple but engaging gameplay,
 meditative pace and distinct **lack of multiplayer support**, which struck me
-as a potentially very interesting problem to tackle. And so, [osMUs][] (mu for
+as a potentially very interesting problem to tackle. And so, Osmus (mu for
 multiplayer) was born as a browser-based multiplayer Osmos clone.
 
 ## How it works
@@ -36,9 +36,10 @@ As the game progresses, the server decides when someone (possibly one of the
 autonomous blobs) is victorious, at which point, players are notified and the
 game is restarted.
 
-The rest of this post is about some development-related details So if you just
-want to try it out, [go ahead][osmus]. Note, however, that Osmus works on
-Chrome Stable (version 13) and iPad.
+The rest of this post is about some development-related details. I've had to take the game offline because it was too expensive for me to keep running on my VPS.
+However I did record a video:
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/NiPZK3g_i1M" frameborder="0" allowfullscreen></iframe>
 
 ## Game architecture
 
