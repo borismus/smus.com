@@ -1,19 +1,17 @@
-Google I/O 2013 - Point, Click, Tap, Touch
+Point, Click, Tap, Touch (Google I/O 2013)
 ==========================================
 type: talk
 link: http://www.youtube.com/watch?v=DujfpXOKUp8
 posted: 2013-05-16
 
-[Rick Byers][rick] and I gave a talk called "Point, Click, Tap, Touch -
-Building Multi-Device Web Interfaces". We talked about touch interfaces,
-(including touch laptops) and associated best practices for web
-developers. 
+[Rick Byers][rick] and I gave a talk at Google I/O last week called
+"Point, Click, Tap, Touch - Building Multi-Device Web Interfaces". We
+talked about design guidelines, interoperability between mouse and
+touch, best practices for touch laptops, some details about Chrome's
+touch implementation, best practices for performance, and finally the
+future of touch on the web. The [video][] and [slides][] are now
+available.
 
-<iframe width="640" height="360"
-src="http://www.youtube.com/embed/DujfpXOKUp8" frameborder="0"
-allowfullscreen></iframe>
-
-The [video][] and [slides][] are available.
 
 [video]: http://www.youtube.com/watch?v=DujfpXOKUp8
 [slides]: https://docs.google.com/a/google.com/presentation/d/1-n1qyzewpagREbzW2zm0wOalq33UhbtbSkWf9mEdly8/edit

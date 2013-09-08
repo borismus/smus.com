@@ -86,6 +86,9 @@ are 22 bytes in the Nike+ data [with an unknown structure][], probably
 containing pressure duration data. If someone figures out how to make
 sense of this please let me know!
 
+**Update (June 2013)**: Dmitry Grinberg has published a [much more
+thorough reverse engineering][dmitry] blog post.
+
   [Nike+]: http://www.apple.com/ipod/nike/
   [Apple's FAQ]: http://support.apple.com/kb/HT2293?viewlocale=en_US
   [dissected]: http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=41
@@ -96,4 +99,4 @@ sense of this please let me know!
   [perl]: http://rtadlock.blogspot.com/2009/06/some-perl-code-for-nikeipod-serial.html
   [hexbyte.py]: https://github.com/borismus/Running-Gestures/blob/master/hexbyte.py
   [with an unknown structure]: http://ipodlinux.org/wiki/Apple_Accessory_Protocol#Nike.2B_.28Mode_9.29
-
+[dmitry]: http://dmitry.gr/index.php?r=05.Projects&proj=05.%20Nike%20plus%20iPod
