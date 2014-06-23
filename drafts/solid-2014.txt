@@ -1,0 +1,148 @@
+Solid 2014 notes
+
+## Nadya Peek: making machines that make
+
+- Manufacturing tools suck.
+- From the center for bits and atoms.
+- FabLab: a standard-ish library for various digital manufacturing equipment.
+- Showing lots of interesting 3D printers and variants.
+- Seems to be arguing for "virtual fab machine" concept
+  - Abstracts out a bunch of machine implementation details.
+  - Works across a bunch of different machines.
+
+
+## Astro Teller: justifying Google[x]
+
+- Google wants to solve big problems.
+- Many problems cannot be solved with software alone.
+- Green-field problems: company big enough to explore problems others haven't touched.
+
+
+## Hiroshi Ishii: talking about his lab
+
+- Vision (100 years) => Applications (~10 years) => Technologies (~1 year)
+- Example: how many listen to music on LP/CD/Mp3/Streaming?
+- Lab vision: GUI => TUI => Radical Atoms (mostly in physical world)
+- Showing research from 1999 "Urp: Urban Planning Workbench"
+- Shape displays. "TimeScape", "inFORM"
+
+    Don't ask why; this is art.
+
+- Latest clip: multiple inFORM tables side-by-side.
+- "What do you want to leave for those living in 2200"?
+
+
+## ????
+
+- Claim: your next household robot will be your house.
+- Fully automated dairy farms (wow?)
+  - Robotic milking.
+  - Automated back scratchers, herders, feed pushers, teat inspectors, pasture selectors, etc.
+- (Boris): are people like cows?
+
+
+## Kipp Bradford: serial hardware entrepreneur guy
+
+- Bone cell as a factory for generating ceramic composites (bone)
+- Bones as repeating units.
+- Backing up further, skeletal system has emerging properties.
+- Scaling discontinuities.
+  - Facebook: through scale, get all social information in one place.
+  - Fedex: through scale, make shipping super efficient.
+- Claim: bitcoin will be the next thing to transform banking.
+
+
+## Tobias from Bot & Dolly
+
+- DEC founder: "There is no reason for any individual to have a computer in their home".
+- MS founder: "A PC on every desk in every home".
+- Claim: robotics is at the same breaking point.
+- Bot & Dolly: a design consultancy focusing on robotics.
+  - Building a lot of robots for cinema purposes.
+  - Gravity: built a robotic room that moves around the actor.
+- Lots of really cool demo videos...
+  - Music: compose by moving a robot through space.
+  - Architecture: "Stack" precisely positions wooden planks.
+  - Photography: system for real time capture & repeat.
+  - Cinema: "Box" robot arm that moves the scene around to look like magic.
+
+
+## Ivan Popurev
+
+- At Sony, made gadgets for 8 years.
+- The whole world is becoming a gadget.
+- "How can we make the entire world interactive"?
+- At Disney, the world was Disney World.
+- Lesson 1: give non-invasive senses to the world.
+  - Demo of Touche.
+  - Demo of capacitative touch on a plant.
+- Lesson 2: generate power locally.
+  - Demo of the work from UIST 2013.
+  - Demo of Aireal (pushes air through haptic projectors)
+
+
+## Jim Stogdill (O'Reilly)
+
+- Emerging from weblandia... (20 years of computing being confined to the web)
+- A bit of history:
+  - James Watt: building a steam engine (Industrial Revolution)
+  - Vint Cerf: building a packet switcher (Internet)
+  - ???: building an internet of connected devices (???)
+
+
+## 6D Pose Tracking for VR
+
+- VR: for a sense of presence.
+- First Oculus had 3-DOF, next one has 6-DOF.
+- Challenges: precision & latency
+- IR LEDs, wideview (80deg x 64deg) IR camera & IMU @ 1 KHz.
+- Fuse camera and IMU to extract position.
+- Emit markers via IR LEDs, camera finds them, and tries to reconstruct the scene.
+- RANSAC: Random Sample Consensus. 
+- Iterative pose estimation (users don't move much frame-to-frame)
+- Tracking quality precision: 0.05mm @ 1.5m.
+
+? So it doesn't work unless you're facing a wall...?
+
+
+## Matthew Gardiner: folding = coding for matter
+
+
+## Organ maker guy
+
+- Discussing history of Organs.
+- What's changed in 150 years of organ building? Very little :)
+- Organs moved to magnetic principle for action.
+- Charles Fisk, founder of company, switched the company back to original valve action.
+  - Charles started as a nuclear physicist, switched to Organ building.
+
+## Dragon Innovation
+
+- The company does some sort of consulting for hardware startups.
+  - Could be good for SmartBells?
+- CrowdFunding: "Sell then Build"
+- Manufacturing is hard.
+- BOM: plastic, parts, electric comps, consigned, deco, packaging, labor, etc, etc.
+
+MORAL OF THE STORY: Don't do a hardware startup :)
+
+- SmartBells should be about software.
+- Built using a prototype hardware, but the hardware is interchangeable.
+
+
+## Designing tech for women as early adopters
+
+- Women tell other women (virality).
+- Broader picture view of the world.
+ (zoned out)
+
+
+## Mike Kuniavsky
+
+Chippendale furniture ubiquitous.
+Famous for "director", a book with furniture designs.
+Calling for a high level physical/digital description language.
+Somewhat like FabLab.
+
+
+## Greg Borenstein: Camera as the ultimate sensor

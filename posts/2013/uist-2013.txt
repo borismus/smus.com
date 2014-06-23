@@ -1,0 +1,227 @@
+UIST 2013 Highlights
+====================
+posted: 2013-10-25
+
+I just got back from Scotland, where I had the pleasure of attending
+UIST 2013 in St. Andrews. This was my second time attending, and again
+it was incredibly engaging and interesting content. I was impressed
+enough to take notes just like [my last UIST in 2011][uist-2011]. What
+follows are my favorite talks with demo videos. I grouped them into
+topics of interest: gestural interfaces, tangibles and GUIs.
+
+[uist-2011]: http://smus.com/uist-2011/
+
+<!--more-->
+
+### Quadrotor Tricks
+
+UIST kicked off with a very compelling demos from Rafaello D'Andrea,
+professor at ETH, co-founder of Kiva. He currently works on the [flying
+machine arena][fma], a lab at ETH working on quadrotor control systems.
+
+I really liked the flight assembled architecture idea: a building
+assembled by quadrotors.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/JnkMyfQ5YfY" frameborder="0" allowfullscreen></iframe>
+
+Rafaello also showed off a kinect controlled quadrotor. A pointing
+interface to control quadrotors. Other highlights included the ability
+to place the quadrotor with your hand, and simulating environments like
+controlled gravity, virtual walls, springs, and damped oscillations.
+
+[fma]: http://www.flyingmachinearena.org/ 
+
+### Mime: Compact, Low Power 3D Gesture Sensing
+
+An MIT Media Lab group presented a pretty neat approach for gesture
+tracking combining time-of-flight and RGB cameras. The approach is
+compact enough to be embedded on a HUD device like Google Glass.
+
+The specs are impressive: 100 FPS, sub-centimeter resolution, low-power
+(45 mW). Showed glasses hardware with 3 cameras (baseline = face) and an
+IR LED. Here's roughly how it works:
+
+1. Illuminate scene with IR. Backscatter light captured by cameras.
+2. Time-of-flight approach. Source `s(t)` and response `r_n(t)`. Look
+   for time-shifted waveforms.
+3. ...Lots of crazy math reducing to convex optimization...
+
+Applications presented were a bit limited, mostly focused on in-air
+writing and drawing. They also presented some cringe-worthy menu
+navigation. The last and most obvious application was games.
+
+### Gaze Locking: Passive Eye Contact Detection for Human–Object Interaction
+
+Surprisingly insightful project from Columbia based on a simple idea:
+gaze tracking is hard. Knowing WHERE the user is looking is very
+difficult, but knowing IF the user is looking is much easier. I loved
+the approach of [solving the simpler problem][perlin].
+
+Detector approach:
+
+1. Eye corner detection
+2. Geometric rectification
+3. Mask eye area
+4. Extract features from 96x26px rectangle.
+5. PCA + MDA compression
+6. Binary classifier (gaze locked or not).
+
+They also generated a Gaze Data set (6K images). The detector actually
+does better than human vision. Works well from 18m away, though the
+presenter claimed there was no degradation as a function of distance,
+which was very suspicious.
+
+They also presented a series of compelling applications:
+
+- Human-object interaction (very cool video of iPads powering on based
+  on gaze).
+- Ad analytics (wow, incredible potential for Google/Signs team).
+- Sort/filter images by eye contact (as a measure of photo quality).
+- Gaze-triggered photography (when everyone is looking at the camera).
+
+More info on [the lab's site][gaze].
+
+[gaze]: http://www.cs.columbia.edu/CAVE/projects/gaze_locking/index.php
+[perlin]: http://blog.kenperlin.com/?p=13296
+
+### BodyAvatar: Creating 3-D Avatars with Your Body and Imagination
+
+Setting your avatar in video games is annoying. You basically go through
+a wizard based on a GUI. This delightful implementation from Microsoft
+Research uses your body to build your character's avatar. Creation
+begins from the first person, as you create a general skeleton for the
+avatar. Then the perspective changes to third person as you add
+customizations using gestures. The final stage lets you paint your
+avatar from the third person perspective.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/yU2Ai18tft4" frameborder="0" allowfullscreen></iframe>
+
+They also showed some impressive demos of stepping into limbs for
+particularily complex models (eg. butterfly with 6 limbs). Super cool!
+
+### Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces 
+
+Excellent work from Berkeley showing how a single camera can drive a
+whole printed physical UI. The idea is that you 3D print an object,
+insert a camera and have a fully functional input device.
+
+Sauron simulates full motions of all components, ensures that everything
+is visible via ray casting. One problem is that you can't always see the
+whole interior. So Sauron modifies the design by extruding inputs,
+adding mirrors.
+
+A good question was asked about doing the same for output. Using a
+transparent material you might also be able to light up specific areas
+of the prototype, but apparently 3d printers can't print
+transparent/translucent plastics. Cool future work might be to design
+mobile tangibles that snap to a phone and use the phone's camera.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/GNdCnmm-cw8" frameborder="0" allowfullscreen></iframe>
+
+Ok, that's all for vision and gestures. Now on to tangibles:
+
+### PneUI: pneumatically activated soft materials
+
+Ishii's group presented nature-inspired interfaces that are
+transformative and responsive. Using mostly air pockets, they set out to
+create tangible UIs inspired by soft marine organisms. Some examples of
+the applications:
+
+1. Curvature: folding wristband/phone. Wraps up when placed on wrist.
+   Unwraps when used as a tablet. Pulsates shape changes to indicate
+   incoming calls.
+
+2. Volume-change based interfaces with underlying origami substructure.
+   Application: origami accordion with variable height and input.
+
+3. Micro + macro elastomers to create transformable textures.
+   Application: "feel" GPS on the steering wheel rather than see/hear.
+
+<iframe src="//player.vimeo.com/video/63591283" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Mind = blown.
+
+
+### Paper Generators: Harvesting Energy from Touching, Rubbing and Sliding
+
+Disney research presented a way of harvesting energy from interaction,
+primarily for popup book-type applications. Based mostly on static
+electricity, they used teflon, which has low electron affinity. Rubbing
+it on paper causes a discharge. Rubbing generates 500 µA, 1200 V.
+Tapping generates 60 mW.
+
+The approach is easy to build, printable with conductive ink cartridges.
+In addition to rubbing, showed a bunch of different widgets that can
+generate electricity - buttons, cranks, 
+
+Approach 1: direct energy usage. (eg. animations on e-ink displays.)
+Approach 2: store and release if more energy is needed. (eg. actuate servos.)
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/4WaUcXSfPTg" frameborder="0" allowfullscreen></iframe>
+
+### Touch & Activate: Adding Interactivity via Active Acoustic Sensing
+
+Tsukuba University presented a very cool paper on adding acoustic
+sensing to hard objects using contact mics and speakers. The basic idea
+is that touching an object changes its bounding conditions, depending on
+how it is touched. 
+
+The way it works is they vibrate objects at a wide frequency range and
+capture the response.
+
+1. Attach contact speaker and microphone.
+2. Make the object vibrate, doing a sweep signal from 20-40 KHz (inaudible).
+3. Vibration response determined by object properties.
+4. Extract features via FFT
+5. Classify via SVM
+
+Applications:
+
+- Simple music player based on duplo blocks.
+- Interactive animal body
+- Grasp recognition system for phone using a case.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/XgxXi6w8IQc" frameborder="0" allowfullscreen></iframe>
+
+How cool is that? Anyway, now for something a bit more traditional:
+
+### Transmogrifiers: Casual Manipulations of Visualizations
+
+University of Calgary presented their awesome visualization toolkit.
+Their goal is to enable exploration and manipulation of data that is
+stored in images with no underlying data.
+
+The idea is to pick a "lens" shape which acts as a template and is
+placed on an image. Also provide an output shape to serve as the target.
+
+Applications:
+
+- [Tracing rivers to 1D][river] to compare their lengths.
+- Mutate data chart types (eg. ring chart ==> bar chart)
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/S1Roi2NOmx8" frameborder="0" allowfullscreen></iframe>
+
+[river]: http://upload.wikimedia.org/wikipedia/commons/5/5a/1862_Johnson_and_Ward_Map_or_Chart_of_the_World%27s_Mountains_and_Rivers_-_Geographicus_-_MtsRvrs-j-1861.jpg 
+
+
+### Content-based Tools for Editing Audio Stories
+
+A Berkeley PhD student showed his project, which aims to edit audio
+stories (radio shows, podcasts, audio books) at a semantic level much
+higher than the current industry standard (waveforms). Not that
+technically challenging, just a really cool idea. Might be a very
+compelling product.
+
+Cool interactions:
+
+- Edit speech (eg. copy, paste) in a text editor.
+- Lets you pick sentences from a list of takes.
+- Insert breaths and pauses where needed.
+- Retarget music by segmenting song by beats and automatically finding music change points.
+- Specify speech emphasis points manually, and use them as alignment points to music change points.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/RHtI4G5L31w" frameborder="0" allowfullscreen></iframe>
+
+Here's to [next UIST][uist-2014]. Hang loose!
+
+[uist-2014]: https://twitter.com/ACMUIST/status/390958095939407872

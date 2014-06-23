@@ -117,8 +117,8 @@ framework of yours?" Indeed, we just [released it][] for non-commercial
 use under [the Creative Commons license][]. Let me know if you have any
 questions, comments or interest in collaborating or maintaining the framework.
 
-**Update (February 2011):** CrowdForge was covered in [NewScientist][] and in a
-[CMU article][]
+**Update (February 2011):** CrowdForge was covered in [NewScientist][],
+in a [CMU article][], and in a [NY Times blog][nyt].
 
 **Update (November 2011)**: The [full paper][paper] was [presented][] at
 [UIST 2011][] in Santa Barbara.
@@ -136,4 +136,4 @@ questions, comments or interest in collaborating or maintaining the framework.
   [CMU article]: http://www.cmu.edu/homepage/society/2011/winter/crowdforge.shtml
   [paper]: crowdforge-uist-11.pdf
   [presented]: http://smustalks.appspot.com/crowdforge-11/
-
+  [nyt]: http://open.blogs.nytimes.com/2011/10/19/uist-2011-crowdsourcing-research/
