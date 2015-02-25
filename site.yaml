@@ -8,7 +8,7 @@ permalink_format:
   post: '{{slug}}'
   page: '{{slug}}'
   talk: 'talk/{{year}}/{{slug}}'
-  link: 'link/{{year}}/{{slug}}'
+  link: 'link/{{year}}/{{month}}/{{day}}/{{slug}}'
   draft: 'drafts/{{slug}}'
   archive: 'archive/{{slug}}'
   feed: '{{slug}}'
