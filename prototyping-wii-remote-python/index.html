@@ -1,0 +1,189 @@
+<!doctype html>
+<head>
+  <title>Prototyping with Wii Remotes in Python | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+I've been working on a couple of researchy projects involving gait
+recognition and running foot strike analysis.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/prototyping-wii-remote-python">Prototyping with Wii Remotes in Python</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 28 May 2010</time>
+  
+  
+  </div>
+  <p>
+    <p>I've been working on a couple of researchy projects involving gait
+recognition and running foot strike analysis. For my proof of concept, I
+turned to the wiimote, everyone's favorite physical interaction
+prototyping input device. Wiimotes are portable and rugged, and thus
+well suited to high-intensity activities like running. They attach
+easily to legs with a physio band, although the elastic tension tends to
+cut off circulation. No big deal, though... it's For Science! </p>
+
+<p>This article is not about attaching Wiis to legs (more on that at a
+later date!), but about communicating with the Wii remote using python.
+I started out by writing a Cocoa application to harvest accelerometer
+data using the WiiRemote framework provided by the <a href="http://darwiin-remote.sourceforge.net/">DarwiinRemote</a>
+project.  After some objective-c iterations of my initial gait
+recognizer algorithm, I decided to port to python, an environment better
+suited for light prototyping. There's a few packages explicitly
+developed to integrate with the wiimote. <a href="http://stackoverflow.com/questions/481943/python-with-wiimote-using-pywiiuse-module">Pywiiuse</a> provides a
+lightweight wrapper around the <a href="http://www.wiiuse.net/">wiiuse</a> library and does not work on
+OS X. An alternative, <a href="http://code.google.com/p/pywiimote/">pywiimote</a> claims to be multiplatform but
+pointedly isn't. Here's the start of their code: </p>
+
+<pre><code>from ctypes import *
+kernel = windll.kernel32
+</code></pre>
+
+<p>Having found no existing wiimote-specific python libraries that would
+work on my platform, I had no choice but to dig a little into the
+bluetooth-based protocol that the wiimote uses. I found all the details
+in all their gory glory on the <a href="http://wiibrew.org/wiki/Wiimote#Accelerometer">wiibrew wiki</a>. The communication
+protocol involves two open L2CAP sockets between the host and wiimote:
+one for reading and one for writing. After an initialization string is
+sent over the write socket, the wiimote springs into life and sends a
+stream of data on the read socket. In this data are accelerometer values
+and button presses. Here's a simple python snippet using the
+<a href="http://lightblue.sourceforge.net/">lightblue</a> library:</p>
+
+<pre><code>import sys, lightblue, hexbyte
+
+WIIMOTE_DEVICE_NAME = 'Nintendo RVL-CNT-01'
+
+# auto-discover nearby bluetooth devices
+devs = lightblue.finddevices(getnames=True, length=5)
+# find the one with the correct name
+wiimote = [d for d in devs if d[1] == WIIMOTE_DEVICE_NAME] and d[0] or None
+if not wiimote:
+    print "No wiimotes found!"
+    sys.exit(1)
+
+# create a socket for writing control data
+write_socket = lightblue.socket(lightblue.L2CAP)
+write_socket.connect((wiimote, 0x11))
+
+# create a socket for reading accelerometer data
+read_socket = lightblue.socket(lightblue.L2CAP)
+read_socket.connect((wiimote, 0x13))
+
+# initialize the socket to the right mode
+write_socket.send(hexbyte.HexToByte('52 12 00 33'))
+
+# start reading data from it
+while 1:
+    byte = read_socket.recv(256 * 7)
+    data = hexbyte.ByteToHex(byte)
+    # do something interesting with the data
+    print data
+</code></pre>
+
+<p>You'll need <a href="https://github.com/borismus/Running-Gestures/blob/master/hexbyte.py">hexbyte.py</a> to run the above snippet. I hope
+you (the wii remote wielding python fan) find this snippet useful. As a
+side note, if you've figured how to pair a wiimote with an android phone
+and released the code into the public domain, please let me know. Since
+Android 2.2 still doesn't ship with L2CAP APIs, I hit the wall.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

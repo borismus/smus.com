@@ -1,0 +1,353 @@
+<!doctype html>
+<head>
+  <title>Loading Large Assets in Modern HTML5 Games | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+
+HTML5 games are here today, and rapidly increasing in complexity.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/game-asset-loader">Loading Large Assets in Modern HTML5 Games</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 22 September 2011</time>
+  
+  
+  </div>
+  <p>
+    <p>HTML5 games are here today, and rapidly increasing in complexity. Impressive
+<a href="http://madebyevan.com/webgl-water/">demos</a> are <a href="http://www.chromeexperiments.com/">everywhere</a>, and prominent titles like <a href="https://chrome.google.com/webstore/detail/ciamkmigckbgfajcieiflmkedohjjohh">Gun
+Bros</a> and <a href="http://chrome.angrybirds.com">Angry Birds</a> prove that it's possible to
+create competitive gaming experiences in the browser. Games like these are
+possible thanks largely to the modern web stack which includes WebGL, the Web
+Audio API, Web Sockets and others.</p>
+
+<p>Often forgotten, however, is the less sexy story of loading game assets. As the
+web platform progresses and allows for increasingly complex games, game assets
+(ex. textures, movies, music and images) grow in size and number, and asset
+management becomes a sticking point for game developers.</p>
+
+<p>Let me share with you some truths:</p>
+
+<ol>
+<li>Modern games require gigabytes of assets (textures, movies, etc)</li>
+<li>Gamers don't like waiting for their game to load</li>
+<li>Browser gamers want to be able to play regardless of internet connectivity</li>
+</ol>
+
+<p>"But wait," you say, "I know! Just use the <a href="http://diveintohtml5.org/offline.html">Application Cache</a>
+and yer done!". Not so fast, dear reader... As described below, there are
+problems with this approach, and I propose some solutions.</p>
+
+<h1>Problems with Application Cache</h1>
+
+<p>So you've started implementing your awesome asset loading solution using
+AppCache. The good news is that there are some useful tools to help you debug
+if you have taken this difficult route:</p>
+
+<ol>
+<li>You can get basic information about the site's app cache through the
+Developer Tools' <a href="http://code.google.com/chrome/devtools/docs/resources.html">resource panel</a>.</li>
+<li>You can view (and remove!) caches stored in Chrome by navigating to
+<code>chrome://appcache-internals/</code>.</li>
+</ol>
+
+<p>But let me be blunt: <strong>AppCache is annoying to deal with</strong>. If you've made a
+small error in your cache manifest file, you'll quickly hit a brick
+wall. I ran into an issue where I forgot to include a <code>NETWORK:</code>
+fallback clause, and wasted hours trying to figure out why all of my
+XHRs were responding with status 0.</p>
+
+<p>Part of what makes AppCache difficult to debug is its very <strong>limited
+JavaScript API</strong>. Aside from letting you inspect the status of the entire cache
+with <code>window.applicationCache</code> and the <code>updateready</code> event, AppCache doesn't
+give us much to work with. There's no way to tell if a particular resource
+we're dealing with is cached or not and no programmatic way of clearing the
+cache.</p>
+
+<p>AppCache takes a fully transactional approach to asset loading.  Either
+the cache is fully loaded, or fully unloaded. Compounding this issue,
+it's impossible to resume the download of an AppCache. Thus, if you have
+a large amount of assets, your user will have to <strong>wait a long time for
+everything to be loaded</strong>, and if they reload, they will need to restart
+their cache download.</p>
+
+<p>Lastly, you can only include one cache manifest per page, making it
+<strong>impossible to group assets</strong> into multiple bundles. There are hacks that
+use multiple iframes with different cache manifests to work around this
+limitation (used in <a href="http://chrome.angrybirds.com">Angry Birds</a>), but these are ugly!</p>
+
+<p>Ultimately, what we need is a well-thought-out Application Cache
+enhancement or replacement. Given how quickly web standards bodies move,
+I've started thinking a bit about a transitional solution.</p>
+
+<h1>Designing a game asset loader</h1>
+
+<p>An ideal asset loading solution requires some of these features:</p>
+
+<ol>
+<li>Granular asset loading. Load all, in groups, or individually.</li>
+<li>No asset size limits.</li>
+<li>Offline capability.</li>
+<li>Programatic control over assets.</li>
+</ol>
+
+<p>It makes sense to group assets in bundles and let the loader take care
+of the details. We can even create a custom manifest format, for
+example, in JSON format:</p>
+
+<pre><code>{
+  "assetRoot": "./media/",   // The root of the assets.
+  "bundles": [{
+    "name": "core",          // A bundle definition.
+    "contents": [            // The contents within.
+      "theme.mp3",
+      "loading.jpg"
+    ]
+  }, {
+    "name": "level1",        // Multiple bundles defined.
+    "contents": [            // Note: order implicit since bundles
+      "L1/background.jpg",   // objects are stored in an array.
+      "L1/blip.wav"
+    ]
+  }, {
+    "name": "level2",
+    "contents": [
+      "L2/intro.mov"
+    ]
+  }],
+  "autoDownload": false      // If true, download all in order.
+}
+</code></pre>
+
+<p>With this manifest format in mind, sample API usage might look like
+this:</p>
+
+<pre><code>// Load the asset library.
+var gal = new GameAssetLoader('/path/to/gal.manifest');
+
+// Read the manifest and other good stuff.
+gal.init(function() {
+  // When ready, download the bundle named 'core'.
+  gal.download('core');
+});
+
+// When the core assets are loaded.
+gal.onLoaded('core', function(result) {
+  if (result.success) {
+    // Show a loading indicator.
+    document.querySelector('img').src = gal.get('loading.jpg');
+  }
+});
+
+// Check the progress of the download.
+gal.onProgress('core', function(status) {
+  console.log('status:', status.current/status.total, '%');
+});
+</code></pre>
+
+<p>Note that although I've been using the name Game Asset Loader, this
+approach can be used for loading any large non-game assets, such as for
+example, a video or photo gallery.</p>
+
+<h1>Implementation details</h1>
+
+<p>Luckily, the modern web stack enables us to create a custom solution to
+address all of these requirements. By leveraging technologies such as
+the HTML5 Filesystem API or Indexed DB, we have programmatic access to
+a storage mechanism that we can use to build an asset loader described
+here.</p>
+
+<p>I used the <a href="http://www.html5rocks.com/en/tutorials/file/filesystem/">Filesystem API</a> to implement a version of the asset
+loader. The code requests a large amount of persistent storage using the 
+<a href="https://groups.google.com/a/chromium.org/group/chromium-html5/msg/5261d24266ba4366?dmode=source">Quota API</a>, which is undocumented, but works anyway:</p>
+
+<pre><code>// Get quota.
+storageInfo.requestQuota(window.PERSISTENT, quota,
+  onQuotaGranted, onError);
+
+// Callback when the quota API has granted quota
+function onQuotaGranted = function(grantedBytes) {
+  // Save grantedBytes in the adapter
+  that.grantedBytes = grantedBytes;
+  // Once quota is grantedBytes, initialize a filesystem
+  requestFileSystem(window.PERSISTENT, grantedBytes, onInitFS, onError);
+};
+
+// Callback when the filesystem API has created a filesystem.
+function onInitFS = function(fs) {
+  // Create a directory for the root of the assets.
+  fs.root.getDirectory(ROOT_DIR, {create: true}, function(dirEntry) {
+    that.root = dirEntry;
+  }, onError);
+};
+</code></pre>
+
+<p>The approach fetches assets with <code>XMLHttpRequest</code>, and stores them in the
+filesystem. All files in the filesystem are accessible via the <code>filesystem://</code>
+schema, and can be used as any other resource. This filesystem URL is returned
+by the library in the <code>get(path)</code> call.</p>
+
+<p>Note that the writable HTML5 filesystem API is currently available in Chrome
+only, but that it's quite possible to use IndexedDB (supported in Firefox and
+IE10) as the data store.</p>
+
+<h1>Usage scenarios</h1>
+
+<p>The following section briefly describes what the game asset loader (GAL) does
+in several scenarios.</p>
+
+<p>Player goes to game.com which uses the game asset loader. The game calls
+<code>gal.download('core')</code> to download core assets and
+<code>gal.download('level1')</code> to load the first level into the player’s
+filesystem. While the core bundle loads, the game displays a loading
+indicator. Once core is loaded, the game displays the main menu. As soon
+as the first level is loaded, the "Play now" button is enabled. As the
+player plays, the GAL downloads more of the levels in the background.</p>
+
+<p>Next time, the player tries playing offline. He goes to game.com, whose
+code is cached via AppCache, and loads GAL again. This time GAL knows it’s
+offline, looks up its manifest stored on the filesystem and doesn’t try to
+download new assets. The old assets still work though.</p>
+
+<p>Player is still offline, making good progress, and beats level 5, but
+there are no assets downloaded for level 6. Luckily, before starting
+each level, the game calls <code>gal.download('levelBundle')</code> to make sure
+that the contents of that bundle are downloaded. The callback returns an
+error and the game displays an error telling the player that he needs to
+be online to download the next level.</p>
+
+<p>So the player goes online and tries again. GAL re-downloads a manifest.
+Next, GAL tries re-downloading every asset that the JS requests. Luckily most
+of these assets are still in the browser cache, and won't be re-downloaded. The
+loader then saves all of the assets in the filesystem, clobbering old files
+indiscriminately. (This is bad, and needs to be fixed. Read on!)</p>
+
+<h1>Future work</h1>
+
+<p>In particular, re-downloading every asset while online is not desirable
+behavior, and we can't always rely on the browser cache for this. For
+smaller files, we can probably rely on ETag and Last-Modified headers
+and hopefully the browser won't re-download the files. However, the
+<strong>asset loader will still overwrite the asset in the filesystem, even if
+it's unmodified</strong>. This needs to be fixed. Large files are not likely to be
+cached by the browser, so we will need more intelligent <strong>caching built into
+the asset loader itself</strong>.</p>
+
+<p>There are other edge cases that need to be considered, such as what happens
+when an <strong>asset is removed from a manifest</strong>. Ideally if this occurs, it
+<strong>should also be removed from the filesystem</strong>, but this is not currently
+implemented.</p>
+
+<p>I'm happy to release the <a href="https://github.com/borismus/game-asset-loader">source</a> under the permissive Apache 2
+license and provide <a href="https://github.com/borismus/game-asset-loader/blob/master/tests/tests.js">unit tests</a> and a <a href="https://github.com/borismus/game-asset-loader/tree/master/tests/game">sample</a> project
+for your perusal. It's well documented and should be reasonably easy to
+understand. I've also made provisions to separate the core library
+interface from the Filesystem-based implementation, making it even
+easier to implement an Indexed DB adapter.</p>
+
+<p>Before I go, let me reiterate that this library isn't quite production ready,
+but a step in the right direction for facilitating real games on the web.
+Please comment below if you have feedback on the idea, or are using the
+library to write a game of your own!</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

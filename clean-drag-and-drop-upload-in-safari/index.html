@@ -1,0 +1,151 @@
+<!doctype html>
+<head>
+  <title>Clean drag and drop upload in Safari | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+Somehow I often find myself arguing in defense of the web browser as a
+viable platform for developing rich applications.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/clean-drag-and-drop-upload-in-safari">Clean drag and drop upload in Safari</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 15 February 2009</time>
+  
+  
+  </div>
+  <p>
+    <p>Somehow I often find myself arguing in defense of the web browser as a
+viable platform for developing rich applications. In many such
+discussions, the issue of interoperability with the desktop arises.
+Someone will astutely observe that they <strong>can't even drag and drop</strong>
+from their OS file manager into their browser, and all hell will break
+loose. </p>
+
+<p>Happily, this is changing! Since version 3, Safari on Mac OS X
+has had support for <a href="http://www.jakeri.net/2008/04/drag-and-drop-into-file-upload-in-safari/">dragging and dropping files</a> from the finder into
+file input boxes. In various kludgy ways, <a href="https://addons.mozilla.org/en-US/firefox/addon/2190">Firefox</a> and <a href="http://www.download.com/HTTP-File-Upload-ActiveX-Control/3000-2206_4-10451672.html">IE</a> are now
+following suite. </p>
+
+<p>Unfortunately, even in Safari, the default look of the
+<code>&lt;input type="file"&gt;</code> box is quite ugly and the element itself is
+<a href="http://www.quirksmode.org/dom/inputfile.html">difficult to style</a>. In addition, clicking anywhere in the file input
+element causes the default open file dialog to appear. I wanted to
+provide drag-and-drop uploading without ugly boxes or browser dialogs.
+The solution I came up with involves hiding the file upload box entirely
+by setting its opacity to 0, and then preventing the default action on
+click via <code>event.preventDefault()</code>. Here's a sample of what I mean, with
+the entire browser window <a href="drag-drop-upload.html">converted into a drag area</a>. </p>
+
+<p>Note that the drag area must be the first DOM element to receive the drop event
+for this approach to work. Unfortunately I ran into a bug where the file dialog
+refuses to bubble click events to other elements below it. This is baffling to
+me, since <code>event.preventDefault()</code> should not stop event propagation, but only
+prevent the default browser handler from being called. You can see what I mean
+by trying to click the link in the <a href="drag-drop-upload.html">sample HTML</a>
+file. If this is not a bug, and someone has an answer, I would really
+appreciate it.</p>
+
+<p>Note also that there are <a href="http://www.radinks.com/upload/">java applet</a>-based drag and drop solutions, but
+they are reserved for developers who have nothing but disdain for their users.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

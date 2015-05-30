@@ -1,0 +1,170 @@
+<!doctype html>
+<head>
+  <title>The (Sorry) State of HTML Mail | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+Web design used to be a black art.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/the-sorry-state-of-html-mail">The (Sorry) State of HTML Mail</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 31 October 2008</time>
+  
+  
+  </div>
+  <p>
+    <p>Web design used to be a black art. Ten years ago, browser differences used to
+be so dramatic that the only viable solution for an HTML designer was to fall
+back to the least common denominator for page layout, which was HTML tables. In
+today's web design community, using table layouts is considered to be a heinous
+crime, since most popular modern rendering engines (IE, Gecko and WebKit) are
+converging to some shared interpretation of web standards. Unlike layout
+engines on the web, though, rich mail interpreters have remained stagnant, and
+in some cases have regressed. <strike>Without pointing any fingers...</strike></p>
+
+<p>Much of the blame for this difference lies in Microsoft's decision to use the
+same engine for composing and viewing email in Outlook 2007. They wanted to
+make the life of email designers easier, or so the story goes. But since
+Internet Explorer doesn't have editing functionality, and Front Page is too
+heavy to embed, the remaining choice was Word '07. Unfortunately, Word's
+rendering engine is extremely limited, in the following notable ways:</p>
+
+<ol>
+<li>No positioning or floating elements, so CSS-based layouts are out</li>
+<li>No CSS backgrounds, combined with (1) means that there's no way to
+have an image background at all.</li>
+</ol>
+
+<p>So, if you care a significant population of email readers (7% use Outlook '07),
+and want to deliver a rich media email, you are condemned to designing with
+table layouts, or to skip HTML altogether, and simply use images. </p>
+
+<p>For a long time, there was no good way of determining a
+breakdown of email client usage. Recently, the good people at
+fingerprint have come up with a solution, and now use a large sample of
+people to determine global <a href="http://fingerprintapp.com/email-client-stats">email client usage statistics</a>. According
+to them, Hotmail, Yahoo Mail and Gmail add up to roughly 50% of all
+usage. </p>
+
+<p>Since the UI of a web-based email client is written in HTML, so it is critical
+for webmail developers to ensure that the CSS and HTML found in the email does
+not interfere with the global look and feel. The canonical solutions are to
+decorate all ids and classes in the email with some kind of prefix to ensure
+that there are no name collisions, and use a white list approach to CSS styles.
+These white lists are usually quite long, but lack some important and oft-used
+properties. For example, CSS image backgrounds are disallowed, except on Yahoo.
+And of course, Microsoft had to leave its bizarre mark too: Hotmail strips the
+margin-top property, but not the margin-bottom property. </p>
+
+<p>Historically,
+webmail clients used to ignore anything outside of the <code>&lt;body\&gt;</code> tag,
+which meant that all CSS had to be written inline, leading to
+unmaintainable layouts. In recent tests, however, popular webmail
+clients no longer ignore <code>&lt;style\&gt;</code> elements in the <code>&lt;head\&gt;</code>, and instead,
+apply the CSS sparingly inline. Among modern native mail clients, there
+is a positive trend as well. Microsoft Live Mail uses the IE7 rendering
+engine, Thunderbird uses Gecko and Mail.app uses WebKit. So it looks
+like there is light at the end of the tunnel for downtrodden HTML email
+designers. In the meantime though, I send them my deepest condolences.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

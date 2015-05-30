@@ -1,0 +1,240 @@
+<!doctype html>
+<head>
+  <title>Global Chrome Media Keys with Key Socket | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+
+I just skipped to the next Google Music track without leaving vim.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/chrome-media-keys-revisited">Global Chrome Media Keys with Key Socket</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 28 July 2011</time>
+  
+  
+  </div>
+  <p>
+    <p>I just skipped to the next Google Music track without leaving vim. Wanna play?
+Here's the <a href="https://github.com/downloads/borismus/keysocket/KeySocket.zip">app</a> and <a href="https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik">Chrome extension</a>. To learn how it works, read on!</p>
+
+<h2>Script injection limitations</h2>
+
+<p><a href="/chrome-media-keys">Last time around</a> I implemented keyboard bindings by injecting a content
+script into every tab in Chrome, capturing key events and sending them to a
+background page. This approach has some serious performance drawbacks:</p>
+
+<ul>
+<li>Content scripts injected into each page.</li>
+<li>Background pages don't perform very well.</li>
+</ul>
+
+<p>And functional limitations:</p>
+
+<ul>
+<li>Won't work on special URLs like <code>chrome://</code> and <code>file://</code>.</li>
+<li>Won't work when the omnibox is focused.</li>
+<li>Requires chrome to be in the foreground.</li>
+</ul>
+
+<h2>Global key bindings and websockets</h2>
+
+<p>What we really want is global key bindings. I don't care where my keyboard
+focus happens to be right now, I just want to switch to the next freaking song!
+This sort of thing requires OS-level event capture, which is functionality most
+browsers don't come with. To get around this, I run a standalone app to capture
+global keys and run a websocket server to send these events to the browser.
+Note that this approach generalizes well to other use cases where functionality
+is not available in a browser, but can be more readily implemented natively.</p>
+
+<p>The obvious drawback to this approach is that it requires the user to run a
+separate process to capture events.</p>
+
+<h2>Media key bindings in Cocoa and Python</h2>
+
+<p>Rogue Amoeba, maker of some popular OS X audio utilities, has a
+<a href="http://rogueamoeba.com/utm/2007/09/29/apple-keyboard-media-key-event-handling/">nice post</a> on their blog on capturing media keys from an OS X
+application. The basic idea is to subclass NSApplication and override the
+sendEvent: selector:</p>
+
+<pre><code>- (void)sendEvent: (NSEvent*)event {
+  if( [event type] == NSSystemDefined &amp;&amp; [event subtype] == 8 ) {
+      // Event processing
+  }
+  [super sendEvent: event];
+}
+</code></pre>
+
+<p>Which in PyObjC results in the following equivalent code:</p>
+
+<pre><code>def sendEvent_(self, event):
+    if event.type() is NSSystemDefined and event.subtype() is 8:
+        # Event processing
+
+    NSApplication.sendEvent_(self, event)
+</code></pre>
+
+<p>It's pretty neat to be able to implement Cocoa apps without having to write a
+single line of objective C. Writing a statusbar app with no dock item was
+surprisingly simple (though I have doubts that this works well for Lions and
+Tigers and Bears). All that's required is to set <code>LSUIElement</code> to <code>true</code> in the
+Info.plist.</p>
+
+<p>To package the whole PyObjC application, I wrote a setup.py script and used
+<a href="http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html">py2app</a>, which generates a Mac OS X .app bundle which, from a user's
+perspective is indistinguishable from an OS X app written in Objective C.</p>
+
+<h2>A WebSocket server in python</h2>
+
+<p>In addition to spawning off a Cocoa application and capturing events, of course
+I create a WebSocket server. WebSockets use a pretty simple protocol which can
+easily be implemented using python sockets. I based my implementation heavily
+on <a href="https://gist.github.com/512987">this one</a>.</p>
+
+<p>Since a Cocoa application runs its own event loop which captures the
+main thread, the websocket listener needs to run in a separate thread:</p>
+
+<pre><code>class KeySocketServer(Thread):
+    def __init__(self):
+        self.server = websocket.WebSocketServer('localhost', 1337, KeySocket)
+        Thread.__init__(self)
+
+    def run(self):
+        self.server.listen()
+</code></pre>
+
+<p>The WebSocket standards are still evolving and implementers are, as ever,
+scrambling to catch up. The good news is that this means
+<a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-06#section-4.6">binary support</a> is coming, which is a boon for games and other
+intensive network consumers. The bad news is that the latest Chrome canary (at
+the time of writing), requires the response to contain the
+<code>Sec-WebSocket-Accept</code> header, conforming to the
+<a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-06">draft-ietf-hybi-thewebsocketprotocol-06</a>, which is incompatible with
+the python WebSocket code I'm currently using.</p>
+
+<p>On my wishlist is a robus python WebSockets implementation that supports
+multiple versions of the spec while it's still in flux.</p>
+
+<h2>Injected scripts</h2>
+
+<p>On the Chrome extension side, a script is injected into the web player
+application, which creates a WebSocket client that connects to the python
+server on port 1337. When media keys are pressed, the python server sends
+messages to the JS clients and the injected JS simulates DOM events in the web
+player application, controlling music playback.</p>
+
+<h2>Try it out</h2>
+
+<p>If you listen to Google Music, thesixtyone or Grooveshark in Chrome on OS X and
+want global key bindings, please install the <a href="https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik">extension</a> and
+<a href="https://github.com/downloads/borismus/keysocket/KeySocket.zip">application</a>. If you're feeling generous, contribute your time and love!
+I'd gladly take fixes for</p>
+
+<ul>
+<li>Key Socket servers for Linux and Windows</li>
+<li>Content scripts to control other web audio players</li>
+<li>Web Socket implementations that work with the new spec</li>
+</ul>
+
+<p>And of course, here's the <a href="https://github.com/borismus/keysocket">source</a>.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

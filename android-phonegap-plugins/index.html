@@ -1,0 +1,250 @@
+<!doctype html>
+<head>
+  <title>WebIntent, an Android PhoneGap Plugin | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+[PhoneGap][] is a very useful cross-platform web application wrapper
+that lets developers package web applications into native apps.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/android-phonegap-plugins">WebIntent, an Android PhoneGap Plugin</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 25 November 2010</time>
+  
+  
+  </div>
+  <p>
+    <p><a href="http://phonegap.com/">PhoneGap</a> is a very useful cross-platform web application wrapper
+that lets developers package web applications into native apps. It also
+lets web apps access functionality traditionally only available in
+native apps. This how-to is about exposing additional Android
+functionality to the web with PhoneGap plugins. <a href="http://developer.android.com/reference/android/content/Intent.html">Intents</a> are a
+fundamental part of the Android ecosystem, allowing a sort of
+message-passing mechanism between applications, but they are not exposed
+to web applications. The sample Android plugin I wrote is called
+WebIntent, which lets you create a first class Android applications in
+JavaScript.</p>
+
+<h2>WebIntent</h2>
+
+<p>Firstly, the WebIntent plugin is a means of creating Android activities
+via Intents. With just four parameters, <code>action, url, type, extras</code>,
+it's possible to get a lot of mileage from the Android OS. For example,
+you can send email: </p>
+
+<pre><code>Android.sendEmail = function(subject, body) { 
+  var extras = {};
+  extras[WebIntent.EXTRA_SUBJECT] = subject;
+  extras[WebIntent.EXTRA_TEXT] = body;
+  window.plugins.webintent.startActivity({ 
+      action: WebIntent.ACTION_SEND,
+      type: 'text/plain', 
+      extras: extras 
+    }, 
+    function() {}, 
+    function() {
+      alert('Failed to send email via Android Intent');
+    }
+  ); 
+};
+</code></pre>
+
+<p>Or, you can load Google Maps: </p>
+
+<pre><code>Android.showMap = function (address) {
+  window.plugins.webintent.startActivity({
+    action: WebIntent.ACTION_VIEW,
+    url: 'geo:0,0?q=' + address,
+  }, function () {}, function () {
+    alert('Failed to open URL via Android Intent');
+  });
+};
+</code></pre>
+
+<p>Secondly, the plugin lets you react when your PhoneGap
+application gets invoked with certain intents. To do this, you need to
+setup correct intent-filters in the AndroidManifest.xml. For example, to
+respond to ACTION_SEND, something like the following should appear in
+the manifest: </p>
+
+<pre><code>&lt;intent-filter&gt; 
+  &lt;action android:name="android.intent.action.SEND" /&gt;
+  &lt;category android:name="android.intent.category.DEFAULT" /&gt;
+  &lt;data android:mimeType="text/plain" /&gt;
+&lt;/intent-filter&gt;
+</code></pre>
+
+<p>Then, in the JavaScript, you can check what extras were specified during
+invocation:</p>
+
+<pre><code>// deviceready is PhoneGap's init event
+document.addEventListener('deviceready', function () {
+  window.plugins.webintent.getExtra(WebIntent.EXTRA\_TEXT, function (url) {
+    // url is the value of EXTRA_TEXT 
+  }, function() {
+    // There was no extra supplied.
+  });
+});
+</code></pre>
+
+<p>This lets you respond to Intents without writing native code. The plugin
+code is available for your use and/or perusal on <a href="https://github.com/phonegap/phonegap-plugins/tree/master/Android/WebIntent/">my github</a>. To install
+the plugin, move <a href="https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/webintent.js">webintent.js</a> to your project's www folder and include a
+reference to it in your html files. Create a folder called "borismus" within
+your project's src/com/ folder and move <a href="https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/WebIntent.java">WebIntent.java</a> into it.  </p>
+
+<h2>Writing Android PhoneGap Plugins</h2>
+
+<p>The PhoneGap project provides a <a href="http://blogs.nitobi.com/joe/2009/12/17/introducing-ponygap-phonegap-plugins-for-android/">plugin architecture</a>, which isn't very
+well documented. Perhaps as a result, there are very few Android plugins
+(see <a href="https://github.com/phonegap/phonegap-plugins/tree/master/Android/">the github</a>). There are two parts of an Android plugin: a native
+Java class that extends <code>com.phonegap.api.Plugin</code>, and a JavaScript wrapper
+for that Java class. The JavaScript wrapper registers the plugin with the
+PhoneGap plugin manager. A plugin API is defined in JavaScript, and exposed
+via <code>window.plugins.myplugin</code>. Calling the API is done as follows: </p>
+
+<pre><code>window.plugins.webintent.foo({ arg1: 'val1', arg2: 'val2', // etc });
+</code></pre>
+
+<p>The plugin API is defined in the <code>MyPlugin</code> JavaScript class:</p>
+
+<pre><code>var MyPlugin = function () {};
+MyPlugin.prototype.foo = function (params, success, fail) {
+  return PhoneGap.exec(success, fail, 'MyPlugin', 'startActivity', [params]);
+};
+</code></pre>
+
+<p>The plugin needs to be registered with PhoneGap before it can be
+used. </p>
+
+<pre><code>PhoneGap.addConstructor(function () {
+  // Creates window.plugins.myplugin, an instance of MyPlugin
+  PhoneGap.addPlugin('myplugin', new MyPlugin()); 
+  // Binds MyPlugin to the Java class com.example.MyPlugin 
+  PluginManager.addService('MyPlugin', 'com.example.MyPlugin');
+});
+</code></pre>
+
+<p>Finally, there needs to be a Java class that actually implements the desired
+behavior. The execute method takes an action parameter, which is the name of
+the function (foo in this example), and an array of arguments: </p>
+
+<pre><code>public class MyPlugin extends Plugin {
+  public PluginResult execute(String
+  action, JSONArray args, String callbackId) {
+    if (action.equals("foo")) {
+      // Implementation 
+    }
+  }
+}
+</code></pre>
+
+<p>This architecture is the key to unlock any Android functionality to your
+PhoneGap-wrapped mobile web application. One of huge benefits of PhoneGap
+and mobile web is that it's a cross-platform solution. I admit that writing
+platform-specific plugins seems counter-productive to this end. However
+until the mobile web gets the love it deserves (via extra sweet mobile
+browsers), there will be a place for platform-specific PhoneGap plugins to
+make web applications fit better into native mobile platforms.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

@@ -1,0 +1,209 @@
+<!doctype html>
+<head>
+  <title>Crunching Numbers for the NHL Finals | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+
+Now that the Vancouver Canucks are in the NHL Finals, a special visit to
+Vancouver is in order.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/nhl-finals-numbers">Crunching Numbers for the NHL Finals</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 31 May 2011</time>
+  
+  
+  </div>
+  <p>
+    <p>Now that the Vancouver Canucks are in the NHL Finals, a special visit to
+Vancouver is in order. Unfortunately, the recently posted schedule really
+sucks. There’s just one weekend game, and the rest are spaced in such a way
+that I can only hope to see Game 5 (if it happens) and either Game 4 or Game 6
+(if it happens) if I manage to work from home half of the week. The question
+is: which game to choose? I want to be in Vancouver when the Canucks take the
+cup!</p>
+
+<h2>Yay math!</h2>
+
+<p>Being super nerdy, I decided to throw math at the problem. Brushing up on
+probability, I calculated the odds of a series ending at each game (4-7). For a
+series to end in game 4, one team has to win all four games. The odds of this,
+given a 50% chance for each team to win, is (1/2)^4. Since there are two teams,
+multiply by two, resulting in a 1/8 chance. You can do similar calcuations to
+get the following odds:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.125  0.25   0.3125 0.3125
+</code></pre>
+
+<p>Based on this distribution, it seems that game 6 is more likely to see the end
+of the series than game 4, but then I would risk missing a game 4 victory.
+<a href="http://www.ted.com/talks/arthur_benjamin_s_formula_for_changing_math_education.html">Arthur Benjamin</a> would be proud of me (unless my numbers are wrong).</p>
+
+<h2>A bit of history</h2>
+
+<p>Historical data tells a different story. As it turns out, the NHL is really
+old, dating back to 1927, but the league switched to best-of-7 scoring in 1939.
+Wikipedia has a great chronology of NHL playoffs, complete with scores and
+brackets.</p>
+
+<p>I analyzed series scores from all playoff games in the last 25 years (since
+1985) by fetching raw wikipedia articles via wget and running them through a
+[python script]. Older records can also be found on wikipedia, but they are
+buried inside other pages, in harder to parse formats.</p>
+
+<pre><code>for year in {1985..2011} do
+  wget -O ${year} "http://en.wikipedia.org/w/index.php?title=${year}_Stanley_Cup_playoffs&amp;action=raw"
+done
+</code></pre>
+
+<p>This yielded the following distribution for playoff games, based on 383
+matches:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.16   0.24   0.33   0.27
+</code></pre>
+
+<p>For finals games only, the distribution is more skewed, probably in part due to
+a shortage of data (just NN finals games from the wikipedia page), but finals
+game history is probably a better predictor for finals games than all playoffs
+games, so this is worthwhile:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.28   0.24   0.27   0.21
+</code></pre>
+
+<p>Here are all three distributions plotted in a graph:</p>
+
+<p><img src="nhl-series-odds.png" alt="graph" /></p>
+
+<h2>Analyzing...</h2>
+
+<p>The most striking thing about this graph is the huge difference between finals
+history and stats, especially in the 4 game series scenario. Perhaps some teams
+just buckle under the pressure, while their opponents remain steadfast. Or this
+is just a statistically insignificant fluke that can be attributed to having an
+insufficiently large sample of finals matches.</p>
+
+<p>As expected, the historical distributions are skewed toward the series
+finishing in Game 4 due to unequal strength between teams. In other words, if
+one team is stronger than another, then the odds of that team winning each game
+would be greater, making the series shorter on average.</p>
+
+<h2>Decision!</h2>
+
+<p>Armed with numbers, I can decide whether to pick Game 4 or Game 6. Here are the
+odds of seeing the Canucks (yeah yeah, maybe the Bruins) win in games 4 or 5,
+compared to 5 or 6, as calculated from each of the three methods:</p>
+
+<pre><code>         Game 4 or 5            Game 5 or 6
+Stats        38%                    58%
+Playoffs     40%                    57%
+Finals       52%                    51%
+</code></pre>
+
+<p>Interesting. Given how annoying it would be to miss a Game 4 victory and how
+favorable the finals history-based odds look, I’ll go for 4 and 5. Now to try
+to work from home, book flights and bask in Canuck glory!</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

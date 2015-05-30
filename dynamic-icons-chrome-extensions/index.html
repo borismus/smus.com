@@ -1,0 +1,245 @@
+<!doctype html>
+<head>
+  <title>Dynamic Chrome Extension Icons | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+
+Extension developers aren't given much freedom to modify Chrome's browser
+chrome.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/dynamic-icons-chrome-extensions">Dynamic Chrome Extension Icons</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 06 June 2011</time>
+  
+  
+  </div>
+  <p>
+    <p>Extension developers aren't given much freedom to modify Chrome's browser
+chrome. Without resorting to changing the page itself, or using the new devtools
+extension APIs, there are two main ways of doing this. <a href="http://code.google.com/chrome/extensions/pageAction.html">Page actions</a>, which
+reside in the omnibox, and <a href="http://code.google.com/chrome/extensions/browserAction.html">browser actions</a>, which are positioned to the
+right of the omnibox both of which are simple buttons with icons, click actions
+and hover states. Chrome conveniently <a href="http://code.google.com/chrome/extensions/browserAction.html#method-setIcon">provides an API</a> to dynamically change
+the icon of these buttons.</p>
+
+<p>You can do this by creating image data by hand or using the canvas API's
+<code>getImageData</code> function.:</p>
+
+<pre><code>var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+// ...draw to the canvas...
+var imageData = context.getImageData(0, 0, 19, 19);
+chrome.browserAction.setIcon({
+  imageData: imageData
+});
+</code></pre>
+
+<p>Note that this would be possible even without this chrome-specific API, by
+instead using <a href="http://en.wikipedia.org/wiki/Data_URI_scheme">data URIs</a> to set the image. There's a GMail <a href="http://googlesystem.blogspot.com/2011/01/dynamic-gmail-favicon.html">labs plugin</a>
+that does this to badge the favicon with the unread email count.</p>
+
+<p>What makes this an interesting design domain is the limitation of the medium.
+Limited real estate (browser actions at 19x19 px, page actions at 16x16 px) adds
+significant constraints. Still, one can show numbers, colors, small icons and
+graphs in this context, or even small amounts of text.</p>
+
+<h2>Applications of Dynamic Icons</h2>
+
+<p>There are extensions that use dynamic icons already, such as the
+<a href="https://chrome.google.com/webstore/detail/kpekpmmfocifmbnnoahnclccmjkckpcl">PageRank extension</a>, which effectively shows the Google PageRank for the
+current page right inside the browser action.</p>
+
+<p>Here are some other possibilities (not at all an exhaustive list):</p>
+
+<ul>
+<li>Create badges for page actions (which don't implement <code>setBadge*</code> calls).</li>
+<li>Icon of the weather forecast, click to toggle between days.</li>
+<li>Bandwidth meter: how large was the download of this page?</li>
+<li>A random profile pic of people that +1'ed the site.</li>
+</ul>
+
+<h2>The Smallest Music Visualizer</h2>
+
+<p>I wrote a sample extension to demonstrate the dynamic icon potential of Chrome
+extensions. This indispensible extension is a music visualizer that renders
+inside of a browser action button. I use the <a href="http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html">Web Audio API</a> to playback a
+song and analyse the audio stream, render the visualized audio spectrum with a
+canvas element and then transfer the resulting image data to the browser action
+icon.</p>
+
+<p><img src="music-vis.png" alt="screenshot" /></p>
+
+<p>Try out the <a href="https://chrome.google.com/webstore/detail/befnabfghcghgpmkjoalbecphdgdmick?hl=en">chrome extension</a> here, but note that it requires the Web Audio
+API flag to be enabled under about:flags (and a browser restart afterward).
+Check out and fork the <a href="https://github.com/borismus/Music-Visualizer-Chrome-Extension">source on github</a>.</p>
+
+<h2>Learnings</h2>
+
+<p>This music visualizer extension loads an mp3 file when the extension
+background page loads, which takes a certain amount of time. To provide a
+better user experience, I was hoping to change the icon to reflect that the
+file was being loaded, and ran into two issues.</p>
+
+<p>The first issue was that when I tried to render a small string like "wait" in
+the icon, I wanted to use a custom <code>@font-face</code> embedded font, which is now
+well supported in CSS3. You can load CSS fonts</p>
+
+<pre><code>@font-face {
+  font-family: "Silkscreen"
+  src: url(slkscr.ttf);
+}
+</code></pre>
+
+<p>and then use them in a canvas:</p>
+
+<pre><code>context.font = "8px Silkscreen";
+context.fillText('load');
+</code></pre>
+
+<p>When using custom fonts from HTML, the browser waits for the font to load, and
+then does a relayout. When using it from canvas, things get a bit tricky since
+the browser of course doesn't do font relayout for you and there's
+unfortunately no DOM event that fires when all embedded fonts finished loading.
+More precisely, onload behaviors differ from browser to browser. Mozilla waits
+for all fonts to load before firing the event, WebKit doesn't. You can work
+around this problem by assigning the custom font to a div, and observing the
+div's width, which will change when the font loads (<a href="https://github.com/paulirish/font-face-detect/blob/master/isFontLoaded.js">codified</a>).</p>
+
+<p>Although I ultimately didn't use this font to show loading state, I recommend
+checking out the <a href="http://kottke.org/plus/type/silkscreen/">silkscreen font</a> for 8-bit style designs that lend
+themselves well to small resolution envirnoments. You can fit about 3x3
+characters inside a 16x16 canvas:</p>
+
+<p><img src="silkscreen.png" alt="silkscreen" /></p>
+
+<p>To show that the extension is still loading, I went with a progress bar instead
+of a message. A second issue arose when I wanted to show the progress
+bar animating while the mp3 loads. Unfortunately the Web Audio API doesn't
+currently support asynchronous loading of files, so the UI thread gets blocked
+during the <code>audioContext.createBuffer</code> call of this code snippet:</p>
+
+<pre><code>var request = new XMLHttpRequest();
+request.onload = function() {
+  var audioBuffer = audioContext.createBuffer(request.response, false);
+}
+</code></pre>
+
+<p>Async loading of audio buffers is now a <a href="https://bugs.webkit.org/show_bug.cgi?id=61947">tracked issue</a> for you upvote in
+the webkit bug tracker. I thought of working around this with Web Workers, but
+gave up early because of difficulties with passing objects between worker
+threads, and no shared memory options that would let workers access the
+context of the main UI thread.</p>
+
+<p>Another interesting observation is that <code>requestAnimationFrame</code> does not work in
+a background page. I initially tried to use it to animate the music visualizer,
+but it didn't work. This is of course the API is designed to only callback when
+the calling page is in the foreground, and since the background page is never
+foregrounded, the callback never fires.</p>
+
+<p>That's it for me, now it's your turn! So, dearest reader, go forth and write
+some awesome Chrome extensions which tastefully use dynamic icons for page
+actions, browser actions, and favicons to make our browsing experience even
+better.</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

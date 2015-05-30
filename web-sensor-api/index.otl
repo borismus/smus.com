@@ -1,0 +1,81 @@
+Sensors are critical for mobile
+	Location (google maps)
+	Absolute heading (compass)
+	Video (snapchat)
+	Audio (sound recording)
+	Motion (activity recognition, games)
+Sensors enable all sorts of interesting, creative applications.
+	Cyclorama using vibrator and camera
+	Pushup rep-counter using proximity API
+	Cardboard button using magnetometer
+	More public examples...
+My angle
+	I've built a bunch of these applications.
+	I haven't been able to use the web.
+	Here's why, and how to fix it.
+Web sensor APIs are terrible
+	Problem 1: Lack of sensor APIs
+		Magnetometer?
+		Pressure?
+		Proximity? Light? List goes on.
+	Problem 2: Existing APIs are deliberately vague
+		Mid-level: don't map reliably to hardware, but also don't provide useful abstracions
+		Examples:
+			DeviceMotionEvent (maybe maps to accelerometer? or is it the GPS?)
+			DeviceOrientationEvent (maybe maps to gyroscope? maybe magnetometer?)
+		This problem is partly in Android too: devices vary in their sensor impls.
+Possible cause: W3C is doing it wrong
+	Is this really the group responsible for sensors?
+		: As defined in its charter, the mission of the Device APIs Working Group
+		: is to create client-side APIs that enable the development of Web
+		: Applications and Web Widgets that interact with devices services such as
+		: Calendar, Contacts, Camera, etc.
+			Not a single mention of sensors!
+	Each sensor does not need its own working group.
+		This does not scale.
+			Many sensors APIs are not implemented yet.
+			New ones may be coming and require standardization efforts.
+		The web standards process is too slow.
+		The web is not for innovation, but for standardization.
+		Don't invent shit, just steal the best ideas from existing work.
+Possible solution: low level generic sensor access.
+	http://dev.webinos.org/specifications/draft/sensors.html
+	Extensible web manifesto, biznitch!
+	iOS: CMLogItem
+		UIAccelerometer/UIAccelerometerDelegate
+		Introduced in iOS 5, replacing sensor-specific APIs
+			iOS went from specific to generic
+		Seems good, but focus on motion is a bit weird... Doesn't permit things like temperature, pressure.
+	Android: SensorEvent
+		Has been around for ages.
+		Nice abstraction for a bunch of sensor types.
+		Flexible model: even allows for multiple sensors of the same type.
+			You getDefaultSensor()
+	In general: sensor as a provider of a stream of data.
+	Requirements:
+		Feature detect for existence of sensors
+		Request stream of sensor data
+		Vary sensor data update frequency (sensor dependent)
+		Ideally: batch sensor access (like microphone), so you get multiple sensor values in one callback.
+			Nicer on the battery.
+			Android is getting this soon (L?)
+	Start a separate group to just push this API through.
+		Benefit: no need to wait for standardization every time a new kind of sensor comes.
+		Benefit: can move quickly, since relevant native platforms (iOS, Android, etc) already provide generic sensor APIs.
+	No permission issues to deal with, since these APIs are generally not priveleged in native platforms.
+	We already have an OK API for camera & microphone, but for good measure, this would be a natural place.
+Conclusion
+	The further we go down the mobile rabbit hole, the more crazy shit we're going to need.
+		Example: Cardboard/VR
+		I remember people scoffing at DPR saying why do we ever need DPR>2
+		If you have a display 5cm from your eye with a lens distorting pixels nearby, suddenly you need DPR=10
+		Extensible web!
+	Steal from other platforms.
+	Speed this process up
+	WebSensor API
+	Question: scope of WebSensor. Does it also provide raw audio & video? GPS?
+		My preference is yes, but this is lower priority.
+		Also problematic is that these sensors are sensitive from a privacy perspective, and should need elevated permissions.
+	Question: specificity of the spec.
+		Spec needs to be very specific about what the format is for all of the values.
+		And what the axes are.

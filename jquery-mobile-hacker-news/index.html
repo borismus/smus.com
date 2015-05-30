@@ -1,0 +1,217 @@
+<!doctype html>
+<head>
+  <title>jQuery Mobile Hacker News | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+I'm about to embark on a 3-week heads-down coding spree to finish off
+the final project of my masters.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/jquery-mobile-hacker-news">jQuery Mobile Hacker News</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 17 November 2010</time>
+  
+  
+  </div>
+  <p>
+    <p>I'm about to embark on a 3-week heads-down coding spree to finish off
+the final project of my masters. I convinced my team and our clients
+that it's a good idea to use jQuery Mobile instead of native Android to
+implement our data-centric application, so I've been playing with it
+quite a bit over the last week. jQM is still in Alpha 2, so to get my
+feet wet, I decided to write a demo app before starting the final
+project. After stumbling over a few kinks and rough edges, a weekend of
+coding yielded a <a href="/x/hackernews/">mobile Hacker News client</a>.</p>
+
+<p><img src="hackernews.png" alt="image" /></p>
+
+<h2>Loading JavaScript</h2>
+
+<p>jQuery Mobile is firmly rooted in the progressive enhancement philosophy
+of web application development. In practice, this means that the simple
+markup that you write in it is processed by the framework's JavaScript
+and transformed into much more complex and JS-enhanced markup. In
+particular, jQM rewrites <code>&lt;a href="page.html"&gt;&lt;/a&gt;</code> into an element that
+loads the contents of the page via an AJAX request. Unfortunately, CSS
+and JavaScript referenced by <code>page.html</code> is not loaded. </p>
+
+<p>To work around this, I've been using a makeshift JS loader which latches
+on to the jQM pageshow event so that whenever an HTML page loads, the
+corresponding JavaScript file also loads. To prevent the JS loader from
+loading already-loaded JavaScript whenever a page is reloaded, it
+employs a cache. Still, the JS needs to be triggered when the page is
+loaded, so there's a way to bind a page load to a function. Here's some
+sample usage of the ScriptCache:</p>
+
+<pre><code>// Create a new ScriptCache in the global scope
+var scriptCache = new ScriptCache();
+// Now when page.html loads, page.js will load
+
+// Also, each page can register with the scriptCache
+scriptCache.onPageLoad('page.html', pageInitFunction);
+
+// Each page.js looks like this:
+(function() {
+  var init = function() {...};
+
+  // Whenever this page is loaded, call init
+  scriptCache.onPageLoad('page.html', init);
+  // Call init the first time it's loaded too
+  init();
+})();
+</code></pre>
+
+<p>This approach was inspired by a discussion on the <a href="http://forum.jquery.com/topic/links-don-t-load-scripts">jQuery Forum</a>, and
+I really hope that there will be a better answer from readers or the jQM
+developers. The <a href="https://github.com/borismus/jQuery-Mobile-Hacker-News/blob/master/assets/www/scriptcache.js">ScriptCache loader is on github</a>.</p>
+
+<h2>Passing Parameters</h2>
+
+<p>Another issue I came across was parameter passing between pages. The jQM
+Hacker News client needs to pass item IDs from the main page listing to
+item pages. Unfortunately jQuery Mobile seems to have no provision for
+doing this. A couple approaches come to mind. One way is through a
+global variable parameter passing convention (possible since jQuery
+pages aren't navigated to, but loaded with AJAX). The way I'm using is
+through GET parameters after the hash. Thus the URL to an item page
+looks like this: http://example.com/index.html#item.html?id=82831.
+However, the pageshow event fires <em>just slightly</em> before the
+window.location is updated with the requested URL. I'm currently working
+around this with a <code>setTimeout</code>, but this is clearly unacceptable. This
+issue is being <a href="https://github.com/jquery/jquery-mobile/issues#issue/450/comment/543394">discussed on github</a>. </p>
+
+<p>There's also an issue passing parameters via the jQM changePage call:
+<code>$.mobile.changePage('page.html?key=value');</code>. The parameters are simply
+ignored. Thus I was forced to use <code>window.location.href +=
+'#page.html?key=value';</code>, which only works if your window.location.href
+is the main application page.</p>
+
+<h2>Hacker News</h2>
+
+<p>Using the workarounds outlined above, I wrote an application that lets
+you read and post to <a href="http://news.ycombinator.com">Hacker News</a>, a startup-oriented online
+community run by <a href="http://ycombinator.com">Y Combinator</a>. It uses the <a href="http://api.ihackernews.com">third party HN API</a>
+provided by <a href="http://twitter.com/ronnieroller">@ronnieroller</a>, who has been very responsive on twitter
+(thanks!). For fetching posts and comments, the application relies on
+the JSONP methods of this API. It doesn't currently permit authenticated
+posting and voting on HN. </p>
+
+<p>For commenting and submitting links, I embed actual Hacker News post
+pages in an iframe, working around the lack of support and avoiding
+trust issues. Unfortunately the <a href="http://code.google.com/p/android/issues/detail?id=12558">Android browser has a bug</a> which
+forces iframes to resize to the width of their contained textarea if one
+exists in the embedded page. This causes the width of the page to grow
+which forces jQuery Mobile to relayout. The reference implementation
+(iOS) does not suffer from this issue. </p>
+
+<p>I'd be glad to get your feedback on this app. If you want to read the
+code or fork the project, it's available <a href="https://github.com/borismus/jQuery-Mobile-Hacker-News/tree/master/assets/www/">on github</a>. </p>
+
+<p>I've packed this application with PhoneGap, and currently use it as the
+HN reader on my phone. Existing HN applications on Android don't provide
+share intent handlers (to share from the browser or your RSS reader).
+This app provides share intent handling through WebIntents, an Android
+PhoneGap plugin that I've been working on. More on that next post, so
+stay tuned!</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

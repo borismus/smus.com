@@ -1,0 +1,161 @@
+<!doctype html>
+<head>
+  <title>Robotic Piano Playback | Boris Smus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="
+
+After several weeks of casual spare-time research and implementation,
+I've finally built a fully working piano playback robot.">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|PT+Sans|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8">
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+  <header>
+    <span class="left">
+      <a href="/" class="name">Boris Smus</a>
+    </span>
+    <span class="right">
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+      <a href="/archive/posts/">Archives</a>
+    </span>
+  </header>
+
+  <div id="main">
+    <section id="articles">
+      
+<article>
+  <h1><a href="/robotic-piano-playback">Robotic Piano Playback</a></h1>
+  <div class="subtitle">
+  
+  <time>Published on 15 November 2008</time>
+  
+  
+  </div>
+  <p>
+    <p>After several weeks of casual spare-time research and implementation,
+I've finally built a fully working piano playback robot. The usage is
+simple: someone plays or sings an arbitrary monophonic melody, and the
+robot, parked on a piano bench, will play it back.</p>
+
+<iframe class="youtube-16x9" title="YouTube video player"
+  src="http://www.youtube.com/embed/Bo0eCSkjy-0" frameborder="0"
+  allowfullscreen></iframe>
+
+<p>The physical construction of the robot is very simple: it consists of a car
+with a crane-like arm mounted on it. The arm is used to push down and release a
+single piano key. On either end of the car, there are sensors which detect if
+the robot has come too close to the edges of the piano bench. The simplicity of
+the robot comes at the price of significant limitations, such as only being
+able to play back melodies on the white keys. </p>
+
+<p>Software is the challenging part of the project. The Mindstorms sound sensor is
+too primitive to use for pitch analysis. Without hacking it, you can only
+extract the amplitude of the sound signal, not any frequency details.  Instead
+of the NXT sound sensor, I use a macbook pro and it's built-in microphone. A
+computer separate from the NXT is involved, so an additional set of
+communication problems arose. </p>
+
+<p>Here's a rough outline of happens to make the playback work, from capturing the
+melody line to playing the melody back.</p>
+
+<ol>
+<li>On the mac, using a <a href="http://appscript.sourceforge.net/">Python AppleScript bridge</a>, the QuickTime
+Player is invoked and starts capturing audio.</li>
+<li>Once the audio is captured into an AIFF file, a very useful 
+<a href="http://aubio.org/">pitch detection library</a> called aubio processes the audio file and
+extracts raw frequency-to-time data, sampled at some tick rate.
+Compiling this library on OS X was quite a feat!</li>
+<li>Next, the raw data is processed by throwing out extraneous values
+and extracting a melody</li>
+<li>Once we have the melody line, we inject it into <a href="http://bricxcc.sourceforge.net/nbc/">an NXC program</a>,
+and compile it with the nbc compiler</li>
+<li>This program is then sent via bluetooth to the robot via nxtcom</li>
+<li>Using <a href="http://home.comcast.net/~dplau/nxt_python/">NXT_Python</a> and <a href="http://www.cs.wlu.edu/~levy/software/nxt_lightblue_glue/">Lightblue Glue</a>, the robot is told to
+execute the program.</li>
+</ol>
+
+<p>Please let me know if you have any questions or suggestions!</p>
+
+  </p>
+
+  <!--
+  DISABLED COMMENTS.
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'smus'; // Required - Replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  -->
+</article>
+
+    </section>
+    <aside>
+      <img src="/static/images/me.jpg" alt="Headshot of Author" title="Headshot of Author">
+      <p>
+        I'm Boris Smus, a software engineer and UI prototyper from
+        Vancouver, Canada. I currently live in San Francisco and work on
+        Chrome related things.
+        <a href="/about/" class="readmore"></a>
+      </p>
+    </aside>
+  </div>
+
+  <div id="push"></div>
+
+  <footer>
+    <p>
+      &copy; 2008 - 2015 Boris Smus<br>
+      Powered by <a href="/site/">Lightning</a>
+    </p>
+
+    <ul id="social-links">
+      <a href="http://feeds.feedburner.com/smuscom" class="social rss" title="RSS" rel="external me">RSS</a>
+      <a href="https://github.com/borismus" class="social github" title="GitHub" rel="external me">GitHub</a>
+      <a href="https://profiles.google.com/boris.smus" rel="author" class="social plus" title="Google Plus" rel="external me">Google Plus</a>
+      <a href="https://twitter.com/borismus" class="social twitter" title="Twitter" rel="external me">Twitter</a>
+    </ul>
+  </footer>
+
+
+  <script src="/static/javascripts/highlight.pack.js"></script>
+  <script>
+    // Syntax highlighting for code.
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    // Google Analytics.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17930798-22', 'smus.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+  <script src="/lightning_error.js"></script>
+</body>

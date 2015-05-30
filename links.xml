@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:lang="en"
+      xml:base="http://smus.com">
+  <title>Boris Smus | Links</title>
+  <link href="http://smus.com/atom.xml" rel="self"/>
+  <link href="http://smus.com"/>
+  <updated>2015-05-30T16:21:20-00:00</updated>
+  <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Complementary modes of sound and vision</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2014/9/8/complementary-modes-of-sound-and-vision"/>
+    
+    <updated>2014-09-08T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2014/9/8/complementary-modes-of-sound-and-vision</id>
+    <content type="html">
+      <div>
+        <p>On the bus-ride home, I'm was reading a paper from 1989, written by Bill Gaver at Apple, after working on SonicFinder, a very early version of Finder with copious amounts of user interface sounds.</p>
+
+<p>To motivate the application of sounds in user interfaces, he presents this gem of a table on audition and vision, and how they relate to our perception of time and space:</p>
+
+<p><img src="/link/2014/9/8/complementary-modes-of-sound-and-vision/timespace-soundvision.jpg" alt="Sound and vision, in time and space" /></p>
+
+
+        
+        <p><a href="http://sonify.psych.gatech.edu/~ben/references/gaver_the_sonicfinder_an_interface_that_uses_auditory_icons.pdf">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>On Rhythm and Pitch</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2014/9/6/on-rhythm-and-pitch"/>
+    
+    <updated>2014-09-06T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2014/9/6/on-rhythm-and-pitch</id>
+    <content type="html">
+      <div>
+        <p>Dan Tepfer on the interesting relationship between rhythm and pitch, at first glance completely distinct musical phenomena. The fascinating thing is that the two are actually quite related. Fundamentally, it's a question of frequency. Slow repetition (low frequency) is perceived as rhythm, while fast repetition (high frequency) is perceived as pitch, by apparently distinct subsystems. Quoth Dan:</p>
+
+<blockquote>
+  <p>For slow things, our consciousness distinguishes individual events and interprets them as what we call “rhythm”, such as the child tapping on her knees. For very fast things (like when the taps get very close together), our consciousness isn’t fast enough to distinguish the individual events, and our pitch hearing kicks in, guided by those tiny hairs in our cochlea, each one specialized in resonating at a certain pitch.</p>
+</blockquote>
+
+
+        
+        <p><a href="http://dantepfer.com/blog/?p=277">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The Loudness War is Real</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/9/26/the-loudness-war-is-real"/>
+    
+    <updated>2013-09-26T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/9/26/the-loudness-war-is-real</id>
+    <content type="html">
+      <div>
+        <p>By amping up the softest instances of a song to make them closer in volume to the loudest instances, you can create the perception of loudness. This process is called dynamic range compression and is routinely done (and over-done) by recording engineers to create ever-louder music, colloquially referred to as "The Loudness War". </p>
+
+<p>At first glance, this may sound like a theory devised by a crotchety old man in a rocking chair yelling at his loud teenaged neighbors to "turn the goddamned music down!" but The Echo Nest just proved that it's actually a thing.</p>
+
+<p><img src="http://i.imgur.com/ONDaOTu.png" alt="Loudness average of the top 5000 hottest songs by year of release" /></p>
+
+
+        
+        <p><a href="http://blog.echonest.com/post/62248127937/the-loudness-war-is-real-and-we-can-prove-it-with">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Frequency Modulation with Web Audio API</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/9/7/frequency-modulation-with-web-audio-api"/>
+    
+    <updated>2013-09-07T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/9/7/frequency-modulation-with-web-audio-api</id>
+    <content type="html">
+      <div>
+        <p>Definitely take a look at Gaëtan Renaudeau's excellent introduction to frequency modulation as illustrated through the Web Audio API.</p>
+
+
+        
+        <p><a href="http://greweb.me/2013/08/FM-audio-api/">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>A distraction-free smart phone</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/8/29/a-distraction-free-smart-phone"/>
+    
+    <updated>2013-08-29T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/8/29/a-distraction-free-smart-phone</id>
+    <content type="html">
+      <div>
+        <p><a href="https://twitter.com/jakek">Jake</a> used to get easily distracted by his smartphone:</p>
+
+<blockquote>
+  <p>Maybe you can handle that temptation. Maybe you've got willpower. That's great for you, but for me, willpower alone didn't cut it. [...]
+  Checking email, checking Twitter, checking news. Wondering if something interesting was happening anywhere in the world. Wondering if anybody was thinking about me.</p>
+</blockquote>
+
+<p>Jake fixed his problem by doing three simple things:</p>
+
+<ol>
+<li>Remove apps with a stream.</li>
+<li>Disable email.</li>
+<li>Disable the web browser.</li>
+</ol>
+
+<p>I have the same problem. How about you?</p>
+
+
+        
+        <p><a href="https://medium.com/life-hacks/80f8d525b0d8">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Bret Victor's Future of Programming Predictions</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/7/30/bret-victor-s-future-of-programming-predictions"/>
+    
+    <updated>2013-07-30T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/7/30/bret-victor-s-future-of-programming-predictions</id>
+    <content type="html">
+      <div>
+        <p>Another great performance from Bret Victor (circa 1973). Firstly, this
+is probably the most succinct but complete argument for why Java should
+not be the primary focus for undergrad Computer Science programs.</p>
+
+<p>About two years ago, Alan Kay said that "the best way to predict the
+future is to invent it". This talk is a great reminder that even
+inventing a possible future, you're likely to be way off.</p>
+
+
+        
+        <p><a href="https://vimeo.com/71278954">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Not Terrible JavaScript Modules</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/7/24/not-terrible-javascript-modules"/>
+    
+    <updated>2013-07-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/7/24/not-terrible-javascript-modules</id>
+    <content type="html">
+      <div>
+        <p><a href="https://github.com/substack/node-browserify">Browserify</a> lets you use node-style module definitions for JavaScript running in the browser. I tried it for a previous project, but at the time it required a node web server to use it.</p>
+
+<p>Looking again for a sane module and dependency solution for one of my current projects, I've found that browserify can now be invoked from the command line:</p>
+
+<pre><code>browserify main.js -o bundle.js
+</code></pre>
+
+<p>With just a few exports and inline dependency requirements, you get modules for JavaScript with reasonable syntax (unlike <a href="http://addyosmani.com/writing-modular-js/">AMD</a>).</p>
+
+<p><a href="http://engineering.yp.com/post/browserify">This blog post</a> gives a pretty good idea of how to create modules and require them. I'll be using it for my next web project.</p>
+
+
+        
+        <p><a href="https://github.com/substack/node-browserify">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Web Apps Position Paper</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2013/7/17/web-apps-position-paper"/>
+    
+    <updated>2013-07-17T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2013/7/17/web-apps-position-paper</id>
+    <content type="html">
+      <div>
+        <p>Read Scott Jenson's webapp UX paper. First part goes into a native app replacement, along the lines of <a href="http://smus.com/installable-webapps/">my previous blog post</a>. </p>
+
+<p>Next, a plea for an open web integrated wireless discovery service, ideally supporting multiple protocols including Bluetooth Low Energy. Fundamentally,</p>
+
+<blockquote>
+  <p>This ability to 'summon' a web page without typing anything at all needs to be explored in future W3C standards and not be left solely to handset makers. </p>
+</blockquote>
+
+<p>Lastly, with some cross-device link in place, we can enter a world of multi-device interactions, which is, in my opinion, the key UX area to streamline in the near future.</p>
+
+
+        
+        <p><a href="https://docs.google.com/document/d/1wcXubh-yUtViwtUG4o43v3jeO6P1T63EWTh4iw2iHy8/edit">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>High DPI images article</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/8/22/high-dpi-images"/>
+    
+    <updated>2012-08-22T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/8/22/high-dpi-images</id>
+    <content type="html">
+      <div>
+        <p>My <a href="http://www.html5rocks.com/en/mobile/high-dpi/">article on high DPI images</a> went up on <a href="http://www.html5rocks.com/">HTML5Rocks</a>
+this morning. In it, I outline techniques for delivering the best
+quality images as quickly and efficiently as possible. I'm most excited
+about the new platform features that help developers reach this goal:</p>
+
+<ul>
+<li>The CSS function <code>image-set</code> is already available in WebKit. Read <a href="http://dev.w3.org/csswg/css4-images/#image-set-notation">the
+spec</a> to learn more.</li>
+<li>The new <code>&lt;img&gt;</code> attribute <code>srcset</code> isn't implemented anywhere yet, but
+is available <a href="https://github.com/borismus/srcset-polyfill/">via polyfill</a>. Read <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-srcset">the spec</a>
+to learn more.</li>
+</ul>
+
+<p>These new features are very similar to one another, but have subtly
+different syntax. See <a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0604.html">this thread</a> to <code>www-style</code> and <code>whatwg</code>
+for an deep dive into these differences and an attempt to fix some
+problems in the spec.</p>
+
+
+        
+        <p><a href="http://www.html5rocks.com/en/mobile/high-dpi/">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Lightning</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/5/11/lightning"/>
+    
+    <updated>2012-05-11T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/5/11/lightning</id>
+    <content type="html">
+      <div>
+        <p>This site is powered by Lightning, a static blogging engine with a few
+features I wanted but couldn't find in other similar projects:</p>
+
+<ul>
+<li>Incremental builds.</li>
+<li>Logical placement of article-specific assets.</li>
+<li>Fully decoupled content from output.</li>
+</ul>
+
+<p>Today I packed it up into a consumable codebase. Unfortunately I haven't
+had time for unit tests, so YMMV. Usage instructions and repository is
+<a href="https://github.com/borismus/lightning">on github</a>.</p>
+
+
+        
+        <p><a href="https://github.com/borismus/lightning">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Building cross-device webapps</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/4/24/cross-device"/>
+    
+    <updated>2012-04-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/4/24/cross-device</id>
+    <content type="html">
+      <div>
+        <p>I wrote an <a href="http://www.html5rocks.com/">HTML5Rocks</a> article about <a href="http://www.html5rocks.com/mobile/cross-device">building cross-device
+webapps</a>. The gist of the approach is to use client-side
+feature detection using <a href="https://github.com/borismus/device.js">device.js</a>, and then switch to server side UA
+detection if performance becomes an issue.</p>
+
+
+        
+        <p><a href="http://www.html5rocks.com/mobile/cross-device">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Open by default</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/4/16/by-default"/>
+    
+    <updated>2012-04-16T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/4/16/by-default</id>
+    <content type="html">
+      <div>
+        <p>The web used to be "open by default". The key property that enabled
+google in the 90's was that generally speaking, web content could be
+read by machines. This was the default state -- developers didn't need
+to do anything to make it happen.</p>
+
+<p>Since then, we have moved from a declarative web to an imperative one,
+where the web has evolved into a ubiquitous developer platform. Combine
+this with the definite trend toward personalization - many companies
+providing interesting content only behind ACL, only visible when logged
+in - and you have the modern web.</p>
+
+<p>As the web grows in complexity, JS-rich content gets harder and harder
+to crawl, and prohibitively hard for anyone that's not a search engine.
+In this world, what enables innovation for the little guys are APIs. The
+problem with these, however is that they require work for the API
+providers to implement. So the web is now largely "closed by default".</p>
+
+<p>I'd love to bring us back to the "open by default" web, while retaining
+the user experience benefits of thick clients. Ideas welcome :)</p>
+
+<p>Inspired by Sergey Brin's <a href="http://www.guardian.co.uk/technology/2012/apr/15/web-freedom-threat-google-brin">Guardian
+interview</a>.</p>
+
+
+        
+        <p><a href="http://www.guardian.co.uk/technology/2012/apr/15/web-freedom-threat-google-brin">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Projects at X</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/4/4/projects-at-x"/>
+    
+    <updated>2012-04-04T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/4/4/projects-at-x</id>
+    <content type="html">
+      <div>
+        <blockquote>
+  <p>These past couple weeks, there have been a few videos released from
+  the group I work in at Google. Congratulations to the many people in X
+  who's hard work has gone into each of these.</p>
+</blockquote>
+
+<p>Google X released a few concept videos of projects in their pipeline.
+Very exciting stuff to see this great work slowly trickle out to the
+public.</p>
+
+
+        
+        <p><a href="http://procrastineering.blogspot.com/2012/04/projects-at-google-x.html">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Monoculture for a Reason</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/link/2012/2/21/monoculture-for-a-reason"/>
+    
+    <updated>2012-02-21T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/link/2012/2/21/monoculture-for-a-reason</id>
+    <content type="html">
+      <div>
+        <blockquote>
+  <p>Anyone who’s worried about “WebKit monoculture” should write or publish
+  articles about mobile web design that don’t feature the iPhone at all.
+  If you don’t, I’m sorry to say, you’re part of the problem. — PPK</p>
+</blockquote>
+
+<p>This "iPhone monoculture" exists for a reason. MobileSafari has been the
+best browser for a long time on one of the most widely used mobile
+platforms. The way to solve this problem (if it is a problem at all) is
+by building mobile browsers that can compete on features, not through
+artificial boycotts!</p>
+
+
+        
+        <p><a href="http://www.quirksmode.org/blog/archives/2012/02/the_iphone_mono.html">Permalink ∞</a></p>
+        
+      </div>
+    </content>
+  </entry>
+  
+</feed>
