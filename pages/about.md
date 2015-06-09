@@ -1,31 +1,52 @@
 About the author
 ================
 
-Hey! I'm most passionate about creating useful, enjoyable user
-interfaces (in the broadest sense of the word), especially at the cusp
-of hardware and software. In my projects, I tend to gravitate to web
-technologies because of the flexibility of the platform.
+<img id='image-me' src='/static/images/stipple.png'/>
 
-I'm currently employed as a software engineer working on emerging user
-interfaces at Google Research. Prior to that I was on the Chrome
-developer relations team, doing my part to bring more awesomeness to the
-modern web platform.
+Hello from the west coast!
 
-Before Google, I was a graduate student at Carnegie Mellon University,
-where I focused on wearable and social computing research. Prior to
-that, I worked at Apple for two years, contributing to iWeb, iWork and
-iWork.com.
+My passion is to invent and build enjoyable, useful, and novel user
+interfaces at the cusp of hardware and software. I am a proficient
+front-end and mobile engineer with experience leading teams. In my
+projects, I tend to gravitate to web technologies because of the
+flexibility of the web platform. My professional interests include
+education, audio and music, sensors and interaction design.
 
-For a more detailed chronicle, here is my [resume][].
+My job at Google is a mix of software engineering and user experience
+prototyping. I have had the good fortune to help launch [Google
+Cardboard][cardboard] [Google Tone][tone], and build many other exciting
+products with a small, fast moving team.
 
-[resume]: /resume
+[cardboard]: http://g.co/cardboard
+[tone]: http://g.co/tone
 
-## Contact
+At my previous job as an engineer on the Chrome developer relations team
+we pushed the limits of the modern web platform and educated web
+developers. I helped launch [Chrome for Android][chrome], [wrote
+articles][h5r] and released open source libraries and samples. I also
+authored a short [book on the Web Audio API][book].
 
-If you want to leave a brief, public note, please tweet at me via
-[@borismus][tw]. If your thoughts are long and/or secretive, I can be
-contacted by email via boris at this domain.
+[chrome]: https://play.google.com/store/apps/details?id=com.android.chrome&hl=en
+[h5r]: http://www.html5rocks.com/
+[book]: http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684
 
-Thanks for visiting!
+Before Google, I was a graduate student at [Carnegie Mellon][cmu], where
+I focused on social and [wearable computing research][research] and
+built [CrowdForge][crowdforge], a system for crowdsourcing complex
+tasks. Prior to that, I worked at Apple for two years, contributing to
+iWeb, iWork and helping start [iWork.com][iwork].
 
-[tw]: http://twitter.com/borismus
+[cmu]: http://www.hcii.cmu.edu/academics/mhci
+[research]: https://scholar.google.com/citations?user=bIgFmUwAAAAJ
+[crowdforge]: http://crowdforge.com/
+[iwork]: https://www.apple.com/iwork-for-icloud/
+
+I am Canadian. I studied Mathematics and Computer Science at the
+[University of British Columbia][ubc], and spent my formative years in
+Vancouver, Canada and consider it my second home.
+
+[ubc]: https://www.cs.ubc.ca/
+
+- Email: [boris@smus.com](mailto:boris@smus.com)
+- Twitter: [@borismus](http://twitter.com/borismus)
+- GitHub: [@borismus](http://github.com/borismus)

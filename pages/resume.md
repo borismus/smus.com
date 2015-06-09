@@ -105,10 +105,19 @@ Resume
 
 **Patents**
 
--   5+ at Google.
+- 20+ pending at Google.
 
--   Bultrowicz, M., Smus, B. Shared Comments for Online Document
-    Collaboration, Apple Inc (2009)
+- Smus, B. Automatically switching between input modes for a user
+  interface (US9026939)
+
+- Smus, B. Automatic device login based on wearable sensor fusion,
+  Google Inc (US 8928587)
+
+- Smus, B. Keyboard event detection and network event generation, Google
+  Inc (US 8803808)
+
+- Bultrowicz, M., Smus, B. Shared Comments for Online Document
+  Collaboration, Apple Inc (US 8803808)
 
 [Google]: http://www.google.com
 [Apple]: http://www.apple.com

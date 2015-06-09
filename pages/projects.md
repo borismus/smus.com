@@ -1,7 +1,7 @@
 Projects
 ========
 list:
-type: image_index
+type: index
 filter: project
 limit: 1000
 
