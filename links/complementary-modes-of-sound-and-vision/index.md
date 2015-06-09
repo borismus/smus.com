@@ -7,4 +7,4 @@ On the bus-ride home, I'm was reading a paper from 1989, written by Bill Gaver a
 
 To motivate the application of sounds in user interfaces, he presents this gem of a table on audition and vision, and how they relate to our perception of time and space:
 
-![Sound and vision, in time and space](http://i.imgur.com/4owBkW7.png)
+![Sound and vision, in time and space](timespace-soundvision.jpg)
