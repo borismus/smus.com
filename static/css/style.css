@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #fff0b9;
+}
+
+/* Header styles */
+header {
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 1.25rem 1.5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+header #title h1 {
+  font-size: 36px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: 1px solid transparent;
+}
+
+header #title h1:hover {
+  border-bottom: 1px solid darkseagreen;
+}
+
+header #title h2 {
+  font-size: 17px;
+  color: darkgray;
+  letter-spacing: 0.6px;
+}
+
+header nav a.active {
+  border-bottom: 1px solid darkseagreen;
+  font-weight: bold;
+}
+
+header nav a {
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 20px;
+  /*
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  */
+}
+
+header nav a:hover {
+  border-bottom: 1px solid darkseagreen;
+}
+
+header nav a:last-child { margin-right: 0; }
+
+/* Body styles */
+section#main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  width: 700px;
+  font-family: 'Halant', serif;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
+
+article a {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+article a:hover {
+  color: forestgreen;
+}
+
+article img {
+  width: 100%;
+}
+
+article h1.title {
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+article:first-child h1.title {
+  margin-top: 1rem;
+}
+
+article h1.title:hover {
+  color: forestgreen;
+}
+
+article h1, article h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+}
+
+article p {
+  letter-spacing: 0.15px;
+  margin: 1rem 0;
+}
+
+article pre {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 1rem;
+  padding: 1rem;
+  background: #ffe;
+  border-radius: 1rem;
+  border: 1px solid #eed;
+  overflow: scroll;
+}
+
+article code {
+  font-family: 'Inconsolata', monospace;
+}
+
+article ul, article ol {
+  margin-left: 1.5rem;
+}
+
+article time.published {
+  display: block;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(0,0,0,0.5);
+}
+
+article .tombstone {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 1.5rem;
+  float: right;
+  font-size: 3rem;
+}
+
+article .readmore {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  float: right;
+  text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 1rem;
+  color: darkgreen;
+  margin-top: 5rem;
+}
+
+footer nav a {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: darkgreen;
+  border-bottom: 1px solid transparent;
+}
+footer nav a:hover {
+  border-bottom: 1px solid darkseagreen;
+}
+
+footer nav a:last-child { margin-right: 0; }
+
+/* Masonry.js related styles */
+section#gallery {
+  margin: 2rem auto;
+}
+
+section#gallery:after {
+  clear: both;
+  content: '';
+}
+
+section#gallery .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Dosis', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: green;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.1);
+}
+
+section#gallery .item a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: green;
+
+  background-position: center;
+  transition: transform 0.2s ease-in, -webkit-filter 0.2s ease-in;
+  transform: scale(1);
+  -webkit-filter: brightness(100%);
+}
+
+section#gallery .item:hover a {
+  transform: scale(1.04);
+  -webkit-filter: brightness(50%);
+}
+
+section#gallery .item label {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+}
+
+section#gallery .item:hover label {
+  opacity: 1;
+}
+
+section#gallery .item time {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+section#gallery .item:hover time {
+  opacity: 1;
+}
+
+section#gallery .item.sample {
+  width: 320px;
+  height: 240px;
+}
+
+/* About section image. */
+#image-me {
+  opacity: 0.1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: inherit;
+}
+
+/* Archives section */
+section#archives ol {
+  width: 700px;
+  margin: 2rem auto;
+  font-family: 'Halant', serif;
+  font-size: 1.5rem;
+}
+
+section#archives li {
+  list-style-type: none;
+  clear: both;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+section#archives li:last-child {
+  border-bottom: 0;
+}
+
+section#archives a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+
+section#archives .title {
+  display: inline-block;
+  line-height: 1.2;
+  margin-right: 6rem;
+}
+
+section#archives a:hover .title {
+  color: darkseagreen;
+}
+
+section#archives time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Media queries to make the page responsive */
+@media screen and (max-width: 720px) {
+
+  /* Make the nav vertical */
+  header nav a {
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  header, footer {
+    padding: 1rem;
+  }
+
+  article {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  article h1.title {
+    font-size: 2rem;
+  }
+
+  section#archives ol {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+
+}

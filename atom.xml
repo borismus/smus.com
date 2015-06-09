@@ -5,11 +5,11 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2015-05-30T16:21:20-00:00</updated>
+  <updated>2015-06-09T12:34:19-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
-    <title>Spatial Audio and Web VR</title>
+    <title>Spatial audio and web VR</title>
     <author><name>Boris Smus</name></author>
     <link href="/spatial-audio-web-vr"/>
     
@@ -204,7 +204,7 @@ haircut simulation</a> just to illustrate the potential.</li>
   </entry>
   
   <entry>
-    <title>Responsive WebVR, Headset Optional</title>
+    <title>Responsive WebVR, headset optional</title>
     <author><name>Boris Smus</name></author>
     <link href="/responsive-vr"/>
     
@@ -342,7 +342,7 @@ out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerpl
   </entry>
   
   <entry>
-    <title>Web Sensor API: Raw and Uncut</title>
+    <title>Web Sensor API: raw and uncut</title>
     <author><name>Boris Smus</name></author>
     <link href="/web-sensor-api"/>
     
@@ -587,7 +587,7 @@ Join us!</em></p>
   </entry>
   
   <entry>
-    <title>UIST 2014 Highlights</title>
+    <title>UIST 2014 highlights</title>
     <author><name>Boris Smus</name></author>
     <link href="/uist-2014"/>
     
@@ -775,98 +775,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
   </entry>
   
   <entry>
-    <title>Complementary modes of sound and vision</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2014/9/8/complementary-modes-of-sound-and-vision"/>
-    
-    <updated>2014-09-08T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2014/9/8/complementary-modes-of-sound-and-vision</id>
-    <content type="html">
-      <div>
-        <p>On the bus-ride home, I'm was reading a paper from 1989, written by Bill Gaver at Apple, after working on SonicFinder, a very early version of Finder with copious amounts of user interface sounds.</p>
-
-<p>To motivate the application of sounds in user interfaces, he presents this gem of a table on audition and vision, and how they relate to our perception of time and space:</p>
-
-<p><img src="/link/2014/9/8/complementary-modes-of-sound-and-vision/timespace-soundvision.jpg" alt="Sound and vision, in time and space" /></p>
-
-
-        
-        <p><a href="http://sonify.psych.gatech.edu/~ben/references/gaver_the_sonicfinder_an_interface_that_uses_auditory_icons.pdf">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>On Rhythm and Pitch</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2014/9/6/on-rhythm-and-pitch"/>
-    
-    <updated>2014-09-06T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2014/9/6/on-rhythm-and-pitch</id>
-    <content type="html">
-      <div>
-        <p>Dan Tepfer on the interesting relationship between rhythm and pitch, at first glance completely distinct musical phenomena. The fascinating thing is that the two are actually quite related. Fundamentally, it's a question of frequency. Slow repetition (low frequency) is perceived as rhythm, while fast repetition (high frequency) is perceived as pitch, by apparently distinct subsystems. Quoth Dan:</p>
-
-<blockquote>
-  <p>For slow things, our consciousness distinguishes individual events and interprets them as what we call “rhythm”, such as the child tapping on her knees. For very fast things (like when the taps get very close together), our consciousness isn’t fast enough to distinguish the individual events, and our pitch hearing kicks in, guided by those tiny hairs in our cochlea, each one specialized in resonating at a certain pitch.</p>
-</blockquote>
-
-
-        
-        <p><a href="http://dantepfer.com/blog/?p=277">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Cardboard: VR for Android (Google I/O 2014)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2014/io14"/>
-    
-    <updated>2014-06-26T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2014/io14</id>
-    <content type="html">
-      <div>
-        <p><a href="https://twitter.com/dav_cz">David Coz</a>, <a href="http://plagemann.net/">Christian Plagemann</a> and I had the
-honor of giving a talk at I/O a few weeks ago, introducing Cardboard, a
-simple way to turn your smartphone into a VR headset. Watch the <a href="https://www.youtube.com/watch?v=DFog2gMnm44">video
-here</a>.</p>
-
-<p>I'm especially excited about two cardboard-related things. Firstly, the
-magnet-based button, which I worked on, was generally liked and deemed
-clever! I'm hoping to write more about the technical details of this in
-the future, but <a href="http://techcrunch.com/2014/06/25/hands-on-with-googles-incredibly-clever-cardboard-virtual-reality-headset/">this techcrunch summary</a> was music to my ears,
-thanks guys!</p>
-
-<p><img src="/talk/2014/io14/click-click.gif" style="float: right; margin-left: 1em;"/></p>
-
-<blockquote>
-  <p>The magnet slides within its groove, then automatically slips back
-  into a place because of another magnet on opposite side. Your phone is
-  able to sense the magnet’s movement, allowing it to act as a
-  ridiculously clever little button. Yeesh.</p>
-</blockquote>
-
-<p><br style="clear: both;"/></p>
-
-<p>Secondly, we've released the <a href="https://github.com/googlesamples/cardboard">VR toolkit on github</a> for you to
-experiment with. The whole thing will be fully open sourced soon, but
-for the time being, a JAR file, javadoc, and a sample application are
-provided on the <a href="https://developers.google.com/cardboard/overview">Cardboard developer site</a>.</p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Spectrogram and Oscillator</title>
+    <title>Spectrogram and oscillator</title>
     <author><name>Boris Smus</name></author>
     <link href="/spectrogram-and-oscillator"/>
     
@@ -1155,7 +1064,7 @@ and not just the web, is a proposition worth considering.</p>
   </entry>
   
   <entry>
-    <title>The Ebb of the Web</title>
+    <title>The ebb of the web</title>
     <author><name>Boris Smus</name></author>
     <link href="/ebb-of-the-web"/>
     
@@ -1413,7 +1322,7 @@ Thanks for reading, I eagerly await your thoughts :)</p>
   </entry>
   
   <entry>
-    <title>Remote Controls for Web Media</title>
+    <title>Remote controls for web media</title>
     <author><name>Boris Smus</name></author>
     <link href="/remote-controls-web-media"/>
     
@@ -1627,7 +1536,7 @@ and want to help standardize!</p>
   </entry>
   
   <entry>
-    <title>UIST 2013 Highlights</title>
+    <title>UIST 2013 highlights</title>
     <author><name>Boris Smus</name></author>
     <link href="/uist-2013"/>
     
@@ -1868,30 +1777,6 @@ compelling product.</p>
   </entry>
   
   <entry>
-    <title>The Loudness War is Real</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/9/26/the-loudness-war-is-real"/>
-    
-    <updated>2013-09-26T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/9/26/the-loudness-war-is-real</id>
-    <content type="html">
-      <div>
-        <p>By amping up the softest instances of a song to make them closer in volume to the loudest instances, you can create the perception of loudness. This process is called dynamic range compression and is routinely done (and over-done) by recording engineers to create ever-louder music, colloquially referred to as "The Loudness War". </p>
-
-<p>At first glance, this may sound like a theory devised by a crotchety old man in a rocking chair yelling at his loud teenaged neighbors to "turn the goddamned music down!" but The Echo Nest just proved that it's actually a thing.</p>
-
-<p><img src="http://i.imgur.com/ONDaOTu.png" alt="Loudness average of the top 5000 hottest songs by year of release" /></p>
-
-
-        
-        <p><a href="http://blog.echonest.com/post/62248127937/the-loudness-war-is-real-and-we-can-prove-it-with">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
     <title>Responsive image workflow</title>
     <author><name>Boris Smus</name></author>
     <link href="/responsive-image-workflow"/>
@@ -2079,62 +1964,7 @@ available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic
   </entry>
   
   <entry>
-    <title>Frequency Modulation with Web Audio API</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/9/7/frequency-modulation-with-web-audio-api"/>
-    
-    <updated>2013-09-07T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/9/7/frequency-modulation-with-web-audio-api</id>
-    <content type="html">
-      <div>
-        <p>Definitely take a look at Gaëtan Renaudeau's excellent introduction to frequency modulation as illustrated through the Web Audio API.</p>
-
-
-        
-        <p><a href="http://greweb.me/2013/08/FM-audio-api/">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>A distraction-free smart phone</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/8/29/a-distraction-free-smart-phone"/>
-    
-    <updated>2013-08-29T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/8/29/a-distraction-free-smart-phone</id>
-    <content type="html">
-      <div>
-        <p><a href="https://twitter.com/jakek">Jake</a> used to get easily distracted by his smartphone:</p>
-
-<blockquote>
-  <p>Maybe you can handle that temptation. Maybe you've got willpower. That's great for you, but for me, willpower alone didn't cut it. [...]
-  Checking email, checking Twitter, checking news. Wondering if something interesting was happening anywhere in the world. Wondering if anybody was thinking about me.</p>
-</blockquote>
-
-<p>Jake fixed his problem by doing three simple things:</p>
-
-<ol>
-<li>Remove apps with a stream.</li>
-<li>Disable email.</li>
-<li>Disable the web browser.</li>
-</ol>
-
-<p>I have the same problem. How about you?</p>
-
-
-        
-        <p><a href="https://medium.com/life-hacks/80f8d525b0d8">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Ultrasonic Networking on the Web</title>
+    <title>Ultrasonic networking on the web</title>
     <author><name>Boris Smus</name></author>
     <link href="/ultrasonic-networking"/>
     
@@ -2327,33 +2157,7 @@ data from mobile device to laptop is the only possible configuration.</p>
   </entry>
   
   <entry>
-    <title>Bret Victor's Future of Programming Predictions</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/7/30/bret-victor-s-future-of-programming-predictions"/>
-    
-    <updated>2013-07-30T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/7/30/bret-victor-s-future-of-programming-predictions</id>
-    <content type="html">
-      <div>
-        <p>Another great performance from Bret Victor (circa 1973). Firstly, this
-is probably the most succinct but complete argument for why Java should
-not be the primary focus for undergrad Computer Science programs.</p>
-
-<p>About two years ago, Alan Kay said that "the best way to predict the
-future is to invent it". This talk is a great reminder that even
-inventing a possible future, you're likely to be way off.</p>
-
-
-        
-        <p><a href="https://vimeo.com/71278954">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Easier Link Blogging</title>
+    <title>Easier link blogging</title>
     <author><name>Boris Smus</name></author>
     <link href="/easier-link-blogging"/>
     
@@ -2494,64 +2298,7 @@ tell me about it!</p>
   </entry>
   
   <entry>
-    <title>Not Terrible JavaScript Modules</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/7/24/not-terrible-javascript-modules"/>
-    
-    <updated>2013-07-24T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/7/24/not-terrible-javascript-modules</id>
-    <content type="html">
-      <div>
-        <p><a href="https://github.com/substack/node-browserify">Browserify</a> lets you use node-style module definitions for JavaScript running in the browser. I tried it for a previous project, but at the time it required a node web server to use it.</p>
-
-<p>Looking again for a sane module and dependency solution for one of my current projects, I've found that browserify can now be invoked from the command line:</p>
-
-<pre><code>browserify main.js -o bundle.js
-</code></pre>
-
-<p>With just a few exports and inline dependency requirements, you get modules for JavaScript with reasonable syntax (unlike <a href="http://addyosmani.com/writing-modular-js/">AMD</a>).</p>
-
-<p><a href="http://engineering.yp.com/post/browserify">This blog post</a> gives a pretty good idea of how to create modules and require them. I'll be using it for my next web project.</p>
-
-
-        
-        <p><a href="https://github.com/substack/node-browserify">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Web Apps Position Paper</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2013/7/17/web-apps-position-paper"/>
-    
-    <updated>2013-07-17T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2013/7/17/web-apps-position-paper</id>
-    <content type="html">
-      <div>
-        <p>Read Scott Jenson's webapp UX paper. First part goes into a native app replacement, along the lines of <a href="http://smus.com/installable-webapps/">my previous blog post</a>. </p>
-
-<p>Next, a plea for an open web integrated wireless discovery service, ideally supporting multiple protocols including Bluetooth Low Energy. Fundamentally,</p>
-
-<blockquote>
-  <p>This ability to 'summon' a web page without typing anything at all needs to be explored in future W3C standards and not be left solely to handset makers. </p>
-</blockquote>
-
-<p>Lastly, with some cross-device link in place, we can enter a world of multi-device interactions, which is, in my opinion, the key UX area to streamline in the near future.</p>
-
-
-        
-        <p><a href="https://docs.google.com/document/d/1wcXubh-yUtViwtUG4o43v3jeO6P1T63EWTh4iw2iHy8/edit">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Installable Webapps: Extend the Sandbox</title>
+    <title>Installable webapps: extend the sandbox</title>
     <author><name>Boris Smus</name></author>
     <link href="/installable-webapps"/>
     
@@ -2965,31 +2712,7 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
   </entry>
   
   <entry>
-    <title>Point, Click, Tap, Touch (Google I/O 2013)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2013/io13"/>
-    
-    <updated>2013-05-16T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2013/io13</id>
-    <content type="html">
-      <div>
-        <p><a href="https://plus.google.com/115788095648461403871">Rick Byers</a> and I gave a talk at Google I/O last week called
-"Point, Click, Tap, Touch - Building Multi-Device Web Interfaces". We
-talked about design guidelines, interoperability between mouse and
-touch, best practices for touch laptops, some details about Chrome's
-touch implementation, best practices for performance, and finally the
-future of touch on the web. The <a href="http://www.youtube.com/watch?v=DujfpXOKUp8">video</a> and <a href="https://docs.google.com/a/google.com/presentation/d/1-n1qyzewpagREbzW2zm0wOalq33UhbtbSkWf9mEdly8/edit">slides</a> are now
-available.</p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Gestural Music Direction</title>
+    <title>Gestural music direction</title>
     <author><name>Boris Smus</name></author>
     <link href="/gestural-music-direction"/>
     
@@ -3146,7 +2869,7 @@ and evolve on <a href="https://github.com/borismus/gestural-music-direction">git
   </entry>
   
   <entry>
-    <title>Web Audio Book</title>
+    <title>Web Audio book</title>
     <author><name>Boris Smus</name></author>
     <link href="/webaudio-book"/>
     
@@ -3194,7 +2917,7 @@ samples.</p>
   </entry>
   
   <entry>
-    <title>Really Simple Social Syndication</title>
+    <title>Really simple social syndication</title>
     <author><name>Boris Smus</name></author>
     <link href="/really-simple-social-syndication"/>
     
@@ -3331,7 +3054,7 @@ on consuming and producing interesting things. Also, happy &pi; day!</p>
   </entry>
   
   <entry>
-    <title>Interactive Touch Laptop Experiments</title>
+    <title>Interactive touch laptop experiments</title>
     <author><name>Boris Smus</name></author>
     <link href="/touch-laptop-experiments"/>
     
@@ -3510,7 +3233,7 @@ touch laptops? Please share them below.</p>
   </entry>
   
   <entry>
-    <title>From VPS to Static Hosting</title>
+    <title>From VPS to static hosting</title>
     <author><name>Boris Smus</name></author>
     <link href="/moved-to-s3"/>
     
@@ -3591,7 +3314,7 @@ tasks.</p>
   </entry>
   
   <entry>
-    <title>Internet Mashup of Things</title>
+    <title>Internet mashup of things</title>
     <author><name>Boris Smus</name></author>
     <link href="/mashup-of-things"/>
     
@@ -4131,63 +3854,6 @@ comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBY
   </entry>
   
   <entry>
-    <title>High DPI images article</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/8/22/high-dpi-images"/>
-    
-    <updated>2012-08-22T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/8/22/high-dpi-images</id>
-    <content type="html">
-      <div>
-        <p>My <a href="http://www.html5rocks.com/en/mobile/high-dpi/">article on high DPI images</a> went up on <a href="http://www.html5rocks.com/">HTML5Rocks</a>
-this morning. In it, I outline techniques for delivering the best
-quality images as quickly and efficiently as possible. I'm most excited
-about the new platform features that help developers reach this goal:</p>
-
-<ul>
-<li>The CSS function <code>image-set</code> is already available in WebKit. Read <a href="http://dev.w3.org/csswg/css4-images/#image-set-notation">the
-spec</a> to learn more.</li>
-<li>The new <code>&lt;img&gt;</code> attribute <code>srcset</code> isn't implemented anywhere yet, but
-is available <a href="https://github.com/borismus/srcset-polyfill/">via polyfill</a>. Read <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#attr-img-srcset">the spec</a>
-to learn more.</li>
-</ul>
-
-<p>These new features are very similar to one another, but have subtly
-different syntax. See <a href="http://lists.w3.org/Archives/Public/www-style/2012Aug/0604.html">this thread</a> to <code>www-style</code> and <code>whatwg</code>
-for an deep dive into these differences and an attempt to fix some
-problems in the spec.</p>
-
-
-        
-        <p><a href="http://www.html5rocks.com/en/mobile/high-dpi/">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Google I/O Mobile Web talk</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2012/io"/>
-    
-    <updated>2012-06-28T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2012/io</id>
-    <content type="html">
-      <div>
-        <p>I gave a talk on building fast UIs for the cross-device web at Google
-I/O. In addition to discussing some problems and best practices to work
-around them, I mentioned <a href="https://github.com/borismus/device.js">device.js</a>, <a href="https://github.com/borismus/pointer.js">pointer.js</a> and other
-projects I've written about. The <a href="http://www.youtube.com/watch?v=ie4I7B-umbA">video</a> and <a href="http://smustalks.appspot.com/io-12">slides</a> are available.</p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
     <title>Generalized input on the cross-device web</title>
     <author><name>Boris Smus</name></author>
     <link href="/mouse-touch-pointer"/>
@@ -4467,38 +4133,7 @@ of iOS is a resounding no. Sorry bro!</p>
   </entry>
   
   <entry>
-    <title>Lightning</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/5/11/lightning"/>
-    
-    <updated>2012-05-11T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/5/11/lightning</id>
-    <content type="html">
-      <div>
-        <p>This site is powered by Lightning, a static blogging engine with a few
-features I wanted but couldn't find in other similar projects:</p>
-
-<ul>
-<li>Incremental builds.</li>
-<li>Logical placement of article-specific assets.</li>
-<li>Fully decoupled content from output.</li>
-</ul>
-
-<p>Today I packed it up into a consumable codebase. Unfortunately I haven't
-had time for unit tests, so YMMV. Usage instructions and repository is
-<a href="https://github.com/borismus/lightning">on github</a>.</p>
-
-
-        
-        <p><a href="https://github.com/borismus/lightning">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Let's Get Physical (Units)</title>
+    <title>Let's get physical (units)</title>
     <author><name>Boris Smus</name></author>
     <link href="/physical-units"/>
     
@@ -4854,98 +4489,6 @@ pixels because this problem isn't going away any time soon.</p>
   </entry>
   
   <entry>
-    <title>Building cross-device webapps</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/4/24/cross-device"/>
-    
-    <updated>2012-04-24T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/4/24/cross-device</id>
-    <content type="html">
-      <div>
-        <p>I wrote an <a href="http://www.html5rocks.com/">HTML5Rocks</a> article about <a href="http://www.html5rocks.com/mobile/cross-device">building cross-device
-webapps</a>. The gist of the approach is to use client-side
-feature detection using <a href="https://github.com/borismus/device.js">device.js</a>, and then switch to server side UA
-detection if performance becomes an issue.</p>
-
-
-        
-        <p><a href="http://www.html5rocks.com/mobile/cross-device">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Open by default</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/4/16/by-default"/>
-    
-    <updated>2012-04-16T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/4/16/by-default</id>
-    <content type="html">
-      <div>
-        <p>The web used to be "open by default". The key property that enabled
-google in the 90's was that generally speaking, web content could be
-read by machines. This was the default state -- developers didn't need
-to do anything to make it happen.</p>
-
-<p>Since then, we have moved from a declarative web to an imperative one,
-where the web has evolved into a ubiquitous developer platform. Combine
-this with the definite trend toward personalization - many companies
-providing interesting content only behind ACL, only visible when logged
-in - and you have the modern web.</p>
-
-<p>As the web grows in complexity, JS-rich content gets harder and harder
-to crawl, and prohibitively hard for anyone that's not a search engine.
-In this world, what enables innovation for the little guys are APIs. The
-problem with these, however is that they require work for the API
-providers to implement. So the web is now largely "closed by default".</p>
-
-<p>I'd love to bring us back to the "open by default" web, while retaining
-the user experience benefits of thick clients. Ideas welcome :)</p>
-
-<p>Inspired by Sergey Brin's <a href="http://www.guardian.co.uk/technology/2012/apr/15/web-freedom-threat-google-brin">Guardian
-interview</a>.</p>
-
-
-        
-        <p><a href="http://www.guardian.co.uk/technology/2012/apr/15/web-freedom-threat-google-brin">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Projects at X</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/4/4/projects-at-x"/>
-    
-    <updated>2012-04-04T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/4/4/projects-at-x</id>
-    <content type="html">
-      <div>
-        <blockquote>
-  <p>These past couple weeks, there have been a few videos released from
-  the group I work in at Google. Congratulations to the many people in X
-  who's hard work has gone into each of these.</p>
-</blockquote>
-
-<p>Google X released a few concept videos of projects in their pipeline.
-Very exciting stuff to see this great work slowly trickle out to the
-public.</p>
-
-
-        
-        <p><a href="http://procrastineering.blogspot.com/2012/04/projects-at-google-x.html">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
     <title>New design</title>
     <author><name>Boris Smus</name></author>
     <link href="/redesign-2012"/>
@@ -5068,56 +4611,7 @@ post about it. For now, though, I wrote a bit about Lightning
   </entry>
   
   <entry>
-    <title>Fast UIs for the Cross-device Web</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2012/fast-ui-cross-device"/>
-    
-    <updated>2012-03-29T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2012/fast-ui-cross-device</id>
-    <content type="html">
-      <div>
-        <p>I gave a talk at the <a href="http://www.sfhtml5.org/">SF HTML5</a> meetup. <a href="http://smustalks.appspot.com/cross-device-sfhtml5-12">Slides</a> and the
-<a href="http://www.youtube.com/watch?v=Oz4Hh5IYt2E">video recording</a> are available.</p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Monoculture for a Reason</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/link/2012/2/21/monoculture-for-a-reason"/>
-    
-    <updated>2012-02-21T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/link/2012/2/21/monoculture-for-a-reason</id>
-    <content type="html">
-      <div>
-        <blockquote>
-  <p>Anyone who’s worried about “WebKit monoculture” should write or publish
-  articles about mobile web design that don’t feature the iPhone at all.
-  If you don’t, I’m sorry to say, you’re part of the problem. — PPK</p>
-</blockquote>
-
-<p>This "iPhone monoculture" exists for a reason. MobileSafari has been the
-best browser for a long time on one of the most widely used mobile
-platforms. The way to solve this problem (if it is a problem at all) is
-by building mobile browsers that can compete on features, not through
-artificial boycotts!</p>
-
-
-        
-        <p><a href="http://www.quirksmode.org/blog/archives/2012/02/the_iphone_mono.html">Permalink ∞</a></p>
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Backbone and Ember</title>
+    <title>Backbone and ember</title>
     <author><name>Boris Smus</name></author>
     <link href="/backbone-and-ember"/>
     
@@ -5451,28 +4945,7 @@ I'll have a better sense of the limitations soon.</p>
   </entry>
   
   <entry>
-    <title>Audio on the Web</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2012/audio-on-web"/>
-    
-    <updated>2012-02-13T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2012/audio-on-web</id>
-    <content type="html">
-      <div>
-        <p>Co-presented with <a href="http://gonze.com">Lucas Gonze</a> on the state of Audio
-on the web. I mostly talked about Chrome's Web Audio API.</p>
-
-<p>Slides available at <a href="http://smustalks.appspot.com/sfmt-12/">http://smustalks.appspot.com/sfmt-12/</a></p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>PDF Conversion and Client-side Scraping</title>
+    <title>PDF conversion and client-side scraping</title>
     <author><name>Boris Smus</name></author>
     <link href="/pdf-conversion-client-side-scraping"/>
     
@@ -5866,26 +5339,7 @@ important type of framework? Let me know!</p>
   </entry>
   
   <entry>
-    <title>A mobile web app technology stack</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/talk/2012/mobile-web-tech-stack"/>
-    
-    <updated>2012-01-18T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/talk/2012/mobile-web-tech-stack</id>
-    <content type="html">
-      <div>
-        <p>Presented at a HTML5 for enterprise conference at Google Mountain View,
-organized by <a href="http://greenido.wordpress.com/">Ido Green</a>.</p>
-
-
-        
-      </div>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Hybrid Operating Systems</title>
+    <title>Hybrid operating systems</title>
     <author><name>Boris Smus</name></author>
     <link href="/hybrid-operating-systems"/>
     
@@ -6044,6 +5498,2604 @@ perspective, both in the options page and in a browser action:</p>
 <p>If you support developers on Stack Overflow, please <a href="https://chrome.google.com/webstore/detail/bnnkhapbhkejookmhgpgaikfdoegkmdp">install it</a>,
 give me constructive feedback and consider monitoring the
 <a href="http://stackoverflow.com/questions/tagged/google-chrome-extension">google-chrome-extension</a> tag :)</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>UIST 2011 greatest hits</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/uist-2011"/>
+    
+    <updated>2011-10-20T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/uist-2011</id>
+    <content type="html">
+      <div>
+        <p>I went to UIST 2011 in Santa Barbara and presented our research on
+<a href="http://crowdforge.com">CrowdForge</a>.</p>
+
+<p>Here's a sample of some of the great work that was presented this year, in the
+3 research areas that interest me most: crowdsourcing/human computation,
+mobile physical computing, and music.<!--more--></p>
+
+<h1>Crowdsourcing</h1>
+
+<p>Notable work in both workflow-oriented approaches (Jabberwocky, CrowdForge,
+PlateMate) and synchronous collaborative approaches (Crowds in seconds,
+Collabode, Real-time).</p>
+
+<h3>PlateMate</h3>
+
+<ul>
+<li>Presents a workflow-based crowdsourcing nutritional analysis from food
+photographs.</li>
+<li>Implemented in Django/Python, same as CrowdForge</li>
+<li>Found out about CrowdForge 90% of the way into the research.</li>
+</ul>
+
+<p><img src="http://crowdresearch.org/blog/wp-content/uploads/2011/09/dinner.jpg" alt="platemate" /></p>
+
+<h3>Real-time crowd control</h3>
+
+<ul>
+<li>Nice research from Jeff Bigham's group.</li>
+<li>Compares different strategies of merging input from different users.</li>
+<li>Reminded me of my <a href="/android-powered-mindstorms">twitter mindstorms project</a>.</li>
+</ul>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/P_Tqn-3BF_I" frameborder="0" allowfullscreen></iframe>
+
+<h3>Crowds in two seconds</h3>
+
+<ul>
+<li>Great research from MIT crowdsourcing folks (Michael Bernstein, Rob Miller)</li>
+<li>Retainer: keep workers "on tap" - ready to work by paying $0.30/hour.</li>
+<li>Rapid refinement: crowd algorithm to narrow search space to accelerate.</li>
+<li>Cool application: take movies, crowdsource the best moment.</li>
+</ul>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9IICXFUP6MM" frameborder="0" allowfullscreen></iframe>
+
+<h3>The Jabberwocky programming environment</h3>
+
+<ul>
+<li>Really ambitious MTurk like project.</li>
+<li>Combine different worker types from different spheres (social groups, paid workers, machines)</li>
+<li>Full runtime stack (Dog high level language, ManReduce low level language, Dormouse runtime)</li>
+<li>Great potential to mix different spheres of workers, but a rather intimidating project... scope creep!</li>
+</ul>
+
+<p>More in the <a href="http://kamvar.org/assets/papers/jabberwocky.pdf">Jabberwocky</a> paper.</p>
+
+<h3>Real-time collaborative coding in a web IDE</h3>
+
+<ul>
+<li>More awesome work from MIT (Max Goldman, Greg Little, Rob Miller)</li>
+<li>Web-based Java EtherPad editor for collaboration</li>
+<li>Main problem: others leave code in semi-working state. When to sync?</li>
+<li>Idea: automatic error-aware integration. Auto-sync code when it compiles (or - tests pass)</li>
+</ul>
+
+<p>More on the <a href="http://groups.csail.mit.edu/uid/collabode/">Collabode</a> site.</p>
+
+<h1>Mobile physical computing</h1>
+
+<p>Interesting work in mobile virtual and projected UI spaces.</p>
+
+<h3>PocketTouch</h3>
+
+<ul>
+<li>Great work from Microsoft Research to let you use your phone through fabric (while in the pocket)</li>
+<li>Since orientation in-pocket is unclear, there's an orientation setting gesture (not sold on this)</li>
+<li>Unfortunately typical front pocket jeans work rather poorly.</li>
+</ul>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/fHSDpE0kTag" frameborder="0" allowfullscreen></iframe>
+
+<h3>Multi-user Interaction with Handheld Projectors</h3>
+
+<ul>
+<li>Most projector-based systems require a fixed place. This one is fully mobile.</li>
+<li>System produces visible projection (for image) and invisible projection (for data)</li>
+<li>Camera tracks location of nearby projections</li>
+<li>Cool applications: virtual boxing, content transfer, 3D model viewing.</li>
+</ul>
+
+<p><img src="http://www.disneyresearch.com/_images/459-00B516CF.jpg" alt="concept" /></p>
+
+<p>To get a better sense of the project, take a look at <a href="http://www.disneyresearch.com/research/projects/hci_sidebyside_drp.htm">this video</a>.</p>
+
+<h3>Imaginary phone</h3>
+
+<ul>
+<li>Lets you control a mobile phone device without taking it out of your pocket.</li>
+<li>Maps iPhone controls to the palm of your hand similar to <a href="http://en.wikipedia.org/wiki/Guidonian_hand">Guidonian hand</a></li>
+<li>Touchscreen progression: fingers replaced styli. Next step: palm replaces phone (bit of a stretch)</li>
+</ul>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/aCARtauIS50" frameborder="0" allowfullscreen></iframe>
+
+<h3>OmniTouch</h3>
+
+<ul>
+<li>Shoulder mounted depth camera/projector.</li>
+<li>Works for all sorts of surfaces. Heavy math for tracking and projecting.</li>
+<li>Tracks "hover" (haven't seen this notion before) and "touch" states.</li>
+</ul>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Pz17lbjOFn8" frameborder="0" allowfullscreen></iframe>
+
+<h1>Music</h1>
+
+<p>I had the pleasure of hearing <a href="https://ccrma.stanford.edu/~ge/">Ge Wang</a> speak
+about some of his older projects, including <a href="http://www.youtube.com/watch?v=RhCJq7EAJJA">Ocarina</a>,
+<a href="http://www.youtube.com/watch?v=KetWJi0zou0">Leaf Trombone</a>, the Stanford Mobile orchestra, and others. Notably I
+hadn't really seen the <a href="http://chuck.cs.princeton.edu/doc/language/">ChucK language in action</a>, and would be
+interested in seeing if the <a href="http://www.html5rocks.com/en/tutorials/webaudio/intro/">Web Audio API</a> could support this sort of thing.
+Browser-based ChucK, anyone?</p>
+
+<p>The last piece of research that I really enjoyed was called "onNote: Playing
+printed music scores as a musical instrument". The idea here was to use OMR
+techniques for markerless tracking of sheet music using positioning and using a
+finger for pointing. The other neat application here was to support
+compositional remixing by literally cutting up sheet music and splicing it back
+together.</p>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/fGOk16Cnq7c" frameborder="0" allowfullscreen></iframe>
+
+<p>This was my first UIST, and though I'm unlikely to have new research to submit
+for UIST 2012, I'm seriously considering going anyway, just to stay on top of
+the great work that this vibrant community generates.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Screen video capture for Chrome OS</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/screen-capture-for-chrome-os"/>
+    
+    <updated>2011-10-04T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/screen-capture-for-chrome-os</id>
+    <content type="html">
+      <div>
+        <p>This post is about video capture in Chrome that doesn't rely on any
+external dependencies like Flash (no fun), NPAPI (not supported on
+Chrome OS) and Native Client (not <em>yet</em> supported on Chrome OS).</p>
+
+<p>I take screenshots all the time for bug reporting, image editing, etc.
+On OS X, this functionality is conveniently built in, and available
+through <code>Command</code> - <code>Shift</code> - <code>4</code>. As a web denizen, I find it very
+useful to auto-upload these captures to a remote server, so I wrote this
+<a href="https://github.com/borismus/screencapture-www">minimal image uploader</a> which replaces the default behavior
+on OS X to capture the screenshot, and also uploads it to a picture
+hosting service.</p>
+
+<p>Taking video capture of various UIs is also immensely useful for showing
+demonstrations, complex interactions, and subtle bugs. I recently
+re-discovered that QuickTime on OS X comes with this functionality built
+in. Prior to that I used (paid) ScreenFlow, which also has very nice
+dimension cropping and time dilation features.</p>
+
+<p>What if we're on a web-only device, such as a Chromebook running Chrome
+OS? There is a still screenshotting API, but capturing video is less
+trivial. I've released an extension that captures and play backs video
+captures inside Chrome, and also lets you share stills to Picasa (using
+the OAuth 2 <a href="http://smus.com/oauth2-chrome-extensions">extension library</a>). It's available on the
+<a href="https://chrome.google.com/webstore/detail/omahgjnmfgeeeoekegajhndkncocoofd">webstore</a>, and the source is on <a href="https://github.com/borismus/chrome-screencast">github</a>. Read on to
+learn how it works, and see how you can help.</p>
+
+<h1>Screenshots in Chrome</h1>
+
+<p>Chrome provides the <a href="http://code.google.com/chrome/extensions/tabs.html#method-captureVisibleTab"><code>captureVisibleTab</code></a> extension API for taking
+a screenshot of a tab. It requires host permissions on the page, but as
+usual the <all_urls> permission will enable the API across all pages
+(with some exceptions). A few successful extensions, such as
+<a href="http://awesomescreenshot.com/">Awesome Screenshot</a>, use this API and allow
+cropping, annotation and sharing of screen grabs.</p>
+
+<p>What if you want to capture video of a tab? Chrome provides no
+pre-existing API for this purpose, however, we can piggyback on the
+still screenshot API, executing it repeatedly from the background page
+for every frame we want to capture:</p>
+
+<pre><code>var images = [];
+var FPS = 30;
+var QUALITY = 50;
+timer = setInterval(function() {
+  chrome.tabs.captureVisibleTab(null, {quality: QUALITY},
+    function(img) {
+      images.push(img);
+    });
+}, 1000 / FPS);
+</code></pre>
+
+<p>As we capture, we store the base64-encoded strings representing video
+frames in an array. Once we're done capturing, we can simulate video
+playback by rapidly swapping the images in and out:</p>
+
+<pre><code>var background = chrome.extension.getBackgroundPage();
+timer = setInterval(function() {
+  if (currentIndex &gt;= images.length - 1) {
+    pause();
+    return;
+  }
+  setIndex(currentIndex + 1);
+  updateSliderPosition();
+}, 1000 / background.FPS);
+</code></pre>
+
+<p>This approach turns out to be surprisingly efficient, with the extension
+being able to capture at 30 FPS on a MacBook Air, and 10 FPS on a
+Chromebook without too much noticeable slowdown.</p>
+
+<p>Note that we rely on a fixed FPS for ease of implementation, however one
+could imagine using <code>requestAnimationFrame</code> and tracking the variable
+frame rate so that the playback speed is reasonable. However, there are
+definitely precision issues with JavaScript's timers, so this is a much
+more challenging approach.</p>
+
+<p>So we can capture and playback videos inside the browser, but getting it
+out of the browser is another matter entirely. As a temporary measure,
+my colleague <a href="http://greenido.wordpress.com">Ido Green</a> built a screen stitching service which
+encodes multiple images into a movie using ffmpeg. Ideally, of course,
+we would encode in the browser. Perhaps a JavaScript video encoder could
+be implemented, though the performance may be too poor for practical
+use. Alternatively, a ffmpeg Native Client-based approach might be
+suitable, especially given that ffmpeg has <a href="http://code.google.com/p/naclports/source/browse/trunk/src/libraries/ffmpeg-0.5/">already been ported</a>.</p>
+
+<h1>Free ideas</h1>
+
+<p>There are a few logical next steps for this sample. As already
+mentioned, encoding video in the browser is a top priority, but there
+are a slew of other interesting directions, some of which can be seen as
+features, and others as separate products.</p>
+
+<ul>
+<li><p>The <code>captureVisibleTab</code> API doesn't track the mouse cursor. This could
+be done by injecting an overlay onto the current page and tracking
+mousemove and click events. This data could then either be drawn onto
+a canvas context, or encoded separately as <code>mouseData</code>, and then drawn
+with JavaScript at playback time.</p></li>
+<li><p>Cropping the video dimensions, modifying the video time schedule
+(speedup, slowdown, truncation) and annotation are all desired
+video-editing class features that could be implemented by treating
+images as canvases.</p></li>
+<li><p>A compelling use case for this technology is creating screen sharing
+sessions for demos and presentations. Thus, it would be very useful to
+stream the video to a server, and broadcast it to multiple clients in
+real time. <a href="http://updates.html5rocks.com/2011/08/What-s-different-in-the-new-WebSocket-protocol">Binary websockets</a> are now available in Chrome,
+and this could be a great application.</p></li>
+<li><p>Audio annotations on screen captures make perfect sense, and are
+widely supported by desktop applications. APIs for sound capture have
+been a <a href="http://www.w3.org/2009/dap/">long time coming</a>, but finally we may have an answer
+via the <a href="http://www.webrtc.org/">WebRTC</a> ecosystem, and the <code>getUserMedia</code> call.</p></li>
+</ul>
+
+<p>By the way, I've switched to exclusively using Markdown for all of my
+published writing, and wrote an <a href="https://github.com/borismus/markdown-preview">markdown preview</a> for Chrome
+to make my life a bit easier.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Loading large assets in modern HTML5 games</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/game-asset-loader"/>
+    
+    <updated>2011-09-22T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/game-asset-loader</id>
+    <content type="html">
+      <div>
+        <p>HTML5 games are here today, and rapidly increasing in complexity. Impressive
+<a href="http://madebyevan.com/webgl-water/">demos</a> are <a href="http://www.chromeexperiments.com/">everywhere</a>, and prominent titles like <a href="https://chrome.google.com/webstore/detail/ciamkmigckbgfajcieiflmkedohjjohh">Gun
+Bros</a> and <a href="http://chrome.angrybirds.com">Angry Birds</a> prove that it's possible to
+create competitive gaming experiences in the browser. Games like these are
+possible thanks largely to the modern web stack which includes WebGL, the Web
+Audio API, Web Sockets and others.</p>
+
+<p>Often forgotten, however, is the less sexy story of loading game assets. As the
+web platform progresses and allows for increasingly complex games, game assets
+(ex. textures, movies, music and images) grow in size and number, and asset
+management becomes a sticking point for game developers.</p>
+
+<p>Let me share with you some truths:</p>
+
+<ol>
+<li>Modern games require gigabytes of assets (textures, movies, etc)</li>
+<li>Gamers don't like waiting for their game to load</li>
+<li>Browser gamers want to be able to play regardless of internet connectivity</li>
+</ol>
+
+<p>"But wait," you say, "I know! Just use the <a href="http://diveintohtml5.org/offline.html">Application Cache</a>
+and yer done!". Not so fast, dear reader... As described below, there are
+problems with this approach, and I propose some solutions.</p>
+
+<h1>Problems with Application Cache</h1>
+
+<p>So you've started implementing your awesome asset loading solution using
+AppCache. The good news is that there are some useful tools to help you debug
+if you have taken this difficult route:</p>
+
+<ol>
+<li>You can get basic information about the site's app cache through the
+Developer Tools' <a href="http://code.google.com/chrome/devtools/docs/resources.html">resource panel</a>.</li>
+<li>You can view (and remove!) caches stored in Chrome by navigating to
+<code>chrome://appcache-internals/</code>.</li>
+</ol>
+
+<p>But let me be blunt: <strong>AppCache is annoying to deal with</strong>. If you've made a
+small error in your cache manifest file, you'll quickly hit a brick
+wall. I ran into an issue where I forgot to include a <code>NETWORK:</code>
+fallback clause, and wasted hours trying to figure out why all of my
+XHRs were responding with status 0.</p>
+
+<p>Part of what makes AppCache difficult to debug is its very <strong>limited
+JavaScript API</strong>. Aside from letting you inspect the status of the entire cache
+with <code>window.applicationCache</code> and the <code>updateready</code> event, AppCache doesn't
+give us much to work with. There's no way to tell if a particular resource
+we're dealing with is cached or not and no programmatic way of clearing the
+cache.</p>
+
+<p>AppCache takes a fully transactional approach to asset loading.  Either
+the cache is fully loaded, or fully unloaded. Compounding this issue,
+it's impossible to resume the download of an AppCache. Thus, if you have
+a large amount of assets, your user will have to <strong>wait a long time for
+everything to be loaded</strong>, and if they reload, they will need to restart
+their cache download.</p>
+
+<p>Lastly, you can only include one cache manifest per page, making it
+<strong>impossible to group assets</strong> into multiple bundles. There are hacks that
+use multiple iframes with different cache manifests to work around this
+limitation (used in <a href="http://chrome.angrybirds.com">Angry Birds</a>), but these are ugly!</p>
+
+<p>Ultimately, what we need is a well-thought-out Application Cache
+enhancement or replacement. Given how quickly web standards bodies move,
+I've started thinking a bit about a transitional solution.</p>
+
+<h1>Designing a game asset loader</h1>
+
+<p>An ideal asset loading solution requires some of these features:</p>
+
+<ol>
+<li>Granular asset loading. Load all, in groups, or individually.</li>
+<li>No asset size limits.</li>
+<li>Offline capability.</li>
+<li>Programatic control over assets.</li>
+</ol>
+
+<p>It makes sense to group assets in bundles and let the loader take care
+of the details. We can even create a custom manifest format, for
+example, in JSON format:</p>
+
+<pre><code>{
+  "assetRoot": "./media/",   // The root of the assets.
+  "bundles": [{
+    "name": "core",          // A bundle definition.
+    "contents": [            // The contents within.
+      "theme.mp3",
+      "loading.jpg"
+    ]
+  }, {
+    "name": "level1",        // Multiple bundles defined.
+    "contents": [            // Note: order implicit since bundles
+      "L1/background.jpg",   // objects are stored in an array.
+      "L1/blip.wav"
+    ]
+  }, {
+    "name": "level2",
+    "contents": [
+      "L2/intro.mov"
+    ]
+  }],
+  "autoDownload": false      // If true, download all in order.
+}
+</code></pre>
+
+<p>With this manifest format in mind, sample API usage might look like
+this:</p>
+
+<pre><code>// Load the asset library.
+var gal = new GameAssetLoader('/path/to/gal.manifest');
+
+// Read the manifest and other good stuff.
+gal.init(function() {
+  // When ready, download the bundle named 'core'.
+  gal.download('core');
+});
+
+// When the core assets are loaded.
+gal.onLoaded('core', function(result) {
+  if (result.success) {
+    // Show a loading indicator.
+    document.querySelector('img').src = gal.get('loading.jpg');
+  }
+});
+
+// Check the progress of the download.
+gal.onProgress('core', function(status) {
+  console.log('status:', status.current/status.total, '%');
+});
+</code></pre>
+
+<p>Note that although I've been using the name Game Asset Loader, this
+approach can be used for loading any large non-game assets, such as for
+example, a video or photo gallery.</p>
+
+<h1>Implementation details</h1>
+
+<p>Luckily, the modern web stack enables us to create a custom solution to
+address all of these requirements. By leveraging technologies such as
+the HTML5 Filesystem API or Indexed DB, we have programmatic access to
+a storage mechanism that we can use to build an asset loader described
+here.</p>
+
+<p>I used the <a href="http://www.html5rocks.com/en/tutorials/file/filesystem/">Filesystem API</a> to implement a version of the asset
+loader. The code requests a large amount of persistent storage using the 
+<a href="https://groups.google.com/a/chromium.org/group/chromium-html5/msg/5261d24266ba4366?dmode=source">Quota API</a>, which is undocumented, but works anyway:</p>
+
+<pre><code>// Get quota.
+storageInfo.requestQuota(window.PERSISTENT, quota,
+  onQuotaGranted, onError);
+
+// Callback when the quota API has granted quota
+function onQuotaGranted = function(grantedBytes) {
+  // Save grantedBytes in the adapter
+  that.grantedBytes = grantedBytes;
+  // Once quota is grantedBytes, initialize a filesystem
+  requestFileSystem(window.PERSISTENT, grantedBytes, onInitFS, onError);
+};
+
+// Callback when the filesystem API has created a filesystem.
+function onInitFS = function(fs) {
+  // Create a directory for the root of the assets.
+  fs.root.getDirectory(ROOT_DIR, {create: true}, function(dirEntry) {
+    that.root = dirEntry;
+  }, onError);
+};
+</code></pre>
+
+<p>The approach fetches assets with <code>XMLHttpRequest</code>, and stores them in the
+filesystem. All files in the filesystem are accessible via the <code>filesystem://</code>
+schema, and can be used as any other resource. This filesystem URL is returned
+by the library in the <code>get(path)</code> call.</p>
+
+<p>Note that the writable HTML5 filesystem API is currently available in Chrome
+only, but that it's quite possible to use IndexedDB (supported in Firefox and
+IE10) as the data store.</p>
+
+<h1>Usage scenarios</h1>
+
+<p>The following section briefly describes what the game asset loader (GAL) does
+in several scenarios.</p>
+
+<p>Player goes to game.com which uses the game asset loader. The game calls
+<code>gal.download('core')</code> to download core assets and
+<code>gal.download('level1')</code> to load the first level into the player’s
+filesystem. While the core bundle loads, the game displays a loading
+indicator. Once core is loaded, the game displays the main menu. As soon
+as the first level is loaded, the "Play now" button is enabled. As the
+player plays, the GAL downloads more of the levels in the background.</p>
+
+<p>Next time, the player tries playing offline. He goes to game.com, whose
+code is cached via AppCache, and loads GAL again. This time GAL knows it’s
+offline, looks up its manifest stored on the filesystem and doesn’t try to
+download new assets. The old assets still work though.</p>
+
+<p>Player is still offline, making good progress, and beats level 5, but
+there are no assets downloaded for level 6. Luckily, before starting
+each level, the game calls <code>gal.download('levelBundle')</code> to make sure
+that the contents of that bundle are downloaded. The callback returns an
+error and the game displays an error telling the player that he needs to
+be online to download the next level.</p>
+
+<p>So the player goes online and tries again. GAL re-downloads a manifest.
+Next, GAL tries re-downloading every asset that the JS requests. Luckily most
+of these assets are still in the browser cache, and won't be re-downloaded. The
+loader then saves all of the assets in the filesystem, clobbering old files
+indiscriminately. (This is bad, and needs to be fixed. Read on!)</p>
+
+<h1>Future work</h1>
+
+<p>In particular, re-downloading every asset while online is not desirable
+behavior, and we can't always rely on the browser cache for this. For
+smaller files, we can probably rely on ETag and Last-Modified headers
+and hopefully the browser won't re-download the files. However, the
+<strong>asset loader will still overwrite the asset in the filesystem, even if
+it's unmodified</strong>. This needs to be fixed. Large files are not likely to be
+cached by the browser, so we will need more intelligent <strong>caching built into
+the asset loader itself</strong>.</p>
+
+<p>There are other edge cases that need to be considered, such as what happens
+when an <strong>asset is removed from a manifest</strong>. Ideally if this occurs, it
+<strong>should also be removed from the filesystem</strong>, but this is not currently
+implemented.</p>
+
+<p>I'm happy to release the <a href="https://github.com/borismus/game-asset-loader">source</a> under the permissive Apache 2
+license and provide <a href="https://github.com/borismus/game-asset-loader/blob/master/tests/tests.js">unit tests</a> and a <a href="https://github.com/borismus/game-asset-loader/tree/master/tests/game">sample</a> project
+for your perusal. It's well documented and should be reasonably easy to
+understand. I've also made provisions to separate the core library
+interface from the Filesystem-based implementation, making it even
+easier to implement an Indexed DB adapter.</p>
+
+<p>Before I go, let me reiterate that this library isn't quite production ready,
+but a step in the right direction for facilitating real games on the web.
+Please comment below if you have feedback on the idea, or are using the
+library to write a game of your own!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Developing multiplayer HTML5 games with node.js</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/multiplayer-html5-games-with-node"/>
+    
+    <updated>2011-08-30T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/multiplayer-html5-games-with-node</id>
+    <content type="html">
+      <div>
+        <p>One day I had some friends over at my house introducing me some cool iPad
+games. One of the games was Osmos, developed by an Canadian indie studio called
+<a href="http://www.hemispheregames.com">Hemisphere Games</a>. You control a little blob that floats in 2D space, and
+the only thing your blob can do is shoot pieces of itself in a given
+direction, which propels it in the opposite direction. The rules of the game
+are simple, the main rule being that when two blobs collide, the larger one
+will consume the smaller one. The rest of the rules pretty much follow directly
+from conservation of mass and energy. <a href="http://www.youtube.com/watch?v=pso6UBicLWU">See for yourself</a> - it's way
+better than it sounds!</p>
+
+<p>Osmos really caught my attention because of its simple but engaging gameplay,
+meditative pace and distinct <strong>lack of multiplayer support</strong>, which struck me
+as a potentially very interesting problem to tackle. And so, Osmus (mu for
+multiplayer) was born as a browser-based multiplayer Osmos clone.</p>
+
+<h2>How it works</h2>
+
+<p>When a browser navigates to the osmus landing page, the server sends the new
+client the current state of its universe, which is composed of blobs with
+randomized velocities. At this point, the client can passively watch the game
+progress, but of course, can also join the game as a player controlled blob.
+Once a player joins, he can click or tap (on mobile devices) the canvas to
+shoot off a new blob.</p>
+
+<p>As the game progresses, the server decides when someone (possibly one of the
+autonomous blobs) is victorious, at which point, players are notified and the
+game is restarted.</p>
+
+<p>The rest of this post is about some development-related details. I've had to take the game offline because it was too expensive for me to keep running on my VPS.
+However I did record a video:</p>
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/NiPZK3g_i1M" frameborder="0" allowfullscreen></iframe>
+
+<h2>Game architecture</h2>
+
+<p>I wrote osmus to be split into distinct, loosely coupled components both to
+make the codebase more approachable for other contributors, and to make it easy
+to experiment with interchangeable technologies.</p>
+
+<p><img src="/multiplayer-html5-games-with-node/osmus-architecture.png" alt="architecture" /></p>
+
+<p>Osmus uses a shared game engine that runs in both the browser and on
+the server. The engine is a simple state machine whose primary function
+is to compute the next game state as a function of time using the rules of
+physics defined within.</p>
+
+<pre><code>Game.prototype.computeState = function(delta) {
+  var newState = {};
+  // Compute a bunch of stuff based on this.state
+  return newState;
+}
+</code></pre>
+
+<p>This is a pretty narrow definition of a <em>Game Engine</em>. In the game developer
+world, what's typically meant by a game engine may include anything from a
+renderer, sound player, networking layer, <a href="http://en.wikipedia.org/wiki/Game_engine">etc</a>. In this case, I've
+made very clear divisions between these components, and the osmus game core
+only includes just the physical state machine, so that both client and server
+can compute the next states and be reasonably synchronized in time.</p>
+
+<p>The client is composed of three main components: a renderer, input
+manager and sound manager. I built a very simple canvas-based renderer
+that draws blobs as red circles, and player blobs are green ones. My
+colleague <a href="http://twitter.com/kurrik">Arne Roomann-Kurrik</a> wrote an alternative
+<a href="https://github.com/mrdoob/three.js/">three.js</a> based renderer with some epic shaders and shadows.</p>
+
+<p>The sound manager handles playback of both sound effects and background music
+(taken from <a href="http://feryl.bandcamp.com/album/8-bit-magic-a-module-chiptune-collection">8-bit Magic</a>). The current implementation uses audio tags,
+with two <code>&lt;audio&gt;</code> elements, one for the background music channel, and one for
+the sound effects. There are known limitations of this approach, but given the
+modularity of my implementation, the sound implementation can be swapped out
+for one that uses Chrome's <a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a>, for example.</p>
+
+<p>Finally, the input manager handles mouse events, but can be replaced with one
+that uses touch instead, for a mobile version. In the mobile context, it will
+likely make sense to use CSS3 transformations instead of canvas, since CSS3 is
+hardware accelerated on iOS, while HTML5 canvas still isn't, and WebGL is not
+implemented.</p>
+
+<p>Speaking of mobile, I was happily surprised that osmus works pretty well on
+iPad, especially on an iPad 2 running the latest iOS version. This is really
+great, and one of the tangible benefits of writing games for the open web.</p>
+
+<h2>Networking is hard</h2>
+
+<p>From a networking perspective, a game is a rather ambitious project that
+requires seamless real-time synchronization between clients. Because of this,
+bidirectional client-server communication is essential. In the modern web
+stack, this is provided by <a href="http://dev.w3.org/html5/websockets/">Web Sockets</a> which supply a thin layer
+above TCP and hide a lot of gory details from the implementer. To further hide
+network stack details, I use the <a href="http://socket.io/">socket.io</a> library, which provides a dead
+simple event-driven abstraction for the whole thing. Unfortunately there's
+currently no support for binary data, which would greatly compress message
+size, perhaps by an order of two magnitudes in the case of osmos.</p>
+
+<p>From a bit of research which included this <a href="http://www.youtube.com/watch?v=zj1qTrpuXJ8">nice talk from Rob Hawkes</a>, it
+became clear that to have any sort of shared experience, the simplest model is
+to have the true game state on the server, and have clients periodically sync
+with it. The main trade off here is synchronization quality vs. network
+traffic required.</p>
+
+<p>On one extreme, a game can be written by having the game logic entirely on the
+server and sending updates (or perhaps even <a href="http://www.onlive.com/">simply screenshots</a>) to
+the client at 60 FPS, but this is generally not feasible due to the sheer
+amount of bandwidth required for this model. On the opposite extreme, you can
+imagine a network architecture in which clients connect, get initial state, and
+are then largely autonomous.</p>
+
+<p>In practice, there is a happy medium in which many multiplayer games fall,
+which means replicating non-trivial code in both the client and the server.
+Luckily, now that we're in the ubiquitous JavaScript era, there is no longer a
+need to duplicate functionality, but can instead share code by writing the game
+engine in JavaScript, and then running it in both a browser on the client, and
+in <a href="http://nodejs.org/">node.js</a> on the server.</p>
+
+<p>There's a lot more to be written about writing the multiplayer bits of osmus,
+which will hopefully turn into a more detailed article at some point in the
+future.</p>
+
+<h2>Shared JS modules</h2>
+
+<p>As mentioned earlier, osmus uses a physics engine that's shared between clients
+and the server. One might imagine that sharing JavaScript code between the two
+would be a breeze, but it's not that simple.</p>
+
+<p>Module loaders are a mess. There's the <a href="http://www.commonjs.org/">CommonJS spec</a>,
+<a href="http://requirejs.org/">RequireJS library</a> and node.js require system, none of which play
+nicely together. If you want to share code between client and server (one of
+the big wins of JS on the server) without a module loader, you can use this
+somewhat hacky pattern:</p>
+
+<pre><code>(function(exports) {
+
+var MyClass = function() { /* ... */ };
+var myObject = {};
+
+exports.MyClass = MyClass;
+exports.myObject = MyObject;
+
+})(typeof global === "undefined" ? window : exports);
+</code></pre>
+
+<p>This hack relies on the fact that node.js defines a <code>global</code> object while the
+browser does not. With the hack, node.js <code>require()</code> will be happy, and you can
+also include the file in a <code>&lt;script&gt;</code> tag without polluting your namespace,
+assuming of course, that no other JS pollutes your namespace with a
+<code>window.global</code> object!</p>
+
+<p>Unfortunately this approach only works well for one shared module. As soon as
+you have multiple modules depending on each other (via <code>require</code>s in node-land,
+and globals in browser-land), the difference between node's namespacing and
+browser's inclusion becomes painfully apparent and requires more hacky
+workarounds.</p>
+
+<p>Another approach is to use <a href="http://substack.net/posts/24ab8c/browserify-browser-side-require-for-your-node-js">browserify</a> to bundle all JS and emulate
+requires in the browser. This approach relies on node.js to serve the
+generated JS, which is not ideal, since static files should be served by a
+<a href="http://nginx.net/">webserver</a> optimized for the purpose. However node.js + browserify can
+be configured to compile JS that can be served statically without relying on
+node to serve it. This approach introduces some overhead:</p>
+
+<ol>
+<li>Extra build step for deploying.</li>
+<li>Performance overhead of whatever mechanism browserify uses to support
+<code>require()</code> calls.</li>
+</ol>
+
+<p>Overall this approach sounds better to me, and I hope to try it out in a future
+version of osmus.</p>
+
+<h2>Your turn</h2>
+
+<p>Today I'm releasing <a href="http://o.smus.com/">osmus</a> as a completely open source HTML5 game. Feel
+free to <a href="https://github.com/borismus/osmus">fork it</a> to your heart's content. Oh, and for other game related
+goodness, check out this article on <a href="http://www.html5rocks.com/en/tutorials/canvas/performance/">HTML5 canvas performance</a> recently
+posted on html5rocks.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Global chrome media keys with Key Socket</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/chrome-media-keys-revisited"/>
+    
+    <updated>2011-07-28T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/chrome-media-keys-revisited</id>
+    <content type="html">
+      <div>
+        <p>I just skipped to the next Google Music track without leaving vim. Wanna play?
+Here's the <a href="https://github.com/downloads/borismus/keysocket/KeySocket.zip">app</a> and <a href="https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik">Chrome extension</a>. To learn how it works, read on!</p>
+
+<h2>Script injection limitations</h2>
+
+<p><a href="/chrome-media-keys">Last time around</a> I implemented keyboard bindings by injecting a content
+script into every tab in Chrome, capturing key events and sending them to a
+background page. This approach has some serious performance drawbacks:</p>
+
+<ul>
+<li>Content scripts injected into each page.</li>
+<li>Background pages don't perform very well.</li>
+</ul>
+
+<p>And functional limitations:</p>
+
+<ul>
+<li>Won't work on special URLs like <code>chrome://</code> and <code>file://</code>.</li>
+<li>Won't work when the omnibox is focused.</li>
+<li>Requires chrome to be in the foreground.</li>
+</ul>
+
+<h2>Global key bindings and websockets</h2>
+
+<p>What we really want is global key bindings. I don't care where my keyboard
+focus happens to be right now, I just want to switch to the next freaking song!
+This sort of thing requires OS-level event capture, which is functionality most
+browsers don't come with. To get around this, I run a standalone app to capture
+global keys and run a websocket server to send these events to the browser.
+Note that this approach generalizes well to other use cases where functionality
+is not available in a browser, but can be more readily implemented natively.</p>
+
+<p>The obvious drawback to this approach is that it requires the user to run a
+separate process to capture events.</p>
+
+<h2>Media key bindings in Cocoa and Python</h2>
+
+<p>Rogue Amoeba, maker of some popular OS X audio utilities, has a
+<a href="http://rogueamoeba.com/utm/2007/09/29/apple-keyboard-media-key-event-handling/">nice post</a> on their blog on capturing media keys from an OS X
+application. The basic idea is to subclass NSApplication and override the
+sendEvent: selector:</p>
+
+<pre><code>- (void)sendEvent: (NSEvent*)event {
+  if( [event type] == NSSystemDefined &amp;&amp; [event subtype] == 8 ) {
+      // Event processing
+  }
+  [super sendEvent: event];
+}
+</code></pre>
+
+<p>Which in PyObjC results in the following equivalent code:</p>
+
+<pre><code>def sendEvent_(self, event):
+    if event.type() is NSSystemDefined and event.subtype() is 8:
+        # Event processing
+
+    NSApplication.sendEvent_(self, event)
+</code></pre>
+
+<p>It's pretty neat to be able to implement Cocoa apps without having to write a
+single line of objective C. Writing a statusbar app with no dock item was
+surprisingly simple (though I have doubts that this works well for Lions and
+Tigers and Bears). All that's required is to set <code>LSUIElement</code> to <code>true</code> in the
+Info.plist.</p>
+
+<p>To package the whole PyObjC application, I wrote a setup.py script and used
+<a href="http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html">py2app</a>, which generates a Mac OS X .app bundle which, from a user's
+perspective is indistinguishable from an OS X app written in Objective C.</p>
+
+<h2>A WebSocket server in python</h2>
+
+<p>In addition to spawning off a Cocoa application and capturing events, of course
+I create a WebSocket server. WebSockets use a pretty simple protocol which can
+easily be implemented using python sockets. I based my implementation heavily
+on <a href="https://gist.github.com/512987">this one</a>.</p>
+
+<p>Since a Cocoa application runs its own event loop which captures the
+main thread, the websocket listener needs to run in a separate thread:</p>
+
+<pre><code>class KeySocketServer(Thread):
+    def __init__(self):
+        self.server = websocket.WebSocketServer('localhost', 1337, KeySocket)
+        Thread.__init__(self)
+
+    def run(self):
+        self.server.listen()
+</code></pre>
+
+<p>The WebSocket standards are still evolving and implementers are, as ever,
+scrambling to catch up. The good news is that this means
+<a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-06#section-4.6">binary support</a> is coming, which is a boon for games and other
+intensive network consumers. The bad news is that the latest Chrome canary (at
+the time of writing), requires the response to contain the
+<code>Sec-WebSocket-Accept</code> header, conforming to the
+<a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-06">draft-ietf-hybi-thewebsocketprotocol-06</a>, which is incompatible with
+the python WebSocket code I'm currently using.</p>
+
+<p>On my wishlist is a robus python WebSockets implementation that supports
+multiple versions of the spec while it's still in flux.</p>
+
+<h2>Injected scripts</h2>
+
+<p>On the Chrome extension side, a script is injected into the web player
+application, which creates a WebSocket client that connects to the python
+server on port 1337. When media keys are pressed, the python server sends
+messages to the JS clients and the injected JS simulates DOM events in the web
+player application, controlling music playback.</p>
+
+<h2>Try it out</h2>
+
+<p>If you listen to Google Music, thesixtyone or Grooveshark in Chrome on OS X and
+want global key bindings, please install the <a href="https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik">extension</a> and
+<a href="https://github.com/downloads/borismus/keysocket/KeySocket.zip">application</a>. If you're feeling generous, contribute your time and love!
+I'd gladly take fixes for</p>
+
+<ul>
+<li>Key Socket servers for Linux and Windows</li>
+<li>Content scripts to control other web audio players</li>
+<li>Web Socket implementations that work with the new spec</li>
+</ul>
+
+<p>And of course, here's the <a href="https://github.com/borismus/keysocket">source</a>.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Extending chrome developer tools</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/extending-chrome-developer-tools"/>
+    
+    <updated>2011-07-11T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/extending-chrome-developer-tools</id>
+    <content type="html">
+      <div>
+        <p>Chrome’s developer tools (also known as the WebKit inspector) are super useful
+for web developers. If you aren't ramped up already, take a look at this
+<a href="/devtools-cheatsheet">cheat sheet overview</a>. Also check out some of many online resources,
+such as the <a href="http://code.google.com/chrome/devtools/docs/overview.html">official documentation</a>, which is quite readable, and this
+<a href="http://www.youtube.com/watch?v=nOEw9iiopwI">12 tricks screencast</a> from Paul Irish.</p>
+
+<p>But let’s not get sidetracked here. I wasn't going to write about using the
+developer tools, it’s about <strong>developing</strong> developer tools. There are two ways
+to go:</p>
+
+<ol>
+<li><p>You can extend the tools by writing chrome extensions that use the new
+<code>chrome.experimental.devtools</code> APIs. These recently created APIs are still
+subject to change, and marked experimental, so it’s a bit more difficult to
+distribute and install them compared to other chrome extension APIs (more on
+this later).</p></li>
+<li><p>You can quite easily hack the devtools code yourself, to customize it to
+your needs. Then, if you do a really good job, you can contribute your changes
+back to the chromium project and feel better for being such an awesome person.</p></li>
+</ol>
+
+<p>Let’s dive in, starting from the beginning.</p>
+
+<h2>Developer tools extensions</h2>
+
+<p>Chrome provides <a href="http://code.google.com/chrome/extensions/trunk/experimental.devtools.html">three separate APIs</a> for extending the developer tools:</p>
+
+<ol>
+<li><p>Audits - add a new audit to the Audits tab in the developer tools:
+<img src="/extending-chrome-developer-tools/audit.png" alt="auditshot" /></p></li>
+<li><p>Panels - add a whole new panel to the developer tools: <img src="/extending-chrome-developer-tools/panel.png" alt="panelshot" /></p></li>
+<li><p>Resources - access a <a href="http://groups.google.com/group/http-archive-specification/web/har-1-2-spec">HAR file</a> containing known resources</p></li>
+</ol>
+
+<p>There are several <a href="http://code.google.com/chrome/extensions/trunk/samples.html#devtools">extension samples</a> available as starting points,
+which cover all of the devtools extension API. The API is geared towards
+Audit-oriented extensions (HTML/CSS/Javascript validators, performance
+analyzers) and Panel-oriented extensions (framework specific tooling, etc).
+You can also write extensions that integrate more loosely with the developer
+tools (perhaps only using the resources API).</p>
+
+<h3>My JSHint audit extension</h3>
+
+<p>I wanted to get my hands dirty, and wrote a <a href="http://jshint.com">JSHint</a>-based Javascript
+validator extension. This extension uses the devtools audit API to create an
+audit that checks all scripts (linked and inline) on the current page. Errors
+are shown per-script in the audit results view. I wanted to go further, and
+allow the user to click on the error and jump to the resource, but this wasn’t
+possible with the developer tools extension API. To get around this limitation,
+I patched the developer tools with a pretty quick fix. More on modifying the
+devtools themselves later.</p>
+
+<p>Check out the JSHint audit extension <a href="https://github.com/borismus/jshint-extension">on github</a>.</p>
+
+<h3>Writing an extension</h3>
+
+<p>The first thing you should know about developer tools extensions, is that (at
+the time of writing), they are experimental. This means that you will need to
+launch chrome with a special flag to use them. I use a shell script called
+<code>chrome-devtools</code> in my <code>~/bin</code> (which is in my <code>$PATH</code> of course):</p>
+
+<pre><code>/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary \
+  --user-data-dir=/Users/smus/.chrome-devtools \
+  --enable-experimental-extension-apis \
+  --debug-devtools-frontend=/Users/smus/devtools_frontend
+</code></pre>
+
+<p>Let me explain these switches:</p>
+
+<ul>
+<li><p><code>--user-data-dir</code>: specifies a custom profile for your chrome (so you have a
+fresh profile to deal with and don’t accidentally clobber something important
+in your main chrome profile).</p></li>
+<li><p><code>--enable-experimental-extension-apis</code>: turns on experimental extension APIs.</p></li>
+<li><p>More on the last switch later.</p></li>
+</ul>
+
+<p>By the way, all of chrome’s switches are explained on <a href="http://peter.sh/experiments/chromium-command-line-switches/">this page</a>,
+provided by Peter Beverloo.</p>
+
+<p>Developer tools extensions are based on a devtools page, which gets loaded when
+the devtools open. You can specify this page in the manifest like other pages
+(such as background and options pages):</p>
+
+<pre><code>{
+  // manifest start
+  "devtools_page": "devtools.html",
+  // manifest end
+}
+</code></pre>
+
+<p>The API favors extensions that are built around an Audit or a Panel, and you
+are free to use the resources API, as well as the rest of the chrome extension
+features.</p>
+
+<p>One important note is that the devtools page has very limited access to chrome
+extension APIs, so you need to use <a href="http://code.google.com/chrome/extensions/messaging.html">messaging</a> and a background page to
+access the full chrome API.</p>
+
+<p>devtools.html:</p>
+
+<pre><code>// Send request to the background page
+chrome.extension.sendRequest({}, function(response) {
+  // Handle response
+});
+</code></pre>
+
+<p>background.html:</p>
+
+<pre><code>chrome.extension.onRequest.addListener(function(request, sender, callback) {
+  // Call some chrome extension APIs. For example,
+  chrome.tabs.getSelected(null, function(tab) {
+    // Etc... and then callback to devtools.html
+    callback({data: tab.id});
+  });
+});
+</code></pre>
+
+<h3>Debugging devtools extensions</h3>
+
+<p>When writing Chrome extensions, you have the power of the Chrome developer
+tools at your disposal. You can debug content scripts by inspecting the page
+into which the Javascript has been injected. Background pages can be viewed by
+running <code>chrome://extensions</code> in developer mode, and clicking on
+background.html for your extension.</p>
+
+<p>However, when you write a developer tools extension, you rely on this
+devtools_page as well as the rest of the extension ecosystem. Debugging this
+page can get a bit meta – just inspect the devtools with the devtools!</p>
+
+<p><img src="/extending-chrome-developer-tools/meta.png" alt="meta" /></p>
+
+<p>Now you can inspect your devtools.html page, and debug away!</p>
+
+<h2>Changing the product itself</h2>
+
+<p>In addition to being highly extensible via Chrome extensions, the devtools are
+also pretty easy to modify and tinker with. As you noticed earlier, the tools
+are a web application written in Javascript, CSS and HTML, and thus inspectable
+by the devtools themselves. This web application is hidden inside Chrome, but
+luckily Chrome makes it easy to run a custom version of it. Basically, it takes
+three steps:</p>
+
+<ol>
+<li>Download a <a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">devtools frontend zip</a> (pre-packed version of
+devtools). You will need to drill down into a directory for
+<a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html?path=Mac/91508/">your platform</a>.</li>
+<li>Extract the zip to some directory, <code>DIR</code>.</li>
+<li>Invoke Chrome with the <code>--debug-devtools-frontend=DIR</code> switch, specifying
+the same directory as in the previous step.</li>
+</ol>
+
+<p>Since the <code>devtools_frontend.zip</code> has some dependencies on Chrome, your zip file
+and chrome version should be pretty close, or you may run into problems. You can
+run the exact same version by also downloading the <code>chrome-platform.zip</code>.</p>
+
+<p>Note: the Chromium project has a more detailed <a href="http://code.google.com/chrome/devtools/docs/contributing.html">instruction set</a> for
+getting started.</p>
+
+<h3>Making it your own</h3>
+
+<p>Now that you have your custom devtools frontend, you can make tweaks to the
+JS/CSS/HTML source, and see those changes in your development version of
+chrome after you manually restart the browser.</p>
+
+<p>For example, a bunch of people wanted to get rid of the yellow highlight that
+appears overlaid in the browser window when hovering over DOM elements. At the
+time of writing, the method responsible for this is in <code>inspector.js</code> called
+<code>WebInspector.highlightDOMNode</code>. By applying this small patch, you can disable
+the default behavior.</p>
+
+<pre><code>1150,1151c1150
+&lt;     // Do not highlight the DOM node.
+&lt;     //this.highlightDOMNodeForTwoSeconds(nodeId);
+---
+&gt;     this.highlightDOMNodeForTwoSeconds(nodeId);
+</code></pre>
+
+<p>You can also easily make cosmetic tweaks to the devtools by changing the CSS.
+A lot of the base styles are implemented in <code>inspector.css</code>. For instance, for
+presentation purposes, the devtools are a bit small, so I find it useful to
+increase the size of the devtools, which is a one line CSS change.</p>
+
+<p>There's already a ton of useful features packed into the devtools, but I bet
+you can come up with some more awesomeness to add as an extension or chromium
+patch. Let me know if you do!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>OAuth 2.0 from chrome extensions</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/oauth2-chrome-extensions"/>
+    
+    <updated>2011-07-07T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/oauth2-chrome-extensions</id>
+    <content type="html">
+      <div>
+        <p>Applications that access online services often need to access a user's private
+data. Chrome Extensions are no different. OAuth has emerged as the standard way
+of letting users share their private resources across sites without having to
+hand out their usernames and passwords. There is already a very nice 
+<a href="http://code.google.com/chrome/extensions/tut_oauth.html">OAuth library for Chrome Extensions</a> that aims to simplify some of 
+the pains that developers face when authorizing against OAuth endpoints.</p>
+
+<p>Since this library was written, the OAuth standard enjoyed a version bump
+(<a href="http://oauth.net/2/">OAuth 2.0</a>) which greatly simplifies the flow by no longer requiring
+cryptography in the client. Also, some adventurous companies (notably
+Google, Facebook and others) have actually implemented OAuth 2.0
+endpoints. At the time of writing, OAuth 2.0 is still a draft spec, but is
+nearing completion, and Chrome Extensions need some love.</p>
+
+<p>You may be wondering why you even need an OAuth 2.0 library in the first place.
+As Aaron Parecki pointed out in his <a href="http://www.slideshare.net/aaronpk/the-current-state-of-oauth-2">Current State of OAuth 2</a>
+presentation at <a href="http://opensourcebridge.org/">Open Source Bridge</a> in Portland, OAuth 2 is very
+much a moving target. The spec is not yet finalized, and there are 16 versions
+of it (although the most popular seems to be v10). Also, today's OAuth 2
+implementations diverge from the spec in varying degrees, adding to the
+developer pain. The reason this library needs to be chrome extension-specific
+is that unfortunately Chrome extensions can't directly use the OAuth 2.0
+server-side or client-side flows because they live at <code>chrome-extension://</code>
+URLs.</p>
+
+<p>When writing the OAuth 2.0 library for Chrome extensions, I had some goals in
+mind:</p>
+
+<ol>
+<li>Support a variety of OAuth 2.0 providers that implement the spec</li>
+<li>Allow one app/extension to use multiple different OAuth 2.0 endpoints</li>
+<li>Avoid background pages for performance reasons</li>
+</ol>
+
+<h2>The OAuth 2.0 Library</h2>
+
+<p>There's a bit of setup involved if you'd like to create a Chrome extension that
+connects to an OAuth 2 endpoint. This brief tutorial will guide you through
+connecting to Google's APIs.</p>
+
+<p>Register your application with an OAuth 2.0 endpoint that you'd like to
+use. If it's a Google API you're calling, go to the <a href="https://code.google.com/apis/console/">Google APIs</a> page,
+create your application and note your client ID and client secret. For more
+info on this, check out the <a href="http://code.google.com/apis/accounts/docs/OAuth2.html">Google OAuth 2.0</a> docs. When you setup your
+application, you will be asked to provide redirect URI(s). Please provide the
+URI that corresponds to the service you're using.</p>
+
+<p>Here's a table that will come in handy:</p>
+
+<p><style>
+  #impls { margin-left: -100px; }
+  #impls td, #impls th { border: 1px solid #999 }
+  #impls td { padding: 5px }
+</style></p>
+
+<table id="impls">
+  <tr>
+    <th>Adapter</th>
+    <th>Redirect URI</th>
+    <th>Access Token URI</th>
+  </tr>
+  <tr>
+    <td>google</td>
+    <td>http://www.google.com/robots.txt</td>
+    <td>https://accounts.google.com/o/oauth2/token</td>
+  </tr>
+  <tr>
+    <td>facebook</td>
+    <td>http://www.facebook.com/robots.txt</td>
+    <td>https://graph.facebook.com/oauth/access_token</td>
+  </tr>
+  <tr>
+    <td>github</td>
+    <td>https://github.com/robots.txt</td>
+    <td>https://github.com/login/oauth/access_token</td>
+  </tr>
+</table>
+
+<h4>Step 1: Copy library</h4>
+
+<p>You will need to copy the <a href="https://github.com/borismus/oauth2-extensions/tree/master/lib">oauth2 library</a> into your chrome extension
+root into a directory called <code>oauth2</code>.</p>
+
+<h4>Step 2: Inject content script</h4>
+
+<p>Then you need to modify your manifest.json file to include a content script
+at the redirect URL used by the Google adapter. The "matches" redirect URI can
+be looked up in the table above:</p>
+
+<pre><code>"content_scripts": [
+  {
+    "matches": ["http://www.google.com/robots.txt*"],
+    "js": ["oauth2/oauth2_inject.js"],
+    "run_at": "document_start"
+  }
+],
+</code></pre>
+
+<h4>Step 3: Allow access token URL</h4>
+
+<p>Also, you will need to add a permission to Google's access token granting URL,
+since the library will do an XHR against it. The access token URI can be looked
+up in the table above as well.</p>
+
+<pre><code>"permissions": [
+  "https://accounts.google.com/o/oauth2/token"
+]
+</code></pre>
+
+<h4>Step 4: Include the OAuth 2.0 library</h4>
+
+<p>Next, in your extension's code, you should include the OAuth 2.0 library:</p>
+
+<pre><code>&lt;script src="/oauth2/oauth2.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h4>Step 5: Configure the OAuth 2.0 endpoint</h4>
+
+<p>And configure your OAuth 2 connection by providing clientId, clientSecret and
+apiScopes from the registration page. The authorize() method may create a new
+popup window for the user to grant your extension access to the OAuth2
+endpoint.</p>
+
+<pre><code>var googleAuth = new OAuth2('google', {
+  client_id: '17755888930840',
+  client_secret: 'b4a5741bd3d6de6ac591c7b0e279c9f',
+  api_scope: 'https://www.googleapis.com/auth/tasks'
+});
+
+googleAuth.authorize(function() {
+  // Ready for action
+});
+</code></pre>
+
+<h4>Step 6: Use the access token</h4>
+
+<p>Now that your user has an access token via <code>auth.getAccessToken()</code>, you can
+request protected data by adding the accessToken as a request header</p>
+
+<pre><code>xhr.setRequestHeader('Authorization', 'OAuth ' + myAuth.getAccessToken())
+</code></pre>
+
+<p>or by passing it as part of the URL (depending on the server implementation):</p>
+
+<pre><code>myUrl + '?oauth_token=' + myAuth.getAccessToken();
+</code></pre>
+
+<p><strong>Note</strong>: if you have multiple OAuth 2.0 endpoints that you would like to
+authorize with, you can do that too! Just inject content scripts and add
+permissions for all of the providers you would like to authorize with.</p>
+
+<p>I've provided <a href="https://github.com/borismus/oauth2-extensions/tree/master/samples">some sample extensions</a> that use this library to help
+you get started.</p>
+
+<h2>Varying OAuth implementations</h2>
+
+<p>Writing this library for one OAuth 2.0 endpoint was pretty straightforward.
+The issues came when branching out to support multiple OAuth 2.0 server
+implementations which comply to various degrees with differing versions of the
+spec.</p>
+
+<p>Facebook was the worst offender here. They claim to be an OAuth 2.0
+implementation in line with v10, but are actually quite far from it. Here are
+some of the issues:</p>
+
+<ul>
+<li><p>Token request method is GET instead of POST.</p></li>
+<li><p>Token response is some strange form encoded format instead of JSON.</p></li>
+<li><p><a href="http://developers.facebook.com/docs/authentication/permissions/">List of scopes</a> (aka "extended permissions") was really hard to
+find.</p></li>
+<li><p>Apparently to get a user's favorite music, you need the <code>user_likes</code>
+permission. Facebook, please <a href="http://forum.developers.facebook.net/viewtopic.php?pid=283691">fix your docs</a>.</p></li>
+<li><p>No refresh tokens but they have an offline_access permission which makes your
+access token expire later. This is ridiculous!</p></li>
+</ul>
+
+<p>Twitter doesn't even have an OAuth 2.0 API. <a href="http://dev.twitter.com/anywhere">@Anywhere</a> does not
+count. Some good <a href="http://www.quora.com/Why-isnt-Twitter-implementing-OAuth-2-0-just-like-Facebooks">questions</a> on <a href="http://www.quora.com/When-is-Twitter-going-to-implement-OAuth-2-0">quora</a> about this.</p>
+
+<p>Still there are a lot of services that <em>DO</em> implement OAuth 2.0, such as
+Foursquare, Gowalla, Windows Live, Salesforce, Soundcloud and many others.</p>
+
+<h2>Extending the Library</h2>
+
+<p>To mitigate differences between OAuth 2.0 implementations, I implemented the
+<a href="http://en.wikipedia.org/wiki/Adapter_pattern">Adapter pattern</a>. Doing this encapsulates protocol differences
+in a separate adapter module for each server implementation.</p>
+
+<p>The library comes with adapters for Google, Facebook and Github. These adapters
+are located in the <a href="https://github.com/borismus/oauth2-extensions/tree/master/lib/adapters">adapters directory</a> here. If you would like to
+contribute your own adapter, please take a look at the sample adapter and then
+<a href="https://github.com/borismus/oauth2-extensions">fork the project</a>, submit a pull request, and I'll try to add
+it to the project.</p>
+
+<p>Also, please let me know if you experience problems using this library and
+we'll sort them out! The best way to do this is via <a href="http://github.com/borismus">github</a> or
+<a href="http://twitter.com/borismus">twitter</a>.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Brazil trip</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/brazil-trip"/>
+    
+    <updated>2011-06-21T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/brazil-trip</id>
+    <content type="html">
+      <div>
+        <p>Last month I took a work trip to São Paulo, Brazil. I gave four Chrome/HTML5
+presentations and talked to many engineers and designers over the course of the
+week, trying hard not to sound like a broken record. Luckily Brazil has a lot
+of people so the audiences were different each time! Here's a link to my
+<a href="http://smustalks.appspot.com/brazil-11/">slides</a>, that I tweaked slightly depending on the audience.</p>
+
+<p>I'll be dumping all of my slide decks and/or talk videos to <a href="http://smustalks.appspot.com/">smustalks</a> on
+AppEngine. I've made the switch from building slides in Keynote to using this
+fantastic HTML5 <a href="http://code.google.com/p/html5slides/">slide deck</a> template and my favorite <a href="http://www.vim.org/">text editor</a>.</p>
+
+<h2>Food</h2>
+
+<ul>
+<li>Delicious fruits of all varieties: exotic cashew, persimmon, star fruit, guyava, and way tastier bananas.</li>
+<li>Ridiculously massive portions of sashimi at japanese restaurants.</li>
+<li>The Rodizio we went to was super exquisite. Largest salad bar ever, including caviar (srsly).</li>
+</ul>
+
+<h2>Life</h2>
+
+<ul>
+<li>SP is a concrete jungle like nothing I've ever seen. The whole city is built up within a 60km radius.</li>
+<li>Chaotic traffic patterns and insane motorcyclists abound. Everyone loves to drive between lanes and honk gratuitously.</li>
+<li>Super bumpy roads date back to the dictatorship days. If you take the wrong exit, prepare to jump around.</li>
+<li>Helicopters fly all over town and sometimes land precariously close to unsuspecting window cleaners dangling from highrise roofs.</li>
+<li>Beware foul smelling rivers and slums on the way to Friday morning meetings!</li>
+</ul>
+
+<h2>Work</h2>
+
+<ul>
+<li>Super friendly people but my Portuguese skills failed to topple the language barrier.</li>
+<li>Long process to get into any office building. Some ask for ID, others ask for passport. Takes half an hour just to get in...</li>
+<li>Somehow, Google Brazil still feels like Google!</li>
+</ul>
+
+<p>After my work was done, I took some <a href="https://picasaweb.google.com/boris.smus/Brazil">travel photos</a> and heard
+<a href="https://picasaweb.google.com/boris.smus/Brazil#5612942830070183426">Samba da Minha Terra</a> live, and by so doing, joined the ranks of Don and
+Magdalena!</p>
+
+<pre><code>I've never sailed the Amazon,
+I've never reached Brazil;
+But the Don and Magdalena,
+They can go there when they will!
+
+            - R. Kipling
+</code></pre>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Dynamic chrome extension icons</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/dynamic-icons-chrome-extensions"/>
+    
+    <updated>2011-06-06T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/dynamic-icons-chrome-extensions</id>
+    <content type="html">
+      <div>
+        <p>Extension developers aren't given much freedom to modify Chrome's browser
+chrome. Without resorting to changing the page itself, or using the new devtools
+extension APIs, there are two main ways of doing this. <a href="http://code.google.com/chrome/extensions/pageAction.html">Page actions</a>, which
+reside in the omnibox, and <a href="http://code.google.com/chrome/extensions/browserAction.html">browser actions</a>, which are positioned to the
+right of the omnibox both of which are simple buttons with icons, click actions
+and hover states. Chrome conveniently <a href="http://code.google.com/chrome/extensions/browserAction.html#method-setIcon">provides an API</a> to dynamically change
+the icon of these buttons.</p>
+
+<p>You can do this by creating image data by hand or using the canvas API's
+<code>getImageData</code> function.:</p>
+
+<pre><code>var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+// ...draw to the canvas...
+var imageData = context.getImageData(0, 0, 19, 19);
+chrome.browserAction.setIcon({
+  imageData: imageData
+});
+</code></pre>
+
+<p>Note that this would be possible even without this chrome-specific API, by
+instead using <a href="http://en.wikipedia.org/wiki/Data_URI_scheme">data URIs</a> to set the image. There's a GMail <a href="http://googlesystem.blogspot.com/2011/01/dynamic-gmail-favicon.html">labs plugin</a>
+that does this to badge the favicon with the unread email count.</p>
+
+<p>What makes this an interesting design domain is the limitation of the medium.
+Limited real estate (browser actions at 19x19 px, page actions at 16x16 px) adds
+significant constraints. Still, one can show numbers, colors, small icons and
+graphs in this context, or even small amounts of text.</p>
+
+<h2>Applications of Dynamic Icons</h2>
+
+<p>There are extensions that use dynamic icons already, such as the
+<a href="https://chrome.google.com/webstore/detail/kpekpmmfocifmbnnoahnclccmjkckpcl">PageRank extension</a>, which effectively shows the Google PageRank for the
+current page right inside the browser action.</p>
+
+<p>Here are some other possibilities (not at all an exhaustive list):</p>
+
+<ul>
+<li>Create badges for page actions (which don't implement <code>setBadge*</code> calls).</li>
+<li>Icon of the weather forecast, click to toggle between days.</li>
+<li>Bandwidth meter: how large was the download of this page?</li>
+<li>A random profile pic of people that +1'ed the site.</li>
+</ul>
+
+<h2>The Smallest Music Visualizer</h2>
+
+<p>I wrote a sample extension to demonstrate the dynamic icon potential of Chrome
+extensions. This indispensible extension is a music visualizer that renders
+inside of a browser action button. I use the <a href="http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html">Web Audio API</a> to playback a
+song and analyse the audio stream, render the visualized audio spectrum with a
+canvas element and then transfer the resulting image data to the browser action
+icon.</p>
+
+<p><img src="/dynamic-icons-chrome-extensions/music-vis.png" alt="screenshot" /></p>
+
+<p>Try out the <a href="https://chrome.google.com/webstore/detail/befnabfghcghgpmkjoalbecphdgdmick?hl=en">chrome extension</a> here, but note that it requires the Web Audio
+API flag to be enabled under about:flags (and a browser restart afterward).
+Check out and fork the <a href="https://github.com/borismus/Music-Visualizer-Chrome-Extension">source on github</a>.</p>
+
+<h2>Learnings</h2>
+
+<p>This music visualizer extension loads an mp3 file when the extension
+background page loads, which takes a certain amount of time. To provide a
+better user experience, I was hoping to change the icon to reflect that the
+file was being loaded, and ran into two issues.</p>
+
+<p>The first issue was that when I tried to render a small string like "wait" in
+the icon, I wanted to use a custom <code>@font-face</code> embedded font, which is now
+well supported in CSS3. You can load CSS fonts</p>
+
+<pre><code>@font-face {
+  font-family: "Silkscreen"
+  src: url(slkscr.ttf);
+}
+</code></pre>
+
+<p>and then use them in a canvas:</p>
+
+<pre><code>context.font = "8px Silkscreen";
+context.fillText('load');
+</code></pre>
+
+<p>When using custom fonts from HTML, the browser waits for the font to load, and
+then does a relayout. When using it from canvas, things get a bit tricky since
+the browser of course doesn't do font relayout for you and there's
+unfortunately no DOM event that fires when all embedded fonts finished loading.
+More precisely, onload behaviors differ from browser to browser. Mozilla waits
+for all fonts to load before firing the event, WebKit doesn't. You can work
+around this problem by assigning the custom font to a div, and observing the
+div's width, which will change when the font loads (<a href="https://github.com/paulirish/font-face-detect/blob/master/isFontLoaded.js">codified</a>).</p>
+
+<p>Although I ultimately didn't use this font to show loading state, I recommend
+checking out the <a href="http://kottke.org/plus/type/silkscreen/">silkscreen font</a> for 8-bit style designs that lend
+themselves well to small resolution envirnoments. You can fit about 3x3
+characters inside a 16x16 canvas:</p>
+
+<p><img src="/dynamic-icons-chrome-extensions/silkscreen.png" alt="silkscreen" /></p>
+
+<p>To show that the extension is still loading, I went with a progress bar instead
+of a message. A second issue arose when I wanted to show the progress
+bar animating while the mp3 loads. Unfortunately the Web Audio API doesn't
+currently support asynchronous loading of files, so the UI thread gets blocked
+during the <code>audioContext.createBuffer</code> call of this code snippet:</p>
+
+<pre><code>var request = new XMLHttpRequest();
+request.onload = function() {
+  var audioBuffer = audioContext.createBuffer(request.response, false);
+}
+</code></pre>
+
+<p>Async loading of audio buffers is now a <a href="https://bugs.webkit.org/show_bug.cgi?id=61947">tracked issue</a> for you upvote in
+the webkit bug tracker. I thought of working around this with Web Workers, but
+gave up early because of difficulties with passing objects between worker
+threads, and no shared memory options that would let workers access the
+context of the main UI thread.</p>
+
+<p>Another interesting observation is that <code>requestAnimationFrame</code> does not work in
+a background page. I initially tried to use it to animate the music visualizer,
+but it didn't work. This is of course the API is designed to only callback when
+the calling page is in the foreground, and since the background page is never
+foregrounded, the callback never fires.</p>
+
+<p>That's it for me, now it's your turn! So, dearest reader, go forth and write
+some awesome Chrome extensions which tastefully use dynamic icons for page
+actions, browser actions, and favicons to make our browsing experience even
+better.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Crunching numbers for the NHL finals</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/nhl-finals-numbers"/>
+    
+    <updated>2011-05-31T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/nhl-finals-numbers</id>
+    <content type="html">
+      <div>
+        <p>Now that the Vancouver Canucks are in the NHL Finals, a special visit to
+Vancouver is in order. Unfortunately, the recently posted schedule really
+sucks. There’s just one weekend game, and the rest are spaced in such a way
+that I can only hope to see Game 5 (if it happens) and either Game 4 or Game 6
+(if it happens) if I manage to work from home half of the week. The question
+is: which game to choose? I want to be in Vancouver when the Canucks take the
+cup!</p>
+
+<h2>Yay math!</h2>
+
+<p>Being super nerdy, I decided to throw math at the problem. Brushing up on
+probability, I calculated the odds of a series ending at each game (4-7). For a
+series to end in game 4, one team has to win all four games. The odds of this,
+given a 50% chance for each team to win, is (1/2)^4. Since there are two teams,
+multiply by two, resulting in a 1/8 chance. You can do similar calcuations to
+get the following odds:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.125  0.25   0.3125 0.3125
+</code></pre>
+
+<p>Based on this distribution, it seems that game 6 is more likely to see the end
+of the series than game 4, but then I would risk missing a game 4 victory.
+<a href="http://www.ted.com/talks/arthur_benjamin_s_formula_for_changing_math_education.html">Arthur Benjamin</a> would be proud of me (unless my numbers are wrong).</p>
+
+<h2>A bit of history</h2>
+
+<p>Historical data tells a different story. As it turns out, the NHL is really
+old, dating back to 1927, but the league switched to best-of-7 scoring in 1939.
+Wikipedia has a great chronology of NHL playoffs, complete with scores and
+brackets.</p>
+
+<p>I analyzed series scores from all playoff games in the last 25 years (since
+1985) by fetching raw wikipedia articles via wget and running them through a
+[python script]. Older records can also be found on wikipedia, but they are
+buried inside other pages, in harder to parse formats.</p>
+
+<pre><code>for year in {1985..2011} do
+  wget -O ${year} "http://en.wikipedia.org/w/index.php?title=${year}_Stanley_Cup_playoffs&amp;action=raw"
+done
+</code></pre>
+
+<p>This yielded the following distribution for playoff games, based on 383
+matches:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.16   0.24   0.33   0.27
+</code></pre>
+
+<p>For finals games only, the distribution is more skewed, probably in part due to
+a shortage of data (just NN finals games from the wikipedia page), but finals
+game history is probably a better predictor for finals games than all playoffs
+games, so this is worthwhile:</p>
+
+<pre><code>p(4)   p(5)   p(6)   p(7)
+0.28   0.24   0.27   0.21
+</code></pre>
+
+<p>Here are all three distributions plotted in a graph:</p>
+
+<p><img src="/nhl-finals-numbers/nhl-series-odds.png" alt="graph" /></p>
+
+<h2>Analyzing...</h2>
+
+<p>The most striking thing about this graph is the huge difference between finals
+history and stats, especially in the 4 game series scenario. Perhaps some teams
+just buckle under the pressure, while their opponents remain steadfast. Or this
+is just a statistically insignificant fluke that can be attributed to having an
+insufficiently large sample of finals matches.</p>
+
+<p>As expected, the historical distributions are skewed toward the series
+finishing in Game 4 due to unequal strength between teams. In other words, if
+one team is stronger than another, then the odds of that team winning each game
+would be greater, making the series shorter on average.</p>
+
+<h2>Decision!</h2>
+
+<p>Armed with numbers, I can decide whether to pick Game 4 or Game 6. Here are the
+odds of seeing the Canucks (yeah yeah, maybe the Bruins) win in games 4 or 5,
+compared to 5 or 6, as calculated from each of the three methods:</p>
+
+<pre><code>         Game 4 or 5            Game 5 or 6
+Stats        38%                    58%
+Playoffs     40%                    57%
+Finals       52%                    51%
+</code></pre>
+
+<p>Interesting. Given how annoying it would be to miss a Game 4 victory and how
+favorable the finals history-based odds look, I’ll go for 4 and 5. Now to try
+to work from home, book flights and bask in Canuck glory!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Chrome developer tools cheatsheet</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/devtools-cheatsheet"/>
+    
+    <updated>2011-05-13T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/devtools-cheatsheet</id>
+    <content type="html">
+      <div>
+        <p>Chrome's Developer Tools have been getting much deserved love at this last
+Google I/O. Paul Irish and I started with an <a href="http://www.io-bootcamp.com/">bootcamp lab</a>, a hands-on 
+walk through tweaking a web application using the developer tools. We handed
+out a cheatsheet to give developers an overview of available features.</p>
+
+<p><a href="https://github.com/borismus/DevTools-Lab/raw/master/cheatsheet/chromedev-cheatsheet.pdf"><img src="https://github.com/borismus/DevTools-Lab/raw/master/cheatsheet/chromedev-cheatsheet.jpg" alt="cheatsheet jpg" /></a></p>
+
+<p>The cheatsheet is available for download in <a href="https://github.com/borismus/DevTools-Lab/raw/master/cheatsheet/chromedev-cheatsheet.pdf">PDF</a> and
+<a href="https://github.com/borismus/DevTools-Lab/raw/master/cheatsheet/chromedev-cheatsheet.png">PNG</a>. </p>
+
+<p>Thanks to the awesome I/O organizers, we also gave away free HTML5 cake (as
+promised) after the session ended:</p>
+
+<p><img src="/devtools-cheatsheet/html5-cake.jpg" alt="html5 cake" /></p>
+
+<p>The developer tools were also featured at the <a href="http://www.youtube.com/watch?v=MiYND_zvIc0&amp;t=8m30s">start of the Chrome keynote</a>
+with a webkit-speech demo. Finally, Pavel Feldman (lead engineer for the dev
+tools) and Paul gave an great <a href="http://www.youtube.com/watch?v=N8SS-rUEZPg">I/O talk</a>.</p>
+
+<p>One of the most promising aspects of the Chrome Developer Tools is that they
+are easy to extend with (experimental) <a href="http://code.google.com/chrome/extensions/trunk/experimental.devtools.html">chrome extension APIs</a>. I'm stoked to
+see what people create to make these developer tools even better!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Multi-touch for your desktop browser</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/multi-touch-browser-patch"/>
+    
+    <updated>2011-05-02T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/multi-touch-browser-patch</id>
+    <content type="html">
+      <div>
+        <p>In mobile development, it's often easier to start prototyping on the desktop
+and then tackle the mobile-specific parts on the devices you intend to support.
+Multi-touch is one of those features that's difficult to test on the desktop, since
+most desktops didn't have multi-touch hardware, and thus desktop browsers don't
+have touch event support. Things are different today (you hear every mother say). 
+Most new Macs, for example, ship with multi-touch capable input of some sort.
+Unfortunately the browsers haven't really caught up yet.</p>
+
+<p>Enter Fajran Iman Rusadi, who released a <a href="https://github.com/fajran/npTuioClient">npTuioClient</a> NPAPI plugin with a
+JavaScript wrapper. Unfortunately this library provides a non-standard API to
+multi-touch, which is not ideal for developers that want to write their
+multi-touch application on desktop and then run the same code on their mobile
+devices without modifications.</p>
+
+<h2>Browser Patches</h2>
+
+<p>As HTML5 grows up, browser vendors struggle to stay current up with the growing
+variety of specifications. The result is <a href="http://caniuse.com/">uneven feature support</a> across
+browsers and a complex problem for web developers.</p>
+
+<p>The web development community has rallied around <strong>shims</strong> and <strong>polyfills</strong>
+for the solution. These are bizarre terms that I find confusing and so will
+defer to <a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">Remy Sharp to define</a>. The basic idea of both is to fill in
+functionality that's missing in the browser implementation.</p>
+
+<p>Since we now have a well established <a href="https://dvcs.w3.org/hg/webevents/raw-file/tip/touchevents.html">touch events specification</a> working
+group at the W3C, I wrote <a href="https://github.com/borismus/MagicTouch">MagicTouch.js</a>, a multi-touch polyfill thatlets
+you, the developer, write the same code, test it on your desktop browser and
+then, run it on your real device. Totally tubular!</p>
+
+<p>MagicTouch.js still relies on the npTuioClient plugin, it just creates
+spec-compatible touch events. Incidentally, here's how you can trigger custom
+DOM events:</p>
+
+<pre><code>var event = document.createEvent('CustomEvent');
+// Initialize the event, make it bubble up and possible to cancel
+event.initEvent('touchstart', true, true);
+// Assign properties to the event
+event.touches = touchArray;
+...
+// Get the element associated with the event
+var element = document.elementFromPoint(...);
+// Assign the element
+event.target = element;
+// Finally, dispatch the event
+element.dispatchEvent(event);
+</code></pre>
+
+<p>Note that this approach to create custom DOM events is not cross-browser
+compatible. I only tested in Chrome.</p>
+
+<h2>Installation</h2>
+
+<p>Here how to get multi-touch web events working in Chrome for Mac:</p>
+
+<ol>
+<li>Download and install the <a href="https://github.com/fajran/npTuioClient#readme">npTuioClient NPAPI plugin</a>
+into <code>~/Library/Internet Plug-Ins/</code>.</li>
+<li>Download the <a href="https://github.com/fajran/tongseng/downloads">TongSeng TUIO tracker</a> for Mac’s MagicPad and start the
+server</li>
+<li>Download <a href="https://github.com/borismus/MagicTouch">MagicTouch.js</a> and include both the script and the plugin in your
+app.</li>
+</ol>
+
+<p>The code for this is as follows:</p>
+
+<pre><code>&lt;head&gt;
+  ...
+  &lt;script src="/path/to/magictouch.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  ...
+  &lt;object id="tuio" type="application/x-tuio" style="width:0; height:0;"&gt;
+    TUIO Plugin failed to load
+  &lt;/object&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>...and you're off to the races! Your multi-touch code will now work. Try out
+this <a href="https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html">finger tracking demo</a> on either your multi-touch mobile device or your
+newly patched desktop browser.</p>
+
+<h2>Future Steps</h2>
+
+<p>As you saw, MagicTouch.js takes some effort to set up initially, requires
+you to use an <code>&lt;object&gt;</code> in the HTML, and also needs you to run a separate
+process for intercepting touch events. While we can't quite get away without
+having to run another process, we can eliminate the NPAPI plugin by using the
+<a href="http://dev.w3.org/html5/websockets/">WebSocket API</a> to communicate to that process.</p>
+
+<p>If you're interested in multi-touch mobile web development, check out this
+<a href="http://www.html5rocks.com/mobile/touch.html">article on html5rocks.com</a>.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>jQuery conference 2011</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/jquery-conference"/>
+    
+    <updated>2011-04-26T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/jquery-conference</id>
+    <content type="html">
+      <div>
+        <p>A few weekends ago I went to the jQuery Conference held at the MS campus in
+Mountain View. And I took notes!</p>
+
+<p>Overall trends about the jQuery community:</p>
+
+<ul>
+<li><p>People are writing more complex apps on top of jQuery and there
+is a widely understood need for MVC frameworks, such as <a href="http://documentcloud.github.com/backbone/">Backbone.js</a>, 
+<a href="http://knockoutjs.com/">Knockout.js</a> and <a href="http://javascriptmvc.com/">JavaScript MVC</a>.</p></li>
+<li><p>Feature detection is important!</p>
+
+<ul>
+<li>Polyfill - replicates standard feature with a compatible API</li>
+<li>Shim - provides its own API for a future feature</li>
+</ul></li>
+<li><p>Serious need for templating systems. Boris Moore showed a very performant
+demo of jQuery Templates. Many other templating systems exist as well,
+like one built into <a href="http://documentcloud.github.com/underscore/">underscore.js</a> and <a href="http://mustache.github.com/">mustache.js</a>.</p></li>
+<li><p>Many new mobile performance tools: <a href="http://www.blaze.io/">blaze.io</a> -- a tool that gives a
+general overview of a site's performance, <a href="http://pcapperf.appspot.com/">pcapperf</a> -- a web performance
+analyzer that uses tcpdump output from mobile device activity, and <a href="http://jdrop.org/">jDrop</a>
+-- a service that lets you capture large amounts of data on your mobile
+device and then analyze it on the desktop web browser.</p></li>
+<li><p>People are rallying around <a href="http://jshint.com/">JSHint</a>, a fork of Crockford's <a href="http://www.jslint.com/">JSLint</a>
+project, but with more configurable JavaScript sanitation rules.</p></li>
+<li><p>Haters gotta hate. Everybody seems to get a kick out of hating Douglas
+Crockford. Give the nice opinionated man a break and go write some
+JavaScript.</p></li>
+</ul>
+
+<p>I went to a bunch of talks, and I took the most notes for during this talk:</p>
+
+<h2>State of jQuery</h2>
+
+<p>John Resig talked about a bunch of changes to the project structure, largely
+irrelevant to jQuery library consumers. He also covered some of many jQuery 1.6
+improvements:</p>
+
+<ul>
+<li>Rewrite of <code>attr()</code> and <code>val()</code>. For example, <code>attr('val', false)</code> removes
+the attribute</li>
+<li>Separate <code>prop()</code> from <code>attr()</code>. Indeed!</li>
+<li><code>$('input:focus')</code> gets focused input box across platforms</li>
+<li>Significant performance boosts:
+<ul>
+<li><code>attr()</code> performance ~85% faster, <code>val()</code> ~150% faster, <code>data()</code> ~115%
+faster</li>
+</ul></li>
+<li>Integration with requestAnimationFrame for animations</li>
+<li><code>$.map(Object, function)</code> now works (as it does for Arrays)</li>
+</ul>
+
+<p>Pro tip: jQuery automatically parses serialized JSON if it's included as the value 
+of a HTML5 data attribute. Example: <code>&lt;header data-array="[0,1,2]"&gt;</code> then 
+<code>$('header').data('array')[1] == 1</code></p>
+
+<h2>State of jQuery Mobile</h2>
+
+<p>Mobile matters. 5.3 billion mobile subscriptions (cf. global population of 6.8
+billion), 10 billion web-enabled mobile devices.</p>
+
+<p>John Resig also touched on jQuery Mobile, and then Scott Jehl and Todd Parker went 
+into a lot more detail.</p>
+
+<ul>
+<li>Navigation model now uses the <a href="https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history">history API</a> for hash-less URLs.</li>
+<li>jQM minified and packed is ~18kb!</li>
+<li>Nice gallery of goodness at <a href="http://www.jqmgallery.com/">jQuery Mobile Gallery</a>
+<ul>
+<li>Including <a href="http://www.barackobama.com/m/">Obama's mobile site</a>!</li>
+</ul></li>
+<li>Media queries
+<ul>
+<li>Useful as a browser support cutoff heuristic.</li>
+<li>CSS classes added based on media queries, facilitating simpler styles</li>
+<li>Uses <a href="https://github.com/scottjehl/Respond">Respond.js</a>, a polyfill for browsers that don't support media queries</li>
+</ul></li>
+<li>Philosophy: easily brandable cross-device experience</li>
+<li>All builtin views are ARIA-enabled</li>
+</ul>
+
+<p>Pro tip: mouse events in some mobile browsers are on a <a href="http://cubiq.org/remove-onclick-delay-on-webkit-for-iphone">300ms delay</a> to allow
+the browser to interpret user's gestures. jQuery Mobile includes a fix for
+this!</p>
+
+<h2>Prototyping Tools in jQuery</h2>
+
+<p>Super useful and informative set of tools!</p>
+
+<p>MockJAX is a library that simulates a server.</p>
+
+<ul>
+<li>Intercepts and simulates AJAX calls
+<ul>
+<li>Define a URL structure and a response structure</li>
+</ul></li>
+<li>Can define responses as a function.</li>
+<li>Can simulate error responses.</li>
+<li>Useful for unit testing as well!</li>
+</ul>
+
+<p>MockJSON: create fake JSON on demand</p>
+
+<ul>
+<li>A way to generate random-ish JSON</li>
+<li>For example, <code>{'age|0-99'}</code> outputs <code>{'age': randint_between_0_and_99}</code></li>
+</ul>
+
+<p>Amplify: abstraction layer for all data</p>
+
+<ul>
+<li>Abstracts away shifting server-side APIs</li>
+<li>amplify.request.define can define a data store. </li>
+</ul>
+
+<p>For example:</p>
+
+<pre><code>amplify.request.define("list", "ajax", {
+  url: "/todo/",
+  dataType: "json",
+  type: "GET"
+});
+</code></pre>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>From Wordpress to Hyde</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/wordpress-to-hyde"/>
+    
+    <updated>2011-04-20T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/wordpress-to-hyde</id>
+    <content type="html">
+      <div>
+        <p>I've used <a href="http://wordpress.com/">Wordpress</a> for a couple of years now as my web publishing platform of
+choice. I customized it a little bit, and made a <a href="/new-design">custom theme</a> for it. But 
+nothing is perfect, and neither is wordpress. As a result of relatively heavy
+use, I've collected a list of things I don't much like about it:</p>
+
+<ul>
+<li>Can't upload source code since it restricts allowed file types.</li>
+<li>Can't easily edit files with a regular text editor.</li>
+<li>Painful theme customization.</li>
+<li>PHP makes it unpleasant to extend.</li>
+<li>Constant security upgrades required.</li>
+</ul>
+
+<p>All of these things separately are perhaps small and insignificant, but
+together add up to create a certain barrier to blogging.</p>
+
+<h2>Static files</h2>
+
+<p>A blog is mostly static. Why should my article be stored in a database? It's hardly 
+ever queried or searched. Comments are perhaps the exception here, but services
+like <a href="http://disqus.com/">Disqus</a> implement commenting with embeddable JavaScript. And in general,
+dynamic parts can be handled in client-side code.</p>
+
+<p>So I looked to static site generators. There's about <a href="http://stackoverflow.com/questions/186290/best-static-website-generator">a million</a> of these,
+the most prominent of which is <a href="https://github.com/mojombo/jekyll">Jekyll</a>, written by the github co-founder. 
+Ultimately I chose <a href="https://github.com/lakshmivyas/hyde/">Hyde</a> for it's use of <a href="http://docs.djangoproject.com/en/dev/ref/templates/builtins/">Django templates</a> and Python.</p>
+
+<h2>Migrating the old blog</h2>
+
+<p>The old blog was written in HTML, but I wanted to switch to a format that can
+be written faster, such as Markdown, Textile, or many others. To do this I used
+a tool called exitwp, which parses the Wordpress export and generates Markdown
+files appropriate for Jekyll. I <a href="https://github.com/borismus/exitwp">forked exitwp</a> and hacked it to generate
+files better suited to Hyde. Thanks <a href="http://thomas.jossystem.se/">Thomas Frössman</a> for exitwp.</p>
+
+<p>I did spent a fair amount of time tweaking the export, replacing Smart YouTube URLs
+with real YouTube embeds, and eliminating Syntax Highlighter markup.</p>
+
+<h2>Customizing hyde</h2>
+
+<p>Hyde is basically built on top of Django templates, so is customizable with
+template tags and filters, written in Python. It comes with a bunch of them,
+including ones that parse markdown and other structured text formats into HTML.</p>
+
+<p>Surprisingly I didn't need to customize Hyde much, although I did fix a couple of 
+bugs, which the author, <a href="http://ringce.com/">Lakshmi Vyas</a> accepted. Anyway, I feel much more
+future proof now than with Wordpress, since I can easily write extensions in
+Python, or in the worst case take my Markdown-formatted blog posts and easily
+export them to many different formats.</p>
+
+<h2>Dynamic stuff</h2>
+
+<p>The bit of custom JS for the site layout is written using jQuery.</p>
+
+<p>I use the excellent <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a> plugin to highlight code snippets. The
+jQuery <a href="http://timeago.yarp.com/">timeago</a> plugin does a great job of converting absolute dates (April
+1, 2010) to relative dates (about a year ago). Finally, Disqus powers comments,
+which I migrated from the wordpress database.</p>
+
+<h2>New design</h2>
+
+<p>In my great wisdom, I decided that since there's so much flux in the blog, why not
+add some more chaos by switching to a new layout too? Here's the old layout:</p>
+
+<p><img src="/wordpress-to-hyde/old-design.png" alt="old" /></p>
+
+<p>I recently heard from sage advice from some experienced writers. Among things
+that stuck were:</p>
+
+<ul>
+<li>Optimal posting time is 9am PST</li>
+<li>Writing personal posts is OK sometimes</li>
+<li>Show personal information in the sidebar</li>
+</ul>
+
+<p>The last part is expressed in the new design. Overall the redesign was an
+exercise in typography, CSS3 features and <a href="http://www.alistapart.com/articles/responsive-web-design/">responsive layout</a>. </p>
+
+<p><a href="http://www.google.com/webfonts">Google fonts</a> is a nice collection of web fonts. I decided to switch from
+Myriad (used on borismus.com) to a serif for the main body for a
+change. I ultimately went with <a href="http://www.google.com/webfonts/list?family=PT+Serif">PT Serif</a>, which seemed like a nice
+improvement to Georgia, which is probably my favorite serif web font.</p>
+
+<p>I used a bunch (too many?) CSS3 features on the new site. Most of these are
+CSS box-shadows, gradients, transformations and transitions. I used <a href="http://sass-lang.com/">SCSS</a>.</p>
+
+<p>Also, following the responsive layout philosophy, I wanted the site to scale well
+to a number of different resolutions. For example, the sidebar moves to the end of the 
+articles if the window is too narrow. Also, in the <a href="/projects">projects page</a>, the number of 
+columns of projects is flexible. This is achieved through <a href="http://www.w3.org/TR/css3-mediaqueries/">CSS media queries</a>.</p>
+
+<p>For posterity, here is the new layout at the time of writing:</p>
+
+<p><img src="/wordpress-to-hyde/new-design.png" alt="new" /></p>
+
+<h2>New domain</h2>
+
+<p>I also recently bought <a href="http://smus.com">smus.com</a> from a fellow in Germany, and will be migrating 
+my site there. I'll keep the <a href="http://borismus.com">borismus.com</a> blog intact for a while, but will 
+place an annoying banner there, and disable commenting. I guess I should also 
+switch the feedburner feed to point to smus.com as well.</p>
+
+<p>Not long ago, I wrote about how switching from webfaction and apache to slicehost
+and NGINX greatly <a href="/lightweight-wordpress-on-slicehost/">enhanced page load time</a>. Well, this seems to have happened again.
+Over the same time period, the average response time of my wordpress instance was 
+<strong>934ms</strong>:</p>
+
+<p><img src="/wordpress-to-hyde/old-perf.png" alt="old perf" /></p>
+
+<p>Over the same time frame, my static blog, hosted on the same machine, responded on 
+average in <strong>371ms</strong>:</p>
+
+<p><img src="/wordpress-to-hyde/new-perf.png" alt="new perf" /></p>
+
+<p>Oh, finally, the site is fully open source <a href="http://github.com/borismus/smus.com">on github</a>. </p>
+
+<h2>Thanks</h2>
+
+<p>Thanks to a bunch of people:</p>
+
+<ul>
+<li>Sol, Kat and Jon for giving useful design feedback!</li>
+<li><a href="http://nlevin.com/">Noah Levin</a> for awesome CSS3 tweaks</li>
+<li>Steve Losh for his <a href="http://stevelosh.com/blog/2010/01/moving-from-django-to-hyde/">Hyde migration</a> write-up</li>
+</ul>
+
+<p>You, for reading this post and continuing to read this blog. Until next time!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Chrome media keyboard shortcuts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/chrome-media-keys"/>
+    
+    <updated>2011-04-01T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/chrome-media-keys</id>
+    <content type="html">
+      <div>
+        <p>Few people want to synchronize their burgeoning music libraries across
+computers (SSDs are small), or even lift it into the clouds with
+something like Amazon's Music Cloud (uploading would take forever). As a
+result many are saying goodbye to iTunes and moving to web-based
+streaming music services like <a href="http://listen.grooveshark.com/">grooveshark</a>, <a href="http://www.last.fm">last.fm</a>,
+<a href="http://thesixtyone.com">thesixtyone</a>, <a href="http://rdio.com">rd.io</a> etc. This move has a significant UX drawback:
+many keyboards come with multimedia keys to control your music player,
+but these are useless if you use a web-based music player. This post
+addresses this inconvenience with <a href="https://chrome.google.com/extensions/detail/cpgegiegacijlefhjkfodppcefjhgdeo/">Media Keys</a>, a Chrome extension
+that lets you assign keyboard shortcuts in Chrome control web-based
+music players (currently thesixtyone only).</p>
+
+<h2>How it works</h2>
+
+<p>The extension relies on two injected <a href="http://code.google.com/chrome/extensions/content_scripts.html">content scripts</a>: <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/key.js">key.js</a>, a
+keyboard event listener injected into all pages and <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/t61.js">player.js</a>, a
+music player controller, injected into the player page. </p>
+
+<p>Key.js intercepts keyboard commands (ex. the next song key), and if they
+match bound music player keyboard shortcuts (ex. next song key =>
+change to the next song), it sends a message to player.js, which then
+does the right thing (ex. changes to the next song) by simulating mouse
+clicks.  Sounds good on paper, but the snag here is that you can't
+easily do direct tab-to-tab communication in Chrome extensions, except
+possibly through a long-lived port connection. However using long lived
+connections doesn't make conceptual sense, since the lifespan of a tab
+is relatively short. </p>
+
+<p>So we go the long way with the help of a <a href="http://code.google.com/chrome/extensions/background_pages.html">background page</a>.</p>
+
+<ol>
+<li>On tab load, injected key.js messages the background page to
+retrieve media key bindings</li>
+<li>On music player load, injected player.js messages the background
+page, reporting its tab ID. The background page <a href="http://code.google.com/chrome/extensions/messaging.html#connect">opens a Port</a>
+through which to communicate with the player page</li>
+<li>Matching keyboard events on all tabs send messages to the background
+page. The background page then relays those messages through the
+port to the music player</li>
+</ol>
+
+<p>Here's an abridged code sample from the <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/dispatch.html">background page</a>: </p>
+
+<pre><code>chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    switch(request.type) {
+      case 'command':
+        try {
+          port.postMessage(request.command);
+        } catch(error) {
+          if (localStorage['autoload']) {
+            chrome.tabs.create({url: SITE_URL});
+          }
+        }
+        sendResponse({});
+        break;
+      case 'register':
+        chrome.tabs.getSelected(null, function(tab) {
+          port = chrome.tabs.connect(tab.id);
+          sendResponse({});
+        });
+        break;
+    }
+  }
+);
+</code></pre>
+
+<p>To summarize, this approach enables a client-side remote control for a
+specific web application from any other page. This is potent stuff!</p>
+
+<h2>Try it out</h2>
+
+<p>Want to try it out? Media Keys works across all Chrome platforms.</p>
+
+<ol>
+<li>Install <a href="http://kevingessner.com/software/functionflip/">Function Flip</a> <em>(Mac only)</em></li>
+<li>Check previous, pause/play and next buttons (F6, F7, F8 here) <em>(Mac
+only)</em></li>
+<li>Install the <a href="https://chrome.google.com/extensions/detail/cpgegiegacijlefhjkfodppcefjhgdeo">Media Keys</a> extension</li>
+<li>Open up the extension options, bind the keys and save</li>
+<li>Open up a new page and press the key bound to play</li>
+</ol>
+
+<p>I made a short screencast showing how to install configure and use the
+extension.</p>
+
+<iframe title="YouTube video player" width="600" height="368"
+  src="http://www.youtube.com/embed/SrfsnU2gSyI" frameborder="0"
+  allowfullscreen></iframe>
+
+<h2>Wish list</h2>
+
+<p>Just to recap, the keyboard shortcut binding pattern described above
+injects a script into all tabs, which essentially listens to all key
+events. A malicious developer could write a key logger watches username
+and password fields, correlates to the current domain and sends
+harvested data to some private server. </p>
+
+<p>There are also several limitations to this keyboard shortcut binding
+pattern. It simply won't work in the following cases:</p>
+
+<ol>
+<li>Chrome is in the background</li>
+<li>Focus inside chrome is not on the page (ex. location bar)</li>
+<li>Chrome is on a special page (ex. new tab page) where content scripts
+don't get injected</li>
+<li>The current page intercepts keyboard events and stops propagation
+(ex. Google Docs)</li>
+</ol>
+
+<p>Keyboard shortcuts are super important to power users, and Chrome (OS)
+surely won't leave us in the dust, so I'm looking forward to helping
+address the security risks and practical limitations this approach as a
+Chromium project contributor.</p>
+
+<h2>Share and enjoy</h2>
+
+<p>One last thing. If you've read my <a href="/chrome-extension-mashups/">previous post</a>, you know that I'm a
+big fan of <a href="http://thesixtyone.com">thesixtyone.com</a> so my initial implementation
+works for this service only. Making it work for other music streaming
+services is just a matter of creating a customized player.js file for
+your favorite music app, and tweaking the manifest to inject the new
+player.js into the correct domain. Feel free to fork the 
+<a href="https://github.com/borismus/Chrome-Media-Keys">project on github</a>.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Chronos: Chrome browsing metrics</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/chronos"/>
+    
+    <updated>2011-03-21T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/chronos</id>
+    <content type="html">
+      <div>
+        <p>Like most people, I'm slowly lifting most of my work into the cloud.
+This leads to a lot of time spent in the browser. Just how much, I'm not
+really sure. Enter <a href="https://chrome.google.com/extensions/detail/dbgohgmphghmoghphoiaghbopikmmgop/">Chronos</a>, a Chrome extension to track how much
+time you spend on each domain you visit. Chronos gives a per-day
+breakdown of time spent actively browsing. In addition to showing a
+graphical summary of domain frequency, you also get a total time spent
+in Chrome, and how much time your Chrome spends idle.</p>
+
+<p>Chronos, named after the Greek god of time, quietly sits and monitors
+keyboard and mouse events you generate. If you've been active recently,
+the domain you're visiting gets recorded. The data structure that stores
+this timing information persists on the client side using localStorage.
+This data is never sent to any servers, so your browsing privacy is
+preserved. Chronos' visualization is built out of HTML divs. Just for
+fun, if you become inactive in Chrome, the Chronos icon in the
+extensions toolbar fades out.</p>
+
+<p>Some features that I would find useful to
+add to Chronos revolve around productivity and time management:</p>
+
+<ol>
+<li>Chronos makes it really obvious which sites consume most of your
+time. It would make sense to be able to enforce time limits spent on
+sites, either by interfacing with an extension like <a href="https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji">StayFocusd</a>,
+or by replicating that functionality.</li>
+<li>Many people find it helpful to be reminded to take breaks from
+computing, either for RSI purposes or for general productivity.
+Chronos already tracks activity levels in Chrome, so it could be
+augmented to remind people to take breaks in a way similar to
+<a href="http://tech.inhelsinki.nl/antirsi/">AntiRSI</a>.</li>
+</ol>
+
+<p>Have a great idea to add to Chronos? Let me know, or add it yourself! As
+usual, the <a href="https://github.com/borismus/Chronos">source code</a> is on github.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>SXSW LEGO MINDSTORMS hackathon</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/sxsw-mindstorms-hackathon"/>
+    
+    <updated>2011-03-17T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/sxsw-mindstorms-hackathon</id>
+    <content type="html">
+      <div>
+        <p>I just returned to San Francisco after having a blast at my second SXSW.
+Last time I attended, two years ago, I spent most of my time attending
+sessions and networking. This year I was mostly on the other side:
+preparing talks, staffing booths and organizing events. This year's
+highlight was definitely the LEGO MINDSTORMS hackathon, held as part of
+<a href="http://extraordinary-hackers.appspot.com/hackathon.html">The League of Extraordinary Hackers</a> event put on by Google and
+others, that I helped Chris Messina organize. We modeled the event after
+<a href="http://breadpig.com/2011/01/18/hack-club-1-total-success/">Breadpig's Hack Club</a>, but scaled it up. The event was so awesome
+that here I am blogging about it! </p>
+
+<p><a href="/sxsw-mindstorms-hackathon/hackathon.jpg"><img src="/sxsw-mindstorms-hackathon/hackathon-small.jpg" alt="hackathon image" /></a></p>
+
+<p>At 7pm, 12 teams of 3-6 people began building MINDSTORMS sumo robots
+which would then compete in a double elimination tournament. We had
+mixed skill levels, from complete novices to people working at National
+Instruments, the company that builds the LEGO MINDSTORMS software. Teams
+were given 4 hours to build their robots out of two complete NXT sets
+and additional LEGO parts. During battle, their autonomous robots were
+placed back to back, starting with a 180 degree turn before trying to
+push each other out of the ring. The battles started at 11:30pm, and
+went on for about an hour.</p>
+
+<iframe title="YouTube video player" width="600" height="480"
+  src="http://www.youtube.com/embed/-oELrCuDrrE" frameborder="0"
+  allowfullscreen></iframe>
+
+<p>We had a great turnout of spectators and builders on the third floor of
+the <a href="http://www.speakeasyaustin.com/">Speakeasy</a>. The crowd was engaged the whole time, thanks to the
+lively narration of MC <a href="http://twitter.com/tielure">@tielure</a>, which is quite surprising, given
+the amount of party hopping that usually ensues during SXSW. Here's the
+final round (Tiger Blood vs. Beam Me Up):</p>
+
+<iframe title="YouTube video player" width="600" height="480"
+  src="http://www.youtube.com/embed/3EJD6M0zDbw" frameborder="0"
+  allowfullscreen></iframe>
+
+<p>At the end of the day, we made hundreds of geeks happy, and donated
+something on the order of $15,000 of LEGOs to charity. I got to work
+with tons of awesome people, including <a href="http://twitter.com/chrismessina">@chrismessina</a>, <a href="http://twitter.com/kcpike">@kcpike</a>,
+<a href="http://twitter.com/StevenCanvin">@StevenCanvin</a>, <a href="http://twitter.com/Chrysaora">@Chrysaora</a> and many others. The event even got
+some good press on <a href="http://mashable.com/2011/03/13/league-of-extraordinary-hackers/">mashable</a>. </p>
+
+<p>My only regret is not having my real camera with me, so if you have high
+quality footage of the event that I haven't included in this post,
+please let me know. Looking forward to next time!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Soundsourcing: the sound of the crowd</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/crowdsourcing-sound"/>
+    
+    <updated>2011-02-20T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/crowdsourcing-sound</id>
+    <content type="html">
+      <div>
+        <p>After having dabbled in crowdsourcing research, I wanted to find a
+compelling MTurk application around which to build a real service that
+would simultaneously be useful, involve creative tasks, and be fun
+enough to capture my attention. Generating sound effects seemed to fit
+the bill. Creating sounds through imitation or collecting is creative,
+fun and (ahem, quality aside) easy due to the ubiquity of microphones.
+Enter experimental service <a href="http://soundsourcing.com">soundsourcing.com</a>. </p>
+
+<p>First I had to verify some basic questions: Would turkers be willing to
+create and submit sound effects? Would their output be sufficiently good
+for someone to use in practice? Would it be possible to have some
+quality control process to weed out the blatantly bad submissions?
+Jumping into experimentation, I asked workers to imitate or record a cow
+mooing, paying ten cents for their efforts. After 3 days I had a set of
+moos:</p>
+
+<p><object height="285" width="100%"><param name="movie"
+  value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F527826&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=true&amp;show_artwork=true&amp;color=ff7700"></param><param
+  name="allowscriptaccess" value="always"></param> <embed
+  allowscriptaccess="always" height="285"
+  src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F527826&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=true&amp;show_artwork=true&amp;color=ff7700"
+  type="application/x-shockwave-flash" width="100%"></embed></object></p>
+
+<p>Taking it up a notch, I requested the more obscure sound of a 
+<a href="http://soundcloud.com/borismus/sets/turkish-trains-leaving-the-station/">train leaving the station</a>. There were many excellent submissions in
+the mix, although I suspect that many of them were not created by the
+workers but found online despite my empty threat to verify their
+originality and reject. My favorite is probably this train, improvised
+on harmonica: </p>
+
+<p><object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151"></param><param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151" type="application/x-shockwave-flash" width="100%"></embed></object></p>
+
+<p>As usual, the hard problem with crowdsourcing is quality control. I
+approach this problem with a rating step after the sound samples have
+been submitted, in which turkers select their top three samples from the
+sound set (shuffled in random order to avoid <a href="http://www.jstor.org/pss/3151704">order bias</a>). Each
+instance of such a task can be done cheaply (I tried $0.05), so ordering
+the whole set in quality becomes easy. In the future I'd like to write
+some JS to verify that the turker in fact listened to all of the
+samples. Below is the rating form presented to MTurk users:</p>
+
+<p><img src="/crowdsourcing-sound/turk-rate.png" alt="image" /> </p>
+
+<p>When all of the pieces came together and some time remained, I built
+<a href="http://soundsourcing.com">soundsourcing.com</a> around this concept. I implemented the service
+using <a href="http://www.djangoproject.com/">Django</a> and <a href="http://code.google.com/p/boto/">Boto</a>, reusing many concepts from the
+<a href="/crowdforge">CrowdForge</a> framework. The premise of the service is that people
+seeking very specific sound effects that they cannot find on existing
+sound effects sites can use soundsourcing to get their custom sounds
+built to order. The basic flow of HITs on MTurk looks like this:</p>
+
+<p><img src="/crowdsourcing-sound/soundsourcing.jpg" alt="image" /> </p>
+
+<p>Since the cow and train experiments, I have collected <a href="http://soundsourcing.com/set/a-lion-roaring/">lion roars</a> and
+sword slashes (submissions are in progress at the time of writing).
+Please check out <a href="http://soundsourcing.com">the site</a>, request a sound sample
+and submit some feedback below. Mechanical Turkers, let's make some
+noise!!</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>CrowdForge: crowdsourcing complex tasks</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/crowdforge"/>
+    
+    <updated>2011-02-02T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/crowdforge</id>
+    <content type="html">
+      <div>
+        <p>Work marketplaces like MTurk are great for accomplishing small, well
+defined nuggets of work, such as labeling images and transcribing audio,
+but terrible for many more complex and labor intensive real world tasks.
+Over the last year, Robert Kraut, Niki Kittur and I formalized a general
+process of solving such complex problems using MTurk. We proposed three
+basic types of tasks and explored them in two neat experimental
+applications. To facilitate these experiments, I implemented CrowdForge,
+a Django framework that takes output from MTurk HITs and uses it to
+create new MTurk HITs. </p>
+
+<p>Solving complex problems on MTurk has always involved partitioning the
+complex task into simpler sub-tasks.  CastingWords, one of the most
+popular MTurk requesters, transcribes long audio recordings by splitting
+them into overlapping segments, distributing the work among workers,
+performing quality control and then recombining the transcription
+fragments. CrowdForge formalizes this approach and takes it to the next
+level. CrowdForge proposes the following task breakdown, roughly
+inspired by the MapReduce programming paradigm:</p>
+
+<ul>
+<li><strong>partition</strong> tasks split a problem into sub-problems (one to many)</li>
+<li><strong>map</strong> tasks solve a small unit of work (one to one)</li>
+<li><strong>reduce</strong> tasks combine multiple results into one (many to one)</li>
+</ul>
+
+<p><img src="/crowdforge/crowdforge-simple.png" alt="image" /> </p>
+
+<p>CastingWords uses human intelligence only for their map tasks, which
+consist of transcribing speech samples to text. Their partition task may
+involve an algorithm which seeks natural breaks in speech audio samples,
+while the reduce task may involve programmatic stitching of audio
+samples. For sufficiently complex cases, however, algorithms may be
+inadequate, and the partitioning and reduction require human
+intelligence. Here are some experiments that illustrate this idea:</p>
+
+<h2>Writing Articles</h2>
+
+<p>In the first experiment, turkers generated encyclopedia-style articles
+on a given subject. The approach I took was to first generate an article
+outline using an partition task, then for each heading in the outline,
+to collect facts on the topic, next to combine these facts into a
+paragraph, finally merging all of the paragraphs into a final article.
+The following diagram illustrates this process for an article on New
+York City: </p>
+
+<p><img src="/crowdforge/crowdforge-article.png" alt="image" /> </p>
+
+<p>In one incarnation of this experiment, we used this approach to create
+five articles about New York City. Articles cost an average of $3.26 to
+produce, required an average of 36 subtasks or HITs, included an average
+of 5.3 topics per article and consisted of an average of 658 words. As a
+comparison baseline, we created eight HITs which each requested one
+worker to write the full article, paying $3.26, the same amount required
+for the collaboratively written articles. </p>
+
+<p>We then evaluated the quality of all articles by asking a new set of
+workers to each rate a single article based on use of facts, spelling
+and grammar, article structure, and personal preference. On average the
+articles produced by the group were of rated on par with the Simple
+Wikipedia article on the same topic, and higher than those produced
+individually. See the paper for gritty details on the stats.</p>
+
+<h2>Product Comparisons</h2>
+
+<p>We did another experiment to prove the generality of the approach. We
+used CrowdForge to create purchase decision matrices to assist consumers
+looking to buy a new car. Given a short description of a consumer need,
+we created two partition tasks: one to decide which cars might be
+appropriate to consider, and one to decide which features the consumer
+cares most about. This double partition resulted in an empty product
+comparison chart. Each cell in the chart then spawned a map task to
+collect related facts. Next, these facts are reduced into a sentence,
+resulting in a product comparison chart. Here's an excerpt: </p>
+
+<p><img src="/crowdforge/crowdforge-purchase.png" alt="image" /></p>
+
+<p>The entire task was completed in 54 different HITs for a total cost of
+$3.70. When we tried to compare to the individual case, we had no
+success getting individuals to generate a similar product comparison
+chart, even when offering more money than we paid the entire group.</p>
+
+<h2>Sweet Applications</h2>
+
+<p>MTurk is a one of my favorite tools for doing <a href="http://www.quora.com/What-are-the-most-creative-uses-of-Amazon-s-Mechanical-Turk">creative and novel</a>
+projects. As illustrated, applying human intelligence to reduce and
+partition tasks, we can solve a new set of interesting problems. But
+there is much more to explore! For example, imagine collaborative
+drawing assignments in which a worker sketches out a picture, and
+subsequent workers refine the original picture by drawing sub-pictures
+or specific objects. Imagine requesting a trip plan and getting a
+researched day-by-day itinerary of what to see and do. Imagine
+partitioning a Java class into methods, outsourcing the implementation
+and unit test implementations. </p>
+
+<p>CrowdForge is written as a Django application that communicates with
+MTurk servers using the <a href="http://code.google.com/p/boto/">Boto interface</a>, which is a Python framework
+that encapsulates the Amazon Web Services API. CrowdForge regularly
+polls MTurk and fires notifications whenever interesting things happen
+(a new result comes in for a HIT, all HITs of a certain type are
+finished, a HIT is expired or complete). CrowdForge can manage many
+flows, which encapsulate code that determines how to respond to these
+events. For example, the article writing flow knows to create fact
+collection HITs for each outline topic once the outline is submitted. So
+to solve a new kind of complex problem, you would extend CrowdForge with
+a custom flow, like the following: </p>
+
+<p><img src="/crowdforge/crowdforge-complex.png" alt="image" /></p>
+
+<p>"But Boris", you say, "how can I get my hands on this CrowdForge
+framework of yours?" Indeed, we just <a href="https://github.com/borismus/CrowdForge">released it</a> for non-commercial
+use under <a href="http://creativecommons.org/licenses/by-nc/3.0/">the Creative Commons license</a>. Let me know if you have any
+questions, comments or interest in collaborating or maintaining the framework.</p>
+
+<p><strong>Update (February 2011):</strong> CrowdForge was covered in <a href="http://www.newscientist.com/article/mg20927985.800-silicon-supervisor-gets-the-job-done-online.html">NewScientist</a>,
+in a <a href="http://www.cmu.edu/homepage/society/2011/winter/crowdforge.shtml">CMU article</a>, and in a <a href="http://open.blogs.nytimes.com/2011/10/19/uist-2011-crowdsourcing-research/">NY Times blog</a>.</p>
+
+<p><strong>Update (November 2011)</strong>: The <a href="/crowdforge/crowdforge-uist-11.pdf">full paper</a> was <a href="http://smustalks.appspot.com/crowdforge-11/">presented</a> at
+<a href="http://www.acm.org/uist/">UIST 2011</a> in Santa Barbara.</p>
+
+
+        
+      </div>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>KML tours in Google Earth</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/kml-tours-google-earth"/>
+    
+    <updated>2010-12-25T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/kml-tours-google-earth</id>
+    <content type="html">
+      <div>
+        <p>Over this last year and a half, I spent a lot of time in airports,
+flying nearly 150,000 km (queue environmental angst). I lived in Europe
+and both coasts of the US, somehow getting a masters from CMU in the
+end. For posterity, I wanted to digitally summarize this extensive
+globetrotting experience, but found no adequate applications. It was an
+experience worth celebrating, and how better to celebrate than by
+writing some code...? So I wrote <a href="http://thattrip.appspot.com/">an application demo</a> that renders
+travel adventures as a tour in Google Earth. </p>
+
+<p>First you fill in a pretty silly madlib describing your trip: </p>
+
+<p><img src="/kml-tours-google-earth/madlib.png" alt="image" /> </p>
+
+<p>Then, you can view your trip in the browser using the [Google Earth
+plugin][], or download the tour and open it in the Google Earth
+application. Each trip gets a unique URL that can be shared with others.
+Here is a youtubified summary of my recent travels generated by this
+app:</p>
+
+<iframe title="YouTube video player" width="600" height="480"
+  src="http://www.youtube.com/embed/N1y8C_w-7Uw" frameborder="0"
+  allowfullscreen></iframe>
+
+<h2>How it works</h2>
+
+<p>The madlib provides a list of places and transportation modes, the
+places resolving to (lat, long) coordinates, and the transportation
+modes affecting the transition effects between places. Airplane
+transitions are shown with the camera oriented north, in a bird's eye
+view, while ground transport transitions are more complex, facing in the
+direction of travel and changing pitch angle. The application builds KML
+in JavaScript and eventually loads it all in a Google Earth plugin:</p>
+
+<pre><code>// Build the KML
+var helper = new KMLHelper();
+helper.processData(data.places, function() {
+  // Generate KML tour for this
+  data.kml = helper.kml();
+  data.distance = helper.distance();
+
+  var json = JSON.stringify(data);
+  // Save the new data to the database
+  $.ajax({...})
+});
+
+// Eventually render the KML (ge is a Google Earth instance)
+$.getJSON('/trips/' + id + '/', function(data) {
+  var kmlObject = ge.parseKml(data.kml);
+  ge.getFeatures().appendChild(kmlObject);
+});
+</code></pre>
+
+<p>Place-to-place transition effects are achieved by using <a href="http://code.google.com/apis/kml/documentation/touring.html">KML Tours</a>,
+which provide powerful camera control requiring some computation, like
+getting the midpoint between (lat, long) pairs. Math for midpoint and
+other common geodesy operations are <a href="http://www.movable-type.co.uk/scripts/latlong.html">well documented</a> by Chris Veness,
+who also provides an implementation in the form of a
+<a href="http://www.movable-type.co.uk/scripts/latlon.js">handy JavaScript library</a>. </p>
+
+<p>In addition to destinations, travel paths and transitions, this demo
+uses the <a href="http://code.google.com/apis/picasaweb/overview.html">picasaweb API</a> to get public picasaweb images as
+GroundOverlays near places you visited. While it's possible to get a
+user's photos tagged with a tag, there is, rather bizarrely, no way to
+get a specific user's images tagged with a given location. </p>
+
+<p>As usual, all of the code is available on <a href="https://github.com/borismus/That-Trip">the github</a>. It's running
+live on <a href="http://thattrip.appspot.com/">thattrip.appspot.com</a>, so try it out.</p>
+
+<h2>Observations</h2>
+
+<p>The Google Earth plugin provides what is probably the richest map view
+available on the web, but it is not without drawbacks. The mere fact
+that it's a plugin immediately shrinks the possible user base of any app
+that relies it and adds to load time. There's no way to pre-cache the
+data that will be shown on a tour, causing a lot of chunky terrain
+during quick transitions. While KML is rich and makes it possible to
+embed images as ground and photo overlays, the web at large has far more
+options to handle images, through CSS transformations and animations or
+by embedding in a canvas or SVG element. </p>
+
+<p>This demo is very geo-centric, telling a story almost exclusively about
+where you went, with the images added as an afterthought. In retrospect,
+a more compelling story is one about what you personally saw, shown in
+travel photos, with a geodesy cherry on top. Stay tuned for future
+work...</p>
 
 
         
