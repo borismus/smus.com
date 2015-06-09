@@ -3,8 +3,8 @@ var gallery = document.querySelector('#gallery');
 
 function onLoad() {
   // Load the inspiration URL.
-  //loadJson('https://boiling-heat-5202.firebaseio.com/inspiration.json', onJson);
-  loadJson('/static/data/inspiration.json', onJson);
+  loadJson('https://boiling-heat-5202.firebaseio.com/inspiration.json', onJson);
+  //loadJson('/static/data/inspiration.json', onJson);
 }
 
 function loadJson(url, callback) {
