@@ -200,7 +200,7 @@ long as it fulfils the above requirements. Here's a simple strawman
 which should satisfy them:
 
     // Check for magnetometer support.
-    if (sensors.Magnetometer !== undefined) {
+    if (sensors.Magnetometer === undefined) {
       console.error('No magnetometer found');
     }
 
