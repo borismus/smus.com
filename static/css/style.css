@@ -214,6 +214,14 @@ footer nav a:hover {
 footer nav a:last-child { margin-right: 0; }
 
 /* Masonry.js related styles */
+section#gallery-header {
+  margin: 1rem auto;
+  width: 700px;
+  font-family: 'Halant', serif;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
 section#gallery {
   margin: 2rem auto;
 }
@@ -366,6 +374,11 @@ section#archives time {
   section#archives ol {
     width: 100%;
     font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+
+  section#gallery-header {
+    width: 100%;
     padding: 0 1rem;
   }
 }
