@@ -59,6 +59,8 @@ function createGalleryItem(item) {
   a.style.backgroundImage = 'url(' + item.imgSrc + ')';
   a.style.backgroundRepeat = 'no-repeat';
   a.style.backgroundSize = dims.width + 'px ' + dims.height + 'px';
+  a.style.backgroundColor = getColor(item.color);
+
 
   var label = document.createElement('label');
   label.innerText = item.title;
@@ -112,6 +114,17 @@ function formatDate(value) {
   var monthName = monthNames[monthIndex];
   var day = date.getDate();
   return monthName + ' ' + day + ' ' + year;
+}
+
+function getColor(colorArray) {
+  if (!colorArray) {
+    return '#eee';
+  }
+  return 'rgb(' +
+      colorArray[0] + ', ' +
+      colorArray[1] + ', ' +
+      colorArray[2] +
+  ')';
 }
 
 window.addEventListener('load', onLoad);
