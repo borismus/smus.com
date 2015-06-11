@@ -380,7 +380,7 @@ g26
 g5
 (g6
 g7
-V<script>\u000aGALLERY_URL = '/projects/list.json'\u000a</script>\u000a\u000a<p>Recent projects that I've been involved in.</p>\u000a
+V<script>\u000aGALLERY_URL = '/projects/all.json'\u000a</script>\u000a\u000a<p>Recent projects I've worked on.</p>\u000a
 p125
 tp126
 Rp127
@@ -394,7 +394,7 @@ sg15
 VBlog
 p129
 sg18
-V<script>\u000aGALLERY_URL = '/projects/list.
+V<script>\u000aGALLERY_URL = '/projects/all.
 p130
 sg4
 g127
@@ -413,7 +413,7 @@ ssg32
 S'content/pages/projects/index.md'
 p134
 sg34
-F1433979745.0
+F1434047509.0
 sa(dp135
 g2
 (dp136
