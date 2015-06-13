@@ -98,13 +98,15 @@ article img, article iframe {
 article img.floatright {
   float: right;
   width: 50%;
-  padding-left: 1rem;
+  padding: 1rem;
+  padding-right: 0rem;
 }
 
 article img.floatleft {
   float: left;
   width: 50%;
-  padding-right: 1rem;
+  padding: 1rem;
+  padding-left: 0rem;
 }
 
 article h1.title {
