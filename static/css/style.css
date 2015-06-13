@@ -8,6 +8,7 @@
 body {
   background: white;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -380,5 +381,9 @@ section#archives time {
   section#gallery-header {
     width: 100%;
     padding: 0 1rem;
+  }
+
+  section#gallery {
+    margin: 0;
   }
 }
