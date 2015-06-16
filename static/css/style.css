@@ -49,7 +49,6 @@ header #title h2 {
 
 header nav a.active {
   border-bottom: 1px solid darkseagreen;
-  font-weight: bold;
 }
 
 header nav a {

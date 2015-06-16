@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2015-06-13T13:14:32-00:00</updated>
+  <updated>2015-06-15T17:51:19-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -53,10 +53,10 @@ page.</p>
 <p><strong>Typography:</strong> I'm continuing to use Google fonts, which seems to be so
 much simpler to use than various competitors. I have not completely
 optimized my selection of fonts, but this is satisfactory given my
-belief that no design is ever finished. Furthermore, as Scott rightly
-notes, <a href="/design-v5/">performance is UX</a> too, and aesthetic decisions need to be
-counterbalanced by mundane considerations like page load time.
-Unfortunately <a href="https://www.google.com/fonts/specimen/Dosis">Dosis</a> didn't make the cut.</p>
+belief that no design is ever finished. <a href="http://alistapart.com/article/improving-ux-through-front-end-performance">Performance is UX</a> too,
+and aesthetic decisions need to be counterbalanced by mundane
+considerations like page load time.  Unfortunately <a href="https://www.google.com/fonts/specimen/Dosis">Dosis</a> didn't
+make the cut.</p>
 
 <p><strong>Infrastructure:</strong> This site is still built using the <a href="https://github.com/borismus/lightning">lightning static
 blog</a> engine, which I'm continuing to improve. On that front,
