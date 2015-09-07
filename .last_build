@@ -135,13 +135,13 @@ sa(dp56
 g2
 (dp57
 g4
-V      Hello from the west coast!    My passion is to invent and build enjoyable, useful, and novel user interfaces at the cusp of hardware and software. I am a proficient front-end and mobile engineer with experience leading teams. In my projects, I tend to gravitate to web technologies because of the flexibility of the web platform. My professional interests include education, audio and music, sensors and interaction design.    My job at Google is a mix of software engineering and user experience prototyping. I have had the good fortune to help launch  Google Cardboard ,  Google Tone , and build many other exciting products with a small, fast moving team.    At my previous job as an engineer on the Chrome developer relations team we pushed the limits of the modern web platform and educated web developers. I helped launch  Chrome for Android ,  wrote articles ,  gave talks  and released open source libraries and samples. I also authored a short  book on the Web Audio API .    Before Google, I was a graduate student at  Carnegie Mellon , where I focused on social and  wearable computing research  and built  CrowdForge , a system for crowdsourcing complex tasks. Prior to that, I worked at Apple for two years, contributing to iWeb, iWork and helping start  iWork.com . For the curious, my  resume is online .    I am Canadian. I studied Mathematics and Computer Science at the  University of British Columbia , and spent my formative years in Vancouver.      Email:  boris@smus.com    Twitter:  @borismus    GitHub:  @borismus     
+V      Hello from the west coast!    My passion is to invent and build enjoyable, useful, and novel user interfaces at the cusp of hardware and software. I am a proficient front-end and mobile engineer with experience leading teams. In my projects, I tend to gravitate to web technologies because of the flexibility of the web platform. My professional interests include education, audio and music, sensors and interaction design.    My job at Google is a mix of software engineering and user experience prototyping. I have had the good fortune to help launch  Google Cardboard ,  Google Tone , and build many other exciting products with a small, fast moving team.    At my previous job as an engineer on the Chrome developer relations team we pushed the limits of the modern web platform and educated web developers. I helped launch  Chrome for Android ,  wrote articles ,  gave talks  and released open source libraries and samples. I also authored a short  book on the Web Audio API .    Before Google, I was a graduate student at  Carnegie Mellon , where I focused on social and  wearable computing research  and built  CrowdForge , a system for crowdsourcing complex tasks. Prior to that, I worked at Apple for two years, contributing to iWeb, iWork and helping start  iWork.com . For the still curious, my  resume is online .    I am Canadian. I studied Mathematics and Computer Science at the  University of British Columbia , and spent my formative years in Vancouver.      Email:  boris@smus.com    Twitter:  @borismus    GitHub:  @borismus     
 p58
 sg28
 g7
 (g8
 g9
-V<p><img id='image-me' src='/static/images/stipple.png'/></p>\u000a\u000a<p>Hello from the west coast!</p>\u000a\u000a<p>My passion is to invent and build enjoyable, useful, and novel user\u000ainterfaces at the cusp of hardware and software. I am a proficient\u000afront-end and mobile engineer with experience leading teams. In my\u000aprojects, I tend to gravitate to web technologies because of the\u000aflexibility of the web platform. My professional interests include\u000aeducation, audio and music, sensors and interaction design.</p>\u000a\u000a<p>My job at Google is a mix of software engineering and user experience\u000aprototyping. I have had the good fortune to help launch <a href="http://g.co/cardboard">Google\u000aCardboard</a>, <a href="http://g.co/tone">Google Tone</a>, and build many other exciting\u000aproducts with a small, fast moving team.</p>\u000a\u000a<p>At my previous job as an engineer on the Chrome developer relations team\u000awe pushed the limits of the modern web platform and educated web\u000adevelopers. I helped launch <a href="https://play.google.com/store/apps/details?id=com.android.chrome&amp;hl=en">Chrome for Android</a>, <a href="http://www.html5rocks.com/">wrote\u000aarticles</a>, <a href="/talks">gave talks</a> and released open source libraries\u000aand samples. I also authored a short <a href="http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684">book on the Web Audio API</a>.</p>\u000a\u000a<p>Before Google, I was a graduate student at <a href="http://www.hcii.cmu.edu/academics/mhci">Carnegie Mellon</a>, where\u000aI focused on social and <a href="https://scholar.google.com/citations?user=bIgFmUwAAAAJ">wearable computing research</a> and\u000abuilt <a href="http://crowdforge.com/">CrowdForge</a>, a system for crowdsourcing complex\u000atasks. Prior to that, I worked at Apple for two years, contributing to\u000aiWeb, iWork and helping start <a href="https://www.apple.com/iwork-for-icloud/">iWork.com</a>. For the curious, my\u000a<a href="/resume">resume is online</a>.</p>\u000a\u000a<p>I am Canadian. I studied Mathematics and Computer Science at the\u000a<a href="https://www.cs.ubc.ca/">University of British Columbia</a>, and spent my formative years in\u000aVancouver.</p>\u000a\u000a<ul>\u000a<li>Email: <a href="mailto:boris@smus.com">boris@smus.com</a></li>\u000a<li>Twitter: <a href="http://twitter.com/borismus">@borismus</a></li>\u000a<li>GitHub: <a href="http://github.com/borismus">@borismus</a></li>\u000a</ul>\u000a
+V<p><img id='image-me' src='/static/images/stipple.png'/></p>\u000a\u000a<p>Hello from the west coast!</p>\u000a\u000a<p>My passion is to invent and build enjoyable, useful, and novel user\u000ainterfaces at the cusp of hardware and software. I am a proficient\u000afront-end and mobile engineer with experience leading teams. In my\u000aprojects, I tend to gravitate to web technologies because of the\u000aflexibility of the web platform. My professional interests include\u000aeducation, audio and music, sensors and interaction design.</p>\u000a\u000a<p>My job at Google is a mix of software engineering and user experience\u000aprototyping. I have had the good fortune to help launch <a href="http://g.co/cardboard">Google\u000aCardboard</a>, <a href="http://g.co/tone">Google Tone</a>, and build many other exciting\u000aproducts with a small, fast moving team.</p>\u000a\u000a<p>At my previous job as an engineer on the Chrome developer relations team\u000awe pushed the limits of the modern web platform and educated web\u000adevelopers. I helped launch <a href="https://play.google.com/store/apps/details?id=com.android.chrome&amp;hl=en">Chrome for Android</a>, <a href="http://www.html5rocks.com/">wrote\u000aarticles</a>, <a href="/talks">gave talks</a> and released open source libraries\u000aand samples. I also authored a short <a href="http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684">book on the Web Audio API</a>.</p>\u000a\u000a<p>Before Google, I was a graduate student at <a href="http://www.hcii.cmu.edu/academics/mhci">Carnegie Mellon</a>, where\u000aI focused on social and <a href="https://scholar.google.com/citations?user=bIgFmUwAAAAJ">wearable computing research</a> and\u000abuilt <a href="http://crowdforge.com/">CrowdForge</a>, a system for crowdsourcing complex\u000atasks. Prior to that, I worked at Apple for two years, contributing to\u000aiWeb, iWork and helping start <a href="https://www.apple.com/iwork-for-icloud/">iWork.com</a>. For the still curious,\u000amy <a href="/resume">resume is online</a>.</p>\u000a\u000a<p>I am Canadian. I studied Mathematics and Computer Science at the\u000a<a href="https://www.cs.ubc.ca/">University of British Columbia</a>, and spent my formative years in\u000aVancouver.</p>\u000a\u000a<ul>\u000a<li>Email: <a href="mailto:boris@smus.com">boris@smus.com</a></li>\u000a<li>Twitter: <a href="http://twitter.com/borismus">@borismus</a></li>\u000a<li>GitHub: <a href="http://github.com/borismus">@borismus</a></li>\u000a</ul>\u000a
 p59
 tp60
 Rp61
@@ -174,7 +174,7 @@ ssg34
 S'content/pages/about.md'
 p68
 sg36
-F1434414299.0
+F1438063490.0
 sa(dp69
 g2
 (dp70
@@ -502,7 +502,7 @@ S'2008-12-11T09:00:00-00:00'
 p167
 sS'unix'
 p168
-I1229014800
+I1228953600
 sS'year'
 p169
 I2008
@@ -587,7 +587,7 @@ sg166
 S'2008-12-04T09:00:00-00:00'
 p198
 sg168
-I1228410000
+I1228348800
 sg169
 I2008
 sg170
@@ -662,7 +662,7 @@ sg166
 S'2008-11-24T09:00:00-00:00'
 p221
 sg168
-I1227546000
+I1227484800
 sg169
 I2008
 sg170
@@ -742,7 +742,7 @@ sg166
 S'2008-11-15T09:00:00-00:00'
 p247
 sg168
-I1226768400
+I1226707200
 sg169
 I2008
 sg170
@@ -822,7 +822,7 @@ sg166
 S'2008-10-31T09:00:00-00:00'
 p273
 sg168
-I1225468800
+I1225411200
 sg169
 I2008
 sg170
@@ -902,7 +902,7 @@ sg166
 S'2008-09-23T09:00:00-00:00'
 p299
 sg168
-I1222185600
+I1222128000
 sg169
 I2008
 sg170
@@ -984,7 +984,7 @@ sg166
 S'2009-10-20T09:00:00-00:00'
 p326
 sg168
-I1256054400
+I1255996800
 sg169
 I2009
 sg170
@@ -1064,7 +1064,7 @@ sg166
 S'2009-01-19T09:00:00-00:00'
 p352
 sg168
-I1232384400
+I1232323200
 sg169
 I2009
 sg170
@@ -1137,7 +1137,7 @@ sg166
 S'2009-04-18T09:00:00-00:00'
 p374
 sg168
-I1240070400
+I1240012800
 sg169
 I2009
 sg170
@@ -1217,7 +1217,7 @@ sg166
 S'2009-02-15T09:00:00-00:00'
 p400
 sg168
-I1234717200
+I1234656000
 sg169
 I2009
 sg170
@@ -1299,7 +1299,7 @@ sg166
 S'2009-07-22T09:00:00-00:00'
 p427
 sg168
-I1248278400
+I1248220800
 sg169
 I2009
 sg170
@@ -1379,7 +1379,7 @@ sg166
 S'2009-06-14T09:00:00-00:00'
 p453
 sg168
-I1244995200
+I1244937600
 sg169
 I2009
 sg170
@@ -1459,7 +1459,7 @@ sg166
 S'2009-08-28T09:00:00-00:00'
 p479
 sg168
-I1251475200
+I1251417600
 sg169
 I2009
 sg170
@@ -1539,7 +1539,7 @@ sg166
 S'2009-03-23T09:00:00-00:00'
 p505
 sg168
-I1237824000
+I1237766400
 sg169
 I2009
 sg170
@@ -1614,7 +1614,7 @@ sg166
 S'2009-01-07T09:00:00-00:00'
 p528
 sg168
-I1231347600
+I1231286400
 sg169
 I2009
 sg170
@@ -1694,7 +1694,7 @@ sg166
 S'2009-09-28T09:00:00-00:00'
 p554
 sg168
-I1254153600
+I1254096000
 sg169
 I2009
 sg170
@@ -1776,7 +1776,7 @@ sg166
 S'2009-08-07T09:00:00-00:00'
 p581
 sg168
-I1249660800
+I1249603200
 sg169
 I2009
 sg170
@@ -1856,7 +1856,7 @@ sg166
 S'2009-09-06T09:00:00-00:00'
 p607
 sg168
-I1252252800
+I1252195200
 sg169
 I2009
 sg170
@@ -1936,7 +1936,7 @@ sg166
 S'2009-02-27T09:00:00-00:00'
 p633
 sg168
-I1235754000
+I1235692800
 sg169
 I2009
 sg170
@@ -2016,7 +2016,7 @@ sg166
 S'2009-02-05T09:00:00-00:00'
 p659
 sg168
-I1233853200
+I1233792000
 sg169
 I2009
 sg170
@@ -2096,7 +2096,7 @@ sg166
 S'2009-11-18T09:00:00-00:00'
 p685
 sg168
-I1258563600
+I1258502400
 sg169
 I2009
 sg170
@@ -2176,7 +2176,7 @@ sg166
 S'2010-11-25T09:00:00-00:00'
 p711
 sg168
-I1290704400
+I1290643200
 sg169
 I2010
 sg170
@@ -2258,7 +2258,7 @@ sg166
 S'2010-06-27T09:00:00-00:00'
 p738
 sg168
-I1277654400
+I1277596800
 sg169
 I2010
 sg170
@@ -2340,7 +2340,7 @@ sg166
 S'2010-10-25T09:00:00-00:00'
 p765
 sg168
-I1288022400
+I1287964800
 sg169
 I2010
 sg170
@@ -2413,7 +2413,7 @@ sg166
 S'2010-03-21T09:00:00-00:00'
 p787
 sg168
-I1269187200
+I1269129600
 sg169
 I2010
 sg170
@@ -2493,7 +2493,7 @@ sg166
 S'2010-10-31T09:00:00-00:00'
 p813
 sg168
-I1288540800
+I1288483200
 sg169
 I2010
 sg170
@@ -2575,7 +2575,7 @@ sg166
 S'2010-01-14T09:00:00-00:00'
 p840
 sg168
-I1263488400
+I1263427200
 sg169
 I2010
 sg170
@@ -2655,7 +2655,7 @@ sg166
 S'2010-01-16T09:00:00-00:00'
 p866
 sg168
-I1263661200
+I1263600000
 sg169
 I2010
 sg170
@@ -2735,7 +2735,7 @@ sg166
 S'2010-10-09T09:00:00-00:00'
 p892
 sg168
-I1286640000
+I1286582400
 sg169
 I2010
 sg170
@@ -2815,7 +2815,7 @@ sg166
 S'2010-04-24T09:00:00-00:00'
 p918
 sg168
-I1272124800
+I1272067200
 sg169
 I2010
 sg170
@@ -2897,7 +2897,7 @@ sg166
 S'2010-11-17T09:00:00-00:00'
 p945
 sg168
-I1290013200
+I1289952000
 sg169
 I2010
 sg170
@@ -2977,7 +2977,7 @@ sg166
 S'2010-12-25T09:00:00-00:00'
 p971
 sg168
-I1293296400
+I1293235200
 sg169
 I2010
 sg170
@@ -3057,7 +3057,7 @@ sg166
 S'2010-02-26T09:00:00-00:00'
 p997
 sg168
-I1267203600
+I1267142400
 sg169
 I2010
 sg170
@@ -3137,7 +3137,7 @@ sg166
 S'2010-07-21T09:00:00-00:00'
 p1023
 sg168
-I1279728000
+I1279670400
 sg169
 I2010
 sg170
@@ -3217,7 +3217,7 @@ sg166
 S'2010-10-16T09:00:00-00:00'
 p1049
 sg168
-I1287244800
+I1287187200
 sg169
 I2010
 sg170
@@ -3297,7 +3297,7 @@ sg166
 S'2010-05-18T09:00:00-00:00'
 p1075
 sg168
-I1274198400
+I1274140800
 sg169
 I2010
 sg170
@@ -3377,7 +3377,7 @@ sg166
 S'2010-11-11T09:00:00-00:00'
 p1101
 sg168
-I1289494800
+I1289433600
 sg169
 I2010
 sg170
@@ -3457,7 +3457,7 @@ sg166
 S'2010-05-28T09:00:00-00:00'
 p1127
 sg168
-I1275062400
+I1275004800
 sg169
 I2010
 sg170
@@ -3537,7 +3537,7 @@ sg166
 S'2010-08-06T09:00:00-00:00'
 p1153
 sg168
-I1281110400
+I1281052800
 sg169
 I2010
 sg170
@@ -3619,7 +3619,7 @@ sg166
 S'2010-09-30T09:00:00-00:00'
 p1180
 sg168
-I1285862400
+I1285804800
 sg169
 I2010
 sg170
@@ -3699,7 +3699,7 @@ sg166
 S'2010-12-16T09:00:00-00:00'
 p1206
 sg168
-I1292518800
+I1292457600
 sg169
 I2010
 sg170
@@ -3779,7 +3779,7 @@ sg166
 S'2010-02-06T09:00:00-00:00'
 p1232
 sg168
-I1265475600
+I1265414400
 sg169
 I2010
 sg170
@@ -3861,7 +3861,7 @@ sg166
 S'2011-06-21T09:00:00-00:00'
 p1259
 sg168
-I1308672000
+I1308614400
 sg169
 I2011
 sg170
@@ -3945,7 +3945,7 @@ sg166
 S'2011-04-01T09:00:00-00:00'
 p1287
 sg168
-I1301673600
+I1301616000
 sg169
 I2011
 sg170
@@ -4031,7 +4031,7 @@ sg166
 S'2011-07-28T09:00:00-00:00'
 p1316
 sg168
-I1311868800
+I1311811200
 sg169
 I2011
 sg170
@@ -4119,7 +4119,7 @@ sg166
 S'2011-03-21T09:00:00-00:00'
 p1346
 sg168
-I1300723200
+I1300665600
 sg169
 I2011
 sg170
@@ -4203,7 +4203,7 @@ sg166
 S'2011-02-02T09:00:00-00:00'
 p1374
 sg168
-I1296666000
+I1296604800
 sg169
 I2011
 sg170
@@ -4287,7 +4287,7 @@ sg166
 S'2011-02-20T09:00:00-00:00'
 p1402
 sg168
-I1298221200
+I1298160000
 sg169
 I2011
 sg170
@@ -4371,7 +4371,7 @@ sg166
 S'2011-05-13T09:00:00-00:00'
 p1430
 sg168
-I1305302400
+I1305244800
 sg169
 I2011
 sg170
@@ -4451,7 +4451,7 @@ sg166
 S'2011-06-06T09:00:00-00:00'
 p1456
 sg168
-I1307376000
+I1307318400
 sg169
 I2011
 sg170
@@ -4533,7 +4533,7 @@ sg166
 S'2011-07-11T09:00:00-00:00'
 p1483
 sg168
-I1310400000
+I1310342400
 sg169
 I2011
 sg170
@@ -4617,7 +4617,7 @@ sg166
 S'2011-09-22T09:00:00-00:00'
 p1511
 sg168
-I1316707200
+I1316649600
 sg169
 I2011
 sg170
@@ -4695,7 +4695,7 @@ sg166
 S'2011-11-28T09:00:00-00:00'
 p1536
 sg168
-I1322499600
+I1322438400
 sg169
 I2011
 sg170
@@ -4775,7 +4775,7 @@ sg166
 S'2011-04-26T09:00:00-00:00'
 p1562
 sg168
-I1303833600
+I1303776000
 sg169
 I2011
 sg170
@@ -4857,7 +4857,7 @@ sg166
 S'2011-05-02T09:00:00-00:00'
 p1589
 sg168
-I1304352000
+I1304294400
 sg169
 I2011
 sg170
@@ -4937,7 +4937,7 @@ sg166
 S'2011-08-30T09:00:00-00:00'
 p1615
 sg168
-I1314720000
+I1314662400
 sg169
 I2011
 sg170
@@ -5021,7 +5021,7 @@ sg166
 S'2011-05-31T09:00:00-00:00'
 p1643
 sg168
-I1306857600
+I1306800000
 sg169
 I2011
 sg170
@@ -5103,7 +5103,7 @@ sg166
 S'2011-07-07T09:00:00-00:00'
 p1670
 sg168
-I1310054400
+I1309996800
 sg169
 I2011
 sg170
@@ -5187,7 +5187,7 @@ sg166
 S'2011-10-04T09:00:00-00:00'
 p1698
 sg168
-I1317744000
+I1317686400
 sg169
 I2011
 sg170
@@ -5265,7 +5265,7 @@ sg166
 S'2011-11-15T09:00:00-00:00'
 p1723
 sg168
-I1321376400
+I1321315200
 sg169
 I2011
 sg170
@@ -5347,7 +5347,7 @@ sg166
 S'2011-03-17T09:00:00-00:00'
 p1750
 sg168
-I1300377600
+I1300320000
 sg169
 I2011
 sg170
@@ -5423,7 +5423,7 @@ sg166
 S'2011-10-20T09:00:00-00:00'
 p1774
 sg168
-I1319126400
+I1319068800
 sg169
 I2011
 sg170
@@ -5505,7 +5505,7 @@ sg166
 S'2011-04-20T09:00:00-00:00'
 p1801
 sg168
-I1303315200
+I1303257600
 sg169
 I2011
 sg170
@@ -5579,7 +5579,7 @@ sg166
 S'2012-09-12T09:00:00-00:00'
 p1824
 sg168
-I1347465600
+I1347408000
 sg169
 I2012
 sg170
@@ -5648,7 +5648,7 @@ sg166
 S'2012-06-06T09:00:00-00:00'
 p1844
 sg168
-I1338998400
+I1338940800
 sg169
 I2012
 sg170
@@ -5717,7 +5717,7 @@ sg166
 S'2012-02-15T09:00:00-00:00'
 p1864
 sg168
-I1329325200
+I1329264000
 sg169
 I2012
 sg170
@@ -5791,7 +5791,7 @@ sg166
 S'2012-01-18T09:00:00-00:00'
 p1887
 sg168
-I1326906000
+I1326844800
 sg169
 I2012
 sg170
@@ -5867,7 +5867,7 @@ sg166
 S'2012-06-14T09:00:00-00:00'
 p1911
 sg168
-I1339689600
+I1339632000
 sg169
 I2012
 sg170
@@ -5936,7 +5936,7 @@ sg166
 S'2012-02-08T09:00:00-00:00'
 p1931
 sg168
-I1328720400
+I1328659200
 sg169
 I2012
 sg170
@@ -6012,7 +6012,7 @@ sg166
 S'2012-05-02T09:00:00-00:00'
 p1955
 sg168
-I1335974400
+I1335916800
 sg169
 I2012
 sg170
@@ -6081,7 +6081,7 @@ sg166
 S'2012-03-30T09:00:00-00:00'
 p1975
 sg168
-I1333123200
+I1333065600
 sg169
 I2012
 sg170
@@ -6150,7 +6150,7 @@ sg166
 S'2012-11-06T09:00:00-00:00'
 p1995
 sg168
-I1352221200
+I1352160000
 sg169
 I2012
 sg170
@@ -6219,7 +6219,7 @@ sg166
 S'2013-09-09T09:00:00-00:00'
 p2015
 sg168
-I1378742400
+I1378684800
 sg169
 I2013
 sg170
@@ -6288,7 +6288,7 @@ sg166
 S'2013-10-25T09:00:00-00:00'
 p2035
 sg168
-I1382716800
+I1382659200
 sg169
 I2013
 sg170
@@ -6357,7 +6357,7 @@ sg166
 S'2013-07-29T09:00:00-00:00'
 p2055
 sg168
-I1375113600
+I1375056000
 sg169
 I2013
 sg170
@@ -6426,7 +6426,7 @@ sg166
 S'2013-05-03T09:00:00-00:00'
 p2075
 sg168
-I1367596800
+I1367539200
 sg169
 I2013
 sg170
@@ -6495,7 +6495,7 @@ sg166
 S'2013-06-25T09:00:00-00:00'
 p2095
 sg168
-I1372176000
+I1372118400
 sg169
 I2013
 sg170
@@ -6564,7 +6564,7 @@ sg166
 S'2013-01-11T09:00:00-00:00'
 p2115
 sg168
-I1357923600
+I1357862400
 sg169
 I2013
 sg170
@@ -6633,7 +6633,7 @@ sg166
 S'2013-01-16T09:00:00-00:00'
 p2135
 sg168
-I1358355600
+I1358294400
 sg169
 I2013
 sg170
@@ -6702,7 +6702,7 @@ sg166
 S'2013-03-14T09:00:00-00:00'
 p2155
 sg168
-I1363276800
+I1363219200
 sg169
 I2013
 sg170
@@ -6771,7 +6771,7 @@ sg166
 S'2013-02-21T09:00:00-00:00'
 p2175
 sg168
-I1361466000
+I1361404800
 sg169
 I2013
 sg170
@@ -6840,7 +6840,7 @@ sg166
 S'2013-08-08T09:00:00-00:00'
 p2195
 sg168
-I1375977600
+I1375920000
 sg169
 I2013
 sg170
@@ -6909,7 +6909,7 @@ sg166
 S'2013-03-18T09:00:00-00:00'
 p2215
 sg168
-I1363622400
+I1363564800
 sg169
 I2013
 sg170
@@ -6978,7 +6978,7 @@ sg166
 S'2014-05-21T09:00:00-00:00'
 p2235
 sg168
-I1400688000
+I1400630400
 sg169
 I2014
 sg170
@@ -7047,7 +7047,7 @@ sg166
 S'2014-04-15T09:00:00-00:00'
 p2255
 sg168
-I1397577600
+I1397520000
 sg169
 I2014
 sg170
@@ -7116,7 +7116,7 @@ sg166
 S'2014-01-27T09:00:00-00:00'
 p2275
 sg168
-I1390842000
+I1390780800
 sg169
 I2014
 sg170
@@ -7185,7 +7185,7 @@ sg166
 S'2014-06-09T09:00:00-00:00'
 p2295
 sg168
-I1402329600
+I1402272000
 sg169
 I2014
 sg170
@@ -7254,7 +7254,7 @@ sg166
 S'2014-10-14T09:00:00-00:00'
 p2315
 sg168
-I1413302400
+I1413244800
 sg169
 I2014
 sg170
@@ -7323,7 +7323,7 @@ sg166
 S'2014-11-13T09:00:00-00:00'
 p2335
 sg168
-I1415898000
+I1415836800
 sg169
 I2014
 sg170
@@ -7392,7 +7392,7 @@ sg166
 S'2015-06-10T09:00:00-00:00'
 p2355
 sg168
-I1433952000
+I1433894400
 sg169
 I2015
 sg170
@@ -7418,30 +7418,30 @@ sa(dp2362
 g2
 (dp2363
 g4
-V VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.          WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR .   
+V It's easy to do, just follow these steps:      Cut two holes in a box   Put your phone in that box   Look inside the box       And that's the way you do it .    Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!   
 p2364
 sg28
 g7
 (g8
 g9
-V<p>VR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web\u000aDesign</a>, which websites to scale well for all form factors.\u000aSimilarly, for VR to succeed on the web, we need to figure out how to\u000amake VR experiences that work both in any VR headset, and also without a\u000aVR headset at all.</p>\u000a\u000a<p><img src="hmds.png" alt="Various head mounted displays." /></p>\u000a\u000a<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building\u000aresponsive web VR experiences that work on popular VR headsets and\u000adegrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a\u000asimple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>\u000a\u000a<!--more-->\u000a\u000a<h2>Preview the VR experience for everyone</h2>\u000a\u000a<p>Say you visit a webpage, and it opens up in split-screen mode barrel\u000adistortion, chromatic aberration correction, personalized interpupillary\u000adistance, and provides 6 DOF tracking. <a href="https://www.youtube.com/watch?v=PkFyGNjaQ8k">Whoa</a>. You reach for your\u000aVR headset only to find that you forgot it at work! How disappointing!\u000aThe vast majority of normal people with no head mounted display lying\u000aaround will surely be even more disappointed.</p>\u000a\u000a<p>Responsive web design promises content which automatically adapts to\u000ayour viewing environment by using fluid layouts, flexible images,\u000aproportional grids; a cocktail of modern web technologies. Similarly,\u000aWebVR experiences need to work even without VR hardware. This has two\u000aobvious advantages:</p>\u000a\u000a<ol>\u000a<li>The vast majority of people that don't have VR hardware can still get\u000aa feeling for the experience.</li>\u000a<li>Even if you have VR gear, donning it is a pain. This preview lets you\u000aquickly evaluate whether or not wearing is worth the hassle.</li>\u000a</ol>\u000a\u000a<p>What are some reasonable fallbacks to the in-helmet VR experience? The\u000amain question boils down to emulating head tracking without wearing\u000aanything on your head. On mobile phones, the obvious answer is to use\u000athe gyroscope, for a <a href="http://googlespotlightstories.com/">Spotlight Stories</a>-type experience. On\u000adesktop, we use the mouse to free-look, and also support turning using\u000athe arrow keys. This covers enough of the 3DOF orientation that all HMDs\u000aprovide. Clearly missing are the three translational degrees of freedom,\u000abut these are provided only by some VR headsets, and we can imagine some\u000a<a href="http://topheman.github.io/parallax/">interesting fallbacks</a> for those too.</p>\u000a\u000a<h2>Write once, run in any VR headset</h2>\u000a\u000a<p>Remember the old "write once, run anywhere" promise? The web is the\u000aclosest thing we have to fulfilling it, but what it actually delivers is\u000aoften far from this ideal. The latest VR wave has barely begun and\u000aalready the web VR world is fragmented. Case in point,\u000a<a href="http://vr.chromeexperiments.com/">vr.chromeexperiments.com</a> don't work on Oculus, and\u000a<a href="http://mozvr.com/">mozvr.com</a> demos don't work in Cardboard.  The promise of WebVR\u000ais that once it lands, all will be well in the world. However, this\u000ameans that we need to wait for WebVR to become fully baked. In other\u000awords, we are blocked on the valiant efforts of our dear <a href="https://twitter.com/vvuk">WebVR</a>\u000a<a href="https://twitter.com/Tojiro">implementers</a> (as well as the heavyweight browser development\u000aprocess consisting of spec authors, security reviews, binary size, etc).</p>\u000a\u000a<p>To speed up the process, we need a polyfill for WebVR which uses web\u000aAPIs to provide functionality to the WebVR specification (currently, in\u000a<a href="https://github.com/vvuk/gecko-dev/blob/oculus/dom/webidl/VRDevice.webidl">IDL form</a>). In the absence of a WebVR implementation, the polyfill\u000akicks in and supports mobile VR headsets like Cardboard and Durovis\u000aDive, which are passive contraptions that just piggyback on the\u000asmartness found in your smartphone.</p>\u000a\u000a<h2>Introducing: WebVR Boilerplate</h2>\u000a\u000a<p>The <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> is on github, and consists of\u000atwo parts. Firstly, the <a href="https://github.com/borismus/webvr-polyfill">WebVR polyfill</a> provides WebVR\u000asupport for Cardboard-compatible devices, and orientation tracking\u000afallbacks where no headset is available. The WebVR polyfill can also be\u000ainstalled from npm (available via <code>npm install webvr-polyfill</code>).</p>\u000a\u000a<ol>\u000a<li>A <code>CardboardHMDDevice</code>, provides a reasonable default for\u000ainterpupillary distance and field of view for cardboard-like devices.</li>\u000a<li>On mobile devices, a <code>GyroPositionSensorVRDevice</code>, which provides\u000aorientation through the <code>DeviceOrientationEvent</code>.</li>\u000a<li>On PCs, a <code>MouseKeyboardPositionSensorVRDevice</code>, which provides\u000aorientation through keyboard and mouse events.</li>\u000a</ol>\u000a\u000a<p>It is designed to be used with <a href="http://threejs.org/">THREE.js</a> plugins that are built\u000afor the WebVR API: <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js">VRControls.js</a> and\u000a<a href="https://github.com/mrdoob/three.js/blob/master/examples/js/effects/VREffect.js">VREffect.js</a>, but of course any valid usage of the WebVR API\u000ashould work (modulo bugs).</p>\u000a\u000a<p>Secondly, the <a href="https://github.com/borismus/webvr-boilerplate/blob/master/js/webvr-manager.js">WebVR manager</a> surfaces VR compatibility\u000ausing consistent iconography and simplifies transitioning in and out of\u000afull VR mode. It also contains some of the best practices for making VR\u000awork on the web, for example, using orientation lock to keep the phone\u000ain landscape orientation, and a means of keeping the phone screen on. If\u000ayou're ready to dive in, the <a href="https://github.com/borismus/webvr-boilerplate">github has all of the technical\u000ainformation</a> available.</p>\u000a\u000a<p>WebVR boilerplate is meant to make it easy to develop immersive\u000aexperiences that run on all VR hardware, including Oculus and Cardboard,\u000aand also provide reasonable fallbacks when no specialized viewer is\u000aavailable.</p>\u000a\u000a<h2>WebVR boilerplate in action</h2>\u000a\u000a<p><img src="sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>\u000a\u000a<p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the\u000aeponymous town on British Columbia's beautiful Sunshine Coast. I've\u000a<a href="http://borismus.github.io/sechelt">ported it</a> to WebVR Boilerplate. The result is the same\u000ademo, which works in Cardboard, as well as continuing to work on desktop\u000aand mobile devices, and on the Oculus Rift via <a href="https://nightly.mozilla.org/">Firefox Nightly</a> and\u000a<a href="https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&amp;usp=sharing#list">Brandon's WebVR Chrome builds</a>. It also yielded less confusing\u000aboilerplate code and a <a href="https://github.com/borismus/sechelt/commit/671cff9fc283b58d2ebce0ae6f0dfa3580050aab">simplified code base</a> since\u000athere is no longer need for an unweildy conditional to determine whether\u000ato use <code>DeviceOrientationControls</code>, <code>OrbitControls</code>, or <code>VRControls</code>,\u000aand decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>\u000a\u000a<p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point\u000aout (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>\u000a
+V<p>It's easy to do, just follow these steps:</p>\u000a\u000a<ol>\u000a<li>Cut two holes in a box</li>\u000a<li>Put your phone in that box</li>\u000a<li>Look inside the box</li>\u000a</ol>\u000a\u000a<p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>\u000a\u000a<p>Your smartphone is now in a box, so how do you do input? Now that we have a\u000a<a href="mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>\u000a\u000a<!--more-->\u000a\u000a<h2>It's not easy being in a box</h2>\u000a\u000a<p>Let me remind you: your smartphone is still in a box. This means that your\u000afingers can't reach the touch screen or the volume buttons. Let's consider a\u000acouple of input alternatives:</p>\u000a\u000a<ul>\u000a<li>Cameras and microphones require extra app permissions, are inefficient to keep\u000aalways on, and may face many false positives.</li>\u000a<li>External electronic devices cost money. Plugging them in and out is a\u000ausability nightmare.</li>\u000a</ul>\u000a\u000a<p>Ok, let's nix those. How about permanent magnets? They are inexpensive, robust,\u000arequire no power to operate, and do not degrade over time. The vast majority of\u000asmartphones have a magnetometer, which is used for the compass. Intriguing...</p>\u000a\u000a<h2>Fun with permanent magnets</h2>\u000a\u000a<p>In 2009, Chris Harrison and Scott Hudson published <a href="http://www.chrisharrison.net/index.php/Research/Abracadabra">Abracadabra</a>, a\u000amagnetic ring form factor for finger interactions with small devices:</p>\u000a\u000a<p><img src="abra.jpg" alt="Abracadabra" /></p>\u000a\u000a<p>In 2010, Hamed Ketabdar and others published <a href="https://www.facebook.com/MagiTact">Magitact</a>, instead using\u000aa magnetic rod for more varied interactions near smartphones:</p>\u000a\u000a<p><img src="magitact.jpg" alt="Magitact" /></p>\u000a\u000a<p>In 2011, Daniel Ashbrook and others published <a href="http://dl.acm.org/citation.cfm?id=1979238">Nenya</a>, which is similar\u000ato Abracadabra, but focused more on the eyes-free input aspects:</p>\u000a\u000a<p><img src="nenya.jpg" alt="Nenya" /></p>\u000a\u000a<p>In 2013, Sungjae Hwang and others published <a href="https://www.youtube.com/watch?v=_sSgp0hD-jk">Maggetz</a>, which used\u000apassive magnets to build all sorts of widgets around the device:</p>\u000a\u000a<p><img src="maggetz.jpg" alt="Maggetz" /></p>\u000a\u000a<h2>Fucking magnets: how do they work?</h2>\u000a\u000a<p>Magnets affect the magnetometer in an <a href="https://www.quora.com/Why-does-the-magnetic-field-obey-an-inverse-cube-law">inverse-cubic relationship</a>, so\u000adistance between magnet and magnetometer really makes a dramatic difference in\u000asignal strength. We empirically determined that in most phones, the sensor is\u000aplaced at the top of the device, near the earpiece:</p>\u000a\u000a<table>\u000a<tr><th>Smartphone Model</th><th>Sensor Location</th></tr>\u000a<tr><td>Moto X</td><td>Top</td></tr>\u000a<tr><td>Nexus 4</td><td>Top</td></tr>\u000a<tr><td>Nexus 5</td><td>Top</td></tr>\u000a<tr><td>Samsung S4</td><td>Top</td></tr>\u000a<tr><td>Galaxy Nexus</td><td>Top</td></tr>\u000a<tr><td>Samsung S3</td><td>Bottom</td></tr>\u000a<tr><td>Moto G</td><td>Bottom</td></tr>\u000a</table>\u000a\u000a<p>Some magnetometers are really screwy, like the one found in the first revision\u000aof the HTC M7, or broken, like in some models of the Galaxy Nexus we tested\u000awith. There's little that we can do in these cases, but luckily they are quite\u000arare.</p>\u000a\u000a<p><img src="calibration.png" class="floatright" title="Plot of calibration events"/></p>\u000a\u000a<p>The way you access the magnetometer on Android is via the sensor stack,\u000arequesting the <code>TYPE_MAGNETIC_FIELD</code> sensor. This is a calibrated sensor, since\u000ait's primarily used to determine the direction of magnetic north for the\u000acompass. Calibration means that somewhere deep inside Android, software and\u000ahardware periodically calibrates the output of the sensor. When calibration\u000aoccurs, magnetometer readings effectively reset to some new coordinate system.</p>\u000a\u000a<p>Calibration can happen at any point, and the calibration pattern can look quite\u000adifferent depending on the device. In some cases, it's a gradual calibration,\u000anot a sudden spike as above. This limitation restricts what we can reliably\u000adetect, which is why we chose a pull-and-release interaction. Android already\u000ahas provisions for an uncalibrated magnetometer via\u000a<code>TYPE_MAGNETIC_FIELD_UNCALIBRATED</code>, but this sensor is not nearly as ubiquitous\u000aas its calibrated cousin. Even so, we should be robust to phone insertions and\u000aremovals from Cardboard, which can also look like calibration events.</p>\u000a\u000a<h2>Magnetic input for VR</h2>\u000a\u000a<iframe width="853" height="480" src="https://www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>\u000a\u000a<p><img src="mechanism.png" class="floatright" title="Interaction mechanism"/></p>\u000a\u000a<p>As you can see, the interaction involves pulling the magnet downward, and\u000areleasing it. The magnetic ring automatically returns to its rest position\u000abecause of the force exerted on it by an internal magnet. The external magnet is\u000aalso held in-place by the same force, and while it's possible to pull the magnet\u000aoff the cardboard side, it takes concerted effort to do so. The motion of the\u000amagnet is constrained by a cardboard indentation, so it can only move downward.\u000aThe thing I find most elegant about this design is that both the digital signal\u000ato the smartphone and the physical mechanism itself relies on the same\u000aprinciple: magnetism.</p>\u000a\u000a<p>We collected a bunch of data for this pull-and-release interaction from many\u000adevices. We found that most devices behave predictably well. Here's a combined\u000aplot of normalized, superimposed positives and negatives from all phones which\u000awe collected data from, with each dimension of the magnetometer vector plotted\u000aseparately.</p>\u000a\u000a<p><img src="all_features.png" alt="Image of the true positives and negatives from all phones." /></p>\u000a\u000a<p>The detector we built was not based on a template learned from all of the data\u000aabove, but a simpler state machine based on thresholding. The thresholds\u000athemselves were learned empirically. Here's the simple state machine:</p>\u000a\u000a<p><img src="state_machine.png" alt="State machine of the detector" /></p>\u000a\u000a<p>The basic idea is that we take a sliding window approach, normalizing all of the\u000adata relative to the last value in the window. For each window, we calculate <code>min_1</code>,\u000awhich is the smallest value of the first half of the window, and <code>max_2</code>, the\u000alargest value in the second half. Next, we compare to empirically determined\u000athresholds perform the appropriate transition in the state machine. I won't bore\u000ayou with details of normalizing the data, etc but you can find all of the\u000adetails in <a href="mimvr-iswc-2015.pdf">the paper</a>.</p>\u000a\u000a<h2>What's next?</h2>\u000a\u000a<p><img src="joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>\u000a\u000a<p>A lot more can be done using passive magnetic input. With uncalibrated\u000amagnetometers, there is no fear of calibration events, so we could implement a\u000afaster detector based on just the down motion of the magnet. We could reliably\u000adetect long presses and double clicks. Alternatively, extensions to the existing\u000ainput can be implemented by simply changing the geometry of the physical\u000aconstraints, such as a joystick form factor.</p>\u000a\u000a<p>I'm incredibly happy that Cardboard has been doing so well. Thanks to the great\u000ateam working so hard on it, there are now <a href="http://techcrunch.com/2015/05/28/google-has-shipped-over-1-million-cardboard-vr-units/">over 1 million units shipped</a>.\u000aThe press has been happy with it too, with kind reviews from many tech\u000apublications.</p>\u000a\u000a<p><a href="http://techcrunch.com/2014/06/25/hands-on-with-googles-incredibly-clever-cardboard-virtual-reality-headset/">Techcrunch</a> said:</p>\u000a\u000a<blockquote>\u000a  <p>This funny little cardboard faux-Rift has something even the original Rift\u000a  itself does not: a built-in button. Your phone is able to sense the magnet\u2019s\u000a  movement, allowing it to act as a ridiculously clever little button. Yeesh.</p>\u000a</blockquote>\u000a\u000a<p><a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/google-cardboard-everything-you-need-to-know-1277738">Techradar</a> said:</p>\u000a\u000a<blockquote>\u000a  <p>What's also somewhat amazing is the magnet on the side. [\u2026] The little magnet\u000a  on the side is actually a quite ingenious design aspect of Google Cardboard.\u000a  It's a button!</p>\u000a</blockquote>\u000a\u000a<p><a href="http://www.engadget.com/2014/12/10/google-cardboard/">Engadget</a> said:</p>\u000a\u000a<blockquote>\u000a  <p>One of the things I liked most was a switch located on the left temple, which\u000a  consists of just a couple of magnets and a metal ring.</p>\u000a</blockquote>\u000a\u000a<p><a href="http://www.google.com/get/cardboard/downloads/wwgc_manufacturers_kit_v2.0.zip">Future versions of Cardboard</a> are switching to a different input method\u000ausing a conductive button which brings your body's capacitance to the screen,\u000asimilar to how a touch stylus works. It's cheaper without them, and the new\u000ainput works well, but I'll definitely miss the magnets!</p>\u000a
 p2365
 tp2366
 Rp2367
 sg13
-V/responsive-vr
+V/magnetic-input-mobile-vr
 p2368
 sg15
 Nsg16
 I01
 sg17
-VResponsive WebVR, headset optional
+VMagnetic Input for Mobile VR
 p2369
 sg20
-VVR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it.
+VIt's easy to do, just follow these steps:\u000a\u000a1.
 p2370
 sg6
-V<p>VR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web\u000aDesign</a>, which websites to scale well for all form factors.\u000aSimilarly, for VR to succeed on the web, we need to figure out how to\u000amake VR experiences that work both in any VR headset, and also without a\u000aVR headset at all.</p>\u000a\u000a<p><img src="hmds.png" alt="Various head mounted displays." /></p>\u000a\u000a<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building\u000aresponsive web VR experiences that work on popular VR headsets and\u000adegrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a\u000asimple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>\u000a\u000a
+V<p>It's easy to do, just follow these steps:</p>\u000a\u000a<ol>\u000a<li>Cut two holes in a box</li>\u000a<li>Put your phone in that box</li>\u000a<li>Look inside the box</li>\u000a</ol>\u000a\u000a<p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>\u000a\u000a<p>Your smartphone is now in a box, so how do you do input? Now that we have a\u000a<a href="mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>\u000a\u000a
 p2371
 sg25
 g158
@@ -7450,67 +7450,67 @@ g2368
 sg159
 (dp2372
 g161
-S'Feb'
+S'Sep'
 p2373
 sg163
-S'February 2, 2015'
+S'September 7, 2015'
 p2374
 sg165
-I2
+I9
 sg166
-S'2015-02-02T09:00:00-00:00'
+S'2015-09-07T09:00:00-00:00'
 p2375
 sg168
-I1422896400
+I1441584000
 sg169
 I2015
 sg170
-I2
+I7
 ssg65
 g171
 sg31
-S'responsive-vr'
+S'magnetic-input-mobile-vr'
 p2376
 sS'posted'
 p2377
 g177
-(S'\x07\xdf\x02\x02'
+(S'\x07\xdf\t\x07'
 p2378
 tp2379
 Rp2380
 ssg34
-S'content/posts/2015/responsive-vr/index.md'
+S'content/posts/2015/magnetic-input-mobile-vr/index.md'
 p2381
 sg36
-F1433825386.0
+F1441631338.0
 sa(dp2382
 g2
 (dp2383
 g4
-V Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:           Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)   
+V VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.          WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR .   
 p2384
 sg28
 g7
 (g8
 g9
-V<p>Last summer I visited Austria, the capital of classical music. I had the\u000apleasure of hearing the <a href="http://en.wikipedia.org/wiki/Vespro_della_Beata_Vergine">Vespers of 1610</a> in the great\u000a<a href="http://goo.gl/e3WBB2">Salzburger Dom (photosphere)</a>. The most memorable part of\u000athe piece was that the soloists moved between movements, so their voices\u000aand instruments emanated from surprising parts of the great hall.\u000aInspired, I returned to the west coast and eventually came around to\u000abuilding a spatial audio prototypes like this one:</p>\u000a\u000a<p><a href="http://borismus.github.io/moving-music"><img src="collage_small.jpg" alt="Screenshot of a demo" /></a></p>\u000a\u000a<p>Spatial audio is an important part of any good VR experience, since the\u000amore senses we simulate, the more compelling it feels to our sense\u000afusing mind. WebVR, WebGL, and WebAudio all act as complementary specs\u000ato enable this necessary experience. As you would expect, because it\u000auses the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, this demo can be viewed on\u000amobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will\u000aneed headphones :)</p>\u000a\u000a<!--more-->\u000a\u000a<h2>Early spatial music</h2>\u000a\u000a<p>One of the things that made my acoustic experience in the Salzburg Dom\u000aso memorable was the beauty of the space in which it was performed. The\u000apotential for awesome sound was staggering, with one massive organ at\u000athe back, and four smaller organs surrounding the nave. During the\u000aperformance of the vespers, the thing that struck me the most was that\u000aas the piece transitioned from movement to movement, choreographed\u000asoloists also moved around the cathedral, resulting in haunting acoustic\u000aeffects. Sometimes, a voice would appear quietly from the far end of the\u000acloister, sounding distant and muffled. Other times, it would come from\u000athe balcony behind the audience, full of unexpected reverb. It was a\u000atruly unique acoustic experience that I will never forget, and it made\u000ame wonder about the role of space in music.</p>\u000a\u000a<p>As it turns out, there is a rich history on the <a href="http://en.wikipedia.org/wiki/Spatial_music">topic of spatialization\u000ain music</a> going back to the 16th century. For the\u000apurposes of this blog, I am more interested in the present day. In\u000aparticular, given the <a href="http://www.w3.org/TR/webaudio/">excellent state of audio APIs</a> on the\u000aweb, what follows is a foray into spatial audio with WebVR.</p>\u000a\u000a<h2>Experiments in spatial audio</h2>\u000a\u000a<p>How does music sound if in addition to pitch, rhythm and timbre, we\u000acould tweak position and velocity as additional expressive dimension?\u000aMy demo places you into a virtual listening space, that you look\u000aaround into (using whatever means you have available: mouse and\u000akeyboard, mobile phone gyroscope, or cardboard-like device) -- thanks to\u000a<a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>. Each track is visualized as a blob of\u000aparticles. These animate according to the instantaneous amplitude of the\u000atrack, serving as a per-track visualizer and indicating where the track\u000ais in space.</p>\u000a\u000a<p>There is a surprising amount of multi-track music out there, such as\u000a<a href="http://www.cambridge-mt.com/ms-mtk.htm">Cambridge Music Technology's raw recordings archive</a> for aspiring\u000aaudio engineers and <a href="https://soundcloud.com/search/sets?q=stems">soundcloud stems</a> which are typically\u000arecorded separately in a studio and then released publicly for <a href="http://www.remixcomps.com/">remix\u000acontests</a>. In the end, I went with a few different sets just to\u000aget a feeling for spatializing a variety of tracks:</p>\u000a\u000a<ul>\u000a<li>Multiple people <a href="http://borismus.github.io/moving-music/?set=speech">speaking (demo)</a> simultaneously (the <a href="http://en.wikipedia.org/wiki/Cocktail_party_effect">cocktail party effect</a>).</li>\u000a<li>Multi-track <a href="http://borismus.github.io/moving-music/?set=jazz">live (demo)</a> recording with many mic'ed instruments.</li>\u000a<li>Multi-track <a href="http://borismus.github.io/moving-music/?set=phoenix">studio recording (demo)</a> with cleanly recorded tracks (A <a href="http://en.wikipedia.org/wiki/Phoenix_%28band%29">Phoenix</a> track).</li>\u000a</ul>\u000a\u000a<p>In addition to selecting the sounds to spatialize, the demo supports\u000alaying out the tracks in various formations. To cycle between these\u000amodes, hit space on desktop, or tap the screen on mobile:</p>\u000a\u000a<ul>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=0">clumped together (demo)</a> in one place.</li>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=1">positioned around the observer (demo)</a>.</li>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=2">moving around the observer (demo)</a>.</li>\u000a</ul>\u000a\u000a<p>Given that the code is <a href="https://github.com/borismus/moving-music">open sourced on github</a>, it's pretty\u000aeasy to try your own tracks, implement new trajectories or change the\u000avisualizer. Please fork away!</p>\u000a\u000a<h2>Implementation details</h2>\u000a\u000a<p>In an attempt to eat my own dogfood, this project partly serves as a way\u000ato test the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> to make sure that\u000ait is usable, and provides the functionality that it purports to. I've\u000amade a bunch of changes to the boilerplate in parallel, fixing browser\u000acompatibility issues and resolving bugs. Notable improvements since\u000ainception include the ability to mouselook via <a href="http://www.html5rocks.com/en/tutorials/pointerlock/intro/">pointer\u000alock</a> in regular desktop mode and improved support for iOS\u000aand Firefox nightly. Thanks to <a href="http://www.antoniocosta.eu/">Antonio</a>, my awesome designer\u000acolleague, the WebVR boilerplate has a new icon!</p>\u000a\u000a<p>This project relies heavily on audio, but requires the page to be\u000arunning in the foreground for you to enjoy the immersive nature of the\u000aexperience. Browsers, especially on mobile devices, can have some weird\u000abehaviors when it comes to backgrounded tabs. It's a safe bet to just\u000aprevent this from happening altogether, so I've been using the <a href="http://www.smashingmagazine.com/2015/01/20/creating-sites-with-the-page-visibility-api/">page\u000avisibility API</a> to mute the music when the tab goes out of\u000afocus, and then resume it when it's back in focus. This works super well\u000aacross browsers I've tested in and prevents the page-hunt where you're\u000atrying to find which annoying tab/activity/app is playing!</p>\u000a\u000a<p>I toyed a little bit with the doppler effect, but found it to be\u000aterrible for music. Because in the moving case, each track moves with\u000aits own velocity relative to the viewer, frequency shifts are\u000anon-uniform, leading to a cacophany of out-of-tune instruments. For\u000aspoken word, it worked quite well, though. The caveat to all this is that the\u000acurrent <a href="http://crbug.com/439644">doppler API is deprecated</a>, so I\u000adidn't delve too deeply into doppler until we have a new implementation.</p>\u000a\u000a<h2>Pitfalls and workarounds</h2>\u000a\u000a<p><strong>Set your listener's up vector properly.</strong> Something you should beware\u000aof is to always set the up vector correctly in the\u000a<code>listener.setOrientation(...)</code> call. Initially, I was only setting the\u000adirection vector, keeping up fixed at <code>(0, 1, 0)</code>, but this yielded\u000aunpredictable results and took a long time to track down.</p>\u000a\u000a<p><strong>Streaming is broken in mobile implementations.</strong> A couple of issues\u000arelated to loading audio bit me as I was developing, proving to be\u000anearly show stoppers (please star if you feel strongly):</p>\u000a\u000a<ul>\u000a<li>Streaming audio doesn't work on Android (or iOS). This means that\u000aevery track we play needs to be first loaded, and then decoded:\u000a<a href="http://crbug.com/419446">http://crbug.com/419446</a></li>\u000a<li>Decoding mp3 on Android takes a very very long time (same in Firefox):\u000a<a href="http://crbug.com/232973">http://crbug.com/232973</a></li>\u000a<li>Though it doesn't directly affect my spatial sound experiments, the\u000ainability to bring in remote WebRTC audio streams into the audio graph\u000ais blocking other ideas: <a href="https://crbug.com/121673">https://crbug.com/121673</a></li>\u000a</ul>\u000a\u000a<p>I tried to work around the streaming issue by doing my own chunking\u000alocally and then writing a <code>ChunkedAudioPlayer</code>, but this is harder than\u000ait seems, especially when you want to synchronize multiple chunked\u000atracks.</p>\u000a\u000a<p><strong>Beware of implementation differences.</strong> It's also worth noting that\u000adifferent browsers have slightly different behaviors when it comes to\u000aPannerNodes. In particular, Firefox spatialization can appear to sound\u000abetter, but this is simply because it's louder (the same effect can be\u000areplicated in Chrome by just increasing gain). Also, on iOS, it seems\u000athat the spatialization effect is weaker -- potentially because they are\u000ausing a different HRTF, or maybe they are just panning.</p>\u000a\u000a<p><strong>Spatialization effect can be subtle.</strong> I found that there wasn't\u000aenough oomph to the effect provided by WebAudio's HRTF. Perhaps it is\u000aacoustically correct, but it just wasn't obvious or compelling enough as\u000ais. I had to fudge the situation slightly, and implement a sound cone\u000afor the observer, so that sources that are within the field of view got\u000aa slight gain boost.</p>\u000a\u000a<h2>Parting words and links</h2>\u000a\u000a<p><a href="http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/errors_hr97.pdf">The nature and distribution of errors in sound localization</a>\u000ais a seminal paper from 1997, giving a thorough psychoacoustic analysis\u000aon our hearing limits. In this web audio context, however, it is unclear\u000ahow much of this perceptual accuracy is lost due to variations in\u000aheadphone style and quality, and software implementation details.  To\u000atruly bring my Austrian cathedral experience to the web, we would\u000aprobably need a personalized HRTF, and also a more sophisticated room\u000amodel that could simulate reflections from the walls of the building.\u000aThis is concievable on the web in the near future, especially with the\u000aprospect of the <a href="https://plus.sandbox.google.com/+ChrisWilson/posts/QapzKucPp6Y">highly anticipated</a> <a href="http://webaudio.github.io/web-audio-api/#audio-worker-examples">AudioWorker</a>.</p>\u000a\u000a<p>Let me conclude by linking you to a couple more spatial audio demos:</p>\u000a\u000a<ul>\u000a<li>Ilmari wrote an <a href="http://www.html5rocks.com/en/tutorials/webaudio/positional_audio/">html5rocks post</a> a while back about three.js\u000aand the Web Audio API.</li>\u000a<li>Mozilla built the <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/">Songs of Diridum demo</a>, showing a cute\u000aspatialized jazz band.</li>\u000a<li>Arturo recently emailed me, showing me a <a href="http://inspirit.unboring.net/">pretty compelling WebVR +\u000aAudio project</a>, in the spirit of WebVR.</li>\u000a<li>Not web-based, but a painstakingly recorded and tweaked <a href="https://www.youtube.com/watch?v=IUDTlvagjJA">binaural\u000ahaircut simulation</a> just to illustrate the potential.</li>\u000a</ul>\u000a
+V<p>VR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web\u000aDesign</a>, which websites to scale well for all form factors.\u000aSimilarly, for VR to succeed on the web, we need to figure out how to\u000amake VR experiences that work both in any VR headset, and also without a\u000aVR headset at all.</p>\u000a\u000a<p><img src="hmds.png" alt="Various head mounted displays." /></p>\u000a\u000a<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building\u000aresponsive web VR experiences that work on popular VR headsets and\u000adegrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a\u000asimple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>\u000a\u000a<!--more-->\u000a\u000a<h2>Preview the VR experience for everyone</h2>\u000a\u000a<p>Say you visit a webpage, and it opens up in split-screen mode barrel\u000adistortion, chromatic aberration correction, personalized interpupillary\u000adistance, and provides 6 DOF tracking. <a href="https://www.youtube.com/watch?v=PkFyGNjaQ8k">Whoa</a>. You reach for your\u000aVR headset only to find that you forgot it at work! How disappointing!\u000aThe vast majority of normal people with no head mounted display lying\u000aaround will surely be even more disappointed.</p>\u000a\u000a<p>Responsive web design promises content which automatically adapts to\u000ayour viewing environment by using fluid layouts, flexible images,\u000aproportional grids; a cocktail of modern web technologies. Similarly,\u000aWebVR experiences need to work even without VR hardware. This has two\u000aobvious advantages:</p>\u000a\u000a<ol>\u000a<li>The vast majority of people that don't have VR hardware can still get\u000aa feeling for the experience.</li>\u000a<li>Even if you have VR gear, donning it is a pain. This preview lets you\u000aquickly evaluate whether or not wearing is worth the hassle.</li>\u000a</ol>\u000a\u000a<p>What are some reasonable fallbacks to the in-helmet VR experience? The\u000amain question boils down to emulating head tracking without wearing\u000aanything on your head. On mobile phones, the obvious answer is to use\u000athe gyroscope, for a <a href="http://googlespotlightstories.com/">Spotlight Stories</a>-type experience. On\u000adesktop, we use the mouse to free-look, and also support turning using\u000athe arrow keys. This covers enough of the 3DOF orientation that all HMDs\u000aprovide. Clearly missing are the three translational degrees of freedom,\u000abut these are provided only by some VR headsets, and we can imagine some\u000a<a href="http://topheman.github.io/parallax/">interesting fallbacks</a> for those too.</p>\u000a\u000a<h2>Write once, run in any VR headset</h2>\u000a\u000a<p>Remember the old "write once, run anywhere" promise? The web is the\u000aclosest thing we have to fulfilling it, but what it actually delivers is\u000aoften far from this ideal. The latest VR wave has barely begun and\u000aalready the web VR world is fragmented. Case in point,\u000a<a href="http://vr.chromeexperiments.com/">vr.chromeexperiments.com</a> don't work on Oculus, and\u000a<a href="http://mozvr.com/">mozvr.com</a> demos don't work in Cardboard.  The promise of WebVR\u000ais that once it lands, all will be well in the world. However, this\u000ameans that we need to wait for WebVR to become fully baked. In other\u000awords, we are blocked on the valiant efforts of our dear <a href="https://twitter.com/vvuk">WebVR</a>\u000a<a href="https://twitter.com/Tojiro">implementers</a> (as well as the heavyweight browser development\u000aprocess consisting of spec authors, security reviews, binary size, etc).</p>\u000a\u000a<p>To speed up the process, we need a polyfill for WebVR which uses web\u000aAPIs to provide functionality to the WebVR specification (currently, in\u000a<a href="https://github.com/vvuk/gecko-dev/blob/oculus/dom/webidl/VRDevice.webidl">IDL form</a>). In the absence of a WebVR implementation, the polyfill\u000akicks in and supports mobile VR headsets like Cardboard and Durovis\u000aDive, which are passive contraptions that just piggyback on the\u000asmartness found in your smartphone.</p>\u000a\u000a<h2>Introducing: WebVR Boilerplate</h2>\u000a\u000a<p>The <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> is on github, and consists of\u000atwo parts. Firstly, the <a href="https://github.com/borismus/webvr-polyfill">WebVR polyfill</a> provides WebVR\u000asupport for Cardboard-compatible devices, and orientation tracking\u000afallbacks where no headset is available. The WebVR polyfill can also be\u000ainstalled from npm (available via <code>npm install webvr-polyfill</code>).</p>\u000a\u000a<ol>\u000a<li>A <code>CardboardHMDDevice</code>, provides a reasonable default for\u000ainterpupillary distance and field of view for cardboard-like devices.</li>\u000a<li>On mobile devices, a <code>GyroPositionSensorVRDevice</code>, which provides\u000aorientation through the <code>DeviceOrientationEvent</code>.</li>\u000a<li>On PCs, a <code>MouseKeyboardPositionSensorVRDevice</code>, which provides\u000aorientation through keyboard and mouse events.</li>\u000a</ol>\u000a\u000a<p>It is designed to be used with <a href="http://threejs.org/">THREE.js</a> plugins that are built\u000afor the WebVR API: <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js">VRControls.js</a> and\u000a<a href="https://github.com/mrdoob/three.js/blob/master/examples/js/effects/VREffect.js">VREffect.js</a>, but of course any valid usage of the WebVR API\u000ashould work (modulo bugs).</p>\u000a\u000a<p>Secondly, the <a href="https://github.com/borismus/webvr-boilerplate/blob/master/js/webvr-manager.js">WebVR manager</a> surfaces VR compatibility\u000ausing consistent iconography and simplifies transitioning in and out of\u000afull VR mode. It also contains some of the best practices for making VR\u000awork on the web, for example, using orientation lock to keep the phone\u000ain landscape orientation, and a means of keeping the phone screen on. If\u000ayou're ready to dive in, the <a href="https://github.com/borismus/webvr-boilerplate">github has all of the technical\u000ainformation</a> available.</p>\u000a\u000a<p>WebVR boilerplate is meant to make it easy to develop immersive\u000aexperiences that run on all VR hardware, including Oculus and Cardboard,\u000aand also provide reasonable fallbacks when no specialized viewer is\u000aavailable.</p>\u000a\u000a<h2>WebVR boilerplate in action</h2>\u000a\u000a<p><img src="sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>\u000a\u000a<p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the\u000aeponymous town on British Columbia's beautiful Sunshine Coast. I've\u000a<a href="http://borismus.github.io/sechelt">ported it</a> to WebVR Boilerplate. The result is the same\u000ademo, which works in Cardboard, as well as continuing to work on desktop\u000aand mobile devices, and on the Oculus Rift via <a href="https://nightly.mozilla.org/">Firefox Nightly</a> and\u000a<a href="https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&amp;usp=sharing#list">Brandon's WebVR Chrome builds</a>. It also yielded less confusing\u000aboilerplate code and a <a href="https://github.com/borismus/sechelt/commit/671cff9fc283b58d2ebce0ae6f0dfa3580050aab">simplified code base</a> since\u000athere is no longer need for an unweildy conditional to determine whether\u000ato use <code>DeviceOrientationControls</code>, <code>OrbitControls</code>, or <code>VRControls</code>,\u000aand decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>\u000a\u000a<p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point\u000aout (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>\u000a
 p2385
 tp2386
 Rp2387
 sg13
-V/spatial-audio-web-vr
+V/responsive-vr
 p2388
 sg15
 Nsg16
 I01
 sg17
-VSpatial audio and web VR
+VResponsive WebVR, headset optional
 p2389
 sg20
-VLast summer I visited Austria, the capital of classical music.
+VVR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it.
 p2390
 sg6
-V<p>Last summer I visited Austria, the capital of classical music. I had the\u000apleasure of hearing the <a href="http://en.wikipedia.org/wiki/Vespro_della_Beata_Vergine">Vespers of 1610</a> in the great\u000a<a href="http://goo.gl/e3WBB2">Salzburger Dom (photosphere)</a>. The most memorable part of\u000athe piece was that the soloists moved between movements, so their voices\u000aand instruments emanated from surprising parts of the great hall.\u000aInspired, I returned to the west coast and eventually came around to\u000abuilding a spatial audio prototypes like this one:</p>\u000a\u000a<p><a href="http://borismus.github.io/moving-music"><img src="collage_small.jpg" alt="Screenshot of a demo" /></a></p>\u000a\u000a<p>Spatial audio is an important part of any good VR experience, since the\u000amore senses we simulate, the more compelling it feels to our sense\u000afusing mind. WebVR, WebGL, and WebAudio all act as complementary specs\u000ato enable this necessary experience. As you would expect, because it\u000auses the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, this demo can be viewed on\u000amobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will\u000aneed headphones :)</p>\u000a\u000a
+V<p>VR on the web threatens to cleave the web platform in twain, like mobile\u000adid before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web\u000aDesign</a>, which websites to scale well for all form factors.\u000aSimilarly, for VR to succeed on the web, we need to figure out how to\u000amake VR experiences that work both in any VR headset, and also without a\u000aVR headset at all.</p>\u000a\u000a<p><img src="hmds.png" alt="Various head mounted displays." /></p>\u000a\u000a<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building\u000aresponsive web VR experiences that work on popular VR headsets and\u000adegrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a\u000asimple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>\u000a\u000a
 p2391
 sg25
 g158
@@ -7519,18 +7519,87 @@ g2388
 sg159
 (dp2392
 g161
-S'Mar'
+S'Feb'
 p2393
 sg163
-S'March 19, 2015'
+S'February 2, 2015'
 p2394
+sg165
+I2
+sg166
+S'2015-02-02T09:00:00-00:00'
+p2395
+sg168
+I1422835200
+sg169
+I2015
+sg170
+I2
+ssg65
+g171
+sg31
+S'responsive-vr'
+p2396
+sS'posted'
+p2397
+g177
+(S'\x07\xdf\x02\x02'
+p2398
+tp2399
+Rp2400
+ssg34
+S'content/posts/2015/responsive-vr/index.md'
+p2401
+sg36
+F1433825386.0
+sa(dp2402
+g2
+(dp2403
+g4
+V Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:           Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)   
+p2404
+sg28
+g7
+(g8
+g9
+V<p>Last summer I visited Austria, the capital of classical music. I had the\u000apleasure of hearing the <a href="http://en.wikipedia.org/wiki/Vespro_della_Beata_Vergine">Vespers of 1610</a> in the great\u000a<a href="http://goo.gl/e3WBB2">Salzburger Dom (photosphere)</a>. The most memorable part of\u000athe piece was that the soloists moved between movements, so their voices\u000aand instruments emanated from surprising parts of the great hall.\u000aInspired, I returned to the west coast and eventually came around to\u000abuilding a spatial audio prototypes like this one:</p>\u000a\u000a<p><a href="http://borismus.github.io/moving-music"><img src="collage_small.jpg" alt="Screenshot of a demo" /></a></p>\u000a\u000a<p>Spatial audio is an important part of any good VR experience, since the\u000amore senses we simulate, the more compelling it feels to our sense\u000afusing mind. WebVR, WebGL, and WebAudio all act as complementary specs\u000ato enable this necessary experience. As you would expect, because it\u000auses the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, this demo can be viewed on\u000amobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will\u000aneed headphones :)</p>\u000a\u000a<!--more-->\u000a\u000a<h2>Early spatial music</h2>\u000a\u000a<p>One of the things that made my acoustic experience in the Salzburg Dom\u000aso memorable was the beauty of the space in which it was performed. The\u000apotential for awesome sound was staggering, with one massive organ at\u000athe back, and four smaller organs surrounding the nave. During the\u000aperformance of the vespers, the thing that struck me the most was that\u000aas the piece transitioned from movement to movement, choreographed\u000asoloists also moved around the cathedral, resulting in haunting acoustic\u000aeffects. Sometimes, a voice would appear quietly from the far end of the\u000acloister, sounding distant and muffled. Other times, it would come from\u000athe balcony behind the audience, full of unexpected reverb. It was a\u000atruly unique acoustic experience that I will never forget, and it made\u000ame wonder about the role of space in music.</p>\u000a\u000a<p>As it turns out, there is a rich history on the <a href="http://en.wikipedia.org/wiki/Spatial_music">topic of spatialization\u000ain music</a> going back to the 16th century. For the\u000apurposes of this blog, I am more interested in the present day. In\u000aparticular, given the <a href="http://www.w3.org/TR/webaudio/">excellent state of audio APIs</a> on the\u000aweb, what follows is a foray into spatial audio with WebVR.</p>\u000a\u000a<h2>Experiments in spatial audio</h2>\u000a\u000a<p>How does music sound if in addition to pitch, rhythm and timbre, we\u000acould tweak position and velocity as additional expressive dimension?\u000aMy demo places you into a virtual listening space, that you look\u000aaround into (using whatever means you have available: mouse and\u000akeyboard, mobile phone gyroscope, or cardboard-like device) -- thanks to\u000a<a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>. Each track is visualized as a blob of\u000aparticles. These animate according to the instantaneous amplitude of the\u000atrack, serving as a per-track visualizer and indicating where the track\u000ais in space.</p>\u000a\u000a<p>There is a surprising amount of multi-track music out there, such as\u000a<a href="http://www.cambridge-mt.com/ms-mtk.htm">Cambridge Music Technology's raw recordings archive</a> for aspiring\u000aaudio engineers and <a href="https://soundcloud.com/search/sets?q=stems">soundcloud stems</a> which are typically\u000arecorded separately in a studio and then released publicly for <a href="http://www.remixcomps.com/">remix\u000acontests</a>. In the end, I went with a few different sets just to\u000aget a feeling for spatializing a variety of tracks:</p>\u000a\u000a<ul>\u000a<li>Multiple people <a href="http://borismus.github.io/moving-music/?set=speech">speaking (demo)</a> simultaneously (the <a href="http://en.wikipedia.org/wiki/Cocktail_party_effect">cocktail party effect</a>).</li>\u000a<li>Multi-track <a href="http://borismus.github.io/moving-music/?set=jazz">live (demo)</a> recording with many mic'ed instruments.</li>\u000a<li>Multi-track <a href="http://borismus.github.io/moving-music/?set=phoenix">studio recording (demo)</a> with cleanly recorded tracks (A <a href="http://en.wikipedia.org/wiki/Phoenix_%28band%29">Phoenix</a> track).</li>\u000a</ul>\u000a\u000a<p>In addition to selecting the sounds to spatialize, the demo supports\u000alaying out the tracks in various formations. To cycle between these\u000amodes, hit space on desktop, or tap the screen on mobile:</p>\u000a\u000a<ul>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=0">clumped together (demo)</a> in one place.</li>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=1">positioned around the observer (demo)</a>.</li>\u000a<li>Sources are <a href="http://borismus.github.io/moving-music/?mode=2">moving around the observer (demo)</a>.</li>\u000a</ul>\u000a\u000a<p>Given that the code is <a href="https://github.com/borismus/moving-music">open sourced on github</a>, it's pretty\u000aeasy to try your own tracks, implement new trajectories or change the\u000avisualizer. Please fork away!</p>\u000a\u000a<h2>Implementation details</h2>\u000a\u000a<p>In an attempt to eat my own dogfood, this project partly serves as a way\u000ato test the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> to make sure that\u000ait is usable, and provides the functionality that it purports to. I've\u000amade a bunch of changes to the boilerplate in parallel, fixing browser\u000acompatibility issues and resolving bugs. Notable improvements since\u000ainception include the ability to mouselook via <a href="http://www.html5rocks.com/en/tutorials/pointerlock/intro/">pointer\u000alock</a> in regular desktop mode and improved support for iOS\u000aand Firefox nightly. Thanks to <a href="http://www.antoniocosta.eu/">Antonio</a>, my awesome designer\u000acolleague, the WebVR boilerplate has a new icon!</p>\u000a\u000a<p>This project relies heavily on audio, but requires the page to be\u000arunning in the foreground for you to enjoy the immersive nature of the\u000aexperience. Browsers, especially on mobile devices, can have some weird\u000abehaviors when it comes to backgrounded tabs. It's a safe bet to just\u000aprevent this from happening altogether, so I've been using the <a href="http://www.smashingmagazine.com/2015/01/20/creating-sites-with-the-page-visibility-api/">page\u000avisibility API</a> to mute the music when the tab goes out of\u000afocus, and then resume it when it's back in focus. This works super well\u000aacross browsers I've tested in and prevents the page-hunt where you're\u000atrying to find which annoying tab/activity/app is playing!</p>\u000a\u000a<p>I toyed a little bit with the doppler effect, but found it to be\u000aterrible for music. Because in the moving case, each track moves with\u000aits own velocity relative to the viewer, frequency shifts are\u000anon-uniform, leading to a cacophany of out-of-tune instruments. For\u000aspoken word, it worked quite well, though. The caveat to all this is that the\u000acurrent <a href="http://crbug.com/439644">doppler API is deprecated</a>, so I\u000adidn't delve too deeply into doppler until we have a new implementation.</p>\u000a\u000a<h2>Pitfalls and workarounds</h2>\u000a\u000a<p><strong>Set your listener's up vector properly.</strong> Something you should beware\u000aof is to always set the up vector correctly in the\u000a<code>listener.setOrientation(...)</code> call. Initially, I was only setting the\u000adirection vector, keeping up fixed at <code>(0, 1, 0)</code>, but this yielded\u000aunpredictable results and took a long time to track down.</p>\u000a\u000a<p><strong>Streaming is broken in mobile implementations.</strong> A couple of issues\u000arelated to loading audio bit me as I was developing, proving to be\u000anearly show stoppers (please star if you feel strongly):</p>\u000a\u000a<ul>\u000a<li>Streaming audio doesn't work on Android (or iOS). This means that\u000aevery track we play needs to be first loaded, and then decoded:\u000a<a href="http://crbug.com/419446">http://crbug.com/419446</a></li>\u000a<li>Decoding mp3 on Android takes a very very long time (same in Firefox):\u000a<a href="http://crbug.com/232973">http://crbug.com/232973</a></li>\u000a<li>Though it doesn't directly affect my spatial sound experiments, the\u000ainability to bring in remote WebRTC audio streams into the audio graph\u000ais blocking other ideas: <a href="https://crbug.com/121673">https://crbug.com/121673</a></li>\u000a</ul>\u000a\u000a<p>I tried to work around the streaming issue by doing my own chunking\u000alocally and then writing a <code>ChunkedAudioPlayer</code>, but this is harder than\u000ait seems, especially when you want to synchronize multiple chunked\u000atracks.</p>\u000a\u000a<p><strong>Beware of implementation differences.</strong> It's also worth noting that\u000adifferent browsers have slightly different behaviors when it comes to\u000aPannerNodes. In particular, Firefox spatialization can appear to sound\u000abetter, but this is simply because it's louder (the same effect can be\u000areplicated in Chrome by just increasing gain). Also, on iOS, it seems\u000athat the spatialization effect is weaker -- potentially because they are\u000ausing a different HRTF, or maybe they are just panning.</p>\u000a\u000a<p><strong>Spatialization effect can be subtle.</strong> I found that there wasn't\u000aenough oomph to the effect provided by WebAudio's HRTF. Perhaps it is\u000aacoustically correct, but it just wasn't obvious or compelling enough as\u000ais. I had to fudge the situation slightly, and implement a sound cone\u000afor the observer, so that sources that are within the field of view got\u000aa slight gain boost.</p>\u000a\u000a<h2>Parting words and links</h2>\u000a\u000a<p><a href="http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/errors_hr97.pdf">The nature and distribution of errors in sound localization</a>\u000ais a seminal paper from 1997, giving a thorough psychoacoustic analysis\u000aon our hearing limits. In this web audio context, however, it is unclear\u000ahow much of this perceptual accuracy is lost due to variations in\u000aheadphone style and quality, and software implementation details.  To\u000atruly bring my Austrian cathedral experience to the web, we would\u000aprobably need a personalized HRTF, and also a more sophisticated room\u000amodel that could simulate reflections from the walls of the building.\u000aThis is concievable on the web in the near future, especially with the\u000aprospect of the <a href="https://plus.sandbox.google.com/+ChrisWilson/posts/QapzKucPp6Y">highly anticipated</a> <a href="http://webaudio.github.io/web-audio-api/#audio-worker-examples">AudioWorker</a>.</p>\u000a\u000a<p>Let me conclude by linking you to a couple more spatial audio demos:</p>\u000a\u000a<ul>\u000a<li>Ilmari wrote an <a href="http://www.html5rocks.com/en/tutorials/webaudio/positional_audio/">html5rocks post</a> a while back about three.js\u000aand the Web Audio API.</li>\u000a<li>Mozilla built the <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/">Songs of Diridum demo</a>, showing a cute\u000aspatialized jazz band.</li>\u000a<li>Arturo recently emailed me, showing me a <a href="http://inspirit.unboring.net/">pretty compelling WebVR +\u000aAudio project</a>, in the spirit of WebVR.</li>\u000a<li>Not web-based, but a painstakingly recorded and tweaked <a href="https://www.youtube.com/watch?v=IUDTlvagjJA">binaural\u000ahaircut simulation</a> just to illustrate the potential.</li>\u000a</ul>\u000a
+p2405
+tp2406
+Rp2407
+sg13
+V/spatial-audio-web-vr
+p2408
+sg15
+Nsg16
+I01
+sg17
+VSpatial audio and web VR
+p2409
+sg20
+VLast summer I visited Austria, the capital of classical music.
+p2410
+sg6
+V<p>Last summer I visited Austria, the capital of classical music. I had the\u000apleasure of hearing the <a href="http://en.wikipedia.org/wiki/Vespro_della_Beata_Vergine">Vespers of 1610</a> in the great\u000a<a href="http://goo.gl/e3WBB2">Salzburger Dom (photosphere)</a>. The most memorable part of\u000athe piece was that the soloists moved between movements, so their voices\u000aand instruments emanated from surprising parts of the great hall.\u000aInspired, I returned to the west coast and eventually came around to\u000abuilding a spatial audio prototypes like this one:</p>\u000a\u000a<p><a href="http://borismus.github.io/moving-music"><img src="collage_small.jpg" alt="Screenshot of a demo" /></a></p>\u000a\u000a<p>Spatial audio is an important part of any good VR experience, since the\u000amore senses we simulate, the more compelling it feels to our sense\u000afusing mind. WebVR, WebGL, and WebAudio all act as complementary specs\u000ato enable this necessary experience. As you would expect, because it\u000auses the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, this demo can be viewed on\u000amobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will\u000aneed headphones :)</p>\u000a\u000a
+p2411
+sg25
+g158
+sg33
+g2408
+sg159
+(dp2412
+g161
+S'Mar'
+p2413
+sg163
+S'March 19, 2015'
+p2414
 sg165
 I3
 sg166
 S'2015-03-19T09:00:00-00:00'
-p2395
+p2415
 sg168
-I1426780800
+I1426723200
 sg169
 I2015
 sg170
@@ -7539,17 +7608,17 @@ ssg65
 g171
 sg31
 S'spatial-audio-web-vr'
-p2396
+p2416
 sS'posted'
-p2397
+p2417
 g177
 (S'\x07\xdf\x03\x13'
-p2398
-tp2399
-Rp2400
+p2418
+tp2419
+Rp2420
 ssg34
 S'content/posts/2015/spatial-audio-web-vr/index.md'
-p2401
+p2421
 sg36
 F1433825402.0
 sa.
