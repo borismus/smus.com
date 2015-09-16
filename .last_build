@@ -502,7 +502,7 @@ S'2008-12-11T09:00:00-00:00'
 p167
 sS'unix'
 p168
-I1228953600
+I1229014800
 sS'year'
 p169
 I2008
@@ -587,7 +587,7 @@ sg166
 S'2008-12-04T09:00:00-00:00'
 p198
 sg168
-I1228348800
+I1228410000
 sg169
 I2008
 sg170
@@ -662,7 +662,7 @@ sg166
 S'2008-11-24T09:00:00-00:00'
 p221
 sg168
-I1227484800
+I1227546000
 sg169
 I2008
 sg170
@@ -742,7 +742,7 @@ sg166
 S'2008-11-15T09:00:00-00:00'
 p247
 sg168
-I1226707200
+I1226768400
 sg169
 I2008
 sg170
@@ -822,7 +822,7 @@ sg166
 S'2008-10-31T09:00:00-00:00'
 p273
 sg168
-I1225411200
+I1225468800
 sg169
 I2008
 sg170
@@ -902,7 +902,7 @@ sg166
 S'2008-09-23T09:00:00-00:00'
 p299
 sg168
-I1222128000
+I1222185600
 sg169
 I2008
 sg170
@@ -984,7 +984,7 @@ sg166
 S'2009-10-20T09:00:00-00:00'
 p326
 sg168
-I1255996800
+I1256054400
 sg169
 I2009
 sg170
@@ -1064,7 +1064,7 @@ sg166
 S'2009-01-19T09:00:00-00:00'
 p352
 sg168
-I1232323200
+I1232384400
 sg169
 I2009
 sg170
@@ -1137,7 +1137,7 @@ sg166
 S'2009-04-18T09:00:00-00:00'
 p374
 sg168
-I1240012800
+I1240070400
 sg169
 I2009
 sg170
@@ -1217,7 +1217,7 @@ sg166
 S'2009-02-15T09:00:00-00:00'
 p400
 sg168
-I1234656000
+I1234717200
 sg169
 I2009
 sg170
@@ -1299,7 +1299,7 @@ sg166
 S'2009-07-22T09:00:00-00:00'
 p427
 sg168
-I1248220800
+I1248278400
 sg169
 I2009
 sg170
@@ -1379,7 +1379,7 @@ sg166
 S'2009-06-14T09:00:00-00:00'
 p453
 sg168
-I1244937600
+I1244995200
 sg169
 I2009
 sg170
@@ -1459,7 +1459,7 @@ sg166
 S'2009-08-28T09:00:00-00:00'
 p479
 sg168
-I1251417600
+I1251475200
 sg169
 I2009
 sg170
@@ -1539,7 +1539,7 @@ sg166
 S'2009-03-23T09:00:00-00:00'
 p505
 sg168
-I1237766400
+I1237824000
 sg169
 I2009
 sg170
@@ -1614,7 +1614,7 @@ sg166
 S'2009-01-07T09:00:00-00:00'
 p528
 sg168
-I1231286400
+I1231347600
 sg169
 I2009
 sg170
@@ -1694,7 +1694,7 @@ sg166
 S'2009-09-28T09:00:00-00:00'
 p554
 sg168
-I1254096000
+I1254153600
 sg169
 I2009
 sg170
@@ -1776,7 +1776,7 @@ sg166
 S'2009-08-07T09:00:00-00:00'
 p581
 sg168
-I1249603200
+I1249660800
 sg169
 I2009
 sg170
@@ -1856,7 +1856,7 @@ sg166
 S'2009-09-06T09:00:00-00:00'
 p607
 sg168
-I1252195200
+I1252252800
 sg169
 I2009
 sg170
@@ -1936,7 +1936,7 @@ sg166
 S'2009-02-27T09:00:00-00:00'
 p633
 sg168
-I1235692800
+I1235754000
 sg169
 I2009
 sg170
@@ -2016,7 +2016,7 @@ sg166
 S'2009-02-05T09:00:00-00:00'
 p659
 sg168
-I1233792000
+I1233853200
 sg169
 I2009
 sg170
@@ -2096,7 +2096,7 @@ sg166
 S'2009-11-18T09:00:00-00:00'
 p685
 sg168
-I1258502400
+I1258563600
 sg169
 I2009
 sg170
@@ -2176,7 +2176,7 @@ sg166
 S'2010-11-25T09:00:00-00:00'
 p711
 sg168
-I1290643200
+I1290704400
 sg169
 I2010
 sg170
@@ -2258,7 +2258,7 @@ sg166
 S'2010-06-27T09:00:00-00:00'
 p738
 sg168
-I1277596800
+I1277654400
 sg169
 I2010
 sg170
@@ -2340,7 +2340,7 @@ sg166
 S'2010-10-25T09:00:00-00:00'
 p765
 sg168
-I1287964800
+I1288022400
 sg169
 I2010
 sg170
@@ -2413,7 +2413,7 @@ sg166
 S'2010-03-21T09:00:00-00:00'
 p787
 sg168
-I1269129600
+I1269187200
 sg169
 I2010
 sg170
@@ -2493,7 +2493,7 @@ sg166
 S'2010-10-31T09:00:00-00:00'
 p813
 sg168
-I1288483200
+I1288540800
 sg169
 I2010
 sg170
@@ -2575,7 +2575,7 @@ sg166
 S'2010-01-14T09:00:00-00:00'
 p840
 sg168
-I1263427200
+I1263488400
 sg169
 I2010
 sg170
@@ -2655,7 +2655,7 @@ sg166
 S'2010-01-16T09:00:00-00:00'
 p866
 sg168
-I1263600000
+I1263661200
 sg169
 I2010
 sg170
@@ -2735,7 +2735,7 @@ sg166
 S'2010-10-09T09:00:00-00:00'
 p892
 sg168
-I1286582400
+I1286640000
 sg169
 I2010
 sg170
@@ -2815,7 +2815,7 @@ sg166
 S'2010-04-24T09:00:00-00:00'
 p918
 sg168
-I1272067200
+I1272124800
 sg169
 I2010
 sg170
@@ -2897,7 +2897,7 @@ sg166
 S'2010-11-17T09:00:00-00:00'
 p945
 sg168
-I1289952000
+I1290013200
 sg169
 I2010
 sg170
@@ -2977,7 +2977,7 @@ sg166
 S'2010-12-25T09:00:00-00:00'
 p971
 sg168
-I1293235200
+I1293296400
 sg169
 I2010
 sg170
@@ -3057,7 +3057,7 @@ sg166
 S'2010-02-26T09:00:00-00:00'
 p997
 sg168
-I1267142400
+I1267203600
 sg169
 I2010
 sg170
@@ -3137,7 +3137,7 @@ sg166
 S'2010-07-21T09:00:00-00:00'
 p1023
 sg168
-I1279670400
+I1279728000
 sg169
 I2010
 sg170
@@ -3217,7 +3217,7 @@ sg166
 S'2010-10-16T09:00:00-00:00'
 p1049
 sg168
-I1287187200
+I1287244800
 sg169
 I2010
 sg170
@@ -3297,7 +3297,7 @@ sg166
 S'2010-05-18T09:00:00-00:00'
 p1075
 sg168
-I1274140800
+I1274198400
 sg169
 I2010
 sg170
@@ -3377,7 +3377,7 @@ sg166
 S'2010-11-11T09:00:00-00:00'
 p1101
 sg168
-I1289433600
+I1289494800
 sg169
 I2010
 sg170
@@ -3457,7 +3457,7 @@ sg166
 S'2010-05-28T09:00:00-00:00'
 p1127
 sg168
-I1275004800
+I1275062400
 sg169
 I2010
 sg170
@@ -3537,7 +3537,7 @@ sg166
 S'2010-08-06T09:00:00-00:00'
 p1153
 sg168
-I1281052800
+I1281110400
 sg169
 I2010
 sg170
@@ -3619,7 +3619,7 @@ sg166
 S'2010-09-30T09:00:00-00:00'
 p1180
 sg168
-I1285804800
+I1285862400
 sg169
 I2010
 sg170
@@ -3699,7 +3699,7 @@ sg166
 S'2010-12-16T09:00:00-00:00'
 p1206
 sg168
-I1292457600
+I1292518800
 sg169
 I2010
 sg170
@@ -3779,7 +3779,7 @@ sg166
 S'2010-02-06T09:00:00-00:00'
 p1232
 sg168
-I1265414400
+I1265475600
 sg169
 I2010
 sg170
@@ -3861,7 +3861,7 @@ sg166
 S'2011-06-21T09:00:00-00:00'
 p1259
 sg168
-I1308614400
+I1308672000
 sg169
 I2011
 sg170
@@ -3945,7 +3945,7 @@ sg166
 S'2011-04-01T09:00:00-00:00'
 p1287
 sg168
-I1301616000
+I1301673600
 sg169
 I2011
 sg170
@@ -4031,7 +4031,7 @@ sg166
 S'2011-07-28T09:00:00-00:00'
 p1316
 sg168
-I1311811200
+I1311868800
 sg169
 I2011
 sg170
@@ -4119,7 +4119,7 @@ sg166
 S'2011-03-21T09:00:00-00:00'
 p1346
 sg168
-I1300665600
+I1300723200
 sg169
 I2011
 sg170
@@ -4203,7 +4203,7 @@ sg166
 S'2011-02-02T09:00:00-00:00'
 p1374
 sg168
-I1296604800
+I1296666000
 sg169
 I2011
 sg170
@@ -4287,7 +4287,7 @@ sg166
 S'2011-02-20T09:00:00-00:00'
 p1402
 sg168
-I1298160000
+I1298221200
 sg169
 I2011
 sg170
@@ -4371,7 +4371,7 @@ sg166
 S'2011-05-13T09:00:00-00:00'
 p1430
 sg168
-I1305244800
+I1305302400
 sg169
 I2011
 sg170
@@ -4451,7 +4451,7 @@ sg166
 S'2011-06-06T09:00:00-00:00'
 p1456
 sg168
-I1307318400
+I1307376000
 sg169
 I2011
 sg170
@@ -4533,7 +4533,7 @@ sg166
 S'2011-07-11T09:00:00-00:00'
 p1483
 sg168
-I1310342400
+I1310400000
 sg169
 I2011
 sg170
@@ -4617,7 +4617,7 @@ sg166
 S'2011-09-22T09:00:00-00:00'
 p1511
 sg168
-I1316649600
+I1316707200
 sg169
 I2011
 sg170
@@ -4695,7 +4695,7 @@ sg166
 S'2011-11-28T09:00:00-00:00'
 p1536
 sg168
-I1322438400
+I1322499600
 sg169
 I2011
 sg170
@@ -4775,7 +4775,7 @@ sg166
 S'2011-04-26T09:00:00-00:00'
 p1562
 sg168
-I1303776000
+I1303833600
 sg169
 I2011
 sg170
@@ -4857,7 +4857,7 @@ sg166
 S'2011-05-02T09:00:00-00:00'
 p1589
 sg168
-I1304294400
+I1304352000
 sg169
 I2011
 sg170
@@ -4937,7 +4937,7 @@ sg166
 S'2011-08-30T09:00:00-00:00'
 p1615
 sg168
-I1314662400
+I1314720000
 sg169
 I2011
 sg170
@@ -5021,7 +5021,7 @@ sg166
 S'2011-05-31T09:00:00-00:00'
 p1643
 sg168
-I1306800000
+I1306857600
 sg169
 I2011
 sg170
@@ -5103,7 +5103,7 @@ sg166
 S'2011-07-07T09:00:00-00:00'
 p1670
 sg168
-I1309996800
+I1310054400
 sg169
 I2011
 sg170
@@ -5187,7 +5187,7 @@ sg166
 S'2011-10-04T09:00:00-00:00'
 p1698
 sg168
-I1317686400
+I1317744000
 sg169
 I2011
 sg170
@@ -5265,7 +5265,7 @@ sg166
 S'2011-11-15T09:00:00-00:00'
 p1723
 sg168
-I1321315200
+I1321376400
 sg169
 I2011
 sg170
@@ -5347,7 +5347,7 @@ sg166
 S'2011-03-17T09:00:00-00:00'
 p1750
 sg168
-I1300320000
+I1300377600
 sg169
 I2011
 sg170
@@ -5423,7 +5423,7 @@ sg166
 S'2011-10-20T09:00:00-00:00'
 p1774
 sg168
-I1319068800
+I1319126400
 sg169
 I2011
 sg170
@@ -5505,7 +5505,7 @@ sg166
 S'2011-04-20T09:00:00-00:00'
 p1801
 sg168
-I1303257600
+I1303315200
 sg169
 I2011
 sg170
@@ -5579,7 +5579,7 @@ sg166
 S'2012-09-12T09:00:00-00:00'
 p1824
 sg168
-I1347408000
+I1347465600
 sg169
 I2012
 sg170
@@ -5648,7 +5648,7 @@ sg166
 S'2012-06-06T09:00:00-00:00'
 p1844
 sg168
-I1338940800
+I1338998400
 sg169
 I2012
 sg170
@@ -5717,7 +5717,7 @@ sg166
 S'2012-02-15T09:00:00-00:00'
 p1864
 sg168
-I1329264000
+I1329325200
 sg169
 I2012
 sg170
@@ -5791,7 +5791,7 @@ sg166
 S'2012-01-18T09:00:00-00:00'
 p1887
 sg168
-I1326844800
+I1326906000
 sg169
 I2012
 sg170
@@ -5867,7 +5867,7 @@ sg166
 S'2012-06-14T09:00:00-00:00'
 p1911
 sg168
-I1339632000
+I1339689600
 sg169
 I2012
 sg170
@@ -5936,7 +5936,7 @@ sg166
 S'2012-02-08T09:00:00-00:00'
 p1931
 sg168
-I1328659200
+I1328720400
 sg169
 I2012
 sg170
@@ -6012,7 +6012,7 @@ sg166
 S'2012-05-02T09:00:00-00:00'
 p1955
 sg168
-I1335916800
+I1335974400
 sg169
 I2012
 sg170
@@ -6081,7 +6081,7 @@ sg166
 S'2012-03-30T09:00:00-00:00'
 p1975
 sg168
-I1333065600
+I1333123200
 sg169
 I2012
 sg170
@@ -6150,7 +6150,7 @@ sg166
 S'2012-11-06T09:00:00-00:00'
 p1995
 sg168
-I1352160000
+I1352221200
 sg169
 I2012
 sg170
@@ -6219,7 +6219,7 @@ sg166
 S'2013-09-09T09:00:00-00:00'
 p2015
 sg168
-I1378684800
+I1378742400
 sg169
 I2013
 sg170
@@ -6288,7 +6288,7 @@ sg166
 S'2013-10-25T09:00:00-00:00'
 p2035
 sg168
-I1382659200
+I1382716800
 sg169
 I2013
 sg170
@@ -6357,7 +6357,7 @@ sg166
 S'2013-07-29T09:00:00-00:00'
 p2055
 sg168
-I1375056000
+I1375113600
 sg169
 I2013
 sg170
@@ -6426,7 +6426,7 @@ sg166
 S'2013-05-03T09:00:00-00:00'
 p2075
 sg168
-I1367539200
+I1367596800
 sg169
 I2013
 sg170
@@ -6495,7 +6495,7 @@ sg166
 S'2013-06-25T09:00:00-00:00'
 p2095
 sg168
-I1372118400
+I1372176000
 sg169
 I2013
 sg170
@@ -6564,7 +6564,7 @@ sg166
 S'2013-01-11T09:00:00-00:00'
 p2115
 sg168
-I1357862400
+I1357923600
 sg169
 I2013
 sg170
@@ -6633,7 +6633,7 @@ sg166
 S'2013-01-16T09:00:00-00:00'
 p2135
 sg168
-I1358294400
+I1358355600
 sg169
 I2013
 sg170
@@ -6702,7 +6702,7 @@ sg166
 S'2013-03-14T09:00:00-00:00'
 p2155
 sg168
-I1363219200
+I1363276800
 sg169
 I2013
 sg170
@@ -6771,7 +6771,7 @@ sg166
 S'2013-02-21T09:00:00-00:00'
 p2175
 sg168
-I1361404800
+I1361466000
 sg169
 I2013
 sg170
@@ -6840,7 +6840,7 @@ sg166
 S'2013-08-08T09:00:00-00:00'
 p2195
 sg168
-I1375920000
+I1375977600
 sg169
 I2013
 sg170
@@ -6909,7 +6909,7 @@ sg166
 S'2013-03-18T09:00:00-00:00'
 p2215
 sg168
-I1363564800
+I1363622400
 sg169
 I2013
 sg170
@@ -6978,7 +6978,7 @@ sg166
 S'2014-05-21T09:00:00-00:00'
 p2235
 sg168
-I1400630400
+I1400688000
 sg169
 I2014
 sg170
@@ -7047,7 +7047,7 @@ sg166
 S'2014-04-15T09:00:00-00:00'
 p2255
 sg168
-I1397520000
+I1397577600
 sg169
 I2014
 sg170
@@ -7116,7 +7116,7 @@ sg166
 S'2014-01-27T09:00:00-00:00'
 p2275
 sg168
-I1390780800
+I1390842000
 sg169
 I2014
 sg170
@@ -7185,7 +7185,7 @@ sg166
 S'2014-06-09T09:00:00-00:00'
 p2295
 sg168
-I1402272000
+I1402329600
 sg169
 I2014
 sg170
@@ -7254,7 +7254,7 @@ sg166
 S'2014-10-14T09:00:00-00:00'
 p2315
 sg168
-I1413244800
+I1413302400
 sg169
 I2014
 sg170
@@ -7323,7 +7323,7 @@ sg166
 S'2014-11-13T09:00:00-00:00'
 p2335
 sg168
-I1415836800
+I1415898000
 sg169
 I2014
 sg170
@@ -7392,7 +7392,7 @@ sg166
 S'2015-06-10T09:00:00-00:00'
 p2355
 sg168
-I1433894400
+I1433952000
 sg169
 I2015
 sg170
@@ -7461,7 +7461,7 @@ sg166
 S'2015-09-07T09:00:00-00:00'
 p2375
 sg168
-I1441584000
+I1441641600
 sg169
 I2015
 sg170
@@ -7530,7 +7530,7 @@ sg166
 S'2015-02-02T09:00:00-00:00'
 p2395
 sg168
-I1422835200
+I1422896400
 sg169
 I2015
 sg170
@@ -7599,7 +7599,7 @@ sg166
 S'2015-03-19T09:00:00-00:00'
 p2415
 sg168
-I1426723200
+I1426780800
 sg169
 I2015
 sg170
@@ -7621,4 +7621,73 @@ S'content/posts/2015/spatial-audio-web-vr/index.md'
 p2421
 sg36
 F1433825402.0
+sa(dp2422
+g2
+(dp2423
+g4
+V I recently returned from ISWC 2015, where I presented the  Cardboard Magnet  paper. In addition to seeing old friends, meeting new ones, and being inspired by some interesting research, it was an excellent excuse to visit Osaka, Japan! This year, ISWC was co-located with UbiComp, and the combined conference had four tracks. This post is by no means exhaustive, just some of the more interesting work I got a chance to see.   
+p2424
+sg28
+g7
+(g8
+g9
+V<p>I recently returned from ISWC 2015, where I presented the <a href="/magnetic-input-mobile-vr/">Cardboard\u000aMagnet</a> paper. In addition to seeing old friends,\u000ameeting new ones, and being inspired by some interesting research, it was an\u000aexcellent excuse to visit Osaka, Japan! This year, ISWC was co-located with\u000aUbiComp, and the combined conference had four tracks. This post is by no means\u000aexhaustive, just some of the more interesting work I got a chance to see.</p>\u000a\u000a<!--more-->\u000a\u000a<p><strong>Opening keynote: Visualizing and Manipulating Brain Dynamics</strong>. <a href="http://www.cns.atr.jp/~kawato/">Mitsuo\u000aKawato</a> showed some impressive <a href="https://ieeetv.ieee.org/conference-highlights/cb-exploring-neuroscience-withhumanoid-research-platform?">self-balancing\u000arobots</a>.\u000aIt seems that we've <a href="http://tumblr.forgifs.com/post/111425301004/robot-soccer-kick-fail">come a long\u000away</a>. Most\u000aof what he showed was around deep brain stimulation, artificial cochleas and\u000aretinas, old work but mostly new to me. This is a recent, very impressive and\u000asomewhat terrifying paper on reconstructing low-resolution grayscale <a href="http://neurosurgery.washington.edu/Lectures/science.1234330.full.pdf">imagery\u000afrom\u000adreams</a>.</p>\u000a\u000a<h2>Novel input technology</h2>\u000a\u000a<p><strong>SoQr: Sonically Quantifying the Content Level inside Containers</strong> is a\u000aconvoluted way of determining if you're out of milk. Inspired by acoustically\u000achecking ripeness of watermellons, the idea is to use <a href="https://goo.gl/photos/BVhjSZXyn7MJV2sv7">contact speaker and mic\u000apair</a> to determine how full a container\u000ais. The method's efficacy depends a lot on the placement of the sensor,\u000aproperties of the container, and other environmental factors, like whether or\u000anot any other items are touching the container. Seems overly complex to me, you\u000acould use another approach to reach higher fidelity (eg. a scale). That said,\u000amaybe this can be done very inexpensively?</p>\u000a\u000a<p><strong>MagnifiSense: Inferring Device Interaction Using Wrist-Worn Passive\u000aMagneto-Inductive Sensors</strong> is about determining which electronic device is\u000abeing used. The idea is to use an inductor coil to detect nearby electromagnetic\u000aradiation. They built their own hardware for the purpose which samples at a very\u000ahigh frequency (44.1 KHz). They detect <a href="https://goo.gl/photos/RQXQ8fBJpJU4f8wn6">unique EM radiation\u000apatterns</a> for each type of device.\u000aSupposedly they can do the same using a regular smartphone magnetometer, but I'm\u000avery skeptical. They also claim to be able to determine who is using the device,\u000abut that part wasn't very clear from the talk.</p>\u000a\u000a<p><strong>DoppleSleep: A Contactless Unobtrusive Sleep Sensing System Using Short-Range\u000aDoppler Radar</strong> uses a 24 GHz doppler radar typically mounted near the bedside\u000ato detect sleep patterns. The benefits are huge: you don't have to wear anything\u000aor instrument the bed. <a href="https://en.wikipedia.org/wiki/Polysomnography">Medical sleep\u000atrackers</a> require\u000a7 electrodes, and <a href="https://en.wikipedia.org/wiki/Actigraphy">consumer ones</a>\u000adon't work well.  They also had a demo where you just sit at your desk and the\u000adoppler tracks your heart rate, breathing rate, as well as more macro\u000amovements. It didn't work as well as I had hoped, but being a research demo, I\u000aremain hopeful!</p>\u000a\u000a<p><strong>Activity tracking and indoor positioning with a wearable magnet</strong> was a poster\u000ashowing a very cheap way of tracking just by placing magnetometers in strategic\u000alocations and giving the user a magnet. More details <a href="https://goo.gl/photos/2un4nc5nrE7evC4D8">on the\u000aposter</a>.</p>\u000a\u000a<p><strong>IDyLL: Indoor Localization using Inertial and Light Sensors on Smartphones</strong>\u000aattempts to solve indoor localization using the light sensor, and lamps as\u000afeatures for tracking. They extract features from the lights using peak finding,\u000anot absolute intensity. Then they wrote a kalman filter to fuse the IMU and\u000alight-derived features. There's a lot of problems, like needing to have\u000astructured light (eg. in a hallway with a low ceiling), and identify ambiguity\u000a(ie. you're under a light, but which one?).</p>\u000a\u000a<p><strong>Monitoring Building Door Events using Barometer Sensor in Smartphones</strong> used\u000athe ubiquitous smartphone barometer, which is currently used to get faster GPS\u000alock and assist in weather forecasting, to determine if a door opens in a\u000abuilding. This only works in buildings with HVAC systems, but it was pretty\u000aclever, and they found that it can work reliably, even for multiple doors. Basic\u000aidea <a href="https://goo.gl/photos/yKPbBYPv2RayMrcf6">described in this slide</a>.</p>\u000a\u000a<p><strong>ProximityHat - A Head-Worn System for Subtle Sensory Augmentation with Tactile\u000aStimulation</strong> reminded me of various <a href="http://www.cc.gatech.edu/~acosgun3/papers/cosgun2014guidance.pdf">vibro-tactile belt\u000aprojects</a>, and\u000aserved a similar purpose: to exploit the sense of touch to give the wearer\u000aanother sense. This has many benefits like not blocking other senses. Anyway,\u000athey built a hat and gave it ultrasonic sensors all around and inward-facing\u000alinear actuators, not vibrator motors.  They studied sensitivity around the head\u000aand found high variation around users, and that the forehead was generally less\u000asensitive. Main application appears to be navigation, and they did some blind\u000auser studies.</p>\u000a\u000a<p><strong>Controlling Stiffness with Jamming for Wearable Haptics</strong> makes it easier and\u000aharder to move sliders with the help of a pneumatic bladder, and layered\u000amaterial. As the bladder inflates, the additional force on the layered material\u000acauses increased friction. Previous layer jamming had low fidelity (binary), so\u000athis is a big improvement. They are currently using sandpaper, so it's unclear\u000ahow robust the effect would be over time.</p>\u000a\u000a<p><strong>PneuHaptic: Delivering Haptic Cues with a Pneumatic Armband</strong> used a wearable\u000a<a href="https://goo.gl/photos/XkFSKrbRmpiZgzCu9">pneumatic band with 2 pumps and 3\u000avalves</a> to give haptic feedback. This\u000ais a nice alternative to vibrating motors and linear actuators, but not sure how\u000aminiaturizable in practice.</p>\u000a\u000a<p><strong>Fast Blur Removal for Wearable QR Code Scanners</strong> is an image processing paper\u000afor improving QR code detection on wearable devices. The proposed method uses\u000aun-blurring techniques which involve predicting the blur direction and applying\u000ade-convolutions. They also use an IMU to better guess the direction of movement.\u000aHowever <a href="http://picturesofpeoplescanningqrcodes.tumblr.com/">QR codes are dead to\u000ame</a>.</p>\u000a\u000a<h2>Gadgets and fads</h2>\u000a\u000a<p><strong>Why we use and abandon smart devices</strong> tried to answer the question of why\u000apeople abandon their various health and tracking devices so quickly. Basically,\u000apeople are motivated by curiosity and novelty, and these health trackers are too\u000agimmicky. Studies of Fitbit trackers saw majority of them abandoned (65%\u000aabandoned in 2 weeks). Design implications are that encouraging routines\u000a(changing behavior) and minimizing maintenance (charging) are the critical\u000athings.This study had participants come up with a goal, and $1K to buy devices,\u000aso quite contrived given that people didn't even choose to use the devices on\u000atheir own, but motivated by a study.</p>\u000a\u000a<p>In a less contrived study about the same thing, <strong>No Longer Wearing:\u000aInvestigating the Abandonment of Personal Health-Tracking Technologies on\u000aCraigslist</strong> scraped Craigslist for this data. They found that only 25% of\u000apeople sell their devices just for abandonment reasons. In many other cases,\u000athey upgrade to something else, or reach their goals. That said, it's very\u000abiased sample, since these people are selling (many just abandon, and don't sell\u000aon CL).</p>\u000a\u000a<h2>Machine learning</h2>\u000a\u000a<p><strong>DeepEar: Robust Smartphone Audio Sensing in Unconstrained Acoustic\u000aEnvironments Using Deep Learning</strong> used RNNs to learn whatever sound the user is\u000ainterested in. They did an interesting comparison to similar specialized systems\u000a(eg. those that do speaker identification, stress detection, emotion, etc) and\u000aclaim to do better. Also, their RNN runs in hardware on a chip, which I thought\u000awas super impressive.</p>\u000a\u000a<p>In <strong>Sensor-based Stroke Detection and Stroke Type Classification in Table\u000aTennis</strong>, the authors instrumented paddles with IMUs and got people to perform\u000avarious strokes (in a somewhat controlled environment). They performed stroke\u000adetection through peak recognition and thresholding, and then had a classifier\u000afor stroke type determination. 97% detection and classification rates!\u000aImpressive, but contrived. Wondering how it would do for a full game?</p>\u000a\u000a<p><strong>Recognizing New Activities with Limited Training Data</strong> was an interesting\u000apaper about recognizing new activities based on small amounts of labeled data.\u000aTheir idea was to leverage "semantic attributes" from core activities to learn\u000aa new activity.  Example: biking is like sitting (body is not changing angle),\u000arunning (legs move up and down) and driving (hands are steering). They proposed\u000aan <a href="https://goo.gl/photos/Rn2BbvQjhU3Lhv1K7">Activity-Attribute matrix</a>, and a\u000acascaded classifier. Problem is that multiple activities can share the same\u000aattributes. So they combine this with a traditional approach.</p>\u000a\u000a<p><strong>When Attention is not Scarce - Detecting Boredom from Mobile Phone Usage</strong>\u000apredicted boredom with higher accuracy than I predicted. They collected a ground truth\u000aof boredom data by polling users multiple times a day, asking if they were\u000abored, and collected activity traces (semantic location, demographics, network\u000ausage, recent number of notifications, sensor data). They managed to detect\u000aboredom with 73% accuracy. They then built an app which sent buzzfeed articles\u000awhen bored and compared engagement and click ratio to the random condition.\u000aCTR was 8% for random, 20% when bored, and people were much more engaged.</p>\u000a\u000a<h2>Virtual and augmented reality</h2>\u000a\u000a<p><strong>Wearing Another Personality: A Human-Surrogate System with a Telepresence\u000aFace</strong> was probably the most bizarre paper at the conference. This work\u000abasically proposes to use a human surrogate instead of a telepresence robot. The\u000asurrogate wears an HMD with pass-through camera feed and a tablet on their face.\u000aThe tablet shows the face of the director. The director gets audio and video\u000afeed from the surrogate, and the surrogate gets audio instructions from the\u000adirector. They did creepy user studies like going to a city office to get a\u000apublic document (friend as surrogate), or meeting your grandmother (mother as\u000asurrogate). Surprisingly, many participants liked being surrogates. The big\u000atechnical problem is camera pass through latency. If you go through the whole\u000aJava stack it's something crazy like 300ms. Here's a <a href="https://goo.gl/photos/tZPoR4wvQiDekzg86">video from the\u000aconference</a> to give you a better sense.</p>\u000a\u000a<p><strong>Comparing Order Picking Assisted by Head-Up Display versus Pick-by-Light with\u000aExplicit Pick Confirmation</strong> compared two order picking methods in warehouses.\u000aThe current method is via digital labels on each tray that count how many items\u000ayou're supposed to take from that tray. The new method is to show <a href="https://www.youtube.com/watch?v=yUZFaCP6rP4">which trays\u000ato pick from using augmented\u000areality</a>. The benefit is that you\u000adon't need an instrumented warehouse, so it's much cheaper. This was interesting\u000abecause it was a specific, potentially useful application for a Google\u000aGlass-type device. At the same time, it may be an obsolete problem since aren't\u000arobots supposed to automate that sort of thing pretty soon?</p>\u000a\u000a<p><strong>ConductAR: An AR based tool for iterative design of conductive ink circuits</strong>\u000ais a project that validates hand drawn circuits using augmented reality. You\u000asketch your circuit with a conductive pen, and then the tool takes a picture and\u000agives you the right voltage drops etc. The presenter showed resistance\u000acalculation (the thicker the line, the more resistive), using <a href="https://goo.gl/photos/wLaMQZqoqf66ap477">a FEM\u000amethod</a>. But I wasn't convinced that\u000athis is worthwhile. Sketching circuits should be exploratory and does not need\u000ato be precise, that's sort of the point.</p>\u000a\u000a<p><strong>An Approach to User Identification for Head-Mounted Displays</strong> uses blink and\u000ahead movements to identify users. They play a particular video and track your\u000apatterns using Google Glass. They extract blinks using IR peaks, and head track\u000ausing the IMU. It takes about 30s to verify uniqueness, but not sure how large\u000atheir user base is. Results are good: 94% balanced accuracy, and blink features\u000aare most important.</p>\u000a\u000a<p><strong>Glass-Physics: Using Google Glass for Physics Experiments</strong> compared using\u000aGoogle Glass to just a tablet for assisting students doing physics experiments.\u000aThe idea is to remove drudgery from data collection. The experiment was to\u000adetermine <a href="https://goo.gl/photos/kcxvxouYtDs6CfQv7">effect of fill level in a water glass on frequency of\u000asound</a> when the vessel was hit with a\u000afork. A Google Glass app did automatic collection of frequency and of water\u000alevel. People liked the wearable version more, but the tablet app involved\u000amanual input. My theory is that a tablet app with AR features to auto-measure\u000afill level would do as well as an HMD.</p>\u000a\u000a<p><strong>WISEglass: Multi-purpose Context-aware Smart Eyeglasses</strong> was like Google\u000aGlass, except without the display. The main contribution was a light sensor on\u000athe bridge of the nose, which could reliably determine when you are at the\u000acomputer (from the screen update frequency). Other than that, seems pretty much\u000athe same as wearing an IMU anywhere else (eg. smartwatch).</p>\u000a\u000a<h2>E-textiles are impressive</h2>\u000a\u000a<p>I saw some nice demos of <a href="https://goo.gl/photos/cui8ucmGYjdXq2tj9">stretch-sensitive fabric\u000a(video)</a>, and <a href="https://goo.gl/photos/HbXp9xK2GtBgcoEo8">pressure/capacitative\u000afabric (video)</a>. The real question is\u000awhere to embed the controller, and what to do about battery life (their stats\u000awere pretty bad). E-textiles are interesting because everybody wears clothing,\u000awhich is not true for glasses or watches.</p>\u000a\u000a<p><strong>Closing keynote: Behind the scenes</strong> delivered by <a href="http://www.daito.ws/en/">Daito\u000aManabe</a> was sequentially translated, which was\u000ainitially jarring, but the talk was so visually stimulating, it didn't really\u000amatter. Daito walked through a lot of his data arts work, mind-blowingly\u000aimpressive art pieces involving drones, 3D graphics, depth cameras, etc. A nice,\u000aif somewhat non-sequitur ending to the conference.</p>\u000a\u000a<p>Signing off. Arigatou gozaimasu!</p>\u000a
+p2425
+tp2426
+Rp2427
+sg13
+V/ubicomp-iswc-2015
+p2428
+sg15
+Nsg16
+I01
+sg17
+VUbiComp and ISWC 2015
+p2429
+sg20
+VI recently returned from ISWC 2015, where I presented the [Cardboard\u000aMagnet](/magnetic-input-mobile-vr/) paper.
+p2430
+sg6
+V<p>I recently returned from ISWC 2015, where I presented the <a href="/magnetic-input-mobile-vr/">Cardboard\u000aMagnet</a> paper. In addition to seeing old friends,\u000ameeting new ones, and being inspired by some interesting research, it was an\u000aexcellent excuse to visit Osaka, Japan! This year, ISWC was co-located with\u000aUbiComp, and the combined conference had four tracks. This post is by no means\u000aexhaustive, just some of the more interesting work I got a chance to see.</p>\u000a\u000a
+p2431
+sg25
+g158
+sg33
+g2428
+sg159
+(dp2432
+g161
+S'Sep'
+p2433
+sg163
+S'September 16, 2015'
+p2434
+sg165
+I9
+sg166
+S'2015-09-16T09:00:00-00:00'
+p2435
+sg168
+I1442419200
+sg169
+I2015
+sg170
+I16
+ssg65
+g171
+sg31
+S'ubicomp-iswc-2015'
+p2436
+sS'posted'
+p2437
+g177
+(S'\x07\xdf\t\x10'
+p2438
+tp2439
+Rp2440
+ssg34
+S'content/posts/2015/ubicomp-iswc-2015/index.md'
+p2441
+sg36
+F1442447839.0
 sa.
