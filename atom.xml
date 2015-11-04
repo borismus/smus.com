@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2015-09-27T14:58:49-00:00</updated>
+  <updated>2015-11-04T10:39:55-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -17,6 +17,7 @@
     
     <id>http://smus.com/hot-bread-delicious-deadly</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Despite free access to information via the Internet and an increasingly global
 world, people still seem to have all sorts of divergent ideas about how the world
@@ -153,6 +154,7 @@ muffins. I'll keep you posted with the definitive truth!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -165,6 +167,7 @@ muffins. I'll keep you posted with the definitive truth!</p>
     
     <id>http://smus.com/ubicomp-iswc-2015</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I recently returned from ISWC 2015, where I presented the <a href="/magnetic-input-mobile-vr/">Cardboard
 Magnet</a> paper. In addition to seeing old friends,
@@ -403,6 +406,7 @@ if somewhat non-sequitur ending to the conference.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -415,6 +419,7 @@ if somewhat non-sequitur ending to the conference.</p>
     
     <id>http://smus.com/magnetic-input-mobile-vr</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>It's easy to do, just follow these steps:</p>
 
@@ -597,6 +602,7 @@ input works well, but I'll definitely miss the magnets!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -609,6 +615,7 @@ input works well, but I'll definitely miss the magnets!</p>
     
     <id>http://smus.com/design-v5</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>It's been over three years since the design of this site has been
 updated. Time to change that!</p>
@@ -675,6 +682,7 @@ plurality of the web!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -687,6 +695,7 @@ plurality of the web!</p>
     
     <id>http://smus.com/spatial-audio-web-vr</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Last summer I visited Austria, the capital of classical music. I had the
 pleasure of hearing the <a href="http://en.wikipedia.org/wiki/Vespro_della_Beata_Vergine">Vespers of 1610</a> in the great
@@ -870,6 +879,7 @@ haircut simulation</a> just to illustrate the potential.</li>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -882,6 +892,7 @@ haircut simulation</a> just to illustrate the potential.</li>
     
     <id>http://smus.com/responsive-vr</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>VR on the web threatens to cleave the web platform in twain, like mobile
 did before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web
@@ -1008,6 +1019,7 @@ out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerpl
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -1020,6 +1032,7 @@ out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerpl
     
     <id>http://smus.com/web-sensor-api</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Sensors found in smartphones define the mobile experience. GPS and the
 magnetometer enable the fluid experience of maps; motion sensing enables
@@ -1253,6 +1266,7 @@ Join us!</em></p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -1265,6 +1279,7 @@ Join us!</em></p>
     
     <id>http://smus.com/uist-2014</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>This year's <a href="http://www.acm.org/uist/uist2014/">UIST</a> was held in Waikiki, Honolulu, the undisputed
 tourist capital of Hawaii. I've stuck to my now three year old habit of
@@ -1441,6 +1456,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -1453,6 +1469,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
     
     <id>http://smus.com/spectrogram-and-oscillator</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>A live-input spectrogram written using <a href="http://polymer-project.org">Polymer</a> using the <a href="http://webaudioapi.com">Web
 Audio API</a>.</p>
@@ -1547,6 +1564,7 @@ rather than using the one built into Web Audio API.)</li>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -1559,6 +1577,7 @@ rather than using the one built into Web Audio API.)</li>
     
     <id>http://smus.com/addressable-apps</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>It is human nature to create taxonomies for everything: people, places,
 and things.  Without such a system of reference, we become lost and
@@ -1730,6 +1749,7 @@ and not just the web, is a proposition worth considering.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -1742,6 +1762,7 @@ and not just the web, is a proposition worth considering.</p>
     
     <id>http://smus.com/ebb-of-the-web</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Tech pundits like to lament that the web has <a href="http://cdixon.org/2014/04/07/the-decline-of-the-mobile-web/">no viable
 future</a>, while web idealists hold that in fact the web is
@@ -1988,6 +2009,7 @@ Thanks for reading, I eagerly await your thoughts :)</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2000,6 +2022,7 @@ Thanks for reading, I eagerly await your thoughts :)</p>
     
     <id>http://smus.com/remote-controls-web-media</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>When the world wide web was first conceived, it was as a collection of
 interlinked textual documents. Today's web is full of rich media.
@@ -2202,6 +2225,7 @@ and want to help standardize!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2214,6 +2238,7 @@ and want to help standardize!</p>
     
     <id>http://smus.com/uist-2013</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I just got back from Scotland, where I had the pleasure of attending
 UIST 2013 in St. Andrews. This was my second time attending, and again
@@ -2443,6 +2468,7 @@ compelling product.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2455,6 +2481,7 @@ compelling product.</p>
     
     <id>http://smus.com/responsive-image-workflow</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>About a year ago, I wrote an overview of many of the different <a href="http://www.html5rocks.com/en/mobile/high-dpi/">responsive
 image approaches</a> in an HTML5Rocks article, all of which try to solve the
@@ -2630,6 +2657,7 @@ available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2642,6 +2670,7 @@ available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic
     
     <id>http://smus.com/ultrasonic-networking</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>The phone in your pocket is an amazing, fluid, multi-functional tool.
 When it comes to talking to other devices, such as your TV or laptop,
@@ -2823,6 +2852,7 @@ data from mobile device to laptop is the only possible configuration.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2835,6 +2865,7 @@ data from mobile device to laptop is the only possible configuration.</p>
     
     <id>http://smus.com/easier-link-blogging</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>As usual, I want two conflicting things. Firstly, I want to own the
 content I write, and control how it is authored. My weapon of choice is
@@ -2964,6 +2995,7 @@ tell me about it!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -2976,6 +3008,7 @@ tell me about it!</p>
     
     <id>http://smus.com/installable-webapps</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p><style>
 article img.border {
@@ -3378,6 +3411,7 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3390,6 +3424,7 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
     
     <id>http://smus.com/gestural-music-direction</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Imagine this: you start conducting as if you were in front of a great
 orchestra, and music fades in out of thin air, matching your tempo and time
@@ -3535,6 +3570,7 @@ and evolve on <a href="https://github.com/borismus/gestural-music-direction">git
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3547,6 +3583,7 @@ and evolve on <a href="https://github.com/borismus/gestural-music-direction">git
     
     <id>http://smus.com/webaudio-book</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I wrote a short book about the Web Audio API. The book is meant as an
 introduction to the web audio API, as well as some audio basics for web
@@ -3583,6 +3620,7 @@ samples.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3595,6 +3633,7 @@ samples.</p>
     
     <id>http://smus.com/really-simple-social-syndication</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I've been thinking about this for a while, but the recent <a href="http://googlereader.blogspot.ca/2013/03/powering-down-google-reader.html">sunset
 announcement of Google Reader</a> made me revisit this topic.
@@ -3720,6 +3759,7 @@ on consuming and producing interesting things. Also, happy &pi; day!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3732,6 +3772,7 @@ on consuming and producing interesting things. Also, happy &pi; day!</p>
     
     <id>http://smus.com/touch-laptop-experiments</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Largely because of the plummeting price and thickness of touch screens,
 these devices are increasingly ubiquitous. One of the latest trends is
@@ -3899,6 +3940,7 @@ touch laptops? Please share them below.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3911,6 +3953,7 @@ touch laptops? Please share them below.</p>
     
     <id>http://smus.com/moved-to-s3</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>All good things must come to an end. VPS hosting paid for by my former
 university is no exception! Ever since the University of
@@ -3980,6 +4023,7 @@ tasks.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -3992,6 +4036,7 @@ tasks.</p>
     
     <id>http://smus.com/mashup-of-things</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Many new devices come with unexpected connectivity - often a WiFi
 connection that enables them to connect to a hotspot and the larger
@@ -4184,6 +4229,7 @@ early web so great.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -4196,6 +4242,7 @@ early web so great.</p>
     
     <id>http://smus.com/reusable-js-mvc-frameworks</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>These days, I write a lot more code, and my projects have increased in
 complexity. Often, a single application brings many kinds of data
@@ -4358,6 +4405,7 @@ particular MVC framework or custom class system.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -4370,6 +4418,7 @@ particular MVC framework or custom class system.</p>
     
     <id>http://smus.com/how-the-web-should-work</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>When developing in a particular environment, say Android or Cocoa, we
 are subconsciously aware that the APIs are essentially fixed and beyond
@@ -4520,6 +4569,7 @@ comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBY
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -4532,6 +4582,7 @@ comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBY
     
     <id>http://smus.com/mouse-touch-pointer</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p><strong>Update (August 7, 2013): Pointer.js is deprecated. Please use the
 <a href="https://github.com/Polymer/PointerEvents">PointerEvents polyfill</a> instead.</strong></p>
@@ -4675,6 +4726,7 @@ rotation, and tweaks to the system itself.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -4687,6 +4739,7 @@ rotation, and tweaks to the system itself.</p>
     
     <id>http://smus.com/platform-fertility</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Although I love Apple's design aesthetic and ability to consistently
 churn out amazing hardware, I'm never quite comfortable fully embracing
@@ -4799,6 +4852,7 @@ of iOS is a resounding no. Sorry bro!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -4811,6 +4865,7 @@ of iOS is a resounding no. Sorry bro!</p>
     
     <id>http://smus.com/physical-units</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>There's an increasing variety of devices in use today. Even generally
 rectangular touch enabled devices vary hugely in their physical sizes,
@@ -5155,6 +5210,7 @@ pixels because this problem isn't going away any time soon.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -5167,6 +5223,7 @@ pixels because this problem isn't going away any time soon.</p>
     
     <id>http://smus.com/redesign-2012</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I re-designed this site using the <a href="http://www.google.com/webfonts/specimen/PT+Sans">PT Sans font</a>, aiming for
 appealing typography for optimal readability. Interestingly,</p>
@@ -5277,6 +5334,7 @@ post about it. For now, though, I wrote a bit about Lightning
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -5289,6 +5347,7 @@ post about it. For now, though, I wrote a bit about Lightning
     
     <id>http://smus.com/backbone-and-ember</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p><a href="http://emberjs.com/">Ember</a> and <a href="http://documentcloud.github.com/backbone/">Backbone</a> are both promising JavaScript frameworks but have
 completely different philosophies. In this post, I'll compare the two, both
@@ -5611,6 +5670,7 @@ I'll have a better sense of the limitations soon.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -5623,6 +5683,7 @@ I'll have a better sense of the limitations soon.</p>
     
     <id>http://smus.com/pdf-conversion-client-side-scraping</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>One of my ongoing projects is called smusique, a mobile web-based sheet
 music viewer. The application was designed for tablets, enabling a
@@ -5789,6 +5850,7 @@ powerful technique. If the content is in the DOM, it can be extracted.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -5801,6 +5863,7 @@ powerful technique. If the content is in the DOM, it can be extracted.</p>
     
     <id>http://smus.com/mobile-web-app-tech-stack</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>There are many technical decisions to make when writing web applications. I've
 come back to writing modern web applications lately, and wanted to consolidate
@@ -6005,6 +6068,7 @@ important type of framework? Let me know!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6017,6 +6081,7 @@ important type of framework? Let me know!</p>
     
     <id>http://smus.com/hybrid-operating-systems</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I've been thinking a bit about native and web applications, and how they can
 (or can't) coexist in the future. This topic has been steeping in my head for
@@ -6119,6 +6184,7 @@ get closer to PhoneGap's second goal.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6131,6 +6197,7 @@ get closer to PhoneGap's second goal.</p>
     
     <id>http://smus.com/stack-exchange-question-notifier</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I've been a member of the Chrome developer relations team for the last 9
 months, where one aspect of my job is developer support. I actively
@@ -6172,6 +6239,7 @@ give me constructive feedback and consider monitoring the
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6184,6 +6252,7 @@ give me constructive feedback and consider monitoring the
     
     <id>http://smus.com/uist-2011</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I went to UIST 2011 in Santa Barbara and presented our research on
 <a href="http://crowdforge.com">CrowdForge</a>.</p>
@@ -6324,6 +6393,7 @@ the great work that this vibrant community generates.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6336,6 +6406,7 @@ the great work that this vibrant community generates.</p>
     
     <id>http://smus.com/screen-capture-for-chrome-os</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>This post is about video capture in Chrome that doesn't rely on any
 external dependencies like Flash (no fun), NPAPI (not supported on
@@ -6457,6 +6528,7 @@ to make my life a bit easier.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6469,6 +6541,7 @@ to make my life a bit easier.</p>
     
     <id>http://smus.com/game-asset-loader</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>HTML5 games are here today, and rapidly increasing in complexity. Impressive
 <a href="http://madebyevan.com/webgl-water/">demos</a> are <a href="http://www.chromeexperiments.com/">everywhere</a>, and prominent titles like <a href="https://chrome.google.com/webstore/detail/ciamkmigckbgfajcieiflmkedohjjohh">Gun
@@ -6709,6 +6782,7 @@ library to write a game of your own!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6721,6 +6795,7 @@ library to write a game of your own!</p>
     
     <id>http://smus.com/multiplayer-html5-games-with-node</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>One day I had some friends over at my house introducing me some cool iPad
 games. One of the games was Osmos, developed by an Canadian indie studio called
@@ -6902,6 +6977,7 @@ posted on html5rocks.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -6914,6 +6990,7 @@ posted on html5rocks.</p>
     
     <id>http://smus.com/chrome-media-keys-revisited</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I just skipped to the next Google Music track without leaving vim. Wanna play?
 Here's the <a href="https://github.com/downloads/borismus/keysocket/KeySocket.zip">app</a> and <a href="https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik">Chrome extension</a>. To learn how it works, read on!</p>
@@ -7041,6 +7118,7 @@ I'd gladly take fixes for</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7053,6 +7131,7 @@ I'd gladly take fixes for</p>
     
     <id>http://smus.com/extending-chrome-developer-tools</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Chrome’s developer tools (also known as the WebKit inspector) are super useful
 for web developers. If you aren't ramped up already, take a look at this
@@ -7244,6 +7323,7 @@ patch. Let me know if you do!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7256,6 +7336,7 @@ patch. Let me know if you do!</p>
     
     <id>http://smus.com/oauth2-chrome-extensions</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Applications that access online services often need to access a user's private
 data. Chrome Extensions are no different. OAuth has emerged as the standard way
@@ -7458,6 +7539,7 @@ we'll sort them out! The best way to do this is via <a href="http://github.com/b
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7470,6 +7552,7 @@ we'll sort them out! The best way to do this is via <a href="http://github.com/b
     
     <id>http://smus.com/brazil-trip</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Last month I took a work trip to São Paulo, Brazil. I gave four Chrome/HTML5
 presentations and talked to many engineers and designers over the course of the
@@ -7522,6 +7605,7 @@ They can go there when they will!
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7534,6 +7618,7 @@ They can go there when they will!
     
     <id>http://smus.com/dynamic-icons-chrome-extensions</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Extension developers aren't given much freedom to modify Chrome's browser
 chrome. Without resorting to changing the page itself, or using the new devtools
@@ -7665,6 +7750,7 @@ better.</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7677,6 +7763,7 @@ better.</p>
     
     <id>http://smus.com/nhl-finals-numbers</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Now that the Vancouver Canucks are in the NHL Finals, a special visit to
 Vancouver is in order. Unfortunately, the recently posted schedule really
@@ -7772,6 +7859,7 @@ to work from home, book flights and bask in Canuck glory!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7784,6 +7872,7 @@ to work from home, book flights and bask in Canuck glory!</p>
     
     <id>http://smus.com/devtools-cheatsheet</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Chrome's Developer Tools have been getting much deserved love at this last
 Google I/O. Paul Irish and I started with an <a href="http://www.io-bootcamp.com/">bootcamp lab</a>, a hands-on 
@@ -7811,6 +7900,7 @@ see what people create to make these developer tools even better!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7823,6 +7913,7 @@ see what people create to make these developer tools even better!</p>
     
     <id>http://smus.com/multi-touch-browser-patch</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>In mobile development, it's often easier to start prototyping on the desktop
 and then tackle the mobile-specific parts on the devices you intend to support.
@@ -7920,6 +8011,7 @@ having to run another process, we can eliminate the NPAPI plugin by using the
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -7932,6 +8024,7 @@ having to run another process, we can eliminate the NPAPI plugin by using the
     
     <id>http://smus.com/jquery-conference</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>A few weekends ago I went to the jQuery Conference held at the MS campus in
 Mountain View. And I took notes!</p>
@@ -8060,6 +8153,7 @@ this!</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -8072,6 +8166,7 @@ this!</p>
     
     <id>http://smus.com/wordpress-to-hyde</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>I've used <a href="http://wordpress.com/">Wordpress</a> for a couple of years now as my web publishing platform of
 choice. I customized it a little bit, and made a <a href="/new-design">custom theme</a> for it. But 
@@ -8204,6 +8299,7 @@ average in <strong>371ms</strong>:</p>
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -8216,6 +8312,7 @@ average in <strong>371ms</strong>:</p>
     
     <id>http://smus.com/chrome-media-keys</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Few people want to synchronize their burgeoning music libraries across
 computers (SSDs are small), or even lift it into the clouds with
@@ -8345,6 +8442,7 @@ player.js into the correct domain. Feel free to fork the
 
         
       </div>
+      ]]>
     </content>
   </entry>
   
@@ -8357,6 +8455,7 @@ player.js into the correct domain. Feel free to fork the
     
     <id>http://smus.com/chronos</id>
     <content type="html">
+      <![CDATA[
       <div>
         <p>Like most people, I'm slowly lifting most of my work into the cloud.
 This leads to a lot of time spent in the browser. Just how much, I'm not
@@ -8396,6 +8495,7 @@ usual, the <a href="https://github.com/borismus/Chronos">source code</a> is on g
 
         
       </div>
+      ]]>
     </content>
   </entry>
   

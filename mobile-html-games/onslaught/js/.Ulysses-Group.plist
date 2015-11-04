@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>base.js</string>
+		</array>
+		<array>
+			<string>controller.js</string>
+		</array>
+		<array>
+			<string>engine.js</string>
+		</array>
+		<array>
+			<string>ga.js</string>
+		</array>
+		<array>
+			<string>image_loader.js</string>
+		</array>
+		<array>
+			<string>keyboard.js</string>
+		</array>
+		<array>
+			<string>object.js</string>
+		</array>
+		<array>
+			<string>object_types.js</string>
+		</array>
+		<array>
+			<string>rect.js</string>
+		</array>
+		<array>
+			<string>size.js</string>
+		</array>
+		<array>
+			<string>sound.js</string>
+		</array>
+		<array>
+			<string>soundmanager2.js</string>
+		</array>
+		<array>
+			<string>spawn_point.js</string>
+		</array>
+		<array>
+			<string>spawn_wave.js</string>
+		</array>
+		<array>
+			<string>timer.js</string>
+		</array>
+		<array>
+			<string>vector2.js</string>
+		</array>
+	</array>
+</dict>
+</plist>
