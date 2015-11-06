@@ -83,7 +83,6 @@ article {
 
 article a {
   color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
 }
 
 article a:hover {

@@ -37,6 +37,37 @@
 <section id='main'>
 
 <article class="type-post">
+  <a href='/sensor-fusion-prediction-webvr'><h1 class='title'>Sensor fusion and motion prediction</h1></a>
+  <div class='body'>
+    <p>A major technical challenge for VR is to make head tracking as good as possible.
+The metric that matters is called <strong>motion-to-photon latency</strong>. For mobile VR
+purposes, this is the time that it takes for a user's head rotation to be fully
+reflected in the rendered content.</p>
+
+<p><img src="/sensor-fusion-prediction-webvr/latency-chain.jpg" alt="Motion to photon pipeline" /></p>
+
+<p>The simplest way to get up-and-running with head tracking on the web today is
+to use the <code>deviceorientation</code> events, which are generally well supported across
+most browsers. However, this approach suffers from several drawbacks which can
+be remedied by implementing our own sensor fusion. We can do even better by
+predicting head orientation from the gyroscope.</p>
+
+<p>I'll dig into these techniques and their open web implementations.  Everything
+discussed in this post is implemented and available open source as part of the
+<a href="https://github.com/borismus/webvr-polyfill">WebVR Polyfill</a> project. If you want to skip ahead, check out
+the <a href="http://borismus.github.io/webvr-boilerplate/">latest head tracker</a> in action, and play around with this <a href="http://borismus.github.io/webvr-polyfill/fusion/sensors.html">motion
+sensor visualizer</a>.</p>
+
+
+  </div>
+  
+  <a href="/sensor-fusion-prediction-webvr" class="readmore" title="Continue reading...">
+    Continued &rarr;
+  </a>
+  
+</article>
+
+<article class="type-post">
   <a href='/hot-bread-delicious-deadly'><h1 class='title'>Hot bread: delicious or deadly?</h1></a>
   <div class='body'>
     <p>Despite free access to information via the Internet and an increasingly global
@@ -271,44 +302,6 @@ tab.</p>
   </div>
   
   <a href="/spectrogram-and-oscillator" class="readmore" title="Continue reading...">
-    Continued &rarr;
-  </a>
-  
-</article>
-
-<article class="type-post">
-  <a href='/addressable-apps'><h1 class='title'>Addressable apps</h1></a>
-  <div class='body'>
-    <p>It is human nature to create taxonomies for everything: people, places,
-and things.  Without such a system of reference, we become lost and
-disoriented.  Imagine your city with street names and addresses blanked
-out. Finding your favorite cafe, meeting up with your friend on the
-weekend, even locating your own parked car would become incredibly
-difficult. Travel outside your city would become far more
-challenging.</p>
-
-<p>The web's defining property is addressability. URLs on the web are like
-street names and addresses in the physical world. This makes sharing
-and cross-linking easy. Non-web platforms are a little bit like our
-city with blanked out street names and addresses. There's no good
-way of talking about where you currently are, or how to get somewhere
-else. These platforms typically give users a crutch to help with the
-issue, such as a share button or dialog. But these create an
-inherently inferior experience, since addressability is no longer
-built-in. Addressability becomes a burden on the app developer, and
-as a result, the platform is no longer navigable.</p>
-
-<p>In light of the success of Android and iOS, and given a potential
-explosion in new types of lower power computing (wearables, IoT, etc),
-it's unclear if <a href="http://smus.com/ebb-of-the-web/">browsers will be as ubiquitous</a> as they are
-today (at least in the near term). I'm very interested in seeing if and
-how non-web platforms can embrace URLs.  How closely coupled are URLs to
-HTML, and do they make sense without a presentation layer?</p>
-
-
-  </div>
-  
-  <a href="/addressable-apps" class="readmore" title="Continue reading...">
     Continued &rarr;
   </a>
   
