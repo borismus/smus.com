@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Embedding VR content on the web | Boris Smus</title>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+
+  <meta name="description" content=" During a two week trip to India, I took over 1000 shots, including photos, videos and a few photospheres. A picture is worth one thousand words, but how many pictures is a photosphere worth? We may never know, but I digress. My favorite photosphere was of friends posing inside one of the turrets of the Jaigur fort:         function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;     I captured this using the photosphere camera which ships with Android. It's embedded into my blog using  VR View , which  launched today . The embed above lets you include an interactive photosphere right in your website, which is especially fun on a mobile device, where the image reacts directly to your phone's movements. You can view it in full screen mode, and even in Cardboard mode if you view on a mobile device.    But you know what's cooler than a photosphere? A stereo photosphere! And luckily, you can capture stereo photospheres using  Cardboard Camera , and then use VR Views to  embed them too . You can even embed mono or  stereo videos . Check out  the docs  for more info. Eager to hear what you think!  ">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link
+  href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/build/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/inspiration/' >Clippings</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/vr-views'><h1 class='title'>Embedding VR content on the web</h1></a>
+    <div class='body'>
+      <p>During a two week trip to India, I took over 1000 shots, including photos,
+videos and a few photospheres. A picture is worth one thousand words, but how
+many pictures is a photosphere worth? We may never know, but I digress. My
+favorite photosphere was of friends posing inside one of the turrets of the
+Jaigur fort:</p>
+
+<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere.jpg&is_stereo=false"></iframe>
+
+<script>
+function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;
+</script>
+
+<p>I captured this using the photosphere camera which ships with Android. It's
+embedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched
+today</a>. The embed above lets you include an interactive photosphere
+right in your website, which is especially fun on a mobile device, where the
+image reacts directly to your phone's movements. You can view it in full screen
+mode, and even in Cardboard mode if you view on a mobile device.</p>
+
+<p>But you know what's cooler than a photosphere? A stereo photosphere! And
+luckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and
+then use VR Views to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or
+<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager
+to hear what you think!</p>
+
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>March 31, 2016</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2008–2016 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='http://feeds.feedburner.com/smuscom'>RSS</a>
+    <a href='http://twitter.com/borismus'>Twitter</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<script>
+  // Syntax highlighting for code.
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<script>
+  // Google Analytics.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17930798-22', 'smus.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<script src="/lightning_error.js"></script>
+
+</body>
+</html>

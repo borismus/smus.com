@@ -5,8 +5,51 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-01-19T10:58:48-00:00</updated>
+  <updated>2016-03-30T09:04:59-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Embedding VR content on the web</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/vr-views"/>
+    
+    <updated>2016-03-31T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/vr-views</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>During a two week trip to India, I took over 1000 shots, including photos,
+videos and a few photospheres. A picture is worth one thousand words, but how
+many pictures is a photosphere worth? We may never know, but I digress. My
+favorite photosphere was of friends posing inside one of the turrets of the
+Jaigur fort:</p>
+
+<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere.jpg&is_stereo=false"></iframe>
+
+<script>
+function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;
+</script>
+
+<p>I captured this using the photosphere camera which ships with Android. It's
+embedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched
+today</a>. The embed above lets you include an interactive photosphere
+right in your website, which is especially fun on a mobile device, where the
+image reacts directly to your phone's movements. You can view it in full screen
+mode, and even in Cardboard mode if you view on a mobile device.</p>
+
+<p>But you know what's cooler than a photosphere? A stereo photosphere! And
+luckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and
+then use VR Views to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or
+<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager
+to hear what you think!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Simulating wealth inequality</title>
@@ -8795,152 +8838,6 @@ this!</p>
   type: "GET"
 });
 </code></pre>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>From Wordpress to Hyde</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/wordpress-to-hyde"/>
-    
-    <updated>2011-04-20T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/wordpress-to-hyde</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've used <a href="http://wordpress.com/">Wordpress</a> for a couple of years now as my web publishing platform of
-choice. I customized it a little bit, and made a <a href="/new-design">custom theme</a> for it. But 
-nothing is perfect, and neither is wordpress. As a result of relatively heavy
-use, I've collected a list of things I don't much like about it:</p>
-
-<ul>
-<li>Can't upload source code since it restricts allowed file types.</li>
-<li>Can't easily edit files with a regular text editor.</li>
-<li>Painful theme customization.</li>
-<li>PHP makes it unpleasant to extend.</li>
-<li>Constant security upgrades required.</li>
-</ul>
-
-<p>All of these things separately are perhaps small and insignificant, but
-together add up to create a certain barrier to blogging.</p>
-
-<h2>Static files</h2>
-
-<p>A blog is mostly static. Why should my article be stored in a database? It's hardly 
-ever queried or searched. Comments are perhaps the exception here, but services
-like <a href="http://disqus.com/">Disqus</a> implement commenting with embeddable JavaScript. And in general,
-dynamic parts can be handled in client-side code.</p>
-
-<p>So I looked to static site generators. There's about <a href="http://stackoverflow.com/questions/186290/best-static-website-generator">a million</a> of these,
-the most prominent of which is <a href="https://github.com/mojombo/jekyll">Jekyll</a>, written by the github co-founder. 
-Ultimately I chose <a href="https://github.com/lakshmivyas/hyde/">Hyde</a> for it's use of <a href="http://docs.djangoproject.com/en/dev/ref/templates/builtins/">Django templates</a> and Python.</p>
-
-<h2>Migrating the old blog</h2>
-
-<p>The old blog was written in HTML, but I wanted to switch to a format that can
-be written faster, such as Markdown, Textile, or many others. To do this I used
-a tool called exitwp, which parses the Wordpress export and generates Markdown
-files appropriate for Jekyll. I <a href="https://github.com/borismus/exitwp">forked exitwp</a> and hacked it to generate
-files better suited to Hyde. Thanks <a href="http://thomas.jossystem.se/">Thomas Frössman</a> for exitwp.</p>
-
-<p>I did spent a fair amount of time tweaking the export, replacing Smart YouTube URLs
-with real YouTube embeds, and eliminating Syntax Highlighter markup.</p>
-
-<h2>Customizing hyde</h2>
-
-<p>Hyde is basically built on top of Django templates, so is customizable with
-template tags and filters, written in Python. It comes with a bunch of them,
-including ones that parse markdown and other structured text formats into HTML.</p>
-
-<p>Surprisingly I didn't need to customize Hyde much, although I did fix a couple of 
-bugs, which the author, <a href="http://ringce.com/">Lakshmi Vyas</a> accepted. Anyway, I feel much more
-future proof now than with Wordpress, since I can easily write extensions in
-Python, or in the worst case take my Markdown-formatted blog posts and easily
-export them to many different formats.</p>
-
-<h2>Dynamic stuff</h2>
-
-<p>The bit of custom JS for the site layout is written using jQuery.</p>
-
-<p>I use the excellent <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a> plugin to highlight code snippets. The
-jQuery <a href="http://timeago.yarp.com/">timeago</a> plugin does a great job of converting absolute dates (April
-1, 2010) to relative dates (about a year ago). Finally, Disqus powers comments,
-which I migrated from the wordpress database.</p>
-
-<h2>New design</h2>
-
-<p>In my great wisdom, I decided that since there's so much flux in the blog, why not
-add some more chaos by switching to a new layout too? Here's the old layout:</p>
-
-<p><img src="/wordpress-to-hyde/old-design.png" alt="old" /></p>
-
-<p>I recently heard from sage advice from some experienced writers. Among things
-that stuck were:</p>
-
-<ul>
-<li>Optimal posting time is 9am PST</li>
-<li>Writing personal posts is OK sometimes</li>
-<li>Show personal information in the sidebar</li>
-</ul>
-
-<p>The last part is expressed in the new design. Overall the redesign was an
-exercise in typography, CSS3 features and <a href="http://www.alistapart.com/articles/responsive-web-design/">responsive layout</a>. </p>
-
-<p><a href="http://www.google.com/webfonts">Google fonts</a> is a nice collection of web fonts. I decided to switch from
-Myriad (used on borismus.com) to a serif for the main body for a
-change. I ultimately went with <a href="http://www.google.com/webfonts/list?family=PT+Serif">PT Serif</a>, which seemed like a nice
-improvement to Georgia, which is probably my favorite serif web font.</p>
-
-<p>I used a bunch (too many?) CSS3 features on the new site. Most of these are
-CSS box-shadows, gradients, transformations and transitions. I used <a href="http://sass-lang.com/">SCSS</a>.</p>
-
-<p>Also, following the responsive layout philosophy, I wanted the site to scale well
-to a number of different resolutions. For example, the sidebar moves to the end of the 
-articles if the window is too narrow. Also, in the <a href="/projects">projects page</a>, the number of 
-columns of projects is flexible. This is achieved through <a href="http://www.w3.org/TR/css3-mediaqueries/">CSS media queries</a>.</p>
-
-<p>For posterity, here is the new layout at the time of writing:</p>
-
-<p><img src="/wordpress-to-hyde/new-design.png" alt="new" /></p>
-
-<h2>New domain</h2>
-
-<p>I also recently bought <a href="http://smus.com">smus.com</a> from a fellow in Germany, and will be migrating 
-my site there. I'll keep the <a href="http://borismus.com">borismus.com</a> blog intact for a while, but will 
-place an annoying banner there, and disable commenting. I guess I should also 
-switch the feedburner feed to point to smus.com as well.</p>
-
-<p>Not long ago, I wrote about how switching from webfaction and apache to slicehost
-and NGINX greatly <a href="/lightweight-wordpress-on-slicehost/">enhanced page load time</a>. Well, this seems to have happened again.
-Over the same time period, the average response time of my wordpress instance was 
-<strong>934ms</strong>:</p>
-
-<p><img src="/wordpress-to-hyde/old-perf.png" alt="old perf" /></p>
-
-<p>Over the same time frame, my static blog, hosted on the same machine, responded on 
-average in <strong>371ms</strong>:</p>
-
-<p><img src="/wordpress-to-hyde/new-perf.png" alt="new perf" /></p>
-
-<p>Oh, finally, the site is fully open source <a href="http://github.com/borismus/smus.com">on github</a>. </p>
-
-<h2>Thanks</h2>
-
-<p>Thanks to a bunch of people:</p>
-
-<ul>
-<li>Sol, Kat and Jon for giving useful design feedback!</li>
-<li><a href="http://nlevin.com/">Noah Levin</a> for awesome CSS3 tweaks</li>
-<li>Steve Losh for his <a href="http://stevelosh.com/blog/2010/01/moving-from-django-to-hyde/">Hyde migration</a> write-up</li>
-</ul>
-
-<p>You, for reading this post and continuing to read this blog. Until next time!</p>
 
 
         

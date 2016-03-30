@@ -37,6 +37,38 @@
 <section id='main'>
 
 <article class="type-post">
+  <a href='/vr-views'><h1 class='title'>Embedding VR content on the web</h1></a>
+  <div class='body'>
+    <p>During a two week trip to India, I took over 1000 shots, including photos,
+videos and a few photospheres. A picture is worth one thousand words, but how
+many pictures is a photosphere worth? We may never know, but I digress. My
+favorite photosphere was of friends posing inside one of the turrets of the
+Jaigur fort:</p>
+
+<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere.jpg&is_stereo=false"></iframe>
+
+<script>
+function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;
+</script>
+
+<p>I captured this using the photosphere camera which ships with Android. It's
+embedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched
+today</a>. The embed above lets you include an interactive photosphere
+right in your website, which is especially fun on a mobile device, where the
+image reacts directly to your phone's movements. You can view it in full screen
+mode, and even in Cardboard mode if you view on a mobile device.</p>
+
+<p>But you know what's cooler than a photosphere? A stereo photosphere! And
+luckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and
+then use VR Views to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or
+<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager
+to hear what you think!</p>
+
+  </div>
+  
+</article>
+
+<article class="type-post">
   <a href='/simulating-wealth-inequality'><h1 class='title'>Simulating wealth inequality</h1></a>
   <div class='body'>
     <p>Economic inequality is rising in the US. A viral video from several years ago
@@ -296,32 +328,6 @@ spirit of the <a href="https://extensiblewebmanifesto.org/">extensible web manif
   </div>
   
   <a href="/web-sensor-api" class="readmore" title="Continue reading...">
-    Continued &rarr;
-  </a>
-  
-</article>
-
-<article class="type-post">
-  <a href='/uist-2014'><h1 class='title'>UIST 2014 highlights</h1></a>
-  <div class='body'>
-    <p>This year's <a href="http://www.acm.org/uist/uist2014/">UIST</a> was held in Waikiki, Honolulu, the undisputed
-tourist capital of Hawaii. I've stuck to my now three year old habit of
-taking notes and <a href="http://smus.com/uist-2013">posting my favorite work</a>. Since last year,
-the conference has grown an extra track. The split was generally OK for
-me, with my track mostly dedicated to user interface innovation
-(sensors, etc) and another more concerned with crowdsourcing,
-visualization, and more traditional UIs.</p>
-
-<p>My overall feeling was that the research was mostly interesting from a
-tech perspective, but focused on solving the wrong problem. For example,
-at least 5 papers/posters/demos were focused on typing on smartwatches.
-The keynotes were very thought provoking, especially when juxtaposed
-with one another.</p>
-
-
-  </div>
-  
-  <a href="/uist-2014" class="readmore" title="Continue reading...">
     Continued &rarr;
   </a>
   
