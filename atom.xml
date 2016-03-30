@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-03-30T09:14:24-00:00</updated>
+  <updated>2016-03-30T09:25:59-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -34,13 +34,13 @@ function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener(
 <p>I captured this using the photosphere camera which ships with Android. It's
 embedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched
 today</a>. The embed above lets you include an interactive photosphere
-right in your website, which is especially fun on a mobile device, where the
-image reacts directly to your phone's movements. You can view it in full screen
-mode, and even in Cardboard mode if you view on a mobile device.</p>
+right in your website, which is especially fun on mobile, where the image reacts
+directly to your phone's movements. You can view it in full screen mode, and
+even in Cardboard mode (only on mobile).</p>
 
 <p>But you know what's cooler than a photosphere? A stereo photosphere! And
 luckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and
-then use VR Views to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or
+then use a VR View to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or
 <a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager
 to hear what you think!</p>
 
