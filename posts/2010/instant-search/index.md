@@ -1,4 +1,4 @@
-Instant Search in 60 Lines
+Instant search in 60 lines
 ==========================
 categories: [web]
 posted: 2010-10-09

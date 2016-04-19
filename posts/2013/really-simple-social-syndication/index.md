@@ -1,4 +1,4 @@
-Really Simple Social Syndication
+Really simple social syndication
 ================================
 posted: 2013-03-14
 

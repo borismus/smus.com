@@ -1,4 +1,4 @@
-Gestural Music Direction
+Gestural music direction
 ========================
 posted: 2013-05-03
 

@@ -14,7 +14,7 @@ education, audio and music, sensors and interaction design.
 
 My job at Google is a mix of software engineering and user experience
 prototyping. I have had the good fortune to help launch [Google
-Cardboard][cardboard] [Google Tone][tone], and build many other exciting
+Cardboard][cardboard], [Google Tone][tone], and build many other exciting
 products with a small, fast moving team.
 
 [cardboard]: http://g.co/cardboard
@@ -23,27 +23,30 @@ products with a small, fast moving team.
 At my previous job as an engineer on the Chrome developer relations team
 we pushed the limits of the modern web platform and educated web
 developers. I helped launch [Chrome for Android][chrome], [wrote
-articles][h5r] and released open source libraries and samples. I also
-authored a short [book on the Web Audio API][book].
+articles][h5r], [gave talks][talks] and released open source libraries
+and samples. I also authored a short [book on the Web Audio API][book].
 
 [chrome]: https://play.google.com/store/apps/details?id=com.android.chrome&hl=en
 [h5r]: http://www.html5rocks.com/
+[talks]: /talks
 [book]: http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684
 
 Before Google, I was a graduate student at [Carnegie Mellon][cmu], where
 I focused on social and [wearable computing research][research] and
 built [CrowdForge][crowdforge], a system for crowdsourcing complex
 tasks. Prior to that, I worked at Apple for two years, contributing to
-iWeb, iWork and helping start [iWork.com][iwork].
+iWeb, iWork and helping start [iWork.com][iwork]. For the still curious,
+my [resume is online][resume].
 
 [cmu]: http://www.hcii.cmu.edu/academics/mhci
 [research]: https://scholar.google.com/citations?user=bIgFmUwAAAAJ
 [crowdforge]: http://crowdforge.com/
 [iwork]: https://www.apple.com/iwork-for-icloud/
+[resume]: /resume
 
 I am Canadian. I studied Mathematics and Computer Science at the
 [University of British Columbia][ubc], and spent my formative years in
-Vancouver, Canada and consider it my second home.
+Vancouver.
 
 [ubc]: https://www.cs.ubc.ca/
 

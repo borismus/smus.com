@@ -1,4 +1,4 @@
-Crowdsourcing Articles with Mechanical Turk
+Crowdsourcing articles with mechanical turk
 ===========================================
 categories: [social]
 posted: 2010-01-14

@@ -1,4 +1,4 @@
-Nike+ Hacking with Python
+Nike+ hacking with python
 =========================
 categories: [physical]
 posted: 2010-05-18

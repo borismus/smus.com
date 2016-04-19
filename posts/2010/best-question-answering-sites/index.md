@@ -1,4 +1,4 @@
-The Best Question Answering Sites
+The best question answering sites
 =================================
 categories: [social]
 posted: 2010-10-25

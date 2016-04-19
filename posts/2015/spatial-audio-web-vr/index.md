@@ -1,4 +1,4 @@
-Spatial Audio and Web VR
+Spatial audio and web VR
 ========================
 posted: 2015-03-19
 

@@ -1,4 +1,4 @@
-Hybrid Operating Systems
+Hybrid operating systems
 ========================
 categories: [web]
 posted: 2011-11-28

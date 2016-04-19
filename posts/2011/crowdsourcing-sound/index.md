@@ -1,4 +1,4 @@
-Soundsourcing: The Sound of the Crowd
+Soundsourcing: the sound of the crowd
 =====================================
 categories: [social, music, web]
 posted: 2011-02-20

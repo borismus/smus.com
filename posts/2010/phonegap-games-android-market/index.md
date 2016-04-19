@@ -1,4 +1,4 @@
-PhoneGap Games in the Android Market
+PhoneGap games in the Android Market
 ====================================
 categories: [web]
 posted: 2010-11-11

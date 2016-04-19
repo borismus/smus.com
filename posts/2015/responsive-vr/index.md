@@ -1,4 +1,4 @@
-Responsive WebVR, Headset Optional
+Responsive WebVR, headset optional
 ==================================
 posted: 2015-02-02
 

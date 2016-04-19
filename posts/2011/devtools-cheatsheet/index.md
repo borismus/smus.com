@@ -1,4 +1,4 @@
-Chrome Developer Tools Cheatsheet
+Chrome developer tools cheatsheet
 =================================
 categories: [web]
 posted: 2011-05-13

@@ -1,4 +1,4 @@
-Jam Hunt: Friendly Jam Sessions
+Jam Hunt: friendly jam sessions
 ===============================
 categories: [web, music]
 posted: 2010-04-24

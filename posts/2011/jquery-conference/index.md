@@ -1,4 +1,4 @@
-jQuery Conference 2011
+jQuery conference 2011
 ======================
 categories: [web, conference]
 posted: 2011-04-26

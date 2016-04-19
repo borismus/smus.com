@@ -1,4 +1,4 @@
-Generating Guitar Chord Diagrams
+Generating guitar chord diagrams
 ================================
 categories: [music]
 posted: 2009-06-14

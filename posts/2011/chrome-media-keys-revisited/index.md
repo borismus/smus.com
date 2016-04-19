@@ -1,4 +1,4 @@
-Global Chrome Media Keys with Key Socket
+Global chrome media keys with Key Socket
 ========================================
 categories: [chrome, web, keyboard, websockets, music]
 posted: 2011-07-28

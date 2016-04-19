@@ -1,4 +1,4 @@
-An Onslaught of Mobile HTML Games
+An onslaught of mobile HTML games
 =================================
 categories: [web]
 posted: 2010-10-16

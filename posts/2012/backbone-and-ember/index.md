@@ -1,4 +1,4 @@
-Backbone and Ember
+Backbone and ember
 ==================
 categories: [web]
 posted: 2012-02-15

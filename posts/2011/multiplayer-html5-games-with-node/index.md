@@ -1,4 +1,4 @@
-Developing Multiplayer HTML5 Games with Node.js
+Developing multiplayer HTML5 games with node.js
 ===============================================
 categories: [web, games, multiplayer]
 posted: 2011-08-30

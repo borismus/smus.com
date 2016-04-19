@@ -1,4 +1,4 @@
-Robotic Piano Playback
+Robotic piano playback
 ======================
 categories: [physical]
 posted: 2008-11-15

@@ -52,7 +52,7 @@ Resume
     in C\#
 -   Followed Agile software development principles: unit testing, scrums
 
-**Summer 2003: Software Engineer Intern, SchemaSoft (now Apple)**
+**Summer 2003: Software Engineer Intern, SchemaSoft (acquired by Apple in 2005)**
 
 -   Developed bindings for a subset of the SVG DOM in C++
 -   Implemented in C\# an editor for easily editing and navigating XML
@@ -82,42 +82,45 @@ Resume
 
 **Publications**
 
--   Kittur, N., Smus, B., and Kraut, R.E., Khamkar, S. CrowdForge:
-    Crowdsourcing Complex Work. *Proceedings of UIST 2011, Santa Barbara,
-    CA.*
+- Kittur, N., Smus, B., and Kraut, R.E., Khamkar, S. CrowdForge:
+  Crowdsourcing Complex Work. *Proceedings of UIST 2011, Santa Barbara,
+  CA.*
 
--   Rogstadius, J., Kittur, N., Kostakos, V., Smus, B., Laredo, J., Vukovic, M.
-    An Assessment of Intrinsic and Extrinsic Motivation on Task Performance in
-    Crowdsourcing Markets. *Conference on Weblogs and Social Media 2011,
-    Barcelona, Spain*
+- Rogstadius, J., Kittur, N., Kostakos, V., Smus, B., Laredo, J., Vukovic, M.
+  An Assessment of Intrinsic and Extrinsic Motivation on Task Performance in
+  Crowdsourcing Markets. *Conference on Weblogs and Social Media 2011,
+  Barcelona, Spain*
 
--   Kittur, N., Smus, B., and Kraut, R.E. CrowdForge: Crowdsourcing Complex
-    Work. *Proceedings of the extended abstracts of CHI 2011, Vancouver,
-    Canada.*
+- Kittur, N., Smus, B., and Kraut, R.E. CrowdForge: Crowdsourcing Complex
+  Work. *Proceedings of the extended abstracts of CHI 2011, Vancouver,
+  Canada.*
 
--   Smus, B., Kostakos, V. Running gestures: hands-free interaction
-    during physical activity.  *Adjunct proceedings of Ubicomp 2010,
-    Copehnagen, Denmark.*
+- Smus, B., Kostakos, V. Running gestures: hands-free interaction
+  during physical activity.  *Adjunct proceedings of Ubicomp 2010,
+  Copehnagen, Denmark.*
 
--   Smus, B., Gross, M. Ubiquitous drums: a tangible, wearable musical
-    interface. *Proceedings of the extended abstracts of CHI 2010, Atlanta,
-    Georgia.*
+- Smus, B., Gross, M. Ubiquitous drums: a tangible, wearable musical
+  interface. *Proceedings of the extended abstracts of CHI 2010, Atlanta,
+  Georgia.*
 
 **Patents**
 
-- 20+ pending at Google.
+- Many more pending.
+
+- Smus, B. Determining user handedness and orientation using a touchscreen
+  device [US 9239648](https://www.google.com/patents/US9239648)
+
+- Smus, B., Kauffmann, A., Plagemann, C. Situated multi-person user interface
+  [US 9237182](https://www.google.com/patents/US9237182)
 
 - Smus, B. Automatically switching between input modes for a user
-  interface (US9026939)
+  interface [US 9026939](https://www.google.com/patents/US9026939)
 
 - Smus, B. Automatic device login based on wearable sensor fusion,
-  Google Inc (US 8928587)
+  Google Inc [US 8928587](https://www.google.com/patents/US8928587)
 
 - Smus, B. Keyboard event detection and network event generation, Google
-  Inc (US 8803808)
-
-- Bultrowicz, M., Smus, B. Shared Comments for Online Document
-  Collaboration, Apple Inc (US 8803808)
+  Inc [US 8803808](https://www.google.com/patents/US20100095198)
 
 [Google]: http://www.google.com
 [Apple]: http://www.apple.com

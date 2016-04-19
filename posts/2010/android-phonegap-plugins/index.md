@@ -1,4 +1,4 @@
-WebIntent, an Android PhoneGap Plugin
+WebIntent, an Android PhoneGap plugin
 =====================================
 categories: [web, android]
 posted: 2010-11-25

@@ -1,4 +1,4 @@
-From VPS to Static Hosting
+From VPS to static hosting
 ==========================
 posted: 2013-01-16
 

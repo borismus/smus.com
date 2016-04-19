@@ -1,4 +1,4 @@
-UIST 2011 Greatest Hits
+UIST 2011 greatest hits
 =======================
 categories: [research, conference]
 posted: 2011-10-20

@@ -1,4 +1,4 @@
-Ubiquitous Drums
+Ubiquitous drums
 ================
 categories: [physical]
 posted: 2009-11-18

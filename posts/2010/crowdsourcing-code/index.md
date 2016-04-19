@@ -1,4 +1,4 @@
-Crowdsourcing Code
+Crowdsourcing code
 ==================
 categories: [social]
 posted: 2010-01-16

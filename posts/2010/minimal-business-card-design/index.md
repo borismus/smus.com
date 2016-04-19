@@ -1,4 +1,4 @@
-Minimal Business Card Design
+Minimal business card design
 ============================
 categories: [design]
 posted: 2010-07-21

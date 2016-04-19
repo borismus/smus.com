@@ -1,4 +1,4 @@
-Ultrasonic Networking on the Web
+Ultrasonic networking on the web
 ================================
 posted: 2013-08-08
 

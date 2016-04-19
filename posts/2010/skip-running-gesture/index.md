@@ -1,4 +1,4 @@
-Skip to Skip: a Running Gesture
+Skip to skip: a running gesture
 ===============================
 categories: [physical, music]
 posted: 2010-08-06

@@ -1,4 +1,4 @@
-Arduino-Nerf Mashup
+Arduino-nerf mashup
 ===================
 categories: [physical]
 posted: 2009-10-20

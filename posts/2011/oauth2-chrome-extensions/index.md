@@ -1,4 +1,4 @@
-OAuth 2.0 from Chrome Extensions
+OAuth 2.0 from chrome extensions
 ================================
 categories: [web, google, chrome]
 posted: 2011-07-07

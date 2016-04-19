@@ -1,4 +1,4 @@
-UIST 2014 Highlights
+UIST 2014 highlights
 ====================
 posted: 2014-10-14
 

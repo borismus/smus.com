@@ -1,4 +1,4 @@
-Brazil Trip
+Brazil trip
 ===========
 categories: [web, chrome, travel]
 posted: 2011-06-21

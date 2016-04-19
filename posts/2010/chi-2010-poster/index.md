@@ -1,4 +1,4 @@
-CHI 2010 Poster
+CHI 2010 poster
 ===============
 categories: [design]
 posted: 2010-03-21

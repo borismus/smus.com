@@ -1,4 +1,4 @@
-Chrome Extension for thesixtyone
+Chrome extension for thesixtyone
 ================================
 categories: [web, chrome]
 posted: 2010-10-31

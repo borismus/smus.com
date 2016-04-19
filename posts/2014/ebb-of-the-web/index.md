@@ -1,4 +1,4 @@
-The Ebb of the Web
+The ebb of the web
 ==================
 posted: 2014-04-15
 

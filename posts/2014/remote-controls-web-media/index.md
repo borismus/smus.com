@@ -1,4 +1,4 @@
-Remote Controls for Web Media
+Remote controls for web media
 =============================
 posted: 2014-01-27
 

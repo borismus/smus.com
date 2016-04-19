@@ -1,4 +1,4 @@
-Plotting Something Radial
+Plotting something radial
 =========================
 categories: [physical]
 posted: 2009-08-07
