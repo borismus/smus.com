@@ -1,4 +1,4 @@
-KML Tours in Google Earth
+KML tours in Google Earth
 =========================
 categories: [web]
 posted: 2010-12-25

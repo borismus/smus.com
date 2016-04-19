@@ -1,4 +1,4 @@
-Offline Web Apps on the iPhone
+Offline web apps on the iPhone
 ==============================
 categories: [web]
 posted: 2009-09-06

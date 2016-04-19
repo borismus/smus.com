@@ -1,4 +1,4 @@
-jQuery Mobile Hacker News
+jQuery mobile hacker news
 =========================
 categories: [web]
 posted: 2010-11-17

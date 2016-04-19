@@ -1,4 +1,4 @@
-Prettifying Embedded YouTube
+Prettifying embedded YouTube
 ============================
 categories: [web]
 posted: 2009-02-27

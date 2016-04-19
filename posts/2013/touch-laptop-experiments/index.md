@@ -1,4 +1,4 @@
-Interactive Touch Laptop Experiments
+Interactive touch laptop experiments
 ====================================
 posted: 2013-02-21
 

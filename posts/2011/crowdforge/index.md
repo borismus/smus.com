@@ -1,4 +1,4 @@
-CrowdForge: Crowdsourcing Complex Tasks
+CrowdForge: crowdsourcing complex tasks
 =======================================
 categories: [social, web, crowdsourcing]
 posted: 2011-02-02

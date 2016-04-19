@@ -1,4 +1,4 @@
-Android-powered Mindstorms
+Android-powered mindstorms
 ==========================
 categories: [android, web]
 posted: 2010-06-27

@@ -1,4 +1,4 @@
-The (Sorry) State of HTML Mail
+The sorry state of HTML mail
 ==============================
 categories: [web]
 posted: 2008-10-31

@@ -1,4 +1,4 @@
-Never Delete Your Gmail Account
+Never delete your gmail account
 ===============================
 categories: [misc]
 posted: 2009-08-28

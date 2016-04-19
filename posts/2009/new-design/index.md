@@ -1,4 +1,4 @@
-New Design
+New design
 ==========
 categories: [design, web]
 posted: 2009-09-28

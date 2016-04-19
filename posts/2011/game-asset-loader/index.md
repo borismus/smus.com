@@ -1,4 +1,4 @@
-Loading Large Assets in Modern HTML5 Games
+Loading large assets in modern HTML5 games
 ==========================================
 categories: [web, offline, games]
 posted: 2011-09-22

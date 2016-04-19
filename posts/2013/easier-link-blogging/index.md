@@ -1,4 +1,4 @@
-Easier Link Blogging
+Easier link blogging
 ====================
 posted: 2013-07-29
 

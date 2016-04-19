@@ -1,4 +1,4 @@
-Prototyping with Wii Remotes in Python
+Prototyping with Wii remotes in python
 ======================================
 categories: [physical]
 posted: 2010-05-28

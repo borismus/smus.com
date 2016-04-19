@@ -1,4 +1,4 @@
-Chronos: Chrome Browsing Metrics
+Chronos: Chrome browsing metrics
 ================================
 categories: [web, chrome, statistics]
 posted: 2011-03-21

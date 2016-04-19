@@ -1,4 +1,4 @@
-Dynamic Chrome Extension Icons
+Dynamic chrome extension icons
 ==============================
 categories: [web, chrome]
 posted: 2011-06-06

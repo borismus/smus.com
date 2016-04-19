@@ -1,4 +1,4 @@
-Spectrogram and Oscillator
+Spectrogram and oscillator
 ==========================
 posted: 2014-06-09
 

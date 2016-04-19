@@ -1,4 +1,4 @@
-Visualizing MTurk Requesters
+Visualizing MTurk requesters
 ============================
 categories: [web, social]
 posted: 2010-02-06

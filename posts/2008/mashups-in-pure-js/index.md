@@ -1,4 +1,4 @@
-Musical Mashups in Pure JavaScript
+Musical mashups in pure JavaScript
 ==================================
 categories: [web, music]
 posted: 2008-12-04

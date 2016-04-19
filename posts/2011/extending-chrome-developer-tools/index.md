@@ -1,4 +1,4 @@
-Extending Chrome Developer Tools
+Extending chrome developer tools
 ================================
 categories: [web, google, chrome]
 posted: 2011-07-11

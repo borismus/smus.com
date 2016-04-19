@@ -1,4 +1,4 @@
-Installable Webapps: Extend the Sandbox
+Installable webapps: extend the sandbox
 =======================================
 posted: 2013-06-25
 

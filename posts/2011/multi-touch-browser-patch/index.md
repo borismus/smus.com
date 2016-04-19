@@ -1,4 +1,4 @@
-Multi-Touch for your Desktop Browser
+Multi-touch for your desktop browser
 ====================================
 categories: [web]
 posted: 2011-05-02

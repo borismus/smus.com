@@ -1,4 +1,4 @@
-Moving Day
+Moving day
 ==========
 categories: [personal]
 posted: 2008-11-24

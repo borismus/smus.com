@@ -1,4 +1,4 @@
-Chrome Media Keyboard Shortcuts
+Chrome media keyboard shortcuts
 ===============================
 categories: [chrome, web, keyboard, shortcuts]
 posted: 2011-04-01

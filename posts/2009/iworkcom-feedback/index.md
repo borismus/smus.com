@@ -1,4 +1,4 @@
-iWork.com Feedback
+iWork.com feedback
 ==================
 categories: [personal]
 posted: 2009-01-07

@@ -1,4 +1,4 @@
-Top 5 Sessions of Web 2.0 Expo NY
+Top 5 sessions of Web 2.0 Expo NY
 =================================
 categories: [conference, web]
 posted: 2008-09-23

@@ -1,4 +1,4 @@
-Web Sensor API: Raw and Uncut
+Web Sensor API: raw and uncut
 =============================
 posted: 2014-11-13
 
@@ -15,8 +15,7 @@ a phone thrown vertically as high as possible. I've had some experience
 using and abusing sensors too, most recently for the [Cardboard magnet
 button][cardboard-magnet].
 
-<video src="web_sensor_api.webm" autoplay muted loop controls style="height: auto; width: 100%;"></video>
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/l5775qwORk4" frameborder="0" allowfullscreen></iframe>
 
 However, over the last couple of years, I've had to step away from the
 web as a development platform, in part because of the poor state of

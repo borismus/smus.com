@@ -1,4 +1,4 @@
-I See Dead CSS
+I see dead CSS
 ==============
 categories: [web]
 posted: 2008-12-11

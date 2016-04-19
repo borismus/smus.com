@@ -1,4 +1,4 @@
-SXSW LEGO MINDSTORMS Hackathon
+SXSW LEGO MINDSTORMS hackathon
 ==============================
 categories: [conference, physical]
 posted: 2011-03-17

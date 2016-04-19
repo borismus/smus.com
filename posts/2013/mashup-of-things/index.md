@@ -1,4 +1,4 @@
-Internet Mashup of Things
+Internet mashup of things
 =========================
 posted: 2013-01-11
 

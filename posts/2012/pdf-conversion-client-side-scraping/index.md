@@ -1,4 +1,4 @@
-PDF Conversion and Client-side Scraping
+PDF conversion and client-side scraping
 =======================================
 categories: [web, extension]
 posted: 2012-02-08

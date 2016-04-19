@@ -1,4 +1,4 @@
-Stairs or Elevator? Use Bluetooth!
+Stairs or elevator? Use bluetooth!
 ==================================
 categories: [physical]
 posted: 2010-09-30

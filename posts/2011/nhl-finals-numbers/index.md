@@ -1,4 +1,4 @@
-Crunching Numbers for the NHL Finals
+Crunching numbers for the NHL finals
 ====================================
 categories: [math, travel]
 posted: 2011-05-31

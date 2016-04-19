@@ -1,4 +1,4 @@
-Extending Google Wave Terminology
+Extending Google Wave terminology
 =================================
 categories: [social]
 posted: 2009-07-22

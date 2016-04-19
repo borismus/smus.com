@@ -1,4 +1,4 @@
-Let's Get Physical (Units)
+Let's get physical (units)
 ==========================
 posted: 2012-05-02
 

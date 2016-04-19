@@ -1,4 +1,4 @@
-Performance of Canvas versus SVG
+Performance of canvas versus SVG
 ================================
 categories: [web]
 posted: 2009-01-19
