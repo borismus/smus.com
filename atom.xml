@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-03-30T12:46:36-00:00</updated>
+  <updated>2016-04-19T16:07:42-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -458,7 +458,7 @@ predicting head orientation from the gyroscope.</p>
 <p>I'll dig into these techniques and their open web implementations.  Everything
 discussed in this post is implemented and available open source as part of the
 <a href="https://github.com/borismus/webvr-polyfill">WebVR Polyfill</a> project. If you want to skip ahead, check out
-the <a href="http://borismus.github.io/webvr-boilerplate/">latest head tracker</a> in action, and play around with this <a href="http://borismus.github.io/webvr-polyfill/fusion/sensors.html">motion
+the <a href="http://borismus.github.io/webvr-boilerplate/">latest head tracker</a> in action, and play around with this <a href="http://borismus.github.io/sensor-fusion/">motion
 sensor visualizer</a>.</p>
 
 <!--more-->
@@ -684,7 +684,7 @@ and how far into the future to predict.</p>
 <p><img src="/sensor-fusion-prediction-webvr/plot-options.png" class="center"
     title="Preview of the options available in the plot"/></p>
 
-<p>You too can <a href="http://borismus.github.io/webvr-polyfill/fusion/sensors.html">try the plots live on your phone</a>. After all, it's just a
+<p>You too can <a href="http://borismus.github.io/sensor-fusion/">try the plots live on your phone</a>. After all, it's just a
 mobile webpage! Many thanks to <a href="https://twitter.com/pierregeorgel">Pierre
 Fite-Georgel</a> and <a href="https://github.com/jkammerl">Julius
 Kammerl</a> for lending their incredible

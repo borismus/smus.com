@@ -10,7 +10,82 @@
 		<string>videos</string>
 	</array>
 	<key>createMarkedFile</key>
-	<false/>
+	<integer>0</integer>
+	<key>resolutionData</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>crops</key>
+			<dict>
+				<key>lastModification</key>
+				<real>468459296</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-468459296.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>old</key>
+			<dict>
+				<key>lastModification</key>
+				<real>468459296</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-468459296.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>orig</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>482794175.88435501</real>
+				<key>lastModification</key>
+				<real>482794175.88435501</real>
+				<key>version</key>
+				<dict>
+					<key>533e3a81f96786f5383c48b33e66072c9a2523631116153fb353d451d2970fa6</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>videos</key>
+			<dict>
+				<key>lastModification</key>
+				<real>468459296</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-468459296.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+		</dict>
+		<key>createMarkedFile</key>
+		<real>468459296</real>
+		<key>sheetClusters</key>
+		<dict>
+			<key>crop_all.sh</key>
+			<dict>
+				<key>lastModification</key>
+				<real>468459296</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-468459296.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>index.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>468459296</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-468459296.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
 	<key>sheetClusters</key>
 	<array>
 		<array>
@@ -20,5 +95,25 @@
 			<string>index.md</string>
 		</array>
 	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>533e3a81f96786f5383c48b33e66072c9a2523631116153fb353d451d2970fa6</key>
+			<integer>2</integer>
+		</dict>
+		<key>createMarkedFile</key>
+		<dict>
+			<key>533e3a81f96786f5383c48b33e66072c9a2523631116153fb353d451d2970fa6</key>
+			<integer>1</integer>
+		</dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>533e3a81f96786f5383c48b33e66072c9a2523631116153fb353d451d2970fa6</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
 </dict>
 </plist>
