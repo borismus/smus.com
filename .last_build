@@ -7901,47 +7901,116 @@ sa(dp2502
 g2
 (dp2503
 g4
-V During a two week trip to India, I took over 1000 shots, including photos, videos and a few photospheres. A picture is worth one thousand words, but how many pictures is a photosphere worth? We may never know, but I digress. My favorite photosphere was of friends posing inside one of the turrets of the Jaigarh Fort:         function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;     I captured this using the photosphere camera which ships with Android. It's embedded into my blog using  VR View , which  launched today . The embed above lets you include an interactive photosphere right in your website, which is especially fun on mobile, where the image reacts directly to your phone's movements. You can view it in full screen mode, and even in Cardboard mode (only on mobile).    But you know what's cooler than a photosphere? A stereo photosphere! And luckily, you can capture stereo photospheres using  Cardboard Camera , and then use a VR View to  embed them too . You can even embed mono or  stereo videos . Check out  the docs  for more info. Eager to hear what you think!  
+V Immersion requires a large field of view. Economics aside, this could be done using a sufficiently large curved spherical display. Unfortunately, such a display would be prohibitively expensive.  Meanwhile, small flat screens are ubiquitous. So the solution to increasing the field of view is to look at our small rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects.   
 p2504
 sg28
 g7
 (g8
 g9
-V<p>During a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres. A picture is worth one thousand words, but how\u000amany pictures is a photosphere worth? We may never know, but I digress. My\u000afavorite photosphere was of friends posing inside one of the turrets of the\u000aJaigarh Fort:</p>\u000a\u000a<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere-4096.jpg&preview=//smus.com/vr-views/india-photosphere-1024.jpg&is_stereo=false"></iframe>\u000a\u000a<script>\u000afunction DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;\u000a</script>\u000a\u000a<p>I captured this using the photosphere camera which ships with Android. It's\u000aembedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched\u000atoday</a>. The embed above lets you include an interactive photosphere\u000aright in your website, which is especially fun on mobile, where the image reacts\u000adirectly to your phone's movements. You can view it in full screen mode, and\u000aeven in Cardboard mode (only on mobile).</p>\u000a\u000a<p>But you know what's cooler than a photosphere? A stereo photosphere! And\u000aluckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and\u000athen use a VR View to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or\u000a<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager\u000ato hear what you think!</p>\u000a
+V<p>Immersion requires a large field of view. Economics aside, this could be done\u000ausing a sufficiently large curved spherical display. Unfortunately, such a\u000adisplay would be prohibitively expensive.  Meanwhile, small flat screens are\u000aubiquitous. So the solution to increasing the field of view is to look at our\u000asmall rectangular displays through lenses:</p>\u000a\u000a<p><img src="how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>\u000a\u000a<p>Lenses placed close to your eyes greatly increase your field of view, but there\u000ais a cost: the image becomes spherically distorted. The larger the field of\u000aview, the more distorted the image. This post is a quick summary of three\u000adifferent approaches to undistorting the image, all of which have been\u000aimplemented in JavaScript for various WebVR-related projects.</p>\u000a\u000a<!--more-->\u000a\u000a<p>Here is a closer look at the lens distortion of a typical head mounted display.\u000aThe lenses cause a pincushion effect:</p>\u000a\u000a<p><img src="pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>\u000a\u000a<p>The solution is to apply barrel distortion to the image. When we look at it through\u000athe distorting lenses, the image looks neutral:</p>\u000a\u000a<p><img src="barrel-predistortion.png" alt="Barrel pre-distortion" /></p>\u000a\u000a<p>Lens distortion is well understood mathematically, governed by equations <a href="https://en.wikipedia.org/wiki/Distortion_(optics)#Software_correction">like\u000athese</a>, with distortion coefficients corresponding to the particular lens.\u000aTo undo the distortion properly, we also need to calculate the centers of the\u000aeyes, which requires knowing a bit about the geometry of the display and the\u000aenclosure itself. This can all be done, even on the web! I summarize a few\u000aimplementation options below.</p>\u000a\u000a<h1>1. Fragment based solution (bad)</h1>\u000a\u000a<p>The simplest way to using two pass rendering. First, we render the left and\u000aright eyes onto a texture, and then process that texture with a fragment (pixel)\u000ashader, moving each pixel inward in relation to the centroid of the eye:</p>\u000a\u000a<p><img src="dense.png" alt="Per-pixel based distortion" /></p>\u000a\u000a<p>This is the first and simplest method, which is also the least efficient, since\u000aeach pixel is processed separately. The <a href="https://github.com/borismus/webvr-boilerplate/blob/d91cc2866bd54e65d59022800f62c7e160dc9fee/src/cardboard-distorter.js">first version</a> of the\u000aWebVR Boilerplate implemented this method.</p>\u000a\u000a<h1>2. Mesh based solution (better)</h1>\u000a\u000a<p>Rather than processing each pixel separately, we distort the vertices of a\u000arelatively sparse mesh (40x20 works well). </p>\u000a\u000a<p><img src="sparse.png" alt="Mesh based distortion" /></p>\u000a\u000a<p>This can save some direct computation and let the GPU do a fair amount of\u000ainterpolation. Rather than having to apply to every single pixel (<code>1920 * 1080 ~=\u000a2e6</code>), we do the calculation for every vertex in the mesh (<code>40 * 20 = 800</code>). The\u000aresult is a significant reduction (3 magnitudes or so) of computation, and a\u000anice boost in performance. The <a href="https://github.com/borismus/webvr-polyfill/blob/master/src/cardboard-distorter.js">WebVR Polyfill</a> currently implements\u000athis approach.</p>\u000a\u000a<p>Applying distortion isn't the only expensive part in this rendering method. A\u000alot of time is wasted copying the whole scene to an intermediate texture.</p>\u000a\u000a<h1>3. Vertex displacement based solution (best)</h1>\u000a\u000a<p>This brings us to the most efficient method of the three, which eliminates the\u000aneed to render to an intermediate texture in the first place. In this approach,\u000athe geometry itself is distorted using a custom vertex shader. The idea is that\u000aknowing the position of the camera, we can displace vertices in such a way that\u000athe resulting 2D render is already barrel distorted. In this case, no shader\u000apass is needed, and we save the expensive step of copying the rendering into a\u000atexture. </p>\u000a\u000a<p>This method does require a certain vertex density on every mesh that is being\u000adeformed. Imagine the simple case of a large, 4-vertex rectangle being\u000arendered very close to the camera. Distorting these vertices would still yield a\u000a4-vertex flat rectangle, and clearly there's no barreling effect. Because of\u000athis, this is method does not generalize without extra work on the\u000adeveloper's part.</p>\u000a\u000a<p><img src="cdl.png" alt="Cardboard Design Lab screenshot" /></p>\u000a\u000a<p>This approach is used in the <a href="https://github.com/googlesamples/cardboard-unity/tree/master/Samples/CardboardDesignLab">Cardboard Design Lab</a> and in the open sourced\u000a<a href="https://github.com/google/vrview/blob/master/src/vertex-distorter.js">VR View project</a>. Geometry-based distortion can also result in sharper\u000alooking renderings, since the two pass approach can cause aliasing, especially\u000aif the intermediate texture is small. You can read more about this distortion\u000amethod in <a href="http://www.gamasutra.com/blogs/BrianKehrer/20160125/264161/VR_Distortion_Correction_using_Vertex_Displacement.php">this helpful explainer</a>.</p>\u000a
 p2505
 tp2506
 Rp2507
 sg13
-V/vr-views
+V/vr-lens-distortion
 p2508
 sg15
 Nsg16
-I00
+I01
 sg17
-VEmbedding VR content on the web
+VThree approaches to VR lens distortion
 p2509
 sg20
-VDuring a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres.
+VImmersion requires a large field of view.
 p2510
 sg6
-g2507
+V<p>Immersion requires a large field of view. Economics aside, this could be done\u000ausing a sufficiently large curved spherical display. Unfortunately, such a\u000adisplay would be prohibitively expensive.  Meanwhile, small flat screens are\u000aubiquitous. So the solution to increasing the field of view is to look at our\u000asmall rectangular displays through lenses:</p>\u000a\u000a<p><img src="how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>\u000a\u000a<p>Lenses placed close to your eyes greatly increase your field of view, but there\u000ais a cost: the image becomes spherically distorted. The larger the field of\u000aview, the more distorted the image. This post is a quick summary of three\u000adifferent approaches to undistorting the image, all of which have been\u000aimplemented in JavaScript for various WebVR-related projects.</p>\u000a\u000a
+p2511
 sg25
 g158
 sg33
 g2508
 sg159
-(dp2511
+(dp2512
+g161
+S'Apr'
+p2513
+sg163
+S'April 20, 2016'
+p2514
+sg165
+I4
+sg166
+S'2016-04-20T09:00:00-00:00'
+p2515
+sg168
+I1461168000
+sg169
+I2016
+sg170
+I20
+ssg65
+g171
+sg31
+S'vr-lens-distortion'
+p2516
+sS'posted'
+p2517
+g177
+(S'\x07\xe0\x04\x14'
+p2518
+tp2519
+Rp2520
+ssg34
+S'content/posts/2016/vr-lens-distortion/index.md'
+p2521
+sg36
+F1461195081.0
+sa(dp2522
+g2
+(dp2523
+g4
+V During a two week trip to India, I took over 1000 shots, including photos, videos and a few photospheres. A picture is worth one thousand words, but how many pictures is a photosphere worth? We may never know, but I digress. My favorite photosphere was of friends posing inside one of the turrets of the Jaigarh Fort:         function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;     I captured this using the photosphere camera which ships with Android. It's embedded into my blog using  VR View , which  launched today . The embed above lets you include an interactive photosphere right in your website, which is especially fun on mobile, where the image reacts directly to your phone's movements. You can view it in full screen mode, and even in Cardboard mode (only on mobile).    But you know what's cooler than a photosphere? A stereo photosphere! And luckily, you can capture stereo photospheres using  Cardboard Camera , and then use a VR View to  embed them too . You can even embed mono or  stereo videos . Check out  the docs  for more info. Eager to hear what you think!  
+p2524
+sg28
+g7
+(g8
+g9
+V<p>During a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres. A picture is worth one thousand words, but how\u000amany pictures is a photosphere worth? We may never know, but I digress. My\u000afavorite photosphere was of friends posing inside one of the turrets of the\u000aJaigarh Fort:</p>\u000a\u000a<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere-4096.jpg&preview=//smus.com/vr-views/india-photosphere-1024.jpg&is_stereo=false"></iframe>\u000a\u000a<script>\u000afunction DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;\u000a</script>\u000a\u000a<p>I captured this using the photosphere camera which ships with Android. It's\u000aembedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched\u000atoday</a>. The embed above lets you include an interactive photosphere\u000aright in your website, which is especially fun on mobile, where the image reacts\u000adirectly to your phone's movements. You can view it in full screen mode, and\u000aeven in Cardboard mode (only on mobile).</p>\u000a\u000a<p>But you know what's cooler than a photosphere? A stereo photosphere! And\u000aluckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and\u000athen use a VR View to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or\u000a<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager\u000ato hear what you think!</p>\u000a
+p2525
+tp2526
+Rp2527
+sg13
+V/vr-views
+p2528
+sg15
+Nsg16
+I00
+sg17
+VEmbedding VR content on the web
+p2529
+sg20
+VDuring a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres.
+p2530
+sg6
+g2527
+sg25
+g158
+sg33
+g2528
+sg159
+(dp2531
 g161
 S'Mar'
-p2512
+p2532
 sg163
 S'March 31, 2016'
-p2513
+p2533
 sg165
 I3
 sg166
 S'2016-03-31T09:00:00-00:00'
-p2514
+p2534
 sg168
 I1459440000
 sg169
@@ -7952,17 +8021,17 @@ ssg65
 g171
 sg31
 S'vr-views'
-p2515
+p2535
 sS'posted'
-p2516
+p2536
 g177
 (S'\x07\xe0\x03\x1f'
-p2517
-tp2518
-Rp2519
+p2537
+tp2538
+Rp2539
 ssg34
 S'content/posts/2016/vr-views/index.md'
-p2520
+p2540
 sg36
 F1459367189.0
 sa.

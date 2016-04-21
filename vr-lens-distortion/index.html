@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Three approaches to VR lens distortion | Boris Smus</title>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+
+  <meta name="description" content=" Immersion requires a large field of view. Economics aside, this could be done using a sufficiently large curved spherical display. Unfortunately, such a display would be prohibitively expensive.  Meanwhile, small flat screens are ubiquitous. So the solution to increasing the field of view is to look at our small rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects.   ">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link
+  href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/build/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/inspiration/' >Clippings</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/vr-lens-distortion'><h1 class='title'>Three approaches to VR lens distortion</h1></a>
+    <div class='body'>
+      <p>Immersion requires a large field of view. Economics aside, this could be done
+using a sufficiently large curved spherical display. Unfortunately, such a
+display would be prohibitively expensive.  Meanwhile, small flat screens are
+ubiquitous. So the solution to increasing the field of view is to look at our
+small rectangular displays through lenses:</p>
+
+<p><img src="how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>
+
+<p>Lenses placed close to your eyes greatly increase your field of view, but there
+is a cost: the image becomes spherically distorted. The larger the field of
+view, the more distorted the image. This post is a quick summary of three
+different approaches to undistorting the image, all of which have been
+implemented in JavaScript for various WebVR-related projects.</p>
+
+<!--more-->
+
+<p>Here is a closer look at the lens distortion of a typical head mounted display.
+The lenses cause a pincushion effect:</p>
+
+<p><img src="pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>
+
+<p>The solution is to apply barrel distortion to the image. When we look at it through
+the distorting lenses, the image looks neutral:</p>
+
+<p><img src="barrel-predistortion.png" alt="Barrel pre-distortion" /></p>
+
+<p>Lens distortion is well understood mathematically, governed by equations <a href="https://en.wikipedia.org/wiki/Distortion_(optics)#Software_correction">like
+these</a>, with distortion coefficients corresponding to the particular lens.
+To undo the distortion properly, we also need to calculate the centers of the
+eyes, which requires knowing a bit about the geometry of the display and the
+enclosure itself. This can all be done, even on the web! I summarize a few
+implementation options below.</p>
+
+<h1>1. Fragment based solution (bad)</h1>
+
+<p>The simplest way to using two pass rendering. First, we render the left and
+right eyes onto a texture, and then process that texture with a fragment (pixel)
+shader, moving each pixel inward in relation to the centroid of the eye:</p>
+
+<p><img src="dense.png" alt="Per-pixel based distortion" /></p>
+
+<p>This is the first and simplest method, which is also the least efficient, since
+each pixel is processed separately. The <a href="https://github.com/borismus/webvr-boilerplate/blob/d91cc2866bd54e65d59022800f62c7e160dc9fee/src/cardboard-distorter.js">first version</a> of the
+WebVR Boilerplate implemented this method.</p>
+
+<h1>2. Mesh based solution (better)</h1>
+
+<p>Rather than processing each pixel separately, we distort the vertices of a
+relatively sparse mesh (40x20 works well). </p>
+
+<p><img src="sparse.png" alt="Mesh based distortion" /></p>
+
+<p>This can save some direct computation and let the GPU do a fair amount of
+interpolation. Rather than having to apply to every single pixel (<code>1920 * 1080 ~=
+2e6</code>), we do the calculation for every vertex in the mesh (<code>40 * 20 = 800</code>). The
+result is a significant reduction (3 magnitudes or so) of computation, and a
+nice boost in performance. The <a href="https://github.com/borismus/webvr-polyfill/blob/master/src/cardboard-distorter.js">WebVR Polyfill</a> currently implements
+this approach.</p>
+
+<p>Applying distortion isn't the only expensive part in this rendering method. A
+lot of time is wasted copying the whole scene to an intermediate texture.</p>
+
+<h1>3. Vertex displacement based solution (best)</h1>
+
+<p>This brings us to the most efficient method of the three, which eliminates the
+need to render to an intermediate texture in the first place. In this approach,
+the geometry itself is distorted using a custom vertex shader. The idea is that
+knowing the position of the camera, we can displace vertices in such a way that
+the resulting 2D render is already barrel distorted. In this case, no shader
+pass is needed, and we save the expensive step of copying the rendering into a
+texture. </p>
+
+<p>This method does require a certain vertex density on every mesh that is being
+deformed. Imagine the simple case of a large, 4-vertex rectangle being
+rendered very close to the camera. Distorting these vertices would still yield a
+4-vertex flat rectangle, and clearly there's no barreling effect. Because of
+this, this is method does not generalize without extra work on the
+developer's part.</p>
+
+<p><img src="cdl.png" alt="Cardboard Design Lab screenshot" /></p>
+
+<p>This approach is used in the <a href="https://github.com/googlesamples/cardboard-unity/tree/master/Samples/CardboardDesignLab">Cardboard Design Lab</a> and in the open sourced
+<a href="https://github.com/google/vrview/blob/master/src/vertex-distorter.js">VR View project</a>. Geometry-based distortion can also result in sharper
+looking renderings, since the two pass approach can cause aliasing, especially
+if the intermediate texture is small. You can read more about this distortion
+method in <a href="http://www.gamasutra.com/blogs/BrianKehrer/20160125/264161/VR_Distortion_Correction_using_Vertex_Displacement.php">this helpful explainer</a>.</p>
+
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>April 20, 2016</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2008–2016 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='http://feeds.feedburner.com/smuscom'>RSS</a>
+    <a href='http://twitter.com/borismus'>Twitter</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<script>
+  // Syntax highlighting for code.
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<script>
+  // Google Analytics.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17930798-22', 'smus.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<script src="/lightning_error.js"></script>
+
+</body>
+</html>
