@@ -1,11 +1,11 @@
-var GALLERY_URL = window.GALLERY_URL || 'https://inspirata.firebaseio.com/users/5688ac5a-c66c-4353-9e4a-4bd7aa83ce77.json'
+var GALLERY_ROOT = 'https://inspirata.firebaseio.com/users/5688ac5a-c66c-4353-9e4a-4bd7aa83ce77.json';
 var GALLERY_PADDING = 20;
 
 var gallery = document.querySelector('#gallery');
 
 function onLoad() {
-  // Load the inspiration URL.
-  loadJson(GALLERY_URL, onJson);
+  // Get the UID from the get parameters.
+  loadJson(GALLERY_ROOT, onJson);
 }
 
 function loadJson(url, callback) {
@@ -46,9 +46,10 @@ function onJson(obj) {
  *   <time>Jun 1 2015</time>
  * </div>
  */
-function createGalleryItem(item) {
+function createGalleryImage(item) {
   var el = document.createElement('div');
   el.classList.add('item');
+  el.classList.add('image');
 
   var dims = getDimensions(item);
   el.style.width = dims.width + 'px';
@@ -61,24 +62,33 @@ function createGalleryItem(item) {
   a.style.backgroundRepeat = 'no-repeat';
   a.style.backgroundSize = dims.width + 'px ' + dims.height + 'px';
   a.style.backgroundColor = getColor(item.color);
+  el.appendChild(a);
 
 
-  var label = document.createElement('label');
-  label.innerText = item.title;
+  if (item.title) {
+    var label = document.createElement('label');
+    label.innerText = item.title;
+    el.appendChild(label);
+  }
 
   var time = document.createElement('time');
   if (item.date) {
     time.innerText = formatDate(item.date);
   }
-
-  el.appendChild(a);
-  el.appendChild(label);
   el.appendChild(time);
 
   return el;
 }
 
-var ALLOWED_WIDTH = [800, 400, 200, 100];
+function createGalleryItem(item) {
+  if (item.imageUrl) {
+    return createGalleryImage(item);
+  }
+  console.error('Invalid item');
+  return null;
+}
+
+var ALLOWED_WIDTH = [400, 200, 100];
 function getDimensions(item) {
   // Pre-scale the items.
   var origWidth = item.width/2;
@@ -101,6 +111,10 @@ function getDimensions(item) {
   var aspect = origWidth / origHeight;
   var height = width / aspect;
   return {width: width, height: height};
+}
+
+function getTextDimensions(item) {
+  return {width: 400, height: 300};
 }
 
 function formatDate(value) {
@@ -128,5 +142,34 @@ function getColor(colorArray) {
   ')';
 }
 
-window.addEventListener('load', onLoad);
+// From http://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-url-parameter
+function getQueryParams(qs) {
+  qs = qs.split('+').join(' ');
 
+  var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+
+  while (tokens = re.exec(qs)) {
+    params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+  }
+
+  return params;
+}
+
+// From http://stackoverflow.com/questions/8498592/extract-root-domain-name-from-string
+function extractDomain(url) {
+  var domain;
+  //find & remove protocol (http, ftp, etc.) and get domain
+  if (url.indexOf("://") > -1) {
+    domain = url.split('/')[2];
+  }
+  else {
+    domain = url.split('/')[0];
+  }
+
+  //find & remove port number
+  domain = domain.split(':')[0];
+
+  return domain;
+}
+
+window.addEventListener('load', onLoad);
