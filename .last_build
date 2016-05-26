@@ -8034,4 +8034,73 @@ S'content/posts/2016/vr-views/index.md'
 p2540
 sg36
 F1459367189.0
+sa(dp2541
+g2
+(dp2542
+g4
+V WebVR provides a solid technical foundation on which to build compelling VR experiences. But it does not answer a critical question, which is the topic of this post:              What could the web become in a Virtual Reality environment?          Gear VR provides a simple and straightforward answer: same same. The fundamental unit is still a page, but you use the immersion of VR to increase your effective screen size. The input constraints result in a worse experience for the user. Scrolling with your finger on your temple is tiring and head-based typing is a massive pain. Given the input constraints, we need to beef up the output and make it better matched to what VR excels at. A responsive design inspired solution would involve deconstructing the page to better suit the nature of the immersive environment.    Another approach is to make a clean break from legacy web content. What if certain web pages had parallel content tailored for virtual reality? In this post, I'll explore this idea with an example focused on Wikipedia.          
+p2543
+sg28
+g7
+(g8
+g9
+V<p>WebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences. But it does not answer a critical question, which is the topic of\u000athis post:</p>\u000a\u000a<blockquote>\u000a  <blockquote>\u000a    <p>What could the web become in a Virtual Reality environment?</p>\u000a  </blockquote>\u000a</blockquote>\u000a\u000a<p>Gear VR provides a simple and straightforward answer: same same. The fundamental\u000aunit is still a page, but you use the immersion of VR to increase your effective\u000ascreen size. The input constraints result in a worse experience for the user.\u000aScrolling with your finger on your temple is tiring and head-based typing is a\u000amassive pain. Given the input constraints, we need to beef up the output and\u000amake it better matched to what VR excels at. A responsive design inspired\u000asolution would involve deconstructing the page to better suit the nature of the\u000aimmersive environment.</p>\u000a\u000a<p>Another approach is to make a clean break from legacy web content. What if\u000acertain web pages had parallel content tailored for virtual reality? In this\u000apost, I'll explore this idea with an example focused on Wikipedia.</p>\u000a\u000a<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>\u000a\u000a<!--more-->\u000a\u000a<h1>Navigating the VR Forest</h1>\u000a\u000a<p>The web in general and Wikipedia specifically covers a vast amount of\u000ainformation &mdash; nearly everything. Everything is a daunting place to start,\u000aso we will begin with something specific: a forest.</p>\u000a\u000a<p>To begin, navigate to a (fake) <a href="http://borismus.github.io/wikipedia-vr/pages/moose">wikipedia article about a moose</a>, and hit\u000athe VR button. This takes you to a forest meadow, with a life sized moose in front of\u000ayou. You are free to move inside the forest (focus on the grass and click) and\u000ainteract with other animals in it. Looking at an animal gives you some basic\u000aWikipedia-inspired information about it.  Clicking it focuses you in on\u000ait and presents options. If you leave VR when focused on an animal, you end up\u000aon the associated Wikipedia article. This closes the navigation loop: you can\u000astart from one webpage, enter VR mode, navigate to another entity inside VR,\u000aleave VR and end up on another webpage.</p>\u000a\u000a<p>Try out this <a href="http://borismus.github.io/wikipedia-vr/pages/moose">Wikipedia VR sample</a> on your mobile phone in Cardboard. It\u000aalso works on desktop using the spacebar to simulate the Cardboard click.</p>\u000a\u000a<p><img src="navigation.mp4.gif" alt="Video of navigating between pages" /></p>\u000a\u000a<p>VR and education are naturally matched. As <a href="https://youtu.be/UuceLtGjDWY?t=1m40s">Ben explains eloquently in an I/O\u000atalk</a>, "VR is a chance to scale experiential learning". Remembering what\u000ayou learned in class is much harder than remembering your favorite vacation. In\u000athis Wikipedia example, you immediately get a sense of the animal's grandeur,\u000awhich is hard to convey in words and images. You can get a feeling for quickly\u000ait runs, and what it sounds like. </p>\u000a\u000a<h1>Closing thoughts</h1>\u000a\u000a<p><strong>Tip of the iceberg</strong>. The entities in this Wikipedia demo (in green) represent\u000aa tiny subgraph of Wikipedia:</p>\u000a\u000a<p><img src="knowledge-graph.png" alt="Picture of the subgraph we implement" /></p>\u000a\u000a<p>All of the above are positioned in a much bigger subgraph of Wikipedia which\u000amight can be represented in VR. Of course, many Wikipedia pages are really\u000adifficult to imagine in VR. Could <a href="https://en.wikipedia.org/wiki/Philosophy">Wikipedia's Philosophy</a> article have a\u000acompelling VR version?</p>\u000a\u000a<p><strong>Changing scale</strong>. The ability to change scale would make it possible to place\u000aevery entity from the above graph into VR Wikipedia. Imagine diving into the\u000ahide of the moose, learning about symbiotic insects and hair folicles, then\u000agoing deeper to learn about the structure of hair on a molecular level. Or vice\u000aversa, zooming out to look at planet Earth to see where moose live, or going\u000ainto an abstract view to explore Family Cervidae. It's easy to lose an hour or\u000atwo in Wikipedia's hyperlink maze. One day, it may be even easier to do this in\u000aVR.</p>\u000a\u000a<p><img src="alice-shrinking.jpg" alt="Alice in wonderland shrinking" /></p>\u000a\u000a<p><strong>Content is king</strong>. The big open question is how to generate this content. Even a\u000ascoped down project to VR-ify categories of Wikipedia pages (say, only forest\u000aanimals), is incredibly ambitious. Where do you get all of the models? How do\u000ayou animiate them to run, jump, stand around, sleep, play, eat and be eaten? How\u000ado you place them in a the forest in a meaningful way? Doing this automatically\u000aseems, at a glance, AI-hard.</p>\u000a\u000a<p><strong>Limited knowledge graphs</strong>. Even if you imagine that we have a series of animated\u000amodels, how do we compose them together? Do moose and canaries live in the same\u000aenvironment? Can you find fire ants in the bark of a Sequoia? How many? How big\u000aare hyenas, and how quickly do they run? This information is missing from even\u000athe best known knowledge graph.</p>\u000a\u000a<p><strong>3D modeling is difficult</strong>. Wikipedia's giant corpus of quality content exists\u000abecause it's easy for many people to collaborate. Wikipedians need to be good\u000awriters, well versed in their topic, and motivated to contribute. There is a\u000atechnical barrier - learning Wikipedia markup - but it is not incredibly\u000adifficult. For a Wikipedia in VR, the technical barriers are much higher. Even\u000awith a good collaborative editor, it seems inevitable that contributors would\u000aneed to have some sense of 3D modelling, and a far more specialized skillset.</p>\u000a\u000a<p><strong>Artistic considerations</strong>. One of the challenges for a large community project\u000alike Wikipedia is establishing a consistent style. Imagine if every Wikipedia\u000aimage was hand drawn. Artistic abilities vary wildly, and you can imagine a\u000afunny and chaotic result. Aaron Koblin's now classic <a href="http://www.thesheepmarket.com/">Sheep Market</a>\u000aexperiment comes to mind:</p>\u000a\u000a<p><img src="sheep-market.png" alt="Sheep market screenshot" /></p>\u000a
+p2544
+tp2545
+Rp2546
+sg13
+V/wikipedia-vr
+p2547
+sg15
+Nsg16
+I01
+sg17
+VBrowsing Wikipedia in VR
+p2548
+sg20
+VWebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences.
+p2549
+sg6
+V<p>WebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences. But it does not answer a critical question, which is the topic of\u000athis post:</p>\u000a\u000a<blockquote>\u000a  <blockquote>\u000a    <p>What could the web become in a Virtual Reality environment?</p>\u000a  </blockquote>\u000a</blockquote>\u000a\u000a<p>Gear VR provides a simple and straightforward answer: same same. The fundamental\u000aunit is still a page, but you use the immersion of VR to increase your effective\u000ascreen size. The input constraints result in a worse experience for the user.\u000aScrolling with your finger on your temple is tiring and head-based typing is a\u000amassive pain. Given the input constraints, we need to beef up the output and\u000amake it better matched to what VR excels at. A responsive design inspired\u000asolution would involve deconstructing the page to better suit the nature of the\u000aimmersive environment.</p>\u000a\u000a<p>Another approach is to make a clean break from legacy web content. What if\u000acertain web pages had parallel content tailored for virtual reality? In this\u000apost, I'll explore this idea with an example focused on Wikipedia.</p>\u000a\u000a<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>\u000a\u000a
+p2550
+sg25
+g158
+sg33
+g2547
+sg159
+(dp2551
+g161
+S'May'
+p2552
+sg163
+S'May 26, 2016'
+p2553
+sg165
+I5
+sg166
+S'2016-05-26T09:00:00-00:00'
+p2554
+sg168
+I1464267600
+sg169
+I2016
+sg170
+I26
+ssg65
+g171
+sg31
+S'wikipedia-vr'
+p2555
+sS'posted'
+p2556
+g177
+(S'\x07\xe0\x05\x1a'
+p2557
+tp2558
+Rp2559
+ssg34
+S'content/posts/2016/wikipedia-vr/index.md'
+p2560
+sg36
+F1464286046.0
 sa.
