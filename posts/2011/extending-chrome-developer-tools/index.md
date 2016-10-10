@@ -195,7 +195,7 @@ patch. Let me know if you do!
 [bugs]: http://code.google.com/p/chromium/issues/list?can=2&q=Feature%3ADevTools+Status%3AAvailable&sort=-stars&colspec=ID+Stars+Pri+Area+Feature+Type+Status+Summary+Modified+Owner+Mstone+OS&x=mstone&y=area&cells=tiles
 [commits]: http://peter.sh/data/web-inspector-rss.php
 [screencast]: http://www.youtube.com/watch?v=nOEw9iiopwI
-[har]: http://groups.google.com/group/http-archive-specification/web/har-1-2-spec
+[har]: https://toolbox.googleapps.com/apps/har_analyzer/
 [auditshot]: audit.png
 [panelshot]: panel.png
 [switches]: http://peter.sh/experiments/chromium-command-line-switches/
