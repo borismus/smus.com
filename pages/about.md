@@ -31,12 +31,11 @@ and samples. I also authored a short [book on the Web Audio API][book].
 [talks]: /talks
 [book]: http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684
 
-Before Google, I was a graduate student at [Carnegie Mellon][cmu], where
-I focused on social and [wearable computing research][research] and
-built [CrowdForge][crowdforge], a system for crowdsourcing complex
-tasks. Prior to that, I worked at Apple for two years, contributing to
-iWeb, iWork and helping start [iWork.com][iwork]. For the still curious,
-my [resume is online][resume].
+I hold a masters in HCI from [Carnegie Mellon][cmu], where I focused on social
+and [wearable computing research][research] and built [CrowdForge][crowdforge],
+a system for crowdsourcing complex tasks. Prior to that, I worked at Apple for
+two years, contributing to iWeb, iWork and helping start [iWork.com][iwork]. For
+the still curious, my [resume is online][resume].
 
 [cmu]: http://www.hcii.cmu.edu/academics/mhci
 [research]: https://scholar.google.com/citations?user=bIgFmUwAAAAJ
@@ -44,9 +43,9 @@ my [resume is online][resume].
 [iwork]: https://www.apple.com/iwork-for-icloud/
 [resume]: /resume
 
-I am Canadian. I studied Mathematics and Computer Science at the
-[University of British Columbia][ubc], and spent my formative years in
-Vancouver.
+I am Canadian. I hold a BSc in Mathematics and Computer Science from the
+[University of British Columbia][ubc]. I was born in Leningrad, RSFSR, and spent
+my formative years in Vancouver, Canada.
 
 [ubc]: https://www.cs.ubc.ca/
 
