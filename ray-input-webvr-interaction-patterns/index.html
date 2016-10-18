@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ray Input: default WebVR interaction | Boris Smus</title>
+  <title>Ray Input: WebVR interaction patterns | Boris Smus</title>
 
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
@@ -36,7 +36,7 @@
 
 <section id='main'>
   <article>
-    <a href='/ray-input-default-webvr-interaction'><h1 class='title'>Ray Input: default WebVR interaction</h1></a>
+    <a href='/ray-input-webvr-interaction-patterns'><h1 class='title'>Ray Input: WebVR interaction patterns</h1></a>
     <div class='body'>
       <p>What would the web look like if there were no scrollbars, no mouse cursors, and
 no clickable links? That's what VR is like today. On one hand, this is great!
@@ -104,7 +104,7 @@ reasonable guess, and may not correspond to the controller's actual position.
 But it sure is a lot better than nothing. This sort of problem is common in
 graphics and robotics, and can be solved with inverse kinematics.</p>
 
-<p>In this case, we follow a simpler approach. Most of the <a href="https://github.com/borismus/ray-input/blob/gh-pages/src/daydream-arm-model.js">code to do
+<p>In this case, we follow a simpler approach. Most of the <a href="https://github.com/borismus/ray-input/blob/master/src/orientation-arm-model.js">code to do
 this</a> is lifted from a native implementation of Daydream arm model.
 To debug it, I built a very rough simulator, which lets you specify the
 orientation of a virtual head and hand, run it through the model, and visualize
