@@ -5,8 +5,84 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-11-13T23:31:40-00:00</updated>
+  <updated>2016-11-14T13:34:21-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>VR View 2.0: JavaScript API</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/vr-view-2.0"/>
+    
+    <updated>2016-11-14T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/vr-view-2.0</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="https://github.com/googlevr/vrview">VR View</a> was just updated to version 2! This release includes some nice
+new features, the main one of which is a JavaScript API. This allows VR Views to
+be much more interactive. You can now load new content dynamically, play and
+pause videos, and add hotspots that link from one piece of 360 imagery to
+another. Here's a simple auto-advancing 360 slideshow showing some of my recent
+escapes around Seattle...</p>
+
+<!--more-->
+
+<div id="vrview"></div>
+
+<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+<script src="index.js"></script>
+
+<p>The <a href="https://storage.googleapis.com/vrview/2.0/examples/index.html">official samples</a> show more complex and interesting examples.
+The <a href="https://developers.google.com/vr/concepts/vrview-web">docs</a> are also updated to reflect VR View's new capabilities.</p>
+
+<h1>Other new things</h1>
+
+<p>Also added some other features:</p>
+
+<ul>
+<li>WebVR 1.1 support for compatibility with <a href="https://webvr.info/">Chrome WebVR</a> builds.</li>
+<li>Programmatic playback controls and volume setting.</li>
+<li>Support for handling clicks, taps, VR button presses.</li>
+<li>Automatic panning mode for desktop.</li>
+</ul>
+
+<h1>Cardboard camera compatibility</h1>
+
+<p>I captured the photos with the very handy <a href="https://itunes.apple.com/us/app/cardboard-camera/id1095487294?mt=8">Cardboard Camera</a>. But before
+I could embed them into the VR View above, I had to do a conversion step.</p>
+
+<p>VR View expects stereo images to be in ODS format, which is a square JPEG with
+the left eye sphere stacked on top of the right eye sphere. Both spheres are
+projected onto 2:1 rectangles using equirectangular projection.</p>
+
+<p>The native Cardboard Camera format is different. Cardboard Camera produces an
+image of the left eye only. The right JPEG is base64 encoded and embedded in an
+XMP header, alongside other <a href="https://developers.google.com/streetview/spherical-metadata">Photo Sphere XMP metadata</a>. The images don't
+need to be full photospheres, and may be cropped. Stopping a pano capture
+mid-way, for example, will create a half-sphere. Also, the north and south poles
+of the sphere are never captured, since the sweep is horizontal.</p>
+
+<p>Now that you know more than you wanted about photosphere file formats, you can
+forget it all. I've streamlined the conversion process through a web-based
+<a href="https://storage.googleapis.com/cardboard-camera-converter/index.html">Cardboard Camera to ODS convertor</a>.</p>
+
+<h1>Future work</h1>
+
+<p>I was initially overjoyed by Safari 10's support for inline video texture
+playback, which lets us finally play spherical video without <a href="http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas">gross
+hacks</a>. Unfortunately, their current video texture rendering performance
+is pretty abysmal. I'm getting about 10 FPS on a 2K (2048 x 2048) spherical
+video in Cardboard mode, while Chrome, even on older Android hardware performs
+substantially better.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Election 2016</title>
@@ -8739,222 +8815,6 @@ increase the size of the devtools, which is a one line CSS change.</p>
 <p>There's already a ton of useful features packed into the devtools, but I bet
 you can come up with some more awesomeness to add as an extension or chromium
 patch. Let me know if you do!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>OAuth 2.0 from chrome extensions</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/oauth2-chrome-extensions"/>
-    
-    <updated>2011-07-07T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/oauth2-chrome-extensions</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Applications that access online services often need to access a user's private
-data. Chrome Extensions are no different. OAuth has emerged as the standard way
-of letting users share their private resources across sites without having to
-hand out their usernames and passwords. There is already a very nice 
-<a href="http://code.google.com/chrome/extensions/tut_oauth.html">OAuth library for Chrome Extensions</a> that aims to simplify some of 
-the pains that developers face when authorizing against OAuth endpoints.</p>
-
-<p>Since this library was written, the OAuth standard enjoyed a version bump
-(<a href="http://oauth.net/2/">OAuth 2.0</a>) which greatly simplifies the flow by no longer requiring
-cryptography in the client. Also, some adventurous companies (notably
-Google, Facebook and others) have actually implemented OAuth 2.0
-endpoints. At the time of writing, OAuth 2.0 is still a draft spec, but is
-nearing completion, and Chrome Extensions need some love.</p>
-
-<p>You may be wondering why you even need an OAuth 2.0 library in the first place.
-As Aaron Parecki pointed out in his <a href="http://www.slideshare.net/aaronpk/the-current-state-of-oauth-2">Current State of OAuth 2</a>
-presentation at <a href="http://opensourcebridge.org/">Open Source Bridge</a> in Portland, OAuth 2 is very
-much a moving target. The spec is not yet finalized, and there are 16 versions
-of it (although the most popular seems to be v10). Also, today's OAuth 2
-implementations diverge from the spec in varying degrees, adding to the
-developer pain. The reason this library needs to be chrome extension-specific
-is that unfortunately Chrome extensions can't directly use the OAuth 2.0
-server-side or client-side flows because they live at <code>chrome-extension://</code>
-URLs.</p>
-
-<p>When writing the OAuth 2.0 library for Chrome extensions, I had some goals in
-mind:</p>
-
-<ol>
-<li>Support a variety of OAuth 2.0 providers that implement the spec</li>
-<li>Allow one app/extension to use multiple different OAuth 2.0 endpoints</li>
-<li>Avoid background pages for performance reasons</li>
-</ol>
-
-<h2>The OAuth 2.0 Library</h2>
-
-<p>There's a bit of setup involved if you'd like to create a Chrome extension that
-connects to an OAuth 2 endpoint. This brief tutorial will guide you through
-connecting to Google's APIs.</p>
-
-<p>Register your application with an OAuth 2.0 endpoint that you'd like to
-use. If it's a Google API you're calling, go to the <a href="https://code.google.com/apis/console/">Google APIs</a> page,
-create your application and note your client ID and client secret. For more
-info on this, check out the <a href="http://code.google.com/apis/accounts/docs/OAuth2.html">Google OAuth 2.0</a> docs. When you setup your
-application, you will be asked to provide redirect URI(s). Please provide the
-URI that corresponds to the service you're using.</p>
-
-<p>Here's a table that will come in handy:</p>
-
-<p><style>
-  #impls { margin-left: -100px; }
-  #impls td, #impls th { border: 1px solid #999 }
-  #impls td { padding: 5px }
-</style></p>
-
-<table id="impls">
-  <tr>
-    <th>Adapter</th>
-    <th>Redirect URI</th>
-    <th>Access Token URI</th>
-  </tr>
-  <tr>
-    <td>google</td>
-    <td>http://www.google.com/robots.txt</td>
-    <td>https://accounts.google.com/o/oauth2/token</td>
-  </tr>
-  <tr>
-    <td>facebook</td>
-    <td>http://www.facebook.com/robots.txt</td>
-    <td>https://graph.facebook.com/oauth/access_token</td>
-  </tr>
-  <tr>
-    <td>github</td>
-    <td>https://github.com/robots.txt</td>
-    <td>https://github.com/login/oauth/access_token</td>
-  </tr>
-</table>
-
-<h4>Step 1: Copy library</h4>
-
-<p>You will need to copy the <a href="https://github.com/borismus/oauth2-extensions/tree/master/lib">oauth2 library</a> into your chrome extension
-root into a directory called <code>oauth2</code>.</p>
-
-<h4>Step 2: Inject content script</h4>
-
-<p>Then you need to modify your manifest.json file to include a content script
-at the redirect URL used by the Google adapter. The "matches" redirect URI can
-be looked up in the table above:</p>
-
-<pre><code>"content_scripts": [
-  {
-    "matches": ["http://www.google.com/robots.txt*"],
-    "js": ["oauth2/oauth2_inject.js"],
-    "run_at": "document_start"
-  }
-],
-</code></pre>
-
-<h4>Step 3: Allow access token URL</h4>
-
-<p>Also, you will need to add a permission to Google's access token granting URL,
-since the library will do an XHR against it. The access token URI can be looked
-up in the table above as well.</p>
-
-<pre><code>"permissions": [
-  "https://accounts.google.com/o/oauth2/token"
-]
-</code></pre>
-
-<h4>Step 4: Include the OAuth 2.0 library</h4>
-
-<p>Next, in your extension's code, you should include the OAuth 2.0 library:</p>
-
-<pre><code>&lt;script src="/oauth2/oauth2.js"&gt;&lt;/script&gt;
-</code></pre>
-
-<h4>Step 5: Configure the OAuth 2.0 endpoint</h4>
-
-<p>And configure your OAuth 2 connection by providing clientId, clientSecret and
-apiScopes from the registration page. The authorize() method may create a new
-popup window for the user to grant your extension access to the OAuth2
-endpoint.</p>
-
-<pre><code>var googleAuth = new OAuth2('google', {
-  client_id: '17755888930840',
-  client_secret: 'b4a5741bd3d6de6ac591c7b0e279c9f',
-  api_scope: 'https://www.googleapis.com/auth/tasks'
-});
-
-googleAuth.authorize(function() {
-  // Ready for action
-});
-</code></pre>
-
-<h4>Step 6: Use the access token</h4>
-
-<p>Now that your user has an access token via <code>auth.getAccessToken()</code>, you can
-request protected data by adding the accessToken as a request header</p>
-
-<pre><code>xhr.setRequestHeader('Authorization', 'OAuth ' + myAuth.getAccessToken())
-</code></pre>
-
-<p>or by passing it as part of the URL (depending on the server implementation):</p>
-
-<pre><code>myUrl + '?oauth_token=' + myAuth.getAccessToken();
-</code></pre>
-
-<p><strong>Note</strong>: if you have multiple OAuth 2.0 endpoints that you would like to
-authorize with, you can do that too! Just inject content scripts and add
-permissions for all of the providers you would like to authorize with.</p>
-
-<p>I've provided <a href="https://github.com/borismus/oauth2-extensions/tree/master/samples">some sample extensions</a> that use this library to help
-you get started.</p>
-
-<h2>Varying OAuth implementations</h2>
-
-<p>Writing this library for one OAuth 2.0 endpoint was pretty straightforward.
-The issues came when branching out to support multiple OAuth 2.0 server
-implementations which comply to various degrees with differing versions of the
-spec.</p>
-
-<p>Facebook was the worst offender here. They claim to be an OAuth 2.0
-implementation in line with v10, but are actually quite far from it. Here are
-some of the issues:</p>
-
-<ul>
-<li><p>Token request method is GET instead of POST.</p></li>
-<li><p>Token response is some strange form encoded format instead of JSON.</p></li>
-<li><p><a href="http://developers.facebook.com/docs/authentication/permissions/">List of scopes</a> (aka "extended permissions") was really hard to
-find.</p></li>
-<li><p>Apparently to get a user's favorite music, you need the <code>user_likes</code>
-permission. Facebook, please <a href="http://forum.developers.facebook.net/viewtopic.php?pid=283691">fix your docs</a>.</p></li>
-<li><p>No refresh tokens but they have an offline_access permission which makes your
-access token expire later. This is ridiculous!</p></li>
-</ul>
-
-<p>Twitter doesn't even have an OAuth 2.0 API. <a href="http://dev.twitter.com/anywhere">@Anywhere</a> does not
-count. Some good <a href="http://www.quora.com/Why-isnt-Twitter-implementing-OAuth-2-0-just-like-Facebooks">questions</a> on <a href="http://www.quora.com/When-is-Twitter-going-to-implement-OAuth-2-0">quora</a> about this.</p>
-
-<p>Still there are a lot of services that <em>DO</em> implement OAuth 2.0, such as
-Foursquare, Gowalla, Windows Live, Salesforce, Soundcloud and many others.</p>
-
-<h2>Extending the Library</h2>
-
-<p>To mitigate differences between OAuth 2.0 implementations, I implemented the
-<a href="http://en.wikipedia.org/wiki/Adapter_pattern">Adapter pattern</a>. Doing this encapsulates protocol differences
-in a separate adapter module for each server implementation.</p>
-
-<p>The library comes with adapters for Google, Facebook and Github. These adapters
-are located in the <a href="https://github.com/borismus/oauth2-extensions/tree/master/lib/adapters">adapters directory</a> here. If you would like to
-contribute your own adapter, please take a look at the sample adapter and then
-<a href="https://github.com/borismus/oauth2-extensions">fork the project</a>, submit a pull request, and I'll try to add
-it to the project.</p>
-
-<p>Also, please let me know if you experience problems using this library and
-we'll sort them out! The best way to do this is via <a href="http://github.com/borismus">github</a> or
-<a href="http://twitter.com/borismus">twitter</a>.</p>
 
 
         

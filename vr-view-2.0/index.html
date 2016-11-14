@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VR View 2.0: JavaScript API | Boris Smus</title>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+
+  <meta name="description" content="  VR View  was just updated to version 2! This release includes some nice new features, the main one of which is a JavaScript API. This allows VR Views to be much more interactive. You can now load new content dynamically, play and pause videos, and add hotspots that link from one piece of 360 imagery to another. Here's a simple auto-advancing 360 slideshow showing some of my recent escapes around Seattle...   ">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link
+  href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/build/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/inspiration/' >Clippings</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/vr-view-2.0'><h1 class='title'>VR View 2.0: JavaScript API</h1></a>
+    <div class='body'>
+      <p><a href="https://github.com/googlevr/vrview">VR View</a> was just updated to version 2! This release includes some nice
+new features, the main one of which is a JavaScript API. This allows VR Views to
+be much more interactive. You can now load new content dynamically, play and
+pause videos, and add hotspots that link from one piece of 360 imagery to
+another. Here's a simple auto-advancing 360 slideshow showing some of my recent
+escapes around Seattle...</p>
+
+<!--more-->
+
+<div id="vrview"></div>
+
+<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+<script src="index.js"></script>
+
+<p>The <a href="https://storage.googleapis.com/vrview/2.0/examples/index.html">official samples</a> show more complex and interesting examples.
+The <a href="https://developers.google.com/vr/concepts/vrview-web">docs</a> are also updated to reflect VR View's new capabilities.</p>
+
+<h1>Other new things</h1>
+
+<p>Also added some other features:</p>
+
+<ul>
+<li>WebVR 1.1 support for compatibility with <a href="https://webvr.info/">Chrome WebVR</a> builds.</li>
+<li>Programmatic playback controls and volume setting.</li>
+<li>Support for handling clicks, taps, VR button presses.</li>
+<li>Automatic panning mode for desktop.</li>
+</ul>
+
+<h1>Cardboard camera compatibility</h1>
+
+<p>I captured the photos with the very handy <a href="https://itunes.apple.com/us/app/cardboard-camera/id1095487294?mt=8">Cardboard Camera</a>. But before
+I could embed them into the VR View above, I had to do a conversion step.</p>
+
+<p>VR View expects stereo images to be in ODS format, which is a square JPEG with
+the left eye sphere stacked on top of the right eye sphere. Both spheres are
+projected onto 2:1 rectangles using equirectangular projection.</p>
+
+<p>The native Cardboard Camera format is different. Cardboard Camera produces an
+image of the left eye only. The right JPEG is base64 encoded and embedded in an
+XMP header, alongside other <a href="https://developers.google.com/streetview/spherical-metadata">Photo Sphere XMP metadata</a>. The images don't
+need to be full photospheres, and may be cropped. Stopping a pano capture
+mid-way, for example, will create a half-sphere. Also, the north and south poles
+of the sphere are never captured, since the sweep is horizontal.</p>
+
+<p>Now that you know more than you wanted about photosphere file formats, you can
+forget it all. I've streamlined the conversion process through a web-based
+<a href="https://storage.googleapis.com/cardboard-camera-converter/index.html">Cardboard Camera to ODS convertor</a>.</p>
+
+<h1>Future work</h1>
+
+<p>I was initially overjoyed by Safari 10's support for inline video texture
+playback, which lets us finally play spherical video without <a href="http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas">gross
+hacks</a>. Unfortunately, their current video texture rendering performance
+is pretty abysmal. I'm getting about 10 FPS on a 2K (2048 x 2048) spherical
+video in Cardboard mode, while Chrome, even on older Android hardware performs
+substantially better.</p>
+
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>November 14, 2016</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2008–2016 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='http://feeds.feedburner.com/smuscom'>RSS</a>
+    <a href='http://twitter.com/borismus'>Twitter</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<script>
+  // Syntax highlighting for code.
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<script>
+  // Google Analytics.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17930798-22', 'smus.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<script src="/lightning_error.js"></script>
+
+</body>
+</html>

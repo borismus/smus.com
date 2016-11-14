@@ -8288,47 +8288,116 @@ sa(dp2613
 g2
 (dp2614
 g4
-V During a two week trip to India, I took over 1000 shots, including photos, videos and a few photospheres. A picture is worth one thousand words, but how many pictures is a photosphere worth? We may never know, but I digress. My favorite photosphere was of friends posing inside one of the turrets of the Jaigarh Fort:         function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;     I captured this using the photosphere camera which ships with Android. It's embedded into my blog using  VR View , which  launched today . The embed above lets you include an interactive photosphere right in your website, which is especially fun on mobile, where the image reacts directly to your phone's movements. You can view it in full screen mode, and even in Cardboard mode (only on mobile).    But you know what's cooler than a photosphere? A stereo photosphere! And luckily, you can capture stereo photospheres using  Cardboard Camera , and then use a VR View to  embed them too . You can even embed mono or  stereo videos . Check out  the docs  for more info. Eager to hear what you think!  
+V  VR View  was just updated to version 2! This release includes some nice new features, the main one of which is a JavaScript API. This allows VR Views to be much more interactive. You can now load new content dynamically, play and pause videos, and add hotspots that link from one piece of 360 imagery to another. Here's a simple auto-advancing 360 slideshow showing some of my recent escapes around Seattle...   
 p2615
 sg28
 g7
 (g8
 g9
-V<p>During a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres. A picture is worth one thousand words, but how\u000amany pictures is a photosphere worth? We may never know, but I digress. My\u000afavorite photosphere was of friends posing inside one of the turrets of the\u000aJaigarh Fort:</p>\u000a\u000a<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere-4096.jpg&preview=//smus.com/vr-views/india-photosphere-1024.jpg&is_stereo=false"></iframe>\u000a\u000a<script>\u000afunction DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;\u000a</script>\u000a\u000a<p>I captured this using the photosphere camera which ships with Android. It's\u000aembedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched\u000atoday</a>. The embed above lets you include an interactive photosphere\u000aright in your website, which is especially fun on mobile, where the image reacts\u000adirectly to your phone's movements. You can view it in full screen mode, and\u000aeven in Cardboard mode (only on mobile).</p>\u000a\u000a<p>But you know what's cooler than a photosphere? A stereo photosphere! And\u000aluckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and\u000athen use a VR View to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or\u000a<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager\u000ato hear what you think!</p>\u000a
+V<p><a href="https://github.com/googlevr/vrview">VR View</a> was just updated to version 2! This release includes some nice\u000anew features, the main one of which is a JavaScript API. This allows VR Views to\u000abe much more interactive. You can now load new content dynamically, play and\u000apause videos, and add hotspots that link from one piece of 360 imagery to\u000aanother. Here's a simple auto-advancing 360 slideshow showing some of my recent\u000aescapes around Seattle...</p>\u000a\u000a<!--more-->\u000a\u000a<div id="vrview"></div>\u000a\u000a<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>\u000a\u000a<script src="index.js"></script>\u000a\u000a<p>The <a href="https://storage.googleapis.com/vrview/2.0/examples/index.html">official samples</a> show more complex and interesting examples.\u000aThe <a href="https://developers.google.com/vr/concepts/vrview-web">docs</a> are also updated to reflect VR View's new capabilities.</p>\u000a\u000a<h1>Other new things</h1>\u000a\u000a<p>Also added some other features:</p>\u000a\u000a<ul>\u000a<li>WebVR 1.1 support for compatibility with <a href="https://webvr.info/">Chrome WebVR</a> builds.</li>\u000a<li>Programmatic playback controls and volume setting.</li>\u000a<li>Support for handling clicks, taps, VR button presses.</li>\u000a<li>Automatic panning mode for desktop.</li>\u000a</ul>\u000a\u000a<h1>Cardboard camera compatibility</h1>\u000a\u000a<p>I captured the photos with the very handy <a href="https://itunes.apple.com/us/app/cardboard-camera/id1095487294?mt=8">Cardboard Camera</a>. But before\u000aI could embed them into the VR View above, I had to do a conversion step.</p>\u000a\u000a<p>VR View expects stereo images to be in ODS format, which is a square JPEG with\u000athe left eye sphere stacked on top of the right eye sphere. Both spheres are\u000aprojected onto 2:1 rectangles using equirectangular projection.</p>\u000a\u000a<p>The native Cardboard Camera format is different. Cardboard Camera produces an\u000aimage of the left eye only. The right JPEG is base64 encoded and embedded in an\u000aXMP header, alongside other <a href="https://developers.google.com/streetview/spherical-metadata">Photo Sphere XMP metadata</a>. The images don't\u000aneed to be full photospheres, and may be cropped. Stopping a pano capture\u000amid-way, for example, will create a half-sphere. Also, the north and south poles\u000aof the sphere are never captured, since the sweep is horizontal.</p>\u000a\u000a<p>Now that you know more than you wanted about photosphere file formats, you can\u000aforget it all. I've streamlined the conversion process through a web-based\u000a<a href="https://storage.googleapis.com/cardboard-camera-converter/index.html">Cardboard Camera to ODS convertor</a>.</p>\u000a\u000a<h1>Future work</h1>\u000a\u000a<p>I was initially overjoyed by Safari 10's support for inline video texture\u000aplayback, which lets us finally play spherical video without <a href="http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas">gross\u000ahacks</a>. Unfortunately, their current video texture rendering performance\u000ais pretty abysmal. I'm getting about 10 FPS on a 2K (2048 x 2048) spherical\u000avideo in Cardboard mode, while Chrome, even on older Android hardware performs\u000asubstantially better.</p>\u000a
 p2616
 tp2617
 Rp2618
 sg13
-V/vr-views
+V/vr-view-2.0
 p2619
 sg15
 Nsg16
-I00
+I01
 sg17
-VEmbedding VR content on the web
+VVR View 2.0: JavaScript API
 p2620
 sg20
-VDuring a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres.
+V[VR View][vrview] was just updated to version 2! This release includes some nice\u000anew features, the main one of which is a JavaScript API.
 p2621
 sg6
-g2618
+V<p><a href="https://github.com/googlevr/vrview">VR View</a> was just updated to version 2! This release includes some nice\u000anew features, the main one of which is a JavaScript API. This allows VR Views to\u000abe much more interactive. You can now load new content dynamically, play and\u000apause videos, and add hotspots that link from one piece of 360 imagery to\u000aanother. Here's a simple auto-advancing 360 slideshow showing some of my recent\u000aescapes around Seattle...</p>\u000a\u000a
+p2622
 sg25
 g169
 sg33
 g2619
 sg170
-(dp2622
+(dp2623
+g172
+S'Nov'
+p2624
+sg174
+S'November 14, 2016'
+p2625
+sg176
+I11
+sg177
+S'2016-11-14T09:00:00-00:00'
+p2626
+sg179
+I1479142800
+sg180
+I2016
+sg181
+I14
+ssg65
+g182
+sg31
+S'vr-view-2.0'
+p2627
+sS'posted'
+p2628
+g188
+(S'\x07\xe0\x0b\x0e'
+p2629
+tp2630
+Rp2631
+ssg34
+S'content/posts/2016/vr-view-2.0/index.md'
+p2632
+sg36
+F1479159108.0
+sa(dp2633
+g2
+(dp2634
+g4
+V During a two week trip to India, I took over 1000 shots, including photos, videos and a few photospheres. A picture is worth one thousand words, but how many pictures is a photosphere worth? We may never know, but I digress. My favorite photosphere was of friends posing inside one of the turrets of the Jaigarh Fort:         function DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;     I captured this using the photosphere camera which ships with Android. It's embedded into my blog using  VR View , which  launched today . The embed above lets you include an interactive photosphere right in your website, which is especially fun on mobile, where the image reacts directly to your phone's movements. You can view it in full screen mode, and even in Cardboard mode (only on mobile).    But you know what's cooler than a photosphere? A stereo photosphere! And luckily, you can capture stereo photospheres using  Cardboard Camera , and then use a VR View to  embed them too . You can even embed mono or  stereo videos . Check out  the docs  for more info. Eager to hear what you think!  
+p2635
+sg28
+g7
+(g8
+g9
+V<p>During a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres. A picture is worth one thousand words, but how\u000amany pictures is a photosphere worth? We may never know, but I digress. My\u000afavorite photosphere was of friends posing inside one of the turrets of the\u000aJaigarh Fort:</p>\u000a\u000a<iframe class="vrview" width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image=//smus.com/vr-views/india-photosphere-4096.jpg&preview=//smus.com/vr-views/india-photosphere-1024.jpg&is_stereo=false"></iframe>\u000a\u000a<script>\u000afunction DeviceMotionSender(){if(!this.isIOS_()){return}window.addEventListener("devicemotion",this.onDeviceMotion_.bind(this),false);this.iframes=document.querySelectorAll("iframe.vrview")}DeviceMotionSender.prototype.onDeviceMotion_=function(e){var message={type:"DeviceMotion",deviceMotionEvent:this.cloneDeviceMotionEvent_(e)};for(var i=0;i<this.iframes.length;i++){var iframe=this.iframes[i];var iframeWindow=iframe.contentWindow;if(this.isCrossDomainIframe_(iframe)){iframeWindow.postMessage(message,"*")}}};DeviceMotionSender.prototype.cloneDeviceMotionEvent_=function(e){return{acceleration:{x:e.acceleration.x,y:e.acceleration.y,z:e.acceleration.z},accelerationIncludingGravity:{x:e.accelerationIncludingGravity.x,y:e.accelerationIncludingGravity.y,z:e.accelerationIncludingGravity.z},rotationRate:{alpha:e.rotationRate.alpha,beta:e.rotationRate.beta,gamma:e.rotationRate.gamma},interval:e.interval}};DeviceMotionSender.prototype.isIOS_=function(){return/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream};DeviceMotionSender.prototype.isCrossDomainIframe_=function(iframe){var html=null;try{var doc=iframe.contentDocument||iframe.contentWindow.document;html=doc.body.innerHTML}catch(err){}return html===null};var dms=new DeviceMotionSender;\u000a</script>\u000a\u000a<p>I captured this using the photosphere camera which ships with Android. It's\u000aembedded into my blog using <a href="https://developers.google.com/cardboard/vrview">VR View</a>, which <a href="https://developers.googleblog.com/2016/03/introducing-vr-view-embed-immersive.html">launched\u000atoday</a>. The embed above lets you include an interactive photosphere\u000aright in your website, which is especially fun on mobile, where the image reacts\u000adirectly to your phone's movements. You can view it in full screen mode, and\u000aeven in Cardboard mode (only on mobile).</p>\u000a\u000a<p>But you know what's cooler than a photosphere? A stereo photosphere! And\u000aluckily, you can capture stereo photospheres using <a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops&amp;hl=en">Cardboard Camera</a>, and\u000athen use a VR View to <a href="https://storage.googleapis.com/vrview/examples/pano/index.html">embed them too</a>. You can even embed mono or\u000a<a href="https://storage.googleapis.com/vrview/examples/video/index.html">stereo videos</a>. Check out <a href="https://developers.google.com/cardboard/vrview">the docs</a> for more info. Eager\u000ato hear what you think!</p>\u000a
+p2636
+tp2637
+Rp2638
+sg13
+V/vr-views
+p2639
+sg15
+Nsg16
+I00
+sg17
+VEmbedding VR content on the web
+p2640
+sg20
+VDuring a two week trip to India, I took over 1000 shots, including photos,\u000avideos and a few photospheres.
+p2641
+sg6
+g2638
+sg25
+g169
+sg33
+g2639
+sg170
+(dp2642
 g172
 S'Mar'
-p2623
+p2643
 sg174
 S'March 31, 2016'
-p2624
+p2644
 sg176
 I3
 sg177
 S'2016-03-31T09:00:00-00:00'
-p2625
+p2645
 sg179
 I1459440000
 sg180
@@ -8339,65 +8408,65 @@ ssg65
 g182
 sg31
 S'vr-views'
-p2626
+p2646
 sS'posted'
-p2627
+p2647
 g188
 (S'\x07\xe0\x03\x1f'
-p2628
-tp2629
-Rp2630
+p2648
+tp2649
+Rp2650
 ssg34
 S'content/posts/2016/vr-views/index.md'
-p2631
+p2651
 sg36
 F1459367189.0
-sa(dp2632
+sa(dp2652
 g2
-(dp2633
+(dp2653
 g4
 V WebVR provides a solid technical foundation on which to build compelling VR experiences. But it does not answer a critical question, which is the topic of this post:              What could the web become in a Virtual Reality environment?          Gear VR provides a simple and straightforward answer: same same. The fundamental unit is still a page, but you use the immersion of VR to increase your effective screen size. The input constraints result in a worse experience for the user. Scrolling with your finger on your temple is tiring and head-based typing is a massive pain. Given the input constraints, we need to beef up the output and make it better matched to what VR excels at. A responsive design inspired solution would involve deconstructing the page to better suit the nature of the immersive environment.    Another approach is to make a clean break from legacy web content. What if certain web pages had parallel content tailored for virtual reality? In this post, I'll explore this idea with an example focused on Wikipedia.          
-p2634
+p2654
 sg28
 g7
 (g8
 g9
 V<p>WebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences. But it does not answer a critical question, which is the topic of\u000athis post:</p>\u000a\u000a<blockquote>\u000a  <blockquote>\u000a    <p>What could the web become in a Virtual Reality environment?</p>\u000a  </blockquote>\u000a</blockquote>\u000a\u000a<p>Gear VR provides a simple and straightforward answer: same same. The fundamental\u000aunit is still a page, but you use the immersion of VR to increase your effective\u000ascreen size. The input constraints result in a worse experience for the user.\u000aScrolling with your finger on your temple is tiring and head-based typing is a\u000amassive pain. Given the input constraints, we need to beef up the output and\u000amake it better matched to what VR excels at. A responsive design inspired\u000asolution would involve deconstructing the page to better suit the nature of the\u000aimmersive environment.</p>\u000a\u000a<p>Another approach is to make a clean break from legacy web content. What if\u000acertain web pages had parallel content tailored for virtual reality? In this\u000apost, I'll explore this idea with an example focused on Wikipedia.</p>\u000a\u000a<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>\u000a\u000a<!--more-->\u000a\u000a<h1>Navigating the VR Forest</h1>\u000a\u000a<p>The web in general and Wikipedia specifically covers a vast amount of\u000ainformation &mdash; nearly everything. Everything is a daunting place to start,\u000aso we will begin with something specific: a forest.</p>\u000a\u000a<p>To begin, navigate to a (fake) <a href="http://borismus.github.io/wikipedia-vr/pages/moose">wikipedia article about a moose</a>, and hit\u000athe VR button. This takes you to a forest meadow, with a life sized moose in front of\u000ayou. You are free to move inside the forest (focus on the grass and click) and\u000ainteract with other animals in it. Looking at an animal gives you some basic\u000aWikipedia-inspired information about it.  Clicking it focuses you in on\u000ait and presents options. If you leave VR when focused on an animal, you end up\u000aon the associated Wikipedia article. This closes the navigation loop: you can\u000astart from one webpage, enter VR mode, navigate to another entity inside VR,\u000aleave VR and end up on another webpage.</p>\u000a\u000a<p>Try out this <a href="http://borismus.github.io/wikipedia-vr/pages/moose">Wikipedia VR sample</a> on your mobile phone in Cardboard. It\u000aalso works on desktop using the spacebar to simulate the Cardboard click.</p>\u000a\u000a<p><img src="navigation.mp4.gif" alt="Video of navigating between pages" /></p>\u000a\u000a<p>VR and education are naturally matched. As <a href="https://youtu.be/UuceLtGjDWY?t=1m40s">Ben explains eloquently in an I/O\u000atalk</a>, "VR is a chance to scale experiential learning". Remembering what\u000ayou learned in class is much harder than remembering your favorite vacation. In\u000athis Wikipedia example, you immediately get a sense of the animal's grandeur,\u000awhich is hard to convey in words and images. You can get a feeling for quickly\u000ait runs, and what it sounds like. </p>\u000a\u000a<h1>Closing thoughts</h1>\u000a\u000a<p><strong>Tip of the iceberg</strong>. The entities in this Wikipedia demo (in green) represent\u000aa tiny subgraph of Wikipedia:</p>\u000a\u000a<p><img src="knowledge-graph.png" alt="Picture of the subgraph we implement" /></p>\u000a\u000a<p>All of the above are positioned in a much bigger subgraph of Wikipedia which\u000amight can be represented in VR. Of course, many Wikipedia pages are really\u000adifficult to imagine in VR. Could <a href="https://en.wikipedia.org/wiki/Philosophy">Wikipedia's Philosophy</a> article have a\u000acompelling VR version?</p>\u000a\u000a<p><strong>Changing scale</strong>. The ability to change scale would make it possible to place\u000aevery entity from the above graph into VR Wikipedia. Imagine diving into the\u000ahide of the moose, learning about symbiotic insects and hair folicles, then\u000agoing deeper to learn about the structure of hair on a molecular level. Or vice\u000aversa, zooming out to look at planet Earth to see where moose live, or going\u000ainto an abstract view to explore Family Cervidae. It's easy to lose an hour or\u000atwo in Wikipedia's hyperlink maze. One day, it may be even easier to do this in\u000aVR.</p>\u000a\u000a<p><img src="alice-shrinking.jpg" alt="Alice in wonderland shrinking" /></p>\u000a\u000a<p><strong>Content is king</strong>. The big open question is how to generate this content. Even a\u000ascoped down project to VR-ify categories of Wikipedia pages (say, only forest\u000aanimals), is incredibly ambitious. Where do you get all of the models? How do\u000ayou animiate them to run, jump, stand around, sleep, play, eat and be eaten? How\u000ado you place them in a the forest in a meaningful way? Doing this automatically\u000aseems, at a glance, AI-hard.</p>\u000a\u000a<p><strong>Limited knowledge graphs</strong>. Even if you imagine that we have a series of animated\u000amodels, how do we compose them together? Do moose and canaries live in the same\u000aenvironment? Can you find fire ants in the bark of a Sequoia? How many? How big\u000aare hyenas, and how quickly do they run? This information is missing from even\u000athe best known knowledge graph.</p>\u000a\u000a<p><strong>3D modeling is difficult</strong>. Wikipedia's giant corpus of quality content exists\u000abecause it's easy for many people to collaborate. Wikipedians need to be good\u000awriters, well versed in their topic, and motivated to contribute. There is a\u000atechnical barrier - learning Wikipedia markup - but it is not incredibly\u000adifficult. For a Wikipedia in VR, the technical barriers are much higher. Even\u000awith a good collaborative editor, it seems inevitable that contributors would\u000aneed to have some sense of 3D modelling, and a far more specialized skillset.</p>\u000a\u000a<p><strong>Artistic considerations</strong>. One of the challenges for a large community project\u000alike Wikipedia is establishing a consistent style. Imagine if every Wikipedia\u000aimage was hand drawn. Artistic abilities vary wildly, and you can imagine a\u000afunny and chaotic result. Aaron Koblin's now classic <a href="http://www.thesheepmarket.com/">Sheep Market</a>\u000aexperiment comes to mind:</p>\u000a\u000a<p><img src="sheep-market.png" alt="Sheep market screenshot" /></p>\u000a
-p2635
-tp2636
-Rp2637
+p2655
+tp2656
+Rp2657
 sg13
 V/wikipedia-vr
-p2638
+p2658
 sg15
 Nsg16
 I01
 sg17
 VBrowsing Wikipedia in VR
-p2639
+p2659
 sg20
 VWebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences.
-p2640
+p2660
 sg6
 V<p>WebVR provides a solid technical foundation on which to build compelling VR\u000aexperiences. But it does not answer a critical question, which is the topic of\u000athis post:</p>\u000a\u000a<blockquote>\u000a  <blockquote>\u000a    <p>What could the web become in a Virtual Reality environment?</p>\u000a  </blockquote>\u000a</blockquote>\u000a\u000a<p>Gear VR provides a simple and straightforward answer: same same. The fundamental\u000aunit is still a page, but you use the immersion of VR to increase your effective\u000ascreen size. The input constraints result in a worse experience for the user.\u000aScrolling with your finger on your temple is tiring and head-based typing is a\u000amassive pain. Given the input constraints, we need to beef up the output and\u000amake it better matched to what VR excels at. A responsive design inspired\u000asolution would involve deconstructing the page to better suit the nature of the\u000aimmersive environment.</p>\u000a\u000a<p>Another approach is to make a clean break from legacy web content. What if\u000acertain web pages had parallel content tailored for virtual reality? In this\u000apost, I'll explore this idea with an example focused on Wikipedia.</p>\u000a\u000a<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>\u000a\u000a
-p2641
+p2661
 sg25
 g169
 sg33
-g2638
+g2658
 sg170
-(dp2642
+(dp2662
 g172
 S'May'
-p2643
+p2663
 sg174
 S'May 26, 2016'
-p2644
+p2664
 sg176
 I5
 sg177
 S'2016-05-26T09:00:00-00:00'
-p2645
+p2665
 sg179
 I1464278400
 sg180
@@ -8408,17 +8477,17 @@ ssg65
 g182
 sg31
 S'wikipedia-vr'
-p2646
+p2666
 sS'posted'
-p2647
+p2667
 g188
 (S'\x07\xe0\x05\x1a'
-p2648
-tp2649
-Rp2650
+p2668
+tp2669
+Rp2670
 ssg34
 S'content/posts/2016/wikipedia-vr/index.md'
-p2651
+p2671
 sg36
 F1464286046.0
 sa.
