@@ -5,8 +5,151 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-10-18T11:41:06-00:00</updated>
+  <updated>2016-11-13T23:31:40-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Election 2016</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/election-2016"/>
+    
+    <updated>2016-11-13T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/election-2016</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Back in June, I gave Trump a coldhearted 55% chance of winning the 2016 US
+election. You don't have to believe me, since I recorded it in my
+<code>Predictions.md</code> file, and never on <a href="http://gjopen.com">gjopen.com</a>, where it
+belongs. My assessment was mostly based on anecdotal observations that recent,
+related polls have been terribly wrong. Brexit and then Trump's surprise
+Republican nomination both came as a complete surprise to experts from all
+sides.</p>
+
+<p>But, despite my dire predictions, it somehow didn't <em>feel</em> that I could be right
+on the eve of the election. When the final result was revealed, I was just as
+disturbed as everyone else. In retrospect, I attribute my "successful"
+prediction mostly to luck combined with my apparently contrarian tendencies,
+rather than to skill. Nearly a week after the announcement of President Trump,
+I'm still processing the verdict. Two big questions loom: 1) Why did he win?,
+and 2) Why didn't we see it coming?</p>
+
+<!--more-->
+
+<h1>Who voted for him?</h1>
+
+<p>Trump's electoral base was quite diverse. Working class whites were only a small
+part of his base. I was surprised to learn that 37% of 18-29 year olds, and 29%
+of hispanics voted for him, and that the average Trump voter had an annual
+income of $71K.</p>
+
+<p><strong>Single issue voters</strong>. Many people value only one issue, or weigh a single issue
+so heavily that others pale in comparison. Fundamentalist Christians may really
+want a pro-life president. If they care enough about that issue, they would be
+willing to deal with a Buffoon, and forgive all the hate, racism and bigotry in
+the world.</p>
+
+<p><strong>People with nothing to lose</strong>. I suppose that the economic situation many people
+are facing are worse than priveledged people like me can fully appreciate. If
+you are low on Maslow's heirarchy, liberal values tend to fall by the wayside.
+When offered a chance to burn it down and start fresh, people with nothing are
+willing to oblige.</p>
+
+<p><strong>Tired of walking on eggshells</strong>. The left won the culture war. In many
+environments: at work, in universities, etc, expressing a dissenting opinion
+puts you in dire straits. Loud and self-righteous activists have a trained ear,
+and will be incredibly quick to label you a racist or a bigot for merely
+entertaining certain notions, or bringing up controversial questions despite no
+intended harm.</p>
+
+<p>This atmosphere leads to reduced viewport diversity. Without the ability to have
+an honest, civil conversation about difficult topics, people have fewer
+opportunities to change their minds, and become deeper and deeper entrenched in
+their current beliefs.</p>
+
+<p><strong>Genuine xenophobes</strong>. Certainly some of Trump's electoral base are actually
+racist immigrant haters. It's very hard to imagine a racist voting for Hilary.
+But I continue to believe that the visibility of this small group is magnified
+by media bias. Turns out it's really interesting to read about crazed people on
+the fringe.</p>
+
+<p>But as a side note, a group's support of a candidate doesn't imply that all or
+most of the candidate's supporters are members of the that group. And this
+statement holds even for deplorables: when the candidate is Trump and the group
+is the KKK.</p>
+
+<h1>Why did he win?</h1>
+
+<p><strong>Attention economy</strong>. Goebbels supposedly said "If you repeat a lie often enough,
+people will believe it, and you will even come to believe it yourself." Despite
+his purported hatred of the media, I think Trump was really helped by it. The
+amount of free publicity Trump's shenanigans received even from the most liberal
+publications like NYTimes is staggering (and any publicity is good publicity).</p>
+
+<p><strong>Terrible alternatives</strong>. It's hard to get excited about a candidate because they
+won't burn the country down. Many people simply could not in good conscience
+support Clinton because of legimiate grievances.  Yet Trump is clearly a
+complete Buffoon. And principled voters found themselves stuck between a rock
+and a hard place, hence the low turnout.</p>
+
+<p><strong>Complacency due to expected outcomes</strong>. In the weeks leading up to the election,
+many papers prominently featured polls leaning heavily in favor of Clinton. The
+NYT ran an election forecast on their front page which depicted the race being
+closest in July, giving Clinton a 30% lead over Trump. The day before the
+election, Clinton had a whopping 70% lead. Why would you go out and vote if you
+know that it's going to be Clinton anyway?</p>
+
+<h1>Why didn't we see it coming?</h1>
+
+<p>Experts and laymen love to tell you what will happen in the the next five years.
+Yet with Trump and Brexit, we have collectively been unable to predict what will
+happen the next day. Given this sad observation, whatever model we are using is
+clearly broken. We must look inward, critically questioning many deeply held
+assumptions about the world, or be prepared for a lot more surprises.</p>
+
+<p><strong>Polling is broken</strong>. A lot of predictions rely on polls. 538 was based mainly on
+aggregating existing poll data. Nate Silver's theory was that by including
+enough polling companies, inacuraccies in each poll would be ironed out.
+Unfortunately, if all of the polls are systematically skewed, this approach is
+screwed. And I think it is! Most polling is done by phone, which is quite
+different from a secret ballot. Imagine you are a disenfranchised voter and a
+pollster from Gallup calls you, you would naturally tell them to go fuck
+themselves.</p>
+
+<p><strong>Filter bubbles distort reality</strong>. On election day, my twitter feed proudly
+announced that "I'm With Her". The day after, when Trump won, people mourned,
+observed that it was the anniversary of Kristallnacht, ushered in the antichrist
+and took to the streets yelling "Not My President!". Yet of half the voting
+population (not my twitter feed though) celebrated a 'uuuuuge victory.</p>
+
+<h1>Parting thoughts</h1>
+
+<p>The world is shrinking, and this is not always a good thing. Long ago, you would
+be born into a village, hang out with the butcher and the baker and be forced,
+by virtue of your birth, to listen to the candlestick maker's racist ramblings.
+Affordable air travel allowed us to self-organize according to professions,
+beliefs, and lifestyles. Social networks are hypersonic airplanes for the mind.
+Did someone tweet something you didn't quite like? Relief is just one unfollow
+away. And so we end up in an increasingly polarized world, a bimodal
+distribution with increasing peak separation.</p>
+
+<p>I am deeply concerned about the political future of the US. Now is the time for
+supposedly open minded liberals like me to prove it. This means not running away
+to Canada, but accepting the democratically elected president. It means turning
+inward and trying to understand why the world behaves so differently from our
+internal model, and starting by fixing the model. I recommend <a href="https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777">Righteous Mind by Jon
+Haidt</a>
+as a relevant starting point.</p>
+
+<p>Without conversation, there is no hope.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Ray Input: WebVR interaction patterns</title>
@@ -8812,72 +8955,6 @@ it to the project.</p>
 <p>Also, please let me know if you experience problems using this library and
 we'll sort them out! The best way to do this is via <a href="http://github.com/borismus">github</a> or
 <a href="http://twitter.com/borismus">twitter</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Brazil trip</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/brazil-trip"/>
-    
-    <updated>2011-06-21T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/brazil-trip</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Last month I took a work trip to São Paulo, Brazil. I gave four Chrome/HTML5
-presentations and talked to many engineers and designers over the course of the
-week, trying hard not to sound like a broken record. Luckily Brazil has a lot
-of people so the audiences were different each time! Here's a link to my
-<a href="http://smustalks.appspot.com/brazil-11/">slides</a>, that I tweaked slightly depending on the audience.</p>
-
-<p>I'll be dumping all of my slide decks and/or talk videos to <a href="http://smustalks.appspot.com/">smustalks</a> on
-AppEngine. I've made the switch from building slides in Keynote to using this
-fantastic HTML5 <a href="http://code.google.com/p/html5slides/">slide deck</a> template and my favorite <a href="http://www.vim.org/">text editor</a>.</p>
-
-<h2>Food</h2>
-
-<ul>
-<li>Delicious fruits of all varieties: exotic cashew, persimmon, star fruit, guyava, and way tastier bananas.</li>
-<li>Ridiculously massive portions of sashimi at japanese restaurants.</li>
-<li>The Rodizio we went to was super exquisite. Largest salad bar ever, including caviar (srsly).</li>
-</ul>
-
-<h2>Life</h2>
-
-<ul>
-<li>SP is a concrete jungle like nothing I've ever seen. The whole city is built up within a 60km radius.</li>
-<li>Chaotic traffic patterns and insane motorcyclists abound. Everyone loves to drive between lanes and honk gratuitously.</li>
-<li>Super bumpy roads date back to the dictatorship days. If you take the wrong exit, prepare to jump around.</li>
-<li>Helicopters fly all over town and sometimes land precariously close to unsuspecting window cleaners dangling from highrise roofs.</li>
-<li>Beware foul smelling rivers and slums on the way to Friday morning meetings!</li>
-</ul>
-
-<h2>Work</h2>
-
-<ul>
-<li>Super friendly people but my Portuguese skills failed to topple the language barrier.</li>
-<li>Long process to get into any office building. Some ask for ID, others ask for passport. Takes half an hour just to get in...</li>
-<li>Somehow, Google Brazil still feels like Google!</li>
-</ul>
-
-<p>After my work was done, I took some <a href="https://picasaweb.google.com/boris.smus/Brazil">travel photos</a> and heard
-<a href="https://picasaweb.google.com/boris.smus/Brazil#5612942830070183426">Samba da Minha Terra</a> live, and by so doing, joined the ranks of Don and
-Magdalena!</p>
-
-<pre><code>I've never sailed the Amazon,
-I've never reached Brazil;
-But the Don and Magdalena,
-They can go there when they will!
-
-            - R. Kipling
-</code></pre>
 
 
         
