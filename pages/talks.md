@@ -1,8 +1,16 @@
 Talks I've given
 ================
 
-I'm thankful for many opportunities to co-present with and learn from
-some amazing people. Here are some talks I gave recently.
+I'm thankful for many opportunities to co-present with and learn from amazing
+people. Here are some talks I gave recently.
+
+- Presented [VR for every website](https://goo.gl/eBSi6L) at [SVVR
+  2016](http://vrexpo.com/events/vr-every-website/) and at the [WebVR Ecosystem
+  and API Update HTML5
+  meetup](https://www.meetup.com/sfhtml5/events/230072340/).
+
+- Presented [Magnetic Input for Mobile Virtual Reality](https://goo.gl/zKA6DN)
+  at [ISWC 2015](http://www.iswc.net/iswc15/).
 
 - Co-presented [Cardboard](g.co/cardboard) with [David
   Coz](https://twitter.com/dav_cz) and [Christian
