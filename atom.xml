@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2016-11-14T13:34:21-00:00</updated>
+  <updated>2016-11-15T09:32:14-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -76,6 +76,10 @@ hacks</a>. Unfortunately, their current video texture rendering performance
 is pretty abysmal. I'm getting about 10 FPS on a 2K (2048 x 2048) spherical
 video in Cardboard mode, while Chrome, even on older Android hardware performs
 substantially better.</p>
+
+<p>Many thanks to <a href="https://twitter.com/lbayliss">Leon Bayliss</a> for writing the <a href="https://storage.googleapis.com/vrview/2.0/examples/index.html">official samples</a>
+and test the API, and to <a href="https://twitter.com/aerotwist">Paul Lewis</a> for implementing tree shaking to
+substantially reduce the size of the library.</p>
 
 
         
