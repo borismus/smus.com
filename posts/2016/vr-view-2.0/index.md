@@ -69,4 +69,10 @@ is pretty abysmal. I'm getting about 10 FPS on a 2K (2048 x 2048) spherical
 video in Cardboard mode, while Chrome, even on older Android hardware performs
 substantially better.
 
+Many thanks to [Leon Bayliss][leon] for writing the [official samples][samples]
+and test the API, and to [Paul Lewis][paul] for implementing tree shaking to
+substantially reduce the size of the library.
+
 [gross]: http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas
+[paul]: https://twitter.com/aerotwist
+[leon]: https://twitter.com/lbayliss
