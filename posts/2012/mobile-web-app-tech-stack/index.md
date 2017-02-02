@@ -204,7 +204,7 @@ name is great :)
 Use a similar set of frameworks? Have a personal favorite? Think I’m missing an
 important type of framework? Let me know!
 
-[backbone]: http://documentcloud.github.com/backbone/
+[backbone]: http://backbonejs.org/
 [spine]: http://spinejs.com/
 [knockout]: http://knockoutjs.com/
 [angular]: http://angularjs.org/#/
