@@ -22,7 +22,7 @@ and serve the public interest.
 
 <!--more-->
 
-# Real news, misleading frequency
+# Real news, dubious frequency
 
 If you are a New York Times reader, you may have noticed a certain individual
 prominently mentioned in the newspaper over the last several months. I wanted to
