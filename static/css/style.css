@@ -205,9 +205,9 @@ article .readmore:hover {
 
 article blockquote {
   margin-left: 2rem;
-  line-height: 1.3;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   opacity: 0.8;
+  font-style: italic;
 }
 
 /* Footer styles */
