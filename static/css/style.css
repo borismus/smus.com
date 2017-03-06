@@ -391,6 +391,11 @@ table tr + tr {
   border-top: 1px solid #ccc;
 }
 
+.comments {
+  margin-top: 0.5rem;
+  display: none;
+}
+
 /* Media queries to make the page responsive */
 @media screen and (max-width: 720px) {
 

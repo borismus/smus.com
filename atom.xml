@@ -5,8 +5,257 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-02-17T10:28:04-00:00</updated>
+  <updated>2017-03-05T21:56:31-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Debaters: friendly disagreement</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/debaters-friendly-disagreement"/>
+    
+    <updated>2017-03-05T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/debaters-friendly-disagreement</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <blockquote>
+  <p>We have a choice. We have two options as human beings. We have a choice
+  between conversation and violence. That's it. </p>
+  
+  <p>– Sam Harris</p>
+</blockquote>
+
+<p>As technological progress plows forward, human nature is unchanged. We each look
+at the world through our own lens. In a previous post, I found that <a href="/hot-bread-delicious-deadly/">translating
+a query between English and Russian greatly determines search results</a>.
+In the same way that language matters, so do religious views, culture, political
+leanings, and much more. Here's a recent example highlighting a news
+source-based lens on the same topic (Nancy Pelosi and Russia):</p>
+
+<p><img src="/debaters-friendly-disagreement/pelosi.png" alt="Nancy pelosi russia on nytimes vs. breitbart" /></p>
+
+<p>Humanity has always been divided, and in hindsight, the unifying promise of the
+internet was a techno-utopian dream. By shrinking the world into a "global
+village" (famously coined by communication theorist <a href="http://www.marshallmcluhan.com/biography/">Marshall McLuhan</a>)
+we have balkanized into increasingly specialized sub-cultures and increased
+cross-cultural conflicts. More recently, personalized search results, curated
+social network feeds only serve to deepen the divide.</p>
+
+<p><a href="https://debate.rs/">Debaters</a> is a new side project which aims to bring you and someone
+with an opposing view into a private, friendly, anonymous conversation. It's
+still in development, but I want to share it with you both as a milestone and
+to get early feedback.</p>
+
+<!--more-->
+
+<h2>The problem</h2>
+
+<p>We are social animals. Rather than starting with a blank slate and using our
+brilliant brains to arrive at independent conclusions, we prefer to jump to
+our conclusions first through social means, and then rationalize why we are
+right. Once we <em>know</em> the answer, it's unlikely that we will change our minds.
+Because of my-side bias (aka confirmation bias), arguments in favor will stick,
+while arguments against will be easily swatted. Entrenched in our socially
+defined beliefs, our social circles and personalized information sources quell
+potential for dissent, while strengthening our worldview. On a macro scale, this
+leads to a polarized society. We can tolerate anything <a href="https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/">but the outgroup</a>.</p>
+
+<p>In light of the above, we are unlikely change our minds. But if you are one of
+those rare people that are open to changing their mind, you may have read
+articles like <a href="https://wiki.lesswrong.com/wiki/How_To_Actually_Change_Your_Mind">this one</a>. However, it's far easier to be understand
+the theory of mind changing than it is to actually change your mind on a
+specific issue. Many public intellectuals are actively involved in conversations
+that test their limits, but normal folks like you and me don't often get the
+chance.</p>
+
+<p>I've only attended one <a href="https://www.meetup.com/Bay-Area-Conservatives/">conservative meetup</a>. I chose not to reveal my
+identity as a crooked centrist, feeling that this would impede further
+conversation. I think a similar thing happens in many cities: there must be
+Trump supporters (dozens of them?) among us, but they seem to keep a low
+profile. Sad!</p>
+
+<p>The way we get better at anything is through practice, which in this case means
+to actively test ourselves on new ideas and with new people. Projects like
+<a href="http://www.livingroomconversations.org/">Living Room Conversations (LRC)</a> in the real world, or <a href="https://www.reddit.com/r/changemyview/">Change My View
+(CMV)</a> online try to create an environment that enables conversations where
+we can practice actual open mindedness.</p>
+
+<h2>Some problems with existing mind changing tools</h2>
+
+<p><a href="http://www.livingroomconversations.org/">LRC</a> requires getting a group of people together physically, and have a
+structured conversation about a controversial topic. This is difficult to do
+since you must find a group of friendly but disagreeing people in-person. I'd
+love to try it, but haven't been able to find a more right-leaning
+co-facilitator yet. It is also a social risk, since you are likely pulling in
+people from your social circle. Presumably you have briefed them on the plan and
+they have consented, but conversations may still escalate and feelings can
+easily be hurt. In addition, the prospect of a serious, structured conversation
+with close friends sounds quite awkward to me.</p>
+
+<p>Online, <a href="https://www.reddit.com/r/changemyview/">CMV</a> is great but has its own problems, despite the efforts of
+well meaning and intelligent moderators. Some users that start threads seem to
+use CMV as a way of pressure testing their own view. They get all of the counter
+arguments, learn how to counter them, and get even better at rationalizing away
+any future doubts. Some respondents may make arguments whether or not they
+actually think that way just for the sake of deltas. As a subreddit, CMV
+users tend to fall into Reddit's skewed demographics. This means less potential
+for viewpoint diversity. Lastly, CMV is public and not truly anonymous. This
+encourages people to be clever rather than honest, although there is no shortage
+of <a href="https://www.reddit.com/r/The_Donald/">subreddits</a> whose members prefer honesty over cleverness.</p>
+
+<h2>What is Debaters?</h2>
+
+<p>So, to address some of the shortcomings of existing approaches like CMV and LRC,
+I've been working on a side project provisionally called <a href="https://debate.rs/">Debaters</a>.</p>
+
+<blockquote>
+  <p>Debaters enables one-on-one conversations on a controversial topic, with
+  someone of the opposing view. You may not be convinced by their arguments,
+  but your conversation may lead to a better understanding on both sides.
+  Interaction with someone with a different viewpoint will lead to reduced
+  animosity toward their whole group.</p>
+</blockquote>
+
+<p><img src="/debaters-friendly-disagreement/debaters.png" alt="Screenshots of Debaters" /></p>
+
+<p>I took a bit of time off recently and got carried away on the implementation,
+with <a href="https://twitter.com/abmcosta">Antonio's help</a> on the UX front, and now it's live on
+<a href="https://debate.rs">https://debate.rs</a>. If you visit, you will be presented with a list of issues
+and asked to opine on each. After you provide your opinion you are matched to
+someone with the opposite view, then you engage in a conversation about the
+issue.</p>
+
+<p>Let me address one common question up-front: trolling. I do not think trolling
+is much of an issue for Debaters. Trolls want to make an impact. In other words,
+they want to either reach a lot of people, or affect some people in a
+significant way. In a 1:1 conversation, their reach is limited. In an anonymous
+context, the amount of personal harm a troll can inflict is limited too.</p>
+
+<h3>Crowdsourced beta testing</h3>
+
+<p>To work out bugs and test out the platform, I took to Mechanical Turk. That's
+right, I paid people to have an argument in the spirit of Monty Python's
+Argument Clinic:</p>
+
+<iframe width="600" height="337" src="https://www.youtube.com/embed/kQFKtI6gn9Y" frameborder="0" allowfullscreen></iframe>
+
+<p>Kidding aside, Turkers effectively became poorly paid ($0.25 per session) QA
+testers. I asked them to try out Debaters and answer a question or two.
+Meanwhile, I would assume the position of devil's advocate (as needed) and we
+would have 5-10 minute long conversations. This helped iron out the bugs and
+prioritize features.</p>
+
+<p>Getting people to use the service without bribes was hard, mainly because
+Debaters is a marketplace. Two people are required to answer the same question
+differently to get matched. So inevitably, the first respondent needs to wait
+while a match is found. Attention spans are short, and Debaters users are few.
+Debaters attempts to address this by taking advantage of <a href="https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/">web
+notifications</a>. Once a match is made, you are notified through a
+browser notification. By this point though, you may be less likely to be up for
+a conversation.</p>
+
+<p>One of my milestones for the first version of Debaters was to facilitate a
+conversation between two people I didn't know. I managed to do this by actively
+promoting it on Twitter while also paying users on Mechanical Turk, creating a
+critical mass so that people would get matched without too much waiting. This
+worked out, and finally I had a half organic conversation. This one was about
+a federal minimum wage. Dustin answered "Not sure", Lawrence answered "No". In
+case you are wondering, Debaters assigns names and avatars randomly.</p>
+
+<pre><code>Dustin Collier:    hi Lawrence
+Lawrence Castillo: hi dustin
+                   guessing these names are not real
+Dustin Collier:    hehe. mine isn't, dunno about yours :)
+Lawrence Castillo: i was scared for a second and thought they were real but
+                   thats good
+Dustin Collier:    is yours really lawrence!!!!!
+                   or did you forget your name for a sec
+Lawrence Castillo: no no
+                   i saw your name and was like "oh shit people can
+                   see names"
+                   glad they're fake
+Dustin Collier:    ah yea
+                   anonymous.
+                   u dont like minimum wage?
+Lawrence Castillo: i think federal minimum wage, at least how we've been
+                   talking about it is pretty flawed
+Dustin Collier:    how so?
+Lawrence Castillo: like, the minimum wage in nebraska should be very
+                   different from the minimum wage in nyc
+                   if we want a minimum wage it needs to be a percent of
+                   cost of living
+Dustin Collier:    ah yeah, cost of living adjusted
+Lawrence Castillo: the idea of 15 dollars is kind of crazy
+                   people in ny are still poor, and business can't pay it
+                   in rural areas
+                   i feel that way about most federal laws though
+Dustin Collier:    yea i agree, but that's not even on the table
+                   bernie was all like "$15"
+Lawrence Castillo: yeah i loved the energy but...
+</code></pre>
+
+<p>The next milestone is to have a fully organic conversation, where both sides
+arrive at Debaters without monetary incentives, but out of legimiate interest.</p>
+
+<h2>Problems with Debaters</h2>
+
+<p>Now that the first version of Debaters is released, the technical problems have
+been addressed, and the UX is in an early but usable state. The fundamental
+problem is <strong>how to attract users</strong>. </p>
+
+<p>I think that the name "Debaters" connotes exactly the wrong thing. Debates are
+something you win, and invoke a high school debate club. The name is also
+suggestive of conflict, which people generally tend to avoid. Unfortunately I
+was unable to come up with a catchy alternative.</p>
+
+<p>That said, the name is not the limiting factor on user acquisition; there are
+more fundamental forces at play. In today's political climate, people want to be
+upset and angry. We are constantly outraged, and <a href="https://www.nytimes.com/2017/02/27/opinion/the-uses-of-outrage.html">some view it as a good
+thing</a> that builds social cohesion. We don't want to change our minds,
+that would be like colluding with the enemy. After all, <a href="https://wiki.lesswrong.com/wiki/Arguments_as_soldiers">arguments are
+soldiers</a>. I disagree.</p>
+
+<p>Conversations with people that hold different views is like getting kids to eat
+their vegetables. It's good for them, but they aren't necessarily going to like
+it.</p>
+
+<h2>Tricking people into friendly debate</h2>
+
+<p>A common tactic for getting kids to each their vegetables is to disguise them as
+something else. Could a similar approach be taken with Debaters?</p>
+
+<p>One avenue might be to target people that want to proselytize their ideas.
+They might come to Debaters to sway others about one issue they are passionate
+about, and then become engaged in another conversation on another issue, where
+they are more likely to listen. This is pure theory. Maybe proselytizers are
+certain about everything.</p>
+
+<p>Another avenue might be to target neurotic people. This has sort of been tried
+in the form of <a href="http://asteroidsclub.org/">The Asteroids Club</a>. This project is framed as a
+"non-debate on America's biggest problems, which are hurtling toward us through
+space and time at an alarming rate of speed". Unfortunately it hasn't taken off
+yet.</p>
+
+<p>People are inherently curious. Projects like <a href="http://wolfmanproductions.com/haider-hamza/">Talk to an Iraqi</a> and <a href="https://www.theswedishnumber.com/">The
+Swedish Number</a> have been effective at attracting an audience. Haidar
+Hamza's public booth seems to have also been effective at bringing up difficult
+political issues. Could we take advantage of this curiosity by surfacing
+something unusual about your future interlocutor?</p>
+
+<p>And yet resorting to trickery may not work. Even a more oblique form of it,
+<a href="https://en.wikipedia.org/wiki/Nudge_theory">nudging</a>, has <a href="https://www.theguardian.com/commentisfree/2014/apr/24/nudge-backlash-free-society-dignity-coercion">had significant opposition</a>. But, as Sam
+Harris starkly puts it, the only tools we have for changing minds are
+conversation and violence. My opinion? I'd like to avoid the latter, so intend
+to continue thinking about and building in this difficult but incredibly
+important problem space.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Headlines, meet sparklines: news in context</title>
@@ -8825,260 +9074,6 @@ via the <a href="http://www.webrtc.org/">WebRTC</a> ecosystem, and the <code>get
 <p>By the way, I've switched to exclusively using Markdown for all of my
 published writing, and wrote an <a href="https://github.com/borismus/markdown-preview">markdown preview</a> for Chrome
 to make my life a bit easier.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Loading large assets in modern HTML5 games</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/game-asset-loader"/>
-    
-    <updated>2011-09-22T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/game-asset-loader</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>HTML5 games are here today, and rapidly increasing in complexity. Impressive
-<a href="http://madebyevan.com/webgl-water/">demos</a> are <a href="http://www.chromeexperiments.com/">everywhere</a>, and prominent titles like <a href="https://chrome.google.com/webstore/detail/ciamkmigckbgfajcieiflmkedohjjohh">Gun
-Bros</a> and <a href="http://chrome.angrybirds.com">Angry Birds</a> prove that it's possible to
-create competitive gaming experiences in the browser. Games like these are
-possible thanks largely to the modern web stack which includes WebGL, the Web
-Audio API, Web Sockets and others.</p>
-
-<p>Often forgotten, however, is the less sexy story of loading game assets. As the
-web platform progresses and allows for increasingly complex games, game assets
-(ex. textures, movies, music and images) grow in size and number, and asset
-management becomes a sticking point for game developers.</p>
-
-<p>Let me share with you some truths:</p>
-
-<ol>
-<li>Modern games require gigabytes of assets (textures, movies, etc)</li>
-<li>Gamers don't like waiting for their game to load</li>
-<li>Browser gamers want to be able to play regardless of internet connectivity</li>
-</ol>
-
-<p>"But wait," you say, "I know! Just use the <a href="http://diveintohtml5.org/offline.html">Application Cache</a>
-and yer done!". Not so fast, dear reader... As described below, there are
-problems with this approach, and I propose some solutions.</p>
-
-<h1>Problems with Application Cache</h1>
-
-<p>So you've started implementing your awesome asset loading solution using
-AppCache. The good news is that there are some useful tools to help you debug
-if you have taken this difficult route:</p>
-
-<ol>
-<li>You can get basic information about the site's app cache through the
-Developer Tools' <a href="http://code.google.com/chrome/devtools/docs/resources.html">resource panel</a>.</li>
-<li>You can view (and remove!) caches stored in Chrome by navigating to
-<code>chrome://appcache-internals/</code>.</li>
-</ol>
-
-<p>But let me be blunt: <strong>AppCache is annoying to deal with</strong>. If you've made a
-small error in your cache manifest file, you'll quickly hit a brick
-wall. I ran into an issue where I forgot to include a <code>NETWORK:</code>
-fallback clause, and wasted hours trying to figure out why all of my
-XHRs were responding with status 0.</p>
-
-<p>Part of what makes AppCache difficult to debug is its very <strong>limited
-JavaScript API</strong>. Aside from letting you inspect the status of the entire cache
-with <code>window.applicationCache</code> and the <code>updateready</code> event, AppCache doesn't
-give us much to work with. There's no way to tell if a particular resource
-we're dealing with is cached or not and no programmatic way of clearing the
-cache.</p>
-
-<p>AppCache takes a fully transactional approach to asset loading.  Either
-the cache is fully loaded, or fully unloaded. Compounding this issue,
-it's impossible to resume the download of an AppCache. Thus, if you have
-a large amount of assets, your user will have to <strong>wait a long time for
-everything to be loaded</strong>, and if they reload, they will need to restart
-their cache download.</p>
-
-<p>Lastly, you can only include one cache manifest per page, making it
-<strong>impossible to group assets</strong> into multiple bundles. There are hacks that
-use multiple iframes with different cache manifests to work around this
-limitation (used in <a href="http://chrome.angrybirds.com">Angry Birds</a>), but these are ugly!</p>
-
-<p>Ultimately, what we need is a well-thought-out Application Cache
-enhancement or replacement. Given how quickly web standards bodies move,
-I've started thinking a bit about a transitional solution.</p>
-
-<h1>Designing a game asset loader</h1>
-
-<p>An ideal asset loading solution requires some of these features:</p>
-
-<ol>
-<li>Granular asset loading. Load all, in groups, or individually.</li>
-<li>No asset size limits.</li>
-<li>Offline capability.</li>
-<li>Programatic control over assets.</li>
-</ol>
-
-<p>It makes sense to group assets in bundles and let the loader take care
-of the details. We can even create a custom manifest format, for
-example, in JSON format:</p>
-
-<pre><code>{
-  "assetRoot": "./media/",   // The root of the assets.
-  "bundles": [{
-    "name": "core",          // A bundle definition.
-    "contents": [            // The contents within.
-      "theme.mp3",
-      "loading.jpg"
-    ]
-  }, {
-    "name": "level1",        // Multiple bundles defined.
-    "contents": [            // Note: order implicit since bundles
-      "L1/background.jpg",   // objects are stored in an array.
-      "L1/blip.wav"
-    ]
-  }, {
-    "name": "level2",
-    "contents": [
-      "L2/intro.mov"
-    ]
-  }],
-  "autoDownload": false      // If true, download all in order.
-}
-</code></pre>
-
-<p>With this manifest format in mind, sample API usage might look like
-this:</p>
-
-<pre><code>// Load the asset library.
-var gal = new GameAssetLoader('/path/to/gal.manifest');
-
-// Read the manifest and other good stuff.
-gal.init(function() {
-  // When ready, download the bundle named 'core'.
-  gal.download('core');
-});
-
-// When the core assets are loaded.
-gal.onLoaded('core', function(result) {
-  if (result.success) {
-    // Show a loading indicator.
-    document.querySelector('img').src = gal.get('loading.jpg');
-  }
-});
-
-// Check the progress of the download.
-gal.onProgress('core', function(status) {
-  console.log('status:', status.current/status.total, '%');
-});
-</code></pre>
-
-<p>Note that although I've been using the name Game Asset Loader, this
-approach can be used for loading any large non-game assets, such as for
-example, a video or photo gallery.</p>
-
-<h1>Implementation details</h1>
-
-<p>Luckily, the modern web stack enables us to create a custom solution to
-address all of these requirements. By leveraging technologies such as
-the HTML5 Filesystem API or Indexed DB, we have programmatic access to
-a storage mechanism that we can use to build an asset loader described
-here.</p>
-
-<p>I used the <a href="http://www.html5rocks.com/en/tutorials/file/filesystem/">Filesystem API</a> to implement a version of the asset
-loader. The code requests a large amount of persistent storage using the 
-<a href="https://groups.google.com/a/chromium.org/group/chromium-html5/msg/5261d24266ba4366?dmode=source">Quota API</a>, which is undocumented, but works anyway:</p>
-
-<pre><code>// Get quota.
-storageInfo.requestQuota(window.PERSISTENT, quota,
-  onQuotaGranted, onError);
-
-// Callback when the quota API has granted quota
-function onQuotaGranted = function(grantedBytes) {
-  // Save grantedBytes in the adapter
-  that.grantedBytes = grantedBytes;
-  // Once quota is grantedBytes, initialize a filesystem
-  requestFileSystem(window.PERSISTENT, grantedBytes, onInitFS, onError);
-};
-
-// Callback when the filesystem API has created a filesystem.
-function onInitFS = function(fs) {
-  // Create a directory for the root of the assets.
-  fs.root.getDirectory(ROOT_DIR, {create: true}, function(dirEntry) {
-    that.root = dirEntry;
-  }, onError);
-};
-</code></pre>
-
-<p>The approach fetches assets with <code>XMLHttpRequest</code>, and stores them in the
-filesystem. All files in the filesystem are accessible via the <code>filesystem://</code>
-schema, and can be used as any other resource. This filesystem URL is returned
-by the library in the <code>get(path)</code> call.</p>
-
-<p>Note that the writable HTML5 filesystem API is currently available in Chrome
-only, but that it's quite possible to use IndexedDB (supported in Firefox and
-IE10) as the data store.</p>
-
-<h1>Usage scenarios</h1>
-
-<p>The following section briefly describes what the game asset loader (GAL) does
-in several scenarios.</p>
-
-<p>Player goes to game.com which uses the game asset loader. The game calls
-<code>gal.download('core')</code> to download core assets and
-<code>gal.download('level1')</code> to load the first level into the player’s
-filesystem. While the core bundle loads, the game displays a loading
-indicator. Once core is loaded, the game displays the main menu. As soon
-as the first level is loaded, the "Play now" button is enabled. As the
-player plays, the GAL downloads more of the levels in the background.</p>
-
-<p>Next time, the player tries playing offline. He goes to game.com, whose
-code is cached via AppCache, and loads GAL again. This time GAL knows it’s
-offline, looks up its manifest stored on the filesystem and doesn’t try to
-download new assets. The old assets still work though.</p>
-
-<p>Player is still offline, making good progress, and beats level 5, but
-there are no assets downloaded for level 6. Luckily, before starting
-each level, the game calls <code>gal.download('levelBundle')</code> to make sure
-that the contents of that bundle are downloaded. The callback returns an
-error and the game displays an error telling the player that he needs to
-be online to download the next level.</p>
-
-<p>So the player goes online and tries again. GAL re-downloads a manifest.
-Next, GAL tries re-downloading every asset that the JS requests. Luckily most
-of these assets are still in the browser cache, and won't be re-downloaded. The
-loader then saves all of the assets in the filesystem, clobbering old files
-indiscriminately. (This is bad, and needs to be fixed. Read on!)</p>
-
-<h1>Future work</h1>
-
-<p>In particular, re-downloading every asset while online is not desirable
-behavior, and we can't always rely on the browser cache for this. For
-smaller files, we can probably rely on ETag and Last-Modified headers
-and hopefully the browser won't re-download the files. However, the
-<strong>asset loader will still overwrite the asset in the filesystem, even if
-it's unmodified</strong>. This needs to be fixed. Large files are not likely to be
-cached by the browser, so we will need more intelligent <strong>caching built into
-the asset loader itself</strong>.</p>
-
-<p>There are other edge cases that need to be considered, such as what happens
-when an <strong>asset is removed from a manifest</strong>. Ideally if this occurs, it
-<strong>should also be removed from the filesystem</strong>, but this is not currently
-implemented.</p>
-
-<p>I'm happy to release the <a href="https://github.com/borismus/game-asset-loader">source</a> under the permissive Apache 2
-license and provide <a href="https://github.com/borismus/game-asset-loader/blob/master/tests/tests.js">unit tests</a> and a <a href="https://github.com/borismus/game-asset-loader/tree/master/tests/game">sample</a> project
-for your perusal. It's well documented and should be reasonably easy to
-understand. I've also made provisions to separate the core library
-interface from the Filesystem-based implementation, making it even
-easier to implement an Indexed DB adapter.</p>
-
-<p>Before I go, let me reiterate that this library isn't quite production ready,
-but a step in the right direction for facilitating real games on the web.
-Please comment below if you have feedback on the idea, or are using the
-library to write a game of your own!</p>
 
 
         
