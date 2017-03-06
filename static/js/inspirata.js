@@ -1,12 +1,13 @@
-var GALLERY_ROOT = 'https://project-4121485576010625868.firebaseio.com/users/US3UvWWOBhhi21AZgKkyUK0QTHL2.json';
-var GALLERY_PADDING = 20;
-
-var gallery = document.querySelector('#gallery');
-
-function onLoad() {
-  // Get the UID from the get parameters.
-  loadJson(GALLERY_ROOT, onJson);
+// TODO: Refactor into a proper class!
+function InspirataGallery(params) {
+  var uid = params.uid;
+  var el = params.el;
+  var url = GALLERY_ROOT + uid + '.json';
+  loadJson(url, onJson);
 }
+var PROJECT_ID = 'project-4121485576010625868';
+var GALLERY_ROOT = 'https://' + PROJECT_ID + '.firebaseio.com/users/';
+var GALLERY_PADDING = 20;
 
 function loadJson(url, callback) {
   var xhr = new XMLHttpRequest();
@@ -22,11 +23,13 @@ function loadJson(url, callback) {
 }
 
 function onJson(obj) {
+  var root = document.createElement('div');
   for (var key in obj) {
     var data = obj[key];
-    var el = createGalleryItem(data);
+    var el = createGalleryImage(data);
     gallery.insertBefore(el, gallery.children[0]);
   }
+  gallery.appendChild(root);
 
   // Initialize masonry.
   var msnry = new Masonry(gallery, {
@@ -58,41 +61,33 @@ function createGalleryImage(item) {
 
   var a = document.createElement('a');
   a.href = item.url;
-  a.style.backgroundImage = 'url(' + item.imageUrl + ')';
+  a.style.backgroundImage = 'url(' + item.preview.url + ')';
   a.style.backgroundRepeat = 'no-repeat';
   a.style.backgroundSize = dims.width + 'px ' + dims.height + 'px';
   a.style.backgroundColor = getColor(item.color);
   el.appendChild(a);
 
 
-  if (item.title) {
+  if (item.caption) {
     var label = document.createElement('label');
-    label.innerText = item.title;
+    label.innerText = item.caption;
     el.appendChild(label);
   }
 
   var time = document.createElement('time');
-  if (item.date) {
-    time.innerText = formatDate(item.date);
+  if (item.createdDate) {
+    time.innerText = formatDate(item.createdDate);
   }
   el.appendChild(time);
 
   return el;
 }
 
-function createGalleryItem(item) {
-  if (item.imageUrl) {
-    return createGalleryImage(item);
-  }
-  console.error('Invalid item');
-  return null;
-}
-
 var ALLOWED_WIDTH = [400, 200, 100];
 function getDimensions(item) {
   // Pre-scale the items.
-  var origWidth = item.width/2;
-  var origHeight = item.height/2;
+  var origWidth = item.image.width;
+  var origHeight = item.image.height;
   var width;
   // Scale down the image to one of the allowed sizes.
   for (var i = 0; i < ALLOWED_WIDTH.length; i++) {
@@ -106,7 +101,7 @@ function getDimensions(item) {
   if (!width) {
     width = ALLOWED_WIDTH[ALLOWED_WIDTH.length - 1];
   }
-  console.log('Item %s using width %d', item.title, width);
+  console.log('Item %s using width %d', item.caption, width);
 
   var aspect = origWidth / origHeight;
   var height = width / aspect;
@@ -142,34 +137,3 @@ function getColor(colorArray) {
   ')';
 }
 
-// From http://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-url-parameter
-function getQueryParams(qs) {
-  qs = qs.split('+').join(' ');
-
-  var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
-
-  while (tokens = re.exec(qs)) {
-    params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
-  }
-
-  return params;
-}
-
-// From http://stackoverflow.com/questions/8498592/extract-root-domain-name-from-string
-function extractDomain(url) {
-  var domain;
-  //find & remove protocol (http, ftp, etc.) and get domain
-  if (url.indexOf("://") > -1) {
-    domain = url.split('/')[2];
-  }
-  else {
-    domain = url.split('/')[0];
-  }
-
-  //find & remove port number
-  domain = domain.split(':')[0];
-
-  return domain;
-}
-
-window.addEventListener('load', onLoad);
