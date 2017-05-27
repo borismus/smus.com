@@ -1,0 +1,201 @@
+<!--
+Based on sparksvg.me/bar.svg, with modifications by Boris Smus <boris@smus.com>.
+-->
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="100%" height="100%"
+     onload='draw()'>
+  <script><![CDATA[
+function scale(max, min, num) {
+  return (100 * (num - min) / (max - min)) || 0;
+}
+
+function draw() {
+  var elem = document.getElementsByTagName("svg")[0],
+      search = location.search.substr(1)
+      segments = search.split('&'),
+      data = segments[0]
+              .split(",")
+              .map(function (n) {
+                return parseFloat(n, 10) || 0;
+              }),
+      color = "rgba(0,0,0,0.8)",
+      max = Math.max.apply(null, data),
+      min = Math.min.apply(null, data);
+
+  // Force minimums and maximums if they are specified.
+  var forceMin = getParameterByName('ymin');
+  var forceMax = getParameterByName('ymax');
+  if (forceMin) {
+    min = forceMin;
+  }
+  if (forceMax) {
+    max = forceMax;
+  }
+
+  // Highlight the last point if specified.
+  var isHighlight = getParameterByName('highlight');
+  var labelUnit = getParameterByName('unit') || '';
+
+  // Provide x labels optionally.
+  var xMin = parseInt(getParameterByName('xmin'));
+  var xMax = parseInt(getParameterByName('xmax'));
+
+  var transpose = getParameterByName('transpose');
+
+  var parts = data.map(function (num) { return scale(max, min, num); }),
+      x, y, height, width = 100 / parts.length;
+
+  for (var i=0; i < parts.length; i++) {
+    var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    var fullRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    x = 100 * (i / parts.length);
+    y = 100 - parts[i];
+    height = parts[i] + 1;
+
+    var xValue = null;
+    if (xMin && xMax) {
+      xValue = xMin + (xMax - xMin) * (parseFloat(i) / parseFloat(parts.length - 1));
+    }
+    var yValue = data[i] + labelUnit;
+    var title;
+    if (xValue) {
+      title = '(' + xValue + ', ' + yValue + ')';
+    } else {
+      title = yValue;
+    }
+
+    rect.setAttribute("title", title);
+    rect.setAttribute("stroke-width", 0.5);
+    rect.setAttribute("stroke", "rgba(255, 255, 255, 0.2)");
+    // Full rect covers the entire height and is invisible.
+    fullRect.setAttribute("title", title);
+    fullRect.setAttribute("fill", "rgba(255,255,255,0)");
+
+    if (transpose) {
+      rect.setAttribute("y", x + "%");
+      rect.setAttribute("x", 0 + "%");
+      rect.setAttribute("height", width + "%");
+      rect.setAttribute("width", height + "%");
+
+      fullRect.setAttribute("y", x + "%");
+      fullRect.setAttribute("x", 0);
+      fullRect.setAttribute("height", width + "%");
+      fullRect.setAttribute("width", "100%");
+    } else {
+      rect.setAttribute("x", x + "%");
+      rect.setAttribute("y", y + "%");
+      rect.setAttribute("width", width + "%");
+      rect.setAttribute("height", height + "%");
+
+      fullRect.setAttribute("x", x + "%");
+      fullRect.setAttribute("y", 0);
+      fullRect.setAttribute("width", width + "%");
+      fullRect.setAttribute("height", "100%");
+    }
+
+    // Highlight the last item if specified.
+    if (i == parts.length - 1 && isHighlight) {
+      rect.setAttribute('fill', "rgba(255,0,0,0.8)");
+    } else {
+      rect.setAttribute("fill", color);
+    }
+    elem.appendChild(rect);
+    elem.appendChild(fullRect);
+
+    fullRect.addEventListener('mouseover', onMouseOver);
+    fullRect.addEventListener('mouseout', onMouseOut);
+  }
+
+  SVG_BBOX = elem.getBBox();
+
+  label = createLabel();
+  elem.appendChild(label);
+  hideLabel();
+}
+
+function onMouseOver(e) {
+  console.log('onMouseOver');
+  showLabel();
+
+  var rect = e.target.getBoundingClientRect();
+  setLabelValue(e.target.getAttribute('title'));
+  moveLabel(rect.left, rect.top);
+}
+
+function onMouseOut(e) {
+  console.log('onMouseOut');
+  hideLabel();
+}
+
+var SVG_BBOX;
+var LABEL_HEIGHT = 20;
+var LABEL_WIDTH = 30;
+var PADDING = 4;
+var label;
+function showLabel() {
+  label.setAttribute('visibility', 'visible');
+}
+
+function hideLabel() {
+  label.setAttribute('visibility', 'hidden');
+}
+
+function moveLabel(x, y) {
+  var labelBox = label.getBoundingClientRect();
+  var maxY = SVG_BBOX.height - labelBox.height;
+  // Ensure the label is still in-bounds.
+  var maxX = SVG_BBOX.width - labelBox.width;
+  x = Math.min(maxX, x);
+  y = Math.min(maxY, y);
+  label.setAttribute('x', x);
+  label.setAttribute('transform', 'translate(' + x + ',' + y + ')');
+}
+
+function setLabelValue(value) {
+  var text = label.querySelector('text');
+  text.textContent = value;
+  var bbox = text.getBoundingClientRect();
+  label.querySelector('rect').setAttribute('width', bbox.width + 2*PADDING);
+}
+
+function createLabel() {
+  var label = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  label.setAttribute('pointer-events', 'none');
+
+  var text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+  text.textContent = '38%';
+  text.setAttribute('x', PADDING);
+  text.setAttribute('y', LABEL_HEIGHT - PADDING);
+  text.setAttribute('font-family', 'Inconsolata');
+  text.setAttribute('font-size', 12);
+  text.setAttribute('stroke', 'red');
+
+  var background = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  background.setAttribute('x', 0);
+  background.setAttribute('y', 0);
+  background.setAttribute('width', LABEL_WIDTH);
+  background.setAttribute('height', LABEL_HEIGHT);
+  background.setAttribute('fill', 'rgba(245, 245, 245, 0.9)');
+
+  label.appendChild(background);
+  label.appendChild(text);
+  return label;
+}
+
+function getParameterByName(name, url) {
+  if (!url) {
+    url = window.location.href;
+  }
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+  ]]></script>
+</svg>
