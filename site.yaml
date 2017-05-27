@@ -1,10 +1,13 @@
 site_title: Boris Smus
 date_format: '%B %-d, %Y'
-verbs:
-  post: 'Published'
-  talk: 'Presented'
-  link: 'Linked'
-permalink_format:
+permalink_formats:
   default: '{{slug}}'
   index: ''
   draft: 'drafts/{{slug}}'
+  book: 'books/{{slug}}'
+  note: 'notes/{{year}}/{{slug}}/'
+type_mapping:
+  '/posts/': 'post'
+  '/pages/': 'page'
+  '/drafts/': 'draft'
+default_type: 'page'
