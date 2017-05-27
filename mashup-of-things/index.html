@@ -6,7 +6,8 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
-  <meta name="description" content=" Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.    If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino.   ">
+  <meta name="description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.    If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino.">
+  <meta name="author" content="Boris Smus">
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -79,7 +80,7 @@ theater, scanner and <a href="http://www.google.com/cloudprint/learn/">printer</
 this fashion? Too many apps! Imagine you have all of these different
 devices, perhaps multiple of each in some cases:</p>
 
-<p><img src="many-smart-things.png" alt="Many smart things" /></p>
+<p><img src="/mashup-of-things/many-smart-things.png" alt="Many smart things" /></p>
 
 <p>It pains me to imagine an app for each of these different services -
 there are simply too many things to juggle. I would not want to install
@@ -111,7 +112,7 @@ later.</p>
 and also with devices that are far away. With this constraint, even the
 simplest approach requires a server component. Here's a sketch:</p>
 
-<p><img src="lamp-arch.png" alt="A simple WiFi lamp" /></p>
+<p><img src="/mashup-of-things/lamp-arch.png" alt="A simple WiFi lamp" /></p>
 
 <p>In this setup, the controller listens to the server for what it should
 do. At the same time, the remote sends commands to the server based on
@@ -144,14 +145,14 @@ lamp: the toggle switch and <a href="https://dvcs.w3.org/hg/speech-api/raw-file/
 behind a flag in Chrome), which enables simple "lamp, turn off" and "on"
 commands.</p>
 
-<p><img src="client.png" alt="Simple client" /></p>
+<p><img src="/mashup-of-things/client.png" alt="Simple client" /></p>
 
 <p>Finally, the device itself is an Arduino Uno with a <a href="http://arduino.cc/blog/2012/08/16/the-arduino-wifi-shield-is-now-available/">WiFi
 shield</a>. One of the pins is connected to a relay which controls
 a power socket with the plugged in lamp. The program itself is nearly
 identical to the existing sample apps available for the WiFi shield.</p>
 
-<p><img src="arduino.png" alt="Arduino WiFi shield" /></p>
+<p><img src="/mashup-of-things/arduino.png" alt="Arduino WiFi shield" /></p>
 
 <h2>Practical considerations</h2>
 

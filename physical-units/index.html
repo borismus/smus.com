@@ -6,7 +6,8 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
-  <meta name="description" content=" There's an increasing variety of devices in use today. Even generally rectangular touch enabled devices vary hugely in their physical sizes, aspect ratios, pixel densities, etc.    One thing that remains constant across these devices are their users. Technologies come and go every year, but people stay the same. Existing form factors:  pads, tabs and boards  still make sense, and will continue to do so for the forseeable future. As a result, ergonomic considerations like touch target sizing, readable text and image size remain constant. Fingers will be fingers and eyes will be eyes! Our bodies are firmly rooted in the physical world, and the interfaces we create should reflect that.   ">
+  <meta name="description" content="There's an increasing variety of devices in use today. Even generally rectangular touch enabled devices vary hugely in their physical sizes, aspect ratios, pixel densities, etc.    One thing that remains constant across these devices are their users. Technologies come and go every year, but people stay the same. Existing form factors:  pads, tabs and boards  still make sense, and will continue to do so for the forseeable future. As a result, ergonomic considerations like touch target sizing, readable text and image size remain constant. Fingers will be fingers and eyes will be eyes! Our bodies are firmly rooted in the physical world, and the interfaces we create should reflect that.">
+  <meta name="author" content="Boris Smus">
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -173,7 +174,7 @@ don't actually get scaled, but the closest one gets served based on the
 device DPI. This means that it's impossible to create assets in an exact
 physical size. Here's an excerpt from the <a href="http://developer.android.com/guide/practices/screens_support.html">Android docs</a>:</p>
 
-<p><img src="android-dpi.png" alt="Android assets and device DPI" /></p>
+<p><img src="/physical-units/android-dpi.png" alt="Android assets and device DPI" /></p>
 
 <p>On the web, you can't realistically hope for pixel perfection because of
 the vast variety of devices and browsers. Designers need to embrace the
@@ -236,7 +237,7 @@ exact across the supported devices.</p>
 <p>Here's a screenshot of a <a href="http://borismus.github.com/physical-units/sample.html">basic phone UI</a> built with only physical
 units and percentages on an iPhone 4S and Galaxy Nexus:</p>
 
-<p><img src="android-ios-physical.png" alt="Phones with a UI built using physical units" /></p>
+<p><img src="/physical-units/android-ios-physical.png" alt="Phones with a UI built using physical units" /></p>
 
 <h3>Implementation details</h3>
 

@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-03-06T12:32:59-00:00</updated>
+  <updated>2017-05-26T17:49:25-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -1766,6 +1766,79 @@ experiment comes to mind:</p>
   </entry>
   
   <entry>
+    <title>Building 3D augmented reality markers</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/cubic-markers-diy"/>
+    
+    <updated>2016-05-15T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/cubic-markers-diy</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <h1>Outline</h1>
+
+<ul>
+<li>Motivating the problem: Daqri Elements 4D</li>
+</ul>
+
+<p>Augmented reality (AR) markers are typically ugly black and white 2D printouts
+that serve as placeholders for 3D objects when viewed through an AR display.
+Immediately, we see a mismatch: a 2D marker represents what is actually supposed
+to be a 3D object. Suppose you want to move an virtual horse that is projected
+onto such a marker. Reaching for it, your hand would move through thin air.
+There is no 3D object to interact with. Instead, you have to find the 2D paper
+and move it.</p>
+
+<p>Real world objects have incredible tactile richness. As you pick it up, you
+immediately feel its weight, texture, rigidity, temperature, etc. Depending on
+the object, you can also manipulate it in interesting ways too. Even a simple 3D
+object like a die can be rolled or placed on any side. There are some examples
+of 3D AR markers. Daqri Elements 4D is a nice one. In their application, each
+side of a cubic marker represents an element. Looking at the marker in AR, you
+can see the element rendered inside the marker. Bringing two cubes together
+causes the elements to react, and the resulting compound is rendered inside each
+marker. </p>
+
+<p>This tactile learning is really powerful. You manipulate the cubes: deciding
+which elements should react by picking the faces and bringing the cubes
+together. That's it! No on-screen manipulation at all. It's a very satisfying
+experience even without access to AR glasses.</p>
+
+<ul>
+<li>Problems with their cross approach
+<ul>
+<li>Problem: cutting is annoying</li>
+<li>Problem: gluing is annoying</li>
+</ul></li>
+</ul>
+
+<p>As far as I can tell, Elements 4D started as a kickstarter, where they were
+selling wooden cubes as a kit. At this point, I don't think these are available
+anymore, and they have a new approach. You print, cut and glue their AR
+markers together.</p>
+
+<p>TODO: Why is this annoying?</p>
+
+<ul>
+<li><p>Approach 1: single folding</p>
+
+<ul>
+<li>Problem: can't print full bleed</li>
+<li>Problem: the actual fold is challenging</li>
+</ul></li>
+<li><p>Approach 2: legos</p></li>
+<li>Approach 3: magnetic sheets</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Three approaches to VR lens distortion</title>
     <author><name>Boris Smus</name></author>
     <link href="/vr-lens-distortion"/>
@@ -3148,6 +3221,229 @@ publications.</p>
 using a conductive button which brings your body's capacitance to the screen,
 similar to how a touch stylus works. It's cheaper without them, and the new
 input works well, but I'll definitely miss the magnets!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>PhotoVRSE: hyper photospheres</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/photovrse-hyper-photospheres"/>
+    
+    <updated>2015-06-30T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/photovrse-hyper-photospheres</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Today's web is still fundamentally a series of interlinked hypertext
+documents. But web pages in virtual reality are as out of place as a
+terminal emulator windows in a graphical user interface. Both are windows
+into a very different world. So what is the hypertext equivalent for
+Virtual Reality?</p>
+
+<!--more-->
+
+<h2>Photosphere as primitive</h2>
+
+<p>The screens we interact with are fantastic at rendering text.  And, a
+lot of the time you spend on your devices is spent reading: emailing,
+texting and chatting, reading ebooks, blogs, the news.  Of course, the
+web allows for a much richer media experience through embedded content,
+that's the "hyper" part of hypertext (more on that later). Even though
+it's hyper, it's still mostly just text!</p>
+
+<p>While you're reading this post on your device, you are immersed in text.
+But turn off your screen and step outside (really, I recommend it), and
+you'll see that text is a very small part of what you see. Our goal here is
+to create something that is fitting for virtual <strong>reality</strong>, so we need
+something that better represents the real world. Text cannot be the
+underlying substrate.</p>
+
+<p>What, then, is the "minimum viable" substrate for virtual reality? How
+about the photosphere! Rather than text pages, the basis of a VR web
+page can be a photosphere of absolutely anything. It might be something
+that is captured <a href="https://itunes.apple.com/us/app/photo-sphere-camera/id904418768?mt=8">using your smartphone</a>, like one I
+took at an <a href="http://photovrse.com/?url=http://photovrse.com/examples/anechoic.vrse">Anechoic Chamber</a> at Google, or using
+specialized hardware like the <a href="https://theta360.com/en/">Ricoh Theta</a>, which I took inside
+my <a href="http://photovrse.com/?url=http://photovrse.com/examples/car.vrse">amazing car</a>. It might even be something from a virtual
+environment like these <a href="http://photovrse.com/?url=http://photovrse.com/examples/tiled.vrse">in-game photospheres</a>.</p>
+
+<p>Add a separate image for your other eye, and you have a stereo
+photosphere suitable for consumption in VR. Animate the image and
+suddenly you are in a stereo 360 videosphere.</p>
+
+<h2>Hyper-photospheres</h2>
+
+<p>Just like text, the photosphere can be enriched with other types of
+media on top: images, video, audio, and even textual annotations. This
+mars photosphere has several images embedded in it:</p>
+
+<p><a href="http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse"><img src="/photovrse-hyper-photospheres/annotated.jpg" alt="An annotated
+photosphere" /></a></p>
+
+<h2>This is what makes the web great</h2>
+
+<p>Just like hypertext, hyper-photospheres can enjoy all of the benefits of
+the web. You can link from one photosphere to other places in the
+photovrse. You can also embed photospheres in regular pages, as in this
+example:</p>
+
+<p><a href="http://photovrse.com/embed"><img src="/photovrse-hyper-photospheres/embed.jpg" alt="A mars photosphere embedded inside a fake New York Times article" /></a></p>
+
+<p>Last but not least, thanks to <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, you can view these
+photospheres on any device. It works on desktop, with or without an
+Oculus Rift, on mobile in a magic window by default, or in VR if you
+have a Cardboard headset. Both Android and iOS are supported.</p>
+
+<h2>The photovrse prototype</h2>
+
+<p>All of the photospheres mentioned above were shown using PhotoVRSE, a
+hyper-photosphere browser implemented using WebGL. Project is <a href="https://github.com/borismus/photovrse">hosted on
+GitHub</a>.</p>
+
+<p>Each photosphere is represented as JSON, in a <code>.vrse</code> file. You can make
+your own hyper photosphere by just creating and hosting a <code>.vrse</code> file
+anywhere on the web. Here are the contents of an example
+file hosted at <a href="http://photovrse.com/examples/mars.vrse">http://photovrse.com/examples/mars.vrse</a>. To render this
+or any other vrse file, open it using the photovrse renderer at
+<a href="http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse">http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse</a>.</p>
+
+<pre><code>{
+  "title": "Mars",
+  "image": "examples/mars/mars.jpg",
+  "preview": "examples/mars/preview.jpg",
+  "isStereo": false,
+  "audio": "examples/mars/dawn_chorus.mp3",
+  "labels": [{
+    "phi": 2.36,
+    "theta": 0.25,
+    "image": "examples/mars/mars_olympus.jpg",
+    "title": "Olympus Mons"
+  }, {
+    "phi": 0.61,
+    "theta": -0.11,
+    "image": "examples/mars/mars_rover.jpg",
+    "title": "The Opportunity Rover"
+  }]
+}
+</code></pre>
+
+<p>Here you see some basic metadata about the photosphere: its title, the
+preview image URL and the full URL, whether or not it's stereo, and all
+of the labels, their content and titles. This photosphere also contains
+a musical loop of ambient sound.</p>
+
+<h2>Label types</h2>
+
+<p>Each label has several mandatory fields: two euler angles in radians
+(<code>phi</code> and <code>theta</code>), a <code>title</code> description of the scene, and the content
+that it points to. These labels are rendered as distinct green markers,
+and on desktop, can be interacted by clicking on them. In general,
+however, clicking may not be available, so they can be activated by
+gazing at them for a prolonged period.</p>
+
+<p>The following label types are currently supported:</p>
+
+<p><strong>Image labels</strong> show an image overlay.</p>
+
+<pre><code>{
+  "phi": 0.61,
+  "theta": -0.11,
+  "image": "examples/mars_rover.jpg",
+  "title": "The Opportunity Rover"
+}
+</code></pre>
+
+<p><strong>Link labels</strong> take you to a different photosphere.</p>
+
+<pre><code>{
+  "href": "http://photovrse.com/examples/video.vrse",
+  "phi": 0,
+  "theta": 1
+}
+</code></pre>
+
+<p><strong>Back labels</strong> take you back to the previous photosphere. The following
+example makes a back link on the floor directly below you.</p>
+
+<pre><code>{
+  "back": true
+  "phi": 0,
+  "theta": -1.5708
+}
+</code></pre>
+
+<h2>Textures, server-side tiling, stereo and video</h2>
+
+<p>Photospheres are usually huge files, both in bytes and in dimensions. A
+typical one generated by the Google Photosphere camera is 5 MB and 7168
+x 3584. This presents certain challenges on the web. To view the
+photosphere in situ, these large images serve as textures that are
+projected onto a sphere.</p>
+
+<p><strong>Previews</strong>: Loading a 5MB file takes some time, so photovrse lets you
+provide a smaller, lower quality preview image which can be loaded
+quickly.</p>
+
+<p><strong>Texture sizing</strong>: In general, 3D graphics environments have
+texture size limits. In WebGL, this size limit can be extracted
+programatically, like this:</p>
+
+<pre><code>var gl = canvas.getContext('webgl');
+this.maxTextureSize = gl.getParameter(gl.MAX_TEXTURE_SIZE);
+</code></pre>
+
+<p>Using very large textures is often problematic, though, and leads to
+strange artifacts especially in my testing on iOS. On Android too, I've
+found (empirically) that they slow things down. It seems faster to split
+textures into chunks using a canvas (see <a href="https://github.com/borismus/photovrse/blob/master/js/image-util.js">ImageUtil</a>) and then load
+them into <a href="https://en.wikipedia.org/wiki/Spherical_trigonometry">spherical triangles</a>. I currently split all textures into
+tiles of 1024 x 1024, which seems to do pretty well.</p>
+
+<p>For optimal mipmapping, texture sizes should be a power-of-two, which
+means that it's often better to resize the original images to that size.</p>
+
+<p><strong>Server tiling</strong> But chunking images is hard work. Especially if you're
+a smartphone. Ideally, we should be able to do this work elsewhere!
+I've provided a <a href="https://github.com/borismus/photovrse/tree/master/scripts/tile_image.sh">script to split an image into tiles</a> to do
+this. Also, photovrse supports tiled images with the following changes
+in the <code>.vrse</code> file:</p>
+
+<pre><code>{
+  "image": "examples/tiled",
+  "isTiled": true,
+  "tileDimensions": [4, 8],
+}
+</code></pre>
+
+<p>Rather than providing a .jpg, you provide a directory which contains
+multiple images (in this case 4x8 = 32) in the format
+<code>tile_{{row}}_{{column}}.jpg</code>.</p>
+
+<p><strong>Stereo</strong> By convention (there's not much of it yet), stereo
+photospheres are stored stacked, with the <a href="http://photovrse.com/examples/stereo/tasha-stereo-2048.jpg">left eye image on top of the
+right</a> one. The one test video I saw had the left
+rectilinear video on the left, and the right one on the right. It's a
+matter of convention and doesn't really matter, but this is the way
+photovrse handles it.</p>
+
+<p><strong>Stereo video in iOS</strong> Unfortunately iOS <a href="http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas">doesn't support video
+textures</a>, since Safari forces all <code>&lt;video&gt;</code> elements into a
+separate native view. So, no stereo video for iOS users yet.</p>
+
+<h2>Visitor gaze tracking</h2>
+
+<p>For prototyping purposes, I've been using Firebase for hosting the
+metadata JSON of a photosphere. Of course, the real point of Firebase is
+real-time updates, and if multiple people are present in the same
+photosphere, we can show where everyone is looking in real time:</p>
+
+<p><img src="/photovrse-hyper-photospheres/visitors.jpg" alt="Multiple visitors looking around" /></p>
 
 
         
@@ -8785,295 +9081,6 @@ perspective, both in the options page and in a browser action:</p>
 <p>If you support developers on Stack Overflow, please <a href="https://chrome.google.com/webstore/detail/bnnkhapbhkejookmhgpgaikfdoegkmdp">install it</a>,
 give me constructive feedback and consider monitoring the
 <a href="http://stackoverflow.com/questions/tagged/google-chrome-extension">google-chrome-extension</a> tag :)</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>UIST 2011 greatest hits</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/uist-2011"/>
-    
-    <updated>2011-10-20T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/uist-2011</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I went to UIST 2011 in Santa Barbara and presented our research on
-<a href="http://crowdforge.com">CrowdForge</a>.</p>
-
-<p>Here's a sample of some of the great work that was presented this year, in the
-3 research areas that interest me most: crowdsourcing/human computation,
-mobile physical computing, and music.<!--more--></p>
-
-<h1>Crowdsourcing</h1>
-
-<p>Notable work in both workflow-oriented approaches (Jabberwocky, CrowdForge,
-PlateMate) and synchronous collaborative approaches (Crowds in seconds,
-Collabode, Real-time).</p>
-
-<h3>PlateMate</h3>
-
-<ul>
-<li>Presents a workflow-based crowdsourcing nutritional analysis from food
-photographs.</li>
-<li>Implemented in Django/Python, same as CrowdForge</li>
-<li>Found out about CrowdForge 90% of the way into the research.</li>
-</ul>
-
-<p><img src="http://crowdresearch.org/blog/wp-content/uploads/2011/09/dinner.jpg" alt="platemate" /></p>
-
-<h3>Real-time crowd control</h3>
-
-<ul>
-<li>Nice research from Jeff Bigham's group.</li>
-<li>Compares different strategies of merging input from different users.</li>
-<li>Reminded me of my <a href="/android-powered-mindstorms">twitter mindstorms project</a>.</li>
-</ul>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/P_Tqn-3BF_I" frameborder="0" allowfullscreen></iframe>
-
-<h3>Crowds in two seconds</h3>
-
-<ul>
-<li>Great research from MIT crowdsourcing folks (Michael Bernstein, Rob Miller)</li>
-<li>Retainer: keep workers "on tap" - ready to work by paying $0.30/hour.</li>
-<li>Rapid refinement: crowd algorithm to narrow search space to accelerate.</li>
-<li>Cool application: take movies, crowdsource the best moment.</li>
-</ul>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9IICXFUP6MM" frameborder="0" allowfullscreen></iframe>
-
-<h3>The Jabberwocky programming environment</h3>
-
-<ul>
-<li>Really ambitious MTurk like project.</li>
-<li>Combine different worker types from different spheres (social groups, paid workers, machines)</li>
-<li>Full runtime stack (Dog high level language, ManReduce low level language, Dormouse runtime)</li>
-<li>Great potential to mix different spheres of workers, but a rather intimidating project... scope creep!</li>
-</ul>
-
-<p>More in the <a href="http://kamvar.org/assets/papers/jabberwocky.pdf">Jabberwocky</a> paper.</p>
-
-<h3>Real-time collaborative coding in a web IDE</h3>
-
-<ul>
-<li>More awesome work from MIT (Max Goldman, Greg Little, Rob Miller)</li>
-<li>Web-based Java EtherPad editor for collaboration</li>
-<li>Main problem: others leave code in semi-working state. When to sync?</li>
-<li>Idea: automatic error-aware integration. Auto-sync code when it compiles (or - tests pass)</li>
-</ul>
-
-<p>More on the <a href="http://groups.csail.mit.edu/uid/collabode/">Collabode</a> site.</p>
-
-<h1>Mobile physical computing</h1>
-
-<p>Interesting work in mobile virtual and projected UI spaces.</p>
-
-<h3>PocketTouch</h3>
-
-<ul>
-<li>Great work from Microsoft Research to let you use your phone through fabric (while in the pocket)</li>
-<li>Since orientation in-pocket is unclear, there's an orientation setting gesture (not sold on this)</li>
-<li>Unfortunately typical front pocket jeans work rather poorly.</li>
-</ul>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/fHSDpE0kTag" frameborder="0" allowfullscreen></iframe>
-
-<h3>Multi-user Interaction with Handheld Projectors</h3>
-
-<ul>
-<li>Most projector-based systems require a fixed place. This one is fully mobile.</li>
-<li>System produces visible projection (for image) and invisible projection (for data)</li>
-<li>Camera tracks location of nearby projections</li>
-<li>Cool applications: virtual boxing, content transfer, 3D model viewing.</li>
-</ul>
-
-<p><img src="http://www.disneyresearch.com/_images/459-00B516CF.jpg" alt="concept" /></p>
-
-<p>To get a better sense of the project, take a look at <a href="http://www.disneyresearch.com/research/projects/hci_sidebyside_drp.htm">this video</a>.</p>
-
-<h3>Imaginary phone</h3>
-
-<ul>
-<li>Lets you control a mobile phone device without taking it out of your pocket.</li>
-<li>Maps iPhone controls to the palm of your hand similar to <a href="http://en.wikipedia.org/wiki/Guidonian_hand">Guidonian hand</a></li>
-<li>Touchscreen progression: fingers replaced styli. Next step: palm replaces phone (bit of a stretch)</li>
-</ul>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/aCARtauIS50" frameborder="0" allowfullscreen></iframe>
-
-<h3>OmniTouch</h3>
-
-<ul>
-<li>Shoulder mounted depth camera/projector.</li>
-<li>Works for all sorts of surfaces. Heavy math for tracking and projecting.</li>
-<li>Tracks "hover" (haven't seen this notion before) and "touch" states.</li>
-</ul>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Pz17lbjOFn8" frameborder="0" allowfullscreen></iframe>
-
-<h1>Music</h1>
-
-<p>I had the pleasure of hearing <a href="https://ccrma.stanford.edu/~ge/">Ge Wang</a> speak
-about some of his older projects, including <a href="http://www.youtube.com/watch?v=RhCJq7EAJJA">Ocarina</a>,
-<a href="http://www.youtube.com/watch?v=KetWJi0zou0">Leaf Trombone</a>, the Stanford Mobile orchestra, and others. Notably I
-hadn't really seen the <a href="http://chuck.cs.princeton.edu/doc/language/">ChucK language in action</a>, and would be
-interested in seeing if the <a href="http://www.html5rocks.com/en/tutorials/webaudio/intro/">Web Audio API</a> could support this sort of thing.
-Browser-based ChucK, anyone?</p>
-
-<p>The last piece of research that I really enjoyed was called "onNote: Playing
-printed music scores as a musical instrument". The idea here was to use OMR
-techniques for markerless tracking of sheet music using positioning and using a
-finger for pointing. The other neat application here was to support
-compositional remixing by literally cutting up sheet music and splicing it back
-together.</p>
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/fGOk16Cnq7c" frameborder="0" allowfullscreen></iframe>
-
-<p>This was my first UIST, and though I'm unlikely to have new research to submit
-for UIST 2012, I'm seriously considering going anyway, just to stay on top of
-the great work that this vibrant community generates.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Screen video capture for Chrome OS</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/screen-capture-for-chrome-os"/>
-    
-    <updated>2011-10-04T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/screen-capture-for-chrome-os</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>This post is about video capture in Chrome that doesn't rely on any
-external dependencies like Flash (no fun), NPAPI (not supported on
-Chrome OS) and Native Client (not <em>yet</em> supported on Chrome OS).</p>
-
-<p>I take screenshots all the time for bug reporting, image editing, etc.
-On OS X, this functionality is conveniently built in, and available
-through <code>Command</code> - <code>Shift</code> - <code>4</code>. As a web denizen, I find it very
-useful to auto-upload these captures to a remote server, so I wrote this
-<a href="https://github.com/borismus/screencapture-www">minimal image uploader</a> which replaces the default behavior
-on OS X to capture the screenshot, and also uploads it to a picture
-hosting service.</p>
-
-<p>Taking video capture of various UIs is also immensely useful for showing
-demonstrations, complex interactions, and subtle bugs. I recently
-re-discovered that QuickTime on OS X comes with this functionality built
-in. Prior to that I used (paid) ScreenFlow, which also has very nice
-dimension cropping and time dilation features.</p>
-
-<p>What if we're on a web-only device, such as a Chromebook running Chrome
-OS? There is a still screenshotting API, but capturing video is less
-trivial. I've released an extension that captures and play backs video
-captures inside Chrome, and also lets you share stills to Picasa (using
-the OAuth 2 <a href="http://smus.com/oauth2-chrome-extensions">extension library</a>). It's available on the
-<a href="https://chrome.google.com/webstore/detail/omahgjnmfgeeeoekegajhndkncocoofd">webstore</a>, and the source is on <a href="https://github.com/borismus/chrome-screencast">github</a>. Read on to
-learn how it works, and see how you can help.</p>
-
-<h1>Screenshots in Chrome</h1>
-
-<p>Chrome provides the <a href="http://code.google.com/chrome/extensions/tabs.html#method-captureVisibleTab"><code>captureVisibleTab</code></a> extension API for taking
-a screenshot of a tab. It requires host permissions on the page, but as
-usual the <all_urls> permission will enable the API across all pages
-(with some exceptions). A few successful extensions, such as
-<a href="http://awesomescreenshot.com/">Awesome Screenshot</a>, use this API and allow
-cropping, annotation and sharing of screen grabs.</p>
-
-<p>What if you want to capture video of a tab? Chrome provides no
-pre-existing API for this purpose, however, we can piggyback on the
-still screenshot API, executing it repeatedly from the background page
-for every frame we want to capture:</p>
-
-<pre><code>var images = [];
-var FPS = 30;
-var QUALITY = 50;
-timer = setInterval(function() {
-  chrome.tabs.captureVisibleTab(null, {quality: QUALITY},
-    function(img) {
-      images.push(img);
-    });
-}, 1000 / FPS);
-</code></pre>
-
-<p>As we capture, we store the base64-encoded strings representing video
-frames in an array. Once we're done capturing, we can simulate video
-playback by rapidly swapping the images in and out:</p>
-
-<pre><code>var background = chrome.extension.getBackgroundPage();
-timer = setInterval(function() {
-  if (currentIndex &gt;= images.length - 1) {
-    pause();
-    return;
-  }
-  setIndex(currentIndex + 1);
-  updateSliderPosition();
-}, 1000 / background.FPS);
-</code></pre>
-
-<p>This approach turns out to be surprisingly efficient, with the extension
-being able to capture at 30 FPS on a MacBook Air, and 10 FPS on a
-Chromebook without too much noticeable slowdown.</p>
-
-<p>Note that we rely on a fixed FPS for ease of implementation, however one
-could imagine using <code>requestAnimationFrame</code> and tracking the variable
-frame rate so that the playback speed is reasonable. However, there are
-definitely precision issues with JavaScript's timers, so this is a much
-more challenging approach.</p>
-
-<p>So we can capture and playback videos inside the browser, but getting it
-out of the browser is another matter entirely. As a temporary measure,
-my colleague <a href="http://greenido.wordpress.com">Ido Green</a> built a screen stitching service which
-encodes multiple images into a movie using ffmpeg. Ideally, of course,
-we would encode in the browser. Perhaps a JavaScript video encoder could
-be implemented, though the performance may be too poor for practical
-use. Alternatively, a ffmpeg Native Client-based approach might be
-suitable, especially given that ffmpeg has <a href="http://code.google.com/p/naclports/source/browse/trunk/src/libraries/ffmpeg-0.5/">already been ported</a>.</p>
-
-<h1>Free ideas</h1>
-
-<p>There are a few logical next steps for this sample. As already
-mentioned, encoding video in the browser is a top priority, but there
-are a slew of other interesting directions, some of which can be seen as
-features, and others as separate products.</p>
-
-<ul>
-<li><p>The <code>captureVisibleTab</code> API doesn't track the mouse cursor. This could
-be done by injecting an overlay onto the current page and tracking
-mousemove and click events. This data could then either be drawn onto
-a canvas context, or encoded separately as <code>mouseData</code>, and then drawn
-with JavaScript at playback time.</p></li>
-<li><p>Cropping the video dimensions, modifying the video time schedule
-(speedup, slowdown, truncation) and annotation are all desired
-video-editing class features that could be implemented by treating
-images as canvases.</p></li>
-<li><p>A compelling use case for this technology is creating screen sharing
-sessions for demos and presentations. Thus, it would be very useful to
-stream the video to a server, and broadcast it to multiple clients in
-real time. <a href="http://updates.html5rocks.com/2011/08/What-s-different-in-the-new-WebSocket-protocol">Binary websockets</a> are now available in Chrome,
-and this could be a great application.</p></li>
-<li><p>Audio annotations on screen captures make perfect sense, and are
-widely supported by desktop applications. APIs for sound capture have
-been a <a href="http://www.w3.org/2009/dap/">long time coming</a>, but finally we may have an answer
-via the <a href="http://www.webrtc.org/">WebRTC</a> ecosystem, and the <code>getUserMedia</code> call.</p></li>
-</ul>
-
-<p>By the way, I've switched to exclusively using Markdown for all of my
-published writing, and wrote an <a href="https://github.com/borismus/markdown-preview">markdown preview</a> for Chrome
-to make my life a bit easier.</p>
 
 
         

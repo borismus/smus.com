@@ -1,0 +1,16 @@
+Intro
+	Regular web is fundamentally interlinked text
+	VR web for interlinked text is possible, but boring.
+	Worse than using an unoptimized desktop site on your mobile browser.
+	VR web is fundamentally interlinked photospheres
+
+Extending
+	Regular web: it's not just text, it's /hyper/-text.
+	VR web: it's not just interlinked photospheres, it's interlinked hyperspheres?
+	Naming aside, a couple of hyper things immediately make sense.
+		Objects at (pitch, yaw).
+		They can be triggered by a dwell interaction.
+			: Looking at the object starts a timer. Looking away stops it. If you stay focused for long enough, you trigger the object.
+	Links that take you to a different photosphere.
+	Text labels that activate faster than links (since showing a label is a non-destructive action).
+	Show where others are looking.

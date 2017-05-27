@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Signal Processing Coursera | Boris Smus</title>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+
+  <meta name="description" content="https://class.coursera.org/dsp-004/     Professors Martin Vetterli &amp; Paolo Prandoni give an in-depth introduction to digital signals, filtering, etc. A caveat: I only went through the first 10 (out of 18) days of lectures, and did only some of the homework assignments.    Initially spurred on by a broad interest in music, audio, and sensor processing, this course served as a very solid theoretical foundation.  The course starts off with a very dry, theoretical exploration into Hilbert spaces, which served as an excellent reminder that I can still sort of understand and enjoy mathematics. However my somewhat pathetic mathematical abilities were stretched to their absolute limit by Vetterli's systematic barrage of theory, and I would have surely given up on day 2 if not for some of those upper year linear algebra classes (thanks UBC!).    The lecture's first focus is on  how to understand signals . Still shaky on some of the theory, the lecture delves deep into the theory of fourier analysis and the formal definition of the discrete fourier analysis and various related methods like the DTFT. The treatment of the subject is so dry, it's hard to breathe. Until as if in a sudden rainstorm, the theoretical desert can breathe again when finally they bring up examples of the STFT, which I have been using for a while for various audio-related applications at work, without knowing what it was called.    The next big subject is  transforming signals , or signal processing.  Here, the professors introduce LTIs formally, and derive the idea that an impulse response fully characterizes an LTI. Next they dive into simple filters, FIRs and IIRs, covering various types of averages, discussing filter stability and other formal properties. They try to build some intuition about filters from a frequency-domain perspective, which is very useful to me. Lastly, the subject of ideal filters is explored, as well as why such filters cannot be implemented in real life.     Finally, they discuss how to actually design filters using the z-transform, whose derivation remains somewhat mysterious to me, which is unfortunately normal for an engineering course. Prandoni gives a good interpretation for the pole-zero plot, which is a really elegant way of looking at filters. The lecture turns practical for a brief moment, when they reveal that implementations already exist for non-ideal versions of many of these filters and explore a few differences between Butterworth, Chebyshev and Elliptic low pass filters. They also talk about FIRs, and I finally understand the jargon of 'taps', which I just heard about at a lecture held at Noisebridge.    I still struggle to convert block diagrams into equations, but feel like I have a much better sense of second order IIRs that ship with the Web Audio API. Overall a mathematically challenging, but interesting class.  I really wish there was a better way to build intuition for a lot of the theory, though.">
+  <meta name="author" content="Boris Smus">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link
+  href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/build/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="http://feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/inspiration/' >Clippings</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/books/digital-signal-processing-coursera'><h1 class='title'>Digital Signal Processing Coursera</h1></a>
+    <div class='body'>
+      <p><a href="https://class.coursera.org/dsp-004/">https://class.coursera.org/dsp-004/</a></p>
+
+<p>Professors Martin Vetterli &amp; Paolo Prandoni give an in-depth introduction to
+digital signals, filtering, etc. A caveat: I only went through the first 10 (out
+of 18) days of lectures, and did only some of the homework assignments.</p>
+
+<p>Initially spurred on by a broad interest in music, audio, and sensor processing,
+this course served as a very solid theoretical foundation.  The course starts
+off with a very dry, theoretical exploration into Hilbert spaces, which served
+as an excellent reminder that I can still sort of understand and enjoy
+mathematics. However my somewhat pathetic mathematical abilities were stretched
+to their absolute limit by Vetterli's systematic barrage of theory, and I would
+have surely given up on day 2 if not for some of those upper year linear algebra
+classes (thanks UBC!).</p>
+
+<p>The lecture's first focus is on <strong>how to understand signals</strong>. Still shaky on
+some of the theory, the lecture delves deep into the theory of fourier analysis
+and the formal definition of the discrete fourier analysis and various related
+methods like the DTFT. The treatment of the subject is so dry, it's hard to
+breathe. Until as if in a sudden rainstorm, the theoretical desert can breathe
+again when finally they bring up examples of the STFT, which I have been using
+for a while for various audio-related applications at work, without knowing what
+it was called.</p>
+
+<p>The next big subject is <strong>transforming signals</strong>, or signal processing.  Here,
+the professors introduce LTIs formally, and derive the idea that an impulse
+response fully characterizes an LTI. Next they dive into simple filters, FIRs
+and IIRs, covering various types of averages, discussing filter stability and
+other formal properties. They try to build some intuition about filters from a
+frequency-domain perspective, which is very useful to me. Lastly, the subject of
+ideal filters is explored, as well as why such filters cannot be implemented in
+real life. </p>
+
+<p>Finally, they discuss how to actually design filters using the z-transform,
+whose derivation remains somewhat mysterious to me, which is unfortunately
+normal for an engineering course. Prandoni gives a good interpretation for the
+pole-zero plot, which is a really elegant way of looking at filters. The lecture
+turns practical for a brief moment, when they reveal that implementations
+already exist for non-ideal versions of many of these filters and explore a few
+differences between Butterworth, Chebyshev and Elliptic low pass filters. They
+also talk about FIRs, and I finally understand the jargon of 'taps', which I
+just heard about at a lecture held at Noisebridge.</p>
+
+<p>I still struggle to convert block diagrams into equations, but feel like I have
+a much better sense of second order IIRs that ship with the Web Audio API.
+Overall a mathematically challenging, but interesting class.  I really wish
+there was a better way to build intuition for a lot of the theory, though.</p>
+
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>July 2015</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2008–2017 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='http://feeds.feedburner.com/smuscom'>RSS</a>
+    <a href='http://twitter.com/borismus'>Twitter</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<script>
+  // Syntax highlighting for code.
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<script>
+  // Google Analytics.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17930798-22', 'smus.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<script src="/lightning_error.js"></script>
+
+</body>
+</html>

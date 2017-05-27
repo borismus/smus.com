@@ -6,7 +6,8 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
-  <meta name="description" content="  Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.     Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:      No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.      I'll look at each in a bit of detail, and then show you  pointer.js .    ">
+  <meta name="description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.     Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:      No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.      I'll look at each in a bit of detail, and then show you  pointer.js .">
+  <meta name="author" content="Boris Smus">
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -124,21 +125,21 @@ something as simple as a button <a href="http://code.google.com/mobile/articles/
 Implementing more complex gesture recognizers on top of the primitive
 <code>touch*</code> events is even less trivial.</p>
 
-<p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
+<p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html/mouse-touch-pointer/#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
 the rescue to address the lack of gestures, however these both have
 problems. Sencha comes as a complete package, and it's impossible to use
 their gesture recognizer without using their whole framework (or
 spending considerable effort trying to pull it out). Hammer.js, on the
 other hand, doesn't actually implement gesture recognition for
 pinchzoom, but instead relies on the touch spec providing non-standard
-<code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
+<code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari//mouse-touch-pointer/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html/mouse-touch-pointer/#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
 
 <p>Microsoft has a gesture layer on top of their consolidated pointer
 model. This makes sense as an approach to take. True, certain gestures
 only make sense for touch, and it's easy to distinguish the input type
 using the <code>event.pointerType</code> API. That said, with a unified model,
 there can be new gestures that span multiple input modalities, like
-<a href="#">this research</a> suggests.</p>
+<a href="/mouse-touch-pointer/#">this research</a> suggests.</p>
 
 <h2>Pointer.js - A solution to both problems</h2>
 
@@ -148,7 +149,7 @@ useful, and have browsers and spec implement it natively. Once this
 is spec'ed, approved, and widely implemented, it should just be a matter
 of removing the script tag!</p>
 
-<p><img src="pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
+<p><img src="/mouse-touch-pointer/pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
 
 <p>Pointer.js consolidates pointer-like input models across browsers and
 devices. It provides the following:</p>

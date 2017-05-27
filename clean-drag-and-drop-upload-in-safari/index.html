@@ -6,7 +6,8 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
-  <meta name="description" content=" A how-to about implementing file drag and drop from the desktop into Safari, and presenting the user with a nice UI.  ">
+  <meta name="description" content="A how-to about implementing file drag and drop from the desktop into Safari, and presenting the user with a nice UI.">
+  <meta name="author" content="Boris Smus">
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -58,14 +59,14 @@ provide drag-and-drop uploading without ugly boxes or browser dialogs.
 The solution I came up with involves hiding the file upload box entirely
 by setting its opacity to 0, and then preventing the default action on
 click via <code>event.preventDefault()</code>. Here's a sample of what I mean, with
-the entire browser window <a href="drag-drop-upload.html">converted into a drag area</a>. </p>
+the entire browser window <a href="/clean-drag-and-drop-upload-in-safari//clean-drag-and-drop-upload-in-safari/drag-drop-upload.html">converted into a drag area</a>. </p>
 
 <p>Note that the drag area must be the first DOM element to receive the drop event
 for this approach to work. Unfortunately I ran into a bug where the file dialog
 refuses to bubble click events to other elements below it. This is baffling to
 me, since <code>event.preventDefault()</code> should not stop event propagation, but only
 prevent the default browser handler from being called. You can see what I mean
-by trying to click the link in the <a href="drag-drop-upload.html">sample HTML</a>
+by trying to click the link in the <a href="/clean-drag-and-drop-upload-in-safari//clean-drag-and-drop-upload-in-safari/drag-drop-upload.html">sample HTML</a>
 file. If this is not a bug, and someone has an answer, I would really
 appreciate it.</p>
 
