@@ -6,7 +6,7 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
-  <meta name="description" content="Lightning is awesome for long form content because it lets you gather all of the assets you want to include in your post together in one directory, place it alongside the markdown  index.md , and put the content out there in a single bundle. But it does not work well for short form content, since it requires a bunch of up-front effort:       New posts go to  content/posts/2017/how-to-fix-the-world . This involves navigating to the right place, recalling the current year (!) and deciding on the slug for the post.     Creation of the  index.md  file and then specifying the somewhat redundant human-readable title and the posted date:     How to Fix the World === posted: May 28, 2017  Listen to me, I have the answers.         Then, after writing the post, the title will inevitably have changed, so I typically have to rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.    Split markdown pages    My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means one markdown results in multiple HTML pages. This is the conceptual inverse of  MultiMarkdown transclusion , which lets you create extra long articles from multiple markdown files. I've also refactored  Lightning  into classes, making it easier to add features in the future.    Split markdown files power two new sections on  http://smus.com : a  book reviews section , and a  notes section . I'm hoping that this will encourage me to write shorter, more focused posts with increasing frequency. To give a sense of what these split markdown files look like, take a look at the  notes markdown .">
+  <meta name="description" content="Lightning  is awesome for long form content because it lets you gather all of the assets you want to include in your post together in one directory, place it alongside the markdown  index.md , and put the content out there in a single bundle. But it does not work well for short form content, since it requires a bunch of up-front effort:       New posts go to  content/posts/2017/how-to-fix-the-world . This involves navigating to the right place, recalling the current year (!) and deciding on the slug for the post.     Creation of the  index.md  file and then specifying the somewhat redundant human-readable title and the posted date:     How to Fix the World === posted: May 28, 2017  Listen to me, I have the answers.         Then, after writing the post, the title will inevitably have changed, so I typically have to rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.    Split markdown pages    My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means one markdown results in multiple HTML pages. This is the conceptual inverse of  MultiMarkdown transclusion , which lets you create extra long articles from multiple markdown files. I've also refactored  Lightning  into classes, making it easier to add features in the future.    Split markdown files power two new sections on  http://smus.com : a  book reviews section , and a  notes section . I'm hoping that this will encourage me to write shorter, more focused posts with increasing frequency. To give a sense of what these split markdown files look like, take a look at the  notes markdown .">
   <meta name="author" content="Boris Smus">
 
   <!-- Icons -->
@@ -39,11 +39,11 @@
   <article>
     <a href='/notes/2017/short-posts-using-split-markdown-pages/'><h1 class='title'>Short posts using split markdown pages</h1></a>
     <div class='body'>
-      <p>Lightning is awesome for long form content because it lets you gather all of the
-assets you want to include in your post together in one directory, place it
-alongside the markdown <code>index.md</code>, and put the content out there in a single
-bundle. But it does not work well for short form content, since it requires
-a bunch of up-front effort:</p>
+      <p><a href="https://github.com/borismus/lightning">Lightning</a> is awesome for long form content because it lets you
+gather all of the assets you want to include in your post together in one
+directory, place it alongside the markdown <code>index.md</code>, and put the content out
+there in a single bundle. But it does not work well for short form content,
+since it requires a bunch of up-front effort:</p>
 
 <ol>
 <li><p>New posts go to <code>content/posts/2017/how-to-fix-the-world</code>. This involves

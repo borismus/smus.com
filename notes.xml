@@ -5,7 +5,7 @@
   <title>Boris Smus (Notes)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-05-28T16:42:19-00:00</updated>
+  <updated>2017-05-28T16:45:28-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -19,11 +19,11 @@
     <content type="html">
       <![CDATA[
       <div>
-        <p>Lightning is awesome for long form content because it lets you gather all of the
-assets you want to include in your post together in one directory, place it
-alongside the markdown <code>index.md</code>, and put the content out there in a single
-bundle. But it does not work well for short form content, since it requires
-a bunch of up-front effort:</p>
+        <p><a href="https://github.com/borismus/lightning">Lightning</a> is awesome for long form content because it lets you
+gather all of the assets you want to include in your post together in one
+directory, place it alongside the markdown <code>index.md</code>, and put the content out
+there in a single bundle. But it does not work well for short form content,
+since it requires a bunch of up-front effort:</p>
 
 <ol>
 <li><p>New posts go to <code>content/posts/2017/how-to-fix-the-world</code>. This involves
