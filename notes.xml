@@ -5,32 +5,29 @@
   <title>Boris Smus (Notes)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-05-28T16:45:28-00:00</updated>
+  <updated>2017-05-28T17:00:37-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
-    <title>Short posts using split markdown pages</title>
+    <title>Short posts using split Markdown</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/short-posts-using-split-markdown-pages/"/>
+    <link href="/notes/2017/short-posts-using-split-markdown/"/>
     
     <updated>2017-05-28T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/short-posts-using-split-markdown-pages/</id>
+    <id>http://smus.com/notes/2017/short-posts-using-split-markdown/</id>
     <content type="html">
       <![CDATA[
       <div>
-        <p><a href="https://github.com/borismus/lightning">Lightning</a> is awesome for long form content because it lets you
-gather all of the assets you want to include in your post together in one
-directory, place it alongside the markdown <code>index.md</code>, and put the content out
-there in a single bundle. But it does not work well for short form content,
-since it requires a bunch of up-front effort:</p>
+        <p><a href="https://github.com/borismus/lightning">Lightning</a>, the static blog generator that powers this site, is
+awesome for long form content. But it does not work well for short form content,
+since creating each post requires a bunch of up-front effort:</p>
 
 <ol>
-<li><p>New posts go to <code>content/posts/2017/how-to-fix-the-world</code>. This involves
-navigating to the right place, recalling the current year (!) and deciding on
-the slug for the post.</p></li>
-<li><p>Creation of the <code>index.md</code> file and then specifying the somewhat redundant
-human-readable title and the posted date:</p>
+<li><p>I navigate to the right place, recalling the current year (!) and deciding on
+the slug for the post (eg. <code>content/posts/2017/how-to-fix-the-world</code>).</p></li>
+<li><p>I manually create the <code>index.md</code> file and then specify the redundant
+human-readable title and the posted date within it:</p>
 
 <pre><code>How to Fix the World
 ===
@@ -40,26 +37,28 @@ Listen to me, I have the answers.
 </code></pre></li>
 </ol>
 
-<p>Then, after writing the post, the title will inevitably have changed, so I
-typically have to rename the slug to match: <code>mv how-to-fix-the-world
-how-to-slightly-improve-the-world</code>. Finally I publish and tweet, and hopefully
-the world becomes infinitesimally better.</p>
+<p>After writing the post, the title will inevitably have changed, so I rename the
+slug to match: <code>mv how-to-fix-the-world how-to-slightly-improve-the-world</code>.
+Finally I publish and tweet, and hopefully the world becomes infinitesimally
+better.</p>
+
+<p>I once tried to <a href="/easier-link-blogging/">make it easier to keep a lightning-style link blog</a>, but
+ended up scrapping the solution because it was buggy and required a Mac.</p>
 
 <h2>Split markdown pages</h2>
 
 <p>My aim was to remove the up-front costs I described above. Appending to the top
 of an existing file and having the engine automatically generate a slug based on
-the title seemed like the right approach. This means one markdown results in
-multiple HTML pages. This is the conceptual inverse of <a href="http://fletcher.github.io/MultiMarkdown-5/transclusion.html">MultiMarkdown
-transclusion</a>, which lets you create extra long articles from multiple
-markdown files. I've also refactored <a href="https://github.com/borismus/lightning">Lightning</a> into classes, making
-it easier to add features in the future.</p>
+the title seemed like the right approach. This means that one markdown file
+results in multiple HTML pages. The latest <a href="https://github.com/borismus/lightning">Lightning</a> has been
+updated with split markdown files, and refactored into classes, making it easier
+to add features in the future. To give a sense of what these split markdown
+files look like, take a look at <a href="https://github.com/borismus/smus.com/blob/master/notes_all.md">this file</a>.</p>
 
-<p>Split markdown files power two new sections on <a href="http://smus.com">http://smus.com</a>: a <a href="/books">book
-reviews section</a>, and a <a href="/notes">notes section</a>. I'm hoping that this will
-encourage me to write shorter, more focused posts with increasing frequency. To
-give a sense of what these split markdown files look like, take a look at the
-<a href="https://github.com/borismus/smus.com/blob/master/notes_all.md">notes markdown</a>.</p>
+<p>Split markdown files power two new sections on this site: a <a href="/books">book
+reviews section</a>, and a <a href="/notes">notes section</a>. I'm hoping that this
+added convenience will encourage me to write shorter, more focused posts with
+increasing frequency.</p>
 
 
         
