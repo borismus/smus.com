@@ -204,9 +204,9 @@ article .readmore:hover {
 }
 
 article blockquote {
-  margin-left: 2rem;
-  font-size: 1.25rem;
-  opacity: 0.8;
+  margin: 2rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
   font-style: italic;
 }
 
