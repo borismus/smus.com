@@ -5,7 +5,7 @@
   <title>Boris Smus (Books)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-06-07T18:58:41-00:00</updated>
+  <updated>2017-06-14T14:13:42-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -13,7 +13,7 @@
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-07T09:00:00-00:00</updated>
+    <updated>2017-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -234,11 +234,102 @@ paper ended, so had to finish reading the last page online.</p>
   </entry>
   
   <entry>
+    <title>On Tyranny</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/on-tyranny"/>
+    
+    <updated>2017-06-13T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/on-tyranny</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
+
+<p>Structured as a strange combination of trends that lead to tyranny and general
+life tips. Dangerous trends include the destruction of institutions and
+paramilitary rule. As for life tips, the author suggests reading more books and
+longer articles, donating to charities, and having more conversations in person,
+and remaining calm in the face of terror. </p>
+
+<p>The last point I think is a good one and I agree that there is good reason to be
+deeply concerned about the political impact of a major terror attack on US soil. </p>
+
+<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
+like this one are overly didactic:</p>
+
+<blockquote>
+  <p>What is patriotism? Let us begin with what patriotism is not. It is not
+  patriotic to dodge the draft and to mock war heroes and their families. It is
+  not patriotic to discriminate against active-duty members of the armed forces
+  in one's companies or to campaign to keep disabled veterans away from one's
+  property. It is not patriotic to ... (etc)</p>
+</blockquote>
+
+<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
+the last 6 months. And it continues for a page and a half. A thought flashed
+across my mind: how is this better than reading Twitter?</p>
+
+<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
+He then normalizes extremist terror as just another thing by claiming that those
+resisting fascists and communist regimes were also billed extremists (therefore
+what?). He plays with words, uncharitably redefining a "nationalist" in contrast
+to "patriot" as one "that encourages us to be the worst and the tells us we are
+the best", whereas the two words are often used interchangeably.</p>
+
+<p>The conclusion starts well written, with choice words criticizing "end of
+history" narratives that helped get us here. But ends in conspiratorial hand
+wringing.</p>
+
+<p>In liberal cities like Seattle, the opposition is the majority and there are no
+signs that things will flip any time soon. Most of Trump's policies are
+signaling and most of them are counteracted with opposition signaling. He is an
+awful leader for this country and I'm ashamed of his words and actions. But as
+for actual policy changes or prosecution of specific people, he has (so far)
+been stopped at every turn. I agree that these are unusual times, and that extra
+vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
+a classic case of crying wolf. I find it hard to believe that it will stand the
+test of time. </p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Great Gatsby</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/great-gatsby"/>
+    
+    <updated>2017-06-10T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/great-gatsby</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
+that are so fantastically well off.  Very unsympathetic characters throughout,
+except for the narrator. </p>
+
+<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
+parties, loose connections, endless networking and small talk.  There is a
+certain aimlessness to it that I found very relatable.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-07T09:00:00-00:00</updated>
+    <updated>2017-05-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -281,7 +372,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-07T09:00:00-00:00</updated>
+    <updated>2017-05-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -476,7 +567,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-07T09:00:00-00:00</updated>
+    <updated>2017-05-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -541,7 +632,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-07T09:00:00-00:00</updated>
+    <updated>2017-04-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -635,7 +726,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-07T09:00:00-00:00</updated>
+    <updated>2017-03-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -685,7 +776,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-07T09:00:00-00:00</updated>
+    <updated>2017-03-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -722,7 +813,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-07T09:00:00-00:00</updated>
+    <updated>2017-02-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -790,7 +881,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-07T09:00:00-00:00</updated>
+    <updated>2017-02-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -818,7 +909,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-07T09:00:00-00:00</updated>
+    <updated>2017-01-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -879,7 +970,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-07T09:00:00-00:00</updated>
+    <updated>2017-01-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -914,7 +1005,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-07T09:00:00-00:00</updated>
+    <updated>2017-01-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -981,7 +1072,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-07T09:00:00-00:00</updated>
+    <updated>2016-12-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -1072,7 +1163,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-07T09:00:00-00:00</updated>
+    <updated>2016-11-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -1118,7 +1209,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-07T09:00:00-00:00</updated>
+    <updated>2016-10-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/future-babble</id>
     <content type="html">
@@ -1182,7 +1273,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-07T09:00:00-00:00</updated>
+    <updated>2016-10-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -1216,7 +1307,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-07T09:00:00-00:00</updated>
+    <updated>2016-09-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -1278,7 +1369,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-07T09:00:00-00:00</updated>
+    <updated>2016-09-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -1364,7 +1455,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-07T09:00:00-00:00</updated>
+    <updated>2016-08-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -1659,7 +1750,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-07T09:00:00-00:00</updated>
+    <updated>2016-08-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -1695,7 +1786,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-07T09:00:00-00:00</updated>
+    <updated>2016-07-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -1768,7 +1859,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-07T09:00:00-00:00</updated>
+    <updated>2016-07-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -1927,7 +2018,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-07T09:00:00-00:00</updated>
+    <updated>2016-07-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -1973,7 +2064,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-07T09:00:00-00:00</updated>
+    <updated>2016-07-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -2023,7 +2114,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-07T09:00:00-00:00</updated>
+    <updated>2016-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -2085,7 +2176,7 @@ groups I've had the pleasure of being part of:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-one-minute-manager"/>
     
-    <updated>2016-06-07T09:00:00-00:00</updated>
+    <updated>2016-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-one-minute-manager</id>
     <content type="html">
@@ -2124,7 +2215,7 @@ people. (This seems quite hard to pull off without being a dick).</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/gantenbein-by-max-frisch"/>
     
-    <updated>2016-06-07T09:00:00-00:00</updated>
+    <updated>2016-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gantenbein-by-max-frisch</id>
     <content type="html">
@@ -2170,7 +2261,7 @@ know that this is unlikely to happen.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/physics-beyond-the-edge-audio"/>
     
-    <updated>2016-06-07T09:00:00-00:00</updated>
+    <updated>2016-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/physics-beyond-the-edge-audio</id>
     <content type="html">
@@ -2249,7 +2340,7 @@ information-related profession.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/great-ideas-of-philosophy-audio"/>
     
-    <updated>2016-05-07T09:00:00-00:00</updated>
+    <updated>2016-05-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/great-ideas-of-philosophy-audio</id>
     <content type="html">
@@ -2366,7 +2457,7 @@ thought into what constitutes a good life:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-fail-at-almost-everything-by-scott-adams"/>
     
-    <updated>2016-04-07T09:00:00-00:00</updated>
+    <updated>2016-04-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-fail-at-almost-everything-by-scott-adams</id>
     <content type="html">
@@ -2407,7 +2498,7 @@ along!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/art-of-tidying-by-marie-kondo"/>
     
-    <updated>2016-04-07T09:00:00-00:00</updated>
+    <updated>2016-04-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/art-of-tidying-by-marie-kondo</id>
     <content type="html">
@@ -2445,7 +2536,7 @@ organizational method.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-moral-landscape-by-sam-harris"/>
     
-    <updated>2016-03-07T09:00:00-00:00</updated>
+    <updated>2016-03-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-moral-landscape-by-sam-harris</id>
     <content type="html">
@@ -2487,7 +2578,7 @@ The Moral Landscape.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/a-canticle-for-leibowitz-by-walter-m-miller-jr"/>
     
-    <updated>2016-02-07T09:00:00-00:00</updated>
+    <updated>2016-02-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/a-canticle-for-leibowitz-by-walter-m-miller-jr</id>
     <content type="html">
@@ -2535,7 +2626,7 @@ it still.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/in-praise-of-idleness-by-bertrand-russell"/>
     
-    <updated>2015-12-07T09:00:00-00:00</updated>
+    <updated>2015-12-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/in-praise-of-idleness-by-bertrand-russell</id>
     <content type="html">
@@ -2563,7 +2654,7 @@ today.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/gateway-by-frederik-pohl"/>
     
-    <updated>2015-12-07T09:00:00-00:00</updated>
+    <updated>2015-12-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gateway-by-frederik-pohl</id>
     <content type="html">
@@ -2608,7 +2699,7 @@ classifieds littered throughout the book.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sophies-world-by-jostein-gaardner"/>
     
-    <updated>2015-11-07T09:00:00-00:00</updated>
+    <updated>2015-11-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sophies-world-by-jostein-gaardner</id>
     <content type="html">
@@ -2647,7 +2738,7 @@ his high school philosophy class!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-united-states-and-the-middle-east-audio"/>
     
-    <updated>2015-10-07T09:00:00-00:00</updated>
+    <updated>2015-10-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-united-states-and-the-middle-east-audio</id>
     <content type="html">
@@ -2697,7 +2788,7 @@ going to 1.5x by the end, which I rarely do. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/science-and-human-values"/>
     
-    <updated>2015-09-07T09:00:00-00:00</updated>
+    <updated>2015-09-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/science-and-human-values</id>
     <content type="html">
@@ -2735,7 +2826,7 @@ could really stand to be ported into other human domains.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/thinking-fast-and-slow-by-kahnemann-tversky"/>
     
-    <updated>2015-09-07T09:00:00-00:00</updated>
+    <updated>2015-09-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/thinking-fast-and-slow-by-kahnemann-tversky</id>
     <content type="html">
@@ -2758,7 +2849,7 @@ make systematic thinking errors (deviating from "pure" rationality)..</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/skeptics-guide-to-american-history-audio"/>
     
-    <updated>2015-08-07T09:00:00-00:00</updated>
+    <updated>2015-08-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/skeptics-guide-to-american-history-audio</id>
     <content type="html">
@@ -2784,7 +2875,7 @@ for any non-American. Buy it on <a href="http://www.thegreatcourses.com/courses/
     <author><name>Boris Smus</name></author>
     <link href="/books/digital-signal-processing-coursera"/>
     
-    <updated>2015-07-07T09:00:00-00:00</updated>
+    <updated>2015-07-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/digital-signal-processing-coursera</id>
     <content type="html">
@@ -2850,7 +2941,7 @@ there was a better way to build intuition for a lot of the theory, though.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-the-secrets-of-human-perception-audio"/>
     
-    <updated>2015-06-07T09:00:00-00:00</updated>
+    <updated>2015-06-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-the-secrets-of-human-perception-audio</id>
     <content type="html">
@@ -2886,7 +2977,7 @@ totally invaluable. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/john-napier-hands"/>
     
-    <updated>2015-05-07T09:00:00-00:00</updated>
+    <updated>2015-05-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/john-napier-hands</id>
     <content type="html">
@@ -2923,7 +3014,7 @@ too brief and incomplete.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/vernor-vinge-rainbows-end"/>
     
-    <updated>2015-04-07T09:00:00-00:00</updated>
+    <updated>2015-04-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/vernor-vinge-rainbows-end</id>
     <content type="html">
@@ -2951,7 +3042,7 @@ with the old, in with the new in your face.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/blue-mind"/>
     
-    <updated>2015-03-07T09:00:00-00:00</updated>
+    <updated>2015-03-14T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/blue-mind</id>
     <content type="html">

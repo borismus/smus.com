@@ -5,8 +5,111 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-06-07T18:58:41-00:00</updated>
+  <updated>2017-06-14T14:13:42-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Climate metaquiz results</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/climate-metaquiz-results"/>
+    
+    <updated>2017-06-14T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/climate-metaquiz-results</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="/viewpoint-tolerance-through-curiosity/">Last week</a> I ran a <a href="https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSf98rBi2CgU4b62kBFmAeX989ZGZrLW74cQitDdPT7wG906Xw/viewform">Climate metaquiz</a>, and 123 people responded.
+The point of a metaquiz is to test how well political groups know the other
+side, while questions on personal beliefs and knowledge about the climate are
+secondary. Both the small sample size and potential sampling biases are
+important caveats to keep in mind here. All that said, Republicans outperformed
+Democrats on the factual part of the quiz, despite their low self-reported
+self-confidence.  However, Democrats outperformed Republicans on the <em>metaquiz</em>
+part, with Republicans tending to exaggerate levels of climate change-related
+handwringing amongst Democrats, as well as their eagerness to exaggerate the
+facts in the name of behavior change.</p>
+
+<!--more-->
+
+<p>Sanity checking, the self-reported data matches stereotypes. 60% of Republican
+test takers believe climate change is less serious than the scientific
+consensus, compared to 6% of Democrats. Democrat test takers were far more
+concerned (2.8 on a 5-point likert scale) about climate change affecting them
+personally and future generations than Republicans (1.8). Republicans were very
+skeptical about water level increases by 2100, predicting an average of less
+than 2 feet rise, while democrats were more concerned, predicting on average
+more than 3 feet.</p>
+
+<h1>Actual vs. predicted results</h1>
+
+<p>Since this was a metaquiz, the focus was not on the participants' own beliefs
+and knowledge of the climate, but their predictions about the other side. The
+reason for the first sections was only to establish a baseline. Here are the
+aggregated results. I calculate percentage error using this simple formula: <code>%
+error = (actual - predicted) / actual</code>:</p>
+
+<iframe src="https://docs.google.com/spreadsheets/d/1vvg3bjG841zwJJWIYhGLvBp40kBBAZUA_mL_tALDlj8/pubhtml
+?gid=573016866&single=false&widget=true&headers=false" style="height: 400px"></iframe>
+
+<h2>Interesting findings</h2>
+
+<p>In aggregate, participants underestimated how well the other side did on the
+quiz (total 10 points). Republicans predicted 4.84 (actual 5.9) for Democrats,
+while Democrats predicted 4.95 (actual 6.39) for Republicans. About 20% of all
+respondents thought they did better than the other side, as many thought
+that they did worse, while the rest weren't sure. One exception here are
+Republicans, who exhibited false modesty: 40% of them thought that the Democrats
+would perform better.</p>
+
+<p><strong>Exaggerating facts</strong>: Republicans thought Democrats would be much more
+comfortable exaggerating scientific facts to convince others of environmentally
+beneficial behavior change (predicted 2.9) more so than Democrats declared
+(reported 1.6). On the flip side, democrats didn't think the Republicans would
+be comfortable exaggerating scientific facts for the environment (predicted
+1.4), and they were right (reported: 1.2). It was pointed out to me that the way
+I phrased the question was quite leading: "It's okay to exaggerate scientific
+facts in order to convince others to behave in a more environmentally friendly
+way." but I'm not sure which way this would bias quiz and meta-quiz takers.</p>
+
+<p><strong>Impact of climate change</strong>: Democrats accurately predicted Republican
+lack of concern about climate change affecting them personally (reported: 1.8,
+predicted: 1.7) and future generations (reported: 2.7, predicted: 2.3).
+Republicans predicted Democrats would be slightly more concerned about the
+climate than they were both personally (reported: 2.8, predicted: 3.5) and for
+future generations (reported: 4.2, predicted: 4.5). The same trend was repeated
+when asked about water level rise by 2100. Democrats correctly predicted that
+Republicans would be conservative about future water level rises (reported: 1.8
+ft, predicted: 1.8 ft), while Republicans were way off about what Democrats
+would think (reported: 3.1 ft, predicted: 4.7 ft). This asymetry is intriguing.</p>
+
+<p>I must again caveat all of this with the fact that 123 quiz takers does not
+constitute a statistically significant sample, not to mention selection biases
+that come from posting the quiz on twitter and some rationalist forums. Still,
+it's interesting to see the consistency with which Republicans tended to
+exaggerate Democratic positions more than vice-versa. One explanation is that
+Paul Krugman was right <a href="http://cafehayek.com/2011/06/open-letter-to-paul-krugman-2.html">when he said</a> "A liberal can talk coherently
+about what the conservative view is because people like me actually do listen."
+Another explanation is that this disparity is due to the unique dynamics of
+climate change, which is a much more important issue for Democrats than for
+Republicans. It would be interesting to do more metaquizzes on other topics that
+are more balanced in perceived importantness. Perhaps the metaquiz could be
+framed as a "competition in understanding" between the two sides.</p>
+
+<p>I find the metaquiz format to be an interesting one, serving a purpose similar
+to the <a href="http://econlog.econlib.org/archives/2011/06/the_ideological.html">Ideological Turing Test</a>, but requiring less effort of everyone
+involved (ie. essay reading or writing). Thanks again to the survey takers.  If
+you left your email and are curious about how well you did on the metaquiz part,
+let me know and I'll send you your personal results.</p>
+
+<p>As always, please send me feedback on the metaquiz concept via twitter or email.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Viewpoint tolerance through curiosity</title>
@@ -9043,122 +9146,6 @@ name is great :)</p>
 
 <p>Use a similar set of frameworks? Have a personal favorite? Think I’m missing an
 important type of framework? Let me know!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Hybrid operating systems</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/hybrid-operating-systems"/>
-    
-    <updated>2011-11-28T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/hybrid-operating-systems</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've been thinking a bit about native and web applications, and how they can
-(or can't) coexist in the future. This topic has been steeping in my head for
-months now, so here is a brain dump of some of my thoughts.<!--more--></p>
-
-<h2>On hybrid apps</h2>
-
-<p>Hybrid apps embed a browser, using a web view for part of their UI.
-This is a very flexible definition for a very flexible beast. At one
-extreme are native apps that embed a Web View to render a small widget
-(written in HTML/CSS/JS) in the UI. On the other hand, you could have a
-web application that provides just a native frame around the content
-which is entirely implemented as a web app. The hybrid app spectrum
-looks something like this:</p>
-
-<pre><code>native &lt;--------------- hybrid apps ---------------&gt; web
-Mail.app                GMail for iOS              GMail
-</code></pre>
-
-<p>Pieces of the web stack have long been useful as building blocks for
-applications, but lately there has been a bloom in features under the
-HTML5 moniker. As a result, many developers are gravitating towards the
-right end of the hybrid app spectrum.</p>
-
-<p>There are several frameworks which target this niche by providing thin native
-frames, such as <a href="http://phonegap.com/">PhoneGap</a> and <a href="http://fluidapp.com/">Fluid</a>. There are three benefits to these
-frameworks, helping developers to:</p>
-
-<ol>
-<li>Make money: capitalize on AppStore and Market earnings.</li>
-<li>Use more features: get access to features not available from the web.</li>
-<li>Provide good platform-specific native integration.</li>
-</ol>
-
-<p>The first two are relatively well understood, so for the purposes of this post,
-I'm more interested in the third. Android PhoneGap apps are launched from the
-home screen, Fluid Mac apps from spotlight or your dock, etc. Then you can
-switch between these apps as if they were regular OS X applications.</p>
-
-<p>Even though the browser is a single app, it runs tons of applications
-like GMail, twitter, etc. The browser allows people to do two
-fundamentally different things: view content on the web (sites), and <em>do
-things</em>, like listen to music, play games and create documents (apps).
-For a deeper discussion on the distinctions between web apps and web
-sites, check out James Pearce's article <a href="http://tripleodeon.com/2011/09/of-sites-and-apps/">Of Sites and Apps</a>.</p>
-
-<p>A pure web application does not rely on platform-specific native code
-and runs inside the browser, but still has to rely on a native frame
-solution to reap the native integration benefit frameworks like PhoneGap
-and Fluid provide.</p>
-
-<h2>Hybrid operating systems</h2>
-
-<p>Some browsers today have an explicit notion of apps. Without the proper OS
-integration, this is confusing. Now your device (laptop, tablet, phone, tv) has
-apps, one of which is a browser, and the browser has apps too. So to launch an
-app, users have to open the browser, and then launch what they want. This
-reinforces the distinction between web and native apps in people's heads and
-makes for a very inelegant solution.</p>
-
-<p>One approach is for the OS to make the browser special in the operating system,
-allowing it also to manage installed web applications. Another approach is for
-operating systems to implement their SDKs using HTML, CSS and JavaScript, but
-with non-standard APIs specific to the platform, such as WebOS. The extreme of
-this approach is Chrome OS, where browser and OS are indistinguishable.</p>
-
-<p>Like apps, operating systems vary in how much they embrace web applications.
-Here is an interesting spectrum to think about:</p>
-
-<pre><code>web agnostic &lt;------------ hybrid OS ------------&gt; apps are webapps
-iOS           Windows 8              Web OS               Chrome OS
-</code></pre>
-
-<p>Let me define what I mean by "hybrid OS". A hybrid OS is aware of the
-presence of not just native, but also web applications, and provides
-ways of managing web apps, possibly alongside native ones. Windows 8 is an
-example of a hybrid OS, employing the new Metro UI, while also supporting
-Windows 7-style UI. Palm's Web OS, has no native mode at all (except via
-<a href="https://developer.palm.com/content/api/dev-guide/pdk/overview.html">PDK plugins</a>), and all apps are web apps (though they require the use of a
-special set of JavaScript libraries).</p>
-
-<p>Web apps today are actively used, in some cases, even <a href="http://www.readwriteweb.com/archives/financial_times_proves_html5_can_beat_native_mobil.php">surpassing</a> native
-apps in popularity. Unfortunately, users of web apps are stuck in their browser
-which is confusing and limiting, given the current landscape of native
-applications. Hybrid operating systems make explicit the idea that in the end,
-web apps are just apps.</p>
-
-<h2>Future</h2>
-
-<blockquote>
-  <p>The second goal of PhoneGap is for the project to cease to exist. This is not
-  a nihilistic sentiment... -- <a href="http://wiki.phonegap.com/w/page/46311152/apache-callback-proposal">Apache Callback Proposal</a></p>
-</blockquote>
-
-<p>My goal is for web apps to become compelling enough to force OS creators to
-hybridize their platforms. In other words, I'd like to see rightward movement
-in both the app and OS spectrums. As more hybrid operating systems emerge, we
-get closer to PhoneGap's second goal.</p>
 
 
         
