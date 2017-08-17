@@ -5,8 +5,48 @@
   <title>Boris Smus (Notes)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-07-12T10:33:30-00:00</updated>
+  <updated>2017-08-16T18:24:21-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The end of endings</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/the-end-of-endings/"/>
+    
+    <updated>2017-07-31T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/the-end-of-endings/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Despite the obnoxious title, <a href="https://a16z.com/2017/07/15/popularity-addiction-thompson-alter/">this a16z podcast</a> was unusually insightful.</p>
+
+<p>One big theme in the podcast can be summarized as an end of endings: a trend
+away from one story with a coherent, finite arc, towards something neverending.
+Amorphous TV shows like Lost, as well as Hollywood's discovery that a coherent
+franchise like Star Wars can be milked for many more dollars are examples of
+this. The stats backs it up: Hollywood moved from 10% of the hits of the 90s
+being sequels to 50% today, as can be seen in the <a href="http://www.boxofficemojo.com/yearly/">box office data</a>.
+Looking at TV shows through the same lens, each show is a one hour long movie,
+followed by tens of sequels. And successful franchises aim to immerse their fans
+(especially kids) into their universe with figurines, games, lunch boxes, bed
+sheets.</p>
+
+<p>The end of endings also shows up in user interfaces, and is epitomized by the
+infinite scroller. Millions of souls fixate on the next pretty picture, the next
+baby picture, the next outrage. Entertainment that never ends!</p>
+
+<p>This is interesting in the context of attention. In the realm of meditation, the
+challenge is to focus on something mundane, like your breath. In the realm of
+entertainment, the challenge is to snap out of an immersive world carefully
+constructed to consume your attention for as long as possible.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Intelligence, aliens, and self-improvement</title>
