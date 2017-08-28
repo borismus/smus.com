@@ -5,8 +5,77 @@
   <title>Boris Smus (Notes)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-08-16T18:24:21-00:00</updated>
+  <updated>2017-08-28T12:00:32-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>A respectful truce?</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/a-respectful-truce/"/>
+    
+    <updated>2017-08-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/a-respectful-truce/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>It's a fact that men greatly outnumber women in software engineering. As for
+why, there is a fundamental disagreement between social constructivists and
+evolutionary psychologists. </p>
+
+<p>Constructivists say that it’s because of systematic oppression against women.
+Boys in the 80s grew up with computers, learned programming and made life a
+living hell for their female classmates in CS101. <a href="http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding">Planet Money</a> has the
+scoop. Evolutionary psychologists say that it’s because men and women have
+evolutionarily caused <a href="https://heterodoxacademy.org/2017/08/10/the-google-memo-what-does-the-research-say-about-gender-differences/">differences in interests</a> and point to studies
+indicating that progressive countries have larger gender representation gaps
+because women are free to choose <a href="https://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/">careers based on interest</a>. I find
+it likely that both positions contribute in part to the gender representation
+disparity. Compelling arguments can be made for and against both, and both are
+rooted in academic disciplines <a href="https://en.wikipedia.org/wiki/Replication_crisis">that are dangerously squishy</a>. As a
+result, I don’t think we currently have a good scientific way of determining
+this.</p>
+
+<p>So what; science, schmience! Followers of the evo psych and constructivism are
+at war. One continuously pisses the other off with their inflamatory rhetoric.
+It is true that white males are historically privileged, but hammering “white
+male privelege” into their heads predictably puts white males into a defensive
+stance. Similarly, discussing how evo psych means that women are less interested
+and therefore less capable of software engineering will predictably annoy
+females, especially those rightfully proud of their software engineering
+prowess, and tired of dealing with similar allegations for their whole career.</p>
+
+<p>I've spent way too much time reading and thinking about this lately, and it
+saddens me to conclude that the wisest course of action is to avoid discussing
+this topic entirely (oops, too late). Scott Aaronson, Sarah Constantin and
+Stacey Jeffery propose a <a href="https://www.scottaaronson.com/blog/?p=3389">respectful truce</a> between the two camps.
+Advocates of evolutionary psychology should:</p>
+
+<blockquote>
+  <p>do everything they can to foster diversity, including by creating environments
+  that are welcoming for women, and by supporting affirmative action, women-only
+  scholarships and conferences, and other diversity policies and also agree
+  never to talk in public about possible cognitive-science explanations for
+  gender disparities in which careers people choose, or overlapping bell curves,
+  or anything else potentially inflammatory."</p>
+</blockquote>
+
+<p>Meanwhile, social constructivists should:</p>
+
+<blockquote>
+  <p>avoid libelling [white men] as misogynist monsters, who must be scaring all
+  the women away with their inherently gross, icky, creepy, discriminatory
+  brogrammer maleness.</p>
+</blockquote>
+
+<p>Truce?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The end of endings</title>
