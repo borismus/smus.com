@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-08-28T12:00:32-00:00</updated>
+  <updated>2017-10-05T09:17:49-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -574,7 +574,7 @@ we have balkanized into increasingly specialized sub-cultures and increased
 cross-cultural conflicts. More recently, personalized search results, curated
 social network feeds only serve to deepen the divide.</p>
 
-<p><a href="https://debate.rs/">Debaters</a> is a new side project which aims to bring you and someone
+<p><a href="https://catma-847d6.firebaseapp.com/topics">Debaters</a> is a new side project which aims to bring you and someone
 with an opposing view into a private, friendly, anonymous conversation. It's
 still in development, but I want to share it with you both as a milestone and
 to get early feedback.</p>
@@ -639,7 +639,7 @@ of <a href="https://www.reddit.com/r/The_Donald/">subreddits</a> whose members p
 <h2>What is Debaters?</h2>
 
 <p>So, to address some of the shortcomings of existing approaches like CMV and LRC,
-I've been working on a side project provisionally called <a href="https://debate.rs/">Debaters</a>.</p>
+I've been working on a side project provisionally called <a href="https://catma-847d6.firebaseapp.com/topics">Debaters</a>.</p>
 
 <blockquote>
   <p>Debaters enables one-on-one conversations on a controversial topic, with
@@ -653,10 +653,10 @@ I've been working on a side project provisionally called <a href="https://debate
 
 <p>I took a bit of time off recently and got carried away on the implementation,
 with <a href="https://twitter.com/abmcosta">Antonio's help</a> on the UX front, and now it's live on
-<a href="https://debate.rs">https://debate.rs</a>. If you visit, you will be presented with a list of issues
-and asked to opine on each. After you provide your opinion you are matched to
-someone with the opposite view, then you engage in a conversation about the
-issue.</p>
+<a href="https://catma-847d6.firebaseapp.com/topics">https://catma-847d6.firebaseapp.com/topics</a>. If you visit, you will be
+presented with a list of issues and asked to opine on each. After you provide
+your opinion you are matched to someone with the opposite view, then you engage
+in a conversation about the issue.</p>
 
 <p>Let me address one common question up-front: trolling. I do not think trolling
 is much of an issue for Debaters. Trolls want to make an impact. In other words,
