@@ -10,4 +10,5 @@ type_mapping:
   '/posts/': 'post'
   '/pages/': 'page'
   '/drafts/': 'draft'
+  '/books/': 'book'
 default_type: 'page'

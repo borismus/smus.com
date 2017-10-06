@@ -30,7 +30,7 @@ to get early feedback.
 
 [bread]: /hot-bread-delicious-deadly/
 [mcluhan]: http://www.marshallmcluhan.com/biography/
-[debaters]: https://debate.rs/
+[debaters]: https://catma-847d6.firebaseapp.com/topics
 
 <!--more-->
 
@@ -113,10 +113,10 @@ I've been working on a side project provisionally called [Debaters][debaters].
 
 I took a bit of time off recently and got carried away on the implementation,
 with [Antonio's help][antonio] on the UX front, and now it's live on
-<https://debate.rs>. If you visit, you will be presented with a list of issues
-and asked to opine on each. After you provide your opinion you are matched to
-someone with the opposite view, then you engage in a conversation about the
-issue.
+<https://catma-847d6.firebaseapp.com/topics>. If you visit, you will be
+presented with a list of issues and asked to opine on each. After you provide
+your opinion you are matched to someone with the opposite view, then you engage
+in a conversation about the issue.
 
 Let me address one common question up-front: trolling. I do not think trolling
 is much of an issue for Debaters. Trolls want to make an impact. In other words,

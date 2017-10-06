@@ -82,45 +82,76 @@ Resume
 
 **Publications**
 
-- Kittur, N., Smus, B., and Kraut, R.E., Khamkar, S. CrowdForge:
+- **Smus, B.**, Riederer, C. Magnetic input for mobile virtual reality. *Proceedings
+  of the 2015 ACM ISWC 2015, Osaka, Japan*
+
+- Kittur, N., **Smus, B.**, and Kraut, R.E., Khamkar, S. CrowdForge:
   Crowdsourcing Complex Work. *Proceedings of UIST 2011, Santa Barbara,
   CA.*
 
-- Rogstadius, J., Kittur, N., Kostakos, V., Smus, B., Laredo, J., Vukovic, M.
+- Rogstadius, J., Kittur, N., Kostakos, V., **Smus, B.**, Laredo, J., Vukovic, M.
   An Assessment of Intrinsic and Extrinsic Motivation on Task Performance in
   Crowdsourcing Markets. *Conference on Weblogs and Social Media 2011,
   Barcelona, Spain*
 
-- Kittur, N., Smus, B., and Kraut, R.E. CrowdForge: Crowdsourcing Complex
+- Kittur, N., **Smus, B.**, and Kraut, R.E. CrowdForge: Crowdsourcing Complex
   Work. *Proceedings of the extended abstracts of CHI 2011, Vancouver,
   Canada.*
 
-- Smus, B., Kostakos, V. Running gestures: hands-free interaction
+- **Smus, B.**, Kostakos, V. Running gestures: hands-free interaction
   during physical activity.  *Adjunct proceedings of Ubicomp 2010,
   Copehnagen, Denmark.*
 
-- Smus, B., Gross, M. Ubiquitous drums: a tangible, wearable musical
+- **Smus, B.**, Gross, M. Ubiquitous drums: a tangible, wearable musical
   interface. *Proceedings of the extended abstracts of CHI 2010, Atlanta,
   Georgia.*
 
 **Patents**
 
-- Many more pending.
+- **Smus, B.**, Getreuer, P.T. Communicating data with audible harmonies [US
+  9755764](https://www.google.com/patents/US9755764)
 
-- Smus, B. Determining user handedness and orientation using a touchscreen
+- **Smus, B.**, Kauffmann, A. Proximity-initiated physical mobile device
+  gestures [US 9721411](https://www.google.com/patents/US9721411)
+
+- **Smus, B.**, Plagemann, C., Wuellner, T., Costa, A., Kauffmann, A. Device
+  pairing via a cloud server [US 9621645](https://www.google.com/patents/US9621645)
+
+- **Smus, B.**, Costa, A. Binaural navigation cues [US
+  9746338](https://www.google.com/patents/US9746338)
+
+- **Smus, B.** Directing communications using gaze interaction [US
+  9451210](https://www.google.com/patents/US9451210)
+
+- **Smus, B.**, Plagemann, C., Mohan, A. Gesture onset detection on multiple
+  devices [US 9417704](http://www.google.com/patents/US9417704)
+
+- **Smus, B.**, Kauffmann, A., Plagemann, C. Supplementing speech commands with
+  gestures [US 9390726](https://www.google.com/patents/US9390726)
+
+- **Smus, B.**, Kauffmann, A., Civelli, J. Pairing of Media Streaming
+  Devices [US 20170048613](https://www.google.com/patents/US20170048613)
+
+- **Smus, B.**, Plagemann, C. Magnetic controller for device control [US
+  20150370346](https://www.google.com/patents/US20150370346)
+
+- **Smus, B.** Determining user handedness and orientation using a touchscreen
   device [US 9239648](https://www.google.com/patents/US9239648)
 
-- Smus, B., Kauffmann, A., Plagemann, C. Situated multi-person user interface
+- **Smus, B.**, Kauffmann, A., Plagemann, C. Situated multi-person user interface
   [US 9237182](https://www.google.com/patents/US9237182)
 
-- Smus, B. Automatically switching between input modes for a user
+- **Smus, B.** Automatically switching between input modes for a user
   interface [US 9026939](https://www.google.com/patents/US9026939)
 
-- Smus, B. Automatic device login based on wearable sensor fusion,
+- **Smus, B.** Automatic device login based on wearable sensor fusion,
   Google Inc [US 8928587](https://www.google.com/patents/US8928587)
 
-- Smus, B. Keyboard event detection and network event generation, Google
+- **Smus, B.** Keyboard event detection and network event generation, Google
   Inc [US 8803808](https://www.google.com/patents/US20100095198)
+
+- Bultrowicz, M., **Smus, B.** Shared comments for online document
+  collaboration, Apple Inc [US 20100095198](http://www.google.com/patents/US20100095198)
 
 [Google]: http://www.google.com
 [Apple]: http://www.apple.com
