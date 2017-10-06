@@ -4,28 +4,252 @@ type: note
 class: split
 
 
-Split markdown pages in Lightning
+A respectful truce?
+===
+posted: August 24, 2017
+
+It's a fact that men greatly outnumber women in software engineering. As for
+why, there is a fundamental disagreement between social constructivists and
+evolutionary psychologists. 
+
+Constructivists say that it’s because of systematic oppression against women.
+Boys in the 80s grew up with computers, learned programming and made life a
+living hell for their female classmates in CS101. [Planet Money][pm] has the
+scoop. Evolutionary psychologists say that it’s because men and women have
+evolutionarily caused [differences in interests][interest] and point to studies
+indicating that progressive countries have larger gender representation gaps
+because women are free to choose [careers based on interest][countries]. I find
+it likely that both positions contribute in part to the gender representation
+disparity. Compelling arguments can be made for and against both, and both are
+rooted in academic disciplines [that are dangerously squishy][repl]. As a
+result, I don’t think we currently have a good scientific way of determining
+this.
+
+So what; science, schmience! Followers of the evo psych and constructivism are
+at war. One continuously pisses the other off with their inflamatory rhetoric.
+It is true that white males are historically privileged, but hammering “white
+male privelege” into their heads predictably puts white males into a defensive
+stance. Similarly, discussing how evo psych means that women are less interested
+and therefore less capable of software engineering will predictably annoy
+females, especially those rightfully proud of their software engineering
+prowess, and tired of dealing with similar allegations for their whole career.
+
+I've spent way too much time reading and thinking about this lately, and it
+saddens me to conclude that the wisest course of action is to avoid discussing
+this topic entirely (oops, too late). Scott Aaronson, Sarah Constantin and
+Stacey Jeffery propose a [respectful truce][shtetl] between the two camps.
+Advocates of evolutionary psychology should:
+
+> do everything they can to foster diversity, including by creating environments
+> that are welcoming for women, and by supporting affirmative action, women-only
+> scholarships and conferences, and other diversity policies and also agree
+> never to talk in public about possible cognitive-science explanations for
+> gender disparities in which careers people choose, or overlapping bell curves,
+> or anything else potentially inflammatory."
+
+Meanwhile, social constructivists should:
+
+> avoid libelling [white men] as misogynist monsters, who must be scaring all
+> the women away with their inherently gross, icky, creepy, discriminatory
+> brogrammer maleness.
+
+Truce?
+
+[pm]: http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding
+[repl]: https://en.wikipedia.org/wiki/Replication_crisis
+[shtetl]: https://www.scottaaronson.com/blog/?p=3389
+[interest]: https://heterodoxacademy.org/2017/08/10/the-google-memo-what-does-the-research-say-about-gender-differences/
+[countries]: https://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/
+
+
+The end of endings
+===
+posted: July 31, 2017
+
+Despite the obnoxious title, [this a16z podcast][a16z] was unusually insightful.
+
+One big theme in the podcast can be summarized as an end of endings: a trend
+away from one story with a coherent, finite arc, towards something neverending.
+Amorphous TV shows like Lost, as well as Hollywood's discovery that a coherent
+franchise like Star Wars can be milked for many more dollars are examples of
+this. The stats backs it up: Hollywood moved from 10% of the hits of the 90s
+being sequels to 50% today, as can be seen in the [box office data][box].
+Looking at TV shows through the same lens, each show is a one hour long movie,
+followed by tens of sequels. And successful franchises aim to immerse their fans
+(especially kids) into their universe with figurines, games, lunch boxes, bed
+sheets.
+
+The end of endings also shows up in user interfaces, and is epitomized by the
+infinite scroller. Millions of souls fixate on the next pretty picture, the next
+baby picture, the next outrage. Entertainment that never ends!
+
+This is interesting in the context of attention. In the realm of meditation, the
+challenge is to focus on something mundane, like your breath. In the realm of
+entertainment, the challenge is to snap out of an immersive world carefully
+constructed to consume your attention for as long as possible.
+
+
+[a16z]: https://a16z.com/2017/07/15/popularity-addiction-thompson-alter/
+[box]: http://www.boxofficemojo.com/yearly/
+
+Intelligence, aliens, and self-improvement
+===
+posted: July 10, 2017
+
+I recently enjoyed a podcast about intelligence, aliens and learning where Kevin
+Kelly was interviewed by Sam Harris. Here are some things I liked about it:
+
+- Kelly makes a great argument that with text we already have no way of knowing
+  what is true. We have to rely on the source. My fears of audio and video fake
+  news are reduced.
+
+- It's obvious that the world is changing quickly, which means lifelong learning
+  is necessary. One thing I haven't systematically understood is how I learn
+  best. How would you even figure that out?
+
+- Chimpanzees are amazing at [short term spatial
+  memory](https://www.youtube.com/watch?v=zsXP8qeFF6A), and do better than
+  humans in these cognitive tasks on average.
+
+- Currently, the best Chess players are human-computer hybrids. Harris claims
+  that computers alone will eventually be better than these hybrids, but 
+  his claim that "the ape will just be adding noise" is unsubstantiated.
+
+- About mid-way, the two discuss the analogy between AI and aliens. I haven't
+  thought of this either. But I wondered how salient that analogy was given that we
+  have a largely shared environment with whatever AIs we create. To the extent
+  that the AIs truly are alien, I wonder how much of a unifying force these
+  alien AIs could be for humanity. 
+
+- I strongly agreed with Kelly when he says that building machine systems
+  enhances our self-understanding. Building VR rendering and head tracking
+  systems, you benefit from some human visual perception basics. Human
+  psychology is critical for building user interfaces. You need an understanding
+  of how human hearing works to build good lossy audio compression.
+ 
+- An interesting thought experiment that superscedes Asimov's laws of robotics:
+  what if we built AGIs that were terribly worried about what people think. Then
+  we reduce the machine menace problem to merely the evils of humanity. 
+ 
+
+Convincing the inconvincible
+===
+posted: June 20, 2017
+
+I highly recommend two [podcast][1] [episodes][2] on the theme "how to argue",
+featuring Daryl Davis, *the* black friend of white supremacists. Mr. Davis is
+remarkably lucid in dealing with very difficult issues, and presents great tips
+for convincing the inconvincible. 
+
+1. Gather your information. Understand their position as well as you do your
+   own. Expect to hear things you will disagree with and keep your cool. 
+
+2. Invite them. Have a conversation not a debate. Debates get people's guards
+   up. Instead seek to understand them. People want to be heard and speak their
+   mind freely without retaliation. 
+
+3. Look for commonality. You can find something in 5 minutes and then build on
+   it. Look to other issues. Politics? As you find more commonality the
+   differences matter less. 
+
+4. Talking is not fighting. When the talking stops the ground becomes fertile
+   for violence (cf. Sam Harris). The longer you talk the more commonalities you
+   can find. 
+
+5. Patience.
+
+6. Make a good first impression. Be respectful. 
+
+7. Don't be condescending or insulting even when you hear things you don't like.
+   Expect opinions that are ridiculous and facts that are wrong. Keep cool. 
+
+8. Don't explain somebody else's movement. Let them explain it and address the
+   points that they themselves define. Let them finish and don't cut them off
+   even though you probably know a lot about their ideas already. 
+
+> "While you are actively learning about someone else you are passively teaching
+> them about yourself." – Daryl Davis
+
+[1]: http://loveandradio.org/2014/02/the-silver-dollar/
+[2]: http://loveandradio.org/2017/02/how-to-argue/
+
+
+Remembering my personal wiki
+===
+posted: June 1, 2017
+
+Before I started writing this blog, I used [MoinMoin][moin] as a personal wiki.
+It was self-hosted on a Linux box in my parents' basement. I used it for
+everything: jotting down ideas, as a calendar, storing guitar tabs, tracking
+workout routines, course planning, and personal finances. I wrote on the wiki
+actively from about 2002 to about 2008. Here are some blasts from the past:
+
+- My Lego fandom started to shift from into robotics. To be clear,
+  this is just a fancy way of saying that I was still [playing][l1] [with][l2]
+  [legos][l3] into my early twenties.
+- Origami interests also shifted into the [digital realm][origami].
+- I [maintained a network][sysadmin] of about ten Linux boxes named after
+  [Hebrew][aleph] [letters][zayin]. What a pain in the ass!
+- Wrote a few computer games, like this uninspired [tank game][tank], and this
+  totally awesome [pong variant][sponge] that was played inside a sphere.
+- Discovered [second system syndrome][sss] when trying to rewrite [a web based
+  RPG][alienation] I originally wrote in 2000.
+- Had some interesting, still relevant [ideas foreshadowing][gpsrpg] Augmented
+  Reality gaming.
+- Catalogued delicious Japanese food in [Vancouver][japan-van].
+- Smashed a Palm Tungsten [with a hammer][tungsten] out of frustration,
+  attempted to use a [Bluetooth headset with my Treo][treo] and dreamed of a
+  [better gadget][gadget].
+- Hoping to [avoid the gym][matrix], I got into [kettlebells for fitness][kb],
+  and even thought about starting a [kettlebell community][gireviki].
+- Saved [guitar][g1] [tabs][g2] I played with the intention of
+  [doing something techy][g3] with them later.
+
+Embarassing and endearing, `wiki.z3.ca` serves as a time capsule of my late
+teens and early twenties. Je me souviens.
+
+[sss]: https://en.wikipedia.org/wiki/Second-system_effect
+[alienation]: http://wiki.z3.ca/Alienation/
+[g1]: http://wiki.z3.ca/Guitar(2f)Gravedigger/
+[g2]: http://wiki.z3.ca/Guitar(2f)WildMountainThyme/
+[g3]: http://wiki.z3.ca/LibTab/
+[l1]: http://wiki.z3.ca/Bartender/
+[l2]: http://wiki.z3.ca/CardDealer/
+[l3]: http://wiki.z3.ca/VerticalCrossBeams/
+[gpsrpg]: http://wiki.z3.ca/GpsRpg/
+[sysadmin]: http://wiki.z3.ca/Network/
+[aleph]: http://wiki.z3.ca/Aleph/
+[zayin]: http://wiki.z3.ca/Zayin/
+[t1]: http://wiki.z3.ca/FacebookLexicon/
+[t2]: http://wiki.z3.ca/TungstenDestruction/
+[japan-van]: http://wiki.z3.ca/JapaneseRestaurants/
+[japan-tor]: http://wiki.z3.ca/TorontoJapaneseRestaurants/
+[matrix]: http://wiki.z3.ca/MatrixWorkouts/
+[kb]: http://wiki.z3.ca/Kettlebells/
+[gireviki]: http://wiki.z3.ca/Gireviki/
+[origami]: http://wiki.z3.ca/OrigamiSoftware/
+[tank]: http://wiki.z3.ca/ArcadeTank/
+[sponge]: http://wiki.z3.ca/Sponge/
+[moin]: https://moinmo.in
+[tungsten]: http://wiki.z3.ca/TungstenDestruction/
+[treo]: http://wiki.z3.ca/TreoBluetoothHeadsets/
+[gadget]: http://wiki.z3.ca/DreamGadget/
+
+
+
+Short posts using split Markdown
 ===
 posted: May 28, 2017
 
-Lately, I have been dissatisfied with my blogging. My recent posts have been
-long and unfocused, presenting many different thoughts without a single clear
-message. Why has this happened? One possibility is that Lightning, the static
-blog engine I wrote and use needs a bit of an upgrade. As they say in Russian, a
-bad dancer blames his balls.
+[Lightning][lightning], the static blog generator that powers this site, is
+awesome for long form content. But it does not work well for short form content,
+since creating each post requires a bunch of up-front effort:
 
-Lightning is awesome for long form content because it lets you gather all of the
-assets you want to include in your post together in one directory, place it
-alongside the markdown `index.md`, and put the content out there in a single
-bundle. But this does not work well for short form content, since it requires
-too much up-front effort:
+1. I navigate to the right place, recalling the current year (!) and deciding on
+   the slug for the post (eg. `content/posts/2017/how-to-fix-the-world`).
 
-1. Decide where to place the new directory. New posts belong in the
-   `content/posts/2017/how-to-fix-the-world`. Deciding on this directory involves
-   navigating to the right place, and deciding on the slug for the post.
-
-2. Create the index.md file and write all of the information in the markdown
-   file, including the human-readable title and the posted date.
+2. I manually create the `index.md` file and then specify the redundant
+   human-readable title and the posted date within it:
 
         How to Fix the World
         ===
@@ -33,25 +257,31 @@ too much up-front effort:
 
         Listen to me, I have the answers.
 
-Then, after writing the post, you have to rename the directory to reflect the
-slug since inevitably the title has changed: `mv how-to-fix-the-world
-how-to-slightly-improve-the-world`. Finally I publish and tweet, and hopefully
-the world becomes infinitesimally better.
+After writing the post, the title will inevitably have changed, so I rename the
+slug to match: `mv how-to-fix-the-world how-to-slightly-improve-the-world`.
+Finally I publish and tweet, and hopefully the world becomes infinitesimally
+better.
+
+I once tried to [make it easier to keep a lightning-style link blog][link], but
+ended up scrapping the solution because it was buggy and required a Mac.
+
+[link]: /easier-link-blogging/
+
 
 ## Split markdown pages
 
-I wanted to reduce the barrier to writing by just top-posting to an existing
-file and have the engine automatically generate a slug based on the title and
-split the file into multiple pages. This is the conceptual inverse of
-[MultiMarkdown transclusion][mmd], which lets you create extra long articles
-from multiple markdown files. I've also refactored [Lightning][lightning] into
-classes, making it easier to add features in the future.
+My aim was to remove the up-front costs I described above. Appending to the top
+of an existing file and having the engine automatically generate a slug based on
+the title seemed like the right approach. This means that one markdown file
+results in multiple HTML pages. The latest [Lightning][lightning] has been
+updated with split markdown files, and refactored into classes, making it easier
+to add features in the future. To give a sense of what these split markdown
+files look like, take a look at [this file][notes-md].
 
-Split markdown files power two new sections on <http://smus.com>: a [book
-reviews section][books], and a [notes section][notes]. I'm really hoping that
-this will encourage me to write shorter, more focused posts with increasing
-frequency. To give a sense of what these split markdown files look like, take a
-look at the [notes markdown][notes-md].
+Split markdown files power two new sections on this site: a [book
+reviews section][books], and a [notes section][notes]. I'm hoping that this
+added convenience will encourage me to write shorter, more focused posts with
+increasing frequency.
 
 
 [mmd]: http://fletcher.github.io/MultiMarkdown-5/transclusion.html
