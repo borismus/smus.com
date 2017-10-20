@@ -5,8 +5,107 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-10-06T09:57:10-00:00</updated>
+  <updated>2017-10-20T01:22:55-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Memento Mori</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/memento-mori"/>
+    
+    <updated>2017-10-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/memento-mori</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <blockquote>
+  <p>The association of sundials with time has inspired their designers over the
+  centuries to display mottoes as part of the design. Often these cast the
+  device in the role of memento mori, inviting the observer to reflect on the
+  transience of the world and the inevitability of death. – <a href="https://en.wikipedia.org/wiki/Sundial#Sundial_mottoes">Wikipedia</a></p>
+</blockquote>
+
+<p><img src="/memento-mori/watch-screenshot.png" alt="WatchKit screenshot" 
+  style="margin: 0 auto; display: block; width: 200px" /></p>
+
+<p>This rich tradition is now available on <a href="https://itunes.apple.com/us/app/memento-mori-apple-watch/id1294913922">Apple Watch</a>.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>A respectful truce?</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/a-respectful-truce/"/>
+    
+    <updated>2017-08-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/a-respectful-truce/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>It's a fact that men greatly outnumber women in software engineering. As for
+why, there is a fundamental disagreement between social constructivists and
+evolutionary psychologists. </p>
+
+<p>Constructivists say that it’s because of systematic oppression against women.
+Boys in the 80s grew up with computers, learned programming and made life a
+living hell for their female classmates in CS101. <a href="http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding">Planet Money</a> has the
+scoop. Evolutionary psychologists say that it’s because men and women have
+evolutionarily caused <a href="https://heterodoxacademy.org/2017/08/10/the-google-memo-what-does-the-research-say-about-gender-differences/">differences in interests</a> and point to studies
+indicating that progressive countries have larger gender representation gaps
+because women are free to choose <a href="https://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/">careers based on interest</a>. I find
+it likely that both positions contribute in part to the gender representation
+disparity. Compelling arguments can be made for and against both, and both are
+rooted in academic disciplines <a href="https://en.wikipedia.org/wiki/Replication_crisis">that are dangerously squishy</a>. As a
+result, I don’t think we currently have a good scientific way of determining
+this.</p>
+
+<p>So what; science, schmience! Followers of the evo psych and constructivism are
+at war. One continuously pisses the other off with their inflamatory rhetoric.
+It is true that white males are historically privileged, but hammering “white
+male privelege” into their heads predictably puts white males into a defensive
+stance. Similarly, discussing how evo psych means that women are less interested
+and therefore less capable of software engineering will predictably annoy
+females, especially those rightfully proud of their software engineering
+prowess, and tired of dealing with similar allegations for their whole career.</p>
+
+<p>I've spent way too much time reading and thinking about this lately, and it
+saddens me to conclude that the wisest course of action is to avoid discussing
+this topic entirely (oops, too late). Scott Aaronson, Sarah Constantin and
+Stacey Jeffery propose a <a href="https://www.scottaaronson.com/blog/?p=3389">respectful truce</a> between the two camps.
+Advocates of evolutionary psychology should:</p>
+
+<blockquote>
+  <p>do everything they can to foster diversity, including by creating environments
+  that are welcoming for women, and by supporting affirmative action, women-only
+  scholarships and conferences, and other diversity policies and also agree
+  never to talk in public about possible cognitive-science explanations for
+  gender disparities in which careers people choose, or overlapping bell curves,
+  or anything else potentially inflammatory."</p>
+</blockquote>
+
+<p>Meanwhile, social constructivists should:</p>
+
+<blockquote>
+  <p>avoid libelling [white men] as misogynist monsters, who must be scaring all
+  the women away with their inherently gross, icky, creepy, discriminatory
+  brogrammer maleness.</p>
+</blockquote>
+
+<p>Truce?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Filter playground</title>
@@ -58,7 +157,7 @@ repeating itself. On an individual scale, the human lifecycle, eating and
 sleeping, heartbeats and breathing, and locomotion are all periodic.  And so are
 sound and light, the very nature of the world we percieve.</p>
 
-<p>Wouldn't it be nice to understand and modifying cyclical phenomena? A couple
+<p>Wouldn't it be nice to understand and manipulate cyclical phenomena? A couple
 hundred years ago, <a href="https://en.wikipedia.org/wiki/Fourier_transform">Fourier showed</a> that any repeating periodic signal,
 regardless of its complexity, can be represented as a sum of sine functions,
 paving the way for much deeper signal understanding. More recently, <a href="https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem">Shannon
@@ -305,6 +404,144 @@ me know <a href="https://twitter.com/borismus">via twitter</a> or <a href="http:
   </entry>
   
   <entry>
+    <title>The end of endings</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/the-end-of-endings/"/>
+    
+    <updated>2017-07-31T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/the-end-of-endings/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Despite the obnoxious title, <a href="https://a16z.com/2017/07/15/popularity-addiction-thompson-alter/">this a16z podcast</a> was unusually insightful.</p>
+
+<p>One big theme in the podcast can be summarized as an end of endings: a trend
+away from one story with a coherent, finite arc, towards something neverending.
+Amorphous TV shows like Lost, as well as Hollywood's discovery that a coherent
+franchise like Star Wars can be milked for many more dollars are examples of
+this. The stats backs it up: Hollywood moved from 10% of the hits of the 90s
+being sequels to 50% today, as can be seen in the <a href="http://www.boxofficemojo.com/yearly/">box office data</a>.
+Looking at TV shows through the same lens, each show is a one hour long movie,
+followed by tens of sequels. And successful franchises aim to immerse their fans
+(especially kids) into their universe with figurines, games, lunch boxes, bed
+sheets.</p>
+
+<p>The end of endings also shows up in user interfaces, and is epitomized by the
+infinite scroller. Millions of souls fixate on the next pretty picture, the next
+baby picture, the next outrage. Entertainment that never ends!</p>
+
+<p>This is interesting in the context of attention. In the realm of meditation, the
+challenge is to focus on something mundane, like your breath. In the realm of
+entertainment, the challenge is to snap out of an immersive world carefully
+constructed to consume your attention for as long as possible.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Intelligence, aliens, and self-improvement</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/intelligence-aliens-and-self-improvement/"/>
+    
+    <updated>2017-07-10T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/intelligence-aliens-and-self-improvement/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I recently enjoyed a podcast about intelligence, aliens and learning where Kevin
+Kelly was interviewed by Sam Harris. Here are some things I liked about it:</p>
+
+<ul>
+<li><p>Kelly makes a great argument that with text we already have no way of knowing
+what is true. We have to rely on the source. My fears of audio and video fake
+news are reduced.</p></li>
+<li><p>It's obvious that the world is changing quickly, which means lifelong learning
+is necessary. One thing I haven't systematically understood is how I learn
+best. How would you even figure that out?</p></li>
+<li><p>Chimpanzees are amazing at <a href="https://www.youtube.com/watch?v=zsXP8qeFF6A">short term spatial
+memory</a>, and do better than
+humans in these cognitive tasks on average.</p></li>
+<li><p>Currently, the best Chess players are human-computer hybrids. Harris claims
+that computers alone will eventually be better than these hybrids, but 
+his claim that "the ape will just be adding noise" is unsubstantiated.</p></li>
+<li><p>About mid-way, the two discuss the analogy between AI and aliens. I haven't
+thought of this either. But I wondered how salient that analogy was given that we
+have a largely shared environment with whatever AIs we create. To the extent
+that the AIs truly are alien, I wonder how much of a unifying force these
+alien AIs could be for humanity. </p></li>
+<li><p>I strongly agreed with Kelly when he says that building machine systems
+enhances our self-understanding. Building VR rendering and head tracking
+systems, you benefit from some human visual perception basics. Human
+psychology is critical for building user interfaces. You need an understanding
+of how human hearing works to build good lossy audio compression.</p></li>
+<li><p>An interesting thought experiment that superscedes Asimov's laws of robotics:
+what if we built AGIs that were terribly worried about what people think. Then
+we reduce the machine menace problem to merely the evils of humanity. </p></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Convincing the inconvincible</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/convincing-the-inconvincible/"/>
+    
+    <updated>2017-06-20T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/convincing-the-inconvincible/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I highly recommend two <a href="http://loveandradio.org/2014/02/the-silver-dollar/">podcast</a> <a href="http://loveandradio.org/2017/02/how-to-argue/">episodes</a> on the theme "how to argue",
+featuring Daryl Davis, <em>the</em> black friend of white supremacists. Mr. Davis is
+remarkably lucid in dealing with very difficult issues, and presents great tips
+for convincing the inconvincible. </p>
+
+<ol>
+<li><p>Gather your information. Understand their position as well as you do your
+own. Expect to hear things you will disagree with and keep your cool. </p></li>
+<li><p>Invite them. Have a conversation not a debate. Debates get people's guards
+up. Instead seek to understand them. People want to be heard and speak their
+mind freely without retaliation. </p></li>
+<li><p>Look for commonality. You can find something in 5 minutes and then build on
+it. Look to other issues. Politics? As you find more commonality the
+differences matter less. </p></li>
+<li><p>Talking is not fighting. When the talking stops the ground becomes fertile
+for violence (cf. Sam Harris). The longer you talk the more commonalities you
+can find. </p></li>
+<li><p>Patience.</p></li>
+<li><p>Make a good first impression. Be respectful. </p></li>
+<li><p>Don't be condescending or insulting even when you hear things you don't like.
+Expect opinions that are ridiculous and facts that are wrong. Keep cool. </p></li>
+<li><p>Don't explain somebody else's movement. Let them explain it and address the
+points that they themselves define. Let them finish and don't cut them off
+even though you probably know a lot about their ideas already. </p></li>
+</ol>
+
+<blockquote>
+  <p>"While you are actively learning about someone else you are passively teaching
+  them about yourself." – Daryl Davis</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Climate metaquiz results</title>
     <author><name>Boris Smus</name></author>
     <link href="/climate-metaquiz-results"/>
@@ -532,6 +769,160 @@ learn something about climate change, which isn't such a bad thing either.</p>
 <p>So if you have a few minutes, <a href="https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSf98rBi2CgU4b62kBFmAeX989ZGZrLW74cQitDdPT7wG906Xw/viewform">please try the climate metaquiz</a> and send it to
 everyone you know, especially friends (or enemies!) on the opposite side.
 Dziękuję!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Remembering my personal wiki</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/remembering-my-personal-wiki/"/>
+    
+    <updated>2017-06-01T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/remembering-my-personal-wiki/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Before I started writing this blog, I used <a href="https://moinmo.in">MoinMoin</a> as a personal wiki.
+It was self-hosted on a Linux box in my parents' basement. I used it for
+everything: jotting down ideas, as a calendar, storing guitar tabs, tracking
+workout routines, course planning, and personal finances. I wrote on the wiki
+actively from about 2002 to about 2008. Here are some blasts from the past:</p>
+
+<ul>
+<li>My Lego fandom started to shift from into robotics. To be clear,
+this is just a fancy way of saying that I was still <a href="http://wiki.z3.ca/Bartender/">playing</a> <a href="http://wiki.z3.ca/CardDealer/">with</a>
+<a href="http://wiki.z3.ca/VerticalCrossBeams/">legos</a> into my early twenties.</li>
+<li>Origami interests also shifted into the <a href="http://wiki.z3.ca/OrigamiSoftware/">digital realm</a>.</li>
+<li>I <a href="http://wiki.z3.ca/Network/">maintained a network</a> of about ten Linux boxes named after
+<a href="http://wiki.z3.ca/Aleph/">Hebrew</a> <a href="http://wiki.z3.ca/Zayin/">letters</a>. What a pain in the ass!</li>
+<li>Wrote a few computer games, like this uninspired <a href="http://wiki.z3.ca/ArcadeTank/">tank game</a>, and this
+totally awesome <a href="http://wiki.z3.ca/Sponge/">pong variant</a> that was played inside a sphere.</li>
+<li>Discovered <a href="https://en.wikipedia.org/wiki/Second-system_effect">second system syndrome</a> when trying to rewrite <a href="http://wiki.z3.ca/Alienation/">a web based
+RPG</a> I originally wrote in 2000.</li>
+<li>Had some interesting, still relevant <a href="http://wiki.z3.ca/GpsRpg/">ideas foreshadowing</a> Augmented
+Reality gaming.</li>
+<li>Catalogued delicious Japanese food in <a href="http://wiki.z3.ca/JapaneseRestaurants/">Vancouver</a>.</li>
+<li>Smashed a Palm Tungsten <a href="http://wiki.z3.ca/TungstenDestruction/">with a hammer</a> out of frustration,
+attempted to use a <a href="http://wiki.z3.ca/TreoBluetoothHeadsets/">Bluetooth headset with my Treo</a> and dreamed of a
+<a href="http://wiki.z3.ca/DreamGadget/">better gadget</a>.</li>
+<li>Hoping to <a href="http://wiki.z3.ca/MatrixWorkouts/">avoid the gym</a>, I got into <a href="http://wiki.z3.ca/Kettlebells/">kettlebells for fitness</a>,
+and even thought about starting a <a href="http://wiki.z3.ca/Gireviki/">kettlebell community</a>.</li>
+<li>Saved <a href="http://wiki.z3.ca/Guitar(2f)Gravedigger/">guitar</a> <a href="http://wiki.z3.ca/Guitar(2f)WildMountainThyme/">tabs</a> I played with the intention of
+<a href="http://wiki.z3.ca/LibTab/">doing something techy</a> with them later.</li>
+</ul>
+
+<p>Embarassing and endearing, <code>wiki.z3.ca</code> serves as a time capsule of my late
+teens and early twenties. Je me souviens.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Short posts using split Markdown</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/short-posts-using-split-markdown/"/>
+    
+    <updated>2017-05-28T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/short-posts-using-split-markdown/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="https://github.com/borismus/lightning">Lightning</a>, the static blog generator that powers this site, is
+awesome for long form content. But it does not work well for short form content,
+since creating each post requires a bunch of up-front effort:</p>
+
+<ol>
+<li><p>I navigate to the right place, recalling the current year (!) and deciding on
+the slug for the post (eg. <code>content/posts/2017/how-to-fix-the-world</code>).</p></li>
+<li><p>I manually create the <code>index.md</code> file and then specify the redundant
+human-readable title and the posted date within it:</p>
+
+<pre><code>How to Fix the World
+===
+posted: May 28, 2017
+
+Listen to me, I have the answers.
+</code></pre></li>
+</ol>
+
+<p>After writing the post, the title will inevitably have changed, so I rename the
+slug to match: <code>mv how-to-fix-the-world how-to-slightly-improve-the-world</code>.
+Finally I publish and tweet, and hopefully the world becomes infinitesimally
+better.</p>
+
+<p>I once tried to <a href="/easier-link-blogging/">make it easier to keep a lightning-style link blog</a>, but
+ended up scrapping the solution because it was buggy and required a Mac.</p>
+
+<h2>Split markdown pages</h2>
+
+<p>My aim was to remove the up-front costs I described above. Appending to the top
+of an existing file and having the engine automatically generate a slug based on
+the title seemed like the right approach. This means that one markdown file
+results in multiple HTML pages. The latest <a href="https://github.com/borismus/lightning">Lightning</a> has been
+updated with split markdown files, and refactored into classes, making it easier
+to add features in the future. To give a sense of what these split markdown
+files look like, take a look at <a href="https://github.com/borismus/smus.com/blob/master/notes_all.md">this file</a>.</p>
+
+<p>Split markdown files power two new sections on this site: a <a href="/books">book
+reviews section</a>, and a <a href="/notes">notes section</a>. I'm hoping that this
+added convenience will encourage me to write shorter, more focused posts with
+increasing frequency.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Analogies from the industrial revolution</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2017/analogies-from-the-industrial-revolution/"/>
+    
+    <updated>2017-05-24T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2017/analogies-from-the-industrial-revolution/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Several centuries after the industrial revolution, machines still can't do all
+physical things humans can, not even by a long shot. Drawing a masterwork,
+singing an aria, playing a musical instrument, manipulating a soft object,
+cutting hair, taking care of the sick are all examples of human-only tasks. The
+industrial revolution gave machines the ability to do crude, physically
+demanding work at scale, but it did not address all of physicality.</p>
+
+<p>Just like the industrial revolution did not automate all aspects of physical
+work, there is good reason to believe that the AI revolution will not solve
+all aspects of intellectual work. Where the line will be drawn remains to be
+seen, but I would bet that one aspect of human cognition that isn't really at
+risk from any immediate AI-based disruption are creative pursuits. Many well
+respected professions like doctor, lawyer, and engineer have both a rote
+component that lends itself easily to automation, and a creative one. Some
+examples:</p>
+
+<ul>
+<li><p>Curing patients boils down to the application of known heuristics to
+triage specific cases, but if you are a MD-PhD studying a new area of medicine
+or tackling a new disease, it's a much more creative and speculative process. </p></li>
+<li><p>The legal profession involves finding the right precedents relevant to the case
+at hand, but articulating a convincing argument or deciding how to work out a
+new situation where there are now laws yet? Creativity.</p></li>
+<li><p>Designing a marketing webpage for a clothing brand is pretty formulaic. But
+inventing way of solving a problem using new technology? Totally creative. </p></li>
+</ul>
 
 
         
@@ -7603,1627 +7994,6 @@ based on interoperability: cross-linking, cross-embedding, and API
 mashups. While this new web of things is still in its infancy, it's
 especially important that we nurture the same principles that made the
 early web so great.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Reusable JavaScript for MVC frameworks</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/reusable-js-mvc-frameworks"/>
-    
-    <updated>2012-11-06T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/reusable-js-mvc-frameworks</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>These days, I write a lot more code, and my projects have increased in
-complexity. Often, a single application brings many kinds of data
-sources and bleeding edge web features together. On the other hand, most
-of what I build are prototypes, which need to be churned out quickly,
-work reliably in demos, and look/feel good.</p>
-
-<p>MVC frameworks help write UI code much more quickly, but there are
-drawbacks too: there are too many to choose from, they don't
-interoperate with one another, and if you want to release parts of your
-code to the open source community, only those developers that use the
-same framework will benefit. The solution is to create a clear
-separation between core application logic and MVC UI code. This way you
-can reuse a lot of code and reduce switching costs.</p>
-
-<!--more-->
-
-<p>Before jumping in, here's a diagram of the approach:</p>
-
-<p><img src="/reusable-js-mvc-frameworks/mvc-js-layers.svg" alt="diagram" /></p>
-
-<p>The rest of the post is about interop problems with JS MVC frameworks,
-and a closer look reasons for taking the above approach.</p>
-
-<h2>MVC frameworks are great</h2>
-
-<p>One of my key requirements is to be able to build user interfaces
-<strong>quickly</strong>. This means that writing in pure JavaScript is out of the
-question, because it simply doesn't provide a high enough layer of
-abstraction for highly interactive user interfaces, and reduces to
-spaghetti code in just a couple of days. Instead of raw JS, use an model
-view controller (MVC) framework.</p>
-
-<p>My current weapon of choice is <a href="http://emberjs.com/">Ember.js</a>, mostly because it
-makes many decisions that I agree with, providing easy two-way binding,
-a sane templating syntax, observers and computed properties. All-in-all,
-it is pretty effective for whipping up consistent UIs quickly.</p>
-
-<p>But there are problems with buying into an MVC framework.</p>
-
-<h2>JS libraries are like insects</h2>
-
-<p>JavaScript frameworks are like insects. There are thousands of them,
-they move very quickly, and generally have very short life spans.</p>
-
-<p>If you've ever taken a hiatus from client-side web development, you were
-probably overwhelmed with the amount of new stuff available when you
-returned. The flipside is that many of the frameworks you were familiar
-with could have easily disappeared. To be fair, some winners have
-emerged in the past, most notably in the utility frameworks, where
-jQuery has risen to the top, and Prototype has fallen to obscurity. In
-MVC frameworks, however, there are many interesting contenders and, as I
-wrote earlier, still <a href="http://smus.com/backbone-and-ember/">no clear winner</a>.</p>
-
-<p>So at this stage, going all-in in on a framework may be a bad idea,
-because what if the community moves on to something else? What if the
-framework developers get bored, stop caring or cease maintenance for
-some other reasons? I have this feeling all the time, despite framework
-authors promises to the contrary. And this is the case even though I
-build mostly prototypes with relatively short life spans.</p>
-
-<h2>Switching cost between MVC frameworks is high</h2>
-
-<p>Once you bite the bullet and decide to invest in a framework, you often
-have no easy way to move your code out of it. If you pick Backbone, but
-decide mid-cycle that it's not for you, you are in for a world of hurt:</p>
-
-<p>Not only do your Models and Views not share the same base classes, they
-don't even use the same <strong>class system</strong>. Backbone and Ember provide
-their own class systems that are not compatible. This is a ridiculous
-problem to have, and one unique to JavaScript, which provides a
-prototypal inheritance system which is so inconvenient, there are about
-<a href="http://goo.gl/hqAHD">a million libraries</a> that add OO-style classes to the
-language.</p>
-
-<ol>
-<li>Those who use or invent a custom class system in JavaScript that
-looks more like traditional OO.</li>
-<li>Those who don't believe in classes, or think that JavaScript provides
-enough through prototypal inheritance.</li>
-</ol>
-
-<p>For the reasons outlined above, I'm very much in favor of the former
-option: having a language-level class abstraction. This seems to be
-<a href="http://h3manth.com/content/classes-javascript-es6">coming soon in ECMAScript 6</a>, and will basically provide
-syntactic sugar on top of prototypal inheritance. Having a consistent
-class and module system is one of the main reasons why languages like
-<a href="http://www.dartlang.org/">Dart</a>, <a href="http://www.typescriptlang.org/">TypeScript</a> and <a href="http://coffeescript.org/">Coffeescript</a> are increasingly
-appealing to me.</p>
-
-<h2>Coding to a framework restricts your audience</h2>
-
-<p>Because of a lack of interoperability between frameworks and their class
-systems, if you write non-UI code using a framework, only users of that
-framework will use your code. It's very unlikely that someone building
-an Ember application will want to use your library that uses Backbone
-objects. </p>
-
-<p>Often your collaborators may have varied tastes and prefer one framework
-over another, but including multiple MVC frameworks in the same
-application gets messy quickly. If you have core functionality that you
-want to release, release it in pure JavaScript, not as a jQuery plugin,
-or Ember module. Of course use prototypal inheritance and proper
-abstraction (or at least, as proper as JS can provide).</p>
-
-<h2>Solution: defensive architecture</h2>
-
-<p>To avoid framework and class-system lock-in, I have taken a slightly
-different approach to developing with JavaScript MVC frameworks. It
-affords the convenience of building a UI with MVC, but keeps the core
-of the application flexible.</p>
-
-<p>The basic idea is to separate the core functionality of the application
-from the user interface into two separate layers. With this separation,
-you can implement the two layers differently:</p>
-
-<ol>
-<li><p>Build the base layer using pure JavaScript prototypal inheritance.
-This is the part you write with the intention of keeping for later.
-This base layer will need an API that you will want to spend a bit of
-time honing.  To make the separation crystal clear, you can think of the
-UI as a client that uses this API as if it were on the server. This way
-you can avoid creating leaky abstractions.</p></li>
-<li><p>Use an MVC framework to implement the UI, and call into the base
-layer directly. This lets you move quickly and focus entirely on writing
-the user interface. This architecture lets you build your UI on a solid
-foundation and avoid getting stuck.</p></li>
-</ol>
-
-<h2>Benefits of this approach</h2>
-
-<p>You get many benefits by taking this approach:</p>
-
-<ol>
-<li><p>If you want to scrap your existing UI and write a new one very
-quickly, you can easily do this and still reuse large chunks of your
-logic.</p></li>
-<li><p>Clear layer separation leads to more maintainable code.</p></li>
-<li><p>Easy to ship the underlying core functionality as a library or
-standalone module.</p></li>
-<li><p>Easy to write unit tests for the core functionality of the
-application. Unit tests aren't well suited to user interface code
-anyway.</p></li>
-</ol>
-
-<h2>This is why we can't have nice things</h2>
-
-<p>The lack of a widely used class system is ridiculous. The sheer number
-of different JS class systems is a clear signal that this is a big
-omission in the language. Similarly for MVC frameworks. A renewed
-interest in JavaScript MVC shows that the web platform needs something
-built-in to address this problem.</p>
-
-<p>All other widely used programming languages provide a consistent class
-system, and popular platforms provide a framework for separating
-application logic and user interface. Until these things come to the
-web, I'll continue to have second thoughts about embracing any
-particular MVC framework or custom class system.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>How the web should work</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/how-the-web-should-work"/>
-    
-    <updated>2012-09-12T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/how-the-web-should-work</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>When developing in a particular environment, say Android or Cocoa, we
-are subconsciously aware that the APIs are essentially fixed and beyond
-our control. There is no effective mechanism to go and tell Apple that
-some method is poorly named, or tell the Android team how much you wish
-the Audio APIs were nicer to use.</p>
-
-<p>The web, however, is built by many different companies and individuals,
-giving consumers of the platform (web developers) a unique chance to
-also become contributors to its evolution. Rather than griping about how
-broken something on the web is, remember that you can play a part in
-fixing it!</p>
-
-<!--more-->
-
-<h2>Current flow: "top down"</h2>
-
-<p>Today, features get added to the web platform as a result of competition
-between browsers and some standardization work. The web developer has
-little say in the process until perhaps the very end. Worse, many spec
-authors and browser engineers are not web developers, so they have no
-intuition or experience as to what the web platform actually needs.
-Here's how it works today:</p>
-
-<ol>
-<li>Browser vendor proposes way for solving a problem and implements it
-in their browser. (browser vendor)</li>
-<li>In some cases it's concurrently introduced as a W3C specification.
-(spec author)</li>
-<li>Other browser vendors implement the feature. (browser vendor)</li>
-<li>Much later, someone implements a JS wrapper on top of feature to make
-the feature practical for web developers to use. (web developer)</li>
-</ol>
-
-<p>Some of the negative features of this flow are:</p>
-
-<ul>
-<li>Takes a long time before any developer feedback is received.</li>
-<li>New features have partial support for a very long time.</li>
-<li>Innovation is very browser vendor/spec writer centric.</li>
-<li>Very slow cycle overall.</li>
-<li>Little room for incremental improvements.</li>
-</ul>
-
-<h2>Ideal flow "forward polyfills"</h2>
-
-<p>Rather than sticking to the top down flow, web developers can be
-included in the loop. While forming organizations like
-<a href="http://www.w3.org/community/coremob/">CoreMob</a> might be a good first step, we can have a more direct
-impact as well. The following alternative flow can work pretty well in
-conjunction with the status quo, described above.</p>
-
-<p>The basic idea is to hit the ground running with a prototype developed
-in JavaScript, get early feedback and then propose to W3C when you are
-ready.</p>
-
-<ol>
-<li>Propose a sane API that developers can use &amp; implement it on top of
-existing API(s). (web developer)</li>
-<li>Solicit adoption and iterate on feedback. (web developer)</li>
-<li>Push through standardization. (spec author)</li>
-<li>Implement natively in browsers. (browser vendor)</li>
-</ol>
-
-<p>This flow has many benefits over the first one.</p>
-
-<h3>Prototypes have a tighter feedback loop</h3>
-
-<p>By releasing a JavaScript library quickly, you immediately get feedback
-from developers. As you tweak your API, you can incorporate real world
-feedback. This can be a very short cycle, especially with the help of
-tools like github, where consumers of your library can give you
-suggestions and fix your bugs!</p>
-
-<h3>Useful out of the gate</h3>
-
-<p>By the time you are ready to propose your library to be standardized as
-a core web specification, you already have a reference implementation
-with unit tests. These can then be used by browser vendors as they
-implement the specification. This is much more useful to have than
-the abstract pseudocode that the W3C specs currently provide, and should
-lead to a more consistent set of browser implementations.</p>
-
-<p>Even more importantly, you know that what you are proposing is something
-useful because that real web developers have already used it! This is
-already better than many APIs currently offered by the web platform,
-some of which has seen little developer uptake.</p>
-
-<h3>A polyfill at launch</h3>
-
-<p>By the time the first browsers start implementing the spec, you already
-have a polyfill for developers to use &mdash; the library you wrote in
-step 1. This polyfill should feature detect for the presence of the API,
-and if not present, load the functionality via the JavaScript library.</p>
-
-<h2>Limitation: some things need more than JavaScript</h2>
-
-<p>Not all features can be implemented in JavaScript. In fact, some of the
-most exciting ones require browser-level innovation because JavaScript
-is heavily sandboxed (eg. contacts API, access to new sensors). Still,
-many new features <strong>can</strong> be implemented, such as new layout models (eg.
-flexbox, new storage APIs, responsive image solutions).</p>
-
-<p>Even if you can't provide a JavaScript implementation, there are ways to
-prototype these features to see if they are useful or not, giving
-some of the benefits describe above. PhoneGap and other WebView wrappers
-can be easily instrumented with plugins that bring native functionality
-to the web. More ambitiously, if you can stomach the learning curve,
-contribute to open source browsers like WebKit/Chromium and Firefox!</p>
-
-<h2>Limitation: JS library to spec is uncharted territory</h2>
-
-<p>One of the missing pieces in the "forward polyfill" approach I advocate
-for in this post is that it can still be very difficult to get your
-voice heard without being a browser vendor or spec author.</p>
-
-<p>Anecdotally I've sent a few messages to the <a href="http://goo.gl/hrBvS">www-style@
-list</a>, without many tangible results. Other web developers
-such as, roughly following the tactic I described earlier, have
-experienced similar frustrations in the recent discussions <a href="http://www.webmonkey.com/2012/05/browsers-at-odds-with-web-developers-over-adaptive-images/">regarding
-high DPI images</a>.</p>
-
-<h2>Conclusion</h2>
-
-<p>This post is a summary of my thinking around most of my recent web
-development work: projects like <a href="https://github.com/borismus/pointer.js">pointer.js</a>, <a href="https://github.com/borismus/physical-units">physical units</a>
-and the <a href="https://github.com/borismus/srcset-polyfill/">srcset-polyfill</a> all have the same mission in mind: to
-cease to exist by having their functionality replaced by the web
-platform itself. The most notable example of such a project is PhoneGap,
-which explicitly states self destruction as its now famous <a href="http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/">second
-goal</a>.</p>
-
-<p>It may seem strange to develop projects with such a nihilistic purpose.
-But keep in mind, that in this case it's not just the code that counts,
-but the ideas behind it. We would be better off with many of these
-things in the web platform: an implementation of pointer events,
-physical units, and a good set of device APIs.</p>
-
-<p>I'm not arguing that the current spec-and-browser-first flow should be
-replaced. I'm merely suggesting that there is an alternative out
-there that involves web developers; one worthy of exploration by
-those of us that aren't in the business of writing browsers but
-care enough about the web platform to try to make a change.</p>
-
-<p><strong><em>UPDATE</em></strong>: At Paul Irish's great suggestion, please post your
-comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBYvHRi">this Google+ thread</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Generalized input on the cross-device web</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/mouse-touch-pointer"/>
-    
-    <updated>2012-06-14T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/mouse-touch-pointer</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p><strong>Update (August 7, 2013): Pointer.js is deprecated. Please use the
-<a href="https://github.com/Polymer/PointerEvents">PointerEvents polyfill</a> instead.</strong></p>
-
-<p>Mouse will soon cease to be the dominant input method for computing,
-though it will likely remain in some form for the forseeable future.
-Touch is the heir to the input throne, and the web needs to be ready.
-Unfortunately, the current state of input on the web is... you guessed
-it: a complete mess! There are two separate issues:</p>
-
-<ol>
-<li>No unified story between mouse, touch, and other spatial input.</li>
-<li>Poor support for complex gestures, especially needed for touch.</li>
-</ol>
-
-<p>I'll look at each in a bit of detail, and then show you
-<a href="https://github.com/borismus/pointer.js">pointer.js</a>. </p>
-
-<!--more-->
-
-<h2>Lack of unified touch and mouse system</h2>
-
-<p>Most web developers should care about providing a good experience on
-both mouse and touch interfaces. This is increasingly true with
-crossover mouse-touch devices like the Transformer prime, and upcoming
-Windows 8 laptops.</p>
-
-<p>Here's what you end up with if you want to support touch and mouse
-events on the web today:</p>
-
-<pre><code>$(window).mousedown(function(e) { down(e.pageY); });
-$(window).mousemove(function(e) { move(e.pageY); });
-$(window).mouseup(function() { up(); });
-
-// Setup touch event handlers.
-$(window).bind('touchstart', function(e) {
-  e.preventDefault();
-  down(e.originalEvent.touches[0].pageY);
-});
-$(window).bind('touchmove', function(e) {
-  e.preventDefault();
-  move(e.originalEvent.touches[0].pageY);
-});
-$(window).bind('touchend', function(e) {
-  e.preventDefault();
-  up();
-});
-</code></pre>
-
-<p>The above is a bunch of boilerplate code that does absolutely nothing!
-You end up having to manually wrangle two completely different models
-into one.</p>
-
-<p>Microsoft is taking a very smart approach with IE10 to address this
-issue by <a href="http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx">introducing pointer events</a>. The idea is to
-consolidate all input that deals with one or more points on the screen
-into a single unified model.</p>
-
-<p>Unfortunately, it's not being proposed as a standardized spec.
-Also, because it's not universally available, it will be yet another
-thing developers need to support (if they want to support Windows
-8/Metro apps). So now our sample above gets <a href="http://blogs.msdn.com/b/ie/archive/2011/10/19/handling-multi-touch-and-mouse-input-in-all-browsers.aspx">even more
-boilerplate</a>, with at least three more calls like the following:</p>
-
-<pre><code>$(window).bind('MSPointerDown', function(e) {
-  // Extract x, y, and call shared handler.
-});
-$(window).bind('MSPointerMove', function(e) {
-  // Extract x, y, and call shared handler.
-});
-$(window).bind('MSPointerUp', function(e) {
-  // Extract x, y, and call shared handler.
-});
-</code></pre>
-
-<p>Although their intentions are good, this approach potentially makes the
-situation (hopefully temporarily) worse.</p>
-
-<h2>Touch gestures need to be easy</h2>
-
-<p>Touch UIs often involve gestures that aren't easy for developers to
-implement, such as pinch-zooming and rotation. However, on the web, due
-to the simplicity of <a href="https://dvcs.w3.org/hg/webevents/raw-file/tip/touchevents.html">the touch events</a>, even implementing
-something as simple as a button <a href="http://code.google.com/mobile/articles/fast_buttons.html">is non-trivial</a>.
-Implementing more complex gesture recognizers on top of the primitive
-<code>touch*</code> events is even less trivial.</p>
-
-<p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html/mouse-touch-pointer/#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
-the rescue to address the lack of gestures, however these both have
-problems. Sencha comes as a complete package, and it's impossible to use
-their gesture recognizer without using their whole framework (or
-spending considerable effort trying to pull it out). Hammer.js, on the
-other hand, doesn't actually implement gesture recognition for
-pinchzoom, but instead relies on the touch spec providing non-standard
-<code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari//mouse-touch-pointer/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html/mouse-touch-pointer/#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
-
-<p>Microsoft has a gesture layer on top of their consolidated pointer
-model. This makes sense as an approach to take. True, certain gestures
-only make sense for touch, and it's easy to distinguish the input type
-using the <code>event.pointerType</code> API. That said, with a unified model,
-there can be new gestures that span multiple input modalities, like
-<a href="/mouse-touch-pointer/#">this research</a> suggests.</p>
-
-<h2>Pointer.js - A solution to both problems</h2>
-
-<p>The solution to this problem is to write another library, tag on a <code>.js</code>
-to the end of the name, get everyone to use it, prove that it's very
-useful, and have browsers and spec implement it natively. Once this
-is spec'ed, approved, and widely implemented, it should just be a matter
-of removing the script tag!</p>
-
-<p><img src="/mouse-touch-pointer/pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
-
-<p>Pointer.js consolidates pointer-like input models across browsers and
-devices. It provides the following:</p>
-
-<ul>
-<li>Events: <code>pointerdown, pointermove, pointerup</code></li>
-<li>Event payload class: <code>originalEvent, pointerType, getPointerList()</code></li>
-<li>Pointer class: <code>x, y, type</code></li>
-</ul>
-
-<p>To use it, simply include <code>pointer.js</code> in your web page. This
-automatically rigs <code>addEventListener</code> with support for <code>pointer*</code> and
-<code>gesture*</code> events.</p>
-
-<p>Try some simple pointer.js demos:</p>
-
-<ul>
-<li><a href="http://borismus.github.com/pointer.js/demos/draw.html">Multi-touch drawing</a></li>
-<li><a href="http://borismus.github.com/pointer.js/demos/basic-pointers.html">Pointer event logger</a></li>
-<li><a href="http://borismus.github.com/pointer.js/demos/basic-gestures.html">Gesture event logger</a> (supports scale, longpress and doubletap)</li>
-</ul>
-
-<p>For more info about the library, check it out at
-<a href="https://github.com/borismus/pointer.js">https://github.com/borismus/pointer.js</a>. Contributions in the form of
-pull requests are most welcome: more demos using pointer events,
-unimplemented gesture recognizers for common gestures, like swipe and
-rotation, and tweaks to the system itself.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Platform fertility: open for innovation?</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/platform-fertility"/>
-    
-    <updated>2012-06-06T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/platform-fertility</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Although I love Apple's design aesthetic and ability to consistently
-churn out amazing hardware, I'm never quite comfortable fully embracing
-it. The reasons have to do with platform fertility, or how well suited a
-platform is to incremental platform innovations and new platform
-creation. Onward!</p>
-
-<!--more-->
-
-<h2>Personal computing</h2>
-
-<p>The evolution of personal computing is generally accepted to look something
-like the following:</p>
-
-<pre><code>Mainframe -&gt; Minicomputer -&gt; Personal computer
-</code></pre>
-
-<p>The above relationship can be interpreted in at least two ways:</p>
-
-<ol>
-<li>The former was disrupted by the latter.</li>
-<li>The former was used to design the latter.</li>
-</ol>
-
-<p>Taking the first interpretation, we are in the middle (closer to the end, I
-reckon) of another disruptive innovation:</p>
-
-<pre><code>Personal computer -&gt; Tablet
-</code></pre>
-
-<p>Indeed, compared to laptops, tablets seem to be a better way for the
-general public to use computers. The touch interface is more intuitive,
-and the physical form factor is better suited to casual use. For the
-purposes of this post, let's assume for argument's sake that tablets
-overtake personal computing in the future. The interesting thing is what
-happens next:</p>
-
-<pre><code>Tablet -&gt; (next disruptive innovation)
-</code></pre>
-
-<p>Let's go back to the second interpretation: <code>b was designed using a</code>
-(or, in some biblical sense, b begat a). In other words, designers and
-engineers used a mainframe to invent minicomputers, a minicomputer to
-invent PCs, and a PC to build tablets. We can call this "platform
-fertility" just for fun. Up to now, said professionals could use
-the latest general purpose computers to do their job, but this may be
-changing.</p>
-
-<p>The tablet disruption was enabled by its predecessor, the PC, being
-flexible and extensible enough, and thus well suited as a prototyping
-platform. Linux, OS X and even Windows are all very flexible platforms,
-intended to work with a variety of software toolkits and external
-devices. These desktop platforms never imposed restrictions like
-software signing, and even if they did, you the power user could always
-override.</p>
-
-<h2>Peril of a closed platform</h2>
-
-<p>I don't want to argue about the semantics of the word "open", but
-regardless of your religious dispositions, we can all agree that Apple
-is not, nor has any pretenses to be associated with, that word. I'm not
-making judgements here, it's just how they roll. The API surface is
-carefully designed to give developers the right amount of flexibility,
-but not more. AppStore is explicitly a sandbox, and if you don't play by
-the rules, you lose your playground privileges.</p>
-
-<p>So imagine for a minute that iPad swept the tablet market (shouldn't be
-hard given the <a href="http://www.appleinsider.com/articles/12/05/04/ipad_tablet_market_share_will_dip_to_50_by_2017_study_says.html">current market distribution</a>). From a pragmatic
-user's perspective, this is fine, even good! iOS is a very
-well-integrated platform, working across all shiny Apple products, and
-users are generally pretty happy with the interface and overall
-experience. From a curious developer's perspective, however, things
-are a bit different.</p>
-
-<p>As an iOS developer that wants to improve the platform experience,
-however, you are pretty much stuck with how things are. You can't
-replace the lock screen, can't write long-running applications that read
-in accelerometer data in the background, can't customize your home
-screen launcher, etc.</p>
-
-<p>The problem is exacerbated when you set out to try to invent the next
-thing. How do you interface with your new stereo camera rig? How many
-hurdles do you have to overcome to make it possible to interface with
-your new smart watch? How about a pair of smart contact lenses? How do
-you get raw USB access? Bluetooth? Ad-hoc wireless? Granted, the further
-you venture away from the platform core, the less help you would expect
-from it. This is generally where you climb down a layer of abstraction -
-for example, to <a href="http://developer.android.com/sdk/ndk/index.html">NDK in Android</a>. Without such an option, you're
-left dead in the water.</p>
-
-<h2>A Litmus test</h2>
-
-<p>Unless iPads become more hackable or other, more developer-friendly
-tablets emerge as serious competitors, laptop computers will become
-specialized tools for software professionals while tablets supplant
-laptops for the rest of the public.</p>
-
-<p>Platforms inherently restrict the developer in some sense, placing them
-in a box delineated by the APIs that the platform provides. An
-interesting way to examine this box is with this notion of "platform
-fertility", centering around the question:</p>
-
-<p><strong>Can this platform beget future platforms?</strong></p>
-
-<p>Whether your idea of the next platform is incremental (for example, a
-better lock screen) or a fundamental disruptive innovation (for example,
-smart glasses), the answer to the above question for the current state
-of iOS is a resounding no. Sorry bro!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Let's get physical (units)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/physical-units"/>
-    
-    <updated>2012-05-02T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/physical-units</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>There's an increasing variety of devices in use today. Even generally
-rectangular touch enabled devices vary hugely in their physical sizes,
-aspect ratios, pixel densities, etc.</p>
-
-<p>One thing that remains constant across these devices are their users.
-Technologies come and go every year, but people stay the same. Existing
-form factors: <a href="http://en.wikipedia.org/wiki/Smart_device">pads, tabs and boards</a> still make sense, and
-will continue to do so for the forseeable future. As a result,
-ergonomic considerations like touch target sizing, readable text and
-image size remain constant. Fingers will be fingers and eyes will be
-eyes! Our bodies are firmly rooted in the physical world, and the
-interfaces we create should reflect that.</p>
-
-<!--more-->
-
-<p>Take touch targets, for example. Apple's <a href="http://developer.apple.com/library/ios/#DOCUMENTATION/UserExperience/Conceptual/MobileHIG/Characteristics/Characteristics.html">human interface guidelines
-recommend</a> minimum touch target size of 44x44pt for iOS. On
-an iPhone, 44pt is about 0.25in. On an iPad, 44pt is about 0.3in, physically
-larger because of different device pixel density. Even Apple has such
-discrepancies despite a very simple device landscape. Apple devices only
-come in two configurations: iPhone and iPad (and their retina
-counterparts).</p>
-
-<p>The situation gets far more complex when we look at mobile devices in
-general, which is the world of mobile web developers. In an ideal world,
-images and fonts should be scalable and all units should be physical.
-I built a <a href="https://github.com/borismus/physical-units">prototype</a> that illustrates roughly how this
-model would work. Onward for the gory details.</p>
-
-<h2>Device variance</h2>
-
-<p>Here's a brief sampling of pixel density and aspect ratio for a few
-popular devices (data <a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density">from wikipedia</a>):</p>
-
-<pre><code>Device          DPI   Aspect
-============================
-iPhone*         163      3:2
-iPad*           132      4:3
-Nexus S*        117      5:3
-Galaxy Nexus*   158     16:9
-Galaxy Note*    142      8:5
-Galaxy Tab      149      8:5
-T-Prime         149      8:5
-Lumia 900       217     10:6
-</code></pre>
-
-<p>The ones with a <code>*</code> denote double density devices. In other words, the
-physical pixel density is double the value indicated, but the browser
-generally reports the resolution to be this halved value. For more
-information about this practice, read <a href="http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html">a pixel is not a pixel</a>.</p>
-
-<p>Thus, in practice, a 44x44px button rendered with a reasonable viewport:
-<code>&lt;meta name="viewport" content="width=device-width"&gt;</code> will vary in
-dimensions between 0.20in on the Lumia 900 to nearly double, 0.38in on
-the Nexus S.</p>
-
-<p>Further complicating things is a somewhat obscure fact that pixels might
-not be square at all. The term for it is <a href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">pixel aspect
-ratio</a>. As far as I can tell, this is only a concern when
-displays aren't using their native resolutions, which luckily is a
-rarity in mobile devices.</p>
-
-<h2>The problem with pixels</h2>
-
-<p><a href="http://www.lukew.com/ff/entry.asp?1085">Many HIGs</a> recommend minimum touch target sizes in
-pixels. What really matters is the size of human fingers, which as we
-established earlier, don't grow and shrink as a function of the device
-you happen to be using.</p>
-
-<p>Microsoft, anticipating a more fragmented ecosystem of devices with
-varied densities and screen sizes, is recommending a physical size
-approach instead, which makes more sense for touch targets. They suggest
-a 9x9mm recommended lower bound, and an absolute minimum of 7x7mm. This
-jives well with established research, such as MIT's <a href="http://touchlab.mit.edu/publications/2003_009.pdf">Touch Lab study of
-Human Fingertips to Investigate the Mechanics of Tactile Sense</a>,
-which found that the average human finger pad is 10-14mm and the average
-fingertip is 8-10mm in diameter.</p>
-
-<h2>Benefits of physical units</h2>
-
-<p>As a developer, I'd like to just say "this button is 40x9mm" and have
-that actually map to real physical dimensions. If I could ensure usable
-sizes for all of my touch targets, that solve this problem across all
-devices, once and for all!</p>
-
-<p>Physical units also make feature-based device detection far more
-reliable. Currently, the best we can do is basically guess what sort of
-device is visiting your site, using heuristics like device resolution
-(in magic CSS pixels that automatically get scaled). Using this
-approach, it's hard to distinguish between laptops and tablets, for
-example. It's even more challenging to distinguish phones from 7"
-tablets, or 7" tablets from 10" ones. Approaches like <a href="https://github.com/borismus/device.js">device.js</a> would
-benefit greatly.</p>
-
-<p>Finally, as you saw, using pixels results in a huge variance in font
-size, resulting in bad text readability in general. With physical units,
-you can set a good default baseline size for text to ensure readability.</p>
-
-<p>Of course, in all of these cases, it's possible to manually rescale the
-view in order to get the desired zoom level that's readable and
-touchable, but the whole point is to have a system that behaves well by
-default.</p>
-
-<h2>Scaling well</h2>
-
-<p>So, in this world of physical sizes for everything, virtually everything
-needs to be scaled to the appropriate size. This includes text, images,
-and general layout (eg.  sizes, coordinates, etc). This means having
-assets, fonts and a layout engine that's capable of scaling well,
-without loss of visual fidelity.</p>
-
-<p>General layout is pretty easy to do - all you need is to convert real
-units into pixels for actually rendering. Text gets a bit tricker, since
-most fonts are defined only at certain key-sizes, and scaling to
-fractional sizes might not work perfectly. Scaling images, of course, is
-a whole separate topic. Rasters are very difficult to scale down without
-compromising quality, and scaling up creates a blurry or pixelated
-looking image. The obvious solution is to use scalable image formats. On
-the web, this basically means SVG, which is <a href="http://caniuse.com/#search=svg">quite well
-supported</a> across browsers, but does have its own
-idiosyncrasies.</p>
-
-<h3>Vectors and rasters</h3>
-
-<p>Still, even with vector images, there are potential arguments to be made
-about the superiority of pixel-perfect assets, since the designer has
-absolute control to decide their assets at the pixel level.
-Unfortunately, the pixel-perfect approach causes a lot of pain for
-designers, who are routinely forced to create multiple versions of the
-same asset. On iOS, you specify both the regular and retina asset. On
-Android, you specify four: <code>ldpi</code>, <code>mdpi</code>, <code>hdpi</code> and <code>xhdpi</code>. These
-don't actually get scaled, but the closest one gets served based on the
-device DPI. This means that it's impossible to create assets in an exact
-physical size. Here's an excerpt from the <a href="http://developer.android.com/guide/practices/screens_support.html">Android docs</a>:</p>
-
-<p><img src="/physical-units/android-dpi.png" alt="Android assets and device DPI" /></p>
-
-<p>On the web, you can't realistically hope for pixel perfection because of
-the vast variety of devices and browsers. Designers need to embrace the
-medium, and do as well as they can given the constraints of the web.
-Scaling the same image (vector or raster) may not be adequate for other
-reasons. In some cases, especially with icons, you want to specify
-assets with different levels of detail depending on the physical size.
-Check out a few <a href="http://mrgan.tumblr.com/post/708404794/ios-app-icon-sizes">great</a> <a href="http://www.pushing-pixels.org/2011/11/04/about-those-vector-icons.html">posts</a> on this subject.</p>
-
-<blockquote>
-  <p>It’s simply not possible to create excellent, detailed icons which can
-  be arbitrarily scaled to very small dimensions while preserving clarity.</p>
-</blockquote>
-
-<p><img src="http://farm7.static.flickr.com/6224/6311957505_6f15b6f925.jpg" alt="Varying levels of details depending on size" /></p>
-
-<p>That said, there's no reason why icons with appropriate levels of detail
-for smaller and larger sized screens shouldn't use the same scalable,
-physical approach. In the above example, using scaled assets would let
-the designer create 4 instead of 5 separate assets, since the 128px and
-64px versions are the same, just scaled.</p>
-
-<p>It's not all flowers and sausages, though. Vectors are inherently less
-efficient to deal with, since they require the intermediate step of
-rasterization before they can be blitted to the screen buffer. This is
-expensive, but not a show stopper. Optimizing this issue is a topic that
-probably warrants a whole article on its own, but one major win could be
-to rasterize once depending on your device DPI, and then cache the
-rasterized asset so that you don't need to rasterize the vector every
-time you render.</p>
-
-<h2>Doing it on the web</h2>
-
-<p>If you want to figure out your phone's exact physical dimensions in a
-browser based application, you're out of luck. Even units that share a
-name with physical units (like <code>inch</code>, <code>cm</code>, etc) don't actually render
-that way. Here's a <a href="http://lewisnyman.github.com/Where-are-our-absolute-units--Demo/">test page</a> that renders some text with
-CSS inches. If you measure the actual output on your laptop or phone,
-you'll notice that it's not a real inch.</p>
-
-<p>Now, you could imagine doing some monkey patching to enable physical
-units using JavaScript, but that's also impossible to do cleanly since
-you need to know either the true device DPI or the physical size of
-the screen, neither of which is queriable in any way on the web.
-JavaScript does provide <code>window.devicePixelRatio</code>, but that only reports
-the scale factor for pixel density, which is used for retina and other
-displays where CSS pixels differ from physical pixels.</p>
-
-<h2>How does it feel?</h2>
-
-<p>Even though it's impossible to get physical size or DPI from a browser,
-I wanted to try it out, to see if this would work in practice. Here's a
-<a href="https://github.com/borismus/physical-units">prototype library</a> that uses entirely physical units
-for everything, and fully scalable assets. All objects shown on <a href="http://borismus.github.com/physical-units/controls.html">this
-controls page</a> should render to the correct physical size on
-the following devices: iPhone, Galaxy Nexus, iPad, MacBook Air 13". Go
-ahead and pull out a ruler (I did) and measure - the sizes should be
-exact across the supported devices.</p>
-
-<p>Here's a screenshot of a <a href="http://borismus.github.com/physical-units/sample.html">basic phone UI</a> built with only physical
-units and percentages on an iPhone 4S and Galaxy Nexus:</p>
-
-<p><img src="/physical-units/android-ios-physical.png" alt="Phones with a UI built using physical units" /></p>
-
-<h3>Implementation details</h3>
-
-<p>As mentioned, there's no way to get DPI in the browser. My prototype
-works because I've hard-coded the physical DPI for each supported device
-based on user agent matching. It's a terrible hack and not a great
-option for production, even with more complete coverage.</p>
-
-<p>The prototype currently only works by specifying sizes in absolute
-units. It currently only supports inline styles, and not CSS rules. For
-example, one can now write the DOM like:</p>
-
-<pre><code>&lt;button style="width: 9mm;"&gt;Nice touch target&lt;/button&gt;
-</code></pre>
-
-<p>I ran into a few small implementation details along the way that I
-thought might be worth mentioning.</p>
-
-<p>Firstly, by default, nginx doesn't serve SVG with the correct mime type.
-So, visiting the asset URL just downloads the asset rather than
-rendering it, and embedding the asset in an <code>img</code> tag doesn't work. The
-fix is <a href="http://stackoverflow.com/questions/3695409/nginx-offers-of-downoload-svg-instead-of-showing-it">simple and documented</a>: add the correct mime type to an nginx
-configuration file.</p>
-
-<p>Secondly, I was a bit disappointed not to find many pre-downloadable SVG
-icon sets, but did discover <a href="http://raphaeljs.com/icons/">this resource</a> which has SVG
-icons as pathes. To use them it's just a matter of pasting the path
-specification into an SVG <code>path</code> element, as follows:</p>
-
-<pre><code>&lt;svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"&gt;
-  &lt;path d="your-pathspec-goes-here" /&gt;
-&lt;/svg&gt;
-</code></pre>
-
-<p>Though unstated, the icons on the above site seem to all be 32x32 units
-(Note: not pixels).</p>
-
-<p>Lastly, since CSS has units that look like physical ones (cm, mm, in,
-etc), I wanted to create a new unit, say truemm, truein, etc.
-Unfortunately, Chrome (and perhaps other browsers, haven't tested)
-doesn't support units that it doesn't recognize. As a result, I had to
-piggyback and override existing units. This approach would break the
-behavior of sites that use for some unknown-to-me reason, but
-introducing new units prefixed by <code>true</code> is verbose and confusing for
-beginners. If you know of any reasons why a developer today would be
-using CSS mms/inches, please let me know.</p>
-
-<h2>Angular units</h2>
-
-<p>Rob <a href="http://lists.w3.org/Archives/Public/www-style/2012Feb/0948.html">writes</a>:</p>
-
-<blockquote>
-  <p>The only use-cases for truemm are when you need content matching the
-  size of some real-world object, e.g. a ruler, or a life-size image, or
-  a human fingertip. That's it.</p>
-</blockquote>
-
-<p>I disagree. It so happens that generally touch devices are used at a
-relatively fixed distance from screen to user. This makes physical units
-useful for not just touch targets, but also text and image readability.</p>
-
-<p>But in the same breath, Rob makes a great point:</p>
-
-<blockquote>
-  <p>Ask yourself, "do I really want this content to be the same physical
-  size on a phone and a wall projector?" If the answer is yes, use
-  truemm, otherwise don't.</p>
-</blockquote>
-
-<p>Indeed, there are cases where physical units aren't ideal. The
-conditions for this are roughly:</p>
-
-<ol>
-<li>Unknown distance from viewer to screen.</li>
-<li>Unknown screen size.</li>
-</ol>
-
-<p>In this case, the reasonable thing to do is adopt an angular unit, which
-would be able to scale depending on viewing distance from the screen
-(and of course DPI too).  This might mean that you use degrees, <a href="http://en.wikipedia.org/wiki/Minute_of_arc">minutes
-of arc</a>, or some arbitrary angular unit "au" (not to be confused
-with <a href="http://en.wikipedia.org/wiki/Astronomical_unit">AU</a>).</p>
-
-<p>The idea of angular units isn't new. In fact, surprisingly, the CSS spec
-features it quite prominently in the definition of CSS pixels. A <a href="http://inamidst.com/stuff/notes/csspx">recent
-article</a> on this topic reminded that pixels are actually
-specified to be angular in nature.</p>
-
-<blockquote>
-  <p>The reference pixel is the visual angle of one pixel on a device with
-  a pixel density of 96dpi and a distance from the reader of an arm's
-  length. For a nominal arm's length of 28 inches, the visual angle is
-  therefore about 0.0213 degrees. For reading at arm's length, 1px thus
-  corresponds to about 0.26 mm (1/96 inch). -- <a href="http://www.w3.org/TR/CSS21/syndata.html#length-units">CSS spec</a></p>
-</blockquote>
-
-<p>There are a couple of problem with this.</p>
-
-<ol>
-<li><p>Poor naming: calling such a unit a pixel is incredibly confusing.</p></li>
-<li><p>Lack of flexibility: this approach assumes a 96dpi display and a
-fixed viewing distance. As previously discussed, the former is a bad
-assumption, and in the case of large format viewing, so is the latter.</p></li>
-</ol>
-
-<p>Introducing true angular units that can be configured based on display
-distance from the observer would be a boon for designers and engineers
-working on software for TVs and other large-format devices. Some default
-viewing distance could be provided, but developers should have a means
-of specifying a custom viewing distance (potentially inferred from
-device hardware, as described in <a href="http://www.chrisharrison.net/index.php/Research/LeanAndZoom">this research</a>).</p>
-
-<h2>Next steps</h2>
-
-<p>Browser vendors need to start supporting true physical units. One path
-might be creating all new units (eg. <code>truemm</code>, <code>truein</code>) or redefining
-the old ones to be use absolute values, which in many cases may be what
-the developers actually intended.</p>
-
-<p>These units should also be usable in media queries, so that it's
-possible to do things like:</p>
-
-<pre><code>(max-device-width: 4in)
-</code></pre>
-
-<p>This will enable a more robust way to do device detection via media
-queries a la <a href="https://github.com/borismus/device.js">device.js</a>.</p>
-
-<p>There appear to be some efforts from Mozilla to have a media query for
-DPI, via <a href="https://developer.mozilla.org/en/CSS/resolution">resolution</a>. This is a good start, but there should
-also be a way to get DPI directly via JavaScript, otherwise enterprising
-developers will need to resort to binary searching through possible DPIs
-via <code>window.matchMedia</code>, which is just ridiculous.</p>
-
-<p>The introduction of a true angular unit with a configurable viewing
-distance would be amazing for a web that works well on large-format
-displays.</p>
-
-<p>Ultimately, UI developers need to understand the serious problems with
-pixels because this problem isn't going away any time soon.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>New design</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/redesign-2012"/>
-    
-    <updated>2012-03-30T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/redesign-2012</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I re-designed this site using the <a href="http://www.google.com/webfonts/specimen/PT+Sans">PT Sans font</a>, aiming for
-appealing typography for optimal readability. Interestingly,</p>
-
-<blockquote>
-  <p>PT Sans is based on Russian sans serif types of the second part of the
-  20th century, but at the same time has distinctive features of
-  contemporary humanistic designs.</p>
-</blockquote>
-
-<p>Since visitors are increasingly coming from a variety of devices, I also
-created three variants of the site for small, medium and large screens
-via media queries:</p>
-
-<!--more-->
-
-<pre><code>@media screen and (max-width: $small) {/* small */}
-@media screen and (min-width: $small) and (max-width: $large) {/* medium */}
-@media screen and (min-width: $large) {/* large */}
-</code></pre>
-
-<p>Note that the above is valid <a href="http://sass-lang.com/">SCSS</a> (as of version 3.2)! To try it out,
-you may need to install the prerelease via <code>gem install sass --pre</code>.</p>
-
-<p>As usual, the layout of this site is largely inspired by designers far
-more skilled than I, including: <a href="http://viljamis.com/">http://viljamis.com/</a> and
-<a href="http://www.markboulton.co.uk/">http://www.markboulton.co.uk/</a>.</p>
-
-<h2>New engine</h2>
-
-<p>This blog can now also double as a micro blog, where I can easily <a href="/archive/links">post
-links</a> in a social network-agnostic way. Similarly, it now hosts
-<a href="/archive/talks">all of my talks</a>, which used to live on
-<a href="http://smustalks.appspot.com">http://smustalks.appspot.com</a>. It's also a lot easier for me to create
-new posts.</p>
-
-<p>All of these structural changes are largely due to me building a
-completely new static site generator which addresses a lot of my pains
-using other static generators. I'll write a separate article about this
-engine when I'm ready to release it to the public.</p>
-
-<h2>No more comments</h2>
-
-<p>Since the start of this blog, I've struggled with the concept of
-comments on my site and in on blogs in general. Even with services like
-disqus, which try to integrate your blog commentator personality into
-one place, I feel that in practice, commenting on the web is very hard
-to keep in one place, and the most interesting discussions end up
-distributed in many pockets such as Hacker News, twitter, etc. Having
-the in-blog comments as well only makes things messier.</p>
-
-<p>Other problems include:</p>
-
-<ul>
-<li>Leaving a comment right after reading content encourages unconsidered
-responses, since readers haven't had time to process the content.</li>
-<li>Lately my blog has been generating a lot of spam comments that I need
-to moderate. I don't have time for that.</li>
-<li>People tend to ask for technical support in the comments, which adds
-very little value for other readers.</li>
-<li>Disqus slows down page load time, and presents a UI that's not easily
-skinnable.</li>
-</ul>
-
-<p>For a more in-depth analysis about blog comments, see Matt Gemmell's
-thorough post <a href="http://mattgemmell.com/2011/11/29/comments-off/">on this subject</a>.</p>
-
-<p>I've disabled comments on all posts. That said, I still want to hear
-your ideas and feedback, and engage in discussion around topics I'm
-obviously interested in (enough to write about!)</p>
-
-<h2>Evolving designs</h2>
-
-<p>This is the fourth iteration of my blog's design. I apparently do a
-re-design every year, since I started in 2008.</p>
-
-<p><style>
-article img { border: 1px solid gray; }
-</style></p>
-
-<p><img src="/redesign-2012/v1.png" alt="original un-design" /></p>
-
-<p>This version was a small modification done to an existing wordpress
-theme.</p>
-
-<p><img src="/redesign-2012/v2.png" alt="first iteration" /></p>
-
-<p>I really liked this version for a long time, since it was so clean and
-minimal. Unfortunately the header took way too much space, and the
-typography left something to be desired.</p>
-
-<p><img src="/redesign-2012/v3.png" alt="second iteration" /></p>
-
-<p>This was the first "responsive" version. It had too many gimmicky,
-non-standard design elements.</p>
-
-<p><img src="/redesign-2012/v4.png" alt="current iteration" /></p>
-
-<p>I'm reasonably happy with the current version, especially the typography
-in the main body.</p>
-
-<p>And strangely excited about the engine that powers this blog too
-(codenamed <em>Lightning</em>, which generates a lot of static, and is also
-very fast! Ha, get it?). Once released, I will write another meta-blog
-post about it. For now, though, I wrote a bit about Lightning
-<a href="/site">here</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Backbone and ember</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/backbone-and-ember"/>
-    
-    <updated>2012-02-15T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/backbone-and-ember</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p><a href="http://emberjs.com/">Ember</a> and <a href="http://documentcloud.github.com/backbone/">Backbone</a> are both promising JavaScript frameworks but have
-completely different philosophies. In this post, I'll compare the two, both
-from a practical and philosophical perspective. I'll defer to real world
-experience with Backbone and <a href="http://sproutcore.com">SproutCore</a> (Ember's predecessor), as well as
-basic experiments with Ember (full disclosure: haven't built a large Ember app
-yet). I'll also supplement claims with quotes from a fantastic <a href="http://goo.gl/t7gHG">conversation</a>
-from Freenode <a href="/backbone-and-ember/irc://irc.freenode.net/#documentcloud">#documentcloud</a> on February 3rd, 2011. For quote
-context, <code>wycats</code> is <a href="http://yehudakatz.com/">Yehuda Katz</a>, one of the lead developers on Ember, and
-<code>jashkenas</code> is <a href="http://ashkenas.com/">Jeremy Ashkenas</a>, one of the lead developers on Backbone.
-<!--more--></p>
-
-<p>Before I go into too much detail, it's pretty clear that both frameworks have
-the same goal: to help developers build apps.</p>
-
-<blockquote>
-  <p>1:09 PM <strong>wycats</strong> backbone apps are apps</p>
-</blockquote>
-
-<p>So we have a roughly apples-to-apples comparison. Let me dive in and talk about
-some philosophical differences:</p>
-
-<h2>Backbone at a glance</h2>
-
-<p>Backbone is a minimalist framework that builds on top of ideas from
-jQuery to give some structure to web applications. It introduces
-concepts of views, models, a restful sync interface, routers, etc, in
-surprisingly little code. Backbone is the darling of microframework
-lovers, who highly value small framework size and don't want to commit
-to a single "full stack" solution.</p>
-
-<p>Backbone is incredibly flexible, and doesn't impose how your views and
-models should actually interact. The main benefit is that it adds some
-structure to the app and provides convenient ways of listening to DOM
-events and turning them into application events.</p>
-
-<blockquote>
-  <p>1:15 PM <strong>wycats</strong> backbone is 600loc <br />
-  1:16 PM <strong>wycats</strong> "here's how you should think about your app structure"</p>
-</blockquote>
-
-<p>Since Backbone is so small, it leaves a lot of decisions up to the
-developer. This is both a blessing (flexibility, works for me, etc) and
-a curse, since support for many things is missing.</p>
-
-<blockquote>
-  <p>12:32 PM <strong>wycats</strong> jashkenas: backbone is 600 lines of code <br />
-  12:32 PM <strong>wycats</strong> jashkenas: the idea that there are things missing in it that
-  are common should not be controversial</p>
-</blockquote>
-
-<h2>Ember at a glance</h2>
-
-<p>Ember has a very different history. It's an evolution of SproutCore,
-which is a complete web application solution. Ember takes the core parts
-of SproutCore - two-way data binding, computed properties, tight
-template integration, and strips the rest off into sub-modules. Things
-that come in module format are a data serialization layer (via <a href="https://github.com/emberjs/data">data</a>),
-routing (via <a href="https://github.com/emberjs-addons/sproutcore-routing">routes</a>). Ember's out of the box functionality is
-actually smaller than Backbone's, but it provides a higher level
-abstraction.</p>
-
-<p>I used SproutCore back in 2008 while working as an engineer on
-iWork.com. It was a SproutCore pre-1.0 release, and things were a bit
-rough. Ember seems to have come clean in many ways, presenting a more
-consistent template data binding solution via Handlebars, and being a
-lot less monolithic SproutCore once was.</p>
-
-<p>Ember aims to provide a full solution in an opinionated way. Thus,
-to get the most of the framework, developers must do things in a certain
-style. While you're not forced to use Handlebars, it's the only way to
-get some of the compelling features the framework provides (eg. for
-two-way data binding). Many of the auxillary modules such as ember-data
-are designed to fit will into the existing structure of the framework.</p>
-
-<blockquote>
-  <p>1:22 PM <strong>wycats</strong> tbranyen: ember is an end-to-end framework built on
-  top of more modular components</p>
-</blockquote>
-
-<p>There is a sentiment from many people, including Backbone's founder that
-much of what Ember provides is over-engineered:</p>
-
-<blockquote>
-  <p>12:28 PM <strong>jashkenas</strong> It's Backbone's take that Ember's more complex
-  data binding model, intermediate controllers, run loop etc. ... are
-  all interesting approaches, but are <em>not</em> usually helpful in building
-  a real site.</p>
-</blockquote>
-
-<h2>Different audiences</h2>
-
-<blockquote>
-  <p>12:30 PM <strong>jashkenas</strong> wycats: and I find quite the opposite --
-  self-selecting sample pools, as you'd expect.</p>
-</blockquote>
-
-<p>So to summarize at a high level, there are two camps (and excuse me
-while I generalize a lot).</p>
-
-<ol>
-<li><p>Lovers of micro-frameworks. JavaScript hackers seeking extra
-structure in their slightly complex apps. These people are
-comfortable mixing and matching frameworks, solving problems as they
-come, and just want to get started quickly.</p></li>
-<li><p>Software Engineers that are used to a deep abstraction layer and a
-full service stack. These people are probably coming from native app
-development and want to write very complex applications on the web.</p></li>
-</ol>
-
-<p>Basically, these two developers have different needs, come from
-different programming cultures, and are maybe even writing different
-applications.</p>
-
-<blockquote>
-  <p>12:31 PM <strong>wycats</strong> jashkenas: so then it's fair to say that for <em>some</em>
-  people, Ember's approach is overkill</p>
-</blockquote>
-
-<p>Andrew says it best:</p>
-
-<blockquote>
-  <p>12:36 PM <strong>andrewdeandrade</strong> It's really all about values. Occasionally
-  I get frustrated by things backbone.js doesn't do and occasionally I
-  get frustrated by things rails does that are hard to undo. My personal
-  preference is to have a framework not do something and implement it
-  myself than have a framework do something and figure out how to do the
-  opposite. That's me. I know people who feel differently</p>
-</blockquote>
-
-<h2>A more detailed comparison</h2>
-
-<p>After engineering with SproutCore, writing an app with Backbone, and
-writing small amounts of Ember (mostly samples to get a feel for data
-bindings, etc), I've got some sense of the issues that you will run into
-when developing a moderately complex app. I'll go over some, and
-supplement them with quotes from framework authors.</p>
-
-<blockquote>
-  <p>1:28 PM <strong>wycats</strong> jashkenas: do you disagree that the pattern "listen
-  for these properties, and when any of them changes, trigger observers"
-  is very common? <br />
-  1:26 PM <strong>jashkenas</strong> that's correct -- you listen for changes to the source data and render computed values. not hard. <br />
-  1:26 PM <strong>wycats</strong> jashkenas: yes… a pattern that happens sufficiently often that it's good to abstract</p>
-</blockquote>
-
-<p>In general, Ember seeks to find common problems that developers face,
-and solve them in an opinionated way. Backbone, on the other hand,
-leaves it to developers solve their own problems in the way that works
-for them.</p>
-
-<h3>Templates</h3>
-
-<p>While Ember in theory lets you pick which templating engine to use, you
-lose a lot of benefits if you're not using Handlebars.</p>
-
-<blockquote>
-  <p>1:29 PM <strong>jashkenas</strong> forcing your users to use logic-less templates is <em>incredibly</em> constraining. <br />
-  1:30 PM <strong>tomdale</strong> jashkenas: ember supports any templating language you'd like. you just don't get auto-updating <br />
-  1:30 PM <strong>jashkenas</strong> right, exactly.</p>
-</blockquote>
-
-<p>In practice, my last project used Mustache because it was logic-less.
-Such templating engines are my preference, and I'm happy to be
-constrained to a pretty good templating system if that means access to
-powerful features, cleaner application code and less boilerplate.</p>
-
-<p>I don't think that Ember should be toting choice of template as a big
-benefit. Like any application framework, Ember is a contract between
-developer and framework author. You write in our style and we'll give
-you powerful features. In an ideal world, this lets developers focus on
-their app instead of dealing with middleware.</p>
-
-<h3>Views</h3>
-
-<p>view decomposition is one of the first tasks a front end developer
-faces. They need to decide which parts of their app will be implemented
-with what view. Should each list item be its own view? Should the list
-be a single monolithic view?</p>
-
-<p>In my experience writing Backbone apps, views are very primitive and
-tend to cause issues. There's no support for any sort of view nesting,
-which is totally critical for large applications with complex UIs. In
-contrast, Ember provides an easy way of nesting views inside one
-another.</p>
-
-<p>The other thing you'll notice with Backbone is that there's a lot of
-micro-management required when building Backbone views. They need to
-be properly cleaned up by hand, otherwise you end up with <a href="http://stackoverflow.com/questions/7125402/backbone-bind-multi-event-to-one-button-after-i-new-view-multi-times">zombie
-views</a> bound to events, or events that <a href="http://stackoverflow.com/questions/7348988/backbone-js-events-not-firing-after-re-render">don't fire at all</a>.</p>
-
-<p>Some backbone projects, such as the <a href="https://github.com/tbranyen/backbone.layoutmanager">layout manager</a>, aim to remedy
-some of these limitations by creating a Layout abstraction, that allows
-nested views and handles a lot of the rendering. This is a very
-interesting project, but I haven't tried it yet.</p>
-
-<h3>MVC?</h3>
-
-<p>Ember is a traditional MVC framework, where it's clear which parts are
-the view, the controller and the model. Backbone on the other hand, is
-explicitly not an MVC. It never even claims to be!</p>
-
-<p>In fact, if you read the <a href="http://documentcloud.github.com/backbone/">main page</a>, you'll notice that
-there's no mention of controllers anywhere. Don't get me wrong: Backbone
-still gives your applications structure, but has no opinion on the
-gluing layer between data and presentation. I think Backbone once had
-controllers, but they were renamed to routers, designed primarily for
-handling URLs and history/pushState.</p>
-
-<p>In my experience, there's very much a need for a controller when writing
-even moderately complex apps. You're presented with several options:</p>
-
-<ol>
-<li>Write controller code in views</li>
-<li>Write controller code in models</li>
-<li>Write controller code in a router</li>
-<li>Write your own controller infrastructure</li>
-</ol>
-
-<p>If you care about separation of concerns, none of these options are
-really acceptable.</p>
-
-<h3>Data and servers</h3>
-
-<p>Backbone packs a huge punch in a small package. It comes with
-<code>Backbone.sync</code>, which lets you fully customize how you want to interact
-with the server.</p>
-
-<p>Following the CRUD pattern, Backbone lets you specify the response
-format of an Read, but unfortunately doesn't allow you to fully
-customize how you would like to serialize Create and Update and Delete
-payloads for calling your server-side API. For my last project, I ended
-up just completely redefining Backbone.sync, which is very powerful, but
-I needed to write a lot of boilerplate to make it work reasonably.</p>
-
-<p>The problem with Backbone's approach is that it doesn't separate two
-parts of data stores: internal collection management and the interface
-with the backend API.</p>
-
-<p>Ember data, on the other hand, has the concept of API adapters, which
-let you specify the interface the server. Additionally it has a
-DataStore model. I haven't experimented with this in Ember yet, but
-SproutCore's version of this worked quite well.</p>
-
-<h3>Performance considerations</h3>
-
-<p>When I worked on iWork.com, we definitely had some issues with
-SproutCore performance for large amounts of data. The problem was that
-we couldn't really optimize our code because we were locked into the way
-SproutCore does things, so our way forward was to patch SproutCore
-itself to address some of the performance issues, or break out of the
-framework and implement the performance intensive part manually.</p>
-
-<p>Jeremy voices this concern here:</p>
-
-<blockquote>
-  <p>1:33 PM <strong>jashkenas</strong> finally, and perhaps most importantly, embers tight
-  coupling of handlebars-ui-with-very-specific-bindings-to-ember-models is
-  trouble, performance-wise. You can't build the really intensive parts of
-  your UI with that level of binding / dom tweaking.</p>
-</blockquote>
-
-<p>And I agree with him. It's very legitimate concern for large apps, and
-Yehuda didn't answer adequately in my opinion.</p>
-
-<blockquote>
-  <p>1:34 PM <strong>wycats</strong> jashkenas: exposing the performance question to the
-  user is trouble <br />
-  1:34 PM <strong>wycats</strong> over the long haul Ember will be able to heuristically
-  decide how bulky to update <br />
-  1:34 PM <strong>jashkenas</strong> sufficiently smart compiler, eh? <br />
-  1:34 PM <strong>wycats</strong> jashkenas: :P  </p>
-</blockquote>
-
-<p>I'm a bit concerned about this point and would love to hear a less
-handwavy answer from Yehuda.</p>
-
-<h2>Final thoughts (Backbone)</h2>
-
-<p>My conclusion from writing an app with Backbone, and attending a Bocoup
-training workshop, is that Backbone by itself is not sufficient for
-building complex web apps. You will invariably go one of two directions:</p>
-
-<ol>
-<li>Engineer a lot of stuff on top of it, or</li>
-<li>Use existing Backbone plugins of various maturity and hope they work
-well together.</li>
-</ol>
-
-<p>Based on my experience with jQuery, and the mess of ensuing plugins, The
-latter seems overly optimistic. So basically, be prepared to write a lot
-of extra <a href="https://github.com/tbranyen/backbone-boilerplate">boilerplate</a> code. But if you're a JavaScript developer, you
-can handle that!</p>
-
-<p>In practice, it's very difficult to remain productive if you're writing
-both an app and a framework at the same time. Unfortunately this was my
-tendency when using Backbone. I hate reinventing the wheel. Especially
-if it's kind of lopsided.</p>
-
-<p>That said, Backbone is fantastic for mid-to-low complexity applications
-that want to maintain structured code.</p>
-
-<h2>Final thoughts (Ember)</h2>
-
-<p>Ember, on the other hand, forces you into its way of doing things. This
-is a framework with opinions that gives you less flexibility. However,
-if you grit your teeth a little bit and buy in, you'll be exposed to a
-well thought out set of libraries that work well together.</p>
-
-<p>I really like the features Ember offers, and its philosophy of finding
-common problems developers will face and solving them. One thing I
-anticipate is that many of the non-core Ember modules are immature.
-However, just having these modules that are designed to work together is
-a boon for serious application developers.</p>
-
-<p>I'm still concerned that Ember applications may be stuck if dealing with
-particularly hairy custom view situations, or large amounts of data, but
-I'll have a better sense of the limitations soon.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>PDF conversion and client-side scraping</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/pdf-conversion-client-side-scraping"/>
-    
-    <updated>2012-02-08T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/pdf-conversion-client-side-scraping</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>One of my ongoing projects is called smusique, a mobile web-based sheet
-music viewer. The application was designed for tablets, enabling a
-rich browsing experience through sheet music. Though some sheet
-music is encumbered by licenses, most of the classic stuff is legally
-available online via sheet music databases such as the <a href="http://imslp.org">Petrucci
-Library</a> at <a href="http://imslp.org">imslp.org</a>.
-<!--more--></p>
-
-<p>While the focus of my project was to design and develop a delightful
-tablet-based interface for sheet music, I needed to solve some technical
-problems:</p>
-
-<ol>
-<li>Figure out how to deal with PDFs in the browser.</li>
-<li>Create or find a database with a large enough corpus of searchable
-sheet music.</li>
-</ol>
-
-<p>Read on to find out how I solved these problems using the AppEngine
-conversion API and through a Chrome extension that does client-side
-scraping.</p>
-
-<h2>Dealing with PDFs</h2>
-
-<p>Since digital sheets are largely in PDF format, I needed some solution
-for showing PDFs inside a web user interface. Unfortunately
-showing PDFs inline is pretty much impossible using today's web. Ideally,
-the browser would have support for something like the following:</p>
-
-<pre><code>&lt;img src="something.pdf" page="3" /&gt;
-</code></pre>
-
-<p>But this functionality simply doesn't exist in a widely supported
-fasion. Given how important showing PDFs is for my application, I
-needed a workaround. A few options came to mind:</p>
-
-<ol>
-<li>Attempt to show PDFs in an iframe, and programatically scroll to the
-right position based on the page number.</li>
-<li>Convert PDFs on the client side using something like <a href="http://andreasgal.com/2011/06/15/pdf-js/">PDFJS</a></li>
-<li>Build my own PDF conversion server</li>
-</ol>
-
-<p>I experimented briefly with the first approach and unsurprisingly found
-mixed levels of browser support for PDF rendering inside iframes. Some mobile
-browsers allowed PDFs to be opened within iframes, but exhibited
-unexpected scaling behavior, could not be programmatically scrolled, or
-both.</p>
-
-<p>Did not seriously consider PDFJS as a solution, judging that running PDF
-conversion in a mobile web browser would be prohibitively slow.</p>
-
-<p>Just as I was bracing to take the plunge and write my own
-<a href="http://www.imagemagick.org/">ImageMagick</a>-based conversion API running on Django/Slicehost, I
-discovered the very new <a href="http://code.google.com/appengine/docs/python/conversion/overview.html">AppEngine conversion API</a>.</p>
-
-<h2>The conversion API</h2>
-
-<p>Turns out that AppEngine provides a new experimental <a href="http://code.google.com/appengine/docs/python/conversion/overview.html">file format
-conversion API</a>. It allows you to map from a variety of input file
-formats to a variety of outputs, including PDF to PNGs (one per page),
-which is exactly what I wanted. The full list of conversion paths is
-available in <a href="http://code.google.com/appengine/docs/python/conversion/overview.html">the docs</a>. Some of the more exciting
-features include image to text conversions via OCR, and generating images
-from HTML.</p>
-
-<p>My conversion was really straight forward to implement:</p>
-
-<pre><code>def convert_pdf(self, pdf_data):
-    """Converts PDF to PNG images. Returns an array of PNG data."""
-    asset = conversion.Asset('application/pdf', pdf_data, 'sheet.pdf')
-    conversion_request = conversion.Conversion(asset, 'image/png')
-    result = conversion.convert(conversion_request)
-    if result.assets:
-        return [asset.data for asset in result.assets]
-    else:
-        raise Exception('Conversion failed: %d %s'
-                % (result.error_code, result.error_text))
-</code></pre>
-
-<p>Note that the API methods recently changed (maybe in AppEngine 1.6?)
-from <code>conversion.ConversionRequest</code> to <code>conversion.Conversion</code>. I should
-have expected breaking changes since the conversion API is still
-experimental, but it stumped me for a little while anyway.</p>
-
-<p>The API works pretty well, but doesn't provide much meaningful feedback
-if running in the dev server. So far I've only managed to overload the
-conversion service a few times with very large (eg. ~100 page) PDFs.
-That said, a lot of sheet music is incredibly long, especially in an
-orchestral setting. So, if I was doing this for production, I would
-probably need to build a custom solution.</p>
-
-<p>One other caveat with this approach is that I have no idea how much
-money I would be charged for using this service. Conversion is quite
-intensive, and given the recently increased rates, I would be wary.</p>
-
-<p>Once the images are converted, I upload them to an Amazon S3 instance
-where I keep my data. To do this, I use <a href="http://aws.amazon.com/code/134">S3.py</a>, a really simple
-library for interacting with Amazon S3:</p>
-
-<pre><code>def upload_helper(self, path, data, contentType):
-    conn = S3.AWSAuthConnection(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
-    options = {'x-amz-acl': 'public-read', 'Content-Type': contentType}
-    response = conn.put(DEFAULT_BUCKET, path, S3.S3Object(data), options)
-    return URL_FORMAT % {'bucket': DEFAULT_BUCKET, 'path': path}
-</code></pre>
-
-<p>The full code for the AppEngine server is open source on <a href="https://github.com/borismus/smusique-uploader">github</a>.</p>
-
-<h2>Client-side scraping</h2>
-
-<p>Unfortunately IMSLP doesn't provide a useful API out of the box. I
-wasn't ambitious enough to create a full API for it, but needed some
-interim solution. I figured that for a demo, it wouldn't be such a
-terrible experience to have to seed the database with the repertoire you
-were interested in if it was easy enough to do.</p>
-
-<p>Ordinarily, one might write a little scraper utility in their favorite
-scripting language. However, scraping HTML from python (or any other
-scripting language for that matter) is really not my favorite activity.
-Additionally, relying on the command line excludes the target audience
-(musicians) for this application.</p>
-
-<p>As a workaround, I came across a potentially interesting idea:
-client-side scraping with a Chrome extension. Let me explain.</p>
-
-<p>Suppose you want to scrape part of a corpus of data that's available
-through a website, but want to let the user decide which parts they are
-interested in. Simply use a Chrome extension that injects code into the
-target page, fetches the interesting part of the DOM using selectors and
-perhaps jQuery for convenience, and then uploads the data to some
-server. I used <a href="http://code.google.com/chrome/extensions/content_scripts.html">content scripts</a> for this purpose. In the manifest, the
-entry looks as follows:</p>
-
-<pre><code>"content_scripts": [{
-  "matches": ["http://imslp.org/wiki/*"],
-  "js": ["imslp.js"],
-  "css": ["imslp.css"]
-}]
-</code></pre>
-
-<p>Then, <code>imslp.js</code> does the scraping, which can happen automatically as a
-user navigates through a page, or by adding extra elements to the page.
-This simple IMSLP scraper creates a "send to smusique" button beside
-each PDF on IMSLP:</p>
-
-<p><img src="http://i.imgur.com/6YhZ2.png" alt="screenshot" /></p>
-
-<p>Once clicked, <code>imslp.js</code> gets the URL to fetch, extracts all of the meta
-data of the current piece via CSS selectors, and makes a cross-domain
-request to the converter with all of this information.</p>
-
-<p>This approach is much harder to prevent than traditional, server side
-scraping. Although setting UserAgent restrictions is futile, many sites
-use JavaScript to render their content, and serve up a content-free
-page. In contrast, there's very little a content provider can do to
-protect themselves from client side scraping, making this a very
-powerful technique. If the content is in the DOM, it can be extracted.</p>
-
-<p>The source of the extension is somewhat messy but available also on
-<a href="https://github.com/borismus/smusique-extension">github</a>.</p>
 
 
         
