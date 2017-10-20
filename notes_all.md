@@ -4,6 +4,7 @@ type: note
 class: split
 
 
+
 A respectful truce?
 ===
 posted: August 24, 2017

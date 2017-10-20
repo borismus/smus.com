@@ -1,7 +1,8 @@
 Blog
-====
+=======
 class: index
-filter: post
 type: archive
-limit: 1000
+filter: [post, note]
 
+This blog mostly consists of [long form](/posts) posts. I recently started
+writing [shorter notes](/notes) and summarizing [worthwhile books](/read).

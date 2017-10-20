@@ -1,4 +1,4 @@
-Book List
+Books
 =======
 class: index
 type: archive
