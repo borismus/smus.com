@@ -46,7 +46,7 @@ repeating itself. On an individual scale, the human lifecycle, eating and
 sleeping, heartbeats and breathing, and locomotion are all periodic.  And so are
 sound and light, the very nature of the world we percieve.
 
-Wouldn't it be nice to understand and modifying cyclical phenomena? A couple
+Wouldn't it be nice to understand and manipulate cyclical phenomena? A couple
 hundred years ago, [Fourier showed][fourier] that any repeating periodic signal,
 regardless of its complexity, can be represented as a sum of sine functions,
 paving the way for much deeper signal understanding. More recently, [Shannon

@@ -153,6 +153,10 @@ Resume
 - Bultrowicz, M., **Smus, B.** Shared comments for online document
   collaboration, Apple Inc [US 20100095198](http://www.google.com/patents/US20100095198)
 
+**Presentations**
+
+I have given [several talks](/talks) to both academic and developer audiences.
+
 [Google]: http://www.google.com
 [Apple]: http://www.apple.com
 [iWork.com]: http://www.iwork.com/
