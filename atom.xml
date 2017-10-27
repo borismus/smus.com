@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-10-27T16:30:20-00:00</updated>
+  <updated>2017-10-27T16:38:43-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -25,54 +25,6 @@ principles, but many applications were adorably contrived. Also, I miss academia
 
 <!--more-->
 
-<p><strong>Gabriella Coleman</strong> kicked off UIST 2017 with a slightly off-topic, but
-nevertheless interesting (and timely) keynote, summarizing hacker culture from a
-historical and anthropological perspective. Much of it was review for me, but I
-also learned a fair amount:</p>
-
-<ul>
-<li>The origin of "hacker" comes from the Tech Model Railroad Club from MIT. Now
-James' fascination with model railroads is crystallizing.</li>
-<li>Some of the earlier phreakers were blind, and phreaking was empowering. Some
-were (sometimes additionally) gifted with perfect pitch, and could whistle the
-correct frequency to emulate phone network signals.</li>
-<li>The speaker's personal beliefs were very anti-US, and she was very aligned
-with the hackers. Perhaps it is not coincidental that she is at McGill now.</li>
-</ul>
-
-<p><strong>Upon receiving a lasting impact award</strong>, Ivan Popyrev gave a short summary of his
-storied career. I liked his frankness on the topic of VR: "With every VR fad,
-the next fad is the AR fad". At one point he also suggested that we need to
-break away from “heavy reliance on rich visual feedback and undivided attention
-from the user" that are common in today’s UIs. I completely agree. </p>
-
-<p>I liked his succinct vision: "How can we make the whole world augmented and
-interactive?", which he then elaborates on as having two parts: </p>
-
-<ol>
-<li>Augment physical, tactile &amp; proprioceptive channels of human augmentation &amp; actuation.</li>
-<li>Deliver novel UI at scale by integrating them into everyday physical objects.</li>
-</ol>
-
-<p>I should come up with one for my HCI work. </p>
-
-<p><strong>Niki Kittur</strong> closed off the conference with a summary of his crowdsourcing work,
-and I was quite glad to see CrowdForge prominently mentioned in the beginning.
-He did a good job weaving a coherent narrative throughout the last five years of
-his career, which covered disparate topics such as peer production,
-crowdsourcing and web browsing. I often wonder how much of that storytelling is
-premeditated, and how much of it is done post-hoc. He showed off some neat
-projects, including Alloy (name perhaps forge-related?) and KA, as well as
-<a href="https://iotabrowser.com">Iota, a task-oriented browser</a> inspired by V. Bush's vision of people
-leaving trails of knowledge for one another.</p>
-
-<p>I skipped the last few UISTs, and it was nice to say hi to some familiar faces,
-especially from CMU. I also met some great people, including Danny Tan from an
-audio startup in LA, some talented grad students and re-connected with old
-acquaintances who are apparently also based in Seattle (hi Trevor)! </p>
-
-<h2>WhichFingers &amp; Characterizing end-to-end latency</h2>
-
 <p><style>
 .container {
     position: relative;
@@ -89,25 +41,26 @@ acquaintances who are apparently also based in Seattle (hi Trevor)! </p>
 }
 </style></p>
 
+<h2>WhichFingers / characterizing end-to-end latency</h2>
+
+<p>Both papers used a finger-mounted vibration sensor made from a piezoelectric
+polymer, and implemented simple finger tap detection.  One showed how this
+method could be used for measuring latency using a blinking screen. They did a
+great job of measuring latency at every stage.</p>
+
 <div class="container">
 <iframe src="//www.youtube.com/embed/s2iUJsm7JcI" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
-<p>Both papers used a finger-mounted vibration sensor made from a piezoelectric
-polymer, and implemented simple finger tap detection.  One showed how this
-method could be used for measuring latency using a blinking screen. They did a
-great job of measuring latency at every stage. The other paper had vibration
-sensors for each finger, and did time-based correlation to determine which
-finger tapped a screen. They had a 30ms window within which you had to fall to
-have unambiguous classification.  Interesting: they also moved their vibration
-sensors up to the ring position (third phalanx), and seemed to also get pretty
-good results.</p>
+<p>The other paper had vibration sensors for each finger, and did time-based
+correlation to determine which finger tapped a screen. They had a 30ms window
+within which you had to fall to have unambiguous classification.  Interesting:
+they also moved their vibration sensors up to the ring position (third phalanx),
+and seemed to also get pretty good results. Also nice is that they <a href="http://cristal.univ-lille.fr/~casiez/whichfingers/">open sourced
+everything</a>, and that the whole system is cheaper than $35.</p>
 
-<p>Also nice is that they <a href="http://cristal.univ-lille.fr/~casiez/whichfingers/">open sourced everything</a>, and that the whole system
-is cheap &lt; $35.</p>
-
-<h2>Carpacio</h2>
+<h2>Carpacio: unobtrusive passenger &amp; driver ID</h2>
 
 <p>The cheesily named project served to repurpose capacitative screens to
 differentiate between drivers and passengers. Motivated by driver distraction,
@@ -124,7 +77,7 @@ accuracy.</p>
 to be solved. Physical controls work better in a car, and allow the driver to
 interact with them more easily.</p>
 
-<h2>Grabity</h2>
+<h2>Grabity: ungrounded haptics for grasping</h2>
 
 <p>This project is an end-to-end look at an ungrounded device that provided haptic
 feedback for grasping an object with your hand. They detailed each stage:
@@ -264,7 +217,7 @@ for the other player in the middle of a storm. As far as practicality, obviously
 this requires multiple people to be co-present, and also requires multiple
 players to synchronize up to the action sequence.</p>
 
-<h2>Demos, Posters, Contests, oh my!</h2>
+<h2>Demos, Posters, Contests</h2>
 
 <p>Apparently you can print piezoelectric elements. I tried a set that emits low
 frequency vibrations for haptic feedback. But you need a special print process
@@ -297,6 +250,55 @@ one arm. Each person had to do a gesture to operate one degree of freedom of the
 arm. Another project involved two front body-mounted robot arms that fed the
 other person. Yet another featured an improv show where an actor operated a sock
 puppet, and a robot arm spoke lines that were crowdsourced by the audience.</p>
+
+<h2>Keynotes...</h2>
+
+<p><strong>Gabriella Coleman</strong> kicked off UIST 2017 with a slightly off-topic, but
+nevertheless interesting (and timely) keynote, summarizing hacker culture from a
+historical and anthropological perspective. Much of it was review for me, but I
+also learned a fair amount:</p>
+
+<ul>
+<li>The origin of "hacker" comes from the Tech Model Railroad Club from MIT. Now
+James' fascination with model railroads is crystallizing.</li>
+<li>Some of the earlier phreakers were blind, and phreaking was empowering. Some
+were (sometimes additionally) gifted with perfect pitch, and could whistle the
+correct frequency to emulate phone network signals.</li>
+<li>The speaker's personal beliefs were very anti-US, and she was very aligned
+with the hackers. Perhaps it is not coincidental that she is at McGill now.</li>
+</ul>
+
+<p><strong>Upon receiving a lasting impact award</strong>, Ivan Popyrev gave a short summary of his
+storied career. I liked his frankness on the topic of VR: "With every VR fad,
+the next fad is the AR fad". At one point he also suggested that we need to
+break away from “heavy reliance on rich visual feedback and undivided attention
+from the user" that are common in today’s UIs. I completely agree. </p>
+
+<p>I liked his succinct vision: "How can we make the whole world augmented and
+interactive?", which he then elaborates on as having two parts: </p>
+
+<ol>
+<li>Augment physical, tactile &amp; proprioceptive channels of human augmentation &amp; actuation.</li>
+<li>Deliver novel UI at scale by integrating them into everyday physical objects.</li>
+</ol>
+
+<p>I should come up with one for my HCI work. </p>
+
+<p><strong>Niki Kittur</strong> closed off the conference with a summary of his crowdsourcing work,
+and I was quite glad to see CrowdForge prominently mentioned in the beginning.
+He did a good job weaving a coherent narrative throughout the last five years of
+his career, which covered disparate topics such as peer production,
+crowdsourcing and web browsing. I often wonder how much of that storytelling is
+premeditated, and how much of it is done post-hoc. He showed off some neat
+projects, including Alloy (name perhaps forge-related?) and KA, as well as
+<a href="https://iotabrowser.com">Iota, a task-oriented browser</a> inspired by V. Bush's vision of people
+leaving trails of knowledge for one another.</p>
+
+<p>I skipped the last few UISTs, and it was nice to say hi to some familiar faces,
+especially from CMU. I also met some great people, including Danny Tan from an
+<a href="http://i.am">audio startup</a> in LA, some talented grad students and fortuitously
+re-connected with old acquaintances (Hi Trevor) who are apparently also based in
+Seattle. </p>
 
 
         
