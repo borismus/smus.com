@@ -5,15 +5,312 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-10-20T01:22:55-00:00</updated>
+  <updated>2017-10-27T16:30:20-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>UIST 2017 highlights</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/uist-2017"/>
+    
+    <updated>2017-10-28T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/uist-2017</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Picking up where I left off <a href="/uist-2014">3 years ago</a> with this year's UIST
+highlight reel. As expected, the research creatively applied interesting
+principles, but many applications were adorably contrived. Also, I miss academia!</p>
+
+<!--more-->
+
+<p><strong>Gabriella Coleman</strong> kicked off UIST 2017 with a slightly off-topic, but
+nevertheless interesting (and timely) keynote, summarizing hacker culture from a
+historical and anthropological perspective. Much of it was review for me, but I
+also learned a fair amount:</p>
+
+<ul>
+<li>The origin of "hacker" comes from the Tech Model Railroad Club from MIT. Now
+James' fascination with model railroads is crystallizing.</li>
+<li>Some of the earlier phreakers were blind, and phreaking was empowering. Some
+were (sometimes additionally) gifted with perfect pitch, and could whistle the
+correct frequency to emulate phone network signals.</li>
+<li>The speaker's personal beliefs were very anti-US, and she was very aligned
+with the hackers. Perhaps it is not coincidental that she is at McGill now.</li>
+</ul>
+
+<p><strong>Upon receiving a lasting impact award</strong>, Ivan Popyrev gave a short summary of his
+storied career. I liked his frankness on the topic of VR: "With every VR fad,
+the next fad is the AR fad". At one point he also suggested that we need to
+break away from “heavy reliance on rich visual feedback and undivided attention
+from the user" that are common in today’s UIs. I completely agree. </p>
+
+<p>I liked his succinct vision: "How can we make the whole world augmented and
+interactive?", which he then elaborates on as having two parts: </p>
+
+<ol>
+<li>Augment physical, tactile &amp; proprioceptive channels of human augmentation &amp; actuation.</li>
+<li>Deliver novel UI at scale by integrating them into everyday physical objects.</li>
+</ol>
+
+<p>I should come up with one for my HCI work. </p>
+
+<p><strong>Niki Kittur</strong> closed off the conference with a summary of his crowdsourcing work,
+and I was quite glad to see CrowdForge prominently mentioned in the beginning.
+He did a good job weaving a coherent narrative throughout the last five years of
+his career, which covered disparate topics such as peer production,
+crowdsourcing and web browsing. I often wonder how much of that storytelling is
+premeditated, and how much of it is done post-hoc. He showed off some neat
+projects, including Alloy (name perhaps forge-related?) and KA, as well as
+<a href="https://iotabrowser.com">Iota, a task-oriented browser</a> inspired by V. Bush's vision of people
+leaving trails of knowledge for one another.</p>
+
+<p>I skipped the last few UISTs, and it was nice to say hi to some familiar faces,
+especially from CMU. I also met some great people, including Danny Tan from an
+audio startup in LA, some talented grad students and re-connected with old
+acquaintances who are apparently also based in Seattle (hi Trevor)! </p>
+
+<h2>WhichFingers &amp; Characterizing end-to-end latency</h2>
+
+<p><style>
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style></p>
+
+<div class="container">
+<iframe src="//www.youtube.com/embed/s2iUJsm7JcI" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<p>Both papers used a finger-mounted vibration sensor made from a piezoelectric
+polymer, and implemented simple finger tap detection.  One showed how this
+method could be used for measuring latency using a blinking screen. They did a
+great job of measuring latency at every stage. The other paper had vibration
+sensors for each finger, and did time-based correlation to determine which
+finger tapped a screen. They had a 30ms window within which you had to fall to
+have unambiguous classification.  Interesting: they also moved their vibration
+sensors up to the ring position (third phalanx), and seemed to also get pretty
+good results.</p>
+
+<p>Also nice is that they <a href="http://cristal.univ-lille.fr/~casiez/whichfingers/">open sourced everything</a>, and that the whole system
+is cheap &lt; $35.</p>
+
+<h2>Carpacio</h2>
+
+<p>The cheesily named project served to repurpose capacitative screens to
+differentiate between drivers and passengers. Motivated by driver distraction,
+cars are now shipping with on-screen UIs that are locked until you answer an
+onscreen question: are you a driver or passenger?  This is counter-productive.
+Edward Jay Wang from UW showed how the car system can identify who is
+interacting with it automatically. Both seats are instrumented with signal
+transmitters, transmitting a unique signal through each of the sitting people,
+and the screen is instrumented with a receiver. The rest is signal correlation.
+Then they did validation and got really good results (for research): &gt; 99%
+accuracy.</p>
+
+<p>Zooming out for a second, I really wish that this wasn't a problem that needed
+to be solved. Physical controls work better in a car, and allow the driver to
+interact with them more easily.</p>
+
+<h2>Grabity</h2>
+
+<p>This project is an end-to-end look at an ungrounded device that provided haptic
+feedback for grasping an object with your hand. They detailed each stage:
+grabbing it, picking it up, feeling its weight, then moving it around and
+feeling its inertia.</p>
+
+<p><img src="/uist-2017/grabity.jpg" alt="Grabity steps in action" /></p>
+
+<p>Weight is perceived by multiple senses in the human body: muscle spindles (eg.
+in biceps), golgi tendons (eg. in elbow), mechanoreceptors sensing shear (eg. in
+palm). Their idea: only use mechanoreceptors in hand, which lets you simulate
+the equivalent of about 15g of weight. It was cool that they compared the
+sensation to an actual weight with real users. I've seen prior work which relies
+on asymmetric vibration to create virtual forces through asymmetric skin
+displacement. A few limitations: it looks pretty wacky, and users thought that
+the constant vibration was annoying, but pretty cool tech demo.</p>
+
+<h2>Dodecapen: 6DOF Pose Tracking System</h2>
+
+<p>This project puts a dodecahedron-shaped AR marker on the end of a regular pen. A
+cube didn’t work because of pose ambiguity, and other Platonic solids have
+triangular planes that are too small in area.</p>
+
+<div class="container">
+<iframe src="//www.youtube.com/embed/7Xczpq4VkHM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<p>3D printing a perfect dodecahedron is hard, so they needed a calibration step
+for it.  Also the pen-tip needs to be calibrated, since pens vary in size and
+shape. Also the paper surface itself had to be calibrated. That's a lot of
+calibrations! They used a mocap system with 8 markers to create ground truth.
+Looked at the mean shortest distance and saw mm-level precision. They claim that
+precision is comparable to a mocap system with 10 active cameras.</p>
+
+<p>I also tried the demo, which worked very well. One caveat is that it relies on a
+global shutter camera, so not sure how well it generalizes to smartphones yet.
+Another big limitation here is that the dodecahedron needs to be in the camera’s
+FOV.</p>
+
+<h2>Inviso: 3D design environment to create sonic VR</h2>
+
+<p>Anil Camci showed a web-based GUI to define point sources as well as regions for
+playing back ambisonic soundscapes. Point sources could have multiple cones that
+you could attach with a graphical tool, and also adjust their direction, angles,
+and amplitude. Each point source, and the observer could also be animated over a
+trajectory. You could then play it back through the Web Audio API. Most of the
+design is done from a top-down view, since this is a good match to human
+auditory perception, which is much better at lateral than vertical
+source differentiation.</p>
+
+<p><img src="/uist-2017/inviso.jpg" alt="Inviso screenshot" /></p>
+
+<p>In the end he showed multiple examples of people using the system and creating
+complex auditory scenes, including overlapping zones, and animated, multi-coned
+point sources. Seems to be quite efficient for building up immersive auditory
+environments.</p>
+
+<p>I encouraged them to recreate classic spatial audio demos, like my favorite
+barbershop example. The editor is <a href="http://inviso.cc/">available online</a>, and
+just recently <a href="https://github.com/CreativeCodingLab/Inviso">open sourced</a>.</p>
+
+<h2>SoundCraft: smart watch interaction using hand generated acoustics</h2>
+
+<p>This project features a microphone array that fits onto a watch form factor.
+They can localize sounds made by the other hand against itself (what is the
+sound of one hand clapping?) or against another surface. Localization gives you
+angles relative to the watch (angular resolution ~15 deg).</p>
+
+<div class="container">
+<iframe src="//www.youtube.com/embed/O1G-j1EBQh0" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<p>The applications were kind of weak, but having a small aperture (1/2 inch
+between microphones) and wearable form factor was an interesting idea. They also
+showed tracking the lateral position of a finger on the same hand as the watch,
+and using the watch as an audio marker for an AR application.</p>
+
+<h2>Data storage &amp; interaction using magnetized fabric</h2>
+
+<p>Justin Chan from UW showed what can be achieved when conductive fabric (woven
+out of conductive thread) is magnetized using a permanent magnet. First they
+explored various properties of the medium, like how long it stays magnetized
+(28% decrease per week), how far the field can be detected from (up to 1cm), how
+its properties vary with weave pattern (better for dense patterns), and whether
+magnetization decreases from washing (not very much). The basic idea is that you
+can encode data onto a conductive thread by having conductive segments that can
+be magnetized interleaved with insulated segments. A binary string is then
+encoded by mapping 0 to one polarity and 1 to the other.</p>
+
+<p><img src="/uist-2017/magnetized-fabric.jpg" alt="Magnetized fabric" /></p>
+
+<p>They also showed use cases, such as writing and reading data from the clothing,
+or even engraving data images (smallest pixel using a regular loom was 1.8cm^2)
+onto clothing. They also showed some interactive examples where the clothing can
+be read by a magnetometer on a phone or watch. This is interesting especially
+because it doesn't require any batteries, and can be achieved using
+off-the-shelf embroidery machines. </p>
+
+<h2>iSoft: soft touch and stretch sensor</h2>
+
+<p>This project uses electrical impedance tomography (EIT, which I know nothing
+about, and wasn't explained) to detect touch and stretch in (1D) in a special
+elastomer which is designed to be affordable. Discrete contact accuracy was
+really good: 96%, using a small dataset. Distance error was ~10% of sensor size.</p>
+
+<div class="container">
+<iframe src="//www.youtube.com/embed/JVaYEl9nbME" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<p>Applications (as usual, weak): a bunch of instrumented objects (lamp, cup,
+clothing, travel pillow, etc). Limitations: hard to make it big, hard to make it
+arbitrarily shaped, doesn’t support multidimensional stretching.</p>
+
+<h2>Mutual human actuation</h2>
+
+<p>I missed most of the VR sessions because parallel tracks were more interesting,
+but caught this one because it was super clever. Previously, Haptic Turk used
+support people to lift and lower the player immersed in VR. TurkDeck was an
+environment for players that is constructed by support people outside VR.
+However, previous research found that players enjoyed the experience more than
+the support people, so Mutual Turk (presented here) made all participants into
+players. Two people are in VR, but they are playing different games that are
+complimentary in force (eg. A is fishing, B is flying a kite.)</p>
+
+<div class="container">
+<iframe src="//www.youtube.com/embed/JKGdQjx-_BI" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+<p>This generalizes to two things: 1. shared props through which users exchange
+forces, and 2. synchronization of state between the people involved. They had a
+few other examples, like having one player fan a campfire, which created wind
+for the other player in the middle of a storm. As far as practicality, obviously
+this requires multiple people to be co-present, and also requires multiple
+players to synchronize up to the action sequence.</p>
+
+<h2>Demos, Posters, Contests, oh my!</h2>
+
+<p>Apparently you can print piezoelectric elements. I tried a set that emits low
+frequency vibrations for haptic feedback. But you need a special print process
+(won’t work on an inkjet).</p>
+
+<p>Artem Dementyev built a robot that walks along human skin using pneumatics.
+Supposed applications in health care.</p>
+
+<p>Pepper’s cone was a great illusion from Steve Seitz’s student. Nice improvement
+over the usual ghost setup, which has four discrete viewing points, where here
+you can pick any point in a circle.</p>
+
+<p>Gierad showed a poster about a multimodal sensing platform that plugs right into
+the wall and which can track all sorts of activity in the house, using high
+frequency accelerometers, microphones, and other sensors.</p>
+
+<p>Hanchuan Li from UW showed a poster summarizing some of his PhD projects,
+including passive sensing, IR based user localization, and various power
+harvesting techniques.</p>
+
+<p>Jihyeon Janel Lee showed her poster which automatically created accompanying
+visualizations for travel podcasts via geographic entity extraction.</p>
+
+<p>The good folks at i.am showed a way of making TTS sound better by extracting
+contours from speech spoken by a person onto a TTS-synthesized example.</p>
+
+<p>The student design contest featured creative ideas implemented with the help of
+an Arduino Braccio robot arm. One project required multiple people to operate
+one arm. Each person had to do a gesture to operate one degree of freedom of the
+arm. Another project involved two front body-mounted robot arms that fed the
+other person. Yet another featured an improv show where an actor operated a sock
+puppet, and a robot arm spoke lines that were crowdsourced by the audience.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Memento Mori</title>
     <author><name>Boris Smus</name></author>
     <link href="/memento-mori"/>
     
-    <updated>2017-10-24T09:00:00-00:00</updated>
+    <updated>2017-10-19T09:00:00-00:00</updated>
     
     <id>http://smus.com/memento-mori</id>
     <content type="html">
@@ -7788,212 +8085,6 @@ the internet, I'll turn to a Platform-as-a-service solution like
 tasks.</p>
 
 <p>Being a sysadmin is not a part time job.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Internet mashup of things</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/mashup-of-things"/>
-    
-    <updated>2013-01-11T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/mashup-of-things</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Many new devices come with unexpected connectivity - often a WiFi
-connection that enables them to connect to a hotspot and the larger
-internet. <a href="http://www.nest.com/">Nest</a>, a smart thermostat, was one of the first
-commercial products to do this. Many more indie projects are following
-suit, with an explosion of kickstarters like this <a href="http://www.kickstarter.com/projects/limemouse/lifx-the-light-bulb-reinvented">teleoperated
-light</a>, <a href="http://www.withings.com/">connected scale</a> or this <a href="http://supermechanical.com/twine/">general purpose
-connected sensor</a>. The idea of an Internet of Things, in which
-every appliance and object is somehow connected, has long been popular
-in academic circles, and this time around it feels like we're actually
-close.</p>
-
-<p>If we think of these physical devices/appliances as web services with
-APIs, we can mash them up just like we did in the early days of the web,
-creating applications that are more useful than the sum of their parts.
-In this post I argue for using the web as the medium to tie everything
-together, describe a simple architecture for building networked physical
-devices and build a web lamp controlled by an arduino.</p>
-
-<!--more-->
-
-<h2>Web meets ubiquitous computing</h2>
-
-<p>The projects I mentioned above don't use proprietary home automation
-protocols like X10.  Instead, they establish connections via the
-internet. Nest registers itself with a central server (operated by Nest
-inc) over WiFi. You can then control your thermostat by logging into
-their website at nest.com.</p>
-
-<p>There's no need for heavyweight ISO666 standardization efforts. This is
-a very good thing, because it's really hard for anyone (including our
-industry) to agree on something new. Instead, we reuse a proven protocol
-that everyone's already agreed on: HTTP.</p>
-
-<h2>An Internet of too many things</h2>
-
-<p>Nest also provides Android and iOS apps to control your thermostat. But
-what happens when you have your thermostat, light bulbs, and home
-theater, scanner and <a href="http://www.google.com/cloudprint/learn/">printer</a> all connected up to the internet in
-this fashion? Too many apps! Imagine you have all of these different
-devices, perhaps multiple of each in some cases:</p>
-
-<p><img src="/mashup-of-things/many-smart-things.png" alt="Many smart things" /></p>
-
-<p>It pains me to imagine an app for each of these different services -
-there are simply too many things to juggle. I would not want to install
-apps for each of these devices for reasons similar to why I would never
-install the United app: there is significant overhead to managing apps
-on your smart phone. They take up space on your home screens, you need
-to keep them up to date. <a href="http://jenson.org/">Scott Jenson</a> writes eloquently about
-this problem on his blog.</p>
-
-<p>If each hardware manufacturer releases their device with a central
-registry and public API, however, third parties might be able to build
-on top of the services that these devices provide, and certainly some
-interesting and pleasant user experiences will arise in this nascent
-area.</p>
-
-<h2>A minimum viable physical web architecture</h2>
-
-<p>There are many discovery protocols (eg. UPnP, zeroconf, ...), and many
-messaging protocols (eg. TCP, HTTP, ...), and I won't argue for one over
-another. The technical tradeoffs of each of these is outside of the
-scope for this discussion. My approach was to devise the simplest
-proof-of-concept that would work anywhere without fancy protocols, only
-using widely available features available on the web, to enable a
-platform for prototyping, the goal being to establish useful and
-interesting interactions first, and implement the underlying technology
-later.</p>
-
-<p>In general, we want to be able to interact with devices that are nearby
-and also with devices that are far away. With this constraint, even the
-simplest approach requires a server component. Here's a sketch:</p>
-
-<p><img src="/mashup-of-things/lamp-arch.png" alt="A simple WiFi lamp" /></p>
-
-<p>In this setup, the controller listens to the server for what it should
-do. At the same time, the remote sends commands to the server based on
-user interaction. The server keeps track of the state of all of the
-devices it manages.</p>
-
-<h2>Example: cloud lamp</h2>
-
-<p>The above approach is to simply have a RESTful server. The remote can
-send commands to via POST requests, and the controller can poll for its
-new state periodically with GET requests. A simple API for a lamp might
-look like this:</p>
-
-<ul>
-<li><code>GET /</code>: Returns 1 if the lamp is on. Otherwise returns 0.</li>
-<li><code>POST /on</code>: Turns the lamp on.</li>
-<li><code>POST /off</code>: Turns the lamp off.</li>
-</ul>
-
-<p>This API and the three components (server, client and device) above are
-enough to get a prototype off the ground. A simple implementation of all
-three pieces can be found in the <a href="http://github.com/borismus/hello-lamp">Hello Lamp on github</a>.</p>
-
-<p>The server-side is written on AppEngine, and simply tracks state. The
-handlers all use <a href="http://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>, which lifts the cross-domain security policy
-of the web, making it possible to POST to the lamp from any web page. </p>
-
-<p>The client is a really simple web page with two ways of controlling the
-lamp: the toggle switch and <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">speech recognition</a> (available
-behind a flag in Chrome), which enables simple "lamp, turn off" and "on"
-commands.</p>
-
-<p><img src="/mashup-of-things/client.png" alt="Simple client" /></p>
-
-<p>Finally, the device itself is an Arduino Uno with a <a href="http://arduino.cc/blog/2012/08/16/the-arduino-wifi-shield-is-now-available/">WiFi
-shield</a>. One of the pins is connected to a relay which controls
-a power socket with the plugged in lamp. The program itself is nearly
-identical to the existing sample apps available for the WiFi shield.</p>
-
-<p><img src="/mashup-of-things/arduino.png" alt="Arduino WiFi shield" /></p>
-
-<h2>Practical considerations</h2>
-
-<p>The solution described here is definitely not one to use in production
-for many reasons, including robustness, performance and security.</p>
-
-<p>In practice, we'd probably want a server to control multiple devices, so
-each request should specify an ID representing the device. Also,
-continuous polling is a very inefficient approach, since every HTTP
-request has a lot of overhead. It's better to maintain open connection
-server-controller and server-remote connections to enable pushing of
-data directly. This connection should be bidirectional to let the device
-feed back to the remote as well as enabling control.</p>
-
-<p>A promising startup working in the direction of making vision more real
-is <a href="http://electricimp.com">electricimp</a>. These guys provide
-connectivity through a SD card form factor they call an "imp". Though
-they have a proprietary communication protocol between their imps and
-their cloud (mainly for performance), they ultimately provide a RESTful
-web API to control each imp. Definitely looking forward to playing with
-their offerings.</p>
-
-<h2>Mash it up</h2>
-
-<p>Now we have a device registering with a public web server. The server
-provides an API for developers to access that device. Developers can
-then build applications around that API which interact with the device.
-This is no different from a regular web API, and at this point, all we
-have built is a glorified remote control that uses the web instead of IR
-for transmitting messages.</p>
-
-<p>However! One of the great things about web APIs is that they can easily
-be mixed with one another to create something greater than the sum of
-the parts. This is known on the internet as a "mashup". The first
-mashups emerged about decades years ago, but are still an important part
-of the web landscape. I recently used a really nice one called
-<a href="http://livelovely.com/">lovely</a>, which is a house hunting mashup combining Google Maps and
-craigslist. Mashup making services like <a href="http://pipes.yahoo.com/pipes/">Yahoo! Pipes</a> and
-<a href="https://ifttt.com/">IFTTT</a> have existed for a while. Notably, IFTTT includes support
-for some of the "smart" physical devices I mentioned in the beginning of
-this post.</p>
-
-<p>To me, the truly interesting question around this physical web is the
-user's experience. Each of the various promises of
-device/appliance/thing control or automation is not terribly compelling.
-Why would I unlock my phone, find and run the lamp app, and find the
-right fixture? The alternative of walking up to the light switch and
-flipping it seems much more lucrative. That said, I'm optimistic that
-there are compelling user interfaces to be discovered, but they will
-only emerge on top of this physical web framework.</p>
-
-<h2>A plea for physical APIs</h2>
-
-<p>As we move into a world connected devices, we need to have a solid,
-widely available platform for communication between these devices. This
-infrastructure can and should ultimately be the web.</p>
-
-<p>This opinion of mine is not zealotry, but completely practical: I do not
-want every device in my home to be stuck in an networked ecosystem
-provided by some single company. Whether it's an Android app, an iOS
-app, a web app, a universal dashboard on a smart phone, a voice
-controlled system in the living room, or (more likely) something
-completely different, any of these systems should be able to easily
-interface with any device in the world.</p>
-
-<p>The recent stink around <a href="http://www.technologyreview.com/view/508666/twitter-instagram-and-the-internet-of-disconnected-things/">twitter no longer embedding instagram
-photos</a> is just one example of important chunks of the
-internet become segregated from one another. This wall-building trend is
-alarming and dangerous to the integrity of the web platform, which is
-based on interoperability: cross-linking, cross-embedding, and API
-mashups. While this new web of things is still in its infancy, it's
-especially important that we nurture the same principles that made the
-early web so great.</p>
 
 
         

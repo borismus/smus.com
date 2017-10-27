@@ -5,8 +5,131 @@
   <title>Boris Smus (Books)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-10-20T01:22:55-00:00</updated>
+  <updated>2017-10-27T16:30:20-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The neurochemistry of music</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/neurochemistry-music"/>
+    
+    <updated>2017-10-23T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/neurochemistry-music</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I picked up <a href="https://www.amazon.ca/Mozart-Effect-Tapping-Strengthen-Creative/dp/0060937203">“The Mozart Effect”</a> on a whim, at Powell’s in Portland,
+hoping that it would provide some insights (via well conducted scientific
+studies) of how music affects the mind and the body. Unfortunately what I found
+was a bunch of woo woo with very little substantiation in the scientific realm.
+In some of the first words of the book, the author claims that he made a blood
+clot in his brain disappear by humming, praying, and envisioning a vibrating
+hand on the right side of his skull. The book has already been <a href="http://skepdic.com/mozart.html">widely
+discredited</a>, but I remain fascinated by the effects of music.
+I read somewhere that music is possibly the strongest non-chemical intervention
+for people, with the possible exception of exercise.</p>
+
+<p>I stumbled on Daniel Levitin, author of a book called <a href="https://www.amazon.ca/This-Your-Brain-Music-Obsession/dp/0452288525">"This is Your Brain on
+Music"</a>, through a podcast. Burned by The Mozart Effect, I thought
+that a less popular, more academic survey might be a quicker way to ramp up, and
+found <a href="https://daniellevitin.com/levitinlab/articles/2013-TICS_1180.pdf">this paper on his blog</a>, published in Trends in Cognitive Science.
+The paper is a bit challenging for me, being mostly ignorant about
+neurophysiology and neurochemistry, but is well written, and includes helpful
+glossaries and appendices.</p>
+
+<p>Right off the bat, the authors provide an interesting summary of limitations in
+previous music-neuroscience studies:</p>
+
+<ul>
+<li>Inconsistent experimental methods because of variability in:
+<ul>
+<li>Type of intervention (passive listening vs performance)</li>
+<li>Type of music (usually only binary: stimulating vs relaxing)</li>
+<li>Locus of control (experimenter selected vs participant selected)</li>
+<li>Social context (individual vs group vs guided intervention)</li>
+</ul></li>
+<li>No standard means of selecting musical stimuli.</li>
+<li>No nonmusical control group.</li>
+</ul>
+
+<p>The paper also briefly covers some claims related to the Mozart Effect and
+admonishes it for lack of control group. Maybe music has a positive effect
+because it brings pleasure, and so anything that brings pleasure will have the
+same "Mozart Effect"? Rather than doing nothing, group B should be doing
+something equally pleasant.</p>
+
+<p>Along similar lines, paper suggests recommends for future research, and includes
+a cool diagram:</p>
+
+<p><img src="/books/neurochemistry-music/future.png" alt="Future research in neurochemistry + music." /></p>
+
+<p><style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style></p>
+
+<ol>
+<li>Locus of control may mediate the effectiveness of music interventions and
+therefore its crucial that patients are allowed to choose their own music</li>
+<li>Subjective ratings of musical features (sad, happy etc) should be recorded by
+the participant instead of relying on experimenter. </li>
+<li>include a parallel non music experimental condition to control for mood
+induction, attention capture, intention and valence. In this case music is
+compared with a tv program and a book. </li>
+<li>psycho measurements (eg. imaging, biometrics) provide an essential objective
+counterpart to subjective measures in B. </li>
+</ol>
+
+<p>Nice survey of studies and their findings about whether the musical intervention
+increased hormone secretion. This is where a better understanding of
+neurochemical systems would help.</p>
+
+<ul>
+<li>Epinephrine - also known as adrenaline, plays an important role in the
+fight-or-flight response.</li>
+<li>Norepinephrine - also called noradrenaline, general function is to mobilize
+the brain and body for action.</li>
+<li>Interleukin 6 - secreted by T cells and macrophages to stimulate immune
+response.</li>
+<li>Immuniglobulin A - an antibody that plays a crucial role in the immune
+function of mucous membranes.</li>
+</ul>
+
+<p>Is there a more complete list of domains mapping to chemical systems?</p>
+
+<p>An <a href="/books/neurochemistry-music/mockel.pdf">interesting study</a> compared the effects of silence, a waltz by
+J. Strauss, a modern classic by H. W. Henze, and meditative music by R.
+Shankar. Meditative music (Shankar) lowered plasma cortisol, noradrenaline and
+t-PA concentrations.</p>
+
+<p>How does music regulate all of these things? One possibility the authors suggest
+is that music modulates brainstem mediated measures like heart rate, blood
+pressure, body temperature, etc. Stimulating music tends to increase
+cardiovascular measures, relaxing vise versa. </p>
+
+<p>One more fascinating tidbit to be explored further: the authors casually drop
+this gem: “this follows given that brainstem neurons tend to fire synchronously
+with tempo”. This entrainment is described more in <a href="/books/neurochemistry-music/griffiths.pdf">this paper</a>.</p>
+
+<p>Now that I think of it, the brainstem is probably the most interesting part of
+the brain in terms of neurological control. According to Wikipedia,</p>
+
+<blockquote>
+  <p>The brainstem also plays an important role in the regulation of cardiac and
+  respiratory function. It also regulates the central nervous system, and is
+  pivotal in maintaining consciousness and regulating the sleep cycle. The
+  brainstem has many basic functions including heart rate, breathing, sleeping,
+  and eating.</p>
+</blockquote>
+
+<p>Interesting...</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>On the Shortness of Life</title>
@@ -686,7 +809,7 @@ similarly researched argument from the other side to see where I land.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-20T09:00:00-00:00</updated>
+    <updated>2017-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -1002,7 +1125,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-20T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -1045,7 +1168,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-20T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -1240,7 +1363,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-20T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -1305,7 +1428,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-20T09:00:00-00:00</updated>
+    <updated>2017-04-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -1399,7 +1522,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-20T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -1449,7 +1572,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-20T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -1486,7 +1609,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-20T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -1554,7 +1677,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-20T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -1582,7 +1705,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-20T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -1643,7 +1766,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-20T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -1678,7 +1801,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-20T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -1745,7 +1868,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-20T09:00:00-00:00</updated>
+    <updated>2016-12-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -1836,7 +1959,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-20T09:00:00-00:00</updated>
+    <updated>2016-11-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -1882,7 +2005,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-20T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/future-babble</id>
     <content type="html">
@@ -1946,7 +2069,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-20T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -1980,7 +2103,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-20T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -2042,7 +2165,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-20T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -2128,7 +2251,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-20T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -2423,7 +2546,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-20T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -2459,7 +2582,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-20T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -2532,7 +2655,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-20T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -2691,7 +2814,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-20T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -2737,7 +2860,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-20T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -2787,7 +2910,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-20T09:00:00-00:00</updated>
+    <updated>2016-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -2849,7 +2972,7 @@ groups I've had the pleasure of being part of:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-one-minute-manager"/>
     
-    <updated>2016-06-20T09:00:00-00:00</updated>
+    <updated>2016-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-one-minute-manager</id>
     <content type="html">
@@ -2888,7 +3011,7 @@ people. (This seems quite hard to pull off without being a dick).</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/gantenbein-by-max-frisch"/>
     
-    <updated>2016-06-20T09:00:00-00:00</updated>
+    <updated>2016-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gantenbein-by-max-frisch</id>
     <content type="html">
@@ -2934,7 +3057,7 @@ know that this is unlikely to happen.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/physics-beyond-the-edge-audio"/>
     
-    <updated>2016-06-20T09:00:00-00:00</updated>
+    <updated>2016-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/physics-beyond-the-edge-audio</id>
     <content type="html">
@@ -3013,7 +3136,7 @@ information-related profession.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/great-ideas-of-philosophy-audio"/>
     
-    <updated>2016-05-20T09:00:00-00:00</updated>
+    <updated>2016-05-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/great-ideas-of-philosophy-audio</id>
     <content type="html">
@@ -3130,7 +3253,7 @@ thought into what constitutes a good life:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-fail-at-almost-everything-by-scott-adams"/>
     
-    <updated>2016-04-20T09:00:00-00:00</updated>
+    <updated>2016-04-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-fail-at-almost-everything-by-scott-adams</id>
     <content type="html">
@@ -3171,7 +3294,7 @@ along!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/art-of-tidying-by-marie-kondo"/>
     
-    <updated>2016-04-20T09:00:00-00:00</updated>
+    <updated>2016-04-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/art-of-tidying-by-marie-kondo</id>
     <content type="html">
@@ -3209,7 +3332,7 @@ organizational method.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-moral-landscape-by-sam-harris"/>
     
-    <updated>2016-03-20T09:00:00-00:00</updated>
+    <updated>2016-03-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-moral-landscape-by-sam-harris</id>
     <content type="html">
@@ -3251,7 +3374,7 @@ The Moral Landscape.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/a-canticle-for-leibowitz-by-walter-m-miller-jr"/>
     
-    <updated>2016-02-20T09:00:00-00:00</updated>
+    <updated>2016-02-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/a-canticle-for-leibowitz-by-walter-m-miller-jr</id>
     <content type="html">
@@ -3299,7 +3422,7 @@ it still.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/in-praise-of-idleness-by-bertrand-russell"/>
     
-    <updated>2015-12-20T09:00:00-00:00</updated>
+    <updated>2015-12-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/in-praise-of-idleness-by-bertrand-russell</id>
     <content type="html">
@@ -3327,7 +3450,7 @@ today.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/gateway-by-frederik-pohl"/>
     
-    <updated>2015-12-20T09:00:00-00:00</updated>
+    <updated>2015-12-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gateway-by-frederik-pohl</id>
     <content type="html">
@@ -3372,7 +3495,7 @@ classifieds littered throughout the book.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sophies-world-by-jostein-gaardner"/>
     
-    <updated>2015-11-20T09:00:00-00:00</updated>
+    <updated>2015-11-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sophies-world-by-jostein-gaardner</id>
     <content type="html">
@@ -3411,7 +3534,7 @@ his high school philosophy class!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-united-states-and-the-middle-east-audio"/>
     
-    <updated>2015-10-20T09:00:00-00:00</updated>
+    <updated>2015-10-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-united-states-and-the-middle-east-audio</id>
     <content type="html">
@@ -3461,7 +3584,7 @@ going to 1.5x by the end, which I rarely do. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/science-and-human-values"/>
     
-    <updated>2015-09-20T09:00:00-00:00</updated>
+    <updated>2015-09-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/science-and-human-values</id>
     <content type="html">
@@ -3499,7 +3622,7 @@ could really stand to be ported into other human domains.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/thinking-fast-and-slow-by-kahnemann-tversky"/>
     
-    <updated>2015-09-20T09:00:00-00:00</updated>
+    <updated>2015-09-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/thinking-fast-and-slow-by-kahnemann-tversky</id>
     <content type="html">
@@ -3522,7 +3645,7 @@ make systematic thinking errors (deviating from "pure" rationality)..</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/skeptics-guide-to-american-history-audio"/>
     
-    <updated>2015-08-20T09:00:00-00:00</updated>
+    <updated>2015-08-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/skeptics-guide-to-american-history-audio</id>
     <content type="html">
@@ -3548,7 +3671,7 @@ for any non-American. Buy it on <a href="http://www.thegreatcourses.com/courses/
     <author><name>Boris Smus</name></author>
     <link href="/books/digital-signal-processing-coursera"/>
     
-    <updated>2015-07-20T09:00:00-00:00</updated>
+    <updated>2015-07-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/digital-signal-processing-coursera</id>
     <content type="html">
@@ -3614,7 +3737,7 @@ there was a better way to build intuition for a lot of the theory, though.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-the-secrets-of-human-perception-audio"/>
     
-    <updated>2015-06-20T09:00:00-00:00</updated>
+    <updated>2015-06-27T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-the-secrets-of-human-perception-audio</id>
     <content type="html">
@@ -3637,43 +3760,6 @@ principles of operation of our brains, from fundamentals of neurons and synapses
 to opponent-process theory, which explains a great deal of perception phenomena
 across the senses. From a UX and VR perspective, the material in this course is
 totally invaluable. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>John Napier - Hands</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/john-napier-hands"/>
-    
-    <updated>2015-05-20T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/books/john-napier-hands</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Really interesting deep-dive into human hands from many different perspectives:
-anatomical, evolutionary, functional and social. The book is packed with facts.
-For example, I had no idea the carpal bones were so numerous and complex! Also,
-it's nice to understand why human opposition differs from monkeys and the
-Opposability Index. Lots of interesting insights into distribution of
-handedness, including that certain species of monkeys are predominantly left
-handed, which is surprising on several levels. Napier also goes a bit into
-fingerprints, basic patterns, and mentioning some relation to worn-off finger
-prints in people with Celiac. It was fun to cross-correlate what was written in
-the book with my own hands.</p>
-
-<p>Overall a thoroughly interesting account and I found good insights from an HCI
-perspective. I did think that the second part on social and cultural aspects was
-too brief and incomplete.</p>
-
-<blockquote>
-  <p>With the eye, the hand is our main source of contact with the physical environment. The hand has advantages over the eye because it can observe the environment by means of touch, and having observed it, it can immediately proceed to do something about it. The hand has other great advantages over the eye. It can see around corners and it can see in the dark.</p>
-</blockquote>
 
 
         
