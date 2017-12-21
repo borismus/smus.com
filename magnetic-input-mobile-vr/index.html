@@ -50,7 +50,7 @@
 <p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>
 
 <p>Your smartphone is now in a box, so how do you do input? Now that we have a
-<a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
+<a href="mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
 
 <!--more-->
 
@@ -76,22 +76,22 @@ smartphones have a magnetometer, which is used for the compass. Intriguing...</p
 <p>In 2009, Chris Harrison and Scott Hudson published <a href="http://www.chrisharrison.net/index.php/Research/Abracadabra">Abracadabra</a>, a
 magnetic ring form factor for finger interactions with small devices:</p>
 
-<p><img src="/magnetic-input-mobile-vr/abra.jpg" alt="Abracadabra" /></p>
+<p><img src="abra.jpg" alt="Abracadabra" /></p>
 
 <p>In 2010, Hamed Ketabdar and others published <a href="https://www.facebook.com/MagiTact">Magitact</a>, instead using
 a magnetic rod for more varied interactions near smartphones:</p>
 
-<p><img src="/magnetic-input-mobile-vr/magitact.jpg" alt="Magitact" /></p>
+<p><img src="magitact.jpg" alt="Magitact" /></p>
 
 <p>In 2011, Daniel Ashbrook and others published <a href="http://dl.acm.org/citation.cfm?id=1979238">Nenya</a>, which is similar
 to Abracadabra, but focused more on the eyes-free input aspects:</p>
 
-<p><img src="/magnetic-input-mobile-vr/nenya.jpg" alt="Nenya" /></p>
+<p><img src="nenya.jpg" alt="Nenya" /></p>
 
 <p>In 2013, Sungjae Hwang and others published <a href="https://www.youtube.com/watch?v=_sSgp0hD-jk">Maggetz</a>, which used
 passive magnets to build all sorts of widgets around the device:</p>
 
-<p><img src="/magnetic-input-mobile-vr/maggetz.jpg" alt="Maggetz" /></p>
+<p><img src="maggetz.jpg" alt="Maggetz" /></p>
 
 <h2>Fucking magnets: how do they work?</h2>
 
@@ -116,7 +116,7 @@ of the HTC M7, or broken, like in some models of the Galaxy Nexus we tested
 with. There's little that we can do in these cases, but luckily they are quite
 rare.</p>
 
-<p><img src="/magnetic-input-mobile-vr/calibration.png" class="floatright" title="Plot of calibration events"/></p>
+<p><img src="calibration.png" class="floatright" title="Plot of calibration events"/></p>
 
 <p>The way you access the magnetometer on Android is via the sensor stack,
 requesting the <code>TYPE_MAGNETIC_FIELD</code> sensor. This is a calibrated sensor, since
@@ -138,7 +138,7 @@ removals from Cardboard, which can also look like calibration events.</p>
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
 
-<p><img src="/magnetic-input-mobile-vr/mechanism.png" class="floatright" title="Interaction mechanism"/></p>
+<p><img src="mechanism.png" class="floatright" title="Interaction mechanism"/></p>
 
 <p>As you can see, the interaction involves pulling the magnet downward, and
 releasing it. The magnetic ring automatically returns to its rest position
@@ -156,13 +156,13 @@ plot of normalized, superimposed positives and negatives from all phones which
 we collected data from, with each dimension of the magnetometer vector plotted
 separately.</p>
 
-<p><img src="/magnetic-input-mobile-vr/all_features.png" alt="Image of the true positives and negatives from all phones." /></p>
+<p><img src="all_features.png" alt="Image of the true positives and negatives from all phones." /></p>
 
 <p>The detector we built was not based on a template learned from all of the data
 above, but a simpler state machine based on thresholding. The thresholds
 themselves were learned empirically. Here's the simple state machine:</p>
 
-<p><img src="/magnetic-input-mobile-vr/state_machine.png" alt="State machine of the detector" /></p>
+<p><img src="state_machine.png" alt="State machine of the detector" /></p>
 
 <p>The basic idea is that we take a sliding window approach, normalizing all of the
 data relative to the last value in the window. For each window, we calculate <code>min_1</code>,
@@ -170,12 +170,12 @@ which is the smallest value of the first half of the window, and <code>max_2</co
 largest value in the second half. Next, we compare to empirically determined
 thresholds perform the appropriate transition in the state machine. I won't bore
 you with details of normalizing the data, etc but you can find all of the
-details in <a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
+details in <a href="mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
 github</a>.</p>
 
 <h2>What's next?</h2>
 
-<p><img src="/magnetic-input-mobile-vr/joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>
+<p><img src="joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>
 
 <p>A lot more can be done using passive magnetic input. With uncalibrated
 magnetometers, there is no fear of calibration events, so we could implement a

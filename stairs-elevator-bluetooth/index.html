@@ -66,7 +66,7 @@ three sensors: two on separate floors, and the third on the stairwell
 connecting them (blue circles represent bluetooth scanner nodes in the
 bluetooth sensor network).</p>
 
-<p><img src="/stairs-elevator-bluetooth/problem.png" alt="image" /> </p>
+<p><img src="problem.png" alt="image" /> </p>
 
 <p>This is a specific example of a more general point-to-point problem with
 two possible paths. From this simple setup, It's possible to compute
@@ -98,18 +98,18 @@ or MacMinis:</p>
 <p>The sensor network necessary for the inter-floor experiment consists of
 several components:</p>
 
-<p><img src="/stairs-elevator-bluetooth/architecture.png" alt="image" /> </p>
+<p><img src="architecture.png" alt="image" /> </p>
 
 <p>Each scanner is a computer with a bluetooth modem and a wireless
 connection. We used two Mac Minis running OS X and one ASUS EeePC
-running Linux. Every computer executed a <a href="/stairs-elevator-bluetooth/bluetooth_scanner.py">bluetooth scanner program</a>,
+running Linux. Every computer executed a <a href="bluetooth_scanner.py">bluetooth scanner program</a>,
 which scanned for bluetooth devices in the vicinity every 10 seconds,
 and updated its list of nearby device IDs. Whenever the list of nearby
 devices changed, it reported an ENTER or EXIT notification to the
 central server via an HTTP POST. </p>
 
 <p>The central server runs a MySQL database to store all notifications from
-the scanners. Periodically, this <a href="/stairs-elevator-bluetooth/trip_analyzer.py">analyzer program</a> crawls the
+the scanners. Periodically, this <a href="trip_analyzer.py">analyzer program</a> crawls the
 database to extract trips from the data (ie. a device EXITs at one
 sensor and subsequently ENTERs at another one). It also discerns between
 trips taken by stairs and by elevator. Once trips are extracted, they

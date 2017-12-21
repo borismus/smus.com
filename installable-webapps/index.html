@@ -74,7 +74,7 @@ the rest of this post I'll describe why these are bad solutions,
 deconstruct them down into small pieces and then glue the pieces back
 together. The ultimate goal is a modest proposal for installable web
 apps. Read on for my take on the background of the problem, or skip
-ahead to read my <a href="/installable-webapps/#solution">illustrated proposal</a> for fixing it.</p>
+ahead to read my <a href="#solution">illustrated proposal</a> for fixing it.</p>
 
 <!--more-->
 
@@ -126,7 +126,7 @@ from coming to the web platform.</p>
 
 <p>First, look at this:</p>
 
-<p><img src="/installable-webapps/infobar-apocalypse.png"/></p>
+<p><img src="infobar-apocalypse.png"/></p>
 
 <p>This gem, courtesy of <a href="http://persistent.info">Mihai Parparita</a>, is my favorite
 explanation for why infobars suck. You can immediately see several
@@ -192,7 +192,7 @@ enable either the above platform specific APIs or restricted open web APIs.</li>
 <p>There are certainly benefits to this approach, such as a sane offline
 story, since all of the assets of the application can be packaged
 together into a bundle that is downloaded at install time, circumventing
-painful technology like <a href="/installable-webapps/appcache.png">AppCache</a>. There is a clear install
+painful technology like <a href="appcache.png">AppCache</a>. There is a clear install
 step, during which you can grant an application permissions beyond the
 scope of the open web platform. Also, it's very easy to add features to
 packaged apps, since there are no annoying standards to worry about,
@@ -266,7 +266,7 @@ page.</p>
 
 <h1>Proposal: apps you can install from the web</h1>
 
-<p>So far I've described the <a href="/installable-webapps//installable-webapps/#problem">problem</a>: a major barrier to the
+<p>So far I've described the <a href="#problem">problem</a>: a major barrier to the
 vision of the extensible web: there is no good way of getting outside of
 the sandbox. I have been complaining a lot without providing any
 constructive answers.</p>
@@ -275,14 +275,14 @@ constructive answers.</p>
 proposes a solution to get us out of the sandbox. There's a whole world
 out there! Here is my birds-eye-view of the install-from-the-web world:</p>
 
-<p><img src="/installable-webapps/flow.png" alt="flow" /></p>
+<p><img src="flow.png" alt="flow" /></p>
 
 <p>This diagram is intended to be general enough to work across
 operating systems and device types, but the mocks themselves will be
 sketched out with a phone form factor in mind. We'll be installing
 <code>app.io</code>, a mobile app that lets you leave audio notes.</p>
 
-<p><img src="/installable-webapps/screen1.png" class="border" /></p>
+<p><img src="screen1.png" class="border" /></p>
 
 <p><em>Screen 1: App.io example.</em></p>
 
@@ -292,7 +292,7 @@ sketched out with a phone form factor in mind. We'll be installing
 for Android <a href="https://code.google.com/p/chromium/issues/detail?id=153066">feature request</a>), which presents a generic UI
 for adding apps to the homescreen (see Screen 2).</p>
 
-<p><img src="/installable-webapps/screen2.png" class="border" /></p>
+<p><img src="screen2.png" class="border" /></p>
 
 <p><em>Screen 2: Add via browser button.</em></p>
 
@@ -335,7 +335,7 @@ the following code should work:</p>
 accept installation, showing which permissions have been requested
 (Screen 3).</p>
 
-<p><img src="/installable-webapps/screen3.png" class="border" /></p>
+<p><img src="screen3.png" class="border" /></p>
 
 <p><em>Screen 3: Confirm installation.</em></p>
 
@@ -353,7 +353,7 @@ If none is specified, the user can be prompted to input their own
 title.</p></li>
 </ol>
 
-<p><img src="/installable-webapps/screen4.png" class="border" /></p>
+<p><img src="screen4.png" class="border" /></p>
 
 <p><em>Screen 4: New launcher added to the home screen.</em></p>
 
@@ -370,7 +370,7 @@ consistency could be implemented, and a polyfill provided for the Apple
 spec. It would also make sense to launch homescreen apps in full screen,
 providing the same UX as the full-screen API (Screen 5):</p>
 
-<p><img src="/installable-webapps/screen5.png" class="border" /></p>
+<p><img src="screen5.png" class="border" /></p>
 
 <p><em>Screen 5: App launched in standalone mode.</em></p>
 
@@ -389,7 +389,7 @@ modal optional permissions dialog (Screen 6) similar to the one seen at
 installation. After granting it, the associated API call (in this case,
 <code>getUserMedia</code>) can be invoked without incurring any infobars.</p>
 
-<p><img src="/installable-webapps/screen6.png" class="border" /></p>
+<p><img src="screen6.png" class="border" /></p>
 
 <p><em>Screen 6: Additional permissions request.</em></p>
 
@@ -403,7 +403,7 @@ installed apps, or revoke granted permissions.</p>
 <h2>That's it folks</h2>
 
 <p>So there you have it: my strawman fixing the security model of the web,
-which, as I outlined at the <a href="/installable-webapps//installable-webapps/#problem">beginning of this post</a>, is
+which, as I outlined at the <a href="#problem">beginning of this post</a>, is
 critically important to address for the continued success of the web.
 To recap, the solution consists of an API surface in the <code>window.app</code>
 namespace, and a number of new screens that are part of the installation
