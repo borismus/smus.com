@@ -5,8 +5,240 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-11-02T13:09:45-00:00</updated>
+  <updated>2017-12-21T10:28:15-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Audio features for web-based ML</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/web-audio-ml-features"/>
+    
+    <updated>2017-12-15T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/web-audio-ml-features</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>One of the first problems presented to students of deep learning is to classify
+handwritten digits in the <a href="https://www.tensorflow.org/get_started/mnist/beginners">MNIST dataset</a>. This was recently <a href="https://deeplearnjs.org/demos/model-builder/">ported to
+the web</a> thanks to <a href="https://deeplearnjs.org">deeplearn.js</a>. The web version has
+distinct educational advantages over the relatively dry TensorFlow tutorial.
+You can immediately get a feeling for the model, and start building intuition
+for what works and what doesn't. Let's preserve this interactivity, but change
+domains to audio. This post sets the scene for the auditory equivalent of MNIST.
+Rather than recognize handwritten digits, we will focus on the recognize spoken
+commands. We'll do this by converting sounds like this:</p>
+
+<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+
+<p>Into images like this, called log-mel spectrograms, and in the next post,
+feed these images into the same types of models that do handwriting recognition
+so well:</p>
+
+<p><img src="/web-audio-ml-features/final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
+
+<p>The audio feature extraction technique I discuss here is generic enough to work
+for all sorts of audio, not just human speech. The rest of the post explains
+how. If you don't care and just want to <a href="https://github.com/google/web-audio-recognition/tree/master/audio-features">see the code</a>, or <a href="https://google.github.io/web-audio-recognition/audio-features/">play with some
+live demos</a>, be my guest!</p>
+
+<!--more-->
+
+<h1>Why?</h1>
+
+<p>Neural networks are having quite a resurgence, and for good reason. Computers
+are beating humans at many challenging tasks, from identifying faces and images,
+to playing Go. The basic principles of neural nets is relatively simple, but the
+details can get quite complex. Luckily non-AI experts can get a feeling for what
+can be done because a lot of <a href="http://www.cs.ubc.ca/~van/papers/2017-TOG-deepLoco/">output</a> is <a href="https://www.youtube.com/watch?v=5h4R959O0cY">quite</a> <a href="http://prostheticknowledge.tumblr.com/">engaging</a>.
+Unfortunately these demos are mostly visual in nature, either examples of
+computer vision, or generate images or video as their main output. And
+few of these examples are interactive.</p>
+
+<h1>Pre-processing audio sounds hard, do we have to?</h1>
+
+<p>Raw audio is a pressure wave sampled at tens of thousands times per second and
+stored as an array of numbers. It's quite a bit of data, but there are neural
+networks that can ingest it directly.  Wavenet does <a href="https://github.com/buriburisuri/speech-to-text-wavenet">speech to
+text</a> and <a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/">text to speech</a> using raw audio sequences,
+without any explicit feature extraction. Unfortunately it's slow: running speech
+recognition on a 2s example took 30s on my laptop. Doing this in real-time, in
+a web browser isn't quite ready yet.</p>
+
+<p>Convolutional Neural Networks (CNNs) are a big reason why there has been so much
+interesting work done in computer vision recently. These networks are designed
+to work on matrices representing 2D images, so a natural idea is to take our raw
+audio and generate an image from it. Generating these images from audio is
+sometimes called a frontend in <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43960.pdf">speech recognition papers</a>. Just to
+hammer the point home, here's a diagram explaining why we need to do this step:</p>
+
+<p><img src="/web-audio-ml-features/front-end-diagram.png" alt="Audio processing vs. image processing" /></p>
+
+<p>The standard way of generating images from audio is by looking at the audio
+chunk-by-chunk, and analyzing it in the frequency domain, and then applying
+various techniques to massage that data into a form that is well suited to
+machine learning. This is a common technique in sound and speech processing, and
+there are great implementations in <a href="https://github.com/librosa/librosa">Python</a>. TensorFlow even has a
+<a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/wav_to_spectrogram/wav_to_spectrogram.cc">custom op</a> for extracting spectrograms from audio.</p>
+
+<p>On the web, these tools are lacking. The Web Audio API can almost do
+this, using the <code>AnalyserNode</code>, as I've shown <a href="https://borismus.github.io/spectrogram/">in the past</a>, but
+there is an important limitation in the context of data processing:
+<code>AnalyserNode</code> (nee <code>RealtimeAnalyser</code>) is <a href="https://stackoverflow.com/questions/45697898/web-audio-api-getfloatfrequencydata-function-setting-float32array-argument-data">only for real-time</a> analysis.
+You can setup an <code>OfflineAudioContext</code> and run your audio through the analyser,
+but you will get unreliable results. </p>
+
+<p>The alternative is to do this without the Web Audio API, and there are
+<a href="https://github.com/vail-systems/node-mfcc">many</a> <a href="https://github.com/oramics/dsp-kit">signal processing</a> <a href="https://github.com/corbanbrook/dsp.js/">JavaScript libraries</a> that might
+help. None of them are quite adequate, for reasons of incompleteness or
+abandonment. But here's an illustrated take on extracting Mel features from raw
+audio.</p>
+
+<h1>Audio feature extraction</h1>
+
+<p>I found an <a href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">audio feature extraction tutorial</a>, which I followed closely
+when implementing this feature extractor in TypeScript. What follows can be a
+useful companion to that tutorial.</p>
+
+<p>Let's begin with an audio example (a man saying the word "left"):</p>
+
+<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+
+<p>Here's that raw waveform plotted as pressure as a function of time:</p>
+
+<p><img src="/web-audio-ml-features/1-raw-audio.png" alt="Raw audio" /></p>
+
+<p>We could take the FFT over the whole signal, but it changes a lot over time.
+In our example above, the "left" utterance only takes about 200 ms, and most of
+the signal is silence. Instead, we break up the raw audio signal into
+overlapping buffers, spaced a hop length apart. Having our buffers overlap
+ensures that we don't miss out on any interesting details happening at the
+buffer boundaries. There is an art to picking the right
+buffer and hop lengths:</p>
+
+<ul>
+<li>Pick too small a buffer, and you end up with an overly detailed image, and
+risk your neural net training on some irrelevant minutia, missing the forest
+for the trees. </li>
+<li>Pick too large a buffer, and you end up with an image too coarse to be useful.</li>
+</ul>
+
+<p>In the illustration below, you can see five full buffers that overlap one
+another by 50%. For illustration purposes only, the buffer and hop durations are
+large (400 ms and 200ms respectively). In practice, we tend to use much shorter
+buffers (eg. 20-40 ms), and often even shorter hop lengths to capture minute
+changes in audio signal.</p>
+
+<p><img src="/web-audio-ml-features/2-buffer-hop.png" alt="Break-up audio" /></p>
+
+<p>Then, we consider each buffer in the frequency domain. We can do this using an
+Fast Fourier Transform (FFT) algorithm. This algorithm gives us complex values
+from which we can extract magnitudes or energies. For example, here are the FFT
+energies of one of the buffers, approximately the second one in the above image,
+where the speaker begins saying the "le" syllable of "left":</p>
+
+<p><img src="/web-audio-ml-features/3-fft-buffer-linear.png" alt="Frequency of buffer" /></p>
+
+<p>Now imagine we do this for every buffer we generated in the previous step, take
+each FFT arrays and instead of showing energy as a function of frequency, stack
+the array vertically so that y-axis represents frequency and color represents
+energy. We end up with a spectrogram:</p>
+
+<p><img src="/web-audio-ml-features/4-fft-spectrogram.png" alt="STFT spectrogram" /></p>
+
+<p>We could feed this image into our neural network, but you'll agree that it looks
+pretty sparse. We have wasted so much space, and there's not much signal there
+for a neural network to train on.</p>
+
+<p>Let's jump back to the FFT plot to zoom our image into our area of interest. The
+frequencies in this plot are bunched up below 5 KHz since the speaker isn't
+producing particularily high frequency sound. Human audition tends to be
+logarithmic, so we can view the same range on a log-plot:</p>
+
+<p><img src="/web-audio-ml-features/5-fft-buffer-log.png" alt="Frequency of buffer" /></p>
+
+<p>Let's generate new spectrograms as we did in an earlier step, but rather than
+using a linear plot of energies, use can a log-plot of FFT energies:</p>
+
+<p><img src="/web-audio-ml-features/9-log-spectrogram.png" alt="STFT log spectrogram" /></p>
+
+<p>Looks a bit better, but there is room for improvement. Humans are much better at
+discerning small changes in pitch at low frequencies than at high frequencies.
+The Mel scale relates pitch of a pure tone to its actual measured frequency. To
+go from frequencies to Mels, we create a triangular filter bank:</p>
+
+<p><img src="/web-audio-ml-features/6-mel-filterbank.png" alt="Mel filter bank" /></p>
+
+<p>Each colorful triangle above is a window that we can apply to the frequency
+representation of the sound. Applying each window to the FFT energies we
+generated earlier will give us the Mel spectrum, in this case an array of 20
+values:</p>
+
+<p><img src="/web-audio-ml-features/7-mel-spectrum.png" alt="Mel spectrum" /></p>
+
+<p>Plotting this as a spectrogram, we get our feature, the log-mel spectrogram:</p>
+
+<p><img src="/web-audio-ml-features/10-mel-spectrogram.png" alt="Mel spectrogram" /></p>
+
+<p>The 1s images above are generated using audio feature extraction software
+written in TypeScript, which I've released publicly. Here's a <a href="https://google.github.io/web-audio-recognition/audio-features/">demo</a> that
+lets you run the feature extractor on your own audio, and <a href="https://github.com/google/web-audio-recognition/tree/master/audio-features">the code on
+github</a>.</p>
+
+<h1>Handling real-time audio input</h1>
+
+<p>By default the feature extractor frontend takes a fixed buffer of audio as
+input.  But to make an interactive audio demo, we need to process a continuous
+stream of audio data. So we will need to generate new images as new audio comes
+in. Luckily we don't need to recompute the whole log-mel spectrogram every time,
+just the new parts of the image. We can then add the new parts of spectrogram on
+the right, and remove the old parts, resulting in a movie that feeds from the
+right to the left. The <a href="https://github.com/google/web-audio-recognition/blob/master/audio-features/src/StreamingFeatureExtractor.ts"><code>StreamingFeatureExtractor</code></a> class implements this
+important optimization.</p>
+
+<p>But there is one caveat: it currently relies on <code>ScriptProcessorNode</code>, which is
+notorious for dropping samples. I've tried to mitigate this as much as possible
+by using a large input buffer size, but the real solution will be to use
+<a href="https://drafts.css-houdini.org/worklets/#worklet-section">AudioWorklets</a> when they are available.</p>
+
+<h1>Wrapping up</h1>
+
+<p>An implementation note: here is a <a href="https://thebreakfastpost.com/2015/10/18/ffts-in-javascript/">comparison of JS FFT libraries</a> which
+suggests the Emscripten-compiled KissFFT is the fastest (but still 2-5x slower
+than native), and the one I used.</p>
+
+<p>Here is a sanity check comparing the output of my web-based feature extractor to
+that of other libraries, most notably <a href="https://github.com/librosa/librosa">librosa</a> and from <a href="https://github.com/tensorflow/models/blob/master/research/audioset/mel_features.py">AudioSet</a>:</p>
+
+<p><img src="/web-audio-ml-features/mel-comparison.png" alt="Log mel feature comparison" /></p>
+
+<p>The images resulting from the three implementations are similar, which is a good
+sanity check, but they are not identical. I haven't found the time yet, but it
+would be very worthwhile to have a consistent cross platform audio feature
+extractor, so that models trained in Python/C++ could run directly on the web,
+and vice versa.</p>
+
+<p>I should also mention that although log-mel features are commonly used by
+serious audio researchers, this is an active area of research. Another audio
+feature extraction technique called <a href="https://arxiv.org/pdf/1607.05666.pdf">Per-Channel Energy Normalization
+(PCEN)</a> appears to perform better at least in some cases, like processing
+far field audio. I haven't had time to delve into the details yet, but
+understanding it and porting it to the web also seems like a worthy task.</p>
+
+<p>Major thanks to <a href="http://www.dicklyon.com/">Dick Lyon</a> for pointing out a few bugs in my feature
+extraction code. Pick up his <a href="https://www.amazon.com/Human-Machine-Hearing-Extracting-Meaning/dp/1107007534">"Human and Machine Hearing"</a> if you're ready
+to delve deeper into sound understanding.</p>
+
+<p>Ok, so to recap, we've generated log-mel spectrogram images from streaming audio
+that are ready to feed into a neural network. Oh yeah, the actual machine
+learning part? That's the next post – stay tuned!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>UIST 2017 highlights</title>
@@ -8004,89 +8236,6 @@ it's very easy and natural to distinguish between the two modalities.</p>
 
 <p>Do you have thoughts or demos around new types of interactions using
 touch laptops? Please share them below.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>From VPS to static hosting</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/moved-to-s3"/>
-    
-    <updated>2013-01-16T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/moved-to-s3</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>All good things must come to an end. VPS hosting paid for by my former
-university is no exception! Ever since the University of
-Madeira-provided credit card paying for the account expired, I began
-wondering whether it's worth paying for a VPS that I hardly use.
-Combined with two consecutive 10-minute stretches of downtime last week,
-I had my answer.</p>
-
-<p>I run this blog, my mother's site and a handful of mini-sites, all of
-which are inherentily static content. Today, I moved them all away from
-my VPS completely. I migrated the relatively complex sites to the
-<a href="https://github.com/borismus/lightning">lightning</a> engine, and updated the engine with a couple of nice
-features: fixed content links in list pages and feeds, and support for
-publishing to S3.</p>
-
-<!--more-->
-
-<h2>System administration</h2>
-
-<p>In my early Linux days, I ran an AMD Athlon server off my parents'
-internet connection. I took pride in configuration, maintenance,
-administration, endlessly recompiling updates and dealing with broken
-dependencies. I enjoyed the challenge and got very good at it. By
-sinking enough time into any problem, I was confident that I would
-ultimately solve it. Sometimes I contributed an ebuild or two to
-portage. I learned a lot, and eventually my web server outgrew my
-parents' internet connection.</p>
-
-<p>So I turned to managed hosting. Several years later, sick of the crappy
-management UI, and yearning to flex some sysadmin muscle, I jumped on
-VPS opportunity for performance reasons. While clearly overkill for
-static sites, it was appealing from a "what if?" perspective: what if
-suddenly I wanted to run a complex webapp? No problem, VPS was ready!</p>
-
-<h2>Except system administration sucks</h2>
-
-<p>My VPS slice was running Ubuntu 8. Since Ubuntu 12 was released, I was
-greeted with a "48 packages are out of date" message upon logging into
-the machine. </p>
-
-<p>Long ago, this message would have sent me down a rabbit hole of emerging
-all of the outdated packages, resolving dependencies and rewriting
-config files. It was gratifying to be on the bleeding edge, to have a
-clean system with all of the daemons dancing to your tune in perfect
-harmony.</p>
-
-<p>These days, I could care less about being up-to-date. In fact, I
-actively dislike upgrading. An upgrade is a risk, likely to lead to
-something breaking, likely without me noticing at first. So rather than
-the "ooh, new shiny" feeling I used to have when Apache needed an
-update, I actively dread needing to update anything. I don't want to
-need to tweak configurations, especially because I've forgotten a lot of
-the domain-specific config languages. </p>
-
-<h2>S3 for static hosting, PaaS for everything else</h2>
-
-<p>Happily, all of my sites are currently static. Blogs and mini-sites all
-lend themselves very well to being hosted on S3.</p>
-
-<p>For the hypothetical case that I require a dynamic web server on
-the internet, I'll turn to a Platform-as-a-service solution like
-<a href="http://nodejitsu.com/">Nodejitsu</a> or <a href="https://developers.google.com/appengine/">AppEngine</a> to avoid doing rote configuration
-tasks.</p>
-
-<p>Being a sysadmin is not a part time job.</p>
 
 
         

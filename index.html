@@ -38,6 +38,42 @@
 <section id='main'>
 
 <article class="type-post">
+  <a href='/web-audio-ml-features'><h1 class='title'>Audio features for web-based ML</h1></a>
+  <div class='body'>
+    <p>One of the first problems presented to students of deep learning is to classify
+handwritten digits in the <a href="https://www.tensorflow.org/get_started/mnist/beginners">MNIST dataset</a>. This was recently <a href="https://deeplearnjs.org/demos/model-builder/">ported to
+the web</a> thanks to <a href="https://deeplearnjs.org">deeplearn.js</a>. The web version has
+distinct educational advantages over the relatively dry TensorFlow tutorial.
+You can immediately get a feeling for the model, and start building intuition
+for what works and what doesn't. Let's preserve this interactivity, but change
+domains to audio. This post sets the scene for the auditory equivalent of MNIST.
+Rather than recognize handwritten digits, we will focus on the recognize spoken
+commands. We'll do this by converting sounds like this:</p>
+
+<p><audio src="/web-audio-ml-features/left.wav" controls></audio></p>
+
+<p>Into images like this, called log-mel spectrograms, and in the next post,
+feed these images into the same types of models that do handwriting recognition
+so well:</p>
+
+<p><img src="/web-audio-ml-features/final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
+
+<p>The audio feature extraction technique I discuss here is generic enough to work
+for all sorts of audio, not just human speech. The rest of the post explains
+how. If you don't care and just want to <a href="https://github.com/google/web-audio-recognition/tree/master/audio-features">see the code</a>, or <a href="https://google.github.io/web-audio-recognition/audio-features/">play with some
+live demos</a>, be my guest!</p>
+
+
+  </div>
+  
+  <a href="/web-audio-ml-features" class="readmore" title="Continue reading...">
+    Continued &rarr;
+  </a>
+  
+  
+</article>
+
+<article class="type-post">
   <a href='/uist-2017'><h1 class='title'>UIST 2017 highlights</h1></a>
   <div class='body'>
     <p>Picking up where I left off <a href="/uist-2014">3 years ago</a> with this year's UIST
@@ -365,51 +401,6 @@ by appealing to a powerful emotion: curiosity.</p>
     Continued &rarr;
   </a>
   
-  
-</article>
-
-<article class="type-note">
-  <a href='/notes/2017/remembering-my-personal-wiki/'><h1 class='title'>Remembering my personal wiki</h1></a>
-  <div class='body'>
-    <p>Before I started writing this blog, I used <a href="https://moinmo.in">MoinMoin</a> as a personal wiki.
-It was self-hosted on a Linux box in my parents' basement. I used it for
-everything: jotting down ideas, as a calendar, storing guitar tabs, tracking
-workout routines, course planning, and personal finances. I wrote on the wiki
-actively from about 2002 to about 2008. Here are some blasts from the past:</p>
-
-<ul>
-<li>My Lego fandom started to shift from into robotics. To be clear,
-this is just a fancy way of saying that I was still <a href="http://wiki.z3.ca/Bartender/">playing</a> <a href="http://wiki.z3.ca/CardDealer/">with</a>
-<a href="http://wiki.z3.ca/VerticalCrossBeams/">legos</a> into my early twenties.</li>
-<li>Origami interests also shifted into the <a href="http://wiki.z3.ca/OrigamiSoftware/">digital realm</a>.</li>
-<li>I <a href="http://wiki.z3.ca/Network/">maintained a network</a> of about ten Linux boxes named after
-<a href="http://wiki.z3.ca/Aleph/">Hebrew</a> <a href="http://wiki.z3.ca/Zayin/">letters</a>. What a pain in the ass!</li>
-<li>Wrote a few computer games, like this uninspired <a href="http://wiki.z3.ca/ArcadeTank/">tank game</a>, and this
-totally awesome <a href="http://wiki.z3.ca/Sponge/">pong variant</a> that was played inside a sphere.</li>
-<li>Discovered <a href="https://en.wikipedia.org/wiki/Second-system_effect">second system syndrome</a> when trying to rewrite <a href="http://wiki.z3.ca/Alienation/">a web based
-RPG</a> I originally wrote in 2000.</li>
-<li>Had some interesting, still relevant <a href="http://wiki.z3.ca/GpsRpg/">ideas foreshadowing</a> Augmented
-Reality gaming.</li>
-<li>Catalogued delicious Japanese food in <a href="http://wiki.z3.ca/JapaneseRestaurants/">Vancouver</a>.</li>
-<li>Smashed a Palm Tungsten <a href="http://wiki.z3.ca/TungstenDestruction/">with a hammer</a> out of frustration,
-attempted to use a <a href="http://wiki.z3.ca/TreoBluetoothHeadsets/">Bluetooth headset with my Treo</a> and dreamed of a
-<a href="http://wiki.z3.ca/DreamGadget/">better gadget</a>.</li>
-<li>Hoping to <a href="http://wiki.z3.ca/MatrixWorkouts/">avoid the gym</a>, I got into <a href="http://wiki.z3.ca/Kettlebells/">kettlebells for fitness</a>,
-and even thought about starting a <a href="http://wiki.z3.ca/Gireviki/">kettlebell community</a>.</li>
-<li>Saved <a href="http://wiki.z3.ca/Guitar(2f)Gravedigger/">guitar</a> <a href="http://wiki.z3.ca/Guitar(2f)WildMountainThyme/">tabs</a> I played with the intention of
-<a href="http://wiki.z3.ca/LibTab/">doing something techy</a> with them later.</li>
-</ul>
-
-<p>Embarassing and endearing, <code>wiki.z3.ca</code> serves as a time capsule of my late
-teens and early twenties. Je me souviens.</p>
-
-  </div>
-  
-  
-    <div class='subfooter'>
-      <div class='tombstone'>▪</div>
-      <time class='published'>June 1, 2017</time>
-    </div>
   
 </article>
 
