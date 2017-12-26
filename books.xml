@@ -5,8 +5,195 @@
   <title>Boris Smus (Books)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-12-21T11:12:39-00:00</updated>
+  <updated>2017-12-26T12:41:02-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Is That a Fish in Your Ear? by David Bellos</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
+    
+    <updated>2017-12-26T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>David Bellos drops many interesting tidbits that I’m unlikely to retain. Each
+chapter stands on its own, which is both good for piecemeal reading, but also
+feels disjointed. The book struggles to tie together into an overall narrative.
+The author's erudition is apparent, dropping a million mostly relevant and
+interesting references. Sometimes this digresses into an obsession with word
+games, and the references can come off as gratuitous and self-serving. Overall I
+liked it, but there were also parts I found suspect.</p>
+
+<p>What follows is a correspondingly disjointed account of what I found interesting
+from the book:</p>
+
+<p><em>Finding a good match</em>: Ultimately the goal of a translator is to find a good
+match. Nobody ever does word for word translation, but sense for sense to match
+the audience and medium. In translation, the things to preserve are information
+and force. Not number of words, sentence length, placement of punctuation.
+Speech interpreters can’t preserve tone, pitch, facial gestures, stamping of
+feet, etc. Hofstadter has a <a href="http://www.clementmarot.com/MaMignonne.htm">good
+example</a>.</p>
+
+<p><em>Fake translations</em>: Some authors claim to produce a translation but there is no
+original. Don Quixote claims to be a translation from Arabic. Others claim to
+produce an original but just translate an existing work (Castle of Otranto).
+Sometimes to pass censorship, other times to try on an identity, to come off as
+more authentic. Dzhambul Dzhabayev was a folk singer who was “translated” into
+Russian but actually written from scratch. Soviet Union sought to translate
+great poets from Kazakh, Ingush, Dagestani etc, but had to invent them instead.</p>
+
+<p><em>Decorative foreignism</em>: When translating a character from one language to
+another, how do you preserve their cultural essence? One approach is to preserve
+interjections (eg. Gregor Samsa would have exclaimed "Ach Gott!"), but this only
+works when readers are assumed to know some phrases of the other language, so
+only for languages that share history (for English, German &amp; French, but not
+Chuvash).</p>
+
+<p><em>L1 and L2</em>: Translating into your own native language (L1) vs. translating from
+your native language into one you are less familiar with (L2). Most literature
+is L1, but things like Engrish is definitely L2.</p>
+
+<p><em>Up vs down translation</em>: Up refers to higher prestige or more readers. Like
+translation into French from Russian during the 19th century. Or anything into
+English these days. Down is the opposite: translating the Bible from Hebrew to
+anything. Translating up tends to remove all traces of the original culture but
+down tends to preserve it because its perceived as important.</p>
+
+<p><em>Languages and conquest</em>: Sumerian was the up translation target for 3000 years.
+This despite the fact that Sumer was conquered by Akkad, who decided to keep the
+language and culture. Similarly, Greek language and culture became dominant
+despite conquest by Rome. So the economic military bad political expansion
+doesn’t directly relate to cultural dominance.</p>
+
+<blockquote>
+  <p>A culturally dominant language is one that maintains significant volumes of
+  translation activity between itself and a significant number of languages</p>
+</blockquote>
+
+<p><em>Languages are interesting</em>: Kuuk Thaayorre from Australia lay out ordered
+objects from east to west rather than left to right. In Hopi there’s a concept
+of evidentials. Words change depending on whether they are in the field of view.
+So “the farmer killed the duck” doesn’t have enough info to translate to Hopi.</p>
+
+<p><em>Mistrust and translation</em>: When British PMs talks to French president they each
+bring their own interpreter out of fear of imperfect or deceptive performance.
+<a href="https://en.wikipedia.org/wiki/Dragoman">Turkish dragomans</a> who would make the
+Ottoman decrees more palatable to other monarchs. Adage: traddutore/traditore.
+(But this may just be a coincidence).</p>
+
+<p><em>Asymmetry of translation</em>: There are few vehicular languages (regional lingua
+franca) between which vast majority of translation occurs. There are far more
+non-vehicular native tongues. Even among the vehicular there are great
+disbalances, eg Swedish gets as much attention as Chinese despite 100x fewer
+speakers. English is the dominant language today, 65% of all translations are
+from English and 7% are into English. To really do well globally you need to
+read and write English. </p>
+
+<p><em>Hub languages</em>: It’s common for English to be used as the inter-language too,
+for example for going from Chinese to English to {Finnish, Estonian, Latvian,
+etc}. Simultaneous translation also uses a hub and spoke model. Rather than
+going N to N languages at the EU, and requiring N^2 interpreters, use a hub
+language like German so everyone translates to and from German instead, only
+requiring 2N. Bizarre that most translators into English are amateurs, despite
+being important in the global translation flow (as a hub language). Translators
+into Japanese are revered and have almost author like status. </p>
+
+<p><em>Translation vs. language learning</em>: In India, there was historically very
+little translation between regional languages. (Translation is always a crutch
+for our inability to quickly learn other languages.)</p>
+
+<p><em>Gestures as a language universal</em>: Moving hands while speaking (not reading
+aloud) is done in all languages. Interesting commonality between eating and
+speaking, both requiring hands and mouth. Many other examples of universal
+gestures: slapping someone on the back, punch to the gut, shrug of shoulders.</p>
+
+<p>Random tidbits:</p>
+
+<ul>
+<li>Some languages make distinctions between spoken and written words, eg. paroles
+vs mots in French.</li>
+<li>Adair translated Poe's Raven into <a href="https://www.reddit.com/r/AVoid5/comments/5fb8d8/adairs_translation_of_th_ravn_from_a_void_is/">The Black Bird</a>
+without using the letter "e".</li>
+<li>Eskimo has 40 words for snow, but English has 40 words for coffee.</li>
+</ul>
+
+<p>Questionable claims:</p>
+
+<ul>
+<li>in German, "spoken word" and "written word" are different words. This doesn't
+seem to be true.</li>
+<li>Humans are unique in their aptitude to vocal learning. Also not true: bird
+songs do it, as do cetaceans and some bats.</li>
+<li>Author feels that translation between modalities (eg. book =&gt; movie) is about
+as relevant as translating flour into noodles. Cool story.</li>
+</ul>
+
+<p>I end with food for thought:</p>
+
+<blockquote>
+  <p>Babel tells the wrong story. The most likely original use of human speech was
+  to be different, not the same.
+  [...]
+  Languages merge when peoples do.
+  [...]
+  Translating is a first step towards civilization.</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>My Russian Grandmother and Her American Vacuum Cleaner by Meir Shalev</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/my-russian-grandmother-and-her-american-vacuum-cleaner-by-meir-shalev"/>
+    
+    <updated>2017-11-25T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/my-russian-grandmother-and-her-american-vacuum-cleaner-by-meir-shalev</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My parents have been longtime Meir Shalev readers, but I haven't gotten around
+to reading any of his books yet. Ido's recommendation put me over the edge, and
+it was worth it. Shalev is able to take often mundane family scenes, and spin an
+incredible story out of them.</p>
+
+<p>The book is written in an almost, but not quite, magical realism style. His
+guiding principle is explicitly stated. I’ll call it Shalev’s razor:</p>
+
+<blockquote>
+  <p>Эта скучная версия для меня неприемлема. Прежде всего, потому, что я не
+  впервой сталкиваюсь с такого рода попытками оспаривать истину. А во-вторых,
+  потому, что в таких случаях я всегда руководствуюсь проверенным правилом,
+  корни которого лежат, кстати, в мире науки, а не в юриспруденции или в
+  литературе. Ученые говорят, что, если какое-то явление допускает несколько
+  правдоподобных научных объяснений, следует принять самое простое. Аналогично,
+  если какая-то история имеет несколько вариантов и все они выглядят истинными,
+  в нашей семье предпочитают самый красивый.</p>
+</blockquote>
+
+<p>Despite the somewhat exotic Israeli moshav setting, I was surprised at how many
+things were familiar to me. The re-circulation of familial expressions,
+propensity towards hoarding caused by Soviet-levels of hardship, to immigrant
+minimalism.  In one word: Russian Jewish family dynamics.</p>
+
+<p>Most importantly, Shalev writes masterfully, and given the Russian topic,
+translation into Russian may have even enhanced the experience.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The neurochemistry of music</title>
@@ -809,7 +996,7 @@ similarly researched argument from the other side to see where I land.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-21T09:00:00-00:00</updated>
+    <updated>2017-06-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -1125,7 +1312,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -1168,7 +1355,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -1363,7 +1550,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -1428,7 +1615,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-21T09:00:00-00:00</updated>
+    <updated>2017-04-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -1522,7 +1709,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-21T09:00:00-00:00</updated>
+    <updated>2017-03-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -1572,7 +1759,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-21T09:00:00-00:00</updated>
+    <updated>2017-03-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -1609,7 +1796,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-21T09:00:00-00:00</updated>
+    <updated>2017-02-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -1677,7 +1864,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-21T09:00:00-00:00</updated>
+    <updated>2017-02-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -1705,7 +1892,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -1766,7 +1953,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -1801,7 +1988,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -1868,7 +2055,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-21T09:00:00-00:00</updated>
+    <updated>2016-12-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -1959,7 +2146,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-21T09:00:00-00:00</updated>
+    <updated>2016-11-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -2005,7 +2192,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-21T09:00:00-00:00</updated>
+    <updated>2016-10-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/future-babble</id>
     <content type="html">
@@ -2069,7 +2256,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-21T09:00:00-00:00</updated>
+    <updated>2016-10-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -2103,7 +2290,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-21T09:00:00-00:00</updated>
+    <updated>2016-09-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -2165,7 +2352,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-21T09:00:00-00:00</updated>
+    <updated>2016-09-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -2251,7 +2438,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-21T09:00:00-00:00</updated>
+    <updated>2016-08-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -2546,7 +2733,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-21T09:00:00-00:00</updated>
+    <updated>2016-08-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -2582,7 +2769,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -2655,7 +2842,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -2814,7 +3001,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -2860,7 +3047,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -2910,7 +3097,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-21T09:00:00-00:00</updated>
+    <updated>2016-06-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -2972,7 +3159,7 @@ groups I've had the pleasure of being part of:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-one-minute-manager"/>
     
-    <updated>2016-06-21T09:00:00-00:00</updated>
+    <updated>2016-06-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-one-minute-manager</id>
     <content type="html">
@@ -3011,7 +3198,7 @@ people. (This seems quite hard to pull off without being a dick).</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/gantenbein-by-max-frisch"/>
     
-    <updated>2016-06-21T09:00:00-00:00</updated>
+    <updated>2016-06-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gantenbein-by-max-frisch</id>
     <content type="html">
@@ -3057,7 +3244,7 @@ know that this is unlikely to happen.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/physics-beyond-the-edge-audio"/>
     
-    <updated>2016-06-21T09:00:00-00:00</updated>
+    <updated>2016-06-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/physics-beyond-the-edge-audio</id>
     <content type="html">
@@ -3136,7 +3323,7 @@ information-related profession.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/great-ideas-of-philosophy-audio"/>
     
-    <updated>2016-05-21T09:00:00-00:00</updated>
+    <updated>2016-05-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/great-ideas-of-philosophy-audio</id>
     <content type="html">
@@ -3253,7 +3440,7 @@ thought into what constitutes a good life:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-fail-at-almost-everything-by-scott-adams"/>
     
-    <updated>2016-04-21T09:00:00-00:00</updated>
+    <updated>2016-04-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-fail-at-almost-everything-by-scott-adams</id>
     <content type="html">
@@ -3294,7 +3481,7 @@ along!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/art-of-tidying-by-marie-kondo"/>
     
-    <updated>2016-04-21T09:00:00-00:00</updated>
+    <updated>2016-04-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/art-of-tidying-by-marie-kondo</id>
     <content type="html">
@@ -3332,7 +3519,7 @@ organizational method.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-moral-landscape-by-sam-harris"/>
     
-    <updated>2016-03-21T09:00:00-00:00</updated>
+    <updated>2016-03-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-moral-landscape-by-sam-harris</id>
     <content type="html">
@@ -3374,7 +3561,7 @@ The Moral Landscape.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/a-canticle-for-leibowitz-by-walter-m-miller-jr"/>
     
-    <updated>2016-02-21T09:00:00-00:00</updated>
+    <updated>2016-02-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/a-canticle-for-leibowitz-by-walter-m-miller-jr</id>
     <content type="html">
@@ -3422,7 +3609,7 @@ it still.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/in-praise-of-idleness-by-bertrand-russell"/>
     
-    <updated>2015-12-21T09:00:00-00:00</updated>
+    <updated>2015-12-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/in-praise-of-idleness-by-bertrand-russell</id>
     <content type="html">
@@ -3450,7 +3637,7 @@ today.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/gateway-by-frederik-pohl"/>
     
-    <updated>2015-12-21T09:00:00-00:00</updated>
+    <updated>2015-12-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gateway-by-frederik-pohl</id>
     <content type="html">
@@ -3495,7 +3682,7 @@ classifieds littered throughout the book.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sophies-world-by-jostein-gaardner"/>
     
-    <updated>2015-11-21T09:00:00-00:00</updated>
+    <updated>2015-11-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sophies-world-by-jostein-gaardner</id>
     <content type="html">
@@ -3534,7 +3721,7 @@ his high school philosophy class!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-united-states-and-the-middle-east-audio"/>
     
-    <updated>2015-10-21T09:00:00-00:00</updated>
+    <updated>2015-10-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-united-states-and-the-middle-east-audio</id>
     <content type="html">
@@ -3584,7 +3771,7 @@ going to 1.5x by the end, which I rarely do. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/science-and-human-values"/>
     
-    <updated>2015-09-21T09:00:00-00:00</updated>
+    <updated>2015-09-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/science-and-human-values</id>
     <content type="html">
@@ -3622,7 +3809,7 @@ could really stand to be ported into other human domains.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/thinking-fast-and-slow-by-kahnemann-tversky"/>
     
-    <updated>2015-09-21T09:00:00-00:00</updated>
+    <updated>2015-09-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/thinking-fast-and-slow-by-kahnemann-tversky</id>
     <content type="html">
@@ -3645,7 +3832,7 @@ make systematic thinking errors (deviating from "pure" rationality)..</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/skeptics-guide-to-american-history-audio"/>
     
-    <updated>2015-08-21T09:00:00-00:00</updated>
+    <updated>2015-08-26T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/skeptics-guide-to-american-history-audio</id>
     <content type="html">
@@ -3658,108 +3845,6 @@ questioned theme after theme of cliche Americanisms. I really liked his spiral
 model of historical progress, and also the fact that he dropped enough
 references that I now have plenty of follow up work to do. A worthwhile course
 for any non-American. Buy it on <a href="http://www.thegreatcourses.com/courses/the-skeptic-s-guide-to-american-history.html">TTC</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Digital Signal Processing Coursera</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/digital-signal-processing-coursera"/>
-    
-    <updated>2015-07-21T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/books/digital-signal-processing-coursera</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p><a href="https://class.coursera.org/dsp-004/">https://class.coursera.org/dsp-004/</a></p>
-
-<p>Professors Martin Vetterli &amp; Paolo Prandoni give an in-depth introduction to
-digital signals, filtering, etc. A caveat: I only went through the first 10 (out
-of 18) days of lectures, and did only some of the homework assignments.</p>
-
-<p>Initially spurred on by a broad interest in music, audio, and sensor processing,
-this course served as a very solid theoretical foundation.  The course starts
-off with a very dry, theoretical exploration into Hilbert spaces, which served
-as an excellent reminder that I can still sort of understand and enjoy
-mathematics. However my somewhat pathetic mathematical abilities were stretched
-to their absolute limit by Vetterli's systematic barrage of theory, and I would
-have surely given up on day 2 if not for some of those upper year linear algebra
-classes (thanks UBC!).</p>
-
-<p>The lecture's first focus is on <strong>how to understand signals</strong>. Still shaky on
-some of the theory, the lecture delves deep into the theory of fourier analysis
-and the formal definition of the discrete fourier analysis and various related
-methods like the DTFT. The treatment of the subject is so dry, it's hard to
-breathe. Until as if in a sudden rainstorm, the theoretical desert can breathe
-again when finally they bring up examples of the STFT, which I have been using
-for a while for various audio-related applications at work, without knowing what
-it was called.</p>
-
-<p>The next big subject is <strong>transforming signals</strong>, or signal processing.  Here,
-the professors introduce LTIs formally, and derive the idea that an impulse
-response fully characterizes an LTI. Next they dive into simple filters, FIRs
-and IIRs, covering various types of averages, discussing filter stability and
-other formal properties. They try to build some intuition about filters from a
-frequency-domain perspective, which is very useful to me. Lastly, the subject of
-ideal filters is explored, as well as why such filters cannot be implemented in
-real life. </p>
-
-<p>Finally, they discuss how to actually design filters using the z-transform,
-whose derivation remains somewhat mysterious to me, which is unfortunately
-normal for an engineering course. Prandoni gives a good interpretation for the
-pole-zero plot, which is a really elegant way of looking at filters. The lecture
-turns practical for a brief moment, when they reveal that implementations
-already exist for non-ideal versions of many of these filters and explore a few
-differences between Butterworth, Chebyshev and Elliptic low pass filters. They
-also talk about FIRs, and I finally understand the jargon of 'taps', which I
-just heard about at a lecture held at Noisebridge.</p>
-
-<p>I still struggle to convert block diagrams into equations, but feel like I have
-a much better sense of second order IIRs that ship with the Web Audio API.
-Overall a mathematically challenging, but interesting class.  I really wish
-there was a better way to build intuition for a lot of the theory, though.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Understanding the Secrets of Human Perception (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/understanding-the-secrets-of-human-perception-audio"/>
-    
-    <updated>2015-06-21T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/books/understanding-the-secrets-of-human-perception-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p><a href="http://www.thegreatcourses.com/courses/understanding-the-secrets-of-human-perception.html">http://www.thegreatcourses.com/courses/understanding-the-secrets-of-human-perception.html</a></p>
-
-<p>Excellent overview of perception. I learned a ton from these lectures, and
-really want to enumerate all of the illusions and experiments that the lecturer
-cites which give insight into the way our senses work. Lots of in-depth material
-about our visual system, how we percieve motion, the incredible variety of depth
-cues, as well as after-images and color effects. Some senses, like audition,
-were largely review for me, but others, like olfaction and taste were completely
-new to me. Multi-modal perception gets especially interesting, the canonical
-illusion being the McGurk effect, but there are many more.</p>
-
-<p>This course is much more than just enumerated sensory illusions, though.  The
-great thing about it is that Vishton spends a fair amount of time on the general
-principles of operation of our brains, from fundamentals of neurons and synapses
-to opponent-process theory, which explains a great deal of perception phenomena
-across the senses. From a UX and VR perspective, the material in this course is
-totally invaluable. </p>
 
 
         
