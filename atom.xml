@@ -5,8 +5,195 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-12-26T12:43:43-00:00</updated>
+  <updated>2018-01-04T12:35:06-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Web based voice command recognition</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/web-voice-command-recognition"/>
+    
+    <updated>2018-01-04T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/web-voice-command-recognition</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="/web-audio-ml-features">Last time</a> we converted audio buffers into images. This time
+we'll take these images and train a neural network using
+<a href="https://deeplearnjs.org">deeplearn.js</a>. The result is <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">a browser-based demo</a> that 
+lets you speak a command ("yes" or "no"), and see the output of the classifier
+in real-time, like this:</p>
+
+<p><video src="inference-demo.mp4" autoplay muted loop type="video/mp4"
+style="width: 100%"></p>
+
+<p>Curious to play with it, see whether or not it recognizes <em>yay</em> or <em>nay</em> in
+addition to <em>yes</em> and <em>no</em>? <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">Try it out live</a>. You will quickly see
+that the performance is far from perfect. But that's ok with me: this example is
+intended to be a reasonable starting point for doing all sorts of audio
+recognition on the web. Now, let's dive into how this works.</p>
+
+<!--more-->
+
+<h1>Quick start: training and testing a command recognizer</h1>
+
+<p>Here's how you can train your own yes/no classifier:</p>
+
+<ol>
+<li>Go to the <a href="https://google.github.io/web-audio-recognition/train-model/?data_url=https://storage.googleapis.com/audio-recognition-data&amp;data_extension=mp3">model training page</a>. It will take a bit of time to download
+the <a href="https://storage.googleapis.com/audio-recognition-data/yes.mp3">training</a> <a href="https://storage.googleapis.com/audio-recognition-data/no.mp3">data</a> from the server.</li>
+<li><p>Click the train button, and you'll see a graph showing training progress.
+Once you are ready (this will take a while, perhaps 500 iterations or 2
+minutes, depending on your hardware), stop training, and press the save
+weights (file) button.  This will download a JSON file.</p>
+
+<p><img src="2-training-graph.png" alt="Training graph" /></p></li>
+<li><p>Then go to <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">the inference demo page</a>, press the load weights (file) button
+and select the downloaded JSON file to load the trained model.</p></li>
+<li><p>Flip the switch, grant access to the microphone and try saying "yes" or "no".
+You'll see microphone and confidence levels indicated at the bottom of the
+page.</p>
+
+<p><img src="3-inference.png" alt="Inference screenshot" /></p></li>
+</ol>
+
+<p>The above is a mechanistic account of how the training example works.  If you
+are interested in learning about the gory (and interesting) details, read on.</p>
+
+<h1>Data pre-processing and loading</h1>
+
+<p>Training a neural net requires a lot of training data. In practice, millions of
+examples may be required, but <a href="https://storage.cloud.google.com/download.tensorflow.org/data/speech_commands_v0.01.tar.gz">the dataset</a> we'll be using is small by
+modern standards, with <em>just</em> 65,000 labeled examples. Each example is a
+separate wav file, with the label in the filename.</p>
+
+<p>Loading each training wav as a separate request turned out to be quite slow. The
+overhead from each request is small, but when compounded over a few thousand
+times, really starts to be felt. An easy optimization to load data more quickly
+is to put all examples with the same label into one long audio file. Decoding
+audio files is pretty fast, and so is splitting them into one second long
+buffers. A further optimization is to use a compressed audio format, such as
+mp3. <a href="https://github.com/google/web-audio-recognition/blob/master/train-model/scripts/preprocess.py"><code>scripts/preprocess.py</code></a> will do this concatenation for you,
+producing this <a href="https://storage.googleapis.com/audio-recognition-data/yes.mp3">mesmerising result</a>.</p>
+
+<p>After we "rehydrate" our raw audio examples, we process buffers of raw data into
+features. We do this using the <a href="/web-audio-ml-features">Audio Feature extractor</a> I
+mentioned in the <a href="/web-audio-ml-features">last post</a>, which takes in raw audio, and
+produces a log-mel spectrogram. This is relatively slow, and accounts for most
+of the time spent loading the dataset.</p>
+
+<h1>Model training considerations</h1>
+
+<p>For the yes/no recognizer, we have only two commands that we care about: "yes",
+and "no". But we also want to detect the lack of any such utterances, as well as
+silence. We include a set of <a href="https://storage.googleapis.com/audio-recognition-data/other.mp3">random utterances</a> as the "other" category
+(none of which are yes or no). This example is also generated by the
+<a href="https://github.com/google/web-audio-recognition/blob/master/train-model/scripts/preprocess.py">preprocessing script</a>.</p>
+
+<p>Since we're dealing with real microphones, we never expect to hear pure silence.
+Instead, "silence" is some level of ambient noise compounded by crappy
+microphone quality. Luckily, the training data also includes background noise
+which we mix with our training examples at various volumes. We also generate a
+set of silence examples, which includes only the background audio.  Once we've
+prepared our samples, we generate our final spectrograms as our input.</p>
+
+<p>To generate these final spectrograms, we need to decide on buffer and hop
+length. A reasonable buffer length is 1024, and a hop length of 512. Since we
+are dealing with sample rate of 16000 Hz, it works out to a window duration of
+about 60ms, sampled every 30ms.</p>
+
+<p>Once we have labeled spectrograms, we need to convert inputs and labels into
+deeplearn arrays. Label strings "yes", "no", "other", and "silence" will be
+<a href="https://en.wikipedia.org/wiki/One-hot">one-hot</a> encoded as a <code>Array1D</code>s of four integers, meaning that "yes"
+corresponds to <code>[1, 0, 0, 0]</code>, and "no" to <code>[0, 1, 0, 0]</code>. Spectrograms from the
+feature extractor need to be converted into an <code>Array3D</code>, which can be fed as
+input for the model.</p>
+
+<p>The model we are training consists of two convolution layers, and one fully
+connected layer. I took this architecture directly from the MNIST example
+of deeplearn.js, and hasn't been customized for dealing with spectrograms at
+all. As a result, performance is a far cry from state of the art speech
+recognition. To see even more mis-classifications, try out <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=number">MNIST for
+audio</a> which recognizes spoken digits (eg. "zero" through "ten").
+I am confident that we could do better by following <a href="http://www.isca-speech.org/archive/interspeech_2015/papers/i15_1478.pdf">this paper</a>. A
+real-world speech recognizer might not use convolution at all, instead opting
+for an <a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTM</a>, which is better suited to process time-series data.</p>
+
+<p>Lastly, we want to tell the machine learning framework how to train the model.
+In ML parlance, we need to set the <a href="https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)">hyperparameters</a>, which includes
+setting the learning rate (how much to follow the gradient at each step) and
+batch size (how many examples to ingest at a time). And we're off to the races:</p>
+
+<p><img src="2-training-graph.png" alt="Training graph" /></p>
+
+<p>During training, the gradient descent algorithm tries to minimize cost, which
+you can see in blue. We also plot accuracy in orange, which is occasionally
+calculated by running inference on a test set. We use a random subset of the
+test set because inference takes time, and we'd like to train as quickly as
+possible.</p>
+
+<p>Once we are happy with the test accuracy, we can save the model weights and use
+them to infer results.</p>
+
+<h1>Saving and loading model weights</h1>
+
+<p>A model is defined by its architecture and the weights of its weight-bearing
+nodes. Weights are the values that are learned during the process of model
+training, and not all nodes have weights. ReLUs and flatten nodes don't. But
+convolution and fully connected nodes have both weights and biases. These
+weights are tensors of arbitrary shapes. To save and load models, we need to be
+able to save both graphs <strong>and</strong> their weights.</p>
+
+<p>Saving &amp; loading models is important for a few reasons:</p>
+
+<ol>
+<li>Model training takes time, so you might want to train a bit, save weights,
+ take a break, and then resume from where you left off. This is called
+ checkpointing.</li>
+<li>For inference, it's useful to have a self-contained model that you can just
+ load and run.</li>
+</ol>
+
+<p>At the time of writing, deeplearn.js didn't have facilities to serialize models
+and model weights. For this example, I've implemented a way to load and save
+weights, assuming that the model architecture itself is hard-coded. The
+<a href="https://github.com/google/web-audio-recognition/blob/master/train-model/src/GraphSaverLoader.ts"><code>GraphSaverLoader</code></a> class can save &amp; load from a local store (IndexedDB),
+or from a file. Ultimately, we will need a non-hacky way of saving and loading
+models and their corresponding weights, and I'm excited for the near future of
+improved ML developer ergonomics.</p>
+
+<h1>Wrapping up</h1>
+
+<p>Many thanks to <a href="https://twitter.com/nsthorat">Nikhil</a> and
+<a href="https://twitter.com/dsmilkov">Daniel</a> for their hard work on deeplearn.js, and
+willingness to answer my barrages of stupid little questions. Also, to
+<a href="https://twitter.com/petewarden">Pete</a>, who is responsible for creating and
+releasing the <a href="https://storage.cloud.google.com/download.tensorflow.org/data/speech_commands_v0.01.tar.gz">dataset</a> I used in this post. And thank you dear reader,
+for reading this far.</p>
+
+<p>I'm stoked to see how this kind of browser based audio recognition tech can be
+applied to exciting, educational ML projects like <a href="https://teachablemachine.withgoogle.com/">Teachable
+Machine</a>. How cool would it be if you could make a
+self-improving system, which trains on every additional spoken utterance? The
+ability to train these kinds of models in the browser allows us to entertain
+such possibilities in a privacy preserving way, without sending anything to any
+server.</p>
+
+<p>So there you have it! This has been an explanation of voice command recognition
+on the web. We covered feature extraction in the <a href="/web-audio-ml-features">previous
+post</a>, and this time, dug a little bit into <a href="https://google.github.io/web-audio-recognition/train-model/?data_url=https://storage.googleapis.com/audio-recognition-data&amp;data_extension=mp3">model
+training</a> and <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">real-time inference</a> entirely in the browser.</p>
+
+<p>If you build on this example, please drop me a note on
+<a href="https://twitter.com/borismus">twitter</a>.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Audio features for web-based ML</title>
@@ -31,7 +218,7 @@ commands. We'll do this by converting sounds like this:</p>
 
 <p><audio src="left.wav" controls></audio></p>
 
-<p>Into images like this, called log-mel spectrograms, and in the next post,
+<p>Into images like this, called log-mel spectrograms, and in the <a href="/web-voice-command-recognition/">next post</a>,
 feed these images into the same types of models that do handwriting recognition
 so well:</p>
 
@@ -231,7 +418,7 @@ to delve deeper into sound understanding.</p>
 
 <p>Ok, so to recap, we've generated log-mel spectrogram images from streaming audio
 that are ready to feed into a neural network. Oh yeah, the actual machine
-learning part? That's the next post – stay tuned!</p>
+learning part? That's the <a href="/web-voice-command-recognition/">next post</a>.</p>
 
 
         
@@ -8055,187 +8242,6 @@ magical suggestions, collaborative filtering, etc.</p></li>
 using social networks as a delivery mechanism, I will be very happy to
 minimize the amount of time spent on social networks directly, and focus
 on consuming and producing interesting things. Also, happy &pi; day!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Interactive touch laptop experiments</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/touch-laptop-experiments"/>
-    
-    <updated>2013-02-21T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/touch-laptop-experiments</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Largely because of the plummeting price and thickness of touch screens,
-these devices are increasingly ubiquitous. One of the latest trends is
-touch screen laptops, spearheaded by <a href="http://www.microsoft.com/Surface/en-US">Surface</a> devices and the
-recently announced <a href="http://chrome.blogspot.com/2013/02/the-chromebook-pixel-for-whats-next.html">Chromebook Pixel</a>. In this post I'll dive into
-some experiements around this new form factor. The main goal is to try
-to convince myself that this form factor makes sense for reasons other
-than economic ones.</p>
-
-<p>In exploring the interaction design angle of these new devices, I came
-across a couple of what I think are a couple of interesting ideas that
-I'd like to share with you: <strong>responsive input</strong> and <strong>simultaneous
-interactions</strong> using both mouse/trackpad and touchscreen. I wrote some
-demos that illustrate these ideas. <em>A touchscreen laptop is required for
-these demos to work properly</em>.</p>
-
-<ul>
-<li><a href="http://borismus.github.com/touch-laptop-experiments/responsive">Auto scaling in response to input type</a>.</li>
-<li><a href="http://borismus.github.com/touch-laptop-experiments/map">Mouse-to-map and touch-to-mark</a>.</li>
-<li><a href="http://borismus.github.com/touch-laptop-experiments/transform">Multimodal transform demo</a>.</li>
-</ul>
-
-<!--more-->
-
-<p>Because you probably don't have a touch screen laptop, I recorded a
-rough video showing some of these interactions:</p>
-
-<iframe width="640" height="360" src="http://www.youtube.com/embed/rcE2z9tudGw" frameborder="0" allowfullscreen></iframe>
-
-<p>Hopefully this gives you a better sense of what I mean by responsive
-input and simultaneous touch and mouse interactions.</p>
-
-<h2>Responsive input</h2>
-
-<p>The touch laptop class of device has a two main interaction modes:</p>
-
-<ol>
-<li>As a regular laptop with trackpad (or external mouse) and keyboard.</li>
-<li>As a touch tablet with a keyboard.</li>
-</ol>
-
-<p>These two interaction modes differ fundamentally in many ways. The
-following are some examples of these differences:</p>
-
-<ul>
-<li>Touch has no hover state.</li>
-<li>Touch is less precise than mouse and requires bigger targets.</li>
-<li>Touch requires that you are closer to the screen.</li>
-</ul>
-
-<p><img src="touch-laptop.png" alt="Chrome Pixel" /></p>
-
-<p>Ideally, you want to provide optimal experiences for both cases. For the
-mouse case, this means taking advantage of hover states and a finer
-pointer. For the touch case, this means ensuring that touch targets are
-big enough to be tapped, not relying on hover at all.</p>
-
-<p>So I explored a user interface concept that adapts touch laptop
-interfaces to the user's current input mode. The tricky bit is detecting
-the user's current input mode. Several adaptation options are possible:</p>
-
-<ol>
-<li>Immediately transform to the mouse-style UI as soon as the input mode
-changes (simplest, but can cause transitions to fire too rapidly
-between the two modes, which may be jarring).</li>
-<li>Transform only after some period of not using the other input mode
-(eg. go to touch mode only if the user is actively using touch, and
-not touching the mouse at all).</li>
-<li>Transform based on some external criteria, like whether or not the
-screen is docked to a mouse, or based on input from sensors other
-than mouse/touchscreen.</li>
-</ol>
-
-<p>The first approach is problematic in that your first touch transforms
-the page. If this transformation causes your target to move away from
-it's initial position, you will miss it entirely. This can be mitigated
-by having intelligent resizing which does not affect anything directly
-under the touch point, but may result in a lopsidedly zoomed interface.</p>
-
-<p>The second approach is problematic since the mode switching will happen
-automatically after some period of inactivity, which may be jarring. The
-last approach is either obvious (eg. mouse removed), or an area of
-research (eg. predicting when the user will touch based on camera).</p>
-
-<p>I wrote a <a href="http://borismus.github.com/touch-laptop-experiments/responsive">demo of auto scaling in response to input type</a>.
-If you use the mouse, click targets will decrease in size. If you use
-your finger, touch targets increase in size. (Of course, this will only
-work on a touchscreen laptop).</p>
-
-<h2>Simultaneous touchscreen + mouse/trackpad interactions</h2>
-
-<p>In the above section, I described an automatic way to switch between
-touch and mouse mode However, there is a middle ground between the two:
-multimodal interactions that involve both touchscreen and
-mouse/trackpad. Simultaneous bimodal interaction is already common. For
-example, using mouse and keyboard simultaneously makes a very efficient
-interface for FPS games, with the movement via the WASD keys, and
-mouse-look.</p>
-
-<p>One experiment involves using the mouse or trackpad as a navigation
-device and using the touch screen as a way to input positional data.
-This is illustrated through Google maps. You pan and zoom the map using
-mouse events, and place markers on the map using the touch screen. Try
-out this demonstration of <a href="http://borismus.github.com/touch-laptop-experiments/map">mouse-to-map and touch-to-mark</a> (again,
-this requires a touchscreen laptop).</p>
-
-<p>Another experiment involves manipulating geometric objects on the
-screen. The idea here was to use the touch screen to select objects, and
-use the trackpad/mouse as way of manipulating the selected object. In
-this demo, you can manipulate the object in a number of ways:</p>
-
-<ol>
-<li>Move it by simply dragging it around on the screen with touch.</li>
-<li>Rotate by selecting the object on the touchscreen, and then
-performing a mousemove (either by moving a mouse or dragging one
-finger on a trackpad). The rotation happens around the point where
-you touched the object, which acts as a fulcrum. </li>
-<li>Scale it in the same fashion as rotation (selecting object and
-transformation origin with the touchscreen), except with a two-finger
-drag on the trackpad, or using the mousewheel if a mouse is attached.</li>
-</ol>
-
-<p>With no selection, the canvas itself can be zoomed and panned with the
-mouse/trackpad directly. Try out this <a href="http://borismus.github.com/touch-laptop-experiments/transform">multimodal transform
-demo</a> (requires touchscreen laptop).</p>
-
-<h2>Missing pieces</h2>
-
-<p>Like any brave new world, the one of multimodal input has its own set of
-challenges.</p>
-
-<p>It's currently impossible to distinguish a touch laptop from any other
-touch screen. Notably, this means that you should never assume that
-touch support implies no mouse support. In practice, make sure that you
-always bind to mouse events. If you also have touch event handlers, just
-use <code>event.preventDefault()</code> there to ensure that you aren't handling
-one event in multiple handlers. If you're interested in this, follow the
-discussion at <a href="http://crbug.com/174553">http://crbug.com/174553</a>.</p>
-
-<p>As a generalization of the above, there is currently no way to determine
-which kinds of input are available in the browser. A fully fledged Input
-Availability API might seem like overkill, but there are already some
-cases beyond touch laptops that are relevant. For example, detecting the
-presence of a physical keyboard would be very useful. Further, detecting
-hardware features like an attached camera and microphone could fall into
-the same bucket rather than relying on exception handling from APIs like
-<code>getUserMedia</code>. Lastly, having such an API would allow websites to react
-dynamically to changes in input (eg. a tablet gets docked to a physical
-keyboard, or a mouse is attached).</p>
-
-<p>The final missing piece is that dealing with two different event models
-(mouse and touch) is definitely clunky. I have already <a href="http://smus.com/mouse-touch-pointer/">written
-extensively about pointer events</a> and a <a href="https://github.com/borismus/pointer.js">pointer event
-polyfill</a>. In this particular case, pointer events would be
-great, because although they provide a consolidated model for input,
-it's very easy and natural to distinguish between the two modalities.</p>
-
-<p>These experiments are all available <a href="https://github.com/borismus/touch-laptop-experiments">on github</a>. </p>
-
-<h2>Your turn!</h2>
-
-<p>Do you have thoughts or demos around new types of interactions using
-touch laptops? Please share them below.</p>
 
 
         

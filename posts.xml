@@ -5,8 +5,195 @@
   <title>Boris Smus (Posts)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2017-12-26T12:43:43-00:00</updated>
+  <updated>2018-01-04T12:35:06-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Web based voice command recognition</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/web-voice-command-recognition"/>
+    
+    <updated>2018-01-04T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/web-voice-command-recognition</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="/web-audio-ml-features">Last time</a> we converted audio buffers into images. This time
+we'll take these images and train a neural network using
+<a href="https://deeplearnjs.org">deeplearn.js</a>. The result is <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">a browser-based demo</a> that 
+lets you speak a command ("yes" or "no"), and see the output of the classifier
+in real-time, like this:</p>
+
+<p><video src="inference-demo.mp4" autoplay muted loop type="video/mp4"
+style="width: 100%"></p>
+
+<p>Curious to play with it, see whether or not it recognizes <em>yay</em> or <em>nay</em> in
+addition to <em>yes</em> and <em>no</em>? <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">Try it out live</a>. You will quickly see
+that the performance is far from perfect. But that's ok with me: this example is
+intended to be a reasonable starting point for doing all sorts of audio
+recognition on the web. Now, let's dive into how this works.</p>
+
+<!--more-->
+
+<h1>Quick start: training and testing a command recognizer</h1>
+
+<p>Here's how you can train your own yes/no classifier:</p>
+
+<ol>
+<li>Go to the <a href="https://google.github.io/web-audio-recognition/train-model/?data_url=https://storage.googleapis.com/audio-recognition-data&amp;data_extension=mp3">model training page</a>. It will take a bit of time to download
+the <a href="https://storage.googleapis.com/audio-recognition-data/yes.mp3">training</a> <a href="https://storage.googleapis.com/audio-recognition-data/no.mp3">data</a> from the server.</li>
+<li><p>Click the train button, and you'll see a graph showing training progress.
+Once you are ready (this will take a while, perhaps 500 iterations or 2
+minutes, depending on your hardware), stop training, and press the save
+weights (file) button.  This will download a JSON file.</p>
+
+<p><img src="2-training-graph.png" alt="Training graph" /></p></li>
+<li><p>Then go to <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">the inference demo page</a>, press the load weights (file) button
+and select the downloaded JSON file to load the trained model.</p></li>
+<li><p>Flip the switch, grant access to the microphone and try saying "yes" or "no".
+You'll see microphone and confidence levels indicated at the bottom of the
+page.</p>
+
+<p><img src="3-inference.png" alt="Inference screenshot" /></p></li>
+</ol>
+
+<p>The above is a mechanistic account of how the training example works.  If you
+are interested in learning about the gory (and interesting) details, read on.</p>
+
+<h1>Data pre-processing and loading</h1>
+
+<p>Training a neural net requires a lot of training data. In practice, millions of
+examples may be required, but <a href="https://storage.cloud.google.com/download.tensorflow.org/data/speech_commands_v0.01.tar.gz">the dataset</a> we'll be using is small by
+modern standards, with <em>just</em> 65,000 labeled examples. Each example is a
+separate wav file, with the label in the filename.</p>
+
+<p>Loading each training wav as a separate request turned out to be quite slow. The
+overhead from each request is small, but when compounded over a few thousand
+times, really starts to be felt. An easy optimization to load data more quickly
+is to put all examples with the same label into one long audio file. Decoding
+audio files is pretty fast, and so is splitting them into one second long
+buffers. A further optimization is to use a compressed audio format, such as
+mp3. <a href="https://github.com/google/web-audio-recognition/blob/master/train-model/scripts/preprocess.py"><code>scripts/preprocess.py</code></a> will do this concatenation for you,
+producing this <a href="https://storage.googleapis.com/audio-recognition-data/yes.mp3">mesmerising result</a>.</p>
+
+<p>After we "rehydrate" our raw audio examples, we process buffers of raw data into
+features. We do this using the <a href="/web-audio-ml-features">Audio Feature extractor</a> I
+mentioned in the <a href="/web-audio-ml-features">last post</a>, which takes in raw audio, and
+produces a log-mel spectrogram. This is relatively slow, and accounts for most
+of the time spent loading the dataset.</p>
+
+<h1>Model training considerations</h1>
+
+<p>For the yes/no recognizer, we have only two commands that we care about: "yes",
+and "no". But we also want to detect the lack of any such utterances, as well as
+silence. We include a set of <a href="https://storage.googleapis.com/audio-recognition-data/other.mp3">random utterances</a> as the "other" category
+(none of which are yes or no). This example is also generated by the
+<a href="https://github.com/google/web-audio-recognition/blob/master/train-model/scripts/preprocess.py">preprocessing script</a>.</p>
+
+<p>Since we're dealing with real microphones, we never expect to hear pure silence.
+Instead, "silence" is some level of ambient noise compounded by crappy
+microphone quality. Luckily, the training data also includes background noise
+which we mix with our training examples at various volumes. We also generate a
+set of silence examples, which includes only the background audio.  Once we've
+prepared our samples, we generate our final spectrograms as our input.</p>
+
+<p>To generate these final spectrograms, we need to decide on buffer and hop
+length. A reasonable buffer length is 1024, and a hop length of 512. Since we
+are dealing with sample rate of 16000 Hz, it works out to a window duration of
+about 60ms, sampled every 30ms.</p>
+
+<p>Once we have labeled spectrograms, we need to convert inputs and labels into
+deeplearn arrays. Label strings "yes", "no", "other", and "silence" will be
+<a href="https://en.wikipedia.org/wiki/One-hot">one-hot</a> encoded as a <code>Array1D</code>s of four integers, meaning that "yes"
+corresponds to <code>[1, 0, 0, 0]</code>, and "no" to <code>[0, 1, 0, 0]</code>. Spectrograms from the
+feature extractor need to be converted into an <code>Array3D</code>, which can be fed as
+input for the model.</p>
+
+<p>The model we are training consists of two convolution layers, and one fully
+connected layer. I took this architecture directly from the MNIST example
+of deeplearn.js, and hasn't been customized for dealing with spectrograms at
+all. As a result, performance is a far cry from state of the art speech
+recognition. To see even more mis-classifications, try out <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=number">MNIST for
+audio</a> which recognizes spoken digits (eg. "zero" through "ten").
+I am confident that we could do better by following <a href="http://www.isca-speech.org/archive/interspeech_2015/papers/i15_1478.pdf">this paper</a>. A
+real-world speech recognizer might not use convolution at all, instead opting
+for an <a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTM</a>, which is better suited to process time-series data.</p>
+
+<p>Lastly, we want to tell the machine learning framework how to train the model.
+In ML parlance, we need to set the <a href="https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)">hyperparameters</a>, which includes
+setting the learning rate (how much to follow the gradient at each step) and
+batch size (how many examples to ingest at a time). And we're off to the races:</p>
+
+<p><img src="2-training-graph.png" alt="Training graph" /></p>
+
+<p>During training, the gradient descent algorithm tries to minimize cost, which
+you can see in blue. We also plot accuracy in orange, which is occasionally
+calculated by running inference on a test set. We use a random subset of the
+test set because inference takes time, and we'd like to train as quickly as
+possible.</p>
+
+<p>Once we are happy with the test accuracy, we can save the model weights and use
+them to infer results.</p>
+
+<h1>Saving and loading model weights</h1>
+
+<p>A model is defined by its architecture and the weights of its weight-bearing
+nodes. Weights are the values that are learned during the process of model
+training, and not all nodes have weights. ReLUs and flatten nodes don't. But
+convolution and fully connected nodes have both weights and biases. These
+weights are tensors of arbitrary shapes. To save and load models, we need to be
+able to save both graphs <strong>and</strong> their weights.</p>
+
+<p>Saving &amp; loading models is important for a few reasons:</p>
+
+<ol>
+<li>Model training takes time, so you might want to train a bit, save weights,
+ take a break, and then resume from where you left off. This is called
+ checkpointing.</li>
+<li>For inference, it's useful to have a self-contained model that you can just
+ load and run.</li>
+</ol>
+
+<p>At the time of writing, deeplearn.js didn't have facilities to serialize models
+and model weights. For this example, I've implemented a way to load and save
+weights, assuming that the model architecture itself is hard-coded. The
+<a href="https://github.com/google/web-audio-recognition/blob/master/train-model/src/GraphSaverLoader.ts"><code>GraphSaverLoader</code></a> class can save &amp; load from a local store (IndexedDB),
+or from a file. Ultimately, we will need a non-hacky way of saving and loading
+models and their corresponding weights, and I'm excited for the near future of
+improved ML developer ergonomics.</p>
+
+<h1>Wrapping up</h1>
+
+<p>Many thanks to <a href="https://twitter.com/nsthorat">Nikhil</a> and
+<a href="https://twitter.com/dsmilkov">Daniel</a> for their hard work on deeplearn.js, and
+willingness to answer my barrages of stupid little questions. Also, to
+<a href="https://twitter.com/petewarden">Pete</a>, who is responsible for creating and
+releasing the <a href="https://storage.cloud.google.com/download.tensorflow.org/data/speech_commands_v0.01.tar.gz">dataset</a> I used in this post. And thank you dear reader,
+for reading this far.</p>
+
+<p>I'm stoked to see how this kind of browser based audio recognition tech can be
+applied to exciting, educational ML projects like <a href="https://teachablemachine.withgoogle.com/">Teachable
+Machine</a>. How cool would it be if you could make a
+self-improving system, which trains on every additional spoken utterance? The
+ability to train these kinds of models in the browser allows us to entertain
+such possibilities in a privacy preserving way, without sending anything to any
+server.</p>
+
+<p>So there you have it! This has been an explanation of voice command recognition
+on the web. We covered feature extraction in the <a href="/web-audio-ml-features">previous
+post</a>, and this time, dug a little bit into <a href="https://google.github.io/web-audio-recognition/train-model/?data_url=https://storage.googleapis.com/audio-recognition-data&amp;data_extension=mp3">model
+training</a> and <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">real-time inference</a> entirely in the browser.</p>
+
+<p>If you build on this example, please drop me a note on
+<a href="https://twitter.com/borismus">twitter</a>.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Audio features for web-based ML</title>
@@ -31,7 +218,7 @@ commands. We'll do this by converting sounds like this:</p>
 
 <p><audio src="left.wav" controls></audio></p>
 
-<p>Into images like this, called log-mel spectrograms, and in the next post,
+<p>Into images like this, called log-mel spectrograms, and in the <a href="/web-voice-command-recognition/">next post</a>,
 feed these images into the same types of models that do handwriting recognition
 so well:</p>
 
@@ -231,7 +418,7 @@ to delve deeper into sound understanding.</p>
 
 <p>Ok, so to recap, we've generated log-mel spectrogram images from streaming audio
 that are ready to feed into a neural network. Oh yeah, the actual machine
-learning part? That's the next post – stay tuned!</p>
+learning part? That's the <a href="/web-voice-command-recognition/">next post</a>.</p>
 
 
         
@@ -8787,364 +8974,6 @@ fertility", centering around the question:</p>
 better lock screen) or a fundamental disruptive innovation (for example,
 smart glasses), the answer to the above question for the current state
 of iOS is a resounding no. Sorry bro!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Let's get physical (units)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/physical-units"/>
-    
-    <updated>2012-05-02T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/physical-units</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>There's an increasing variety of devices in use today. Even generally
-rectangular touch enabled devices vary hugely in their physical sizes,
-aspect ratios, pixel densities, etc.</p>
-
-<p>One thing that remains constant across these devices are their users.
-Technologies come and go every year, but people stay the same. Existing
-form factors: <a href="http://en.wikipedia.org/wiki/Smart_device">pads, tabs and boards</a> still make sense, and
-will continue to do so for the forseeable future. As a result,
-ergonomic considerations like touch target sizing, readable text and
-image size remain constant. Fingers will be fingers and eyes will be
-eyes! Our bodies are firmly rooted in the physical world, and the
-interfaces we create should reflect that.</p>
-
-<!--more-->
-
-<p>Take touch targets, for example. Apple's <a href="http://developer.apple.com/library/ios/#DOCUMENTATION/UserExperience/Conceptual/MobileHIG/Characteristics/Characteristics.html">human interface guidelines
-recommend</a> minimum touch target size of 44x44pt for iOS. On
-an iPhone, 44pt is about 0.25in. On an iPad, 44pt is about 0.3in, physically
-larger because of different device pixel density. Even Apple has such
-discrepancies despite a very simple device landscape. Apple devices only
-come in two configurations: iPhone and iPad (and their retina
-counterparts).</p>
-
-<p>The situation gets far more complex when we look at mobile devices in
-general, which is the world of mobile web developers. In an ideal world,
-images and fonts should be scalable and all units should be physical.
-I built a <a href="https://github.com/borismus/physical-units">prototype</a> that illustrates roughly how this
-model would work. Onward for the gory details.</p>
-
-<h2>Device variance</h2>
-
-<p>Here's a brief sampling of pixel density and aspect ratio for a few
-popular devices (data <a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density">from wikipedia</a>):</p>
-
-<pre><code>Device          DPI   Aspect
-============================
-iPhone*         163      3:2
-iPad*           132      4:3
-Nexus S*        117      5:3
-Galaxy Nexus*   158     16:9
-Galaxy Note*    142      8:5
-Galaxy Tab      149      8:5
-T-Prime         149      8:5
-Lumia 900       217     10:6
-</code></pre>
-
-<p>The ones with a <code>*</code> denote double density devices. In other words, the
-physical pixel density is double the value indicated, but the browser
-generally reports the resolution to be this halved value. For more
-information about this practice, read <a href="http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html">a pixel is not a pixel</a>.</p>
-
-<p>Thus, in practice, a 44x44px button rendered with a reasonable viewport:
-<code>&lt;meta name="viewport" content="width=device-width"&gt;</code> will vary in
-dimensions between 0.20in on the Lumia 900 to nearly double, 0.38in on
-the Nexus S.</p>
-
-<p>Further complicating things is a somewhat obscure fact that pixels might
-not be square at all. The term for it is <a href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">pixel aspect
-ratio</a>. As far as I can tell, this is only a concern when
-displays aren't using their native resolutions, which luckily is a
-rarity in mobile devices.</p>
-
-<h2>The problem with pixels</h2>
-
-<p><a href="http://www.lukew.com/ff/entry.asp?1085">Many HIGs</a> recommend minimum touch target sizes in
-pixels. What really matters is the size of human fingers, which as we
-established earlier, don't grow and shrink as a function of the device
-you happen to be using.</p>
-
-<p>Microsoft, anticipating a more fragmented ecosystem of devices with
-varied densities and screen sizes, is recommending a physical size
-approach instead, which makes more sense for touch targets. They suggest
-a 9x9mm recommended lower bound, and an absolute minimum of 7x7mm. This
-jives well with established research, such as MIT's <a href="http://touchlab.mit.edu/publications/2003_009.pdf">Touch Lab study of
-Human Fingertips to Investigate the Mechanics of Tactile Sense</a>,
-which found that the average human finger pad is 10-14mm and the average
-fingertip is 8-10mm in diameter.</p>
-
-<h2>Benefits of physical units</h2>
-
-<p>As a developer, I'd like to just say "this button is 40x9mm" and have
-that actually map to real physical dimensions. If I could ensure usable
-sizes for all of my touch targets, that solve this problem across all
-devices, once and for all!</p>
-
-<p>Physical units also make feature-based device detection far more
-reliable. Currently, the best we can do is basically guess what sort of
-device is visiting your site, using heuristics like device resolution
-(in magic CSS pixels that automatically get scaled). Using this
-approach, it's hard to distinguish between laptops and tablets, for
-example. It's even more challenging to distinguish phones from 7"
-tablets, or 7" tablets from 10" ones. Approaches like <a href="https://github.com/borismus/device.js">device.js</a> would
-benefit greatly.</p>
-
-<p>Finally, as you saw, using pixels results in a huge variance in font
-size, resulting in bad text readability in general. With physical units,
-you can set a good default baseline size for text to ensure readability.</p>
-
-<p>Of course, in all of these cases, it's possible to manually rescale the
-view in order to get the desired zoom level that's readable and
-touchable, but the whole point is to have a system that behaves well by
-default.</p>
-
-<h2>Scaling well</h2>
-
-<p>So, in this world of physical sizes for everything, virtually everything
-needs to be scaled to the appropriate size. This includes text, images,
-and general layout (eg.  sizes, coordinates, etc). This means having
-assets, fonts and a layout engine that's capable of scaling well,
-without loss of visual fidelity.</p>
-
-<p>General layout is pretty easy to do - all you need is to convert real
-units into pixels for actually rendering. Text gets a bit tricker, since
-most fonts are defined only at certain key-sizes, and scaling to
-fractional sizes might not work perfectly. Scaling images, of course, is
-a whole separate topic. Rasters are very difficult to scale down without
-compromising quality, and scaling up creates a blurry or pixelated
-looking image. The obvious solution is to use scalable image formats. On
-the web, this basically means SVG, which is <a href="http://caniuse.com/#search=svg">quite well
-supported</a> across browsers, but does have its own
-idiosyncrasies.</p>
-
-<h3>Vectors and rasters</h3>
-
-<p>Still, even with vector images, there are potential arguments to be made
-about the superiority of pixel-perfect assets, since the designer has
-absolute control to decide their assets at the pixel level.
-Unfortunately, the pixel-perfect approach causes a lot of pain for
-designers, who are routinely forced to create multiple versions of the
-same asset. On iOS, you specify both the regular and retina asset. On
-Android, you specify four: <code>ldpi</code>, <code>mdpi</code>, <code>hdpi</code> and <code>xhdpi</code>. These
-don't actually get scaled, but the closest one gets served based on the
-device DPI. This means that it's impossible to create assets in an exact
-physical size. Here's an excerpt from the <a href="http://developer.android.com/guide/practices/screens_support.html">Android docs</a>:</p>
-
-<p><img src="android-dpi.png" alt="Android assets and device DPI" /></p>
-
-<p>On the web, you can't realistically hope for pixel perfection because of
-the vast variety of devices and browsers. Designers need to embrace the
-medium, and do as well as they can given the constraints of the web.
-Scaling the same image (vector or raster) may not be adequate for other
-reasons. In some cases, especially with icons, you want to specify
-assets with different levels of detail depending on the physical size.
-Check out a few <a href="http://mrgan.tumblr.com/post/708404794/ios-app-icon-sizes">great</a> <a href="http://www.pushing-pixels.org/2011/11/04/about-those-vector-icons.html">posts</a> on this subject.</p>
-
-<blockquote>
-  <p>It’s simply not possible to create excellent, detailed icons which can
-  be arbitrarily scaled to very small dimensions while preserving clarity.</p>
-</blockquote>
-
-<p><img src="http://farm7.static.flickr.com/6224/6311957505_6f15b6f925.jpg" alt="Varying levels of details depending on size" /></p>
-
-<p>That said, there's no reason why icons with appropriate levels of detail
-for smaller and larger sized screens shouldn't use the same scalable,
-physical approach. In the above example, using scaled assets would let
-the designer create 4 instead of 5 separate assets, since the 128px and
-64px versions are the same, just scaled.</p>
-
-<p>It's not all flowers and sausages, though. Vectors are inherently less
-efficient to deal with, since they require the intermediate step of
-rasterization before they can be blitted to the screen buffer. This is
-expensive, but not a show stopper. Optimizing this issue is a topic that
-probably warrants a whole article on its own, but one major win could be
-to rasterize once depending on your device DPI, and then cache the
-rasterized asset so that you don't need to rasterize the vector every
-time you render.</p>
-
-<h2>Doing it on the web</h2>
-
-<p>If you want to figure out your phone's exact physical dimensions in a
-browser based application, you're out of luck. Even units that share a
-name with physical units (like <code>inch</code>, <code>cm</code>, etc) don't actually render
-that way. Here's a <a href="http://lewisnyman.github.com/Where-are-our-absolute-units--Demo/">test page</a> that renders some text with
-CSS inches. If you measure the actual output on your laptop or phone,
-you'll notice that it's not a real inch.</p>
-
-<p>Now, you could imagine doing some monkey patching to enable physical
-units using JavaScript, but that's also impossible to do cleanly since
-you need to know either the true device DPI or the physical size of
-the screen, neither of which is queriable in any way on the web.
-JavaScript does provide <code>window.devicePixelRatio</code>, but that only reports
-the scale factor for pixel density, which is used for retina and other
-displays where CSS pixels differ from physical pixels.</p>
-
-<h2>How does it feel?</h2>
-
-<p>Even though it's impossible to get physical size or DPI from a browser,
-I wanted to try it out, to see if this would work in practice. Here's a
-<a href="https://github.com/borismus/physical-units">prototype library</a> that uses entirely physical units
-for everything, and fully scalable assets. All objects shown on <a href="http://borismus.github.com/physical-units/controls.html">this
-controls page</a> should render to the correct physical size on
-the following devices: iPhone, Galaxy Nexus, iPad, MacBook Air 13". Go
-ahead and pull out a ruler (I did) and measure - the sizes should be
-exact across the supported devices.</p>
-
-<p>Here's a screenshot of a <a href="http://borismus.github.com/physical-units/sample.html">basic phone UI</a> built with only physical
-units and percentages on an iPhone 4S and Galaxy Nexus:</p>
-
-<p><img src="android-ios-physical.png" alt="Phones with a UI built using physical units" /></p>
-
-<h3>Implementation details</h3>
-
-<p>As mentioned, there's no way to get DPI in the browser. My prototype
-works because I've hard-coded the physical DPI for each supported device
-based on user agent matching. It's a terrible hack and not a great
-option for production, even with more complete coverage.</p>
-
-<p>The prototype currently only works by specifying sizes in absolute
-units. It currently only supports inline styles, and not CSS rules. For
-example, one can now write the DOM like:</p>
-
-<pre><code>&lt;button style="width: 9mm;"&gt;Nice touch target&lt;/button&gt;
-</code></pre>
-
-<p>I ran into a few small implementation details along the way that I
-thought might be worth mentioning.</p>
-
-<p>Firstly, by default, nginx doesn't serve SVG with the correct mime type.
-So, visiting the asset URL just downloads the asset rather than
-rendering it, and embedding the asset in an <code>img</code> tag doesn't work. The
-fix is <a href="http://stackoverflow.com/questions/3695409/nginx-offers-of-downoload-svg-instead-of-showing-it">simple and documented</a>: add the correct mime type to an nginx
-configuration file.</p>
-
-<p>Secondly, I was a bit disappointed not to find many pre-downloadable SVG
-icon sets, but did discover <a href="http://raphaeljs.com/icons/">this resource</a> which has SVG
-icons as pathes. To use them it's just a matter of pasting the path
-specification into an SVG <code>path</code> element, as follows:</p>
-
-<pre><code>&lt;svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"&gt;
-  &lt;path d="your-pathspec-goes-here" /&gt;
-&lt;/svg&gt;
-</code></pre>
-
-<p>Though unstated, the icons on the above site seem to all be 32x32 units
-(Note: not pixels).</p>
-
-<p>Lastly, since CSS has units that look like physical ones (cm, mm, in,
-etc), I wanted to create a new unit, say truemm, truein, etc.
-Unfortunately, Chrome (and perhaps other browsers, haven't tested)
-doesn't support units that it doesn't recognize. As a result, I had to
-piggyback and override existing units. This approach would break the
-behavior of sites that use for some unknown-to-me reason, but
-introducing new units prefixed by <code>true</code> is verbose and confusing for
-beginners. If you know of any reasons why a developer today would be
-using CSS mms/inches, please let me know.</p>
-
-<h2>Angular units</h2>
-
-<p>Rob <a href="http://lists.w3.org/Archives/Public/www-style/2012Feb/0948.html">writes</a>:</p>
-
-<blockquote>
-  <p>The only use-cases for truemm are when you need content matching the
-  size of some real-world object, e.g. a ruler, or a life-size image, or
-  a human fingertip. That's it.</p>
-</blockquote>
-
-<p>I disagree. It so happens that generally touch devices are used at a
-relatively fixed distance from screen to user. This makes physical units
-useful for not just touch targets, but also text and image readability.</p>
-
-<p>But in the same breath, Rob makes a great point:</p>
-
-<blockquote>
-  <p>Ask yourself, "do I really want this content to be the same physical
-  size on a phone and a wall projector?" If the answer is yes, use
-  truemm, otherwise don't.</p>
-</blockquote>
-
-<p>Indeed, there are cases where physical units aren't ideal. The
-conditions for this are roughly:</p>
-
-<ol>
-<li>Unknown distance from viewer to screen.</li>
-<li>Unknown screen size.</li>
-</ol>
-
-<p>In this case, the reasonable thing to do is adopt an angular unit, which
-would be able to scale depending on viewing distance from the screen
-(and of course DPI too).  This might mean that you use degrees, <a href="http://en.wikipedia.org/wiki/Minute_of_arc">minutes
-of arc</a>, or some arbitrary angular unit "au" (not to be confused
-with <a href="http://en.wikipedia.org/wiki/Astronomical_unit">AU</a>).</p>
-
-<p>The idea of angular units isn't new. In fact, surprisingly, the CSS spec
-features it quite prominently in the definition of CSS pixels. A <a href="http://inamidst.com/stuff/notes/csspx">recent
-article</a> on this topic reminded that pixels are actually
-specified to be angular in nature.</p>
-
-<blockquote>
-  <p>The reference pixel is the visual angle of one pixel on a device with
-  a pixel density of 96dpi and a distance from the reader of an arm's
-  length. For a nominal arm's length of 28 inches, the visual angle is
-  therefore about 0.0213 degrees. For reading at arm's length, 1px thus
-  corresponds to about 0.26 mm (1/96 inch). -- <a href="http://www.w3.org/TR/CSS21/syndata.html#length-units">CSS spec</a></p>
-</blockquote>
-
-<p>There are a couple of problem with this.</p>
-
-<ol>
-<li><p>Poor naming: calling such a unit a pixel is incredibly confusing.</p></li>
-<li><p>Lack of flexibility: this approach assumes a 96dpi display and a
-fixed viewing distance. As previously discussed, the former is a bad
-assumption, and in the case of large format viewing, so is the latter.</p></li>
-</ol>
-
-<p>Introducing true angular units that can be configured based on display
-distance from the observer would be a boon for designers and engineers
-working on software for TVs and other large-format devices. Some default
-viewing distance could be provided, but developers should have a means
-of specifying a custom viewing distance (potentially inferred from
-device hardware, as described in <a href="http://www.chrisharrison.net/index.php/Research/LeanAndZoom">this research</a>).</p>
-
-<h2>Next steps</h2>
-
-<p>Browser vendors need to start supporting true physical units. One path
-might be creating all new units (eg. <code>truemm</code>, <code>truein</code>) or redefining
-the old ones to be use absolute values, which in many cases may be what
-the developers actually intended.</p>
-
-<p>These units should also be usable in media queries, so that it's
-possible to do things like:</p>
-
-<pre><code>(max-device-width: 4in)
-</code></pre>
-
-<p>This will enable a more robust way to do device detection via media
-queries a la <a href="https://github.com/borismus/device.js">device.js</a>.</p>
-
-<p>There appear to be some efforts from Mozilla to have a media query for
-DPI, via <a href="https://developer.mozilla.org/en/CSS/resolution">resolution</a>. This is a good start, but there should
-also be a way to get DPI directly via JavaScript, otherwise enterprising
-developers will need to resort to binary searching through possible DPIs
-via <code>window.matchMedia</code>, which is just ridiculous.</p>
-
-<p>The introduction of a true angular unit with a configurable viewing
-distance would be amazing for a web that works well on large-format
-displays.</p>
-
-<p>Ultimately, UI developers need to understand the serious problems with
-pixels because this problem isn't going away any time soon.</p>
 
 
         
