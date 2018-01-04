@@ -5,11 +5,11 @@
   <title>Boris Smus (Posts)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-01-04T12:35:06-00:00</updated>
+  <updated>2018-01-04T12:38:48-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
-    <title>Web based voice command recognition</title>
+    <title>Web-based voice command recognition</title>
     <author><name>Boris Smus</name></author>
     <link href="/web-voice-command-recognition"/>
     
