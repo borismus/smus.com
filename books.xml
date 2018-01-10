@@ -5,8 +5,138 @@
   <title>Boris Smus (Books)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-01-04T12:38:48-00:00</updated>
+  <updated>2018-01-10T12:03:53-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Truth of Fact, the Truth of Feeling by Ted Chiang</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang"/>
+    
+    <updated>2018-01-04T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Ted Chiang wrote a bunch of short stories that aren't published in book form.
+Here's one recommended by Alex, available
+<a href="https://subterraneanpress.com/magazine/fall_2013/the_truth_of_fact_the_truth_of_feeling_by_ted_chiang">online</a>.
+The premise is that in the future, a tech giant comes up with a technology
+called Remem giving perfect audio-visual recall. You input text by
+sub-vocalizing, and see the output immediately in your retinas.</p>
+
+<p>This work is a great example of trying to unpack a complex issue and telling a
+compelling story that is very focused on a particular set of technologies and
+ideas. Ted could have probably written a non-fiction article about the same
+subjects, but it would have been a much less appealing way of getting his ideas
+across.</p>
+
+<p>The structure of the story is also interesting: it's written from two
+perspectives: one story about the journalist and his daughter, and one
+seemingly from left field, of an oral-only Asian people making first contact
+with European missionaries. It takes some time to relate the two stories
+together, but that's part of the process.</p>
+
+<p>Ted is amazing at retelling how it might have felt to experience writing for the
+first time. I especially writing as an analogy to nature:</p>
+
+<blockquote>
+  <p>“Where you or I would see nothing but some disturbed grass, he can see that a
+  leopard had killed a cane rat at that spot and carried it off,” his father
+  said. Gbegba was able to look at the ground and know what had happened even
+  though he had not been present. This art of the Europeans must be similar:
+  those who were skilled in interpreting the marks could hear a story even if
+  they hadn’t been there when it was told.</p>
+</blockquote>
+
+<p>And, justifying the need for spaces between words:</p>
+
+<blockquote>
+  <p>You could not find the places where words began and ended by listening. The
+  sounds a person made while speaking were as smooth and unbroken as the hide of
+  a goat’s leg, but the words were like the bones underneath the meat, and the
+  space between them was the joint where you’d cut if you wanted to separate it
+  into pieces. </p>
+</blockquote>
+
+<p>Another core idea is whether or not perfect recall is desirable. Perfect recall
+can be a disability: "At times, he tried to deliberately forget things. He wrote
+down numbers he no longer wanted to remember on slips of paper and then burnt
+them". And in personal relationships, pursuit of truth may be misguided. Perhaps
+the ability to replay a painful conflict would prevent that wounds from ever
+healing?</p>
+
+<blockquote>
+  <p>It seemed to me that continuous video of my entire childhood would be full of
+  facts but devoid of feeling, simply because cameras couldn’t capture the
+  emotional dimension of events.</p>
+</blockquote>
+
+<p>Another idea: something is lost in writing and in life capture through cameras
+and microphones. In the Asian missionary world, the student of writing laments
+"The paper version of the story was curiously disappointing.". Memory is
+fallible, and without externalizing it, every time it is remembered and retold,
+it changes. Oral history is alive, while written history is dead (with caveats).</p>
+
+<blockquote>
+  <p>Part of me wanted to stop this, to protect children’s ability to see the
+  beginning of their lives filtered through gauze, to keep those origin stories
+  from being replaced by cold, desaturated video. But maybe they will feel just
+  as warmly about their lossless digital memories as I do of my imperfect,
+  organic memories.</p>
+</blockquote>
+
+<p>Interesting distinction between semantic memory (knowledge of facts), and
+episodic memory (recollection of personal experiences). The former is already
+solved today via Wikipedia etc. The latter is on its way to being solved. Maybe
+not practical yet because of battery life, but this will probably change in
+lifetime.</p>
+
+<p>Quick idea: over-reliance on external memory leads to virtual amnesia in the
+absense of an extenral medium. This is already true for writing to some extent. </p>
+
+<p>In the climax of the story, both the future-journalist and past-missionary arcs
+twist. When his wife and her mother left them, the journalist-protagonist
+recalls his daughter lashing out at him, “You’re the reason she left. You can
+leave too, for all I care. I sure as hell would be better off without you.” But
+as it turned out, Remem made it clear that he was the one who said those words
+to his daughter.</p>
+
+<p>In the Asian missionary arc, the European colonizers force the indigenous
+tribes into dividing into seven arbitrary regions (for easier governance), and
+there is a tribal dispute over how to draw the lines. The decision came down
+to blood lines, and two tribes claimed to both be exclusive decendents of one
+lineage. Ultimately, the written record shows which tribe is right, and the
+tribal protagonist's tribe ends up losing the dispute.</p>
+
+<p>So, is perfect episodic recall desirable? It's complicated. Ted is incredibly
+good at presenting both sides of the argument.</p>
+
+<blockquote>
+  <p>It would be easy for me to assert that literate cultures are better off than
+  oral ones, but my bias should be obvious, since I’m writing these words rather
+  than speaking them to you. Instead I will say that it’s easier for me to
+  appreciate the benefits of literacy and harder to recognize everything it has
+  cost us.</p>
+</blockquote>
+
+<p>In the end, Ted's proxy character, the future-journalist, decides to apologize
+to his daughter.</p>
+
+<blockquote>
+  <p>And I think I’ve found the real benefit of digital memory. The point is not to
+  prove you were right; the point is to admit you were wrong.</p>
+</blockquote>
+
+<p><a href="https://subterraneanpress.com/magazine/fall_2013/the_truth_of_fact_the_truth_of_feeling_by_ted_chiang">Go read it.</a></p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Is That a Fish in Your Ear? by David Bellos</title>
@@ -1088,7 +1218,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-04T09:00:00-00:00</updated>
+    <updated>2017-06-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -1313,7 +1443,7 @@ paper ended, so had to finish reading the last page online.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -1356,7 +1486,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -1551,7 +1681,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -1616,7 +1746,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-04T09:00:00-00:00</updated>
+    <updated>2017-04-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -1710,7 +1840,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-04T09:00:00-00:00</updated>
+    <updated>2017-03-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -1760,7 +1890,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-04T09:00:00-00:00</updated>
+    <updated>2017-03-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -1797,7 +1927,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-04T09:00:00-00:00</updated>
+    <updated>2017-02-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -1865,7 +1995,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-04T09:00:00-00:00</updated>
+    <updated>2017-02-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -1893,7 +2023,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -1954,7 +2084,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -1989,7 +2119,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -2056,7 +2186,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-04T09:00:00-00:00</updated>
+    <updated>2016-12-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -2147,7 +2277,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-04T09:00:00-00:00</updated>
+    <updated>2016-11-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -2193,7 +2323,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-04T09:00:00-00:00</updated>
+    <updated>2016-10-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/future-babble</id>
     <content type="html">
@@ -2257,7 +2387,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-04T09:00:00-00:00</updated>
+    <updated>2016-10-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -2291,7 +2421,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-04T09:00:00-00:00</updated>
+    <updated>2016-09-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -2353,7 +2483,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-04T09:00:00-00:00</updated>
+    <updated>2016-09-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -2439,7 +2569,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-04T09:00:00-00:00</updated>
+    <updated>2016-08-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -2734,7 +2864,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-04T09:00:00-00:00</updated>
+    <updated>2016-08-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -2770,7 +2900,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-04T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -2843,7 +2973,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-04T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -3002,7 +3132,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-04T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -3048,7 +3178,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-04T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -3098,7 +3228,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-04T09:00:00-00:00</updated>
+    <updated>2016-06-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -3160,7 +3290,7 @@ groups I've had the pleasure of being part of:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-one-minute-manager"/>
     
-    <updated>2016-06-04T09:00:00-00:00</updated>
+    <updated>2016-06-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-one-minute-manager</id>
     <content type="html">
@@ -3199,7 +3329,7 @@ people. (This seems quite hard to pull off without being a dick).</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/gantenbein-by-max-frisch"/>
     
-    <updated>2016-06-04T09:00:00-00:00</updated>
+    <updated>2016-06-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gantenbein-by-max-frisch</id>
     <content type="html">
@@ -3245,7 +3375,7 @@ know that this is unlikely to happen.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/physics-beyond-the-edge-audio"/>
     
-    <updated>2016-06-04T09:00:00-00:00</updated>
+    <updated>2016-06-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/physics-beyond-the-edge-audio</id>
     <content type="html">
@@ -3324,7 +3454,7 @@ information-related profession.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/great-ideas-of-philosophy-audio"/>
     
-    <updated>2016-05-04T09:00:00-00:00</updated>
+    <updated>2016-05-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/great-ideas-of-philosophy-audio</id>
     <content type="html">
@@ -3441,7 +3571,7 @@ thought into what constitutes a good life:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-fail-at-almost-everything-by-scott-adams"/>
     
-    <updated>2016-04-04T09:00:00-00:00</updated>
+    <updated>2016-04-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/how-to-fail-at-almost-everything-by-scott-adams</id>
     <content type="html">
@@ -3482,7 +3612,7 @@ along!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/art-of-tidying-by-marie-kondo"/>
     
-    <updated>2016-04-04T09:00:00-00:00</updated>
+    <updated>2016-04-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/art-of-tidying-by-marie-kondo</id>
     <content type="html">
@@ -3520,7 +3650,7 @@ organizational method.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-moral-landscape-by-sam-harris"/>
     
-    <updated>2016-03-04T09:00:00-00:00</updated>
+    <updated>2016-03-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-moral-landscape-by-sam-harris</id>
     <content type="html">
@@ -3562,7 +3692,7 @@ The Moral Landscape.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/a-canticle-for-leibowitz-by-walter-m-miller-jr"/>
     
-    <updated>2016-02-04T09:00:00-00:00</updated>
+    <updated>2016-02-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/a-canticle-for-leibowitz-by-walter-m-miller-jr</id>
     <content type="html">
@@ -3610,7 +3740,7 @@ it still.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/in-praise-of-idleness-by-bertrand-russell"/>
     
-    <updated>2015-12-04T09:00:00-00:00</updated>
+    <updated>2015-12-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/in-praise-of-idleness-by-bertrand-russell</id>
     <content type="html">
@@ -3638,7 +3768,7 @@ today.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/gateway-by-frederik-pohl"/>
     
-    <updated>2015-12-04T09:00:00-00:00</updated>
+    <updated>2015-12-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/gateway-by-frederik-pohl</id>
     <content type="html">
@@ -3683,7 +3813,7 @@ classifieds littered throughout the book.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sophies-world-by-jostein-gaardner"/>
     
-    <updated>2015-11-04T09:00:00-00:00</updated>
+    <updated>2015-11-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/sophies-world-by-jostein-gaardner</id>
     <content type="html">
@@ -3722,7 +3852,7 @@ his high school philosophy class!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-united-states-and-the-middle-east-audio"/>
     
-    <updated>2015-10-04T09:00:00-00:00</updated>
+    <updated>2015-10-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/the-united-states-and-the-middle-east-audio</id>
     <content type="html">
@@ -3772,7 +3902,7 @@ going to 1.5x by the end, which I rarely do. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/science-and-human-values"/>
     
-    <updated>2015-09-04T09:00:00-00:00</updated>
+    <updated>2015-09-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/science-and-human-values</id>
     <content type="html">
@@ -3810,7 +3940,7 @@ could really stand to be ported into other human domains.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/thinking-fast-and-slow-by-kahnemann-tversky"/>
     
-    <updated>2015-09-04T09:00:00-00:00</updated>
+    <updated>2015-09-10T09:00:00-00:00</updated>
     
     <id>http://smus.com/books/thinking-fast-and-slow-by-kahnemann-tversky</id>
     <content type="html">
@@ -3820,32 +3950,6 @@ could really stand to be ported into other human domains.</p>
 in which he systematically found flaws in human ability to think rationally.
 He's a founder of behavioral economics, which describes the ways in which humans
 make systematic thinking errors (deviating from "pure" rationality)..</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Skeptic's Guide to American History (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/skeptics-guide-to-american-history-audio"/>
-    
-    <updated>2015-08-04T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/books/skeptics-guide-to-american-history-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Well done overview of American History with a historiographical twist. Reminded
-me of Mr. Begin's history classes, but probably a little more sophisticated. I
-really liked the lecturer's call to skepticism which rang throughout, as he
-questioned theme after theme of cliche Americanisms. I really liked his spiral
-model of historical progress, and also the fact that he dropped enough
-references that I now have plenty of follow up work to do. A worthwhile course
-for any non-American. Buy it on <a href="http://www.thegreatcourses.com/courses/the-skeptic-s-guide-to-american-history.html">TTC</a>.</p>
 
 
         
