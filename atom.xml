@@ -5,8 +5,88 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-03-30T21:22:55-00:00</updated>
+  <updated>2018-04-11T23:41:25-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Why rationalists don't win</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/why-rationalists-dont-win/"/>
+    
+    <updated>2018-04-05T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2018/why-rationalists-dont-win/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>The belief that <a href="https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning">"rationalists should
+win"</a> is
+widely held in the rationalist community. So: does being a good rationalist actually
+help you win? Certainly in some domains, like engineering and science, which
+focus on quantification, systematization, and prediction. There, having a
+hyper-rational mindset is clearly an advantage. As for winning at life, which I
+will take that to mean leading to greater success in survival, evolution, and
+human flourishing, I don't think rationality helps very much.</p>
+
+<p>The rationalist doctrine always favors quantification and optimization over
+intuition. From a rationalist perspective, humans are buggy
+"computers made of meat". We are full of cognitive biases that cloud our
+judgement, and cause us to do reliably poorly on <a href="Newcomb's
+Problem">simple tasks</a> related to probability. So even if you don't really know what
+probability to assign, it's better to <a href="putanumonit blog">"put a number on it"</a>,
+and then <a href="wherever thats from">"shut up and multiply"</a>.</p>
+
+<p>The problem with the above approach lies with the words "systematic" and
+"predictable". From Herb Simon's idea of <a href="">Bounded Rationality</a>, our human
+ability to be rational, to systematize and predict is inherently limited. These
+limitations may come from our limited brains, but may also be fundamental in
+nature. Chaos theory makes it really difficult for even the most advanced
+computers to predict even simple systems, such as the position of the double
+pendulum after a small amount of time.</p>
+
+<p>The world is far more complicated than two attached pendelums, and if we insist
+on making every decision in life based on a <a href="my
+post about decision spreadsheets">series of sound logical steps</a>, we may find ourselves paralyzed by the
+complexity of every single junction. Gerd Gigerenzer's <a href="">XXX rationality</a>
+suggests that many things that appear illogical are actually done for good
+reasons, or lead to good outcomes. This idea is directly at odds with the
+rational propensity for first knowing what is true (epistemic rationality), and
+then making decisions in a series of logical steps.</p>
+
+<p>Instead of being dogmatic about approaches, we should be consequentialists. We
+should look at outcomes. Are rationalists more satisfied with their lives than
+their non-rationalist counterparts? Are they more productive? Do they have fewer
+regrets? Do they have better relationships? Make more money? Have happier
+children? Impact their domains of knowledge more effectively?</p>
+
+<p>It may be hard to answer the above questions. Perhaps many people are practicing
+rationalists but would not self-report as such. On the other hand, self
+reporting rationalists from the rationalist community may skew in a very
+specific way. From my (frequent) visits to the Seattle Rationalist meetup, the
+community has evolved into something that is often more about the friendships
+than about the practice. Don't get me wrong: it's an incredibly welcoming
+atmosphere with some really great people, but the rates of social awkwardness,
+non-traditional lifestyles, and mental problems is high. And I don't know
+whether or not to attribute this to the practice of rationality itself?</p>
+
+<p>Suppose we had a definitive answer to the above question, and it was clear that
+in general, Buddhists were happier than other groups, Protestants more
+productive, Amish more friendly, and Singularitarians more innovative. The
+instrumentally rational thing to do would be to first clarify to yourself: what
+does winning mean to you, and then pick the optimal set of beliefs based on
+expected outcomes their for adherents.</p>
+
+<p>Of course, you want to remain open to changing your mind, so allow yourself to
+indulge fully your chosen beliefs for a year or so. On January first, wake up
+late, nurse your hangover, partake in the polar bear plunge, and re-evaluate
+your beliefs.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Web-based voice command recognition</title>
@@ -8103,145 +8183,6 @@ me about $100. This was my first time paying anyone to do work for me.</p>
 helping. Also, thanks to <a href="http://www.kevincennis.com/">Kevin Ennis</a> who kindly donated the
 <a href="http://webaudioapi.com">webaudioapi.com</a> domain which I'm currently using to host the
 samples.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Really simple social syndication</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/really-simple-social-syndication"/>
-    
-    <updated>2013-03-14T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/really-simple-social-syndication</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've been thinking about this for a while, but the recent <a href="http://googlereader.blogspot.ca/2013/03/powering-down-google-reader.html">sunset
-announcement of Google Reader</a> made me revisit this topic.
-Google Reader isn't the only thing that's dead. RSS (aka. Really Simple
-Syndication) has long been proclaimed dead as well. In fact most people
-never even knew what RSS was. That said, it was a very useful tool for
-me and many others that like to stay up-to-date in their areas of
-interest. Increasingly, I've been getting my dose of news through social
-networks. However, social networks contain a lot of noise that I care
-little for. I want to rebuild the RSS spirit using modern social
-networks. This post describes one possible approach, which I refer to as
-<strong>Really Simple Social Syndication (RSSS)</strong>.</p>
-
-<!--more-->
-
-<h2>Really simple syndication: the good old days</h2>
-
-<p>Here's what the content flow used to be with blogs and RSS:</p>
-
-<p><img src="rss-flow.png" alt="RSS-based content syndication" /></p>
-
-<p>It was simple. Really simple, actually!</p>
-
-<h2>Social syndication: today</h2>
-
-<p>I don't care much for social networks. I mostly see them as a two-way
-utility for ultimately connecting content creators to content consumers.</p>
-
-<p>One way, social networks like Facebook, Twitter, G+, etc are just
-vehicles for finding out what to read based on your interests. I spend
-too much time checking them individually for my news, and this is
-unfortunate. </p>
-
-<p>The other way, social networks make it easier to have your content read
-by a bunch of the right people. In my case, the vast majority of
-non-organic search traffic comes from social sources (mostly twitter). I
-waste a bit of time tweeting, and G+ing new posts on my blog as they
-come out, but sometimes they are picked up by others and I don't
-actually need to do that.</p>
-
-<p>As long as the content itself stays outside of the walled gardens of the
-social networks, I think we can come to a syndication solution that
-might rival the old RSS-based one, but enjoy the benefits of having some
-extra signals from all of the social network junk. Here's the model I'm
-thinking of:</p>
-
-<p><img src="social-flow.png" alt="Social-based content syndication" /></p>
-
-<p>Now for a little bit more about Pub and Sub.</p>
-
-<h2>Sub: Requirements for consumption</h2>
-
-<ul>
-<li><p><strong>Reuse existing feeds</strong>. I don't want to re-create my sources. Use
-existing people you follow on Twitter, from G+ circles, Facebook
-friends.</p></li>
-<li><p><strong>De-duplicated content</strong>. Some people post the same link on multiple
-networks. Some popular posts are reshared by everyone. I only want to
-see a post once.</p></li>
-<li><p><strong>Content centric</strong>. Show me the content in some standard, readable
-way. Hide the social stuff unless I explicitly ask. Most of the time I
-don't care where it came from, don't care how many people liked it, or
-what they wrote in the comments. Sometimes I'm curious and want a way
-to trace it back.</p></li>
-<li><p><strong>Social signals as a metric</strong>. If many of my sources share something,
-I probably should at least take a skim.</p></li>
-<li><p><strong>Web based service</strong> so that I can use it anywhere.</p></li>
-<li><p>Set a <strong>volume-based daily quota</strong>. If I'm busy today I'd like to only
-see the top N articles, sorted by some transparent metric of my
-choosing.</p></li>
-</ul>
-
-<p>Flipboard, Pulse, Feedly all sort of fit into this class of readers.
-Ideally this would be an API that just lets me connect a few social
-accounts, and get back a filtered feed of content. This could be the API
-for the product - a Really Simple Social Syndication (RSSS) feed.</p>
-
-<p>Anyone could then build a UI on top of it for their favorite platform
-(Google Reader-like).</p>
-
-<h2>Pub: Requirements for content production</h2>
-
-<ul>
-<li><p>Automatically post content to a bunch of social services. </p></li>
-<li><p>Intelligent shortening of links and content (eg. for twitter, to fit
-in 140 chars).</p></li>
-</ul>
-
-<p>Wordpress plugins, Tumblr and others provide ways to automatically tweet
-and otherwise post new updates to your content. There needs to be some
-other way that works in general for any type of content. Such a service
-could be similar to feedburner, in that it would take an existing RSS
-feed and socialize it.</p>
-
-<h2>Social networks, let's be friends!</h2>
-
-<p>I'm not religious about Google Reader or RSS. It was a good solution for
-content syndication at the time, but I'm ready to accept that perhaps
-it's time to move on. Hopefully with tools like the above, we can have
-something that comes close to the utility of RSS feeds.</p>
-
-<p>Social networks could do some evil stuff which would preclude RSSS from
-happening. Economically, they are incentivized own content, create
-walled gardens, insert advertisements, and prevent access to their
-feeds. I'm hoping that some human element will prevent that from
-happening.</p>
-
-<p>Here is a short list of what we need from the social networks:</p>
-
-<ul>
-<li><p>The content itself must be free from walled gardens (eg. paywalls,
-login walls, etc)</p></li>
-<li><p>Social network feeds are available to read in full, as is, without
-magical suggestions, collaborative filtering, etc.</p></li>
-<li><p>Social networks provide some programmatic way to post content.</p></li>
-</ul>
-
-<p>Once we have a good flow for the production and consumption of content,
-using social networks as a delivery mechanism, I will be very happy to
-minimize the amount of time spent on social networks directly, and focus
-on consuming and producing interesting things. Also, happy &pi; day!</p>
 
 
         
