@@ -5,81 +5,76 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-04-11T23:41:25-00:00</updated>
+  <updated>2018-04-12T15:12:45-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
-    <title>Why rationalists don't win</title>
+    <title>How rationalists can win</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/why-rationalists-dont-win/"/>
+    <link href="/notes/2018/how-rationalists-can-win/"/>
     
-    <updated>2018-04-05T09:00:00-00:00</updated>
+    <updated>2018-04-12T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2018/why-rationalists-dont-win/</id>
+    <id>http://smus.com/notes/2018/how-rationalists-can-win/</id>
     <content type="html">
       <![CDATA[
       <div>
-        <p>The belief that <a href="https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning">"rationalists should
-win"</a> is
-widely held in the rationalist community. So: does being a good rationalist actually
-help you win? Certainly in some domains, like engineering and science, which
-focus on quantification, systematization, and prediction. There, having a
-hyper-rational mindset is clearly an advantage. As for winning at life, which I
-will take that to mean leading to greater success in survival, evolution, and
-human flourishing, I don't think rationality helps very much.</p>
+        <p>The belief that <a href="https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning">"rationalists should win"</a> is widely held in the
+rationalist community. So: does being a good rationalist actually help you win?
+Certainly in some domains, like engineering and science, which focus on
+quantification, systematization, and prediction. There, having a hyper-rational
+mindset is clearly an advantage. As for winning at life, which I will take that
+to mean leading to greater success in survival, evolution, and human
+flourishing, I don't think rationality helps very much.</p>
+
+<!--more-->
 
 <p>The rationalist doctrine always favors quantification and optimization over
-intuition. From a rationalist perspective, humans are buggy
-"computers made of meat". We are full of cognitive biases that cloud our
-judgement, and cause us to do reliably poorly on <a href="Newcomb's
-Problem">simple tasks</a> related to probability. So even if you don't really know what
-probability to assign, it's better to <a href="putanumonit blog">"put a number on it"</a>,
-and then <a href="wherever thats from">"shut up and multiply"</a>.</p>
+intuition. From a rationalist perspective, humans are buggy <a href="https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/">"computers made of
+meat"</a>. We are full of cognitive biases that cloud our judgement, and
+cause us to do reliably poorly on <a href="https://en.wikipedia.org/wiki/Newcomb%27s_paradox">simple tasks</a> related to
+probability. So even if you don't really know what probability to assign, it's
+better to <a href="https://putanumonit.com/">"put a number on it"</a> and then <a href="https://wiki.lesswrong.com/wiki/Shut_up_and_multiply">"shut up and
+multiply"</a>.</p>
 
 <p>The problem with the above approach lies with the words "systematic" and
-"predictable". From Herb Simon's idea of <a href="">Bounded Rationality</a>, our human
-ability to be rational, to systematize and predict is inherently limited. These
-limitations may come from our limited brains, but may also be fundamental in
-nature. Chaos theory makes it really difficult for even the most advanced
-computers to predict even simple systems, such as the position of the double
-pendulum after a small amount of time.</p>
+"predictable". Herb Simon's idea of <a href="https://en.wikipedia.org/wiki/Bounded_rationality">Bounded Rationality</a>, suggests that
+our human ability to be rational, to systematize and predict is inherently
+limited. These limitations may come from our limited brains, but may also be
+fundamental in nature. Chaos theory makes it really difficult for even the most
+advanced computers to predict even simple systems, such as the position of the
+<a href="http://awesci.com/double-pendulum-and-why-we-can-never-predict-weather/">double pendulum</a> after a small amount of time.</p>
 
-<p>The world is far more complicated than two attached pendelums, and if we insist
-on making every decision in life based on a <a href="my
-post about decision spreadsheets">series of sound logical steps</a>, we may find ourselves paralyzed by the
-complexity of every single junction. Gerd Gigerenzer's <a href="">XXX rationality</a>
-suggests that many things that appear illogical are actually done for good
-reasons, or lead to good outcomes. This idea is directly at odds with the
-rational propensity for first knowing what is true (epistemic rationality), and
-then making decisions in a series of logical steps.</p>
+<p>The world is far more complicated than one pendulum attached to another.
+Insisting on making every decision in life based on a <a href="/making-better-decisions/">series of sound logical
+steps</a>, one quickly becomes paralyzed by the
+complexity of myriad tiny choices. Gerd Gigerenzer's <a href="https://en.wikipedia.org/wiki/Ecological_rationality">ecological
+rationality</a> suggests that many things that appear illogical are actually
+done for good reasons, ultimately leading to good outcomes. This idea is
+directly at odds with the rational propensity for first knowing what is true
+(epistemic rationality), and then making decisions in a series of logical steps.</p>
 
-<p>Instead of being dogmatic about approaches, we should be consequentialists. We
-should look at outcomes. Are rationalists more satisfied with their lives than
-their non-rationalist counterparts? Are they more productive? Do they have fewer
-regrets? Do they have better relationships? Make more money? Have happier
-children? Impact their domains of knowledge more effectively?</p>
+<p>Instead of being dogmatic about rationality, we should be better
+consequentialists. Consider outcomes. Are rationalists more satisfied with their
+lives than non-rationalists? Are they more productive?  Do they have fewer
+regrets later in life? Do they have better relationships? Make more money?  Have
+happier children? Impact their domains of knowledge more effectively?</p>
 
-<p>It may be hard to answer the above questions. Perhaps many people are practicing
-rationalists but would not self-report as such. On the other hand, self
-reporting rationalists from the rationalist community may skew in a very
-specific way. From my (frequent) visits to the Seattle Rationalist meetup, the
-community has evolved into something that is often more about the friendships
-than about the practice. Don't get me wrong: it's an incredibly welcoming
-atmosphere with some really great people, but the rates of social awkwardness,
-non-traditional lifestyles, and mental problems is high. And I don't know
-whether or not to attribute this to the practice of rationality itself?</p>
-
-<p>Suppose we had a definitive answer to the above question, and it was clear that
-in general, Buddhists were happier than other groups, Protestants more
-productive, Amish more friendly, and Singularitarians more innovative. The
-instrumentally rational thing to do would be to first clarify to yourself: what
-does winning mean to you, and then pick the optimal set of beliefs based on
-expected outcomes their for adherents.</p>
+<p>It <a href="http://slatestarcodex.com/2018/04/02/are-the-amish-unhappy-super-happy-just-meh/">is hard to answer</a> the above questions definitively, but suppose we
+had solid data, and it was clear that, Buddhists were more relaxed, Protestants
+more productive, Amish happier, and Singularitarians more innovative than other
+groups. Imagine we had a sense of expected consequences of being an adherent to
+each type of lifestyle. Imagine further that you could take a personality test
+and see how likely you would be to benefit from each. Then the rational thing to
+do would be to choose one of the irrational doctrines to follow based on
+expected outcomes if you were an adherent.</p>
 
 <p>Of course, you want to remain open to changing your mind, so allow yourself to
-indulge fully your chosen beliefs for a year or so. On January first, wake up
-late, nurse your hangover, partake in the polar bear plunge, and re-evaluate
-your beliefs.</p>
+indulge fully your chosen beliefs for a while. At the top of every year, wake up
+as late as your doctrine allows and nurse your hangover, unless your beliefs
+prevented you from drinking the night before. If your beliefs favors ice baths,
+partake in the polar bear plunge. Then take a moment to re-evaluate your
+beliefs.</p>
 
 
         
@@ -850,6 +845,8 @@ Seattle. </p>
         <p>It's a fact that men greatly outnumber women in software engineering. As for
 why, there is a fundamental disagreement between social constructivists and
 evolutionary psychologists. </p>
+
+<!--more-->
 
 <p>Constructivists say that it’s because of systematic oppression against women.
 Boys in the 80s grew up with computers, learned programming and made life a
