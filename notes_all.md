@@ -4,6 +4,78 @@ type: note
 class: split
 
 
+How rationalists can win
+===
+posted: April 12, 2018
+
+The belief that ["rationalists should win"][win] is widely held in the
+rationalist community. So: does being a good rationalist actually help you win?
+Certainly in some domains, like engineering and science, which focus on
+quantification, systematization, and prediction. There, having a hyper-rational
+mindset is clearly an advantage. As for winning at life, which I will take that
+to mean leading to greater success in survival, evolution, and human
+flourishing, I don't think rationality helps very much.
+
+<!--more-->
+
+The rationalist doctrine always favors quantification and optimization over
+intuition. From a rationalist perspective, humans are buggy ["computers made of
+meat"][minsky]. We are full of cognitive biases that cloud our judgement, and
+cause us to do reliably poorly on [simple tasks][newcomb] related to
+probability. So even if you don't really know what probability to assign, it's
+better to ["put a number on it"][putanumonit] and then ["shut up and
+multiply"][multiply].
+
+The problem with the above approach lies with the words "systematic" and
+"predictable". Herb Simon's idea of [Bounded Rationality][simon], suggests that
+our human ability to be rational, to systematize and predict is inherently
+limited. These limitations may come from our limited brains, but may also be
+fundamental in nature. Chaos theory makes it really difficult for even the most
+advanced computers to predict even simple systems, such as the position of the
+[double pendulum][chaos] after a small amount of time.
+
+The world is far more complicated than one pendulum attached to another.
+Insisting on making every decision in life based on a [series of sound logical
+steps](/making-better-decisions/), one quickly becomes paralyzed by the
+complexity of myriad tiny choices. Gerd Gigerenzer's [ecological
+rationality][eco] suggests that many things that appear illogical are actually
+done for good reasons, ultimately leading to good outcomes. This idea is
+directly at odds with the rational propensity for first knowing what is true
+(epistemic rationality), and then making decisions in a series of logical steps.
+
+Instead of being dogmatic about rationality, we should be better
+consequentialists. Consider outcomes. Are rationalists more satisfied with their
+lives than non-rationalists? Are they more productive?  Do they have fewer
+regrets later in life? Do they have better relationships? Make more money?  Have
+happier children? Impact their domains of knowledge more effectively?
+
+It [is hard to answer][amish] the above questions definitively, but suppose we
+had solid data, and it was clear that, Buddhists were more relaxed, Protestants
+more productive, Amish happier, and Singularitarians more innovative than other
+groups. Imagine we had a sense of expected consequences of being an adherent to
+each type of lifestyle. Imagine further that you could take a personality test
+and see how likely you would be to benefit from each. Then the rational thing to
+do would be to choose one of the irrational doctrines to follow based on
+expected outcomes if you were an adherent.
+
+Of course, you want to remain open to changing your mind, so allow yourself to
+indulge fully your chosen beliefs for a while. At the top of every year, wake up
+as late as your doctrine allows and nurse your hangover, unless your beliefs
+prevented you from drinking the night before. If your beliefs favors ice baths,
+partake in the polar bear plunge. Then take a moment to re-evaluate your
+beliefs.
+
+[win]: https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning
+[minsky]: https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/
+[amish]: http://slatestarcodex.com/2018/04/02/are-the-amish-unhappy-super-happy-just-meh/
+[newcomb]: https://en.wikipedia.org/wiki/Newcomb%27s_paradox
+[multiply]: https://wiki.lesswrong.com/wiki/Shut_up_and_multiply
+[simon]: https://en.wikipedia.org/wiki/Bounded_rationality
+[chaos]: http://awesci.com/double-pendulum-and-why-we-can-never-predict-weather/
+[eco]: https://en.wikipedia.org/wiki/Ecological_rationality
+[putanumonit]: https://putanumonit.com/
+
+
 
 A respectful truce?
 ===
@@ -12,6 +84,8 @@ posted: August 24, 2017
 It's a fact that men greatly outnumber women in software engineering. As for
 why, there is a fundamental disagreement between social constructivists and
 evolutionary psychologists. 
+
+<!--more-->
 
 Constructivists say that it’s because of systematic oppression against women.
 Boys in the 80s grew up with computers, learned programming and made life a
