@@ -4,6 +4,49 @@ type: note
 class: split
 
 
+Balancing technological pessimism
+===
+posted: May 16, 2018
+
+[Pessimists archive](https://pessimists.co/) is a podcast that chronicles
+pessimistic reactions to emerging technology as it was becoming mainstream.
+Technology here is defined broadly, covering a broad range of topics: bikes,
+coffee, pinball machines, vaccines, recorded music. The podcast is very
+accessible, focused more on social and psychological issues and less on the tech
+itself. 
+
+<!--more-->
+
+In response to unreasonable technological enthusiasm ever present in my
+industry, I have myself tended towards pessimism. After we launched Cardboard,
+my small HCI team in Google Research became the de facto home of VR at Google.
+Once word got out, engineers and designers flocked to our ranks, self selecting
+for interest in VR. Suddenly I was surrounded by hundreds of VR enthusiasts,
+while I was skeptical about the vision of VR as ["the last
+platform"](https://youtu.be/dxbh-TM5yNc?t=3m) and concerned about the social
+implications of broad VR adoption.
+
+I began to see myself as [the tenth
+man](https://www.quora.com/World-War-Z-2013-movie/World-War-Z-2013-movie-Do-the-Israelis-really-have-a-10th-man-doctrine),
+posing the question: what if VR isn't really a thing? I ended up much more
+excited about [Spotlight Stories](https://atap.google.com/spotlight-stories/)
+without a headset, thought a bunch about augmented reality through audio, and
+became increasingly alienated from my colleagues gushing with optimism, rushing
+home to play Vive games in their carefully instrumented basements. This podcast
+would sure have helped me put my VR pessimism into perspective. 
+
+One critique I had of the podcast concept is hindsight bias. All of the
+technologies covered by Pessimists Archive ended up being successful, and time
+has proven the doubters wrong. But how many emerging technologies were
+successfully booed out of existence, or simply rejected by the market? And how
+many market successes come at a significant cost that prescient pessimists
+warned us about?  TV and smartphones come to mind.
+
+That said, I highly recommend the podcast series. The episodes are short,
+entertaining, and informative. I feel better equipped to recognize and overcome
+the traps that ensnared previous generations of techno pessimists.
+
+
 How rationalists can win
 ===
 posted: April 12, 2018
