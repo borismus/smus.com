@@ -3,3 +3,5 @@
 .Ulysses-favorites.plist
 *.swp
 *.swo
+node_modules
+www
