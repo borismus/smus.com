@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section id='gallery-header'>
+  {{content}}
+</section>
+
+<section id='archives'>
+  <ol>
+    {% for post in posts %}
+    <li>
+
+      <a href="{{ post.permalink }}">
+        {% if post.yaml.rating %}
+        <div class='rating'>
+          ☆
+        </div>
+        {% endif %}
+        <div class='title'>{{ post.title }}</div>
+        <time>
+          {{post.date_created.GetDict().month_name }} {{post.date_created.GetDict().year}}
+        </time>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section id='main'>
+  <article>
+    <a href='{{ permalink}}'><h1 class='title'>{{ title }}</h1></a>
+    <div class='body'>
+      {{content}}
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>{{ date_created.Format("%B %Y") }}</time>
+    </div>
+  </article>
+</section>
+
+{% endblock %}

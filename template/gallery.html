@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section id='gallery-header'>
+  {{content}}
+</section>
+
+<section id='gallery'>
+</section>
+
+<script src='/static/js/masonry.pkgd.js'></script>
+<script src='/static/js/inspiration.js'></script>
+<script>
+InspirataGallery({
+  el: '#gallery',
+  uid: 'NQ1a0bNO41gc0j3uHQJ4VeCelIW2',
+});
+
+</script>
+{% endblock %}
