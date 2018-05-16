@@ -5,8 +5,64 @@
   <title>Boris Smus</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-04-26T11:40:28-00:00</updated>
+  <updated>2018-05-16T09:51:52-00:00</updated>
   <id>http://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Balancing technological pessimism</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/balancing-technological-pessimism/"/>
+    
+    <updated>2018-05-16T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/notes/2018/balancing-technological-pessimism/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="https://pessimists.co/">Pessimists archive</a> is a podcast that chronicles
+pessimistic reactions to emerging technology as it was becoming mainstream.
+Technology here is defined broadly, covering a broad range of topics: bikes,
+coffee, pinball machines, vaccines, recorded music. The podcast is very
+accessible, focused more on social and psychological issues and less on the tech
+itself. </p>
+
+<!--more-->
+
+<p>In response to unreasonable technological enthusiasm ever present in my
+industry, I have myself tended towards pessimism. After we launched Cardboard,
+my small HCI team in Google Research became the de facto home of VR at Google.
+Once word got out, engineers and designers flocked to our ranks, self selecting
+for interest in VR. Suddenly I was surrounded by hundreds of VR enthusiasts,
+while I was skeptical about the vision of VR as <a href="https://youtu.be/dxbh-TM5yNc?t=3m">"the last
+platform"</a> and concerned about the social
+implications of broad VR adoption.</p>
+
+<p>I began to see myself as <a href="https://www.quora.com/World-War-Z-2013-movie/World-War-Z-2013-movie-Do-the-Israelis-really-have-a-10th-man-doctrine">the tenth
+man</a>,
+posing the question: what if VR isn't really a thing? I ended up much more
+excited about <a href="https://atap.google.com/spotlight-stories/">Spotlight Stories</a>
+without a headset, thought a bunch about augmented reality through audio, and
+became increasingly alienated from my colleagues gushing with optimism, rushing
+home to play Vive games in their carefully instrumented basements. This podcast
+would sure have helped me put my VR pessimism into perspective. </p>
+
+<p>One critique I had of the podcast concept is hindsight bias. All of the
+technologies covered by Pessimists Archive ended up being successful, and time
+has proven the doubters wrong. But how many emerging technologies were
+successfully booed out of existence, or simply rejected by the market? And how
+many market successes come at a significant cost that prescient pessimists
+warned us about?  TV and smartphones come to mind.</p>
+
+<p>That said, I highly recommend the podcast series. The episodes are short,
+entertaining, and informative. I feel better equipped to recognize and overcome
+the traps that ensnared previous generations of techno pessimists.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>How rationalists can win</title>
@@ -8130,56 +8186,6 @@ the device into a low fidelity tracking mode.</p>
 
 <p>As always, let me know what you think, and of course, feel free to fork
 and evolve on <a href="https://github.com/borismus/gestural-music-direction">github</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Web Audio book</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/webaudio-book"/>
-    
-    <updated>2013-03-18T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/webaudio-book</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I wrote a short book about the Web Audio API. The book is meant as an
-introduction to the web audio API, as well as some audio basics for web
-developers with little audio experience. It is <a href="http://chimera.labs.oreilly.com/books/1234000001552/">available for free on
-Chimera</a>, a web-based book viewer, which presents a nicely laid
-out page and lets you leave per-paragraph comments. The online version
-also includes inline samples from <a href="http://webaudioapi.com">webaudioapi.com</a>. If you don't
-like reading on the web, you can also <a href="http://shop.oreilly.com/product/0636920025948.do">buy a physical copy or an
-ebook</a> from O'Reilly.</p>
-
-<!--more-->
-
-<p>So I got this cool bat on the cover. I am told that technically
-speaking, it is a brown long-eared bat (<a href="http://en.wikipedia.org/wiki/Brown_long-eared_bat">Plecotus auritus</a>). Though
-it's no orca (an ideal O'Reilly cover, don't you think?), I'm very happy
-that it's a <a href="http://en.wikipedia.org/wiki/Animal_echolocation">sound related animal</a>.</p>
-
-<p><img src="cover.jpg" alt="Web Audio Book Cover" /></p>
-
-<p>The book was written on my laptop in a Google Doc. I hand-drew some
-illustrations in a notebook and brought them into the doc. Once I was
-ready for feedback, I sent the doc around to my technical reviewers, who
-left feedback in comments. After incorporating their feedback, I got
-some editorial feedback, still in the doc. Once the draft was more or
-less ready to go, I created an <a href="https://www.odesk.com/">oDesk</a> task to convert the Google
-Doc into docbook.xml format. The contractor did a great job and charged
-me about $100. This was my first time paying anyone to do work for me.</p>
-
-<p>Thanks to all of the reviewers, editors, illustrators and organizers for
-helping. Also, thanks to <a href="http://www.kevincennis.com/">Kevin Ennis</a> who kindly donated the
-<a href="http://webaudioapi.com">webaudioapi.com</a> domain which I'm currently using to host the
-samples.</p>
 
 
         
