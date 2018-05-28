@@ -4,12 +4,47 @@ class: split
 type: book
 
 
-You Belong to the Universe by Jonathon Keats
+You Belong to the Universe
 ===
 posted: May 28, 2018
 rating: no
 
+Buckminster Fuller's name seems to pop up everywhere in the last few years. I
+saw Jonathon Keats talk at The Interval a few years ago, on a book tour about
+Fuller's life and work. I finally got to listen to the audio version. I found
+bits to be interesting, but overall this book is less of a biography, and more
+of an attempt to riff on various modern incarnations of Fuller's ideas. Fuller
+himself comes off as overly self-involved. His investment and belief in panacea
+projects like the World Game, Domed Manhattan, Dymaxions comes off as overly
+naive for such a great man.
 
+The book itself is interesting but not groundbreaking. It involves overly
+flowery descriptions of things that I consider obvious: Google, Nest, Sim City,
+self driving cars, etc. The end appears especially weak. The author spends too
+much time on platitudes about specialization. If I had a dollar for every time
+he wrote “comprehensive anticipatory design science”...
+
+Leads from the book:
+
+- [Wikihouse](https://wikihouse.cc/): simple, sustainable, open building
+  technologies.
+- [Sunrise Semester](https://www.insidehighered.com/blogs/technology-and-learning/mooc-pre-history) was an early morning CBS program that offered NYU courses for credit to viewers, precursor of MOOCs. Thousands of people participated.
+- [Green Float](https://www.designbuild-network.com/projects/green-float/) is a
+  proposed floating city concept developed by Shimizu Corporation of Japan.
+- Lewis Mumfort's [Pentagon of Power][pop] criticizes planned cities as
+  anti-cities, and Bucky's [Tetrahedron City project][tetra] as “A pyramid big
+  enough to entomb the population of a while town”.
+- [Shigeru Ban][shigeru] designed some cardboard-based buildings for refugees,
+  from practical dwellings to cathedrals. Impressive!
+- One of Fuller's collaborators, critiques domes as ["smart but not
+  wise"][smart], a quip that is often applicable to modern tech. Specifically:
+
+> Metaphorically, our work on domes now appears to us to have been smart: mathematics, computers, new materials, plastics. Yet reevaluation of our actual building experiments, publications, and feedback from others leads us to emphasize that there continue to be many unsolved problems with dome homes. Difficulties in making the curved shapes livable, short lives of modern materials, and as-yet-unsolved detail and weatherproofing problems.
+
+[pop]: https://en.wikipedia.org/wiki/The_Myth_of_the_Machine
+[tetra]: https://www.moma.org/collection/works/863
+[shigeru]: http://www.shigerubanarchitects.com/works/2013_CCC/index.html
+[smart]: http://www.domerama.com/general/smart-but-not-wise/
 
 Unsong by Scott Alexander
 ===
