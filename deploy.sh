@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-DEPLOY_PATH=/Users/smus/Projects/smus.com-deploy
+DEPLOY_PATH=$HOME/Projects/smus.com-deploy
 
 # Do a deploy build to the smus.com gh-pages repo.
 ../lightning/lightning --out=$DEPLOY_PATH
