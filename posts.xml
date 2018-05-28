@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="http://smus.com/atom.xml" rel="self"/>
   <link href="http://smus.com"/>
-  <updated>2018-05-16T09:51:52-00:00</updated>
+  <updated>2018-05-28T15:38:25-00:00</updated>
   <id>http://smus.com/atom.xml</id>
   
   <entry>
@@ -3046,79 +3046,6 @@ experiment comes to mind:</p>
   </entry>
   
   <entry>
-    <title>Building 3D augmented reality markers</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/cubic-markers-diy"/>
-    
-    <updated>2016-05-15T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/cubic-markers-diy</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <h1>Outline</h1>
-
-<ul>
-<li>Motivating the problem: Daqri Elements 4D</li>
-</ul>
-
-<p>Augmented reality (AR) markers are typically ugly black and white 2D printouts
-that serve as placeholders for 3D objects when viewed through an AR display.
-Immediately, we see a mismatch: a 2D marker represents what is actually supposed
-to be a 3D object. Suppose you want to move an virtual horse that is projected
-onto such a marker. Reaching for it, your hand would move through thin air.
-There is no 3D object to interact with. Instead, you have to find the 2D paper
-and move it.</p>
-
-<p>Real world objects have incredible tactile richness. As you pick it up, you
-immediately feel its weight, texture, rigidity, temperature, etc. Depending on
-the object, you can also manipulate it in interesting ways too. Even a simple 3D
-object like a die can be rolled or placed on any side. There are some examples
-of 3D AR markers. Daqri Elements 4D is a nice one. In their application, each
-side of a cubic marker represents an element. Looking at the marker in AR, you
-can see the element rendered inside the marker. Bringing two cubes together
-causes the elements to react, and the resulting compound is rendered inside each
-marker. </p>
-
-<p>This tactile learning is really powerful. You manipulate the cubes: deciding
-which elements should react by picking the faces and bringing the cubes
-together. That's it! No on-screen manipulation at all. It's a very satisfying
-experience even without access to AR glasses.</p>
-
-<ul>
-<li>Problems with their cross approach
-<ul>
-<li>Problem: cutting is annoying</li>
-<li>Problem: gluing is annoying</li>
-</ul></li>
-</ul>
-
-<p>As far as I can tell, Elements 4D started as a kickstarter, where they were
-selling wooden cubes as a kit. At this point, I don't think these are available
-anymore, and they have a new approach. You print, cut and glue their AR
-markers together.</p>
-
-<p>TODO: Why is this annoying?</p>
-
-<ul>
-<li><p>Approach 1: single folding</p>
-
-<ul>
-<li>Problem: can't print full bleed</li>
-<li>Problem: the actual fold is challenging</li>
-</ul></li>
-<li><p>Approach 2: legos</p></li>
-<li>Approach 3: magnetic sheets</li>
-</ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>Three approaches to VR lens distortion</title>
     <author><name>Boris Smus</name></author>
     <link href="/vr-lens-distortion"/>
@@ -4501,229 +4428,6 @@ publications.</p>
 using a conductive button which brings your body's capacitance to the screen,
 similar to how a touch stylus works. It's cheaper without them, and the new
 input works well, but I'll definitely miss the magnets!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>PhotoVRSE: hyper photospheres</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/photovrse-hyper-photospheres"/>
-    
-    <updated>2015-06-30T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/photovrse-hyper-photospheres</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Today's web is still fundamentally a series of interlinked hypertext
-documents. But web pages in virtual reality are as out of place as a
-terminal emulator windows in a graphical user interface. Both are windows
-into a very different world. So what is the hypertext equivalent for
-Virtual Reality?</p>
-
-<!--more-->
-
-<h2>Photosphere as primitive</h2>
-
-<p>The screens we interact with are fantastic at rendering text.  And, a
-lot of the time you spend on your devices is spent reading: emailing,
-texting and chatting, reading ebooks, blogs, the news.  Of course, the
-web allows for a much richer media experience through embedded content,
-that's the "hyper" part of hypertext (more on that later). Even though
-it's hyper, it's still mostly just text!</p>
-
-<p>While you're reading this post on your device, you are immersed in text.
-But turn off your screen and step outside (really, I recommend it), and
-you'll see that text is a very small part of what you see. Our goal here is
-to create something that is fitting for virtual <strong>reality</strong>, so we need
-something that better represents the real world. Text cannot be the
-underlying substrate.</p>
-
-<p>What, then, is the "minimum viable" substrate for virtual reality? How
-about the photosphere! Rather than text pages, the basis of a VR web
-page can be a photosphere of absolutely anything. It might be something
-that is captured <a href="https://itunes.apple.com/us/app/photo-sphere-camera/id904418768?mt=8">using your smartphone</a>, like one I
-took at an <a href="http://photovrse.com/?url=http://photovrse.com/examples/anechoic.vrse">Anechoic Chamber</a> at Google, or using
-specialized hardware like the <a href="https://theta360.com/en/">Ricoh Theta</a>, which I took inside
-my <a href="http://photovrse.com/?url=http://photovrse.com/examples/car.vrse">amazing car</a>. It might even be something from a virtual
-environment like these <a href="http://photovrse.com/?url=http://photovrse.com/examples/tiled.vrse">in-game photospheres</a>.</p>
-
-<p>Add a separate image for your other eye, and you have a stereo
-photosphere suitable for consumption in VR. Animate the image and
-suddenly you are in a stereo 360 videosphere.</p>
-
-<h2>Hyper-photospheres</h2>
-
-<p>Just like text, the photosphere can be enriched with other types of
-media on top: images, video, audio, and even textual annotations. This
-mars photosphere has several images embedded in it:</p>
-
-<p><a href="http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse"><img src="annotated.jpg" alt="An annotated
-photosphere" /></a></p>
-
-<h2>This is what makes the web great</h2>
-
-<p>Just like hypertext, hyper-photospheres can enjoy all of the benefits of
-the web. You can link from one photosphere to other places in the
-photovrse. You can also embed photospheres in regular pages, as in this
-example:</p>
-
-<p><a href="http://photovrse.com/embed"><img src="embed.jpg" alt="A mars photosphere embedded inside a fake New York Times article" /></a></p>
-
-<p>Last but not least, thanks to <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, you can view these
-photospheres on any device. It works on desktop, with or without an
-Oculus Rift, on mobile in a magic window by default, or in VR if you
-have a Cardboard headset. Both Android and iOS are supported.</p>
-
-<h2>The photovrse prototype</h2>
-
-<p>All of the photospheres mentioned above were shown using PhotoVRSE, a
-hyper-photosphere browser implemented using WebGL. Project is <a href="https://github.com/borismus/photovrse">hosted on
-GitHub</a>.</p>
-
-<p>Each photosphere is represented as JSON, in a <code>.vrse</code> file. You can make
-your own hyper photosphere by just creating and hosting a <code>.vrse</code> file
-anywhere on the web. Here are the contents of an example
-file hosted at <a href="http://photovrse.com/examples/mars.vrse">http://photovrse.com/examples/mars.vrse</a>. To render this
-or any other vrse file, open it using the photovrse renderer at
-<a href="http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse">http://photovrse.com/?url=http://photovrse.com/examples/mars.vrse</a>.</p>
-
-<pre><code>{
-  "title": "Mars",
-  "image": "examples/mars/mars.jpg",
-  "preview": "examples/mars/preview.jpg",
-  "isStereo": false,
-  "audio": "examples/mars/dawn_chorus.mp3",
-  "labels": [{
-    "phi": 2.36,
-    "theta": 0.25,
-    "image": "examples/mars/mars_olympus.jpg",
-    "title": "Olympus Mons"
-  }, {
-    "phi": 0.61,
-    "theta": -0.11,
-    "image": "examples/mars/mars_rover.jpg",
-    "title": "The Opportunity Rover"
-  }]
-}
-</code></pre>
-
-<p>Here you see some basic metadata about the photosphere: its title, the
-preview image URL and the full URL, whether or not it's stereo, and all
-of the labels, their content and titles. This photosphere also contains
-a musical loop of ambient sound.</p>
-
-<h2>Label types</h2>
-
-<p>Each label has several mandatory fields: two euler angles in radians
-(<code>phi</code> and <code>theta</code>), a <code>title</code> description of the scene, and the content
-that it points to. These labels are rendered as distinct green markers,
-and on desktop, can be interacted by clicking on them. In general,
-however, clicking may not be available, so they can be activated by
-gazing at them for a prolonged period.</p>
-
-<p>The following label types are currently supported:</p>
-
-<p><strong>Image labels</strong> show an image overlay.</p>
-
-<pre><code>{
-  "phi": 0.61,
-  "theta": -0.11,
-  "image": "examples/mars_rover.jpg",
-  "title": "The Opportunity Rover"
-}
-</code></pre>
-
-<p><strong>Link labels</strong> take you to a different photosphere.</p>
-
-<pre><code>{
-  "href": "http://photovrse.com/examples/video.vrse",
-  "phi": 0,
-  "theta": 1
-}
-</code></pre>
-
-<p><strong>Back labels</strong> take you back to the previous photosphere. The following
-example makes a back link on the floor directly below you.</p>
-
-<pre><code>{
-  "back": true
-  "phi": 0,
-  "theta": -1.5708
-}
-</code></pre>
-
-<h2>Textures, server-side tiling, stereo and video</h2>
-
-<p>Photospheres are usually huge files, both in bytes and in dimensions. A
-typical one generated by the Google Photosphere camera is 5 MB and 7168
-x 3584. This presents certain challenges on the web. To view the
-photosphere in situ, these large images serve as textures that are
-projected onto a sphere.</p>
-
-<p><strong>Previews</strong>: Loading a 5MB file takes some time, so photovrse lets you
-provide a smaller, lower quality preview image which can be loaded
-quickly.</p>
-
-<p><strong>Texture sizing</strong>: In general, 3D graphics environments have
-texture size limits. In WebGL, this size limit can be extracted
-programatically, like this:</p>
-
-<pre><code>var gl = canvas.getContext('webgl');
-this.maxTextureSize = gl.getParameter(gl.MAX_TEXTURE_SIZE);
-</code></pre>
-
-<p>Using very large textures is often problematic, though, and leads to
-strange artifacts especially in my testing on iOS. On Android too, I've
-found (empirically) that they slow things down. It seems faster to split
-textures into chunks using a canvas (see <a href="https://github.com/borismus/photovrse/blob/master/js/image-util.js">ImageUtil</a>) and then load
-them into <a href="https://en.wikipedia.org/wiki/Spherical_trigonometry">spherical triangles</a>. I currently split all textures into
-tiles of 1024 x 1024, which seems to do pretty well.</p>
-
-<p>For optimal mipmapping, texture sizes should be a power-of-two, which
-means that it's often better to resize the original images to that size.</p>
-
-<p><strong>Server tiling</strong> But chunking images is hard work. Especially if you're
-a smartphone. Ideally, we should be able to do this work elsewhere!
-I've provided a <a href="https://github.com/borismus/photovrse/tree/master/scripts/tile_image.sh">script to split an image into tiles</a> to do
-this. Also, photovrse supports tiled images with the following changes
-in the <code>.vrse</code> file:</p>
-
-<pre><code>{
-  "image": "examples/tiled",
-  "isTiled": true,
-  "tileDimensions": [4, 8],
-}
-</code></pre>
-
-<p>Rather than providing a .jpg, you provide a directory which contains
-multiple images (in this case 4x8 = 32) in the format
-<code>tile_{{row}}_{{column}}.jpg</code>.</p>
-
-<p><strong>Stereo</strong> By convention (there's not much of it yet), stereo
-photospheres are stored stacked, with the <a href="http://photovrse.com/examples/stereo/tasha-stereo-2048.jpg">left eye image on top of the
-right</a> one. The one test video I saw had the left
-rectilinear video on the left, and the right one on the right. It's a
-matter of convention and doesn't really matter, but this is the way
-photovrse handles it.</p>
-
-<p><strong>Stereo video in iOS</strong> Unfortunately iOS <a href="http://stackoverflow.com/questions/29621199/three-js-video-textures-in-ios-play-back-in-a-separately-launched-player-ideas">doesn't support video
-textures</a>, since Safari forces all <code>&lt;video&gt;</code> elements into a
-separate native view. So, no stereo video for iOS users yet.</p>
-
-<h2>Visitor gaze tracking</h2>
-
-<p>For prototyping purposes, I've been using Firebase for hosting the
-metadata JSON of a photosphere. Of course, the real point of Firebase is
-real-time updates, and if multiple people are present in the same
-photosphere, we can show where everyone is looking in real time:</p>
-
-<p><img src="visitors.jpg" alt="Multiple visitors looking around" /></p>
 
 
         
@@ -8974,6 +8678,488 @@ fertility", centering around the question:</p>
 better lock screen) or a fundamental disruptive innovation (for example,
 smart glasses), the answer to the above question for the current state
 of iOS is a resounding no. Sorry bro!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Let's get physical (units)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/physical-units"/>
+    
+    <updated>2012-05-02T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/physical-units</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>There's an increasing variety of devices in use today. Even generally
+rectangular touch enabled devices vary hugely in their physical sizes,
+aspect ratios, pixel densities, etc.</p>
+
+<p>One thing that remains constant across these devices are their users.
+Technologies come and go every year, but people stay the same. Existing
+form factors: <a href="http://en.wikipedia.org/wiki/Smart_device">pads, tabs and boards</a> still make sense, and
+will continue to do so for the forseeable future. As a result,
+ergonomic considerations like touch target sizing, readable text and
+image size remain constant. Fingers will be fingers and eyes will be
+eyes! Our bodies are firmly rooted in the physical world, and the
+interfaces we create should reflect that.</p>
+
+<!--more-->
+
+<p>Take touch targets, for example. Apple's <a href="http://developer.apple.com/library/ios/#DOCUMENTATION/UserExperience/Conceptual/MobileHIG/Characteristics/Characteristics.html">human interface guidelines
+recommend</a> minimum touch target size of 44x44pt for iOS. On
+an iPhone, 44pt is about 0.25in. On an iPad, 44pt is about 0.3in, physically
+larger because of different device pixel density. Even Apple has such
+discrepancies despite a very simple device landscape. Apple devices only
+come in two configurations: iPhone and iPad (and their retina
+counterparts).</p>
+
+<p>The situation gets far more complex when we look at mobile devices in
+general, which is the world of mobile web developers. In an ideal world,
+images and fonts should be scalable and all units should be physical.
+I built a <a href="https://github.com/borismus/physical-units">prototype</a> that illustrates roughly how this
+model would work. Onward for the gory details.</p>
+
+<h2>Device variance</h2>
+
+<p>Here's a brief sampling of pixel density and aspect ratio for a few
+popular devices (data <a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density">from wikipedia</a>):</p>
+
+<pre><code>Device          DPI   Aspect
+============================
+iPhone*         163      3:2
+iPad*           132      4:3
+Nexus S*        117      5:3
+Galaxy Nexus*   158     16:9
+Galaxy Note*    142      8:5
+Galaxy Tab      149      8:5
+T-Prime         149      8:5
+Lumia 900       217     10:6
+</code></pre>
+
+<p>The ones with a <code>*</code> denote double density devices. In other words, the
+physical pixel density is double the value indicated, but the browser
+generally reports the resolution to be this halved value. For more
+information about this practice, read <a href="http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html">a pixel is not a pixel</a>.</p>
+
+<p>Thus, in practice, a 44x44px button rendered with a reasonable viewport:
+<code>&lt;meta name="viewport" content="width=device-width"&gt;</code> will vary in
+dimensions between 0.20in on the Lumia 900 to nearly double, 0.38in on
+the Nexus S.</p>
+
+<p>Further complicating things is a somewhat obscure fact that pixels might
+not be square at all. The term for it is <a href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">pixel aspect
+ratio</a>. As far as I can tell, this is only a concern when
+displays aren't using their native resolutions, which luckily is a
+rarity in mobile devices.</p>
+
+<h2>The problem with pixels</h2>
+
+<p><a href="http://www.lukew.com/ff/entry.asp?1085">Many HIGs</a> recommend minimum touch target sizes in
+pixels. What really matters is the size of human fingers, which as we
+established earlier, don't grow and shrink as a function of the device
+you happen to be using.</p>
+
+<p>Microsoft, anticipating a more fragmented ecosystem of devices with
+varied densities and screen sizes, is recommending a physical size
+approach instead, which makes more sense for touch targets. They suggest
+a 9x9mm recommended lower bound, and an absolute minimum of 7x7mm. This
+jives well with established research, such as MIT's <a href="http://touchlab.mit.edu/publications/2003_009.pdf">Touch Lab study of
+Human Fingertips to Investigate the Mechanics of Tactile Sense</a>,
+which found that the average human finger pad is 10-14mm and the average
+fingertip is 8-10mm in diameter.</p>
+
+<h2>Benefits of physical units</h2>
+
+<p>As a developer, I'd like to just say "this button is 40x9mm" and have
+that actually map to real physical dimensions. If I could ensure usable
+sizes for all of my touch targets, that solve this problem across all
+devices, once and for all!</p>
+
+<p>Physical units also make feature-based device detection far more
+reliable. Currently, the best we can do is basically guess what sort of
+device is visiting your site, using heuristics like device resolution
+(in magic CSS pixels that automatically get scaled). Using this
+approach, it's hard to distinguish between laptops and tablets, for
+example. It's even more challenging to distinguish phones from 7"
+tablets, or 7" tablets from 10" ones. Approaches like <a href="https://github.com/borismus/device.js">device.js</a> would
+benefit greatly.</p>
+
+<p>Finally, as you saw, using pixels results in a huge variance in font
+size, resulting in bad text readability in general. With physical units,
+you can set a good default baseline size for text to ensure readability.</p>
+
+<p>Of course, in all of these cases, it's possible to manually rescale the
+view in order to get the desired zoom level that's readable and
+touchable, but the whole point is to have a system that behaves well by
+default.</p>
+
+<h2>Scaling well</h2>
+
+<p>So, in this world of physical sizes for everything, virtually everything
+needs to be scaled to the appropriate size. This includes text, images,
+and general layout (eg.  sizes, coordinates, etc). This means having
+assets, fonts and a layout engine that's capable of scaling well,
+without loss of visual fidelity.</p>
+
+<p>General layout is pretty easy to do - all you need is to convert real
+units into pixels for actually rendering. Text gets a bit tricker, since
+most fonts are defined only at certain key-sizes, and scaling to
+fractional sizes might not work perfectly. Scaling images, of course, is
+a whole separate topic. Rasters are very difficult to scale down without
+compromising quality, and scaling up creates a blurry or pixelated
+looking image. The obvious solution is to use scalable image formats. On
+the web, this basically means SVG, which is <a href="http://caniuse.com/#search=svg">quite well
+supported</a> across browsers, but does have its own
+idiosyncrasies.</p>
+
+<h3>Vectors and rasters</h3>
+
+<p>Still, even with vector images, there are potential arguments to be made
+about the superiority of pixel-perfect assets, since the designer has
+absolute control to decide their assets at the pixel level.
+Unfortunately, the pixel-perfect approach causes a lot of pain for
+designers, who are routinely forced to create multiple versions of the
+same asset. On iOS, you specify both the regular and retina asset. On
+Android, you specify four: <code>ldpi</code>, <code>mdpi</code>, <code>hdpi</code> and <code>xhdpi</code>. These
+don't actually get scaled, but the closest one gets served based on the
+device DPI. This means that it's impossible to create assets in an exact
+physical size. Here's an excerpt from the <a href="http://developer.android.com/guide/practices/screens_support.html">Android docs</a>:</p>
+
+<p><img src="android-dpi.png" alt="Android assets and device DPI" /></p>
+
+<p>On the web, you can't realistically hope for pixel perfection because of
+the vast variety of devices and browsers. Designers need to embrace the
+medium, and do as well as they can given the constraints of the web.
+Scaling the same image (vector or raster) may not be adequate for other
+reasons. In some cases, especially with icons, you want to specify
+assets with different levels of detail depending on the physical size.
+Check out a few <a href="http://mrgan.tumblr.com/post/708404794/ios-app-icon-sizes">great</a> <a href="http://www.pushing-pixels.org/2011/11/04/about-those-vector-icons.html">posts</a> on this subject.</p>
+
+<blockquote>
+  <p>It’s simply not possible to create excellent, detailed icons which can
+  be arbitrarily scaled to very small dimensions while preserving clarity.</p>
+</blockquote>
+
+<p><img src="http://farm7.static.flickr.com/6224/6311957505_6f15b6f925.jpg" alt="Varying levels of details depending on size" /></p>
+
+<p>That said, there's no reason why icons with appropriate levels of detail
+for smaller and larger sized screens shouldn't use the same scalable,
+physical approach. In the above example, using scaled assets would let
+the designer create 4 instead of 5 separate assets, since the 128px and
+64px versions are the same, just scaled.</p>
+
+<p>It's not all flowers and sausages, though. Vectors are inherently less
+efficient to deal with, since they require the intermediate step of
+rasterization before they can be blitted to the screen buffer. This is
+expensive, but not a show stopper. Optimizing this issue is a topic that
+probably warrants a whole article on its own, but one major win could be
+to rasterize once depending on your device DPI, and then cache the
+rasterized asset so that you don't need to rasterize the vector every
+time you render.</p>
+
+<h2>Doing it on the web</h2>
+
+<p>If you want to figure out your phone's exact physical dimensions in a
+browser based application, you're out of luck. Even units that share a
+name with physical units (like <code>inch</code>, <code>cm</code>, etc) don't actually render
+that way. Here's a <a href="http://lewisnyman.github.com/Where-are-our-absolute-units--Demo/">test page</a> that renders some text with
+CSS inches. If you measure the actual output on your laptop or phone,
+you'll notice that it's not a real inch.</p>
+
+<p>Now, you could imagine doing some monkey patching to enable physical
+units using JavaScript, but that's also impossible to do cleanly since
+you need to know either the true device DPI or the physical size of
+the screen, neither of which is queriable in any way on the web.
+JavaScript does provide <code>window.devicePixelRatio</code>, but that only reports
+the scale factor for pixel density, which is used for retina and other
+displays where CSS pixels differ from physical pixels.</p>
+
+<h2>How does it feel?</h2>
+
+<p>Even though it's impossible to get physical size or DPI from a browser,
+I wanted to try it out, to see if this would work in practice. Here's a
+<a href="https://github.com/borismus/physical-units">prototype library</a> that uses entirely physical units
+for everything, and fully scalable assets. All objects shown on <a href="http://borismus.github.com/physical-units/controls.html">this
+controls page</a> should render to the correct physical size on
+the following devices: iPhone, Galaxy Nexus, iPad, MacBook Air 13". Go
+ahead and pull out a ruler (I did) and measure - the sizes should be
+exact across the supported devices.</p>
+
+<p>Here's a screenshot of a <a href="http://borismus.github.com/physical-units/sample.html">basic phone UI</a> built with only physical
+units and percentages on an iPhone 4S and Galaxy Nexus:</p>
+
+<p><img src="android-ios-physical.png" alt="Phones with a UI built using physical units" /></p>
+
+<h3>Implementation details</h3>
+
+<p>As mentioned, there's no way to get DPI in the browser. My prototype
+works because I've hard-coded the physical DPI for each supported device
+based on user agent matching. It's a terrible hack and not a great
+option for production, even with more complete coverage.</p>
+
+<p>The prototype currently only works by specifying sizes in absolute
+units. It currently only supports inline styles, and not CSS rules. For
+example, one can now write the DOM like:</p>
+
+<pre><code>&lt;button style="width: 9mm;"&gt;Nice touch target&lt;/button&gt;
+</code></pre>
+
+<p>I ran into a few small implementation details along the way that I
+thought might be worth mentioning.</p>
+
+<p>Firstly, by default, nginx doesn't serve SVG with the correct mime type.
+So, visiting the asset URL just downloads the asset rather than
+rendering it, and embedding the asset in an <code>img</code> tag doesn't work. The
+fix is <a href="http://stackoverflow.com/questions/3695409/nginx-offers-of-downoload-svg-instead-of-showing-it">simple and documented</a>: add the correct mime type to an nginx
+configuration file.</p>
+
+<p>Secondly, I was a bit disappointed not to find many pre-downloadable SVG
+icon sets, but did discover <a href="http://raphaeljs.com/icons/">this resource</a> which has SVG
+icons as pathes. To use them it's just a matter of pasting the path
+specification into an SVG <code>path</code> element, as follows:</p>
+
+<pre><code>&lt;svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;path d="your-pathspec-goes-here" /&gt;
+&lt;/svg&gt;
+</code></pre>
+
+<p>Though unstated, the icons on the above site seem to all be 32x32 units
+(Note: not pixels).</p>
+
+<p>Lastly, since CSS has units that look like physical ones (cm, mm, in,
+etc), I wanted to create a new unit, say truemm, truein, etc.
+Unfortunately, Chrome (and perhaps other browsers, haven't tested)
+doesn't support units that it doesn't recognize. As a result, I had to
+piggyback and override existing units. This approach would break the
+behavior of sites that use for some unknown-to-me reason, but
+introducing new units prefixed by <code>true</code> is verbose and confusing for
+beginners. If you know of any reasons why a developer today would be
+using CSS mms/inches, please let me know.</p>
+
+<h2>Angular units</h2>
+
+<p>Rob <a href="http://lists.w3.org/Archives/Public/www-style/2012Feb/0948.html">writes</a>:</p>
+
+<blockquote>
+  <p>The only use-cases for truemm are when you need content matching the
+  size of some real-world object, e.g. a ruler, or a life-size image, or
+  a human fingertip. That's it.</p>
+</blockquote>
+
+<p>I disagree. It so happens that generally touch devices are used at a
+relatively fixed distance from screen to user. This makes physical units
+useful for not just touch targets, but also text and image readability.</p>
+
+<p>But in the same breath, Rob makes a great point:</p>
+
+<blockquote>
+  <p>Ask yourself, "do I really want this content to be the same physical
+  size on a phone and a wall projector?" If the answer is yes, use
+  truemm, otherwise don't.</p>
+</blockquote>
+
+<p>Indeed, there are cases where physical units aren't ideal. The
+conditions for this are roughly:</p>
+
+<ol>
+<li>Unknown distance from viewer to screen.</li>
+<li>Unknown screen size.</li>
+</ol>
+
+<p>In this case, the reasonable thing to do is adopt an angular unit, which
+would be able to scale depending on viewing distance from the screen
+(and of course DPI too).  This might mean that you use degrees, <a href="http://en.wikipedia.org/wiki/Minute_of_arc">minutes
+of arc</a>, or some arbitrary angular unit "au" (not to be confused
+with <a href="http://en.wikipedia.org/wiki/Astronomical_unit">AU</a>).</p>
+
+<p>The idea of angular units isn't new. In fact, surprisingly, the CSS spec
+features it quite prominently in the definition of CSS pixels. A <a href="http://inamidst.com/stuff/notes/csspx">recent
+article</a> on this topic reminded that pixels are actually
+specified to be angular in nature.</p>
+
+<blockquote>
+  <p>The reference pixel is the visual angle of one pixel on a device with
+  a pixel density of 96dpi and a distance from the reader of an arm's
+  length. For a nominal arm's length of 28 inches, the visual angle is
+  therefore about 0.0213 degrees. For reading at arm's length, 1px thus
+  corresponds to about 0.26 mm (1/96 inch). -- <a href="http://www.w3.org/TR/CSS21/syndata.html#length-units">CSS spec</a></p>
+</blockquote>
+
+<p>There are a couple of problem with this.</p>
+
+<ol>
+<li><p>Poor naming: calling such a unit a pixel is incredibly confusing.</p></li>
+<li><p>Lack of flexibility: this approach assumes a 96dpi display and a
+fixed viewing distance. As previously discussed, the former is a bad
+assumption, and in the case of large format viewing, so is the latter.</p></li>
+</ol>
+
+<p>Introducing true angular units that can be configured based on display
+distance from the observer would be a boon for designers and engineers
+working on software for TVs and other large-format devices. Some default
+viewing distance could be provided, but developers should have a means
+of specifying a custom viewing distance (potentially inferred from
+device hardware, as described in <a href="http://www.chrisharrison.net/index.php/Research/LeanAndZoom">this research</a>).</p>
+
+<h2>Next steps</h2>
+
+<p>Browser vendors need to start supporting true physical units. One path
+might be creating all new units (eg. <code>truemm</code>, <code>truein</code>) or redefining
+the old ones to be use absolute values, which in many cases may be what
+the developers actually intended.</p>
+
+<p>These units should also be usable in media queries, so that it's
+possible to do things like:</p>
+
+<pre><code>(max-device-width: 4in)
+</code></pre>
+
+<p>This will enable a more robust way to do device detection via media
+queries a la <a href="https://github.com/borismus/device.js">device.js</a>.</p>
+
+<p>There appear to be some efforts from Mozilla to have a media query for
+DPI, via <a href="https://developer.mozilla.org/en/CSS/resolution">resolution</a>. This is a good start, but there should
+also be a way to get DPI directly via JavaScript, otherwise enterprising
+developers will need to resort to binary searching through possible DPIs
+via <code>window.matchMedia</code>, which is just ridiculous.</p>
+
+<p>The introduction of a true angular unit with a configurable viewing
+distance would be amazing for a web that works well on large-format
+displays.</p>
+
+<p>Ultimately, UI developers need to understand the serious problems with
+pixels because this problem isn't going away any time soon.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>New design</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/redesign-2012"/>
+    
+    <updated>2012-03-30T09:00:00-00:00</updated>
+    
+    <id>http://smus.com/redesign-2012</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I re-designed this site using the <a href="http://www.google.com/webfonts/specimen/PT+Sans">PT Sans font</a>, aiming for
+appealing typography for optimal readability. Interestingly,</p>
+
+<blockquote>
+  <p>PT Sans is based on Russian sans serif types of the second part of the
+  20th century, but at the same time has distinctive features of
+  contemporary humanistic designs.</p>
+</blockquote>
+
+<p>Since visitors are increasingly coming from a variety of devices, I also
+created three variants of the site for small, medium and large screens
+via media queries:</p>
+
+<!--more-->
+
+<pre><code>@media screen and (max-width: $small) {/* small */}
+@media screen and (min-width: $small) and (max-width: $large) {/* medium */}
+@media screen and (min-width: $large) {/* large */}
+</code></pre>
+
+<p>Note that the above is valid <a href="http://sass-lang.com/">SCSS</a> (as of version 3.2)! To try it out,
+you may need to install the prerelease via <code>gem install sass --pre</code>.</p>
+
+<p>As usual, the layout of this site is largely inspired by designers far
+more skilled than I, including: <a href="http://viljamis.com/">http://viljamis.com/</a> and
+<a href="http://www.markboulton.co.uk/">http://www.markboulton.co.uk/</a>.</p>
+
+<h2>New engine</h2>
+
+<p>This blog can now also double as a micro blog, where I can easily <a href="/archive/links">post
+links</a> in a social network-agnostic way. Similarly, it now hosts
+<a href="/archive/talks">all of my talks</a>, which used to live on
+<a href="http://smustalks.appspot.com">http://smustalks.appspot.com</a>. It's also a lot easier for me to create
+new posts.</p>
+
+<p>All of these structural changes are largely due to me building a
+completely new static site generator which addresses a lot of my pains
+using other static generators. I'll write a separate article about this
+engine when I'm ready to release it to the public.</p>
+
+<h2>No more comments</h2>
+
+<p>Since the start of this blog, I've struggled with the concept of
+comments on my site and in on blogs in general. Even with services like
+disqus, which try to integrate your blog commentator personality into
+one place, I feel that in practice, commenting on the web is very hard
+to keep in one place, and the most interesting discussions end up
+distributed in many pockets such as Hacker News, twitter, etc. Having
+the in-blog comments as well only makes things messier.</p>
+
+<p>Other problems include:</p>
+
+<ul>
+<li>Leaving a comment right after reading content encourages unconsidered
+responses, since readers haven't had time to process the content.</li>
+<li>Lately my blog has been generating a lot of spam comments that I need
+to moderate. I don't have time for that.</li>
+<li>People tend to ask for technical support in the comments, which adds
+very little value for other readers.</li>
+<li>Disqus slows down page load time, and presents a UI that's not easily
+skinnable.</li>
+</ul>
+
+<p>For a more in-depth analysis about blog comments, see Matt Gemmell's
+thorough post <a href="http://mattgemmell.com/2011/11/29/comments-off/">on this subject</a>.</p>
+
+<p>I've disabled comments on all posts. That said, I still want to hear
+your ideas and feedback, and engage in discussion around topics I'm
+obviously interested in (enough to write about!)</p>
+
+<h2>Evolving designs</h2>
+
+<p>This is the fourth iteration of my blog's design. I apparently do a
+re-design every year, since I started in 2008.</p>
+
+<p><style>
+article img { border: 1px solid gray; }
+</style></p>
+
+<p><img src="v1.png" alt="original un-design" /></p>
+
+<p>This version was a small modification done to an existing wordpress
+theme.</p>
+
+<p><img src="v2.png" alt="first iteration" /></p>
+
+<p>I really liked this version for a long time, since it was so clean and
+minimal. Unfortunately the header took way too much space, and the
+typography left something to be desired.</p>
+
+<p><img src="v3.png" alt="second iteration" /></p>
+
+<p>This was the first "responsive" version. It had too many gimmicky,
+non-standard design elements.</p>
+
+<p><img src="v4.png" alt="current iteration" /></p>
+
+<p>I'm reasonably happy with the current version, especially the typography
+in the main body.</p>
+
+<p>And strangely excited about the engine that powers this blog too
+(codenamed <em>Lightning</em>, which generates a lot of static, and is also
+very fast! Ha, get it?). Once released, I will write another meta-blog
+post about it. For now, though, I wrote a bit about Lightning
+<a href="/site">here</a>.</p>
 
 
         
