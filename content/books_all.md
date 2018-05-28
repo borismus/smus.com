@@ -3,17 +3,53 @@ Book list
 class: split
 type: book
 
+
+You Belong to the Universe by Jonathon Keats
+===
+posted: May 28, 2018
+rating: no
+
+
+
 Unsong by Scott Alexander
 ===
 posted: May 10, 2018
 rating: no
 
+Unsong is based on a really compelling concept. As it turns out, the Torah is
+literally true. God is real, angels and demons literally control the fate of the
+world. Kaballah is indeed the fundamental way that the universe works. Some
+people continue to irrationally cling to their old beliefs (Science, Pluralism)
+despite overwhelming evidence to the contrary. Earth is the center of the
+Universe, and when Apollo 11 launched, it crashed into the firmament and left a
+gaping hole in it. 
+
+Alexander's novel excels at world building. The back story to how the world came
+to be is fascinating. Unsong is full of gullible archangels and clever
+Kaballists-programmers, San Francisco is Jerusalem, magical incantations possess
+true powers and a righteous police force enforces their usage. These are all
+super creative components of the complex universe conjured from thin air.
+
+Unfortunately, despite the awesome concept, Unsong is not well executed. The
+storyline is dull, the characters all speak in one voice, the pacing is off, the
+interludes break the flow of the story, and the puns get annoying fast. This is
+in stark contrast with Ted Chiang's works, which are great conceptually and
+share some of the same fascinating themes (Tower of Babel, Hell is the absence
+of God, the one about golems). The difference is that Chiang’s stories are well
+crafted and come together as coherent wholes. They are emotionally driven,
+memorable, well paced, and appropriate in length. 
+
+I got through half of the book over the last few months, in small chunks because
+Eliana is so small, often having to put the book down out of annoyance. Today I
+have decided to declare bankruptcy. I am not invested in the story, I don't care
+about the characters, and I don't care what happens in the end. Perhaps one day,
+if it is aggressively edited, I will give it another chance.
 
 
 Reason in Human Affairs by Herbert Simon
 ===
 posted: April 26, 2018
-rating: no
+rating: yes
 
 One of the people I worked with at CMU was a "Herbert A. Simon Professor of
 Human-Computer Interaction". I hadn't heard of Herbert Simon before, but his
