@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
+<feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="http://smus.com">
+      xml:base="//smus.com">
   <title>{{title}}</title>
-  <link href="http://smus.com/atom.xml" rel="self"/>
-  <link href="http://smus.com"/>
+  <link href="//smus.com/atom.xml" rel="self"/>
+  <link href="//smus.com"/>
   <updated>{{date_generated.Rfc()}}</updated>
-  <id>http://smus.com/atom.xml</id>
+  <id>//smus.com/atom.xml</id>
   {% for post in posts %}
   <entry>
     <title>{{post.title}}</title>
@@ -15,7 +15,7 @@
     {% if post.date_created %}
     <updated>{{post.date_created.Rfc()}}</updated>
     {% endif %}
-    <id>http://smus.com{{post.permalink}}</id>
+    <id>//smus.com{{post.permalink}}</id>
     <content type="html">
       <![CDATA[
       <div>
