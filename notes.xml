@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
+<feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="http://smus.com">
+      xml:base="//smus.com">
   <title>Boris Smus (Notes)</title>
-  <link href="http://smus.com/atom.xml" rel="self"/>
-  <link href="http://smus.com"/>
-  <updated>2018-05-16T09:51:52-00:00</updated>
-  <id>http://smus.com/atom.xml</id>
+  <link href="//smus.com/atom.xml" rel="self"/>
+  <link href="//smus.com"/>
+  <updated>2018-06-03T21:56:55-00:00</updated>
+  <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Required reading for VR enthusiasts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/required-reading-for-vr-enthusiasts/"/>
+    
+    <updated>2018-06-03T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/required-reading-for-vr-enthusiasts/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Several books, movies, and articles have helped to shape my opinions on Virtual
+Reality. I've was initially surprised by some former colleagues that it is
+possible to view these works as aspirational rather than cautionary. I generally
+prefer the dystopian interpretation. </p>
+
+<ul>
+<li>📚 Ray Bradbury - <a href="http://www.veddma.com/veddma/Veldt.htm">The Veldt</a></li>
+<li>📚 Neil Stephenson - Snow Crash</li>
+<li>📚 Stanislav Lem - The Futurological Congress</li>
+<li>📚 Vernor Vinge - Rainbow's End</li>
+<li>📚 Ernst Kline - Ready Player One</li>
+<li>🎥 Black Mirror S3 E2: <a href="http://www.theverge.com/2016/10/25/13401020/black-mirror-season-3-episode-2-playtest-recap">Playtest</a></li>
+<li>🎥 The Matrix</li>
+<li>🎵 Father John Misty - <a href="https://genius.com/Father-john-misty-total-entertainment-forever-lyrics">Total Entertainment Forever</a></li>
+<li>📜 <a href="http://slatestarcodex.com/2014/06/03/asches-to-asches/">Asches to Asches</a></li>
+<li>📜 Robert Nozick's <a href="https://en.wikipedia.org/wiki/Experience_machine">experience machine</a></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Balancing technological pessimism</title>
@@ -15,7 +51,7 @@
     
     <updated>2018-05-16T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2018/balancing-technological-pessimism/</id>
+    <id>//smus.com/notes/2018/balancing-technological-pessimism/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -71,7 +107,7 @@ the traps that ensnared previous generations of techno pessimists.</p>
     
     <updated>2018-04-12T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2018/how-rationalists-can-win/</id>
+    <id>//smus.com/notes/2018/how-rationalists-can-win/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -146,7 +182,7 @@ beliefs.</p>
     
     <updated>2017-08-24T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/a-respectful-truce/</id>
+    <id>//smus.com/notes/2017/a-respectful-truce/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -217,7 +253,7 @@ Advocates of evolutionary psychology should:</p>
     
     <updated>2017-07-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/the-end-of-endings/</id>
+    <id>//smus.com/notes/2017/the-end-of-endings/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -257,7 +293,7 @@ constructed to consume your attention for as long as possible.</p>
     
     <updated>2017-07-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/intelligence-aliens-and-self-improvement/</id>
+    <id>//smus.com/notes/2017/intelligence-aliens-and-self-improvement/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -306,7 +342,7 @@ we reduce the machine menace problem to merely the evils of humanity. </p></li>
     
     <updated>2017-06-20T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/convincing-the-inconvincible/</id>
+    <id>//smus.com/notes/2017/convincing-the-inconvincible/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -355,7 +391,7 @@ even though you probably know a lot about their ideas already. </p></li>
     
     <updated>2017-06-01T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/remembering-my-personal-wiki/</id>
+    <id>//smus.com/notes/2017/remembering-my-personal-wiki/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -405,7 +441,7 @@ teens and early twenties. Je me souviens.</p>
     
     <updated>2017-05-28T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/short-posts-using-split-markdown/</id>
+    <id>//smus.com/notes/2017/short-posts-using-split-markdown/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -464,7 +500,7 @@ increasing frequency.</p>
     
     <updated>2017-05-24T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/analogies-from-the-industrial-revolution/</id>
+    <id>//smus.com/notes/2017/analogies-from-the-industrial-revolution/</id>
     <content type="html">
       <![CDATA[
       <div>
