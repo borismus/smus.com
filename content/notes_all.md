@@ -4,6 +4,33 @@ type: note
 class: split
 
 
+Required reading for VR enthusiasts
+===
+posted: June 3, 2018
+
+Several books, movies, and articles have helped to shape my opinions on Virtual
+Reality. I've was initially surprised by some former colleagues that it is
+possible to view these works as aspirational rather than cautionary. I generally
+prefer the dystopian interpretation. 
+
+- 📚 Ray Bradbury - [The Veldt][bradbury]
+- 📚 Neil Stephenson - Snow Crash
+- 📚 Stanislav Lem - The Futurological Congress
+- 📚 Vernor Vinge - Rainbow's End
+- 📚 Ernst Kline - Ready Player One
+- 🎥 Black Mirror S3 E2: [Playtest][bm]
+- 🎥 The Matrix
+- 🎵 Father John Misty - [Total Entertainment Forever][misty]
+- 📜 [Asches to Asches][asches]
+- 📜 Robert Nozick's [experience machine][nozick]
+
+[bm]: http://www.theverge.com/2016/10/25/13401020/black-mirror-season-3-episode-2-playtest-recap
+[bradbury]: http://www.veddma.com/veddma/Veldt.htm
+[misty]: https://genius.com/Father-john-misty-total-entertainment-forever-lyrics
+[nozick]: https://en.wikipedia.org/wiki/Experience_machine
+[asches]: http://slatestarcodex.com/2014/06/03/asches-to-asches/
+
+
 Balancing technological pessimism
 ===
 posted: May 16, 2018
