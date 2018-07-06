@@ -5,17 +5,86 @@
   <title>Boris Smus (Books)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-06-03T21:57:25-00:00</updated>
+  <updated>2018-07-05T18:00:27-00:00</updated>
   <id>//smus.com/atom.xml</id>
   
   <entry>
-    <title>You Belong to the Universe</title>
+    <title>Darkness at Noon by Arthur Koestler (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/you-belong-to-the-universe"/>
+    <link href="/books/darkness-at-noon-by-arthur-koestler-audio"/>
+    
+    <updated>2018-07-05T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/darkness-at-noon-by-arthur-koestler-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I learned about "Darkness at Noon" from a <a href="/books/reason-in-human-affairs-by-herbert-simon/">Herb Simon
+essay</a>, where he praised
+emotional story telling as a vehicle for helping people "attend to issues
+longer, to think harder about them, to receive deeper impressions that last
+longer". He asked: would you rather read "Darkness at Noon", or verbatim
+transcripts of Stalin's purges?</p>
+
+<p>The book is historical fiction loosely based on 1930s Soviet Russia. Supposed
+counter revolutionary movements are being quashed by Stalin. The "hero",
+Nicholas Rubashov finds himself in the middle of absurd Stalinist show trials,
+having to publicly admit to crimes he never committed. The intent of his captor
+is “to gild the right, to blacken the wrong”, ingraining black and white thinking
+into the masses. The means and ends of the current government are good and just
+and pure, and everything that opposes it is hellspawn and deserves only one
+fate. Despite Rubashov's intention to deliver an impassioned speech
+like Danton did before the guillotine, he finds himself powerless against the
+Soviet machine, mechanically pleading guilty in the show trial, and then being
+put to death.</p>
+
+<p>That isn't to say that Rubashov is innocent. As a younger man fervently
+dedicated to the party, he indirectly condemned his own lover to death,
+supposedly for the sake of the collective. Now in jail, and softened by sudden
+onsets of nuance, the former revolutionary has time to reflect. Intensely
+psychological, the book delves into Rubashov's evolution as he realizes that
+human life is sacred and no idea is worth sacrificing it for. Rational
+mathematics does not apply in this domain, and Rubashov eventually becomes a
+humanist. Fundamentally, Koestler's powerful critique of Stalinism is that the
+ends do not justify the means.</p>
+
+<p>Late in the book, a distinction between two kinds of suffering:</p>
+
+<ol>
+<li>Biological: Inevitable suffering from unmet basic needs.</li>
+<li>Social: Avoidable suffering from broken social systems.</li>
+</ol>
+
+<p>Koestler observes that Revolution reduces Type 2 suffering but inevitably
+increases to Tyle 1 suffering. Was the Russian Revolution justified? When is
+revolution ever justified?  Through Rubashov, he wrestles with this issue,
+acknowledging the need for social change, but questioning the means:</p>
+
+<blockquote>
+  <p>One cannot heal a person mortally ill by pious exhortations. The only solution
+  was the surgeon's knife and his cool calculation. But wherever the knife had
+  been applied, a new sore had appeared in place of the old.</p>
+</blockquote>
+
+<p>I really liked this book. Not having read the transcript of Stalin's purges, I
+am going to assume that Herbert Simon was right: Darkness at Noon is well
+written, interesting, and visceral.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>You Belong to the Universe (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/you-belong-to-the-universe-audio"/>
     
     <updated>2018-05-28T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/you-belong-to-the-universe</id>
+    <id>//smus.com/books/you-belong-to-the-universe-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -122,7 +191,7 @@ if it is aggressively edited, I will give it another chance.</p>
       <div>
         <p>One of the people I worked with at CMU was a "Herbert A. Simon Professor of
 Human-Computer Interaction". I hadn't heard of Herbert Simon before, but his
-name came up again recently at the end of "Skin in the Game". Turns out Simon
+name came up again recently at the end of <a href="/books/skin-in-the-game-by-taleb-audio/">"Skin in the Game"</a>. Turns out Simon
 was a pretty interesting guy, and had a lot to say about Rationality.</p>
 
 <p>Simon was an academic, and mostly wrote for academic audiences. This is his
@@ -2635,7 +2704,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-03T09:00:00-00:00</updated>
+    <updated>2017-06-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -2860,7 +2929,7 @@ paper ended, so had to finish reading the last page online.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-03T09:00:00-00:00</updated>
+    <updated>2017-05-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -2903,7 +2972,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-03T09:00:00-00:00</updated>
+    <updated>2017-05-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3098,7 +3167,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-03T09:00:00-00:00</updated>
+    <updated>2017-05-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3163,7 +3232,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-03T09:00:00-00:00</updated>
+    <updated>2017-04-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3257,7 +3326,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-03T09:00:00-00:00</updated>
+    <updated>2017-03-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3307,7 +3376,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-03T09:00:00-00:00</updated>
+    <updated>2017-03-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3344,7 +3413,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-03T09:00:00-00:00</updated>
+    <updated>2017-02-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -3412,7 +3481,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-03T09:00:00-00:00</updated>
+    <updated>2017-02-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -3440,7 +3509,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-03T09:00:00-00:00</updated>
+    <updated>2017-01-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -3501,7 +3570,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-03T09:00:00-00:00</updated>
+    <updated>2017-01-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -3536,7 +3605,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-03T09:00:00-00:00</updated>
+    <updated>2017-01-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -3603,7 +3672,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-03T09:00:00-00:00</updated>
+    <updated>2016-12-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -3694,7 +3763,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-03T09:00:00-00:00</updated>
+    <updated>2016-11-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -3740,7 +3809,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-03T09:00:00-00:00</updated>
+    <updated>2016-10-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/future-babble</id>
     <content type="html">
@@ -3804,7 +3873,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-03T09:00:00-00:00</updated>
+    <updated>2016-10-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -3838,7 +3907,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-03T09:00:00-00:00</updated>
+    <updated>2016-09-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -3900,7 +3969,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-03T09:00:00-00:00</updated>
+    <updated>2016-09-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -3986,7 +4055,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-03T09:00:00-00:00</updated>
+    <updated>2016-08-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4281,7 +4350,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-03T09:00:00-00:00</updated>
+    <updated>2016-08-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4317,7 +4386,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-03T09:00:00-00:00</updated>
+    <updated>2016-07-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4390,7 +4459,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-03T09:00:00-00:00</updated>
+    <updated>2016-07-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -4549,7 +4618,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-03T09:00:00-00:00</updated>
+    <updated>2016-07-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -4595,7 +4664,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-03T09:00:00-00:00</updated>
+    <updated>2016-07-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -4645,7 +4714,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-03T09:00:00-00:00</updated>
+    <updated>2016-06-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -4707,7 +4776,7 @@ groups I've had the pleasure of being part of:</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-one-minute-manager"/>
     
-    <updated>2016-06-03T09:00:00-00:00</updated>
+    <updated>2016-06-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-one-minute-manager</id>
     <content type="html">
@@ -4746,7 +4815,7 @@ people. (This seems quite hard to pull off without being a dick).</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/gantenbein-by-max-frisch"/>
     
-    <updated>2016-06-03T09:00:00-00:00</updated>
+    <updated>2016-06-05T09:00:00-00:00</updated>
     
     <id>//smus.com/books/gantenbein-by-max-frisch</id>
     <content type="html">
@@ -4779,85 +4848,6 @@ loved, like when one of the characters attends his own funeral. And I was
 surprised to, after finishing it, have a feeling that some coherence emerged by
 the end. My understanding of this book would benefit from a re-reading, but I
 know that this is unlikely to happen.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Physics Beyond the Edge (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/physics-beyond-the-edge-audio"/>
-    
-    <updated>2016-06-03T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/physics-beyond-the-edge-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>An interesting follow up to what I remember from high school &amp; first year
-physics. My guess is that the subject of the class is too basic for those with a
-degree in physics, but this is something I should ask Alex! I really liked how
-all of the topics flowed into each other. I found this to be somewhat surprising
-given Einstein's failed struggle to find some unified theory of everything. This
-is probably credit to the lecturer, who, in addition to being a great
-instructor, also coined the term <a href="https://en.wikipedia.org/wiki/Qubit">qubit</a>.</p>
-
-<p>The structure of the class follows Arthur C. Clark's second law:</p>
-
-<blockquote>
-  <p>The only way of discovering the limits of the possible is to venture a
-    little way past them into the impossible.</p>
-</blockquote>
-
-<p>The lecturer, Benjamin Schumacher, is quite engaging, and starts by breaking
-impossibility down in terms of logical, physical and statistical terms. He then
-goes into thermodynamics, framing the first and second laws in terms of
-<a href="https://en.wikipedia.org/wiki/Perpetual_motion#Classification">perpetual motion machines</a>.</p>
-
-<p>I enjoyed the various Demons that show up in this lecture. <a href="https://en.wikipedia.org/wiki/Maxwell%27s_demon">Maxwell's
-demon</a> can control a flap between two chambers to make sure that
-eventually all of the molecules end up in one of the chambers (thus decreasing
-entropy). <a href="https://en.wikipedia.org/wiki/Laplace%27s_demon">Laplace's demon</a> is able to, from knowing the current state
-of the world, predict the future perfectly. Both of these thought experiments
-are forays into the impossible that, when disproven, set the stage for the third
-law of thermodynamics and chaos / quantum mechanics.</p>
-
-<p>The section on space-time was fascinating, and served as a good introduction to
-space-time diagrams (aka <a href="https://en.wikipedia.org/wiki/Minkowski_diagram">Minkowski diagrams</a>), which I really liked.
-Although, one thing that was missing is the visual element. Although very
-lightweight in mathematical treatment, there were clearly some materials that
-supplemented the lectures, which would have made learning easier. The whole
-discussion on faster-than-light travel, time travel, and quantum cloning was
-tied together nicely through the lens of the impossible. By the way, space-time
-diagrams seem to be the reason for this <a href="http://physics.stackexchange.com/questions/25460/can-we-see-all-of-the-observable-universe">observable universe
-thing</a>.</p>
-
-<p>Which brings us to Quantum. I've been interested in being interested in the
-topic for a while because it's so unintuitive and strange. Schumacher's
-overview is good, but I'm obviously still very confused. He outlines basics of
-Quantum Mechanics:</p>
-
-<ol>
-<li>Wave-particle duality: light has both wave and particle like behaviors.</li>
-<li>Uncertainty: position and momentum of a quantum particle cannot both be
-known.</li>
-<li>Tunneling: because of this uncertainty, quantum particles can tunnel through
-what in newtonian mechanics are inpenetrable barriers.</li>
-</ol>
-
-<p>There seem to be some fundamental truths about symmetry as pertaining to
-conservation laws. <a href="https://en.wikipedia.org/wiki/Noether%27s_theorem">Noether's theorem</a> seems remarkably deep but way
-over my head, which states that every symmetry in physics has some associated
-conservation law.</p>
-
-<p>I was also somewhat lost in the information theory asides (the lecturer's
-specialty is information theory). That information theory is a branch of physics
-at all is mysterious to me. Probably worth learning more about, though, given my
-information-related profession.</p>
 
 
         
