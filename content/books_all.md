@@ -4,7 +4,60 @@ class: split
 type: book
 
 
-You Belong to the Universe
+Darkness at Noon by Arthur Koestler (audio)
+===
+posted: July 5, 2018
+rating: yes
+
+I learned about "Darkness at Noon" from a [Herb Simon
+essay](/books/reason-in-human-affairs-by-herbert-simon/), where he praised
+emotional story telling as a vehicle for helping people "attend to issues
+longer, to think harder about them, to receive deeper impressions that last
+longer". He asked: would you rather read "Darkness at Noon", or verbatim
+transcripts of Stalin's purges?
+
+The book is historical fiction loosely based on 1930s Soviet Russia. Supposed
+counter revolutionary movements are being quashed by Stalin. The "hero",
+Nicholas Rubashov finds himself in the middle of absurd Stalinist show trials,
+having to publicly admit to crimes he never committed. The intent of his captor
+is “to gild the right, to blacken the wrong”, ingraining black and white thinking
+into the masses. The means and ends of the current government are good and just
+and pure, and everything that opposes it is hellspawn and deserves only one
+fate. Despite Rubashov's intention to deliver an impassioned speech
+like Danton did before the guillotine, he finds himself powerless against the
+Soviet machine, mechanically pleading guilty in the show trial, and then being
+put to death.
+
+That isn't to say that Rubashov is innocent. As a younger man fervently
+dedicated to the party, he indirectly condemned his own lover to death,
+supposedly for the sake of the collective. Now in jail, and softened by sudden
+onsets of nuance, the former revolutionary has time to reflect. Intensely
+psychological, the book delves into Rubashov's evolution as he realizes that
+human life is sacred and no idea is worth sacrificing it for. Rational
+mathematics does not apply in this domain, and Rubashov eventually becomes a
+humanist. Fundamentally, Koestler's powerful critique of Stalinism is that the
+ends do not justify the means.
+
+Late in the book, a distinction between two kinds of suffering:
+
+1. Biological: Inevitable suffering from unmet basic needs.
+2. Social: Avoidable suffering from broken social systems.
+
+Koestler observes that Revolution reduces Type 2 suffering but inevitably
+increases to Tyle 1 suffering. Was the Russian Revolution justified? When is
+revolution ever justified?  Through Rubashov, he wrestles with this issue,
+acknowledging the need for social change, but questioning the means:
+
+> One cannot heal a person mortally ill by pious exhortations. The only solution
+> was the surgeon's knife and his cool calculation. But wherever the knife had
+> been applied, a new sore had appeared in place of the old.
+
+I really liked this book. Not having read the transcript of Stalin's purges, I
+am going to assume that Herbert Simon was right: Darkness at Noon is well
+written, interesting, and visceral.
+
+
+You Belong to the Universe (audio)
 ===
 posted: May 28, 2018
 rating: no
@@ -88,7 +141,7 @@ rating: yes
 
 One of the people I worked with at CMU was a "Herbert A. Simon Professor of
 Human-Computer Interaction". I hadn't heard of Herbert Simon before, but his
-name came up again recently at the end of "Skin in the Game". Turns out Simon
+name came up again recently at the end of ["Skin in the Game"](/books/skin-in-the-game-by-taleb-audio/). Turns out Simon
 was a pretty interesting guy, and had a lot to say about Rationality.
 
 Simon was an academic, and mostly wrote for academic audiences. This is his
