@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
+<feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="http://smus.com">
+      xml:base="//smus.com">
   <title>Boris Smus</title>
-  <link href="http://smus.com/atom.xml" rel="self"/>
-  <link href="http://smus.com"/>
-  <updated>2018-05-28T15:38:25-00:00</updated>
-  <id>http://smus.com/atom.xml</id>
+  <link href="//smus.com/atom.xml" rel="self"/>
+  <link href="//smus.com"/>
+  <updated>2018-07-05T17:55:21-00:00</updated>
+  <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Required reading for VR enthusiasts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/required-reading-for-vr-enthusiasts/"/>
+    
+    <updated>2018-06-03T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/required-reading-for-vr-enthusiasts/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Several books, movies, and articles have helped to shape my opinions on Virtual
+Reality. I've was initially surprised by some former colleagues that it is
+possible to view these works as aspirational rather than cautionary. I generally
+prefer the dystopian interpretation. </p>
+
+<ul>
+<li>📚 Ray Bradbury - <a href="http://www.veddma.com/veddma/Veldt.htm">The Veldt</a></li>
+<li>📚 Neil Stephenson - Snow Crash</li>
+<li>📚 Stanislav Lem - The Futurological Congress</li>
+<li>📚 Vernor Vinge - Rainbow's End</li>
+<li>📚 Ernst Kline - Ready Player One</li>
+<li>🎥 Black Mirror S3 E2: <a href="http://www.theverge.com/2016/10/25/13401020/black-mirror-season-3-episode-2-playtest-recap">Playtest</a></li>
+<li>🎥 The Matrix</li>
+<li>🎵 Father John Misty - <a href="https://genius.com/Father-john-misty-total-entertainment-forever-lyrics">Total Entertainment Forever</a></li>
+<li>📜 <a href="http://slatestarcodex.com/2014/06/03/asches-to-asches/">Asches to Asches</a></li>
+<li>📜 Robert Nozick's <a href="https://en.wikipedia.org/wiki/Experience_machine">experience machine</a></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Balancing technological pessimism</title>
@@ -15,7 +51,7 @@
     
     <updated>2018-05-16T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2018/balancing-technological-pessimism/</id>
+    <id>//smus.com/notes/2018/balancing-technological-pessimism/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -71,7 +107,7 @@ the traps that ensnared previous generations of techno pessimists.</p>
     
     <updated>2018-04-12T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2018/how-rationalists-can-win/</id>
+    <id>//smus.com/notes/2018/how-rationalists-can-win/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -146,7 +182,7 @@ beliefs.</p>
     
     <updated>2018-01-04T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-voice-command-recognition</id>
+    <id>//smus.com/web-voice-command-recognition</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -333,7 +369,7 @@ training</a> and <a href="https://google.github.io/web-audio-recognition/inferen
     
     <updated>2017-12-15T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-audio-ml-features</id>
+    <id>//smus.com/web-audio-ml-features</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -565,7 +601,7 @@ learning part? That's the <a href="/web-voice-command-recognition/">next post</a
     
     <updated>2017-10-28T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2017</id>
+    <id>//smus.com/uist-2017</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -864,7 +900,7 @@ Seattle. </p>
     
     <updated>2017-10-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/memento-mori</id>
+    <id>//smus.com/memento-mori</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -894,7 +930,7 @@ Seattle. </p>
     
     <updated>2017-08-24T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/a-respectful-truce/</id>
+    <id>//smus.com/notes/2017/a-respectful-truce/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -965,7 +1001,7 @@ Advocates of evolutionary psychology should:</p>
     
     <updated>2017-08-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/filter-playground</id>
+    <id>//smus.com/filter-playground</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1261,7 +1297,7 @@ me know <a href="https://twitter.com/borismus">via twitter</a> or <a href="http:
     
     <updated>2017-07-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/the-end-of-endings/</id>
+    <id>//smus.com/notes/2017/the-end-of-endings/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1301,7 +1337,7 @@ constructed to consume your attention for as long as possible.</p>
     
     <updated>2017-07-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/intelligence-aliens-and-self-improvement/</id>
+    <id>//smus.com/notes/2017/intelligence-aliens-and-self-improvement/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1350,7 +1386,7 @@ we reduce the machine menace problem to merely the evils of humanity. </p></li>
     
     <updated>2017-06-20T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/convincing-the-inconvincible/</id>
+    <id>//smus.com/notes/2017/convincing-the-inconvincible/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1399,7 +1435,7 @@ even though you probably know a lot about their ideas already. </p></li>
     
     <updated>2017-06-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/climate-metaquiz-results</id>
+    <id>//smus.com/climate-metaquiz-results</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1502,7 +1538,7 @@ let me know and I'll send you your personal results.</p>
     
     <updated>2017-06-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/viewpoint-tolerance-through-curiosity</id>
+    <id>//smus.com/viewpoint-tolerance-through-curiosity</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1635,7 +1671,7 @@ Dziękuję!</p>
     
     <updated>2017-06-01T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/remembering-my-personal-wiki/</id>
+    <id>//smus.com/notes/2017/remembering-my-personal-wiki/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1685,7 +1721,7 @@ teens and early twenties. Je me souviens.</p>
     
     <updated>2017-05-28T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/short-posts-using-split-markdown/</id>
+    <id>//smus.com/notes/2017/short-posts-using-split-markdown/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1744,7 +1780,7 @@ increasing frequency.</p>
     
     <updated>2017-05-24T09:00:00-00:00</updated>
     
-    <id>http://smus.com/notes/2017/analogies-from-the-industrial-revolution/</id>
+    <id>//smus.com/notes/2017/analogies-from-the-industrial-revolution/</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1789,7 +1825,7 @@ inventing way of solving a problem using new technology? Totally creative. </p><
     
     <updated>2017-03-05T09:00:00-00:00</updated>
     
-    <id>http://smus.com/debaters-friendly-disagreement</id>
+    <id>//smus.com/debaters-friendly-disagreement</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2038,7 +2074,7 @@ important problem space.</p>
     
     <updated>2017-02-17T09:00:00-00:00</updated>
     
-    <id>http://smus.com/headlines-meet-sparklines-news-in-context</id>
+    <id>//smus.com/headlines-meet-sparklines-news-in-context</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2330,7 +2366,7 @@ citizens. What do you think?</p>
     
     <updated>2017-02-01T09:00:00-00:00</updated>
     
-    <id>http://smus.com/making-better-decisions</id>
+    <id>//smus.com/making-better-decisions</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2561,7 +2597,7 @@ that this method can be useful for some.</p>
     
     <updated>2016-12-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/front-page-blues</id>
+    <id>//smus.com/front-page-blues</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2839,7 +2875,7 @@ tactic: avoid mentioning their name.</p></li>
     
     <updated>2016-11-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-view-2.0</id>
+    <id>//smus.com/vr-view-2.0</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2919,7 +2955,7 @@ substantially reduce the size of the library.</p>
     
     <updated>2016-11-13T09:00:00-00:00</updated>
     
-    <id>http://smus.com/election-2016</id>
+    <id>//smus.com/election-2016</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3062,7 +3098,7 @@ as a relevant starting point.</p>
     
     <updated>2016-10-11T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ray-input-webvr-interaction-patterns</id>
+    <id>//smus.com/ray-input-webvr-interaction-patterns</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3157,7 +3193,7 @@ the resulting pose of the controller:</p>
     
     <updated>2016-08-08T09:00:00-00:00</updated>
     
-    <id>http://smus.com/copresence-webvr</id>
+    <id>//smus.com/copresence-webvr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3298,7 +3334,7 @@ using two of your own devices. Oh, and if you find bugs, please let me know via
     
     <updated>2016-05-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/inspirata</id>
+    <id>//smus.com/inspirata</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3421,7 +3457,7 @@ far as I know, is not possible in other visual bookmarking services.</p>
     
     <updated>2016-05-26T09:00:00-00:00</updated>
     
-    <id>http://smus.com/wikipedia-vr</id>
+    <id>//smus.com/wikipedia-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3546,7 +3582,7 @@ experiment comes to mind:</p>
     
     <updated>2016-04-20T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-lens-distortion</id>
+    <id>//smus.com/vr-lens-distortion</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3650,7 +3686,7 @@ method in <a href="http://www.gamasutra.com/blogs/BrianKehrer/20160125/264161/VR
     
     <updated>2016-03-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-views</id>
+    <id>//smus.com/vr-views</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3693,7 +3729,7 @@ to hear what you think!</p>
     
     <updated>2016-01-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/simulating-wealth-inequality</id>
+    <id>//smus.com/simulating-wealth-inequality</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4073,7 +4109,7 @@ however, I hope they are at least somewhat informative and interesting.</p>
     
     <updated>2015-11-05T09:00:00-00:00</updated>
     
-    <id>http://smus.com/sensor-fusion-prediction-webvr</id>
+    <id>//smus.com/sensor-fusion-prediction-webvr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4339,7 +4375,7 @@ filter-building skills to this project.</p>
     
     <updated>2015-09-23T09:00:00-00:00</updated>
     
-    <id>http://smus.com/hot-bread-delicious-deadly</id>
+    <id>//smus.com/hot-bread-delicious-deadly</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4489,7 +4525,7 @@ muffins. I'll keep you posted with the definitive truth!</p>
     
     <updated>2015-09-16T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ubicomp-iswc-2015</id>
+    <id>//smus.com/ubicomp-iswc-2015</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4741,7 +4777,7 @@ if somewhat non-sequitur ending to the conference.</p>
     
     <updated>2015-09-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/magnetic-input-mobile-vr</id>
+    <id>//smus.com/magnetic-input-mobile-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4937,7 +4973,7 @@ input works well, but I'll definitely miss the magnets!</p>
     
     <updated>2015-06-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/design-v5</id>
+    <id>//smus.com/design-v5</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5017,7 +5053,7 @@ plurality of the web!</p>
     
     <updated>2015-03-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/spatial-audio-web-vr</id>
+    <id>//smus.com/spatial-audio-web-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5214,7 +5250,7 @@ haircut simulation</a> just to illustrate the potential.</li>
     
     <updated>2015-02-02T09:00:00-00:00</updated>
     
-    <id>http://smus.com/responsive-vr</id>
+    <id>//smus.com/responsive-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5354,7 +5390,7 @@ out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerpl
     
     <updated>2014-11-13T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-sensor-api</id>
+    <id>//smus.com/web-sensor-api</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5601,7 +5637,7 @@ Join us!</em></p>
     
     <updated>2014-10-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2014</id>
+    <id>//smus.com/uist-2014</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5791,7 +5827,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
     
     <updated>2014-06-09T09:00:00-00:00</updated>
     
-    <id>http://smus.com/spectrogram-and-oscillator</id>
+    <id>//smus.com/spectrogram-and-oscillator</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5899,7 +5935,7 @@ rather than using the one built into Web Audio API.)</li>
     
     <updated>2014-05-21T09:00:00-00:00</updated>
     
-    <id>http://smus.com/addressable-apps</id>
+    <id>//smus.com/addressable-apps</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6084,7 +6120,7 @@ and not just the web, is a proposition worth considering.</p>
     
     <updated>2014-04-15T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ebb-of-the-web</id>
+    <id>//smus.com/ebb-of-the-web</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6344,7 +6380,7 @@ Thanks for reading, I eagerly await your thoughts :)</p>
     
     <updated>2014-01-27T09:00:00-00:00</updated>
     
-    <id>http://smus.com/remote-controls-web-media</id>
+    <id>//smus.com/remote-controls-web-media</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6560,7 +6596,7 @@ and want to help standardize!</p>
     
     <updated>2013-10-25T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2013</id>
+    <id>//smus.com/uist-2013</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6803,7 +6839,7 @@ compelling product.</p>
     
     <updated>2013-09-09T09:00:00-00:00</updated>
     
-    <id>http://smus.com/responsive-image-workflow</id>
+    <id>//smus.com/responsive-image-workflow</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6992,7 +7028,7 @@ available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic
     
     <updated>2013-08-08T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ultrasonic-networking</id>
+    <id>//smus.com/ultrasonic-networking</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7187,7 +7223,7 @@ data from mobile device to laptop is the only possible configuration.</p>
     
     <updated>2013-07-29T09:00:00-00:00</updated>
     
-    <id>http://smus.com/easier-link-blogging</id>
+    <id>//smus.com/easier-link-blogging</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7330,7 +7366,7 @@ tell me about it!</p>
     
     <updated>2013-06-25T09:00:00-00:00</updated>
     
-    <id>http://smus.com/installable-webapps</id>
+    <id>//smus.com/installable-webapps</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7746,7 +7782,7 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
     
     <updated>2013-05-03T09:00:00-00:00</updated>
     
-    <id>http://smus.com/gestural-music-direction</id>
+    <id>//smus.com/gestural-music-direction</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7905,7 +7941,7 @@ and evolve on <a href="https://github.com/borismus/gestural-music-direction">git
     
     <updated>2013-03-18T09:00:00-00:00</updated>
     
-    <id>http://smus.com/webaudio-book</id>
+    <id>//smus.com/webaudio-book</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7940,145 +7976,6 @@ me about $100. This was my first time paying anyone to do work for me.</p>
 helping. Also, thanks to <a href="http://www.kevincennis.com/">Kevin Ennis</a> who kindly donated the
 <a href="http://webaudioapi.com">webaudioapi.com</a> domain which I'm currently using to host the
 samples.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Really simple social syndication</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/really-simple-social-syndication"/>
-    
-    <updated>2013-03-14T09:00:00-00:00</updated>
-    
-    <id>http://smus.com/really-simple-social-syndication</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've been thinking about this for a while, but the recent <a href="http://googlereader.blogspot.ca/2013/03/powering-down-google-reader.html">sunset
-announcement of Google Reader</a> made me revisit this topic.
-Google Reader isn't the only thing that's dead. RSS (aka. Really Simple
-Syndication) has long been proclaimed dead as well. In fact most people
-never even knew what RSS was. That said, it was a very useful tool for
-me and many others that like to stay up-to-date in their areas of
-interest. Increasingly, I've been getting my dose of news through social
-networks. However, social networks contain a lot of noise that I care
-little for. I want to rebuild the RSS spirit using modern social
-networks. This post describes one possible approach, which I refer to as
-<strong>Really Simple Social Syndication (RSSS)</strong>.</p>
-
-<!--more-->
-
-<h2>Really simple syndication: the good old days</h2>
-
-<p>Here's what the content flow used to be with blogs and RSS:</p>
-
-<p><img src="rss-flow.png" alt="RSS-based content syndication" /></p>
-
-<p>It was simple. Really simple, actually!</p>
-
-<h2>Social syndication: today</h2>
-
-<p>I don't care much for social networks. I mostly see them as a two-way
-utility for ultimately connecting content creators to content consumers.</p>
-
-<p>One way, social networks like Facebook, Twitter, G+, etc are just
-vehicles for finding out what to read based on your interests. I spend
-too much time checking them individually for my news, and this is
-unfortunate. </p>
-
-<p>The other way, social networks make it easier to have your content read
-by a bunch of the right people. In my case, the vast majority of
-non-organic search traffic comes from social sources (mostly twitter). I
-waste a bit of time tweeting, and G+ing new posts on my blog as they
-come out, but sometimes they are picked up by others and I don't
-actually need to do that.</p>
-
-<p>As long as the content itself stays outside of the walled gardens of the
-social networks, I think we can come to a syndication solution that
-might rival the old RSS-based one, but enjoy the benefits of having some
-extra signals from all of the social network junk. Here's the model I'm
-thinking of:</p>
-
-<p><img src="social-flow.png" alt="Social-based content syndication" /></p>
-
-<p>Now for a little bit more about Pub and Sub.</p>
-
-<h2>Sub: Requirements for consumption</h2>
-
-<ul>
-<li><p><strong>Reuse existing feeds</strong>. I don't want to re-create my sources. Use
-existing people you follow on Twitter, from G+ circles, Facebook
-friends.</p></li>
-<li><p><strong>De-duplicated content</strong>. Some people post the same link on multiple
-networks. Some popular posts are reshared by everyone. I only want to
-see a post once.</p></li>
-<li><p><strong>Content centric</strong>. Show me the content in some standard, readable
-way. Hide the social stuff unless I explicitly ask. Most of the time I
-don't care where it came from, don't care how many people liked it, or
-what they wrote in the comments. Sometimes I'm curious and want a way
-to trace it back.</p></li>
-<li><p><strong>Social signals as a metric</strong>. If many of my sources share something,
-I probably should at least take a skim.</p></li>
-<li><p><strong>Web based service</strong> so that I can use it anywhere.</p></li>
-<li><p>Set a <strong>volume-based daily quota</strong>. If I'm busy today I'd like to only
-see the top N articles, sorted by some transparent metric of my
-choosing.</p></li>
-</ul>
-
-<p>Flipboard, Pulse, Feedly all sort of fit into this class of readers.
-Ideally this would be an API that just lets me connect a few social
-accounts, and get back a filtered feed of content. This could be the API
-for the product - a Really Simple Social Syndication (RSSS) feed.</p>
-
-<p>Anyone could then build a UI on top of it for their favorite platform
-(Google Reader-like).</p>
-
-<h2>Pub: Requirements for content production</h2>
-
-<ul>
-<li><p>Automatically post content to a bunch of social services. </p></li>
-<li><p>Intelligent shortening of links and content (eg. for twitter, to fit
-in 140 chars).</p></li>
-</ul>
-
-<p>Wordpress plugins, Tumblr and others provide ways to automatically tweet
-and otherwise post new updates to your content. There needs to be some
-other way that works in general for any type of content. Such a service
-could be similar to feedburner, in that it would take an existing RSS
-feed and socialize it.</p>
-
-<h2>Social networks, let's be friends!</h2>
-
-<p>I'm not religious about Google Reader or RSS. It was a good solution for
-content syndication at the time, but I'm ready to accept that perhaps
-it's time to move on. Hopefully with tools like the above, we can have
-something that comes close to the utility of RSS feeds.</p>
-
-<p>Social networks could do some evil stuff which would preclude RSSS from
-happening. Economically, they are incentivized own content, create
-walled gardens, insert advertisements, and prevent access to their
-feeds. I'm hoping that some human element will prevent that from
-happening.</p>
-
-<p>Here is a short list of what we need from the social networks:</p>
-
-<ul>
-<li><p>The content itself must be free from walled gardens (eg. paywalls,
-login walls, etc)</p></li>
-<li><p>Social network feeds are available to read in full, as is, without
-magical suggestions, collaborative filtering, etc.</p></li>
-<li><p>Social networks provide some programmatic way to post content.</p></li>
-</ul>
-
-<p>Once we have a good flow for the production and consumption of content,
-using social networks as a delivery mechanism, I will be very happy to
-minimize the amount of time spent on social networks directly, and focus
-on consuming and producing interesting things. Also, happy &pi; day!</p>
 
 
         

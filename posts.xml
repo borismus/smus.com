@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
+<feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="http://smus.com">
+      xml:base="//smus.com">
   <title>Boris Smus (Posts)</title>
-  <link href="http://smus.com/atom.xml" rel="self"/>
-  <link href="http://smus.com"/>
-  <updated>2018-05-28T15:38:25-00:00</updated>
-  <id>http://smus.com/atom.xml</id>
+  <link href="//smus.com/atom.xml" rel="self"/>
+  <link href="//smus.com"/>
+  <updated>2018-07-05T17:55:21-00:00</updated>
+  <id>//smus.com/atom.xml</id>
   
   <entry>
     <title>Web-based voice command recognition</title>
@@ -15,7 +15,7 @@
     
     <updated>2018-01-04T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-voice-command-recognition</id>
+    <id>//smus.com/web-voice-command-recognition</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -202,7 +202,7 @@ training</a> and <a href="https://google.github.io/web-audio-recognition/inferen
     
     <updated>2017-12-15T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-audio-ml-features</id>
+    <id>//smus.com/web-audio-ml-features</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -434,7 +434,7 @@ learning part? That's the <a href="/web-voice-command-recognition/">next post</a
     
     <updated>2017-10-28T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2017</id>
+    <id>//smus.com/uist-2017</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -733,7 +733,7 @@ Seattle. </p>
     
     <updated>2017-10-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/memento-mori</id>
+    <id>//smus.com/memento-mori</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -763,7 +763,7 @@ Seattle. </p>
     
     <updated>2017-08-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/filter-playground</id>
+    <id>//smus.com/filter-playground</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1059,7 +1059,7 @@ me know <a href="https://twitter.com/borismus">via twitter</a> or <a href="http:
     
     <updated>2017-06-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/climate-metaquiz-results</id>
+    <id>//smus.com/climate-metaquiz-results</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1162,7 +1162,7 @@ let me know and I'll send you your personal results.</p>
     
     <updated>2017-06-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/viewpoint-tolerance-through-curiosity</id>
+    <id>//smus.com/viewpoint-tolerance-through-curiosity</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1295,7 +1295,7 @@ Dziękuję!</p>
     
     <updated>2017-03-05T09:00:00-00:00</updated>
     
-    <id>http://smus.com/debaters-friendly-disagreement</id>
+    <id>//smus.com/debaters-friendly-disagreement</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1544,7 +1544,7 @@ important problem space.</p>
     
     <updated>2017-02-17T09:00:00-00:00</updated>
     
-    <id>http://smus.com/headlines-meet-sparklines-news-in-context</id>
+    <id>//smus.com/headlines-meet-sparklines-news-in-context</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1836,7 +1836,7 @@ citizens. What do you think?</p>
     
     <updated>2017-02-01T09:00:00-00:00</updated>
     
-    <id>http://smus.com/making-better-decisions</id>
+    <id>//smus.com/making-better-decisions</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2067,7 +2067,7 @@ that this method can be useful for some.</p>
     
     <updated>2016-12-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/front-page-blues</id>
+    <id>//smus.com/front-page-blues</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2345,7 +2345,7 @@ tactic: avoid mentioning their name.</p></li>
     
     <updated>2016-11-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-view-2.0</id>
+    <id>//smus.com/vr-view-2.0</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2425,7 +2425,7 @@ substantially reduce the size of the library.</p>
     
     <updated>2016-11-13T09:00:00-00:00</updated>
     
-    <id>http://smus.com/election-2016</id>
+    <id>//smus.com/election-2016</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2568,7 +2568,7 @@ as a relevant starting point.</p>
     
     <updated>2016-10-11T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ray-input-webvr-interaction-patterns</id>
+    <id>//smus.com/ray-input-webvr-interaction-patterns</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2663,7 +2663,7 @@ the resulting pose of the controller:</p>
     
     <updated>2016-08-08T09:00:00-00:00</updated>
     
-    <id>http://smus.com/copresence-webvr</id>
+    <id>//smus.com/copresence-webvr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2804,7 +2804,7 @@ using two of your own devices. Oh, and if you find bugs, please let me know via
     
     <updated>2016-05-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/inspirata</id>
+    <id>//smus.com/inspirata</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2927,7 +2927,7 @@ far as I know, is not possible in other visual bookmarking services.</p>
     
     <updated>2016-05-26T09:00:00-00:00</updated>
     
-    <id>http://smus.com/wikipedia-vr</id>
+    <id>//smus.com/wikipedia-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3052,7 +3052,7 @@ experiment comes to mind:</p>
     
     <updated>2016-04-20T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-lens-distortion</id>
+    <id>//smus.com/vr-lens-distortion</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3156,7 +3156,7 @@ method in <a href="http://www.gamasutra.com/blogs/BrianKehrer/20160125/264161/VR
     
     <updated>2016-03-31T09:00:00-00:00</updated>
     
-    <id>http://smus.com/vr-views</id>
+    <id>//smus.com/vr-views</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3199,7 +3199,7 @@ to hear what you think!</p>
     
     <updated>2016-01-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/simulating-wealth-inequality</id>
+    <id>//smus.com/simulating-wealth-inequality</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3579,7 +3579,7 @@ however, I hope they are at least somewhat informative and interesting.</p>
     
     <updated>2015-11-05T09:00:00-00:00</updated>
     
-    <id>http://smus.com/sensor-fusion-prediction-webvr</id>
+    <id>//smus.com/sensor-fusion-prediction-webvr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3845,7 +3845,7 @@ filter-building skills to this project.</p>
     
     <updated>2015-09-23T09:00:00-00:00</updated>
     
-    <id>http://smus.com/hot-bread-delicious-deadly</id>
+    <id>//smus.com/hot-bread-delicious-deadly</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3995,7 +3995,7 @@ muffins. I'll keep you posted with the definitive truth!</p>
     
     <updated>2015-09-16T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ubicomp-iswc-2015</id>
+    <id>//smus.com/ubicomp-iswc-2015</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4247,7 +4247,7 @@ if somewhat non-sequitur ending to the conference.</p>
     
     <updated>2015-09-07T09:00:00-00:00</updated>
     
-    <id>http://smus.com/magnetic-input-mobile-vr</id>
+    <id>//smus.com/magnetic-input-mobile-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4443,7 +4443,7 @@ input works well, but I'll definitely miss the magnets!</p>
     
     <updated>2015-06-10T09:00:00-00:00</updated>
     
-    <id>http://smus.com/design-v5</id>
+    <id>//smus.com/design-v5</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4523,7 +4523,7 @@ plurality of the web!</p>
     
     <updated>2015-03-19T09:00:00-00:00</updated>
     
-    <id>http://smus.com/spatial-audio-web-vr</id>
+    <id>//smus.com/spatial-audio-web-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4720,7 +4720,7 @@ haircut simulation</a> just to illustrate the potential.</li>
     
     <updated>2015-02-02T09:00:00-00:00</updated>
     
-    <id>http://smus.com/responsive-vr</id>
+    <id>//smus.com/responsive-vr</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4860,7 +4860,7 @@ out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerpl
     
     <updated>2014-11-13T09:00:00-00:00</updated>
     
-    <id>http://smus.com/web-sensor-api</id>
+    <id>//smus.com/web-sensor-api</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5107,7 +5107,7 @@ Join us!</em></p>
     
     <updated>2014-10-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2014</id>
+    <id>//smus.com/uist-2014</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5297,7 +5297,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
     
     <updated>2014-06-09T09:00:00-00:00</updated>
     
-    <id>http://smus.com/spectrogram-and-oscillator</id>
+    <id>//smus.com/spectrogram-and-oscillator</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5405,7 +5405,7 @@ rather than using the one built into Web Audio API.)</li>
     
     <updated>2014-05-21T09:00:00-00:00</updated>
     
-    <id>http://smus.com/addressable-apps</id>
+    <id>//smus.com/addressable-apps</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5590,7 +5590,7 @@ and not just the web, is a proposition worth considering.</p>
     
     <updated>2014-04-15T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ebb-of-the-web</id>
+    <id>//smus.com/ebb-of-the-web</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5850,7 +5850,7 @@ Thanks for reading, I eagerly await your thoughts :)</p>
     
     <updated>2014-01-27T09:00:00-00:00</updated>
     
-    <id>http://smus.com/remote-controls-web-media</id>
+    <id>//smus.com/remote-controls-web-media</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6066,7 +6066,7 @@ and want to help standardize!</p>
     
     <updated>2013-10-25T09:00:00-00:00</updated>
     
-    <id>http://smus.com/uist-2013</id>
+    <id>//smus.com/uist-2013</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6309,7 +6309,7 @@ compelling product.</p>
     
     <updated>2013-09-09T09:00:00-00:00</updated>
     
-    <id>http://smus.com/responsive-image-workflow</id>
+    <id>//smus.com/responsive-image-workflow</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6498,7 +6498,7 @@ available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic
     
     <updated>2013-08-08T09:00:00-00:00</updated>
     
-    <id>http://smus.com/ultrasonic-networking</id>
+    <id>//smus.com/ultrasonic-networking</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6693,7 +6693,7 @@ data from mobile device to laptop is the only possible configuration.</p>
     
     <updated>2013-07-29T09:00:00-00:00</updated>
     
-    <id>http://smus.com/easier-link-blogging</id>
+    <id>//smus.com/easier-link-blogging</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -6836,7 +6836,7 @@ tell me about it!</p>
     
     <updated>2013-06-25T09:00:00-00:00</updated>
     
-    <id>http://smus.com/installable-webapps</id>
+    <id>//smus.com/installable-webapps</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7252,7 +7252,7 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
     
     <updated>2013-05-03T09:00:00-00:00</updated>
     
-    <id>http://smus.com/gestural-music-direction</id>
+    <id>//smus.com/gestural-music-direction</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7411,7 +7411,7 @@ and evolve on <a href="https://github.com/borismus/gestural-music-direction">git
     
     <updated>2013-03-18T09:00:00-00:00</updated>
     
-    <id>http://smus.com/webaudio-book</id>
+    <id>//smus.com/webaudio-book</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7461,7 +7461,7 @@ samples.</p>
     
     <updated>2013-03-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/really-simple-social-syndication</id>
+    <id>//smus.com/really-simple-social-syndication</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7600,7 +7600,7 @@ on consuming and producing interesting things. Also, happy &pi; day!</p>
     
     <updated>2013-02-21T09:00:00-00:00</updated>
     
-    <id>http://smus.com/touch-laptop-experiments</id>
+    <id>//smus.com/touch-laptop-experiments</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7781,7 +7781,7 @@ touch laptops? Please share them below.</p>
     
     <updated>2013-01-16T09:00:00-00:00</updated>
     
-    <id>http://smus.com/moved-to-s3</id>
+    <id>//smus.com/moved-to-s3</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -7864,7 +7864,7 @@ tasks.</p>
     
     <updated>2013-01-11T09:00:00-00:00</updated>
     
-    <id>http://smus.com/mashup-of-things</id>
+    <id>//smus.com/mashup-of-things</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -8070,7 +8070,7 @@ early web so great.</p>
     
     <updated>2012-11-06T09:00:00-00:00</updated>
     
-    <id>http://smus.com/reusable-js-mvc-frameworks</id>
+    <id>//smus.com/reusable-js-mvc-frameworks</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -8246,7 +8246,7 @@ particular MVC framework or custom class system.</p>
     
     <updated>2012-09-12T09:00:00-00:00</updated>
     
-    <id>http://smus.com/how-the-web-should-work</id>
+    <id>//smus.com/how-the-web-should-work</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -8410,7 +8410,7 @@ comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBY
     
     <updated>2012-06-14T09:00:00-00:00</updated>
     
-    <id>http://smus.com/mouse-touch-pointer</id>
+    <id>//smus.com/mouse-touch-pointer</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -8567,7 +8567,7 @@ rotation, and tweaks to the system itself.</p>
     
     <updated>2012-06-06T09:00:00-00:00</updated>
     
-    <id>http://smus.com/platform-fertility</id>
+    <id>//smus.com/platform-fertility</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -8693,7 +8693,7 @@ of iOS is a resounding no. Sorry bro!</p>
     
     <updated>2012-05-02T09:00:00-00:00</updated>
     
-    <id>http://smus.com/physical-units</id>
+    <id>//smus.com/physical-units</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -9051,7 +9051,7 @@ pixels because this problem isn't going away any time soon.</p>
     
     <updated>2012-03-30T09:00:00-00:00</updated>
     
-    <id>http://smus.com/redesign-2012</id>
+    <id>//smus.com/redesign-2012</id>
     <content type="html">
       <![CDATA[
       <div>
