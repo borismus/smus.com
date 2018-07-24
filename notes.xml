@@ -5,8 +5,53 @@
   <title>Boris Smus (Notes)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-07-05T18:00:27-00:00</updated>
+  <updated>2018-07-24T10:52:35-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The difficult middle</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/the-difficult-middle/"/>
+    
+    <updated>2018-07-21T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/the-difficult-middle/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Monism gives life meaning through a single all-encompassing doctrine. Examples
+include some political ideologies, religions, and <a href="https://meaningness.com/non-theistic-eternalism">variants of
+rationality</a>. History has not been kind to those that have
+fervently followed such doctrines. But once you see flaws in Monism, it can be
+tempting to decide that life has <a href="https://meaningness.com/extreme-examples-eternalism-and-nihilism">no meaning at all</a>, falling
+into the trap of Nihilism.</p>
+
+<p><img src="https://i.imgur.com/WXdU3ef.gif" alt="Stuck" /></p>
+
+<p>The choice between these two extremes is a false one. <a href="https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative">Rationalists know
+this</a>. <a href="https://en.wikipedia.org/wiki/Middle_Way">Buddhists know this</a>. Philosophers know
+this too. David Chapman writes a <a href="https://meaningness.com/">whole blog</a> devoted to exploring
+the space in between. But I have found <a href="https://www.cs.utexas.edu/users/vl/notes/berlin.html">Isaiah Berlin</a>'s synthesis to
+be the most compelling:</p>
+
+<blockquote>
+  <p>Sobered by the 20th century’s failed utopias, [Berlin]
+  argued for a more modest liberal pluralism that makes room for multiple,
+  genuinely conflicting goods. Family and work, solidarity and autonomy, tradition
+  and innovation are really valuable, and really in tension.  – <a href="https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/">Alison
+  Gopnik</a></p>
+</blockquote>
+
+<p>In this view, we are condemned to an eternal balancing act, sometimes peering
+too far into the meaningless abyss, and other times relaxing too deeply into
+meaningful certainty. On balance, I hope to end up in this difficult middle.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Required reading for VR enthusiasts</title>
