@@ -4,6 +4,44 @@ type: note
 class: split
 
 
+The difficult middle
+===
+posted: July 21, 2018
+
+Monism gives life meaning through a single all-encompassing doctrine. Examples
+include some political ideologies, religions, and [variants of
+rationality][chapman-rationality]. History has not been kind to those that have
+fervently followed such doctrines. But once you see flaws in Monism, it can be
+tempting to decide that life has [no meaning at all][chapman-nihilism], falling
+into the trap of Nihilism.
+
+![Stuck](https://i.imgur.com/WXdU3ef.gif)
+
+The choice between these two extremes is a false one. [Rationalists know
+this][third-alternative]. [Buddhists know this][middle-way]. Philosophers know
+this too. David Chapman writes a [whole blog][meaningness] devoted to exploring
+the space in between. But I have found [Isaiah Berlin][berlin]'s synthesis to
+be the most compelling:
+
+> Sobered by the 20th century’s failed utopias, [Berlin]
+argued for a more modest liberal pluralism that makes room for multiple,
+genuinely conflicting goods. Family and work, solidarity and autonomy, tradition
+and innovation are really valuable, and really in tension.  – [Alison
+Gopnik][gopnik]
+
+In this view, we are condemned to an eternal balancing act, sometimes peering
+too far into the meaningless abyss, and other times relaxing too deeply into
+meaningful certainty. On balance, I hope to end up in this difficult middle.
+
+[berlin]: https://www.cs.utexas.edu/users/vl/notes/berlin.html
+[chapman-rationality]: https://meaningness.com/non-theistic-eternalism
+[chapman-nihilism]: https://meaningness.com/extreme-examples-eternalism-and-nihilism
+[meaningness]: https://meaningness.com/
+[middle-way]: https://en.wikipedia.org/wiki/Middle_Way
+[gopnik]: https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/ 
+[third-alternative]: https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative
+
+
 Required reading for VR enthusiasts
 ===
 posted: June 3, 2018
