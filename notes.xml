@@ -5,28 +5,8 @@
   <title>Boris Smus (Notes)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-08-28T15:25:15-00:00</updated>
+  <updated>2018-08-28T15:25:27-00:00</updated>
   <id>//smus.com/atom.xml</id>
-  
-  <entry>
-    <title>For long form content</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/for-long-form-content/"/>
-    
-    <updated>2018-08-28T09:00:00-00:00</updated>
-    
-    <id>//smus.com/notes/2018/for-long-form-content/</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Hi!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
   
   <entry>
     <title>Lynched on Twitter</title>
