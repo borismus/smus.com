@@ -5,8 +5,121 @@
   <title>Boris Smus (Books)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-07-05T17:55:21-00:00</updated>
+  <updated>2018-08-27T17:15:54-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Tao of Philosophy by Alan Watts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/tao-of-philosophy-by-alan-watts"/>
+    
+    <updated>2018-08-03T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/tao-of-philosophy-by-alan-watts</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Every society operates on very deeply rooted assumptions that are worth
+understanding. Watts thinks we can seek wisdom from Chinese and Indian culture
+to better understand our own. </p>
+
+<p>Watts is for a holistic view of self without boundaries. We humans have a clear
+distinction between the natural (eg. our bodies) and artificial (eg. our houses).
+But what about bees? Are bees natural and bee hives artificial? Clearly not.
+Watts runs with the boundary-less way of thinking about self and extends it to
+limits of our understanding. Watts points to a certain fundamental law of
+symmetry. Every coin has heads and tails, every inside has an outside. Waves,
+the fundamental unit of animal perception is composed from crests and troughs.
+You cannot have one without the other. His ultimate aim here is to try to
+eliminate the illusion of self. In this view, there’s no barrier between
+yourself and the rest, just a unified whole. </p>
+
+<p>Watts is a big fan of gerunds, and does a good job of taking an outside view:</p>
+
+<blockquote>
+  <p>The Apple tree “apples”, meaning it produces apples, and in the same way earth
+  “peoples”, producing intelligent humans. </p>
+</blockquote>
+
+<p>He breaks down various kinds of “why?” Which reminds me of Alex’s post that
+in Russian there are at least two words for why: зачем (instrumental: what is it
+for?) and почему (epistemic: how is it so?). Watts scoffs at the instrumental
+and gravitates towards the epistemic question.</p>
+
+<p>Relatedly, Watts preaches the need for purposelessness as an end in itself. If
+you play because it is good for you, you aren’t really playing. Playing has to
+be purposeless, like daydreaming or dancing for its own sake. Significance must
+be in itself, not for the sake of something else. Great example of Bach and
+baroque composers that are satisfying as is without having explicit meaning.
+Watts calls for us to embrace nonsense, pointing at Lewis Carroll’s whimsical
+“twas brillig...”, babbling choruses in English folk songs (eg. The Corries) and
+bopping to Jazz. </p>
+
+<p>He quotes G. K. Chesterton quite a bit, and I enjoyed the quotes he selected:</p>
+
+<blockquote>
+  <p>It is one thing to look with amazement at gorgon or griffin, a creature that
+  does not exist, but it is quite another thing to look at a hippopotamus, a
+  creature who does exist, but looks like he does not. – G. K. Chesterton</p>
+</blockquote>
+
+<p>Watts ends with a question: Is human nature flawed as in western
+conception? Or is it fundamentally trustworthy and essentially good as in the
+Chinese conception? The sentiment “I do not trust nature, it has to be watched”
+quickly leads to totalitarianism since you assume the worst in people.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Bad Blood by John Carreyrou</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/bad-blood-by-john-carreyrou"/>
+    
+    <updated>2018-07-20T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/bad-blood-by-john-carreyrou</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>A sad story about Theranos and it’s leadership, in large part Elisabeth Holmes,
+a tragic hero with a fatal flaw: unbridled ambition. </p>
+
+<p>The rest follows: unreasonably high confidence, sweeping major problems under
+the rug, and cargo cult worship dedicated to successful leaders. Which includes
+setting super high expectations for employees, fostering internal competition,
+demanding absolute loyalty and punishing any whiffs of dissent. </p>
+
+<p>What was most surprising to me were the many ethical breaches exhibited by
+Holmes herself: mixing business and romance, hiring exclusively political
+celebrities to your board, and showing almost no empathy for employees, while
+pursuing ruthless legal tactics in personal vendettas. </p>
+
+<p>It’s hard to say how fringe the Theranos story is. I’ve seen some parts in other
+Silicon Valley contexts, especially Steve Jobs worship, unreasonable levels of
+confidence in executives. And incredible secrecy for questionable reasons. </p>
+
+<p>But some parts of the Theranos story seem more unique, especially given their
+specialized domain of health care where I think many startups tread lightly
+because of the regulatory environment. Uber may be a good analogy and
+counterpoint here, playing hard and fast with regulation and actually
+succeeding. The stakes in health care are understandably higher and its probably
+a good thing Theranos was ultimately stopped. </p>
+
+<p>The Theranos story may in part be a cautionary tale of digital culture colliding
+with physical culture. But it is not helped by a morally compromised leader who
+believes that the ends justify the means. </p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Darkness at Noon by Arthur Koestler (audio)</title>
@@ -2609,102 +2722,11 @@ similarly researched argument from the other side to see where I land.</p>
   </entry>
   
   <entry>
-    <title>On Tyranny by Timothy Snyder</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/on-tyranny-by-timothy-snyder"/>
-    
-    <updated>2017-06-13T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/on-tyranny-by-timothy-snyder</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
-
-<p>Structured as a strange combination of trends that lead to tyranny and general
-life tips. Dangerous trends include the destruction of institutions and
-paramilitary rule. As for life tips, the author suggests reading more books and
-longer articles, donating to charities, and having more conversations in person,
-and remaining calm in the face of terror. </p>
-
-<p>The last point I think is a good one and I agree that there is good reason to be
-deeply concerned about the political impact of a major terror attack on US soil. </p>
-
-<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
-like this one are overly didactic:</p>
-
-<blockquote>
-  <p>What is patriotism? Let us begin with what patriotism is not. It is not
-  patriotic to dodge the draft and to mock war heroes and their families. It is
-  not patriotic to discriminate against active-duty members of the armed forces
-  in one's companies or to campaign to keep disabled veterans away from one's
-  property. It is not patriotic to ... (etc)</p>
-</blockquote>
-
-<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
-the last 6 months. And it continues for a page and a half. A thought flashed
-across my mind: how is this better than reading Twitter?</p>
-
-<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
-He then normalizes extremist terror as just another thing by claiming that those
-resisting fascists and communist regimes were also billed extremists (therefore
-what?). He plays with words, uncharitably redefining a "nationalist" in contrast
-to "patriot" as one "that encourages us to be the worst and the tells us we are
-the best", whereas the two words are often used interchangeably.</p>
-
-<p>The conclusion starts well written, with choice words criticizing "end of
-history" narratives that helped get us here. But ends in conspiratorial hand
-wringing.</p>
-
-<p>In liberal cities like Seattle, the opposition is the majority and there are no
-signs that things will flip any time soon. Most of Trump's policies are
-signaling and most of them are counteracted with opposition signaling. He is an
-awful leader for this country and I'm ashamed of his words and actions. But as
-for actual policy changes or prosecution of specific people, he has (so far)
-been stopped at every turn. I agree that these are unusual times, and that extra
-vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
-a classic case of crying wolf. I find it hard to believe that it will stand the
-test of time. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Great Gatsby by F. Scott Fitzgerald</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/great-gatsby-by-f-scott-fitzgerald"/>
-    
-    <updated>2017-06-10T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
-that are so fantastically well off.  Very unsympathetic characters throughout,
-except for the narrator. </p>
-
-<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
-parties, loose connections, endless networking and small talk.  There is a
-certain aimlessness to it that I found very relatable.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>The Psychology of Curiosity</title>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-05T09:00:00-00:00</updated>
+    <updated>2017-06-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -2925,11 +2947,102 @@ paper ended, so had to finish reading the last page online.</p>
   </entry>
   
   <entry>
+    <title>On Tyranny by Timothy Snyder</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/on-tyranny-by-timothy-snyder"/>
+    
+    <updated>2017-06-13T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/on-tyranny-by-timothy-snyder</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
+
+<p>Structured as a strange combination of trends that lead to tyranny and general
+life tips. Dangerous trends include the destruction of institutions and
+paramilitary rule. As for life tips, the author suggests reading more books and
+longer articles, donating to charities, and having more conversations in person,
+and remaining calm in the face of terror. </p>
+
+<p>The last point I think is a good one and I agree that there is good reason to be
+deeply concerned about the political impact of a major terror attack on US soil. </p>
+
+<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
+like this one are overly didactic:</p>
+
+<blockquote>
+  <p>What is patriotism? Let us begin with what patriotism is not. It is not
+  patriotic to dodge the draft and to mock war heroes and their families. It is
+  not patriotic to discriminate against active-duty members of the armed forces
+  in one's companies or to campaign to keep disabled veterans away from one's
+  property. It is not patriotic to ... (etc)</p>
+</blockquote>
+
+<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
+the last 6 months. And it continues for a page and a half. A thought flashed
+across my mind: how is this better than reading Twitter?</p>
+
+<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
+He then normalizes extremist terror as just another thing by claiming that those
+resisting fascists and communist regimes were also billed extremists (therefore
+what?). He plays with words, uncharitably redefining a "nationalist" in contrast
+to "patriot" as one "that encourages us to be the worst and the tells us we are
+the best", whereas the two words are often used interchangeably.</p>
+
+<p>The conclusion starts well written, with choice words criticizing "end of
+history" narratives that helped get us here. But ends in conspiratorial hand
+wringing.</p>
+
+<p>In liberal cities like Seattle, the opposition is the majority and there are no
+signs that things will flip any time soon. Most of Trump's policies are
+signaling and most of them are counteracted with opposition signaling. He is an
+awful leader for this country and I'm ashamed of his words and actions. But as
+for actual policy changes or prosecution of specific people, he has (so far)
+been stopped at every turn. I agree that these are unusual times, and that extra
+vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
+a classic case of crying wolf. I find it hard to believe that it will stand the
+test of time. </p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Great Gatsby by F. Scott Fitzgerald</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/great-gatsby-by-f-scott-fitzgerald"/>
+    
+    <updated>2017-06-10T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
+that are so fantastically well off.  Very unsympathetic characters throughout,
+except for the narrator. </p>
+
+<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
+parties, loose connections, endless networking and small talk.  There is a
+certain aimlessness to it that I found very relatable.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-05T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -2972,7 +3085,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-05T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3167,7 +3280,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-05T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3232,7 +3345,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-05T09:00:00-00:00</updated>
+    <updated>2017-04-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3326,7 +3439,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-05T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3376,7 +3489,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-05T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3413,7 +3526,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-05T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -3481,7 +3594,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-05T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -3509,7 +3622,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-05T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -3570,7 +3683,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-05T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -3605,7 +3718,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-05T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -3672,7 +3785,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-05T09:00:00-00:00</updated>
+    <updated>2016-12-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -3763,7 +3876,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-05T09:00:00-00:00</updated>
+    <updated>2016-11-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -3809,7 +3922,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-05T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/future-babble</id>
     <content type="html">
@@ -3873,7 +3986,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-05T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -3907,7 +4020,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-05T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -3969,7 +4082,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-05T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -4055,7 +4168,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-05T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4350,7 +4463,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-05T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4386,7 +4499,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-05T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4459,7 +4572,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-05T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -4618,7 +4731,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-05T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -4664,7 +4777,7 @@ the recording was poor quality, which contributed to my meta objections.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-man-who-loved-only-numbers"/>
     
-    <updated>2016-07-05T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-man-who-loved-only-numbers</id>
     <content type="html">
@@ -4714,7 +4827,7 @@ infinity.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mother-of-all-demos"/>
     
-    <updated>2016-06-05T09:00:00-00:00</updated>
+    <updated>2016-06-27T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mother-of-all-demos</id>
     <content type="html">
@@ -4763,91 +4876,6 @@ groups I've had the pleasure of being part of:</p>
 <li>Evolutionary: make incremental improvements to a real system, not grand visions.</li>
 <li>Eat your own dogfood: use the thing you build, and test it on yourself.</li>
 </ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The One Minute Manager</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/the-one-minute-manager"/>
-    
-    <updated>2016-06-05T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/the-one-minute-manager</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>This little book was recommended to me by a ski instructor after a ski lesson at
-Squaw.  The man was probably in his 70s, but skied incredibly well, and had a
-lot of wisdom to pass on. He was tough, but nice, like a One Minute Manager.</p>
-
-<p>More of a pamphlet than a book, One Minute Manager unfolds as a story about a
-young man wanting to learn to be a good people manager. The story makes the
-points more vivid, but at its core, there is an interesting and somewhat
-surprising strategy outlined for being a good hands off manager. The approach
-reminds me a little bit of Christian's management style. There are three parts:</p>
-
-<ol>
-<li>Set goals and expectations with the employee, write them down succinctly and
-have them ready for review. (This is similar to Google OKRs, and definitely
-worthwhile).</li>
-<li>Especially early on, look for behaviors that are praise-worthy, and give due
-praise honestly and directly. (This seems like a great idea to try on
-interns).</li>
-<li>Reprimand unwanted behavior as it happens, but emphasize their worth as
-people. (This seems quite hard to pull off without being a dick).</li>
-</ol>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Gantenbein by Max Frisch</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/gantenbein-by-max-frisch"/>
-    
-    <updated>2016-06-05T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/gantenbein-by-max-frisch</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Gantenbein was recommended to me by a close friend, who said it made a really
-big impact on him. It took me a long time to get through this book, and I often
-struggled to follow the narrative. The author writes in a very experimental
-style, alternating between three different men, all of which are in love with
-Lila, a beautiful stage actress. Events that happen don't seem to have
-chronology or causation. Sometimes they branch out into multiple futures, other
-times you reset in another time, another place, and as another person.  The book
-is a set of sketches around these people, more so than a coherent whole. Adding
-to the complexity, the narrator himself seems to not be a single person, but
-alternates between people. And this smoke and mirrors is explicit. The author
-often writes "I imagine...", and the title is more accurately translated "Let's
-assume my name is Gantenbein".</p>
-
-<p>I found this book to be a piercing view into human nature. I could relate to
-much of what the characters within it struggle with, which made reading it
-difficult and slow. Gantenbein, one of the protagonists, decides to pretend to
-be blind for his whole life, and builds a relationship with Lila. He wears dark
-glasses, which conceal his lie from others. But he himself has to be careful not
-to reveal his secret. He can see, but must pretend that he can't, and this leads
-to painful allegory on good relationships.</p>
-
-<p>This book was hard to read. I never got into a flow, and ended up reading very
-unevenly, often wanting to set it down for a while. But some parts I really
-loved, like when one of the characters attends his own funeral. And I was
-surprised to, after finishing it, have a feeling that some coherence emerged by
-the end. My understanding of this book would benefit from a re-reading, but I
-know that this is unlikely to happen.</p>
 
 
         
