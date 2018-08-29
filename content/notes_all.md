@@ -4,6 +4,78 @@ type: note
 class: split
 
 
+Lynched on Twitter
+===
+posted: August 26, 2018
+
+Last week, a [sarcastic twitter
+reply](https://twitter.com/borismus/status/798350680951910400) I posted two
+years ago was picked up by an account called Blue Check Watch, looking for
+verified twitter accounts disparaging white people. As a result, my account has
+become inundated by a hybrid human-bot army of white supremacist trolls. Most
+responses accused me of anti-white racism, completely missing what I thought was
+obviously a sarcastic tone. Sadly, many of the attacks are really nasty and
+ad-hominem. One user
+[posted](https://twitter.com/CascadianDennis/status/1033190496456269824) "Why do
+people who say this always look like this?", alongside my twitter profile photo.
+Others are
+[explicitly](https://twitter.com/1CE1CEB4BY/status/1033197950703464448)
+[anti-semitic](https://twitter.com/NationDixie/status/1033395244014944256)
+messages that do not bear repeating here. Ominously, I received an email from
+Twitter informing me that they have investigated **my tweet**, flagged for violating
+their TOS and "have not taken any action at this time."
+
+Writing my snarky tweet two years ago, I was a bit uncertain whether it was
+within the bounds of social acceptibility. A white guy telling another
+white guy that white guys are "the worst", was intended to poke a bit of fun at
+the self-flaggelation associated with progressive politics. There is only so
+much self-censorship one can do while still remaining authentic. In a surprising
+twist, my tweet was offensive to a group I hadn't even thought about in a way I
+could not have predicted, two years after the fact.
+
+Twitter lynchings are not new, but it's different when it happens to you. It has
+not had any serious consequences (yet?), and until it does, I will continue to
+view this as a funny story, and not something truly traumatic, as it is often
+framed in the press. Still, this experience serves as a good reminder of a few
+points:
+
+1. Twitter's UI for threaded conversations is terrible, and hardly anyone of my
+   virtual lynch mob even bothered to look to the tweet I was responding to.
+1. My tweet was five words, twenty four characters. It was meant to be pithy,
+   because that is how twitter works. But brief posts beget brief responses,
+   which is fine between friends, but not fine when the whole world is watching.
+1. Relatedly, sarcasm is hard to convey in this situation. Only two responses
+   suggested that maybe I was being sarcastic, imploring my attackers, "Don't be
+   lazy."
+1. The fact that tweets have no expiry date means anything you have ever posted
+   can be used against you in surprising ways. It took two years for my tweet to
+   be picked up. James Gunn's incriminating posts were ten years old. Social
+   norms change quickly, and this is one argument in favor of ephemerality.
+1. On that same note, it seems that the white supremacy movement has really
+   embraced the internet over the last couple of years in some sick symbiosis
+   with the POTUS. At the same time, it's striking that the result of someone's
+   pathetic search for anti-white sentiment yielded such a lackluster example.
+1. Despite a general willingness for my views to be challenged, I don't have
+   energy or desire to engage with this mob. I made no attempts to respond to
+   any of my attackers. They appear to be victims of confirmation bias, stupid
+   and/or malicious, and I have little faith that they will listen.
+1. There are some really nasty people on the internet. If triggered, they will
+   sherlock your religion, your employer, your family, and try to hit you where
+   it hurts the most.
+
+Lynchings aside, I've been trying to use twitter less in favor of consuming and
+producing longer form content, like books, blogs, and conversations. Given that
+my account is currently being inundated with anti-semitic spam, I have very
+little incentive to continue using the service. One thing that has been keeping
+me on the platform is the potential reach I can get through 6K followers. I
+should remember that in the grand scheme of things, this is a small number, 5
+orders of magnitude less than the lovely POTUS. I shouldn't grow attached.
+
+And so, just in time for my tenth twitter anniversary, it's time for me to make
+some changes. At the very least, I'll be taking a long break.
+
+
+
 The difficult middle
 ===
 posted: July 21, 2018
