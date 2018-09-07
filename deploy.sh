@@ -8,6 +8,7 @@ DEPLOY_PATH=$HOME/Projects/smus.com-deploy
 # Commit the updated contents there, and push it upstream.
 pushd $DEPLOY_PATH
 
+git pull
 git add -A
 git commit -m "Updating smus.com with new content."
 git push origin gh-pages
