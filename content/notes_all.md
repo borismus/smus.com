@@ -4,6 +4,58 @@ type: note
 class: split
 
 
+Make twitter great again?
+===
+posted: September 6, 2018
+
+I used twitter the most while working in developer relations, mainly sharing
+articles about web development that I thought deserved more attention. My feed
+consisted of engineers, developer advocates, and web standards folks I
+respected, all of whom had something interesting to say. Twitter was my interest
+graph, in contrast with Facebook, which was just a poor facsimile of real life
+relationships.
+
+As my career and interests shifted, so did the people I followed on twitter.
+I started following VR engineers, machine learning researchers, philosophers
+and psychologists. But more tweeps meant more tweets. Soon I had a [twitter
+list][smartpeople] for people that I had reluctantly unfollowed. They had
+interesting things to say, but said them too often.
+
+Following someone on twitter is like having a direct line into their brain. If
+they write about a subject you are passionate about, fantastic. If they have
+broadly aligning interests, chances are they will turn you on to something neat,
+or if you're lucky, life changing. Unfortunately, most of the time, twitter
+brains are distracted, anxious, angry, or unhappy. Spastic tweet storms and
+political ramblings deserve only one thing, a hearty unfollow.
+
+Twitter's bad design decisions only compound the problem. In "Retweets Are
+Trash", Alexis Madrigal [writes][madrigal], "When Twitter introduced a retweet
+button, in 2009, suddenly one click could send a post careening through the
+network. The automatic retweet took Twitter’s natural tendency for amplification
+and cranked it up." Apparently it's not hard to globally disable retweets using
+a [crude hack][no-rt]. Anecdotally, it seems to have made my feed a bit calmer.
+
+A quick update on my [white supremacist spam problem][lynched]. Time seems to
+have sorted it out, and the remaining squawks have been muffled by twitter's
+[quality filter][filter]. I also tried using Mastodon. It was a calming
+experience at first, but when I followed a few people and dug around a little
+bit, I was dismayed to see most design choices mirroring twitter's. I caught up
+on RSS feeds, which I really like. But the RSS ecosystem continues to die. Of
+nearly five hundred RSS feeds in my OPML file, more than half are broken links.
+Occasionally the links are fixed, causing my reader to choke on a year's worth
+of articles from a blog whose existence I've long forgotten about.
+
+I can't quite decide whether or not to use twitter again. I keep thinking that I
+once got a lot out of my original use of the platform. If I do return, I'll be
+making use of the @reply quality filter, fully disable retweets, and unfollow
+more aggressively. Whether this makes twitter great again remains to be seen.
+
+[smartpeople]: https://twitter.com/borismus/lists/smartpeople
+[madrigal]: https://www.theatlantic.com/magazine/archive/2018/04/the-case-against-retweets/554078/
+[no-rt]: https://medium.com/@Luca/how-to-turn-off-retweets-for-everyone-99dd835c10f8
+[lynched]: http://smus.com/notes/2018/lynched-on-twitter/
+[filter]: https://support.twitter.com/articles/20169398
+
 Lynched on Twitter
 ===
 posted: August 26, 2018
@@ -26,7 +78,7 @@ Twitter informing me that they have investigated **my tweet**, flagged for viola
 their TOS and "have not taken any action at this time."
 
 Writing my snarky tweet two years ago, I was a bit uncertain whether it was
-within the bounds of social acceptibility. A white guy telling another
+within the bounds of social acceptability. A white guy telling another
 white guy that white guys are "the worst", was intended to poke a bit of fun at
 the self-flaggelation associated with progressive politics. There is only so
 much self-censorship one can do while still remaining authentic. In a surprising
