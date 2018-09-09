@@ -5,8 +5,48 @@
   <title>Boris Smus (Books)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-09-06T23:33:12-00:00</updated>
+  <updated>2018-09-09T09:19:26-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Living the French Revolution (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/living-the-french-revolution-audio"/>
+    
+    <updated>2018-09-11T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/living-the-french-revolution-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>TODO</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Book of Why by Judea Pearl</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/books/book-of-why-by-judea-pearl"/>
+    
+    <updated>2018-09-10T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/book-of-why-by-judea-pearl</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>TODO</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Tao of Philosophy by Alan Watts</title>
@@ -2817,7 +2857,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-06T09:00:00-00:00</updated>
+    <updated>2017-06-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -3042,7 +3082,7 @@ paper ended, so had to finish reading the last page online.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-06T09:00:00-00:00</updated>
+    <updated>2017-05-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -3085,7 +3125,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-06T09:00:00-00:00</updated>
+    <updated>2017-05-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3280,7 +3320,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-06T09:00:00-00:00</updated>
+    <updated>2017-05-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3345,7 +3385,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-06T09:00:00-00:00</updated>
+    <updated>2017-04-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3439,7 +3479,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-06T09:00:00-00:00</updated>
+    <updated>2017-03-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3489,7 +3529,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-06T09:00:00-00:00</updated>
+    <updated>2017-03-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3526,7 +3566,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-06T09:00:00-00:00</updated>
+    <updated>2017-02-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -3594,7 +3634,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-06T09:00:00-00:00</updated>
+    <updated>2017-02-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -3622,7 +3662,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-06T09:00:00-00:00</updated>
+    <updated>2017-01-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -3683,7 +3723,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-06T09:00:00-00:00</updated>
+    <updated>2017-01-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -3718,7 +3758,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-06T09:00:00-00:00</updated>
+    <updated>2017-01-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -3785,7 +3825,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-06T09:00:00-00:00</updated>
+    <updated>2016-12-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -3876,7 +3916,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-06T09:00:00-00:00</updated>
+    <updated>2016-11-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -3922,7 +3962,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/future-babble"/>
     
-    <updated>2016-10-06T09:00:00-00:00</updated>
+    <updated>2016-10-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/future-babble</id>
     <content type="html">
@@ -3986,7 +4026,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-06T09:00:00-00:00</updated>
+    <updated>2016-10-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -4020,7 +4060,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-06T09:00:00-00:00</updated>
+    <updated>2016-09-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -4082,7 +4122,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/sapiens-audio"/>
     
-    <updated>2016-09-06T09:00:00-00:00</updated>
+    <updated>2016-09-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -4168,7 +4208,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-06T09:00:00-00:00</updated>
+    <updated>2016-08-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4463,7 +4503,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-06T09:00:00-00:00</updated>
+    <updated>2016-08-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4499,7 +4539,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-persuaders-audio"/>
     
-    <updated>2016-07-06T09:00:00-00:00</updated>
+    <updated>2016-07-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4572,7 +4612,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-06T09:00:00-00:00</updated>
+    <updated>2016-07-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -4731,7 +4771,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-06T09:00:00-00:00</updated>
+    <updated>2016-07-09T09:00:00-00:00</updated>
     
     <id>//smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -4764,118 +4804,6 @@ that the lecture was recorded in the early 90s.</p>
 <p>The lecturer wasn't very engaging, and I found myself listening to a lot of the
 lectures without getting much out of them. Additionally, the volume was low and
 the recording was poor quality, which contributed to my meta objections.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Man Who Loved Only Numbers</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/the-man-who-loved-only-numbers"/>
-    
-    <updated>2016-07-06T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/the-man-who-loved-only-numbers</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I really loved this one. It captures perfectly the quirkiness of Erdos, and his
-mathematician circles. Much more than a biography, this book popularizes a lot
-of incredibly interesting mathematics. It took me back 10 years to my math
-undergrad days.</p>
-
-<p>The author does an incredible job of capturing the essence of many complex
-mathematical concepts in appealing and entertaining ways. It's instructive to
-compare the way this book tackles certain topics to the corresponding Wikipedia
-page, which is completely undecipherable by a non-mathematician, and often even
-by a mathematician that doesn't work in that domain. That said, I'm  not sure
-that this book would be as appreciated by someone without a background in math.
-But it may serve as inspiration for a motivated, mathematically-inclined high
-school student. I'll find out!</p>
-
-<p>Despite having spent 4 years taking a bunch of math courses,  I learned a lot of
-new math from this book, and was reminded by some favorites.</p>
-
-<p>Ramsey Theory: the inevitability of order in large quantities. We barely touched
-on Ramsey theory in 4th year Graph Theory, and it seemed really obscure. Not
-true! Draw any 5 points on a plane, and as long as 3 of them don't form a line,
-you are guaranteed to be able to form a convex quad using them as vertices. Take
-any sequence of 101 numbers, and you're guaranteed to find a subsequence of at
-least 10 increasing numbers.</p>
-
-<p>Infinite series: a technical subject, but some really incredible results, like
-Taylor expansions of e (sum of 1/k!), pi (6 times sum of 1/k^2).</p>
-
-<p>Cantor's analysis of various infinities (alpha numbers): firstly the beautiful
-argument about the countability of rational numbers, and then the famous
-diagonalization argument which proves that the set of real numbers is a bigger
-infinity.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Mother of All Demos</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/mother-of-all-demos"/>
-    
-    <updated>2016-06-06T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/mother-of-all-demos</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Took some notes from the famous <a href="http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/1968Demo.html">Doug Englebart
-demo</a>.</p>
-
-<p>As a Human Computer Interaction nerd, I feel the need to pay homage to history
-of the field. One glaring omission in my education is that I haven't fully
-watched "The Demo" where Douglas Englebart shows off the state of the art of
-"Man-Computer Interaction" circa 1968. The subject of the demo is NLS (Online
-system), which is intended as a synthesis of a bunch of ideas coming from SRI.
-It's quite impressive how far we've come, but also how many elements are still
-recognizable, and in some cases impressively ahead of their time.</p>
-
-<p>The first ten minutes introduce a series of key concepts that are staples of
-desktop computing: the mouse and keyboard, mouse pointers, copy/paste, saving
-and loading files, numbered lists. Less mainstream, VI-like features are also
-introduced, such as reorderable, heirarchical lists, and folding sections.
-Much of what goes on under the hood in NLS reminded me of VIM script and other
-similar DSLs. Big focus on expert-oriented power usage.</p>
-
-<p>The Demo heavily alludes to the web, with a lot of provisions for interlinking,
-cross referencing, and even an explicit mention of ARPA close to the end of the
-demo (Clip 33), which reminds the viewer that this is all pre-Intenet. In
-contrast, their (presumably telephone-based) video calling was quite impressive.
-The quality of the remote speaker seemed to be about as good (bad?) as
-Englebart's. Some collaborative features were quite impressive, with a real-time
-cursor sharing scheme which was decades ahead of its time. Others were less
-interesting, like leaving a message for other people in a file to "get a
-response within minutes".</p>
-
-<p>Some time is spent showing off hardware. Most interestingly is the
-<a href="http://dougengelbart.org/firsts/keyset.html">Keyset</a>, which was a 5-key
-ancestor of the chorded keyboard, where each key combination (31 in total) led
-to a character, and was intended as a one handed keyboard. Also interesting as a
-point of comparison was the cutting edge display tech of the time: black and
-white CRTs with 15 Hz refresh rates and super high (3 frame) persistence.</p>
-
-<p>The philosophy of the lab behind MOAD was close to my heart, and lives on in R&amp;D
-groups I've had the pleasure of being part of:</p>
-
-<ul>
-<li>Build and try: big focus on prototyping!</li>
-<li>Evolutionary: make incremental improvements to a real system, not grand visions.</li>
-<li>Eat your own dogfood: use the thing you build, and test it on yourself.</li>
-</ul>
 
 
         

@@ -5,8 +5,31 @@
   <title>Boris Smus (Notes)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-09-06T23:33:12-00:00</updated>
+  <updated>2018-09-09T09:19:26-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Against re-tweets</title>
+    <author><name>Boris Smus</name></author>
+    <link href="/notes/2018/against-retweets/"/>
+    
+    <updated>2018-09-09T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/against-retweets/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><img src="against-retweets.png" alt="Create and consume time for content of various lengths." /></p>
+
+<p>One of these data points is not like the other. Also, isn't it neat that common
+units of time duration fall nicely onto a logarithmic scale?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Make twitter great again?</title>
