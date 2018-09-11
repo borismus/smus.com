@@ -4,6 +4,105 @@ class: split
 type: book
 
 
+Living the French Revolution (audio)
+===
+posted: September 11, 2018
+rating: yes
+
+TODO
+
+
+Book of Why by Judea Pearl
+===
+posted: September 10, 2018
+rating: no
+
+Book of Why is a strange combination of anecdotes, verbal descriptions that
+genuinely help build intuition, some case studies, and a bunch of name dropping
+of students and collaborators. Most of it is written for a popular audience, but
+sometimes the author jumps into mathematical formulas seemingly conjured from
+mid-air with very little explanation. Other times he provides terse proofs that
+read more like a math text book than anything else. Overall, the book is not
+well structured and awkwardly straddles the line between popular science,
+textbook, and paper.
+
+I read most of it, but ended up bored and confused by Chapter 9.  Perhaps if I
+was actively studying statistics, and had more time to delve deeper into the
+content, I would be more patient with the author, and find more time to work out
+the details of the mathematics in my spare time. Nonetheless, here are the
+pearls I managed to uncover for myself:
+
+**Ladder of causation**: Early on, the author presents "three distinct levels of
+cognitive ability: seeing, doing, and imagining.":
+
+![Ladder of causation](ladder-causation.png)
+
+The vast majority of today's machine learning resides on the first rung of the
+ladder: observational data. Pearl believes that the core of human intelligence
+resides on higher rungs: "Deep learning has given us machines with truly
+impressive abilities but no intelligence." Later, he suggests this more
+explicitly: "I conjecture, that human intuition is organized around causal, not
+statistical, relations."
+
+**Beyond RCTs**: causality can be established by means other than randomized
+control trials (RCTs). The means Pearl suggests involve having more than just
+data, but also a causal model, in the form of a directed acyclic graph (DAG),
+originally introduced by Seward Wright.  Pearl really pushes on this,
+evangelizing the concept. "A sufficiently strong and accurate causal model can
+allow us to use rung-one (observational) data to answer rung-two
+(interventional) queries." In many cases, running an RCT may be physically
+impossible (eg. can't make people become obese to study the effect of
+obesity on heart disease), or unethical (eg. can't force random people to smoke
+for 10 years).
+
+However it’s unclear to me how one is to generate the causal model in the first
+place, and how you to ascertain that the model is "string and accurate".
+Pearl says so himself: "If she is confident that her causal model accounts for a
+sufficient number of deconfounders and she has gathered data on them, then she
+can estimate the effect of Fertilizer on Yield in an unbiased way.
+
+**Blending probability and logic**: Although he never states it explicitly,
+Pearl's causal graphs seem to bridge the gap between formal logic (A implies B,
+necessary and sufficient) with probability. This is interesting, but I think
+Pearl is very much a statistician, and hardly ever mentions logic.
+
+**Casual aversion in stats**: Pearl spends a lot of time complaining about
+the mantra "correlation does not imply causation" embodied by various
+authoritarian statisticians like Karl Pearson, and R. A. Fisher. Instead of such
+a strong statement, the author proposes "some correlations do imply causation,"
+although he does dial it back and suggests that it may instead be called
+"provisional causality".
+
+**Path analysis aka Structural Equation Modeling (SEM)**: the path diagram
+concept introduced by Wright was met with resistance by his contemporaries, who
+were drawn to the allure of just looking at the data without any models, since
+the data is objective, and models are subjective. This is where Bayesian
+Statistics comes in, which tells you how to update Beliefs based on Evidence.
+
+**Junctions**:
+
+1. A → B → C: Mediator junction. Example: Fire → Smoke → Alarm. Fire causes the
+   Smoke, and Smoke triggers the Alarm.
+2. A ← B → C: Fork junction. Example: Shoe Size ←  Age of Child → Reading
+   Ability. Children with larger shoe sizes tend to read better, but it's not a
+   causal relationship.
+3. A → B ← C : Collider junction. Example: Talent → Celebrity ← Beauty. Suppose
+   only one of talent and beauty is sufficient to be a celebrity. Then, if a
+   celebrity were a good actor, they would need to be less beautiful.
+   Conversely, if they were beautiful, they would need to be less talented.
+
+**Back-door path**: Every graph is composed of the above junctions. Pearl claims
+that you can "deconfound two variables X and Y" by blocking every noncausal path
+between them without blocking or perturbing any causal paths. My intuition
+basically fails at this point.
+
+**Judicious biblical references**: I loved that Pearl often cited the Bible in
+this book, most prominently the example of a controlled experiment from the Book
+of Daniel, but also quotes from the Book of Jonah: "At last the sailors said to
+each other, Come and let us cast lots to find out who is to blame for this
+ordeal."
+
+
 Tao of Philosophy by Alan Watts
 ===
 posted: August 3, 2018
@@ -12,7 +111,6 @@ rating: yes
 Every society operates on very deeply rooted assumptions that are worth
 understanding. Watts thinks we can seek wisdom from Chinese and Indian culture
 to better understand our own. 
-
 
 Watts is for a holistic view of self without boundaries. We humans have a clear
 distinction between the natural (eg. our bodies) and artificial (eg. our houses).
