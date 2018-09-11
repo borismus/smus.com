@@ -3,10 +3,10 @@
       xml:lang="en"
       xml:base="https://smus.com">
   <title>Boris Smus (Books)</title>
-  <link href="https://smus.comatom.xml" rel="self"/>
+  <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-10T22:45:34-00:00</updated>
-  <id>https://smus.comatom.xml</id>
+  <updated>2018-09-10T22:51:06-00:00</updated>
+  <id>https://smus.com/atom.xml</id>
   
   <entry>
     <title>Living the French Revolution (audio)</title>
