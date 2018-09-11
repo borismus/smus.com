@@ -11,7 +11,7 @@
   <entry>
     <title>{{post.title}}</title>
     <author><name>Boris Smus</name></author>
-    <link href="{{post.permalink}}"/>
+    <link href="//smus.com{{post.permalink}}"/>
     {% if post.date_created %}
     <updated>{{post.date_created.Rfc()}}</updated>
     {% endif %}
