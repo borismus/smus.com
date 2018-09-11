@@ -102,6 +102,8 @@ of Daniel, but also quotes from the Book of Jonah: "At last the sailors said to
 each other, Come and let us cast lots to find out who is to blame for this
 ordeal."
 
+**Good examples**
+
 
 Tao of Philosophy by Alan Watts
 ===
