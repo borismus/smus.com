@@ -1,4 +1,5 @@
 site_title: Boris Smus
+site_domain: https://smus.com
 date_format: '%B %-d, %Y'
 permalink_formats:
   default: '{{slug}}'

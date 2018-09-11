@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{title}} | {{site_title}}</title>
+  <title>{{title}} | {{site.title}}</title>
 
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="{{meta_description}}">
-  <meta name="author" content="Boris Smus">
+  <meta name="description" content="{{meta_description}}" />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="{{site.domain}}{{permalink}}" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:description" content="{{meta_description}}" />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{site.domain}}{{permalink}}" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:description" content="{{meta_description}}" />
+
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
