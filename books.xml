@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="//smus.com">
+      xml:base="https://smus.com">
   <title>Boris Smus (Books)</title>
-  <link href="//smus.com/atom.xml" rel="self"/>
-  <link href="//smus.com"/>
-  <updated>2018-09-10T22:32:45-00:00</updated>
-  <id>//smus.com/atom.xml</id>
+  <link href="https://smus.comatom.xml" rel="self"/>
+  <link href="https://smus.com"/>
+  <updated>2018-09-10T22:45:34-00:00</updated>
+  <id>https://smus.comatom.xml</id>
   
   <entry>
     <title>Living the French Revolution (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/living-the-french-revolution-audio"/>
+    <link href="https://smus.com/books/living-the-french-revolution-audio"/>
     
     <updated>2018-09-11T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/living-the-french-revolution-audio</id>
+    <id>https://smus.com/books/living-the-french-revolution-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -31,11 +31,11 @@
   <entry>
     <title>Book of Why by Judea Pearl</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/book-of-why-by-judea-pearl"/>
+    <link href="https://smus.com/books/book-of-why-by-judea-pearl"/>
     
     <updated>2018-09-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/book-of-why-by-judea-pearl</id>
+    <id>https://smus.com/books/book-of-why-by-judea-pearl</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -136,11 +136,11 @@ ordeal."</p>
   <entry>
     <title>Tao of Philosophy by Alan Watts</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/tao-of-philosophy-by-alan-watts"/>
+    <link href="https://smus.com/books/tao-of-philosophy-by-alan-watts"/>
     
     <updated>2018-08-03T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/tao-of-philosophy-by-alan-watts</id>
+    <id>https://smus.com/books/tao-of-philosophy-by-alan-watts</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -203,11 +203,11 @@ quickly leads to totalitarianism since you assume the worst in people.</p>
   <entry>
     <title>Bad Blood by John Carreyrou</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/bad-blood-by-john-carreyrou"/>
+    <link href="https://smus.com/books/bad-blood-by-john-carreyrou"/>
     
     <updated>2018-07-20T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/bad-blood-by-john-carreyrou</id>
+    <id>https://smus.com/books/bad-blood-by-john-carreyrou</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -249,11 +249,11 @@ believes that the ends justify the means. </p>
   <entry>
     <title>Darkness at Noon by Arthur Koestler (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/darkness-at-noon-by-arthur-koestler-audio"/>
+    <link href="https://smus.com/books/darkness-at-noon-by-arthur-koestler-audio"/>
     
     <updated>2018-07-05T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/darkness-at-noon-by-arthur-koestler-audio</id>
+    <id>https://smus.com/books/darkness-at-noon-by-arthur-koestler-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -318,11 +318,11 @@ written, interesting, and visceral.</p>
   <entry>
     <title>You Belong to the Universe (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/you-belong-to-the-universe-audio"/>
+    <link href="https://smus.com/books/you-belong-to-the-universe-audio"/>
     
     <updated>2018-05-28T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/you-belong-to-the-universe-audio</id>
+    <id>https://smus.com/books/you-belong-to-the-universe-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -372,11 +372,11 @@ wise"</a>, a quip that is often applicable to modern tech. Specifically:</li>
   <entry>
     <title>Unsong by Scott Alexander</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/unsong-by-scott-alexander"/>
+    <link href="https://smus.com/books/unsong-by-scott-alexander"/>
     
     <updated>2018-05-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/unsong-by-scott-alexander</id>
+    <id>https://smus.com/books/unsong-by-scott-alexander</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -419,11 +419,11 @@ if it is aggressively edited, I will give it another chance.</p>
   <entry>
     <title>Reason in Human Affairs by Herbert Simon</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/reason-in-human-affairs-by-herbert-simon"/>
+    <link href="https://smus.com/books/reason-in-human-affairs-by-herbert-simon"/>
     
     <updated>2018-04-26T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/reason-in-human-affairs-by-herbert-simon</id>
+    <id>https://smus.com/books/reason-in-human-affairs-by-herbert-simon</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -507,11 +507,11 @@ psych today.</p>
   <entry>
     <title>The Fourth Turning by Howe and Strauss</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-fourth-turning-by-howe-and-strauss"/>
+    <link href="https://smus.com/books/the-fourth-turning-by-howe-and-strauss"/>
     
     <updated>2018-04-23T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-fourth-turning-by-howe-and-strauss</id>
+    <id>https://smus.com/books/the-fourth-turning-by-howe-and-strauss</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -590,11 +590,11 @@ potentially a fruitful “fake framework”. </p>
   <entry>
     <title>The Coffee-House: A Cultural History</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-coffee-house-a-cultural-history"/>
+    <link href="https://smus.com/books/the-coffee-house-a-cultural-history"/>
     
     <updated>2018-04-11T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-coffee-house-a-cultural-history</id>
+    <id>https://smus.com/books/the-coffee-house-a-cultural-history</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -768,11 +768,11 @@ loss.</p>
   <entry>
     <title>Player of Games by Iain M. Banks</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/player-of-games-by-iain-m-banks"/>
+    <link href="https://smus.com/books/player-of-games-by-iain-m-banks"/>
     
     <updated>2018-03-30T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/player-of-games-by-iain-m-banks</id>
+    <id>https://smus.com/books/player-of-games-by-iain-m-banks</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -798,11 +798,11 @@ mystery throughout.</p>
   <entry>
     <title>Skin in the Game by Taleb (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/skin-in-the-game-by-taleb-audio"/>
+    <link href="https://smus.com/books/skin-in-the-game-by-taleb-audio"/>
     
     <updated>2018-03-29T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/skin-in-the-game-by-taleb-audio</id>
+    <id>https://smus.com/books/skin-in-the-game-by-taleb-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -920,11 +920,11 @@ preferences. </li>
   <entry>
     <title>The Modern Political Tradition: Hobbes to Habermas</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-modern-political-tradition-hobbes-to-habermas"/>
+    <link href="https://smus.com/books/the-modern-political-tradition-hobbes-to-habermas"/>
     
     <updated>2018-03-04T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-modern-political-tradition-hobbes-to-habermas</id>
+    <id>https://smus.com/books/the-modern-political-tradition-hobbes-to-habermas</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1332,11 +1332,11 @@ re-listen.</p>
   <entry>
     <title>Scale by Geoffrey West</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/scale-by-geoffrey-west"/>
+    <link href="https://smus.com/books/scale-by-geoffrey-west"/>
     
     <updated>2018-02-23T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/scale-by-geoffrey-west</id>
+    <id>https://smus.com/books/scale-by-geoffrey-west</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1525,11 +1525,11 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>Anthem by Ayn Rand</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/anthem-by-ayn-rand"/>
+    <link href="https://smus.com/books/anthem-by-ayn-rand"/>
     
     <updated>2018-01-28T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/anthem-by-ayn-rand</id>
+    <id>https://smus.com/books/anthem-by-ayn-rand</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1580,11 +1580,11 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>Impro by Keith Johnstone</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/impro-by-keith-johnstone"/>
+    <link href="https://smus.com/books/impro-by-keith-johnstone"/>
     
     <updated>2018-01-24T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/impro-by-keith-johnstone</id>
+    <id>https://smus.com/books/impro-by-keith-johnstone</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1711,11 +1711,11 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>The Truth of Fact, the Truth of Feeling by Ted Chiang</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang"/>
+    <link href="https://smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang"/>
     
     <updated>2018-01-04T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang</id>
+    <id>https://smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -1865,11 +1865,11 @@ to his daughter.</p>
   <entry>
     <title>Is That a Fish in Your Ear? by David Bellos</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
+    <link href="https://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
     
     <updated>2017-12-26T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos</id>
+    <id>https://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2008,11 +2008,11 @@ as relevant as translating flour into noodles. Cool story.</li>
   <entry>
     <title>My Russian Grandmother... by Meir Shalev</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/my-russian-grandmother-by-meir-shalev"/>
+    <link href="https://smus.com/books/my-russian-grandmother-by-meir-shalev"/>
     
     <updated>2017-11-25T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/my-russian-grandmother-by-meir-shalev</id>
+    <id>https://smus.com/books/my-russian-grandmother-by-meir-shalev</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2053,11 +2053,11 @@ translation into Russian may have even enhanced the experience.</p>
   <entry>
     <title>The neurochemistry of music</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/neurochemistry-music"/>
+    <link href="https://smus.com/books/neurochemistry-music"/>
     
     <updated>2017-10-23T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/neurochemistry-music</id>
+    <id>https://smus.com/books/neurochemistry-music</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2176,11 +2176,11 @@ the brain in terms of neurological control. According to Wikipedia,</p>
   <entry>
     <title>On the Shortness of Life</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/on-the-shortness-of-life"/>
+    <link href="https://smus.com/books/on-the-shortness-of-life"/>
     
     <updated>2017-10-13T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/on-the-shortness-of-life</id>
+    <id>https://smus.com/books/on-the-shortness-of-life</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2265,11 +2265,11 @@ example in their celestial worldview:</p>
   <entry>
     <title>Stories of Your Life and Others</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/stories-of-your-life-and-others"/>
+    <link href="https://smus.com/books/stories-of-your-life-and-others"/>
     
     <updated>2017-09-25T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/stories-of-your-life-and-others</id>
+    <id>https://smus.com/books/stories-of-your-life-and-others</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2393,11 +2393,11 @@ prior is against mental manipulation...</p>
   <entry>
     <title>Nothing is True and Everything is Possible</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/nothing-is-true-and-everything-is-possible"/>
+    <link href="https://smus.com/books/nothing-is-true-and-everything-is-possible"/>
     
     <updated>2017-09-12T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/nothing-is-true-and-everything-is-possible</id>
+    <id>https://smus.com/books/nothing-is-true-and-everything-is-possible</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2506,11 +2506,11 @@ barrage of pessimism.</p>
   <entry>
     <title>Benjamin Franklin: An American Life</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/benjamin-franklin-an-american-life"/>
+    <link href="https://smus.com/books/benjamin-franklin-an-american-life"/>
     
     <updated>2017-08-24T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/benjamin-franklin-an-american-life</id>
+    <id>https://smus.com/books/benjamin-franklin-an-american-life</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2598,11 +2598,11 @@ tyrants").</p>
   <entry>
     <title>Whole Earth Discipline by Stewart Brand</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/whole-earth-discipline-by-stewart-brand"/>
+    <link href="https://smus.com/books/whole-earth-discipline-by-stewart-brand"/>
     
     <updated>2017-07-12T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/whole-earth-discipline-by-stewart-brand</id>
+    <id>https://smus.com/books/whole-earth-discipline-by-stewart-brand</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2849,11 +2849,11 @@ similarly researched argument from the other side to see where I land.</p>
   <entry>
     <title>On Tyranny by Timothy Snyder</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/on-tyranny-by-timothy-snyder"/>
+    <link href="https://smus.com/books/on-tyranny-by-timothy-snyder"/>
     
     <updated>2017-06-13T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/on-tyranny-by-timothy-snyder</id>
+    <id>https://smus.com/books/on-tyranny-by-timothy-snyder</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2914,11 +2914,11 @@ test of time. </p>
   <entry>
     <title>Great Gatsby by F. Scott Fitzgerald</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
+    <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
     
     <updated>2017-06-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
+    <id>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -2940,11 +2940,11 @@ certain aimlessness to it that I found very relatable.</p>
   <entry>
     <title>The Psychology of Curiosity</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/psychology-of-curiosity"/>
+    <link href="https://smus.com/books/psychology-of-curiosity"/>
     
     <updated>2017-06-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/psychology-of-curiosity</id>
+    <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3165,11 +3165,11 @@ paper ended, so had to finish reading the last page online.</p>
   <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/finite-and-infinite-games-by-james-carse"/>
+    <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
     <updated>2017-05-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/finite-and-infinite-games-by-james-carse</id>
+    <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3208,11 +3208,11 @@ all.</p>
   <entry>
     <title>Homo Deus by Yuval Noah Harari</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/homo-deus-by-yuval-noah-harari"/>
+    <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
     <updated>2017-05-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/homo-deus-by-yuval-noah-harari</id>
+    <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3403,11 +3403,11 @@ stimulating but mainly to get me thinking about why I disagree. </p>
   <entry>
     <title>Understanding Japan: A Cultural History (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/understanding-japan-a-cultural-history-audio"/>
+    <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
     <updated>2017-05-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/understanding-japan-a-cultural-history-audio</id>
+    <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3468,11 +3468,11 @@ incredibly interesting and exotic, but still has enough western services.</p>
   <entry>
     <title>The Lessons of History by Will and Ariel Durant</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
+    <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
     <updated>2017-04-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
+    <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3562,11 +3562,11 @@ ever before.</p>
   <entry>
     <title>The Wind's Twelve Quarters by Ursula K. Le Guin</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
+    <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
     <updated>2017-03-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
+    <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3612,11 +3612,11 @@ their books read after we actually have become an interplanetary species?"</p>
   <entry>
     <title>Deep Work by Cal Newport</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/deep-work-by-cal-newport"/>
+    <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
     <updated>2017-03-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/deep-work-by-cal-newport</id>
+    <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3649,11 +3649,11 @@ articles from there. Probably get a twitter to rss thing?</p>
   <entry>
     <title>Mindstorms by Seymour Papert</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/mindstorms-by-seymour-papert"/>
+    <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
     <updated>2017-02-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/mindstorms-by-seymour-papert</id>
+    <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3717,11 +3717,11 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
   <entry>
     <title>Don't Think of an Elephant by George Lakoff</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
+    <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
     <updated>2017-02-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
+    <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3745,11 +3745,11 @@ short length.</p>
   <entry>
     <title>The Futurological Congress by Stanislav Lem</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-futurological-congress-by-stanislav-lem"/>
+    <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
     <updated>2017-01-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-futurological-congress-by-stanislav-lem</id>
+    <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3806,11 +3806,11 @@ another of virtualizing reality.</p>
   <entry>
     <title>On Venus, Have We Got a Rabbi by William Tenn</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
+    <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
     <updated>2017-01-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
+    <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3841,11 +3841,11 @@ Hopefully this is an issue we can grapple with one day.</p>
   <entry>
     <title>Superforecasters by Phil Tetlock</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/superforecasters-by-phil-tetlock"/>
+    <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
     <updated>2017-01-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/superforecasters-by-phil-tetlock</id>
+    <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3908,11 +3908,11 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
   <entry>
     <title>Why Teach Thinking by Jonathan Baron</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/why-teach-thinking-by-jonathan-baron"/>
+    <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
     <updated>2016-12-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/why-teach-thinking-by-jonathan-baron</id>
+    <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -3999,11 +3999,11 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
   <entry>
     <title>Brief Wondrous Life of Oscar Wao</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/brief-wondrous-life-of-oscar-wao"/>
+    <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
     <updated>2016-11-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/brief-wondrous-life-of-oscar-wao</id>
+    <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4045,11 +4045,11 @@ it's hard to really empathize with the guy.</li>
   <entry>
     <title>Future Babble</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/future-babble"/>
+    <link href="https://smus.com/books/future-babble"/>
     
     <updated>2016-10-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/future-babble</id>
+    <id>https://smus.com/books/future-babble</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4109,11 +4109,11 @@ future even more so.</li>
   <entry>
     <title>I Am A Strange Loop</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/i-am-a-strange-loop"/>
+    <link href="https://smus.com/books/i-am-a-strange-loop"/>
     
     <updated>2016-10-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/i-am-a-strange-loop</id>
+    <id>https://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4143,11 +4143,11 @@ completely devoured by his good-natured cleverness.
   <entry>
     <title>The Hedgehog and the Fox</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-hedgehog-and-the-fox"/>
+    <link href="https://smus.com/books/the-hedgehog-and-the-fox"/>
     
     <updated>2016-09-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-hedgehog-and-the-fox</id>
+    <id>https://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4205,11 +4205,11 @@ in less turbulent circumstances. And more Tolstoy!</p>
   <entry>
     <title>Sapiens (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/sapiens-audio"/>
+    <link href="https://smus.com/books/sapiens-audio"/>
     
     <updated>2016-09-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/sapiens-audio</id>
+    <id>https://smus.com/books/sapiens-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4291,11 +4291,11 @@ open to new insights.</p>
   <entry>
     <title>How to Actually Change Your Mind by Big Yud</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
+    <link href="https://smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
     
     <updated>2016-08-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
+    <id>https://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4586,11 +4586,11 @@ opinion when confronted by clear evidence against it.</p>
   <entry>
     <title>Exploring the World of Lucid Dreaming</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/exploring-the-world-of-lucid-dreaming"/>
+    <link href="https://smus.com/books/exploring-the-world-of-lucid-dreaming"/>
     
     <updated>2016-08-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/exploring-the-world-of-lucid-dreaming</id>
+    <id>https://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4622,11 +4622,11 @@ keep on my bedside table.</p>
   <entry>
     <title>The Persuaders (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-persuaders-audio"/>
+    <link href="https://smus.com/books/the-persuaders-audio"/>
     
     <updated>2016-07-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-persuaders-audio</id>
+    <id>https://smus.com/books/the-persuaders-audio</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4695,11 +4695,11 @@ the other POV is effective.</p>
   <entry>
     <title>The Righteous Mind by Jon Haidt</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/the-righteous-mind-by-jon-haidt"/>
+    <link href="https://smus.com/books/the-righteous-mind-by-jon-haidt"/>
     
     <updated>2016-07-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/the-righteous-mind-by-jon-haidt</id>
+    <id>https://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4854,11 +4854,11 @@ understanding.</p>
   <entry>
     <title>Must Mankind Repeat History's Great Mistakes</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com/books/must-mankind-repeat-historys-great-mistakes"/>
+    <link href="https://smus.com/books/must-mankind-repeat-historys-great-mistakes"/>
     
     <updated>2016-07-10T09:00:00-00:00</updated>
     
-    <id>//smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
+    <id>https://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
       <![CDATA[
       <div>
