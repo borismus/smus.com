@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="//www.w3.org/2005/Atom"
       xml:lang="en"
-      xml:base="//smus.com">
+      xml:base="{{site.domain}}">
   <title>{{title}}</title>
-  <link href="//smus.com/atom.xml" rel="self"/>
-  <link href="//smus.com"/>
+  <link href="{{site.domain}}atom.xml" rel="self"/>
+  <link href="{{site.domain}}"/>
   <updated>{{date_generated.Rfc()}}</updated>
-  <id>//smus.com/atom.xml</id>
+  <id>{{site.domain}}atom.xml</id>
   {% for post in posts %}
   <entry>
     <title>{{post.title}}</title>
     <author><name>Boris Smus</name></author>
-    <link href="//smus.com{{post.permalink}}"/>
+    <link href="{{site.domain}}{{post.permalink}}"/>
     {% if post.date_created %}
     <updated>{{post.date_created.Rfc()}}</updated>
     {% endif %}
-    <id>//smus.com{{post.permalink}}</id>
+    <id>{{site.domain}}{{post.permalink}}</id>
     <content type="html">
       <![CDATA[
       <div>
