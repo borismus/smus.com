@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="//www.w3.org/2005/Atom"
+<feed xmlns="http://www.w3.org/2005/Atom"
       xml:lang="en"
       xml:base="https://smus.com">
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-10T22:51:06-00:00</updated>
+  <updated>2018-09-10T22:51:43-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
