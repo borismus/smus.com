@@ -73,7 +73,6 @@ I was born in Leningrad, RSFSR, and spent my formative years in Vancouver,
 Canada. 
 
 - Email: [boris@smus.com](mailto:boris@smus.com)
-- Twitter: [@borismus](http://twitter.com/borismus)
 - GitHub: [@borismus](http://github.com/borismus)
 
 For the still curious, my [resume is online][resume].

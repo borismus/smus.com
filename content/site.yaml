@@ -11,4 +11,5 @@ type_mapping:
   '/pages/': 'page'
   '/drafts/': 'draft'
   '/books/': 'book'
+  '/notes/': 'note'
 default_type: 'page'
