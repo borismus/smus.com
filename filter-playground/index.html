@@ -3,11 +3,24 @@
 <head>
   <title>Filter playground | Boris Smus</title>
 
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="iframe {   width: 640px;   height: 480px;   border: 0; }          "You don't understand anything until you learn it more than one way." – Marvin Minsky      In my  short Web Audio book , I covered the  BiquadFilterNode , but didn't have any sense for how it worked. As I sat down to read  Human and Machine Hearing , it became clear that I needed to catch up on some digital filtering fundamentals.    What follows is an introduction to digital filters via  explorable explanation  I built to help myself better understand some DSP concepts. The approach I took was to try to present the concept as visually and aurally as possible, maximizing opportunities to build intuition. I learned a lot in the process. Read on for a introduction, jump ahead to the  Filter Playground , or check out this video:">
-  <meta name="author" content="Boris Smus">
+  <meta name="description" content="iframe {   width: 640px;   height: 480px;   border: 0; }          "You don't understand anything until you learn it more than one way." – Marvin Minsky      In my  short Web Audio book , I covered the  BiquadFilterNode , but didn't have any sense for how it worked. As I sat down to read  Human and Machine Hearing , it became clear that I needed to catch up on some digital filtering fundamentals.    What follows is an introduction to digital filters via  explorable explanation  I built to help myself better understand some DSP concepts. The approach I took was to try to present the concept as visually and aurally as possible, maximizing opportunities to build intuition. I learned a lot in the process. Read on for a introduction, jump ahead to the  Filter Playground , or check out this video:" />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/filter-playground" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Filter playground" />
+  <meta name="twitter:description" content="iframe {   width: 640px;   height: 480px;   border: 0; }          "You don't understand anything until you learn it more than one way." – Marvin Minsky      In my  short Web Audio book , I covered the  BiquadFilterNode , but didn't have any sense for how it worked. As I sat down to read  Human and Machine Hearing , it became clear that I needed to catch up on some digital filtering fundamentals.    What follows is an introduction to digital filters via  explorable explanation  I built to help myself better understand some DSP concepts. The approach I took was to try to present the concept as visually and aurally as possible, maximizing opportunities to build intuition. I learned a lot in the process. Read on for a introduction, jump ahead to the  Filter Playground , or check out this video:" />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/filter-playground" />
+  <meta property="og:title" content="Filter playground" />
+  <meta property="og:description" content="iframe {   width: 640px;   height: 480px;   border: 0; }          "You don't understand anything until you learn it more than one way." – Marvin Minsky      In my  short Web Audio book , I covered the  BiquadFilterNode , but didn't have any sense for how it worked. As I sat down to read  Human and Machine Hearing , it became clear that I needed to catch up on some digital filtering fundamentals.    What follows is an introduction to digital filters via  explorable explanation  I built to help myself better understand some DSP concepts. The approach I took was to try to present the concept as visually and aurally as possible, maximizing opportunities to build intuition. I learned a lot in the process. Read on for a introduction, jump ahead to the  Filter Playground , or check out this video:" />
+
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -116,13 +129,13 @@ For example, if we take `x(t) = t^2` and sample every integer from 1 to 10, we
 would get `x[n] = [x(1), x(2), ..., x(10)]`, in blue. Next, calculate y[n] and
 color it green:</p>
 
-<p><img src="sampling.png" alt="x(t) = t^2 sampled for the first 10 integers" /></p>
+<p><img src="/filter-playground/sampling.png" alt="x(t) = t^2 sampled for the first 10 integers" /></p>
 
 <p>Let's take several x(t), sample them into x[n], and see what the above
 difference equation gives us for y[n]. When we plot x[n] in blue and y[n] in
 green, we get the following graphs:</p>
 
-<p><img src="math-filter-plot.png" alt="Several discretized mathematical functions with x in blue, and y in
+<p><img src="/filter-playground/math-filter-plot.png" alt="Several discretized mathematical functions with x in blue, and y in
 green" /></p>
 
 <p>The first row shows the result of our difference equation on some mathematical
@@ -332,7 +345,6 @@ me know <a href="https://twitter.com/borismus">via twitter</a> or <a href="http:
   </div>
   <nav role="footer">
     <a href='//feeds.feedburner.com/smuscom'>RSS</a>
-    <a href='//twitter.com/borismus'>Twitter</a>
   </nav>
 </footer>
 

@@ -3,11 +3,24 @@
 <head>
   <title>An onslaught of mobile HTML games | Boris Smus</title>
 
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Porting Onslaught! to a mobile web-based game controller. Also featuring frustrations involving multi-touch on Android.">
-  <meta name="author" content="Boris Smus">
+  <meta name="description" content="Porting Onslaught! to a mobile web-based game controller. Also featuring frustrations involving multi-touch on Android." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/mobile-html-games" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="An onslaught of mobile HTML games" />
+  <meta name="twitter:description" content="Porting Onslaught! to a mobile web-based game controller. Also featuring frustrations involving multi-touch on Android." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/mobile-html-games" />
+  <meta property="og:title" content="An onslaught of mobile HTML games" />
+  <meta property="og:description" content="Porting Onslaught! to a mobile web-based game controller. Also featuring frustrations involving multi-touch on Android." />
+
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -45,7 +58,7 @@ fast javascript and canvas) is incredibly promising to a game developer.
 The advantages that it brings are huge: no installation required, and
 ubiquitous cross platform compatibility. I took a practical look at
 games in the HTML5 mobile space, taking <a href="http://lostdecadegamesapp.appspot.com/">Onslaught!</a>, a particularly
-fun and well written game, and <a href="onslaught/">porting it to Android/iPhone</a>. </p>
+fun and well written game, and <a href="/mobile-html-games//mobile-html-games/onslaught/">porting it to Android/iPhone</a>. </p>
 
 <p>Perhaps porting is too strong a word here. Onslaught! runs and performs
 reasonably well on my Nexus One running Android 2.2.1. The only problem
@@ -62,7 +75,7 @@ detection), and might even work as a generic controller for other games.</p>
 to generate keyboard events from JavaScript, based on touch input. While
 this is possible if your key event handlers are written in a particular
 framework (<a href="http://api.jquery.com/keydown/">say jQuery</a>), it seems to be generally impossible 
-<a href="http://stackoverflow.com/questions/1601593/fire-tab-keypress-event-in-javascript">for security reasons</a>. I wrote an Onslaught!-specific <a href="onslaught/js/controller.js">controller</a>
+<a href="http://stackoverflow.com/questions/1601593/fire-tab-keypress-event-in-javascript">for security reasons</a>. I wrote an Onslaught!-specific <a href="/mobile-html-games//mobile-html-games//mobile-html-games/onslaught/js/controller.js">controller</a>
 that should be easy to port to any other game. The controller simply
 embeds the Onslaught! game in it's original 640x480 resolution, which is
 then scaled to the device size using the <a href="http://www.quirksmode.org/mobile/viewports.html">meta viewport</a> element. The
@@ -73,7 +86,7 @@ I would appreciate it if you could [try it][porting it to
 Android/iPhone] on your Android or iOS device (in landscape mode) and
 let me know how it goes!</p>
 
-<p><a href="onslaught/"><img src="onslaught.png" alt="image" /></a> </p>
+<p><a href="/mobile-html-games//mobile-html-games/onslaught/"><img src="/mobile-html-games/onslaught.png" alt="image" /></a> </p>
 
 <p>I ran into a few stumbling blocks as I was developing and testing this
 port, most of which involve the Android browser on Nexus One running
@@ -127,7 +140,6 @@ it to this <a href="http://www.html5contest.com/">mobile HTML game contest</a>. 
   </div>
   <nav role="footer">
     <a href='//feeds.feedburner.com/smuscom'>RSS</a>
-    <a href='//twitter.com/borismus'>Twitter</a>
   </nav>
 </footer>
 

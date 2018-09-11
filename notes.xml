@@ -5,13 +5,96 @@
   <title>Boris Smus (Notes)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-08-28T15:25:27-00:00</updated>
+  <updated>2018-09-10T22:32:21-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Against re-tweets</title>
+    <author><name>Boris Smus</name></author>
+    <link href="//smus.com/notes/2018/against-retweets/"/>
+    
+    <updated>2018-09-09T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/against-retweets/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><img src="/notes/2018/against-retweets/against-retweets.png" alt="Create and consume time for content of various lengths." /></p>
+
+<p>One of these data points is not like the other. Also, isn't it neat that common
+units of time duration fall nicely onto a logarithmic scale?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Make twitter great again?</title>
+    <author><name>Boris Smus</name></author>
+    <link href="//smus.com/notes/2018/make-twitter-great-again/"/>
+    
+    <updated>2018-09-06T09:00:00-00:00</updated>
+    
+    <id>//smus.com/notes/2018/make-twitter-great-again/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I used twitter the most while working in developer relations, mainly sharing
+articles about web development that I thought deserved more attention. My feed
+consisted of engineers, developer advocates, and web standards folks I
+respected, all of whom had something interesting to say. Twitter was my interest
+graph, in contrast with Facebook, which was just a poor facsimile of real life
+relationships.</p>
+
+<p>As my career and interests shifted, so did the people I followed on twitter.
+I started following VR engineers, machine learning researchers, philosophers
+and psychologists. But more tweeps meant more tweets. Soon I had a <a href="https://twitter.com/borismus/lists/smartpeople">twitter
+list</a> for people that I had reluctantly unfollowed. They had
+interesting things to say, but said them too often.</p>
+
+<p>Following someone on twitter is like having a direct line into their brain. If
+they write about a subject you are passionate about, fantastic. If they have
+broadly aligning interests, chances are they will turn you on to something neat,
+or if you're lucky, life changing. Unfortunately, most of the time, twitter
+brains are distracted, anxious, angry, or unhappy. Spastic tweet storms and
+political ramblings deserve only one thing, a hearty unfollow.</p>
+
+<p>Twitter's bad design decisions only compound the problem. In "Retweets Are
+Trash", Alexis Madrigal <a href="https://www.theatlantic.com/magazine/archive/2018/04/the-case-against-retweets/554078/">writes</a>, "When Twitter introduced a retweet
+button, in 2009, suddenly one click could send a post careening through the
+network. The automatic retweet took Twitter’s natural tendency for amplification
+and cranked it up." Apparently it's not hard to globally disable retweets using
+a <a href="https://medium.com/@Luca/how-to-turn-off-retweets-for-everyone-99dd835c10f8">crude hack</a>. Anecdotally, it seems to have made my feed a bit calmer.</p>
+
+<p>A quick update on my <a href="http://smus.com/notes/2018/lynched-on-twitter/">white supremacist spam problem</a>. Time seems to
+have sorted it out, and the remaining squawks have been muffled by twitter's
+<a href="https://support.twitter.com/articles/20169398">quality filter</a>. I also tried using Mastodon. It was a calming
+experience at first, but when I followed a few people and dug around a little
+bit, I was dismayed to see most design choices mirroring twitter's. I caught up
+on RSS feeds, which I really like. But the RSS ecosystem continues to die. Of
+nearly five hundred RSS feeds in my OPML file, more than half are broken links.
+Occasionally the links are fixed, causing my reader to choke on a year's worth
+of articles from a blog whose existence I've long forgotten about.</p>
+
+<p>I can't quite decide whether or not to use twitter again. I keep thinking that I
+once got a lot out of my original use of the platform. If I do return, I'll be
+making use of the @reply quality filter, fully disable retweets, and unfollow
+more aggressively. Whether this makes twitter great again remains to be seen.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Lynched on Twitter</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/lynched-on-twitter/"/>
+    <link href="//smus.com/notes/2018/lynched-on-twitter/"/>
     
     <updated>2018-08-26T09:00:00-00:00</updated>
     
@@ -37,7 +120,7 @@ Twitter informing me that they have investigated <strong>my tweet</strong>, flag
 their TOS and "have not taken any action at this time."</p>
 
 <p>Writing my snarky tweet two years ago, I was a bit uncertain whether it was
-within the bounds of social acceptibility. A white guy telling another
+within the bounds of social acceptability. A white guy telling another
 white guy that white guys are "the worst", was intended to poke a bit of fun at
 the self-flaggelation associated with progressive politics. There is only so
 much self-censorship one can do while still remaining authentic. In a surprising
@@ -97,7 +180,7 @@ some changes. At the very least, I'll be taking a long break.</p>
   <entry>
     <title>The difficult middle</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/the-difficult-middle/"/>
+    <link href="//smus.com/notes/2018/the-difficult-middle/"/>
     
     <updated>2018-07-21T09:00:00-00:00</updated>
     
@@ -142,7 +225,7 @@ meaningful certainty. On balance, I hope to end up in this difficult middle.</p>
   <entry>
     <title>Required reading for VR enthusiasts</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/required-reading-for-vr-enthusiasts/"/>
+    <link href="//smus.com/notes/2018/required-reading-for-vr-enthusiasts/"/>
     
     <updated>2018-06-03T09:00:00-00:00</updated>
     
@@ -178,7 +261,7 @@ prefer the dystopian interpretation. </p>
   <entry>
     <title>Balancing technological pessimism</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/balancing-technological-pessimism/"/>
+    <link href="//smus.com/notes/2018/balancing-technological-pessimism/"/>
     
     <updated>2018-05-16T09:00:00-00:00</updated>
     
@@ -234,7 +317,7 @@ the traps that ensnared previous generations of techno pessimists.</p>
   <entry>
     <title>How rationalists can win</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2018/how-rationalists-can-win/"/>
+    <link href="//smus.com/notes/2018/how-rationalists-can-win/"/>
     
     <updated>2018-04-12T09:00:00-00:00</updated>
     
@@ -309,7 +392,7 @@ beliefs.</p>
   <entry>
     <title>A respectful truce?</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/a-respectful-truce/"/>
+    <link href="//smus.com/notes/2017/a-respectful-truce/"/>
     
     <updated>2017-08-24T09:00:00-00:00</updated>
     
@@ -380,7 +463,7 @@ Advocates of evolutionary psychology should:</p>
   <entry>
     <title>The end of endings</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/the-end-of-endings/"/>
+    <link href="//smus.com/notes/2017/the-end-of-endings/"/>
     
     <updated>2017-07-31T09:00:00-00:00</updated>
     
@@ -420,7 +503,7 @@ constructed to consume your attention for as long as possible.</p>
   <entry>
     <title>Intelligence, aliens, and self-improvement</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/intelligence-aliens-and-self-improvement/"/>
+    <link href="//smus.com/notes/2017/intelligence-aliens-and-self-improvement/"/>
     
     <updated>2017-07-10T09:00:00-00:00</updated>
     
@@ -469,7 +552,7 @@ we reduce the machine menace problem to merely the evils of humanity. </p></li>
   <entry>
     <title>Convincing the inconvincible</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/convincing-the-inconvincible/"/>
+    <link href="//smus.com/notes/2017/convincing-the-inconvincible/"/>
     
     <updated>2017-06-20T09:00:00-00:00</updated>
     
@@ -518,7 +601,7 @@ even though you probably know a lot about their ideas already. </p></li>
   <entry>
     <title>Remembering my personal wiki</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/remembering-my-personal-wiki/"/>
+    <link href="//smus.com/notes/2017/remembering-my-personal-wiki/"/>
     
     <updated>2017-06-01T09:00:00-00:00</updated>
     
@@ -568,7 +651,7 @@ teens and early twenties. Je me souviens.</p>
   <entry>
     <title>Short posts using split Markdown</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/short-posts-using-split-markdown/"/>
+    <link href="//smus.com/notes/2017/short-posts-using-split-markdown/"/>
     
     <updated>2017-05-28T09:00:00-00:00</updated>
     
@@ -627,7 +710,7 @@ increasing frequency.</p>
   <entry>
     <title>Analogies from the industrial revolution</title>
     <author><name>Boris Smus</name></author>
-    <link href="/notes/2017/analogies-from-the-industrial-revolution/"/>
+    <link href="//smus.com/notes/2017/analogies-from-the-industrial-revolution/"/>
     
     <updated>2017-05-24T09:00:00-00:00</updated>
     

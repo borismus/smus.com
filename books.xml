@@ -5,13 +5,138 @@
   <title>Boris Smus (Books)</title>
   <link href="//smus.com/atom.xml" rel="self"/>
   <link href="//smus.com"/>
-  <updated>2018-08-28T15:25:27-00:00</updated>
+  <updated>2018-09-10T22:32:21-00:00</updated>
   <id>//smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Living the French Revolution (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="//smus.com/books/living-the-french-revolution-audio"/>
+    
+    <updated>2018-09-11T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/living-the-french-revolution-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>TODO</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Book of Why by Judea Pearl</title>
+    <author><name>Boris Smus</name></author>
+    <link href="//smus.com/books/book-of-why-by-judea-pearl"/>
+    
+    <updated>2018-09-10T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/book-of-why-by-judea-pearl</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Book of Why is a strange combination of anecdotes, verbal descriptions that
+genuinely help build intuition, some case studies, and a bunch of name dropping
+of students and collaborators. Most of it is written for a popular audience, but
+sometimes the author jumps into mathematical formulas seemingly conjured from
+mid-air with very little explanation. Other times he provides terse proofs that
+read more like a math text book than anything else. Overall, the book is not
+well structured and awkwardly straddles the line between popular science,
+textbook, and paper.</p>
+
+<p>I read most of it, but ended up bored and confused by Chapter 9.  Perhaps if I
+was actively studying statistics, and had more time to delve deeper into the
+content, I would be more patient with the author, and find more time to work out
+the details of the mathematics in my spare time. Nonetheless, here are the
+pearls I managed to uncover for myself:</p>
+
+<p><strong>Ladder of causation</strong>: Early on, the author presents "three distinct levels of
+cognitive ability: seeing, doing, and imagining.":</p>
+
+<p><img src="/books/book-of-why-by-judea-pearl/ladder-causation.png" alt="Ladder of causation" /></p>
+
+<p>The vast majority of today's machine learning resides on the first rung of the
+ladder: observational data. Pearl believes that the core of human intelligence
+resides on higher rungs: "Deep learning has given us machines with truly
+impressive abilities but no intelligence." Later, he suggests this more
+explicitly: "I conjecture, that human intuition is organized around causal, not
+statistical, relations."</p>
+
+<p><strong>Beyond RCTs</strong>: causality can be established by means other than randomized
+control trials (RCTs). The means Pearl suggests involve having more than just
+data, but also a causal model, in the form of a directed acyclic graph (DAG),
+originally introduced by Seward Wright.  Pearl really pushes on this,
+evangelizing the concept. "A sufficiently strong and accurate causal model can
+allow us to use rung-one (observational) data to answer rung-two
+(interventional) queries." In many cases, running an RCT may be physically
+impossible (eg. can't make people become obese to study the effect of
+obesity on heart disease), or unethical (eg. can't force random people to smoke
+for 10 years).</p>
+
+<p>However it’s unclear to me how one is to generate the causal model in the first
+place, and how you to ascertain that the model is "string and accurate".
+Pearl says so himself: "If she is confident that her causal model accounts for a
+sufficient number of deconfounders and she has gathered data on them, then she
+can estimate the effect of Fertilizer on Yield in an unbiased way.</p>
+
+<p><strong>Blending probability and logic</strong>: Although he never states it explicitly,
+Pearl's causal graphs seem to bridge the gap between formal logic (A implies B,
+necessary and sufficient) with probability. This is interesting, but I think
+Pearl is very much a statistician, and hardly ever mentions logic.</p>
+
+<p><strong>Casual aversion in stats</strong>: Pearl spends a lot of time complaining about
+the mantra "correlation does not imply causation" embodied by various
+authoritarian statisticians like Karl Pearson, and R. A. Fisher. Instead of such
+a strong statement, the author proposes "some correlations do imply causation,"
+although he does dial it back and suggests that it may instead be called
+"provisional causality".</p>
+
+<p><strong>Path analysis aka Structural Equation Modeling (SEM)</strong>: the path diagram
+concept introduced by Wright was met with resistance by his contemporaries, who
+were drawn to the allure of just looking at the data without any models, since
+the data is objective, and models are subjective. This is where Bayesian
+Statistics comes in, which tells you how to update Beliefs based on Evidence.</p>
+
+<p><strong>Junctions</strong>:</p>
+
+<ol>
+<li>A → B → C: Mediator junction. Example: Fire → Smoke → Alarm. Fire causes the
+Smoke, and Smoke triggers the Alarm.</li>
+<li>A ← B → C: Fork junction. Example: Shoe Size ←  Age of Child → Reading
+Ability. Children with larger shoe sizes tend to read better, but it's not a
+causal relationship.</li>
+<li>A → B ← C : Collider junction. Example: Talent → Celebrity ← Beauty. Suppose
+only one of talent and beauty is sufficient to be a celebrity. Then, if a
+celebrity were a good actor, they would need to be less beautiful.
+Conversely, if they were beautiful, they would need to be less talented.</li>
+</ol>
+
+<p><strong>Back-door path</strong>: Every graph is composed of the above junctions. Pearl claims
+that you can "deconfound two variables X and Y" by blocking every noncausal path
+between them without blocking or perturbing any causal paths. My intuition
+basically fails at this point.</p>
+
+<p><strong>Judicious biblical references</strong>: I loved that Pearl often cited the Bible in
+this book, most prominently the example of a controlled experiment from the Book
+of Daniel, but also quotes from the Book of Jonah: "At last the sailors said to
+each other, Come and let us cast lots to find out who is to blame for this
+ordeal."</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Tao of Philosophy by Alan Watts</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/tao-of-philosophy-by-alan-watts"/>
+    <link href="//smus.com/books/tao-of-philosophy-by-alan-watts"/>
     
     <updated>2018-08-03T09:00:00-00:00</updated>
     
@@ -78,7 +203,7 @@ quickly leads to totalitarianism since you assume the worst in people.</p>
   <entry>
     <title>Bad Blood by John Carreyrou</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/bad-blood-by-john-carreyrou"/>
+    <link href="//smus.com/books/bad-blood-by-john-carreyrou"/>
     
     <updated>2018-07-20T09:00:00-00:00</updated>
     
@@ -124,7 +249,7 @@ believes that the ends justify the means. </p>
   <entry>
     <title>Darkness at Noon by Arthur Koestler (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/darkness-at-noon-by-arthur-koestler-audio"/>
+    <link href="//smus.com/books/darkness-at-noon-by-arthur-koestler-audio"/>
     
     <updated>2018-07-05T09:00:00-00:00</updated>
     
@@ -193,7 +318,7 @@ written, interesting, and visceral.</p>
   <entry>
     <title>You Belong to the Universe (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/you-belong-to-the-universe-audio"/>
+    <link href="//smus.com/books/you-belong-to-the-universe-audio"/>
     
     <updated>2018-05-28T09:00:00-00:00</updated>
     
@@ -247,7 +372,7 @@ wise"</a>, a quip that is often applicable to modern tech. Specifically:</li>
   <entry>
     <title>Unsong by Scott Alexander</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/unsong-by-scott-alexander"/>
+    <link href="//smus.com/books/unsong-by-scott-alexander"/>
     
     <updated>2018-05-10T09:00:00-00:00</updated>
     
@@ -294,7 +419,7 @@ if it is aggressively edited, I will give it another chance.</p>
   <entry>
     <title>Reason in Human Affairs by Herbert Simon</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/reason-in-human-affairs-by-herbert-simon"/>
+    <link href="//smus.com/books/reason-in-human-affairs-by-herbert-simon"/>
     
     <updated>2018-04-26T09:00:00-00:00</updated>
     
@@ -382,7 +507,7 @@ psych today.</p>
   <entry>
     <title>The Fourth Turning by Howe and Strauss</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-fourth-turning-by-howe-and-strauss"/>
+    <link href="//smus.com/books/the-fourth-turning-by-howe-and-strauss"/>
     
     <updated>2018-04-23T09:00:00-00:00</updated>
     
@@ -465,7 +590,7 @@ potentially a fruitful “fake framework”. </p>
   <entry>
     <title>The Coffee-House: A Cultural History</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-coffee-house-a-cultural-history"/>
+    <link href="//smus.com/books/the-coffee-house-a-cultural-history"/>
     
     <updated>2018-04-11T09:00:00-00:00</updated>
     
@@ -643,7 +768,7 @@ loss.</p>
   <entry>
     <title>Player of Games by Iain M. Banks</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/player-of-games-by-iain-m-banks"/>
+    <link href="//smus.com/books/player-of-games-by-iain-m-banks"/>
     
     <updated>2018-03-30T09:00:00-00:00</updated>
     
@@ -673,7 +798,7 @@ mystery throughout.</p>
   <entry>
     <title>Skin in the Game by Taleb (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/skin-in-the-game-by-taleb-audio"/>
+    <link href="//smus.com/books/skin-in-the-game-by-taleb-audio"/>
     
     <updated>2018-03-29T09:00:00-00:00</updated>
     
@@ -795,7 +920,7 @@ preferences. </li>
   <entry>
     <title>The Modern Political Tradition: Hobbes to Habermas</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-modern-political-tradition-hobbes-to-habermas"/>
+    <link href="//smus.com/books/the-modern-political-tradition-hobbes-to-habermas"/>
     
     <updated>2018-03-04T09:00:00-00:00</updated>
     
@@ -1207,7 +1332,7 @@ re-listen.</p>
   <entry>
     <title>Scale by Geoffrey West</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/scale-by-geoffrey-west"/>
+    <link href="//smus.com/books/scale-by-geoffrey-west"/>
     
     <updated>2018-02-23T09:00:00-00:00</updated>
     
@@ -1400,7 +1525,7 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>Anthem by Ayn Rand</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/anthem-by-ayn-rand"/>
+    <link href="//smus.com/books/anthem-by-ayn-rand"/>
     
     <updated>2018-01-28T09:00:00-00:00</updated>
     
@@ -1455,7 +1580,7 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>Impro by Keith Johnstone</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/impro-by-keith-johnstone"/>
+    <link href="//smus.com/books/impro-by-keith-johnstone"/>
     
     <updated>2018-01-24T09:00:00-00:00</updated>
     
@@ -1586,7 +1711,7 @@ lot of interesting ideas. I recommend it!</p>
   <entry>
     <title>The Truth of Fact, the Truth of Feeling by Ted Chiang</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang"/>
+    <link href="//smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang"/>
     
     <updated>2018-01-04T09:00:00-00:00</updated>
     
@@ -1740,7 +1865,7 @@ to his daughter.</p>
   <entry>
     <title>Is That a Fish in Your Ear? by David Bellos</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
+    <link href="//smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
     
     <updated>2017-12-26T09:00:00-00:00</updated>
     
@@ -1883,7 +2008,7 @@ as relevant as translating flour into noodles. Cool story.</li>
   <entry>
     <title>My Russian Grandmother... by Meir Shalev</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/my-russian-grandmother-by-meir-shalev"/>
+    <link href="//smus.com/books/my-russian-grandmother-by-meir-shalev"/>
     
     <updated>2017-11-25T09:00:00-00:00</updated>
     
@@ -1928,7 +2053,7 @@ translation into Russian may have even enhanced the experience.</p>
   <entry>
     <title>The neurochemistry of music</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/neurochemistry-music"/>
+    <link href="//smus.com/books/neurochemistry-music"/>
     
     <updated>2017-10-23T09:00:00-00:00</updated>
     
@@ -1979,7 +2104,7 @@ something equally pleasant.</p>
 <p>Along similar lines, paper suggests recommends for future research, and includes
 a cool diagram:</p>
 
-<p><img src="future.png" alt="Future research in neurochemistry + music." /></p>
+<p><img src="/books/neurochemistry-music/future.png" alt="Future research in neurochemistry + music." /></p>
 
 <p><style type="text/css">
     ol { list-style-type: upper-alpha; }
@@ -2014,7 +2139,7 @@ function of mucous membranes.</li>
 
 <p>Is there a more complete list of domains mapping to chemical systems?</p>
 
-<p>An <a href="mockel.pdf">interesting study</a> compared the effects of silence, a waltz by
+<p>An <a href="/books/neurochemistry-music/mockel.pdf">interesting study</a> compared the effects of silence, a waltz by
 J. Strauss, a modern classic by H. W. Henze, and meditative music by R.
 Shankar. Meditative music (Shankar) lowered plasma cortisol, noradrenaline and
 t-PA concentrations.</p>
@@ -2026,7 +2151,7 @@ cardiovascular measures, relaxing vise versa. </p>
 
 <p>One more fascinating tidbit to be explored further: the authors casually drop
 this gem: “this follows given that brainstem neurons tend to fire synchronously
-with tempo”. This entrainment is described more in <a href="griffiths.pdf">this paper</a>.</p>
+with tempo”. This entrainment is described more in <a href="/books/neurochemistry-music/griffiths.pdf">this paper</a>.</p>
 
 <p>Now that I think of it, the brainstem is probably the most interesting part of
 the brain in terms of neurological control. According to Wikipedia,</p>
@@ -2051,7 +2176,7 @@ the brain in terms of neurological control. According to Wikipedia,</p>
   <entry>
     <title>On the Shortness of Life</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/on-the-shortness-of-life"/>
+    <link href="//smus.com/books/on-the-shortness-of-life"/>
     
     <updated>2017-10-13T09:00:00-00:00</updated>
     
@@ -2140,7 +2265,7 @@ example in their celestial worldview:</p>
   <entry>
     <title>Stories of Your Life and Others</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/stories-of-your-life-and-others"/>
+    <link href="//smus.com/books/stories-of-your-life-and-others"/>
     
     <updated>2017-09-25T09:00:00-00:00</updated>
     
@@ -2268,7 +2393,7 @@ prior is against mental manipulation...</p>
   <entry>
     <title>Nothing is True and Everything is Possible</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/nothing-is-true-and-everything-is-possible"/>
+    <link href="//smus.com/books/nothing-is-true-and-everything-is-possible"/>
     
     <updated>2017-09-12T09:00:00-00:00</updated>
     
@@ -2381,7 +2506,7 @@ barrage of pessimism.</p>
   <entry>
     <title>Benjamin Franklin: An American Life</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/benjamin-franklin-an-american-life"/>
+    <link href="//smus.com/books/benjamin-franklin-an-american-life"/>
     
     <updated>2017-08-24T09:00:00-00:00</updated>
     
@@ -2473,7 +2598,7 @@ tyrants").</p>
   <entry>
     <title>Whole Earth Discipline by Stewart Brand</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/whole-earth-discipline-by-stewart-brand"/>
+    <link href="//smus.com/books/whole-earth-discipline-by-stewart-brand"/>
     
     <updated>2017-07-12T09:00:00-00:00</updated>
     
@@ -2722,234 +2847,9 @@ similarly researched argument from the other side to see where I land.</p>
   </entry>
   
   <entry>
-    <title>The Psychology of Curiosity</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/psychology-of-curiosity"/>
-    
-    <updated>2017-06-28T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/psychology-of-curiosity</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I read <a href="http://int-des.com/wp-content/uploads/2013/12/PsychofCuriosity.pdf">an academic paper on curiosity</a> by <a href="https://en.wikipedia.org/wiki/George_Loewenstein">George Loewenstein</a>.
-It was surprisingly readable and very insightful.</p>
-
-<p>Why did I read it? Just like <a href="https://www.media.mit.edu/events/papert/">some</a> think about thinking, others
-are curious about curiosity. More specifically, I recently read a <a href="https://www.vox.com/science-and-health/2017/2/1/14392290/partisan-bias-dan-kahan-curiosity">Vox
-article</a> that suggested "The more scientifically curious people are, the
-more they are immune to the power of partisan thinking". What follows is mostly
-a summary of the article, as well as some sketches I made to help me understand
-it better.</p>
-
-<p>Dark side of curiosity (it can be a vice):</p>
-
-<ul>
-<li>Stories of Pandora's Box, Eve's Garden, Lot's Wife's Pillar.</li>
-<li>St. Augustine: "Ocular Lust"</li>
-<li>Hume: love of knowledge vs. passion for gossip?</li>
-<li>Exploratory non-sanctioned behaviors are often curiosity driven: drugs &amp; sex.</li>
-</ul>
-
-<p>Berlyne's types of curiosity:</p>
-
-<ul>
-<li>Perceptual curiosity: drive for novel stimuli</li>
-<li>Diversive curiosity: a more general stimulation seeking behavior linked to boredom</li>
-<li>Specific curiosity: desire for a particular piece of information</li>
-<li>Epistemic curiosity: a general human desire for knowledge</li>
-</ul>
-
-<p>Unclear if perceptual &amp; diversive curiosity should be called curiosity, or
-something else?</p>
-
-<p>Trait vs. state curiosity:</p>
-
-<ul>
-<li>Is the distinction meaningful? (eg. Do you usually find the rooms you are in
-to be too bright? vs. Is the room you are in too bright?)</li>
-<li>No strong demographic correlates for trait curiosity.</li>
-<li>State curiosity is way more interesting to study since "an improved
-understanding of state curiosity, in contrast, has the potential to suggest
-practical methods of stimulating curiosity in the broader population."</li>
-</ul>
-
-<p><img src="intrinsic-vs-extrinsic.jpg" alt="Intrinsic vs. extrinsic curiosity." /></p>
-
-<p>Curiosity and sex:</p>
-
-<ul>
-<li>Freud suggests that curiosity is a proxy for sexual curiosity, which is
-suppressed by society.</li>
-<li>In some rare cases, this is manifest as a general curiosity about the world.</li>
-<li>But this theory is non-falsifiable (fuck yeah Popper / eat shit Freud).</li>
-<li>Like sex, curiosity is an intense desire for information, but once attained,
-is often disappointing (see: <a href="https://en.wikipedia.org/wiki/Post-coital_tristesse">postcoitus triste</a>).</li>
-</ul>
-
-<h1>Existing explanations for curiosity</h1>
-
-<ol>
-<li><p>Curiosity as a drive:</p>
-
-<ul>
-<li>Analogy to hunger and thirst: "appetite/thirst for knowledge", curiosity
-can be satisfied.</li>
-<li>It's per object (eg. satisfied curiosity about invertebrates), unlike food
-where it's a general feeling of satiation.</li>
-<li>Also unlike food, there's no "tissue need or deficit external to the
-nervous system".</li>
-<li>"Meta drive", since it's not the drive for the information directly, but
-the drive for the desire to seek information (eg. an ape that opens the
-window to see if there's something interesting there)</li>
-<li>Also curiosity is easily disrupted by "tissue needs" like hunger and
-thirst.</li>
-</ul></li>
-<li><p>Incongruity theory:</p>
-
-<ul>
-<li>Curiosity caused by violated expectations (Piaget, Hebb, Hunt)</li>
-<li>Sweet spot / optimal level of incongruity. Too much incongruity =&gt; fear /
-can't relate / can't incorporate new information.</li>
-<li>Motivation: to resolve uncertainty. "Human nature abhors a lack of
-predictability and the absense of meaning"</li>
-<li>Also related to "Need for Cognition" which is more of a personality trait.</li>
-</ul></li>
-<li><p>Competence motive: Curiosity may result from wanting to master one's
-environment. This doesn't super compelling to Loewenstein (and me by
-association).</p></li>
-</ol>
-
-<h1>Situational causes for state curiosity</h1>
-
-<p>Paradox: curiosity seeking behavior doesn't make sense if people are curiosity averse. </p>
-
-<p>Sweet spot of expectation violation:</p>
-
-<ul>
-<li>Too little expectation violation =&gt; bored.</li>
-<li>Too much expectation violation  =&gt; overwhelmed. </li>
-<li>So the in this model, the goal is to maximize the curiosity level.</li>
-</ul>
-
-<p><img src="expectation-violation.jpg" alt="Upside down U curve of ideal level of expected
-violations." /></p>
-
-<p>Conceptual controversy increases curiosity (experiment where students were put into groups intended to either foster conflict or consensus: 45% of controversy kids gave up recess to watch a film, vs. 18% in consensus group).</p>
-
-<h1>Loewenstein's model: information gap</h1>
-
-<p>Information gap: </p>
-
-<ul>
-<li>The gap between what you know (objective situation) and what you want to know
-(the reference point).</li>
-<li>Just like material wealth where it's hard to compare cars to swimming pools so
-we use $, knowledge is multidimensional but can be reduced to 1D via bits
-(info theory)</li>
-<li>Also like material wealth, we rarely want to compare to unattainable (eg. the
-rich and famous), but instead to your neighbor.</li>
-</ul>
-
-<p><img src="information-gap.jpg" alt="1D information gap" /></p>
-
-<p>Quantifying the info gap:</p>
-
-<ul>
-<li>Sensitivity to both relative and absolute magnitude of the info gap.</li>
-<li>Gap between knowing 4 of 5 Pacific Ocean-bordering US states &gt; gap between
-knowing 49 and 50 of US states.</li>
-<li>Gap between knowing 40 of 50 US states &gt; gap between 4 of 5 Pacific Ocean
-bordering states.</li>
-<li>But some things affect curiosity that doesn't account in the info theoretic
-view of the info gap (eg. facts that bring the plot to life in a murder
-mystery.)</li>
-<li>Precise measurement of the gap is often unnecessary, just a sense of whether
-gap is increasing or decreasing. For research, can rely on self-reports.</li>
-</ul>
-
-<h1>Implications of the gap approach</h1>
-
-<p>Subjects prefer more general rules to resolve uncertainty (study: 1. rule
-generated list of 5 States vs. 2.  another rule that generated list of 10
-states, subjects prefer to learn rule 2.)</p>
-
-<p>More curiosity for insight vs. for incremental problems (study: 1. image-grid
-where each cell was part of one animal vs. 2. each cell is its own animal,
-subjects open more cells condition 1.)</p>
-
-<p>Two ways of seeing a knowledge gap:</p>
-
-<ul>
-<li>Little knowledge =&gt; focus on what you know.</li>
-<li>More knowledge =&gt; focus on what you don't know (ie. the information gap).</li>
-<li>At some point in between, there's a discrete shift on focusing on ignorance
-that makes you more curious.</li>
-</ul>
-
-<p>Paradox: if you don't know much, no real drive to learn more. Also, many people
-don't know that they don't know a lot (Related to Dunning–Kruger effect.)</p>
-
-<p><img src="curiosity-knowledge.jpg" alt="Curiosity increases with knowledge &amp; discrete shift." /></p>
-
-<p>As a novice gains more knowledge the "unknown unknowns" become known unknowns,
-which spurs curiosity. As you learn more, the gap closes and you become less
-curious. Until there's a leap, your reference point changes realize your
-ignorance again.</p>
-
-<p><img src="curiosity-progression.jpg" alt="Alternating curiosity levels as your reference point
-changes." /></p>
-
-<p>A good way to cause awareness of the informational gap is via guessing and
-feedback. It's difficult to deny the knowledge gap if you guess an answer
-incorrectly. </p>
-
-<p>Combination of guess and feedback increased curiosity (study: one group had to
-first guess Easternmost, Northernmost, Southernmost states (w/ immediate
-feedback) while the other didn't, and the one that did guess &amp; feedback was more
-curious)</p>
-
-<h1>Curiosity inducing stimuli</h1>
-
-<p>Situations that increase curiosity:</p>
-
-<ol>
-<li>Direct question (eg. a puzzle or riddle)</li>
-<li>A sequence of events with an unknown resolution, desire to complete a script
-(eg. they went on a walk at night, suddenly they heard a noise). Q: "What
-will happen?" / "Was I right?"</li>
-<li>Violation of expectations. Q: "Weird, why did that happen?"</li>
-<li>Possession of information by someone else (eg. someone chuckling as he reads
-a news article). Q: "What does he know?" </li>
-<li>Formerly known but forgotten things (eg. that word that was on the top of the
-tongue...). Q: "What was that thing again!"</li>
-</ol>
-
-<h1>Conclusions / misc</h1>
-
-<p>Loewenstein calls for more research on state (not trait) curiosity, and more
-research on epistemic curiosity.</p>
-
-<p>I should read William James' on scientific curiosity, since it's most relevant
-for that Vox article, and also mentioned by Loewenstein as the type of curiosity
-that mostly corresponds to specific epistemic curiosity.</p>
-
-<p>I printed the paper, but the last page didn't come out. So I experienced the
-recently learned <a href="https://en.wikipedia.org/wiki/Zeigarnik_effect">Zeigarnik effect</a>: people remember uncompleted or
-interrupted tasks better than completed tasks. I was very curious to see how the
-paper ended, so had to finish reading the last page online.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>On Tyranny by Timothy Snyder</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/on-tyranny-by-timothy-snyder"/>
+    <link href="//smus.com/books/on-tyranny-by-timothy-snyder"/>
     
     <updated>2017-06-13T09:00:00-00:00</updated>
     
@@ -3014,7 +2914,7 @@ test of time. </p>
   <entry>
     <title>Great Gatsby by F. Scott Fitzgerald</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/great-gatsby-by-f-scott-fitzgerald"/>
+    <link href="//smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
     
     <updated>2017-06-10T09:00:00-00:00</updated>
     
@@ -3038,11 +2938,236 @@ certain aimlessness to it that I found very relatable.</p>
   </entry>
   
   <entry>
+    <title>The Psychology of Curiosity</title>
+    <author><name>Boris Smus</name></author>
+    <link href="//smus.com/books/psychology-of-curiosity"/>
+    
+    <updated>2017-06-10T09:00:00-00:00</updated>
+    
+    <id>//smus.com/books/psychology-of-curiosity</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I read <a href="http://int-des.com/wp-content/uploads/2013/12/PsychofCuriosity.pdf">an academic paper on curiosity</a> by <a href="https://en.wikipedia.org/wiki/George_Loewenstein">George Loewenstein</a>.
+It was surprisingly readable and very insightful.</p>
+
+<p>Why did I read it? Just like <a href="https://www.media.mit.edu/events/papert/">some</a> think about thinking, others
+are curious about curiosity. More specifically, I recently read a <a href="https://www.vox.com/science-and-health/2017/2/1/14392290/partisan-bias-dan-kahan-curiosity">Vox
+article</a> that suggested "The more scientifically curious people are, the
+more they are immune to the power of partisan thinking". What follows is mostly
+a summary of the article, as well as some sketches I made to help me understand
+it better.</p>
+
+<p>Dark side of curiosity (it can be a vice):</p>
+
+<ul>
+<li>Stories of Pandora's Box, Eve's Garden, Lot's Wife's Pillar.</li>
+<li>St. Augustine: "Ocular Lust"</li>
+<li>Hume: love of knowledge vs. passion for gossip?</li>
+<li>Exploratory non-sanctioned behaviors are often curiosity driven: drugs &amp; sex.</li>
+</ul>
+
+<p>Berlyne's types of curiosity:</p>
+
+<ul>
+<li>Perceptual curiosity: drive for novel stimuli</li>
+<li>Diversive curiosity: a more general stimulation seeking behavior linked to boredom</li>
+<li>Specific curiosity: desire for a particular piece of information</li>
+<li>Epistemic curiosity: a general human desire for knowledge</li>
+</ul>
+
+<p>Unclear if perceptual &amp; diversive curiosity should be called curiosity, or
+something else?</p>
+
+<p>Trait vs. state curiosity:</p>
+
+<ul>
+<li>Is the distinction meaningful? (eg. Do you usually find the rooms you are in
+to be too bright? vs. Is the room you are in too bright?)</li>
+<li>No strong demographic correlates for trait curiosity.</li>
+<li>State curiosity is way more interesting to study since "an improved
+understanding of state curiosity, in contrast, has the potential to suggest
+practical methods of stimulating curiosity in the broader population."</li>
+</ul>
+
+<p><img src="/books/psychology-of-curiosity/intrinsic-vs-extrinsic.jpg" alt="Intrinsic vs. extrinsic curiosity." /></p>
+
+<p>Curiosity and sex:</p>
+
+<ul>
+<li>Freud suggests that curiosity is a proxy for sexual curiosity, which is
+suppressed by society.</li>
+<li>In some rare cases, this is manifest as a general curiosity about the world.</li>
+<li>But this theory is non-falsifiable (fuck yeah Popper / eat shit Freud).</li>
+<li>Like sex, curiosity is an intense desire for information, but once attained,
+is often disappointing (see: <a href="https://en.wikipedia.org/wiki/Post-coital_tristesse">postcoitus triste</a>).</li>
+</ul>
+
+<h1>Existing explanations for curiosity</h1>
+
+<ol>
+<li><p>Curiosity as a drive:</p>
+
+<ul>
+<li>Analogy to hunger and thirst: "appetite/thirst for knowledge", curiosity
+can be satisfied.</li>
+<li>It's per object (eg. satisfied curiosity about invertebrates), unlike food
+where it's a general feeling of satiation.</li>
+<li>Also unlike food, there's no "tissue need or deficit external to the
+nervous system".</li>
+<li>"Meta drive", since it's not the drive for the information directly, but
+the drive for the desire to seek information (eg. an ape that opens the
+window to see if there's something interesting there)</li>
+<li>Also curiosity is easily disrupted by "tissue needs" like hunger and
+thirst.</li>
+</ul></li>
+<li><p>Incongruity theory:</p>
+
+<ul>
+<li>Curiosity caused by violated expectations (Piaget, Hebb, Hunt)</li>
+<li>Sweet spot / optimal level of incongruity. Too much incongruity =&gt; fear /
+can't relate / can't incorporate new information.</li>
+<li>Motivation: to resolve uncertainty. "Human nature abhors a lack of
+predictability and the absense of meaning"</li>
+<li>Also related to "Need for Cognition" which is more of a personality trait.</li>
+</ul></li>
+<li><p>Competence motive: Curiosity may result from wanting to master one's
+environment. This doesn't super compelling to Loewenstein (and me by
+association).</p></li>
+</ol>
+
+<h1>Situational causes for state curiosity</h1>
+
+<p>Paradox: curiosity seeking behavior doesn't make sense if people are curiosity averse. </p>
+
+<p>Sweet spot of expectation violation:</p>
+
+<ul>
+<li>Too little expectation violation =&gt; bored.</li>
+<li>Too much expectation violation  =&gt; overwhelmed. </li>
+<li>So the in this model, the goal is to maximize the curiosity level.</li>
+</ul>
+
+<p><img src="/books/psychology-of-curiosity/expectation-violation.jpg" alt="Upside down U curve of ideal level of expected
+violations." /></p>
+
+<p>Conceptual controversy increases curiosity (experiment where students were put into groups intended to either foster conflict or consensus: 45% of controversy kids gave up recess to watch a film, vs. 18% in consensus group).</p>
+
+<h1>Loewenstein's model: information gap</h1>
+
+<p>Information gap: </p>
+
+<ul>
+<li>The gap between what you know (objective situation) and what you want to know
+(the reference point).</li>
+<li>Just like material wealth where it's hard to compare cars to swimming pools so
+we use $, knowledge is multidimensional but can be reduced to 1D via bits
+(info theory)</li>
+<li>Also like material wealth, we rarely want to compare to unattainable (eg. the
+rich and famous), but instead to your neighbor.</li>
+</ul>
+
+<p><img src="/books/psychology-of-curiosity/information-gap.jpg" alt="1D information gap" /></p>
+
+<p>Quantifying the info gap:</p>
+
+<ul>
+<li>Sensitivity to both relative and absolute magnitude of the info gap.</li>
+<li>Gap between knowing 4 of 5 Pacific Ocean-bordering US states &gt; gap between
+knowing 49 and 50 of US states.</li>
+<li>Gap between knowing 40 of 50 US states &gt; gap between 4 of 5 Pacific Ocean
+bordering states.</li>
+<li>But some things affect curiosity that doesn't account in the info theoretic
+view of the info gap (eg. facts that bring the plot to life in a murder
+mystery.)</li>
+<li>Precise measurement of the gap is often unnecessary, just a sense of whether
+gap is increasing or decreasing. For research, can rely on self-reports.</li>
+</ul>
+
+<h1>Implications of the gap approach</h1>
+
+<p>Subjects prefer more general rules to resolve uncertainty (study: 1. rule
+generated list of 5 States vs. 2.  another rule that generated list of 10
+states, subjects prefer to learn rule 2.)</p>
+
+<p>More curiosity for insight vs. for incremental problems (study: 1. image-grid
+where each cell was part of one animal vs. 2. each cell is its own animal,
+subjects open more cells condition 1.)</p>
+
+<p>Two ways of seeing a knowledge gap:</p>
+
+<ul>
+<li>Little knowledge =&gt; focus on what you know.</li>
+<li>More knowledge =&gt; focus on what you don't know (ie. the information gap).</li>
+<li>At some point in between, there's a discrete shift on focusing on ignorance
+that makes you more curious.</li>
+</ul>
+
+<p>Paradox: if you don't know much, no real drive to learn more. Also, many people
+don't know that they don't know a lot (Related to Dunning–Kruger effect.)</p>
+
+<p><img src="/books/psychology-of-curiosity/curiosity-knowledge.jpg" alt="Curiosity increases with knowledge &amp; discrete shift." /></p>
+
+<p>As a novice gains more knowledge the "unknown unknowns" become known unknowns,
+which spurs curiosity. As you learn more, the gap closes and you become less
+curious. Until there's a leap, your reference point changes realize your
+ignorance again.</p>
+
+<p><img src="/books/psychology-of-curiosity/curiosity-progression.jpg" alt="Alternating curiosity levels as your reference point
+changes." /></p>
+
+<p>A good way to cause awareness of the informational gap is via guessing and
+feedback. It's difficult to deny the knowledge gap if you guess an answer
+incorrectly. </p>
+
+<p>Combination of guess and feedback increased curiosity (study: one group had to
+first guess Easternmost, Northernmost, Southernmost states (w/ immediate
+feedback) while the other didn't, and the one that did guess &amp; feedback was more
+curious)</p>
+
+<h1>Curiosity inducing stimuli</h1>
+
+<p>Situations that increase curiosity:</p>
+
+<ol>
+<li>Direct question (eg. a puzzle or riddle)</li>
+<li>A sequence of events with an unknown resolution, desire to complete a script
+(eg. they went on a walk at night, suddenly they heard a noise). Q: "What
+will happen?" / "Was I right?"</li>
+<li>Violation of expectations. Q: "Weird, why did that happen?"</li>
+<li>Possession of information by someone else (eg. someone chuckling as he reads
+a news article). Q: "What does he know?" </li>
+<li>Formerly known but forgotten things (eg. that word that was on the top of the
+tongue...). Q: "What was that thing again!"</li>
+</ol>
+
+<h1>Conclusions / misc</h1>
+
+<p>Loewenstein calls for more research on state (not trait) curiosity, and more
+research on epistemic curiosity.</p>
+
+<p>I should read William James' on scientific curiosity, since it's most relevant
+for that Vox article, and also mentioned by Loewenstein as the type of curiosity
+that mostly corresponds to specific epistemic curiosity.</p>
+
+<p>I printed the paper, but the last page didn't come out. So I experienced the
+recently learned <a href="https://en.wikipedia.org/wiki/Zeigarnik_effect">Zeigarnik effect</a>: people remember uncompleted or
+interrupted tasks better than completed tasks. I was very curious to see how the
+paper ended, so had to finish reading the last page online.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/finite-and-infinite-games-by-james-carse"/>
+    <link href="//smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-28T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -3083,9 +3208,9 @@ all.</p>
   <entry>
     <title>Homo Deus by Yuval Noah Harari</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/homo-deus-by-yuval-noah-harari"/>
+    <link href="//smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-28T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3278,9 +3403,9 @@ stimulating but mainly to get me thinking about why I disagree. </p>
   <entry>
     <title>Understanding Japan: A Cultural History (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/understanding-japan-a-cultural-history-audio"/>
+    <link href="//smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-28T09:00:00-00:00</updated>
+    <updated>2017-05-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3343,9 +3468,9 @@ incredibly interesting and exotic, but still has enough western services.</p>
   <entry>
     <title>The Lessons of History by Will and Ariel Durant</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-lessons-of-history-by-will-and-ariel-durant"/>
+    <link href="//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-28T09:00:00-00:00</updated>
+    <updated>2017-04-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3437,9 +3562,9 @@ ever before.</p>
   <entry>
     <title>The Wind's Twelve Quarters by Ursula K. Le Guin</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
+    <link href="//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-28T09:00:00-00:00</updated>
+    <updated>2017-03-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3487,9 +3612,9 @@ their books read after we actually have become an interplanetary species?"</p>
   <entry>
     <title>Deep Work by Cal Newport</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/deep-work-by-cal-newport"/>
+    <link href="//smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-28T09:00:00-00:00</updated>
+    <updated>2017-03-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3524,9 +3649,9 @@ articles from there. Probably get a twitter to rss thing?</p>
   <entry>
     <title>Mindstorms by Seymour Papert</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/mindstorms-by-seymour-papert"/>
+    <link href="//smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-28T09:00:00-00:00</updated>
+    <updated>2017-02-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -3592,9 +3717,9 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
   <entry>
     <title>Don't Think of an Elephant by George Lakoff</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/dont-think-of-an-elephant-by-george-lakoff"/>
+    <link href="//smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-28T09:00:00-00:00</updated>
+    <updated>2017-02-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -3620,9 +3745,9 @@ short length.</p>
   <entry>
     <title>The Futurological Congress by Stanislav Lem</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-futurological-congress-by-stanislav-lem"/>
+    <link href="//smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-28T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -3681,9 +3806,9 @@ another of virtualizing reality.</p>
   <entry>
     <title>On Venus, Have We Got a Rabbi by William Tenn</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
+    <link href="//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-28T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -3716,9 +3841,9 @@ Hopefully this is an issue we can grapple with one day.</p>
   <entry>
     <title>Superforecasters by Phil Tetlock</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/superforecasters-by-phil-tetlock"/>
+    <link href="//smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-28T09:00:00-00:00</updated>
+    <updated>2017-01-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -3783,9 +3908,9 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
   <entry>
     <title>Why Teach Thinking by Jonathan Baron</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/why-teach-thinking-by-jonathan-baron"/>
+    <link href="//smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-28T09:00:00-00:00</updated>
+    <updated>2016-12-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -3874,9 +3999,9 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
   <entry>
     <title>Brief Wondrous Life of Oscar Wao</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/brief-wondrous-life-of-oscar-wao"/>
+    <link href="//smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-28T09:00:00-00:00</updated>
+    <updated>2016-11-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -3920,9 +4045,9 @@ it's hard to really empathize with the guy.</li>
   <entry>
     <title>Future Babble</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/future-babble"/>
+    <link href="//smus.com/books/future-babble"/>
     
-    <updated>2016-10-28T09:00:00-00:00</updated>
+    <updated>2016-10-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/future-babble</id>
     <content type="html">
@@ -3984,9 +4109,9 @@ future even more so.</li>
   <entry>
     <title>I Am A Strange Loop</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/i-am-a-strange-loop"/>
+    <link href="//smus.com/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-28T09:00:00-00:00</updated>
+    <updated>2016-10-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -4018,9 +4143,9 @@ completely devoured by his good-natured cleverness.
   <entry>
     <title>The Hedgehog and the Fox</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-hedgehog-and-the-fox"/>
+    <link href="//smus.com/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-28T09:00:00-00:00</updated>
+    <updated>2016-09-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -4080,9 +4205,9 @@ in less turbulent circumstances. And more Tolstoy!</p>
   <entry>
     <title>Sapiens (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/sapiens-audio"/>
+    <link href="//smus.com/books/sapiens-audio"/>
     
-    <updated>2016-09-28T09:00:00-00:00</updated>
+    <updated>2016-09-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -4166,9 +4291,9 @@ open to new insights.</p>
   <entry>
     <title>How to Actually Change Your Mind by Big Yud</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/how-to-actually-change-your-mind-by-big-yud"/>
+    <link href="//smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-28T09:00:00-00:00</updated>
+    <updated>2016-08-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4461,9 +4586,9 @@ opinion when confronted by clear evidence against it.</p>
   <entry>
     <title>Exploring the World of Lucid Dreaming</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/exploring-the-world-of-lucid-dreaming"/>
+    <link href="//smus.com/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-28T09:00:00-00:00</updated>
+    <updated>2016-08-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4497,9 +4622,9 @@ keep on my bedside table.</p>
   <entry>
     <title>The Persuaders (audio)</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-persuaders-audio"/>
+    <link href="//smus.com/books/the-persuaders-audio"/>
     
-    <updated>2016-07-28T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4570,9 +4695,9 @@ the other POV is effective.</p>
   <entry>
     <title>The Righteous Mind by Jon Haidt</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/the-righteous-mind-by-jon-haidt"/>
+    <link href="//smus.com/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-28T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -4729,9 +4854,9 @@ understanding.</p>
   <entry>
     <title>Must Mankind Repeat History's Great Mistakes</title>
     <author><name>Boris Smus</name></author>
-    <link href="/books/must-mankind-repeat-historys-great-mistakes"/>
+    <link href="//smus.com/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-28T09:00:00-00:00</updated>
+    <updated>2016-07-10T09:00:00-00:00</updated>
     
     <id>//smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">
@@ -4764,118 +4889,6 @@ that the lecture was recorded in the early 90s.</p>
 <p>The lecturer wasn't very engaging, and I found myself listening to a lot of the
 lectures without getting much out of them. Additionally, the volume was low and
 the recording was poor quality, which contributed to my meta objections.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Man Who Loved Only Numbers</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/the-man-who-loved-only-numbers"/>
-    
-    <updated>2016-07-28T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/the-man-who-loved-only-numbers</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I really loved this one. It captures perfectly the quirkiness of Erdos, and his
-mathematician circles. Much more than a biography, this book popularizes a lot
-of incredibly interesting mathematics. It took me back 10 years to my math
-undergrad days.</p>
-
-<p>The author does an incredible job of capturing the essence of many complex
-mathematical concepts in appealing and entertaining ways. It's instructive to
-compare the way this book tackles certain topics to the corresponding Wikipedia
-page, which is completely undecipherable by a non-mathematician, and often even
-by a mathematician that doesn't work in that domain. That said, I'm  not sure
-that this book would be as appreciated by someone without a background in math.
-But it may serve as inspiration for a motivated, mathematically-inclined high
-school student. I'll find out!</p>
-
-<p>Despite having spent 4 years taking a bunch of math courses,  I learned a lot of
-new math from this book, and was reminded by some favorites.</p>
-
-<p>Ramsey Theory: the inevitability of order in large quantities. We barely touched
-on Ramsey theory in 4th year Graph Theory, and it seemed really obscure. Not
-true! Draw any 5 points on a plane, and as long as 3 of them don't form a line,
-you are guaranteed to be able to form a convex quad using them as vertices. Take
-any sequence of 101 numbers, and you're guaranteed to find a subsequence of at
-least 10 increasing numbers.</p>
-
-<p>Infinite series: a technical subject, but some really incredible results, like
-Taylor expansions of e (sum of 1/k!), pi (6 times sum of 1/k^2).</p>
-
-<p>Cantor's analysis of various infinities (alpha numbers): firstly the beautiful
-argument about the countability of rational numbers, and then the famous
-diagonalization argument which proves that the set of real numbers is a bigger
-infinity.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Mother of All Demos</title>
-    <author><name>Boris Smus</name></author>
-    <link href="/books/mother-of-all-demos"/>
-    
-    <updated>2016-06-28T09:00:00-00:00</updated>
-    
-    <id>//smus.com/books/mother-of-all-demos</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Took some notes from the famous <a href="http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/1968Demo.html">Doug Englebart
-demo</a>.</p>
-
-<p>As a Human Computer Interaction nerd, I feel the need to pay homage to history
-of the field. One glaring omission in my education is that I haven't fully
-watched "The Demo" where Douglas Englebart shows off the state of the art of
-"Man-Computer Interaction" circa 1968. The subject of the demo is NLS (Online
-system), which is intended as a synthesis of a bunch of ideas coming from SRI.
-It's quite impressive how far we've come, but also how many elements are still
-recognizable, and in some cases impressively ahead of their time.</p>
-
-<p>The first ten minutes introduce a series of key concepts that are staples of
-desktop computing: the mouse and keyboard, mouse pointers, copy/paste, saving
-and loading files, numbered lists. Less mainstream, VI-like features are also
-introduced, such as reorderable, heirarchical lists, and folding sections.
-Much of what goes on under the hood in NLS reminded me of VIM script and other
-similar DSLs. Big focus on expert-oriented power usage.</p>
-
-<p>The Demo heavily alludes to the web, with a lot of provisions for interlinking,
-cross referencing, and even an explicit mention of ARPA close to the end of the
-demo (Clip 33), which reminds the viewer that this is all pre-Intenet. In
-contrast, their (presumably telephone-based) video calling was quite impressive.
-The quality of the remote speaker seemed to be about as good (bad?) as
-Englebart's. Some collaborative features were quite impressive, with a real-time
-cursor sharing scheme which was decades ahead of its time. Others were less
-interesting, like leaving a message for other people in a file to "get a
-response within minutes".</p>
-
-<p>Some time is spent showing off hardware. Most interestingly is the
-<a href="http://dougengelbart.org/firsts/keyset.html">Keyset</a>, which was a 5-key
-ancestor of the chorded keyboard, where each key combination (31 in total) led
-to a character, and was intended as a one handed keyboard. Also interesting as a
-point of comparison was the cutting edge display tech of the time: black and
-white CRTs with 15 Hz refresh rates and super high (3 frame) persistence.</p>
-
-<p>The philosophy of the lab behind MOAD was close to my heart, and lives on in R&amp;D
-groups I've had the pleasure of being part of:</p>
-
-<ul>
-<li>Build and try: big focus on prototyping!</li>
-<li>Evolutionary: make incremental improvements to a real system, not grand visions.</li>
-<li>Eat your own dogfood: use the thing you build, and test it on yourself.</li>
-</ul>
 
 
         

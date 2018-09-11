@@ -3,11 +3,24 @@
 <head>
   <title>Three approaches to VR lens distortion | Boris Smus</title>
 
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Immersion requires a large field of view. This could be achieved by putting a large curved spherical display on your face, but alas such technology is prohibitively expensive. A more affordable solution to increasing the field of view is to look at small ubiquitous rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects.">
-  <meta name="author" content="Boris Smus">
+  <meta name="description" content="Immersion requires a large field of view. This could be achieved by putting a large curved spherical display on your face, but alas such technology is prohibitively expensive. A more affordable solution to increasing the field of view is to look at small ubiquitous rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/vr-lens-distortion" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Three approaches to VR lens distortion" />
+  <meta name="twitter:description" content="Immersion requires a large field of view. This could be achieved by putting a large curved spherical display on your face, but alas such technology is prohibitively expensive. A more affordable solution to increasing the field of view is to look at small ubiquitous rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/vr-lens-distortion" />
+  <meta property="og:title" content="Three approaches to VR lens distortion" />
+  <meta property="og:description" content="Immersion requires a large field of view. This could be achieved by putting a large curved spherical display on your face, but alas such technology is prohibitively expensive. A more affordable solution to increasing the field of view is to look at small ubiquitous rectangular displays through lenses:         Lenses placed close to your eyes greatly increase your field of view, but there is a cost: the image becomes spherically distorted. The larger the field of view, the more distorted the image. This post is a quick summary of three different approaches to undistorting the image, all of which have been implemented in JavaScript for various WebVR-related projects." />
+
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -44,7 +57,7 @@ large curved spherical display on your face, but alas such technology is
 prohibitively expensive. A more affordable solution to increasing the field of
 view is to look at small ubiquitous rectangular displays through lenses:</p>
 
-<p><img src="how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>
+<p><img src="/vr-lens-distortion/how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>
 
 <p>Lenses placed close to your eyes greatly increase your field of view, but there
 is a cost: the image becomes spherically distorted. The larger the field of
@@ -57,12 +70,12 @@ implemented in JavaScript for various WebVR-related projects.</p>
 <p>Here is a closer look at the lens distortion of a typical head mounted display.
 The lenses cause a pincushion effect:</p>
 
-<p><img src="pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>
+<p><img src="/vr-lens-distortion/pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>
 
 <p>The solution is to apply barrel distortion to the image. When we look at it through
 the distorting lenses, the image looks neutral:</p>
 
-<p><img src="barrel-predistortion.png" alt="Barrel pre-distortion" /></p>
+<p><img src="/vr-lens-distortion/barrel-predistortion.png" alt="Barrel pre-distortion" /></p>
 
 <p>Lens distortion is well understood mathematically, governed by equations <a href="https://en.wikipedia.org/wiki/Distortion_(optics)#Software_correction">like
 these</a>, with distortion coefficients corresponding to the particular lens.
@@ -77,7 +90,7 @@ implementation options below.</p>
 right eyes onto a texture, and then process that texture with a fragment (pixel)
 shader, moving each pixel inward in relation to the centroid of the eye:</p>
 
-<p><img src="dense.png" alt="Per-pixel based distortion" /></p>
+<p><img src="/vr-lens-distortion/dense.png" alt="Per-pixel based distortion" /></p>
 
 <p>This is the first and simplest method, which is also the least efficient, since
 each pixel is processed separately. The <a href="https://github.com/borismus/webvr-boilerplate/blob/d91cc2866bd54e65d59022800f62c7e160dc9fee/src/cardboard-distorter.js">first version</a> of the
@@ -88,7 +101,7 @@ WebVR Boilerplate implemented this method.</p>
 <p>Rather than processing each pixel separately, we distort the vertices of a
 relatively sparse mesh (40x20 works well). </p>
 
-<p><img src="sparse.png" alt="Mesh based distortion" /></p>
+<p><img src="/vr-lens-distortion/sparse.png" alt="Mesh based distortion" /></p>
 
 <p>This can save some direct computation and let the GPU do a fair amount of
 interpolation. Rather than having to apply to every single pixel (<code>1920 * 1080 ~=
@@ -117,7 +130,7 @@ rendered very close to the camera. Distorting these vertices would still yield a
 this, this is method does not generalize without extra work on the
 developer's part.</p>
 
-<p><img src="cdl.png" alt="Cardboard Design Lab screenshot" /></p>
+<p><img src="/vr-lens-distortion/cdl.png" alt="Cardboard Design Lab screenshot" /></p>
 
 <p>This approach is used in the <a href="https://github.com/googlesamples/cardboard-unity/tree/master/Samples/CardboardDesignLab">Cardboard Design Lab</a> and in the open sourced
 <a href="https://github.com/google/vrview/blob/master/src/vertex-distorter.js">VR View project</a>. Geometry-based distortion can also result in sharper
@@ -140,7 +153,6 @@ method in <a href="http://www.gamasutra.com/blogs/BrianKehrer/20160125/264161/VR
   </div>
   <nav role="footer">
     <a href='//feeds.feedburner.com/smuscom'>RSS</a>
-    <a href='//twitter.com/borismus'>Twitter</a>
   </nav>
 </footer>
 

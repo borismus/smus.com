@@ -3,11 +3,24 @@
 <head>
   <title>Web-based voice command recognition | Boris Smus</title>
 
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Last time  we converted audio buffers into images. This time we'll take these images and train a neural network using  deeplearn.js . The result is  a browser-based demo  that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:         Curious to play with it, see whether or not it recognizes  yay  or  nay  in addition to  yes  and  no ?  Try it out live . You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works.">
-  <meta name="author" content="Boris Smus">
+  <meta name="description" content="Last time  we converted audio buffers into images. This time we'll take these images and train a neural network using  deeplearn.js . The result is  a browser-based demo  that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:         Curious to play with it, see whether or not it recognizes  yay  or  nay  in addition to  yes  and  no ?  Try it out live . You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/web-voice-command-recognition" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Web-based voice command recognition" />
+  <meta name="twitter:description" content="Last time  we converted audio buffers into images. This time we'll take these images and train a neural network using  deeplearn.js . The result is  a browser-based demo  that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:         Curious to play with it, see whether or not it recognizes  yay  or  nay  in addition to  yes  and  no ?  Try it out live . You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/web-voice-command-recognition" />
+  <meta property="og:title" content="Web-based voice command recognition" />
+  <meta property="og:description" content="Last time  we converted audio buffers into images. This time we'll take these images and train a neural network using  deeplearn.js . The result is  a browser-based demo  that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:         Curious to play with it, see whether or not it recognizes  yay  or  nay  in addition to  yes  and  no ?  Try it out live . You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
+
 
   <!-- Icons -->
   <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
@@ -45,7 +58,7 @@ we'll take these images and train a neural network using
 lets you speak a command ("yes" or "no"), and see the output of the classifier
 in real-time, like this:</p>
 
-<p><video src="inference-demo.mp4" autoplay muted loop type="video/mp4"
+<p><video src="/web-voice-command-recognition/inference-demo.mp4" autoplay muted loop type="video/mp4"
 style="width: 100%"></p>
 
 <p>Curious to play with it, see whether or not it recognizes <em>yay</em> or <em>nay</em> in
@@ -68,14 +81,14 @@ Once you are ready (this will take a while, perhaps 500 iterations or 2
 minutes, depending on your hardware), stop training, and press the save
 weights (file) button.  This will download a JSON file.</p>
 
-<p><img src="2-training-graph.png" alt="Training graph" /></p></li>
+<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p></li>
 <li><p>Then go to <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">the inference demo page</a>, press the load weights (file) button
 and select the downloaded JSON file to load the trained model.</p></li>
 <li><p>Flip the switch, grant access to the microphone and try saying "yes" or "no".
 You'll see microphone and confidence levels indicated at the bottom of the
 page.</p>
 
-<p><img src="3-inference.png" alt="Inference screenshot" /></p></li>
+<p><img src="/web-voice-command-recognition/3-inference.png" alt="Inference screenshot" /></p></li>
 </ol>
 
 <p>The above is a mechanistic account of how the training example works.  If you
@@ -145,7 +158,7 @@ In ML parlance, we need to set the <a href="https://en.wikipedia.org/wiki/Hyperp
 setting the learning rate (how much to follow the gradient at each step) and
 batch size (how many examples to ingest at a time). And we're off to the races:</p>
 
-<p><img src="2-training-graph.png" alt="Training graph" /></p>
+<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p>
 
 <p>During training, the gradient descent algorithm tries to minimize cost, which
 you can see in blue. We also plot accuracy in orange, which is occasionally
@@ -223,7 +236,6 @@ training</a> and <a href="https://google.github.io/web-audio-recognition/inferen
   </div>
   <nav role="footer">
     <a href='//feeds.feedburner.com/smuscom'>RSS</a>
-    <a href='//twitter.com/borismus'>Twitter</a>
   </nav>
 </footer>
 
