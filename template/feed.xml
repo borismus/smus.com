@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="//www.w3.org/2005/Atom"
+<feed xmlns="http://www.w3.org/2005/Atom"
       xml:lang="en"
       xml:base="{{site.domain}}">
   <title>{{title}}</title>
-  <link href="{{site.domain}}atom.xml" rel="self"/>
+  <link href="{{site.domain}}/atom.xml" rel="self"/>
   <link href="{{site.domain}}"/>
   <updated>{{date_generated.Rfc()}}</updated>
-  <id>{{site.domain}}atom.xml</id>
+  <id>{{site.domain}}/atom.xml</id>
   {% for post in posts %}
   <entry>
     <title>{{post.title}}</title>
