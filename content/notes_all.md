@@ -4,6 +4,16 @@ type: note
 class: split
 
 
+Against retweets
+===
+posted: September 9, 2018
+
+![Create and consume time for content of various lengths.](/assets/against-retweets.png)
+
+One of these data points is not like the other. Also, isn't it neat that common
+units of time duration fall nicely onto a logarithmic scale?
+
+
 Make twitter great again?
 ===
 posted: September 6, 2018

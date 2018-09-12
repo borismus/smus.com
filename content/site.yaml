@@ -3,10 +3,11 @@ site_domain: https://smus.com
 date_format: '%B %-d, %Y'
 permalink_formats:
   default: '{{slug}}'
-  index: ''
+  index: 'index.html'
   draft: 'drafts/{{slug}}'
   book: 'books/{{slug}}'
   note: 'notes/{{year}}/{{slug}}/'
+  error: '{{slug}}.html'
 type_mapping:
   '/posts/': 'post'
   '/pages/': 'page'
