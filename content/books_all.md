@@ -10,31 +10,35 @@ posted: September 11, 2018
 rating: yes
 
 Over the summer, I spent three weeks in Paris with my family. I'd visited a few
-times in the past, but mostly for short trips. This time, I felt immersed in the
-city, and became inspired to delve a bit deeper.
+times in the past, but only for a few days at a time. Since we had so much time
+and just one home base in St. Germain, I felt immersed in the city. Upon
+returning home, I wanted to keep that connection alive, and delve deeper into
+French history and culture.
 
-The lecture is roughly chronological, covering France between 1789 and 1814,
-this lecture is informally split into two parts. The first 30 lectures cover the
-French Revolution, including causes and ramifications, and the remaining 18
-focus on Napoleon. Overall the lectures are super informative and interesting.
+[The lecture][lecture] proceeds roughly chronologically, covering France between
+1789 and 1814. It is informally split into two parts. The first thirty or so
+lectures cover the French Revolution, including causes and ramifications, and
+the remaining 18 focus on Napoleon. Overall, I found it super informative
+and interesting, once you get used to the sometimes monotonous delivery style.
 It's hard to summarize such a long and detailed account in this format, so I'll
-try to just pick out the stuff that really stuck out.
+try to just pick out the stuff that really stuck out to me.
 
+[lecture]:
+https://www.thegreatcourses.com/courses/living-the-french-revolution-and-the-age-of-napoleon.html
 
 ## First half: The French Revolution
 
-I finally learned what is meant by the various estates. Originally, it included
-three estates. The clergy were the first estate, the nobles came second, and
-lastly, the third estate referred to the commoners. These were all represented
-in an assembly put together by the people in an effort to gain a voice.
-
-(Much later, and in a different country, the fourth estate came to refer to
+In 1789, the people of France came together into a general assembly. I finally
+learned the meaning of the three estates. The clergy were the first estate,
+nobles the second, and lastly, the third estate referred to the commoners. (Much
+later, and in a different country, the fourth estate came to refer to
 journalists. The fifth estate is an even newer notion, referring to journalism
-with non-mainstream viewpoints, sometimes on the internet.)
+with non-mainstream viewpoints, sometimes on the internet. There are also
+enumerated estates greater than five, but it seems the higher the estate number,
+the more suspect the source.)
 
-I had recently learned about the origin of the division between left and right,
-and this was a good reminder. During the contentious reign of Louis XVI,
-monarchists sat on the king's right, while the republicans sat on his left.
+**Political spectrum**: during the contentious reign of Louis XVI, monarchists
+sat on the king's right, while the republicans sat on his left.
 
 Major causes of the revolution:
 
@@ -43,9 +47,9 @@ Major causes of the revolution:
 2. The French government was going bankrupt due to poor domestic management, and
    large expenditures on foreign wars with England. Thank Ben Franklin for that!
    He was quite the diplomat, and made a splash with the French people, who were
-   impressed by his simple clothes, Beaver hat, and ability to wax
+   impressed by the combination of beaver hat and ability to wax
    philosophically.
-3. A series of bad harvests that led to bread riots in the late 1780s
+3. A series of bad harvests led to bread riots in the late 1780s.
 
 After the storming of the Bastille in 1789, the revolution had started in
 earnest. Louis XVI was coerced into moving to Paris to be closer to the people,
@@ -77,81 +81,83 @@ The new government, a highly factional assembly of people, was led by the
 Jacobins, with Robespierre at the helm. They needed to maintain control,
 quashing opposition. Marat's writing was emblematic of the mood in 1793 just as
 the reign of terror was starting. He advocated for violence as necessary to
-establish the Republic. “The death of ___ had become a necessity” seems like a
-recurring theme in this sad story. Robespierre seems to be a tragic hero.
-Initially opposed to the death penalty, he slipped towards the terror one step
-at a time, first arguing in favor of the death of Louis XVI, next killing others
-that were seen as opponents to the revolution. This is the sort of thing that
-happens when means and ends get mixed up. 
+establish the Republic. “The death of ___ had become a necessity” is a recurring
+theme in this sad story. Robespierre seems to be a tragic hero.  Initially
+opposed to the death penalty, he slipped towards the terror one step at a time,
+first arguing in favor of the death of Louis XVI, next killing others that were
+seen as opponents to the revolution. This is the sort of thing that happens when
+means and ends get mixed up. 
 
-There was also a strong proselytizing, international aspect to the revolution.
-In the grand scheme, it was a war of people against kings. This led to war with
-Austria, which was desired by all sides. Louis XVI, still alive and nominally in
-control at the start of the war, wanted it so that France could lose and be
-rescued by the emperor of Austria.
+There was also a strong proselytizing, international aspect to the revolution,
+foreshadowing the Comintern.  In the grand scheme, it was a war of people
+against kings. This led to war with Austria, which was desired by all sides.
+The revolutionaries wanted it to spread the revolution, but Louis XVI, still alive and nominally in control at the start of the war, wanted
+it so that France could lose and be rescued by his relative by marriage, the
+emperor of Austria.
 
 I was surprised to learn that by time of the Terror, America-France relations
 had crumbled. I didn't realize how pro-British some of the American federalist
-were. For a few years America was allowing Privateers to raid French vessels. 
+were. For a few years America was allowing Privateers to raid French vessels.
 As an aside, I realized that "privateer", "mercenary", and the more modern
-"military contractor" are all basically equivalent: guns for hire.
+"military contractor" are all basically interchangeable terms for guns for hire.
 
-Here's some confusing terminology. In France, federation refers to multiple
-states that have equal political rights. In the US, the same word has the
-opposite meaning: a strong central government; US confederation = French
-federation. 
+Here's a resolution to some confusing terminology. In France, "federation"
+refers to multiple states that have equal political rights. In the US, the same
+word has the opposite meaning: a strong central government; US "confederation" =
+French "federation". 
 
 
 ## Second half: Napoleon
 
 Napoleon came to power through a coup in 1799. By then the French people were
-too tired to resist, exhausted by the infighting of the revolution and
-a newly instated Directorate system, whose weak executive branch couldn't rule
-effectively. Upon seizing power, he drafted an illiberal constitution that
-greatly increased executive power. This was the fourth French constitution of
-the decade of the 1790s. 
+too tired to resist yet another upheval, exhausted by the infighting of the
+revolution, terror, and frustrated by a newly instated Directorate system, whose
+weak executive branch couldn't rule effectively. Upon seizing power, Napoleon
+drafted an illiberal constitution that greatly increased executive power. This
+was the fourth French constitution of the decade of the 1790s. 
 
 At his core, Napoleon was a pragmatist. In 1806, Napoleon turned down the
-revolutionary calendar and distanced itself from the original ideals in favor
-of French nationalism and catholicism. I loved this quote:
+revolutionary calendar. He distanced itself from the revolutionary ideals in
+favor of stability, French nationalism and catholicism. I loved this quote:
 
 > "It is by making myself Catholic that I brought peace to Brittany and Vendée.
 It is by making myself Italian that I won minds in Italy. It is by making myself
 a Moslem that I established myself in Egypt. If I governed a nation of Jews, I
 should reestablish the Temple of Solomon."
 
-Napoleon crowned himself emperor after a popular vote. He then amended the
-constitution allowing for hereditary rule. By becoming emperor he solved the
+In 1806, Napoleon crowned himself emperor after a popular vote. He then amended
+the constitution allowing for hereditary rule. By becoming emperor he solved the
 monarchist threat, but the Jacobin threat remained. He dealt with the Jacobins
-by blaming them for any rebellious acts and punishing them by exiling or death.
+by using them as scapegoats for any rebellious acts and then punishing them by
+exile or death.
 
-Napoleon seems to have been driven by several modus operandi:
+Napoleon's strategy seems to have been driven by several modus operandi:
 
 - Nepotism: he placed his many brothers into positions of power, used his
-  sisters for strategic royalesque marriages. 
+  siblings for strategic marriages with European royalty. 
 - Military autonomy: he restructured the Grand Armee into separately managed
-  corps to be more autonomous. 
+  corps to be more autonomous.
 - Expansionary conscription: he used the newly conquered peoples to expand the
   Grand Armee with fresh blood, and eventually reduced the draft age.
-- Foraging and looting: by relying more on the conquered lands and less on
-  supply trains, Napoleon's armies could move faster and be larger than his
-  opposition.
+- Foraging and looting: by relying more on eating off of conquered lands and
+  less on supply trains, Napoleon's armies could move faster and be larger than
+  his opposition.
 - Domestic improvement: due to general mistrust of the people, he instituted
   great public works projects that would placate and benefit them.
 - Military glory: due to a deep-seated sense of illegitimacy, Napoleon craved
   great military victories.
 - Propaganda: whatever the outcome of his military campaigns, Napoleon made sure
   his image was propped up by cherry picking just the good parts.
-- Arch Nemesis England: the French navy was consistently crushed by the
-  British. In retaliation, and because of a general French hatred of the
-  British, Napoleon banned English imports throughout the French empire.
+- British nemesis: the French navy was consistently crushed by the British. In
+  retaliation, and because of a general French hatred of the British, Napoleon
+  banned English imports throughout the French empire.
 
 Napoleon's conquests are many and varied. At its peak in 1812, the French Empire
 spanned from Spain to Poland.
 
 - Egypt: one of Napoleon's earliest campaigns was a PR success, but ultimately a
   defeat at the hands of the Ottoman Empire and Great Britain. This expedition
-  led to the discovery of the Rosetta Stone. 
+  led to the discovery of the Rosetta Stone.
 - Italy: after self-crowning as emperor, he created the Kingdom of Italy and the
   Italian flag, which was inspired by the tricolor of the French revolution.
 - Austria: by 1806, at Austerlitz, France defeated Austria and its allies
@@ -161,7 +167,8 @@ spanned from Spain to Poland.
   Lord Nelson's forces (Rule, Britannia!), which cemented Napoleon's hatred for
   Britain. During the battle, Nelson was shot and killed by a French musketeer.
 - Prussia: in 1807, French forces pushed into Prussia and defeated Friedrich
-  Wilhelm III in two parallel decisive battles.
+  Wilhelm III in two parallel decisive battles led by different corps of the
+  Grand Armee.
 - Spain: Napoleon offered to resolve a succession dispute between the Spanish
   king and his heir, but instead exiled the royal family and installed his
   brother Joseph there. He was overly confident that the Spanish would be on
@@ -177,21 +184,21 @@ spanned from Spain to Poland.
   eventually forced to retreat and returned home with one fifth the men.
   
 Weakened after the Russian campaign, Napoleon's forces were crushed decisively
-by a joint force of Austrians, Russians, and Prussians. Louis XVIII returned
-from exile and was placed onto the throne by the victorious coalition. Louis
-introduced a new constitution, attempted to forget Napoleon and the revolution
-and turn back time to the divine right of kings. He forced a lot of the army
+by a joint force of Austrians, Russians, and Prussians. Louis XVIII, a cousin of
+Louis XVI, returned from exile and was placed onto the throne by the victorious
+coalition. This Louis introduced a new constitution, attempted turn back time,
+reverting France to the divine right of kings. He forced a lot of the army
 retire and was unpopular with the people.
 
-Napoleon didn’t last long exiled at Elba. He was given reign over the island
-where he gathered a force of 1000 men and marched back to France. On his way,
-French forces sent to stop him instead joined his cause. He entered Paris
-unopposed, framing himself as a product of the revolution in opposition to the
-monarchist Louis XVIII. Upon his return, Napoleon amended the constitution he
-drafted with limits to executive power, making France more of a constitutional
-Monarchy. Of course, his foreign opponents were unhappy with his return and
-decided to stop him once and for all. Napoleon had to prove himself once more
-with a decisive battle at Waterloo. 
+Napoleon didn’t last long in his exile at Elba. He was given reign over the
+island where he gathered a force of 1000 men and marched back to France. On his
+way, the French forces sent to stop him joined his cause instead. He entered
+Paris unopposed, framing himself as a product of the revolution in opposition to
+the tyrannical Louis XVIII. Upon his return, Napoleon amended the constitution
+he drafted with limits to executive power, making France more of a
+constitutional Monarchy. Of course, his foreign opponents were unhappy with his
+return and decided to stop him once and for all. Napoleon had to prove himself
+once more with a decisive battle at Waterloo. 
 
 Defeated, Bonaparte was exiled to St. Helena where he spent his last 6 years.
 Even after his death, Napoleon remained incredibly popular and became more and
@@ -223,11 +230,11 @@ read more like a math text book than anything else. Overall, the book is not
 well structured and awkwardly straddles the line between popular science,
 textbook, and paper.
 
-I read most of it, but ended up bored and confused by Chapter 9.  Perhaps if I
-was actively studying statistics, and had more time to delve deeper into the
-content, I would be more patient with the author, and find more time to work out
-the details of the mathematics in my spare time. Nonetheless, here are the
-pearls I managed to uncover for myself:
+I read most of it, but ended up bored and confused in the middle of Chapter 9.
+Perhaps if I was actively studying statistics, and had more time to delve deeper
+into the content, I would be more patient with the author, and find more time to
+work out the details of the mathematics in my spare time. Nonetheless, here are
+the pearls I managed to uncover for myself:
 
 **Ladder of causation**: Early on, the author presents "three distinct levels of
 cognitive ability: seeing, doing, and imagining.":
@@ -299,8 +306,17 @@ of Daniel, but also quotes from the Book of Jonah: "At last the sailors said to
 each other, Come and let us cast lots to find out who is to blame for this
 ordeal."
 
-**Good examples**
+**Disease prevention**: James Lind's discovery that citrus fruits prevent
+scurvy, or that John Snow's discovery that water contaminated with feces causes
+cholera. Later these problems were more directly linked to vitamin C deficiency
+and cholera bacillus contamination, but they are good examples of cases where an
+RCT is not feasible, yet causation was established.
 
+A whole chapter of the book is dedicated to the smoking and cancer debate of the
+mid-20th century. Many statisticians were highly skeptical of the causal
+argument. Some lurking third factor could be the cause, such as a gene that
+causes people to both crave cigarettes and made them more likely to develop lung
+cancer.
 
 Tao of Philosophy by Alan Watts
 ===
