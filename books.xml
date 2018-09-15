@@ -5,8 +5,194 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-12T08:37:58-00:00</updated>
+  <updated>2018-09-15T10:17:48-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Book of Why by Judea Pearl</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/book-of-why-by-judea-pearl"/>
+    
+    <updated>2018-09-15T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/book-of-why-by-judea-pearl</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X">Book of Why</a> came up as part of a reading group I'm involved in. I
+recommend this book only reluctantly. In the end, Pearl convinced me that causal
+inference is important and historically under-appreciated. Science progresses as
+a step function, and I think that in the current step in AI (deep learning) we
+are already starting to see the plateau.</p>
+
+<p>My reluctance stems mainly from the way the material is presented. The book is a
+strange combination of anecdotes, verbal descriptions that genuinely help build
+intuition, some case studies, and a bunch of name dropping of students and
+collaborators. Most of it appears to be written for a popular audience, but
+sometimes the author jumps into mathematical formulas seemingly conjured from
+mid-air with very little explanation. Other times he provides terse proofs that
+read more like a math text book than anything else. Overall, the book is not
+well structured and awkwardly straddles the line between popular science,
+textbook, and paper. I was also annoyed by the aggrandizing use of "Causal
+Revolution", which I think detracted from its credibility.</p>
+
+<p>Some chapters were especially tough, in particular Chapter 9, nominally about
+mediation, seemed to drag on pointlessly. I also found some parts challenging to
+internalize, particularly the front- and back-door criterion: what they are for,
+and what they allow you to do. Perhaps if I was actively studying statistics,
+and had more time to delve deeper into the content, I would be more patient with
+the author, and find more time to work out the details of the mathematics in my
+spare time. I think an interactive explanation of a causal diagram, data set and
+application of one of the de-confounding criterion would be super instructive.
+Nonetheless, here are the Pearls I managed to uncover for myself:</p>
+
+<p><strong>Ladder of causation</strong>: Early on, the author presents "three distinct levels of
+cognitive ability: seeing, doing, and imagining.":</p>
+
+<p><img src="/assets/ladder-causation.png" alt="Ladder of causation" /></p>
+
+<p>The vast majority of today's machine learning resides on the first rung of the
+ladder: observational data. Pearl believes that the core of human intelligence
+resides on higher rungs: "Deep learning has given us machines with truly
+impressive abilities but no intelligence." Later, he suggests this more
+explicitly: "I conjecture, that human intuition is organized around causal, not
+statistical, relations." This jives well with my intuition.</p>
+
+<p><strong>Beyond RCTs</strong>: what made me most interested in this book is the idea that
+causality can be established by means other than randomized control trials
+(RCTs). Pearl suggests having more than just data, but also a causal model, in
+the form of a directed acyclic graph (DAG), originally introduced by Sewall
+Wright. Pearl really pushes on this, evangelizing the concept. "A sufficiently
+strong and accurate causal model can allow us to use rung-one (observational)
+data to answer rung-two (interventional) queries." In many cases, running an RCT
+may be physically impossible (eg. can't make people become obese to study the
+effect of obesity on heart disease), or unethical (eg. can't force random people
+to smoke for 10 years).</p>
+
+<p>However it’s unclear to me how one is to generate the causal model in the first
+place, and how you to ascertain that the model is "string and accurate".
+Pearl says so himself: "If she is confident that her causal model accounts for a
+sufficient number of deconfounders and she has gathered data on them, then she
+can estimate the effect of Fertilizer on Yield in an unbiased way." That's a
+fair amount of hedging.</p>
+
+<p><strong>Blending probability and logic</strong>: Although he never states it explicitly,
+Pearl's causal graphs seem to bridge the gap between formal logic (eg. A implies
+B) with probability. This is interesting, but I think Pearl is very much a
+statistician, since he hardly ever mentions logic, only introducing concept of
+necessary and sufficient towards the end of the book.</p>
+
+<p><strong>Casual aversion in stats</strong>: Pearl spends a lot of time complaining about
+the mantra "correlation does not imply causation" embodied by various
+authoritarian statisticians like Karl Pearson, and R. A. Fisher. Instead of such
+a strong statement, the author proposes "some correlations do imply causation,"
+although he does dial it back and suggests that it may instead be called
+"provisional causality".</p>
+
+<p><strong>Causal diagrams</strong>: The path diagram concept introduced by Wright was met with
+resistance by his contemporaries, who were drawn to the allure of just looking
+at the data without any models, since the data is objective, and models are
+subjective. This is where Bayesian Statistics comes in, which tells you how to
+update Beliefs based on Evidence.</p>
+
+<p><strong>Disease prevention</strong>: James Lind discovered that citrus fruits prevent scurvy.
+John Snow (not that one) discovered that water contaminated with feces causes
+cholera. These findings were based on observational data, before widespread use
+of RCTs, yet causation was established.</p>
+
+<p><strong>Judicious biblical references</strong>: I loved that Pearl often cited the Bible in
+this book, most prominently the example of a controlled experiment from the Book
+of Daniel, but also chapter heading quotes from the Book of Jonah: "At last the
+sailors said to each other, Come and let us cast lots to find out who is to
+blame for this ordeal.", and Maimonides: "All is pre-determined, yet permission
+is always granted." (Really makes me want to read Nevi'im and Ketuvim one day.)</p>
+
+<p><strong>Monty Hall problem</strong>:
+In Chapter 6, the book meanders onto the topic of paradoxes, which is a bit of a
+tangent, but I guess is intended to illustrate the limitations of "first-rung"
+intuitions, and ways in which causal thinking can nullify these supposed
+paradoxes.  Imagine a game show where contestants pick one of three
+doors, one of which has a car behind it, and two of which have goats. When the
+contestant opens one door, the host will pick one with a goat. The host will
+then open another door for the contestant. Should the contestant switch doors?
+The answer is yes.</p>
+
+<p>Finally I understood it like this: by the rules of the game, the host (who knows
+where the goats and cars are) must open a door to reveal a goat. By so doing,
+he has revealed information about the door you picked. (This was made clear in
+the Bayesian explanation, without any reference to causality.)</p>
+
+<p><strong>Simpson's paradox</strong>: Imagine a drug that is supposed to reduce the risk of a
+heart attack. Here's fictional data for such a scenario:</p>
+
+<p><img src="/assets/simpsons-paradox.png" alt="Simpson's paradox data" /></p>
+
+<p>From the data, this drug has a negative effect on men (30% without, 40% with
+drug), a negative effect on women (5% without, 7.5% with), but overall better
+(22% without, 18% with). This doesn't make sense: logically, either the drug
+increases heart attacks for people, or the opposite. It's a question of
+partitioning vs. aggregating the data.  Pearl's fictional example is resolved by
+the fact that gender affects whether or not you take the drug in the first
+place. Women had a preference for taking the drug, and men had the opposite
+preference, so you would need to control for gender.</p>
+
+<p>Here's a visual example I found approachable. Both illustrations show the same
+data set, in one case aggregated and in another case partitioned by age.</p>
+
+<p><img src="/assets/partition-vs-aggregation.png" alt="Partitioning vs. aggregating" /></p>
+
+<p>In the graphical example above, the more you age, the more they exercise. If you
+don't control for age it, it appears that the more you exercise, the higher your
+cholesterol! To be clear, by partitioning the group by age, you control for age
+and get to see the relationship which is muddied in aggregate.</p>
+
+<h2>Causal diagrams tell you what to control for</h2>
+
+<p>A whole chapter of the book is dedicated to the smoking and cancer debate of the
+mid-20th century. Many statisticians were highly skeptical of the causal
+argument. Some lurking third factor could be the cause, such as a gene that
+causes people to both crave cigarettes and made them more likely to develop lung
+cancer. In causal diagram form, the debate is between these two scenarios:</p>
+
+<p><img src="/assets/smoking-gene.png" alt="and birth-weight" /></p>
+
+<p><strong>Junctions</strong>: every causal diagram consists entirely of these three types of
+junctions:</p>
+
+<ol>
+<li>A → B → C: Mediator junction. Example: Fire → Smoke → Alarm. Fire causes the
+Smoke, and Smoke triggers the Alarm.</li>
+<li>A ← B → C: Fork junction. Example: Shoe Size ←  Age of Child → Reading
+Ability. Children with larger shoe sizes tend to read better, but it's not a
+causal relationship.</li>
+<li>A → B ← C : Collider junction. Example: Talent → Celebrity ← Beauty. Suppose
+only one of talent and beauty is sufficient to be a celebrity. Then, if a
+celebrity were a good actor, they would need to be less beautiful.
+Conversely, if they were beautiful, they would need to be less talented.</li>
+</ol>
+
+<p><strong>Controlling for junctions</strong>: if you view a causal diagram as pipes conveying
+information from a starting point to an ending point, each type of junction can
+be blocked by controlling for a certain variable:</p>
+
+<ol>
+<li>In a mediator (A → B → C) or fork (A ← B → C) the pipe between A and C is
+open, but controlling for B closes the pipe.</li>
+<li>In a collider (A → B ← C), the pipe between A and C is closed, but
+controlling for B opens the pipe.</li>
+</ol>
+
+<p><strong>Back-door adjustment</strong>: Shit I really don't get it. This book doesn't do a
+great job of explaining the technical parts. I'll pause for now, and try
+approaching the material with this course instead:
+<a href="https://www.coursera.org/learn/crash-course-in-causality/home/welcome">https://www.coursera.org/learn/crash-course-in-causality/home/welcome</a>.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Living the French Revolution (audio)</title>
@@ -20,30 +206,32 @@
       <![CDATA[
       <div>
         <p>Over the summer, I spent three weeks in Paris with my family. I'd visited a few
-times in the past, but mostly for short trips. This time, I felt immersed in the
-city, and became inspired to delve a bit deeper.</p>
+times in the past, but only for a few days at a time. Since we had so much time
+and just one home base in St. Germain, I felt immersed in the city. Upon
+returning home, I wanted to keep that connection alive, and delve deeper into
+French history and culture.</p>
 
-<p>The lecture is roughly chronological, covering France between 1789 and 1814,
-this lecture is informally split into two parts. The first 30 lectures cover the
-French Revolution, including causes and ramifications, and the remaining 18
-focus on Napoleon. Overall the lectures are super informative and interesting.
+<p><a href="https://www.thegreatcourses.com/courses/living-the-french-revolution-and-the-age-of-napoleon.html">The lecture</a> proceeds roughly chronologically, covering France between
+1789 and 1814. It is informally split into two parts. The first thirty or so
+lectures cover the French Revolution, including causes and ramifications, and
+the remaining 18 focus on Napoleon. Overall, I found it super informative
+and interesting, once you get used to the sometimes monotonous delivery style.
 It's hard to summarize such a long and detailed account in this format, so I'll
-try to just pick out the stuff that really stuck out.</p>
+try to just pick out the stuff that really stuck out to me.</p>
 
 <h2>First half: The French Revolution</h2>
 
-<p>I finally learned what is meant by the various estates. Originally, it included
-three estates. The clergy were the first estate, the nobles came second, and
-lastly, the third estate referred to the commoners. These were all represented
-in an assembly put together by the people in an effort to gain a voice.</p>
-
-<p>(Much later, and in a different country, the fourth estate came to refer to
+<p>In 1789, the people of France came together into a general assembly. I finally
+learned the meaning of the three estates. The clergy were the first estate,
+nobles the second, and lastly, the third estate referred to the commoners. (Much
+later, and in a different country, the fourth estate came to refer to
 journalists. The fifth estate is an even newer notion, referring to journalism
-with non-mainstream viewpoints, sometimes on the internet.)</p>
+with non-mainstream viewpoints, sometimes on the internet. There are also
+enumerated estates greater than five, but it seems the higher the estate number,
+the more suspect the source.)</p>
 
-<p>I had recently learned about the origin of the division between left and right,
-and this was a good reminder. During the contentious reign of Louis XVI,
-monarchists sat on the king's right, while the republicans sat on his left.</p>
+<p><strong>Political spectrum</strong>: during the contentious reign of Louis XVI, monarchists
+sat on the king's right, while the republicans sat on his left.</p>
 
 <p>Major causes of the revolution:</p>
 
@@ -53,9 +241,9 @@ with the French people.</li>
 <li>The French government was going bankrupt due to poor domestic management, and
 large expenditures on foreign wars with England. Thank Ben Franklin for that!
 He was quite the diplomat, and made a splash with the French people, who were
-impressed by his simple clothes, Beaver hat, and ability to wax
+impressed by the combination of beaver hat and ability to wax
 philosophically.</li>
-<li>A series of bad harvests that led to bread riots in the late 1780s</li>
+<li>A series of bad harvests led to bread riots in the late 1780s.</li>
 </ol>
 
 <p>After the storming of the Bastille in 1789, the revolution had started in
@@ -90,42 +278,43 @@ as the Vendee from the west wore white with king and church front and center.</p
 Jacobins, with Robespierre at the helm. They needed to maintain control,
 quashing opposition. Marat's writing was emblematic of the mood in 1793 just as
 the reign of terror was starting. He advocated for violence as necessary to
-establish the Republic. “The death of <em>_</em> had become a necessity” seems like a
-recurring theme in this sad story. Robespierre seems to be a tragic hero.
-Initially opposed to the death penalty, he slipped towards the terror one step
-at a time, first arguing in favor of the death of Louis XVI, next killing others
-that were seen as opponents to the revolution. This is the sort of thing that
-happens when means and ends get mixed up. </p>
+establish the Republic. “The death of <em>_</em> had become a necessity” is a recurring
+theme in this sad story. Robespierre seems to be a tragic hero.  Initially
+opposed to the death penalty, he slipped towards the terror one step at a time,
+first arguing in favor of the death of Louis XVI, next killing others that were
+seen as opponents to the revolution. This is the sort of thing that happens when
+means and ends get mixed up. </p>
 
-<p>There was also a strong proselytizing, international aspect to the revolution.
-In the grand scheme, it was a war of people against kings. This led to war with
-Austria, which was desired by all sides. Louis XVI, still alive and nominally in
-control at the start of the war, wanted it so that France could lose and be
-rescued by the emperor of Austria.</p>
+<p>There was also a strong proselytizing, international aspect to the revolution,
+foreshadowing the Comintern.  In the grand scheme, it was a war of people
+against kings. This led to war with Austria, which was desired by all sides.
+The revolutionaries wanted it to spread the revolution, but Louis XVI, still alive and nominally in control at the start of the war, wanted
+it so that France could lose and be rescued by his relative by marriage, the
+emperor of Austria.</p>
 
 <p>I was surprised to learn that by time of the Terror, America-France relations
 had crumbled. I didn't realize how pro-British some of the American federalist
-were. For a few years America was allowing Privateers to raid French vessels. 
+were. For a few years America was allowing Privateers to raid French vessels.
 As an aside, I realized that "privateer", "mercenary", and the more modern
-"military contractor" are all basically equivalent: guns for hire.</p>
+"military contractor" are all basically interchangeable terms for guns for hire.</p>
 
-<p>Here's some confusing terminology. In France, federation refers to multiple
-states that have equal political rights. In the US, the same word has the
-opposite meaning: a strong central government; US confederation = French
-federation. </p>
+<p>Here's a resolution to some confusing terminology. In France, "federation"
+refers to multiple states that have equal political rights. In the US, the same
+word has the opposite meaning: a strong central government; US "confederation" =
+French "federation". </p>
 
 <h2>Second half: Napoleon</h2>
 
 <p>Napoleon came to power through a coup in 1799. By then the French people were
-too tired to resist, exhausted by the infighting of the revolution and
-a newly instated Directorate system, whose weak executive branch couldn't rule
-effectively. Upon seizing power, he drafted an illiberal constitution that
-greatly increased executive power. This was the fourth French constitution of
-the decade of the 1790s. </p>
+too tired to resist yet another upheval, exhausted by the infighting of the
+revolution, terror, and frustrated by a newly instated Directorate system, whose
+weak executive branch couldn't rule effectively. Upon seizing power, Napoleon
+drafted an illiberal constitution that greatly increased executive power. This
+was the fourth French constitution of the decade of the 1790s. </p>
 
 <p>At his core, Napoleon was a pragmatist. In 1806, Napoleon turned down the
-revolutionary calendar and distanced itself from the original ideals in favor
-of French nationalism and catholicism. I loved this quote:</p>
+revolutionary calendar. He distanced itself from the revolutionary ideals in
+favor of stability, French nationalism and catholicism. I loved this quote:</p>
 
 <blockquote>
   <p>"It is by making myself Catholic that I brought peace to Brittany and Vendée.
@@ -134,32 +323,33 @@ of French nationalism and catholicism. I loved this quote:</p>
   should reestablish the Temple of Solomon."</p>
 </blockquote>
 
-<p>Napoleon crowned himself emperor after a popular vote. He then amended the
-constitution allowing for hereditary rule. By becoming emperor he solved the
+<p>In 1806, Napoleon crowned himself emperor after a popular vote. He then amended
+the constitution allowing for hereditary rule. By becoming emperor he solved the
 monarchist threat, but the Jacobin threat remained. He dealt with the Jacobins
-by blaming them for any rebellious acts and punishing them by exiling or death.</p>
+by using them as scapegoats for any rebellious acts and then punishing them by
+exile or death.</p>
 
-<p>Napoleon seems to have been driven by several modus operandi:</p>
+<p>Napoleon's strategy seems to have been driven by several modus operandi:</p>
 
 <ul>
 <li>Nepotism: he placed his many brothers into positions of power, used his
-sisters for strategic royalesque marriages. </li>
+siblings for strategic marriages with European royalty. </li>
 <li>Military autonomy: he restructured the Grand Armee into separately managed
-corps to be more autonomous. </li>
+corps to be more autonomous.</li>
 <li>Expansionary conscription: he used the newly conquered peoples to expand the
 Grand Armee with fresh blood, and eventually reduced the draft age.</li>
-<li>Foraging and looting: by relying more on the conquered lands and less on
-supply trains, Napoleon's armies could move faster and be larger than his
-opposition.</li>
+<li>Foraging and looting: by relying more on eating off of conquered lands and
+less on supply trains, Napoleon's armies could move faster and be larger than
+his opposition.</li>
 <li>Domestic improvement: due to general mistrust of the people, he instituted
 great public works projects that would placate and benefit them.</li>
 <li>Military glory: due to a deep-seated sense of illegitimacy, Napoleon craved
 great military victories.</li>
 <li>Propaganda: whatever the outcome of his military campaigns, Napoleon made sure
 his image was propped up by cherry picking just the good parts.</li>
-<li>Arch Nemesis England: the French navy was consistently crushed by the
-British. In retaliation, and because of a general French hatred of the
-British, Napoleon banned English imports throughout the French empire.</li>
+<li>British nemesis: the French navy was consistently crushed by the British. In
+retaliation, and because of a general French hatred of the British, Napoleon
+banned English imports throughout the French empire.</li>
 </ul>
 
 <p>Napoleon's conquests are many and varied. At its peak in 1812, the French Empire
@@ -168,7 +358,7 @@ spanned from Spain to Poland.</p>
 <ul>
 <li>Egypt: one of Napoleon's earliest campaigns was a PR success, but ultimately a
 defeat at the hands of the Ottoman Empire and Great Britain. This expedition
-led to the discovery of the Rosetta Stone. </li>
+led to the discovery of the Rosetta Stone.</li>
 <li>Italy: after self-crowning as emperor, he created the Kingdom of Italy and the
 Italian flag, which was inspired by the tricolor of the French revolution.</li>
 <li>Austria: by 1806, at Austerlitz, France defeated Austria and its allies
@@ -178,7 +368,8 @@ Empire.</li>
 Lord Nelson's forces (Rule, Britannia!), which cemented Napoleon's hatred for
 Britain. During the battle, Nelson was shot and killed by a French musketeer.</li>
 <li>Prussia: in 1807, French forces pushed into Prussia and defeated Friedrich
-Wilhelm III in two parallel decisive battles.</li>
+Wilhelm III in two parallel decisive battles led by different corps of the
+Grand Armee.</li>
 <li>Spain: Napoleon offered to resolve a succession dispute between the Spanish
 king and his heir, but instead exiled the royal family and installed his
 brother Joseph there. He was overly confident that the Spanish would be on
@@ -195,21 +386,21 @@ eventually forced to retreat and returned home with one fifth the men.</li>
 </ul>
 
 <p>Weakened after the Russian campaign, Napoleon's forces were crushed decisively
-by a joint force of Austrians, Russians, and Prussians. Louis XVIII returned
-from exile and was placed onto the throne by the victorious coalition. Louis
-introduced a new constitution, attempted to forget Napoleon and the revolution
-and turn back time to the divine right of kings. He forced a lot of the army
+by a joint force of Austrians, Russians, and Prussians. Louis XVIII, a cousin of
+Louis XVI, returned from exile and was placed onto the throne by the victorious
+coalition. This Louis introduced a new constitution, attempted turn back time,
+reverting France to the divine right of kings. He forced a lot of the army
 retire and was unpopular with the people.</p>
 
-<p>Napoleon didn’t last long exiled at Elba. He was given reign over the island
-where he gathered a force of 1000 men and marched back to France. On his way,
-French forces sent to stop him instead joined his cause. He entered Paris
-unopposed, framing himself as a product of the revolution in opposition to the
-monarchist Louis XVIII. Upon his return, Napoleon amended the constitution he
-drafted with limits to executive power, making France more of a constitutional
-Monarchy. Of course, his foreign opponents were unhappy with his return and
-decided to stop him once and for all. Napoleon had to prove himself once more
-with a decisive battle at Waterloo. </p>
+<p>Napoleon didn’t last long in his exile at Elba. He was given reign over the
+island where he gathered a force of 1000 men and marched back to France. On his
+way, the French forces sent to stop him joined his cause instead. He entered
+Paris unopposed, framing himself as a product of the revolution in opposition to
+the tyrannical Louis XVIII. Upon his return, Napoleon amended the constitution
+he drafted with limits to executive power, making France more of a
+constitutional Monarchy. Of course, his foreign opponents were unhappy with his
+return and decided to stop him once and for all. Napoleon had to prove himself
+once more with a decisive battle at Waterloo. </p>
 
 <p>Defeated, Bonaparte was exiled to St. Helena where he spent his last 6 years.
 Even after his death, Napoleon remained incredibly popular and became more and
@@ -225,113 +416,6 @@ century: the surprising rise of Napoleon III in 1848, and the Paris Commune of
 lecture series was as close as TTC offered on this turbulent period. I'd have
 loved to hear the lecturer continue on in French history. It will be nice to
 return to the subject later.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Book of Why by Judea Pearl</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/book-of-why-by-judea-pearl"/>
-    
-    <updated>2018-09-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/book-of-why-by-judea-pearl</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Book of Why is a strange combination of anecdotes, verbal descriptions that
-genuinely help build intuition, some case studies, and a bunch of name dropping
-of students and collaborators. Most of it is written for a popular audience, but
-sometimes the author jumps into mathematical formulas seemingly conjured from
-mid-air with very little explanation. Other times he provides terse proofs that
-read more like a math text book than anything else. Overall, the book is not
-well structured and awkwardly straddles the line between popular science,
-textbook, and paper.</p>
-
-<p>I read most of it, but ended up bored and confused by Chapter 9.  Perhaps if I
-was actively studying statistics, and had more time to delve deeper into the
-content, I would be more patient with the author, and find more time to work out
-the details of the mathematics in my spare time. Nonetheless, here are the
-pearls I managed to uncover for myself:</p>
-
-<p><strong>Ladder of causation</strong>: Early on, the author presents "three distinct levels of
-cognitive ability: seeing, doing, and imagining.":</p>
-
-<p><img src="/books/book-of-why-by-judea-pearl/ladder-causation.png" alt="Ladder of causation" /></p>
-
-<p>The vast majority of today's machine learning resides on the first rung of the
-ladder: observational data. Pearl believes that the core of human intelligence
-resides on higher rungs: "Deep learning has given us machines with truly
-impressive abilities but no intelligence." Later, he suggests this more
-explicitly: "I conjecture, that human intuition is organized around causal, not
-statistical, relations."</p>
-
-<p><strong>Beyond RCTs</strong>: causality can be established by means other than randomized
-control trials (RCTs). The means Pearl suggests involve having more than just
-data, but also a causal model, in the form of a directed acyclic graph (DAG),
-originally introduced by Seward Wright.  Pearl really pushes on this,
-evangelizing the concept. "A sufficiently strong and accurate causal model can
-allow us to use rung-one (observational) data to answer rung-two
-(interventional) queries." In many cases, running an RCT may be physically
-impossible (eg. can't make people become obese to study the effect of
-obesity on heart disease), or unethical (eg. can't force random people to smoke
-for 10 years).</p>
-
-<p>However it’s unclear to me how one is to generate the causal model in the first
-place, and how you to ascertain that the model is "string and accurate".
-Pearl says so himself: "If she is confident that her causal model accounts for a
-sufficient number of deconfounders and she has gathered data on them, then she
-can estimate the effect of Fertilizer on Yield in an unbiased way.</p>
-
-<p><strong>Blending probability and logic</strong>: Although he never states it explicitly,
-Pearl's causal graphs seem to bridge the gap between formal logic (A implies B,
-necessary and sufficient) with probability. This is interesting, but I think
-Pearl is very much a statistician, and hardly ever mentions logic.</p>
-
-<p><strong>Casual aversion in stats</strong>: Pearl spends a lot of time complaining about
-the mantra "correlation does not imply causation" embodied by various
-authoritarian statisticians like Karl Pearson, and R. A. Fisher. Instead of such
-a strong statement, the author proposes "some correlations do imply causation,"
-although he does dial it back and suggests that it may instead be called
-"provisional causality".</p>
-
-<p><strong>Path analysis aka Structural Equation Modeling (SEM)</strong>: the path diagram
-concept introduced by Wright was met with resistance by his contemporaries, who
-were drawn to the allure of just looking at the data without any models, since
-the data is objective, and models are subjective. This is where Bayesian
-Statistics comes in, which tells you how to update Beliefs based on Evidence.</p>
-
-<p><strong>Junctions</strong>:</p>
-
-<ol>
-<li>A → B → C: Mediator junction. Example: Fire → Smoke → Alarm. Fire causes the
-Smoke, and Smoke triggers the Alarm.</li>
-<li>A ← B → C: Fork junction. Example: Shoe Size ←  Age of Child → Reading
-Ability. Children with larger shoe sizes tend to read better, but it's not a
-causal relationship.</li>
-<li>A → B ← C : Collider junction. Example: Talent → Celebrity ← Beauty. Suppose
-only one of talent and beauty is sufficient to be a celebrity. Then, if a
-celebrity were a good actor, they would need to be less beautiful.
-Conversely, if they were beautiful, they would need to be less talented.</li>
-</ol>
-
-<p><strong>Back-door path</strong>: Every graph is composed of the above junctions. Pearl claims
-that you can "deconfound two variables X and Y" by blocking every noncausal path
-between them without blocking or perturbing any causal paths. My intuition
-basically fails at this point.</p>
-
-<p><strong>Judicious biblical references</strong>: I loved that Pearl often cited the Bible in
-this book, most prominently the example of a controlled experiment from the Book
-of Daniel, but also quotes from the Book of Jonah: "At last the sailors said to
-each other, Come and let us cast lots to find out who is to blame for this
-ordeal."</p>
-
-<p><strong>Good examples</strong></p>
 
 
         
@@ -3054,76 +3138,11 @@ similarly researched argument from the other side to see where I land.</p>
   </entry>
   
   <entry>
-    <title>On Tyranny by Timothy Snyder</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/on-tyranny-by-timothy-snyder"/>
-    
-    <updated>2017-06-13T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/on-tyranny-by-timothy-snyder</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
-
-<p>Structured as a strange combination of trends that lead to tyranny and general
-life tips. Dangerous trends include the destruction of institutions and
-paramilitary rule. As for life tips, the author suggests reading more books and
-longer articles, donating to charities, and having more conversations in person,
-and remaining calm in the face of terror. </p>
-
-<p>The last point I think is a good one and I agree that there is good reason to be
-deeply concerned about the political impact of a major terror attack on US soil. </p>
-
-<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
-like this one are overly didactic:</p>
-
-<blockquote>
-  <p>What is patriotism? Let us begin with what patriotism is not. It is not
-  patriotic to dodge the draft and to mock war heroes and their families. It is
-  not patriotic to discriminate against active-duty members of the armed forces
-  in one's companies or to campaign to keep disabled veterans away from one's
-  property. It is not patriotic to ... (etc)</p>
-</blockquote>
-
-<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
-the last 6 months. And it continues for a page and a half. A thought flashed
-across my mind: how is this better than reading Twitter?</p>
-
-<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
-He then normalizes extremist terror as just another thing by claiming that those
-resisting fascists and communist regimes were also billed extremists (therefore
-what?). He plays with words, uncharitably redefining a "nationalist" in contrast
-to "patriot" as one "that encourages us to be the worst and the tells us we are
-the best", whereas the two words are often used interchangeably.</p>
-
-<p>The conclusion starts well written, with choice words criticizing "end of
-history" narratives that helped get us here. But ends in conspiratorial hand
-wringing.</p>
-
-<p>In liberal cities like Seattle, the opposition is the majority and there are no
-signs that things will flip any time soon. Most of Trump's policies are
-signaling and most of them are counteracted with opposition signaling. He is an
-awful leader for this country and I'm ashamed of his words and actions. But as
-for actual policy changes or prosecution of specific people, he has (so far)
-been stopped at every turn. I agree that these are unusual times, and that extra
-vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
-a classic case of crying wolf. I find it hard to believe that it will stand the
-test of time. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>The Psychology of Curiosity</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-12T09:00:00-00:00</updated>
+    <updated>2017-06-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -3344,6 +3363,71 @@ paper ended, so had to finish reading the last page online.</p>
   </entry>
   
   <entry>
+    <title>On Tyranny by Timothy Snyder</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/on-tyranny-by-timothy-snyder"/>
+    
+    <updated>2017-06-13T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/on-tyranny-by-timothy-snyder</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
+
+<p>Structured as a strange combination of trends that lead to tyranny and general
+life tips. Dangerous trends include the destruction of institutions and
+paramilitary rule. As for life tips, the author suggests reading more books and
+longer articles, donating to charities, and having more conversations in person,
+and remaining calm in the face of terror. </p>
+
+<p>The last point I think is a good one and I agree that there is good reason to be
+deeply concerned about the political impact of a major terror attack on US soil. </p>
+
+<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
+like this one are overly didactic:</p>
+
+<blockquote>
+  <p>What is patriotism? Let us begin with what patriotism is not. It is not
+  patriotic to dodge the draft and to mock war heroes and their families. It is
+  not patriotic to discriminate against active-duty members of the armed forces
+  in one's companies or to campaign to keep disabled veterans away from one's
+  property. It is not patriotic to ... (etc)</p>
+</blockquote>
+
+<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
+the last 6 months. And it continues for a page and a half. A thought flashed
+across my mind: how is this better than reading Twitter?</p>
+
+<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
+He then normalizes extremist terror as just another thing by claiming that those
+resisting fascists and communist regimes were also billed extremists (therefore
+what?). He plays with words, uncharitably redefining a "nationalist" in contrast
+to "patriot" as one "that encourages us to be the worst and the tells us we are
+the best", whereas the two words are often used interchangeably.</p>
+
+<p>The conclusion starts well written, with choice words criticizing "end of
+history" narratives that helped get us here. But ends in conspiratorial hand
+wringing.</p>
+
+<p>In liberal cities like Seattle, the opposition is the majority and there are no
+signs that things will flip any time soon. Most of Trump's policies are
+signaling and most of them are counteracted with opposition signaling. He is an
+awful leader for this country and I'm ashamed of his words and actions. But as
+for actual policy changes or prosecution of specific people, he has (so far)
+been stopped at every turn. I agree that these are unusual times, and that extra
+vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
+a classic case of crying wolf. I find it hard to believe that it will stand the
+test of time. </p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Great Gatsby by F. Scott Fitzgerald</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
@@ -3374,7 +3458,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-12T09:00:00-00:00</updated>
+    <updated>2017-05-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -3417,7 +3501,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-12T09:00:00-00:00</updated>
+    <updated>2017-05-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3612,7 +3696,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-12T09:00:00-00:00</updated>
+    <updated>2017-05-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3677,7 +3761,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-12T09:00:00-00:00</updated>
+    <updated>2017-04-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3771,7 +3855,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-12T09:00:00-00:00</updated>
+    <updated>2017-03-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3821,7 +3905,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-12T09:00:00-00:00</updated>
+    <updated>2017-03-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3858,7 +3942,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-12T09:00:00-00:00</updated>
+    <updated>2017-02-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -3926,7 +4010,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-12T09:00:00-00:00</updated>
+    <updated>2017-02-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -3954,7 +4038,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-12T09:00:00-00:00</updated>
+    <updated>2017-01-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -4015,7 +4099,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-12T09:00:00-00:00</updated>
+    <updated>2017-01-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -4050,7 +4134,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-12T09:00:00-00:00</updated>
+    <updated>2017-01-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -4117,7 +4201,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-12T09:00:00-00:00</updated>
+    <updated>2016-12-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -4208,7 +4292,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-12T09:00:00-00:00</updated>
+    <updated>2016-11-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -4254,7 +4338,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/future-babble"/>
     
-    <updated>2016-10-12T09:00:00-00:00</updated>
+    <updated>2016-10-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/future-babble</id>
     <content type="html">
@@ -4318,7 +4402,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-12T09:00:00-00:00</updated>
+    <updated>2016-10-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -4352,7 +4436,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-12T09:00:00-00:00</updated>
+    <updated>2016-09-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -4414,7 +4498,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/sapiens-audio"/>
     
-    <updated>2016-09-12T09:00:00-00:00</updated>
+    <updated>2016-09-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -4500,7 +4584,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-12T09:00:00-00:00</updated>
+    <updated>2016-08-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4795,7 +4879,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-12T09:00:00-00:00</updated>
+    <updated>2016-08-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4831,7 +4915,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-persuaders-audio"/>
     
-    <updated>2016-07-12T09:00:00-00:00</updated>
+    <updated>2016-07-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4904,7 +4988,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-12T09:00:00-00:00</updated>
+    <updated>2016-07-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -5063,7 +5147,7 @@ understanding.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/must-mankind-repeat-historys-great-mistakes"/>
     
-    <updated>2016-07-12T09:00:00-00:00</updated>
+    <updated>2016-07-15T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
     <content type="html">

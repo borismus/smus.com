@@ -5,11 +5,11 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-12T08:37:58-00:00</updated>
+  <updated>2018-09-15T10:17:48-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
-    <title>Against re-tweets</title>
+    <title>Against retweets</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/notes/2018/against-retweets/"/>
     
@@ -19,7 +19,7 @@
     <content type="html">
       <![CDATA[
       <div>
-        <p><img src="/notes/2018/against-retweets/against-retweets.png" alt="Create and consume time for content of various lengths." /></p>
+        <p><img src="/assets/against-retweets.png" alt="Create and consume time for content of various lengths." /></p>
 
 <p>One of these data points is not like the other. Also, isn't it neat that common
 units of time duration fall nicely onto a logarithmic scale?</p>
