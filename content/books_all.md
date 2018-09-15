@@ -170,9 +170,11 @@ be blocked by controlling for a certain variable:
 2. In a collider (A → B ← C), the pipe between A and C is closed, but
    controlling for B opens the pipe.
 
-**Back-door adjustment**: Shit I really don't get it. This book is really not
-great. I'll try approaching the material with this course instead
+**Back-door adjustment**: Shit I really don't get it. This book doesn't do a
+great job of explaining the technical parts. I'll pause for now, and try
+approaching the material with this course instead:
 <https://www.coursera.org/learn/crash-course-in-causality/home/welcome>.
+
 
 Living the French Revolution (audio)
 ===
