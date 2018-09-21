@@ -5,8 +5,130 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-15T10:17:48-00:00</updated>
+  <updated>2018-09-21T09:10:45-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Comparing classical music interpretations</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/classical-interpreters"/>
+    
+    <updated>2018-09-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/classical-interpreters</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I built an audio player to easily compare multiple interpretations of the same
+piece. Here's an interactive <a href="https://borismus.github.io/classical-interpreter/">demo</a>, and a video to give you a sense of how it
+works:</p>
+
+<p><video src="/classical-interpreters/two-goulds.mp4" style="display: block; margin: 0 auto;" controls /></p>
+
+<!--more-->
+
+<h2>What does it mean to interpret classical music?</h2>
+
+<p>At first glance, sheet music is prescriptive: the composer has provided all of
+the notes, the dynamics (forte, piano), tempo (lento, presto) and changes in
+tempo (de/accelerando).</p>
+
+<p>In practice, however, the interpreter has a lot of leeway. In some extreme
+cases, such as the <a href="https://en.wikipedia.org/wiki/Cadenza">Cadenza</a> in solo concertos, the performer gets to
+improvize a melody based on a chord progression. Some pieces include
+ornamentation (eg. trills, etc) which are largely left up to the performer to
+interpret.</p>
+
+<p>That said, cadenzas and ornaments are somewhat rare. In general, every piece is
+under-specified by the composer. This gives the performer a lot of leeway to
+express themselves through the performance, selecting tempo, phrasing,
+articulation and tone.</p>
+
+<h2>Example: Bach's Goldberg Variations</h2>
+
+<p>The Goldberg Variations were composed by Johann Sebastian Bach in 1741, and then
+popularized by Glenn Gould in his debut album in 1955, transforming a work once
+considered esoteric into one of the most iconic piano recordings.</p>
+
+<p>In 1981, a year before his death, Gould recorded the pieces again. After a long
+period of reclusion, he was able to revisit the variations and produce a
+completely different take. In an interview, he said:</p>
+
+<blockquote>
+  <p>...since I stopped playing concerts, about 20 years, having not played it in
+  all that time, maybe I wasn't savaged by any over-exposure to it...</p>
+</blockquote>
+
+<h2>Compare Gould's 1955 and 1981 recordings</h2>
+
+<p>Both the <a href="https://youtu.be/Cwas_7H5KUs?t=1m55s">1955</a> and <a href="https://www.youtube.com/watch?v=zpsfhTxo5yw&amp;t=173s">1981</a> recordings are available on YouTube, of course.
+I found that listening to two distinct performances is not the same as having one
+integrated player. So I built one: a player specifically for comparing multiple
+interpretations of the same piece.</p>
+
+<p>Here is a demo that lets you compare the first variation from the Goldberg
+Variations. <a href="https://borismus.github.io/classical-interpreter/">Try it out here</a>. You can use your keyboard to skip between
+interpretations (↑, ↓) just as easily as you can seek within a track (←, →).
+The mouse works as well. Note that I haven't tested at all on mobile. Sorry,
+it's just a prototype and I'm on paternity leave 😇</p>
+
+<h2>I also tried it on Mozart's Requiem</h2>
+
+<p>I am a huge fan of Mozart's Requiem, and once came across an <a href="https://www.reddit.com/r/classicalmusic/comments/1xpqyh/what_is_the_best_recorded_performance_of_mozarts/">online thread
+debating</a> which conductor's performance was the best. I soon
+found myself listening to a dozen or so different versions of the same piece.
+When I was a younger music appreciator, I would often wonder what the point of
+a conductor <em>really</em> was. I no longer have this question.</p>
+
+<p>Just to give you a taste for how different the interpretations are, here's an
+example of three conductors performing the Introitus, the first movement in the
+Requiem. <a href="https://borismus.github.io/classical-interpreter/?json=https://splendid-society.surge.sh/index.json">Check it out here</a>, but be patient as it may take a
+minute to load and decode the audio. Böhm's brooding tempo and lumbering chorus
+(ugh) contrasts especially well with Levin's crisp and minimalist take.</p>
+
+<p><video src="/classical-interpreters/three-requiems.mp4" style="display: block; margin: 0 auto;" controls /></p>
+
+<h2>Technical details</h2>
+
+<p>For this prototype, I focused on creating a reasonable UI to play back and
+interact with multiple time-aligned performances of the same piece. An <a href="https://borismus.github.io/classical-interpreter/goldberg/index.json">index
+file</a> specifies metadata for each track, most importantly the URL to
+the label file and the URL to the audio file. Each <a href="https://borismus.github.io/classical-interpreter/goldberg/gould-1955.txt">label file</a> is a
+text file with lines in the format <code>START_TIME  END_TIME BAR_NUMBER</code>. </p>
+
+<p>To create the label files, I manually annotated the waveform. Even with
+Audacity's extremely useful <a href="https://manual.audacityteam.org/man/label_tracks.html">label track</a> feature, it was a lot
+of manual work to go through the score, and find each bar's time
+range in each recording. At the end of the day, I had start and end times for
+each bar. For times that don't fall exactly on bar lines, I linearly interpolate
+between the bar boundaries, which works reasonably well, but is sometimes a bit
+off. More granular timing references would address this better, but that
+currently means doing more manual labor. No thanks!</p>
+
+<h3>Science, help me automate this, please</h3>
+
+<p>An obvious question is how to automate the labor of synchronizing a recording to
+a score. In general, I think this is an unsolved problem, especially for complex
+tracks containing hundreds of instruments and varying levels of background
+noise.</p>
+
+<p>An promising approach that could work for solo piano music might be to use
+something like <a href="https://magenta.tensorflow.org/onsets-frames">Onsets and Frames</a> to extract piano rolls and
+then apply something like a Dynamic Time Warp (DTW) in piano roll space.  A more
+general approach might be to synthesize each bar into raw audio (from MIDI), and
+then align recordings to synthesized audio using something like DTW based on a
+Constant-Q transform (CQT).</p>
+
+<p>My brief and ill-guided attempts to <a href="https://musicinformationretrieval.com/dtw_example.html">do something like this</a> on real-world
+examples didn't yield good enough results. Any ML/DSP experts want to take this
+on?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Web-based voice command recognition</title>
@@ -9036,130 +9158,6 @@ displays.</p>
 
 <p>Ultimately, UI developers need to understand the serious problems with
 pixels because this problem isn't going away any time soon.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>New design</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/redesign-2012"/>
-    
-    <updated>2012-03-30T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/redesign-2012</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I re-designed this site using the <a href="http://www.google.com/webfonts/specimen/PT+Sans">PT Sans font</a>, aiming for
-appealing typography for optimal readability. Interestingly,</p>
-
-<blockquote>
-  <p>PT Sans is based on Russian sans serif types of the second part of the
-  20th century, but at the same time has distinctive features of
-  contemporary humanistic designs.</p>
-</blockquote>
-
-<p>Since visitors are increasingly coming from a variety of devices, I also
-created three variants of the site for small, medium and large screens
-via media queries:</p>
-
-<!--more-->
-
-<pre><code>@media screen and (max-width: $small) {/* small */}
-@media screen and (min-width: $small) and (max-width: $large) {/* medium */}
-@media screen and (min-width: $large) {/* large */}
-</code></pre>
-
-<p>Note that the above is valid <a href="http://sass-lang.com/">SCSS</a> (as of version 3.2)! To try it out,
-you may need to install the prerelease via <code>gem install sass --pre</code>.</p>
-
-<p>As usual, the layout of this site is largely inspired by designers far
-more skilled than I, including: <a href="http://viljamis.com/">http://viljamis.com/</a> and
-<a href="http://www.markboulton.co.uk/">http://www.markboulton.co.uk/</a>.</p>
-
-<h2>New engine</h2>
-
-<p>This blog can now also double as a micro blog, where I can easily <a href="/archive/links">post
-links</a> in a social network-agnostic way. Similarly, it now hosts
-<a href="/archive/talks">all of my talks</a>, which used to live on
-<a href="http://smustalks.appspot.com">http://smustalks.appspot.com</a>. It's also a lot easier for me to create
-new posts.</p>
-
-<p>All of these structural changes are largely due to me building a
-completely new static site generator which addresses a lot of my pains
-using other static generators. I'll write a separate article about this
-engine when I'm ready to release it to the public.</p>
-
-<h2>No more comments</h2>
-
-<p>Since the start of this blog, I've struggled with the concept of
-comments on my site and in on blogs in general. Even with services like
-disqus, which try to integrate your blog commentator personality into
-one place, I feel that in practice, commenting on the web is very hard
-to keep in one place, and the most interesting discussions end up
-distributed in many pockets such as Hacker News, twitter, etc. Having
-the in-blog comments as well only makes things messier.</p>
-
-<p>Other problems include:</p>
-
-<ul>
-<li>Leaving a comment right after reading content encourages unconsidered
-responses, since readers haven't had time to process the content.</li>
-<li>Lately my blog has been generating a lot of spam comments that I need
-to moderate. I don't have time for that.</li>
-<li>People tend to ask for technical support in the comments, which adds
-very little value for other readers.</li>
-<li>Disqus slows down page load time, and presents a UI that's not easily
-skinnable.</li>
-</ul>
-
-<p>For a more in-depth analysis about blog comments, see Matt Gemmell's
-thorough post <a href="http://mattgemmell.com/2011/11/29/comments-off/">on this subject</a>.</p>
-
-<p>I've disabled comments on all posts. That said, I still want to hear
-your ideas and feedback, and engage in discussion around topics I'm
-obviously interested in (enough to write about!)</p>
-
-<h2>Evolving designs</h2>
-
-<p>This is the fourth iteration of my blog's design. I apparently do a
-re-design every year, since I started in 2008.</p>
-
-<p><style>
-article img { border: 1px solid gray; }
-</style></p>
-
-<p><img src="/redesign-2012/v1.png" alt="original un-design" /></p>
-
-<p>This version was a small modification done to an existing wordpress
-theme.</p>
-
-<p><img src="/redesign-2012/v2.png" alt="first iteration" /></p>
-
-<p>I really liked this version for a long time, since it was so clean and
-minimal. Unfortunately the header took way too much space, and the
-typography left something to be desired.</p>
-
-<p><img src="/redesign-2012/v3.png" alt="second iteration" /></p>
-
-<p>This was the first "responsive" version. It had too many gimmicky,
-non-standard design elements.</p>
-
-<p><img src="/redesign-2012/v4.png" alt="current iteration" /></p>
-
-<p>I'm reasonably happy with the current version, especially the typography
-in the main body.</p>
-
-<p>And strangely excited about the engine that powers this blog too
-(codenamed <em>Lightning</em>, which generates a lot of static, and is also
-very fast! Ha, get it?). Once released, I will write another meta-blog
-post about it. For now, though, I wrote a bit about Lightning
-<a href="/site">here</a>.</p>
 
 
         

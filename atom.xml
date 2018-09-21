@@ -5,8 +5,130 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-15T10:17:48-00:00</updated>
+  <updated>2018-09-21T09:10:45-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Comparing classical music interpretations</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/classical-interpreters"/>
+    
+    <updated>2018-09-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/classical-interpreters</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I built an audio player to easily compare multiple interpretations of the same
+piece. Here's an interactive <a href="https://borismus.github.io/classical-interpreter/">demo</a>, and a video to give you a sense of how it
+works:</p>
+
+<p><video src="/classical-interpreters/two-goulds.mp4" style="display: block; margin: 0 auto;" controls /></p>
+
+<!--more-->
+
+<h2>What does it mean to interpret classical music?</h2>
+
+<p>At first glance, sheet music is prescriptive: the composer has provided all of
+the notes, the dynamics (forte, piano), tempo (lento, presto) and changes in
+tempo (de/accelerando).</p>
+
+<p>In practice, however, the interpreter has a lot of leeway. In some extreme
+cases, such as the <a href="https://en.wikipedia.org/wiki/Cadenza">Cadenza</a> in solo concertos, the performer gets to
+improvize a melody based on a chord progression. Some pieces include
+ornamentation (eg. trills, etc) which are largely left up to the performer to
+interpret.</p>
+
+<p>That said, cadenzas and ornaments are somewhat rare. In general, every piece is
+under-specified by the composer. This gives the performer a lot of leeway to
+express themselves through the performance, selecting tempo, phrasing,
+articulation and tone.</p>
+
+<h2>Example: Bach's Goldberg Variations</h2>
+
+<p>The Goldberg Variations were composed by Johann Sebastian Bach in 1741, and then
+popularized by Glenn Gould in his debut album in 1955, transforming a work once
+considered esoteric into one of the most iconic piano recordings.</p>
+
+<p>In 1981, a year before his death, Gould recorded the pieces again. After a long
+period of reclusion, he was able to revisit the variations and produce a
+completely different take. In an interview, he said:</p>
+
+<blockquote>
+  <p>...since I stopped playing concerts, about 20 years, having not played it in
+  all that time, maybe I wasn't savaged by any over-exposure to it...</p>
+</blockquote>
+
+<h2>Compare Gould's 1955 and 1981 recordings</h2>
+
+<p>Both the <a href="https://youtu.be/Cwas_7H5KUs?t=1m55s">1955</a> and <a href="https://www.youtube.com/watch?v=zpsfhTxo5yw&amp;t=173s">1981</a> recordings are available on YouTube, of course.
+I found that listening to two distinct performances is not the same as having one
+integrated player. So I built one: a player specifically for comparing multiple
+interpretations of the same piece.</p>
+
+<p>Here is a demo that lets you compare the first variation from the Goldberg
+Variations. <a href="https://borismus.github.io/classical-interpreter/">Try it out here</a>. You can use your keyboard to skip between
+interpretations (↑, ↓) just as easily as you can seek within a track (←, →).
+The mouse works as well. Note that I haven't tested at all on mobile. Sorry,
+it's just a prototype and I'm on paternity leave 😇</p>
+
+<h2>I also tried it on Mozart's Requiem</h2>
+
+<p>I am a huge fan of Mozart's Requiem, and once came across an <a href="https://www.reddit.com/r/classicalmusic/comments/1xpqyh/what_is_the_best_recorded_performance_of_mozarts/">online thread
+debating</a> which conductor's performance was the best. I soon
+found myself listening to a dozen or so different versions of the same piece.
+When I was a younger music appreciator, I would often wonder what the point of
+a conductor <em>really</em> was. I no longer have this question.</p>
+
+<p>Just to give you a taste for how different the interpretations are, here's an
+example of three conductors performing the Introitus, the first movement in the
+Requiem. <a href="https://borismus.github.io/classical-interpreter/?json=https://splendid-society.surge.sh/index.json">Check it out here</a>, but be patient as it may take a
+minute to load and decode the audio. Böhm's brooding tempo and lumbering chorus
+(ugh) contrasts especially well with Levin's crisp and minimalist take.</p>
+
+<p><video src="/classical-interpreters/three-requiems.mp4" style="display: block; margin: 0 auto;" controls /></p>
+
+<h2>Technical details</h2>
+
+<p>For this prototype, I focused on creating a reasonable UI to play back and
+interact with multiple time-aligned performances of the same piece. An <a href="https://borismus.github.io/classical-interpreter/goldberg/index.json">index
+file</a> specifies metadata for each track, most importantly the URL to
+the label file and the URL to the audio file. Each <a href="https://borismus.github.io/classical-interpreter/goldberg/gould-1955.txt">label file</a> is a
+text file with lines in the format <code>START_TIME  END_TIME BAR_NUMBER</code>. </p>
+
+<p>To create the label files, I manually annotated the waveform. Even with
+Audacity's extremely useful <a href="https://manual.audacityteam.org/man/label_tracks.html">label track</a> feature, it was a lot
+of manual work to go through the score, and find each bar's time
+range in each recording. At the end of the day, I had start and end times for
+each bar. For times that don't fall exactly on bar lines, I linearly interpolate
+between the bar boundaries, which works reasonably well, but is sometimes a bit
+off. More granular timing references would address this better, but that
+currently means doing more manual labor. No thanks!</p>
+
+<h3>Science, help me automate this, please</h3>
+
+<p>An obvious question is how to automate the labor of synchronizing a recording to
+a score. In general, I think this is an unsolved problem, especially for complex
+tracks containing hundreds of instruments and varying levels of background
+noise.</p>
+
+<p>An promising approach that could work for solo piano music might be to use
+something like <a href="https://magenta.tensorflow.org/onsets-frames">Onsets and Frames</a> to extract piano rolls and
+then apply something like a Dynamic Time Warp (DTW) in piano roll space.  A more
+general approach might be to synthesize each bar into raw audio (from MIDI), and
+then align recordings to synthesized audio using something like DTW based on a
+Constant-Q transform (CQT).</p>
+
+<p>My brief and ill-guided attempts to <a href="https://musicinformationretrieval.com/dtw_example.html">do something like this</a> on real-world
+examples didn't yield good enough results. Any ML/DSP experts want to take this
+on?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Against retweets</title>
@@ -7227,201 +7349,6 @@ caching techniques should take advantage of Client-Hints once it's
 available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/c38s7y6dH-Q">may be soon</a>!</p>
 
 <p>Now, to write that build script... Any volunteers?</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Ultrasonic networking on the web</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/ultrasonic-networking"/>
-    
-    <updated>2013-08-08T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/ultrasonic-networking</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>The phone in your pocket is an amazing, fluid, multi-functional tool.
-When it comes to talking to other devices, such as your TV or laptop,
-the user experience drops off sharply. Bill Buxton <a href="http://www.youtube.com/watch?v=ZQJIwjlaPCQ&amp;feature=youtu.be&amp;t=21m00">speaks
-eloquently</a> on the subject, describing three stages of
-high tech evolution:</p>
-
-<ol>
-<li>Device works: feature completeness and stability</li>
-<li>Device flows: good user experience</li>
-<li>Many devices work together</li>
-</ol>
-
-<p>But connecting devices is a pain and we have been squarely at stage 2
-since the release of the iPhone. There are many competing approaches to
-do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same
-local WiFi network, and many many others. This post is dedicated to
-attacking this problem from an unexpected angle: using ultrasound to
-broadcast and receive data between nearby devices. Best of all, the
-approach uses the Web Audio API, making it viable for pure web
-applications:</p>
-
-<iframe width="640" height="360" src="//www.youtube.com/embed/w6lRq5spQmc" frameborder="0" allowfullscreen="true"></iframe>
-
-<!--more-->
-
-<h2>A device tower of babel</h2>
-
-<p><a href="http://www.apple.com/airplay/">Airplay</a> and <a href="http://www.google.com/chromecast">Chromecast</a> are great approaches to a subset of the
-problem for devices within the same ecosystem (eg. Apple, or Google),
-but the general problem remains hard to solve.</p>
-
-<p>Because there are so many possible technical approaches, chances are
-that the pair of devices that you happen to be using don't have a common
-language to speak. Even if both devices have Bluetooth, one of them may
-require a profile the other doesn't support, or support a different
-version of the standard. This is especially common with Bluetooth today,
-where many devices have the hardware to support Bluetooth 4.0 (aka
-BTLE), but many devices don't currently support the new protocol for
-various reasons.</p>
-
-<p>On the web, the problem is even worse, since low level device connection
-APIs aren't exposed for <a href="http://smus.com/installable-webapps/">security sandbox reasons</a>. Because of
-how slowly the web evolves, it's hard to imagine this changing any time
-soon.</p>
-
-<h2>Transmitting data in interesting ways</h2>
-
-<p><a href="http://www.youtube.com/watch?v=sVWlQNzU4Ak">Blinkup from Electric Imp</a> is an interesting approach to
-cross-device communication. It uses a series of blinks to transfer
-configuration data between a smart phone and an Imp, a small SD-card
-shaped device with a light sensor.</p>
-
-<p>Dial-up modems did a similar thing. They encoded and decoded digital
-data onto an analog phone line. Remember those annoying connection
-noises? Dial-up modems would turn on their speaker to give the user an
-idea of how the handshake is progressing. If you don't remember, here's
-a <a href="http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html">refresher</a>. Even today on analog phones, the sounds you hear
-when pressing numbers on a dialer correspond to the frequencies the
-phone system uses for analog-to-digital conversion. The conversion
-happens using <a href="http://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling">Dual-tone multi-frequency signaling (DTMF)</a>.</p>
-
-<p>Your phone and a lot of other devices around you has a speaker and a
-microphone. These two pieces of hardware can be used for sending and
-receiving data using sounds, similar to how modems did it over phone
-lines. Better yet, if the OS supports high enough frequency sending and
-receiving, we can create an inaudible data channel.</p>
-
-<h2>Transmitting data using sound</h2>
-
-<p>I should note that encoding data in sound is not new. The idea of <a href="http://en.wikipedia.org/wiki/Audio_watermark">audio
-watermarking</a> is to encode a signature into music that is not
-discernable by the listener (due to the way humans hear), but can be
-picked up by a machine. This is used as a clever piracy detection
-scheme. </p>
-
-<p>Most commodity speakers are capable of producing sound with a 44.1KHz
-sample rate (resulting in a maximum frequency of about 22KHz by the
-<a href="http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem">Nyquist-Shannon sampling theorem</a>). This lets us encode data
-not just as sound, but as sound that adults can't hear. Children and
-non-human animals are still susceptible, though :)</p>
-
-<p>One technical caveat is that microphones are sometimes not as capable as
-speakers, especially in phones, since they are often optimized for human
-speech, which sounds fine with a lower sample rate. In other cases,
-even though the hardware is capable, the firmware runs at a lower sample
-rate for energy efficiency. If this is the case, one of the devices will
-not be able to receive the wave and the sound-based connection will be
-one-way only.</p>
-
-<h2>Sonicnet.js, a web audio implementation</h2>
-
-<p>To illustrate these concepts, I built a <a href="https://github.com/borismus/sonicnet.js">JavaScript library</a>
-that can send and receive data as sounds. My approach is and not nearly
-as sophisticated as the audio watermarking technique, and even simpler
-than the DTMF approach. Basically, you can specify a range of
-frequencies to use, and an alphabet of characters that can be
-transmitted. The frequency spectrum is split into ranges corresponding
-to the specified alphabet and start/end codes, with each character/code
-corresponding to a part of the full frequency range.</p>
-
-<p>The sending side converts each character of the word to be sent into the
-center of the corresponding frequency range, and transmits that
-frequency for a certain duration. The receiving side does a continuous
-fourier transform of the signal and looks for peaks in the specified
-frequency range. Upon finding a peak for a significant duration, it does
-the conversion back from frequency to character. This is essentially
-a <a href="http://en.wikipedia.org/wiki/Selective_calling#Tone_burst_or_single_tone">single-tone multi-frequency signaling (STMF)</a> scheme.</p>
-
-<p>There is a timing issue: on the sending side, how long should each
-character be transmitted for, and on the receiving side, how long should
-the listened for? An easy workaround for this is to disallow adjacently
-repeated characters.</p>
-
-<p>I built a socket-like API for sonic networking. Client code
-looks like this:</p>
-
-<pre><code>ssocket = new SonicSocket({alphabet: '0123456789'});
-function onButton() {
-  ssocket.send('31415');
-}
-</code></pre>
-
-<p>And the server can look like this:</p>
-
-<pre><code>sserver = new SonicServer({alphabet: '0123456789'});
-sserver.on('message', function(message) {
-  // Expect message to be '31415'.
-  console.log(message);
-});
-sserver.start();
-</code></pre>
-
-<p>The library is available for use on <a href="https://github.com/borismus/sonicnet.js/tree/master/lib">github</a>.</p>
-
-<p>Of course, using it requires a Web Audio implementation (mostly
-<code>OscillatorNode</code> on the sending side, and <code>AnalyserNode</code> on the
-receiving side) and good enough hardware. I have experimented with
-Chrome-to-Chrome transmission on Mac Books, as well as between Chrome
-for Android (beta) and Chrome for Mac.</p>
-
-<p>I wrote a couple of demos to illustrate the idea. These appear in the
-<a href="http://www.youtube.com/watch?v=w6lRq5spQmc">video I embedded at the top of the post</a>. The first demo lets
-you <a href="http://borismus.github.io/sonicnet.js/emoticons">send emoticons</a> from one device to the other. It uses a
-small alphabet of just 6 characters - one for each emoticon. You pick
-one of 6 emoticons, and the corresponding character is sent over the
-sonic network, received and shown prominently on the other end.</p>
-
-<p>A more realistic use for sonicnet.js is this <a href="http://borismus.github.io/sonicnet.js/chat-pair">chat
-application</a>, which generates a non-repeating 5-digit token
-and uses it to create connections between two devices. This is done with
-the help of a pairing server, which helps establish a proxied connection
-between the two devices, over a websocket. Once the connection is
-established, the chats themselves are sent through the websocket. The
-<a href="https://github.com/borismus/sonicnet.js/tree/master/server">server code</a> is hosted on <a href="https://www.nodejitsu.com/">nodejitsu</a>.</p>
-
-<h2>Conclusions and a request</h2>
-
-<p>It's great to see that the Web Audio API has come far enough that
-applications like these are possible. I'm fascinated by the implications
-of sonicnet.js for the Web of Things. It is a pure web technology that
-can be used to pair devices together. Because of the ubiquity of web
-browsers and audio hardware, the combination can be a huge win, even
-among commodity hardware, without having to wait for Bluetooth and other
-close-range connectivity technology to become available to the web
-platform.</p>
-
-<p>If this post has piqued your interest and you are interested in helping,
-try writing an app using sonicnet.js. As I mentioned earlier, receiving
-high frequency sounds does not work on all devices because of
-firmware/hardware limitations so I'd love to know which devices it does
-and does not work on. My expectation is that most phones should be able
-to send only, and that most laptops should be able to both send and
-receive. Please fill out <a href="https://docs.google.com/forms/d/1dAgNdVdhss-QR-Owm556RZch-MV_ntnAMP8_ZJi5XLA/viewform">this form</a> once you try the <a href="http://borismus.github.io/sonicnet.js/emoticons">emoticons
-demo</a> on your own hardware. At the time of writing, <a href="http://crbug.com/242894">live
-input is not supported</a> in Chrome for Android Beta, so sending
-data from mobile device to laptop is the only possible configuration.</p>
 
 
         
