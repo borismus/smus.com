@@ -80,16 +80,15 @@ text file with lines in the format `START_TIME  END_TIME BAR_NUMBER`.
 
 To create the label files, I manually annotated the waveform. Even with
 Audacity's extremely useful [label track][audacity-label] feature, it was a lot
-of manual work to go through the score bar by bar, and find each bar's time
-range in each performance's waveform. This gives start and end times for each
-bar, but does not specify timing within the bar. For times that don't fall
-exactly on bar lines, I linearly interpolate between the bar boundaries, which
-works reasonably well, but is sometimes a bit off. More granular timing
-references would address this better, but that currently means doing more manual
-labor. No thanks!
+of manual work to go through the score, and find each bar's time
+range in each recording. At the end of the day, I had start and end times for
+each bar. For times that don't fall exactly on bar lines, I linearly interpolate
+between the bar boundaries, which works reasonably well, but is sometimes a bit
+off. More granular timing references would address this better, but that
+currently means doing more manual labor. No thanks!
 
 
-### Science, help automate this
+### Science, help me automate this, please
 
 An obvious question is how to automate the labor of synchronizing a recording to
 a score. In general, I think this is an unsolved problem, especially for complex
@@ -99,9 +98,9 @@ noise.
 An promising approach that could work for solo piano music might be to use
 something like [Onsets and Frames][onsets-frames] to extract piano rolls and
 then apply something like a Dynamic Time Warp (DTW) in piano roll space.  A more
-general approach might be to synthesize each bar as a waveform (from MIDI), and
-then align the bars using something like DTW based on a Constant-Q transform
-(CQT).
+general approach might be to synthesize each bar into raw audio (from MIDI), and
+then align recordings to synthesized audio using something like DTW based on a
+Constant-Q transform (CQT).
 
 My brief and ill-guided attempts to [do something like this][mir] on real-world
 examples didn't yield good enough results. Any ML/DSP experts want to take this
