@@ -10,7 +10,7 @@ Also, you can shrink and grow, which, in addition to changing your avatar's
 size, pitch shifts your voice. Large avatars have deep, god-like voices, while
 smaller ones start to sound very mousey!
 
-<iframe width="560" height="395" src="https://www.youtube.com/embed/FPJDNQJt2DQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="395" src="//www.youtube.com/embed/FPJDNQJt2DQ" frameborder="0" allowfullscreen></iframe>
 
 Check out the [demo for yourself][demo]. It works on desktop (mouse look and
 spacebar triggers movement), on mobile (magic window) and in VR (through the

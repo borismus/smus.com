@@ -22,7 +22,7 @@ box. Wiring the pants was surprisingly easy, since as I discovered, electric
 tape easily adheres to denim.
 
 <iframe title="YouTube video player" width="600" height="368"
-  src="http://www.youtube.com/embed/HjWx9fp-8oU" frameborder="0"
+  src="//www.youtube.com/embed/HjWx9fp-8oU" frameborder="0"
   allowfullscreen></iframe>
 
 The two FSRs are hooked into pull-down switches which connect to analog ports

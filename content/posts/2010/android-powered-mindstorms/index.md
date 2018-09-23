@@ -32,7 +32,7 @@ it. This approach can be summarized succinctly as "[crowdsourced][]
 Here's a demonstration video of the robot in action:
 
 <iframe title="YouTube video player" width="600" height="368"
-  src="http://www.youtube.com/embed/ATQ_0tySttM" frameborder="0"
+  src="//www.youtube.com/embed/ATQ_0tySttM" frameborder="0"
   allowfullscreen></iframe>
 
 I think that this marriage of Android and NXT can fuel a very interesting

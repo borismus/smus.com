@@ -17,7 +17,7 @@ implemented a basic Ray-based interaction library called [RayInput][gh], which
 provides reasonable defaults for interacting with 3D objects in and outside of
 VR. Here's what the interaction looks like on various platforms:
 
-<iframe width="600" height="340" src="https://www.youtube.com/embed/gjj2XQYC998" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="340" src="//www.youtube.com/embed/gjj2XQYC998" frameborder="0" allowfullscreen></iframe>
 
 [eweb]: https://github.com/extensibleweb/manifesto
 

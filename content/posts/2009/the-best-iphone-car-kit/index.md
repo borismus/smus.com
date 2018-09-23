@@ -22,7 +22,7 @@ year now with no problems. Here's how it looks in the interior of my
 car:
 
 <iframe title="YouTube video player" width="600" height="368"
-  src="http://www.youtube.com/embed/Yg3VrsDXIpI" frameborder="0"
+  src="//www.youtube.com/embed/Yg3VrsDXIpI" frameborder="0"
   allowfullscreen></iframe>
 
 In a word: awesome.

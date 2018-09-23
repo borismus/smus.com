@@ -106,7 +106,7 @@ removals from Cardboard, which can also look like calibration events.
 
 ## Magnetic input for VR
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="//www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
 
 <img src="mechanism.png" class="floatright" title="Interaction mechanism"/>
 

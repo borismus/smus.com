@@ -26,7 +26,7 @@ possible, maximizing opportunities to build intuition. I learned a lot in the
 process. Read on for a introduction, jump ahead to the [Filter Playground][fp],
 or check out this video:
 
-<iframe width="600" height="338" src="https://www.youtube.com/embed/6OIOTpQYsts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="338" src="//www.youtube.com/embed/6OIOTpQYsts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 [book]: http://chimera.labs.oreilly.com/books/1234000001552/
 [hmh]: https://www.amazon.com/Human-Machine-Hearing-Extracting-Meaning/dp/1107007534

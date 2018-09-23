@@ -13,7 +13,7 @@ simple: someone plays or sings an arbitrary monophonic melody, and the
 robot, parked on a piano bench, will play it back.
 
 <iframe class="youtube-16x9" title="YouTube video player"
-  src="http://www.youtube.com/embed/Bo0eCSkjy-0" frameborder="0"
+  src="//www.youtube.com/embed/Bo0eCSkjy-0" frameborder="0"
   allowfullscreen></iframe>
 
 The physical construction of the robot is very simple: it consists of a car

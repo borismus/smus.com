@@ -23,7 +23,7 @@ is armed, the servo activates and shoots the gun as soon as the door is
 opened.
 
 <iframe title="YouTube video player" width="600" height="480"
-  src="http://www.youtube.com/embed/-XkLRZ2OBRo" frameborder="0"
+  src="//www.youtube.com/embed/-XkLRZ2OBRo" frameborder="0"
   allowfullscreen></iframe>
 
 As you can see, I generously used rubber bands and binder clips in this
