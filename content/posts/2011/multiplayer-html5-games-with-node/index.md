@@ -39,7 +39,7 @@ game is restarted.
 The rest of this post is about some development-related details. I've had to take the game offline because it was too expensive for me to keep running on my VPS.
 However I did record a video:
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/NiPZK3g_i1M" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/NiPZK3g_i1M" frameborder="0" allowfullscreen></iframe>
 
 ## Game architecture
 

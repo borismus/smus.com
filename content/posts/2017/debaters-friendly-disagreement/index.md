@@ -130,7 +130,7 @@ To work out bugs and test out the platform, I took to Mechanical Turk. That's
 right, I paid people to have an argument in the spirit of Monty Python's
 Argument Clinic:
 
-<iframe width="600" height="337" src="https://www.youtube.com/embed/kQFKtI6gn9Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="337" src="//www.youtube.com/embed/kQFKtI6gn9Y" frameborder="0" allowfullscreen></iframe>
 
 Kidding aside, Turkers effectively became poorly paid ($0.25 per session) QA
 testers. I asked them to try out Debaters and answer a question or two.

@@ -33,7 +33,7 @@ the first caret on the x-axis. I borrowed wheels from the RCX set, but the rest
 is stock NXT. 
 
 <iframe title="YouTube video player" width="600" height="368"
-  src="http://www.youtube.com/embed/tZhqjrHSIfE" frameborder="0"
+  src="//www.youtube.com/embed/tZhqjrHSIfE" frameborder="0"
   allowfullscreen></iframe>
 
 I named the robot "Malevich 2" in honor of [Kazimir Malevich][], an avant-guard

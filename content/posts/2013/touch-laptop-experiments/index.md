@@ -30,7 +30,7 @@ these demos to work properly*.
 Because you probably don't have a touch screen laptop, I recorded a
 rough video showing some of these interactions:
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/rcE2z9tudGw" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/rcE2z9tudGw" frameborder="0" allowfullscreen></iframe>
 
 Hopefully this gives you a better sense of what I mean by responsive
 input and simultaneous touch and mouse interactions.

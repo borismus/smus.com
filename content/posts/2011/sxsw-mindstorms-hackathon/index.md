@@ -29,7 +29,7 @@ push each other out of the ring. The battles started at 11:30pm, and
 went on for about an hour.
 
 <iframe title="YouTube video player" width="600" height="480"
-  src="http://www.youtube.com/embed/-oELrCuDrrE" frameborder="0"
+  src="//www.youtube.com/embed/-oELrCuDrrE" frameborder="0"
   allowfullscreen></iframe>
 
 We had a great turnout of spectators and builders on the third floor of
@@ -39,7 +39,7 @@ the amount of party hopping that usually ensues during SXSW. Here's the
 final round (Tiger Blood vs. Beam Me Up):
 
 <iframe title="YouTube video player" width="600" height="480"
-  src="http://www.youtube.com/embed/3EJD6M0zDbw" frameborder="0"
+  src="//www.youtube.com/embed/3EJD6M0zDbw" frameborder="0"
   allowfullscreen></iframe>
 
 At the end of the day, we made hundreds of geeks happy, and donated

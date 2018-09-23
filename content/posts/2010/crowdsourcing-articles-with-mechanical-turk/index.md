@@ -27,7 +27,7 @@ turker-created articles on a given topic for under ten dollars. Here's a
 video of turkers collaborating on an article about Halloween:
 
 <iframe title="YouTube video player" width="600" height="480"
-  src="http://www.youtube.com/embed/AmUq_Uovqek" frameborder="0"
+  src="//www.youtube.com/embed/AmUq_Uovqek" frameborder="0"
   allowfullscreen></iframe>
 
 We started out by creating an etherpad instance with a simple paragraph
@@ -40,7 +40,7 @@ generally gave out the maximum bonus to every active collaborator.
 Here's the evolution of an article on Windows 7: 
 
 <iframe title="YouTube video player" width="600" height="480"
-  src="http://www.youtube.com/embed/C7pV9fXIo0M" frameborder="0"
+  src="//www.youtube.com/embed/C7pV9fXIo0M" frameborder="0"
   allowfullscreen></iframe>
 
 Watching the etherpad explode in color as multiple turkers

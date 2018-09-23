@@ -33,7 +33,7 @@ Collabode, Real-time).
 * Compares different strategies of merging input from different users.
 * Reminded me of my [twitter mindstorms project][mindstorms].
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/P_Tqn-3BF_I" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/P_Tqn-3BF_I" frameborder="0" allowfullscreen></iframe>
 ### Crowds in two seconds
 
 * Great research from MIT crowdsourcing folks (Michael Bernstein, Rob Miller)
@@ -41,7 +41,7 @@ Collabode, Real-time).
 * Rapid refinement: crowd algorithm to narrow search space to accelerate.
 * Cool application: take movies, crowdsource the best moment.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9IICXFUP6MM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/9IICXFUP6MM" frameborder="0" allowfullscreen></iframe>
 
 ### The Jabberwocky programming environment
 
@@ -71,7 +71,7 @@ Interesting work in mobile virtual and projected UI spaces.
 * Since orientation in-pocket is unclear, there's an orientation setting gesture (not sold on this)
 * Unfortunately typical front pocket jeans work rather poorly.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/fHSDpE0kTag" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/fHSDpE0kTag" frameborder="0" allowfullscreen></iframe>
 
 ### Multi-user Interaction with Handheld Projectors
 
@@ -90,7 +90,7 @@ To get a better sense of the project, take a look at [this video][projector].
 * Maps iPhone controls to the palm of your hand similar to [Guidonian hand][hand]
 * Touchscreen progression: fingers replaced styli. Next step: palm replaces phone (bit of a stretch)
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/aCARtauIS50" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/aCARtauIS50" frameborder="0" allowfullscreen></iframe>
 
 ### OmniTouch
 
@@ -98,7 +98,7 @@ To get a better sense of the project, take a look at [this video][projector].
 * Works for all sorts of surfaces. Heavy math for tracking and projecting.
 * Tracks "hover" (haven't seen this notion before) and "touch" states.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Pz17lbjOFn8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/Pz17lbjOFn8" frameborder="0" allowfullscreen></iframe>
 
 # Music
 
@@ -116,7 +116,7 @@ finger for pointing. The other neat application here was to support
 compositional remixing by literally cutting up sheet music and splicing it back
 together.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/fGOk16Cnq7c" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/fGOk16Cnq7c" frameborder="0" allowfullscreen></iframe>
 
 This was my first UIST, and though I'm unlikely to have new research to submit
 for UIST 2012, I'm seriously considering going anyway, just to stay on top of
