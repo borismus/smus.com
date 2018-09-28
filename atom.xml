@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-21T09:10:45-00:00</updated>
+  <updated>2018-09-27T22:24:48-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -1367,7 +1367,7 @@ possible, maximizing opportunities to build intuition. I learned a lot in the
 process. Read on for a introduction, jump ahead to the <a href="https://borismus.github.io/filter-playground/">Filter Playground</a>,
 or check out this video:</p>
 
-<iframe width="600" height="338" src="https://www.youtube.com/embed/6OIOTpQYsts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="338" src="//www.youtube.com/embed/6OIOTpQYsts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <!--more-->
 
@@ -2284,7 +2284,7 @@ context, the amount of personal harm a troll can inflict is limited too.</p>
 right, I paid people to have an argument in the spirit of Monty Python's
 Argument Clinic:</p>
 
-<iframe width="600" height="337" src="https://www.youtube.com/embed/kQFKtI6gn9Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="337" src="//www.youtube.com/embed/kQFKtI6gn9Y" frameborder="0" allowfullscreen></iframe>
 
 <p>Kidding aside, Turkers effectively became poorly paid ($0.25 per session) QA
 testers. I asked them to try out Debaters and answer a question or two.
@@ -3453,7 +3453,7 @@ implemented a basic Ray-based interaction library called <a href="https://github
 provides reasonable defaults for interacting with 3D objects in and outside of
 VR. Here's what the interaction looks like on various platforms:</p>
 
-<iframe width="600" height="340" src="https://www.youtube.com/embed/gjj2XQYC998" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="340" src="//www.youtube.com/embed/gjj2XQYC998" frameborder="0" allowfullscreen></iframe>
 
 <!--more-->
 
@@ -3541,7 +3541,7 @@ Also, you can shrink and grow, which, in addition to changing your avatar's
 size, pitch shifts your voice. Large avatars have deep, god-like voices, while
 smaller ones start to sound very mousey!</p>
 
-<iframe width="560" height="395" src="https://www.youtube.com/embed/FPJDNQJt2DQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="395" src="//www.youtube.com/embed/FPJDNQJt2DQ" frameborder="0" allowfullscreen></iframe>
 
 <p>Check out the <a href="https://borismus.github.io/copresence-vr/">demo for yourself</a>. It works on desktop (mouse look and
 spacebar triggers movement), on mobile (magic window) and in VR (through the
@@ -5214,7 +5214,7 @@ removals from Cardboard, which can also look like calibration events.</p>
 
 <h2>Magnetic input for VR</h2>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="//www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
 
 <p><img src="/magnetic-input-mobile-vr/mechanism.png" class="floatright" title="Interaction mechanism"/></p>
 
@@ -5743,7 +5743,7 @@ a phone thrown vertically as high as possible. I've had some experience
 using and abusing sensors too, most recently for the <a href="http://smus.com/talk/2014/io14/">Cardboard magnet
 button</a>.</p>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/l5775qwORk4" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/l5775qwORk4" frameborder="0" allowfullscreen></iframe>
 
 <p>However, over the last couple of years, I've had to step away from the
 web as a development platform, in part because of the poor state of

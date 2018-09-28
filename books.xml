@@ -5,8 +5,69 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-09-21T09:10:45-00:00</updated>
+  <updated>2018-09-27T22:24:48-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Three Body Problem by Liu Cixin (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/three-body-problem-by-liu-cixin-audio"/>
+    
+    <updated>2018-09-27T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/three-body-problem-by-liu-cixin-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Everyone’s reading it, so I finally got around to it too. I guess this is a
+science fiction mystery book, and I enjoyed it overall. I was a bit disappointed
+when the whole mystery was revealed though, maybe this is the nature of mystery
+books?</p>
+
+<p>The part about the Cultural Revolution in the beginning was super interesting
+and well written, including great metaphors which were somehow preserved (or
+maybe introduced) by the translator. I also liked the way in which the Communist
+theme permeated throughout the book, especially in how the message broadcast
+from Red Coast evolved from one loaded with propaganda and political fervor to a
+much more neutral and nuanced one. Incidentally, I wonder how this book made it
+past the Chinese censors.</p>
+
+<p>Throughout the mysterious first part, I got a kick trying to figure out what was
+going on, and was really captured by the story. But I was disappointed by the
+big reveal. I found the hard sci-fi quantum and multi-dimensional explanation to
+be a bunch of mumbo jumbo, maybe due lack of physics expertise? Also, the AI
+protons sent by the Trisolarans just felt like a lazy explanation for the weird
+phenomenon plaguing Wong and other scientists earlier in the book. That said,
+blocking another civilization’s development is an interesting angle I haven’t
+thought/read/heard about before.</p>
+
+<p>I enjoyed the development of some of the characters, especially Ye Wenjie and
+Big Shi. She was a compelling hero and a complex character. Her early life was
+well written, and again the slow revelation of the mysterious aspects of her
+backstory was compelling to me. I think it also helped that my audio book's
+reader did a good job modulating voices and </p>
+
+<p>I really liked that I had to check some of the references made in the book to
+see if they were fictional or not. Turns out Silent Spring and Rachel Carson are
+real, but Bill Mather’s “contact as symbol” theory corporation is made up. This
+was a nice device to keep me on my feet, and blend fiction with reality.</p>
+
+<p>There is a dark, unstated backdrop to the whole book. Ye wants to find a new
+civilization to right the wrongs of humanity, but after contact, rather than
+some profound shift in the worldview of our intelligent species, concerns just
+go up to a meta level. Both Sapiens and Trisolarans are back to the same
+inter-species competitive grind.</p>
+
+<p>This book made me want to read Silent Spring, and get more informed about the
+Chinese Communist Party and Chinese history in general. I found the end to be
+both a humbling and hopeful. We may be bugs, but we are proud of it!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Book of Why by Judea Pearl</title>
@@ -3142,7 +3203,7 @@ similarly researched argument from the other side to see where I land.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-21T09:00:00-00:00</updated>
+    <updated>2017-06-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -3458,7 +3519,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -3501,7 +3562,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -3696,7 +3757,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-21T09:00:00-00:00</updated>
+    <updated>2017-05-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -3761,7 +3822,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-21T09:00:00-00:00</updated>
+    <updated>2017-04-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -3855,7 +3916,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-21T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -3905,7 +3966,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-21T09:00:00-00:00</updated>
+    <updated>2017-03-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -3942,7 +4003,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-21T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -4010,7 +4071,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-21T09:00:00-00:00</updated>
+    <updated>2017-02-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -4038,7 +4099,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -4099,7 +4160,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -4134,7 +4195,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-21T09:00:00-00:00</updated>
+    <updated>2017-01-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -4201,7 +4262,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-21T09:00:00-00:00</updated>
+    <updated>2016-12-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -4292,7 +4353,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-21T09:00:00-00:00</updated>
+    <updated>2016-11-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -4338,7 +4399,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/future-babble"/>
     
-    <updated>2016-10-21T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/future-babble</id>
     <content type="html">
@@ -4402,7 +4463,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-21T09:00:00-00:00</updated>
+    <updated>2016-10-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -4436,7 +4497,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-21T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -4498,7 +4559,7 @@ in less turbulent circumstances. And more Tolstoy!</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/sapiens-audio"/>
     
-    <updated>2016-09-21T09:00:00-00:00</updated>
+    <updated>2016-09-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/sapiens-audio</id>
     <content type="html">
@@ -4584,7 +4645,7 @@ open to new insights.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
     
-    <updated>2016-08-21T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
     <content type="html">
@@ -4879,7 +4940,7 @@ opinion when confronted by clear evidence against it.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/exploring-the-world-of-lucid-dreaming"/>
     
-    <updated>2016-08-21T09:00:00-00:00</updated>
+    <updated>2016-08-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/exploring-the-world-of-lucid-dreaming</id>
     <content type="html">
@@ -4915,7 +4976,7 @@ keep on my bedside table.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-persuaders-audio"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-persuaders-audio</id>
     <content type="html">
@@ -4988,7 +5049,7 @@ the other POV is effective.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-righteous-mind-by-jon-haidt"/>
     
-    <updated>2016-07-21T09:00:00-00:00</updated>
+    <updated>2016-07-27T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-righteous-mind-by-jon-haidt</id>
     <content type="html">
@@ -5134,52 +5195,6 @@ low intellect, sheepishness, or fascist tendencies with right leaning populists,
 Haidt offers a useful framework for understanding the conservative world view.
 This book is a must read for any political observer with any hope for
 understanding.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Must Mankind Repeat History's Great Mistakes</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/must-mankind-repeat-historys-great-mistakes"/>
-    
-    <updated>2016-07-21T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/must-mankind-repeat-historys-great-mistakes</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Nice insight and guiding theme: international politics is complicated because
-there isn't really an organization that stands above all nations. Unlike other
-human endeavors, if a rogue entity misbehaves, there isn't really anyone to go
-to by default. Each country has its own skin to worry about, and they need to
-figure out the best strategy.</p>
-
-<p>I liked the concept of the balance of power, presented in 3 versions by the
-lecturer:</p>
-
-<ol>
-<li>Simply the distribution of existing power.</li>
-<li>The state in which all parties in question have equal power</li>
-<li>A tendency for new power entering a conflict to join the weak side in order
-to avoid a monopoly of power.</li>
-</ol>
-
-<p>After one or two theoretical lectures, the course ventured into territory of
-WW1, the interwar years, and WW2. I found this part to be somewhat less engaging
-since most of the historical details were review for me, and little of the
-theory introduced at the beginning was brought into the fold. The last lecture
-was more interesting, since it tried to apply the theory introduced at the
-beginning to predict the future. What made it even more interesting is the fact
-that the lecture was recorded in the early 90s.</p>
-
-<p>The lecturer wasn't very engaging, and I found myself listening to a lot of the
-lectures without getting much out of them. Additionally, the volume was low and
-the recording was poor quality, which contributed to my meta objections.</p>
 
 
         
