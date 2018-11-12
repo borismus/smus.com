@@ -4,6 +4,879 @@ class: split
 type: book
 
 
+Bird by Bird by Anne Lamott
+===
+posted: November 3, 2018
+rating: no
+
+I've forgotten how this book appeared on my radar, but I think it was on
+someone's list of most influential books ever. I am more ambivalent.
+
+The book's subtitle is "Some Instructions on Writing and Life", and honestly I
+was hoping for more of the latter. Unfortunately it was more of the former,
+specifically how to write fiction, which is interesting in theory, but is not
+something that is very high on my current list of things I would like to spend
+my time doing.
+
+In general, the author has some good tips for the fledgeling writer. These are
+pretty intuitive, but do serve as good reminders:
+
+- Start with "shitty first drafts", revise later.
+- Write in small chunks as inspiration comes, as if looking through a tiny
+  picture frame.
+- Be wasteful with paper: don't worry about throwing out large chunks of what
+  you write.
+- Carry a notebook or index cards everywhere you go for when inspiration
+  strikes!
+
+More strategic and insightful:
+
+- Observe the world and people for who they really are. Cultivate a sense of
+  "compassionate detachment" towards your characters.
+- Treat characters as if they have a mind of their own: “you probably won’t know
+  your characters until weeks or months after you’ve started working with them.
+  [...] Stay open to them. [...] Listen.”
+
+The book evoked a range of reactions in me. In the spirit of an open faced
+compliment sandwich, I will start with the bad. A lot of Lamott's tips are
+overly prescriptive, like that there is no need for hopeless novels, and no room
+for an unreliable or unlikable narrator. I wonder how she and Dostoyevsky would
+get along...
+
+The author's tone is very California trustifarian. Attempts at black humor
+are therefore diluted into a somewhat weaker grey humor. I think it makes the
+book more accessible to a wider audience, but cheapened it in my eyes. In a
+related vein, Lamott's progressive leftiness really shines through. There's this
+hand wringing about western society being so broken and terrible. In a sense,
+this is reassuring. The "we're in the dark ages and the president is Stalin"
+sentiment is not a 2016 phenomenon, but had already emerged in 1994 when the
+book was written.
+
+On the flip side, I must say that a good chunk of the book put a smile on my
+face. That chapter on Calling Around was really vivid and funny and
+heartwarming. And she does produce some great visual metaphors, like these:
+
+- “Lighthouses don’t go running all over an island looking for boats to save;
+  they just stand there shining.”
+- Sometimes it feels... "as if writing a novel is like trying to level Mount
+  McKinley with a dentist's drill."
+
+Also, I liked her stoic tendency.
+
+> "My deepest belief is that to live as if we're dying can set us free. Dying
+people teach you to pay attention and to forgive and to not sweat the small
+things."
+
+> "I heard a tape once in which an actor talked about finding God in the modern
+world and how, left to our own decides, we seek instead all the worldly things
+-- possessions, money, looks, and power -- because we think they will bring us
+fulfillment. But this turns out to be a joke because they are just props, and
+when we check out of this life, we have to give them all back to the great
+propmaster in the sky. "They're just on loan," he said,"they're not ours."
+
+
+The Fall and Rise of China (audio)
+===
+posted: October 31, 2018
+rating: yes
+
+Inspired by the Three Body Problem's best part, that is, the beginning of the
+book set in Cultural Revolution China, I realized that I know nothing about
+Chinese history. Perhaps, I thought, something like this might help? It's about
+24 hours worth of material, and I took detailed notes in an attempt to retain it
+better. The lectures are excellent, and I highly recommend listening. One
+complaint was that I felt like the lecture lost a bit of steam and became
+increasingly speculative as we approached the present day, but perhaps this is
+inherent in any attempt to subject the recent past to a historical treatment.
+
+## Before Communism
+
+Before the mid 19th century, China was largely isolated from the west. Chinese
+society was modelled on Confucian ideals. The highest officials were selected
+based on their ability to memorize profound lines from great teachings of
+Confucius and his disciples. The entrance exam was known as the 8 legged essay
+and super arcane. China called itself the Middle Kingdom, and was surrounded by
+weaker states that paid it tribute. China had no equals, and submitted to
+nobody.
+
+The Manchu dynasty began its decline in the early 19th century, as a result of
+population explosion, bad harvests, an opioid epidemic, and a trade deficit with
+the west. Its exports of porcelain started to pale compared to cheap European
+textiles flooding its market. (This is in some ways, an interesting reversal
+from today's situation.)
+
+China tried to curtail opium imports, and this led to the two Opium Wars with
+Britain, who refused to stop the trade. China was badly outgunned by the west,
+and stood no chance militarily. The Manchu dynasty continued to decline and made
+successions to Britain, giving it a "small island" (Hong Kong) as part of the
+military tribute. It wasn’t until the late 19th century that China had decided
+to institute a foreign affairs department. Before that they only had a minister
+of barbarians, whose occupants had notoriously short lived careers, lasting no
+more than a year before being removed and punished for ineptitude.
+
+In the late 19th century, China tried to modernize itself by sending its best
+and brightest to study abroad in the west. The emphasis was on acquiring
+military technology alone, while keeping Chinese traditions alive. This proved
+futile, the lecturer suggesting that technology is a symptom of deeper
+structures of European civilization like their government, economy, humanism,
+and legal systems. This tension between European tech and Chinese tradition was
+never fully resolved, and many powerful Chinese elite were opposed to anything
+from the west (Mathematics? Ha!) despite their clear instrumental benefit. This
+is in stark contrast with Japan that seemed to be able to reconcile its
+traditions with modern technology.
+
+The boxer rebellion in 1899 was a reactionary move against a loss of tradition
+in China and increasing European influence. They were sponsored by the
+xenophobic [Empress Cixi][cixi] who took power in a coup. The boxers targeted a
+German controlled area in China threatened 4000 europeans stationed there. In
+retaliation a joint force of Japanese Russians and Europeans quashed the boxers
+and killed many thousands, and led to nasty anti Chinese sentiment from the
+German kaiser. Reparations were also imposed by the western victors. And China
+returned to a conservative status quo.
+
+## Seeds of revolution (Sun Yat-sen)
+
+[Sun Yat-sen][sys] was the first to integrate the need for Chinese self
+determination without western intervention and the overthrow of the Manchu
+dynasty. He came up with a three pronged platform: nationalism, democracy and
+people's livelihood (land to the tiller). Later this became official policy of
+Republic of China (Taiwan) and still remain credo of Nationalist party in
+Taiwan. His reputation skyrocketed after a failed Chinese assassination attempt
+in Europe. Gained many followers in the Chinese diaspora in America, France and
+the rest of Europe. He organized multiple revolutionary uprisings in south
+China. This encouraged over 200 peasant uprisings against the Manchu.
+
+By 1910, Sun Yat-sen's relative was inaugurated as prime minister of the republic
+(Kuomintang/KMT aka Guómíndǎng/GMD). He shared power with Yuan Shikai, a
+conservative monarchist who declared himself Emperor. Yuan decided to
+assassinate the PM and bribed the rest of the GMD to quit. Sun Yat-sen was
+exiled to Japan, where he married again (interestingly, without divorcing his
+existing wife). Meanwhile Yuan Sha Kai attempted to return China to 
+traditional, Confucian values. He extended presidential terms to 10 years and
+allowed him to name successors.
+
+By WW1, the European powers were distracted by the war in Europe and
+Japan decided to take advantage of the situation. Japan demanded extremely
+unfavorable terms (21 demands) of China and Yuan Shikai had no ability to oppose
+it. These demands were leaked to the public and a patriotic backlash ensued.
+This eventually lead to Multiple Chinese provinces declaring secession. The
+leader himself died unexpectedly, suspected poisoning. This led to a power
+vacuum and an age of warlords ruling different parts of China. (The Good Earth
+is a famous book about this period.)
+
+After WW1 ended, European powers sided with Japan as thanks for its involvement
+in the war against Germany. As a reward, parts of China were doled out to Japan.
+This led to student and intellectual protests and ultimately sparked a golden
+age in Chinese literature: colloquial and far more accessible books led to
+increased literacy and spread of ideas. This included the works of Marx Engel
+and Lenin.
+
+## Early Chinese Communism and Mao vs. Chiang
+
+Communist reading groups started to show up, which is how [Mao Zedong][mao]
+arrived to the scene. The Soviet Cominterm wanted to influence China and found
+Sun Yat-sen willing to embrace their ideology and abandon his western facing
+position (wow). In return he received soviet training and a bunch of
+radicalized followers. [Chiang Kai-shek][cks] emerged from one of these
+training camps as Sun Yat-sen's lieutenant. Sun died from liver cancer but the
+party survived, with the right wing taking power.
+
+Chiang Kai-shek successfully united multiple Chinese contingents from the
+communist party under a right wing platform and successfully took care of the
+warlord problem with the help of the Soviets. Soon a left wing faction emerged
+to oppose CKS's autocratic tendencies. CKS made pacts with European and mafia
+leaders and ultimately abandoned communism as a key tenet of their platform,
+thus departeing from Sun Yat-sen's anti imperialism. Chiang's forces conquered
+Shanghai with their allies but the Communist left was not happy. This also
+alienated the Soviet cominterm.
+
+Meanwhile Mao and other communist leftists that splintered from CKS took control
+of rural parts of China. Left wing communist rebellions known as Autumn Harvest
+Uprisings were quashed by CKS nationalists. Mao wrote an essay that promoted
+communism not through workers revolution but through an agrarian revolution.
+This was frowned upon by the Soviets who expected industry to lead. Mao
+established rules for Chinese Red Army soldiers that made them blend in with
+villagers and farmers. By late 1928 Mao's forces were being forced to retreat
+further but his political platform was maturing.
+
+In the 1920s, Japan reformed, implemented western policies and retracted it's 21
+demands. Still it's military thrived and Japan remained a threat to China, with
+significant resource interests in Manchuria. The longer they waited the more
+time CKS had to consolidate power and resist more effectively, and by 1931 Japan
+controlled all of Manchuria in the NE and placed the son of Cixi as ruler of
+that region.
+
+Meanwhile in the south west, Maoists were another threat for Chiang Kai-shek.
+Not willing to fight on two fronts, he decided to tackle the communists first,
+letting Japan continue its expansions. Eventually Maoists were cornered
+and had to retreat, starting the [Long March][lm], a retreat over 5,000 mi,
+ending up in Yenan. In 1936 CKS wanted to pursue the Maoists again but the
+general assigned to the task was a communist sympathizer and refused to comply,
+since he wanted revenge on Japan. CKS confronted him near Yenan but was
+kidnapped and coerced into alying with the communists to form a united front
+against Japan, just in time for WW2.
+
+(Interestingly the Chinese Communist Party came into its own as a result of the
+Japanese invasion in WW2. This is somewhat analogous to the Soviet Communist
+come to power after WW1.)
+
+(Also interesting is that Stalin was forced to stop helping the Chinese and
+withdraw because of the non-aggression pact with Hitler, and thus Japan.)
+
+CKS was still busy chasing communists when Japan attacked, starting WW2. First
+Japanese forces took Shanghai at huge GMD losses. Next was the massacre of
+Nanjing which came at a huge civilian cost. Japanese commands pursued a scorched
+earth policy against the civilians. This led to a deep popular resentment
+against Japan. As the Chinese continue to struggle, Japan attacked Pearl Harbor
+and forced US neutrality to end. Still the nationalists suffered huge losses at
+the hands of the Japanese, their attention also divided by internal strife
+against Maoists. Ultimately the CCP gained territory and influence while CKS
+flirted with the US.
+
+After Japan's defeat in 1945, America had hoped for a united Chinese government
+and so tried to get Mao and Chiang and now to form a coalition. Diplomacy failed
+out and instead they clashed in Manchuria. Just as Chiang Kai-shek planned to
+take over Yenan again for the third time, Mao Zedong's PLA was amassing guerilla
+forces to confront the nationalists in Manchuria, who were busy pushing back the
+defeated Japanese and salvaging scrap metal from their former bases. Gaining
+victory against ill prepared former warlords in the nationalist army, the PLA
+proceeded to take Manchuria and marched west to capture Beijing, cross the
+Yanzhee with the help of local ferrymen, and on to Shanghai. By 1949, Mao had
+won, and Chiang fled to Taiwan. (I need a map of maos advance here, but the
+article on the [Chinese Civil War][civil] probably covers most of the material
+in more detail.)
+
+## Mao's China
+
+The Chinese Communists made it very clear that they would side with Soviets not
+the west, having been burned over the last decade by western influence. Mao has
+a great quote about how there is only the two options and no middle ground.
+(I failed to find it.) Meanwhile the policy of the CCP was to forgive those that
+admitted to their mistakes but brutally punish those who did not. What followed
+was a purge of nationalist and other non-believers characteristic of most
+revolutions. Intellectuals were forced to go through an official process of
+Thought Reform which included written confession. This may have been revised
+multiple times until deemed sufficiently ernest.
+
+When Mao visited Stalin in Moscow, Stalin showed his disdain for Mao and lack of
+faith in Mao's ability to succeed. Stalin took a week to meet with him in
+person. He gave Mao some loans earmarked for Russian military equipment, but
+relatively small amounts compared to what he gave Eastern European allies. In
+addition, the loans had to be repaid with 1% yearly interest. Stalin set up
+joint stock companies in North China giving Russia partial control in industry.
+
+In 1950 Joseph Stalin's and Chairman Mao's friendship was tested. The Korea’s
+were at war. Initially Stalin backed Chairman Kim's North Korea against South
+Korea. But when Truman decided to back South Korea he withdrew, seeking to avoid
+direct confrontation. Eventually Mao assembled a volunteer army and pushed the
+American troops back into South Korea. This back-and-forth lasted three years
+and a total of 1 million Chinese died.
+
+Domestically since 1950 China was destined to follow the Soviets, Also adopting
+five-year plans, and forcing its peasantry into collective farming.
+Collectivization basically failed due to the free rider problem, across the
+board in all Soviet bloc countries. China was no exception. Mao also acquired
+all private enterprises making them state owned. These reforms were celebrated
+by senior communists at the 8th CCP congress in 1959, but Mao wasn't satisfied.
+
+By then, Mao had been consolidating power in the party. He was now a larger
+than life hero. At the same time, Khruschev dismantled Stalin's cult of
+personality, and opened the Soviets up to the Chinese. The Soviets helped China open
+aircraft factories and even shared plans for a nuclear weapon. Initially
+friendly with Khruschev, relations went south when Mao was unsatisfied with
+Khruschev's "revisionist" tendencies, especially enraged when Khrustchev
+suggested that it was possible to achieve socialism through parliamentary means,
+directly contradicting Lenin.
+
+### Let one thousand flowers bloom (jk)
+
+To try to address shortcomings in the Chinese communist system, Mao decided to
+"let one thousand flowers bloom". What this meant was that intellectuals we are
+now free to express themselves however they wanted. Mao quickly changed his mind when
+increasingly hostile letters started to be published against the Communist
+system in China and against them chairman himself. In response, he began
+systematic purges for dissenting intellectuals. It remains unclear whether this
+was deliberate provocation. As a result, Mao revised his initial invitation to
+intellectuals: your art writing and work in general should serve the
+proletariat. Mao wanted to distinguish good thinking "flowers" from bad thinking
+sabotage he called "weeds".
+
+### Great Leap Forward (jk)
+
+To accelerate the advent of communism in 1959 Mao instituted the "Great Leap
+Forward", which included many different reforms, Most of which had no experts
+overseeing them. By 1962 it was clear that most had failed spectacularly, and
+with tragic consequences:
+
+- To out compete great Britain in steel production, peasants built backyard
+  furnaces to melt down their metal. "Металлолом". The resulting iron and was of
+  low-quality and so useless.
+- A war against nature was declared. Large water management projects were
+  attempted but many ultimately failed. [One dam][banqiao] that was constructed
+  in this period, collapsed during rainy season and 200,000 people died (!).
+- Misguided attempts to control pests were instituted. Millions of Sparrows were
+  killed by peasants. But this led to an overpopulation of mosquitoes and other
+  harmful bugs.
+- New policies forced farms to collectivize much quicker than initially planned
+  and into much larger collectives of 20000 each. The larger the collective the
+  less incentive for each individual to work. Production dropped but ideological
+  fervor skyrocketed. Mid-level managers reported record food growth and
+  increased quotas, as well as grain exports to the Soviets. 30 million farmers
+  died in the famine that ensued.
+
+Meanwhile Mao himself was oblivious to any problem. He was getting busy with
+young peasant girls during his village visits. But his party took note of the
+problems. One party member, Peng Dehuai, was purged for his direct disagreement
+with Mao's Great Leap Forward. Two senior party members, [Liu Shaoqi][liu] and
+[Deng Xiaoping][deng] took the reigns for a time and took to a more calculated
+strategy, quietly undoing the Great Leap Forward. Needless to say Mao was not
+happy and began labeling everyone opposing him "mini-Khruschevs" and
+revisionists.
+
+
+### Cultural Revolution
+
+(Find the subversive painting with three red flags and silhouettes of Mao and
+Stalin in the background. Also more about the three family village writing
+group.)
+
+Mao now had to deal with more backlash against his policies during the Great
+Leap Forward. He retreated to his villa in Guangzhou and set his propagandists
+to work. Impressionable students prone to extreme thought were an easy target.
+Mao's new sycophantic defense mister compiled a book of Mao quotes. Known as the
+famous Little Red Book, it became the basis for a new socialist education
+program. Leftist ideologues spurred on students calling themselves Red Guards,
+wearing green military uniforms, armed with the Little Red Book to commit
+violence against dissenting professors and fellow students in the name of
+ideological purity and conformity with Mao’s thought. Liu and Deng issued
+bureaucratic investigations into the worst offenders, but when Mao returned,
+he allowed the students to rebel against those "in power" whenever they wanted
+as long as they were aligned with his ideology. This cart Blanche also
+prevented the army from intervening in any way, to such an extent that brazen
+students raided PLA warehouses and pilfered weapons. Student groups competed
+with one another for purity, with those descended from intellectuals trying to
+prove that they too can be good ideologues despite their “low” birth. Now armed
+with modern weapons, they clashed violently with other factions. Mao fanned the
+flames by closing down schools and universities for months, meeting with heads
+of Red Guard factions, and becoming an honorary member. This student led fervor
+began expanding into the general population, and soon the workplace was
+similarly violent, unproductive, dysfunctional.
+
+(The far left's tendency to fight and demonize and generalize against those in
+positions of power is unchanged.)
+
+[Jiang Qing][jiang] was Mao’s fourth wife and also known as Madame Mao. She was
+formerly a B movie actress, but now had political ambitions of her own. One of
+the terms of their marriage was that she could not hold political office.
+Instead, she began a concerted effort to heavily censor all media behind the
+scenes. Everything was banned by default. The only content available to the
+Chinese people had to be in service of the leftist communist ideal. Only 8
+operas were allowed to run, all new and revolutionary. Women were forbidden to
+wear jewelry, a strict plain-military dress code was effectively forced on all.
+Madame Mao herself resided in her villa, banned works hanging on her walls,
+decorated in jewlery, enjoying luxuries from the west.
+
+As violence of the Cultural Revolution escalated, even the Chairman himself could
+not curtail it through his direct pleas. Finally, he lifted the army’s ban on
+intervention and the PLA quickly and violently quashed the student rebels. To
+solve the student problem, Mao invented the [Countryside Movement][countryside] which
+conveniently involved shipping 17 million students to learn the way of the
+village as an antidote to bourgeoisie thought. Tho rusticated and "educated"
+students became known as the Lost Generation since they never received a modern
+education and were unable to move back to cities until much later.
+
+### Soviet Union and US relations
+
+In 1969, tensions between China and the Soviet Union were peaking. China had
+recently demonstrated her nuclear capabilities in a small scale test. Meanwhile,
+Brezhnev had outlined a new, more aggressive Soviet foreign policy, the Brezhnev
+doctrine, which stated that the when a socialist country becomes more
+capitalistic, other socialist countries should intervene. This happened in
+Czechoslovakia, which set a dangerous precedent for Soviet intervention in
+China. In addition to the two countries were vying for leadership of the eastern
+bloc. China was completely outclassed in this regard having had several orders
+of magnitude less money to spend on the cause.
+
+Nervous about China's access to nuclear weapons, the Soviets were amassing
+troops along the Sino-Soviet border. Meanwhile Mao decided to take advantage of
+the opportunity and began playing off the Soviets against the Americans. Nixon
+and Kissinger were interested in having disunity among the Communist bloc, so
+allying with China, the weaker of the two potential leaders made sense as a way
+to counteract Soviet power and aggression. To kick off detente, the American
+national ping-pong team visited China. Although they were crushed by the
+Chinese, the players built up a friendly rapport. This was publicized on TV,
+which led to a warming of relations. Ultimately the culmination of this phase
+was Nixon’s own visit to China. This was not without tension on both sides. Some
+hard-core leftists are opposed to Mao's sudden change of heart. In America many
+were still loyal to Taiwan and Chiang Kai-shek as the only China that’s valid
+and were opposed to warming relations with any communist country. Interestingly,
+China only joined the UN and became a member of the security council in 1971.
+Previously the only China in the UN was Taiwan.
+
+US China relations got stuck for a while and actually were set back by Nixon’s
+Watergate scandal. His successor President Ford was largely ineffectual in
+general. It wasn’t until President Carter when in 1978 US China relations began
+to normalize in earnest. Many reasons why this happened, one is was the return
+of Deng Xiaoping, who was unequivocally a reformer and not bound by Mel’s shadow.
+Another was the growing hostility between the US and Soviet and a change of
+heart in there a balance of power between the two superpowers. It is now clear
+that the US sided with China as the underdog in order to weaken the Soviet bloc.
+
+### Mao's successor and the Gang of Four
+
+By 1970 Mao is getting old and frail, and the CCP needed a successor. He
+originally designated [Lee Biao][lee], a fervent leftist. But he was opposed to
+thawing relations with the American imperialists and was removed in an airplane
+"accident". Mao also had designs for Ding Xiaoping, by now a very experienced
+and proven administrator. But Madame Mao and her "Shanghai Clique" was opposed
+and undermined his rise because he was too pragmatic and not ideological enough,
+and was well known for pulling back some of the reforms during the great leap
+forward. Another candidate, the premier [Zhou Enlai][zhou] was credited with
+thawing US-China relations and received great press around the world. This
+triggered Mao's jealousy. Zhou was subjected to struggle sessions courtesy of
+Madame Mao. He died in 1976 from a cancer that Mao refused to treat with western
+medicine. Chinese citizens were prohibited from paying him regards by Madame
+Mao, but thousands did anyway, some writing angry notes comparing her to the
+Dowager Cixi. Madame Mao had the protesters removed with force, and then used
+the opportunity to blame Ding Xiaoping for the protests. She made an appointment
+to see her ailing husband, who signed off on a request to remove him from his
+political and military posts.
+
+Finally, Mao had a specific heir apparent selected in his will “with you in
+power I rest easy”, an unknown CCP member [Hua Guofeng][hua]. Madame Mao
+attempted to alter Mao's will to write herself in instead. Upon Mao's death, a
+coalition of moderate CCP members discovered this and put Madame Mao and her
+henchmen under arrest.  They were called the Gang of Four. Meanwhile Hua
+Guoattempted to ride on Mao's coattails and milk Mao's high praise for
+everything it could offer. Still, he quietly began undoing leftist trends and
+modernizing the country: 
+
+- Admissions into college were no longer political but based on
+  standardized tests. 
+- Once called revisionist by Mao, he introduced incentive-based wage systems to
+  reward performance.
+- He opened up to china's intellectuals. Called for spirited discussions.
+
+As various leftist policies were being undone, all prior ills were blamed on the
+Gang of Four. This became the scapegoat for the Chinese people as they dealt
+with the cognitive dissonance of such a quick shift in thinking.
+
+Deng Xiaoping managed to get back to power patiently and strategically. It
+helped that his predecessor was not charismatic, deferring too much to Mao. He
+was ridiculed for his unquestioning attitude: "whatever Mao said we will say and
+whatever Mao did we will do" became derisively known as the [Two
+Whatevers][whatevers]. Deng slowly took over, eventually holding high ranks
+across the party's bureaucracy, as well as the informal but influential position
+of Paramount Leader.
+
+### Deng's reforms
+
+Deng continued in the same vein as Hua, but his reforms were even more
+progressive and western facing. Suddenly the Chinese people gained a lot more
+economic freedom. Small businesses were allowed to thrive and compete with
+government entities. Special economic zones were designated. Personal rewards
+were granted to reward high performing employees, the result of which was an
+increase in productivity across-the-board.
+
+Some attempts were also made to reform the political system and institute some
+western policies. This led to an increase in dissent and opposing voices.
+Ultimately Deng decided to roll back many political changes he originally
+proposed. (I found it interesting to learn about the Paramount Leader being so
+open to clearly changing his mind, without much protestation from the public.)
+In his own words, he "crossed the river by feeling the stones", trying new
+ideas, and sticking to them only if they work.
+
+Although he departed significantly from Mao's doctrine, Deng was very
+careful to not fully blame Mao for all of the shortcomings of the previous
+decades. 
+
+
+### The late 80s
+
+By the late 80s, the success of various policies began to yield diminishing
+returns. Many of the formerly prosperous village dwellers suddenly found that
+their salaries were declining and were forced to migrate back in the cities.
+This was also a time of huge corruption within the party, and inequality
+skyrocketed. This led to student unrest and ultimately the demonstration in
+Tiananmen Square.
+
+Many reformist ideas were floating around but no new ones really got
+implemented. Deng Xiaoping was deterred from giving in to too many liberal
+demands, citing the events of Poland as an example to avoid. Poland was inching
+towards capitalism as a result of a weak government that was giving in to too
+many popular demands. And so, Deng Xiaoping walked a fine line. He wanted his
+reforms to stick but also wanted to ensure that there was order.  During Deng's
+tenure as Paramount Leader, he appointed various high level positions who were
+officially in charge, yet Deng retained higher level control throughout.  This
+also enabled him to retain a balance of power between western oriented reformers
+and Mao oriented conservatives.
+
+It was a turbulent time for international communism. East Germany fell quickly
+follower by the Soviet Union. By 1989 the conservative left was starting to
+gather steam and attempted to turn back Deng's western facing reforms. At 84,
+and fighting for his life, Deng embarked on a southern tour, visiting special
+economic zones and offering congratulations to a booming economy as well as
+warnings about a leftist threat that might undo it all. In a tense few weeks, as
+his health was ailing and the bureaucrats were vying for power, the tour wasn't
+even publicized by the state run media. Eventually Deng emerged victorious and
+the politburo officially declared that the left posed a higher threat to
+China than did the right. 
+
+Deng successfully divorced markets from capitalism, and encouraged economic
+reform while slowing political reform, in a gamble where he bet that Chinese
+people cared more about their material wealth than their political freedom. 
+
+Meanwhile during the "roaring 90s", GDP doubled, foreign investment increased
+7x, coastal cities and stock market exchanges flourished. Meanwhile the farmers
+and country dwellers suffered. Eventually the uncontrolled market blew up and
+consumer goods increased in price 15x. As many as 100 million peasants moved to
+cities. Corruption soared: party members and cadres were immune to prosecution,
+as was the army which managed to get half its revenue from market investments. A
+spiritual crisis loomed for the youth and an economic crisis for the elderly.
+This was the origin of "Free Tibet" and the Falun Gong as well. [Jiang
+Zemin][jiang] was appointed to be the General Secretary and promptly made many
+moderating changes, introducing economic regulations and also joining the WTO
+which is widely lauded as a big reason for China's Economic Miracle. Deng
+Xiaoping died in 1996, aged 92 from Parkinson's.
+
+With the economic changes came an increase in Chinese nationalism. Things seem
+to escalate with the US but the two countries were able to maintain good
+relations. In terms of greater China, Hong Kong transitioned peacefully 
+in 1997 as per the British contract dating back to the Opium wars. 
+Taiwan is a different, more complicated story. Chiang Kai-shek's son took over
+for him when he died, and continued center-right politics. More recently, a rift
+has formed between ethnic Chinese who fled the communists from the mainland and
+ethnic Taiwanese. An ethnic Taiwanese president succeeded the GMD and pushed for
+independence but the US, fearing war with Chana succeeded in reigning in his
+idealism. The issue remains unresolved.
+
+### Wrapping up
+
+Holy moly, this is quite a long summary. I sure hope that writing it helps
+me remember better...  Anyways, where was I? Ah yes, during the last few
+segments, the lecturer continues on to discuss some specific issues in modern
+China: the Internet, the Beijing Olympics of 2008. He highlights a spotty human
+rights record, as well as Chinese monetary support for a wide variety of odious
+regimes including Zimbabwe and Syria.
+
+Overall a great introduction to modern China. Check it out.
+
+
+[cixi]: #
+[sys]: #
+[mao]: #
+[cks]: #
+[civil]: #
+[jiang]: #
+[countryside]: #
+[lee]: #
+[whatevers]: #
+[jiang]: #
+
+War and Peace and War by Peter Turchin
+===
+posted: October 24, 2018
+rating: yes
+
+At its core, this book addresses the question raised by Asimov (his protagonist
+Hari Seldon, a scientist of Psychohistory from the Foundation Trilogy): Is a
+science of history possible? Can we design a theory for the collapse of mighty
+empires that would be no worse than, say, our understanding of why earthquakes
+happen? Again, here's a nice succinct summary of the book from the author (tl;dr):
+
+> The very stability and internal peace that strong empires impose contain within it
+the seeds of chaos. Stability and internal peace bring prosperity; prosperity
+causes population increase. Demographic growth leads to overpopulation;
+overpopulation causes lower wages, higher land rents, and falling per-capita
+incomes for the commoners. At first, low wages and high rents bring unparalleled
+wealth to the upper classes, but as their numbers and appetites grow, they too
+begin to suffer from falling incomes. Declining standards of life breed
+discontent and strife. The elites turn to the state for employment and
+additional income, and drive up its expenditures at the same time that the tax
+revenues decline because of the impoverished state of the population. When the
+state’s finances collapse, it loses control of the army and police. Freed from
+all restraints, strife among the upper classes escalates into civil war, and the
+discontent among the lower classes explodes into popular rebellions. The
+collapse of order brings in its wake the four horsemen of apocalypse—famine,
+war, pestilence, and death. Population declines, and wages increase, while rents
+decrease. As incomes of commoners recover, the fortunes of the upper classes hit
+the bottom. Economic distress of the elites and lack of effective government
+feed the continuing internecine wars. But civil wars thin the ranks of the
+elites. Some die in factional fighting, others succumb to feuds with neighbors,
+and many just give up on trying to maintain their noble status and quietly slip
+into the ranks of commoners. Intra-elite competition subsides, allowing order to
+be restored. Stability and internal peace bring prosperity, and another secular
+cycle begins. “So peace brings warre and warre brings peace."
+
+## Cliodynamics: science of history
+
+Turchin coins a new term for the science of history called Cliodynamics. It may
+be sciencey in spirit, but isn't really quantified, and appears to be quite far
+from even the rigor of a social science. Nonetheless, it's super interesting!
+Here are some patterns Turchin points to:
+
+- New empires and nations are born at metaethnic frontiers, where us-versus-them
+  mentality is strongest. This is in line with the worldview in Huntingdon's Clash of
+  Civilizations.
+- Successful empires grow under two conditions: 1. when their citizens have a
+  high level of asabiya (aka Social Capital) and 2. when they are good at
+  incorporating new members and treating them as equals (makes me think of the
+  continuous expansion of "white people" in the US)
+- Empires falter when asabiya goes into decline (Robert Putnam's Bowling Alone
+  is all about how it's declining in the US).
+- Social Capital isn't about morality. For example, it's not the case that
+  social power must come from democracy. It can come from tribalism or
+  elsewhere. To be successful, even an oppressor group needs to be socially
+  cohesive.
+- Asabiya can also increase as a response to new invaders, for example "Prior to
+  the conquest of the sub-Saharan Africa by western powers in the 19th
+  century, Africans had no sense of shared identity. But shared experience
+  of first colonization, then decolonization, and now the tendency of the rest
+  of the world to lump them together."
+- Civil war tends to recur during the disintegrative phase with a period of 40
+  to 60 years. Turchin calls such dynamics the fathers-and-sons cycles. The
+  survivors of the civil war and their children had direct experience of
+  conflict, so are reluctant to allow the hostilities to escalate again, but the
+  grandchildren of the civil warriors did not experience its horrors first hand.
+- Turchin presents a much more nuanced view of a cyclical view of history than
+  [The Fourth Turning][4t], "The fathers-and-sons cycles are nested within
+  secular cycles, which in turn are nested within asabiya cycles." Ultimately
+  this nesting leads to unpredictable timelines, and in general chaos theory
+  means that dynamics of real human societies cannot be accurately predicted far
+  in the future because of the nature of chaos, free will, and natural
+  disasters. "Hari Seldon was wrong."
+
+## Asabiya and inequality
+
+A big cause of the decline in asabiya is economic inequality, which tends to
+increase under normal circumstances ("Matthew principle") and largely because of
+population growth. Beyond just economics, "the degree of solidarity felt between
+the commons and aristocracy, is one of the most important characteristics
+explaining its success at empire building."
+
+Wealth inequality tends to be reduced as population density decreases, either
+through deaths or increase in territory:
+
+- Death: "Black Death had a beneficial effect on the survivors. The drop of
+  population set in motion the Malthusian machinery, but now working in
+  reverse."
+- Increase in territory: happens naturally at the frontiers of an empire as it
+  is growing. this was true in Russia when it was conquering east into the
+  Siberian steppes, and in USA as the Americans expanded to the west. The
+  frontier provides rewards for risk taking, and more upward mobility.
+
+Confirming my suspicions from an [explorable exploration][ineq] I made a while back:
+"The only way to stop this process constantly breeding inequality is by either
+abolishing private property altogether or by abolishing the right to inherit it.
+A milder form of keeping inequality in check is a steeply progressive tax on
+inheritance. In other words, some sort of redistributive scheme could be used."
+
+At one point the author digresses into the economics of agrarian land
+distribution, and describes a series of simulations he ran. I think doing
+something like this as an explorable explanation would be super fun. Imagine a
+visual treatment of a country split up by multiple families, and how that split
+changes through the generations. Here are some variants to try:
+
+1. Equal distribution of land to heirs but unequal numbers of children per
+   family.
+2. Primogeniture, where oldest son gets all land.
+3. First son gets half of the inheritance, but the remainder is divided equally
+   among others.
+4. Wealthier men tend to choose wealthier brides.
+5. Some people are just more effective than others.
+
+
+## Cooperation versus individualism
+
+Turchin details how cooperation was once understood to be the main basis of
+human society, but this view fell out of favor in modernity. The rise of
+economics and the popularity of “rational-choice theory” postulated that people
+behave in entirely self-interested manner. This is supported by many leading
+thinkers:
+
+- Hume (1711-76) wrote, “Political writers established it as a maxim, that, in
+  contriving any system of government ... every man ought to be supposed to be a
+  knave and to have no other end, in all his actions, than his private
+  interest.”
+- Mandeville (1670-1713) wrote in The Fable of the Bees: Private Vices, Publick
+  Benefits: “Thus every Part was full of Vice, yet the whole Mass a Paradise.”
+  This does sound familiar. Wasn’t it the motto of the exuberant 1980s and
+  1990s—“greed is good”?
+- Smith is best known is his “invisible hand” argument.
+
+The problem: "When the group size becomes large enough, cooperation among
+rational agents unravels as free-loading becomes rampant. The collective-action
+problem strikes again." An interesting study shows that people across most
+societies naturally fall into 3 categories when playing repeated games: 25%
+fully selfish, 25% fully selfless, 50% tit for tat. some exceptions: Israelis
+are more selfish (lowball offers), while Lamerla are incredibly selfless. There
+is a continuum between individualism and cooperation, and we've probably over
+corrected towards the former.
+
+
+## Historical trends
+
+Turchin looks at a wide variety of examples to make his points, and I learned a
+lot trying to keep track of various indigenous proto-nations. Many of his
+insights span across a long period of time, unite many seemingly unrelated
+civilizational conflicts:
+
+- One ancient source of metaethnic strife is farmers vs. shepherd-nomads: "as
+  exemplified by the biblical parable about the conflict between Cain with his
+  fields and Abel with his flocks. (Because the early Hebrews were herders,
+  naturally the evil guy in the story was Cain.) In eastern Europe, from the
+  tenth century on, the cultural chasm was further deepened by the tendency of
+  the settled cultivators to adopt Christianity opposed by the inclination of
+  the nomads to Islam." This continued in America where the Europeans were
+  farmers and the indians were nomads.
+- A failure mode for Asabiya is social conservatism. In pre-unified Russia, each
+  prince tried to resist the Tatar-Mongol hordes on his own, and all lost in a
+  typical example of the tragedy of the commons. In south Italy, primacy of
+  family unit caused people to distrust their neighbour, preventing large scale
+  social collaboration and economic prosperity. 
+- Religion/race is a huge unifying force and common in meta-ethnic conflict. For
+  example Christians vs. Pagans in the Russian conquest of Siberia, Christians
+  vs. Muslims during the Crusades, in Iberia and in the new world. This was also
+  true for early Romans, who were bound together by religion.
+- Recurring thought: perhaps we'll need aliens to bring all of humanity
+  together: "Thus, in the old Europe, although the Irish hated the English, and
+  the French fought against the Germans, in the New World all these people
+  cooperated with each other and fought together against the Indians".
+- Wealth and power physics analogy: "Distribution of landed wealth within the
+  society usually correlates very well with the distribution of political power,
+  because wealth and power are akin to potential and kinetic kinds of energy in
+  physics. Wealth, or rather income derived from it, is readily converted into
+  power by buying influence or hiring retainers. Vice versa, political power
+  brings with it the ability to acquire land, thus storing power for future
+  use."
+- Interesting that slavery has a negative impact on Asabiya in general. Putnam
+  points to a “striking correlation between low social capital at the end of the
+  twentieth century and slavery in the first half of the nineteenth century."
+- Asabiya applies also to corporations: "Asabiya is as important in large
+  multinational corporations today as it was in Virginia in 1700 or North Africa
+  in the fourteenth century.", and "Ironically enough, although externally
+  corporations brutally compete in the free market, their internal workings rely
+  not on market forces, but on group solidarity! This is one of the best-kept
+  secrets in the economic sciences. Just as you cannot construct a viable
+  society, so you cannot put together a viable company from knaves alone."
+
+
+## Rome and Italy
+
+- The Roman notion of [Limes][lime] encompasses some combination of border,
+  wall, and road. I haven't thought about these concepts as being so
+  interconnected.
+- There was no ethnic link between the Byzantines and the Romans: "Just
+  designating themselves as “the Romans,” however, is not a sufficient reason to
+  equate this later people with the Romans. For example, there is a modern
+  country whose citizens still call themselves “the Romans”: Romania. In
+  general, an appropriation of an old and glorious ethnonym (“a name of a
+  nation”) is a common thing in history"
+- Interesting parallels between Livy's account of "rampant luxury and
+  conspicuous consumption of his own times, the first century B.C., with the
+  simpler, less-materialistic mores of their ancestors" and the way people
+  romanticize America today.
+- Early Rome was incredibly cohesive because of huge vertical integration, and
+  virtues that discouraged individualism: gravity, constancy, piety, faith:
+  "When 50,000 Romans, a staggering one fifth of Rome’s total manpower, perished
+  in the battle of Cannae, as mentioned previously, the senate lost almost one
+  third of its membership. This suggests that the senatorial aristocracy was
+  more likely to be killed in wars than the average citizen. Add this to the
+  peculiarly Roman practice of “devotion,” which was always performed by a
+  member of noble lineage, and it is easy to conclude that generally Roman
+  aristocrats led the commoners in battle, and were the first to die."
+- Unlike Athens and Sparta, Rome did a good job of integrating its subjects into
+  the empire. 
+
+## Muslim world
+
+- Islam as an attractive religion for those that recently experienced chaos:
+  "This quality of Islam continues to aid its spread even today. Ten years after
+  experiencing the horror of civil war and genocide, many Rwandans are turning
+  to Islam. During the decade since 1995, the number of mosques in Rwanda
+  doubled to 500". All Muslims are unified in the umma, which let Muhammad unify
+  multiple tribes into a meta-tribe.
+- Through this lens of us vs. them, good explanation for Austria-Hungary's
+  failures: they weren't sufficiently united, and had a lot of internal
+  conflict. Part of what kept the empire alive for so long was the 3 century
+  long struggle against the Ottoman empire.
+- On middle east, pretty sad projections: "Two centuries passed from the First
+  Crusade, which arrived in the Holy Land in 1099, to the rise of Saladin’s
+  Ayyubid dynasty in 1174. The Crusaders were expelled from their last
+  stronghold of Acre in 1291." and then "occupation of Egypt by the British
+  troops in 1882. The establishment of Israel in 1948 merely elevated it to new
+  heights, and the second Iraq war increased the pressure to what might be an
+  unbearable pitch for the Arabs. It is possible that the world changed so much
+  from the days of Ibn Khaldun that his law of asabiya does not operate any
+  longer. But is it wise to bet on it?"
+
+
+## Europe
+
+- Southern Italy has been a disaster for 1500 years: "Peninsular Italy,
+  including Sicily, remained an asabiya black hole from the collapse of the
+  Roman Empire to this very day." The north has done much better, but still no
+  large public italian corporations (Fiat is family owned.) Also, they have
+  never been an empire. Italy was the only European state that was defeated by
+  an African country (Ethiopia) in the nineteenth-century scramble for colonies.
+  More on this in Putnam's book Making Democracy Work: Civic Traditions in
+  Modern Italy.
+- Interesting recurring metaethnic frontier: Romans vs Barbarians in early 1st
+  millennium, and Frankish Christians vs. Norman/Viking pagans in early 2nd
+  millennium. Also recurring alliances a milennium later: "The first members of
+  the European Union were, and the most enthusiastic proponents of the European
+  Union are, France, Germany, the countries of Benelux, and Italy—almost
+  precisely the regions that were part of the Carolingian Empire."
+- Germany had huge asabiya until WW2, but the shock of defeat and anti-Nazi
+  propaganda discredited this identity. Is the same thing happening now in the
+  US, as a result of several failed wars? Vietnam, Afganistan, Iraq?
+- One common myth: that France’s troubles were brought by the persistent
+  conflict with the English, known as the Hundred Years’ War (1338-1453). First,
+  the dates 1338 and 1453 are completely arbitrary. almost every generation of
+  the French and the English fought against each other during their “Thousand
+  Year War” between 1066 and 1815.
+- Overproduction of elites comes from education. This happened at times of
+  crisis in the past: "At the University of Paris, it took eight years to earn a
+  Doctorate degree in the thirteenth century (five years to obtain a Bachelor
+  degree, then three more to achieve the Doctorate). In the fourteenth century,
+  it took 16 years to earn a Doctorate. The cost of education increased much
+  faster than inflation in sixteenth-century France. Enrollments in Oxford and
+  Cambridge peaked just before the Great Revolution, and then declined during
+  the eighteenth century."
+
+
+## Random learnings
+
+- Siberia is named after the khanate of Sibir.
+- The connection of паган (pagan) and pagans, which lost its original religious
+  meaning and now just means “bad” or “evil.”
+- in Arabic khalifa means “successor”.
+- Jacobins & Jacobites are completely different and unrelated groups.
+- Fascinating origins of tribal names: "In fact, the very name Suebi basically
+  means “us” (“those belonging to our group”). Incidentally, the names of such
+  modern nations as the Swedes and the Swiss have precisely the same origin. The
+  name of the later Alamanni also expressed the same idea, but with a different
+  means. Alamanni means “the (true, real) people,” clearly a variation on the
+  “us” versus “them” theme.
+- In France, Normandy is named after the Norse, and Brittany is named after
+  Britain. Nice to make that connection, completely obvious in retrospect. Also
+  it's bizarre to be personally named after a 10th century peoples (eg. Norman,
+  Brittany or Frank).
+
+
+Okay. I think I've distilled most of what I found valuable in the book (a lot).
+Let me complain just a bit. Firstly, there are way too many small ethnic groups
+for me to keep track of. Secondly, what's up with the formatting in the Kindle
+version? Lastly, I found that the book was not super well structured, jumping
+around conceptually, chronologically, and spatially, and going over the same
+ground multiple times. That all said, I'll be reading more Turchin in the
+future.
+
+[4t]: /books/the-fourth-turning-by-howe-and-strauss/
+[ineq]: /simulating-wealth-inequality/
+[lime]: https://en.wikipedia.org/wiki/Limes
+
+
 Three Body Problem by Liu Cixin (audio)
 ===
 posted: September 27, 2018
