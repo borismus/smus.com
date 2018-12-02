@@ -5,8 +5,226 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-11-11T21:31:47-00:00</updated>
+  <updated>2018-12-02T15:18:41-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Bowling Alone by Robert Putnam</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/bowling-alone-by-robert-putnam"/>
+    
+    <updated>2018-11-29T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/bowling-alone-by-robert-putnam</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This one's a doozie. I don't recommend it unless you are a naturally optimistic
+and mentally stable person. I read Bowling Alone as part of my quest to understand
+social capital. I'd heard of it before, but it came to my immediate attention
+because it was referenced in <a href="/books/war-and-peace-and-war-by-peter-turchin/">War and Peace and War</a>.</p>
+
+<p>Putnam's thesis is that by many measures, social capital in America increased
+after World War II to its zenith in about 1960, and has been falling ever since.
+(The book was written in 1999, but my suspicion is that downward slide has
+continued into the oughts. It would be interesting to see an update.) Putnam
+looks at a variety of indicators from a variety of surveys, mostly the General
+Social Survey (GSS) and the DDB Needham Life Style archive. </p>
+
+<p>Bowling Alone is long, dry, and somewhat repetitive. It's broken up into several
+sections: 1) what's going on, 2) why is it happening, 3) why is it a bad thing,
+and 4) as Lenin says, "what is to be done?". I skipped large chunks of (3) since
+I'm already convinced that social capital is important and correlates strongly
+to a bunch of important things that I'd like to keep having, as well as <a href="/books/war-and-peace-and-war-by-peter-turchin/">the
+fall of empires</a>.</p>
+
+<p>A bunch of charts and graphs that Putnam cites are <a href="http://download.audible.com/product_related_docs/BK_SANS_007716.pdf">worth perusing and available
+here</a>.</p>
+
+<h2>Social capital has been falling since 1960</h2>
+
+<p>The following indicators followed the general pattern: peak in 1960, followed by
+decline through at least 1999:</p>
+
+<ul>
+<li>Percentage of voters (PV) who worked for attended a political meeting.</li>
+<li>PV who attended a public meeting for school or town affairs.</li>
+<li>PV who served as an organizer for a local club/organization in the past year.</li>
+<li>Number of club meetings attended per year.</li>
+<li>Average weekly church attendenance.</li>
+<li>Percent of labor force that is unionized.</li>
+<li>Membership in professional organizations.</li>
+<li>Frequency of whole family dinners.</li>
+<li>Frequency of card playing.</li>
+<li>Total giving by living individuals as a percentage of national income.</li>
+<li>Percent who say "most people can be trusted".</li>
+</ul>
+
+<p>As Putnam diagnoses the problem, some striking trends stuck with me:</p>
+
+<ul>
+<li>Trend towards social engagement under an umbrella of a church, and
+increasingly, an employer.</li>
+<li>Trend towards "privatized religion": belief without a specific congregation.
+Non-organized religion gives personal meaning but no social capital.</li>
+<li>Passive consumption up, active participation down. In sports, there are fewer
+players but more viewers. In music, fewer players, more listeners.</li>
+<li>Membership in organizations increasingly is a cheap way to indicate political
+preference without dedicating substantial time or money to the cause. It's
+also not social: most don't engage in person or discuss it with friends. </li>
+<li>Depressing generational shift in what constitutes a good life and what
+community means to people. More people want more money, and fewer care about
+having a job that contributes to society. Patriotism wanes, materialism waxes.</li>
+</ul>
+
+<p>As well as some concepts that were new to me:</p>
+
+<ol>
+<li>Bonding vs. bridging social capital: Bonding social capital is within a group
+or community whereas bridging social capital is between social groups, social
+class, race, religion, etc. According to Putnam, bonding social capital is
+good for “getting by” and bridging is crucial for “getting ahead”.</li>
+<li>Generalized reciprocity: gift giving without the expectation of an
+immediate return, but with the vague understanding that someone will someday
+return the favor.</li>
+<li>Thick vs. thin social trust: very related to the above. Thick trust means you
+trust a specific person for past deeds you know of personally, while thin
+trust is akin to generalized social reciprocity where everyone in a community
+is trusted by virtue of being a member.</li>
+<li>Mahers vs. schmoozers (from Yiddish): Mahers invest time in social
+organization, schmoozers: those who spend time in informal conversation.</li>
+</ol>
+
+<p>At the end of the section, Putnam's carefully hedges any predictions about the
+internet, after a discussion about how wrong predictions about the telephone's
+effect on social fabric were. This also serves as a sobering reminder that
+social capital was well on the downswing by the advent of the internet. Thus,
+Facebook or other oft-maligned internet-related entities cannot be the sole
+cause.</p>
+
+<blockquote>
+  <p>A society characterized by generalized reciprocity is more efficient than a
+  distrustful society, for the same reason that money is more efficient than
+  barter.</p>
+</blockquote>
+
+<h2>Because of TV, urban sprawl, working women, etc</h2>
+
+<p>Putnam is explicit that he thinks many mostly weak factors have led to the
+trends he's observed. But he outlines a few that seem to be the strongest:</p>
+
+<ol>
+<li>Women that are forced to work for financial reasons. This population seems to
+have had the biggest drop in social capital. In contrast, women that work
+part time by choice seem to be pulling social capital up. (~10% of cause.)</li>
+<li>Suburbs, more car dependence, more time in cars, more cars per household.
+Instead of living near work, restaurants, and shops, each facet of life is in
+a different suburb. At the time of writing, the average american spent 72
+minutes a day in cars, 70% of trips done alone. </li>
+<li>Much of America's increasing free time has been channeled into watching TV.
+Average American watches 3 hours a day. TV watching correlates strongly with
+civic disengagement, especially non news watching, and channel surfing. (~25%
+of cause.)</li>
+<li>World War II was unique. The fact that it followed the great depression meant
+that it had a leveling effect on most of society. In contrast, Korea and
+Vietnam were both highlighted by social inequality in troop selection and
+recruitment.</li>
+<li>Controversial discussion about race as a cause of disengagement. Black % of
+population has increased, but blacks actually are involved in more
+organizations than whites, due to religious and race-based groups. But they
+tend to be less trusting than whites (for good reason.)</li>
+</ol>
+
+<p>Putnam destroys the deterministic capitalism argument posed by Marxists, that
+capitalism inherently is incompatible with social cohesion. Capitalism has been
+a feature of American society for centuries while social capital has ebbed and
+flowed. That said, increased globalization means there are fewer small
+corporations with strong local ties.</p>
+
+<p>Putnam makes many references to Alexis to Tocqueville, referring to him
+colloquially as the patron saint of social capital. I was surprised to learn
+that relative social capital levels throughout the states haven’t really changed
+much since Tocqueville's travels in America in the 1830s. Generally speaking,
+the more virulent slavery was, the lower the social capital. Areas high in
+Scandinavian immigration, correlated strongly with high social capital. These
+trends remain today.</p>
+
+<h2>What to do? Look to the Gilded Age and Progressive Era</h2>
+
+<p>Putnam draws analogies from today to the Gilded Age (1870s to about 1900). One
+parallel is the way in which a surge of new technology disrupts social capital.
+The advent of electricity, new mass media: the radio, a train network which
+allowed much faster access to cities. The latter was especially important since
+automation of strength was wreaking havoc in traditional rural life. More and
+more jobs were to be found in urban factories. A centralization of companies
+were named after their illustrious founders. And this all led to an increasing
+gap in inequality. The analogies to today are clear: ubiquitous affordable air
+travel, automation of menial intelligence threatening some jobs, the advent of
+the internet.</p>
+
+<blockquote>
+  <p>Then as now, waves of immigration threaten the unum in our pluribus.</p>
+</blockquote>
+
+<p>In the Progressive Era (1890s to the 1920s) that followed, huge amount of
+reforms were undertaken. The Progressive Movement was a big tent, considered the
+only movement in the US that captured the whole population. It came as a
+response to a huge amount of technological change during the Gilded Age.
+Confusingly, there is no direct connection between the current Progressive
+movement and its origins in the late 20th century. Here are some developments
+that came around then: birth of unions, eight hour work week, birth of child
+oriented groups, boy scouts, kindergardens, playgrounds, high schools.</p>
+
+<p>(Clearly I should read more about the Gilded Age and the Progressive Era.)</p>
+
+<p>(I should also look into Amitai Etzioni's work on communitarianism. Sounds like
+he has some practical suggestions.)</p>
+
+<p>(Bowling alone seeds an update. It would be nice to see the figures updated for
+the last 25 years. A lot had changed: decline in real income, millennial
+maturation, Gen Z emergence.)</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The Shape of Tomorrow by George Soule</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-shape-of-tomorrow-by-george-soule"/>
+    
+    <updated>2018-11-27T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-shape-of-tomorrow-by-george-soule</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I picked up Shape of Tomorrow, its 35 cent price imbued proudly on the front
+cover, on a foray to Powell’s books in Portland.</p>
+
+<p>In 1958, the birth control pill wasn’t yet past clinical trials and TV watching
+hadn’t yet become the dominant American hobby. What a time to be alive!</p>
+
+<p>Soule takes care not to speculate too wildly, hedging often, but many
+predictions are still downright comical. America’s increase in productivity is
+going to reduce inequality. The work week is on the brink of shortening to
+twenty four hours. Cool stories abound.</p>
+
+<p>This was not a great read by any stretch. However, it is mercifully short. 
+Safely skip the first half of the book, which excitedly enumerates unexciting
+innovations of the day. That said, if you’re looking for a time capsule into the
+technocratic mind of the 1950s, George Soule might just be the retro-futurist
+you are looking for.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Bird by Bird by Anne Lamott</title>
@@ -4182,11 +4400,37 @@ test of time. </p>
   </entry>
   
   <entry>
+    <title>Great Gatsby by F. Scott Fitzgerald</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
+    
+    <updated>2017-06-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
+that are so fantastically well off.  Very unsympathetic characters throughout,
+except for the narrator. </p>
+
+<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
+parties, loose connections, endless networking and small talk.  There is a
+certain aimlessness to it that I found very relatable.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>The Psychology of Curiosity</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-11T09:00:00-00:00</updated>
+    <updated>2017-06-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -4407,37 +4651,11 @@ paper ended, so had to finish reading the last page online.</p>
   </entry>
   
   <entry>
-    <title>Great Gatsby by F. Scott Fitzgerald</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
-    
-    <updated>2017-06-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
-that are so fantastically well off.  Very unsympathetic characters throughout,
-except for the narrator. </p>
-
-<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
-parties, loose connections, endless networking and small talk.  There is a
-certain aimlessness to it that I found very relatable.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-11T09:00:00-00:00</updated>
+    <updated>2017-05-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -4480,7 +4698,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-11T09:00:00-00:00</updated>
+    <updated>2017-05-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -4675,7 +4893,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-11T09:00:00-00:00</updated>
+    <updated>2017-05-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -4740,7 +4958,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-11T09:00:00-00:00</updated>
+    <updated>2017-04-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -4834,7 +5052,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-11T09:00:00-00:00</updated>
+    <updated>2017-03-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -4884,7 +5102,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-11T09:00:00-00:00</updated>
+    <updated>2017-03-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -4921,7 +5139,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-11T09:00:00-00:00</updated>
+    <updated>2017-02-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -4989,7 +5207,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-11T09:00:00-00:00</updated>
+    <updated>2017-02-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -5017,7 +5235,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-11T09:00:00-00:00</updated>
+    <updated>2017-01-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -5078,7 +5296,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-11T09:00:00-00:00</updated>
+    <updated>2017-01-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -5113,7 +5331,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-11T09:00:00-00:00</updated>
+    <updated>2017-01-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -5180,7 +5398,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-11T09:00:00-00:00</updated>
+    <updated>2016-12-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -5271,7 +5489,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-11T09:00:00-00:00</updated>
+    <updated>2016-11-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -5317,7 +5535,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/future-babble"/>
     
-    <updated>2016-10-11T09:00:00-00:00</updated>
+    <updated>2016-10-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/future-babble</id>
     <content type="html">
@@ -5381,7 +5599,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-11T09:00:00-00:00</updated>
+    <updated>2016-10-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -5415,7 +5633,7 @@ completely devoured by his good-natured cleverness.
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-hedgehog-and-the-fox"/>
     
-    <updated>2016-09-11T09:00:00-00:00</updated>
+    <updated>2016-09-02T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-hedgehog-and-the-fox</id>
     <content type="html">
@@ -5464,387 +5682,6 @@ Ibsen and Proust</li>
 <p>My conclusion is that Foxes &gt; Hedgehogs. The world really is complex, and a
 simple unified theory seems very unlikely. Also, I'll have to read more IB,
 in less turbulent circumstances. And more Tolstoy!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Sapiens (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/sapiens-audio"/>
-    
-    <updated>2016-09-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/sapiens-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Yuval Noah Harari presents an outside view of humanity, from the perspective of
-a complete outsider, an alien with no particular interest in the human species.
-This is fascinating.</p>
-
-<p>The scope of the book is very broad and often high level, starting with physics
-and chemistry 13.5 billion years ago at the dawn of the universe. Then, he turns
-to biology, which begins 3.8 billion years ago on earth, and finally to history
-and the cognitive revolution which starts about 70,000 years ago. Since then,
-12,000 years ago, we had agriculture, which sped up the cognitive revolution.
-More recently, 500 years ago, the scientific revolution really turned it up a
-notch. The orders of magnitude of difference are appropriately humbling.</p>
-
-<p>I liked the distinction between objective, subjective, and inter-subjective. The
-latter meaning something that exists within the communication network linking
-the subjective consciousness of many individuals. If a single individual changes
-his or her beliefs, or even dies, it is of little importance.</p>
-
-<p>Also striking was Harari's disdain for the agricultural revolution. He claims
-that it made most people worse off. The general point being that "history's
-choices are not made for the benefit of humans".</p>
-
-<p>Another major theme is the unification of humankind, which compounds
-inter-subjective effects since societies grow bigger and bigger. Over time,
-cultures coalesce and form bigger and more complex civilisations. Even though
-today's civilizations seem to be clashing, they actually agree on many things,
-for example money. "For thousands of years, philosophers, thinkers, and prophets
-have besmirched money and called it the root of all evil. Be that as it may,
-money is also the apogee of human tolerance."</p>
-
-<p>On religion, Harari has insights as well:</p>
-
-<blockquote>
-  <p>So, monotheism explains order, but is mystified by evil. Dualism explains
-    evil, but is puzzled by order. There is one logical way of solving the
-    riddle: to argue that there is a single omnipotent God who created the
-    entire universe - and He's evil. But nobody in history has had the stomach
-    for such a belief.</p>
-</blockquote>
-
-<p>Also, interestingly, he considers most "isms" to be religions. And this leads to
-interesting analyses. Harari delves deeply into humanism which he breaks down
-into three kinds:</p>
-
-<ol>
-<li>Liberal humanism: that 'humanity' is a quality of individual humans, and that
-the liberty of individuals is therefore sacrosanct.</li>
-<li>Socialist humanism: hold as sacred not the inner voice of each individual,
-but the species Homo sapiens as a whole.</li>
-<li>Evolutionary humanism: humankind is not something universal and eternal, but
-rather a mutable species that can evolve or degenerate.</li>
-</ol>
-
-<p>The latter has a long connection to Nazism, but Harari suggests (and I agree)
-that modern biology is really pushing us back into that vein.</p>
-
-<p>On the scientific revolution, Harari echoes the rational sentiment of accepting
-ignorance. As soon as you truly accept that you do not know, you leave the door
-open to new insights.</p>
-
-<blockquote>
-  <p>The Scientific Revolution has not been a revolution of knowledge. It has
-    been above all a revolution of ignorance. The great discovery that launched
-    the Scientific Revolution was the discovery that humans do not know the
-    answers to their most important questions.</p>
-</blockquote>
-
-<p>Overall, very worth a read (or listen, as I did).</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>How to Actually Change Your Mind by Big Yud</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/how-to-actually-change-your-mind-by-big-yud"/>
-    
-    <updated>2016-08-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/how-to-actually-change-your-mind-by-big-yud</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Technically the second book in a giant epic entitled "Rationality: From AI to
-Zombies". The author is a well known rationalist and active member/founder of
-lesswrong.org, Center for Applied Rationality (CFAR), etc.</p>
-
-<p>Essentially, this is a series of essays written and published as "The
-sequences", around 2009. They are loosely related and cover a wide array of
-topics, many of them highlighting irrational modes of thought. Much of the work
-focuses on biases central to behavioral economics, focusing on Kahneman-style
-results. But the author goes beyond that, and also introduces a lot of opinion
-for how a rationalist should behave. At the same time, there is a tendency to be
-incredibly nerdy, which is alternatingly endearing and borderline autistic. I
-found myself asking the question: if one becomes a purely rational agent, isn't
-a computer strictly better? On the path to rationality, what aspects of humanity
-is worth preserving?</p>
-
-<p>Here's some new stuff I learned. A fair amount of the book covers behavioral
-economics concepts that I read about already in TF&amp;S.</p>
-
-<h4>Litanies</h4>
-
-<p>Aumann’s Agreement Theorem suggests that no two rationalists can agree to
-disagree, given that they have the same information.</p>
-
-<p>Litany of <a href="https://en.wikipedia.org/wiki/Eugene_Gendlin">Gendlin</a>:</p>
-
-<blockquote>
-  <p>What is true is already so.
-  Owning up to it doesn't make it worse.
-  Not being open about it doesn't make it go away.
-  And because it's true, it is what is there to be interacted with.
-  Anything untrue isn't there to be lived.
-  People can stand what is true,
-  for they are already enduring it.</p>
-</blockquote>
-
-<p>Litany of <a href="https://en.wikipedia.org/wiki/Alfred_Tarski">Tarski</a>:</p>
-
-<blockquote>
-  <p>If the box contains a diamond,
-  I desire to believe that the box contains a diamond;
-  If the box does not contain a diamond,
-  I desire to believe that the box does not contain a diamond;
-  Let me not become attached to beliefs I may not want.</p>
-</blockquote>
-
-<h4>Against black and white thinking</h4>
-
-<p>Yudkowsky is especially effective in his attacks on binary thinking. For
-example, on partisanship:</p>
-
-<blockquote>
-  <p>Politics is an extension of war by other means. Arguments are soldiers. Once
-  you know which side you're on, you must support all arguments of that side,
-  and attack all arguments that appear to favor the enemy side, otherwise it's
-  like stabbing your soldiers in the back - providing aid and comfort to the
-  enemy. People who would be level-headed about evenhandedly weighing all sides
-  of an issue in their professional life as scientists can suddenly turn into
-  slogan-chanting zombies when there's a Blue or Green position on an issue.</p>
-</blockquote>
-
-<p>On the tendency and fallacy in binary thought:</p>
-
-<blockquote>
-  <p>There is a natural tendency to treat discussion as a form of combat, an
-  extension of war, a sport; and in sports you only need to keep track of how
-  many points have been scored by each team. There are only two sides, and
-  every point scored against one side is a point in favor of the other.
-  Everyone in the audience keeps a mental running count of how many points
-  each speaker scores against the other. At the end of the debate, the speaker
-  who has scored more points is, obviously, the winner; so everything that
-  speaker says must be true, and everything the loser says must be wrong.</p>
-</blockquote>
-
-<p>The horns effect - all negative qualities correlate:</p>
-
-<blockquote>
-  <p>Stalin also believed that 2 + 2 = 4. Yet if you defend any statement made by
-  Stalin, even “2 + 2 = 4,” people will see only that you are agreeing with
-  stalin and you must be on his side.</p>
-</blockquote>
-
-<p>And a very nice summary of a better way of thinking:</p>
-
-<blockquote>
-  <p>Not all arguments reduce to mere up or down. Lady Rationality carries a
-    notebook, wherein she writes down all the facts that aren’t on anyone’s side.</p>
-</blockquote>
-
-<p>Real belief vs. belief in belief:</p>
-
-<blockquote>
-  <p>Roger Zelazny once distinguished between “wanting to be an author” versus
-    “wanting to write.” Mark Twain said: “A classic is something that everyone
-    wants to have read and no one wants to read.” Criticizing yourself from a
-    sense of duty leaves you wanting to have investigated, so that you’ll be
-    able to say afterward that your faith is not blind. This is not the same as
-    wanting to investigate.</p>
-</blockquote>
-
-<h4>Assume your interlocutor is good</h4>
-
-<p>"To argue against an idea honestly, you should argue against the best arguments
-of the strongest advocates". This, and the closely related concept of the
-principle of charity aka Steelmanning (the opposite of strawmanning), which I
-heard from a Sam Harris interview, sent me on a long reading tangent of
-arguments <a href="http://www.patheos.com/blogs/camelswithhammers/2016/08/on-steelmanning-arguments-and-personally-customizing-them/">for</a> and <a href="https://thingofthings.wordpress.com/2016/08/09/against-steelmanning/">against</a>. Insightful tidbit from that
-last link:</p>
-
-<blockquote>
-  <p>First, seek to understand the actual viewpoints people you disagree with are
-  actually advocating.  Second, seek out intelligent and well-informed
-  advocates of viewpoints you disagree with. You don’t have to make up what
-  your opponents believe! As it happens, you have many smart opponents!
-  Third, whenever possible, try to switch conversations from a debate focus to
-  a collaborative truth-seeking focus.</p>
-</blockquote>
-
-<p>Back to Big Yud. Some wisdom on focusing on the argument, not on the person:</p>
-
-<blockquote>
-  <p>Someone once said "Not all conservatives are stupid, but most stupid people
-    are conservatives". If you cannot place yourself in a state of mind where
-    this statement, true or false, seems completely irrelevant as a critique of
-    conservatism, you are not ready to think rationally about politics.</p>
-</blockquote>
-
-<p>A variation on the <a href="http://www.cs.cmu.edu/~weigand/staff/">reasonable person principle</a> (harkens back to my time
-at CMU).</p>
-
-<blockquote>
-  <p>To understand why people act the way they do, we must first realize that
-    everyone sees themselves as behaving normally. Don’t ask what strange,
-    mutant disposition they were born with, which directly corresponds to their
-    surface behavior. Rather, ask what situations people see themselves as being
-    in. [...] Realistically, most people don’t construct their life stories with
-    themselves as the villains.</p>
-</blockquote>
-
-<h4>Deciding which side to argue</h4>
-
-<p>Great distinction between rationality and rationalization. Very related to
-Haidt's position that beliefs are intuitive but their defence is rational. But
-Haidt makes no distinction like this. Would love to hear his thoughts on it.</p>
-
-<blockquote>
-  <p>Rationality is not for winning debates, it is for deciding which side to
-    join. If you’ve already decided which side to argue for, the work of
-    rationality is done within you, whether well or poorly. But how can you,
-    yourself, decide which side to argue?</p>
-</blockquote>
-
-<p>Eliezer suggests enumerating the evidence: "Lady Rationality carries a notebook,
-wherein she writes down all the facts that aren’t on anyone’s side". Here's how
-to construct an honest ultrarational argument for a particular political
-candidate:</p>
-
-<ul>
-<li>Gather all evidence about the different candidates</li>
-<li>Make a checklist which you will use to decide which candidate is best</li>
-<li>Process the checklist</li>
-<li>Go to the winning candidate</li>
-<li>Offer to become their campaign manager</li>
-<li>Use the checklist as the campaign literature</li>
-</ul>
-
-<h4>The future is hard to predict</h4>
-
-<p>Herd instinct in venture capitalism:</p>
-
-<blockquote>
-  <p>The majority of venture capitalists at any given time are all chasing the
-    same Revolutionary Innovation, and it’s the Revolutionary Innovation that
-    IPO’d six months ago. This is an especially crushing observation in venture
-    capital, because there’s a direct economic motive to not follow the herd.</p>
-</blockquote>
-
-<p>And what to do about it. DFJ (a VC) has a rule <a href="http://www.signallake.com/innovation/CrazyIdeasSuccessfulVC101009.pdf">favoring a passionate
-minority</a> to outweigh a negative majority.  This also reminds me of the
-<a href="https://www.quora.com/World-War-Z-2013-movie-Do-the-Israelis-really-have-a-10th-man-doctrine">Tenth Man Rule</a>.</p>
-
-<blockquote>
-  <p>Only two partners need to agree in order to fund any startup up to $1.5
-    million. And if all the partners agree that something sounds like a good
-    idea, they won’t do it.</p>
-</blockquote>
-
-<p>Movies and books have a huge effect on the human psyche. This will probably
-compound with more immersive storytelling mediums:</p>
-
-<blockquote>
-  <p>So far as I can tell, few movie viewers act as if they have directly
-    observed Earth’s future. [...] But those who commit the fallacy seem to act
-    as if they had seen the movie events occurring on some other planet; not
-    Earth, but somewhere similar to Earth.</p>
-</blockquote>
-
-<p>Predicting numbers is especially difficult:</p>
-
-<blockquote>
-  <p>I observe that many futuristic predictions are, likewise, best considered as
-    attitude expressions. Take the question, “How long will it be until we have
-    human-level AI?” The responses I’ve seen to this are all over the map.</p>
-</blockquote>
-
-<h4>Avoid having THE Great Idea and get granular and specific</h4>
-
-<p>Avoiding partisanship by focusing on the minimum viable argument, reminds me of
-Sunstein's <a href="https://en.wikipedia.org/wiki/Judicial_minimalism">Judicial minimalism</a>:</p>
-
-<blockquote>
-  <p>But try to resist getting in those good, solid digs if you can possibly
-    avoid it. If your topic legitimately relates to attempts to ban evolution in
-    school curricula, then go ahead and talk about it—but don’t blame it
-    explicitly on the whole Republican Party; some of your readers may be
-    Republicans.</p>
-</blockquote>
-
-<p>Avoid overly large uhh Thingies, and chop them up.</p>
-
-<blockquote>
-  <p>Cut up your Great Thingy into smaller independent ideas and treat them as
-    independent. For instance, a marxist would cut up Marx's Great Thingy into
-    theories of 1) value of labor 2) political relations between classes 3)
-    wages 4) the ultimate political state of mankind.</p>
-</blockquote>
-
-<h4>Other interesting stuff</h4>
-
-<p>Taber and Lodge's <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2006.00214.x/abstract">"Motivated skepticism in the evaluation of political
-beliefs"</a> describes six predictions which are very Haidt-y. It's a list
-of political thinkos that are driven by behavioral economic biases.</p>
-
-<p>Beliefs don't need to be completely bullet proof. But this contradicts
-science, where a single counter example can topple a theory.</p>
-
-<blockquote>
-  <p>A probabilistic model can take a hit or two, and still survive, so long as
-    the hits don’t keep on coming in. Yet it is widely believed, especially in
-    the court of public opinion, that a true theory can have no failures and a
-    false theory no successes.</p>
-</blockquote>
-
-<p>On the uselessness of "Deep Wisdom":</p>
-
-<blockquote>
-  <p>Surely the wisest of all human beings are the New Age gurus who say,
-    “Everything is connected to everything else.” If you ever say this aloud,
-    you should pause, so that everyone can absorb the sheer shock of this Deep
-    Wisdom. There is a trivial mapping between a graph and its complement. A
-    fully connected graph, with an edge between every two vertices, conveys the
-    same amount of information as a graph with no edges at all.</p>
-</blockquote>
-
-<p>There's a distinction between Traditional rationalism and Bayesian rationalism.
-And I worry that the Bayesian variety, which Eliezer is a subscriber of, is a
-sort of hedgehogginess: a very focused and blindered approach. But I liked the
-idea that you can go beyond falsification, the ability to relinquish an initial
-opinion when confronted by clear evidence against it.</p>
-
-<blockquote>
-  <p>I suspect that a more powerful (and more difficult) method is to hold off on
-    thinking of an answer. To suspend, draw out, that tiny moment when we can’t
-    yet guess what our answer will be; thus giving our intelligence a longer
-    time in which to act. Even half a minute would be an improvement over half a
-    second.</p>
-</blockquote>
-
-<p>"Make America Great Again":</p>
-
-<blockquote>
-  <p>A key component of a zeitgeist is whether it locates its ideals in its
-    future or its past. Nearly all cultures before the Enlightenment believed in
-    a Fall from Grace – that things had once been perfect in the distant past,
-    but then catastrophe had struck, and everything had slowly run downhill
-    since then.</p>
-</blockquote>
 
 
         
