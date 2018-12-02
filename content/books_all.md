@@ -4,6 +4,58 @@ class: split
 type: book
 
 
+Bowling Alone by Robert Putnam 
+===
+posted: November 29, 2018
+rating: yes
+
+This one's a doozie. I don't recommend it unless you are a naturally optimistic
+and mentally stable person. I read Bowling Alone as part of my quest to understand
+social capital. I'd heard of it before, but it came to my immediate attention
+because it was referenced in [War and Peace and War][turchin].
+
+Putnam's thesis is that by many measures, social capital in America increased
+after World War II to its zenith in about 1960, and has been falling ever since.
+(The book was written in 1999, but my suspicion is that downward slide has
+continued into the oughts. It would be interesting to see an update.) Putnam
+looks at a variety of indicators from a variety of surveys, mostly the General
+Social Survey (GSS) and the DDB Needham Life Style archive. Here are some
+indicators:
+
+- ...
+
+Bowling Alone is long, dry, and somewhat repetitive. It's broken up into several
+sections: 1) what's going on, 2) why is it happening, 3) why is it a bad thing,
+and 4) as Lenin says, "what is to be done?". I skipped large chunks of (3) since
+I'm already convinced that social capital is important and correlates strongly
+to a bunch of indicators, as well as [the fall of empires][turchin].
+
+[turchin]: #
+
+
+The Shape of Tomorrow by George Soule
+===
+posted: November 27, 2018
+rating: no
+
+I picked up Shape of Tomorrow, its 35 cent price imbued proudly on the front
+cover, on a foray to Powell’s books in Portland.
+
+In 1958, the birth control pill wasn’t yet past clinical trials and TV watching
+hadn’t yet become the dominant American hobby. What a time to be alive!
+
+Soule takes care not to speculate too wildly, hedging often, but many
+predictions are still downright comical. America’s increase in productivity is
+going to reduce inequality. The work week is on the brink of shortening to
+twenty four hours. Cool stories abound.
+
+This was not a great read by any stretch. However, it is mercifully short. 
+Safely skip the first half of the book, which excitedly enumerates unexciting
+innovations of the day. That said, if you’re looking for a time capsule into the
+technocratic mind of the 1950s, George Soule might just be the retro-futurist
+you are looking for.
+
+
 Bird by Bird by Anne Lamott
 ===
 posted: November 3, 2018
