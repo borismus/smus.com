@@ -5,8 +5,60 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2018-12-02T15:18:41-00:00</updated>
+  <updated>2019-01-04T16:01:57-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Infinite Planets</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/infinite-planets"/>
+    
+    <updated>2019-01-02T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/infinite-planets</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I've only just touched the tip of the Chinese Sci-Fi iceberg by reading <a href="/books/three-body-problem-by-liu-cixin-audio/">Three
+Body Problem</a>. So I picked up Infinite Planets, also translated by the same guy, Ken Liu.</p>
+
+<p>Many of the stories were just too out there for me to fully enjoy. I'm not sure
+if this is what's meant by "wuxia", but some had a sort of Crouching Tiger,
+Hidden Dragon feeling to them: extremely ephemeral, very unpredictable, hard to
+understand. I really enjoyed many of the stories, though. Here are my favorites:</p>
+
+<p><strong>The Fish of Lijiang</strong>: an endearing vignette of fast paced life placed on
+pause. Opposites attract in a science fiction cliche kind of way. </p>
+
+<p><strong>A Hundred Ghosts Parade Tonight</strong>: where does reality end and really good
+simulation begin?  Emotionally driven, powerful storytelling. Interesting blend
+of Chinese folklore with speculative far future robotics/AI. </p>
+
+<p><strong>Night Journey of the Dragon Horse</strong>: Memorable sketch of a post apocalypse in
+which a sentient robotic dragon horse awakens from a long slumber. </p>
+
+<blockquote>
+  <p>"Time flows like a river, halting for no one. There is nothing in the world
+  that can outlast time itself." </p>
+</blockquote>
+
+<p><strong>Folding Beijing</strong>: Great concept, compelling story. Interesting take on
+automation. Also, this served as my introduction to the cynical <a href="https://en.wikipedia.org/wiki/Phillips_curve">Philips
+Curve</a>. If I was to be picky, the
+story felt a bit too directly critical of class divisions in modern China for my
+taste.</p>
+
+<p><strong>Taking Care of God</strong>: a parable for aging, intergenerational
+misunderstandings, but on a civilizational level. Memorable and bittersweet.
+Loved the special relativity explanation for the religious vs. scientific
+understanding of Earth's age. Has this been done before?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Bowling Alone by Robert Putnam</title>
@@ -4430,7 +4482,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-02T09:00:00-00:00</updated>
+    <updated>2017-06-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -4655,7 +4707,7 @@ paper ended, so had to finish reading the last page online.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-02T09:00:00-00:00</updated>
+    <updated>2017-05-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -4698,7 +4750,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-02T09:00:00-00:00</updated>
+    <updated>2017-05-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -4893,7 +4945,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-02T09:00:00-00:00</updated>
+    <updated>2017-05-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -4958,7 +5010,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-02T09:00:00-00:00</updated>
+    <updated>2017-04-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -5052,7 +5104,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-02T09:00:00-00:00</updated>
+    <updated>2017-03-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -5102,7 +5154,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-02T09:00:00-00:00</updated>
+    <updated>2017-03-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -5139,7 +5191,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-02T09:00:00-00:00</updated>
+    <updated>2017-02-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -5207,7 +5259,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-02T09:00:00-00:00</updated>
+    <updated>2017-02-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -5235,7 +5287,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-02T09:00:00-00:00</updated>
+    <updated>2017-01-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -5296,7 +5348,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-02T09:00:00-00:00</updated>
+    <updated>2017-01-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -5331,7 +5383,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-02T09:00:00-00:00</updated>
+    <updated>2017-01-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -5398,7 +5450,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-02T09:00:00-00:00</updated>
+    <updated>2016-12-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -5489,7 +5541,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-02T09:00:00-00:00</updated>
+    <updated>2016-11-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -5535,7 +5587,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/future-babble"/>
     
-    <updated>2016-10-02T09:00:00-00:00</updated>
+    <updated>2016-10-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/future-babble</id>
     <content type="html">
@@ -5599,7 +5651,7 @@ future even more so.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/i-am-a-strange-loop"/>
     
-    <updated>2016-10-02T09:00:00-00:00</updated>
+    <updated>2016-10-04T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/i-am-a-strange-loop</id>
     <content type="html">
@@ -5620,68 +5672,6 @@ Hofstadter’s “aww shucks” Uncle Fluffy writing style. His language is so
 steeped in a fireside chat mentality that the meat of his ideas is
 completely devoured by his good-natured cleverness.
 </code></pre>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Hedgehog and the Fox</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-hedgehog-and-the-fox"/>
-    
-    <updated>2016-09-02T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-hedgehog-and-the-fox</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <pre><code>The fox knows many things, but the hedgehog knows one big thing.
--- Archilochus
-</code></pre>
-
-<p>According to Isaiah Berlin, Tolstoy is a natural fox who wanted to be a
-hedgehog. IB suggests that Tolstoy was too broad minded to be able to fully
-embrace a single doctrine, which could satisfactorily explain how the world works:</p>
-
-<pre><code>Any comforting theory which attempted to collect, relate, 'synthesize'
-reveal hidden substrata and concealed inner connections, which, though not
-apparent to the naked eye, nevertheless guaranteed the unity of all
-things... [Tolstoy] exploded without difficulty.
-</code></pre>
-
-<p>At the same time, Tolstoy wanted to be able to find some Einsteinian unified
-theory of everything (TOE), but was too talented as a critic to be able to do
-so.</p>
-
-<pre><code>What oppressed Tolstoy most was his lack of positive convictions; and that
-famous passage in Anna Karenina in which Levin's brother tells him that he-
-Levin- has no positive beliefs.
-</code></pre>
-
-<p>This division within himself caused him great pain at the end of his life.</p>
-
-<p>As you can see, the writing here is not flowery, but rather complex and requires
-a high degree of attention. Unfortunately, this is exactly what I lacked given
-the circumstances of moving to Seattle.</p>
-
-<p>This short book / essay was supposedly intended as a joke (an elaborate one, at
-90 pages). Part of the fun is classifying people into animals, for example,
-here's IB's take:</p>
-
-<ul>
-<li>Foxes: Herodotus, Aristotle, Montaigne, Erasmus, Moliere, Goethe, Pushkin,
-Shakespeare, Balzac and Joyce</li>
-<li>Hedgehogs: Dante, Plato, Lucretius, Pascal, Hegel, Dostoevsky, Neitzsche,
-Ibsen and Proust</li>
-</ul>
-
-<p>My conclusion is that Foxes &gt; Hedgehogs. The world really is complex, and a
-simple unified theory seems very unlikely. Also, I'll have to read more IB,
-in less turbulent circumstances. And more Tolstoy!</p>
 
 
         
