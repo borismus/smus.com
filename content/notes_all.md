@@ -4,6 +4,131 @@ type: note
 class: split
 
 
+Reading in 2018
+===
+posted: January 10, 2019
+
+I read a few [books](/books) in 2018. My highlights include speculative fiction
+stories (short and long) from Chinese authors: Ted Chiang, Ken Liu, Liu Cixin,
+Chen Qiufan, Xia Jia, Hao Jingfang. Also really enjoyed Player of Games and
+Darkness at Noon. On the non-fiction front, I listened to two excellent history
+lectures: one on modern China, another on the French Revolution. I also read a
+pair of books describing cyclical views of history: The Fourth Turning, and a
+more scientific take, War and Peace and War. A standout non-fiction favorite was
+Impro, which I will definitely be returning to.
+
+Most of my internet reading happens through Instapaper, which affords me a 
+handy chronicle of articles that I enjoyed. Here are a few of them:
+
+<!--more-->
+
+- Between 1900 and 1910, Seattle’s population tripled, from just over 80,000 to
+  more than 230,000 people. [The Story Behind Seattle's Obsession With Craftsman
+  Homes](http://archive.kuow.org/post/story-behind-seattles-obsession-craftsman-homes)
+- The demo drew rave reviews from the technology press. [No, Google’s Pixel Buds
+  won’t change the
+  world](https://www.1843magazine.com/technology/the-daily/no-googles-pixel-buds-wont-change-the-world)
+- That’s home. That’s us. On it everyone you love, everyone you know, everyone
+  you ever heard of, every human being who ever was, lived out their lives.
+  [Carl Sagan’s Pale Blue Dot, Animated in Motion
+  Graphics](https://www.brainpickings.org/2012/12/10/pale-blue-dot-motion-graphics/)
+- Our choice is not between "regulation" and "no regulation." The code
+  regulates. It implements values, or not. It enables freedoms, or disables
+  them. It protects privacy, or promotes monitoring. [Code Is
+  Law](https://harvardmagazine.com/2000/01/code-is-law-html)
+- In other words: AIs are best at choosing answers. Humans are best at choosing
+  questions. [How To Become A
+  Centaur](https://jods.mitpress.mit.edu/pub/issue3-case)
+- Today’s belief in ineluctable certainty is the true innovation-killer of our
+  age. In this environment, the best an audacious manager can do is to develop
+  small improvements to existing systems — climbing the hill, as it were, toward
+  a local maximum, trimming fat, eking out the occasional tiny innovation — like
+  city planners painting bicycle lanes on the streets as a gesture toward
+  solving our energy problems. [Innovation
+  Starvation](https://www.wired.com/2011/10/stephenson-innovation-starvation/)
+- There is no reason to let a company make so much money while potentially
+  helping to radicalize billions of people [YouTube, the Great
+  Radicalizer](https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html)
+- Favoring the “soft” aspects of a college application is straightforwardly
+  beneficial to the more privileged at the expense of the less. [The Progressive
+  Case for the
+  SAT](https://jacobinmag.com/2018/03/sat-class-race-inequality-college-admission)
+- Science fiction allows us the distance to circumvent issue fatigue in our very
+  troubled times. [Science fiction when the future is
+  now](https://www.nature.com/articles/d41586-017-08674-8)
+- Isaiah Berlin, sobered by the 20th century’s failed utopias, has argued for a
+  more modest liberal pluralism that makes room for multiple, genuinely
+  conflicting goods. Family and work, solidarity and autonomy, tradition and
+  innovation are really valuable, and really in tension [When Truth and Reason
+  Are No Longer
+  Enough](https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/)
+- I am not a relativist; I do not say "I like my coffee with milk and you like
+  it without; I am in favor of kindness and you prefer concentration camps"
+  [Isaiah Berlin on
+  Pluralism](https://www.cs.utexas.edu/users/vl/notes/berlin.html)
+- Unstructured, unsupervised time for play is one of the most important things
+  we have to give back to kids if we want them to be strong and happy and
+  resilient. [The Fragile
+  Generation](https://reason.com/archives/2017/10/26/the-fragile-generation)
+- The average net worth among adults in the 95th to 99th percentile is about
+  $1.7 million. Among the 0.1 percent, it’s about $60 million. Who, exactly, are
+  the aristocrats again? [Forget What the Atlantic Is Telling You. The 1 Percent
+  Are Still the
+  Problem](https://slate.com/business/2018/05/forget-the-atlantics-9-9-percent-the-1-percent-are-still-the-problem.html)
+- We are a species that strives not just for survival, but also for
+  significance. We want lives that matter. [Is This an Existential
+  Crisis?](https://www.nytimes.com/2018/06/23/opinion/sunday/suicide-rate-existential-crisis.html)
+- To support triangulation, we recommend a shift to a contributorship model,
+  similar to the credits that roll at the end of a film — a long list of
+  individuals with their contributions described fully and specifically [Robust
+  research needs many lines of
+  evidence](https://www.nature.com/articles/d41586-018-01023-3)
+- Do whatever you can’t stop thinking about. Documenting your findings in public
+  (regardless of outcomes!) is a worthy contribution to society, full stop. [The
+  independent researcher](https://nadiaeghbal.com/independent-research)
+- Various studies have identified cooperation as a core theme in popular
+  narratives across the world. ... nearly 80% of their tales concerned moral
+  decision making and social dilemmas [Our fiction addiction: Why humans need
+  stories](http://www.bbc.com/culture/story/20180503-our-fiction-addiction-why-humans-need-stories)
+- The transhumanist vision too easily reduces all of reality to data,
+  concluding that “humans are nothing but information-processing objects.”
+  [Survival of the
+  Richest](https://medium.com/s/futurehuman/survival-of-the-richest-9ef6cddd0cc1)
+- This means that the mistake must be at the root, at the very basis of human
+  thinking in the past centuries. ... It could also be called
+  anthropocentricity, with man seen as the center of everything that exists. [A
+  World Split
+  Apart](https://www.americanrhetoric.com/speeches/alexandersolzhenitsynharvard.htm)
+- Concoct one story where things get better, one where they get worse, and one
+  where they get weird. [How to Make a Big
+  Decision](https://www.nytimes.com/2018/09/01/opinion/sunday/how-make-big-decision.html)
+- Particularly sad is the belief that the majority of the homeless were drunks,
+  drug addicts, criminals or thieves. It is true that the category “homeless”
+  has come to include all of those people, but there are so many, many more who
+  are none of those things. [Why I started giving to the homeless](https://crosscut.com/2018/09/why-i-started-giving-homeless)
+- Perhaps unsurprisingly, Magic Leap is almost entirely built on the visions of
+  grown men wanting to immerse themselves in fantasy worlds. [The Magic Leap
+  Con](https://gizmodo.com/the-magic-leap-con-1829716266)
+- The really important kind of freedom involves attention, and awareness, and
+  discipline, and effort, and being able truly to care about other people and to
+  sacrifice for them, over and over, in myriad petty little unsexy ways, every
+  day. That is real freedom. The alternative is unconsciousness, the
+  default-setting, the "rat race"-the constant gnawing sense of having had and
+  lost some infinite thing. [This is Water](https://fs.blog/2012/04/david-foster-wallace-this-is-water/)
+- The big mistake in this pattern of failure is projecting your subjective lack
+  of comprehension onto the object you are looking at, as “irrationality.” We
+  make this mistake because we are tempted by a desire for legibility. [A Big Little Idea Called Legibility](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)
+- There is something sinister and corrupt—Maoist—in the habit of assigning
+  people to categories. [America Is Addicted to Outrage. Is There a
+  Cure?](https://www.wsj.com/articles/america-is-addicted-to-outrage-is-there-a-cure-1543620811)
+- Like the open office, the loud restaurant seems to have overstayed its
+  welcome. That’s because loud restaurants are more profitable. [How Restaurants
+  Got So
+  Loud](https://www.theatlantic.com/technology/archive/2018/11/how-restaurants-got-so-loud/576715/)
+
+
+
+
 Against retweets
 ===
 posted: September 9, 2018
