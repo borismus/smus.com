@@ -5,8 +5,49 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-01-04T16:01:57-00:00</updated>
+  <updated>2019-01-11T10:10:38-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Building a Bridge to the 18th Century</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/building-a-bridge-to-the-18th-century"/>
+    
+    <updated>2019-01-11T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/building-a-bridge-to-the-18th-century</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Neil Postman has strong opinions:</p>
+
+<ul>
+<li>The 18th century was awesome. </li>
+<li>Postmodernism is always, unequivocally bad. </li>
+<li>You don't need typewriters or computers, paper and pen is good enough. </li>
+<li>People are getting stupider and stupider. </li>
+<li>Defeating straw man arguments is super fun. </li>
+</ul>
+
+<p>Postman cites many great thinkers in a way that is clearly erudite. However the
+book is rather short and covers a lot of ground, making his name dropping quite
+annoying. Rather than delivering deep points, Postman remains on the surface,
+hinting at the existence of various philosophical ideas that he is intimately
+familiar with. All this while struggling to structure a coherent narrative. </p>
+
+<p>I found the book mostly useless. It's a shallow summary of some stuff I already
+knew, and set forth an exaggerated technological pessimism that I, to some
+extent, share. In my most charitable view, Postman's over exaggerated positions
+were intended to provoke thought for some hypothetical starry eyed silicon
+valley entrepreneurial techno-optimist. Unfortunately, Postman's position is so
+extreme and arguments so cliched, I found myself rooting for the other side. </p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Infinite Planets</title>
@@ -4452,37 +4493,11 @@ test of time. </p>
   </entry>
   
   <entry>
-    <title>Great Gatsby by F. Scott Fitzgerald</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
-    
-    <updated>2017-06-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
-that are so fantastically well off.  Very unsympathetic characters throughout,
-except for the narrator. </p>
-
-<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
-parties, loose connections, endless networking and small talk.  There is a
-certain aimlessness to it that I found very relatable.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
     <title>The Psychology of Curiosity</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-04T09:00:00-00:00</updated>
+    <updated>2017-06-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -4703,11 +4718,37 @@ paper ended, so had to finish reading the last page online.</p>
   </entry>
   
   <entry>
+    <title>Great Gatsby by F. Scott Fitzgerald</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/great-gatsby-by-f-scott-fitzgerald"/>
+    
+    <updated>2017-06-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Incredibly vividly written. Fascinating to see the self made struggles of people
+that are so fantastically well off.  Very unsympathetic characters throughout,
+except for the narrator. </p>
+
+<p>Something about Gatsby's lifestyle reminds me of my time in SF. Large house
+parties, loose connections, endless networking and small talk.  There is a
+certain aimlessness to it that I found very relatable.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Finite and Infinite Games by James Carse</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -4750,7 +4791,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -4945,7 +4986,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-04T09:00:00-00:00</updated>
+    <updated>2017-05-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -5010,7 +5051,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-04T09:00:00-00:00</updated>
+    <updated>2017-04-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -5104,7 +5145,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-04T09:00:00-00:00</updated>
+    <updated>2017-03-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -5154,7 +5195,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-04T09:00:00-00:00</updated>
+    <updated>2017-03-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -5191,7 +5232,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-04T09:00:00-00:00</updated>
+    <updated>2017-02-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -5259,7 +5300,7 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
     
-    <updated>2017-02-04T09:00:00-00:00</updated>
+    <updated>2017-02-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
     <content type="html">
@@ -5287,7 +5328,7 @@ short length.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
     <content type="html">
@@ -5348,7 +5389,7 @@ another of virtualizing reality.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
     <content type="html">
@@ -5383,7 +5424,7 @@ Hopefully this is an issue we can grapple with one day.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
     
-    <updated>2017-01-04T09:00:00-00:00</updated>
+    <updated>2017-01-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
     <content type="html">
@@ -5450,7 +5491,7 @@ But surely there must be some good arguments in defense of hedgehogs.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
     
-    <updated>2016-12-04T09:00:00-00:00</updated>
+    <updated>2016-12-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
     <content type="html">
@@ -5541,7 +5582,7 @@ is as a process, and then the ninth, on actively open minded thinking.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/brief-wondrous-life-of-oscar-wao"/>
     
-    <updated>2016-11-04T09:00:00-00:00</updated>
+    <updated>2016-11-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/brief-wondrous-life-of-oscar-wao</id>
     <content type="html">
@@ -5587,7 +5628,7 @@ it's hard to really empathize with the guy.</li>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/future-babble"/>
     
-    <updated>2016-10-04T09:00:00-00:00</updated>
+    <updated>2016-10-11T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/future-babble</id>
     <content type="html">
@@ -5638,40 +5679,6 @@ you might be wrong.</li>
 <li>Be humble. Predictions are always uncertain. Predictions too far into the
 future even more so.</li>
 </ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>I Am A Strange Loop</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/i-am-a-strange-loop"/>
-    
-    <updated>2016-10-04T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/i-am-a-strange-loop</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I read Godel Escher Bach many years ago and really enjoyed it at the time. When
-I got my hands on this book, I was excited to read a late Doug Hofstadter work.
-To my surprise, by the end of Chapter 3, I was done with it. This book had none
-of the variety of its predecessor, and not much in terms of new ideas (as far as
-I can remember). I competely agreed with a goodreads review of it, courtesy of
-<a href="http://www.goodreads.com/review/show/148256192?book_show_action=true&amp;from_review_page=1">Zach</a>.</p>
-
-<pre><code>Conceptually, I guess you could say, I enjoyed it, but the presentation -
-the language of the author, the over-long format, and the strange mixture of
-hard math and elementary philosophy - diminished and diluted the content to
-the point that it was barely worth reading. The first problem is
-Hofstadter’s “aww shucks” Uncle Fluffy writing style. His language is so
-steeped in a fireside chat mentality that the meat of his ideas is
-completely devoured by his good-natured cleverness.
-</code></pre>
 
 
         
