@@ -8,17 +8,25 @@ Reading in 2018
 ===
 posted: January 10, 2019
 
-I read a few [books](/books) in 2018. My highlights include speculative fiction
-stories (short and long) from Chinese authors: Ted Chiang, Ken Liu, Liu Cixin,
-Chen Qiufan, Xia Jia, Hao Jingfang. Also really enjoyed Player of Games and
-Darkness at Noon. On the non-fiction front, I listened to two excellent history
-lectures: one on modern China, another on the French Revolution. I also read a
-pair of books describing cyclical views of history: The Fourth Turning, and a
-more scientific take, War and Peace and War. A standout non-fiction favorite was
-Impro, which I will definitely be returning to.
+I read and listened to a few [books](/books) in 2018. My highlights include
+speculative fiction stories from Chinese authors: [Ted
+Chiang](/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang/), [Liu
+Cixin](/books/three-body-problem-by-liu-cixin-audio/), [Ken Liu's translations
+of](/books/infinite-planets/), Chen Qiufan, Xia Jia, Hao Jingfang. Also really
+enjoyed [Player of Games](/books/player-of-games-by-iain-m-banks/) and [Darkness
+at Noon](/books/darkness-at-noon-by-arthur-koestler-audio/). On the non-fiction
+front, I listened to two excellent history lectures: one on [modern
+China](/books/the-fall-and-rise-of-china-audio/), another on the [French
+Revolution](/books/living-the-french-revolution-audio/). I also read a pair of
+books describing cyclical views of history: [The Fourth
+Turning](/books/the-fourth-turning-by-howe-and-strauss/) and a more scientific
+take, [War and Peace and War](/books/war-and-peace-and-war-by-peter-turchin/).
+A standout non-fiction favorite was [Impro](), which I will definitely be
+returning to.
 
 Most of my internet reading happens through Instapaper, which affords me a 
-handy chronicle of articles that I enjoyed. Here are a few of them:
+handy chronicle of articles that I enjoyed. Here are a few of them (excerpts are
+not endorsements):
 
 <!--more-->
 
