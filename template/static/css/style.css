@@ -297,6 +297,8 @@ section#gallery .item label {
 
 section#gallery .item:hover label {
   opacity: 1;
+  background: black;
+  padding: 4px 16px;
 }
 
 section#gallery .item time {
@@ -441,4 +443,9 @@ table tr + tr {
   section#gallery {
     margin: 0;
   }
+}
+
+.resume-header {
+  font-size: 32px;
+  font-weight: bold;
 }

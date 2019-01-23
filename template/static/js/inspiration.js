@@ -1,10 +1,15 @@
-// TODO: Refactor into a proper class!
+// TODO: Refactor into proper classes!
 function InspirataGallery(params) {
   var uid = params.uid;
   var el = params.el;
   var url = GALLERY_ROOT + uid + '.json';
+  return UrlGallery(url);
+}
+
+function UrlGallery(url) {
   loadJson(url, onJson);
 }
+
 var PROJECT_ID = 'project-4121485576010625868';
 var GALLERY_ROOT = 'https://' + PROJECT_ID + '.firebaseio.com/users/';
 var GALLERY_PADDING = 20;
@@ -59,9 +64,28 @@ function createGalleryImage(item) {
   el.style.height = (dims.height + 0) + 'px';
   el.style.marginBottom = GALLERY_PADDING + 'px';
 
+  // Pre-download the preview if it exists, then download the full size image.
+  if (item.preview) {
+    const preview = new Image();
+    preview.src = item.preview.url;
+    preview.onload = () => {
+      a.style.backgroundImage = 'url(' + item.preview.url + ')';
+      downloadFull(item);
+    };
+  } else {
+    downloadFull(item);
+  }
+
+  function downloadFull() {
+    const full = new Image();
+    full.src = item.image.url;
+    full.onload = () => {
+      a.style.backgroundImage = 'url(' + item.image.url + ')';
+    }
+  }
+
   var a = document.createElement('a');
   a.href = item.url;
-  a.style.backgroundImage = 'url(' + item.preview.url + ')';
   a.style.backgroundRepeat = 'no-repeat';
   a.style.backgroundSize = dims.width + 'px ' + dims.height + 'px';
   a.style.backgroundColor = getColor(item.color);
