@@ -1,0 +1,181 @@
+{
+  "iwork": {
+    "image": {
+      "width": 690,
+      "height": 643,
+      "url": "iwork.png"
+    },
+    "preview": {
+      "width": 207,
+      "height": 193,
+      "url": "iwork_preview.png"
+    },
+
+    "url": "http://iwork.com",
+    "color": [255, 255, 255],
+    "caption": "Contributed to iWeb and iWork at Apple."
+  },
+  "cmu": {
+    "image": {
+      "width": 804,
+      "height": 604,
+      "url": "cmu-wearable.jpg"
+    },
+    "url": "#",
+    "color": [255, 255, 255],
+    "caption": "Published several short papers on wearable computing while at CMU."
+  },
+  "html5rocks": {
+    "image": {
+      "width": 459,
+      "height": 364,
+      "url": "html5rocks.png"
+    },
+    "url": "http://www.html5rocks.com/",
+    "color": [255, 255, 255],
+    "caption": "Authored dozens of articles on html5rocks.com."
+  },
+  "io": {
+    "image": {
+      "width": 852,
+      "height": 473,
+      "url": "io-talks.jpg"
+    },
+    "url": "/talks",
+    "color": [255, 255, 255],
+    "caption": "Presented at Google I/O thrice, gave talks to thousands of developers."
+  },
+  "cardboard": {
+    "preview": {
+      "width": 640,
+      "height": 320,
+      "url": "cardboard_preview.jpg"
+    },
+    "image": {
+      "width": 640,
+      "height": 320,
+      "url": "cardboard.gif"
+    },
+    "url": "https://g.co/cardboard",
+    "color": [125, 108, 95],
+    "caption": "Invented and implemented the original Google Cardboard input method."
+  },
+  "wa-book": {
+    "image": {
+      "width": 600,
+      "height": 787,
+      "url": "web-audio-book.jpg"
+    },
+    "url": "http://www.amazon.com/Web-Audio-API-Boris-Smus/dp/1449332684",
+    "caption": "Wrote the O'Reilly book about the Web Audio API.",
+    "date": 1366416000000,
+    "color": [255, 255, 255]
+  },
+  "tone": {
+    "preview": {
+      "width": 831,
+      "height": 458,
+      "url": "google-tone_preview.png"
+    },
+    "image": {
+      "width": 831,
+      "height": 458,
+      "url": "google-tone.gif"
+    },
+    "url": "http://g.co/tone",
+    "caption": "Built a popular Chrome Extension for sending URLs over sound.",
+    "date": 1432512000000,
+    "color": [255, 255, 255]
+  },
+  "spectrogram": {
+    "image": {
+      "width": 1000,
+      "height": 211,
+      "url": "spectrogram.jpg"
+    },
+    "url": "https://borismus.github.io/spectrogram/",
+    "caption": "Built a live-input spectrogram using the Web Audio API.",
+    "color": [255, 255, 255]
+  },
+  "expeditions": {
+    "preview": {
+      "width": 640,
+      "height": 488,
+      "url": "expeditions_preview.png"
+    },
+    "image": {
+      "width": 640,
+      "height": 488,
+      "url": "expeditions.gif"
+    },
+    "url": "https://vr.google.com/tourcreator/",
+    "caption": "Prototyped Google's VR tour creator.",
+    "date": 1432512000000,
+    "color": [255, 255, 255]
+  },
+  "music-lab-spectrogram": {
+    "image": {
+      "width": 795,
+      "height": 588,
+      "url": "chrome-music-lab.jpg"
+    },
+    "url": "https://musiclab.chromeexperiments.com/Spectrogram/",
+    "caption": "Developed a 3D spectrogram for the Chrome Music Lab.",
+    "color": [0, 0, 0]
+  },
+  "webvr-tools": {
+    "image": {
+      "width": 1000,
+      "height": 493,
+      "url": "webvr-tools.jpg"
+    },
+    "url": "https://github.com/immersive-web/",
+    "caption": "Built webvr-polyfill, webvr-boilerplate and other WebVR dev tools.",
+    "color": [0, 0, 0]
+  },
+  "webvr-demos": {
+    "image": {
+      "width": 1000,
+      "height": 493,
+      "url": "webvr-demos.jpg"
+    },
+    "url": "https://www.google.com/search?q=site%3Asmus.com+vr",
+    "caption": "Built a variety of early WebVR demos.",
+    "color": [255, 255, 255]
+  },
+  "web-audio-features": {
+    "image": {
+      "width": 800,
+      "height": 598,
+      "url": "filter-playground.png"
+    },
+    "url": "https://borismus.github.io/filter-playground/?equation=(z^2-1)/(z^2-1.975z+0.99)",
+    "caption": "Designed and implemented an explorable explanation to better understand some DSP concepts",
+    "color": [255, 255, 255]
+  },
+  "web-audio-features": {
+    "image": {
+      "width": 1408,
+      "height": 552,
+      "url": "web-audio-features.png"
+    },
+    "url": "/web-audio-ml-features/",
+    "caption": "Implemented a log-mel feature extractor in JS",
+    "color": [255, 255, 255]
+  },
+  "comparing": {
+    "preview": {
+      "width": 1126,
+      "height": 250,
+      "url": "comparing-interpretations.jpg"
+    },
+    "image": {
+      "width": 1126,
+      "height": 250,
+      "url": "comparing-interpretations.gif"
+    },
+    "url": "https://borismus.github.io/classical-interpreter/",
+    "color": [255, 255, 255],
+    "caption": "Compare interpretations of the same piece."
+  }
+}
