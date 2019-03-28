@@ -21,12 +21,12 @@ gave talks to thousands of developers. I have
 patents and a few academic papers. I'm a huge supporter of and regular
 contributor to [open source projects](https://github.com/borismus/). My main
 areas of interest include education, sensors, audio, music, and user interfaces.
+My [portfolio](/portfolio) shows off some recent projects I worked on.
 
 I have a Masters in Human Computer Interaction from Carnegie Mellon University,
 and a BSc (hon) in Mathematics and Computer Science from the University of
 British Columbia. I was born in Leningrad, RSFSR, and spent my formative years
 in Vancouver, Canada.
 
-My [portfolio](/portfolio) shows off some recent projects I worked on. Reach me
-at [boris@smus.com](mailto:boris@smus.com) or as 
-[@borismus](https://twitter.com/borismus).
+Reach me by [email](mailto:boris@smus.com) or on
+[twitter](https://twitter.com/borismus).
