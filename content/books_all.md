@@ -28,7 +28,7 @@ lecturer made throughout the lecture, her etymological diversions, and lively
 depictions of heroes and villans, and also references to popular culture (movies
 mostly).
 
-# English chronology, roughly speaking 900 - 1500
+## English chronology, roughly speaking 900 - 1500
 
 (Imagine reading these in the style of Drunk History, I think it works best)
 
@@ -196,7 +196,7 @@ Henry VII married Elizabeth of York. He and his son Henry VIII then
 systematically eliminated all of the pretenders to the throne, and paved the way
 for English supremacy during the Renaissance. 
 
-# Crazy etymological stuff
+## Crazy etymological stuff
 
 - The name Easter comes from the pagan holiday Eostre. The apple does not fall
   far from the tree. 
@@ -213,7 +213,7 @@ for English supremacy during the Renaissance.
 - The notion of bearing arms used to mean that you had a coat of arms, as an
   indication of status. This sure has morphed over time for sure!
 
-# Interesting thoughts and insights
+## Interesting thoughts and insights
 
 It remains unclear to me what role Thanes played in 9th century England. Did
 they have several shires in their control?
