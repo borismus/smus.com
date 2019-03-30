@@ -5,8 +5,675 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-01-23T08:52:10-00:00</updated>
+  <updated>2019-03-30T15:53:02-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Seeing Like a State by James Scott</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/seeing-like-a-state-by-james-scott"/>
+    
+    <updated>2019-03-28T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/seeing-like-a-state-by-james-scott</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>The most succinct version summary of Seeing Like a State this is what has been
+called The Authoritarian High-Modernist <a href="https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/">Recipe for Failure</a>:</p>
+
+<ol>
+<li>Look at a complex and confusing reality</li>
+<li>Fail to understand all the subtleties of how the complex reality works</li>
+<li>Attribute that failure to the irrationality of what you are looking at,
+rather than your own limitations</li>
+<li>Come up with an idealized blank-slate vision of what that reality ought to
+look like</li>
+<li>Argue that the relative simplicity and platonic orderliness of the vision
+represents rationality</li>
+<li>Use authoritarian power to impose that vision, by demolishing the old reality
+if necessary</li>
+<li>Watch your rational Utopia fail horribly</li>
+</ol>
+
+<p>On the other hand, humanity has clearly benefitted from modern institutions that
+scale. Scale requires optimization. Optimization requires simplification.
+But overly simplified schemes dehumanify people, converting humans into drones
+lacking agency and autonomy. My main question going into this book: how to
+strike the right balance?</p>
+
+<p>Anyway, back to the book: Scott goes through many different examples of the
+above scheme in practice.</p>
+
+<h2>Scientific Forestry</h2>
+
+<p>Pioneers of modern forestry viewed forests as factories for growing trees:</p>
+
+<blockquote>
+  <p>"One should manage the forest so as to guarantee the highest sustained
+  financial revenue, when all usable products are calculated in money." –
+  Friedrich Wilhelm Pfeil, the first director of the Eberswald Academy of Forestry
+  (1856)</p>
+</blockquote>
+
+<p>This led to the unintended consequence of forest dieback. A century later, an
+observer wrote:</p>
+
+<blockquote>
+  <p>Many of the pure stands [of spruce] grew excellently in the first generation
+  but already showed an amazing retrogression [decline in yields] in the second
+  generation.” – Richard Plochmann, District Chief of the Bavarian Forest Service
+  (1968)</p>
+</blockquote>
+
+<h2>City Planning</h2>
+
+<p>Modern planners believed that city planning can be done abstractly, without any
+regard for the specifics of the city's residents.  Le Corbusier's vantage point
+is entirely external to the city, completely devoid of cultural context of the
+people he was building for. The resulting city was perfect for an average human
+that didn't exist. His plans were best seen from an airplane, and his sketches
+entering the port on or ship. Le Corbusier's concerns are visual. </p>
+
+<blockquote>
+  <p>"Houses are machines for living in." – Le Corbusier (1923)</p>
+</blockquote>
+
+<p>This led to planned cities like Brasilia and Chandigarh. These cities were
+visually appealing from abstract vantage points, but not functionally livable.
+They worked for people only because of an inevitable departure from the
+architect's master plan, molding it to their actual needs.</p>
+
+<p>One anecdote was particularly striking to me. Le Corbusier went so far as to
+design plans for Moscow that were judged too radical by the Soviets. Unfazed, he
+took the same plans and recycled them to use for central Paris!  In contrast,
+Jane Jacobs in her book The Death and Life of Great American Cities, championed
+function over form, and walked in the shoes of a resident of the city.</p>
+
+<h2>Russian Revolution</h2>
+
+<p>Lenin believed that communism must be brought in through violent revolution.</p>
+
+<blockquote>
+  <p>"The organisation of the vanguard of the oppressed as the ruling class for the
+  purpose of crushing the oppressors." - Lenin (1917)</p>
+</blockquote>
+
+<p>He viewed the Vanguard Party as a machine for bringing on communism. Needless to
+say, the revolution led to a huge loss of life, and then even more in the
+repressions that followed. Conflicts with the Kulaks over collectivisation led
+to a terrible decline in quality of life for farmers and workers that Lenin was
+trying to help.</p>
+
+<p>Rosa Luxemburg, a Marxist theorist and anti-war activist, and her spiritual
+successor Alexandra Kollontai, a Russian Menshevik, had a very different take on
+communism. Theirs was a nature-inspired view of social uprisings, strife, and
+revolution. This bottom-up view was diametrically opposed to Lenin's top-down
+view.</p>
+
+<p>There are striking parallels with Jane Jacobs' critique of Le Corbusier.
+Is it a coincidence that in both cases, it is a woman's humanistic, nuanced, and
+intuitive tendencies criticizing the iron fisted absolution of a man?</p>
+
+<h2>Agriculture</h2>
+
+<p>Modern farming views the farm as a factory for producing food. The bigger and
+more specialized, the better. This trend was present both in the west and in the
+east in the early twentieth century, but it is illuminating to see the
+differences in approach. This illustrates a point Scott hedges on repeatedly,
+that high modernism by itself is not the problem, but requires authoritarianism
+to lead to disastrous results.</p>
+
+<p>In America, large industrial farms led to bad outcomes, but these did not lead
+to massive famines or millions of deaths. In the east, the sheer scale of the
+operation led to disaster. Early Kolhoz were created by dividing whole swaths of
+Russia into a grid of 2500 hectare plots, and requiring quotas from each "farm"
+without much regard for whether the land was arable or not. Collectivization in
+the Soviet Union and China led to large scale famines and millions of deaths.</p>
+
+<p>On the topic of agriculture, Scott explicitly mentioned one feedback loop I
+found interesting. Crops were modified to make them more amenable to mechanized
+picking. This led to a monoculture and a more fragile crop, and thus to
+increased pesticide use.</p>
+
+<h2>Applications to corporations</h2>
+
+<p>One of the major ideas in the book is legibility, the process by which modern
+states, over a long period of time, attempt to understand society, simplify it,
+and make it more managable. In Scott's own words, to</p>
+
+<blockquote>
+  <p>arrange the population in ways that simplified the classic state functions of
+  taxation, conscription, and prevention of rebellion.  Having begun to think in
+  these terms, I began to see legibility as a central problem in statecraft. The
+  pre-modern state was, in many crucial respects, particularly blind; it knew
+  precious little about its subjects, their wealth, their landholdings and yields,
+  their location, their very identity. It lacked anything like a detailed “map” of
+  its terrain and its people.</p>
+</blockquote>
+
+<p>It struck me that a lot of Scott's critiques apply to corporations just as much
+as they do to governments. In many cases, tech companies are in the business of
+taking an existing practice and digitizing it.  Companies like Convoy and Cloud
+Kitchens, in an attempt to digitize the physical, are implicitly increasing
+legibility and imposing the same sorts of potential pitfalls that will be
+described in this book.</p>
+
+<p>In particular, this involves the following:</p>
+
+<ol>
+<li>Understand the physical world</li>
+<li>Predict the future state of the physical world</li>
+<li>Control the future state of the physical world</li>
+</ol>
+
+<p>This is exactly the same sequence of steps that most of the high modernist
+examples in this book undertake.</p>
+
+<h2>Recipes for success</h2>
+
+<p>Scott has a few suggestions which I succinctly summarize "be humble". He
+explicitly writes:</p>
+
+<ul>
+<li>Take small steps, observe results, repeat.</li>
+<li>Make sure the steps are reversible. The first rule of intelligent tinkering is
+to save all the parts. (Aldo Leopold)</li>
+<li>Plan for surprises.</li>
+<li>Plan on human inventiveness. </li>
+</ul>
+
+<p>Scott uses "metis", a Greek word for know-how, or cunning, or chutzpah, to
+describe a lot of what's missing in high modernist ideology. Metis refers to the
+sorts of things that cannot be taught, but must be practiced, like riding a
+bike, playing an instrument. Scott argues this understanding of the practical is
+critical for any high modernist scheme, as the scheme is inevitably overly
+simplifying, so gaps emerge that need to be filled.</p>
+
+<p>Metis has led to folk discoveries that were done by non-scientific method were
+often rediscovered by science in some form and formalized. Scott makes a sort of
+prediction that this traditionally derived wisdom is still far ahead of
+scientific discovery in some domains, such as poly-cropping for example.</p>
+
+<p>One common theme across all of the high modernist failures is mechamorphism:
+everything is a machine. For Le Corbusier, the house was a machine for living
+in. For Lenin, the vanguard party was a machine for bringing forth communism.
+For practitioners of Forstwissenschaft, forests were factories for making trees,
+and farms are factories for making food. It's easy to make fun of, but maybe today's metaphors will be similarly flawed?</p>
+
+<h2>Seeing Like a State and AI</h2>
+
+<p>Speaking of today's metaphors...</p>
+
+<p>In the spirit of Chesterton's Fence, it's worth taking a closer look at
+simplifying schemes that we take for granted. They may actually have adverse
+side effects. Can we undo them through a better understanding of the things
+that came before them?</p>
+
+<p>High modernism often fails because it is overly reductive. I keep wondering: can
+we better understand complex, natural domains with modern technology? We've made
+really great progress in some areas like speech recognition. Can we apply
+AI to better understand complex domains without being overly reductive and
+prescriptive? For example, what if we built a gardening AI to take meticulous
+care of an organic polyculture farm?</p>
+
+<p>Imagine a future in which a series of complex, domain-specialized AIs have been
+created in such domains as gardening and driving. We may well end
+up with systems that work super well, but are <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence">far less legible</a>. What
+would the ensuing world look like? I'm imagining self driving cars with emergent
+swarming behaviors that look completely terrifying from the sky, but would be
+very functional and completely safe (as long as no humans were involved in
+driving decisions). I feel that we are very far from such a world, but it's fun
+to think about.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Invisible Cities by Italo Calvino</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/invisible-cities-by-italo-calvino"/>
+    
+    <updated>2019-02-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/invisible-cities-by-italo-calvino</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Calvino writes in some of the most poetic prose in my recent memory. At times it
+borders on obscurity, but often it is beautiful almost beyond words.</p>
+
+<p>Marco Polo tells Kublai Khan stories of the cities he's been to. A handful of
+cities are each vividly described in a few paragraphs, and then we return to the
+court, where Polo, diplomatic like a dragoman, tends to Khan's whims. </p>
+
+<p>Are all of these cities metaphors for facets of a single city? Are the cities
+real? Has Polo even been to them? Are Khan and Polo really communicating
+non-verbally, in gestures and dances? Everything has an ethereal feel, and all
+of the aforementioned questions are raised by the author himself, and all turn
+out to be irrelevant. </p>
+
+<p>At the same time, Calvino captures truths and conveys ideas with the emotional
+valence that only good fiction writers can. All the while, the descriptions of
+his cities are masterfully written, and incredibly imaginative. Some of my
+highlights follow.</p>
+
+<p>A familiar feeling when traveling:</p>
+
+<blockquote>
+  <p>Marco enters a city; he sees someone in a square living a life or an instant
+  that could be his; he could now be in that man’s place, if he had stopped in
+  time, long ago; or if, long ago, at a crossroads, instead of taking one road he
+  had taken the opposite one, and after long wandering he had come to be in the
+  place of that man in that square.</p>
+</blockquote>
+
+<p>Another familiar feeling:</p>
+
+<blockquote>
+  <p>“Traveling, you realize that differences are lost: each city takes to
+  resembling all cities, places exchange their form, order, distances, a shapeless
+  dust cloud invades the continents.</p>
+</blockquote>
+
+<p>So imaginative:</p>
+
+<blockquote>
+  <p>You do not come to Euphemia only to buy and sell, but also because at night,
+  by the fires all around the market, seated on sacks or barrels or stretched out
+  on piles of carpets, at each word that one man says—such as “wolf,” “sister,”
+  “hidden treasure,” “battle,” “scabies,” “lovers”—the others tell, each one, his
+  tale of wolves, sisters, treasures, scabies, lovers, battles. And you know that
+  in the long journey ahead of you, when to keep awake against the camel’s swaying
+  or the junk’s rocking, you start summoning up your memories one by one, your
+  wolf will have become another wolf, your sister a different sister, your battle
+  other battles, on your return from Euphemia, the city where memory is traded at
+  every solstice and at every equinox.</p>
+</blockquote>
+
+<p>And vivid:</p>
+
+<blockquote>
+  <p>Thus the city repeats its life, identical, shifting up and down on its empty
+  chessboard. The inhabitants repeat the same scenes, with the acton changed; they
+  repeat the same speeches with variously combined accents; they open alternate
+  mouths in identical yawns. Alone, among all the cities of the empire, Eutropia
+  remains always the same. Mercury, god of the fickle, to whom the city is sacred,
+  worked this ambiguous miracle.</p>
+</blockquote>
+
+<p>High modernist failure mode (after a generation, residents of the planned city
+Perinthia gradually turn into by monsters):</p>
+
+<blockquote>
+  <p>Perinthia’s astronomers are faced with a difficult choice. Either they must
+  admit that all their calculations were wrong and their figures are unable to
+  describe the heavens, or else they must reveal that the order of the gods is
+  reflected exactly in the city of monsters.</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The Story of Medieval England (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-story-of-medieval-england-audio"/>
+    
+    <updated>2019-02-19T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-story-of-medieval-england-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>In the grand scheme of things, the western world today is pretty great. To what
+do we owe its prosperity? I got curious about this and realized that the answer
+probably lies in the broader traditions of the anglosphere. I'd heard of the
+Magna Carta, and even seen it, but what was the big deal? Anyway, in my quest to
+understand, I came across this great series of lectures covering English history
+from around the 9th to the 15th century. Paxton does a great job of bringing
+life to what I've felt to be an often dry and confusing time and place. The
+narrative is mostly chronological, but once in a while, she pauses and explores
+an area in depth to great effect. I enjoyed the many cross-references the
+lecturer made throughout the lecture, her etymological diversions, and lively
+depictions of heroes and villans, and also references to popular culture (movies
+mostly).</p>
+
+<h2>English chronology, roughly speaking 900 - 1500</h2>
+
+<p>(Imagine reading these in the style of Drunk History, I think it works best)</p>
+
+<p>In the 8th century, England was split into seven kingdoms, each with its own
+local lords. These kingdoms were loosely organized into counties called Shires,
+each overseen by a Sheriff. This structure was originally military in nature,
+each shire producing some quota of soldiers to fight on behalf of the local
+lord. During this period, England was plagued by Danish invaders. Eventually,
+all but Wessex came under Danish control, until the ruler of Wessex, Alfred the
+Great, pushed back against the Danes and reconquered all of England. This didn't
+last long though, and eventually the Danish and previous residents of England
+melded into one people. However this was a troubled time, full of chaos and
+internal strife and a lack of central control over the country. (TV show to
+watch: The Last Kingdom)</p>
+
+<p><strong>William the Conqueror</strong> was a Norman (ie. descended from Norwegians who had
+conquered and settled in the north of France). After a series of failed kings,
+England's succession was unclear. William crossed the channel and burned farms,
+cutting off the food supply to London, and sieging it. Eventually William
+controlled both Normandy and England. He effectively suppressed rebellion and
+got the nobles on his side. English society eventually subsumed Norman culture.</p>
+
+<p>William's succession story is very colorful. Upon his gruesome death, his eldest
+son took England, while his middle son took Normandy. The eldest went on the
+first crusade, leaving England on lease to his brother. Meanwhile, Henry, the
+youngest of the three, got nothing. After his middle brother died in a hunting
+accident, Henry came to control both Normandy and England. Upon his return from
+crusade, Henry imprisoned his oldest brother for the rest of his life (30
+years?!). As king, <strong>Henry I</strong> made many changes, instituted the exchequer post
+and appointed officials based on merit rather than birth.</p>
+
+<p>Henry I's only son drowned in a drunken boat party. In his stead, Henry I
+favored his daughter Matilda who was married off to the Holy Roman Emperor. But
+queens weren't exactly a thing yet, so a succession dispute led to <strong>King
+Steven</strong> coming to power. Steven was and not a very kingly man, and not a very
+effective king. Anarchy and a civil war in erupted in England over Steven's
+legitimacy, with Matilda's vying to get Henry, her son from her second
+marriage onto the throne. </p>
+
+<p>Eventually she succeeded, and <strong>Henry II</strong>'s reign was focused on mending the
+damage done by the civil war, reuniting England and Normandy, and restoring it
+to grandpa William's glory. Henry II married Eleanor of Acquitaine, further
+expanding his empire into France. Sadly his reign was undone by a conflict with
+Thomas Beckett, formerly his right hand man, but now the archbishop of
+Canterbury. When he had Beckett killed for disobedience, he became deeply
+unpopular and Becket was canonized as a saint. (Movie: Beckett)</p>
+
+<p>Henry II was succeeded by his son Richard I, know as <strong>Richard the Lionheart</strong>.
+He was extremely popular for his military prowess, as well as patronage of arts
+and literature, especially the new genre of Legends of King Arthur, and Courtly
+Love. He went on the third pilgrimage, by which point Saladin had already
+reconquered Jerusalem. But Richard succeeded in defeating Saladin at Acco, which
+remained European controlled for a century. </p>
+
+<p>Upon Richard's death, he was succeeded by brother John. <strong>King John</strong> was not a
+good king, cruel, and petulant. John managed to lose all of England's holdings
+in France. He alienated his barons to such a degree that many of them banded
+together to impose a great charter (Magna Carta) on John, designed to curtail
+his power. This included trial by a jury of peers, and also no extraordinary
+taxation without cause. John got Pope Innocent to repudiate the Magna Carta. and
+eventually many English lords sided with the French, backing prince Louis as the
+English king. John's son Henry succeeded him, and managed to best Louis and
+win support of the English nobles with the help of William Marshall. </p>
+
+<p>Under <strong>Henry III</strong>, the baronial conflicts continued. The Magna Carta was
+reinstated, but still Henry III and his barons had many disagreements.
+Especially on the foreign policy front, Henry III had many strange and foolish
+ideas, attempting to reconquer Poitu in France, to place his brother on the
+Sicilian throne, and to prevent lords from going on crusade. Every time the king
+asked for a concession, the barons would trade it for more political power.
+Eventually this led to the Treaty of Oxford, which extended the Magna Carta,
+giving barons more power to appoint councils and administrators to effectively
+run the country. Henry accepts the treaty but then reneged with the support of
+an invited arbitrator St. Louis, King of France. The barons rebelled and forced
+his hand. Simon de Montfort, leader of the baronial revolt also formalized the
+structure of the parliament (from parle) which was formerly entirely informally
+called by the king when he wanted to raise money. Now the parliament would meet
+regularly, and be composed of 2 knights from each shire, and 2 members from
+specific boroughs, elected locally. This structure clearly precedes that of The
+House.</p>
+
+<p><strong>Edward I</strong>, Henry III's son, succeeded him, to a collective baronial relief.
+He was much more level headed than his father. Edward went on crusade, just like
+the legendary and much loved Richard I. Edward passed many reforms to the common
+law. In my books, he is ultimately a villan. He passed an Edict which banned
+Jews from England, which lasted for the next 350 years, until Cromwell allowed
+their return in the 17th century. In the grand scheme, this may be a greater
+travesty than the Spanish Inquisition!</p>
+
+<p><strong>Edward II</strong> succeeded his well loved father, and had an unpopular reign. He
+was accused of homosexuality because of his closeness with his nearest advisor,
+Galston. The barons hated this so much, they successfully expelled Galston to
+France five times, and eventually murdered him. The barons attempted to rise up
+against the king, but their efforts were quashed. The rebellion's leader was
+murdered as retribution without a trial, which didn't help Ed's popularity. Also
+Edward II suffered humiliating defeat at the hands of Robert the Bruce in
+Scotland. Ultimately he was deposed by his barons and placed in prison, where he
+died, possibly by being disemboweled as punishment for his lifestyle choices.
+His wife allied herself with the Barons, and succeeded in getting their son Ed
+III to the throne.</p>
+
+<p><strong>Edward III</strong> started his career as king under the thumb of his mother and her
+lover. When he grew old enough, Ed III took over in a coup and took the reigns.
+For a while he was also a legitimate heir to the French throne through his
+mother's line. Ultimately he conquered a bunch of French lands, including Calais
+in the north which was strategically important because it was the opposing port
+to Dover and constituted the shortest crossing of the channel. Rodin's famous
+sculpture of the six nobleman of Calais depicts a an event that actually
+happened where Edward III picked out six noblemen of Calais to be hung for their
+subordination, but conceded when his pregnant wife begged for mercy. Generally a
+very successful Ed III is remembered fondly in contrast to his father.</p>
+
+<p>To finance the Hundred Years War against France, Edward III introduced a tax
+that affected everyone, even the poorest. Previously taxes only applied to
+people that owned goods, effectively a wealth tax. This new head tax also rose
+over time. Also, papal patronage meant the pope instated high ranking clergy
+from Rome, barring local clergy. This is also the period of the Avignon
+"Babylonian captivity", when popes moved from Rome to southern France. During
+this Great Schism, there were sometimes 3 popes. I'd never heard of John
+Wycliffe and his followers (known as Lollards) but he was a sort of proto-Martin
+Luther, advocating similar reforms to Christian orthodoxy such as a direct
+relationship with God and redistribution of church-owned land. He even produced
+the Bible translated into vernacular English. This economic and clerical
+dissatisfaction led to the Peasant Revolt of 1381, which was the first popular
+(as opposed to Baronial) rebellion. It was eventually quelled but did
+demonstrate that the king increasingly had to listen to the people. The head tax
+was abolished. </p>
+
+<p><strong>Richard II</strong> was the grandson of Edward III. Richard's reign was completely
+dominated by what is called the Merciless Parliament, which strove to further
+curtail the power of the king. In retaliation Richard the second banished many
+of its members and denied inheritance to several opposing Lords. Eventually he
+was deposed by a new parliament and died in a prison cell in 1400. He was
+succeeded by Henry Bolingbrook, who came to reign as <strong>Henry IV</strong>.  He was the first
+Lancaster of a long dynasty, eventually leading to the Tudors. His reign was
+short, succeeded by his son <strong>Henry V</strong>. </p>
+
+<p>Henry V's reign was highlighted by successful conquest in France during the
+Hundred Years War, most notably, in the battle of Agincourt. This was largely
+due to internal divisions in France, but it made Henry V a popular king. His son
+and successor <strong>Henry VI</strong> managed to lose all of the English territories in
+France.  By then, France was united again, and Henry VI had little interest in
+ruling was mentally unstable. The only English territory in France that remained
+was Calais, and England held it for the next century. </p>
+
+<p>Henry VI's death led to a succession dispute between two houses: Lancaster (red
+rose) and York (white rose), called the War of the Roses. At first York had the
+upper hand. Its leader Ed IV held the reigns until his death, and was succeeded
+by his son Edward V, a 12-year-old boy at the time. But his reign did not last
+long. Vying for power, Ed V's uncle Richard, invented a lie saying that Ed was a
+bastard. This led to a successful propaganda campaign in which Richard III
+successfully usurped the throne. But it backfired as most people could see
+through the lie. Richard III likely executed his young rivals in the Tower of
+London, and he was reviled by the people, often depicted as a hunchback and of
+short statue in retrospect. </p>
+
+<p><strong>Henry Tudor</strong> was part of the Lancaster faction, and had a claim to the
+throne.  His first attempt to take over was thwarted by King Richard III, and he
+escaped to Bretagne in France. From there, he eventually amassed an army and met
+Richard III in battle. Due to his unpopularity, Richard's armies did not obey
+him at a critical moment. Henry Tudor was victorious, the War of the roses was
+Won by the Lancasters, and thus begins the Tudor lineage, a long period of
+English stability. To cement his position and end the civil war definitively,
+Henry VII married Elizabeth of York. He and his son Henry VIII then
+systematically eliminated all of the pretenders to the throne, and paved the way
+for English supremacy during the Renaissance. </p>
+
+<h2>Crazy etymological stuff</h2>
+
+<ul>
+<li>The name Easter comes from the pagan holiday Eostre. The apple does not fall
+far from the tree. </li>
+<li>To liquidate comes from melting of coins and other metallic valuables. Obvious
+in retrospect, never thought of it.</li>
+<li>Tolkien's Shire and modern police Sheriffs both trace back to medieval
+England.</li>
+<li>A farthing comes from the word "fourth", because it's value is 1/4 of a penny.</li>
+<li>The title Earl comes from Ealdorman, rooted in "elder". Crazy!</li>
+<li>Chivalry comes from the French word for horse, cheval. Another obvious in
+retrospect case.</li>
+<li>Heraldry is the study of coats of arms. The connection to newspapers named The
+Herald is present but convoluted.</li>
+<li>The notion of bearing arms used to mean that you had a coat of arms, as an
+indication of status. This sure has morphed over time for sure!</li>
+</ul>
+
+<h2>Interesting thoughts and insights</h2>
+
+<p>It remains unclear to me what role Thanes played in 9th century England. Did
+they have several shires in their control?</p>
+
+<p>The Domesday book is an impressively early systematic attempt to survey all of
+England. It was conducted by William the Conqueror in 1080s. Damn impressive for
+the time. </p>
+
+<p>Apparently the switch from oxen to horses for agriculture happened from the 11th
+to 13th centuries, with a surge in commerce. Farmers were no longer subsisting,
+but producing extra, which would be sold at markets and fairs. Oxen are stronger
+than horses, but do not make very good riding animals. A second order effect of
+this switch was a change in the shape of farming fields. Previously, plots were
+long and narrow since oxen were very hard to turn. Now plots were much more
+variable in shape.</p>
+
+<p>Paxton has a really great discussion on chivalry. This horse culture apparently
+was the delineating line between yeomen and elites. Tournaments began as multi
+person melee brawls and eventually morphed into formal affairs that we think of
+today, with jousting. This tracks the evolution of knights, which were
+originally hired mercenaries but ultimately became an upper class, sharing the
+table with earls and kings. This upward mobility of knights was greatly enabled
+by the church, when it condoned violence in the name of the crusades. Finally,
+the culture of heroism and going on crusades had much cache. Vividly, Paxton
+retells the story of a blind king of Bohemia charging into battle flanked by his
+two companions. He wanted glory in death and found it in Calais. </p>
+
+<p>Written English temporarily died after the Norman conquest, and was supplanted
+by French. This lasted for a while, as the civic elite favored French and the
+religious elite favored Latin. Eventually written English made a big return with
+prominent works written in it including the Canterbury Tales, which interesting
+are about a group of pilgrims making their way to see the Tomb of Thomas
+Beckett. (Interestingly, French remained the Lingua Franca of Europe for a
+while, with Russia and other latecomers clearly falling under French influence
+as late as the 19th century.)</p>
+
+<p>I think roughly speaking, society was ordered like this: serf (indentured
+servant), then yeoman (small landowner), then gentry (artisans, merchants), then
+knight, lord, and king. Rankings among the clergy still elude me, but an
+interesting topic for future reading.</p>
+
+<p>I was struck that many historical "events" lasted much longer than I would have
+guessed. The three crusades spanned 3 centuries. The Black Plague ebbed and
+flowed also over 3 centuries. This is of course easy to see in retrospect, but
+it made me wonder what sorts of 3-century long historical events people of 2500
+will remember about us?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Real Estate and Cash Flow</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/real-estate-and-cash-flow"/>
+    
+    <updated>2019-02-15T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/real-estate-and-cash-flow</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>"What Every Real Estate Investor Needs to Know About Cash Flow... And 36 Other
+Key Financial Measures, Updated Edition"... What a title!</p>
+
+<p>To be honest, I'm kind of embarrassed to post this here, especially so soon
+after The New Father. But, I'll admit, I'm a bit spooked by the markets lately.
+While indexing has worked well so far, it feels risky, and I'd probably be wise
+to diversity. Hence this book.</p>
+
+<p>The book makes two things crystal clear: </p>
+
+<ol>
+<li>"Investors don’t decide to buy properties; they decide to buy the income
+streams of the properties."</li>
+<li>The importance of discount rate in doing these various calculations, or as
+the author usually descibes it, "the time value of money".</li>
+</ol>
+
+<p>Also, I liked the up-front breakdown of all of the ways in which being a
+landlord may be profitable:</p>
+
+<ol>
+<li>Cash flow: "You expect to collect money, mainly in the form of rent."</li>
+<li>Amortization: "You expect to spend money to pay for the operating expenses
+and the loans against the property."</li>
+<li>Tax shelter: "When you’re done for the year, you hope to have a surplus and
+to keep as much of it as you can in your own pocket and out of the hands of
+the tax collector."</li>
+<li>Appreciation: "Perhaps someday you can also sell the property at a handsome
+profit."</li>
+</ol>
+
+<p>If I end up attempting to purchase a real estate investment, the book will serve
+as a good reference for calculating various terms of the industry (eg. APOD, Cap
+rate, CFAT, etc). Honestly, this is really boring stuff, and pretty
+straightforward from a calculation perspective. During the case studies
+especially, the author meticulously grinds through the numbers, and I could feel
+my eyes glazing over.</p>
+
+<p>Oh, before I end this topic, here is an anti-recommendation to a similarly
+titled, but much dumber "Rental Property Investing: how to invest in profitable
+properties to rent and derive maximum profit from them". Complete drivel. Skip
+it.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The New Father</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-new-father"/>
+    
+    <updated>2019-02-03T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-new-father</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My daughter Elichka is a year old! She's the best, let me show you a picture?
+Actually no. Not on the internet.</p>
+
+<p>This book was a trusty reference for me when things got a bit dicey. Rather
+than reading daddy or mommy blogs (urgh), a quick look at the relevant age was
+sometimes helpful in calming the nerves. I'd recommend it to a new father.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Tribe by Sebastian Junger</title>
@@ -4572,7 +5239,7 @@ similarly researched argument from the other side to see where I land.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-23T09:00:00-00:00</updated>
+    <updated>2017-06-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -4888,7 +5555,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-23T09:00:00-00:00</updated>
+    <updated>2017-05-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -4931,7 +5598,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-23T09:00:00-00:00</updated>
+    <updated>2017-05-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -5126,7 +5793,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-23T09:00:00-00:00</updated>
+    <updated>2017-05-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -5191,7 +5858,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-23T09:00:00-00:00</updated>
+    <updated>2017-04-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -5285,7 +5952,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-23T09:00:00-00:00</updated>
+    <updated>2017-03-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -5335,7 +6002,7 @@ their books read after we actually have become an interplanetary species?"</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/deep-work-by-cal-newport"/>
     
-    <updated>2017-03-23T09:00:00-00:00</updated>
+    <updated>2017-03-30T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/deep-work-by-cal-newport</id>
     <content type="html">
@@ -5372,7 +6039,7 @@ articles from there. Probably get a twitter to rss thing?</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/mindstorms-by-seymour-papert"/>
     
-    <updated>2017-02-23T09:00:00-00:00</updated>
+    <updated>2017-02-28T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/mindstorms-by-seymour-papert</id>
     <content type="html">
@@ -5427,288 +6094,6 @@ versa? Papert suggests a deep entanglement between the two.</p></li>
 </ul>
 
 <p>"The most powerful idea is that there are powerful ideas."</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Don't Think of an Elephant by George Lakoff</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff"/>
-    
-    <updated>2017-02-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>He's way too simple in his breakdown. The two family views is ridiculous. It's
-not fucking binary. People have much more granular and specific world views.
-Cambridge analytics showed that very well with both Brexit and Trump.  Very
-dated. Lots of 2000s era references that are no longer relevant, like
-Schwarzenegger. Also a very political message, never giving conservatives a
-steel man.</p>
-
-<p>I forgot the book on a plane. But I won't be attempting it again despite its
-short length.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Futurological Congress by Stanislav Lem</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-futurological-congress-by-stanislav-lem"/>
-    
-    <updated>2017-01-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-futurological-congress-by-stanislav-lem</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I'm a huge fan of Lem's work. I'm especially fond of Cyberiad, Star Diaries and
-Solaris, but it has probably been over a decade since I've read one of his
-books.</p>
-
-<p>I wanted to get back into Lem, so I asked Marcin for recommendations, and he
-suggested this one. My interest was piqued since I'm vaguely into rational
-predictions, but as I read through, I was intrigued and surprised.</p>
-
-<p>In the near future, the world has become politically unstable. A group of
-futurologists meet at a summit in Costa Rica, and find themselves in the middle
-of a military coup. To combat unrest, the government has begun experimenting
-with air- and water-borne mind altering chemicals called Love Thy Neighbor
-(LTN). As a result, most of the attendees of the congress suffer from
-hallucinations and increased lovey-doveyness.  Lem's vivid descriptions of the
-insanity inside the congress hotel are very entertaining.</p>
-
-<p>In an attempt to remain rational and escape the vile chemistry, the main hero,
-Lem's recurring character Ijon Tichy and a ragtag group of futurologists and
-hotel workers end up in the basement below the hotel. For a while, Tichy fends
-off the hallucinogens, but ultimately succumbs to them. The remainder of
-the book (its majority) takes place in Ijon's disturbed imagination. This is
-revealed only in retrospect, as Ijon wakes from each dream, finding himself in
-the basement sewer, back in Costa Rica. Each of Tichy's hallucinations is a
-different vision of a possible dystopian future, full of hilarity.</p>
-
-<p>In his last and most convincing hallucination, Tichy is cryogenically frozen
-only to be reanimated three decades later in a society that has completely
-mastered mind-altering chemistry. Lem (and the translator, who did a fine job)
-play incessantly with words, inventing at least fourty, all derived from
-the idea of psychem, drugs that regulate every moment. The world is utopian,
-but something isn't quite right. Tichy meets up with his (also reanimated)
-futurologist friend, who gives him a whiff of "up'n'at'm, one of the
-vigilanimides that can temporarily cancel out the effects of other psychem.
-Tichy finally sees the world for what it is: a disturbing hellscape populated by
-cyborg zombies.</p>
-
-<p>Nowhere in the book is it clear whether you are in Tichy's hallucionation or in
-actual reality. Clearly the book predates many of the many modern Sci Fi staples
-that toy with the notion of reality, like the Matrix. Overall, it reads super
-quickly and is incredibly engaging. Despite its humor, this book is quite deep.
-It explores a lot of the same issues that concern me with VR. Chemistry is just
-another of virtualizing reality.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>On Venus, Have We Got a Rabbi by William Tenn</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn"/>
-    
-    <updated>2017-01-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>An entertaining short story in the newly formed genre of Jewish Science Fiction.
-Very memorable characters: the conservative father, his liberal son.</p>
-
-<p>The author (previously unknown to me) does a great job of capturing the essence
-of Jewishness. The dialog is great, and the content is meaty. The theme of
-constant repression regardless of circumstances comes up again and again.</p>
-
-<p>The core issue is whether or not an alien race can be considered Jewish.
-Hopefully this is an issue we can grapple with one day.</p>
-
-<p>Loved the punch line:</p>
-
-<blockquote>
-  <p>I don’t know. Let’s talk about something cheerful. How many people would you
-  say were killed in that earthquake on Callisto?</p>
-</blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Superforecasters by Phil Tetlock</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/superforecasters-by-phil-tetlock"/>
-    
-    <updated>2017-01-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/superforecasters-by-phil-tetlock</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Good vs bad experts is apparently thing. I wondered: was there enough data to
-really know? What if everyone is a bad forecaster in aggregate? Luckily Tetlock
-addresses it later.</p>
-
-<p>How to superforecast:</p>
-
-<ul>
-<li>Consider the outside view (eg. base rates)</li>
-<li>Consider many perspectives on the same issue (eg. on one hand, on the other hand, on the third hand, on the nth hand).</li>
-<li>Fermi problem style breakdown</li>
-<li>Might benefit from explicit uncertainty tracking software. It's apparently <a href="https://en.wikipedia.org/wiki/List_of_uncertainty_propagation_software">a
-genre</a>.</li>
-<li>I'm most interested in <a href="https://www.getguesstimate.com/scratchpad">guesstimate</a></li>
-<li>Include opinions of others. They are valuable data.</li>
-</ul>
-
-<p>Also interesting is the personality trait of being open to new experiences. And
-curiosity in general.</p>
-
-<p>Active open mindedness. Seek out dissenting opinions.</p>
-
-<p>Debaters is an instance of active open mindedness too - AOM</p>
-
-<p>"Beliefs are hypotheses to be tested, not treasures to be guarded"</p>
-
-<p>Interesting idea: adversarial collaboration. For example, Kahneman &amp; Klein, usually at odds with one another, still managed to publish an influential paper: http://www.fiddlemath.net/stuff/conditions-for-intuitive-expertise.pdf</p>
-
-<p>Kahneman sneaking in: suggesting that supreforecasters are better at "internalizing" system 2 thinking via system 1.</p>
-
-<p>Tetlock closes with a summary of the book in the form of ten commandments:</p>
-
-<ol>
-<li>Triage. Focus on questions where extra attention is likely to improve accuracy. Not too hard, not too easy. Weigh the consequences of wasting time on an unpredictable event vs failing to predict a predictable event before deciding whether to invest effort on a problem.</li>
-<li>Break seemingly intractable problems into tractable sub-problems ie use Fermi estimates.</li>
-<li>Strike the right balance between the inside and outside views.</li>
-<li>Strike the right balance between under- and over-reacting to new evidence.</li>
-<li>Look for the clashing causal forces at work in each problem. Weigh all the perspectives.</li>
-<li>Strive to distinguish as many degrees of doubt as the problem permits, but no more ie get comfortable using fine-grained estimates for fine-grained problems.</li>
-<li>Strike the right balance between under- and over-confidence, between prudence and decisiveness.</li>
-<li>Look for the errors behind your mistakes but beware of rearview-mirror hindsight biases. Own your failures!</li>
-<li>Bring out the best in others and let others bring out the best in you. Team dynamics matter as much as team composition.</li>
-<li>Master the error-balancing bicycle. These commandments are not enough - you need deep, deliberative practice.</li>
-<li>Don’t treat commandments as commandments.</li>
-</ol>
-
-<p>Overall a great book, but I'm left feeling a bit unsatisfied. Another random
-thought: everything I've read this year is basically like "foxes &gt;&gt; hedgehogs".
-But surely there must be some good arguments in defense of hedgehogs.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Why Teach Thinking by Jonathan Baron</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/why-teach-thinking-by-jonathan-baron"/>
-    
-    <updated>2016-12-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/why-teach-thinking-by-jonathan-baron</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I learned about J. Baron from reading Superforecasters, where he was cited in
-the context of his notion of "active open mindedness". I got so excited that I
-emailed him, and was very happy (<em>squee</em>) to receive a response within a day. My
-favorite part of his response (I indicated that I was a Haidt fan):</p>
-
-<blockquote>
-  <p>I have small disagreements with almost everyone, even myself.</p>
-</blockquote>
-
-<p>First half: focus on systematic thinking mistakes people make. Two broad
-categories: "myside" bias (very similar to confirmation bias) and over-reliance
-on broken heuristics. Not really new but definitely insightful and quite early
-(written in 1992).</p>
-
-<p>Interesting studies cited:
-- Thinking of reasons on the other side reduced inappropriate extreme confidence
-in answers to objective questions (Koriat, Lichtenstein and Fischoff, 1980)</p>
-
-<ul>
-<li><p>Being provided with evidence against your point of view can make you more
-convinced of your position (Batson, 1975).</p>
-
-<ul>
-<li>(eg. Striking example involving a group of girls who were convinced of the
-divinity of Christ became more convinced as a result of the dead sea scrolls
-which counter the virgin birth and resurrection.)</li>
-</ul></li>
-<li><p>Some people are convinced that one-sided thinking is actually better than two
-sided thinking (Baron, 1989), even when the one-sided thinker favors the
-position opposite of their own.</p></li>
-</ul>
-
-<p>Overall interesting combination of prescience and datedness. For example:</p>
-
-<blockquote>
-  <p>The impetus for teaching thinking in the USA comes from many desires: beating
-  the Japanese in commerce; having demagogue-proof citizens; having more
-  creativity in the popular arts; etc.</p>
-</blockquote>
-
-<p>Second half: much more focused on expert opinions, and how to evaluate them. A
-lot more focus on education. Cites Piaget, etc. He sort of lost me and I didn't
-really see how the first half related.</p>
-
-<hr />
-
-<p>Update (Dec 2016): After another exchange with Baron, I indicated that I wasn't
-sold on the expert part of his essay. His response: I missed the point! Quoting
-Jon:</p>
-
-<blockquote>
-  <p>That last part is the important part. It argues that UNDERSTANDING AOT is just
-  as important as being able to do it. We need to depend on others, so we need to
-  know who we can trust. The basic idea was stated by J.S. Mill in "On Liberty":</p>
-  
-  <blockquote>
-    <p>The whole strength and value, then, of human judgment, depending on the one
-    property, that it can be set right when it is wrong, reliance can be placed on
-    it only when the means of setting it right are kept constantly at hand. In the
-    case of any person whose judgment is really deserving of confidence, how has it
-    become so?  Because he has kept his mind open to criticism of his opinions and
-    conduct. Because it has been his practice to listen to all that could be said
-    against him; to profit by as much of it as was just, and expound to himself, and
-    upon occasion to others, the fallacy of what was fallacious.</p>
-  </blockquote>
-</blockquote>
-
-<hr />
-
-<p>Update (Jan 2017): I read a fragment of a book on thinking that he sent me. Two
-chapters are relevant: the first, where he attempts to formalize what thinking
-is as a process, and then the ninth, on actively open minded thinking.</p>
 
 
         
