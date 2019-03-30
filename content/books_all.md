@@ -4,6 +4,56 @@ class: split
 type: book
 
 
+Seeing Like a State by James Scott
+===
+posted: March 28, 2019
+rating: yes
+
+TODO: This review/summary should be mostly visual: draw some pictures for the
+main themes.
+
+My thoughts
+- In one corner: the need for institutions that scale. In the other: overly
+  simplified schemes that dehumanize us.
+- Can AI help?
+-
+
+Major ideas in the book
+- Our understanding of the world is incomplete. Drastic simplifications are
+  dangerous and have a bad track record.
+- Perils of mechamorphism: everything is a machine.  For Le corbusier the house
+  and city was a machine for living. For Lenin, the vanguard party was a machine
+  for bringing forth communism. 
+- Cities as languages. You can plan a city from scratch (Brasilia, Chandigarh),
+  just like you can create a new language (Esperanto, Lojban), but a lot will be
+  missing: history, richness, cultural context.
+- Theme: in the spirit of Chesterton's Fence. Take a closer look at simplifying
+  schemes that we take for granted. They may actually have adverse side effects.
+  Can we undo them through a better understanding of the things that came before
+  them?
+
+Suggestions:
+- Take small steps, observe results
+- Make sure the steps are reversible (first rule of intelligent tinkering: keep all the parts)
+- Plan for surprises (antifragility)
+- Plan on human inventiveness. 
+
+
+Table: Domain | Simplification | Unintended consequence | Prescient critic | Current opportunity
+- Forestry
+- City planning
+- Revolution
+- Agriculture
+- Language (only slight allusion)
+
+Illustration: The highly modern feedback loop: understand the world, predict the
+future, control the future. (Travis Kalanic)
+
+Table: legible vs. illegible (from book)
+
+Illustration: cycle: Crops were modified to make them more amenable to
+mechanized picking. This led to a monoculture, and to increased pesticide use. 
+
 Invisible Cities by Italo Calvino
 ===
 posted: February 22, 2019
