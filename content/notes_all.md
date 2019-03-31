@@ -21,8 +21,8 @@ Revolution](/books/living-the-french-revolution-audio/). I also read a pair of
 books describing cyclical views of history: [The Fourth
 Turning](/books/the-fourth-turning-by-howe-and-strauss/) and a more scientific
 take, [War and Peace and War](/books/war-and-peace-and-war-by-peter-turchin/).
-A standout non-fiction favorite was [Impro](), which I will definitely be
-returning to.
+A standout non-fiction favorite was [Impro](/books/impro-by-keith-johnstone/),
+which I will definitely be returning to.
 
 Most of my internet reading happens through Instapaper, which affords me a 
 handy chronicle of articles that I enjoyed. Here are a few of them (excerpts are

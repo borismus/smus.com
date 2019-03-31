@@ -541,14 +541,18 @@ Key Financial Measures, Updated Edition"... What a title!
 To be honest, I'm kind of embarrassed to post this here, especially so soon
 after The New Father. But, I'll admit, I'm a bit spooked by the markets lately.
 While indexing has worked well so far, it feels risky, and I'd probably be wise
-to diversity. Hence this book.
+to diversify. Hence this book.
 
 The book makes two things crystal clear: 
 
 1. "Investors don’t decide to buy properties; they decide to buy the income
    streams of the properties."
 2. The importance of discount rate in doing these various calculations, or as
-   the author usually descibes it, "the time value of money".
+   the author usually descibes it, "the time value of money". A meta thought
+   about discount rate. It seems to be a proxy for selfishness. In the
+   self-interested case (maximize profit through real estate), you really want a
+   high discount rate, but in the long view, say thinking about climate change,
+   you think of future generations, and have a pretty low discount rate.
 
 Also, I liked the up-front breakdown of all of the ways in which being a
 landlord may be profitable:
