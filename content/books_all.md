@@ -4,6 +4,203 @@ class: split
 type: book
 
 
+Radical Markets
+===
+posted: April 18, 2019
+rating: no
+
+The book Radical Markets is centered on one central premise: **Competitive, free
+markets are awesome, but most in reality are either not perfectly competitive,
+or insufficiently free**.
+
+Overall, the book covers a lot of ground, proposing solutions to many of
+modernity's major questions, from immigration to monopolies to property rights.
+I found the tone to be overly enthusiastic, and annoyingly focused on the word
+"radical". Although the authors try to provide nuance sometimes, for example
+emphasizing that they would like to see their ideas applied gradually and after
+small scale testing, it still reads more like a manifesto or a series of
+pamphlets than like a coherent book.
+
+That said, I found that the "everything is a market" lens to be pretty
+interesting. I disagree with most of the specific implementations that
+the authors suggest, partly because they are so specific, partly because they
+are so extreme. At the same time, I appreciate that they propose specific policy
+rather than general platitudes. We live in interesting times, and the [Overton
+window](https://en.wikipedia.org/wiki/Overton_window) is wider today than ever
+in my lifetime. It is a good time to try to unbundle the author's ideas and find
+the worthy nuggets.
+
+## Auctions for everything, ever
+
+By the mid 20th century, Henry George was "by far the most famous American
+economic writer", having written Progress and Poverty (1879), which sold
+millions of copies worldwide, probably more than any other American book before
+that time. The central idea of [Georgism](https://en.wikipedia.org/wiki/Georgism) is:
+
+> while people should own the value they produce themselves, economic value
+derived from land (often including natural resources and natural opportunities)
+should belong equally to all members of society.
+
+The authors take some Georgist ideas and try to apply them with the goal of
+reducing inequality. For example, they claim that real estate is not a
+competitive market. A particular property may be unique, and thus a sort of
+micro-monopoly, despite other supply being available. The authors often cite
+holdouts as common roadblocks for developing large infrastructural projects.
+While the government could use its power of eminent domain, a private venture to
+build a high speed rail line from Seattle to Vancouver would be impossible.
+
+The authors propose a wealth tax on all property, in a form of
+[Vickrey auctions](https://en.wikipedia.org/wiki/William_Vickrey):
+
+> Every citizen and especially corporation would self-assess the value of assets
+they possess, pay a roughly 7% tax on these values and be required to sell the
+assets to anyone willing to purchase them at this self-assessed price.
+
+A wealth tax is a [great way to reduce
+inequality](/simulating-wealth-inequality/), but the authors bundle it together
+with the above self-evaluation scheme. If you self-evaluate too low in order to
+pay less in taxes, you may lose your property to a buyer that has found a great
+deal. Conversely, if you self-evaluate too high in order to ensure that you
+won't be bought out, you will pay more in taxes.
+
+While this is pareto optimal, the obvious objection in practice is that it may
+be rather annoying for residents of North Seattle to suddenly be bought up by
+Jeff Bezos for his new private spaceport. I think I'd rather see a world in
+which the government is more empowered to take on large public works, and more
+agressively uses its power of eminent domain for the common good.
+
+![Possible/Profitable/Beneficial venn diagram](/assets/beneficial-possible-profitable.png)
+
+
+## A market for voting
+
+What if we treated voting like a market too? Imagine saving up your votes for an
+issue you really care about. Why is it that we are so attached to the idea of
+one person, one vote?
+
+The authors criticize Likert scales for producing results that tend towards
+extremes. This is interesting to me, since a lot of political surveys use likert
+scales, as do many HCI studies. I'm a bit confused about this claim, since there
+is evidence that likert responders have a [central
+tendency](https://link.springer.com/article/10.3758/s13423-017-1344-2).
+
+Here again, the authors take multiple ideas and bundle them together into a
+large package. They introduce [Quadratic
+Voting](https://en.wikipedia.org/wiki/Quadratic_voting), a collective decision
+making procedure where participants can indicate how strongly they feel about an
+issue.  Logistically, you are given a number of credits that you can allocate to
+a set of issues. You can allocate multiple credits per issue if you care more
+about it, but `votes = sqrt(credits)`. The authors found that this leads to a
+more realistic breakdown of people's preferences, following what we'd expect: a
+normal distribution.
+
+The idea that you have a finite number of credits to allocate to some set of
+issues entails trade-offs. To me this artificial scarcity is the main appeal of
+the QV idea, since it mirrors finite resources of the real world. However, the
+author's insistence that the dropoff should specifically quadratic seemed a bit
+odd. Why not exponential? Why not a power other than two?  Maybe this is
+discussed in more technical detail in another paper.
+
+I'd love to see some sort of bounded credit allocation scheme used in more
+surveys. Partly because this gives people a chance to do an initial allocation,
+then think more about trade-offs. This reflects reality in a way to unbounded
+surveys do not. The down side is that it's also a lot more annoying to do.
+
+
+## Everybody gets an immigrant
+
+Large volumes of migration between countries is a relatively recent phenomenon.
+That's because:
+
+1. Modernity makes it easier to travel. Even if conditions in a country were
+   terrible (persecution or economically), it was very hard to leave.
+2. There is a lot more economic inequality between countries. This started to
+   happen in the colonial era, and continues today.
+
+In light of this increased movement, and the controversy that immigration has
+caused in recent years, the authors propose a truly insane idea. What if
+citizens could sponsor migrants from other countries in the same way that they
+can sponsor family members? The authors flesh out what this might look like, and
+even their own description paints an extremely precarious picture. Sponsor and
+invitee would be matched through some kind of agency and meet over a series of
+video chats. The sponsor would then be on the hook for finding housing, a job,
+and guaranteeing the good behavior of their guest. In exchange, the sponsor
+benefits from partaking in cultural exchange, and potential profit by
+capitalizing on the guest's low salary. If the guest misbehaves, they are
+expelled back to their home country, and their sponsor is reprimanded.
+
+At the end of the discussion, the authors estimate that 1/3 of all Americans
+would sponsor an immigrant through this program, based on the insane assumption
+that every working age adult would want to participate. This is hilariously
+optimistic. Just because something works for the Au Pair program which is very
+small scale, specific, and in which the guest lives and works in your own home,
+does not mean it will scale to full generality.
+
+
+## Break up all the corporations
+
+Institutional investors like Vanguard and Blackrock have huge capital and can
+invest in a whole sector, reducing competition within it. Specifically, authors
+cite examples of multiple airlines serving the same route with funding from the
+same investors causing inflated prices because of cartel-like behaviors.
+
+The authors suggest to only allow institutional investors to invest in one
+corporation per industry. but it's kind of unclear as to how to enforce this.
+Defining which form is in which industry can be a real challenge. What is a tech
+company even, and is "tech" a meaningful industry, or is Google just an ads
+company?
+
+I'm sympathetic to one idea that the authors write about, echoing Senator
+Warren's recent demands for more government control over startups being acuired
+by tech giants. These acquisitions lead to a concentration of power in large
+companies, and ultimatley a tendency towards monopoly. The social empire that is
+concentrated in Facebook/WhatsApp/Instagram just gives too much data to one
+corporation. In addition to providing consumers less choice, especially if the
+acquired company's product is sunset, these acquisitions reduce competitive
+pressure on the behemoth.
+
+
+## Release the chains of data serfdom
+
+Advances in modern AI require mounds of human-created data. ML engineers at tech
+companies transform this data into really impressive machine learning models. A
+handful of research scientists develop new ML techniques. Only the engineers and
+scientists get paid in the process.
+
+In the chapter/pamphlet, the authors, citing Jaron Lanier heavily, argue that
+the people that provide data should be adequately compensated. Traditional
+statistics would argue that each data point has only a small marginal value. For
+any given problem (eg. Face identification), each new labeled face provides
+diminishing returns. The authors compellingly argue that many new ML problems
+can be trained with the same labeled data, which makes the data itself more
+valuable.
+
+This is a pretty good argument, but the main challenge here seems to be
+logistical: how do you decide how much to pay people for their data, and how do
+you actually pay them? One problem with the idea of paying for all "data work"
+is that a lot of user data is organically collected by people using a product,
+not explicitly for the demands of a specific Machine Learning problem. If users
+were to be asked for explicit data, that would be off-putting. As mentioned in
+the book, having a paid contract emphasizes the idea that what you were already
+doing for fun is actually work that deserves renumeration.
+
+One thing skimped in the book is that it really depends on what the actual data
+is. Google Translate is trained on human translations, which require substantial
+translation skill by professional translators, who are very likely underpaid
+today. It would make perfect sense for translators to receive commission from
+tech companies for using their output to train translation models. In contrast,
+face identification is trained on photographs of faces with labels around the
+face, which anyone with a pulse can produce.
+
+As an aside: I found the constant analogy between "women’s work", slavery and
+serfdom to “data work” to be annoying and misleading. The authors love to
+brandish loud colloquialisms like "techno feudalism" and "siren servers". I wish
+they would stop! Unlike feudalism, Facebook is not a mandatory, all encompassing
+system that controls your work and life. Unlike slavery, data work does not
+capitalize at the expense of a specific identity group. Unlike "siren servers",
+the lure of social networks can be resisted.
+
+
 Seeing Like a State by James Scott
 ===
 posted: March 28, 2019
