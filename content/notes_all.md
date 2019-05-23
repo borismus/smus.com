@@ -4,6 +4,15 @@ type: note
 class: split
 
 
+Avoiding local maximums
+===
+posted: May 22, 2019
+
+Easier said than done.
+
+![Don't focus on local maxima: easier said than done.](/assets/local-maxima.png)
+
+
 Reading in 2018
 ===
 posted: January 10, 2019
