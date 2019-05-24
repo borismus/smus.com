@@ -5,8 +5,30 @@
   <title>Boris Smus (Notes)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-04-25T07:40:44-00:00</updated>
+  <updated>2019-05-24T10:14:02-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Avoiding local maximums</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2019/avoiding-local-maximums/"/>
+    
+    <updated>2019-05-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2019/avoiding-local-maximums/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Easier said than done.</p>
+
+<p><img src="/assets/local-maxima.png" alt="Don't focus on local maxima: easier said than done." /></p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Reading in 2018</title>

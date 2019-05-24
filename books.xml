@@ -5,17 +5,75 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-04-25T07:40:44-00:00</updated>
+  <updated>2019-05-24T10:14:02-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
-    <title>Radical Markets</title>
+    <title>The Fifth Season by N. K. Jemisin</title>
     <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/radical-markets"/>
+    <link href="https://smus.com/books/the-fifth-season-by-n-k-jemisin"/>
+    
+    <updated>2019-05-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-fifth-season-by-n-k-jemisin</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>The Fifth Season is a well crafted fantasy book, the first of the Broken Earth
+trilogy. Each book in the trilogy won a Hugo Award in subsequent years, which is an
+unprecedented achievement. But even more importantly, my wife discovered it and
+recommended it to me! Overall, I found the book to be very original, but
+had a few gripes too. The best parts were the slow reveal and the world
+building, but I found the beginning to be boring, and struggled a bit with
+identity politics.</p>
+
+<p>Jemisin's world building is very compelling. She created an interesting,
+completely original universe based on tectonic plates, the earth itself, and
+seismic activity. The earth-like setting is incredibly seismically active, and
+some humans have some ability to control this activity, either suppressing
+shakes or creating their own. There are also humanoids that appear to be made of
+rock, and other interesting fauna. I really liked kirkhusas for some reason. One of the
+great things about the way the book is written is that all aspects of the world
+reveal themselves very slowly. Two thirds of the way in, I was still confused
+about the mechanics of earth manipulation, the politics of the realm, who the
+characters really were. I also loved the way that that three distinct story
+lines merged into two, then one. </p>
+
+<p>Two aspects that I didn't like are as follows. Firstly, I found the sex towards
+the end of the book to be surprising. The first encounter with Inon devolved
+into a really a weird scene, and I felt that the whole book risked devolving
+into smarmy rom. </p>
+
+<p>Secondly, it is an underdog story that feels a bit too black and white. Those
+that control the earth form an underclass, despite their great innate power.
+They are subjugated by non-magical people that control them through their
+evil, hierarchical bureaucracy. The author does a great job conveying emotions,
+especially of the female characters. Their frequent frustration is palpable.</p>
+
+<p>I really wish I didn’t know the identity of the author before reading. This was
+inevitable, as her picture prominently features on the inside cover. As a
+result, I was distracted by the emphasis on female protagonists and racial
+analogies. Even the word "rogga" connotes very directly another racially
+derogatory term that has no place on this page. In that political light, I was
+somewhat surprised at the revolutionary tone the author sets, especially towards
+the end of the book, and particularily in the cryptic ending. I suppose it's a
+powerful hook to read the next book in the trilogy.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Radical Markets by Posner and Weyl</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/radical-markets-by-posner-and-weyl"/>
     
     <updated>2019-04-18T09:00:00-00:00</updated>
     
-    <id>https://smus.com/books/radical-markets</id>
+    <id>https://smus.com/books/radical-markets-by-posner-and-weyl</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -5454,7 +5512,7 @@ similarly researched argument from the other side to see where I land.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/psychology-of-curiosity"/>
     
-    <updated>2017-06-25T09:00:00-00:00</updated>
+    <updated>2017-06-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/psychology-of-curiosity</id>
     <content type="html">
@@ -5770,7 +5828,7 @@ certain aimlessness to it that I found very relatable.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/finite-and-infinite-games-by-james-carse"/>
     
-    <updated>2017-05-25T09:00:00-00:00</updated>
+    <updated>2017-05-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/finite-and-infinite-games-by-james-carse</id>
     <content type="html">
@@ -5813,7 +5871,7 @@ all.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/homo-deus-by-yuval-noah-harari"/>
     
-    <updated>2017-05-25T09:00:00-00:00</updated>
+    <updated>2017-05-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/homo-deus-by-yuval-noah-harari</id>
     <content type="html">
@@ -6008,7 +6066,7 @@ stimulating but mainly to get me thinking about why I disagree. </p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/understanding-japan-a-cultural-history-audio"/>
     
-    <updated>2017-05-25T09:00:00-00:00</updated>
+    <updated>2017-05-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/understanding-japan-a-cultural-history-audio</id>
     <content type="html">
@@ -6073,7 +6131,7 @@ incredibly interesting and exotic, but still has enough western services.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant"/>
     
-    <updated>2017-04-25T09:00:00-00:00</updated>
+    <updated>2017-04-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant</id>
     <content type="html">
@@ -6167,7 +6225,7 @@ ever before.</p>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin"/>
     
-    <updated>2017-03-25T09:00:00-00:00</updated>
+    <updated>2017-03-24T09:00:00-00:00</updated>
     
     <id>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin</id>
     <content type="html">
@@ -6204,43 +6262,6 @@ of some vague but unpleasant thoughts I had about VR.</p>
 
 <p>I wonder if sf writers write with their future audience in mind. Like how would
 their books read after we actually have become an interplanetary species?"</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Deep Work by Cal Newport</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/deep-work-by-cal-newport"/>
-    
-    <updated>2017-03-25T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/deep-work-by-cal-newport</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Several strategies for deeply working:
-- Sabbatical for days
-- Regular schedule e.g. Just mornings.
-- Attempt to squeeze it in blocks of 90 minutes </p>
-
-<p>Unconscious thought theory. Can you really solve hard problems unconsciously?
-Does type 1 thinking have non primal uses?</p>
-
-<p>Evenings are sacred. No work or work email. </p>
-
-<p>General distractions like waiting in line and micro checking random stuff. How
-to avoid it?</p>
-
-<p>Roosevelt dashes: Deep work sessions: schedule in time blocks that are
-completely distraction free: no email, social media etc.</p>
-
-<p>Suggests not using social media at all. I like the idea but want to still read
-articles from there. Probably get a twitter to rss thing?</p>
 
 
         
