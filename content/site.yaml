@@ -1,6 +1,10 @@
+# Title of the whole site.
 site_title: Boris Smus
+# Where the site will be hosted.
 site_domain: https://smus.com
+# Preferred date format.
 date_format: '%B %-d, %Y'
+# Format strings to use for permalinks for each content type.
 permalink_formats:
   default: '{{slug}}'
   index: 'index.html'
@@ -8,10 +12,13 @@ permalink_formats:
   book: 'books/{{slug}}'
   note: 'notes/{{year}}/{{slug}}/'
   error: '{{slug}}.html'
+# If no type is specified, but a page is in one of these subdirectories, use the
+# specified type.
 type_mapping:
-  '/posts/': 'post'
-  '/pages/': 'page'
-  '/drafts/': 'draft'
-  '/books/': 'book'
-  '/notes/': 'note'
-default_type: 'page'
+  '/posts/': post
+  '/pages/': page
+  '/drafts/': draft
+  '/books/': book
+  '/notes/': note
+# If no type is specified, use this type.
+default_type: page

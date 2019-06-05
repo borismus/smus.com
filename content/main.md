@@ -2,7 +2,8 @@ Welcome
 =======
 class: home
 type: index
-limit: 10
-filter: [post, note]
+limit: 20
+filter: [post, note, book]
 
 Welcome
+
