@@ -3,6 +3,8 @@
 {% block content %}
 <section id='main'>
 {% for post in posts %}
+
+{% if post.type_name != 'book' %}
 <article class="type-{{ post.type_name }}">
   <a href='{{ post.permalink }}'><h1 class='title'>{{ post.title }}</h1></a>
   <div class='body'>
@@ -20,6 +22,23 @@
     </div>
   {% endif %}
 </article>
+{% endif %}
+
+{% if post.type_name == 'book' and post.yaml.rating %}
+<article class="type-book">
+  <a href='{{ post.permalink }}'>
+    <h1 class='title'>Book: {{ post.title }}</h1>
+  </a>
+  <div class='subfooter'>
+    <a href="{{ post.permalink }}" class="readmore">
+      Notes &rarr;
+    </a>
+    <time class='published'>{{ post.date_created.Format() }}</time>
+  </div>
+</article>
+{% endif %}
+
+
 {% endfor %}
 </section>
 {% endblock %}

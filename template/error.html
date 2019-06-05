@@ -1,11 +1,22 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page not found</title>
+  </head>
 
-{% block content %}
-<section id='main'>
-  <article>
-    <div class='body' style="background: red;">
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+
+  <meta name="description" content="Page not found" />
+  <meta name="author" content="Boris Smus" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <body>
+    <section id='error'>
       {{content}}
-    </div>
-  </article>
-</section>
-{% endblock %}
+    </section>
+  </body>
+</html>
