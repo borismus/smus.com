@@ -194,8 +194,6 @@ article .tombstone {
 article .readmore {
   color: darkgreen;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 1rem;
-  font-size: 1.4rem;
   float: right;
   text-decoration: none;
 }
@@ -406,6 +404,27 @@ table tr + tr {
   display: none;
 }
 
+.resume-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+article.type-book h1.title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #444;
+}
+article.type-book time.published {
+  font-size: 1.2rem;
+}
+article.type-book .subfooter {
+  padding-top: 1rem;
+}
+
+video {
+  max-width: 100%;
+}
+
 /* Media queries to make the page responsive */
 @media screen and (max-width: 720px) {
 
@@ -429,6 +448,10 @@ table tr + tr {
     font-size: 2rem;
   }
 
+  article.type-book h1.title {
+    font-size: 1.5rem;
+  }
+
   section#archives ol {
     width: 100%;
     font-size: 1.3rem;
@@ -443,9 +466,4 @@ table tr + tr {
   section#gallery {
     margin: 0;
   }
-}
-
-.resume-header {
-  font-size: 32px;
-  font-weight: bold;
 }
