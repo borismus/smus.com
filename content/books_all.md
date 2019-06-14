@@ -4,6 +4,112 @@ class: split
 type: book
 
 
+The Odyssey translated by Emily Wilson (audio)
+===
+posted: June 14, 2019
+rating: yes
+
+As a kid, I read The Odyssey in some canonical translation. That is to say, I
+knew it was a classic, and wanted to check the box. I quickly skimmed it but
+retained nothing from the experience. When I learned about this new, accessible
+translation from Tyler Cowen's interview with the translator, my interest was
+piqued.
+
+In an extended intro, Wilson justified the constraints of her translation. I
+agreed with her that constraints are fun to work within, and found the specifics
+of translating from dactylic hexameter the meter of all homeric epic poems, to
+iambic pentameter the usual meter of English classics to be super
+interesting. Impressively, she also constrained herself to the same number of
+lines as the original. All this while keeping to modern language that isn't
+overly flowery or archaic. In her own words:
+
+> But of course, the English of the nineteenth or early twentieth century is no
+closer to Homeric Greek than the language of today. The use of a noncolloquial
+or archaizing linguistic register can blind readers to the real, inevitable, and
+vast gap between the Greek original and any modern translation. My use of
+contemporary language—rather than the English of a generation or two ago—is
+meant to remind readers that this text can engage us in a direct way, and also
+that it is genuinely ancient. My Homer does not speak in your grandparents'
+English, since that language is no closer to the wine-dark sea than your own. I
+have tried to keep to a register that is recognizably speakable and readable,
+while skirting between the Charybdis of artifice and the Scylla of slang.
+
+I loved Claire Danes' reading of the translated poem, and Audible's production,
+especially that little blooming musical flourish in the end. I wonder how hard
+it was for the producers to be so parsimonious with effects.
+
+
+## Recurring themes
+
+- **Hospitality**: There's a steady emphasis on hospitality as a way to appease
+  gods, especially Zeus. There is an element of it being encouraged in general,
+  and an element of fear: any old beggar may in fact be a god in disguise. It
+  plays out in the narrative too when the suitors' evil is illustrated in their
+  disdain for Odysseus disguised as a beggar.
+- **Weaving women**: Every great woman spins cloth, including all noble wives
+  and most notably Penelope.
+- **Gods concealing as humans**: Athena is often disguised as Mentor,
+  Telemachus' ally and advisor. The pattern of Gods disguised as familiar people
+  is super compelling as a narrative device. There are moments in life
+  when it feels that way, no?
+- **Constant bitching**: Odysseus is constant bitching about how hard his life
+  is, while his crew is dying left and right. This is odd -- under such dire
+  circumstances, should he not be glad to be alive?
+- **Metaphors for Dawn**: I really liked all of the descriptions of Dawn. Rosy
+  fingered, braided, Dawn on her golden throne, bright-throned Dawn.
+- **Awesome monsters**: Polyphemus the cyclops eats Odysseus' crew, Circe the
+  nymph turns them into swine, The Sirens lure his men to thier doom, Scylla, a
+  giant six headed sea hydra decimates his ships and Charybdis, a whirlpool
+  monster, threatens to be his end.
+- **Bards rock**: bards, poets and singers are universally great. They bring the
+  people to tears, and generally speaking, survive.
+
+## Answered questions
+
+- After sneezing, Russians sometimes say "truth". There is a passage related to
+  this, and I got curious. Does the Russian tradition come from the Greek?
+  [Apparently](https://en.wikipedia.org/wiki/Sneeze),
+  [yes](https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world).
+- Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
+  also extremely wise and a great advisor to Telemachus. Is this the origin of
+  the word? [Apparently yes](https://www.etymonline.com/word/mentor)
+- Are Phaeacian Phoenicians? There are similarities beyond their names, like
+  great skill in navigation. I answered this myself since eventually both
+  appeared in The Odyssey as distinct peoples. However there is some interesting
+  [academic
+  writing](https://www.academia.edu/7299720/Homer_s_Phaeacians_and_Phoenician_Bi-lingual_Onomastica.docx)
+  on this: "The onomastic qualities of Phaeacian personal names in book 6-8 of
+  the Odyssey further indicate that the bard envisioned the Phaeacians as a
+  fantastical clone of the real-world Phoenicians." 
+
+## Narrative observations
+
+The story itself was pretty clear, but I was super confused about Odysseus' side
+trip to Hades. I had to read about it separately. The trip was just to talk to a
+prophet in order to find out what to do next? Such a needless tangent.
+
+There is some complex structure in the narrative. Big chunks of the story are
+narrated by the actors themselves. Odysseus retells part of his story to King
+Alcinous (Father of Nausicaa). Telemecus reveals a sparknotes version of The
+Iliad when he visits Nestor.
+
+One of the greatest scenes must have been Odysseus confronting the suitors as a
+beggar in his own house. It's so vividly written, with great details including
+Argos' death. This is apparently the only time the dog is ever mentioned, but it
+makes the listener feel as if there's so much more to the story.
+
+Although the narrator is clearly on Odysseus side, his decision to kill all of
+the suitors was clearly disproportionate to their crimes. It's easy to imagine
+Odysseus as a villan, triply so with the mass strangulation of slave girls that slept
+with the suitors, and his vicious torture of Melanthius. 
+
+Is this really the end of Odysseus' adventures? As soon as he returns, he must
+venture off again to appease Posideon. Sounds like another arduous journey, and
+another decade of disappointment for Penelope. Her patience and the ambiguity
+with which they reunite is palpable.
+
+
+
 The Fifth Season by N. K. Jemisin
 ===
 posted: May 22, 2019
