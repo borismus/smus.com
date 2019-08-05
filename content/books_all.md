@@ -4,6 +4,54 @@ class: split
 type: book
 
 
+Hyperion by Dan Simmons (audio)
+===
+posted: August 4, 2019
+rating: yes
+
+I attempted Hyperion a decade or so ago, but couldn't get into it. If I recall,
+I found the introduction to obscure and difficult to follow and gave up.
+However, after many of my friends recommended to persist, I gave it another
+shot, and really loved it.
+
+Set in the far, post-Earth space-faring future, the universe is really
+compelling. A core group of planets is run by a giant corporation with
+relatively little opposition from rebellious factions. Interstellar faster than
+light travel is commonplace. Everyone seems to be basically human, but there are
+really fun variations. I especially enjoyed the templars and their treeships,
+giant living, space-traveling trees like Yggdrasil, which housed the party bound
+for Hyperion.
+
+The book itself unfolds as a thrilling mystery set in this wonderful universe.
+Narratively, it's modeled after the Canterbury Tales. A rag-tag group of
+pilgrims each tells his story en-route to their destination. The stories in
+Hyperion are the best part. Each one stands on its own, and the fact that they
+are all set in the same universe, and are all about one planet make it feel
+like you're hearing from each blind man's description of the elephant in turn.
+
+All of the stories are about Hyperion and the Shrike, but more importantly, are
+very emotionally moving. I found the Catholic priest storyline to be totally
+gut-wrenching, but that was just the beginning. My favorite by far was Saul
+Weintraub's daughter Rachel, aging backwards. This might be my personal bias: I
+too am the father of a young daughter. But more likely, it's incredibly well
+written. Sauls struggles with God and the problem of theodicy in a way that is
+far more heartfelt than a theoretical treatise on the subject. The final story
+told by the Consul about his grandfather takes third place. The tragedy of the
+dolphins, chronological complexity of the tale, flashbacks and flashes forward
+are masterfully written. Kassad's and Silenius' stories are also excellent and
+stand on their own. However, Lamia's tale was weak and leaned too heavily on AI
+mumbo jumbo.
+
+Each sub-story is so wide, I shouldn't be surprised that there is no real
+integration of the story. The ending itself does not have a finality to it at
+all, and to be honest, I found that the book lost some steam towards the very
+end.  But this may be excusable given that Hyperion is the first of four books.
+Whether or not the series itself wraps up coherently, the way to read this book
+is to enjoy the Hyperion universe and each of the pilgrim's tales for their
+brilliance in their own right.
+
+
+
 Asimov's Chronology of Science and Discovery
 ===
 posted: July 10, 2019
@@ -131,7 +179,8 @@ families, and increasingly so as more women are in the workforce.
 I got through the third essay, but it was a slog. Overall, there are interesting
 tidbits but the overall tone is so anarchic, marxist and idealistic, I found it
 a draining read.
-=======
+
+
 Palaces for the People (audio)
 ===
 posted: June 27, 2019
