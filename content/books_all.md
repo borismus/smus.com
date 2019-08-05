@@ -10,45 +10,47 @@ posted: August 4, 2019
 rating: yes
 
 I attempted Hyperion a decade or so ago, but couldn't get into it. If I recall,
-I found the introduction to obscure and difficult to follow and gave up.
-However, after many of my friends recommended to persist, I gave it another
-shot, and really loved it.
+I found the introduction obscure and difficult to follow and gave up.
+However, after many of my friends raved about it, I gave it another shot, and
+really loved it.
 
-Set in the far, post-Earth space-faring future, the universe is really
+Set in a far, post-Earth, space-faring future, the Hyperion universe is really
 compelling. A core group of planets is run by a giant corporation with
-relatively little opposition from rebellious factions. Interstellar faster than
-light travel is commonplace. Everyone seems to be basically human, but there are
-really fun variations. I especially enjoyed the templars and their treeships,
-giant living, space-traveling trees like Yggdrasil, which housed the party bound
-for Hyperion.
+relatively little opposition from rebellious factions. Interstellar FTL travel
+is commonplace. Everyone seems to be basically human, but there are really fun
+variations. I especially enjoyed the templars and their treeships, giant living,
+space-traveling trees like Yggdrasil, which initially housed the party bound for
+Hyperion.
 
 The book itself unfolds as a thrilling mystery set in this wonderful universe.
 Narratively, it's modeled after the Canterbury Tales. A rag-tag group of
-pilgrims each tells his story en-route to their destination. The stories in
-Hyperion are the best part. Each one stands on its own, and the fact that they
-are all set in the same universe, and are all about one planet make it feel
-like you're hearing from each blind man's description of the elephant in turn.
+pilgrims each tells his story en-route to their destination. The stories are the
+best part. Each one stands on its own, and the fact that they are all set in the
+same universe, and are all about one planet make it feel like you're hearing
+each blind man's description of the elephant in turn.
 
 All of the stories are about Hyperion and the Shrike, but more importantly, are
 very emotionally moving. I found the Catholic priest storyline to be totally
 gut-wrenching, but that was just the beginning. My favorite by far was Saul
 Weintraub's daughter Rachel, aging backwards. This might be my personal bias: I
-too am the father of a young daughter. But more likely, it's incredibly well
-written. Sauls struggles with God and the problem of theodicy in a way that is
-far more heartfelt than a theoretical treatise on the subject. The final story
-told by the Consul about his grandfather takes third place. The tragedy of the
-dolphins, chronological complexity of the tale, flashbacks and flashes forward
-are masterfully written. Kassad's and Silenius' stories are also excellent and
-stand on their own. However, Lamia's tale was weak and leaned too heavily on AI
-mumbo jumbo.
+too am the Jewish father of a young daughter. But more likely, it's incredibly
+well written. Sauls struggles with God and the problem of theodicy in a way that
+is far more heartfelt than any theoretical treatise on the subject. The final
+story told by the Consul about his grandfather Merin's is also great, and the
+conversation with dolphins "scene" is incredible. There is so much more there,
+though: romantic implications of time dilation, the chronological complexity in
+the narrative, flashbacks and flashes forward are masterfully written. Kassad's
+and Silenius' stories are also excellent and stand on their own, although less
+compelling than the aforementioned in my opinion. Lamia's tale was emotionally
+weaker and leaned too heavily on AI mumbo jumbo.
 
-Each sub-story is so wide, I shouldn't be surprised that there is no real
-integration of the story. The ending itself does not have a finality to it at
-all, and to be honest, I found that the book lost some steam towards the very
-end.  But this may be excusable given that Hyperion is the first of four books.
-Whether or not the series itself wraps up coherently, the way to read this book
-is to enjoy the Hyperion universe and each of the pilgrim's tales for their
-brilliance in their own right.
+Each sub-story is so diverse, and spawns so many questions, it feels nearly
+impossible to integrate into a final product. I shouldn't be surprised at the
+cliffhanger ending. I did find that the book lost some steam towards the
+very end, but this is excusable given that Hyperion is the first of four highly
+acclaimed books. Whether or not the series itself wraps up coherently, the way
+to read this book is to enjoy the Hyperion universe and each of the pilgrim's
+tales for their brilliance in their own right.
 
 
 
