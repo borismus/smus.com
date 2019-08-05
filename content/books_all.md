@@ -4,6 +4,135 @@ class: split
 type: book
 
 
+Asimov's Chronology of Science and Discovery
+===
+posted: July 10, 2019
+rating: yes
+
+Asimov attempts to create a real-world technology chronology. This reminds me of
+the tech trees found in strategy games like Civilization. This encyclopedic tome
+is not a book you would normally read cover to cover, and I'll be honest: I'm
+only less than a quarter of the way through. I read from the beginning of time
+to 1519 (500a), just to get a feeling for the book, and really learned a lot.
+Some surprising things about early human history:
+
+- Dizzying array of horse-related inventions: metal stirrups giving more
+  stability to the rider, iron horseshoes to let horses travel further,
+  horse collars to increase pulling capacity by 5x.
+- The perfect plow, called the Moldboard or Turnplow had a vertical knife-blade
+  that cut deep into the earth. Useful for damp, moist ground, led to increase
+  in carrying capacity.
+- Telling time, from water clocks to more accurate weight-powered
+  mechanical clocks, to spring powered watches that could be much smaller.
+
+But also, let me nitpick a bit. In addition to inventions, the author spends an
+inordinate amount of time on geographic discoveries, which feels disconnected
+from the rest of the narrative.  Some other "discoveries" are hard to square
+with the rest of the content, such as "the rational interpretation of dreams",
+first discovered? invented? in 480 BC.
+
+Although an attempt is made to be international, some entries are extremely
+Euro-centric. For example, the entry on fermentation is dated 1800 BCE, but
+according to Wikipedia, fermentation was actually first done in 6000 BCE in
+china. Many other inventions also chronicle explicitly the arrival of the
+technology to Europe, such as Gunpowder which is dated 1249 CE but as the entry
+admits, was first used to scare Chinese enemies in 1044 CE. The listed date was
+when the technology arrived in Europe and was perfected to make serious
+weaponry. My last critique is that some of the writing felt stilted and
+inconsistent. I imagine that Asimov worked more on the skeleton, and perhaps let
+a ghostwriter fill in the details.
+
+Despite some shortcomings, Asimov's Chronology of Science and Discovery is a
+really impressive tome, and a reference book I'll keep close by. I've started on
+a summary of the chronology in [spreadsheet
+form](https://docs.google.com/spreadsheets/d/1lBahJh5UEYEPgamNpyWAaxAQOLO6088nLiBjQW9zr2U/edit?usp=sharing).
+Please help me by filling in the remainder of the spreadsheet for the remaining
+500 years (1519 - 2019). My goal is to ultimately generate a visual,
+Civilization-style technology tree for this whole book.
+
+
+Deschooling Society by Ivan Illich
+===
+posted: July 14, 2019
+rating: no
+
+> I have never let my schooling interfere with my education. – Mark Twain
+
+A lot of this book agrees emphatically with this Twain quote. Fundamentally,
+Illich believes that "universal education through schooling is not feasible". 
+Did you know that "schole", the origin of the word "school" and "школа", is the
+greek word for leisure? The book is written as a collection of essays. Overall,
+Illich is an Anarchist, and the essays are too radical for me temperament.
+
+## Why We Must Disestablish School
+
+A scathing, radical critique of modernity:
+
+> Medical treatment is mistaken for healthcare, social work for the improvement
+of community life, police protection for safety, military poise for national
+security, the rat race for productive work. Health, learning, dignity,
+independence, and creative endeavor are defined as little more than the
+performance of the institutions which claim to serve these ends.
+
+Illich also seems to think that schools are flawed because they won't lead to
+equal outcomes for rich and poor. But he seems to discount the fact that a poor
+but schooled person would presumably be better off than a poor unschooled one. A
+rising tide lifts all boats.
+
+One area where I agree is to "detach competence from curriculum", and make it
+taboo to ask people where they studied and how they came to have their skills.
+Another interesting argument is that "most learning happens casually", in the
+way that children learn a language, or even adults do it situationally (rarely
+in language class).
+
+Illich strongly advocates for apprenticeship models, arguing that "all education
+was complex, lifelong, and unplanned". He gives examples of making schooling
+more effective by taking into account personalized context: "Paolo Freire [...]
+discovered that any adult can begin to read in a matter of fourty hours if
+the first words he deciphers are charged with political meaning."
+
+He suggests opening the market to for students to find appropriate teachers for
+them. Even more intriguingly, here's a startup idea. I've redacted some
+antiquated parts (the essay is written in 1970):
+
+> Each man [...] could identify himself to a computer, indicating the book,
+article, film, or recording on which he seeks a partner for discussion [...] and
+arrange for a meeting with others who recently had taken the same initiative.
+
+Imagine doing this today, restoring coffee shops as [social
+infrastructure](/books/palaces-for-the-people) for [intellectual
+conversation](/books/the-coffee-house-a-cultural-history/).
+
+School, Illich argues, is divisive, splintering society into the schooled (white
+collar) and unschooled (blue collar). Education becomes unworldly and the world
+becomes noneducation.
+
+## Phenomenology of School
+
+> The school system is a modern phenomenon, as is the childhood it produces.
+
+Fascinatingly, until the Second Vatican Council in 1962, each child was
+instructed that a Christian reaches moral discernment and freedom at the age of
+seven.
+
+I think Illich unfairly claims that adults tend to romanticize their schooling,
+attributing their learning to a beloved teacher, not giving enough credit to
+teachers that really inspire their pupils, spot talent, provide encouragement.
+Surely many pupils end up pursuing higher ed in a field because of a high school
+teacher.
+
+But he fairly critiques the institution of school for giving a single teacher
+too many roles: "custodian, preacher/moralist, and therapist".
+
+Overall I find his take super idealistic. I wonder if he had kids? The fact that
+school provides childcare is like a super important aspect of it for most
+families, and increasingly so as more women are in the workforce.
+
+I got through the third essay, but it was a slog. Overall, there are interesting
+tidbits but the overall tone is so anarchic, marxist and idealistic, I found it
+a draining read.
+
+
 The Odyssey translated by Emily Wilson (audio)
 ===
 posted: June 14, 2019
