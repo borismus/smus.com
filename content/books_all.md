@@ -18,10 +18,9 @@ long.
 
 Overall, I enjoyed it. The world building was especially compelling: a few
 hundred years into the future, an earthbound humanity has balkanized into
-tribes. But each tribe not geographically bound but global, with enclaves in
-every dense city. This strikes me as both interesting as a concept, and
-plausible as a way for our already fragile multiculturalism to unravel more
-fully. 
+tribes. These are not geographically bound but global, with enclaves in every
+major city. This strikes me as both interesting as a concept, and plausible as a
+way for our already fragile multiculturalism to unravel more fully. 
 
 As Diamond Age is a Stephenson book, there are many concrete tech-related ideas
 that are worth mentioning.
@@ -52,33 +51,35 @@ that are worth mentioning.
 
 For a nearly 30 year old book, I'm surprised at how well it's aged. Written in
 1996, most aspects come off as very modern, alluding to a distributed web and
-distributed ledgers. Brain-computer interfaces are pervasive in the story
-continue to remain speculative and illusive, but an active area of research.
-Some of the tech has aged poorly, but this is more endearing than annoying. Data
-is stored on tape drives, large amounts of data expressed in gigabytes.
+distributed ledgers. Brain-computer interfaces are pervasive in the story, and
+continue to remain a speculative and illusive area of research.  Some of the
+tech has aged poorly, but this is more endearing than annoying. Data is stored
+on tape drives, large amounts of it is expressed in gigabytes.
 
-If I was to edit Diamond Age, I'd skip the computer science education parts. The
-whole set of scenes with Nell's Primer adventures in Castle Turing are kind of
-clever, but rely on thinly veiled analogies that aren't especially insightful.
-Wordy passages compare zeros and ones to two sorts of links in a chain, and
-attempt to explain ASCII code. To someone that knows these concepts well, it's
-boring. To someone that doesn't, I think it would be boring too. 
+If I was to edit Diamond Age, I'd skip the computer science education parts.
+Nell's Illustrated Primer adventures in Castle Turing rely on thinly veiled
+analogies that aren't especially insightful.  Wordy passages compare zeros and
+ones to two sorts of links in a chain. Stephenson literally explains ASCII
+codes. To someone that knows these concepts well, it's boring. To someone that
+doesn't, I think it would be boring too. I was distracted by the endless
+metaphors between orgies and distributed computing -- typical Stephenson.
+Group sex is considerably more entertaining to read and write about than
+networking.
 
 Overall, the book felt stronger viewed as a world building exercise rather
 than a coherent work of fiction. This despite the some really colorful
 characters and an engaging story overall. Some of my favorites were Lord
-Finkel-McGraw, Carl Hollywood, Judge Fang, and Dr. X. Frustratingly, other
-characters start off interesting, but transform into nagging loose ends: what
-happened to Nell's guardian Constable Moore? And to her friends Elizabeth and
-Fiona?
+Finkel-McGraw, Carl Hollywood, Judge Fang, and Dr. X, and the narrator's
+entertaining delivery helped. Other major characters start off interesting, but
+transform into nagging loose ends: what happened to Nell's guardian Constable
+Moore? And to her friends Elizabeth and Fiona?
 
 The plot jumps in ways that force the reader to fill in the gaps, and the
-constant traverse between reality and the world of the Illustrated Primer can be
+traverse between Nell's reality and the world of the Illustrated Primer can be
 disorienting. But if memory serves, this is not unlike Stephenson's other books.
-The tribe of The Drummers, the First Distributed Republic and other
-crypto-related parts were the most mysterious and difficult to follow. Not
-unlike real life! Maybe I was distracted by the endless metaphors between
-orgies and distributed computing -- typical Stephenson.
+Snow Crash comes to mind. The Drummers, the First Distributed
+Republic and other crypto-adjacent tribes were the most mysterious and difficult
+to understand elements of the story. Not unlike real life, I might add! 
 
 The ending is ambiguous but still satisfying. I can't help but wonder: was the
 primer comissioned deliberately to subvert the world order by Finkel-McGraw?
