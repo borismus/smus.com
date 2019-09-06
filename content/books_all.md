@@ -4,6 +4,87 @@ class: split
 type: book
 
 
+Diamond Age by Stephenson (audio)
+===
+posted: September 5, 2019
+rating: yes
+
+It's official: I'm on a science fiction kick! It's been a while since I
+read Stephenson. It's not that I don't like reading long books, I do. It's just
+a question of bang for the buck. Diamond Age stood out because of the
+Illustrated Primer, which is relevant to my interests in education, and
+Young Ladies, one of which I have the pleasure to be raising. And it wasn't too
+long.
+
+Overall, I enjoyed it. The world building was especially compelling: a few
+hundred years into the future, an earthbound humanity has balkanized into
+tribes. But each tribe not geographically bound but global, with enclaves in
+every dense city. This strikes me as both interesting as a concept, and
+plausible as a way for our already fragile multiculturalism to unravel more
+fully. 
+
+As Diamond Age is a Stephenson book, there are many concrete tech-related ideas
+that are worth mentioning.
+
+- Matter Compiler - a way to synthesize matter of any kind. At seemingly
+  arbitrarily large scales if you have the funds. (Incidentally, I excitedly
+  mentioned Matter Compilers in a recent tweet, comparing 3D printing to Matter
+  Compilers and got roasted for it by a UW professor!)
+
+- Mites - nano-technological robots that can do almost anything. Very much
+  indistinguishable from magic.
+
+- Neo-Victorians - a tribe living with Victorian ideals loyal to some vestigual
+  British monarchy headed by Queen Victoria II: hierarchy, order, aristocracy.
+  They have a social structure and dukes most of which graduate from careers as
+  successful entrepreneurs.
+
+- The Illustrated Primer - an interactive book designed for a Neo-Victorian
+  princess to have an “interesting” childhood so that she grows up to make a
+  dent on the world. The Primer is both adaptive and personalized, and is at the
+  core of Diamond Age.
+
+- Ractors - Remote Actors that are instrumented in a way that allows them to do
+  a very advanced form of voice and motion capture.
+
+- Cheveleens: electromechanical horse-robots often used by Neo-Victorians as
+  transportation. 
+
+For a nearly 30 year old book, I'm surprised at how well it's aged. Written in
+1996, most aspects come off as very modern, alluding to a distributed web and
+distributed ledgers. Brain-computer interfaces are pervasive in the story
+continue to remain speculative and illusive, but an active area of research.
+Some of the tech has aged poorly, but this is more endearing than annoying. Data
+is stored on tape drives, large amounts of data expressed in gigabytes.
+
+If I was to edit Diamond Age, I'd skip the computer science education parts. The
+whole set of scenes with Nell's Primer adventures in Castle Turing are kind of
+clever, but rely on thinly veiled analogies that aren't especially insightful.
+Wordy passages compare zeros and ones to two sorts of links in a chain, and
+attempt to explain ASCII code. To someone that knows these concepts well, it's
+boring. To someone that doesn't, I think it would be boring too. 
+
+Overall, the book felt stronger viewed as a world building exercise rather
+than a coherent work of fiction. This despite the some really colorful
+characters and an engaging story overall. Some of my favorites were Lord
+Finkel-McGraw, Carl Hollywood, Judge Fang, and Dr. X. Frustratingly, other
+characters start off interesting, but transform into nagging loose ends: what
+happened to Nell's guardian Constable Moore? And to her friends Elizabeth and
+Fiona?
+
+The plot jumps in ways that force the reader to fill in the gaps, and the
+constant traverse between reality and the world of the Illustrated Primer can be
+disorienting. But if memory serves, this is not unlike Stephenson's other books.
+The tribe of The Drummers, the First Distributed Republic and other
+crypto-related parts were the most mysterious and difficult to follow. Not
+unlike real life! Maybe I was distracted by the endless metaphors between
+orgies and distributed computing -- typical Stephenson.
+
+The ending is ambiguous but still satisfying. I can't help but wonder: was the
+primer comissioned deliberately to subvert the world order by Finkel-McGraw?
+
+
+
 Hyperion by Dan Simmons (audio)
 ===
 posted: August 4, 2019
