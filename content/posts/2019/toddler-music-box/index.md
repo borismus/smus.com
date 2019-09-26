@@ -6,7 +6,7 @@ Toddler toys are stacked with blinking lights, loud attention seeking noises, an
 
 So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:
 
-![My daughter’s music box][image-1]
+[![My daughter’s music box][image-1]][video-1]
 
 <!--more-->
 
@@ -86,3 +86,4 @@ Until next time.
 [image-2]:	solder.jpg
 [image-3]:	plastic-box.jpg
 [image-4]:	final-disassembly.jpg
+[video-1]:  https://www.youtube.com/watch?v=nS879aGP6O0
