@@ -62,13 +62,13 @@ domains to audio. This post sets the scene for the auditory equivalent of MNIST.
 Rather than recognize handwritten digits, we will focus on recognizing spoken
 commands. We'll do this by converting sounds like this:</p>
 
-<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+<p><audio src="left.wav" controls></audio></p>
 
 <p>Into images like this, called log-mel spectrograms, and in the <a href="/web-voice-command-recognition/">next post</a>,
 feed these images into the same types of models that do handwriting recognition
 so well:</p>
 
-<p><img src="/web-audio-ml-features/final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
+<p><img src="final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
 
 <p>The audio feature extraction technique I discuss here is generic enough to work
 for all sorts of audio, not just human speech. The rest of the post explains
@@ -105,7 +105,7 @@ audio and generate an image from it. Generating these images from audio is
 sometimes called a frontend in <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43960.pdf">speech recognition papers</a>. Just to
 hammer the point home, here's a diagram explaining why we need to do this step:</p>
 
-<p><img src="/web-audio-ml-features/front-end-diagram.png" alt="Audio processing vs. image processing" /></p>
+<p><img src="front-end-diagram.png" alt="Audio processing vs. image processing" /></p>
 
 <p>The standard way of generating images from audio is by looking at the audio
 chunk-by-chunk, and analyzing it in the frequency domain, and then applying
@@ -135,11 +135,11 @@ useful companion to that tutorial.</p>
 
 <p>Let's begin with an audio example (a man saying the word "left"):</p>
 
-<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+<p><audio src="left.wav" controls></audio></p>
 
 <p>Here's that raw waveform plotted as pressure as a function of time:</p>
 
-<p><img src="/web-audio-ml-features/1-raw-audio.png" alt="Raw audio" /></p>
+<p><img src="1-raw-audio.png" alt="Raw audio" /></p>
 
 <p>We could take the FFT over the whole signal, but it changes a lot over time.
 In our example above, the "left" utterance only takes about 200 ms, and most of
@@ -162,7 +162,7 @@ large (400 ms and 200ms respectively). In practice, we tend to use much shorter
 buffers (eg. 20-40 ms), and often even shorter hop lengths to capture minute
 changes in audio signal.</p>
 
-<p><img src="/web-audio-ml-features/2-buffer-hop.png" alt="Break-up audio" /></p>
+<p><img src="2-buffer-hop.png" alt="Break-up audio" /></p>
 
 <p>Then, we consider each buffer in the frequency domain. We can do this using an
 Fast Fourier Transform (FFT) algorithm. This algorithm gives us complex values
@@ -170,14 +170,14 @@ from which we can extract magnitudes or energies. For example, here are the FFT
 energies of one of the buffers, approximately the second one in the above image,
 where the speaker begins saying the "le" syllable of "left":</p>
 
-<p><img src="/web-audio-ml-features/3-fft-buffer-linear.png" alt="Frequency of buffer" /></p>
+<p><img src="3-fft-buffer-linear.png" alt="Frequency of buffer" /></p>
 
 <p>Now imagine we do this for every buffer we generated in the previous step, take
 each FFT arrays and instead of showing energy as a function of frequency, stack
 the array vertically so that y-axis represents frequency and color represents
 energy. We end up with a spectrogram:</p>
 
-<p><img src="/web-audio-ml-features/4-fft-spectrogram.png" alt="STFT spectrogram" /></p>
+<p><img src="4-fft-spectrogram.png" alt="STFT spectrogram" /></p>
 
 <p>We could feed this image into our neural network, but you'll agree that it looks
 pretty sparse. We have wasted so much space, and there's not much signal there
@@ -188,30 +188,30 @@ frequencies in this plot are bunched up below 5 KHz since the speaker isn't
 producing particularily high frequency sound. Human audition tends to be
 logarithmic, so we can view the same range on a log-plot:</p>
 
-<p><img src="/web-audio-ml-features/5-fft-buffer-log.png" alt="Frequency of buffer" /></p>
+<p><img src="5-fft-buffer-log.png" alt="Frequency of buffer" /></p>
 
 <p>Let's generate new spectrograms as we did in an earlier step, but rather than
 using a linear plot of energies, use can a log-plot of FFT energies:</p>
 
-<p><img src="/web-audio-ml-features/9-log-spectrogram.png" alt="STFT log spectrogram" /></p>
+<p><img src="9-log-spectrogram.png" alt="STFT log spectrogram" /></p>
 
 <p>Looks a bit better, but there is room for improvement. Humans are much better at
 discerning small changes in pitch at low frequencies than at high frequencies.
 The Mel scale relates pitch of a pure tone to its actual measured frequency. To
 go from frequencies to Mels, we create a triangular filter bank:</p>
 
-<p><img src="/web-audio-ml-features/6-mel-filterbank.png" alt="Mel filter bank" /></p>
+<p><img src="6-mel-filterbank.png" alt="Mel filter bank" /></p>
 
 <p>Each colorful triangle above is a window that we can apply to the frequency
 representation of the sound. Applying each window to the FFT energies we
 generated earlier will give us the Mel spectrum, in this case an array of 20
 values:</p>
 
-<p><img src="/web-audio-ml-features/7-mel-spectrum.png" alt="Mel spectrum" /></p>
+<p><img src="7-mel-spectrum.png" alt="Mel spectrum" /></p>
 
 <p>Plotting this as a spectrogram, we get our feature, the log-mel spectrogram:</p>
 
-<p><img src="/web-audio-ml-features/10-mel-spectrogram.png" alt="Mel spectrogram" /></p>
+<p><img src="10-mel-spectrogram.png" alt="Mel spectrogram" /></p>
 
 <p>The 1s images above are generated using audio feature extraction software
 written in TypeScript, which I've released publicly. Here's a <a href="https://google.github.io/web-audio-recognition/audio-features/">demo</a> that
@@ -243,7 +243,7 @@ than native), and the one I used.</p>
 <p>Here is a sanity check comparing the output of my web-based feature extractor to
 that of other libraries, most notably <a href="https://github.com/librosa/librosa">librosa</a> and from <a href="https://github.com/tensorflow/models/blob/master/research/audioset/mel_features.py">AudioSet</a>:</p>
 
-<p><img src="/web-audio-ml-features/mel-comparison.png" alt="Log mel feature comparison" /></p>
+<p><img src="mel-comparison.png" alt="Log mel feature comparison" /></p>
 
 <p>The images resulting from the three implementations are similar, which is a good
 sanity check, but they are not identical. I haven't found the time yet, but it
