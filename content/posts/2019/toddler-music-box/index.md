@@ -85,4 +85,4 @@ Until next time.
 [image-1]:	final-box.jpg
 [image-2]:	solder.jpg
 [image-3]:	plastic-box.jpg
-[image-4]:	final-design.jpg
+[image-4]:	final-disassembly.jpg
