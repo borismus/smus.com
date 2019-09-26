@@ -77,7 +77,7 @@ in mind the dubious legality of lyrics</li>
 to a web implementation.</li>
 </ol>
 
-<p><img src="phone.png" class="left"></p>
+<p><img src="/offline-web-iphone/phone.png" class="left"></p>
 
 <p>There are a few interesting technical challenges to overcome in implementing
 this application. Firstly, the app needs to blend visually with the iPhone look
@@ -108,8 +108,8 @@ MobileSafari's cookie jar is emptied. </p>
 WebKit now allows you to store structured data locally in an SQLite database. I
 found this approach to work very well on iPhone. The database backend persists
 through reboots, as expected. I implemented both storage schemes in separate
-files, available for your scrutiny: the class SongJar for cookies in <a href="offline-mobile/jar.js">jar.js</a>
-and SongDatabase for HTML5 storage <a href="offline-mobile/database.js">database.js</a>.</p>
+files, available for your scrutiny: the class SongJar for cookies in <a href="/offline-web-iphone/offline-mobile/jar.js">jar.js</a>
+and SongDatabase for HTML5 storage <a href="/offline-web-iphone/offline-mobile/database.js">database.js</a>.</p>
 
 <p>The last piece of the puzzle is how to force the web application's source files
 to get cached on the iPhone, so that the app remains accessible even when the

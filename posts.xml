@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-09-25T18:00:41-00:00</updated>
+  <updated>2019-09-25T20:19:30-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -23,7 +23,7 @@
 
 <p>So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:</p>
 
-<p><img src="final-box.jpg" alt="My daughter’s music box" /></p>
+<p><a href="https://www.youtube.com/watch?v=nS879aGP6O0"><img src="/toddler-music-box/final-box.jpg" alt="My daughter’s music box" /></a></p>
 
 <!--more-->
 
@@ -40,7 +40,7 @@
 
 <p>Luckily, there’s an incredible Makerspace at work, so I dropped by after my actual work was done, picked up a soldering iron, and got to work. I’ve soldered before, but not much since my favorite class of all time: Making Things Interact at CMU, taught by Mark Gross. Initially daunting, I knocked it out in no time thanks to some really detailed instructions. The results were amazing. Fuse a bunch of metal and silicon together, attach a battery and 1.5 seconds later (that’s the boot time), a song is playing through the speaker! Any sufficiently advanced technology is indistinguishable from magic.</p>
 
-<p><img src="solder.jpg" alt="Soldering the Adafruit Wave Hat" /></p>
+<p><img src="/toddler-music-box/solder.jpg" alt="Soldering the Adafruit Wave Hat" /></p>
 
 <h1>Randomly playing songs</h1>
 
@@ -56,7 +56,7 @@
 
 <p>Rather than wait, I opted for a faster route: prototyping with 3D printing. So I began designing music boxes on paper, then in OnShape, then printing them using the <a href="https://www.prusa3d.com/">Prusa</a> printers. Seeing a design evolve from figment of imagination to tangible physical object is incredibly satisfying. However, once that satisfaction wore off, I can honestly say that the results were functional, but not at all aesthetically pleasing:</p>
 
-<p><img src="plastic-box.jpg" alt="Early 3D printed plastic box" /></p>
+<p><img src="/toddler-music-box/plastic-box.jpg" alt="Early 3D printed plastic box" /></p>
 
 <h1>That old time wooden aesthetic</h1>
 
@@ -68,7 +68,7 @@
 
 <p>After a few iterations of fastener tweaking, design adjustments, and measurement corrections, I had a top insert for housing the speaker, and a speaker grille to protect the speaker’s membrane, a bottom insert for housing the electronic core, and a cover to hide them. The <a href="https://github.com/borismus/toddler-music-box">STL files</a> are all in the GitHub repo. Here’s the result:</p>
 
-<p><img src="final-design.jpg" alt="Finished wooden musical box" /></p>
+<p><img src="/toddler-music-box/final-disassembly.jpg" alt="Finished wooden musical box" /></p>
 
 <p>If you’re curious, the <a href="https://cad.onshape.com/documents/786c5f0b153cdd48f9b0f2f8/w/b4275650dc7aac134e30275f/e/4a850077e5ce208659a14aab">OnShape project is public</a>, you just need to make an OnShape account.</p>
 
@@ -121,7 +121,7 @@ script</a>.
 Fully assembled, two-bit LEGO Link makes an excellent coaster for the office
 mug.</p>
 
-<p><img src="link-mosaic.jpg" alt="Link coaster assembled" /></p>
+<p><img src="/zelda-lego/link-mosaic.jpg" alt="Link coaster assembled" /></p>
 
 <!--more-->
 
@@ -131,13 +131,13 @@ favorite. Twenty five years later, the most memorable part of the game was of
 course <a href="https://www.youtube.com/watch?v=NccSaUwoibM">the music</a>. But the
 graphics were amazing in their own right. This to me is concentrated nostalgia:</p>
 
-<p><img src="links-awakening.png" alt="Screenshot Link's awakening" /></p>
+<p><img src="/zelda-lego/links-awakening.png" alt="Screenshot Link's awakening" /></p>
 
 <p>The mosaic is based directly on the most iconic sprite from the game: Link and
 his shield strolling sideways through Koholint Island. Here's the colorized
 version from the DX version:</p>
 
-<p><img src="awakening-link-side-16x16-scaled.png" alt="Link sprite" /></p>
+<p><img src="/zelda-lego/awakening-link-side-16x16-scaled.png" alt="Link sprite" /></p>
 
 <p>I tried making a Link mosaic from my second favorite, Zelda: Link to the Past.
 Unfortunately, a 16-bit color palette is way harder to replicate with LEGO's
@@ -165,7 +165,7 @@ limited set of colors, and the result isn't worth sharing.</p>
 piece. Here's an interactive <a href="https://borismus.github.io/classical-interpreter/">demo</a>, and a video to give you a sense of how it
 works:</p>
 
-<p><video src="two-goulds.mp4" style="display: block; margin: 0 auto;" controls /></p>
+<p><video src="/classical-interpreters/two-goulds.mp4" style="display: block; margin: 0 auto;" controls /></p>
 
 <!--more-->
 
@@ -228,7 +228,7 @@ Requiem. <a href="https://borismus.github.io/classical-interpreter/?json=https:/
 minute to load and decode the audio. Böhm's brooding tempo and lumbering chorus
 (ugh) contrasts especially well with Levin's crisp and minimalist take.</p>
 
-<p><video src="three-requiems.mp4" style="display: block; margin: 0 auto;" controls /></p>
+<p><video src="/classical-interpreters/three-requiems.mp4" style="display: block; margin: 0 auto;" controls /></p>
 
 <h2>Technical details</h2>
 
@@ -289,7 +289,7 @@ we'll take these images and train a neural network using
 lets you speak a command ("yes" or "no"), and see the output of the classifier
 in real-time, like this:</p>
 
-<p><video src="inference-demo.mp4" autoplay muted loop type="video/mp4"
+<p><video src="/web-voice-command-recognition/inference-demo.mp4" autoplay muted loop type="video/mp4"
 style="width: 100%"></p>
 
 <p>Curious to play with it, see whether or not it recognizes <em>yay</em> or <em>nay</em> in
@@ -312,14 +312,14 @@ Once you are ready (this will take a while, perhaps 500 iterations or 2
 minutes, depending on your hardware), stop training, and press the save
 weights (file) button.  This will download a JSON file.</p>
 
-<p><img src="2-training-graph.png" alt="Training graph" /></p></li>
+<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p></li>
 <li><p>Then go to <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">the inference demo page</a>, press the load weights (file) button
 and select the downloaded JSON file to load the trained model.</p></li>
 <li><p>Flip the switch, grant access to the microphone and try saying "yes" or "no".
 You'll see microphone and confidence levels indicated at the bottom of the
 page.</p>
 
-<p><img src="3-inference.png" alt="Inference screenshot" /></p></li>
+<p><img src="/web-voice-command-recognition/3-inference.png" alt="Inference screenshot" /></p></li>
 </ol>
 
 <p>The above is a mechanistic account of how the training example works.  If you
@@ -389,7 +389,7 @@ In ML parlance, we need to set the <a href="https://en.wikipedia.org/wiki/Hyperp
 setting the learning rate (how much to follow the gradient at each step) and
 batch size (how many examples to ingest at a time). And we're off to the races:</p>
 
-<p><img src="2-training-graph.png" alt="Training graph" /></p>
+<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p>
 
 <p>During training, the gradient descent algorithm tries to minimize cost, which
 you can see in blue. We also plot accuracy in orange, which is occasionally
@@ -480,13 +480,13 @@ domains to audio. This post sets the scene for the auditory equivalent of MNIST.
 Rather than recognize handwritten digits, we will focus on recognizing spoken
 commands. We'll do this by converting sounds like this:</p>
 
-<p><audio src="left.wav" controls></audio></p>
+<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
 
 <p>Into images like this, called log-mel spectrograms, and in the <a href="/web-voice-command-recognition/">next post</a>,
 feed these images into the same types of models that do handwriting recognition
 so well:</p>
 
-<p><img src="final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
+<p><img src="/web-audio-ml-features/final-log-mel-spectrogram.png" alt="Final log-mel spectrogram." /></p>
 
 <p>The audio feature extraction technique I discuss here is generic enough to work
 for all sorts of audio, not just human speech. The rest of the post explains
@@ -523,7 +523,7 @@ audio and generate an image from it. Generating these images from audio is
 sometimes called a frontend in <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43960.pdf">speech recognition papers</a>. Just to
 hammer the point home, here's a diagram explaining why we need to do this step:</p>
 
-<p><img src="front-end-diagram.png" alt="Audio processing vs. image processing" /></p>
+<p><img src="/web-audio-ml-features/front-end-diagram.png" alt="Audio processing vs. image processing" /></p>
 
 <p>The standard way of generating images from audio is by looking at the audio
 chunk-by-chunk, and analyzing it in the frequency domain, and then applying
@@ -553,11 +553,11 @@ useful companion to that tutorial.</p>
 
 <p>Let's begin with an audio example (a man saying the word "left"):</p>
 
-<p><audio src="left.wav" controls></audio></p>
+<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
 
 <p>Here's that raw waveform plotted as pressure as a function of time:</p>
 
-<p><img src="1-raw-audio.png" alt="Raw audio" /></p>
+<p><img src="/web-audio-ml-features/1-raw-audio.png" alt="Raw audio" /></p>
 
 <p>We could take the FFT over the whole signal, but it changes a lot over time.
 In our example above, the "left" utterance only takes about 200 ms, and most of
@@ -580,7 +580,7 @@ large (400 ms and 200ms respectively). In practice, we tend to use much shorter
 buffers (eg. 20-40 ms), and often even shorter hop lengths to capture minute
 changes in audio signal.</p>
 
-<p><img src="2-buffer-hop.png" alt="Break-up audio" /></p>
+<p><img src="/web-audio-ml-features/2-buffer-hop.png" alt="Break-up audio" /></p>
 
 <p>Then, we consider each buffer in the frequency domain. We can do this using an
 Fast Fourier Transform (FFT) algorithm. This algorithm gives us complex values
@@ -588,14 +588,14 @@ from which we can extract magnitudes or energies. For example, here are the FFT
 energies of one of the buffers, approximately the second one in the above image,
 where the speaker begins saying the "le" syllable of "left":</p>
 
-<p><img src="3-fft-buffer-linear.png" alt="Frequency of buffer" /></p>
+<p><img src="/web-audio-ml-features/3-fft-buffer-linear.png" alt="Frequency of buffer" /></p>
 
 <p>Now imagine we do this for every buffer we generated in the previous step, take
 each FFT arrays and instead of showing energy as a function of frequency, stack
 the array vertically so that y-axis represents frequency and color represents
 energy. We end up with a spectrogram:</p>
 
-<p><img src="4-fft-spectrogram.png" alt="STFT spectrogram" /></p>
+<p><img src="/web-audio-ml-features/4-fft-spectrogram.png" alt="STFT spectrogram" /></p>
 
 <p>We could feed this image into our neural network, but you'll agree that it looks
 pretty sparse. We have wasted so much space, and there's not much signal there
@@ -606,30 +606,30 @@ frequencies in this plot are bunched up below 5 KHz since the speaker isn't
 producing particularily high frequency sound. Human audition tends to be
 logarithmic, so we can view the same range on a log-plot:</p>
 
-<p><img src="5-fft-buffer-log.png" alt="Frequency of buffer" /></p>
+<p><img src="/web-audio-ml-features/5-fft-buffer-log.png" alt="Frequency of buffer" /></p>
 
 <p>Let's generate new spectrograms as we did in an earlier step, but rather than
 using a linear plot of energies, use can a log-plot of FFT energies:</p>
 
-<p><img src="9-log-spectrogram.png" alt="STFT log spectrogram" /></p>
+<p><img src="/web-audio-ml-features/9-log-spectrogram.png" alt="STFT log spectrogram" /></p>
 
 <p>Looks a bit better, but there is room for improvement. Humans are much better at
 discerning small changes in pitch at low frequencies than at high frequencies.
 The Mel scale relates pitch of a pure tone to its actual measured frequency. To
 go from frequencies to Mels, we create a triangular filter bank:</p>
 
-<p><img src="6-mel-filterbank.png" alt="Mel filter bank" /></p>
+<p><img src="/web-audio-ml-features/6-mel-filterbank.png" alt="Mel filter bank" /></p>
 
 <p>Each colorful triangle above is a window that we can apply to the frequency
 representation of the sound. Applying each window to the FFT energies we
 generated earlier will give us the Mel spectrum, in this case an array of 20
 values:</p>
 
-<p><img src="7-mel-spectrum.png" alt="Mel spectrum" /></p>
+<p><img src="/web-audio-ml-features/7-mel-spectrum.png" alt="Mel spectrum" /></p>
 
 <p>Plotting this as a spectrogram, we get our feature, the log-mel spectrogram:</p>
 
-<p><img src="10-mel-spectrogram.png" alt="Mel spectrogram" /></p>
+<p><img src="/web-audio-ml-features/10-mel-spectrogram.png" alt="Mel spectrogram" /></p>
 
 <p>The 1s images above are generated using audio feature extraction software
 written in TypeScript, which I've released publicly. Here's a <a href="https://google.github.io/web-audio-recognition/audio-features/">demo</a> that
@@ -661,7 +661,7 @@ than native), and the one I used.</p>
 <p>Here is a sanity check comparing the output of my web-based feature extractor to
 that of other libraries, most notably <a href="https://github.com/librosa/librosa">librosa</a> and from <a href="https://github.com/tensorflow/models/blob/master/research/audioset/mel_features.py">AudioSet</a>:</p>
 
-<p><img src="mel-comparison.png" alt="Log mel feature comparison" /></p>
+<p><img src="/web-audio-ml-features/mel-comparison.png" alt="Log mel feature comparison" /></p>
 
 <p>The images resulting from the three implementations are similar, which is a good
 sanity check, but they are not identical. I haven't found the time yet, but it
@@ -767,7 +767,7 @@ feedback for grasping an object with your hand. They detailed each stage:
 grabbing it, picking it up, feeling its weight, then moving it around and
 feeling its inertia.</p>
 
-<p><img src="grabity.jpg" alt="Grabity steps in action" /></p>
+<p><img src="/uist-2017/grabity.jpg" alt="Grabity steps in action" /></p>
 
 <p>Weight is perceived by multiple senses in the human body: muscle spindles (eg.
 in biceps), golgi tendons (eg. in elbow), mechanoreceptors sensing shear (eg. in
@@ -812,7 +812,7 @@ design is done from a top-down view, since this is a good match to human
 auditory perception, which is much better at lateral than vertical
 source differentiation.</p>
 
-<p><img src="inviso.jpg" alt="Inviso screenshot" /></p>
+<p><img src="/uist-2017/inviso.jpg" alt="Inviso screenshot" /></p>
 
 <p>In the end he showed multiple examples of people using the system and creating
 complex auditory scenes, including overlapping zones, and animated, multi-coned
@@ -852,7 +852,7 @@ can encode data onto a conductive thread by having conductive segments that can
 be magnetized interleaved with insulated segments. A binary string is then
 encoded by mapping 0 to one polarity and 1 to the other.</p>
 
-<p><img src="magnetized-fabric.jpg" alt="Magnetized fabric" /></p>
+<p><img src="/uist-2017/magnetized-fabric.jpg" alt="Magnetized fabric" /></p>
 
 <p>They also showed use cases, such as writing and reading data from the clothing,
 or even engraving data images (smallest pixel using a regular loom was 1.8cm^2)
@@ -1008,7 +1008,7 @@ Seattle. </p>
   transience of the world and the inevitability of death. – <a href="https://en.wikipedia.org/wiki/Sundial#Sundial_mottoes">Wikipedia</a></p>
 </blockquote>
 
-<p><img src="watch-screenshot.png" alt="WatchKit screenshot" 
+<p><img src="/memento-mori/watch-screenshot.png" alt="WatchKit screenshot" 
   style="margin: 0 auto; display: block; width: 200px" /></p>
 
 <p>This rich tradition is now available on <a href="https://itunes.apple.com/us/app/memento-mori-apple-watch/id1294913922">Apple Watch</a>.</p>
@@ -1108,13 +1108,13 @@ For example, if we take `x(t) = t^2` and sample every integer from 1 to 10, we
 would get `x[n] = [x(1), x(2), ..., x(10)]`, in blue. Next, calculate y[n] and
 color it green:</p>
 
-<p><img src="sampling.png" alt="x(t) = t^2 sampled for the first 10 integers" /></p>
+<p><img src="/filter-playground/sampling.png" alt="x(t) = t^2 sampled for the first 10 integers" /></p>
 
 <p>Let's take several x(t), sample them into x[n], and see what the above
 difference equation gives us for y[n]. When we plot x[n] in blue and y[n] in
 green, we get the following graphs:</p>
 
-<p><img src="math-filter-plot.png" alt="Several discretized mathematical functions with x in blue, and y in
+<p><img src="/filter-playground/math-filter-plot.png" alt="Several discretized mathematical functions with x in blue, and y in
 green" /></p>
 
 <p>The first row shows the result of our difference equation on some mathematical
@@ -1577,7 +1577,7 @@ In the same way that language matters, so do religious views, culture, political
 leanings, and much more. Here's a recent example highlighting a news
 source-based lens on the same topic (Nancy Pelosi and Russia):</p>
 
-<p><img src="pelosi.png" alt="Nancy pelosi russia on nytimes vs. breitbart" /></p>
+<p><img src="/debaters-friendly-disagreement/pelosi.png" alt="Nancy pelosi russia on nytimes vs. breitbart" /></p>
 
 <p>Humanity has always been divided, and in hindsight, the unifying promise of the
 internet was a techno-utopian dream. By shrinking the world into a "global
@@ -1661,7 +1661,7 @@ I've been working on a side project provisionally called <a href="https://catma-
   animosity toward their whole group.</p>
 </blockquote>
 
-<p><img src="debaters.png" alt="Screenshots of Debaters" /></p>
+<p><img src="/debaters-friendly-disagreement/debaters.png" alt="Screenshots of Debaters" /></p>
 
 <p>I took a bit of time off recently and got carried away on the implementation,
 with <a href="https://twitter.com/abmcosta">Antonio's help</a> on the UX front, and now it's live on
@@ -1916,7 +1916,7 @@ We can better understand just how extreme the Rigopiano avalanche was if we put
 it into context. But what sort of context makes sense? If we consider geography,
 we can imagine concentric circles around Rigopiano.</p>
 
-<p><img src="rigopiano.png" alt="Possible geographic context for the Rigopiano avalanche" /></p>
+<p><img src="/headlines-meet-sparklines-news-in-context/rigopiano.png" alt="Possible geographic context for the Rigopiano avalanche" /></p>
 
 <p>On one extreme, we could consider other avalanches at Rigopiano specifically.
 But for most people, especially outside of Italy, this is too specific.
@@ -1940,7 +1940,7 @@ remains significant (in the Alps, 100 yearly) and stable. Note that the numbers 
 not adjusted for the increasing global population, or for the increasing numbers
 of back country tourists.</p>
 
-<p><img src="alps-graph.png" alt="Avalanche deaths in the European Alps between 1970 and 2015" /></p>
+<p><img src="/headlines-meet-sparklines-news-in-context/alps-graph.png" alt="Avalanche deaths in the European Alps between 1970 and 2015" /></p>
 
 <p>One of the things that becomes clear is the important distinction between
 controlled and uncontrolled accidents. We now have context for better
@@ -1949,7 +1949,7 @@ send the statistics for 2017 through the roof. Let's see it in the context of
 other significant avalanches (controlled and not) over the years. The following
 claimed more than 20 people since 1970, according to Wikipedia:</p>
 
-<p><img src="avalanches-since-1970.png" alt="Significant global avalanches since 1970" /></p>
+<p><img src="/headlines-meet-sparklines-news-in-context/avalanches-since-1970.png" alt="Significant global avalanches since 1970" /></p>
 
 <p>Now we are armed to the teeth with data, but how do we present inline in the
 news? There are <a href="http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/">tons of ways</a> of visualizing data in a compelling
@@ -2018,7 +2018,7 @@ iframe#cabinet {
 
 <iframe id="cabinet" src="cabinet-example.html"></iframe>
 
-<p>To summarize, <a href="cabinet-sign.jpg">I've seen stronger cabinets at IKEA</a>!</p>
+<p>To summarize, <a href="/headlines-meet-sparklines-news-in-context/cabinet-sign.jpg">I've seen stronger cabinets at IKEA</a>!</p>
 
 <p>One thing that is clear from the above is that indeed, Australia has a very
 white cabinet. Of course, in the spirit of representation, we should be
@@ -2137,7 +2137,7 @@ for my purposes.</p>
 <p>As a result, it seems that the state of the art for individuals hasn't advanced
 much beyond Franklin's method. Product comparisons are one notable exception:</p>
 
-<p><img src="product-comparison.png" alt="Product comparison chart example" /></p>
+<p><img src="/making-better-decisions/product-comparison.png" alt="Product comparison chart example" /></p>
 
 <p>What if we could take product comparison charts, but make them a bit more
 quantitative, and then apply the technique to decision making?</p>
@@ -2158,7 +2158,7 @@ describes as the "search-inference" process. Here's an example of an imaginary
 rocket scientist deciding between two job offers based on two goals, resulting
 in a 2x2 sheet:</p>
 
-<p><img src="decision-spreadsheet.png" alt="Screenshot of Google Sheets decision spreadsheet" /></p>
+<p><img src="/making-better-decisions/decision-spreadsheet.png" alt="Screenshot of Google Sheets decision spreadsheet" /></p>
 
 <p>Structurally, it works like this:</p>
 
@@ -2185,7 +2185,7 @@ decision matrix. Ultimately, each possibility (column) is given a score between
 0 and 1. The recommended course of action is the possibility with the highest
 score. So the above 2x2 spreadsheet is converted into this decision matrix.</p>
 
-<p><img src="decision-spreadsheet-calculations.png" alt="Second sheet of Google Sheets decision
+<p><img src="/making-better-decisions/decision-spreadsheet-calculations.png" alt="Second sheet of Google Sheets decision
 spreadsheet" /></p>
 
 <p>Then, given these weights, we do a simple calculation for each possibility
@@ -2250,7 +2250,7 @@ feeling for it, there's a consumer-oriented decision support system <a href="htt
 MeenyMo</a> that does this. The process is quite tedious though, involving
 tens of comparisons like this:</p>
 
-<p><img src="meenymo.png" alt="MeenyMo's PAPRIKA style comparisons" /></p>
+<p><img src="/making-better-decisions/meenymo.png" alt="MeenyMo's PAPRIKA style comparisons" /></p>
 
 <p>The other downside of PAPRIKA is that it requires discrete categories (eg. cost
 of living: cheap, moderate, expensive).</p>
@@ -2380,7 +2380,7 @@ missed some versions. Also, notions of "lead story" and "above the fold" don't
 really make sense online. I arbitrarily defined "the fold" to be 1280 px, as in
 this example:</p>
 
-<p><img src="nytimes.png" alt="Example NYT screenshot from September 16th" /></p>
+<p><img src="/front-page-blues/nytimes.png" alt="Example NYT screenshot from September 16th" /></p>
 
 <p>As for the results? Half of the NYT's headlines had "Trump" in the name, and the
 frequency matched my intuition. It sure did feel like this dude was getting a
@@ -2908,7 +2908,7 @@ To debug it, I built a very rough simulator, which lets you specify the
 orientation of a virtual head and hand, run it through the model, and visualize
 the resulting pose of the controller:</p>
 
-<p><a href="https://borismus.github.io/ray-input/daydream-simulator.html"><img src="arm-model.png" alt="Daydream arm model simulator" /></a></p>
+<p><a href="https://borismus.github.io/ray-input/daydream-simulator.html"><img src="/ray-input-webvr-interaction-patterns/arm-model.png" alt="Daydream arm model simulator" /></a></p>
 
 <p>As always, very open to feedback, bug reports, and pull requests via
 <a href="https://github.com/borismus/ray-input">github</a>.</p>
@@ -3089,7 +3089,7 @@ works like this:</p>
 <li>Enter an optional caption, et voila!</li>
 </ol>
 
-<p><img src="inspirata.gif" alt="How Inspirata works video" /></p>
+<p><img src="/inspirata/inspirata.gif" alt="How Inspirata works video" /></p>
 
 <!--more-->
 
@@ -3218,7 +3218,7 @@ immersive environment.</p>
 certain web pages had parallel content tailored for virtual reality? In this
 post, I'll explore this idea with an example focused on Wikipedia.</p>
 
-<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>
+<p><a href="https://youtu.be/HcSvBAEXcWA"><img src="/wikipedia-vr/vr-forest.jpg" alt="Video of VR Wikipedia" /></a></p>
 
 <!--more-->
 
@@ -3241,7 +3241,7 @@ leave VR and end up on another webpage.</p>
 <p>Try out this <a href="http://borismus.github.io/wikipedia-vr/pages/moose">Wikipedia VR sample</a> on your mobile phone in Cardboard. It
 also works on desktop using the spacebar to simulate the Cardboard click.</p>
 
-<p><img src="navigation.mp4.gif" alt="Video of navigating between pages" /></p>
+<p><img src="/wikipedia-vr/navigation.mp4.gif" alt="Video of navigating between pages" /></p>
 
 <p>VR and education are naturally matched. As <a href="https://youtu.be/UuceLtGjDWY?t=1m40s">Ben explains eloquently in an I/O
 talk</a>, "VR is a chance to scale experiential learning". Remembering what
@@ -3255,7 +3255,7 @@ it runs, and what it sounds like. </p>
 <p><strong>Tip of the iceberg</strong>. The entities in this Wikipedia demo (in green) represent
 a tiny subgraph of Wikipedia:</p>
 
-<p><img src="knowledge-graph.png" alt="Picture of the subgraph we implement" /></p>
+<p><img src="/wikipedia-vr/knowledge-graph.png" alt="Picture of the subgraph we implement" /></p>
 
 <p>All of the above are positioned in a much bigger subgraph of Wikipedia which
 might can be represented in VR. Of course, many Wikipedia pages are really
@@ -3271,7 +3271,7 @@ into an abstract view to explore Family Cervidae. It's easy to lose an hour or
 two in Wikipedia's hyperlink maze. One day, it may be even easier to do this in
 VR.</p>
 
-<p><img src="alice-shrinking.jpg" alt="Alice in wonderland shrinking" /></p>
+<p><img src="/wikipedia-vr/alice-shrinking.jpg" alt="Alice in wonderland shrinking" /></p>
 
 <p><strong>Content is king</strong>. The big open question is how to generate this content. Even a
 scoped down project to VR-ify categories of Wikipedia pages (say, only forest
@@ -3300,7 +3300,7 @@ image was hand drawn. Artistic abilities vary wildly, and you can imagine a
 funny and chaotic result. Aaron Koblin's now classic <a href="http://www.thesheepmarket.com/">Sheep Market</a>
 experiment comes to mind:</p>
 
-<p><img src="sheep-market.png" alt="Sheep market screenshot" /></p>
+<p><img src="/wikipedia-vr/sheep-market.png" alt="Sheep market screenshot" /></p>
 
 
         
@@ -3325,7 +3325,7 @@ large curved spherical display on your face, but alas such technology is
 prohibitively expensive. A more affordable solution to increasing the field of
 view is to look at small ubiquitous rectangular displays through lenses:</p>
 
-<p><img src="how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>
+<p><img src="/vr-lens-distortion/how-lenses-increase-fov.png" alt="Why VR needs lenses" /></p>
 
 <p>Lenses placed close to your eyes greatly increase your field of view, but there
 is a cost: the image becomes spherically distorted. The larger the field of
@@ -3338,12 +3338,12 @@ implemented in JavaScript for various WebVR-related projects.</p>
 <p>Here is a closer look at the lens distortion of a typical head mounted display.
 The lenses cause a pincushion effect:</p>
 
-<p><img src="pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>
+<p><img src="/vr-lens-distortion/pincushion-distortion.png" alt="Pincushion distortion due to lenses" /></p>
 
 <p>The solution is to apply barrel distortion to the image. When we look at it through
 the distorting lenses, the image looks neutral:</p>
 
-<p><img src="barrel-predistortion.png" alt="Barrel pre-distortion" /></p>
+<p><img src="/vr-lens-distortion/barrel-predistortion.png" alt="Barrel pre-distortion" /></p>
 
 <p>Lens distortion is well understood mathematically, governed by equations <a href="https://en.wikipedia.org/wiki/Distortion_(optics)#Software_correction">like
 these</a>, with distortion coefficients corresponding to the particular lens.
@@ -3358,7 +3358,7 @@ implementation options below.</p>
 right eyes onto a texture, and then process that texture with a fragment (pixel)
 shader, moving each pixel inward in relation to the centroid of the eye:</p>
 
-<p><img src="dense.png" alt="Per-pixel based distortion" /></p>
+<p><img src="/vr-lens-distortion/dense.png" alt="Per-pixel based distortion" /></p>
 
 <p>This is the first and simplest method, which is also the least efficient, since
 each pixel is processed separately. The <a href="https://github.com/borismus/webvr-boilerplate/blob/d91cc2866bd54e65d59022800f62c7e160dc9fee/src/cardboard-distorter.js">first version</a> of the
@@ -3369,7 +3369,7 @@ WebVR Boilerplate implemented this method.</p>
 <p>Rather than processing each pixel separately, we distort the vertices of a
 relatively sparse mesh (40x20 works well). </p>
 
-<p><img src="sparse.png" alt="Mesh based distortion" /></p>
+<p><img src="/vr-lens-distortion/sparse.png" alt="Mesh based distortion" /></p>
 
 <p>This can save some direct computation and let the GPU do a fair amount of
 interpolation. Rather than having to apply to every single pixel (<code>1920 * 1080 ~=
@@ -3398,7 +3398,7 @@ rendered very close to the camera. Distorting these vertices would still yield a
 this, this is method does not generalize without extra work on the
 developer's part.</p>
 
-<p><img src="cdl.png" alt="Cardboard Design Lab screenshot" /></p>
+<p><img src="/vr-lens-distortion/cdl.png" alt="Cardboard Design Lab screenshot" /></p>
 
 <p>This approach is used in the <a href="https://github.com/googlesamples/cardboard-unity/tree/master/Samples/CardboardDesignLab">Cardboard Design Lab</a> and in the open sourced
 <a href="https://github.com/google/vrview/blob/master/src/vertex-distorter.js">VR View project</a>. Geometry-based distortion can also result in sharper
@@ -3470,7 +3470,7 @@ to hear what you think!</p>
         <p>Economic inequality is rising in the US. A viral video from several years ago
 made this abundantly clear:</p>
 
-<p><a href="https://www.youtube.com/watch?v=QPKKQnijnsM"><img src="video_small.jpg" alt="Wealth inequality in U.S." /></a></p>
+<p><a href="https://www.youtube.com/watch?v=QPKKQnijnsM"><img src="/simulating-wealth-inequality/video_small.jpg" alt="Wealth inequality in U.S." /></a></p>
 
 <p>The gap between desire, expectation and reality is truly shocking, and inspired
 me to learn more. In particular, whether or not inequality is actually a big
@@ -3487,7 +3487,7 @@ simulation has two agents with different salaries, but the same spending habits.
 You can <a href="http://borismus.github.io/inequality-simulator/?model=1-world-income-ineq-doesnt-lead-to-wealth-ineq.js">play with it</a> yourself!</p>
 
 <p><a href="http://borismus.github.io/inequality-simulator/?model=1-world-income-ineq-doesnt-lead-to-wealth-ineq.js">
-<video src="simulator.mp4" autoplay loop style="width: 100%"></video>
+<video src="/simulating-wealth-inequality/simulator.mp4" autoplay loop style="width: 100%"></video>
 </a></p>
 
 <p>In the first part of this post, I try to provide some background on economic
@@ -3651,7 +3651,7 @@ status quo.</p>
 one with high income. They have the same spending habits, but the high income
 household has twice the income.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=1-world-income-ineq-doesnt-lead-to-wealth-ineq.js"><img src="screenshots/1-world-income-ineq-doesnt-lead-to-wealth-ineq.png" alt="Income inequality not sole cause wealth inequality." /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=1-world-income-ineq-doesnt-lead-to-wealth-ineq.js"><img src="/simulating-wealth-inequality/screenshots/1-world-income-ineq-doesnt-lead-to-wealth-ineq.png" alt="Income inequality not sole cause wealth inequality." /></a></p>
 
 <p>As you can see above (or if you click the image and <a href="http://borismus.github.io/inequality-simulator/?model=1-world-income-ineq-doesnt-lead-to-wealth-ineq.js">run the simulation
 yourself</a>), such a scenario does not yield huge differences in wealth.
@@ -3669,7 +3669,7 @@ cuts them out from any investment income.</p>
 household invests its whole net worth. We assume that the yield is the average
 return of the market, which is about <a href="http://www.marketwatch.com/story/8-lessons-from-80-years-of-market-history-2014-11-19">10% from 1930 to 2013</a>.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=2-investing-ability.js"><img src="screenshots/2-investing-ability.png" alt="Simulation of investors vs. non-investors" /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=2-investing-ability.js"><img src="/simulating-wealth-inequality/screenshots/2-investing-ability.png" alt="Simulation of investors vs. non-investors" /></a></p>
 
 <p>This is effectively a demonstration of compound interest. Given the <a href="http://www.bloombergview.com/articles/2015-09-25/the-rich-are-different-they-re-better-investors-">correlation
 between wealth and investment ability</a>, the impact of investing is huge on
@@ -3693,7 +3693,7 @@ non-entrepreneur, but the lucky entrepreneur has a 2% chance of success, and
 thus a higher expected wealth. Entrepreneurship introduces volatility and can
 lead to more wealth inequality.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=3-with-entrepreneurship.js"><img src="screenshots/3-with-entrepreneurship.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=3-with-entrepreneurship.js"><img src="/simulating-wealth-inequality/screenshots/3-with-entrepreneurship.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
 
 <h3>All together: income, investments, and entrepreneurship</h3>
 
@@ -3701,7 +3701,7 @@ lead to more wealth inequality.</p>
 and entrepreneurial inclinations/luck. Here we have 8 agents with varying
 parameters along these dimensions.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=4-income-invest-entrepreneur.js"><img src="screenshots/4-income-invest-entrepreneur.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=4-income-invest-entrepreneur.js"><img src="/simulating-wealth-inequality/screenshots/4-income-invest-entrepreneur.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
 
 <p>We can see that after 50 years, we have a Gini of 0.44. In the real world, the
 spread of incomes is much greater than here, the most successful entrepreneurs
@@ -3738,7 +3738,7 @@ when investment income is taxed at a flat 40%. This is a crude estimate, since
 it would actually be subject to a variable tax rate like the income tax, but
 gets the point across.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=5-higher-capital-gains-tax.js"><img src="screenshots/5-higher-capital-gains-tax.png" alt="Simulation of higher capital gains." /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=5-higher-capital-gains-tax.js"><img src="/simulating-wealth-inequality/screenshots/5-higher-capital-gains-tax.png" alt="Simulation of higher capital gains." /></a></p>
 
 <p>As you can see, the Gini at 100 years is much smaller than before.</p>
 
@@ -3754,13 +3754,13 @@ recipient of their inheritance. The deceased's net worth exceeding a certain
 threshold is subject to the estate tax rate. Both the threshold and the tax rate
 have varied a surprising <a href="https://docs.google.com/spreadsheets/d/1lWzzz6RlMmxWTGYoU9kxxXqL9Q8Pto4cbzZRozVc8wU/pubhtml">amount over time</a>:</p>
 
-<p><img src="estate-tax-history.png" alt="Historical estate taxes" /></p>
+<p><img src="/simulating-wealth-inequality/estate-tax-history.png" alt="Historical estate taxes" /></p>
 
 <p>In a previous simulation, we saw what would have happened with no estate tax (as
 was the case in 2010, a good year to die). The following simulation shows the
 average tax rate since 2000, which is 41%, with a threshold of 100 units.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=6-estate-tax.js"><img src="screenshots/6-estate-tax.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=6-estate-tax.js"><img src="/simulating-wealth-inequality/screenshots/6-estate-tax.png" alt="Simulation of entrepreneurs vs. non-entrepreneurs" /></a></p>
 
 <h3>Solution 3: Wealth taxes</h3>
 
@@ -3771,7 +3771,7 @@ enforce, especially since in a global economy, a single neutral country
 (say, Switzerland?) that does not impose a wealth tax will end up being a
 natural safe haven for the rich.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=7-wealth-tax.js"><img src="screenshots/7-wealth-tax.png" alt="Simulation of wealth taxes" /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=7-wealth-tax.js"><img src="/simulating-wealth-inequality/screenshots/7-wealth-tax.png" alt="Simulation of wealth taxes" /></a></p>
 
 <h2>Conclusion</h2>
 
@@ -3784,7 +3784,7 @@ shown, by introducing policies like increased capital gains tax, estate tax and
 wealth tax, inequality can be reduced. The real question is how much inequality
 is actually desirable, and how effective the above policies are in practice.</p>
 
-<p><a href="http://borismus.github.io/inequality-simulator/?model=8-solution.js"><img src="screenshots/8-solution.png" alt="Estate taxes, wealth taxes and " /></a></p>
+<p><a href="http://borismus.github.io/inequality-simulator/?model=8-solution.js"><img src="/simulating-wealth-inequality/screenshots/8-solution.png" alt="Estate taxes, wealth taxes and " /></a></p>
 
 <p>In practice, estate tax is often avoided or minimized, <a href="http://www.calculator.net/estate-tax-calculator.html">according to the
 Urban-Brookings Tax Policy Center</a>,</p>
@@ -3852,7 +3852,7 @@ The metric that matters is called <strong>motion-to-photon latency</strong>. For
 purposes, this is the time that it takes for a user's head rotation to be fully
 reflected in the rendered content.</p>
 
-<p><img src="latency-chain.jpg" alt="Motion to photon pipeline" /></p>
+<p><img src="/sensor-fusion-prediction-webvr/latency-chain.jpg" alt="Motion to photon pipeline" /></p>
 
 <p>The simplest way to get up-and-running with head tracking on the web today is
 to use the <code>deviceorientation</code> events, which are generally well supported across
@@ -3919,7 +3919,7 @@ captured. The output from an accelerometer is quite noisy by virtue of how the
 sensor works. Here's a plot of the rotation around the X-axis according to an
 accelerometer:</p>
 
-<p><img src="accel.gif" alt="Animation of X-axis accelerometer output with a phone turning around the X axis" /></p>
+<p><img src="/sensor-fusion-prediction-webvr/accel.gif" alt="Animation of X-axis accelerometer output with a phone turning around the X axis" /></p>
 
 <p>Gyroscopes measure rotations, returning an angular rotation vector also in the
 phone's reference frame. Output from the gyro is quite smooth, and very
@@ -3931,7 +3931,7 @@ rotate it a bunch, and place it flat again, its integrated gyro position might
 be quite different from what it was before due to the accumulation of errors
 from the sensor. Rotation around the X-axis according to a gyroscope:</p>
 
-<p><img src="gyro.gif" alt="Animation of X-axis gyroscope output with a phone turning around the X axis" /></p>
+<p><img src="/sensor-fusion-prediction-webvr/gyro.gif" alt="Animation of X-axis gyroscope output with a phone turning around the X axis" /></p>
 
 <p>Magnetometers measure magnetic fields, returning a vector corresponding to the
 cumulative magnetic field due to any nearby magnets (including the Earth). This
@@ -3972,7 +3972,7 @@ accelerometer, while mitigating the noise in the sensor by relying on the
 gyroscope in the short term. The filter is called complementary because
 mathematically, it can be expressed as a weighted sum of the two sensor streams:</p>
 
-<p><img src="filter-equation.png" class="center" 
+<p><img src="/sensor-fusion-prediction-webvr/filter-equation.png" class="center" 
     title="Filter equation" /></p>
 
 <p>This approach relies on the gyroscope for angular updates to head orientation,
@@ -4013,7 +4013,7 @@ this.filterQ.multiply(gyroDeltaQ);
 <p>Next, calculate the estimated gravity from the current orientation and compare
 it to the gravity from the accelerometer, getting the quaternion delta.</p>
 
-<p><img src="complementary-filter.png" class="center" 
+<p><img src="/sensor-fusion-prediction-webvr/complementary-filter.png" class="center" 
     title="Complementary filter visual illustration" /></p>
 
 <pre><code>deltaQ.setFromUnitVectors(this.estimatedGravity, this.measuredGravity);
@@ -4034,7 +4034,7 @@ to the gyroscope readings, but to align with the accelerometer reading over the
 long term. Below, you can see the accelerometer and gyroscope (green and blue)
 and compare them to the fused output (orange):</p>
 
-<p><img src="fusion.gif" alt="Complementary filter output" /></p>
+<p><img src="/sensor-fusion-prediction-webvr/fusion.gif" alt="Complementary filter output" /></p>
 
 <h2>Predicting the future</h2>
 
@@ -4068,7 +4068,7 @@ var predictAngle = angularSpeed * this.predictionTimeS;
 gyroscope, we can predict a little bit into the future to yield results like
 this:</p>
 
-<p><img src="prediction.gif" alt="Predicted vs. sensor fusion." /></p>
+<p><img src="/sensor-fusion-prediction-webvr/prediction.gif" alt="Predicted vs. sensor fusion." /></p>
 
 <p>Notice that the predicted signal (in red) is somewhat ahead of the fused one (in
 orange). This is what we'd expect based on the motion prediction approach taken.
@@ -4086,7 +4086,7 @@ wrote a live-plotting tool that can compare gyroscope, accelerometer, fused and
 predicted streams on each axis, and also let you tweak the filter coefficient
 and how far into the future to predict.</p>
 
-<p><img src="plot-options.png" class="center"
+<p><img src="/sensor-fusion-prediction-webvr/plot-options.png" class="center"
     title="Preview of the options available in the plot"/></p>
 
 <p>You too can <a href="http://borismus.github.io/sensor-fusion/">try the plots live on your phone</a>. After all, it's just a
@@ -4526,7 +4526,7 @@ if somewhat non-sequitur ending to the conference.</p>
 <p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>
 
 <p>Your smartphone is now in a box, so how do you do input? Now that we have a
-<a href="mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
+<a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
 
 <!--more-->
 
@@ -4552,22 +4552,22 @@ smartphones have a magnetometer, which is used for the compass. Intriguing...</p
 <p>In 2009, Chris Harrison and Scott Hudson published <a href="http://www.chrisharrison.net/index.php/Research/Abracadabra">Abracadabra</a>, a
 magnetic ring form factor for finger interactions with small devices:</p>
 
-<p><img src="abra.jpg" alt="Abracadabra" /></p>
+<p><img src="/magnetic-input-mobile-vr/abra.jpg" alt="Abracadabra" /></p>
 
 <p>In 2010, Hamed Ketabdar and others published <a href="https://www.facebook.com/MagiTact">Magitact</a>, instead using
 a magnetic rod for more varied interactions near smartphones:</p>
 
-<p><img src="magitact.jpg" alt="Magitact" /></p>
+<p><img src="/magnetic-input-mobile-vr/magitact.jpg" alt="Magitact" /></p>
 
 <p>In 2011, Daniel Ashbrook and others published <a href="http://dl.acm.org/citation.cfm?id=1979238">Nenya</a>, which is similar
 to Abracadabra, but focused more on the eyes-free input aspects:</p>
 
-<p><img src="nenya.jpg" alt="Nenya" /></p>
+<p><img src="/magnetic-input-mobile-vr/nenya.jpg" alt="Nenya" /></p>
 
 <p>In 2013, Sungjae Hwang and others published <a href="https://www.youtube.com/watch?v=_sSgp0hD-jk">Maggetz</a>, which used
 passive magnets to build all sorts of widgets around the device:</p>
 
-<p><img src="maggetz.jpg" alt="Maggetz" /></p>
+<p><img src="/magnetic-input-mobile-vr/maggetz.jpg" alt="Maggetz" /></p>
 
 <h2>Fucking magnets: how do they work?</h2>
 
@@ -4592,7 +4592,7 @@ of the HTC M7, or broken, like in some models of the Galaxy Nexus we tested
 with. There's little that we can do in these cases, but luckily they are quite
 rare.</p>
 
-<p><img src="calibration.png" class="floatright" title="Plot of calibration events"/></p>
+<p><img src="/magnetic-input-mobile-vr/calibration.png" class="floatright" title="Plot of calibration events"/></p>
 
 <p>The way you access the magnetometer on Android is via the sensor stack,
 requesting the <code>TYPE_MAGNETIC_FIELD</code> sensor. This is a calibrated sensor, since
@@ -4614,7 +4614,7 @@ removals from Cardboard, which can also look like calibration events.</p>
 
 <iframe width="853" height="480" src="//www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
 
-<p><img src="mechanism.png" class="floatright" title="Interaction mechanism"/></p>
+<p><img src="/magnetic-input-mobile-vr/mechanism.png" class="floatright" title="Interaction mechanism"/></p>
 
 <p>As you can see, the interaction involves pulling the magnet downward, and
 releasing it. The magnetic ring automatically returns to its rest position
@@ -4632,13 +4632,13 @@ plot of normalized, superimposed positives and negatives from all phones which
 we collected data from, with each dimension of the magnetometer vector plotted
 separately.</p>
 
-<p><img src="all_features.png" alt="Image of the true positives and negatives from all phones." /></p>
+<p><img src="/magnetic-input-mobile-vr/all_features.png" alt="Image of the true positives and negatives from all phones." /></p>
 
 <p>The detector we built was not based on a template learned from all of the data
 above, but a simpler state machine based on thresholding. The thresholds
 themselves were learned empirically. Here's the simple state machine:</p>
 
-<p><img src="state_machine.png" alt="State machine of the detector" /></p>
+<p><img src="/magnetic-input-mobile-vr/state_machine.png" alt="State machine of the detector" /></p>
 
 <p>The basic idea is that we take a sliding window approach, normalizing all of the
 data relative to the last value in the window. For each window, we calculate <code>min_1</code>,
@@ -4646,12 +4646,12 @@ which is the smallest value of the first half of the window, and <code>max_2</co
 largest value in the second half. Next, we compare to empirically determined
 thresholds perform the appropriate transition in the state machine. I won't bore
 you with details of normalizing the data, etc but you can find all of the
-details in <a href="mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
+details in <a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
 github</a>.</p>
 
 <h2>What's next?</h2>
 
-<p><img src="joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>
+<p><img src="/magnetic-input-mobile-vr/joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>
 
 <p>A lot more can be done using passive magnetic input. With uncalibrated
 magnetometers, there is no fear of calibration events, so we could implement a
@@ -4714,7 +4714,7 @@ input works well, but I'll definitely miss the magnets!</p>
         <p>It's been over three years since the design of this site has been
 updated. Time to change that!</p>
 
-<p><img src="0days.jpg" class="floatright"/></p>
+<p><img src="/design-v5/0days.jpg" class="floatright"/></p>
 
 <p>This is the fifth revision of this site's design. Looking over <a href="/redesign-2012">previous
 designs</a>, I've been happier with minimal designs,
@@ -4799,7 +4799,7 @@ and instruments emanated from surprising parts of the great hall.
 Inspired, I returned to the west coast and eventually came around to
 building a spatial audio prototypes like this one:</p>
 
-<p><a href="http://borismus.github.io/moving-music"><img src="collage_small.jpg" alt="Screenshot of a demo" /></a></p>
+<p><a href="http://borismus.github.io/moving-music"><img src="/spatial-audio-web-vr/collage_small.jpg" alt="Screenshot of a demo" /></a></p>
 
 <p>Spatial audio is an important part of any good VR experience, since the
 more senses we simulate, the more compelling it feels to our sense
@@ -4995,7 +4995,7 @@ Similarly, for VR to succeed on the web, we need to figure out how to
 make VR experiences that work both in any VR headset, and also without a
 VR headset at all.</p>
 
-<p><img src="hmds.png" alt="Various head mounted displays." /></p>
+<p><img src="/responsive-vr/hmds.png" alt="Various head mounted displays." /></p>
 
 <p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building
 responsive web VR experiences that work on popular VR headsets and
@@ -5094,7 +5094,7 @@ available.</p>
 
 <h2>WebVR boilerplate in action</h2>
 
-<p><img src="sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>
+<p><img src="/responsive-vr/sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>
 
 <p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the
 eponymous town on British Columbia's beautiful Sunshine Coast. I've
@@ -5545,7 +5545,7 @@ paper. It was great to have had a good excuse to go this year, showing
 Cardboard to the academic community. Looking forward to next year,
 although it is to be held in a somewhat <a href="http://uist.acm.org/about">less glamorous location</a>.</p>
 
-<p><img src="sunset.jpg" alt="Hawaii sunset." /></p>
+<p><img src="/uist-2014/sunset.jpg" alt="Hawaii sunset." /></p>
 
 
         
@@ -5568,7 +5568,7 @@ although it is to be held in a somewhat <a href="http://uist.acm.org/about">less
         <p>A live-input spectrogram written using <a href="http://polymer-project.org">Polymer</a> using the <a href="http://webaudioapi.com">Web
 Audio API</a>.</p>
 
-<p><img src="screenshot.png" alt="Screenshot of spectrogram" /></p>
+<p><img src="/spectrogram-and-oscillator/screenshot.png" alt="Screenshot of spectrogram" /></p>
 
 <p>If you're running Chrome or Firefox, <a href="http://borismus.github.io/spectrogram">see it in action</a>. Once the
 spectrogram is running, see if you can make a pattern with your speech
@@ -5589,13 +5589,13 @@ of your pointer. It also shows you the frequency that it plays back, and
 plots a short buffer of pointer positions. This is handy for measuring
 internal latency:</p>
 
-<p><img src="latency.png" alt="Latency estimation" /></p>
+<p><img src="/spectrogram-and-oscillator/latency.png" alt="Latency estimation" /></p>
 
-<p>Having the oscillator built-in is also pretty fun. You can <a href="sounds/morse.wav">send morse
+<p>Having the oscillator built-in is also pretty fun. You can <a href="/spectrogram-and-oscillator/sounds/morse.wav">send morse
 code</a> (short short short, long long, short short long, short
-short short), <a href="sounds/radio.wav">scan for radio stations</a>, make 8-bit character
-<a href="sounds/sfx.wav">dying sound effects</a>, simulate <a href="sounds/ghosts.wav">aliens, ghosts and
-theremins</a>, and annoy <a href="sounds/dogs.wav">small, annoying dogs</a>.</p>
+short short), <a href="/spectrogram-and-oscillator/sounds/radio.wav">scan for radio stations</a>, make 8-bit character
+<a href="/spectrogram-and-oscillator/sounds/sfx.wav">dying sound effects</a>, simulate <a href="/spectrogram-and-oscillator/sounds/ghosts.wav">aliens, ghosts and
+theremins</a>, and annoy <a href="/spectrogram-and-oscillator/sounds/dogs.wav">small, annoying dogs</a>.</p>
 
 <p>I use the tool mostly in Chrome, but it also works in Firefox.
 Unfortunately no other browser currently has both <code>getUserMedia</code> and Web
@@ -5713,7 +5713,7 @@ content.</li>
 then constructs the HTML dynamically from other URLs.</li>
 </ol>
 
-<p><img src="data-vs-program.png" alt="Program vs. data: evolution of web" /></p>
+<p><img src="/addressable-apps/data-vs-program.png" alt="Program vs. data: evolution of web" /></p>
 
 <p>Without an HTML renderer, hypertext and program URLs cannot be
 interpreted. Only one of these types of entities makes sense: data. Data
@@ -5755,7 +5755,7 @@ URL for the view.</li>
 best available user experience.</li>
 </ol>
 
-<p><img src="url-in-url-out.png" alt="Platforms handle content URLs and provide them on demand." /></p>
+<p><img src="/addressable-apps/url-in-url-out.png" alt="Platforms handle content URLs and provide them on demand." /></p>
 
 <p>However, to bring URL friendliness to a platform retroactively takes a
 lot of effort. Taking a quick look at today's trending web-alternatives,
@@ -5874,7 +5874,7 @@ computing, we've seen a big shift away from the web in mobile platforms. </p>
 complex landscape of computing and try to make sense of what the web is
 and where it's going.</p>
 
-<p><img src="webiness.png" alt="A framework for webiness" /></p>
+<p><img src="/ebb-of-the-web/webiness.png" alt="A framework for webiness" /></p>
 
 <!--more-->
 
@@ -6143,7 +6143,7 @@ prototype</a>.</p>
 
 <!--more-->
 
-<p><img src="inputs.png" alt="Ways of controlling media: dedicated keyboard buttons,headphone
+<p><img src="/remote-controls-web-media/inputs.png" alt="Ways of controlling media: dedicated keyboard buttons,headphone
 remotes, hardware remote controls, second-screen remote controls,
 camera-based gestures, voice commands" /></p>
 
@@ -6966,7 +6966,7 @@ content I write, and control how it is authored. My weapon of choice is
 MacVim and <a href="https://github.com/borismus/lightning">Lightning</a>, a static blog engine I wrote to
 address my <a href="http://smus.com/site/">very specific requirements</a>: </p>
 
-<p><img src="composing-long-post.png" alt="Composing a blog post with Lightning" /></p>
+<p><img src="/easier-link-blogging/composing-long-post.png" alt="Composing a blog post with Lightning" /></p>
 
 <p>Secondly, I want people to read the things I write and follow the
 stories that I link to, since it feels good, and sometimes generates
@@ -7033,7 +7033,7 @@ posted and deployed publicly, it also broadcasts the content to
 supported social networks, sometimes linking back to the link page on
 this site.</p>
 
-<p><img src="lightning-link.png" alt="Lightning linker Mac GUI" /></p>
+<p><img src="/easier-link-blogging/lightning-link.png" alt="Lightning linker Mac GUI" /></p>
 
 <p>As you can see, there are three fields: the URL, a title (pre-populated
 from the <code>&lt;body&gt;&lt;title&gt;</code> of the URL), and the body of the post (in
@@ -7139,7 +7139,7 @@ the rest of this post I'll describe why these are bad solutions,
 deconstruct them down into small pieces and then glue the pieces back
 together. The ultimate goal is a modest proposal for installable web
 apps. Read on for my take on the background of the problem, or skip
-ahead to read my <a href="#solution">illustrated proposal</a> for fixing it.</p>
+ahead to read my <a href="/installable-webapps/#solution">illustrated proposal</a> for fixing it.</p>
 
 <!--more-->
 
@@ -7191,7 +7191,7 @@ from coming to the web platform.</p>
 
 <p>First, look at this:</p>
 
-<p><img src="infobar-apocalypse.png"/></p>
+<p><img src="/installable-webapps/infobar-apocalypse.png"/></p>
 
 <p>This gem, courtesy of <a href="http://persistent.info">Mihai Parparita</a>, is my favorite
 explanation for why infobars suck. You can immediately see several
@@ -7257,7 +7257,7 @@ enable either the above platform specific APIs or restricted open web APIs.</li>
 <p>There are certainly benefits to this approach, such as a sane offline
 story, since all of the assets of the application can be packaged
 together into a bundle that is downloaded at install time, circumventing
-painful technology like <a href="appcache.png">AppCache</a>. There is a clear install
+painful technology like <a href="/installable-webapps/appcache.png">AppCache</a>. There is a clear install
 step, during which you can grant an application permissions beyond the
 scope of the open web platform. Also, it's very easy to add features to
 packaged apps, since there are no annoying standards to worry about,
@@ -7331,7 +7331,7 @@ page.</p>
 
 <h1>Proposal: apps you can install from the web</h1>
 
-<p>So far I've described the <a href="#problem">problem</a>: a major barrier to the
+<p>So far I've described the <a href="/installable-webapps//installable-webapps/#problem">problem</a>: a major barrier to the
 vision of the extensible web: there is no good way of getting outside of
 the sandbox. I have been complaining a lot without providing any
 constructive answers.</p>
@@ -7340,14 +7340,14 @@ constructive answers.</p>
 proposes a solution to get us out of the sandbox. There's a whole world
 out there! Here is my birds-eye-view of the install-from-the-web world:</p>
 
-<p><img src="flow.png" alt="flow" /></p>
+<p><img src="/installable-webapps/flow.png" alt="flow" /></p>
 
 <p>This diagram is intended to be general enough to work across
 operating systems and device types, but the mocks themselves will be
 sketched out with a phone form factor in mind. We'll be installing
 <code>app.io</code>, a mobile app that lets you leave audio notes.</p>
 
-<p><img src="screen1.png" class="border" /></p>
+<p><img src="/installable-webapps/screen1.png" class="border" /></p>
 
 <p><em>Screen 1: App.io example.</em></p>
 
@@ -7357,7 +7357,7 @@ sketched out with a phone form factor in mind. We'll be installing
 for Android <a href="https://code.google.com/p/chromium/issues/detail?id=153066">feature request</a>), which presents a generic UI
 for adding apps to the homescreen (see Screen 2).</p>
 
-<p><img src="screen2.png" class="border" /></p>
+<p><img src="/installable-webapps/screen2.png" class="border" /></p>
 
 <p><em>Screen 2: Add via browser button.</em></p>
 
@@ -7400,7 +7400,7 @@ the following code should work:</p>
 accept installation, showing which permissions have been requested
 (Screen 3).</p>
 
-<p><img src="screen3.png" class="border" /></p>
+<p><img src="/installable-webapps/screen3.png" class="border" /></p>
 
 <p><em>Screen 3: Confirm installation.</em></p>
 
@@ -7418,7 +7418,7 @@ If none is specified, the user can be prompted to input their own
 title.</p></li>
 </ol>
 
-<p><img src="screen4.png" class="border" /></p>
+<p><img src="/installable-webapps/screen4.png" class="border" /></p>
 
 <p><em>Screen 4: New launcher added to the home screen.</em></p>
 
@@ -7435,7 +7435,7 @@ consistency could be implemented, and a polyfill provided for the Apple
 spec. It would also make sense to launch homescreen apps in full screen,
 providing the same UX as the full-screen API (Screen 5):</p>
 
-<p><img src="screen5.png" class="border" /></p>
+<p><img src="/installable-webapps/screen5.png" class="border" /></p>
 
 <p><em>Screen 5: App launched in standalone mode.</em></p>
 
@@ -7454,7 +7454,7 @@ modal optional permissions dialog (Screen 6) similar to the one seen at
 installation. After granting it, the associated API call (in this case,
 <code>getUserMedia</code>) can be invoked without incurring any infobars.</p>
 
-<p><img src="screen6.png" class="border" /></p>
+<p><img src="/installable-webapps/screen6.png" class="border" /></p>
 
 <p><em>Screen 6: Additional permissions request.</em></p>
 
@@ -7468,7 +7468,7 @@ installed apps, or revoke granted permissions.</p>
 <h2>That's it folks</h2>
 
 <p>So there you have it: my strawman fixing the security model of the web,
-which, as I outlined at the <a href="#problem">beginning of this post</a>, is
+which, as I outlined at the <a href="/installable-webapps//installable-webapps/#problem">beginning of this post</a>, is
 critically important to address for the continued success of the web.
 To recap, the solution consists of an API surface in the <code>window.app</code>
 namespace, and a number of new screens that are part of the installation
@@ -7526,7 +7526,7 @@ signature. Your nuanced gestures can indicate changes in intensity, and of
 course affect the speed of the piece. You'd first need to learn some
 basic conducting patterns, like these:</p>
 
-<p><img src="conduct-time-signatures.png" alt="Conducting patterns for various time signatures" /></p>
+<p><img src="/gestural-music-direction/conduct-time-signatures.png" alt="Conducting patterns for various time signatures" /></p>
 
 <!--more-->
 
@@ -7548,7 +7548,7 @@ will always be focused inside your browser.</p>
 also shows directional changes as pulsating red dots, and clusters which
 flash to the beat.</p>
 
-<p><a href="http://borismus.github.io/gestural-music-direction/"><img src="screenshot.png" alt="Screenshot of leap conductor" /></a></p>
+<p><a href="http://borismus.github.io/gestural-music-direction/"><img src="/gestural-music-direction/screenshot.png" alt="Screenshot of leap conductor" /></a></p>
 
 <p>If you'd like to try it live, the <a href="http://borismus.github.io/gestural-music-direction/">demo lives here</a>.</p>
 
@@ -7573,7 +7573,7 @@ one with the lowest error. I've also build a standalone
 <a href="http://borismus.github.io/gestural-music-direction/cluster.html">clustering test page</a> with the following output:</p></li>
 </ul>
 
-<p><img src="cluster.png" alt="Clustering algorithm visualization" /></p>
+<p><img src="/gestural-music-direction/cluster.png" alt="Clustering algorithm visualization" /></p>
 
 <ul>
 <li><p>To calculate tempo, pick a cluster and calculate mode of the deltas
@@ -7695,7 +7695,7 @@ speaking, it is a brown long-eared bat (<a href="http://en.wikipedia.org/wiki/Br
 it's no orca (an ideal O'Reilly cover, don't you think?), I'm very happy
 that it's a <a href="http://en.wikipedia.org/wiki/Animal_echolocation">sound related animal</a>.</p>
 
-<p><img src="cover.jpg" alt="Web Audio Book Cover" /></p>
+<p><img src="/webaudio-book/cover.jpg" alt="Web Audio Book Cover" /></p>
 
 <p>The book was written on my laptop in a Google Doc. I hand-drew some
 illustrations in a notebook and brought them into the doc. Once I was
@@ -7747,7 +7747,7 @@ networks. This post describes one possible approach, which I refer to as
 
 <p>Here's what the content flow used to be with blogs and RSS:</p>
 
-<p><img src="rss-flow.png" alt="RSS-based content syndication" /></p>
+<p><img src="/really-simple-social-syndication/rss-flow.png" alt="RSS-based content syndication" /></p>
 
 <p>It was simple. Really simple, actually!</p>
 
@@ -7774,7 +7774,7 @@ might rival the old RSS-based one, but enjoy the benefits of having some
 extra signals from all of the social network junk. Here's the model I'm
 thinking of:</p>
 
-<p><img src="social-flow.png" alt="Social-based content syndication" /></p>
+<p><img src="/really-simple-social-syndication/social-flow.png" alt="Social-based content syndication" /></p>
 
 <p>Now for a little bit more about Pub and Sub.</p>
 
@@ -7917,7 +7917,7 @@ following are some examples of these differences:</p>
 <li>Touch requires that you are closer to the screen.</li>
 </ul>
 
-<p><img src="touch-laptop.png" alt="Chrome Pixel" /></p>
+<p><img src="/touch-laptop-experiments/touch-laptop.png" alt="Chrome Pixel" /></p>
 
 <p>Ideally, you want to provide optimal experiences for both cases. For the
 mouse case, this means taking advantage of hover states and a finer
@@ -8173,7 +8173,7 @@ theater, scanner and <a href="http://www.google.com/cloudprint/learn/">printer</
 this fashion? Too many apps! Imagine you have all of these different
 devices, perhaps multiple of each in some cases:</p>
 
-<p><img src="many-smart-things.png" alt="Many smart things" /></p>
+<p><img src="/mashup-of-things/many-smart-things.png" alt="Many smart things" /></p>
 
 <p>It pains me to imagine an app for each of these different services -
 there are simply too many things to juggle. I would not want to install
@@ -8205,7 +8205,7 @@ later.</p>
 and also with devices that are far away. With this constraint, even the
 simplest approach requires a server component. Here's a sketch:</p>
 
-<p><img src="lamp-arch.png" alt="A simple WiFi lamp" /></p>
+<p><img src="/mashup-of-things/lamp-arch.png" alt="A simple WiFi lamp" /></p>
 
 <p>In this setup, the controller listens to the server for what it should
 do. At the same time, the remote sends commands to the server based on
@@ -8238,14 +8238,14 @@ lamp: the toggle switch and <a href="https://dvcs.w3.org/hg/speech-api/raw-file/
 behind a flag in Chrome), which enables simple "lamp, turn off" and "on"
 commands.</p>
 
-<p><img src="client.png" alt="Simple client" /></p>
+<p><img src="/mashup-of-things/client.png" alt="Simple client" /></p>
 
 <p>Finally, the device itself is an Arduino Uno with a <a href="http://arduino.cc/blog/2012/08/16/the-arduino-wifi-shield-is-now-available/">WiFi
 shield</a>. One of the pins is connected to a relay which controls
 a power socket with the plugged in lamp. The program itself is nearly
 identical to the existing sample apps available for the WiFi shield.</p>
 
-<p><img src="arduino.png" alt="Arduino WiFi shield" /></p>
+<p><img src="/mashup-of-things/arduino.png" alt="Arduino WiFi shield" /></p>
 
 <h2>Practical considerations</h2>
 
@@ -8356,7 +8356,7 @@ can reuse a lot of code and reduce switching costs.</p>
 
 <p>Before jumping in, here's a diagram of the approach:</p>
 
-<p><img src="mvc-js-layers.svg" alt="diagram" /></p>
+<p><img src="/reusable-js-mvc-frameworks/mvc-js-layers.svg" alt="diagram" /></p>
 
 <p>The rest of the post is about interop problems with JS MVC frameworks,
 and a closer look reasons for taking the above approach.</p>
@@ -8764,21 +8764,21 @@ something as simple as a button <a href="http://code.google.com/mobile/articles/
 Implementing more complex gesture recognizers on top of the primitive
 <code>touch*</code> events is even less trivial.</p>
 
-<p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
+<p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html/mouse-touch-pointer/#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
 the rescue to address the lack of gestures, however these both have
 problems. Sencha comes as a complete package, and it's impossible to use
 their gesture recognizer without using their whole framework (or
 spending considerable effort trying to pull it out). Hammer.js, on the
 other hand, doesn't actually implement gesture recognition for
 pinchzoom, but instead relies on the touch spec providing non-standard
-<code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
+<code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari//mouse-touch-pointer/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html/mouse-touch-pointer/#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
 
 <p>Microsoft has a gesture layer on top of their consolidated pointer
 model. This makes sense as an approach to take. True, certain gestures
 only make sense for touch, and it's easy to distinguish the input type
 using the <code>event.pointerType</code> API. That said, with a unified model,
 there can be new gestures that span multiple input modalities, like
-<a href="#">this research</a> suggests.</p>
+<a href="/mouse-touch-pointer/#">this research</a> suggests.</p>
 
 <h2>Pointer.js - A solution to both problems</h2>
 
@@ -8788,7 +8788,7 @@ useful, and have browsers and spec implement it natively. Once this
 is spec'ed, approved, and widely implemented, it should just be a matter
 of removing the script tag!</p>
 
-<p><img src="pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
+<p><img src="/mouse-touch-pointer/pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
 
 <p>Pointer.js consolidates pointer-like input models across browsers and
 devices. It provides the following:</p>

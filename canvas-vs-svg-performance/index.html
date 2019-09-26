@@ -74,7 +74,7 @@ calls, similar to a 2D subset of OpenGL. It was originally introduced by Apple
 in WebKit builds, but is now supported in Mozilla Firefox as well. </p>
 
 <p>I produced some metrics to compare the two technologies in terms of performance
-by writing a Javascript program for <a href="canvas-svg-benchmark/">collecting performance data</a>. This
+by writing a Javascript program for <a href="/canvas-vs-svg-performance/canvas-svg-benchmark/">collecting performance data</a>. This
 program draws rows of circles onto a fixed-size drawing area in SVG and in
 Canvas, and then compares how long various operations take. It also records the
 duration to create the initial drawing context, to render the scene and to
@@ -83,7 +83,7 @@ variables: number of circles, drawing area dimensions and circle size. Each of
 these variables are varied independantly and automatically resulting in the
 following observations: </p>
 
-<p><img src="varying-number-of-objects.png" alt="Varying the number of objects" /> </p>
+<p><img src="/canvas-vs-svg-performance/varying-number-of-objects.png" alt="Varying the number of objects" /> </p>
 
 <p>Here are the results of the first fruitful experiment, which clearly shows that
 SVG performance degrades quickly (exponentially on Safari?) in the number of
@@ -93,7 +93,7 @@ additional references to each object that it renders. Also, though not
 pictured, note that performance in clearing an SVG element also decreases in
 the number of drawn objects. </p>
 
-<p><img src="varying-drawing-area-height.png" alt="Varying drawing area height" /> </p>
+<p><img src="/canvas-vs-svg-performance/varying-drawing-area-height.png" alt="Varying drawing area height" /> </p>
 
 <p>When varying the size of the drawing area, canvas performance degrades
 significantly, while SVG performance is completely unaffected.  Canvas
