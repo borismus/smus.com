@@ -4,6 +4,42 @@ class: split
 type: book
 
 
+Yes Brain by Siegel and Bryson
+===
+posted: September 20, 2019
+rating: no
+
+Yes Brain is a parenting book. This immediately means several things:
+
+- It’s extremely repetitive.
+- It sports branding. “Yes Brain™ – good. No Brain – bad”. 
+- This is strictly necessary because parents are chronically sleep deprived and can’t focus for more than five minutes.
+
+Here’s the overall framework within which the book operates:
+
+Children are born with a fully developed “downstairs brain” (roughly aka limbic system, lizard brain, system one), which controls involuntary response. As they grow, they are developing their “upstairs brain” (cortex, system two), in charge of higher level thought. So as children develop, many of their reactions are driven by system one. The parent’s role is to help develop system two. This means going from a predominantly reactive stimulus-response mode to “response flexibility”: being able to choose how to respond to a stimulus.
+
+I find this to be a useful framework in general. All but the most enlightened meditators could use a bit more response flexibility. The most useful parts of this book describe strategies for explaining what this might look like to young children. Unfortunately for me, most examples in the book focus on 5, 8, 13 year olds. One of the most approachable frameworks is based on colors, which my toddler has yet to learn. So I think we have a prerequisite to fill first!
+
+The green zone is a state where response flexibility is maximized. The red zone is a tantrum or lack of control. The blue zone is withdrawal after a pattern of bad feedback. The parental role is to expand the green zone, make children spent more time there, and make returning to green faster. The authors suggest teaching the model to the kids as well to be able to talk about it, and spend some time discussing what that would look like through fairly insightful comics.
+
+Other things I liked included some Stoically inspired advice:
+
+- There’s an explicit discussion of walking children through tough times without coddling them. In the dismal language of the authors, it’s about finding the “goldilocks balance” between “pushin’” and “cushin’”.
+- Reframing when kids misbehave. It may be useful to treat this as a form of communication. See it as a call for help rather than them acting out and making things hard for you.
+- Present difficult situations as “which struggle do you prefer?”. Seems handy to reframe pain as a learning experience.
+- Try on the outside view to learn to get some emotional distance from the problem at hand. They have a great analogy  of being a player player vs. being a spectator.
+- For empathy, it’s useful to practice in children’s books: What is the person feeling right now?
+
+Random things I disliked:
+
+- The authors reject any external measuring sticks. A lot of the book emphasized process over results to such an extreme that it conflates extrinsic plenty with intrinsic poverty. In my mind, you should aim for both.
+- Let’s sprinkle in **neuroscience** to make the book sound more scientistic! Name-dropping the connectome adds nothing, but makes me more annoyed.
+- Conveniently, the authors provide a “Yes Brain Refrigerator Sheet”, a built-in summary of the book. Sadly it is very bad and doesn’t include the actual good parts of the book.
+
+The good parts of this book provide some interesting strategies for teaching stoicism and mindfulness to young children. Perhaps in a few years, I’ll revisit one of its many clones.
+
+
 Diamond Age by Stephenson (audio)
 ===
 posted: September 5, 2019
@@ -328,7 +364,7 @@ a legacy in libraries, the Olmsteads left their legacy in America's parks.
 Olmstead Sr. is considered the father of landscape architecture, and his son FLO
 Jr. designed Olmstead Point in Yosemite, one of my favorite places. As it turns
 out, the Olmstead brothers [planned most of Seattle's
-parks](https://en.m.wikipedia.org/wiki/List_of_Olmsted_parks_in_Seattle).
+parks](https://en.m.wikipedia.org/wiki/List\_of\_Olmsted\_parks\_in\_Seattle).
 
 Also interesting discussion about public baths and their role as social
 infrastructure. In Finland the public pools help build social cohesion.
@@ -369,8 +405,8 @@ attrition? I propose a law:
 to an event is 1/30 the number of people in the meetup group.
 
 Successful unmentioned examples of social digital infrastructure that come to
-mind are the [Little Free Library project](https://littlefreelibrary.org/), and
-[PEPS in Seattle](https://www.peps.org/).
+mind are the [Little Free Library project][1], and
+[PEPS in Seattle][2].
 
 
 The Odyssey translated by Emily Wilson (audio)
@@ -437,16 +473,16 @@ it was for the producers to be so parsimonious with effects.
 
 - After sneezing, Russians sometimes say "truth". There is a passage related to
   this, and I got curious. Does the Russian tradition come from the Greek?
-  [Apparently](https://en.wikipedia.org/wiki/Sneeze),
-  [yes](https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world).
+  [Apparently][3],
+  [yes][4].
 - Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
   also extremely wise and a great advisor to Telemachus. Is this the origin of
-  the word? [Apparently yes](https://www.etymonline.com/word/mentor)
+  the word? [Apparently yes][5]
 - Are Phaeacian Phoenicians? There are similarities beyond their names, like
   great skill in navigation. I answered this myself since eventually both
   appeared in The Odyssey as distinct peoples. However there is some interesting
   [academic
-  writing](https://www.academia.edu/7299720/Homer_s_Phaeacians_and_Phoenician_Bi-lingual_Onomastica.docx)
+  writing](https://www.academia.edu/7299720/Homer\_s\_Phaeacians\_and\_Phoenician\_Bi-lingual\_Onomastica.docx)
   on this: "The onomastic qualities of Phaeacian personal names in book 6-8 of
   the Odyssey further indicate that the bard envisioned the Phaeacians as a
   fantastical clone of the real-world Phoenicians." 
@@ -532,9 +568,9 @@ Radical Markets by Posner and Weyl
 posted: April 18, 2019
 rating: no
 
-The book Radical Markets is centered on one central premise: **Competitive, free
+The book Radical Markets is centered on one central premise: \*\*Competitive, free
 markets are awesome, but most in reality are either not perfectly competitive,
-or insufficiently free**.
+or insufficiently free\*\*.
 
 Overall, the book covers a lot of ground, proposing solutions to many of
 modernity's major questions, from immigration to monopolies to property rights.
@@ -549,7 +585,7 @@ interesting. I disagree with most of the specific implementations that
 the authors suggest, partly because they are so specific, partly because they
 are so extreme. At the same time, I appreciate that they propose specific policy
 rather than general platitudes. We live in interesting times, and the [Overton
-window](https://en.wikipedia.org/wiki/Overton_window) is wider today than ever
+window](https://en.wikipedia.org/wiki/Overton\_window) is wider today than ever
 in my lifetime. It is a good time to try to unbundle the author's ideas and find
 the worthy nuggets.
 
@@ -558,7 +594,7 @@ the worthy nuggets.
 By the mid 20th century, Henry George was "by far the most famous American
 economic writer", having written Progress and Poverty (1879), which sold
 millions of copies worldwide, probably more than any other American book before
-that time. The central idea of [Georgism](https://en.wikipedia.org/wiki/Georgism) is:
+that time. The central idea of [Georgism][6] is:
 
 > while people should own the value they produce themselves, economic value
 derived from land (often including natural resources and natural opportunities)
@@ -573,7 +609,7 @@ While the government could use its power of eminent domain, a private venture to
 build a high speed rail line from Seattle to Vancouver would be impossible.
 
 The authors propose a wealth tax on all property, in a form of
-[Vickrey auctions](https://en.wikipedia.org/wiki/William_Vickrey):
+[Vickrey auctions][7]:
 
 > Every citizen and especially corporation would self-assess the value of assets
 they possess, pay a roughly 7% tax on these values and be required to sell the
@@ -592,7 +628,7 @@ Jeff Bezos for his new private spaceport. I think I'd rather see a world in
 which the government is more empowered to take on large public works, and more
 agressively uses its power of eminent domain for the common good.
 
-![Possible/Profitable/Beneficial venn diagram](/assets/beneficial-possible-profitable.png)
+![Possible/Profitable/Beneficial venn diagram][image-1]
 
 
 ## A market for voting
@@ -609,7 +645,7 @@ tendency](https://link.springer.com/article/10.3758/s13423-017-1344-2).
 
 Here again, the authors take multiple ideas and bundle them together into a
 large package. They introduce [Quadratic
-Voting](https://en.wikipedia.org/wiki/Quadratic_voting), a collective decision
+Voting](https://en.wikipedia.org/wiki/Quadratic\_voting), a collective decision
 making procedure where participants can indicate how strongly they feel about an
 issue.  Logistically, you are given a number of credits that you can allocate to
 a set of issues. You can allocate multiple credits per issue if you care more
@@ -730,7 +766,7 @@ posted: March 28, 2019
 rating: yes
 
 The most succinct version summary of Seeing Like a State this is what has been
-called The Authoritarian High-Modernist [Recipe for Failure][rf]:
+called The Authoritarian High-Modernist [Recipe for Failure][8]:
 
 1. Look at a complex and confusing reality
 2. Fail to understand all the subtleties of how the complex reality works
@@ -916,16 +952,13 @@ care of an organic polyculture farm?
 
 Imagine a future in which a series of complex, domain-specialized AIs have been
 created in such domains as gardening and driving. We may well end
-up with systems that work super well, but are [far less legible][xai]. What
+up with systems that work super well, but are [far less legible][9]. What
 would the ensuing world look like? I'm imagining self driving cars with emergent
 swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
 driving decisions). I feel that we are very far from such a world, but it's fun
 to think about.
 
-
-[rf]: https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[xai]: https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
 
 Invisible Cities by Italo Calvino
 ===
@@ -1048,8 +1081,8 @@ and appointed officials based on merit rather than birth.
 
 Henry I's only son drowned in a drunken boat party. In his stead, Henry I
 favored his daughter Matilda who was married off to the Holy Roman Emperor. But
-queens weren't exactly a thing yet, so a succession dispute led to **King
-Steven** coming to power. Steven was and not a very kingly man, and not a very
+queens weren't exactly a thing yet, so a succession dispute led to \*\*King
+Steven\*\* coming to power. Steven was and not a very kingly man, and not a very
 effective king. Anarchy and a civil war in erupted in England over Steven's
 legitimacy, with Matilda's vying to get Henry, her son from her second
 marriage onto the throne. 
@@ -1388,7 +1421,7 @@ mostly unacknowledged by the people who depend on them most.
 
 Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
-of [these questions?](https://kk.org/cooltools/the-big-here-qu/)
+of [these questions?][10]
 
 
 12 Rules for Life
@@ -1480,7 +1513,7 @@ that can outlast time itself."
 
 **Folding Beijing**: Great concept, compelling story. Interesting take on
 automation. Also, this served as my introduction to the cynical [Philips
-Curve](https://en.wikipedia.org/wiki/Phillips_curve). If I was to be picky, the
+Curve](https://en.wikipedia.org/wiki/Phillips\_curve). If I was to be picky, the
 story felt a bit too directly critical of class divisions in modern China for my
 taste.
 
@@ -1488,3 +1521,16 @@ taste.
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
+
+[1]:	https://littlefreelibrary.org/
+[2]:	https://www.peps.org/
+[3]:	https://en.wikipedia.org/wiki/Sneeze
+[4]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[5]:	https://www.etymonline.com/word/mentor
+[6]:	https://en.wikipedia.org/wiki/Georgism
+[7]:	https://en.wikipedia.org/wiki/William_Vickrey
+[8]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[9]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+[10]:	https://kk.org/cooltools/the-big-here-qu/
+
+[image-1]:	/assets/beneficial-possible-profitable.png
