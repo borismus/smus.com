@@ -4,39 +4,91 @@ class: split
 type: book
 
 
-Timefulness by Marcia Bjornerud
+Timefulness by Marcia Bjornerud (audio)
 ===
-Posted: October 6, 2019
-Rating: yes
+posted: October 6, 2019
+rating: yes
 
-Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial and panic. Both are negative, paralyzing emotions.  I’d rather find a constructive middle way. 
+I heard the author’s [Long Now talk][1] and thought she did an excellent job. The book did not disappoint.
 
-Backpacking together through the canyons of the Pariah, I watched the landscape with a sense of heightened curiosity. Dad and I had front row seats to observe nature’s processes at work: rivers carving deeper and deeper into slot canyons, erosion’s cleaver splitting gigantic sandstone faces in twain. In a place like the Vermillion Cliffs, you can really feel the Earth’s sovereignty. We are merely ants. 
+Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial (right) and panic (left). Both are negative, paralyzing emotions.  I’d rather find a constructive middle path. 
+
+Backpacking together through the canyons of the Pariah, I watched the landscape with a sense of heightened curiosity. Dad and I had front row seats to observe nature’s processes at work: rivers carving deeper and deeper into slot canyons, erosion’s cleaver splitting gigantic sandstone faces in twain. In a place like the Vermillion Cliffs, you can really feel the Earth’s sovereignty. We are ants. 
 
 How might we bring this feeling of scientific curiosity and majestic awe to more people?
 
-I heard the author’s Long Now talk and thought she did an excellent job. 
-
----- 
-
 Here’s an interesting analogy to kick the book off:
 
-- Microscope: small things
-- Telescope: far away things
-- Geology: long ago things
+- Microscope to see small things
+- Telescope to see far away things
+- Geology to “see” long ago things
 
-All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in some sections, especially where the author specific processes such as the Carbon cycle.
+All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in many sections. In general, the author packs a ton of content into a short book, and I learned a huge amount.
 
-Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][1] which I have yet to explore. 
+Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][2] which I have yet to explore. 
 
 High level overview of earth's life as we know today. 
 
-- Cenozoic: 66 - 0 ma
-- Mesozoic: 252 - 66 ma
-- Paleozoic: 541 - 252 ma
-- Precambrian: 4600 - 541 ma
+- Cenozoic: 66 - 0 Ma (**M**illion years **a**go)
+- Mesozoic: 252 - 66 Ma
+- Paleozoic: 541 - 252 Ma
+- Precambrian: 4600 - 541 Ma
 
-TODO: finish this up.
+Right off the bat, Marcia injects some pessimism. We used to be citizens, she laments, now are mere consumers. We used to support long term projects like national parks. Now we view them as a tax burden. Do we?
+
+Tons of interesting people I know very little about: **James Hutton**, father of modern geology, first coined the term “deep time” in the 18th century. **Charles Lyell**, building on Hutton’s work eventually inspired Charles Darwin. 
+
+There’s a debate between two schools of thought, one represented by the 3 great men above:
+
+- Gradualism (Uniformitarianism) - slow incremental changes, such as erosion, created all the Earth's geological features.
+- Catastrophism - the Earth has largely been shaped by sudden, short-lived, violent events, possibly worldwide in scope.
+
+**Age of the earth**: In 1897, Lord Kelvin, refuting Darwin’s estimate of 300 million years, ultimately settled on an estimate that the Earth was 20–40 million years old. This was based on heat equations that didn’t take into account radiation. Substantially later, Arthur Holmes, father of modern geochronology, developed carbon dating techniques. The oldest Archean rocks he found were 1.6 billion years old. The latest estimate is that earth is 4.5 billion years old.
+
+Interesting balance between erosion and accretion. The Himalayas accrete quickly, but also erode quickly, and the two processes mostly cancel each other out (growing very slowly). The total mass of earth crust in river basins around Himalayas is greater than that of the mountain range itself. 
+
+**Volcano formation**: Also interesting is the role of water in the formation of volcanoes. Water gets into the earth’s crust underneath oceans. As the porous waterlogged basalt cools and descends into the magma, the water causes the melting point to decrease. As the rock melts and escapes upward from the pressure, it forms volcanoes. This is how New Zealand formed and many other atolls. 
+
+**Seafloor spreading**: When volcanos erupt, molten iron comes up to the surface. These iron crystals are pulled into alignment by the Earth’s magnetic field, just like a compass needle is pulled towards magnetic north. Once the basalt cools completely into solid rock, the alignment of the iron minerals is fixed. Thus, patterns on the sea floor preserve a permanent record of the strength and direction of Earth’s magnetic field at the time the rocks were formed. (This is so cool!)
+
+Natural CO2 capture mechanism (part of [carbon cycle][3]):
+
+1. Volcanic exhalation causes CO2 emissions
+2. Mixing with water vapour, it forms H2CO3
+3. This dissolves crust rocks over time.
+4. These form CaCO3 which is carried by rivers into the oceans.
+5. Organisms use this for building shells.
+6. When they die, their remains form limestone in the sea floor, sequestering the carbon in (1).
+
+**Slowing rotation**: Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation.
+
+A large section of the book is dedicated to history and chronology of the Earth. Here are some fascinating milestones:
+
+- Great Oxidation Event (GOE), 2400 million years ago (Ma). formerly water was oxygen free which meant all sorts of ions could float in it freely including iron. After GOE, this changed and oxygen infusion bonded with Fe+ causing rust to sink down into the ocean floor.
+- Boring Billion, 1.8 Ga - 0.8 Ga. Not many changes to life, earth, etc. Single celled organisms only.
+- Snowball Earth (theorized), 0.7 Ga. Earth's surface became entirely or nearly entirely frozen. Likely due in part to the albedo effect: the cooler it gets the more ice and snow there is on the Earth’s surface. So more sun is reflected and it gets even cooler.
+- Fascinating to think about: 1.5 billion years in the future the earth won't be habitable to any life since the sun will have warmed enough to boil the oceans.
+
+**Background rate of extinction**: Surprising way to think about extinctions in aggregate. This is generally slow and continuous but accelerated during periods of mass extinctions. The dinosaur asteroid wiped out 85% of life living on land. Apparently today we're seeing 1000x the base extinction rate. 
+
+**Anthropocene**: Coined in 2002 (I thought much later) as a new epoch dating from when humans have had large impact on Earth's geology and ecosystems. 
+
+I think we in the PNW are lucky and won’t be directly affected by climate change. But what I think will matter is its secondary effect on political stability and human migration. It's going to deepen existing conflicts and create new pressure. Including what I think is most likely cause of human extinction still: global nuclear war. 
+
+**Why do ice ages occur**: Known as Milankovitch cycles, a few variables change in a periodic manner:
+1. Orbital shape (from nearly circular to slightly elliptical), primarily due to the gravitational pull of Jupiter and Saturn)
+2. Axial tilt (21-24 deg with period of 41000 years) and variations in Earth’s orbit around the sun.
+3. Axial precession (I don’t fully understand this yet).
+
+**Human emissions**: 500 gigatons (GT) of carbon emitted by humans. 25% of that was since 2000. And the rate of our emissions is still increasing. Currently it’s at about 10 GT per year. 
+
+I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly [inauthentic Iroquois legends][4], and the Norse concept of [Wyrd][5].
+
+This book had a lot of facts packed into a small package (short listen). Two main directions I’d like to go into:
+
+1. A bit more into geological visualizations and making things more accessible to the layperson
+2. Effect of climate change on human history. There’s a [Wikipedia page about this][6], maybe I can find a good book too?
+
 
 Yes Brain by Siegel and Bryson
 ===
@@ -439,8 +491,8 @@ attrition? I propose a law:
 to an event is 1/30 the number of people in the meetup group.
 
 Successful unmentioned examples of social digital infrastructure that come to
-mind are the [Little Free Library project][2], and
-[PEPS in Seattle][3].
+mind are the [Little Free Library project][7], and
+[PEPS in Seattle][8].
 
 
 The Odyssey translated by Emily Wilson (audio)
@@ -507,11 +559,11 @@ it was for the producers to be so parsimonious with effects.
 
 - After sneezing, Russians sometimes say "truth". There is a passage related to
   this, and I got curious. Does the Russian tradition come from the Greek?
-  [Apparently][4],
-  [yes][5].
+  [Apparently][9],
+  [yes][10].
 - Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
   also extremely wise and a great advisor to Telemachus. Is this the origin of
-  the word? [Apparently yes][6]
+  the word? [Apparently yes][11]
 - Are Phaeacian Phoenicians? There are similarities beyond their names, like
   great skill in navigation. I answered this myself since eventually both
   appeared in The Odyssey as distinct peoples. However there is some interesting
@@ -628,7 +680,7 @@ the worthy nuggets.
 By the mid 20th century, Henry George was "by far the most famous American
 economic writer", having written Progress and Poverty (1879), which sold
 millions of copies worldwide, probably more than any other American book before
-that time. The central idea of [Georgism][7] is:
+that time. The central idea of [Georgism][12] is:
 
 > while people should own the value they produce themselves, economic value
 derived from land (often including natural resources and natural opportunities)
@@ -643,7 +695,7 @@ While the government could use its power of eminent domain, a private venture to
 build a high speed rail line from Seattle to Vancouver would be impossible.
 
 The authors propose a wealth tax on all property, in a form of
-[Vickrey auctions][8]:
+[Vickrey auctions][13]:
 
 > Every citizen and especially corporation would self-assess the value of assets
 they possess, pay a roughly 7% tax on these values and be required to sell the
@@ -800,7 +852,7 @@ posted: March 28, 2019
 rating: yes
 
 The most succinct version summary of Seeing Like a State this is what has been
-called The Authoritarian High-Modernist [Recipe for Failure][9]:
+called The Authoritarian High-Modernist [Recipe for Failure][14]:
 
 1. Look at a complex and confusing reality
 2. Fail to understand all the subtleties of how the complex reality works
@@ -986,7 +1038,7 @@ care of an organic polyculture farm?
 
 Imagine a future in which a series of complex, domain-specialized AIs have been
 created in such domains as gardening and driving. We may well end
-up with systems that work super well, but are [far less legible][10]. What
+up with systems that work super well, but are [far less legible][15]. What
 would the ensuing world look like? I'm imagining self driving cars with emergent
 swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
@@ -1455,7 +1507,7 @@ mostly unacknowledged by the people who depend on them most.
 
 Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
-of [these questions?][11]
+of [these questions?][16]
 
 
 12 Rules for Life
@@ -1556,16 +1608,21 @@ misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
 
-[1]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
-[2]:	https://littlefreelibrary.org/
-[3]:	https://www.peps.org/
-[4]:	https://en.wikipedia.org/wiki/Sneeze
-[5]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[6]:	https://www.etymonline.com/word/mentor
-[7]:	https://en.wikipedia.org/wiki/Georgism
-[8]:	https://en.wikipedia.org/wiki/William_Vickrey
-[9]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[10]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-[11]:	https://kk.org/cooltools/the-big-here-qu/
+[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
+[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
+[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
+[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
+[5]:	https://en.wikipedia.org/wiki/Wyrd
+[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
+[7]:	https://littlefreelibrary.org/
+[8]:	https://www.peps.org/
+[9]:	https://en.wikipedia.org/wiki/Sneeze
+[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[11]:	https://www.etymonline.com/word/mentor
+[12]:	https://en.wikipedia.org/wiki/Georgism
+[13]:	https://en.wikipedia.org/wiki/William_Vickrey
+[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+[16]:	https://kk.org/cooltools/the-big-here-qu/
 
 [image-1]:	/assets/beneficial-possible-profitable.png
