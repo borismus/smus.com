@@ -4,6 +4,40 @@ class: split
 type: book
 
 
+Timefulness by Marcia Bjornerud
+===
+Posted: October 6, 2019
+Rating: yes
+
+Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial and panic. Both are negative, paralyzing emotions.  I’d rather find a constructive middle way. 
+
+Backpacking together through the canyons of the Pariah, I watched the landscape with a sense of heightened curiosity. Dad and I had front row seats to observe nature’s processes at work: rivers carving deeper and deeper into slot canyons, erosion’s cleaver splitting gigantic sandstone faces in twain. In a place like the Vermillion Cliffs, you can really feel the Earth’s sovereignty. We are merely ants. 
+
+How might we bring this feeling of scientific curiosity and majestic awe to more people?
+
+I heard the author’s Long Now talk and thought she did an excellent job. 
+
+---- 
+
+Here’s an interesting analogy to kick the book off:
+
+- Microscope: small things
+- Telescope: far away things
+- Geology: long ago things
+
+All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in some sections, especially where the author specific processes such as the Carbon cycle.
+
+Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][1] which I have yet to explore. 
+
+High level overview of earth's life as we know today. 
+
+- Cenozoic: 66 - 0 ma
+- Mesozoic: 252 - 66 ma
+- Paleozoic: 541 - 252 ma
+- Precambrian: 4600 - 541 ma
+
+TODO: finish this up.
+
 Yes Brain by Siegel and Bryson
 ===
 posted: September 20, 2019
@@ -405,8 +439,8 @@ attrition? I propose a law:
 to an event is 1/30 the number of people in the meetup group.
 
 Successful unmentioned examples of social digital infrastructure that come to
-mind are the [Little Free Library project][1], and
-[PEPS in Seattle][2].
+mind are the [Little Free Library project][2], and
+[PEPS in Seattle][3].
 
 
 The Odyssey translated by Emily Wilson (audio)
@@ -473,11 +507,11 @@ it was for the producers to be so parsimonious with effects.
 
 - After sneezing, Russians sometimes say "truth". There is a passage related to
   this, and I got curious. Does the Russian tradition come from the Greek?
-  [Apparently][3],
-  [yes][4].
+  [Apparently][4],
+  [yes][5].
 - Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
   also extremely wise and a great advisor to Telemachus. Is this the origin of
-  the word? [Apparently yes][5]
+  the word? [Apparently yes][6]
 - Are Phaeacian Phoenicians? There are similarities beyond their names, like
   great skill in navigation. I answered this myself since eventually both
   appeared in The Odyssey as distinct peoples. However there is some interesting
@@ -594,7 +628,7 @@ the worthy nuggets.
 By the mid 20th century, Henry George was "by far the most famous American
 economic writer", having written Progress and Poverty (1879), which sold
 millions of copies worldwide, probably more than any other American book before
-that time. The central idea of [Georgism][6] is:
+that time. The central idea of [Georgism][7] is:
 
 > while people should own the value they produce themselves, economic value
 derived from land (often including natural resources and natural opportunities)
@@ -609,7 +643,7 @@ While the government could use its power of eminent domain, a private venture to
 build a high speed rail line from Seattle to Vancouver would be impossible.
 
 The authors propose a wealth tax on all property, in a form of
-[Vickrey auctions][7]:
+[Vickrey auctions][8]:
 
 > Every citizen and especially corporation would self-assess the value of assets
 they possess, pay a roughly 7% tax on these values and be required to sell the
@@ -766,7 +800,7 @@ posted: March 28, 2019
 rating: yes
 
 The most succinct version summary of Seeing Like a State this is what has been
-called The Authoritarian High-Modernist [Recipe for Failure][8]:
+called The Authoritarian High-Modernist [Recipe for Failure][9]:
 
 1. Look at a complex and confusing reality
 2. Fail to understand all the subtleties of how the complex reality works
@@ -952,7 +986,7 @@ care of an organic polyculture farm?
 
 Imagine a future in which a series of complex, domain-specialized AIs have been
 created in such domains as gardening and driving. We may well end
-up with systems that work super well, but are [far less legible][9]. What
+up with systems that work super well, but are [far less legible][10]. What
 would the ensuing world look like? I'm imagining self driving cars with emergent
 swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
@@ -1421,7 +1455,7 @@ mostly unacknowledged by the people who depend on them most.
 
 Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
-of [these questions?][10]
+of [these questions?][11]
 
 
 12 Rules for Life
@@ -1522,15 +1556,16 @@ misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
 
-[1]:	https://littlefreelibrary.org/
-[2]:	https://www.peps.org/
-[3]:	https://en.wikipedia.org/wiki/Sneeze
-[4]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[5]:	https://www.etymonline.com/word/mentor
-[6]:	https://en.wikipedia.org/wiki/Georgism
-[7]:	https://en.wikipedia.org/wiki/William_Vickrey
-[8]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[9]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-[10]:	https://kk.org/cooltools/the-big-here-qu/
+[1]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
+[2]:	https://littlefreelibrary.org/
+[3]:	https://www.peps.org/
+[4]:	https://en.wikipedia.org/wiki/Sneeze
+[5]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[6]:	https://www.etymonline.com/word/mentor
+[7]:	https://en.wikipedia.org/wiki/Georgism
+[8]:	https://en.wikipedia.org/wiki/William_Vickrey
+[9]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[10]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+[11]:	https://kk.org/cooltools/the-big-here-qu/
 
 [image-1]:	/assets/beneficial-possible-profitable.png
