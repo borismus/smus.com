@@ -5,8 +5,172 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-09-25T20:19:30-00:00</updated>
+  <updated>2019-10-07T21:01:17-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Timefulness by Marcia Bjornerud (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/timefulness-by-marcia-bjornerud-audio"/>
+    
+    <updated>2019-10-06T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/timefulness-by-marcia-bjornerud-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I heard the author’s <a href="http://longnow.org/seminars/02019/jul/22/timefulness/">Long Now talk</a> and thought she did an excellent job. The book did not disappoint.</p>
+
+<p>Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial (right) and panic (left). Both are negative, paralyzing emotions.  I’d rather find a constructive middle path. </p>
+
+<p>Backpacking together through the canyons of the Pariah, I watched the landscape with a sense of heightened curiosity. Dad and I had front row seats to observe nature’s processes at work: rivers carving deeper and deeper into slot canyons, erosion’s cleaver splitting gigantic sandstone faces in twain. In a place like the Vermillion Cliffs, you can really feel the Earth’s sovereignty. We are ants. </p>
+
+<p>How might we bring this feeling of scientific curiosity and majestic awe to more people?</p>
+
+<p>Here’s an interesting analogy to kick the book off:</p>
+
+<ul>
+<li>Microscope to see small things</li>
+<li>Telescope to see far away things</li>
+<li>Geology to “see” long ago things</li>
+</ul>
+
+<p>All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in many sections. In general, the author packs a ton of content into a short book, and I learned a huge amount.</p>
+
+<p>Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of <a href="https://en.wikipedia.org/wiki/List_of_free_geology_software">geology visualization software</a> which I have yet to explore. </p>
+
+<p>High level overview of earth's life as we know today. </p>
+
+<ul>
+<li>Cenozoic: 66 - 0 Ma (<strong>M</strong>illion years <strong>a</strong>go)</li>
+<li>Mesozoic: 252 - 66 Ma</li>
+<li>Paleozoic: 541 - 252 Ma</li>
+<li>Precambrian: 4600 - 541 Ma</li>
+</ul>
+
+<p>Right off the bat, Marcia injects some pessimism. We used to be citizens, she laments, now are mere consumers. We used to support long term projects like national parks. Now we view them as a tax burden. Do we?</p>
+
+<p>Tons of interesting people I know very little about: <strong>James Hutton</strong>, father of modern geology, first coined the term “deep time” in the 18th century. <strong>Charles Lyell</strong>, building on Hutton’s work eventually inspired Charles Darwin. </p>
+
+<p>There’s a debate between two schools of thought, one represented by the 3 great men above:</p>
+
+<ul>
+<li>Gradualism (Uniformitarianism) - slow incremental changes, such as erosion, created all the Earth's geological features.</li>
+<li>Catastrophism - the Earth has largely been shaped by sudden, short-lived, violent events, possibly worldwide in scope.</li>
+</ul>
+
+<p><strong>Age of the earth</strong>: In 1897, Lord Kelvin, refuting Darwin’s estimate of 300 million years, ultimately settled on an estimate that the Earth was 20–40 million years old. This was based on heat equations that didn’t take into account radiation. Substantially later, Arthur Holmes, father of modern geochronology, developed carbon dating techniques. The oldest Archean rocks he found were 1.6 billion years old. The latest estimate is that earth is 4.5 billion years old.</p>
+
+<p>Interesting balance between erosion and accretion. The Himalayas accrete quickly, but also erode quickly, and the two processes mostly cancel each other out (growing very slowly). The total mass of earth crust in river basins around Himalayas is greater than that of the mountain range itself. </p>
+
+<p><strong>Volcano formation</strong>: Also interesting is the role of water in the formation of volcanoes. Water gets into the earth’s crust underneath oceans. As the porous waterlogged basalt cools and descends into the magma, the water causes the melting point to decrease. As the rock melts and escapes upward from the pressure, it forms volcanoes. This is how New Zealand formed and many other atolls. </p>
+
+<p><strong>Seafloor spreading</strong>: When volcanos erupt, molten iron comes up to the surface. These iron crystals are pulled into alignment by the Earth’s magnetic field, just like a compass needle is pulled towards magnetic north. Once the basalt cools completely into solid rock, the alignment of the iron minerals is fixed. Thus, patterns on the sea floor preserve a permanent record of the strength and direction of Earth’s magnetic field at the time the rocks were formed. (This is so cool!)</p>
+
+<p>Natural CO2 capture mechanism (part of <a href="https://earthobservatory.nasa.gov/features/CarbonCycle">carbon cycle</a>):</p>
+
+<ol>
+<li>Volcanic exhalation causes CO2 emissions</li>
+<li>Mixing with water vapour, it forms H2CO3</li>
+<li>This dissolves crust rocks over time.</li>
+<li>These form CaCO3 which is carried by rivers into the oceans.</li>
+<li>Organisms use this for building shells.</li>
+<li>When they die, their remains form limestone in the sea floor, sequestering the carbon in (1).</li>
+</ol>
+
+<p><strong>Slowing rotation</strong>: Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation.</p>
+
+<p>A large section of the book is dedicated to history and chronology of the Earth. Here are some fascinating milestones:</p>
+
+<ul>
+<li>Great Oxidation Event (GOE), 2400 million years ago (Ma). formerly water was oxygen free which meant all sorts of ions could float in it freely including iron. After GOE, this changed and oxygen infusion bonded with Fe+ causing rust to sink down into the ocean floor.</li>
+<li>Boring Billion, 1.8 Ga - 0.8 Ga. Not many changes to life, earth, etc. Single celled organisms only.</li>
+<li>Snowball Earth (theorized), 0.7 Ga. Earth's surface became entirely or nearly entirely frozen. Likely due in part to the albedo effect: the cooler it gets the more ice and snow there is on the Earth’s surface. So more sun is reflected and it gets even cooler.</li>
+<li>Fascinating to think about: 1.5 billion years in the future the earth won't be habitable to any life since the sun will have warmed enough to boil the oceans.</li>
+</ul>
+
+<p><strong>Background rate of extinction</strong>: Surprising way to think about extinctions in aggregate. This is generally slow and continuous but accelerated during periods of mass extinctions. The dinosaur asteroid wiped out 85% of life living on land. Apparently today we're seeing 1000x the base extinction rate. </p>
+
+<p><strong>Anthropocene</strong>: Coined in 2002 (I thought much later) as a new epoch dating from when humans have had large impact on Earth's geology and ecosystems. </p>
+
+<p>I think we in the PNW are lucky and won’t be directly affected by climate change. But what I think will matter is its secondary effect on political stability and human migration. It's going to deepen existing conflicts and create new pressure. Including what I think is most likely cause of human extinction still: global nuclear war. </p>
+
+<p><strong>Why do ice ages occur</strong>: Known as Milankovitch cycles, a few variables change in a periodic manner:
+1. Orbital shape (from nearly circular to slightly elliptical), primarily due to the gravitational pull of Jupiter and Saturn)
+2. Axial tilt (21-24 deg with period of 41000 years) and variations in Earth’s orbit around the sun.
+3. Axial precession (I don’t fully understand this yet).</p>
+
+<p><strong>Human emissions</strong>: 500 gigatons (GT) of carbon emitted by humans. 25% of that was since 2000. And the rate of our emissions is still increasing. Currently it’s at about 10 GT per year. </p>
+
+<p>I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly <a href="https://en.wikipedia.org/wiki/Seven_generation_sustainability">inauthentic Iroquois legends</a>, and the Norse concept of <a href="https://en.wikipedia.org/wiki/Wyrd">Wyrd</a>.</p>
+
+<p>This book had a lot of facts packed into a small package (short listen). Two main directions I’d like to go into:</p>
+
+<ol>
+<li>A bit more into geological visualizations and making things more accessible to the layperson</li>
+<li>Effect of climate change on human history. There’s a <a href="https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change">Wikipedia page about this</a>, maybe I can find a good book too?</li>
+</ol>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Yes Brain by Siegel and Bryson</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/yes-brain-by-siegel-and-bryson"/>
+    
+    <updated>2019-09-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/yes-brain-by-siegel-and-bryson</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Yes Brain is a parenting book. This immediately means several things:</p>
+
+<ul>
+<li>It’s extremely repetitive.</li>
+<li>It sports branding. “Yes Brain™ – good. No Brain – bad”. </li>
+<li>This is strictly necessary because parents are chronically sleep deprived and can’t focus for more than five minutes.</li>
+</ul>
+
+<p>Here’s the overall framework within which the book operates:</p>
+
+<p>Children are born with a fully developed “downstairs brain” (roughly aka limbic system, lizard brain, system one), which controls involuntary response. As they grow, they are developing their “upstairs brain” (cortex, system two), in charge of higher level thought. So as children develop, many of their reactions are driven by system one. The parent’s role is to help develop system two. This means going from a predominantly reactive stimulus-response mode to “response flexibility”: being able to choose how to respond to a stimulus.</p>
+
+<p>I find this to be a useful framework in general. All but the most enlightened meditators could use a bit more response flexibility. The most useful parts of this book describe strategies for explaining what this might look like to young children. Unfortunately for me, most examples in the book focus on 5, 8, 13 year olds. One of the most approachable frameworks is based on colors, which my toddler has yet to learn. So I think we have a prerequisite to fill first!</p>
+
+<p>The green zone is a state where response flexibility is maximized. The red zone is a tantrum or lack of control. The blue zone is withdrawal after a pattern of bad feedback. The parental role is to expand the green zone, make children spent more time there, and make returning to green faster. The authors suggest teaching the model to the kids as well to be able to talk about it, and spend some time discussing what that would look like through fairly insightful comics.</p>
+
+<p>Other things I liked included some Stoically inspired advice:</p>
+
+<ul>
+<li>There’s an explicit discussion of walking children through tough times without coddling them. In the dismal language of the authors, it’s about finding the “goldilocks balance” between “pushin’” and “cushin’”.</li>
+<li>Reframing when kids misbehave. It may be useful to treat this as a form of communication. See it as a call for help rather than them acting out and making things hard for you.</li>
+<li>Present difficult situations as “which struggle do you prefer?”. Seems handy to reframe pain as a learning experience.</li>
+<li>Try on the outside view to learn to get some emotional distance from the problem at hand. They have a great analogy  of being a player player vs. being a spectator.</li>
+<li>For empathy, it’s useful to practice in children’s books: What is the person feeling right now?</li>
+</ul>
+
+<p>Random things I disliked:</p>
+
+<ul>
+<li>The authors reject any external measuring sticks. A lot of the book emphasized process over results to such an extreme that it conflates extrinsic plenty with intrinsic poverty. In my mind, you should aim for both.</li>
+<li>Let’s sprinkle in <strong>neuroscience</strong> to make the book sound more scientistic! Name-dropping the connectome adds nothing, but makes me more annoyed.</li>
+<li>Conveniently, the authors provide a “Yes Brain Refrigerator Sheet”, a built-in summary of the book. Sadly it is very bad and doesn’t include the actual good parts of the book.</li>
+</ul>
+
+<p>The good parts of this book provide some interesting strategies for teaching stoicism and mindfulness to young children. Perhaps in a few years, I’ll revisit one of its many clones.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Diamond Age by Stephenson (audio)</title>
@@ -643,9 +807,9 @@ powerful hook to read the next book in the trilogy.</p>
     <content type="html">
       <![CDATA[
       <div>
-        <p>The book Radical Markets is centered on one central premise: <strong>Competitive, free
+        <p>The book Radical Markets is centered on one central premise: **Competitive, free
 markets are awesome, but most in reality are either not perfectly competitive,
-or insufficiently free</strong>.</p>
+or insufficiently free**.</p>
 
 <p>Overall, the book covers a lot of ground, proposing solutions to many of
 modernity's major questions, from immigration to monopolies to property rights.
@@ -707,7 +871,7 @@ Jeff Bezos for his new private spaceport. I think I'd rather see a world in
 which the government is more empowered to take on large public works, and more
 agressively uses its power of eminent domain for the common good.</p>
 
-<p><img src="/assets/beneficial-possible-profitable.png" alt="Possible/Profitable/Beneficial venn diagram" /></p>
+<p>![Possible/Profitable/Beneficial venn diagram][image-1]</p>
 
 <h2>A market for voting</h2>
 
@@ -1216,8 +1380,8 @@ and appointed officials based on merit rather than birth.</p>
 
 <p>Henry I's only son drowned in a drunken boat party. In his stead, Henry I
 favored his daughter Matilda who was married off to the Holy Roman Emperor. But
-queens weren't exactly a thing yet, so a succession dispute led to <strong>King
-Steven</strong> coming to power. Steven was and not a very kingly man, and not a very
+queens weren't exactly a thing yet, so a succession dispute led to **King
+Steven** coming to power. Steven was and not a very kingly man, and not a very
 effective king. Anarchy and a civil war in erupted in England over Steven's
 legitimacy, with Matilda's vying to get Henry, her son from her second
 marriage onto the throne. </p>
@@ -6065,296 +6229,6 @@ hardly knew any of the answers.</p></li>
 
 <p>Brand dazzles with an array of convincing arguments. I’d like to read a
 similarly researched argument from the other side to see where I land.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Psychology of Curiosity</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/psychology-of-curiosity"/>
-    
-    <updated>2017-06-25T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/psychology-of-curiosity</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I read <a href="http://int-des.com/wp-content/uploads/2013/12/PsychofCuriosity.pdf">an academic paper on curiosity</a> by <a href="https://en.wikipedia.org/wiki/George_Loewenstein">George Loewenstein</a>.
-It was surprisingly readable and very insightful.</p>
-
-<p>Why did I read it? Just like <a href="https://www.media.mit.edu/events/papert/">some</a> think about thinking, others
-are curious about curiosity. More specifically, I recently read a <a href="https://www.vox.com/science-and-health/2017/2/1/14392290/partisan-bias-dan-kahan-curiosity">Vox
-article</a> that suggested "The more scientifically curious people are, the
-more they are immune to the power of partisan thinking". What follows is mostly
-a summary of the article, as well as some sketches I made to help me understand
-it better.</p>
-
-<p>Dark side of curiosity (it can be a vice):</p>
-
-<ul>
-<li>Stories of Pandora's Box, Eve's Garden, Lot's Wife's Pillar.</li>
-<li>St. Augustine: "Ocular Lust"</li>
-<li>Hume: love of knowledge vs. passion for gossip?</li>
-<li>Exploratory non-sanctioned behaviors are often curiosity driven: drugs &amp; sex.</li>
-</ul>
-
-<p>Berlyne's types of curiosity:</p>
-
-<ul>
-<li>Perceptual curiosity: drive for novel stimuli</li>
-<li>Diversive curiosity: a more general stimulation seeking behavior linked to boredom</li>
-<li>Specific curiosity: desire for a particular piece of information</li>
-<li>Epistemic curiosity: a general human desire for knowledge</li>
-</ul>
-
-<p>Unclear if perceptual &amp; diversive curiosity should be called curiosity, or
-something else?</p>
-
-<p>Trait vs. state curiosity:</p>
-
-<ul>
-<li>Is the distinction meaningful? (eg. Do you usually find the rooms you are in
-to be too bright? vs. Is the room you are in too bright?)</li>
-<li>No strong demographic correlates for trait curiosity.</li>
-<li>State curiosity is way more interesting to study since "an improved
-understanding of state curiosity, in contrast, has the potential to suggest
-practical methods of stimulating curiosity in the broader population."</li>
-</ul>
-
-<p><img src="/books/psychology-of-curiosity/intrinsic-vs-extrinsic.jpg" alt="Intrinsic vs. extrinsic curiosity." /></p>
-
-<p>Curiosity and sex:</p>
-
-<ul>
-<li>Freud suggests that curiosity is a proxy for sexual curiosity, which is
-suppressed by society.</li>
-<li>In some rare cases, this is manifest as a general curiosity about the world.</li>
-<li>But this theory is non-falsifiable (fuck yeah Popper / eat shit Freud).</li>
-<li>Like sex, curiosity is an intense desire for information, but once attained,
-is often disappointing (see: <a href="https://en.wikipedia.org/wiki/Post-coital_tristesse">postcoitus triste</a>).</li>
-</ul>
-
-<h1>Existing explanations for curiosity</h1>
-
-<ol>
-<li><p>Curiosity as a drive:</p>
-
-<ul>
-<li>Analogy to hunger and thirst: "appetite/thirst for knowledge", curiosity
-can be satisfied.</li>
-<li>It's per object (eg. satisfied curiosity about invertebrates), unlike food
-where it's a general feeling of satiation.</li>
-<li>Also unlike food, there's no "tissue need or deficit external to the
-nervous system".</li>
-<li>"Meta drive", since it's not the drive for the information directly, but
-the drive for the desire to seek information (eg. an ape that opens the
-window to see if there's something interesting there)</li>
-<li>Also curiosity is easily disrupted by "tissue needs" like hunger and
-thirst.</li>
-</ul></li>
-<li><p>Incongruity theory:</p>
-
-<ul>
-<li>Curiosity caused by violated expectations (Piaget, Hebb, Hunt)</li>
-<li>Sweet spot / optimal level of incongruity. Too much incongruity =&gt; fear /
-can't relate / can't incorporate new information.</li>
-<li>Motivation: to resolve uncertainty. "Human nature abhors a lack of
-predictability and the absense of meaning"</li>
-<li>Also related to "Need for Cognition" which is more of a personality trait.</li>
-</ul></li>
-<li><p>Competence motive: Curiosity may result from wanting to master one's
-environment. This doesn't super compelling to Loewenstein (and me by
-association).</p></li>
-</ol>
-
-<h1>Situational causes for state curiosity</h1>
-
-<p>Paradox: curiosity seeking behavior doesn't make sense if people are curiosity averse. </p>
-
-<p>Sweet spot of expectation violation:</p>
-
-<ul>
-<li>Too little expectation violation =&gt; bored.</li>
-<li>Too much expectation violation  =&gt; overwhelmed. </li>
-<li>So the in this model, the goal is to maximize the curiosity level.</li>
-</ul>
-
-<p><img src="/books/psychology-of-curiosity/expectation-violation.jpg" alt="Upside down U curve of ideal level of expected
-violations." /></p>
-
-<p>Conceptual controversy increases curiosity (experiment where students were put into groups intended to either foster conflict or consensus: 45% of controversy kids gave up recess to watch a film, vs. 18% in consensus group).</p>
-
-<h1>Loewenstein's model: information gap</h1>
-
-<p>Information gap: </p>
-
-<ul>
-<li>The gap between what you know (objective situation) and what you want to know
-(the reference point).</li>
-<li>Just like material wealth where it's hard to compare cars to swimming pools so
-we use $, knowledge is multidimensional but can be reduced to 1D via bits
-(info theory)</li>
-<li>Also like material wealth, we rarely want to compare to unattainable (eg. the
-rich and famous), but instead to your neighbor.</li>
-</ul>
-
-<p><img src="/books/psychology-of-curiosity/information-gap.jpg" alt="1D information gap" /></p>
-
-<p>Quantifying the info gap:</p>
-
-<ul>
-<li>Sensitivity to both relative and absolute magnitude of the info gap.</li>
-<li>Gap between knowing 4 of 5 Pacific Ocean-bordering US states &gt; gap between
-knowing 49 and 50 of US states.</li>
-<li>Gap between knowing 40 of 50 US states &gt; gap between 4 of 5 Pacific Ocean
-bordering states.</li>
-<li>But some things affect curiosity that doesn't account in the info theoretic
-view of the info gap (eg. facts that bring the plot to life in a murder
-mystery.)</li>
-<li>Precise measurement of the gap is often unnecessary, just a sense of whether
-gap is increasing or decreasing. For research, can rely on self-reports.</li>
-</ul>
-
-<h1>Implications of the gap approach</h1>
-
-<p>Subjects prefer more general rules to resolve uncertainty (study: 1. rule
-generated list of 5 States vs. 2.  another rule that generated list of 10
-states, subjects prefer to learn rule 2.)</p>
-
-<p>More curiosity for insight vs. for incremental problems (study: 1. image-grid
-where each cell was part of one animal vs. 2. each cell is its own animal,
-subjects open more cells condition 1.)</p>
-
-<p>Two ways of seeing a knowledge gap:</p>
-
-<ul>
-<li>Little knowledge =&gt; focus on what you know.</li>
-<li>More knowledge =&gt; focus on what you don't know (ie. the information gap).</li>
-<li>At some point in between, there's a discrete shift on focusing on ignorance
-that makes you more curious.</li>
-</ul>
-
-<p>Paradox: if you don't know much, no real drive to learn more. Also, many people
-don't know that they don't know a lot (Related to Dunning–Kruger effect.)</p>
-
-<p><img src="/books/psychology-of-curiosity/curiosity-knowledge.jpg" alt="Curiosity increases with knowledge &amp; discrete shift." /></p>
-
-<p>As a novice gains more knowledge the "unknown unknowns" become known unknowns,
-which spurs curiosity. As you learn more, the gap closes and you become less
-curious. Until there's a leap, your reference point changes realize your
-ignorance again.</p>
-
-<p><img src="/books/psychology-of-curiosity/curiosity-progression.jpg" alt="Alternating curiosity levels as your reference point
-changes." /></p>
-
-<p>A good way to cause awareness of the informational gap is via guessing and
-feedback. It's difficult to deny the knowledge gap if you guess an answer
-incorrectly. </p>
-
-<p>Combination of guess and feedback increased curiosity (study: one group had to
-first guess Easternmost, Northernmost, Southernmost states (w/ immediate
-feedback) while the other didn't, and the one that did guess &amp; feedback was more
-curious)</p>
-
-<h1>Curiosity inducing stimuli</h1>
-
-<p>Situations that increase curiosity:</p>
-
-<ol>
-<li>Direct question (eg. a puzzle or riddle)</li>
-<li>A sequence of events with an unknown resolution, desire to complete a script
-(eg. they went on a walk at night, suddenly they heard a noise). Q: "What
-will happen?" / "Was I right?"</li>
-<li>Violation of expectations. Q: "Weird, why did that happen?"</li>
-<li>Possession of information by someone else (eg. someone chuckling as he reads
-a news article). Q: "What does he know?" </li>
-<li>Formerly known but forgotten things (eg. that word that was on the top of the
-tongue...). Q: "What was that thing again!"</li>
-</ol>
-
-<h1>Conclusions / misc</h1>
-
-<p>Loewenstein calls for more research on state (not trait) curiosity, and more
-research on epistemic curiosity.</p>
-
-<p>I should read William James' on scientific curiosity, since it's most relevant
-for that Vox article, and also mentioned by Loewenstein as the type of curiosity
-that mostly corresponds to specific epistemic curiosity.</p>
-
-<p>I printed the paper, but the last page didn't come out. So I experienced the
-recently learned <a href="https://en.wikipedia.org/wiki/Zeigarnik_effect">Zeigarnik effect</a>: people remember uncompleted or
-interrupted tasks better than completed tasks. I was very curious to see how the
-paper ended, so had to finish reading the last page online.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>On Tyranny by Timothy Snyder</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/on-tyranny-by-timothy-snyder"/>
-    
-    <updated>2017-06-13T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/on-tyranny-by-timothy-snyder</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>More of a pamphlet than a book, both in brevity and in alarmist urgency. </p>
-
-<p>Structured as a strange combination of trends that lead to tyranny and general
-life tips. Dangerous trends include the destruction of institutions and
-paramilitary rule. As for life tips, the author suggests reading more books and
-longer articles, donating to charities, and having more conversations in person,
-and remaining calm in the face of terror. </p>
-
-<p>The last point I think is a good one and I agree that there is good reason to be
-deeply concerned about the political impact of a major terror attack on US soil. </p>
-
-<p>Overall quite heavy handed. Despite not calling out Trump by name, some passages
-like this one are overly didactic:</p>
-
-<blockquote>
-  <p>What is patriotism? Let us begin with what patriotism is not. It is not
-  patriotic to dodge the draft and to mock war heroes and their families. It is
-  not patriotic to discriminate against active-duty members of the armed forces
-  in one's companies or to campaign to keep disabled veterans away from one's
-  property. It is not patriotic to ... (etc)</p>
-</blockquote>
-
-<p>Each "It is not patriotic" sentence refers to something deplorable Trump did in
-the last 6 months. And it continues for a page and a half. A thought flashed
-across my mind: how is this better than reading Twitter?</p>
-
-<p>The author draws many false analogies to Stalin's Russia and Hitler's Germany.
-He then normalizes extremist terror as just another thing by claiming that those
-resisting fascists and communist regimes were also billed extremists (therefore
-what?). He plays with words, uncharitably redefining a "nationalist" in contrast
-to "patriot" as one "that encourages us to be the worst and the tells us we are
-the best", whereas the two words are often used interchangeably.</p>
-
-<p>The conclusion starts well written, with choice words criticizing "end of
-history" narratives that helped get us here. But ends in conspiratorial hand
-wringing.</p>
-
-<p>In liberal cities like Seattle, the opposition is the majority and there are no
-signs that things will flip any time soon. Most of Trump's policies are
-signaling and most of them are counteracted with opposition signaling. He is an
-awful leader for this country and I'm ashamed of his words and actions. But as
-for actual policy changes or prosecution of specific people, he has (so far)
-been stopped at every turn. I agree that these are unusual times, and that extra
-vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
-a classic case of crying wolf. I find it hard to believe that it will stand the
-test of time. </p>
 
 
         
