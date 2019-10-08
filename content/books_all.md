@@ -89,6 +89,12 @@ This book had a lot of facts packed into a small package (short listen). Two mai
 1. A bit more into geological visualizations and making things more accessible to the layperson
 2. Effect of climate change on human history. There’s a [Wikipedia page about this][6], maybe I can find a good book too?
 
+[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
+[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
+[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
+[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
+[5]:	https://en.wikipedia.org/wiki/Wyrd
+[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
 
 Yes Brain by Siegel and Bryson
 ===
@@ -494,6 +500,9 @@ Successful unmentioned examples of social digital infrastructure that come to
 mind are the [Little Free Library project][7], and
 [PEPS in Seattle][8].
 
+[7]:	https://littlefreelibrary.org/
+[8]:	https://www.peps.org/
+
 
 The Odyssey translated by Emily Wilson (audio)
 ===
@@ -599,6 +608,9 @@ venture off again to appease Posideon. Sounds like another arduous journey, and
 another decade of disappointment for Penelope. Her patience and the ambiguity
 with which they reunite is palpable.
 
+[9]:	https://en.wikipedia.org/wiki/Sneeze
+[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[11]:	https://www.etymonline.com/word/mentor
 
 
 The Fifth Season by N. K. Jemisin
@@ -845,6 +857,9 @@ system that controls your work and life. Unlike slavery, data work does not
 capitalize at the expense of a specific identity group. Unlike "siren servers",
 the lure of social networks can be resisted.
 
+[12]:	https://en.wikipedia.org/wiki/Georgism
+[13]:	https://en.wikipedia.org/wiki/William_Vickrey
+
 
 Seeing Like a State by James Scott
 ===
@@ -1044,6 +1059,9 @@ swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
 driving decisions). I feel that we are very far from such a world, but it's fun
 to think about.
+
+[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
 
 
 Invisible Cities by Italo Calvino
@@ -1509,6 +1527,8 @@ Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
 of [these questions?][16]
 
+[16]:	https://kk.org/cooltools/the-big-here-qu/
+
 
 12 Rules for Life
 ===
@@ -1607,22 +1627,5 @@ taste.
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
-
-[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
-[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
-[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
-[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
-[5]:	https://en.wikipedia.org/wiki/Wyrd
-[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
-[7]:	https://littlefreelibrary.org/
-[8]:	https://www.peps.org/
-[9]:	https://en.wikipedia.org/wiki/Sneeze
-[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[11]:	https://www.etymonline.com/word/mentor
-[12]:	https://en.wikipedia.org/wiki/Georgism
-[13]:	https://en.wikipedia.org/wiki/William_Vickrey
-[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-[16]:	https://kk.org/cooltools/the-big-here-qu/
 
 [image-1]:	/assets/beneficial-possible-profitable.png
