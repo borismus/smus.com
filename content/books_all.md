@@ -4,6 +4,20 @@ class: split
 type: book
 
 
+The Fiddler is a Good Woman
+===
+posted: November 13, 2019
+rating: yes
+
+I think it was A that originally turned me on to Geoff Berner’s existence. At the very least, he gave me the book (thanks!) Berner exists at the tenuous intersection of musician, comedian, and apparently author! I went to a klezmer show in Seattle for which he was one of the openers, and can vouch for him as a pretty good accordionist, and a pretty funny guy (although I still can’t quite tell if he’s serious about his politics). After reading, I can also confirm that Geoff Berner is a pretty good author.
+
+This book is unlike anything I’ve ever read. It reminds me of looking at a subject through a kaleidoscope, or through a series of funhouse mirrors, or maybe that parable about the blind men and the elephant. Except with less arguing.
+
+At its core, this book paints a portrait of a complex protagonist, so-called “DD” from Berner’s bohemian musician crew. He does an excellent job of convincingly channeling his various friends and acquaintances in his quest. Are these people real? I don’t know, but I’ve venture to guess heavily based on existing people and not conjured from thin air. Anyway, the way Berner writes them in is done convincingly, giving each one of them a distinct style and a manner of speaking. Sometimes these characters speak directly at him as if in an interview setting, other times they take turns to paint a vignette.
+
+In some ways, I was reminded of Foobar, the Canadian Cult Classic film. Maybe because many of the characters are in some undeniable sense lowlifes, but in another, profoundly vulnerable and human.
+
+
 Timefulness by Marcia Bjornerud (audio)
 ===
 posted: October 6, 2019
@@ -88,13 +102,6 @@ This book had a lot of facts packed into a small package (short listen). Two mai
 
 1. A bit more into geological visualizations and making things more accessible to the layperson
 2. Effect of climate change on human history. There’s a [Wikipedia page about this][6], maybe I can find a good book too?
-
-[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
-[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
-[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
-[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
-[5]:	https://en.wikipedia.org/wiki/Wyrd
-[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
 
 Yes Brain by Siegel and Bryson
 ===
@@ -500,10 +507,6 @@ Successful unmentioned examples of social digital infrastructure that come to
 mind are the [Little Free Library project][7], and
 [PEPS in Seattle][8].
 
-[7]:	https://littlefreelibrary.org/
-[8]:	https://www.peps.org/
-
-
 The Odyssey translated by Emily Wilson (audio)
 ===
 posted: June 14, 2019
@@ -607,11 +610,6 @@ Is this really the end of Odysseus' adventures? As soon as he returns, he must
 venture off again to appease Posideon. Sounds like another arduous journey, and
 another decade of disappointment for Penelope. Her patience and the ambiguity
 with which they reunite is palpable.
-
-[9]:	https://en.wikipedia.org/wiki/Sneeze
-[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[11]:	https://www.etymonline.com/word/mentor
-
 
 The Fifth Season by N. K. Jemisin
 ===
@@ -857,10 +855,6 @@ system that controls your work and life. Unlike slavery, data work does not
 capitalize at the expense of a specific identity group. Unlike "siren servers",
 the lure of social networks can be resisted.
 
-[12]:	https://en.wikipedia.org/wiki/Georgism
-[13]:	https://en.wikipedia.org/wiki/William_Vickrey
-
-
 Seeing Like a State by James Scott
 ===
 posted: March 28, 2019
@@ -1059,10 +1053,6 @@ swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
 driving decisions). I feel that we are very far from such a world, but it's fun
 to think about.
-
-[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-
 
 Invisible Cities by Italo Calvino
 ===
@@ -1527,9 +1517,6 @@ Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
 of [these questions?][16]
 
-[16]:	https://kk.org/cooltools/the-big-here-qu/
-
-
 12 Rules for Life
 ===
 posted: January 17, 2019
@@ -1627,5 +1614,22 @@ taste.
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
+
+[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
+[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
+[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
+[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
+[5]:	https://en.wikipedia.org/wiki/Wyrd
+[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
+[7]:	https://littlefreelibrary.org/
+[8]:	https://www.peps.org/
+[9]:	https://en.wikipedia.org/wiki/Sneeze
+[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[11]:	https://www.etymonline.com/word/mentor
+[12]:	https://en.wikipedia.org/wiki/Georgism
+[13]:	https://en.wikipedia.org/wiki/William_Vickrey
+[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+[16]:	https://kk.org/cooltools/the-big-here-qu/
 
 [image-1]:	/assets/beneficial-possible-profitable.png
