@@ -4,12 +4,59 @@ class: split
 type: book
 
 
+Range by David Epstein (audio)
+===
+posted: November 4, 2019
+rating: yes
+
+I learned of David Epstein through his interview with [NonProphets][1], a podcast I enjoy listening to. He had featured one of the generalist podcast hosts in the segment about super forecasters, and came off as super interesting. I had just committed to sorting my reading list by least recent publish date, biasing it towards works that have stood the test of time. But looking over my options in Audible, I kept coming back to Range.
+
+Anyway, it was worth it, although it took me longer to get through than I expected. Partly I’m reading too many books at once, and partly it got a little slow towards the middle and I lost interest when it covered some familiar territory (eg. Superforecasting).
+
+It’s hard to summarize the book in a sentence, since it tries to integrate learnings from many people from many disparate fields into a coherent narrative. 
+
+Savants and other specialists do really well in areas with well defined rules: **“kind”** domains. Examples include games like Go and Chess, and answering trivia questions answer to which is well known. Kind problems have robust statistical regularities. But most real world problems are **“wicked”**: many complex considerations, many variables, and no scenario is quite like the next.
+
+**Dark horses**: Making an impact in a novel field is inherently inefficient. You can’t just wake up one day and decide “I’m going to change this field”, and follow a narrow path to do that. Hundreds of people have already tried doing this. A more circuitous route is more likely to yield something novel. Rather than obsessively focusing on a narrow topic, creative achievers tend to have broad interests. In a study, vast majority of successful people followed a circuitous path to get to where they got, but believed that “most people don't do it this way”. Dark horses don't worry about falling behind or comparing themselves to peers. Instead they optimize for match quality. Examples of successful people that take winding paths:
+
+- Frances Hesselbein, Girl Scouts
+- Vincent Van Gogh
+- Knight, founder of Nike
+
+**Gunpei Yokoi** is my new hero. He started Nintendo's electronics division and instilled the company with “Lateral Thinking with Withered Technology”. Yokoi held that toys and games do not necessarily require cutting edge technology; novel and fun gameplay are more important. He suggested that expensive cutting edge technology can get in the way of developing a new product.
+
+**Animals are cool**
+
+> “It is stupid to claim that birds are better than frogs because they see farther, or that frogs are better than birds because they see deeper. The world of mathematics is both broad and deep, and we need birds and frogs working together to explore it.” — Freeman Dyson
+
+A finer hierarchy than the binary (foxes, birds, generalists) vs (hedgehogs, frogs, specialists) dichotomy is the hybridization of the two into “polymaths“ or t-shaped people. Not sure about the use of the polymath term though.
+
+It gets even better when you combine the animals you like into one super animal: a flying, actively open minded t-shaped fox with dragonfly eyes. Creepy!
+
+**Desirable difficulties**: the idea that learning requires effort. No pain no gain. And as a teacher, you should be creating situations where students are subjected to struggle. This means avoiding excessive hint giving. With too many hints and shortcuts you risk trading deep understanding for expedient monkey business. Speaking of which, really impressive study about macaques memorizing a pattern under various hint giving conditions. Super relevant to some of my current work. 
+
+**Generation effect**: merely attempting to produce an answer to a question before getting a hint or the correct answer has been shown to result in better recall results. 
+
+**Child care pro tip**: don't sweat skills that all children will learn, like reading or walking. To impart lasting academic benefits, teach open  skills scaffolding later knowledge. Eg. Hunt for and connect contextual clues to understand what they read. 
+
+**Cross-disciplinary sleeping beauties**: Papers that include references from two journals that have never been cited from the same paper before (indicating a high degree of cross-disciplinarily)
+
+- Initially duds
+- Published in less prestigious journals
+- Are more likely to become smash hits
+
+**Analogies are super powerful**. Apparently Johannes Kepler relied really heavily on analogies for developing his laws of planetary motion. Kepler’s train of thought fancifully reproduced by the author is super enlightening.  The benefit of analogy is that you can more easily take the outside view (Kahneman). “Evaluating an array of options before letting intuition reign is a trick for the Wicked world.”
+
+**Carter racing case study** shows that people often to make decisions based on incomplete information [https://www.academia.edu/20358932/Carter\_racing\_case][2]. In a brilliant twist, the case is modelled after the [Challenger Disaster][3].
+
+One critique: it’s easy to create a compelling narrative by cherry picking facts. Certainly there are successful hedgehogs, and some child prodigies do change their field. Mozart, for example.
+
 Timefulness by Marcia Bjornerud (audio)
 ===
 posted: October 6, 2019
 rating: yes
 
-I heard the author’s [Long Now talk][1] and thought she did an excellent job. The book did not disappoint.
+I heard the author’s [Long Now talk][4] and thought she did an excellent job. The book did not disappoint.
 
 Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial (right) and panic (left). Both are negative, paralyzing emotions.  I’d rather find a constructive middle path. 
 
@@ -25,7 +72,7 @@ Here’s an interesting analogy to kick the book off:
 
 All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in many sections. In general, the author packs a ton of content into a short book, and I learned a huge amount.
 
-Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][2] which I have yet to explore. 
+Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][5] which I have yet to explore. 
 
 High level overview of earth's life as we know today. 
 
@@ -51,7 +98,7 @@ Interesting balance between erosion and accretion. The Himalayas accrete quickly
 
 **Seafloor spreading**: When volcanos erupt, molten iron comes up to the surface. These iron crystals are pulled into alignment by the Earth’s magnetic field, just like a compass needle is pulled towards magnetic north. Once the basalt cools completely into solid rock, the alignment of the iron minerals is fixed. Thus, patterns on the sea floor preserve a permanent record of the strength and direction of Earth’s magnetic field at the time the rocks were formed. (This is so cool!)
 
-Natural CO2 capture mechanism (part of [carbon cycle][3]):
+Natural CO2 capture mechanism (part of [carbon cycle][6]):
 
 1. Volcanic exhalation causes CO2 emissions
 2. Mixing with water vapour, it forms H2CO3
@@ -82,19 +129,12 @@ I think we in the PNW are lucky and won’t be directly affected by climate chan
 
 **Human emissions**: 500 gigatons (GT) of carbon emitted by humans. 25% of that was since 2000. And the rate of our emissions is still increasing. Currently it’s at about 10 GT per year. 
 
-I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly [inauthentic Iroquois legends][4], and the Norse concept of [Wyrd][5].
+I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly [inauthentic Iroquois legends][7], and the Norse concept of [Wyrd][8].
 
 This book had a lot of facts packed into a small package (short listen). Two main directions I’d like to go into:
 
 1. A bit more into geological visualizations and making things more accessible to the layperson
-2. Effect of climate change on human history. There’s a [Wikipedia page about this][6], maybe I can find a good book too?
-
-[1]:	http://longnow.org/seminars/02019/jul/22/timefulness/
-[2]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
-[3]:	https://earthobservatory.nasa.gov/features/CarbonCycle
-[4]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
-[5]:	https://en.wikipedia.org/wiki/Wyrd
-[6]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
+2. Effect of climate change on human history. There’s a [Wikipedia page about this][9], maybe I can find a good book too?
 
 Yes Brain by Siegel and Bryson
 ===
@@ -497,12 +537,8 @@ attrition? I propose a law:
 to an event is 1/30 the number of people in the meetup group.
 
 Successful unmentioned examples of social digital infrastructure that come to
-mind are the [Little Free Library project][7], and
-[PEPS in Seattle][8].
-
-[7]:	https://littlefreelibrary.org/
-[8]:	https://www.peps.org/
-
+mind are the [Little Free Library project][10], and
+[PEPS in Seattle][11].
 
 The Odyssey translated by Emily Wilson (audio)
 ===
@@ -568,11 +604,11 @@ it was for the producers to be so parsimonious with effects.
 
 - After sneezing, Russians sometimes say "truth". There is a passage related to
   this, and I got curious. Does the Russian tradition come from the Greek?
-  [Apparently][9],
-  [yes][10].
+  [Apparently][12],
+  [yes][13].
 - Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
   also extremely wise and a great advisor to Telemachus. Is this the origin of
-  the word? [Apparently yes][11]
+  the word? [Apparently yes][14]
 - Are Phaeacian Phoenicians? There are similarities beyond their names, like
   great skill in navigation. I answered this myself since eventually both
   appeared in The Odyssey as distinct peoples. However there is some interesting
@@ -607,11 +643,6 @@ Is this really the end of Odysseus' adventures? As soon as he returns, he must
 venture off again to appease Posideon. Sounds like another arduous journey, and
 another decade of disappointment for Penelope. Her patience and the ambiguity
 with which they reunite is palpable.
-
-[9]:	https://en.wikipedia.org/wiki/Sneeze
-[10]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[11]:	https://www.etymonline.com/word/mentor
-
 
 The Fifth Season by N. K. Jemisin
 ===
@@ -692,7 +723,7 @@ the worthy nuggets.
 By the mid 20th century, Henry George was "by far the most famous American
 economic writer", having written Progress and Poverty (1879), which sold
 millions of copies worldwide, probably more than any other American book before
-that time. The central idea of [Georgism][12] is:
+that time. The central idea of [Georgism][15] is:
 
 > while people should own the value they produce themselves, economic value
 derived from land (often including natural resources and natural opportunities)
@@ -707,7 +738,7 @@ While the government could use its power of eminent domain, a private venture to
 build a high speed rail line from Seattle to Vancouver would be impossible.
 
 The authors propose a wealth tax on all property, in a form of
-[Vickrey auctions][13]:
+[Vickrey auctions][16]:
 
 > Every citizen and especially corporation would self-assess the value of assets
 they possess, pay a roughly 7% tax on these values and be required to sell the
@@ -857,17 +888,13 @@ system that controls your work and life. Unlike slavery, data work does not
 capitalize at the expense of a specific identity group. Unlike "siren servers",
 the lure of social networks can be resisted.
 
-[12]:	https://en.wikipedia.org/wiki/Georgism
-[13]:	https://en.wikipedia.org/wiki/William_Vickrey
-
-
 Seeing Like a State by James Scott
 ===
 posted: March 28, 2019
 rating: yes
 
 The most succinct version summary of Seeing Like a State this is what has been
-called The Authoritarian High-Modernist [Recipe for Failure][14]:
+called The Authoritarian High-Modernist [Recipe for Failure][17]:
 
 1. Look at a complex and confusing reality
 2. Fail to understand all the subtleties of how the complex reality works
@@ -1053,16 +1080,12 @@ care of an organic polyculture farm?
 
 Imagine a future in which a series of complex, domain-specialized AIs have been
 created in such domains as gardening and driving. We may well end
-up with systems that work super well, but are [far less legible][15]. What
+up with systems that work super well, but are [far less legible][18]. What
 would the ensuing world look like? I'm imagining self driving cars with emergent
 swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
 driving decisions). I feel that we are very far from such a world, but it's fun
 to think about.
-
-[14]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[15]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-
 
 Invisible Cities by Italo Calvino
 ===
@@ -1525,10 +1548,7 @@ mostly unacknowledged by the people who depend on them most.
 
 Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
-of [these questions?][16]
-
-[16]:	https://kk.org/cooltools/the-big-here-qu/
-
+of [these questions?][19]
 
 12 Rules for Life
 ===
@@ -1627,5 +1647,25 @@ taste.
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?
+
+[1]:	https://nonprophetspod.wordpress.com/
+[2]:	https://www.academia.edu/20358932/Carter_racing_case
+[3]:	https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster
+[4]:	http://longnow.org/seminars/02019/jul/22/timefulness/
+[5]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
+[6]:	https://earthobservatory.nasa.gov/features/CarbonCycle
+[7]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
+[8]:	https://en.wikipedia.org/wiki/Wyrd
+[9]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
+[10]:	https://littlefreelibrary.org/
+[11]:	https://www.peps.org/
+[12]:	https://en.wikipedia.org/wiki/Sneeze
+[13]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
+[14]:	https://www.etymonline.com/word/mentor
+[15]:	https://en.wikipedia.org/wiki/Georgism
+[16]:	https://en.wikipedia.org/wiki/William_Vickrey
+[17]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
+[18]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+[19]:	https://kk.org/cooltools/the-big-here-qu/
 
 [image-1]:	/assets/beneficial-possible-profitable.png
