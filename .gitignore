@@ -1,6 +1,5 @@
 .DS_Store
-.Ulysses-Group.plist
-.Ulysses-favorites.plist
+.Ulysses*
 *.swp
 *.swo
 node_modules
