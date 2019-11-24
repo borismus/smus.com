@@ -57,7 +57,7 @@ The metric that matters is called <strong>motion-to-photon latency</strong>. For
 purposes, this is the time that it takes for a user's head rotation to be fully
 reflected in the rendered content.</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/latency-chain.jpg" alt="Motion to photon pipeline" /></p>
+<p><img src="latency-chain.jpg" alt="Motion to photon pipeline" /></p>
 
 <p>The simplest way to get up-and-running with head tracking on the web today is
 to use the <code>deviceorientation</code> events, which are generally well supported across
@@ -124,7 +124,7 @@ captured. The output from an accelerometer is quite noisy by virtue of how the
 sensor works. Here's a plot of the rotation around the X-axis according to an
 accelerometer:</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/accel.gif" alt="Animation of X-axis accelerometer output with a phone turning around the X axis" /></p>
+<p><img src="accel.gif" alt="Animation of X-axis accelerometer output with a phone turning around the X axis" /></p>
 
 <p>Gyroscopes measure rotations, returning an angular rotation vector also in the
 phone's reference frame. Output from the gyro is quite smooth, and very
@@ -136,7 +136,7 @@ rotate it a bunch, and place it flat again, its integrated gyro position might
 be quite different from what it was before due to the accumulation of errors
 from the sensor. Rotation around the X-axis according to a gyroscope:</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/gyro.gif" alt="Animation of X-axis gyroscope output with a phone turning around the X axis" /></p>
+<p><img src="gyro.gif" alt="Animation of X-axis gyroscope output with a phone turning around the X axis" /></p>
 
 <p>Magnetometers measure magnetic fields, returning a vector corresponding to the
 cumulative magnetic field due to any nearby magnets (including the Earth). This
@@ -177,7 +177,7 @@ accelerometer, while mitigating the noise in the sensor by relying on the
 gyroscope in the short term. The filter is called complementary because
 mathematically, it can be expressed as a weighted sum of the two sensor streams:</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/filter-equation.png" class="center" 
+<p><img src="filter-equation.png" class="center" 
     title="Filter equation" /></p>
 
 <p>This approach relies on the gyroscope for angular updates to head orientation,
@@ -218,7 +218,7 @@ this.filterQ.multiply(gyroDeltaQ);
 <p>Next, calculate the estimated gravity from the current orientation and compare
 it to the gravity from the accelerometer, getting the quaternion delta.</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/complementary-filter.png" class="center" 
+<p><img src="complementary-filter.png" class="center" 
     title="Complementary filter visual illustration" /></p>
 
 <pre><code>deltaQ.setFromUnitVectors(this.estimatedGravity, this.measuredGravity);
@@ -239,7 +239,7 @@ to the gyroscope readings, but to align with the accelerometer reading over the
 long term. Below, you can see the accelerometer and gyroscope (green and blue)
 and compare them to the fused output (orange):</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/fusion.gif" alt="Complementary filter output" /></p>
+<p><img src="fusion.gif" alt="Complementary filter output" /></p>
 
 <h2>Predicting the future</h2>
 
@@ -273,7 +273,7 @@ var predictAngle = angularSpeed * this.predictionTimeS;
 gyroscope, we can predict a little bit into the future to yield results like
 this:</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/prediction.gif" alt="Predicted vs. sensor fusion." /></p>
+<p><img src="prediction.gif" alt="Predicted vs. sensor fusion." /></p>
 
 <p>Notice that the predicted signal (in red) is somewhat ahead of the fused one (in
 orange). This is what we'd expect based on the motion prediction approach taken.
@@ -291,7 +291,7 @@ wrote a live-plotting tool that can compare gyroscope, accelerometer, fused and
 predicted streams on each axis, and also let you tweak the filter coefficient
 and how far into the future to predict.</p>
 
-<p><img src="/sensor-fusion-prediction-webvr/plot-options.png" class="center"
+<p><img src="plot-options.png" class="center"
     title="Preview of the options available in the plot"/></p>
 
 <p>You too can <a href="http://borismus.github.io/sensor-fusion/">try the plots live on your phone</a>. After all, it's just a
