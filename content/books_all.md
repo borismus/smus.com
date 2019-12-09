@@ -13,7 +13,7 @@ I’ll admit, I only got about 20% through this book when I decided to abandon i
 
 I enjoyed the world building somewhat, but it felt like a really cut-and-dry Tolkien-esque fantasy book without much originality. I’m not sure why it seems to have such great critical acclaim. The character development is what I found weakest. The protagonist Kvothe (perhaps from Kavod?) seems to just be perfect at everything, and the complete center of attention. None of the other characters feel at all developed. 
 
-[This review][1] seems to mirror my sentiments directly. Enough said.
+[This review](https://chimaeraspeaks.wordpress.com/2011/06/30/kvothe-a-mary-sue-case-study/) seems to mirror my sentiments directly. Enough said.
 
 
 The Fiddler is a Good Woman
@@ -35,7 +35,7 @@ Range by David Epstein (audio)
 posted: November 4, 2019
 rating: yes
 
-I learned of David Epstein through his interview with [NonProphets][2], a podcast I enjoy listening to. He had featured one of the generalist podcast hosts in the segment about super forecasters, and came off as super interesting. I had just committed to sorting my reading list by least recent publish date, biasing it towards works that have stood the test of time. But looking over my options in Audible, I kept coming back to Range.
+I learned of David Epstein through his interview with [NonProphets](http://longnow.org/seminars/02019/jul/22/timefulness/), a podcast I enjoy listening to. He had featured one of the generalist podcast hosts in the segment about super forecasters, and came off as super interesting. I had just committed to sorting my reading list by least recent publish date, biasing it towards works that have stood the test of time. But looking over my options in Audible, I kept coming back to Range.
 
 Anyway, it was worth it, although it took me longer to get through than I expected. Partly I’m reading too many books at once, and partly it got a little slow towards the middle and I lost interest when it covered some familiar territory (eg. Superforecasting).
 
@@ -73,7 +73,7 @@ It gets even better when you combine the animals you like into one super animal:
 
 **Analogies are super powerful**. Apparently Johannes Kepler relied really heavily on analogies for developing his laws of planetary motion. Kepler’s train of thought fancifully reproduced by the author is super enlightening.  The benefit of analogy is that you can more easily take the outside view (Kahneman). “Evaluating an array of options before letting intuition reign is a trick for the Wicked world.”
 
-**Carter racing case study** shows that people often to make decisions based on incomplete information [https://www.academia.edu/20358932/Carter\_racing\_case][3]. In a brilliant twist, the case is modelled after the [Challenger Disaster][4].
+**Carter racing case study** shows that people often to make decisions based on incomplete information [https://www.academia.edu/20358932/Carter\_racing\_case](https://en.wikipedia.org/wiki/List_of_free_geology_software). In a brilliant twist, the case is modelled after the [Challenger Disaster](https://earthobservatory.nasa.gov/features/CarbonCycle).
 
 One critique: it’s easy to create a compelling narrative by cherry picking facts. Certainly there are successful hedgehogs, and some child prodigies do change their field. Mozart, for example.
 
@@ -83,7 +83,7 @@ Timefulness by Marcia Bjornerud (audio)
 posted: October 6, 2019
 rating: yes
 
-I heard the author’s [Long Now talk][5] and thought she did an excellent job. The book did not disappoint.
+I heard the author’s [Long Now talk](https://en.wikipedia.org/wiki/Seven_generation_sustainability) and thought she did an excellent job. The book did not disappoint.
 
 Most people, myself included, lack a scientific foundation for understanding complex issues like climate change. As a result, discourse around the issue is split into either denial (right) and panic (left). Both are negative, paralyzing emotions.  I’d rather find a constructive middle path. 
 
@@ -99,7 +99,7 @@ Here’s an interesting analogy to kick the book off:
 
 All in all the book is short and merely serves to whet the appetite. The author starts with a historical background, goes on to explain some of the science and provide a quick chronology of the Earth (a condensation of her already condensed course), and ends with a discussion about climate change and the future. It’s quite dense in many sections. In general, the author packs a ton of content into a short book, and I learned a huge amount.
 
-Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software][6] which I have yet to explore. 
+Geology is a new science. Our fundamental understanding of plate tectonics can be traced to just 1965. It’s also a cross-disciplinary science featuring "whole brain thinking" and leaning heavily on visualization. Indeed, there’s a whole world of [geology visualization software](https://en.wikipedia.org/wiki/Wyrd) which I have yet to explore. 
 
 High level overview of earth's life as we know today. 
 
@@ -125,7 +125,7 @@ Interesting balance between erosion and accretion. The Himalayas accrete quickly
 
 **Seafloor spreading**: When volcanos erupt, molten iron comes up to the surface. These iron crystals are pulled into alignment by the Earth’s magnetic field, just like a compass needle is pulled towards magnetic north. Once the basalt cools completely into solid rock, the alignment of the iron minerals is fixed. Thus, patterns on the sea floor preserve a permanent record of the strength and direction of Earth’s magnetic field at the time the rocks were formed. (This is so cool!)
 
-Natural CO2 capture mechanism (part of [carbon cycle][7]):
+Natural CO2 capture mechanism (part of [carbon cycle](https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change)):
 
 1. Volcanic exhalation causes CO2 emissions
 2. Mixing with water vapour, it forms H2CO3
@@ -156,15 +156,15 @@ I think we in the PNW are lucky and won’t be directly affected by climate chan
 
 **Human emissions**: 500 gigatons (GT) of carbon emitted by humans. 25% of that was since 2000. And the rate of our emissions is still increasing. Currently it’s at about 10 GT per year. 
 
-I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly [inauthentic Iroquois legends][8], and the Norse concept of [Wyrd][9].
+I like that Ygrassil made an appearance here too, most recently encountered in Hyperion. Not sure how it fits really, but the author went on a bit of a tangent towards the end, floating some  possibly [inauthentic Iroquois legends](https://littlefreelibrary.org/), and the Norse concept of [Wyrd](https://www.peps.org/).
 
 This book had a lot of facts packed into a small package (short listen). Two main directions I’d like to go into:
 
 1. A bit more into geological visualizations and making things more accessible to the layperson
 \<\<\<\<\<\<\< HEAD
-2. Effect of climate change on human history. There’s a [Wikipedia page about this][10], maybe I can find a good book too?
+2. Effect of climate change on human history. There’s a [Wikipedia page about this](https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change), maybe I can find a good book too?
 =======
-2. Effect of climate change on human history. There’s a [Wikipedia page about this][11], maybe I can find a good book too?
+2. Effect of climate change on human history. There’s a [Wikipedia page about this](https://en.wikipedia.org/wiki/Sneeze), maybe I can find a good book too?
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
 
 Yes Brain by Siegel and Bryson
@@ -569,11 +569,11 @@ to an event is 1/30 the number of people in the meetup group.
 
 Successful unmentioned examples of social digital infrastructure that come to
 \<\<\<\<\<\<\< HEAD
-mind are the [Little Free Library project][12], and
-[PEPS in Seattle][13].
+mind are the [Little Free Library project](https://littlefreelibrary.org/), and
+[PEPS in Seattle](https://www.peps.org/).
 =======
-mind are the [Little Free Library project][14], and
-[PEPS in Seattle][15].
+mind are the [Little Free Library project](https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world), and
+[PEPS in Seattle](https://www.etymonline.com/word/mentor).
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
 
 The Odyssey translated by Emily Wilson (audio)
@@ -640,11 +640,11 @@ it was for the producers to be so parsimonious with effects.
 
 - After sneezing, Russians sometimes say "truth". There is a passage related to
   this, and I got curious. Does the Russian tradition come from the Greek?
-  [Apparently][16],
-  [yes][17].
+  [Apparently](https://en.wikipedia.org/wiki/Georgism),
+  [yes](https://en.wikipedia.org/wiki/William_Vickrey).
 - Athena continually disguises as Mentor, a man in Odysseus entourage. Mentor is
   also extremely wise and a great advisor to Telemachus. Is this the origin of
-  the word? [Apparently yes][18]
+  the word? [Apparently yes](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)
 - Are Phaeacian Phoenicians? There are similarities beyond their names, like
   great skill in navigation. I answered this myself since eventually both
   appeared in The Odyssey as distinct peoples. However there is some interesting
@@ -759,7 +759,7 @@ the worthy nuggets.
 By the mid 20th century, Henry George was "by far the most famous American
 economic writer", having written Progress and Poverty (1879), which sold
 millions of copies worldwide, probably more than any other American book before
-that time. The central idea of [Georgism][19] is:
+that time. The central idea of [Georgism](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) is:
 
 > while people should own the value they produce themselves, economic value
 derived from land (often including natural resources and natural opportunities)
@@ -774,7 +774,7 @@ While the government could use its power of eminent domain, a private venture to
 build a high speed rail line from Seattle to Vancouver would be impossible.
 
 The authors propose a wealth tax on all property, in a form of
-[Vickrey auctions][20]:
+[Vickrey auctions](https://kk.org/cooltools/the-big-here-qu/):
 
 > Every citizen and especially corporation would self-assess the value of assets
 they possess, pay a roughly 7% tax on these values and be required to sell the
@@ -793,7 +793,7 @@ Jeff Bezos for his new private spaceport. I think I'd rather see a world in
 which the government is more empowered to take on large public works, and more
 agressively uses its power of eminent domain for the common good.
 
-![Possible/Profitable/Beneficial venn diagram][image-1]
+![Possible/Profitable/Beneficial venn diagram](/assets/beneficial-possible-profitable.png)
 
 
 ## A market for voting
@@ -930,7 +930,7 @@ posted: March 28, 2019
 rating: yes
 
 The most succinct version summary of Seeing Like a State this is what has been
-called The Authoritarian High-Modernist [Recipe for Failure][21]:
+called The Authoritarian High-Modernist [Recipe for Failure](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/):
 
 1. Look at a complex and confusing reality
 2. Fail to understand all the subtleties of how the complex reality works
@@ -1116,7 +1116,7 @@ care of an organic polyculture farm?
 
 Imagine a future in which a series of complex, domain-specialized AIs have been
 created in such domains as gardening and driving. We may well end
-up with systems that work super well, but are [far less legible][22]. What
+up with systems that work super well, but are [far less legible](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence). What
 would the ensuing world look like? I'm imagining self driving cars with emergent
 swarming behaviors that look completely terrifying from the sky, but would be
 very functional and completely safe (as long as no humans were involved in
@@ -1585,9 +1585,9 @@ mostly unacknowledged by the people who depend on them most.
 Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
 \<\<\<\<\<\<\< HEAD
-of [these questions?][23]
+of [these questions?](https://kk.org/cooltools/the-big-here-qu/)
 =======
-of [these questions?][24]
+of [these questions?](https://kk.org/cooltools/the-big-here-qu/)
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
 
 12 Rules for Life
@@ -1691,30 +1691,3 @@ understanding of Earth's age. Has this been done before?
 \<\<\<\<\<\<\< HEAD
 =======
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
-
-[1]:	https://chimaeraspeaks.wordpress.com/2011/06/30/kvothe-a-mary-sue-case-study/
-[2]:	http://longnow.org/seminars/02019/jul/22/timefulness/
-[3]:	https://en.wikipedia.org/wiki/List_of_free_geology_software
-[4]:	https://earthobservatory.nasa.gov/features/CarbonCycle
-[5]:	https://en.wikipedia.org/wiki/Seven_generation_sustainability
-[6]:	https://en.wikipedia.org/wiki/Wyrd
-[7]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
-[8]:	https://littlefreelibrary.org/
-[9]:	https://www.peps.org/
-[10]:	https://en.m.wikipedia.org/wiki/Historical_impacts_of_climate_change
-[11]:	https://en.wikipedia.org/wiki/Sneeze
-[12]:	https://littlefreelibrary.org/
-[13]:	https://www.peps.org/
-[14]:	https://www.bricecjones.com/blog/telemachus-sneezed-sneezing-in-the-ancient-world
-[15]:	https://www.etymonline.com/word/mentor
-[16]:	https://en.wikipedia.org/wiki/Georgism
-[17]:	https://en.wikipedia.org/wiki/William_Vickrey
-[18]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[19]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-[20]:	https://kk.org/cooltools/the-big-here-qu/
-[21]:	https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/
-[22]:	https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
-[23]:	https://kk.org/cooltools/the-big-here-qu/
-[24]:	https://kk.org/cooltools/the-big-here-qu/
-
-[image-1]:	/assets/beneficial-possible-profitable.png
