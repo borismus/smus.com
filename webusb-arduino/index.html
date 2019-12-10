@@ -52,7 +52,7 @@
   <article>
     <a href='/webusb-arduino'><h1 class='title'>WebUSB, Arduino, and Nunchucks!</h1></a>
     <div class='body'>
-      <p>WebUSB bridges two amazing universes: the open web and the maker movement. Web pages can now talk directly to external hardware over USB, and it works on both mobile and desktop (at least in Chrome). There are a <a href="https://github.com/webusb/arduino">few basic samples</a> out there, but for my own edification, I wanted to get my hands dirty. I hooked up a Wii Nunchuck to an Arduino, and built a webpage to plot sensor readings in real-time. Here’s the resulting <a href="https://www.youtube.com/watch?v=mqmtltjk66w">video</a> and <a href="#" title="https://github.com/borismus/sensor-streamer">code</a>.</p>
+      <p>WebUSB bridges two amazing universes: the open web and the maker movement. Web pages can now talk directly to external hardware over USB, and it works on both mobile and desktop (at least in Chrome). There are a <a href="https://github.com/webusb/arduino">few basic samples</a> out there, but for my own edification, I wanted to get my hands dirty. I hooked up a Wii Nunchuck to an Arduino, and built a webpage to plot sensor readings in real-time. Here’s the resulting <a href="https://www.youtube.com/watch?v=mqmtltjk66w">video</a> and <a href="/webusb-arduino/#" title="https://github.com/borismus/sensor-streamer">code</a>.</p>
 
 <!--more-->
 
@@ -62,11 +62,11 @@
 
 <p>Conveniently, any WebUSB device can be configured to broadcast a specific URL. As soon as you plug it in, Chrome displays a notification telling you that a new device was detected. Clicking the notification will take you directly to the advertised URL. Great!</p>
 
-<p><img src="notification.png" alt="Notification to go to a URL" /></p>
+<p><img src="/webusb-arduino/notification.png" alt="Notification to go to a URL" /></p>
 
 <p>To actually connect to the device, you need a user gesture (button press) to open up a native “Connect to USB device” dialog. You then pick the device from a list, and press the Connect button. Far from frictionless, but it makes sense given the web’s security model.</p>
 
-<p><img src="dialog.png" alt="Webpage wants to connect to device" /></p>
+<p><img src="/webusb-arduino/dialog.png" alt="Webpage wants to connect to device" /></p>
 
 <p>Despite the inconvenience, this is still super interesting, especially for doing one-time setup for a new hardware device. Certainly preferable to requiring the user to install a junky app on their phone!</p>
 
