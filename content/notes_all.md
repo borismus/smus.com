@@ -4,780 +4,115 @@ type: note
 class: split
 
 
-Avoiding local maximums
+Books highlights of 2019
 ===
-posted: May 22, 2019
+posted: Dec 31, 2019
 
-Easier said than done.
+I’ve been reading and summarizing for five years now (cue Ratatat). I’m not sure that it’s helped much with retention, but at the very least, having an easily searchable corpus of my book-related notes is worthwhile.
 
-![Don't focus on local maxima: easier said than done.](/assets/local-maxima.png)
+A decent year for fiction, I finally read [Invisible Cities](/books/invisible-cities-by-italo-calvino/), which I enjoyed for its extremely poetic prose, liked [The Fiddler is a Good Woman](/books/the-fiddler-is-a-good-woman/) quite a bit. I continued to enjoy Science Fiction. I really liked [The Diamond Age](http://localhost:5500/books/diamond-age-by-stephenson-audio/), found it surprisingly relevant for work. I also enjoyed [Hyperion](/books/hyperion-by-dan-simmons-audio/), especially Part Four, Sol Weintraub’s tale, which touched me deeply. [The Fifth Season](/books/the-fifth-season-by-n-k-jemisin/) was interesting, but I have some reservations. I think my fictional highlight was [Homer’s Odyssey translated by Emily Wilson](/books/the-odyssey-translated-by-emily-wilson-audio/).
+
+I read two non-fiction books which were a little too extreme for my tastes: [Deschooling Society](/books/deschooling-society-by-ivan-illich) and [Radical Markets](/books/radical-markets-by-posner-and-weyl/), but really enjoyed [Timefulness](/books/timefulness-by-marcia-bjornerud-audio/), a whirlwind overview of geology, and [Range](/books/range-by-david-epstein-audio/), an ode to generalists. The standout non-fiction for me was [Seeing Like a State](/books/seeing-like-a-state-by-james-scott/), which will continue to turn over in my mind for years to come. I listened to fewer history lectures than usual, but can wholeheartedly recommend [The Story of Medieval England](/books/the-story-of-medieval-england-audio/). To make up for that, I filled my time with parenting books, but they are pretty bad as a genre. That said, [The New Father](/books/the-new-father/) served as a worthwhile companion to skim during the first year of Eliana’s life. 
+
+I also begun a new long-term book summarization project, which is to digest [Asimov's Chronology of Science and Discovery](), and visualize it as a Civ-style tech tree. Hopefully I’ll have something to report on that front in 2020!
 
 
-Reading in 2018
+Article highlights of 2019
 ===
-posted: January 10, 2019
-
-I read and listened to a few [books](/books) in 2018. My highlights include
-speculative fiction stories from Chinese authors: [Ted
-Chiang](/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang/), [Liu
-Cixin](/books/three-body-problem-by-liu-cixin-audio/), [Ken Liu's translations
-of](/books/infinite-planets/), Chen Qiufan, Xia Jia, Hao Jingfang. Also really
-enjoyed [Player of Games](/books/player-of-games-by-iain-m-banks/) and [Darkness
-at Noon](/books/darkness-at-noon-by-arthur-koestler-audio/). On the non-fiction
-front, I listened to two excellent history lectures: one on [modern
-China](/books/the-fall-and-rise-of-china-audio/), another on the [French
-Revolution](/books/living-the-french-revolution-audio/). I also read a pair of
-books describing cyclical views of history: [The Fourth
-Turning](/books/the-fourth-turning-by-howe-and-strauss/) and a more scientific
-take, [War and Peace and War](/books/war-and-peace-and-war-by-peter-turchin/).
-A standout non-fiction favorite was [Impro](/books/impro-by-keith-johnstone/),
-which I will definitely be returning to.
-
-Most of my internet reading happens through Instapaper, which affords me a 
-handy chronicle of articles that I enjoyed. Here are a few of them (excerpts are
-not endorsements):
-
-<!--more-->
-
-- Between 1900 and 1910, Seattle’s population tripled, from just over 80,000 to
-  more than 230,000 people. [The Story Behind Seattle's Obsession With Craftsman
-  Homes](http://archive.kuow.org/post/story-behind-seattles-obsession-craftsman-homes)
-- The demo drew rave reviews from the technology press. [No, Google’s Pixel Buds
-  won’t change the
-  world](https://www.1843magazine.com/technology/the-daily/no-googles-pixel-buds-wont-change-the-world)
-- That’s home. That’s us. On it everyone you love, everyone you know, everyone
-  you ever heard of, every human being who ever was, lived out their lives.
-  [Carl Sagan’s Pale Blue Dot, Animated in Motion
-  Graphics](https://www.brainpickings.org/2012/12/10/pale-blue-dot-motion-graphics/)
-- Our choice is not between "regulation" and "no regulation." The code
-  regulates. It implements values, or not. It enables freedoms, or disables
-  them. It protects privacy, or promotes monitoring. [Code Is
-  Law](https://harvardmagazine.com/2000/01/code-is-law-html)
-- In other words: AIs are best at choosing answers. Humans are best at choosing
-  questions. [How To Become A
-  Centaur](https://jods.mitpress.mit.edu/pub/issue3-case)
-- Today’s belief in ineluctable certainty is the true innovation-killer of our
-  age. In this environment, the best an audacious manager can do is to develop
-  small improvements to existing systems — climbing the hill, as it were, toward
-  a local maximum, trimming fat, eking out the occasional tiny innovation — like
-  city planners painting bicycle lanes on the streets as a gesture toward
-  solving our energy problems. [Innovation
-  Starvation](https://www.wired.com/2011/10/stephenson-innovation-starvation/)
-- There is no reason to let a company make so much money while potentially
-  helping to radicalize billions of people [YouTube, the Great
-  Radicalizer](https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html)
-- Favoring the “soft” aspects of a college application is straightforwardly
-  beneficial to the more privileged at the expense of the less. [The Progressive
-  Case for the
-  SAT](https://jacobinmag.com/2018/03/sat-class-race-inequality-college-admission)
-- Science fiction allows us the distance to circumvent issue fatigue in our very
-  troubled times. [Science fiction when the future is
-  now](https://www.nature.com/articles/d41586-017-08674-8)
-- Isaiah Berlin, sobered by the 20th century’s failed utopias, has argued for a
-  more modest liberal pluralism that makes room for multiple, genuinely
-  conflicting goods. Family and work, solidarity and autonomy, tradition and
-  innovation are really valuable, and really in tension [When Truth and Reason
-  Are No Longer
-  Enough](https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/)
-- I am not a relativist; I do not say "I like my coffee with milk and you like
-  it without; I am in favor of kindness and you prefer concentration camps"
-  [Isaiah Berlin on
-  Pluralism](https://www.cs.utexas.edu/users/vl/notes/berlin.html)
-- Unstructured, unsupervised time for play is one of the most important things
-  we have to give back to kids if we want them to be strong and happy and
-  resilient. [The Fragile
-  Generation](https://reason.com/archives/2017/10/26/the-fragile-generation)
-- The average net worth among adults in the 95th to 99th percentile is about
-  $1.7 million. Among the 0.1 percent, it’s about $60 million. Who, exactly, are
-  the aristocrats again? [Forget What the Atlantic Is Telling You. The 1 Percent
-  Are Still the
-  Problem](https://slate.com/business/2018/05/forget-the-atlantics-9-9-percent-the-1-percent-are-still-the-problem.html)
-- We are a species that strives not just for survival, but also for
-  significance. We want lives that matter. [Is This an Existential
-  Crisis?](https://www.nytimes.com/2018/06/23/opinion/sunday/suicide-rate-existential-crisis.html)
-- To support triangulation, we recommend a shift to a contributorship model,
-  similar to the credits that roll at the end of a film — a long list of
-  individuals with their contributions described fully and specifically [Robust
-  research needs many lines of
-  evidence](https://www.nature.com/articles/d41586-018-01023-3)
-- Do whatever you can’t stop thinking about. Documenting your findings in public
-  (regardless of outcomes!) is a worthy contribution to society, full stop. [The
-  independent researcher](https://nadiaeghbal.com/independent-research)
-- Various studies have identified cooperation as a core theme in popular
-  narratives across the world. ... nearly 80% of their tales concerned moral
-  decision making and social dilemmas [Our fiction addiction: Why humans need
-  stories](http://www.bbc.com/culture/story/20180503-our-fiction-addiction-why-humans-need-stories)
-- The transhumanist vision too easily reduces all of reality to data,
-  concluding that “humans are nothing but information-processing objects.”
-  [Survival of the
-  Richest](https://medium.com/s/futurehuman/survival-of-the-richest-9ef6cddd0cc1)
-- This means that the mistake must be at the root, at the very basis of human
-  thinking in the past centuries. ... It could also be called
-  anthropocentricity, with man seen as the center of everything that exists. [A
-  World Split
-  Apart](https://www.americanrhetoric.com/speeches/alexandersolzhenitsynharvard.htm)
-- Concoct one story where things get better, one where they get worse, and one
-  where they get weird. [How to Make a Big
-  Decision](https://www.nytimes.com/2018/09/01/opinion/sunday/how-make-big-decision.html)
-- Particularly sad is the belief that the majority of the homeless were drunks,
-  drug addicts, criminals or thieves. It is true that the category “homeless”
-  has come to include all of those people, but there are so many, many more who
-  are none of those things. [Why I started giving to the homeless](https://crosscut.com/2018/09/why-i-started-giving-homeless)
-- Perhaps unsurprisingly, Magic Leap is almost entirely built on the visions of
-  grown men wanting to immerse themselves in fantasy worlds. [The Magic Leap
-  Con](https://gizmodo.com/the-magic-leap-con-1829716266)
-- The really important kind of freedom involves attention, and awareness, and
-  discipline, and effort, and being able truly to care about other people and to
-  sacrifice for them, over and over, in myriad petty little unsexy ways, every
-  day. That is real freedom. The alternative is unconsciousness, the
-  default-setting, the "rat race"-the constant gnawing sense of having had and
-  lost some infinite thing. [This is Water](https://fs.blog/2012/04/david-foster-wallace-this-is-water/)
-- The big mistake in this pattern of failure is projecting your subjective lack
-  of comprehension onto the object you are looking at, as “irrationality.” We
-  make this mistake because we are tempted by a desire for legibility. [A Big Little Idea Called Legibility](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)
-- There is something sinister and corrupt—Maoist—in the habit of assigning
-  people to categories. [America Is Addicted to Outrage. Is There a
-  Cure?](https://www.wsj.com/articles/america-is-addicted-to-outrage-is-there-a-cure-1543620811)
-- Like the open office, the loud restaurant seems to have overstayed its
-  welcome. That’s because loud restaurants are more profitable. [How Restaurants
-  Got So
-  Loud](https://www.theatlantic.com/technology/archive/2018/11/how-restaurants-got-so-loud/576715/)
-
-
-
-
-Against retweets
-===
-posted: September 9, 2018
-
-![Create and consume time for content of various lengths.](/assets/against-retweets.png)
-
-One of these data points is not like the other. Also, isn't it neat that common
-units of time duration fall nicely onto a logarithmic scale?
-
-
-Make twitter great again?
-===
-posted: September 6, 2018
-
-I used twitter the most while working in developer relations, mainly sharing
-articles about web development that I thought deserved more attention. My feed
-consisted of engineers, developer advocates, and web standards folks I
-respected, all of whom had something interesting to say. Twitter was my interest
-graph, in contrast with Facebook, which was just a poor facsimile of real life
-relationships.
-
-As my career and interests shifted, so did the people I followed on twitter.
-I started following VR engineers, machine learning researchers, philosophers
-and psychologists. But more tweeps meant more tweets. Soon I had a [twitter
-list][smartpeople] for people that I had reluctantly unfollowed. They had
-interesting things to say, but said them too often.
-
-Following someone on twitter is like having a direct line into their brain. If
-they write about a subject you are passionate about, fantastic. If they have
-broadly aligning interests, chances are they will turn you on to something neat,
-or if you're lucky, life changing. Unfortunately, most of the time, twitter
-brains are distracted, anxious, angry, or unhappy. Spastic tweet storms and
-political ramblings deserve only one thing, a hearty unfollow.
-
-Twitter's bad design decisions only compound the problem. In "Retweets Are
-Trash", Alexis Madrigal [writes][madrigal], "When Twitter introduced a retweet
-button, in 2009, suddenly one click could send a post careening through the
-network. The automatic retweet took Twitter’s natural tendency for amplification
-and cranked it up." Apparently it's not hard to globally disable retweets using
-a [crude hack][no-rt]. Anecdotally, it seems to have made my feed a bit calmer.
-
-A quick update on my [white supremacist spam problem][lynched]. Time seems to
-have sorted it out, and the remaining squawks have been muffled by twitter's
-[quality filter][filter]. I also tried using Mastodon. It was a calming
-experience at first, but when I followed a few people and dug around a little
-bit, I was dismayed to see most design choices mirroring twitter's. I caught up
-on RSS feeds, which I really like. But the RSS ecosystem continues to die. Of
-nearly five hundred RSS feeds in my OPML file, more than half are broken links.
-Occasionally the links are fixed, causing my reader to choke on a year's worth
-of articles from a blog whose existence I've long forgotten about.
-
-I can't quite decide whether or not to use twitter again. I keep thinking that I
-once got a lot out of my original use of the platform. If I do return, I'll be
-making use of the @reply quality filter, fully disable retweets, and unfollow
-more aggressively. Whether this makes twitter great again remains to be seen.
-
-[smartpeople]: https://twitter.com/borismus/lists/smartpeople
-[madrigal]: https://www.theatlantic.com/magazine/archive/2018/04/the-case-against-retweets/554078/
-[no-rt]: https://medium.com/@Luca/how-to-turn-off-retweets-for-everyone-99dd835c10f8
-[lynched]: http://smus.com/notes/2018/lynched-on-twitter/
-[filter]: https://support.twitter.com/articles/20169398
-
-Lynched on Twitter
-===
-posted: August 26, 2018
-
-Last week, a [sarcastic twitter
-reply](https://twitter.com/borismus/status/798350680951910400) I posted two
-years ago was picked up by an account called Blue Check Watch, looking for
-verified twitter accounts disparaging white people. As a result, my account has
-become inundated by a hybrid human-bot army of white supremacist trolls. Most
-responses accused me of anti-white racism, completely missing what I thought was
-obviously a sarcastic tone. Sadly, many of the attacks are really nasty and
-ad-hominem. One user
-[posted](https://twitter.com/CascadianDennis/status/1033190496456269824) "Why do
-people who say this always look like this?", alongside my twitter profile photo.
-Others are
-[explicitly](https://twitter.com/1CE1CEB4BY/status/1033197950703464448)
-[anti-semitic](https://twitter.com/NationDixie/status/1033395244014944256)
-messages that do not bear repeating here. Ominously, I received an email from
-Twitter informing me that they have investigated **my tweet**, flagged for violating
-their TOS and "have not taken any action at this time."
-
-Writing my snarky tweet two years ago, I was a bit uncertain whether it was
-within the bounds of social acceptability. A white guy telling another
-white guy that white guys are "the worst", was intended to poke a bit of fun at
-the self-flaggelation associated with progressive politics. There is only so
-much self-censorship one can do while still remaining authentic. In a surprising
-twist, my tweet was offensive to a group I hadn't even thought about in a way I
-could not have predicted, two years after the fact.
-
-Twitter lynchings are not new, but it's different when it happens to you. It has
-not had any serious consequences (yet?), and until it does, I will continue to
-view this as a funny story, and not something truly traumatic, as it is often
-framed in the press. Still, this experience serves as a good reminder of a few
-points:
-
-1. Twitter's UI for threaded conversations is terrible, and hardly anyone of my
-   virtual lynch mob even bothered to look to the tweet I was responding to.
-1. My tweet was five words, twenty four characters. It was meant to be pithy,
-   because that is how twitter works. But brief posts beget brief responses,
-   which is fine between friends, but not fine when the whole world is watching.
-1. Relatedly, sarcasm is hard to convey in this situation. Only two responses
-   suggested that maybe I was being sarcastic, imploring my attackers, "Don't be
-   lazy."
-1. The fact that tweets have no expiry date means anything you have ever posted
-   can be used against you in surprising ways. It took two years for my tweet to
-   be picked up. James Gunn's incriminating posts were ten years old. Social
-   norms change quickly, and this is one argument in favor of ephemerality.
-1. On that same note, it seems that the white supremacy movement has really
-   embraced the internet over the last couple of years in some sick symbiosis
-   with the POTUS. At the same time, it's striking that the result of someone's
-   pathetic search for anti-white sentiment yielded such a lackluster example.
-1. Despite a general willingness for my views to be challenged, I don't have
-   energy or desire to engage with this mob. I made no attempts to respond to
-   any of my attackers. They appear to be victims of confirmation bias, stupid
-   and/or malicious, and I have little faith that they will listen.
-1. There are some really nasty people on the internet. If triggered, they will
-   sherlock your religion, your employer, your family, and try to hit you where
-   it hurts the most.
-
-Lynchings aside, I've been trying to use twitter less in favor of consuming and
-producing longer form content, like books, blogs, and conversations. Given that
-my account is currently being inundated with anti-semitic spam, I have very
-little incentive to continue using the service. One thing that has been keeping
-me on the platform is the potential reach I can get through 6K followers. I
-should remember that in the grand scheme of things, this is a small number, 5
-orders of magnitude less than the lovely POTUS. I shouldn't grow attached.
-
-And so, just in time for my tenth twitter anniversary, it's time for me to make
-some changes. At the very least, I'll be taking a long break.
-
-
-
-The difficult middle
-===
-posted: July 21, 2018
-
-Monism gives life meaning through a single all-encompassing doctrine. Examples
-include some political ideologies, religions, and [variants of
-rationality][chapman-rationality]. History has not been kind to those that have
-fervently followed such doctrines. But once you see flaws in Monism, it can be
-tempting to decide that life has [no meaning at all][chapman-nihilism], falling
-into the trap of Nihilism.
-
-![Stuck](https://i.imgur.com/WXdU3ef.gif)
-
-The choice between these two extremes is a false one. [Rationalists know
-this][third-alternative]. [Buddhists know this][middle-way]. Philosophers know
-this too. David Chapman writes a [whole blog][meaningness] devoted to exploring
-the space in between. But I have found [Isaiah Berlin][berlin]'s synthesis to
-be the most compelling:
-
-> Sobered by the 20th century’s failed utopias, [Berlin]
-argued for a more modest liberal pluralism that makes room for multiple,
-genuinely conflicting goods. Family and work, solidarity and autonomy, tradition
-and innovation are really valuable, and really in tension.  – [Alison
-Gopnik][gopnik]
-
-In this view, we are condemned to an eternal balancing act, sometimes peering
-too far into the meaningless abyss, and other times relaxing too deeply into
-meaningful certainty. On balance, I hope to end up in this difficult middle.
-
-[berlin]: https://www.cs.utexas.edu/users/vl/notes/berlin.html
-[chapman-rationality]: https://meaningness.com/non-theistic-eternalism
-[chapman-nihilism]: https://meaningness.com/extreme-examples-eternalism-and-nihilism
-[meaningness]: https://meaningness.com/
-[middle-way]: https://en.wikipedia.org/wiki/Middle_Way
-[gopnik]: https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/ 
-[third-alternative]: https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative
-
-
-Required reading for VR enthusiasts
-===
-posted: June 3, 2018
-
-Several books, movies, and articles have helped to shape my opinions on Virtual
-Reality. I've was initially surprised by some former colleagues that it is
-possible to view these works as aspirational rather than cautionary. I generally
-prefer the dystopian interpretation. 
-
-- 📚 Ray Bradbury - [The Veldt][bradbury]
-- 📚 Neil Stephenson - Snow Crash
-- 📚 Stanislav Lem - The Futurological Congress
-- 📚 Vernor Vinge - Rainbow's End
-- 📚 Ernst Kline - Ready Player One
-- 🎥 Black Mirror S3 E2: [Playtest][bm]
-- 🎥 The Matrix
-- 🎵 Father John Misty - [Total Entertainment Forever][misty]
-- 📜 [Asches to Asches][asches]
-- 📜 Robert Nozick's [experience machine][nozick]
-
-[bm]: http://www.theverge.com/2016/10/25/13401020/black-mirror-season-3-episode-2-playtest-recap
-[bradbury]: http://www.veddma.com/veddma/Veldt.htm
-[misty]: https://genius.com/Father-john-misty-total-entertainment-forever-lyrics
-[nozick]: https://en.wikipedia.org/wiki/Experience_machine
-[asches]: http://slatestarcodex.com/2014/06/03/asches-to-asches/
-
-
-Balancing technological pessimism
-===
-posted: May 16, 2018
-
-[Pessimists archive](https://pessimists.co/) is a podcast that chronicles
-pessimistic reactions to emerging technology as it was becoming mainstream.
-Technology here is defined broadly, covering a broad range of topics: bikes,
-coffee, pinball machines, vaccines, recorded music. The podcast is very
-accessible, focused more on social and psychological issues and less on the tech
-itself. 
-
-<!--more-->
-
-In response to unreasonable technological enthusiasm ever present in my
-industry, I have myself tended towards pessimism. After we launched Cardboard,
-my small HCI team in Google Research became the de facto home of VR at Google.
-Once word got out, engineers and designers flocked to our ranks, self selecting
-for interest in VR. Suddenly I was surrounded by hundreds of VR enthusiasts,
-while I was skeptical about the vision of VR as ["the last
-platform"](https://youtu.be/dxbh-TM5yNc?t=3m) and concerned about the social
-implications of broad VR adoption.
-
-I began to see myself as [the tenth
-man](https://www.quora.com/World-War-Z-2013-movie/World-War-Z-2013-movie-Do-the-Israelis-really-have-a-10th-man-doctrine),
-posing the question: what if VR isn't really a thing? I ended up much more
-excited about [Spotlight Stories](https://atap.google.com/spotlight-stories/)
-without a headset, thought a bunch about augmented reality through audio, and
-became increasingly alienated from my colleagues gushing with optimism, rushing
-home to play Vive games in their carefully instrumented basements. This podcast
-would sure have helped me put my VR pessimism into perspective. 
-
-One critique I had of the podcast concept is hindsight bias. All of the
-technologies covered by Pessimists Archive ended up being successful, and time
-has proven the doubters wrong. But how many emerging technologies were
-successfully booed out of existence, or simply rejected by the market? And how
-many market successes come at a significant cost that prescient pessimists
-warned us about?  TV and smartphones come to mind.
-
-That said, I highly recommend the podcast series. The episodes are short,
-entertaining, and informative. I feel better equipped to recognize and overcome
-the traps that ensnared previous generations of techno pessimists.
-
-
-How rationalists can win
-===
-posted: April 12, 2018
-
-The belief that ["rationalists should win"][win] is widely held in the
-rationalist community. So: does being a good rationalist actually help you win?
-Certainly in some domains, like engineering and science, which focus on
-quantification, systematization, and prediction. There, having a hyper-rational
-mindset is clearly an advantage. As for winning at life, which I will take that
-to mean leading to greater success in survival, evolution, and human
-flourishing, I don't think rationality helps very much.
-
-<!--more-->
-
-The rationalist doctrine always favors quantification and optimization over
-intuition. From a rationalist perspective, humans are buggy ["computers made of
-meat"][minsky]. We are full of cognitive biases that cloud our judgement, and
-cause us to do reliably poorly on [simple tasks][newcomb] related to
-probability. So even if you don't really know what probability to assign, it's
-better to ["put a number on it"][putanumonit] and then ["shut up and
-multiply"][multiply].
-
-The problem with the above approach lies with the words "systematic" and
-"predictable". Herb Simon's idea of [Bounded Rationality][simon], suggests that
-our human ability to be rational, to systematize and predict is inherently
-limited. These limitations may come from our limited brains, but may also be
-fundamental in nature. Chaos theory makes it really difficult for even the most
-advanced computers to predict even simple systems, such as the position of the
-[double pendulum][chaos] after a small amount of time.
-
-The world is far more complicated than one pendulum attached to another.
-Insisting on making every decision in life based on a [series of sound logical
-steps](/making-better-decisions/), one quickly becomes paralyzed by the
-complexity of myriad tiny choices. Gerd Gigerenzer's [ecological
-rationality][eco] suggests that many things that appear illogical are actually
-done for good reasons, ultimately leading to good outcomes. This idea is
-directly at odds with the rational propensity for first knowing what is true
-(epistemic rationality), and then making decisions in a series of logical steps.
-
-Instead of being dogmatic about rationality, we should be better
-consequentialists. Consider outcomes. Are rationalists more satisfied with their
-lives than non-rationalists? Are they more productive?  Do they have fewer
-regrets later in life? Do they have better relationships? Make more money?  Have
-happier children? Impact their domains of knowledge more effectively?
-
-It [is hard to answer][amish] the above questions definitively, but suppose we
-had solid data, and it was clear that, Buddhists were more relaxed, Protestants
-more productive, Amish happier, and Singularitarians more innovative than other
-groups. Imagine we had a sense of expected consequences of being an adherent to
-each type of lifestyle. Imagine further that you could take a personality test
-and see how likely you would be to benefit from each. Then the rational thing to
-do would be to choose one of the irrational doctrines to follow based on
-expected outcomes if you were an adherent.
-
-Of course, you want to remain open to changing your mind, so allow yourself to
-indulge fully your chosen beliefs for a while. At the top of every year, wake up
-as late as your doctrine allows and nurse your hangover, unless your beliefs
-prevented you from drinking the night before. If your beliefs favors ice baths,
-partake in the polar bear plunge. Then take a moment to re-evaluate your
-beliefs.
-
-[win]: https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning
-[minsky]: https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/
-[amish]: http://slatestarcodex.com/2018/04/02/are-the-amish-unhappy-super-happy-just-meh/
-[newcomb]: https://en.wikipedia.org/wiki/Newcomb%27s_paradox
-[multiply]: https://wiki.lesswrong.com/wiki/Shut_up_and_multiply
-[simon]: https://en.wikipedia.org/wiki/Bounded_rationality
-[chaos]: http://awesci.com/double-pendulum-and-why-we-can-never-predict-weather/
-[eco]: https://en.wikipedia.org/wiki/Ecological_rationality
-[putanumonit]: https://putanumonit.com/
-
-
-
-A respectful truce?
-===
-posted: August 24, 2017
-
-It's a fact that men greatly outnumber women in software engineering. As for
-why, there is a fundamental disagreement between social constructivists and
-evolutionary psychologists. 
-
-<!--more-->
-
-Constructivists say that it’s because of systematic oppression against women.
-Boys in the 80s grew up with computers, learned programming and made life a
-living hell for their female classmates in CS101. [Planet Money][pm] has the
-scoop. Evolutionary psychologists say that it’s because men and women have
-evolutionarily caused [differences in interests][interest] and point to studies
-indicating that progressive countries have larger gender representation gaps
-because women are free to choose [careers based on interest][countries]. I find
-it likely that both positions contribute in part to the gender representation
-disparity. Compelling arguments can be made for and against both, and both are
-rooted in academic disciplines [that are dangerously squishy][repl]. As a
-result, I don’t think we currently have a good scientific way of determining
-this.
-
-So what; science, schmience! Followers of the evo psych and constructivism are
-at war. One continuously pisses the other off with their inflamatory rhetoric.
-It is true that white males are historically privileged, but hammering “white
-male privelege” into their heads predictably puts white males into a defensive
-stance. Similarly, discussing how evo psych means that women are less interested
-and therefore less capable of software engineering will predictably annoy
-females, especially those rightfully proud of their software engineering
-prowess, and tired of dealing with similar allegations for their whole career.
-
-I've spent way too much time reading and thinking about this lately, and it
-saddens me to conclude that the wisest course of action is to avoid discussing
-this topic entirely (oops, too late). Scott Aaronson, Sarah Constantin and
-Stacey Jeffery propose a [respectful truce][shtetl] between the two camps.
-Advocates of evolutionary psychology should:
-
-> do everything they can to foster diversity, including by creating environments
-> that are welcoming for women, and by supporting affirmative action, women-only
-> scholarships and conferences, and other diversity policies and also agree
-> never to talk in public about possible cognitive-science explanations for
-> gender disparities in which careers people choose, or overlapping bell curves,
-> or anything else potentially inflammatory."
-
-Meanwhile, social constructivists should:
-
-> avoid libelling [white men] as misogynist monsters, who must be scaring all
-> the women away with their inherently gross, icky, creepy, discriminatory
-> brogrammer maleness.
-
-Truce?
-
-[pm]: http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding
-[repl]: https://en.wikipedia.org/wiki/Replication_crisis
-[shtetl]: https://www.scottaaronson.com/blog/?p=3389
-[interest]: https://heterodoxacademy.org/2017/08/10/the-google-memo-what-does-the-research-say-about-gender-differences/
-[countries]: https://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/
-
-
-The end of endings
-===
-posted: July 31, 2017
-
-Despite the obnoxious title, [this a16z podcast][a16z] was unusually insightful.
-
-One big theme in the podcast can be summarized as an end of endings: a trend
-away from one story with a coherent, finite arc, towards something neverending.
-Amorphous TV shows like Lost, as well as Hollywood's discovery that a coherent
-franchise like Star Wars can be milked for many more dollars are examples of
-this. The stats backs it up: Hollywood moved from 10% of the hits of the 90s
-being sequels to 50% today, as can be seen in the [box office data][box].
-Looking at TV shows through the same lens, each show is a one hour long movie,
-followed by tens of sequels. And successful franchises aim to immerse their fans
-(especially kids) into their universe with figurines, games, lunch boxes, bed
-sheets.
-
-The end of endings also shows up in user interfaces, and is epitomized by the
-infinite scroller. Millions of souls fixate on the next pretty picture, the next
-baby picture, the next outrage. Entertainment that never ends!
-
-This is interesting in the context of attention. In the realm of meditation, the
-challenge is to focus on something mundane, like your breath. In the realm of
-entertainment, the challenge is to snap out of an immersive world carefully
-constructed to consume your attention for as long as possible.
-
-
-[a16z]: https://a16z.com/2017/07/15/popularity-addiction-thompson-alter/
-[box]: http://www.boxofficemojo.com/yearly/
-
-Intelligence, aliens, and self-improvement
-===
-posted: July 10, 2017
-
-I recently enjoyed a podcast about intelligence, aliens and learning where Kevin
-Kelly was interviewed by Sam Harris. Here are some things I liked about it:
-
-- Kelly makes a great argument that with text we already have no way of knowing
-  what is true. We have to rely on the source. My fears of audio and video fake
-  news are reduced.
-
-- It's obvious that the world is changing quickly, which means lifelong learning
-  is necessary. One thing I haven't systematically understood is how I learn
-  best. How would you even figure that out?
-
-- Chimpanzees are amazing at [short term spatial
-  memory](https://www.youtube.com/watch?v=zsXP8qeFF6A), and do better than
-  humans in these cognitive tasks on average.
-
-- Currently, the best Chess players are human-computer hybrids. Harris claims
-  that computers alone will eventually be better than these hybrids, but 
-  his claim that "the ape will just be adding noise" is unsubstantiated.
-
-- About mid-way, the two discuss the analogy between AI and aliens. I haven't
-  thought of this either. But I wondered how salient that analogy was given that we
-  have a largely shared environment with whatever AIs we create. To the extent
-  that the AIs truly are alien, I wonder how much of a unifying force these
-  alien AIs could be for humanity. 
-
-- I strongly agreed with Kelly when he says that building machine systems
-  enhances our self-understanding. Building VR rendering and head tracking
-  systems, you benefit from some human visual perception basics. Human
-  psychology is critical for building user interfaces. You need an understanding
-  of how human hearing works to build good lossy audio compression.
- 
-- An interesting thought experiment that superscedes Asimov's laws of robotics:
-  what if we built AGIs that were terribly worried about what people think. Then
-  we reduce the machine menace problem to merely the evils of humanity. 
- 
-
-Convincing the inconvincible
-===
-posted: June 20, 2017
-
-I highly recommend two [podcast][1] [episodes][2] on the theme "how to argue",
-featuring Daryl Davis, *the* black friend of white supremacists. Mr. Davis is
-remarkably lucid in dealing with very difficult issues, and presents great tips
-for convincing the inconvincible. 
-
-1. Gather your information. Understand their position as well as you do your
-   own. Expect to hear things you will disagree with and keep your cool. 
-
-2. Invite them. Have a conversation not a debate. Debates get people's guards
-   up. Instead seek to understand them. People want to be heard and speak their
-   mind freely without retaliation. 
-
-3. Look for commonality. You can find something in 5 minutes and then build on
-   it. Look to other issues. Politics? As you find more commonality the
-   differences matter less. 
-
-4. Talking is not fighting. When the talking stops the ground becomes fertile
-   for violence (cf. Sam Harris). The longer you talk the more commonalities you
-   can find. 
-
-5. Patience.
-
-6. Make a good first impression. Be respectful. 
-
-7. Don't be condescending or insulting even when you hear things you don't like.
-   Expect opinions that are ridiculous and facts that are wrong. Keep cool. 
-
-8. Don't explain somebody else's movement. Let them explain it and address the
-   points that they themselves define. Let them finish and don't cut them off
-   even though you probably know a lot about their ideas already. 
-
-> "While you are actively learning about someone else you are passively teaching
-> them about yourself." – Daryl Davis
-
-[1]: http://loveandradio.org/2014/02/the-silver-dollar/
-[2]: http://loveandradio.org/2017/02/how-to-argue/
-
-
-Remembering my personal wiki
-===
-posted: June 1, 2017
-
-Before I started writing this blog, I used [MoinMoin][moin] as a personal wiki.
-It was self-hosted on a Linux box in my parents' basement. I used it for
-everything: jotting down ideas, as a calendar, storing guitar tabs, tracking
-workout routines, course planning, and personal finances. I wrote on the wiki
-actively from about 2002 to about 2008. Here are some blasts from the past:
-
-- My Lego fandom started to shift from into robotics. To be clear,
-  this is just a fancy way of saying that I was still [playing][l1] [with][l2]
-  [legos][l3] into my early twenties.
-- Origami interests also shifted into the [digital realm][origami].
-- I [maintained a network][sysadmin] of about ten Linux boxes named after
-  [Hebrew][aleph] [letters][zayin]. What a pain in the ass!
-- Wrote a few computer games, like this uninspired [tank game][tank], and this
-  totally awesome [pong variant][sponge] that was played inside a sphere.
-- Discovered [second system syndrome][sss] when trying to rewrite [a web based
-  RPG][alienation] I originally wrote in 2000.
-- Had some interesting, still relevant [ideas foreshadowing][gpsrpg] Augmented
-  Reality gaming.
-- Catalogued delicious Japanese food in [Vancouver][japan-van].
-- Smashed a Palm Tungsten [with a hammer][tungsten] out of frustration,
-  attempted to use a [Bluetooth headset with my Treo][treo] and dreamed of a
-  [better gadget][gadget].
-- Hoping to [avoid the gym][matrix], I got into [kettlebells for fitness][kb],
-  and even thought about starting a [kettlebell community][gireviki].
-- Saved [guitar][g1] [tabs][g2] I played with the intention of
-  [doing something techy][g3] with them later.
-
-Embarassing and endearing, `wiki.z3.ca` serves as a time capsule of my late
-teens and early twenties. Je me souviens.
-
-[sss]: https://en.wikipedia.org/wiki/Second-system_effect
-[alienation]: http://wiki.z3.ca/Alienation/
-[g1]: http://wiki.z3.ca/Guitar(2f)Gravedigger/
-[g2]: http://wiki.z3.ca/Guitar(2f)WildMountainThyme/
-[g3]: http://wiki.z3.ca/LibTab/
-[l1]: http://wiki.z3.ca/Bartender/
-[l2]: http://wiki.z3.ca/CardDealer/
-[l3]: http://wiki.z3.ca/VerticalCrossBeams/
-[gpsrpg]: http://wiki.z3.ca/GpsRpg/
-[sysadmin]: http://wiki.z3.ca/Network/
-[aleph]: http://wiki.z3.ca/Aleph/
-[zayin]: http://wiki.z3.ca/Zayin/
-[t1]: http://wiki.z3.ca/FacebookLexicon/
-[t2]: http://wiki.z3.ca/TungstenDestruction/
-[japan-van]: http://wiki.z3.ca/JapaneseRestaurants/
-[japan-tor]: http://wiki.z3.ca/TorontoJapaneseRestaurants/
-[matrix]: http://wiki.z3.ca/MatrixWorkouts/
-[kb]: http://wiki.z3.ca/Kettlebells/
-[gireviki]: http://wiki.z3.ca/Gireviki/
-[origami]: http://wiki.z3.ca/OrigamiSoftware/
-[tank]: http://wiki.z3.ca/ArcadeTank/
-[sponge]: http://wiki.z3.ca/Sponge/
-[moin]: https://moinmo.in
-[tungsten]: http://wiki.z3.ca/TungstenDestruction/
-[treo]: http://wiki.z3.ca/TreoBluetoothHeadsets/
-[gadget]: http://wiki.z3.ca/DreamGadget/
-
-
-
-Short posts using split Markdown
-===
-posted: May 28, 2017
-
-[Lightning][lightning], the static blog generator that powers this site, is
-awesome for long form content. But it does not work well for short form content,
-since creating each post requires a bunch of up-front effort:
-
-1. I navigate to the right place, recalling the current year (!) and deciding on
-   the slug for the post (eg. `content/posts/2017/how-to-fix-the-world`).
-
-2. I manually create the `index.md` file and then specify the redundant
-   human-readable title and the posted date within it:
-
-        How to Fix the World
-        ===
-        posted: May 28, 2017
-
-        Listen to me, I have the answers.
-
-After writing the post, the title will inevitably have changed, so I rename the
-slug to match: `mv how-to-fix-the-world how-to-slightly-improve-the-world`.
-Finally I publish and tweet, and hopefully the world becomes infinitesimally
-better.
-
-I once tried to [make it easier to keep a lightning-style link blog][link], but
-ended up scrapping the solution because it was buggy and required a Mac.
-
-[link]: /easier-link-blogging/
-
-
-## Split markdown pages
-
-My aim was to remove the up-front costs I described above. Appending to the top
-of an existing file and having the engine automatically generate a slug based on
-the title seemed like the right approach. This means that one markdown file
-results in multiple HTML pages. The latest [Lightning][lightning] has been
-updated with split markdown files, and refactored into classes, making it easier
-to add features in the future. To give a sense of what these split markdown
-files look like, take a look at [this file][notes-md].
-
-Split markdown files power two new sections on this site: a [book
-reviews section][books], and a [notes section][notes]. I'm hoping that this
-added convenience will encourage me to write shorter, more focused posts with
-increasing frequency.
-
-
-[mmd]: http://fletcher.github.io/MultiMarkdown-5/transclusion.html
-[books]: /books
-[notes]: /notes
-[notes-md]: https://github.com/borismus/smus.com/blob/master/notes_all.md
-[lightning]: https://github.com/borismus/lightning
-
-
-
-Analogies from the industrial revolution
-===
-posted: May 24, 2017
-
-Several centuries after the industrial revolution, machines still can't do all
-physical things humans can, not even by a long shot. Drawing a masterwork,
-singing an aria, playing a musical instrument, manipulating a soft object,
-cutting hair, taking care of the sick are all examples of human-only tasks. The
-industrial revolution gave machines the ability to do crude, physically
-demanding work at scale, but it did not address all of physicality.
-
-Just like the industrial revolution did not automate all aspects of physical
-work, there is good reason to believe that the AI revolution will not solve
-all aspects of intellectual work. Where the line will be drawn remains to be
-seen, but I would bet that one aspect of human cognition that isn't really at
-risk from any immediate AI-based disruption are creative pursuits. Many well
-respected professions like doctor, lawyer, and engineer have both a rote
-component that lends itself easily to automation, and a creative one. Some
-examples:
-
-- Curing patients boils down to the application of known heuristics to
-  triage specific cases, but if you are a MD-PhD studying a new area of medicine
-  or tackling a new disease, it's a much more creative and speculative process. 
-
-- The legal profession involves finding the right precedents relevant to the case
-  at hand, but articulating a convincing argument or deciding how to work out a
-  new situation where there are now laws yet? Creativity.
-
-- Designing a marketing webpage for a clothing brand is pretty formulaic. But
-  inventing way of solving a problem using new technology? Totally creative. 
+posted: Dec 31, 2019
+
+I’m still using Instapaper for reading online things, although in 2020, my aim is to read articles (even) less, in favor of books.
+
+- Try to install a radar system with one job: Searching for chances to give a compliment. [Compliments: How to Get Happy and Make a Better World](https://www.psychologytoday.com/us/blog/everybody-is-stupid-except-you/201812/compliments-how-get-happy-and-make-better-world)
+- Warren Buffett’s metric of success is “Do the people you care about love you back?” [What I learned at work this year](https://www.gatesnotes.com/About-Bill-Gates/Year-in-Review-2018)
+- As Edelman points out, if YouTube really cared about our intentions and values, when we logged on to learn ukulele it would try to serve that need — and then send us off to practice! [The Internet Can Make Us Feel Awful. It Doesn't Have to Be That Way](https://time.com/5505431/internet-feel-awful-dignity/)
+- Wisdom as the ultimate virtue. Really solid framing in favor of centrism. [How to be good: A theory about Virtues & Values](https://www.shanesnow.com/articles/values/)
+- From 1200 to 1745, 21-year-olds would reach an average age of anywhere between 62 and 70 years. [Do we really live longer than our ancestors?](https://www.bbc.com/future/article/20181002-how-long-did-ancient-people-live-life-span-versus-longevity)
+- Nick Cave isn’t just an awesome musician, but is also quite eloquent. “What we are actually listening to is human limitation and the audacity to transcend it.” [Music, Feeling, and Transcendence: Nick Cave on AI, Awe, and the Splendor of Our Human Limitations](https://www.brainpickings.org/2019/01/24/nick-cave-music-ai/)
+- Seismic air guns are widely used to map the sea floor. They are incredibly loud and disruptive to ocean fauna. [Oceans Are Getting Louder, Posing Potential Threats to Marine Life](https://www.nytimes.com/2019/01/22/science/oceans-whales-noise-offshore-drilling.html)
+- Unlike traditional two-by-four lumber, cross-laminated timber (CLT) consists of layers of wood glued together to form solid, thick panels that can be made in custom dimensions for anything from walls and floors to beams and roofs. CLT is being used to build mid-rise buildings, including big swaths of Google Sidewalk in Toronto. [Skyscrapers made of wood make a return, nudged by google](https://www.financialexpress.com/industry/skyscrapers-made-of-wood-make-a-return-nudged-by-google/1482316/)
+- Peter Turchin: “the way forward to sustaining and increasing the well-being of large segments of population is not to abolish government, but to evolve institutions that keep bureaucrats working for the benefit of the population, rather than themselves.” [An Anarchist View of Human Social Evolution](http://peterturchin.com/cliodynamica/an-anarchist-view-of-human-social-evolution/)
+- The scary thing about GPT-2-generated text is that it flows very naturally if you’re just skimming. [Humans Who Are Not Concentrating Are Not General Intelligences](https://srconstantin.wordpress.com/2019/02/25/humans-who-are-not-concentrating-are-not-general-intelligences/)
+- I disagree with Stratechery that the web is better today than it was when we were punching monkeys, but he writes terrifyingly about Spotify’s role in today’s podcast marketplace. [Spotify’s Podcast Aggregation Play](https://stratechery.com/2019/spotifys-podcast-aggregation-play/)
+- A stark look at the rising costs of digital goods and their implications for working poor. [Video games are teaching users how to enjoy perpetually renting consumer goods rather than owning them](https://reallifemag.com/well-played-store-credit/)
+- I thought the Albedo effect only applied to melting ice caps, but as it turns out, it also applies to clouds! [A World Without Clouds](https://www.quantamagazine.org/cloud-loss-could-add-8-degrees-to-global-warming-20190225/)
+- What came first, the moralizing God or the complex society? Evidence points to the latter, followed by Gods-as-divine-policemen. [Humans Built Complex Societies Before They Invented Moral Gods](https://gizmodo.com/humans-built-complex-societies-before-they-invented-mor-1833436320)
+- The American public is broadly pessimistic about its country’s future, and this pessimism correlates with education level. [Looking to the Future, Public Sees an America in Decline on Many Fronts](https://www.pewsocialtrends.org/2019/03/21/public-sees-an-america-in-decline-on-many-fronts/)
+- As wealthy kids are growing up with less screen time, poor kids are growing up with more. [Human Contact Is Now a Luxury Good](https://www.nytimes.com/2019/03/23/sunday-review/human-contact-luxury-screens.html)
+- Stop building to ship until you’ve first built to learn. [https://uxdesign.cc/building-to-learn-977a8cd88ced?](https://uxdesign.cc/building-to-learn-977a8cd88ced?)
+- A charitable look at Post-modernism: holds that there is no privileged lens with which to view the world; that even empiricism is suspect, because it too has a tendency to reproduce and reify the power structures in which in exists. [https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/](https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/)
+- Texas produces more wind power than every other state in the country, four times as much as the runner-up, California. [https://www.nytimes.com/interactive/2019/04/11/magazine/climate-change-exxon-renewable-energy.html?mtrref=www.instapaper.com&gwh=A83B2941A03E83BDCAE36DF6FD0D3189&gwt=pay&assetType=REGIWALL](https://www.nytimes.com/interactive/2019/04/11/magazine/climate-change-exxon-renewable-energy.html?mtrref=www.instapaper.com&gwh=A83B2941A03E83BDCAE36DF6FD0D3189&gwt=pay&assetType=REGIWALL)
+- While I disagree that there may be a difference between personal and professional values, I found this brief article to be a useful exercise. [https://blog.alexmaccaw.com/a-value-driven-life](https://blog.alexmaccaw.com/a-value-driven-life)
+- Formidable pays employees $20/hr for contributions (outside of normal work time) to OSS and tech communities or even a personal hack project purely for fun and learning, as long as it’s released under an OSI license. [https://formidable.com/blog/2019/sauce-program/](https://formidable.com/blog/2019/sauce-program/)
+- Look at how everyone else is doing it (the likely local maxima) and then find a better way. [https://www.nateliason.com/blog/local-maxima](https://www.nateliason.com/blog/local-maxima)
+- A look into some of Duolingo’s limitations. Learning a language with an app should be a starting point, not the end.[https://www.nytimes.com/2019/05/04/smarter-living/500-days-of-duolingo-what-you-can-and-cant-learn-from-a-language-app.html](https://www.nytimes.com/2019/05/04/smarter-living/500-days-of-duolingo-what-you-can-and-cant-learn-from-a-language-app.html)
+- A Facebook co-founder wants the US government to fix Facebook. [https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html](https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html)
+- How might we design mediums in which “reading” is the same as “understanding”? [https://andymatuschak.org/books/](https://andymatuschak.org/books/)
+- Safe playgrounds lead to boredom, which tends toward rash stunts like turning somersaults on top of climbing frames and standing on the shoulders of others on the swings. So let’s make playgrounds a little more dangerous! [https://www.nytimes.com/2019/05/10/well/family/adventure-playgrounds-junk-playgrounds.html](https://www.nytimes.com/2019/05/10/well/family/adventure-playgrounds-junk-playgrounds.html)
+- What Republicans want to do with I.C.E. and border walls, wealthy progressive Democrats are doing with zoning and Nimbyism. Ouch. [https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html](https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html)
+- We were certain that more communication would make everything better. Arrogantly, we ignored history and learned a lesson that has been in the curriculum since the Tower of Babel. [https://www.wired.com/story/why-we-love-tech-defense-difficult-industry/](https://www.wired.com/story/why-we-love-tech-defense-difficult-industry/)
+- What are signs that a player is alive? One strong sign is a player doing things outside of their domain. For example, Putin is a live player. The Russian state is doing things they haven’t done in a long time, like annexing Crimea… [https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2](https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2)
+- San Francisco is a stunningly beautiful and continuously innovative city, cursed to always be considered one or two generations past its peak, like a rowboat chasing the horizon. [https://www.sfchronicle.com/oursf/article/San-Francisco-isn-t-what-it-used-to-be-13901994.php](https://www.sfchronicle.com/oursf/article/San-Francisco-isn-t-what-it-used-to-be-13901994.php)
+- The hallmark of sociological storytelling is if it can encourage us to put ourselves in the place of any character. GoT used to be like that, but then turned into a story about heroes. [https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/)
+- An attempt to integrate cybernetics, counterculture, computing, and design. [http://www.dubberly.com/articles/cybernetics-and-counterculture.html](http://www.dubberly.com/articles/cybernetics-and-counterculture.html)
+- If AI were a great storyteller, it would be an alien bard who has studied our planet from orbit and still doesn’t get it; but the tales it tells embarrass us with their insights all the same. [https://emshort.blog/2019/04/04/can-ai-tell-a-good-story/](https://emshort.blog/2019/04/04/can-ai-tell-a-good-story/)
+- Quadratic Voting is too complicated for the average person, but the idea of having a finite number of tokens to distribute amongst a set of important issues is a good one. [https://lawreview.uchicago.edu/publication/qv-or-not-qv-question-some-skepticism-about-radical-egalitarian-voting-markets](https://lawreview.uchicago.edu/publication/qv-or-not-qv-question-some-skepticism-about-radical-egalitarian-voting-markets)
+- A whole, unmilled tree can support 50 percent more weight than the largest piece of lumber milled from the same tree. [https://www.nytimes.com/2009/11/05/garden/05tree.html](https://www.nytimes.com/2009/11/05/garden/05tree.html)
+- Where do ideas come from? [https://nadiaeghbal.com/ideas](https://nadiaeghbal.com/ideas)
+- Cliff Mass correctly predicted that we’d have fewer wildfires in the PNW, great example of regression towards the mean. [https://cliffmass.blogspot.com/2019/05/will-puget-sound-experience-another.html](https://cliffmass.blogspot.com/2019/05/will-puget-sound-experience-another.html)
+- Bungalows in places like Wallingford and Ballard that many now find charming were widely criticized as cheap when they began popping up in the early part of the 20th century. Who knows how Seattle’s modern builds will age? [https://www.seattletimes.com/business/real-estate/a-teardown-a-day-bulldozing-the-way-for-bigger-homes-in-seattle-suburbs/](https://www.seattletimes.com/business/real-estate/a-teardown-a-day-bulldozing-the-way-for-bigger-homes-in-seattle-suburbs/)
+- That skyscraper in Vancouver prominently seen from Granville bridge (northbound) is also designed by big.dk. [https://www.dezeen.com/2018/11/30/movie-big-heatherwick-google-hq-progress/](https://www.dezeen.com/2018/11/30/movie-big-heatherwick-google-hq-progress/)
+- Half of parents are fathers, yet 99% of the research on parenting focuses on mothers. [https://www.bbc.com/future/article/20190606-how-to-be-a-good-father-to-a-newborn-son-or-daughter](https://www.bbc.com/future/article/20190606-how-to-be-a-good-father-to-a-newborn-son-or-daughter)
+- Massive migration of G+ accounts from Google accounts gave people the impression G+ was a “ghost town.” [https://onezero.medium.com/why-google-failed-4b9db05b973b](https://onezero.medium.com/why-google-failed-4b9db05b973b)
+- Identify and avoid cargo cults in design thinking. [https://medium.com/designing-atlassian/when-design-becomes-a-cargo-cult-2bb9a50aad53](https://medium.com/designing-atlassian/when-design-becomes-a-cargo-cult-2bb9a50aad53)
+- 80% of the aviation industry's emissions come from passenger flights longer than 1,500km - a distance no electric airliner could yet fly. [https://www.bbc.com/news/business-48630656](https://www.bbc.com/news/business-48630656)
+- ‘Sleeping beauties’ are papers which didn’t have much influence early but come to be appreciated and important later. [https://news.uchicago.edu/story/new-model-reveals-forgotten-influencers-and-sleeping-beauties-science](https://news.uchicago.edu/story/new-model-reveals-forgotten-influencers-and-sleeping-beauties-science)
+- Our superpower is not raw intelligence but our ability to learn through imitation. Aggregated over generations, this becomes culture.[https://slatestarcodex.com/2019/06/04/book-review-the-secret-of-our-success/](https://slatestarcodex.com/2019/06/04/book-review-the-secret-of-our-success/)
+- Banned about 70 years ago in Seattle, parent-in-law apartments were again allowed across the city starting in 1994 and backyard cottages since 2010. [https://www.seattletimes.com/seattle-news/politics/seattle-city-council-oks-more-and-larger-backyard-cottages-restricts-mcmansions/](https://www.seattletimes.com/seattle-news/politics/seattle-city-council-oks-more-and-larger-backyard-cottages-restricts-mcmansions/)
+- The Baumol effect: “A violinist can always choose to stop playing violin, retrain for a while, and work in a factory instead. Maybe in 1826, when factory owners were earning $1.14/hour and violinists were earning $5/hour, so no violinists would quit and retrain. But by 2010, factory workers were earning $26.44/hour, so if violinists were still only earning $5 they might all quit and retrain.” [https://slatestarcodex.com/2019/06/10/book-review-the-prices-are-too-dmn-high/](https://slatestarcodex.com/2019/06/10/book-review-the-prices-are-too-dmn-high/)
+- Mistake theorists treat politics as science, engineering, or medicine. The State is diseased. Conflict theorists treat politics as war. Different blocs with different interests. [https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/](https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/)
+- It’s hard to separate the threat that technology poses from the threat that capitalism poses. [https://www.gq.com/story/ted-chiang-exhalation-interview](https://www.gq.com/story/ted-chiang-exhalation-interview)
+- Convenience is a value, and one we hold personally. Maybe it’s worth reconsidering this. [https://onezero.medium.com/the-tyranny-of-convenience-2e7fa145ab4](https://onezero.medium.com/the-tyranny-of-convenience-2e7fa145ab4)
+- We don’t want hectoring morality tales, as evidenced by The Odyssey’s exceeding popularity compared to Plato’s Republic. We want stories that let us be other characters: strong and cunning, defiant or afraid, good or bad or somewhere in between. [https://putanumonit.com/2019/06/25/playstation-odysseys/](https://putanumonit.com/2019/06/25/playstation-odysseys/)
+- A scene with active technological evolution has what musician Brian Eno called scenius. [https://breakingsmart.substack.com/p/following-the-scenius](https://breakingsmart.substack.com/p/following-the-scenius)
+- The Antidisciplinarathon is a compelling format to quickly broaden one’s purview, ramp up on new fields, and meet new interesting people. [http://hypotext.co/antidisciplinarathon](http://hypotext.co/antidisciplinarathon)
+- The vast resources of Silicon Valley have too often been applied to the problem of “what is my mother no longer doing for me?” [https://slate.com/culture/2019/06/life-hacking-productivity-tech-silicon-valley-hacking-life-book-review.html](https://slate.com/culture/2019/06/life-hacking-productivity-tech-silicon-valley-hacking-life-book-review.html)
+- AFAICT, Deinstitutionalisation =\> Homelessness. [https://www.npr.org/2019/07/12/736612514/seattle-faces-backlash-after-easing-up-on-punishing-crimes-involving-mental-illn](https://www.npr.org/2019/07/12/736612514/seattle-faces-backlash-after-easing-up-on-punishing-crimes-involving-mental-illn)
+- We would like to think there is some quick hack, or that we can learn something with it feeling like a simple game, but the true is that real learning is hard work and frustrating. [https://medium.com/@gjdickens/distraction-disguised-as-learning-duolingo-codeacademy-and-why-you-should-get-back-to-basics-99a22a9e2c33](https://medium.com/@gjdickens/distraction-disguised-as-learning-duolingo-codeacademy-and-why-you-should-get-back-to-basics-99a22a9e2c33)
+- China seems unlikely to do personalized learning well, but appear to be far ahead in many aspects of optimizing education. [https://www.technologyreview.com/s/614057/china-squirrel-has-started-a-grand-experiment-in-ai-education-it-could-reshape-how-the/](https://www.technologyreview.com/s/614057/china-squirrel-has-started-a-grand-experiment-in-ai-education-it-could-reshape-how-the/)
+- Some studies seem to indicate that not only do students retain less when reading digitally, they’re more likely to overestimate how well they comprehended the material. [https://www.wired.com/story/digital-textbooks-radical-transformation/](https://www.wired.com/story/digital-textbooks-radical-transformation/)
+- Because the 737 has kept the same name for 50 years, the FAA certification of the fourth-generation 737 in 2017 involved only light-touch approval. The only really rigorous test-result underpinnings were those of the 1967 machine. [https://www.edge.org/conversation/timothy\_taylor-polythetics-and-the-boeing-737-max](https://www.edge.org/conversation/timothy_taylor-polythetics-and-the-boeing-737-max)
+- Criticize the existence of billionaires in general, their spending on yachts or mansions. But if you only criticize billionaires when they’re trying to save lives, you risk collateral damage to everything we care about. [https://slatestarcodex.com/2019/07/29/against-against-billionaire-philanthropy/](https://slatestarcodex.com/2019/07/29/against-against-billionaire-philanthropy/)
+- A resurrected Franklin wouldn’t have a news job inside The Washington Post; he’d have an anonymous Twitter account with a huge following that he’d use to routinely troll political opponents. [https://www.wired.com/story/journalism-isnt-dying-its-returning-its-roots/](https://www.wired.com/story/journalism-isnt-dying-its-returning-its-roots/)
+- Tech workers might not realize that their opposition to the work their companies do on military technology does not change the decision-making of the American leaders who choose to go to war. [https://www.nytimes.com/2019/08/28/opinion/military-war-tech-us.html](https://www.nytimes.com/2019/08/28/opinion/military-war-tech-us.html)
+- AI-writer centaurs are super interesting. [https://www.vox.com/future-perfect/2019/8/30/20840194/ai-art-fiction-writing-language-gpt-2](https://www.vox.com/future-perfect/2019/8/30/20840194/ai-art-fiction-writing-language-gpt-2)
+- “Isn’t school for learning math and science and reading,” he asked us one day, “not for teachers to tell us what to think about society?” [https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/](https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/)
+- Study after study has shown open offices to foster seclusion more than innovation. People in an open office put on headphones, talk less, and feel terrible. [https://www.nytimes.com/2019/09/25/opinion/wework-adam-neumann.html](https://www.nytimes.com/2019/09/25/opinion/wework-adam-neumann.html)
+- Great summary of arguments in favor of and also against Sortition - the system whereby members of representative bodies are picked at random, like jurors.[http://edmundgriffiths.com/sortition.html](http://edmundgriffiths.com/sortition.html)
+- Rather than maintaining my own lawn, much better to have a smaller garden and live right beside a great park? [https://earther.gizmodo.com/lawns-are-an-ecological-disaster-1826070720](https://earther.gizmodo.com/lawns-are-an-ecological-disaster-1826070720)
+- We’re not merely lighting a match to the Amazon and imperiling everything that lives in it with extinction, but also summoning creatures long dead to return to Earth’s surface and give up the ancient energy they took to the grave. [https://www.theatlantic.com/science/archive/2019/08/amazon-fire-earth-has-plenty-oxygen/596923/](https://www.theatlantic.com/science/archive/2019/08/amazon-fire-earth-has-plenty-oxygen/596923/)
+- In the last 20 years, some Inuit communities who had never seen robins before have had to invent a name for them: “Koyapigaktoruk.” [https://earthsky.org/earth/decoding-climate-change-signals-arctic-treeline-tundra-alaska](https://earthsky.org/earth/decoding-climate-change-signals-arctic-treeline-tundra-alaska)
+- Yedoma consists of thick layers of soil packed around gigantic lodes of embedded ice. Because Yedoma contains so much ice, it can melt quickly — reshaping the landscape as sudden lakes form and hillsides collapse. [https://www.washingtonpost.com/graphics/2019/national/climate-environment/climate-change-siberia/](https://www.washingtonpost.com/graphics/2019/national/climate-environment/climate-change-siberia/)
+- Wikis are just editable web pages; Twitter is just a way of sharing very short form writing; and Facebook is just a way of sharing writing and pictures with friends. Indeed, writing itself is just a clever way of ordering a small number of symbols on a page. While a medium may be simple, that doesn’t mean it’s not profound. [https://numinous.productions/ttft/](https://numinous.productions/ttft/)
+- For middle-class and poor families, the picture is different. Federal income taxes have also declined modestly for these families, but they haven’t benefited much if at all from the decline in the corporate tax or estate tax. [https://www.nytimes.com/interactive/2019/10/06/opinion/income-tax-rate-wealthy.html](https://www.nytimes.com/interactive/2019/10/06/opinion/income-tax-rate-wealthy.html)
+- The idea of the Anthropocene inflates our own importance by promising eternal geological life to our creations. It is of a thread with our species’ peculiar, self-styled exceptionalism. [https://www.theatlantic.com/science/archive/2019/08/arrogance-anthropocene/595795/](https://www.theatlantic.com/science/archive/2019/08/arrogance-anthropocene/595795/)
+- To Western ears, the combination of C and F# is grating, but Tsimane listeners rated this chord just as likeable as other chords that Westerners would interpret as more pleasant, such as C and G. [https://cosmosmagazine.com/biology/perception-of-musical-pitch-varies-across-cultures](https://cosmosmagazine.com/biology/perception-of-musical-pitch-varies-across-cultures)
+- It doesn’t seem too soon to ask: Is the vision of the VR or AR headset as a widespread consumer device just a dead branch hanging off technology’s evolutionary tree? [https://www.fastcompany.com/90418190/the-one-thing-google-didnt-talk-about-at-its-keynote](https://www.fastcompany.com/90418190/the-one-thing-google-didnt-talk-about-at-its-keynote)
+- Some examples of people quickly accomplishing ambitious things together. [https://patrickcollison.com/fast](https://patrickcollison.com/fast)
+- On-device AI could be clutch for detecting illegal logging. [https://www.nytimes.com/2019/10/15/climate/indonesia-logging-deforestation.html](https://www.nytimes.com/2019/10/15/climate/indonesia-logging-deforestation.html)
+- Technology that’s Actually Yours could be the next great counter-trend. [https://alexdanco.com/2019/10/26/everything-is-amazing-but-nothing-is-ours/](https://alexdanco.com/2019/10/26/everything-is-amazing-but-nothing-is-ours/)
+- Utrecht has a bike garage with sensors on the racks, making finding a free spot during rush hour much easier. [https://www.nytimes.com/2017/09/06/world/europe/bicycling-utrecht-dutch-love-bikes-worlds-largest-bike-parking-garages.html](https://www.nytimes.com/2017/09/06/world/europe/bicycling-utrecht-dutch-love-bikes-worlds-largest-bike-parking-garages.html)
+- By pushing a highly political agenda the Anxious, Social-Justice, Partisan (ASP) movement is undermining bipartisan efforts--and nothing important will be done unless both sides of the aisle are involved. [https://cliffmass.blogspot.com/2019/10/the-real-climate-debate.html](https://cliffmass.blogspot.com/2019/10/the-real-climate-debate.html)
+- The party launched the app, called Study the Great Nation, containing articles and videos about Xi’s activities or his ideology, “Xi Jinping Thought.” There is even a sense of competition, with users earning points for reading articles and commenting on them, and a leader board showing how users are faring in quizzes. [https://www.washingtonpost.com/world/asia\_pacific/chinese-app-on-xis-ideology-allows-data-access-to-100-million-users-phones-report-says/2019/10/11/2d53bbae-eb4d-11e9-bafb-da248f8d5734\_story.html](https://www.washingtonpost.com/world/asia_pacific/chinese-app-on-xis-ideology-allows-data-access-to-100-million-users-phones-report-says/2019/10/11/2d53bbae-eb4d-11e9-bafb-da248f8d5734_story.html)
+- Younger Palestinians were interested (in improving relations with Israel), but that there were none well-established enough in their careers yet to withstand the blowback. [https://www.nytimes.com/2019/11/20/us/israel-arab-dialog.html](https://www.nytimes.com/2019/11/20/us/israel-arab-dialog.html)
+- Clustering meetings and scheduling them near breaks is ideal. One of the best times is near the end of the day, or right before lunch. [http://www.paulgraham.com/makersschedule.html](http://www.paulgraham.com/makersschedule.html)
+- Terrifying: ISPs would recognize the obsolescence of the internet and support the Trinet only, driven by market demand for optimal user experience from GOOG-FB-AMZN. [https://staltz.com/the-web-began-dying-in-2014-heres-how.html](https://staltz.com/the-web-began-dying-in-2014-heres-how.html)
+- Saildrones are autonomous sailboats that act as mobile weather stations. Could we take advantage of this capability to improve observations of important storms? [https://cliffmass.blogspot.com/2019/11/can-autonomous-weather-observation.html](https://cliffmass.blogspot.com/2019/11/can-autonomous-weather-observation.html)
+- Prediction is overrated. What we really should be striving for, with our social science, is ability to bring about desirable outcomes and to avoid unwanted outcomes. [http://peterturchin.com/cliodynamica/psychohistory-and-cliodynamics/](http://peterturchin.com/cliodynamica/psychohistory-and-cliodynamics/)
+- If until now you were used to moving along roads and sidewalks, forget it! From now on we all walk through walls! [http://www.bldgblog.com/2010/01/nakatomi-space/](http://www.bldgblog.com/2010/01/nakatomi-space/)
+- What would it take to create an effective developmental learning environment for humanity? [https://glazkov.com/2019/08/11/a-classroom-for-humanity/](https://glazkov.com/2019/08/11/a-classroom-for-humanity/)
+- Great mathematicians each had their own strategies for generating ideas. Erdős sought hyper-focussed vigilance, Poincaré described lying in bed in a half-dream state as the ideal condition, Descartes famously loved to lounge in bed in the morning and think. [https://www.newyorker.com/culture/annals-of-inquiry/the-myth-and-magic-of-generating-new-ideas?verso=true](https://www.newyorker.com/culture/annals-of-inquiry/the-myth-and-magic-of-generating-new-ideas?verso=true)
+- On the Estonian border, another anekdot goes, a border guard is filling out Putin’s entry form. “Occupation?” the officer asks. “Not today,” Putin replies. “Just tourism.” [https://www.theatlantic.com/ideas/archive/2019/11/russian-jokes-tell-deeper-truths-about-putin-and-trump/602713/](https://www.theatlantic.com/ideas/archive/2019/11/russian-jokes-tell-deeper-truths-about-putin-and-trump/602713/)
+- The Reigns mechanic requires making pragmatic choices to stay alive, not always being ideologically consistent, and working to find a way out over course of generations, slowly discovering one’s true nature and power. [https://emshort.blog/2018/01/24/reigns-her-majesty/](https://emshort.blog/2018/01/24/reigns-her-majesty/)
+- [In exploration games, to spend time in a place is to deplete it, to make it less and less interesting until there’s no longer any reason to stay. In gardening games, to spend time in a place is to enrich it.](http://mkremins.github.io/blog/gardening-games/) 
+- The intersection of Science Fiction and Religion often yields greatness. [https://urbigenous.net/library/nine\_billion\_names\_of\_god.html](https://urbigenous.net/library/nine_billion_names_of_god.html)
