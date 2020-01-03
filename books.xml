@@ -5,8 +5,52 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2019-12-10T09:40:18-00:00</updated>
+  <updated>2020-01-03T08:31:53-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Right It (audio)</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-right-it-audio"/>
+    
+    <updated>2019-12-24T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-right-it-audio</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Cass suggested I check out The Right It by Alberto Savoia. This book is an ode to an idea: do as much as you can to vet an idea before committing a lot of time and energy on it. In other words, become as confident as possible in product-market fit before spending a lot of resources building even the first version. I strongly agree with the sentiment of the book, and have seen product and research teams fail for this exact reason. That said, it’s quite easy to condense into a substantially smaller format, and I might recommend that (if available) rather than reading the entire book.</p>
+
+<p>Most new ventures fail. Savoia encourages founders to be brutally honest with themselves, make their hypotheses explicit and quantified, and then find clever ways to quickly and cheaply validate them. The steps are as follows:</p>
+
+<ol>
+<li>Come up with an idea (eg. sell old sushi at a discount).</li>
+<li>Develop a Market Engagement Hypothesis (eg. A lot of people who want to eat healthy and who like sushi can’t afford to eat it regularly, because sushi tends to be quite expensive. If we can find a way to make sushi as affordable as other fast food, a lot of fast-food patrons will choose sushi over less healthy alternatives.)</li>
+<li>Quantify (2) with an X% of Y will do Z. (eg. At least 20% of packaged-sushi eaters will try Second-Day Sushi if it’s half the price of regular packaged sushi.)</li>
+<li>Instantiate (3) with a specific, easily testable idea that gets people to put down money (eg. At least 20% of students buying packaged sushi at Coupa Café today at lunch will choose Second-Day Sushi if it’s half the price of regular packaged sushi.)</li>
+<li>Actually run the experiment in (4) using a variety of techniques.</li>
+<li>Collect your own data from the experiment in (5).</li>
+<li>Compare the data with your hypothesis. If the results are close to the hypothesis, you are on the right track. If they are way off, might be time to throw in the towel.</li>
+<li>If things look promising, do a few more runs of (4) - (7).</li>
+<li>Ultimately make the decision whether to build it, drop it, or make changes to your plan based on what you learned.</li>
+</ol>
+
+<p>Savoia describes a bunch of techniques that may be interesting to apply and riff on:</p>
+
+<ul>
+<li>Fake door technique: placing a facade of a product and seeing how people engage in it. Will they engage? (eg. A landing page for a website that asks for an email address)</li>
+<li>Pinnochio technique: pretending that a dummy object is actually real (eg. The Palm founder who pretended a block of wood was a PDA)</li>
+<li>Infiltrator technique: negotiate with a store to show your prototype on their shelves for a limited time.</li>
+</ul>
+
+<p>I’ve seen focus groups and traditional user research fail in the exact way that Savoia describes: lack of skin in the game on the part of research participants.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Name of the Wind (audio)</title>
@@ -1917,27 +1961,7 @@ experience at war." Interesting start.</p>
 
 <p>Nodding, I wondered: how disconnected am I? Why don't we go build a <a href="https://www.opensourceecology.org/">house or a
 tractor</a>, or maybe learn the answers to some
-\&lt;\&lt;\&lt;\&lt;\&lt;\&lt;\&lt; HEAD</p>
-
-<h1>of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></h1>
-
-<p>of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></p>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>3a0c1ae34992d6c43823d47bb4da4f09a49b3463</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
+of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></p>
 
 
         
@@ -2079,24 +2103,6 @@ taste.</p>
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?</p>
-
-<h1>\&lt;\&lt;\&lt;\&lt;\&lt;\&lt;\&lt; HEAD</h1>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>3a0c1ae34992d6c43823d47bb4da4f09a49b3463</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
 
 
         
@@ -5839,134 +5845,6 @@ example in their celestial worldview:</p>
 </blockquote>
 
 <p>I’ll have to revisit more of his writings, perhaps Letter to Lucretius next?</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Stories of Your Life and Others</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/stories-of-your-life-and-others"/>
-    
-    <updated>2017-09-25T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/stories-of-your-life-and-others</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Ted's formula is this:</p>
-
-<ol>
-<li>Arrive at an interesting era, event, myth, legend, etc.</li>
-<li>Come up with an interesting conceptual twist on it.</li>
-<li>Research the hell out of the above.</li>
-<li>Write a super engaging and interesting short story, focusing more on the
-human aspect than the technology (soft sci-fi).</li>
-</ol>
-
-<p><strong>Tower of Babylon</strong> Such a great concept: what was the tower going to be like,
-according to the semi mythical Babylonians? That there would be inhabitants of
-the tower, regions of intense heat next to the sun, areas where the sun might
-shine upward, or shooting stars might hit the tower, all require an incredible
-imagination and intimate knowledge of the ancients worldview. All written in a
-tone of biblical knowledge: cubits, references to the recent deluge, and the
-proper use of the Lord's name. Tim also displays impressive knowledge of ancient
-building and mining techniques. This ability to pack all of this imagination,
-history, and credibility into a short story, and make it incredibly entertaining
-to boot, is very impressive.</p>
-
-<p><strong>Understand</strong> superintelligent humans? Also interesting and totally original.
-Lots of overla with rationalist obsession with superintelligent ais. Chiang
-convincingly describes the sorts of discoveries a superintelligent being might
-make. Physics unification, broad psychological insights, hacking ability,
-fundamental number theory advances. Also interesting is the protagonists (teds?)
-fascination with physical self control through mental means which has become an
-interest of mine recently. The whole story is incredibly cinematic especially
-the last part involving a psychic battle between superintelligent brains. </p>
-
-<p><strong>Division by Zero</strong> A very experimental format which is presented in triads: 1.
-A mathematical fact, 2. A’s prepsective on being terminally depressed due to a
-mathematical discovery, 3. B’s perspective on falling out of love with A. My
-take from talking with Sarah was this isn’t effective, especially for
-non-mathematicians, especially since A is so hard to relate to. But my reading
-of the story was that normal people are supposed to relate to B’s experience
-(3), and try to infer that the now lost love B had for A mirrors the now lost
-love A had for Math. Overall interesting but not my favorite.</p>
-
-<p><strong>Story of Your Life</strong> The basis for Arrival, which I saw and enjoyed when it
-came out. The short story is significantly different from the film, in plot and
-feeling. It is much more contemplative, much less action oriented. There is no
-global military crisis, no scary alien ship with a mysterious gravitational
-field, just quiet contemplation and a lot of Heptapod linguistics. Again, great
-concept, and an interesting foray into the complex relationship between language
-and thought, where the Sapir wharf hypothesis is taken to an insightful extreme.
-I think there’s a lot to find for the free-will skeptic as well. Again, I think
-the experimental format (alternating between raising her child, and her work)
-had more to offer than I could gleam on my first reading. Definitely worth a
-re-read in the future.</p>
-
-<p><strong>72 letters</strong></p>
-
-<ul>
-<li>What is Chartist reform? A British working class movement dating to 1838.</li>
-<li>What’s a cucurbit? A sort of gourd, similar to a cucumber. </li>
-<li>Der Zauberlehring? This is Goethe’s poem “The Sourcerer’s Apprentice”, which
-is the basis for Disney's Fantasia. </li>
-</ul>
-
-<p>Very clever integration of the significance of names and Jewish themes:
-Kabbalah, Golems. Again, Ted’s writing is very convincing, as if he is well
-studied in the fields he references. Is there a thing called “method writing”,
-as in “method acting”? In one interpretative mapping, this story comes off as
-transparent. Stratton, the young sculptor (roboticist) is more interested in the
-nomenclature (software) of golem-like automata (robots) than he is in the
-sculpting (hardware, manufacturing). By the time he grows up, he gets a job at
-Coade Manufactory (heh, Code Manufactory! Google?), and is able to automate the
-practice of sculpting, by creating automata that can sculpt. His goals are
-noble: to make it very cheap to do menial labor and make ordinary people’s lives
-better (modern automation). This also gets him noticed by the government, or
-perhaps some higher order think-tank (Lord Fieldhurst), who sponsors his
-research, but also has a goal of his own: to ensure the survival of humanity
-(lots of X-risk problems). Simultaneously, Stratton has to wrangle with
-sculptors (manufacturers), who are concerned that automation will take their
-jobs away (sound familiar?), and eventually plot to kill him. Lord Fieldhurst
-ends up having a darker motive, which isn’t just the survival of humanity but
-also to ensure the quality of the human race (harkening to eugenics). An
-unexplained element in this view is Roth, a Kabbalist (academic? Religious
-leader?), who dies but leaves Stratton a piece of the puzzle to solving his
-riddle (general AI?).</p>
-
-<p><strong>Hell is the Absence of God</strong> the Christian God definitely exists, and this is
-constantly re-affirmed when angels come down and meddle in human affairs.
-Ultimately this turns out to be almost mundane, since there is no room left for
-uncertainty, and thus belief. A Job-like hero is born with a deformity, and
-loses his wife to an angelic intervention. Yet he still cant bring himself to
-love God enough to be sent to heaven, where he would be reunited with his
-beloved wife.  In an odd twist, hell ends up being just like the regular world,
-except there is no godly intervention. In other words, hell is like our world.</p>
-
-<p><strong>Liking what you see: a documentary</strong> We have developed neurostat, a technology
-that lets you block certain neural pathways completely, or developing an
-“agnosia”. This is being used for blocking the perception of beauty (mostly
-facial) in children and young adults, to make them “beauty-blind”, and accept
-people for who they are underneath, and not judge them by their appearances.
-This is called “calliagnosia”. The story is fascinatingly written as an actual
-documentary, with various actors taking their turn to say their piece. At the
-center is a college aged girl and her ex-boyfriend, both of whom grew up with
-cali. At college she decided to turn it off and realized that she was beautiful,
-and her ex-was ugly. Despite this she loves him and wants to get back together
-by convincing him to also turn off Cali and seducing him through her beauty.
-This ultimately fails, as after turning Cali off, he decides that he isn’t happy
-with his own appearance and opts back into Cali. Their love story is punctuated
-with a plurality of other voices, from classmates to university presidents to
-neuroscientists who provide unique perspectives, explain technical details, etc.
-Overall I think the format is effective, presenting the complexity of the issue,
-and I’m not left with a strong opinion favoring one side or another. However my
-prior is against mental manipulation...</p>
 
 
         
