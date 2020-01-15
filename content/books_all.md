@@ -4,6 +4,16 @@ class: split
 type: book
 
 
+Smoke and Mirrors by Neil Gaiman
+===
+posted: January 5, 2020
+rating: no
+
+I’ve never read Gaiman before, but his various works have frequented my to-read list. I wasn’t too thrilled by Sandman, but misattributed that feeling to the graphic novel medium. I abandoned this collection midway since the stories were often really boring or weirdly sexual. Even the best ones weren’t especially memorable or original. At first I optimistically found this unevenness appealing, like playing roulette. Half way through, I decided to cut my losses.
+
+One of the better stories was hidden in the introduction, but was basically a riff on Picture of Dorian Gray. I also found “Troll”, “Chivalry”, “Queen of Knives” and “Shoggoth” to be entertaining but not memorable. Other stories were just bad, like “Goldfish Pool”, and “White Road”, and “Changes”.
+
+
 The Right It (audio)
 ===
 posted: December 24, 2019
@@ -30,5 +40,4 @@ Savoia describes a bunch of techniques that may be interesting to apply and riff
 - Infiltrator technique: negotiate with a store to show your prototype on their shelves for a limited time.
 
 I’ve seen focus groups and traditional user research fail in the exact way that Savoia describes: lack of skin in the game on the part of research participants.
-
 

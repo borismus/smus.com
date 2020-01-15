@@ -381,12 +381,10 @@ flourishing, I don't think rationality helps very much.
 <!--more-->
 
 The rationalist doctrine always favors quantification and optimization over
-intuition. From a rationalist perspective, humans are buggy ["computers made of
-meat"][minsky](https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/). We are full of cognitive biases that cloud our judgement, and
+intuition. From a rationalist perspective, humans are buggy [computers made of meat](https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/). We are full of cognitive biases that cloud our judgement, and
 cause us to do reliably poorly on [simple tasks](https://en.wikipedia.org/wiki/Newcomb%27s_paradox) related to
 probability. So even if you don't really know what probability to assign, it's
-better to ["put a number on it"](https://putanumonit.com/) and then ["shut up and
-multiply"][multiply](https://wiki.lesswrong.com/wiki/Shut_up_and_multiply).
+better to ["put a number on it"](https://putanumonit.com/) and then [”shut up and multiply”](https://wiki.lesswrong.com/wiki/Shut_up_and_multiply).
 
 The problem with the above approach lies with the words "systematic" and
 "predictable". Herb Simon's idea of [Bounded Rationality](https://en.wikipedia.org/wiki/Bounded_rationality), suggests that
@@ -397,10 +395,8 @@ advanced computers to predict even simple systems, such as the position of the
 [double pendulum](http://awesci.com/double-pendulum-and-why-we-can-never-predict-weather/) after a small amount of time.
 
 The world is far more complicated than one pendulum attached to another.
-Insisting on making every decision in life based on a [series of sound logical
-steps](/making-better-decisions/), one quickly becomes paralyzed by the
-complexity of myriad tiny choices. Gerd Gigerenzer's [ecological
-rationality][eco](https://en.wikipedia.org/wiki/Ecological_rationality) suggests that many things that appear illogical are actually
+Insisting on making every decision in life based on a [series of sound logical steps](/making-better-decisions/), one quickly becomes paralyzed by the
+complexity of myriad tiny choices. Gerd Gigerenzer's [ecological rationality](https://en.wikipedia.org/wiki/Ecological_rationality) suggests that many things that appear illogical are actually
 done for good reasons, ultimately leading to good outcomes. This idea is
 directly at odds with the rational propensity for first knowing what is true
 (epistemic rationality), and then making decisions in a series of logical steps.
