@@ -3,6 +3,7 @@ Book list
 class: split
 type: book
 
+
 The Circle
 ===
 posted: Feb 9, 2020

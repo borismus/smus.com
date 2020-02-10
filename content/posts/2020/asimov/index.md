@@ -2,9 +2,9 @@ Visual Chronology of Science & Discovery
 ===
 posted: February 10, 2020
 
-As Newton wrote, “If I have seen further it is by standing on the shoulders of Giants”. But which Giant’s shoulders did Newton stand on? Did those Giants also stand on the shoulders of other Giants? What about other scientists and inventors? As far as I can tell, it’s giant turtles all the way down.
+As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.
 
-Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Science and Discovery](/books/asimovs-chronology-of-science-and-discovery/). It inspired me to produce a visual summary of the first ⅕ of the book. It looks something like this:
+Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Science and Discovery](/books/asimovs-chronology-of-science-and-discovery/). It inspired me to produce a visual summary of the first quarter of the book. It looks something like this:
 
 [![Screenshot of the visual chronology centered at Steel.](screenshot-steel.jpg)](http://localhost:8080/cross-shape/#steel)
 
@@ -14,7 +14,7 @@ One of the unnerving things about the collection was the visual summary in the f
 
 ![Winding visualization of Asimov’s Chronology in the first edition.](original-visualization.jpg)
 
-Following this winding path is tricky to say the least. With this in mind, I carefully read the first quarter of the book, spanning from the beginning of time until 1700 CE, which amounts to about 300, or about a fifth of all of the entries in the book. I took notes in a spreadsheet, providing a 1-2 sentence summary of each entry and manually extracting some key metadata. For each of Asimov’s entries, I captured the title, a couple sentences of description, the associated person’s name, and where the invention was created or discovery found, usually the country or empire.
+Following this winding path is tricky to say the least. With this in mind, I carefully read the first quarter of the book, spanning from the beginning of time until 1700 CE, which amounts to about 300, or about a quarter of all of the entries in the book. I took notes in a spreadsheet, providing a 1-2 sentence summary of each entry and manually extracting some key metadata. For each of Asimov’s entries, I captured the title, a couple sentences of description, the associated person’s name, and where the invention was created or discovery found, usually the country or empire.
 
 In addition, I provided two extra fields which are more subjective and frankly, made up by yours truly, to bring the visualization to life: 
 
