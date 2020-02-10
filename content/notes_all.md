@@ -4,6 +4,7 @@ type: note
 class: split
 
 
+
 Books highlights of 2019
 ===
 posted: Dec 31, 2019

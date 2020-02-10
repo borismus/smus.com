@@ -4,6 +4,14 @@ class: split
 type: book
 
 
+Fatherhood in Pieces by Chabon
+===
+posted: January 10, 2020
+rating: no
+
+Collection of essays, from wistful to banal. Nothing that special. But I liked a few vignettes: the one about how each kid costs you a book. And about how baseball is nostalgia, nicely tying three generations of men. 
+
+
 Smoke and Mirrors by Neil Gaiman
 ===
 posted: January 5, 2020
@@ -40,4 +48,3 @@ Savoia describes a bunch of techniques that may be interesting to apply and riff
 - Infiltrator technique: negotiate with a store to show your prototype on their shelves for a limited time.
 
 I’ve seen focus groups and traditional user research fail in the exact way that Savoia describes: lack of skin in the game on the part of research participants.
-
