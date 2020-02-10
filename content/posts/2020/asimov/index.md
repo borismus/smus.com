@@ -69,7 +69,9 @@ The discovery of magnetism lead to the invention of the compass, giving navigato
 
 [![Screenshot of the visual chronology centered at Compass.](screenshot-compass.jpg)](http://localhost:8080/cross-shape/#compass)
 
-Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine. Such patterns involve cross field dependencies, which are visualized as dashed red arrows:
+Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine. 
 
 [![Screenshot of the visual chronology centered at Microscope.](screenshot-microscope.jpg)](http://localhost:8080/cross-shape/#microscope)
+
+Cross field dependencies like the ones I described above are visualized as dashed red arrows.
 
