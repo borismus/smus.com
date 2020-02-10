@@ -3,6 +3,23 @@ Book list
 class: split
 type: book
 
+The Circle
+===
+posted: Feb 9, 2020
+rating: no
+
+The Circle is a thinly veiled parable for, well, Big Tech. At base this book suggests what can happen when high modernism goes too far in the 2010 version of tech. 
+
+In some ways, the book feels dated. Even the most cynical observer today will agree that even Facebook is concerned with privacy, even if mainly to mitigate bad PR. Meanwhile the Circle is unabashedly techno utopian, extremely brash. I bet in 2014 when the book came out, it was culturally truer than it feels today. 
+
+The Circle slogans are especially on the nose: “All that happens must be known”, “To heal we must know. To know we must share.” And PartiRank? Ha! “Secrets are lies, privacy is theft,  sharing is caring”. I think Eggers is going for the 1984 vibe, but it’s just a little over the top.
+
+Mercer’s antler art commodification episode was pretty effective. The whole Instagram influencer business Mae fell into is prescient. I don't think influencers ousting celebrities was as much of a trend at the time of writing. 
+
+Completing the circle feels analogous to building Communism, and a stark reminder that any ideology that tramples over your family and friends is probably bad news. 
+
+I really enjoyed the twist in the end. It was so well done from the moment that “Mae knew what she had to do” to Mae’s supposed aversion of the apocalypse, to the ultimate reveal of whose side she ultimately landed on. Other than the twist, the plot was predictable but immensely addictive anyway. I breezed through this book, but it definitely felt like junk food. Big thanks Mr. P for sending it to me!
+
 
 Fatherhood in Pieces by Chabon
 ===
