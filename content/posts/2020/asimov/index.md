@@ -4,13 +4,13 @@ posted: February 10, 2020
 
 As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.
 
-Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Science and Discovery](/books/asimovs-chronology-of-science-and-discovery/). It inspired me to produce a visual summary of the first quarter of the book. It looks something like this:
+Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Science and Discovery](/books/asimovs-chronology-of-science-and-discovery/). It inspired me to produce a visual summary of the first quarter of the book. It looks like this (click through for an interactive version):
 
-[![Screenshot of the visual chronology centered at Steel.](screenshot-steel.jpg)](http://localhost:8080/cross-shape/#steel)
+[![Screenshot of the visual chronology centered at Steel.](screenshot-steel.jpg)](https://borismus.github.io/asimov/web/cross-shape/#steel)
 
 <!--more-->
 
-One of the unnerving things about the collection was the visual summary in the first edition:
+One of the unnerving things about Asimov’s book was the visual table of contents for the first edition:
 
 ![Winding visualization of Asimov’s Chronology in the first edition.](original-visualization.jpg)
 
@@ -67,11 +67,23 @@ Once the dependency graph is in place and each entry is associated with a field,
 
 The discovery of magnetism lead to the invention of the compass, giving navigators confidence to traverse the ocean, in turn leading to the discovery of the new world:
 
-[![Screenshot of the visual chronology centered at Compass.](screenshot-compass.jpg)](http://localhost:8080/cross-shape/#compass)
+[![Screenshot of the visual chronology centered at Compass.](screenshot-compass.jpg)](https://borismus.github.io/asimov/web/cross-shape#compass)
 
 Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine. 
 
-[![Screenshot of the visual chronology centered at Microscope.](screenshot-microscope.jpg)](http://localhost:8080/cross-shape/#microscope)
+[![Screenshot of the visual chronology centered at Microscope.](screenshot-microscope.jpg)](https://borismus.github.io/asimov/web/cross-shape#microscope)
 
 Cross field dependencies like the ones I described above are visualized as dashed red arrows.
 
+## Please help complete this project
+
+This visualization is backed by a spreadsheet which is [publicly viewable](https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0), the result of a bunch of my own reading and summarizing. I’ve compiled a quarter of Asimov’s impressive tome by hand, but I’d love your help finishing the project.
+
+If you’re game to help, here are the necessary pieces:
+
+1. A [PDF of the second edition of Asimov’s Chronology](https://drive.google.com/file/d/190RDAxrUzu5m0d_zxQi98euIguBDb0qf/view?usp=sharing) I scanned in hopes of automating the whole process (see above).
+2. A [publicly editable spreadsheet](https://docs.google.com/spreadsheets/d/1uDeBCfcaVUfZFEK-0WJIb43dT6cqHHq9o6Uxn6PihLY/edit#gid=158368026) containing stubs for all of the inventions listed in the chronology from 1700 to 1993.
+
+Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! 
+
+I’ll update this post as more of the spreadsheet is filled out. Meanwhile, thanks for reading and stay tuned – I have a few follow up posts in mind already.
