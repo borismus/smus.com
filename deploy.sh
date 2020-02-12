@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 DEPLOY_PATH=$HOME/Blog/deploy
-LIGHTNING=$PWD/../lightning/lightning
+LIGHTNING=/Users/smus/Projects/lightning/lightning
 LIGHTNING_CONFIG=$PWD/lightning.yaml
 
 # Assuming deploy path exists and is a remote copy of gh-pages.
