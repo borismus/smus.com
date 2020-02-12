@@ -1,9 +1,10 @@
 #!/usr/bin/env sh
 
-DEPLOY_PATH=$HOME/Projects/smus.com-deploy
+DEPLOY_PATH=$HOME/Blog/deploy
 LIGHTNING=$PWD/../lightning/lightning
 LIGHTNING_CONFIG=$PWD/lightning.yaml
 
+# Assuming deploy path exists and is a remote copy of gh-pages.
 pushd $DEPLOY_PATH
 
 # Reset the gh-pages branch to master.
