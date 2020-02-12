@@ -5,8 +5,118 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-01-03T08:31:53-00:00</updated>
+  <updated>2020-02-12T08:47:05-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Visual Chronology of Science & Discovery</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/asimov"/>
+    
+    <updated>2020-02-11T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/asimov</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.</p>
+
+<p>Last year, I got my hands on a remarkable book, <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov’s Chronology of Science and Discovery</a>. It inspired me to produce a visual summary of human ingenuity, to see what one giant saw from the shoulders of another. After some experimentation, I turned it into an interactive visualization. You can play with it <a href="https://borismus.github.io/asimov/web/cross-shape#steel">here</a>:</p>
+
+<p><a href="https://borismus.github.io/asimov/web/cross-shape/#steel"><img src="/asimov/screenshot-steel.jpg" alt="Screenshot of the visual chronology centered at Steel." /></a></p>
+
+<!--more-->
+
+<p>One of the unnerving things about Asimov’s book was the visual table of contents for the first edition:</p>
+
+<p><img src="/asimov/original-visualization.jpg" alt="Winding visualization of Asimov’s Chronology in the first edition." /></p>
+
+<p>Following this winding path is tricky to say the least. With this in mind, I carefully read the first quarter of the book, spanning from the beginning of time until 1700 CE, which amounts to about 300 entries, or about a quarter of those contained in the book. I took notes in a spreadsheet, providing a 1-2 sentence summary of each entry and manually extracting some key metadata. For each of Asimov’s entries, I captured the title, a couple sentences of description, the associated person’s name, and where the invention was created or discovery found, usually the country or empire.</p>
+
+<p>In addition, I provided two extra fields which are more subjective and frankly, made up by yours truly, to bring the visualization to life: </p>
+
+<ol>
+<li><strong>Field</strong>: which domain was this discovery made. (How granular should this be? Should Science be split up into Chemistry, Physics, and Biology?)</li>
+<li><strong>Dependencies</strong>: what older inventions and discoveries enabled this one. (This can be really tricky.)</li>
+</ol>
+
+<p>With this in place, Asimov’s linear chronology becomes a directed graph, and since we don’t know how to time travel, there are no time cycles. So what we have is a <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">directed acyclic graph (DAG)</a>. It is not a tree since I allow each node to have multiple parents. For instance, the field of Geometry is built up logically from axioms. At the same time, the founding text of the field, Euclid’s Elements, is mostly derived work from many mathematicians working before Euclid in the Academy and Lyceum. So the DAG shows <strong>Geometry</strong> rooted both in <strong>Advanced Schools</strong> and <strong>Logic</strong>.</p>
+
+<p><a href="https://borismus.github.io/asimov/web/cross-shape/#geometry"><img src="/asimov/screenshot-geometry.jpg" alt="Screenshot of the visual chronology centered at Geometry." /></a></p>
+
+<h2>Manual entry is tiring</h2>
+
+<p>Sadly, the Chronology is not available as a text-based ebook, which complicates matters. As it turns out, optical character recognition (OCR) is not easy if your content is laid out like a newspaper:</p>
+
+<p><img src="/asimov/book-flow-ocr.jpg" alt="Excerpt of the book showing tricky text flow" /></p>
+
+<p>Google Cloud Vision and <a href="https://github.com/tesseract-ocr/tesseract">tesseract</a> don’t do well on complex text flows, often failing to recognize section boundaries. For the image above, tesseract wrongly assumes that that the text flows in three full height columns.</p>
+
+<p>I also tried to do automatic entity extraction using python’s <code>nltk</code> and <code>ne_chunk</code> to automatically generate inventors and locations but a quick experiment yielded too many entities for each entry, meaning that I’d have to make a manual pass regardless, and this step would provide minimal time savings.</p>
+
+<h2>Playing cards and tech trees</h2>
+
+<p>Each invention and discovery needs its own view. I gravitated to a card metaphor, which is often used in historical strategy games like Civ, role playing games like Diablo, and in many playing card games like Magic the Gathering. Here are a <a href="https://www.are.na/boris-smus/tech-tree-cards">few examples</a> that inspired me.</p>
+
+<p>One challenge that I found ultimately insurmountable was to find good images for each entry. While you can find reams of royalty free images, and even download them automatically using tools like <a href="https://github.com/hardikvasa/google-images-download">googleimagesdownload</a>, finding a set that is visually consistent was tough. I did this manually for the first hundred inventions. Theoretically a style transfer model might be able to convert them all to a consistent look. But ultimately, they didn’t add much value to the visualization as a whole, so I ditched the idea.</p>
+
+<p><img src="/asimov/card-images.jpg" alt="Attempt to use images in the cards" /></p>
+
+<h2>Chronological visualization</h2>
+
+<p>To visualize the entries, I started with a naive approach: render all of the entries at once in a giant horizontal scrolling view, kind of like how tech trees work in Civilization-like games. Doing such a thing linearly makes no sense at all, since the first entry in the book is Bipedalis, dating to 4 million years ago (ma), followed by Stone Tools at 2 ma, Fire at 0.5 ma, then 8 entries later, Agriculture at 0.01 ma (10,000 years ago). This sort of timeline is best represented on a log-scale, which makes entries more reasonably spaced out, although still not perfect. Actually there’s quite a lot of variation in density. For example, this is the chronology of the first millennium CE (1000 years):</p>
+
+<p><img src="/asimov/chrono-first-millennium.jpg" alt="Chronology of first millennium" /></p>
+
+<p>While this is just the 16th century (100 years, an order of magnitude shorter than above):</p>
+
+<p><img src="/asimov/chrono-sixteenth-century.jpg" alt="Chronology of 16th century" /></p>
+
+<p>Even with the log-scale, inventions are by no means well distributed in time, with the 16th century far more visually dense than the first millennium. In both examples, links are especially obscure, since they often stretch out for many screens, and are basically impossible to trace from source to destination. </p>
+
+<p>I tried variants of this view as well, involving collapsing entries into more compact default representations, and allowing them to be expanded for more detail. One promising variant involved expanding a selected entry and all transitively linked ones, but the predecessors and successors are still typically positioned far off-screen, so a lot of scrolling is required.</p>
+
+<h2>Entry-centric visualization</h2>
+
+<p>One of the shortcomings of a purely chronological view is that connections between entries are lost. Yet this is the most important part of this whole project, so I kept searching.</p>
+
+<p>I opted for a more structured approach, one that lets you focus on a particular entry and at a glance see what technology led to it, and what technology it enabled. At the same time, I wanted to show the invention in its chronological context, in the spirit of Asimov’s book. So the current design takes a Cartesian approach, with one card centered at the origin, serving as the focus. Technologies that enabled the focused card are shown to the left and technologies that the focus enabled are shown to the right, along the x axis. Chronologically previous and next entries are shown along the y axis. </p>
+
+<h2>Technology transcending fields</h2>
+
+<p>Once the dependency graph is in place and each entry is associated with a field, one starts seeing interesting patterns in the data. </p>
+
+<p>The discovery of magnetism lead to the invention of the compass, giving navigators confidence to traverse the ocean, in turn leading to the discovery of the new world:</p>
+
+<p><a href="https://borismus.github.io/asimov/web/cross-shape#compass"><img src="/asimov/screenshot-compass.jpg" alt="Screenshot of the visual chronology centered at Compass." /></a></p>
+
+<p>Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine. </p>
+
+<p><a href="https://borismus.github.io/asimov/web/cross-shape#microscope"><img src="/asimov/screenshot-microscope.jpg" alt="Screenshot of the visual chronology centered at Microscope." /></a></p>
+
+<p>Cross field dependencies like the ones I described above are visualized as dashed red arrows.</p>
+
+<h2>Please help complete this project</h2>
+
+<p>This visualization is backed by a spreadsheet which is <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">publicly viewable</a>, the result of a bunch of my own reading and summarizing. I’ve compiled a quarter of Asimov’s impressive tome by hand, but I’d love your help finishing the project.</p>
+
+<p>If you’re game to help, here are the necessary pieces:</p>
+
+<ol>
+<li>A <a href="https://drive.google.com/file/d/190RDAxrUzu5m0d_zxQi98euIguBDb0qf/view?usp=sharing">PDF of the second edition of Asimov’s Chronology</a> I scanned in hopes of automating the whole process (see above).</li>
+<li>A <a href="https://docs.google.com/spreadsheets/d/1uDeBCfcaVUfZFEK-0WJIb43dT6cqHHq9o6Uxn6PihLY/edit#gid=158368026">publicly editable spreadsheet</a> containing stubs for all of the inventions listed in the chronology from 1700 to 1993.</li>
+</ol>
+
+<p>Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! </p>
+
+<p>I’ll update this post as more of the spreadsheet is filled out. Meanwhile, thanks for reading and stay tuned – I have a few follow up posts in mind already.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Books highlights of 2019</title>
@@ -66,7 +176,7 @@
 <li>The American public is broadly pessimistic about its country’s future, and this pessimism correlates with education level. <a href="https://www.pewsocialtrends.org/2019/03/21/public-sees-an-america-in-decline-on-many-fronts/">Looking to the Future, Public Sees an America in Decline on Many Fronts</a></li>
 <li>As wealthy kids are growing up with less screen time, poor kids are growing up with more. <a href="https://www.nytimes.com/2019/03/23/sunday-review/human-contact-luxury-screens.html">Human Contact Is Now a Luxury Good</a></li>
 <li>Stop building to ship until you’ve first built to learn. <a href="https://uxdesign.cc/building-to-learn-977a8cd88ced?">https://uxdesign.cc/building-to-learn-977a8cd88ced?</a></li>
-<li>A charitable look at Post-modernism: holds that there is no privileged lens with which to view the world; that even empiricism is suspect, because it too has a tendency to reproduce and reify the power structures in which in exists. <a href="https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/">https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/</a></li>
+<li>A charitable look at Post-modernism holds that there is no privileged lens with which to view the world; that even empiricism is suspect, because it too has a tendency to reproduce and reify the power structures in which in exists. <a href="https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/">https://socratic-form-microscopy.com/2019/04/03/post-modernism-and-political-diversity/</a></li>
 <li>Texas produces more wind power than every other state in the country, four times as much as the runner-up, California. <a href="https://www.nytimes.com/interactive/2019/04/11/magazine/climate-change-exxon-renewable-energy.html?mtrref=www.instapaper.com&amp;gwh=A83B2941A03E83BDCAE36DF6FD0D3189&amp;gwt=pay&amp;assetType=REGIWALL">https://www.nytimes.com/interactive/2019/04/11/magazine/climate-change-exxon-renewable-energy.html?mtrref=www.instapaper.com&amp;gwh=A83B2941A03E83BDCAE36DF6FD0D3189&amp;gwt=pay&amp;assetType=REGIWALL</a></li>
 <li>While I disagree that there may be a difference between personal and professional values, I found this brief article to be a useful exercise. <a href="https://blog.alexmaccaw.com/a-value-driven-life">https://blog.alexmaccaw.com/a-value-driven-life</a></li>
 <li>Formidable pays employees $20/hr for contributions (outside of normal work time) to OSS and tech communities or even a personal hack project purely for fun and learning, as long as it’s released under an OSI license. <a href="https://formidable.com/blog/2019/sauce-program/">https://formidable.com/blog/2019/sauce-program/</a></li>
@@ -75,7 +185,7 @@
 <li>A Facebook co-founder wants the US government to fix Facebook. <a href="https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html">https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html</a></li>
 <li>How might we design mediums in which “reading” is the same as “understanding”? <a href="https://andymatuschak.org/books/">https://andymatuschak.org/books/</a></li>
 <li>Safe playgrounds lead to boredom, which tends toward rash stunts like turning somersaults on top of climbing frames and standing on the shoulders of others on the swings. So let’s make playgrounds a little more dangerous! <a href="https://www.nytimes.com/2019/05/10/well/family/adventure-playgrounds-junk-playgrounds.html">https://www.nytimes.com/2019/05/10/well/family/adventure-playgrounds-junk-playgrounds.html</a></li>
-<li>What Republicans want to do with I.C.E. and border walls, wealthy progressive Democrats are doing with zoning and Nimbyism. Ouch. <a href="https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html">https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html</a></li>
+<li>What Republicans want to do with I.C.E. and border walls, wealthy progressive Democrats are doing with zoning and NIMBYism. Ouch. <a href="https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html">https://www.nytimes.com/2019/05/22/opinion/california-housing-nimby.html</a></li>
 <li>We were certain that more communication would make everything better. Arrogantly, we ignored history and learned a lesson that has been in the curriculum since the Tower of Babel. <a href="https://www.wired.com/story/why-we-love-tech-defense-difficult-industry/">https://www.wired.com/story/why-we-love-tech-defense-difficult-industry/</a></li>
 <li>What are signs that a player is alive? One strong sign is a player doing things outside of their domain. For example, Putin is a live player. The Russian state is doing things they haven’t done in a long time, like annexing Crimea… <a href="https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2">https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2</a></li>
 <li>San Francisco is a stunningly beautiful and continuously innovative city, cursed to always be considered one or two generations past its peak, like a rowboat chasing the horizon. <a href="https://www.sfchronicle.com/oursf/article/San-Francisco-isn-t-what-it-used-to-be-13901994.php">https://www.sfchronicle.com/oursf/article/San-Francisco-isn-t-what-it-used-to-be-13901994.php</a></li>
@@ -955,12 +1065,10 @@ flourishing, I don't think rationality helps very much.</p>
 <!--more-->
 
 <p>The rationalist doctrine always favors quantification and optimization over
-intuition. From a rationalist perspective, humans are buggy ["computers made of
-meat"][minsky](https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/). We are full of cognitive biases that cloud our judgement, and
+intuition. From a rationalist perspective, humans are buggy <a href="https://www.wired.com/2016/01/marvin-minskys-marvelous-meat-machine/">computers made of meat</a>. We are full of cognitive biases that cloud our judgement, and
 cause us to do reliably poorly on <a href="https://en.wikipedia.org/wiki/Newcomb%27s_paradox">simple tasks</a> related to
 probability. So even if you don't really know what probability to assign, it's
-better to <a href="https://putanumonit.com/">"put a number on it"</a> and then ["shut up and
-multiply"][multiply](https://wiki.lesswrong.com/wiki/Shut<em>up</em>and_multiply).</p>
+better to <a href="https://putanumonit.com/">"put a number on it"</a> and then <a href="https://wiki.lesswrong.com/wiki/Shut_up_and_multiply">”shut up and multiply”</a>.</p>
 
 <p>The problem with the above approach lies with the words "systematic" and
 "predictable". Herb Simon's idea of <a href="https://en.wikipedia.org/wiki/Bounded_rationality">Bounded Rationality</a>, suggests that
@@ -971,10 +1079,8 @@ advanced computers to predict even simple systems, such as the position of the
 <a href="http://awesci.com/double-pendulum-and-why-we-can-never-predict-weather/">double pendulum</a> after a small amount of time.</p>
 
 <p>The world is far more complicated than one pendulum attached to another.
-Insisting on making every decision in life based on a <a href="/making-better-decisions/">series of sound logical
-steps</a>, one quickly becomes paralyzed by the
-complexity of myriad tiny choices. Gerd Gigerenzer's [ecological
-rationality][eco](https://en.wikipedia.org/wiki/Ecological_rationality) suggests that many things that appear illogical are actually
+Insisting on making every decision in life based on a <a href="/making-better-decisions/">series of sound logical steps</a>, one quickly becomes paralyzed by the
+complexity of myriad tiny choices. Gerd Gigerenzer's <a href="https://en.wikipedia.org/wiki/Ecological_rationality">ecological rationality</a> suggests that many things that appear illogical are actually
 done for good reasons, ultimately leading to good outcomes. This idea is
 directly at odds with the rational propensity for first knowing what is true
 (epistemic rationality), and then making decisions in a series of logical steps.</p>
@@ -6208,253 +6314,6 @@ and decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>
 
 <p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point
 out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Web Sensor API: raw and uncut</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/web-sensor-api"/>
-    
-    <updated>2014-11-13T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/web-sensor-api</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Sensors found in smartphones define the mobile experience. GPS and the
-magnetometer enable the fluid experience of maps; motion sensing enables
-activity recognition and games, and of course the camera and microphone
-allow whole categories of rich media applications. Beyond these now
-obvious examples, sensors can also enable clever inventions, such as
-<a href="http://www.cycloramic.com/">Cycloramic</a>, which used the vibrator motor in iPhones (4 and 5) to
-rotate the phone and take a panorama, <a href="https://play.google.com/store/apps/details?id=com.runtastic.android.pushup.pro">pushup counters</a> which
-use the proximity sensor to count repetitions, and <a href="https://play.google.com/store/apps/details?id=com.carrotpop.www.smth">Send Me To
-Heaven</a>, which uses the accelerometer to determine flight time of
-a phone thrown vertically as high as possible. I've had some experience
-using and abusing sensors too, most recently for the <a href="http://smus.com/talk/2014/io14/">Cardboard magnet
-button</a>.</p>
-
-<iframe width="640" height="360" src="//www.youtube.com/embed/l5775qwORk4" frameborder="0" allowfullscreen></iframe>
-
-<p>However, over the last couple of years, I've had to step away from the
-web as a development platform, in part because of the poor state of
-sensor APIs.  In this post, I will describe some of the problems, take a
-look at sensor APIs on iOS and Android, and suggest a solution in the
-spirit of the <a href="https://extensiblewebmanifesto.org/">extensible web manifesto</a>.</p>
-
-<!--more-->
-
-<h2>Existing sensor APIs are underspecified</h2>
-
-<p>One of the most popular sensor APIs on the web is the <a href="http://w3c.github.io/deviceorientation/spec-source-orientation.html#devicemotion">DeviceMotion event
-API</a>, which is basically always just an opaque abstraction around the
-accelerometer. The web, as always, tries to solve the problem in the
-most general way possible:</p>
-
-<blockquote>
-  <p>This specification provides several new DOM events for obtaining
-  information about the physical orientation and movement of the hosting
-  device. The information provided by the events is not raw sensor data,
-  but rather high-level data which is agnostic to the underlying source
-  of information. Common sources of information include gyroscopes,
-  compasses and accelerometers.</p>
-</blockquote>
-
-<p>This could be fine in theory, except the specs end up being so vague in
-their attempt to please everybody, that they under-specify the behavior
-of events such as <code>DeviceOrientation</code>. Throw in some rogue implementers,
-and you end up with huge discrepancies in browsers, as <a href="http://www.html5rocks.com/en/tutorials/device/orientation/">Pete found back
-in 2011</a>:</p>
-
-<blockquote>
-  <p>For most browsers, alpha returns the compass heading, so when the
-  device is pointed north, alpha is zero. With Mobile Safari, alpha is
-  based on the direction the device was pointing when device orientation
-  was first requested. The compass heading is available in the
-  webkitCompassHeading parameter.</p>
-</blockquote>
-
-<p>A useful sensor abstraction would be to build a compass on top of the
-magnetometer (and maybe gyro) sensors, and then expose that as a high
-level Compass API. Unfortunately many web sensor APIs give us a
-mid-level of abstraction. They don't map reliably to particular hardware
-sensors, nor do they provide much use. Sensors allow many applications
-that were not originally envisioned by the spec writers. By choosing
-poorly specified ivory-tower abstractions, the web limits what can be
-done on the platform.</p>
-
-<h2>Low level sensor APIs don't exist</h2>
-
-<p>While you can work around the insanity of <code>Device*</code> style events on the
-web with platform-specific shims, you cannot work around missing sensor
-APIs. Magnetometers, pressure sensors, proximity, light, temperature,
-battery, etc. These are mostly missing, and the ones that are specified
-are specified in a very narrow way that does not generalize across to
-other types of sensors (eg. <a href="http://www.w3.org/TR/2013/CR-ambient-light-20131001/">DeviceLightEvent</a>).</p>
-
-<p>Unfortunately it seems that previous attempts to push for a general low
-level sensor API <a href="http://lists.w3.org/Archives/Public/public-geolocation/2011Oct/0000.html">haven't really gotten much traction</a>. In
-fact, it's a bit unclear whether or not the <a href="http://www.w3.org/2009/dap/">Device API working
-group</a>, is even the right place for sensor APIs, since their
-mandate is supposedly more about services than sensors:</p>
-
-<blockquote>
-  <p>[To] enable the development of Web Applications and Web Widgets that
-  interact with devices services such as Calendar, Contacts, Camera,
-  etc.</p>
-</blockquote>
-
-<p>Except <a href="https://dvcs.w3.org/hg/dap/raw-file/default/sensor-api/Overview.html">here's a sensor API</a> from the same group, which
-seems to be abandoned... I don't even</p>
-
-<p>There are more recent voices (circa 2014) that seem to be pushing in a
-generic sensor API direction, from folks like <a href="https://github.com/rwaldron/sensors">Rick Waldron</a>
-and <a href="http://lists.w3.org/Archives/Public/public-device-apis/2014Sep/0024.html">Tim Volodine</a>. Many of these ideas are still working within
-the confines of a sensor API for each type of sensor. This does not
-scale well for the web, which tends to take a long time for any new web
-standard, but this renewed interest is very exciting and promising!</p>
-
-<h2>Sensors on other platforms</h2>
-
-<p>The web is woefully behind native platforms in almost every regard (with
-possibly the exception of audio). Sensors on iOS and Android have a rich
-history, and ended up in a pretty similar place as the two platforms
-have scrambled to converge. Let's take a look.</p>
-
-<p>iOS started off with a <a href="https://developer.apple.com/LIBRARY/ios/documentation/UIKit/Reference/UIAccelerometer_Class/index.html">UIAccelerometer API</a>, which was
-replaced by <a href="https://developer.apple.com/LIBRARY/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/index.html">CoreMotion</a> in iOS 5. Rather than providing a
-series of specific APIs for each type of sensor API as it had before,
-CoreMotion provides a unified framework for sensor events. Each data
-type inherits from a common base class <code>CMLogItem</code>, and most of the API is
-encapsulated in <code>CMMotionManager</code>, which explicitly lists accelerometer,
-gyroscope and magnetometer-related APIs. iOS went from specific to
-generic, which makes it super easy to add new types of sensor data. That
-said, the API is generic only for motion sensors, which excludes a bunch
-of sensors not directly related to motion like temperature, humidity,
-etc.</p>
-
-<p>Android started off right, and hasn't had to change much, providing a
-<a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">generic API for sensors</a> since API level 3. Android's API
-is accessed through a SensorManager, which provides a somewhat overly
-abstract API, because of its support for multiple sensors of one type
-(eg. two accelerometers) in the same device. Still, the idea is good,
-and all of the low level sensor data are well specified (per sensor
-type)so the hardware/firmware vendor knows what data format their sensor
-should stream. Of course there are still rogue implementations that
-don't follow the spec, but that is a perennial problem for any open-ish
-ecosystem.</p>
-
-<p>Android also has a <a href="http://developer.android.com/guide/topics/sensors/sensors_overview.html">distinction</a> between software-based sensors and
-hardware-based ones. The idea is that the same framework can provide
-both the low level data coming directly from the hardware, as well as
-useful higher level data obtained through <a href="http://en.wikipedia.org/wiki/Sensor_fusion">sensor fusion</a>. As of
-API level 19, Android also provides <a href="http://developer.android.com/reference/android/hardware/SensorManager.html#flush(android.hardware.SensorEventListener)">batch mode</a> for sensor data, which
-is very useful for conserving battery and CPU for applications where
-some delay is acceptable.</p>
-
-<p>One nice advantage of an iOS style API is that each sensor type has its
-own structure (rather than just an amorphous array of floats, as in
-Android), which is quite a bit easier to parse. The downside is that
-adding new sensor types introduces more overhead, since each one
-requires a new structure to be defined and agreed upon. Since we are
-talking about web standards, which evolve at a glacial pace, we should
-err on a simple API that works well without spec modifications.</p>
-
-<h2>Great artists steal</h2>
-
-<p>There is no need for the web to reinvent the wheel. The wheel has
-already been invented by iOS and Android. All we need to do is take the
-good parts from these successful sensor platforms, and integrate them
-into the web in a way that makes sense. The web is not the place for
-innovation, but for standardization.</p>
-
-<p>Conceptually, a sensor provides a stream of data. The developer should
-be able to configure the rate at which new data comes in, as well as
-batching the data in windows of sensor data (as is customarily done with
-audio data, for example). In Android, because of a plurality of devices,
-it's important to be able to check if a particular sensor is available.
-The same concept maps well to the web.</p>
-
-<h2>Toward A Web Sensor API</h2>
-
-<p>In general, here are the requirements for a Web Sensor API that works:</p>
-
-<ul>
-<li>A specification defining the format of the data, similar to
-<a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">Android</a>.</li>
-<li>A way to feature detect for the existence of a particular sensor.</li>
-<li>A way to request (and revoke) a stream of sensor data.</li>
-<li>A way to specify how often to poll the sensor.</li>
-<li>Bonus: A way to request sensor data in batch form.</li>
-</ul>
-
-<p>While bringing an API like this to the web is a huge undertaking, there
-is a silver lining. The sensors we're talking about are all considered
-(at least for now) low-security, in the sense that on native platforms,
-there is no extra permission required to access them. This makes it
-possible to simply propose an API, convince everybody of it's worth, and
-then have it implemented across the web!</p>
-
-<p>I don't have a strong opinion about how the API itself looks like as
-long as it fulfils the above requirements. Here's a simple strawman
-which should satisfy them:</p>
-
-<pre><code>// Check for magnetometer support.
-if (sensors.Magnetometer === undefined) {
-  console.error('No magnetometer found');
-}
-
-// Start listening for changes to the sensor.
-var magnetometer = sensors.Magnetometer;
-magnetometer.addEventListener('changed', onMagnetometer, {
-  sample_rate: sensors.POLL_FAST, // In hertz, eg. POLL_FAST == 100
-  batch: 1 // Number of data points to provide in a single poll.
-});
-
-// Handle sensor events.
-function onMagnetometer(event) {
-  var data = event.data[0];
-  // Get the timestamp (in millis).
-  var t = data.timestamp;
-  // Get the data (in this case µT, as per spec).
-  var x = data.values[0];
-  var y = data.values[1];
-  var z = data.values[2];
-  // Process the data.
-  superAdvancedSensorFusionThing.addData(t, x, y, z);
-}
-
-// Stop listening.
-magnetometer.removeEventListener('changed', onMagnetometer);
-</code></pre>
-
-<h2>Conclusion</h2>
-
-<p>If you aren't yet convinced that we need access to low level sensors on
-the web, recall web developers scoffing at device pixel ratio (DPR),
-really questioning the need for to ever go above 2x. Now that <a href="https://developers.google.com/cardboard/">some
-screens</a> are ending up 5cm from your face, the current
-generation of 4x displays isn't enough. The same exact thing applies to
-sensors. The need is there, but it is not seen as enough of a priority
-by the web community.</p>
-
-<p>By enabling low level sensor access, we can allow new experiences never
-before possible on the web. <a href="https://play.google.com/store/apps/details?id=com.runtastic.android.pushup.pro">Pushup rep counters</a>, the <a href="http://smus.com/talk/2014/io14/">magnet
-button</a> in Cardboard, and myriads more applications
-yet to be concieved could all be built on the web platform, eliminating
-a big reason why the web is increasingly losing its relevance on mobile
-devices. Providing low level sensor access is critical and aligns
-perfectly with the <a href="https://extensiblewebmanifesto.org/">extensible web vision</a>.</p>
-
-<p><em>Update (Nov 14, 2014): There was a <a href="http://lists.w3.org/Archives/Public/public-device-apis/2014Nov/0018.html">W3C call</a> about this very
-topic yesterday! Kicking off efforts in <a href="https://github.com/w3c/sensors">this github repo</a>.
-Join us!</em></p>
 
 
         
