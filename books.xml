@@ -5,17 +5,59 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-02-12T09:15:17-00:00</updated>
+  <updated>2020-03-02T10:25:30-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
-    <title>The Circle</title>
+    <title>Revenge of Analog</title>
     <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-circle"/>
+    <link href="https://smus.com/books/revenge-of-analog"/>
+    
+    <updated>2020-02-23T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/revenge-of-analog</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <blockquote>
+  <p>“Digital’s overwhelming superiority initially renders analog alternatives worthless, but over time the perception of value shifts and when the honeymoon with a particular technology ends we are more readily able to judge its true merits and shortcomings.”</p>
+</blockquote>
+
+<p>Very wordy, this is definitely a book to skim. The gist is that we’ve been overzealous about digitizing everything, and now analog is making a comeback in some areas. The book is a straightforward walkthrough of a few domains where this has been happening. The author does a good job of not sounding too crotchety, which is very easy to do in books like these. But this book has basically no insights. It’s more a summary of ideas that are all in the air.</p>
+
+<p><strong>Notes</strong>: The author presents a semi interesting study on Moleskine, colored by the character who helped cofound the company. There is indeed something that feels inherently good about taking paper notes. But not much insight beyond this. </p>
+
+<p><strong>Board games</strong>: Turns out people are social! And the trend in video gaming is towards solo or online multiplayer, where you are fundamentally alone in a room. In contrast, with board games you're together with a bunch of friends and there's a lot more happening than just the game!</p>
+
+<p><strong>Retail stores</strong> are still important. No surprises again, that Apple and other maintain store presence and support. And bookstores are a good example of tactile scanning and easy previews. Conspicuously absent are libraries. </p>
+
+<p><strong>Work</strong>: As far as I can tell this is where the author complains about tech displacing blue collar jobs. Sadly, even vinyl pressers are going to be automated if the market grows. You'll need CNC experience not operators. </p>
+
+<p><strong>Education</strong>: Attempts to reform education have all been made with advents in new technology. And so far the traditional school classroom approach seems to be giving best results. This is a good reminder for me to ensure that my daughter ends up in a tech-free classroom. I found this quote to be oddly satisfying, and felt sorry for Thrun</p>
+
+<blockquote>
+  <p>“Thrun predicted that MOOCs would be so distributive that in 50 years only ten institutions in the world would provide higher education and his would be one of them. Apparently a lesson about Icarus’s journey to the sun wasn't included on the Udacity syllabus.”</p>
+</blockquote>
+
+<p>I like the idea that camp Walden doesn't allow any tech for its campers.</p>
+
+<p>Overall, this book could easily be compressed into a 10 minute article. I found no new ideas in this book, just an occasional head nod: confirmation.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The Circle by Dave Eggers</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-circle-by-dave-eggers"/>
     
     <updated>2020-02-09T09:00:00-00:00</updated>
     
-    <id>https://smus.com/books/the-circle</id>
+    <id>https://smus.com/books/the-circle-by-dave-eggers</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -677,7 +719,7 @@ a draining read.</p>
   </entry>
   
   <entry>
-    <title>Asimov's Chronology of Science and Discovery</title>
+    <title>Asimov&#39;s Chronology of Science and Discovery</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/asimovs-chronology-of-science-and-discovery"/>
     
@@ -5517,149 +5559,6 @@ to his daughter.</p>
 </blockquote>
 
 <p><a href="https://subterraneanpress.com/magazine/fall_2013/the_truth_of_fact_the_truth_of_feeling_by_ted_chiang">Go read it.</a></p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Is That a Fish in Your Ear? by David Bellos</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos"/>
-    
-    <updated>2017-12-26T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>David Bellos drops many interesting tidbits in this book about translation.
-Unfortunately, I feel unlikely to retain most of them. Each chapter stands on
-its own, which is both good for piecemeal reading, but also feels disjointed.
-The book struggles to tie together into an overall narrative.  The author's
-erudition is apparent, dropping a million mostly relevant and interesting
-references. Sometimes this digresses into an obsession with word games, and the
-references can come off as gratuitous and self-serving. Overall I liked it, but
-there were also parts I found suspect.</p>
-
-<p>What follows is a correspondingly disjointed account of what I found interesting
-from the book:</p>
-
-<p><em>Finding a good match</em>: Ultimately the goal of a translator is to find a good
-match. Nobody ever does word for word translation, but sense for sense to match
-the audience and medium. In translation, the things to preserve are information
-and force. Not number of words, sentence length, placement of punctuation.
-Speech interpreters can’t preserve tone, pitch, facial gestures, stamping of
-feet, etc. Hofstadter has a <a href="http://www.clementmarot.com/MaMignonne.htm">good
-example</a>.</p>
-
-<p><em>Fake translations</em>: Some authors claim to produce a translation but there is no
-original. Don Quixote claims to be a translation from Arabic. Others claim to
-produce an original but just translate an existing work (Castle of Otranto).
-Sometimes to pass censorship, other times to try on an identity, to come off as
-more authentic. Dzhambul Dzhabayev was a folk singer who was “translated” into
-Russian but actually written from scratch. Soviet Union sought to translate
-great poets from Kazakh, Ingush, Dagestani etc, but had to invent them instead.</p>
-
-<p><em>Decorative foreignism</em>: When translating a character from one language to
-another, how do you preserve their cultural essence? One approach is to preserve
-interjections (eg. Gregor Samsa would have exclaimed "Ach Gott!"), but this only
-works when readers are assumed to know some phrases of the other language, so
-only for languages that share history (for English, German &amp; French, but not
-Chuvash).</p>
-
-<p><em>L1 and L2</em>: Translating into your own native language (L1) vs. translating from
-your native language into one you are less familiar with (L2). Most literature
-is L1, but things like Engrish is definitely L2.</p>
-
-<p><em>Up vs down translation</em>: Up refers to higher prestige or more readers. Like
-translation into French from Russian during the 19th century. Or anything into
-English these days. Down is the opposite: translating the Bible from Hebrew to
-anything. Translating up tends to remove all traces of the original culture but
-down tends to preserve it because its perceived as important.</p>
-
-<p><em>Languages and conquest</em>: Sumerian was the up translation target for 3000 years.
-This despite the fact that Sumer was conquered by Akkad, who decided to keep the
-language and culture. Similarly, Greek language and culture became dominant
-despite conquest by Rome. So the economic military bad political expansion
-doesn’t directly relate to cultural dominance.</p>
-
-<blockquote>
-  <p>A culturally dominant language is one that maintains significant volumes of
-  translation activity between itself and a significant number of languages</p>
-</blockquote>
-
-<p><em>Languages are interesting</em>: Kuuk Thaayorre from Australia lay out ordered
-objects from east to west rather than left to right. In Hopi there’s a concept
-of evidentials. Words change depending on whether they are in the field of view.
-So “the farmer killed the duck” doesn’t have enough info to translate to Hopi.</p>
-
-<p><em>Mistrust and translation</em>: When British PMs talks to French president they each
-bring their own interpreter out of fear of imperfect or deceptive performance.
-<a href="https://en.wikipedia.org/wiki/Dragoman">Turkish dragomans</a> who would make the
-Ottoman decrees more palatable to other monarchs. Adage: traddutore/traditore.
-(But this may just be a coincidence).</p>
-
-<p><em>Asymmetry of translation</em>: There are few vehicular languages (regional lingua
-franca) between which vast majority of translation occurs. There are far more
-non-vehicular native tongues. Even among the vehicular there are great
-disbalances, eg Swedish gets as much attention as Chinese despite 100x fewer
-speakers. English is the dominant language today, 65% of all translations are
-from English and 7% are into English. To really do well globally you need to
-read and write English. </p>
-
-<p><em>Hub languages</em>: It’s common for English to be used as the inter-language too,
-for example for going from Chinese to English to {Finnish, Estonian, Latvian,
-etc}. Simultaneous translation also uses a hub and spoke model. Rather than
-going N to N languages at the EU, and requiring N^2 interpreters, use a hub
-language like German so everyone translates to and from German instead, only
-requiring 2N. Bizarre that most translators into English are amateurs, despite
-being important in the global translation flow (as a hub language). Translators
-into Japanese are revered and have almost author like status. </p>
-
-<p><em>Translation vs. language learning</em>: In India, there was historically very
-little translation between regional languages. (Translation is always a crutch
-for our inability to quickly learn other languages.)</p>
-
-<p><em>Gestures as a language universal</em>: Moving hands while speaking (not reading
-aloud) is done in all languages. Interesting commonality between eating and
-speaking, both requiring hands and mouth. Many other examples of universal
-gestures: slapping someone on the back, punch to the gut, shrug of shoulders.</p>
-
-<p>Random tidbits:</p>
-
-<ul>
-<li>Some languages make distinctions between spoken and written words, eg. paroles
-vs mots in French.</li>
-<li>Adair translated Poe's Raven into <a href="https://www.reddit.com/r/AVoid5/comments/5fb8d8/adairs_translation_of_th_ravn_from_a_void_is/">The Black Bird</a>
-without using the letter "e".</li>
-<li>Eskimo has 40 words for snow, but English has 40 words for coffee.</li>
-</ul>
-
-<p>Questionable claims:</p>
-
-<ul>
-<li>in German, "spoken word" and "written word" are different words. This doesn't
-seem to be true.</li>
-<li>Humans are unique in their aptitude to vocal learning. Also not true: bird
-songs do it, as do cetaceans and some bats.</li>
-<li>Author feels that translation between modalities (eg. book =&gt; movie) is about
-as relevant as translating flour into noodles. Cool story.</li>
-</ul>
-
-<p>I end with food for thought:</p>
-
-<blockquote>
-  <p>Babel tells the wrong story. The most likely original use of human speech was
-  to be different, not the same.
-  [...]
-  Languages merge when peoples do.
-  [...]
-  Translating is a first step towards civilization.</p>
-</blockquote>
 
 
         

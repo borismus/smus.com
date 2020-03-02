@@ -5,11 +5,11 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-02-12T09:15:17-00:00</updated>
+  <updated>2020-03-02T10:25:30-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
-    <title>Visual Chronology of Science & Discovery</title>
+    <title>Visual Chronology of Science &amp; Discovery</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/visual-chronology-science-discovery"/>
     
@@ -110,6 +110,8 @@
 <p>Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! </p>
 
 <p>I’ll update this post as more of the spreadsheet is filled out. Meanwhile, thanks for reading and stay tuned – I have a few follow up posts in mind already.</p>
+
+<p><strong>Update Feb 23</strong>: People seem to be interested in the project; excellent! I’ve <a href="https://github.com/borismus/asimov">open sourced</a> the visualization code.</p>
 
 
         
@@ -253,7 +255,7 @@
   </entry>
   
   <entry>
-    <title>Link's Awakening LEGO Mosaic</title>
+    <title>Link&#39;s Awakening LEGO Mosaic</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/zelda-lego"/>
     
