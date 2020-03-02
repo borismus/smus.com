@@ -9,7 +9,7 @@
   <id>{{site.domain}}/atom.xml</id>
   {% for post in posts %}
   <entry>
-    <title>{{post.title}}</title>
+    <title>{{post.title | escape}}</title>
     <author><name>Boris Smus</name></author>
     <link href="{{site.domain}}{{post.permalink}}"/>
     {% if post.date_created %}
