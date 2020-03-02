@@ -10,7 +10,7 @@ Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Scienc
 
 <!--more-->
 
-One of the unnerving things about Asimov’s book was the visual table of contents for the first edition:
+One of the unnerving things about Isaac Asimov’s book was the visual table of contents for the first edition:
 
 ![Winding visualization of Asimov’s Chronology in the first edition.](original-visualization.jpg)
 
@@ -89,3 +89,5 @@ If you’re game to help, here are the necessary pieces:
 Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! 
 
 I’ll update this post as more of the spreadsheet is filled out. Meanwhile, thanks for reading and stay tuned – I have a few follow up posts in mind already.
+
+**Update Feb 23**: People seem to be interested in the project; excellent! I’ve [open sourced](https://github.com/borismus/asimov) the visualization code.
