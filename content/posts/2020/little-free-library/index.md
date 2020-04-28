@@ -6,8 +6,6 @@ When my sailing class was canceled back in early March, I realized it was time f
 
 ![Little free library photo](little-free-library.jpg)
 
-Here are some [more photos](https://photos.app.goo.gl/K3xP2XjPmUQ2bX1N7) that document the making of process.
-
 <!--more-->
 
 I drafted some [initial plans in OnShape](https://cad.onshape.com/documents/d57c2f5444558be437e513c4/w/9e862248a8541fe7ce7a38a6/e/3efc51d554390f104d869fa6), and deviated from them only slightly, the main difference being a much smaller front-right panel to make book access easier. As I became familiar with woodworking tools, I became a little bit less rigid and precise with measurements. 
@@ -38,7 +36,7 @@ I drafted some [initial plans in OnShape](https://cad.onshape.com/documents/d57c
 - Don’t rely on the guide of the circular saw. Instead, look at what the blade is actually doing at the cut point. I had a few rough cuts early on.
 - Use a protractor in order to measure 45 degree angles more accurately, which I found tricky to do through thick 4x4 fence posts (circular saw radius was too small, had to use a hand saw)
 
-The results are passable but honestly, a little bit sloppy. Build quality aside, I’m thrilled to see actual use: the roster of books changing quickly. My initial dump of philosophy books was partially picked off, and then swiftly amended. I had predicted very little movement during the pandemic because of decreased foot traffic and increased paranoia about touching public things, but was sorely mistaken.
+Here are some [more photos](https://photos.app.goo.gl/K3xP2XjPmUQ2bX1N7) that document the process. The results are passable but honestly, a little bit sloppy. Build quality aside, I’m thrilled to see actual use: the roster of books changing quickly. My initial dump of philosophy books was partially picked off, and then swiftly amended. I had predicted very little movement during the pandemic because of decreased foot traffic and increased paranoia about touching public things, but was sorely mistaken.
 
 Many thanks to Matthew for the pro-tips and help!
 
