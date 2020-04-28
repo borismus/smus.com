@@ -5,8 +5,70 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-04-13T21:49:12-00:00</updated>
+  <updated>2020-04-28T14:26:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>DIY Community Library</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/little-free-library"/>
+    
+    <updated>2020-04-25T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/little-free-library</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>When my sailing class was canceled back in early March, I realized it was time for a more individualistic hobby. And so, I furled the sails and tied up the boat and picked up a circular saw from the hardware store. After I got over my fears of loud, terrifyingly quickly spinning metal blades, a whole bunch of cutting and screwing, then digging and painting, I have a Little Free Library standing outside my house, and a little bit more confidence for the next woodworking project!</p>
+
+<p><img src="/little-free-library/little-free-library.jpg" alt="Little free library photo" /></p>
+
+<p>Here are some <a href="https://photos.app.goo.gl/K3xP2XjPmUQ2bX1N7">more photos</a> that document the making of process.</p>
+
+<!--more-->
+
+<p>I drafted some <a href="https://cad.onshape.com/documents/d57c2f5444558be437e513c4/w/9e862248a8541fe7ce7a38a6/e/3efc51d554390f104d869fa6">initial plans in OnShape</a>, and deviated from them only slightly, the main difference being a much smaller front-right panel to make book access easier. As I became familiar with woodworking tools, I became a little bit less rigid and precise with measurements. </p>
+
+<h2>Materials</h2>
+
+<ul>
+<li>A very long plank of scrap wood found in my basement, 20mm deep was enough for structural materials.</li>
+<li>30 or so brass screws</li>
+<li>6 long screws</li>
+<li>A fence post</li>
+<li>Self-closing hinges and a button</li>
+<li>Exterior-grade paint</li>
+<li>A sheet of thin scrap plywood for shingles</li>
+<li>Plexiglass sheet</li>
+<li>Circular saw</li>
+<li>Electric drill</li>
+<li>Silicone mat</li>
+<li>Caulk</li>
+<li>Hammer</li>
+<li>Shovel</li>
+<li>Wood hand saw</li>
+<li>Probably lots more</li>
+</ul>
+
+<h2>Mistakes and learnings:</h2>
+
+<ul>
+<li>Don’t use brass screws, they are fragile. I broke two of them as I was screwing them. Instead, use steel. It’s cheaper and far stronger.</li>
+<li>Don’t rely on glue for shingles. They warp, so use nails to hammer them on. I had to do this after it rained and they warped, despite a copious amount of glue.</li>
+<li>Don’t rely on the guide of the circular saw. Instead, look at what the blade is actually doing at the cut point. I had a few rough cuts early on.</li>
+<li>Use a protractor in order to measure 45 degree angles more accurately, which I found tricky to do through thick 4x4 fence posts (circular saw radius was too small, had to use a hand saw)</li>
+</ul>
+
+<p>The results are passable but honestly, a little bit sloppy. Build quality aside, I’m thrilled to see actual use: the roster of books changing quickly. My initial dump of philosophy books was partially picked off, and then swiftly amended. I had predicted very little movement during the pandemic because of decreased foot traffic and increased paranoia about touching public things, but was sorely mistaken.</p>
+
+<p>Many thanks to Matthew for the pro-tips and help!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Visual Chronology of Science &amp; Discovery</title>
@@ -8475,182 +8537,6 @@ based on interoperability: cross-linking, cross-embedding, and API
 mashups. While this new web of things is still in its infancy, it's
 especially important that we nurture the same principles that made the
 early web so great.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Reusable JavaScript for MVC frameworks</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/reusable-js-mvc-frameworks"/>
-    
-    <updated>2012-11-06T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/reusable-js-mvc-frameworks</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>These days, I write a lot more code, and my projects have increased in
-complexity. Often, a single application brings many kinds of data
-sources and bleeding edge web features together. On the other hand, most
-of what I build are prototypes, which need to be churned out quickly,
-work reliably in demos, and look/feel good.</p>
-
-<p>MVC frameworks help write UI code much more quickly, but there are
-drawbacks too: there are too many to choose from, they don't
-interoperate with one another, and if you want to release parts of your
-code to the open source community, only those developers that use the
-same framework will benefit. The solution is to create a clear
-separation between core application logic and MVC UI code. This way you
-can reuse a lot of code and reduce switching costs.</p>
-
-<!--more-->
-
-<p>Before jumping in, here's a diagram of the approach:</p>
-
-<p><img src="/reusable-js-mvc-frameworks/mvc-js-layers.svg" alt="diagram" /></p>
-
-<p>The rest of the post is about interop problems with JS MVC frameworks,
-and a closer look reasons for taking the above approach.</p>
-
-<h2>MVC frameworks are great</h2>
-
-<p>One of my key requirements is to be able to build user interfaces
-<strong>quickly</strong>. This means that writing in pure JavaScript is out of the
-question, because it simply doesn't provide a high enough layer of
-abstraction for highly interactive user interfaces, and reduces to
-spaghetti code in just a couple of days. Instead of raw JS, use an model
-view controller (MVC) framework.</p>
-
-<p>My current weapon of choice is <a href="http://emberjs.com/">Ember.js</a>, mostly because it
-makes many decisions that I agree with, providing easy two-way binding,
-a sane templating syntax, observers and computed properties. All-in-all,
-it is pretty effective for whipping up consistent UIs quickly.</p>
-
-<p>But there are problems with buying into an MVC framework.</p>
-
-<h2>JS libraries are like insects</h2>
-
-<p>JavaScript frameworks are like insects. There are thousands of them,
-they move very quickly, and generally have very short life spans.</p>
-
-<p>If you've ever taken a hiatus from client-side web development, you were
-probably overwhelmed with the amount of new stuff available when you
-returned. The flipside is that many of the frameworks you were familiar
-with could have easily disappeared. To be fair, some winners have
-emerged in the past, most notably in the utility frameworks, where
-jQuery has risen to the top, and Prototype has fallen to obscurity. In
-MVC frameworks, however, there are many interesting contenders and, as I
-wrote earlier, still <a href="http://smus.com/backbone-and-ember/">no clear winner</a>.</p>
-
-<p>So at this stage, going all-in in on a framework may be a bad idea,
-because what if the community moves on to something else? What if the
-framework developers get bored, stop caring or cease maintenance for
-some other reasons? I have this feeling all the time, despite framework
-authors promises to the contrary. And this is the case even though I
-build mostly prototypes with relatively short life spans.</p>
-
-<h2>Switching cost between MVC frameworks is high</h2>
-
-<p>Once you bite the bullet and decide to invest in a framework, you often
-have no easy way to move your code out of it. If you pick Backbone, but
-decide mid-cycle that it's not for you, you are in for a world of hurt:</p>
-
-<p>Not only do your Models and Views not share the same base classes, they
-don't even use the same <strong>class system</strong>. Backbone and Ember provide
-their own class systems that are not compatible. This is a ridiculous
-problem to have, and one unique to JavaScript, which provides a
-prototypal inheritance system which is so inconvenient, there are about
-<a href="http://goo.gl/hqAHD">a million libraries</a> that add OO-style classes to the
-language.</p>
-
-<ol>
-<li>Those who use or invent a custom class system in JavaScript that
-looks more like traditional OO.</li>
-<li>Those who don't believe in classes, or think that JavaScript provides
-enough through prototypal inheritance.</li>
-</ol>
-
-<p>For the reasons outlined above, I'm very much in favor of the former
-option: having a language-level class abstraction. This seems to be
-<a href="http://h3manth.com/content/classes-javascript-es6">coming soon in ECMAScript 6</a>, and will basically provide
-syntactic sugar on top of prototypal inheritance. Having a consistent
-class and module system is one of the main reasons why languages like
-<a href="http://www.dartlang.org/">Dart</a>, <a href="http://www.typescriptlang.org/">TypeScript</a> and <a href="http://coffeescript.org/">Coffeescript</a> are increasingly
-appealing to me.</p>
-
-<h2>Coding to a framework restricts your audience</h2>
-
-<p>Because of a lack of interoperability between frameworks and their class
-systems, if you write non-UI code using a framework, only users of that
-framework will use your code. It's very unlikely that someone building
-an Ember application will want to use your library that uses Backbone
-objects. </p>
-
-<p>Often your collaborators may have varied tastes and prefer one framework
-over another, but including multiple MVC frameworks in the same
-application gets messy quickly. If you have core functionality that you
-want to release, release it in pure JavaScript, not as a jQuery plugin,
-or Ember module. Of course use prototypal inheritance and proper
-abstraction (or at least, as proper as JS can provide).</p>
-
-<h2>Solution: defensive architecture</h2>
-
-<p>To avoid framework and class-system lock-in, I have taken a slightly
-different approach to developing with JavaScript MVC frameworks. It
-affords the convenience of building a UI with MVC, but keeps the core
-of the application flexible.</p>
-
-<p>The basic idea is to separate the core functionality of the application
-from the user interface into two separate layers. With this separation,
-you can implement the two layers differently:</p>
-
-<ol>
-<li><p>Build the base layer using pure JavaScript prototypal inheritance.
-This is the part you write with the intention of keeping for later.
-This base layer will need an API that you will want to spend a bit of
-time honing.  To make the separation crystal clear, you can think of the
-UI as a client that uses this API as if it were on the server. This way
-you can avoid creating leaky abstractions.</p></li>
-<li><p>Use an MVC framework to implement the UI, and call into the base
-layer directly. This lets you move quickly and focus entirely on writing
-the user interface. This architecture lets you build your UI on a solid
-foundation and avoid getting stuck.</p></li>
-</ol>
-
-<h2>Benefits of this approach</h2>
-
-<p>You get many benefits by taking this approach:</p>
-
-<ol>
-<li><p>If you want to scrap your existing UI and write a new one very
-quickly, you can easily do this and still reuse large chunks of your
-logic.</p></li>
-<li><p>Clear layer separation leads to more maintainable code.</p></li>
-<li><p>Easy to ship the underlying core functionality as a library or
-standalone module.</p></li>
-<li><p>Easy to write unit tests for the core functionality of the
-application. Unit tests aren't well suited to user interface code
-anyway.</p></li>
-</ol>
-
-<h2>This is why we can't have nice things</h2>
-
-<p>The lack of a widely used class system is ridiculous. The sheer number
-of different JS class systems is a clear signal that this is a big
-omission in the language. Similarly for MVC frameworks. A renewed
-interest in JavaScript MVC shows that the web platform needs something
-built-in to address this problem.</p>
-
-<p>All other widely used programming languages provide a consistent class
-system, and popular platforms provide a framework for separating
-application logic and user interface. Until these things come to the
-web, I'll continue to have second thoughts about embracing any
-particular MVC framework or custom class system.</p>
 
 
         

@@ -5,8 +5,70 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-04-13T21:49:12-00:00</updated>
+  <updated>2020-04-28T14:26:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>DIY Community Library</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/little-free-library"/>
+    
+    <updated>2020-04-25T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/little-free-library</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>When my sailing class was canceled back in early March, I realized it was time for a more individualistic hobby. And so, I furled the sails and tied up the boat and picked up a circular saw from the hardware store. After I got over my fears of loud, terrifyingly quickly spinning metal blades, a whole bunch of cutting and screwing, then digging and painting, I have a Little Free Library standing outside my house, and a little bit more confidence for the next woodworking project!</p>
+
+<p><img src="/little-free-library/little-free-library.jpg" alt="Little free library photo" /></p>
+
+<p>Here are some <a href="https://photos.app.goo.gl/K3xP2XjPmUQ2bX1N7">more photos</a> that document the making of process.</p>
+
+<!--more-->
+
+<p>I drafted some <a href="https://cad.onshape.com/documents/d57c2f5444558be437e513c4/w/9e862248a8541fe7ce7a38a6/e/3efc51d554390f104d869fa6">initial plans in OnShape</a>, and deviated from them only slightly, the main difference being a much smaller front-right panel to make book access easier. As I became familiar with woodworking tools, I became a little bit less rigid and precise with measurements. </p>
+
+<h2>Materials</h2>
+
+<ul>
+<li>A very long plank of scrap wood found in my basement, 20mm deep was enough for structural materials.</li>
+<li>30 or so brass screws</li>
+<li>6 long screws</li>
+<li>A fence post</li>
+<li>Self-closing hinges and a button</li>
+<li>Exterior-grade paint</li>
+<li>A sheet of thin scrap plywood for shingles</li>
+<li>Plexiglass sheet</li>
+<li>Circular saw</li>
+<li>Electric drill</li>
+<li>Silicone mat</li>
+<li>Caulk</li>
+<li>Hammer</li>
+<li>Shovel</li>
+<li>Wood hand saw</li>
+<li>Probably lots more</li>
+</ul>
+
+<h2>Mistakes and learnings:</h2>
+
+<ul>
+<li>Don’t use brass screws, they are fragile. I broke two of them as I was screwing them. Instead, use steel. It’s cheaper and far stronger.</li>
+<li>Don’t rely on glue for shingles. They warp, so use nails to hammer them on. I had to do this after it rained and they warped, despite a copious amount of glue.</li>
+<li>Don’t rely on the guide of the circular saw. Instead, look at what the blade is actually doing at the cut point. I had a few rough cuts early on.</li>
+<li>Use a protractor in order to measure 45 degree angles more accurately, which I found tricky to do through thick 4x4 fence posts (circular saw radius was too small, had to use a hand saw)</li>
+</ul>
+
+<p>The results are passable but honestly, a little bit sloppy. Build quality aside, I’m thrilled to see actual use: the roster of books changing quickly. My initial dump of philosophy books was partially picked off, and then swiftly amended. I had predicted very little movement during the pandemic because of decreased foot traffic and increased paranoia about touching public things, but was sorely mistaken.</p>
+
+<p>Many thanks to Matthew for the pro-tips and help!</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Visual Chronology of Science &amp; Discovery</title>
@@ -163,8 +225,12 @@
 <li>Try to install a radar system with one job: Searching for chances to give a compliment. <a href="https://www.psychologytoday.com/us/blog/everybody-is-stupid-except-you/201812/compliments-how-get-happy-and-make-better-world">Compliments: How to Get Happy and Make a Better World</a></li>
 <li>Warren Buffett’s metric of success is “Do the people you care about love you back?” <a href="https://www.gatesnotes.com/About-Bill-Gates/Year-in-Review-2018">What I learned at work this year</a></li>
 <li>As Edelman points out, if YouTube really cared about our intentions and values, when we logged on to learn ukulele it would try to serve that need — and then send us off to practice! <a href="https://time.com/5505431/internet-feel-awful-dignity/">The Internet Can Make Us Feel Awful. It Doesn't Have to Be That Way</a></li>
-<li>Wisdom as the ultimate virtue. Really solid framing in favor of centrism. <a href="https://www.shanesnow.com/articles/values/">How to be good: A theory about Virtues &amp; Values</a>
-\<!--more--></li>
+<li>Wisdom as the ultimate virtue. Really solid framing in favor of centrism. <a href="https://www.shanesnow.com/articles/values/">How to be good: A theory about Virtues &amp; Values</a></li>
+</ul>
+
+<!--more-->
+
+<ul>
 <li>From 1200 to 1745, 21-year-olds would reach an average age of anywhere between 62 and 70 years. <a href="https://www.bbc.com/future/article/20181002-how-long-did-ancient-people-live-life-span-versus-longevity">Do we really live longer than our ancestors?</a></li>
 <li>Nick Cave isn’t just an awesome musician, but is also quite eloquent. “What we are actually listening to is human limitation and the audacity to transcend it.” <a href="https://www.brainpickings.org/2019/01/24/nick-cave-music-ai/">Music, Feeling, and Transcendence: Nick Cave on AI, Awe, and the Splendor of Our Human Limitations</a></li>
 <li>Seismic air guns are widely used to map the sea floor. They are incredibly loud and disruptive to ocean fauna. <a href="https://www.nytimes.com/2019/01/22/science/oceans-whales-noise-offshore-drilling.html">Oceans Are Getting Louder, Posing Potential Threats to Marine Life</a></li>
@@ -6176,146 +6242,6 @@ Audio project</a>, in the spirit of WebVR.</li>
 <li>Not web-based, but a painstakingly recorded and tweaked <a href="https://www.youtube.com/watch?v=IUDTlvagjJA">binaural
 haircut simulation</a> just to illustrate the potential.</li>
 </ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Responsive WebVR, headset optional</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/responsive-vr"/>
-    
-    <updated>2015-02-02T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/responsive-vr</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>VR on the web threatens to cleave the web platform in twain, like mobile
-did before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web
-Design</a>, which websites to scale well for all form factors.
-Similarly, for VR to succeed on the web, we need to figure out how to
-make VR experiences that work both in any VR headset, and also without a
-VR headset at all.</p>
-
-<p><img src="/responsive-vr/hmds.png" alt="Various head mounted displays." /></p>
-
-<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building
-responsive web VR experiences that work on popular VR headsets and
-degrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a
-simple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>
-
-<!--more-->
-
-<h2>Preview the VR experience for everyone</h2>
-
-<p>Say you visit a webpage, and it opens up in split-screen mode barrel
-distortion, chromatic aberration correction, personalized interpupillary
-distance, and provides 6 DOF tracking. <a href="https://www.youtube.com/watch?v=PkFyGNjaQ8k">Whoa</a>. You reach for your
-VR headset only to find that you forgot it at work! How disappointing!
-The vast majority of normal people with no head mounted display lying
-around will surely be even more disappointed.</p>
-
-<p>Responsive web design promises content which automatically adapts to
-your viewing environment by using fluid layouts, flexible images,
-proportional grids; a cocktail of modern web technologies. Similarly,
-WebVR experiences need to work even without VR hardware. This has two
-obvious advantages:</p>
-
-<ol>
-<li>The vast majority of people that don't have VR hardware can still get
-a feeling for the experience.</li>
-<li>Even if you have VR gear, donning it is a pain. This preview lets you
-quickly evaluate whether or not wearing is worth the hassle.</li>
-</ol>
-
-<p>What are some reasonable fallbacks to the in-helmet VR experience? The
-main question boils down to emulating head tracking without wearing
-anything on your head. On mobile phones, the obvious answer is to use
-the gyroscope, for a <a href="http://googlespotlightstories.com/">Spotlight Stories</a>-type experience. On
-desktop, we use the mouse to free-look, and also support turning using
-the arrow keys. This covers enough of the 3DOF orientation that all HMDs
-provide. Clearly missing are the three translational degrees of freedom,
-but these are provided only by some VR headsets, and we can imagine some
-<a href="http://topheman.github.io/parallax/">interesting fallbacks</a> for those too.</p>
-
-<h2>Write once, run in any VR headset</h2>
-
-<p>Remember the old "write once, run anywhere" promise? The web is the
-closest thing we have to fulfilling it, but what it actually delivers is
-often far from this ideal. The latest VR wave has barely begun and
-already the web VR world is fragmented. Case in point,
-<a href="http://vr.chromeexperiments.com/">vr.chromeexperiments.com</a> don't work on Oculus, and
-<a href="http://mozvr.com/">mozvr.com</a> demos don't work in Cardboard.  The promise of WebVR
-is that once it lands, all will be well in the world. However, this
-means that we need to wait for WebVR to become fully baked. In other
-words, we are blocked on the valiant efforts of our dear <a href="https://twitter.com/vvuk">WebVR</a>
-<a href="https://twitter.com/Tojiro">implementers</a> (as well as the heavyweight browser development
-process consisting of spec authors, security reviews, binary size, etc).</p>
-
-<p>To speed up the process, we need a polyfill for WebVR which uses web
-APIs to provide functionality to the WebVR specification (currently, in
-<a href="https://github.com/vvuk/gecko-dev/blob/oculus/dom/webidl/VRDevice.webidl">IDL form</a>). In the absence of a WebVR implementation, the polyfill
-kicks in and supports mobile VR headsets like Cardboard and Durovis
-Dive, which are passive contraptions that just piggyback on the
-smartness found in your smartphone.</p>
-
-<h2>Introducing: WebVR Boilerplate</h2>
-
-<p>The <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> is on github, and consists of
-two parts. Firstly, the <a href="https://github.com/borismus/webvr-polyfill">WebVR polyfill</a> provides WebVR
-support for Cardboard-compatible devices, and orientation tracking
-fallbacks where no headset is available. The WebVR polyfill can also be
-installed from npm (available via <code>npm install webvr-polyfill</code>).</p>
-
-<ol>
-<li>A <code>CardboardHMDDevice</code>, provides a reasonable default for
-interpupillary distance and field of view for cardboard-like devices.</li>
-<li>On mobile devices, a <code>GyroPositionSensorVRDevice</code>, which provides
-orientation through the <code>DeviceOrientationEvent</code>.</li>
-<li>On PCs, a <code>MouseKeyboardPositionSensorVRDevice</code>, which provides
-orientation through keyboard and mouse events.</li>
-</ol>
-
-<p>It is designed to be used with <a href="http://threejs.org/">THREE.js</a> plugins that are built
-for the WebVR API: <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js">VRControls.js</a> and
-<a href="https://github.com/mrdoob/three.js/blob/master/examples/js/effects/VREffect.js">VREffect.js</a>, but of course any valid usage of the WebVR API
-should work (modulo bugs).</p>
-
-<p>Secondly, the <a href="https://github.com/borismus/webvr-boilerplate/blob/master/js/webvr-manager.js">WebVR manager</a> surfaces VR compatibility
-using consistent iconography and simplifies transitioning in and out of
-full VR mode. It also contains some of the best practices for making VR
-work on the web, for example, using orientation lock to keep the phone
-in landscape orientation, and a means of keeping the phone screen on. If
-you're ready to dive in, the <a href="https://github.com/borismus/webvr-boilerplate">github has all of the technical
-information</a> available.</p>
-
-<p>WebVR boilerplate is meant to make it easy to develop immersive
-experiences that run on all VR hardware, including Oculus and Cardboard,
-and also provide reasonable fallbacks when no specialized viewer is
-available.</p>
-
-<h2>WebVR boilerplate in action</h2>
-
-<p><img src="/responsive-vr/sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>
-
-<p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the
-eponymous town on British Columbia's beautiful Sunshine Coast. I've
-<a href="http://borismus.github.io/sechelt">ported it</a> to WebVR Boilerplate. The result is the same
-demo, which works in Cardboard, as well as continuing to work on desktop
-and mobile devices, and on the Oculus Rift via <a href="https://nightly.mozilla.org/">Firefox Nightly</a> and
-<a href="https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&amp;usp=sharing#list">Brandon's WebVR Chrome builds</a>. It also yielded less confusing
-boilerplate code and a <a href="https://github.com/borismus/sechelt/commit/671cff9fc283b58d2ebce0ae6f0dfa3580050aab">simplified code base</a> since
-there is no longer need for an unweildy conditional to determine whether
-to use <code>DeviceOrientationControls</code>, <code>OrbitControls</code>, or <code>VRControls</code>,
-and decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>
-
-<p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point
-out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>
 
 
         
