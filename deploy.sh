@@ -1,10 +1,15 @@
 #!/usr/bin/env sh
 
 DEPLOY_PATH=$HOME/Blog/deploy
-LIGHTNING=/Users/smus/Projects/lightning/lightning
+LIGHTNING=$HOME/Projects/lightning/lightning
 LIGHTNING_CONFIG=$PWD/lightning.yaml
 
 # Assuming deploy path exists and is a remote copy of gh-pages.
+if [[ ! -d $DEPLOY_PATH ]]
+then
+    echo "$DEPLOY_PATH doesn't exist. Quitting."
+    exit
+fi
 pushd $DEPLOY_PATH
 
 # Reset the gh-pages branch to master.

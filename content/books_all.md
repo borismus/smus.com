@@ -4,6 +4,191 @@ class: split
 type: book
 
 
+Selected Short Stories of Philip K. Dick
+===
+posted: April 24, 2020
+rating: yes
+
+Almost every story in this collection elicits a “wow” and “yikes” gut reaction from me. Well written and original, many of these have been adapted into movies. 
+
+These stories do show some signs of aging: Cold War politics, Mechanical computers, Robots. But this makes them more authentic and gives them a distinct feeling. And while many things have changed, many others have not: Russia is still (again?) America’s adversary, Robots are still cool, and all of the tech nerds are obsessed with Mars. More fundamentally, Dick’s stories grapple with paranoia and mental instability, god, Dogs, the nature of reality, the evils of authoritarianism, and the banality of American consumerism.
+
+These stories are dark, irreverent, funny, and sometimes profound. Highly recommended!
+
+## Beyond Lies the Wub ★
+
+A large pacifist pig is mysteriously telepathic. It just wants to have philosophical discussions with you. But Captain Franco is hungry. He kills the Wub and eats it. His crew is disgusted by such despicable behaviour. But by the end of their dinner, Franco appears to be in a strangely philosophical frame of mind...
+
+Is Franco a Wub now? Did the Wub become a pig from someone else? Is the Wub external to both?
+
+## Roog
+
+A dog’s perspective. Boris the Guardian (dog) sees Roogs (garbage men) and guards his humans. Primitive but cute. 
+
+## Paycheck
+
+A mechanic is hired by a company doing advanced research. They pay well under the condition that they wipe his memories while he worked there. (Did this happen multiple times already?) Eventually, wanting to break the loop, the mechanic figures out a way to exact revenge.
+
+PKD is obsessed with my name. The protagonist in this story has a Boris gun. (That said, this and the previous story are the only Borises featured in this collection).
+
+## Second variety ★
+
+Following a nuclear winter started by the Russians, the Americans avoid complete defeat by retreating to the moon. As a resistance movement, The Americans develop robots built in autonomous underground factories. These robots self-improve and eventually become indistinguishable from humans, and exploit human emotion ruthlessly: type 1 is a small child clutching a teddy bear, Type 3 is a wounded soldier. 
+
+The story and world building is epic and extremely creepy. The story arc culminates when an American Major is left alone with 3 supposed Russians, one of which is a cylon of type 2. The crux is that it's not clear how many types there are in total, and this all plays out very dramatically, although I had some inkling of where things were going. Apparently the basis for “Screamers”.
+
+## Imposter
+
+Another thriller of AIs and robots so convincing that even the robot itself can be a hundred percent convinced that it is in fact the person that it is emulating. Not a new idea even at Dick’s time but well executed.
+
+## King of the Elves ★
+
+Cinematic and original take on insanity. The parallel worlds of gas station attendant and elf troll conflict is really compelling. It remains unclear which one is reality. I guess this is Dicks superpower: parallel un-realities. What is reality anyway?
+
+## Adjustment Team ★
+
+Very stressful read. All of PKD seems to be like this: the protagonist discovers a crazy thing about reality, and is finds himself in an impossible situation where he is questioning his own sanity while trying to prove to someone that he is actually right. 
+
+An active God with a crazy plan to end the Cold War! I so love it when religion and science fiction meet. And comedy. I love the impeccable timing of annoying door to door vacuum and life insurance salesmen. 
+
+And another God-like dog. PKD is obsessed with dogs. I wonder if it's because dog is god backwards. I bet he had that thought more than once.
+
+## Foster You’re Dead
+
+Ok. A little much for these COVID-19 times... All about a new American consumerism, stemming from over zealous cold warriors obsessed with survivalism. Mike's father is “anti-P”, a non survivalist without a backyard nuclear shelter. Eventually he caves in to the social pressure, but realizes he can't afford it. 
+
+Pretty good overall and timely in terms of survivalism being trendy. but slightly dated, in that consumer culture feels less pervasive. That said, I could see this coming back with something like [in-home PCR machines](https://medium.com/@RickByers/the-dawn-of-personal-biotech-cb0af0d52e4c).
+
+## Upon the Dull Earth
+
+A uniquely creepy story featuring a young wife who finds an alien swarm of drones that call her siren song. Though her husband and family try to dissuade her, she succumbs to the force too soon by accident. In an attempt to bring her back, her husband makes a pact with the alien swarm, which turns her younger sister into her, unexpectedly.
+
+Masterfully crafted, this reads more like horror than science fiction. To the husband’s terror, each person he meets morbidly transforms into his beloved, first all of the members of her family, then their whole town and county, extending out to the whole world. The fear and terror of the despondent husband. Again, is this really happening, or is this an exploration into madness?
+
+## Autofac
+
+In a post h-bomb destroyed world, humans subsist on essential goods that are forcibly delivered to their door. This automatic factory system was set in place as a contingency for when a nuclear war wipes out the world. But it's been a while and people are getting bored. The Autofac is programmed to keep delivering until people can self sustain, but there's one problem: the Autofac production pipeline is stripping earth bare.
+
+Ultimately a super intelligence narrative, this story packs a punch, and is interesting in that it explores human-like competition in a super intelligent species.
+
+## The Days of Perky Pat ★
+
+In a strange reversal, the surviving families of a nuclear war (called “flukies” because they survived due to luck) rely on their young children to get by. Meanwhile the parents spend all their time playing house with dolls. Perky Pat is a doll which is played by playing house in an elaborate game modelling the life that they used to have before the calamity. Their children, oblivious to the before the war, struggle to make ends meet.
+
+A great concept and full of vitriol for consumerism, this story is a bit on the nose in its critique of consumerism, but definitely thought provoking. 
+
+## Precious Artifact ★
+
+During an existential battle between Terra and Proxima, a human terraforming engineer was sent to Mars to develop a colony there. For his years of labor, he was granted reunion with his family. But he wants to see what has come of earth. He insists on a trip, and is met there by a woman who shows him around. But he figures it out and forces Mary to reveal the truth. It quickly becomes clear that Terra lost the war, the woman is from Prox, and that everything he has been seeing is an illusion. His family is all dead, all human females too. All that survived are cats and dogs. 
+
+This story is all about layered deception. As a twist on an already tragic turn of events, it turns out that not even his newly gifted cat is real, merely a simulacrum. Everything is calculated by the Prox state, and there is a level of truth that is beyond anyone's grasp. 
+
+(As I sit here at home for days without seeing my parents and friends, I am starting to feel something unsettling creep in. What if all of these video calls are fake? This is another PKD story in the making.)
+
+## A Game of Unchance
+
+Another Martian colony theme but wildly different from the others. A space-carnival arrives on Mars and the bored colonists end up losing a fortune in the carnival. Anticipating a return, they train up a psi wielding child to trick the carnival games and win big. This pans out but the spoils are tiny autonomous robots that the colonists accidentally activate, leading to mayhem. Interplan come and shut the village down. After a time the carnival returns. This time the winnings are a way to destroy the previous gift. It's as if the carnies had planned this all along. 
+
+## We can remember it for you wholesale
+
+A family man has an unfulfillable dream, an idea fix: to go to Mars. But he has no time and too many obligations. Luckily, there is a way out: he can hire a company to implant false memories about how he'd gone to Mars already, surely that will satisfy him? The company decides to implant the idea that he was a secret agent and sent to mars to kill a rebellion leader. As the man is placed under sedation to begin the memory grafting procedure, but then his real memories return to him: indeed he'd been to mars already as a secret agent and murdered a rebellion leader as instructed by his handlers. 
+
+As he realizes this, more and more memories return. Things get a bit silly, as every false memory that is about to be implanted turns out to be actually true. A clever reversal of the usual pattern of false memories which feel true but are false. 
+
+## Faith of our Fathers ★
+
+Great combination of religion, communism and science fiction. Set in an alternative future where China wins the Cold War, a young ambitious but cynical cadre is rising through the ranks of the CCP. A series of events lead him to take some drugs, and during a boring mandatory speech from the Great Leader, he sees a hallucination of the leader as a terrifying machine. But it turns out the drugs are actually sedatives that suppress his usually hallucinating state. It’s in the air and the water.
+
+His boss presents him with a purity test comparing two essays. A new friend wants to understand more about the great leader and tells him how to tell the correct essay from the false one. (Incidentally they both feature good poems: one from 1001 tales, another a Song for St. Cecilias Day). As he gets promoted through the ranks, he is invited to a dinner party hosted by the great leader. Clandestinely, he takes that same anti-hallucinatory drug and sees the leader for who he truly is: God. He is both good and evil, and he doesn't give a fuck, mortally wounding the protagonist.
+
+Cinematically, the cadre returns to his apartment feeling nihilistic, and, divulging news about the leader to his new girlfriend, dies from his injuries while loving her for the first time. 
+
+Powerfully written but somewhat incoherent. I bet PKD was super high writing this one. 
+
+## The Electric Ant
+
+A man has a workplace injury and loses his hand. The surgeon informs him that the hospital can do nothing to graft his hand back on, because he is a robot. Dick’s description of robotic technology is really quaint, involving lots of tape and visible circuits and whirring motors and such. 
+
+Anyway it's not so much about the fact that the man is a robot, but that he realizes that he can self-tinker and change his own perception by reprogramming various internal tapes and circuits. By punching a few extra holes in his tape he can see a park bench appear in his room, or a flock of ducks. Eventually he commits suicide by snipping his tape in a failed experiment. And as it turns out, in a somewhat juvenile “then he woke up” twist, his own subjectivity was intimately tied to everyone else's. A bit of a solipsistic mind-fuck, this one. 
+
+## A Little Something for Us Tempunauts
+
+One of the weaker stories in the collection, and thoroughly confusing because it's time travel related (never goes well). Set in an era of pioneer time travellers in the US, very much analogous to the Moon craze. A group of three time travellers suffer a fatal accident as they advance insufficiently far into the future and die. As they travel forward in time, they stop to see what their funeral processions are like.
+
+The story takes a bizarre turn when it turns out that they want to be perpetually stuck in a time loop to relive their glory forever. And somehow they bring the rest of earth into this time loop with them. Shrug?
+
+## The Exit Door Leads In
+
+In an Idiocracy-like future, a promising young Mr. Bibleman is noticed by the system, and wins a golden ticket to enrol in a military college. The sergeant administrator gives an introductory speech, indicating that students are not to be exposed to classified information. Bibleman is forced into a major focusing on pre-Socratic philosophy, which bores him. But on his very first day, he stumbles upon schematics for secret classified Panther Drive, which turns out to be general purpose technology for generating cheap energy. If released to the general public, such technology would be a boon to many suffering people. Should he leak it? What would the consequences be?
+
+He is quickly caught by the sergeant, and forced to make a decision on an accelerated timeframe. Under pressure, he returns the printout out of a sense of loyalty, although it’s a tough decision for him. Disappointed, the sergeant boots him from the college. He should have made an independent judgement and leaked the memo instead. The whole College was a setup intended to filter out independent thinkers from conformists.
+
+PKD makes a provocative claim: society self destructed because of complacency and rule following. Fuck loyalty and think for yourself. Surprisingly non-subtle and didactic, but an effective way to deliver the message.
+
+## Rutavaara’s Case
+
+After resuscitating Rutavaara, one of the three person crew who died in an astronautics accident, the Proxians watch her mind’s eye replay her last living moments. But this time, Jesus Christ is also apparent. It's funny already, just because of the irreverent way in which Philip K. Dick uses Christ. In a bizarre twist, the Proxians decide to take advantage of the opportunity and introduce their own version of Christ into Rutavaara’s dream. Christ died for our sins, but the Proxian Christ (a sort of anti-Christ) kills for your sins, and so it was in Rutavaara’s terrifying mind. Instead of taking communion, you get eaten.
+
+Interestingly written as a sort of apology from the Proxian perspective. The narrator appears to apologize to their deity. He concludes that the earthlings are thoroughly wrong about their umwelt. Meanwhile PKD is sitting and observing both bizarre theologies, and laughing.
+
+
+
+Where Good Ideas Come From
+===
+posted: April 23, 2020
+rating: yes
+
+I liked this book, a succinct refutal of a bunch of tropes associated with innovation, littered with nice analogies and good quotes, and mercifully short.
+
+At any point, innovation can only occur at the edge of possibility, at the **adjacent possible**. If you’re not bold enough, it’s already been done. Too bold and you’re ahead of your time. This model nicely explains why important discoveries are often arrived at simultaneously by multiple discovers in different places (called **multiples**).
+
+Johnson describes environments conducive to innovation as **liquid networks**. In a gas, atoms are far apart and chaotic. They may collide, but they won’t stick. In a solid, atoms are too constrained and won’t have a chance to interact at all. A prehistoric human society is like a gas: ideas may form but the lifestyle is too chaotic for anything to stick. Religious autocracies of the European Dark Ages and post-Enlightenment Arab world are like a solid: society is too restrictive to even let ideas form in the first place.
+
+In general, Johnson rejects the narrative of the Eureka moment, attributing success to **slow hunches**, which take a long time to brew in a person’s mind. In a liquid network, multiple slow hunches have a good chance of meeting, and an insightful person can combine the two into a coherent idea.
+
+The author compares the web to cities and coral reefs, both as examples of productive, dense, liquid networks where entities flow freely. Citing [Scale by Geoff West](/books/scale-by-geoffrey-west/), he notes that big cities aren’t just proportionally more inventive than small ones, but super-linearly so, with higher per-capita output. Just like cities allow free mingling of people and their ideas, the web enables this for the whole world serving like a “dating service for promising hunches”, increasing **serendipity**.
+
+The way to nurture a slow hunch is to take copious amounts of notes, as evidenced by [Commonplace books](https://en.wikipedia.org/wiki/Commonplace_book) (new to me), which became popular during the European Renaissance, popularized by Locke. Charles Darwin’s commonplace book is mentioned quite a bit as an example.
+
+The “missed connection” example he provides in a non-liquid network are two hunches that could have met to stop the 9/11 aircraft hijackings, but never did due to the solid-like FBI bureaucracy.
+
+1. The [Phoenix Memo](https://en.wikipedia.org/wiki/Phoenix_Memo) advising about bin Laden’s coordinated effort to send students to US aviation schools.
+2. [Moussaoui’s](https://en.wikipedia.org/wiki/Zacarias_Moussaoui) arrest at a flight training school in Minnesota.
+
+Continuing the analogy of liquid networks and water, Johnson lauds **desirable spillover** from one group of humans to another, encouraging cross-pollination of ideas, and a multidisciplinary approach. Examples of this include Building 20 at MIT, the “womb of the institute”, a temporary building that was at the heart of hacker culture, discoveries like LIGO, and great companies like Bose. By having a place that breeds so much intellectual diversity, you can imagine ideas crossing boundaries. When one idea goes from one domain to another, it’s called **exaptation**. For example, Gutenberg’s printing press borrowed the screw press mechanism, which was used for pressing olives into oil and grapes into wine.
+
+Naturally, as ideas form and evolve, many leads go nowhere. Edison said “I didn't fail 1,000 times. The light bulb was an invention with 1,000 steps.” At this point, this is definitely a cliche.
+
+The book concludes with a series of 2x2 tables showing four kinds of inventions (borrowed from [Wealth of Networks](https://en.wikipedia.org/wiki/The_Wealth_of_Networks)):
+
+	+------------+------------+---------+
+	|            | Individual | Network |
+	+------------+------------+---------+
+	| Market     | 1          | 2       |
+	+------------+------------+---------+
+	| Non-market | 3          | 4       |
+	+------------+------------+---------+
+
+1. Market / individual: solo entrepreneur or private corporation.
+2. Market / network: marketplace with multiple individuals.
+3. Non-market / individual: hobby or amateur scientist, sharing ideas freely.
+4. Non-market / network: open source or academic env where ideas can be built on freely.
+
+Quadrant 1 occupies the popular imagination: instigated by solo inventor driven by profit like Edison, or in this case he picks on Carrier, inventor of the modern air conditioner. But in an analysis of inventions from 15th century until the present, Johnson concludes that most inventions fall into quadrant 4, the non-market network. 
+
+The author doesn’t do a convincing job of explaining why each invention falls into each quadrant, and in many cases I think the call is very subjective, but the framework is interesting nonetheless.
+
+Johnson ends in an interesting take on Darwin’s work. Darwin’s big idea is often popularized as **survival of the fittest**, but Darwin himself makes clear that the right environment is perhaps even more important. [In The Structure and Distribution of Coral Reefs](https://en.wikipedia.org/wiki/Coral_reef#Darwin's_paradox), published in 1842, Darwin described how coral reefs were found in some tropical areas but not others, with no obvious cause. Tropical waters contain few nutrients yet a coral reef can flourish like an "oasis in the desert”, supporting over one-quarter of all marine species. His seminal work concludes with this passage:
+
+> It is interesting to contemplate a tangled bank, clothed with many plants of many kinds, with birds singing on the bushes, with various insects flitting about, and with worms crawling through the damp earth, and to reflect that these elaborately constructed forms, so different from each other, and dependent upon each other in so complex a manner, have all been produced by laws acting around us. These laws, taken in the largest sense, being Growth with reproduction; Inheritance which is almost implied by reproduction; Variability from the indirect and direct action of the conditions of life, and from use and disuse; a Ratio of Increase so high as to lead to a Struggle for Life, and as a consequence to Natural Selection, entailing Divergence of Character and the Extinction of less improved forms. Thus, from the war of nature, from famine and death, the most exalted object which we are capable of conceiving, namely, the production of the higher animals, directly follows. There is grandeur in this view of life, with its several powers, having been originally breathed by the Creator into a few forms or into one; and that, whilst this planet has gone circling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being evolved.
+
+References some books that have been on my radar, but might be worth delving into:
+
+- The Act of Creation by Arthur Koestler
+- How Buildings Learn by Stewart Brand (and TV mini-series)
+- The Structure of Scientific Revolutions by Thomas Kuhn
+
+
 Lost Enlightenment by Frederick Starr
 ===
 posted: April 13, 2020
