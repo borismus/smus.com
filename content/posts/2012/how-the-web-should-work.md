@@ -47,7 +47,7 @@ Some of the negative features of this flow are:
 
 Rather than sticking to the top down flow, web developers can be
 included in the loop. While forming organizations like
-[CoreMob][coremob] might be a good first step, we can have a more direct
+[CoreMob](http://www.w3.org/community/coremob/) might be a good first step, we can have a more direct
 impact as well. The following alternative flow can work pretty well in
 conjunction with the status quo, described above.
 
@@ -62,8 +62,6 @@ ready.
 4. Implement natively in browsers. (browser vendor)
 
 This flow has many benefits over the first one.
-
-[coremob]: http://www.w3.org/community/coremob/
 
 ### Prototypes have a tighter feedback loop
 
@@ -118,23 +116,20 @@ for in this post is that it can still be very difficult to get your
 voice heard without being a browser vendor or spec author.
 
 Anecdotally I've sent a few messages to the [www-style@
-list][www-style], without many tangible results. Other web developers
+list][www-style](http://goo.gl/hrBvS), without many tangible results. Other web developers
 such as, roughly following the tactic I described earlier, have
 experienced similar frustrations in the recent discussions [regarding
-high DPI images][images].
-
-[images]: http://www.webmonkey.com/2012/05/browsers-at-odds-with-web-developers-over-adaptive-images/
-[www-style]: http://goo.gl/hrBvS
+high DPI images][images](https://www.wired.com/2012/05/browsers-at-odds-with-web-developers-over-adaptive-images/).
 
 ## Conclusion
 
 This post is a summary of my thinking around most of my recent web
-development work: projects like [pointer.js][], [physical units][]
-and the [srcset-polyfill][] all have the same mission in mind: to
+development work: projects like [pointer.js](https://github.com/borismus/pointer.js), [physical units](https://github.com/borismus/physical-units)
+and the [srcset-polyfill](https://github.com/borismus/srcset-polyfill/) all have the same mission in mind: to
 cease to exist by having their functionality replaced by the web
 platform itself. The most notable example of such a project is PhoneGap,
 which explicitly states self destruction as its now famous [second
-goal][phonegap-goal].
+goal][phonegap-goal](http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/).
 
 It may seem strange to develop projects with such a nihilistic purpose.
 But keep in mind, that in this case it's not just the code that counts,
@@ -149,10 +144,4 @@ those of us that aren't in the business of writing browsers but
 care enough about the web platform to try to make a change.
 
 ***UPDATE***: At Paul Irish's great suggestion, please post your
-comments in [this Google+ thread][comments].
-
-[phonegap-goal]: http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/
-[pointer.js]: https://github.com/borismus/pointer.js
-[physical units]: https://github.com/borismus/physical-units
-[srcset-polyfill]: https://github.com/borismus/srcset-polyfill/
-[comments]: https://plus.google.com/115694705577863745195/posts/fMyCkBYvHRi
+comments in [this Google+ thread](https://plus.google.com/115694705577863745195/posts/fMyCkBYvHRi).
