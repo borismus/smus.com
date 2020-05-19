@@ -3,6 +3,17 @@ Book list
 class: split
 type: book
 
+Shadow of the Torturer
+===
+posted: May 12, 2020
+rating: no
+
+- Twisting narrative, very hard to predict any sort of narrative arc. In a good way.
+- Some great descriptive and lively, well developed characters.
+- Well executed twists.
+- Some really inventive fragments of world building, like the flower mechanic but I would say overall mostly unoriginal in that department.
+- In the end, I’m 50% hooked, but not hooked enough to jump right into the sequel. Maybe it’s because the grand arc of the whole thing is kind of known, and explicitly so.
+
 
 Selected Short Stories of Philip K. Dick
 ===
