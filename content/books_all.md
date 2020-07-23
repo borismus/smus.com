@@ -3,6 +3,51 @@ Book list
 class: split
 type: book
 
+The Road by Cormac McCarthy
+===
+posted: July 20, 2020
+rating: yes
+
+Somehow I am just now reading Cormac McCarthy for the first time. Thanks for the recommendation, M!
+
+Incredible descriptions. Long beautifully flowing sentences and great vocabulary. I find myself looking up new words every few pages, and it feels nice to be reading literature again. The style is interesting too, with uniquely applied passive dialogs that I found very distinct.
+
+Perhaps reading this serious dystopia at a particularly dystopian feeling time wasn’t the best call. Although short, it took me a while to finish, spacing my consumption apart, to avoid overdosing on doom and gloom.
+
+The apocalyptic scenario was well done and mysterious. What happened to humanity to cause such a scenario? Half way, it’s unclear if that will actually be revealed or not. By the end of the book, somehow it doesn’t matter. The world sucks you in. It is what it is, and humanity persists.
+
+Parts of this book reminded me of an interactive fiction, or a role playing game, especially the constant search for loot, rummaging through abandoned barns, copious amounts of useless, broken rakes.
+
+And yet so dark, so biblical.
+
+> do you think that your fathers are watching? That they weigh you in their ledger books? Against what? There is no book and your fathers are dead in the ground
+
+At the core of this book is the father son dynamic between the anonymous man and anonymous boy. It is deeply touching. Oh man, how incredibly sad that last scene is, even though you can see it coming for miles. I spent a good amount of time shedding tears, so surely this is a great work.
+
+
+Red plenty by Francis Spufford
+===
+posted: June 19, 2020
+rating: yes
+
+Red Plenty is written as a series of vignettes that together do a remarkably good job of painting a picture of soviet life. It finds a comfortable spot between fiction and non-fiction. If someone ever asks me for a book on what life was like in the Soviet Union, I’d recommend this.
+
+For me personally, it tied together a lot of personalities and events I was previously familiar with, having been raised in a Russian family. But many aspects crystallized in a more objective, less personal way. It was nice to feel certain stories and personalities fall into place, and fascinating to hear about some of the same events and people in English.
+
+Spufford takes liberties for sure, often putting real people into semi-imagined situations. But this is done explicitly and honestly. He doesn’t quite tie everything together into a coherent arc. Instead, multiple sub-stories can be seen: Galich’s transformation from bon-vivant and darling of the state to a dissident, Khrushev’s rise from obscurity, and disillusioned retirement, a biologist’s battle with Lysenkoism, a mathematical economist’s attempt to reform central planning.
+
+The author’s conception of the whole project of communism is that it itself is a sort of fable, heavily inspired by  Russian fables. Stories about the self-setting tablecloth (скатерть самобранка), flying carpets (ковер самоет), beyond the 39th land (тридевять земелья). He could have included any number of such fables, and to be fair, this is true of any techno-utopian perspective.
+
+The format lends itself well to showing Russia from many lenses, letting the reader triangulate into the bigger picture. What is the role of connections in a world where money isn’t generally effective? Spufford shows how, to climb the ranks of an organization, one had to grovel and pander to communist ideologues despite deepest feelings. He shows cynicism, corruption, and violence that permeated life. He shows how stuck many people felt within it, especially women.
+
+Despite my familiarity with the general outlines of many pieces of this book, I learned some completely new stuff:
+
+- [Расстрел в новочеркасске](https://en.wikipedia.org/wiki/Novocherkassk_massacre) — first i’ve heard of it.
+- [Akademgorodok](https://en.wikipedia.org/wiki/Akademgorodok) - I have an acquaintance from there, and have heard of it before, but this is way more detail than I’d ever known.
+
+I’ve been listening to Галич lately…
+
+
 Shadow of the Torturer
 ===
 posted: May 12, 2020
