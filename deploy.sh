@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-DEPLOY_PATH=$HOME/Blog/deploy
+DEPLOY_PATH=$HOME/Blog-deploy
 LIGHTNING=$HOME/Projects/lightning/lightning
 LIGHTNING_CONFIG=$PWD/lightning.yaml
 
