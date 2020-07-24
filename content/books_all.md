@@ -8,6 +8,7 @@ The Road by Cormac McCarthy
 ===
 posted: July 20, 2020
 rating: yes
+cover: /assets/book-covers/the-road.jpg
 
 Somehow I am just now reading Cormac McCarthy for the first time. Thanks for the recommendation, M!
 
@@ -30,6 +31,7 @@ Red Plenty by Francis Spufford
 ===
 posted: June 19, 2020
 rating: yes
+cover: /assets/book-covers/red-plenty.jpg
 
 Red Plenty is written as a series of vignettes that together do a remarkably good job of painting a picture of soviet life. It finds a comfortable spot between fiction and non-fiction. If someone ever asks me for a book on what life was like in the Soviet Union, I’d recommend this.
 
@@ -65,6 +67,7 @@ Selected Short Stories of Philip K. Dick
 ===
 posted: April 24, 2020
 rating: yes
+cover: /assets/book-covers/selected-short-stories-philip-k-dick.jpg
 
 Almost every story in this collection elicits a “wow” and “yikes” gut reaction from me. Well written and original, many of these have been adapted into movies. 
 
@@ -190,10 +193,11 @@ Interestingly written as a sort of apology from the Proxian perspective. The nar
 
 
 
-Where Good Ideas Come From
+Where Good Ideas Come From by Steven Johnson
 ===
 posted: April 23, 2020
 rating: yes
+cover: /assets/book-covers/where-good-ideas-come-from.jpg
 
 I liked this book, a succinct refutal of a bunch of tropes associated with innovation, littered with nice analogies and good quotes, and mercifully short.
 
@@ -250,6 +254,7 @@ Lost Enlightenment by Frederick Starr
 ===
 posted: April 13, 2020
 rating: yes
+cover: /assets/book-covers/lost-enlightenment.jpg
 
 I first learned of this book after a quick conversation with Mark, whom I’ve only met once in-person. I was just finishing Debt, and found the book intriguing, especially the parts about the monetary systems in Islamic societies. Mark suggested this book, and indeed it covers a period of history that I know basically nothing about. With my interest piqued already, I decided to take the plunge.
 
@@ -461,6 +466,7 @@ Debt: The First 5000 Years
 ===
 posted: March 6, 2020
 rating: yes
+cover: /assets/book-covers/debt-graeber.jpg
 
 “Debt” has been on my reading list for a long time. I once attempted the hard copy, but abandoned it quickly. It was mentioned again on a podcast by Saul Griffith, just as I was starting to get interested in the role of financing advances in innovation and progress. So I decided to give it another shot. This is the second edition of the book, updated after the financial crisis and after the 99% protest movement, which the author helped organize.
 

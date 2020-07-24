@@ -20,6 +20,7 @@ The Fiddler is a Good Woman
 ===
 posted: November 13, 2019
 rating: yes
+cover: /assets/book-covers/fiddler-good-woman.jpg
 
 I think it was A that originally turned me on to Geoff Berner’s existence. At the very least, he gave me the book (thanks!) Berner exists at the tenuous intersection of musician, comedian, and apparently author! I went to a klezmer show in Seattle for which he was one of the openers, and can vouch for him as a pretty good accordionist, and a pretty funny guy (although I still can’t quite tell if he’s serious about his politics). After reading, I can also confirm that Geoff Berner is a pretty good author.
 
@@ -34,6 +35,7 @@ Range by David Epstein (audio)
 ===
 posted: November 4, 2019
 rating: yes
+cover: /assets/book-covers/range.jpg
 
 I learned of David Epstein through his interview with [NonProphets](http://longnow.org/seminars/02019/jul/22/timefulness/), a podcast I enjoy listening to. He had featured one of the generalist podcast hosts in the segment about super forecasters, and came off as super interesting. I had just committed to sorting my reading list by least recent publish date, biasing it towards works that have stood the test of time. But looking over my options in Audible, I kept coming back to Range.
 
