@@ -3,6 +3,7 @@ Book list
 class: split
 type: book
 
+
 The Road by Cormac McCarthy
 ===
 posted: July 20, 2020
@@ -25,7 +26,7 @@ And yet so dark, so biblical.
 At the core of this book is the father son dynamic between the anonymous man and anonymous boy. It is deeply touching. Oh man, how incredibly sad that last scene is, even though you can see it coming for miles. I spent a good amount of time shedding tears, so surely this is a great work.
 
 
-Red plenty by Francis Spufford
+Red Plenty by Francis Spufford
 ===
 posted: June 19, 2020
 rating: yes
