@@ -425,6 +425,14 @@ video {
   max-width: 100%;
 }
 
+.book-cover {
+  display: block;
+  max-height: 400px;
+  width: auto;
+  margin: 1em auto;
+  box-shadow: 3px 3px 5px #999;
+}
+
 /* Media queries to make the page responsive */
 @media screen and (max-width: 720px) {
 
