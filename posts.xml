@@ -5,8 +5,116 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-07-23T20:20:29-00:00</updated>
+  <updated>2020-07-30T22:16:07-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>ESUP Builders</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/esup-builders"/>
+    
+    <updated>2020-07-30T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/esup-builders</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Since May, I’ve been tinkering with brushless electrical motors, trying to make floating objects move more quickly. The proximate result is this electric motorized paddleboard:</p>
+
+<p><a href="https://photos.app.goo.gl/9BbHWMzhPdxekJZf7"><img src="/esup-builders/esup.gif" alt="Riding my DIY eSUP" /></a></p>
+
+<p>This project is by no means finished. Traveling at 5 mph is fun, but not nearly fast enough. As we speak, a motor ten times the power of this one is sitting in a shipping container, en route to my basement. While I wait, let me pause and reflect on the project so far.</p>
+
+<!--more-->
+
+<hr />
+
+<p>This summer I’ve been spending more time on the water. Sailing and stand-up paddling are great escapes from a sometimes monotonous routine. As a result, I’m slowly forgetting luxuries I once took for granted: work trips, visits to Vancouver, vacations to faraway lands.</p>
+
+<p>After my forced sailing hiatus, I needed to find another way to get out on the water. SUPing was great fun, but a bit repetitive, and frustrating in even light headwind. Driven by the need for speed, I found <a href="http://efoil.builders/">efoil.builders</a>. They are a community of crazy European kids building electric hydrofoils that scream above the surface of the water at breakneck speed.</p>
+
+<p>I’m no stranger to strange electric vehicles, but I certainly was when it came to high voltage and high current. When my Solowheel broke down last year and I was unable to fix it on my own, I donated it to an acquaintance who promptly replaced the battery and brought it into tip-top shape. It took him no time at all, but I had no idea where to begin.</p>
+
+<p>Happily, the last few months have presented many opportunities for electrical work around the house. I installed a ceiling fan in our bedroom and a window AC in my daughter’s. I wired up and installed new outlets in the basement. These are not glamorous achievements, just small victories that slightly reduced my fear of electricity.</p>
+
+<h1>Building for …</h1>
+
+<p>There is something very satisfying about creating physical objects with your own hands. In these strange times, I find this to be one of my most comforting escapes.</p>
+
+<p>If the resulting object is of value to you or others, so much the better. <a href="/toddler-music-box">Building for my daughter</a> takes the cake, especially when she appreciates the results. <a href="/little-free-library">Building for the community</a> is also gratifying and surprising. Sometimes you just build to learn. This time, I’m building for myself. And in this case, a big part of the challenge will be learning to ride the damn thing. I think I’m up for the challenge!</p>
+
+<p>Realizing that I’m dealing with a completely new domain, and my chance of failure is high, I decided to start small. The first milestone was to create some sort of vessel from a plastic IKEA bin (max 30A, 11V, 5000 RPM, 3cm prop). Having proved the concept, I moved on to something that would support my weight, and substantially larger components (60A, 22V, 1000 RPM, 15cm prop).</p>
+
+<p>Let me conclude with a parts list for both builds.</p>
+
+<h1>Tropfast components</h1>
+
+<p>As you can see, this is not a seaworthy vessel.</p>
+
+<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/tropfast.jpg" alt="HMS Tropfast, IKEA RC boat shelf" /></a></p>
+
+<p>Electronics:</p>
+
+<ul>
+<li>ESC: <a href="https://www.amazon.com/gp/product/B00PR8XT7G">Hobbywing Seaking 30A</a></li>
+<li>Motor: <a href="https://www.amazon.com/gp/product/B00PRAME7U">Hobbywing Seaking 4800KV-2040SL</a></li>
+<li>Battery: <a href="https://www.amazon.com/gp/product/B07TS2GVS3">POVWAY 5200mAh 3S</a></li>
+</ul>
+
+<p>Mechanics:</p>
+
+<ul>
+<li>Hull: IKEA <a href="https://www.ikea.com/us/en/p/trofast-storage-box-white-80089239/">TROFAST bin</a> with <a href="https://www.ikea.com/us/en/p/trofast-lid-white-57454500/">TROFAST lid</a></li>
+<li>Propeller: <a href="https://www.amazon.com/gp/product/B07Q32KHDW">uxcell D=36mm</a></li>
+<li>Motor mount: <a href="https://www.amazon.com/gp/product/B07NWKGTZT">L base for RC motors</a></li>
+<li>Rudder: <a href="https://www.amazon.com/gp/product/B0773D9L9X">Basic RC boat rudder with water-cooling intake</a></li>
+</ul>
+
+<h1>SUPSMUS v1 components</h1>
+
+<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/esup.jpg" alt="ESUP assembly" /></a>
+<a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/esup-drive.jpg" alt="ESUP drive closeup" /></a></p>
+
+<p>Electronics:</p>
+
+<ul>
+<li>ESC: <a href="https://flipsky.net/products/torque-esc-vesc-%C2%AE-bldc-electronic-speed-controller">Flipsky 50A VESC based on V4.12</a></li>
+<li>Motor: <a href="https://flipsky.net/products/f5085-140kv-brushless-motor-for-direct-drive-propeller">Flipsky 5085 outrunner motor</a></li>
+<li>Battery: <a href="https://www.amazon.com/Gens-ace-4000mAh-Battery-Goblin/dp/B0721BJT3J">Gens Ace 6S 4 mAh LiPo battery</a></li>
+</ul>
+
+<p>Mechanics:</p>
+
+<ul>
+<li>Hull: Foiling board with Tuttle box. Bought it from a guy on craigslist.</li>
+<li>Propeller: <a href="https://cad.onshape.com/documents/07ebbbfe9074e0b9b543ca4c/v/837c590e6d8c15772aa5432e/e/81de0414d9560e59eb06bc57">3D printed prop design</a></li>
+</ul>
+
+<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/3d-prop.png" alt="3D print of propeller" /></a></p>
+
+<ul>
+<li>Motor mount: <a href="/esup-builders/TODO">Naish 65cm mast</a> and <a href="https://cad.onshape.com/documents/9008f491eb3b37b138306395/w/151f8733bac1d09cb1fbce5b/e/dc088e9e03eb76f671d5bc26">3D printed mast clamp</a></li>
+</ul>
+
+<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/3d-mast-clamp.png" alt="3D printed mast clamp" /></a></p>
+
+<h1>Shared components</h1>
+
+<p>As you can see, both vessels have a lot of component types in common. So much so that I simply reused some of the same parts in both projects:</p>
+
+<ul>
+<li>Remote: <a href="https://www.amazon.com/gp/product/B00VE3QC7C">Flysky FS-GT2E</a></li>
+<li>Charger: <a href="https://www.amazon.com/gp/product/B07QRQT3LC">Haisito 80W 6A Balance Charger</a></li>
+</ul>
+
+<p>I plan to write up a technical summary of what I learned in the process. Stay tuned.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>DIY Community Library</title>
@@ -8329,212 +8437,6 @@ the internet, I'll turn to a Platform-as-a-service solution like
 tasks.</p>
 
 <p>Being a sysadmin is not a part time job.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Internet mashup of things</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/mashup-of-things"/>
-    
-    <updated>2013-01-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/mashup-of-things</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Many new devices come with unexpected connectivity - often a WiFi
-connection that enables them to connect to a hotspot and the larger
-internet. <a href="http://www.nest.com/">Nest</a>, a smart thermostat, was one of the first
-commercial products to do this. Many more indie projects are following
-suit, with an explosion of kickstarters like this <a href="http://www.kickstarter.com/projects/limemouse/lifx-the-light-bulb-reinvented">teleoperated
-light</a>, <a href="http://www.withings.com/">connected scale</a> or this <a href="http://supermechanical.com/twine/">general purpose
-connected sensor</a>. The idea of an Internet of Things, in which
-every appliance and object is somehow connected, has long been popular
-in academic circles, and this time around it feels like we're actually
-close.</p>
-
-<p>If we think of these physical devices/appliances as web services with
-APIs, we can mash them up just like we did in the early days of the web,
-creating applications that are more useful than the sum of their parts.
-In this post I argue for using the web as the medium to tie everything
-together, describe a simple architecture for building networked physical
-devices and build a web lamp controlled by an arduino.</p>
-
-<!--more-->
-
-<h2>Web meets ubiquitous computing</h2>
-
-<p>The projects I mentioned above don't use proprietary home automation
-protocols like X10.  Instead, they establish connections via the
-internet. Nest registers itself with a central server (operated by Nest
-inc) over WiFi. You can then control your thermostat by logging into
-their website at nest.com.</p>
-
-<p>There's no need for heavyweight ISO666 standardization efforts. This is
-a very good thing, because it's really hard for anyone (including our
-industry) to agree on something new. Instead, we reuse a proven protocol
-that everyone's already agreed on: HTTP.</p>
-
-<h2>An Internet of too many things</h2>
-
-<p>Nest also provides Android and iOS apps to control your thermostat. But
-what happens when you have your thermostat, light bulbs, and home
-theater, scanner and <a href="http://www.google.com/cloudprint/learn/">printer</a> all connected up to the internet in
-this fashion? Too many apps! Imagine you have all of these different
-devices, perhaps multiple of each in some cases:</p>
-
-<p><img src="/mashup-of-things/many-smart-things.png" alt="Many smart things" /></p>
-
-<p>It pains me to imagine an app for each of these different services -
-there are simply too many things to juggle. I would not want to install
-apps for each of these devices for reasons similar to why I would never
-install the United app: there is significant overhead to managing apps
-on your smart phone. They take up space on your home screens, you need
-to keep them up to date. <a href="http://jenson.org/">Scott Jenson</a> writes eloquently about
-this problem on his blog.</p>
-
-<p>If each hardware manufacturer releases their device with a central
-registry and public API, however, third parties might be able to build
-on top of the services that these devices provide, and certainly some
-interesting and pleasant user experiences will arise in this nascent
-area.</p>
-
-<h2>A minimum viable physical web architecture</h2>
-
-<p>There are many discovery protocols (eg. UPnP, zeroconf, ...), and many
-messaging protocols (eg. TCP, HTTP, ...), and I won't argue for one over
-another. The technical tradeoffs of each of these is outside of the
-scope for this discussion. My approach was to devise the simplest
-proof-of-concept that would work anywhere without fancy protocols, only
-using widely available features available on the web, to enable a
-platform for prototyping, the goal being to establish useful and
-interesting interactions first, and implement the underlying technology
-later.</p>
-
-<p>In general, we want to be able to interact with devices that are nearby
-and also with devices that are far away. With this constraint, even the
-simplest approach requires a server component. Here's a sketch:</p>
-
-<p><img src="/mashup-of-things/lamp-arch.png" alt="A simple WiFi lamp" /></p>
-
-<p>In this setup, the controller listens to the server for what it should
-do. At the same time, the remote sends commands to the server based on
-user interaction. The server keeps track of the state of all of the
-devices it manages.</p>
-
-<h2>Example: cloud lamp</h2>
-
-<p>The above approach is to simply have a RESTful server. The remote can
-send commands to via POST requests, and the controller can poll for its
-new state periodically with GET requests. A simple API for a lamp might
-look like this:</p>
-
-<ul>
-<li><code>GET /</code>: Returns 1 if the lamp is on. Otherwise returns 0.</li>
-<li><code>POST /on</code>: Turns the lamp on.</li>
-<li><code>POST /off</code>: Turns the lamp off.</li>
-</ul>
-
-<p>This API and the three components (server, client and device) above are
-enough to get a prototype off the ground. A simple implementation of all
-three pieces can be found in the <a href="http://github.com/borismus/hello-lamp">Hello Lamp on github</a>.</p>
-
-<p>The server-side is written on AppEngine, and simply tracks state. The
-handlers all use <a href="http://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>, which lifts the cross-domain security policy
-of the web, making it possible to POST to the lamp from any web page. </p>
-
-<p>The client is a really simple web page with two ways of controlling the
-lamp: the toggle switch and <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">speech recognition</a> (available
-behind a flag in Chrome), which enables simple "lamp, turn off" and "on"
-commands.</p>
-
-<p><img src="/mashup-of-things/client.png" alt="Simple client" /></p>
-
-<p>Finally, the device itself is an Arduino Uno with a <a href="http://arduino.cc/blog/2012/08/16/the-arduino-wifi-shield-is-now-available/">WiFi
-shield</a>. One of the pins is connected to a relay which controls
-a power socket with the plugged in lamp. The program itself is nearly
-identical to the existing sample apps available for the WiFi shield.</p>
-
-<p><img src="/mashup-of-things/arduino.png" alt="Arduino WiFi shield" /></p>
-
-<h2>Practical considerations</h2>
-
-<p>The solution described here is definitely not one to use in production
-for many reasons, including robustness, performance and security.</p>
-
-<p>In practice, we'd probably want a server to control multiple devices, so
-each request should specify an ID representing the device. Also,
-continuous polling is a very inefficient approach, since every HTTP
-request has a lot of overhead. It's better to maintain open connection
-server-controller and server-remote connections to enable pushing of
-data directly. This connection should be bidirectional to let the device
-feed back to the remote as well as enabling control.</p>
-
-<p>A promising startup working in the direction of making vision more real
-is <a href="http://electricimp.com">electricimp</a>. These guys provide
-connectivity through a SD card form factor they call an "imp". Though
-they have a proprietary communication protocol between their imps and
-their cloud (mainly for performance), they ultimately provide a RESTful
-web API to control each imp. Definitely looking forward to playing with
-their offerings.</p>
-
-<h2>Mash it up</h2>
-
-<p>Now we have a device registering with a public web server. The server
-provides an API for developers to access that device. Developers can
-then build applications around that API which interact with the device.
-This is no different from a regular web API, and at this point, all we
-have built is a glorified remote control that uses the web instead of IR
-for transmitting messages.</p>
-
-<p>However! One of the great things about web APIs is that they can easily
-be mixed with one another to create something greater than the sum of
-the parts. This is known on the internet as a "mashup". The first
-mashups emerged about decades years ago, but are still an important part
-of the web landscape. I recently used a really nice one called
-<a href="http://livelovely.com/">lovely</a>, which is a house hunting mashup combining Google Maps and
-craigslist. Mashup making services like <a href="http://pipes.yahoo.com/pipes/">Yahoo! Pipes</a> and
-<a href="https://ifttt.com/">IFTTT</a> have existed for a while. Notably, IFTTT includes support
-for some of the "smart" physical devices I mentioned in the beginning of
-this post.</p>
-
-<p>To me, the truly interesting question around this physical web is the
-user's experience. Each of the various promises of
-device/appliance/thing control or automation is not terribly compelling.
-Why would I unlock my phone, find and run the lamp app, and find the
-right fixture? The alternative of walking up to the light switch and
-flipping it seems much more lucrative. That said, I'm optimistic that
-there are compelling user interfaces to be discovered, but they will
-only emerge on top of this physical web framework.</p>
-
-<h2>A plea for physical APIs</h2>
-
-<p>As we move into a world connected devices, we need to have a solid,
-widely available platform for communication between these devices. This
-infrastructure can and should ultimately be the web.</p>
-
-<p>This opinion of mine is not zealotry, but completely practical: I do not
-want every device in my home to be stuck in an networked ecosystem
-provided by some single company. Whether it's an Android app, an iOS
-app, a web app, a universal dashboard on a smart phone, a voice
-controlled system in the living room, or (more likely) something
-completely different, any of these systems should be able to easily
-interface with any device in the world.</p>
-
-<p>The recent stink around <a href="http://www.technologyreview.com/view/508666/twitter-instagram-and-the-internet-of-disconnected-things/">twitter no longer embedding instagram
-photos</a> is just one example of important chunks of the
-internet become segregated from one another. This wall-building trend is
-alarming and dangerous to the integrity of the web platform, which is
-based on interoperability: cross-linking, cross-embedding, and API
-mashups. While this new web of things is still in its infancy, it's
-especially important that we nurture the same principles that made the
-early web so great.</p>
 
 
         
