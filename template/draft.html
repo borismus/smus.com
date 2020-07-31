@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article>
-  <h1><a href="{{link}}">{{title}} (draft)</a></h1>
-  <p>Note: this is a draft.</p>
-  <p>
-    {{content}}
-  </p>
-</article>
+<section id='main'>
+  <article>
+    <a href="{{permalink}}"><h1 class="title">{{title}} (draft)</h1></a>
+    <p>Note: this is an unpublished draft.</p>
+    <div class='body'>
+      {{content}}
+    </div>
+  </article>
+</section>
 {% endblock %}

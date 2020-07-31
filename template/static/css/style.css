@@ -379,6 +379,11 @@ section#archives .rating {
   opacity: 0.3;
 }
 
+hr {
+  border: 1px solid #ddd;
+  margin: 2em .5em;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -428,6 +433,7 @@ video {
 .book-cover {
   display: block;
   max-height: 400px;
+  max-width: 100%;
   width: auto;
   margin: 1em auto;
   box-shadow: 3px 3px 5px #999;
@@ -448,6 +454,7 @@ video {
   }
 
   article {
+    margin: 0 4px;
     font-size: 1.2rem;
     width: 100%;
   }
