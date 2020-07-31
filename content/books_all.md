@@ -45,7 +45,7 @@ The format lends itself well to showing Russia from many lenses, letting the rea
 
 Despite my familiarity with the general outlines of many pieces of this book, I learned some completely new stuff:
 
-- [Расстрел в новочеркасске](https://en.wikipedia.org/wiki/Novocherkassk_massacre) — first i’ve heard of it.
+- [Расстрел в новочеркасске](https://en.wikipedia.org/wiki/Novocherkassk_massacre) — First I’ve heard of it.
 - [Akademgorodok](https://en.wikipedia.org/wiki/Akademgorodok) - I have an acquaintance from there, and have heard of it before, but this is way more detail than I’d ever known.
 
 I’ve been listening to Галич lately…
