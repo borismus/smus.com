@@ -3,5 +3,5 @@ Boris Smus
 class: index
 limit: 50
 type: feed.xml
-filter: [post, note]
+filter: [post, note, book]
 

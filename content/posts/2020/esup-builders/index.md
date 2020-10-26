@@ -11,8 +11,6 @@ This project is by no means finished. Traveling at 5 mph is fun, but not nearly 
 
 <!--more-->
 
----- 
-
 This summer I’ve been spending more time on the water. Sailing and stand-up paddling are great escapes from a sometimes monotonous routine. As a result, I’m slowly forgetting luxuries I once took for granted: work trips, visits to Vancouver, vacations to faraway lands.
 
 After my forced sailing hiatus, I needed to find another way to get out on the water. SUPing was great fun, but a bit repetitive, and frustrating in even light headwind. Driven by the need for speed, I found [efoil.builders](http://efoil.builders/). They are a community of crazy European kids building electric hydrofoils that scream above the surface of the water at breakneck speed.

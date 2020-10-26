@@ -4,6 +4,215 @@ class: split
 type: book
 
 
+Tools for Conviviality by Ivan Illich
+===
+posted: October 25, 2020
+rating: yes
+cover: /assets/book-covers/tools-for-conviviality.jpg
+
+My main objection to [Deschooling Society](/books/deschooling-society-by-ivan-illich) was that Illich completely neglected the babysitting aspect of the institution. With that out the window, feels like a reread is in order. However, I donated “Deschooling” to the LFL at work, but happened to have a copy of “Tools”. So here we are!
+
+I found this book easier to digest than Deschooling. Perhaps I knew a bit better what I was getting myself into?
+
+# Two Watersheds
+
+Thought provoking is a more succinct formulation of Illich’s critique of institutions in Two Watersheds of modernity:
+
+1. In the first watershed, a modern approach improves a domain significantly.
+2. In the second watershed, the same modern approach is over-applied, causing “negative returns”, “marginal disutility”, general dehumanization, loss of autonomy, etc.
+
+These dangers of “over efficiency” remind me a lot of [Seeing Like a State](/books/seeing-like-a-state-by-james-scott/). Illich writes:
+
+> “There are two ranges in the growth of tools: the range within which machines are used to extend human capability and the range in which they are used to contract, eliminate or replace human function.”
+
+Examples:
+- Medicine: first watershed in 1913, when supposedly modern medicine caught up with witch doctors and began to outperform them. Second watershed in 1950s, when “90% of all medical care for patients with terminal diseases is unrelated to their health. Such treatment increases suffering and disability without demonstrably lengthening life.” 
+- Transportation: In the early 1930s, Mexico connected most villages with dirt roads serviced by sturdy trucks moving at 20mph. Anyone could ride in these. As infra improved more and more money was sunk into a highway system, which enabled only those rich enough to access a car to use them.
+
+# Convivial limiting
+
+Illich’s main critique of modernity is that people are trained by social institutions to be tool operators. Instead tools should be simpler to operate and adapt to the person. 
+
+A convivial society would be one which imposes limits on consumption. Illich is opposed to most power tools since they are centralizing in nature. Cars require a network of paved roads and gas pipelines. Modern life requires a centralized electric grid.
+
+Illich despises overdevelopment, especially insofar as it paves over the heterogeneity of human civilizations. The Thai system of canals enabled farmers with cheap light boats to travel. Many of these canals were literally paved over with western style highways. This, he sees, is because of greed on the part of developers. 
+
+# Radical monopoly
+
+TODO
+
+# A convivial research agenda?
+
+
+Frank Herbert by Tim O’Reilly
+===
+posted: October 10, 2020
+rating: yes
+cover: /assets/book-covers/frank-herbert.jpg
+
+# Meta: things about “Frank Herbert”, its author, the style in which it is written.
+- I’ll be honest, I’m excited about the upcoming Dune movie. Prior failed attempts do not inspire confidence.
+- How crazy is it that Tim O’Reilly wrote a book about Frank Herbert?
+- Book reads as a sort of expose about Herbert’s intentions writing Dune.
+- Good reminder about the series, which I first read probably more than 20 years ago. I’m due for a re-read.
+- Lots of plot summarization, but this is necessary for the non-Dune corpus of Herbert’s works which I haven’t read.
+
+# Frank Herbert the Person
+- Thoroughly PNW. Born in Tacoma, grew up on Olympic and Kitsap in NW Wash. 
+- Lived in California, Oregon, returned to WA in 1969. "ecological demonstration project," an example of new-style "techno-peasantry”.
+- His mother had ten sisters, who were extremely close and shared in his upbringing.  (Interesting echo of Bene Gesserit) Orne's escape from the Nathian influence might be construed—and this is purely conjectural—as reminiscent of Herbert's own escape from the confines of the family matriarchy.
+
+
+# The Romance of the Desert
+- Dune was inspired by the dunes of Oregon. Herbert was in Florence, Oregon to write a feature story about a government project on the control of sand dunes.
+- In his research Herbert had noted how the desert seems to be a wellspring of religion. The history of Judaism demonstrates that harsh conditions make for a religion of anticipation.
+- Like the Jews, the Fremen have long been wandering and persecuted, always awaiting the promised land. And like the Arabs, the scattered Fremen discover their religious and cultural identity at the call of a strong leader, and build a mystical warrior-religion moved by economic as well as religious factors.
+
+# References I missed when I first read Dune
+- The name Atreides was also consciously chosen. It is the family name of Agamemnon. Says Herbert, "I wanted a sense of monumental aristocracy, but with tragedy hanging over them—and in our culture, Agamemnon personifies that."
+- Kierkegaard's "life is not a problem to be solved but a reality to be experienced" becomes a Bene Gesserit aphorism. Ecologist Paul B. Sears's statement, "the highest function of science is to give us an understanding of consequences" is expressed by Kynes as a fundamental ecological principle; and his "respect for truth comes close to being the basis for all morality" is recalled as a lesson Paul had received from his father.
+- Much of the Bene Gesserit technology of consciousness is based on the insights of general semantics, a philosophy and training method developed in the 1930s by Alfred Korzybski. Herbert had studied general semantics in San Francisco at about the time he was writing Dune.
+- Dune was written in 1963. It is predictive science fiction of the best kind. Oriental religion had not yet become widely popular in the West; only the most primitive biofeedback experiments were being conducted, and even those were being scoffed at by most scientists.
+- Karl Jaspers's primary formulation—that human life is bounded by inescapable limits such as death, uncertainty, struggle, and guilt—is also central to Herbert's thought.
+
+
+# Heightened awareness and brain-body interdependency
+- I remember this feeling on my first read: “Herbert's technology of consciousness is so nearly an extrapolation from the self- evident that it gives the reader at least the illusion (perhaps more) that he can learn techniques of heightened awareness for himself. And it gives many the itch to try…”
+- Still super fascinated by the brain-body loop. It was very interesting as part of my meditation forays. “Three quick breaths triggered the responses: he fell into the floating awareness… focusing the consciousness… aortal dilation…”
+
+# Echoes of Taleb in Dune and Herbert’s thought
+- Skin in the game “The willing assumption of personal risk is one of the primary elements that distinguishes Paul from the Bene Gesserit and the Spacing Guild…”
+- More SITG: “The Pakistani described the difference between American and Soviet engineers in charge of foreign-aid projects: The Soviet would stand back and supervise the operation from a distance, while the American would roll up his sleeves and show them how it was done”. Unlike the Atreides, the Emperor and the Harkonnens (recall the Baron's given name, Vladimir) would never involve themselves in personal risk.
+- Antifragility “Those who become utterly dependent on one means of mastery will find them- selves unable to cope with the future”
+
+# Dune demonstrates the perils of heros and hero worship.
+- Recalling the origins of Dune, Herbert says: It began with a concept: to do a long novel about the messianic convulsions which periodically inflict themselves on human societies. I had this idea that superheros were disastrous for humans.
+- The person who experiences greatness… must have a strong sense of the sardonic. This is what uncouples him from belief in his own pretensions. The sardonic is all that permits him to move within himself. Without this quality, even occasional greatness will destroy a man.
+- Herbert deliberately looked for this reaction from his readers. To Herbert, the hero mystique is symptomatic of a deadly pathology in contemporary society, a compulsive yearning for easy answers. As long as men are looking for simple solutions to their problems, they will give over their ability to think for themselves to the first person who comes along and promises a solution. The Dune trilogy is an attempt to unveil that pattern and, in some small part, to change it.
+
+
+# Avoid rigidity, aim to be more adaptable
+- “Strength lies in adaptability, not fixity. Civilization, on the other hand, tries to create and maintain security, which all too frequently crystallizes into an effort to minimize diversity and stop change.”
+- In our culture, individuals are trained to believe the evidence of mechanical measuring devices rather than their own senses. A feverish patient believes a thermometer, not his own discomfort.
+- "You never talk of likelihoods on Arrakis. You speak only of possibilities," says Kynes.
+- Arrakis requires a willingness to flow with the environment rather than opposes and seek control of it.
+- Deep: ‘Orne realizes the Abbod is right: "To strengthen a thing, oppose it… You become like the worst in what you oppose.”’
+- Halmyrach Abbod's remark in "The Priests of Psi": "We have a very ancient saying: the more god, the more devil; the more flesh, the more worms; the more anxiety, the more control; the more control, the more that needs control."
+- 'It's like a drug habit," said the Abbod. "If you enforce peace, it will take greater and greater amounts of peace to satisfy you. And you will use more and more violence to obtain it. The cycle will end in cataclysm."
+
+
+# Against Psychohistory, Dune vs. Foundation
+- Bene Gesserit is found in a study of their literary antecedents. The Bene Gesserit are based in part on the scientific wizards of Isaac Asimov's Foundation trilogy.
+- In contrast to the Foundation trilogy's exaltation of rationality's march to predicted victory, Dune proclaims the power and primacy of the unconscious and the unexpected in human affairs.
+- This is essentially the assumption that science can produce a surprise-free future for humankind.
+- I should be wary of this in my own attraction to super-forecasters. “messianic hunger is an example of a pervasive human need for security and stability in a universe that continually calls on people to improvise and adapt to new situations.” 
+
+# Examples of Foxiness
+- As Herbert has emphasized, he is not a "hot-gospel ecologist," convinced that all man's interventions into nature are evil. Ecology, like all other creeds, is dangerous when it becomes an absolute.
+- ...there are no right answers and no complete doctrine. There are only answers and their consequences. What happens to people who follow any given set of beliefs? The subtleties of one doctrine as opposed to another are resolved not by logic but by looking at their effects.
+
+
+# How have films influenced books?
+- "I treat the reader's eye as a camera," Herbert says. There may be a generalized view of a scene, which is followed more and more by a concentration on the area in which the action is going to happen. Finally the eye is brought in for close-ups, "a hand tapping on the table, or somebody's mouth chewing the food."
+
+
+# Herbert is in favour of scenario planning, not prediction, just like Gordon
+- “I think it's a mistake to think about THE future, one future. We ought to think more of planning for futures as an art form, for quality of life. We have as many futures as we can invent.”
+
+
+# Interesting further reading after reading this book
+- Under Pressure: What the crew-except for one member does not know is that there are no habitable planets at Tau Ceti, and the real purpose of the mission is to create an artificial consciousness in the ship's computer...
+- The Eyes of Heisenberg: Most of the book takes place in the "Seatac Megalopolis" 
+- The Santaroga Barrier: describes an ambiguous utopia. It makes real demands on the reader (Herbert hopes) in depicting a society that "half my readers would think was utopia, the other half would think was dystopia."
+- Science Fiction and a World in Crisis essay.
+- Alvin Toffler's Future Shock
+
+
+
+Rewiring America
+===
+posted: September 20, 2020
+rating: yes
+cover: /assets/book-covers/rewiring-america.jpg
+
+This is less of a book and more of a propaganda pamphlet, which can be succinctly summarized as follows:
+
+> The technical path to decarbonization is simply this: we must electrify (nearly) everything.
+
+I picked this book up because I admire the author for being a prolific inventor and entrepreneur and seemingly chill dude. I once toured Otherlab thanks to my friend AK, which was awesome and inspiring. I rate it as worthwhile because it’s a bold opinionated bet, which is refreshing when the dominant climate narrative is “Honestly, we need to do everythinggggg”.
+
+**Like WWII mobilization**. Saul’s position is that the only way to un-fuck ourselves and remain on a 2C warming trajectory is to do an “aggressive WWII-style production ramp-up of three to five years”. He adds some colour to the WWII era mobilization effort, painting a very shabby military picture as late as 1939, when “the US had only 1700 aircraft and no bombers. By 1945, the US had 300,000 military aircraft, 18,500 B-24 bombers.”
+
+**Positive enough vision?** I strongly agree that we need a positive vision for 2020 and climate, but I didn’t find the one that he provides “If we build the right infrastructure, right away, the future will be awesome!” to be much of a rallying cry. Awesome how? Also I don’t believe in the vitality of a cry to defer gratification. Seems counter to the dominant culture.
+
+**California/Australia centric** “Everyone should install solar on their roofs at the next opportunity, whether that be a retrofit, replacing shingles, or buying or building a new house.” makes little sense in many places that are less sunny year-round. For example according to project Sunroof, doing this on my house would cost me $2000 over 20 years, with a $20,000 cost up-front. Similarly, I just bought a hybrid vehicle, but buying an all-electric one would cost either 50% more, and waiting 2 extra years (RAV4 Prime) or 100% more if it’s the Tesla Model Y,. And I don’t have a good place to plug a PHEV in. Plus full-electric precludes a bunch of stuff like going on hikes and driving on shitty roads. Suspect people in apartments have even less opportunity for a plug-in. And I’m super rich and on board with this whole climate thing.
+
+**Innovation in consumer loans** Revolutionary mortgages and low-interest loans were in the 20th century. I’ve have heard him speak about this before in a Long Now seminar, and this remains compelling because of the possibility of changing behaviour at scale. “America’s lifestyle has been built on loans. Creating a climate loan in response to the climate crisis has clear historical precedent.” While true and interesting, car loans enabled people to own a car, and mortgages enabled them to own a house. A climate loan has no selfish benefits. This revolution has to be a government-sponsored thing, just like WWII didn’t require individuals to like take a loan in order to buy a tank for the war effort.
+
+**Rosy battery cost projections** for batteries are a bit optimistic… Saul projects $75/kWh by 2024, a [random graph](https://www.researchgate.net/figure/Lithium-ion-battery-price-history-and-forecast-Source-Bloomberg-2018b_fig3_340952556) I just found suggests more like $96/kWh by 2025. The challenge of multiple uses and battery degradation remains. Especially if one buys a large battery for their house, or expects to be driving an EV for 250,000 miles like we did the Toyota Highlander.
+
+**Why Makani shut down**. It which was aiming to produce wind energy at 3-4 c/kWh, 5-6 times cheaper than other wind-powered electricity at the time. Now wind power is 4-5c/kWh. “In 2020, Makani shut down due to this evaporated advantage.”
+
+**General gripes about regulation**. Great example with SF roof solar panels not being allowed to extend to the edge of the roof. Instead they must be set back 4’, which in practice eliminates 44% of the area.
+
+**Central planning would be nice**. A section about electrifying 250 million vehicles, 130M households, 6M trucks, etc reminds me of how much easier such a monumental task would be in a country like China, if they set their mind to it. And it’s easy in this case because you actually know how much of everything you need, because you just replace all of the existing things with electric versions.
+
+**Carbon sequestration doesn’t work**. Makes sense to me not to focus on sequestration at either smoke stacks or from atmosphere because science. Makes physics sense and also corroborated by Mark Lynas in [this episode of 80,000 hours](https://overcast.fm/+JRaWQWkWs).
+
+**Carbon taxes ineffective, politically fraught** (I think that the main suggestion of this book is more politically fraught than passing a carbon tax.) Saul argues that it’d take too long to see the effects of a carbon tax, and that electricity is becoming so cheap as is, that it won’t really matter. Maybe. I don’t think this is happening fast enough. I think many Americans buying cars in the next 5 years will opt for gasoline or hybrid solutions rather than electric ones. But a carbon tax might shift the numbers.
+
+**Yes and…** Nice little FAQ at the end, but spread pretty thin. Blanket assertion that “The rare earth metals used in high energy magnets and electronics are actually not as rare as their name implies.” No source. Also kind of sloppy rejection of self driving cars as a potentially good thing, ignoring possible benefits of automated fleets and more densely packed passengers. Electric aircraft? This is still science fiction, hasn’t been done.
+
+Overall I found the message to a bit monistic, but also pragmatic. I liked the outright rejection of approaches like CCS that won’t actually work. And hard boiled assessments of individual actions that are admirable but ultimately won’t be enough, like eating less meat.
+
+
+
+Братья Карамазовы, читает Ульянов
+===
+posted: September 16, 2020
+rating: yes
+
+First time listening to a book in Russian.
+
+For some reason, found an [abridged and dramatized](https://akniga.org/dostoevskiy-fedor-bratya-karamazovy-stranicy-romana) version, but by the time I realized this was the case, I was already well into it. No matter - the reader and dramatization was incredible, although I felt that the production suffered a bit from overly floral musical interludes. 
+
+This is a masterpiece of writing, vivid characters, and a terrifying portrayal of some of humanity's worst. Greed, so expertly portrayed by Dmitry Fedorovich and his father Fedor Pavlovich. Exquisitely neglectful parenting! The greed theme is so sickening of its own accord, but is compounded by one of the most disturbing father-son relationships. 
+
+The plot is complex, featuring a love pentagon, I think. Let me count the edges. Two brothers, their father, and two women. At least. 
+
+Золотые прииски. Сцена с Хохлаковой+++ Ну вообще, так образно описана Русская женщина!
+
+Some of the most painful, vivid and florid expressions of love. So very Russian. Грушенька reminds me of A, and Митя reminds me of B, circa 15 years ago. Of course, they are far less extreme versions, but unrequited, violent, irrational, completely blind love is a dangerous thing.
+
+The mystery aspect of this book is intense, with the missed scene. Is there a patricide? Yes, but in a roundabout way. 
+
+Clearly things are missing in this abridged edition. Reading more into the story, I was disappointed to find whole characters missing, and reading more into it, I think that Ivan comes off somewhat flat, and could have been portrayed in more idealistic detail. 
+
+
+Quicksilver by Neal Stephenson 
+===
+posted: August 22, 2020
+rating: yes
+cover: /assets/book-covers/quicksilver.jpg
+
+One of the better written Neal Stephenson books I’ve read so far. I found the first half especially engaging. Extremely varied, this book covers a lot of ground. 
+
+- History: Cromwell and the English Civil War, the Third Anglo-Dutch war. 
+- Famous scientists and the Royal Society: Newton, Boyle, Hooke, Leibniz, *Waterhouse*. 
+- Sailing and pirates: Edward Teach (Blackbeard) and *Otto van Hoek, captain of The Minerva*
+- Pandemics and end-times: 1666 as the year of the beast, as well as continuing waves of the Black Death in London.
+- Money: bullion to paper & centralized banking, and back.
+- Jews: a lens crafter makes a cameo in a casually anti-semitic context. Spinoza is mentioned. Wilkins’ treatise on tolerance.
+
+I found this to be an excellent example of fiction doing what non-fiction can only dream of: in this case, imbuing dry history with a soul. Stephenson masterfully guides his reader through the gradual evolution of bullion and coinage to bills, and the regression that follows the Dutch war. A far more entertaining vignette of something dryly described in Debt.
+
+Waterhouse aboard the Minerva feels like a more fun version of Pirates of the Caribbean. Maybe I was especially into it since I’m sailing so much this year. Nice to see Stevenson using some antiquated sailing terms too. I learned that *larboard* is an antiquated term for port.
+
+Part of the fun of reading Quicksilver is that, unless you cheat or happen to know many personalities from the 17th century, it’s hard to know whether a character is real or fictional. Daniel Waterhouse was so vivid by the end of it, I wasn’t sure about his status until checking.
+
+The book feels a bit unfinished. For example, what happened to Enoch Root? Some passages are a bit rough, like the repetitive dialog with the Jew, who is continually called “The Ashkenazi”, “The Forelocked One”, “The Circumsized One”, etc. The last half felt a bit rushed, and the battle which Waterhouse solves with Trigonometry was a bit of a stretch!
+
+
 The Road by Cormac McCarthy
 ===
 posted: July 20, 2020

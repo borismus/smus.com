@@ -3,21 +3,21 @@ The neurochemistry of music
 posted: October 23, 2017
 rating: yes
 
-I picked up [“The Mozart Effect”][mozart] on a whim, at Powell’s in Portland,
+I picked up [“The Mozart Effect”](https://www.amazon.ca/Mozart-Effect-Tapping-Strengthen-Creative/dp/0060937203) on a whim, at Powell’s in Portland,
 hoping that it would provide some insights (via well conducted scientific
 studies) of how music affects the mind and the body. Unfortunately what I found
 was a bunch of woo woo with very little substantiation in the scientific realm.
 In some of the first words of the book, the author claims that he made a blood
 clot in his brain disappear by humming, praying, and envisioning a vibrating
 hand on the right side of his skull. The book has already been [widely
-discredited][mozart-bs], but I remain fascinated by the effects of music.
+discredited][mozart-bs](http://skepdic.com/mozart.html), but I remain fascinated by the effects of music.
 I read somewhere that music is possibly the strongest non-chemical intervention
 for people, with the possible exception of exercise.
 
 I stumbled on Daniel Levitin, author of a book called ["This is Your Brain on
-Music"][brain-music], through a podcast. Burned by The Mozart Effect, I thought
+Music"][brain-music](https://www.amazon.ca/This-Your-Brain-Music-Obsession/dp/0452288525), through a podcast. Burned by The Mozart Effect, I thought
 that a less popular, more academic survey might be a quicker way to ramp up, and
-found [this paper on his blog][paper], published in Trends in Cognitive Science.
+found [this paper on his blog](https://daniellevitin.com/levitinlab/articles/2013-TICS_1180.pdf), published in Trends in Cognitive Science.
 The paper is a bit challenging for me, being mostly ignorant about
 neurophysiology and neurochemistry, but is well written, and includes helpful
 glossaries and appendices.
@@ -97,10 +97,3 @@ the brain in terms of neurological control. According to Wikipedia,
 > and eating.
 
 Interesting...
-
-[mozart]: https://www.amazon.ca/Mozart-Effect-Tapping-Strengthen-Creative/dp/0060937203
-[mozart-bs]: http://skepdic.com/mozart.html
-[brain-music]: https://www.amazon.ca/This-Your-Brain-Music-Obsession/dp/0452288525
-[paper]: https://daniellevitin.com/levitinlab/articles/2013-TICS_1180.pdf
-
-
