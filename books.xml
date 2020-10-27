@@ -5,8 +5,495 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-09-16T22:01:15-00:00</updated>
+  <updated>2020-10-26T23:28:10-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Tools for Conviviality by Ivan Illich</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/tools-for-conviviality-by-ivan-illich"/>
+    
+    <updated>2020-10-25T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/tools-for-conviviality-by-ivan-illich</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My main objection to <a href="/books/deschooling-society-by-ivan-illich">Deschooling Society</a> was that Illich completely neglected the babysitting aspect of the institution. With that out the window, feels like a reread is in order. However, I donated Deschooling to the LFL at work, but happened to have a copy of Tools for Conviviality. So here we are!</p>
+
+<p>I found this book easier to digest than Deschooling. Perhaps I knew a bit better what I was getting myself into? By the way, <a href="https://arl.human.cornell.edu/linked%20docs/Illich_Tools_for_Conviviality.pdf">book PDF is available</a>.</p>
+
+<h1>Two Watersheds: too much of a good thing</h1>
+
+<p>Illich’s core critique of modernity is that modern tools, broadly defined, have great benefits, but they have been over applied. As a result, many areas touched by modernity pass through two watersheds:</p>
+
+<ol>
+<li>In the first watershed, a modern approach improves a domain significantly.</li>
+<li>In the second watershed, the same modern approach is over-applied, causing “negative returns”, “marginal disutility”, general dehumanization, loss of autonomy, etc.</li>
+</ol>
+
+<p>These dangers of “over efficiency” remind me a lot of <a href="/books/seeing-like-a-state-by-james-scott/">Seeing Like a State</a>, which explores limits of naively applied high modernist thinking. Illich writes:</p>
+
+<blockquote>
+  <p>“There are two ranges in the growth of tools: the range within which machines are used to extend human capability and the range in which they are used to contract, eliminate or replace human function.”</p>
+</blockquote>
+
+<p>Examples:
+- Medicine: first watershed in 1913, when supposedly modern medicine caught up with witch doctors and began to outperform them. Second watershed in 1950s, when “90% of all medical care for patients with terminal diseases is unrelated to their health. Such treatment increases suffering and disability without demonstrably lengthening life.” 
+- Transportation: In the early 1930s, Mexico connected most villages with dirt roads serviced by sturdy trucks moving at 20mph. Anyone could ride in these. As infra improved more and more money was sunk into a highway system, which enabled only those rich enough to access a car to use them.</p>
+
+<h1>Convivial limiting</h1>
+
+<p>Illich’s main critique of modernity is that people are trained by social institutions to be tool operators. Instead, tools should be simpler to operate and adapt to the tool user. </p>
+
+<p>Illich despises overdevelopment, especially insofar as it paves over the heterogeneity of human civilizations. The ancient Thai system of canals enabled farmers to travel with cheap light boats. Many of these canals were literally paved over with highways. A culturerally unique, perfectly functional system was dismantled in the name of homogeneity, all because of greed on the part of developers. </p>
+
+<p>A convivial society would be one which imposes limits on consumption. Illich is opposed to most power tools since they are centralizing in nature. Cars require a network of paved roads and gas pipelines. Modern life requires a centralized electric grid.</p>
+
+<p>This line of thinking leads to some pretty radical conclusions: “Commuter transportation leads to negative returns when it admits, anywhere in the system, speeds much above those reached on a bicycle. Once the barrier of bicycle velocity is broken at any point in the system, the total capital monthly time spent at the service of travel industry increases.” I’m calling bullshit on this one. Light rail and subways seem like a pretty good way of getting around.</p>
+
+<p>I do like the vision of being basically contained in a very small pedestrian and cyclist friendly area for most of ones existence, interspersed with occasional long haul rail travel. An electric cargo bike is a perfect tool to do all shopping for the family, though this would necessarily exclude trips to Costco. Long-haul train rides are already quite pleasant. And Illich would be glad to know that Amtrak’s Seattle \&lt;=> Vancouver route currently averages about 20 mph. In terms of reducing air travel, I could see a lifestyle in which one spends 3 months in a remote staycation, half vacationing and half working from another country every couple of years.</p>
+
+<h1>Convivial balancing</h1>
+
+<p>To his credit, when it comes to rate of growth, Illich acknowledges that some change is good: “A changeless society would be as intolerable for people as the present society of constant change. Convivial reconstruction requires limits on the rate of compulsory change.” Geoff West has expressed similar sentiments in Scale.</p>
+
+<p>Ultimately, it is a balancing act, and I agree with Illich that as things stand, our collective societal balance is off. Here are Illich’s “five dimensions upon which the balance of life depends”:</p>
+
+<ol>
+<li>Faulty tech can render the environment uninhabitable</li>
+<li>Radical monopoly can force the demand for affluence </li>
+<li>Overprogramming can transform the world into a treatment ward when people are constantly taught, socialized, normalized, tested, and reformed.</li>
+<li>Centralization and packaging of institutionally produced values can polarize society into structural despotism</li>
+<li>Engineering obsolescence can break all bridges to a normative past</li>
+</ol>
+
+<h1>Radical monopoly</h1>
+
+<p>I found this concept fascinating, and apparently it’s Illich’s own. A radical monopoly is when the dominance of one type of product supersedes dominance by any one brand. For example, cars do a lot to monopolize the way that people get around in many American cities.</p>
+
+<blockquote>
+  <p>“I speak about radical monopoly when one industrial production process exercises an exclusive control over the satisfaction of a pressing need.... That motor traffic curtains the right to walk, not that more people drive Chevies than Ford's, constitutes radical monopoly."</p>
+</blockquote>
+
+<h1>A convivial research agenda?</h1>
+
+<blockquote>
+  <p>“Leisurely scientific research does not exclude a bevatron or some ultracentrifuges; removal of access restrictions now created by schools would again admit the curious, rather than the orthodox, to the alchemist’s vault; and study for its own sake would produce more surprises than team research on how to eliminate production snags.”</p>
+</blockquote>
+
+<p>Illich’s research agenda is Counterfoil Research: </p>
+
+<ol>
+<li>To provide guidelines for detecting incipient stages of murderous logic in a tool, </li>
+<li>To devise tools and tool systems that optimize the balance of life, thereby maximizing liberty for all.</li>
+</ol>
+
+<p>Sounds like a really promising research ethos to me, meandering and passion driven, and more fundamentally basic. But unfortunately, this is something that is only available for independently wealthy gentlemen-scientists. Or perhaps beneficiaries of ARPA grants of yore. That said, some small, nascent research groups like Ink &amp; Switch, Dynamicland, and Otherlab appear to still operate similarly.</p>
+
+<h1>Critiques</h1>
+
+<p>Illich seems to be deeply influenced by projections from Ehrlich’s “The Population Bomb”, which never came to pass. He considers contraception as an especially convivial tool. Side note, Barry Commoner’s response to this Malthusian trap was described in The Closing Circle (1971) was a far less radical, level headed approach, suggesting that as poor people became richer, they would have fewer children, and the population would stabilize.</p>
+
+<p>Illich calls for austerity, the need to self-limit, and slow progress in an attempt to fix society and make it more convivial. This is going to be a bitter pill for many to swallow, and Illich understands this well. I think you need a much more clearly positive vision for the future. I admire <a href="/books/rewiring-america">Rewiring America</a> for taking a stab at this.</p>
+
+<hr />
+
+<p>As usual, Illich does a good job of critiquing society, but path to specific solutions remains murky. Especially when it comes to the last sections on law and on politics, the writing becomes noticeably more vague, as if the author himself appears somewhat hazy on the right course of action.</p>
+
+<p>Thus, how to move a whole society towards Illich’s post-industrial convivial vision is unclear. The main way in which I can see operationalizing it is by changing one’s personal life to live more convivially: live near work, walk and bike more, genuinely care more about others, do less busy work, home school your children, be present for major life events, build your own house, host more guests, etc.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Frank Herbert by Tim O’Reilly</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/frank-herbert-by-tim-oreilly"/>
+    
+    <updated>2020-10-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/frank-herbert-by-tim-oreilly</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <h1>Meta: things about “Frank Herbert”, its author, the style in which it is written.</h1>
+
+<ul>
+<li>I’ll be honest, I’m excited about the upcoming Dune movie. Prior failed attempts do not inspire confidence.</li>
+<li>How crazy is it that Tim O’Reilly wrote a book about Frank Herbert?</li>
+<li>Book reads as a sort of expose about Herbert’s intentions writing Dune.</li>
+<li>Good reminder about the series, which I first read probably more than 20 years ago. I’m due for a re-read.</li>
+<li>Lots of plot summarization, but this is necessary for the non-Dune corpus of Herbert’s works which I haven’t read.</li>
+</ul>
+
+<h1>Frank Herbert the Person</h1>
+
+<ul>
+<li>Thoroughly PNW. Born in Tacoma, grew up on Olympic and Kitsap in NW Wash. </li>
+<li>Lived in California, Oregon, returned to WA in 1969. "ecological demonstration project," an example of new-style "techno-peasantry”.</li>
+<li>His mother had ten sisters, who were extremely close and shared in his upbringing.  (Interesting echo of Bene Gesserit) Orne's escape from the Nathian influence might be construed—and this is purely conjectural—as reminiscent of Herbert's own escape from the confines of the family matriarchy.</li>
+</ul>
+
+<h1>The Romance of the Desert</h1>
+
+<ul>
+<li>Dune was inspired by the dunes of Oregon. Herbert was in Florence, Oregon to write a feature story about a government project on the control of sand dunes.</li>
+<li>In his research Herbert had noted how the desert seems to be a wellspring of religion. The history of Judaism demonstrates that harsh conditions make for a religion of anticipation.</li>
+<li>Like the Jews, the Fremen have long been wandering and persecuted, always awaiting the promised land. And like the Arabs, the scattered Fremen discover their religious and cultural identity at the call of a strong leader, and build a mystical warrior-religion moved by economic as well as religious factors.</li>
+</ul>
+
+<h1>References I missed when I first read Dune</h1>
+
+<ul>
+<li>The name Atreides was also consciously chosen. It is the family name of Agamemnon. Says Herbert, "I wanted a sense of monumental aristocracy, but with tragedy hanging over them—and in our culture, Agamemnon personifies that."</li>
+<li>Kierkegaard's "life is not a problem to be solved but a reality to be experienced" becomes a Bene Gesserit aphorism. Ecologist Paul B. Sears's statement, "the highest function of science is to give us an understanding of consequences" is expressed by Kynes as a fundamental ecological principle; and his "respect for truth comes close to being the basis for all morality" is recalled as a lesson Paul had received from his father.</li>
+<li>Much of the Bene Gesserit technology of consciousness is based on the insights of general semantics, a philosophy and training method developed in the 1930s by Alfred Korzybski. Herbert had studied general semantics in San Francisco at about the time he was writing Dune.</li>
+<li>Dune was written in 1963. It is predictive science fiction of the best kind. Oriental religion had not yet become widely popular in the West; only the most primitive biofeedback experiments were being conducted, and even those were being scoffed at by most scientists.</li>
+<li>Karl Jaspers's primary formulation—that human life is bounded by inescapable limits such as death, uncertainty, struggle, and guilt—is also central to Herbert's thought.</li>
+</ul>
+
+<h1>Heightened awareness and brain-body interdependency</h1>
+
+<ul>
+<li>I remember this feeling on my first read: “Herbert's technology of consciousness is so nearly an extrapolation from the self- evident that it gives the reader at least the illusion (perhaps more) that he can learn techniques of heightened awareness for himself. And it gives many the itch to try…”</li>
+<li>Still super fascinated by the brain-body loop. It was very interesting as part of my meditation forays. “Three quick breaths triggered the responses: he fell into the floating awareness… focusing the consciousness… aortal dilation…”</li>
+</ul>
+
+<h1>Echoes of Taleb in Dune and Herbert’s thought</h1>
+
+<ul>
+<li>Skin in the game “The willing assumption of personal risk is one of the primary elements that distinguishes Paul from the Bene Gesserit and the Spacing Guild…”</li>
+<li>More SITG: “The Pakistani described the difference between American and Soviet engineers in charge of foreign-aid projects: The Soviet would stand back and supervise the operation from a distance, while the American would roll up his sleeves and show them how it was done”. Unlike the Atreides, the Emperor and the Harkonnens (recall the Baron's given name, Vladimir) would never involve themselves in personal risk.</li>
+<li>Antifragility “Those who become utterly dependent on one means of mastery will find them- selves unable to cope with the future”</li>
+</ul>
+
+<h1>Dune demonstrates the perils of heros and hero worship.</h1>
+
+<ul>
+<li>Recalling the origins of Dune, Herbert says: It began with a concept: to do a long novel about the messianic convulsions which periodically inflict themselves on human societies. I had this idea that superheros were disastrous for humans.</li>
+<li>The person who experiences greatness… must have a strong sense of the sardonic. This is what uncouples him from belief in his own pretensions. The sardonic is all that permits him to move within himself. Without this quality, even occasional greatness will destroy a man.</li>
+<li>Herbert deliberately looked for this reaction from his readers. To Herbert, the hero mystique is symptomatic of a deadly pathology in contemporary society, a compulsive yearning for easy answers. As long as men are looking for simple solutions to their problems, they will give over their ability to think for themselves to the first person who comes along and promises a solution. The Dune trilogy is an attempt to unveil that pattern and, in some small part, to change it.</li>
+</ul>
+
+<h1>Avoid rigidity, aim to be more adaptable</h1>
+
+<ul>
+<li>“Strength lies in adaptability, not fixity. Civilization, on the other hand, tries to create and maintain security, which all too frequently crystallizes into an effort to minimize diversity and stop change.”</li>
+<li>In our culture, individuals are trained to believe the evidence of mechanical measuring devices rather than their own senses. A feverish patient believes a thermometer, not his own discomfort.</li>
+<li>"You never talk of likelihoods on Arrakis. You speak only of possibilities," says Kynes.</li>
+<li>Arrakis requires a willingness to flow with the environment rather than opposes and seek control of it.</li>
+<li>Deep: ‘Orne realizes the Abbod is right: "To strengthen a thing, oppose it… You become like the worst in what you oppose.”’</li>
+<li>Halmyrach Abbod's remark in "The Priests of Psi": "We have a very ancient saying: the more god, the more devil; the more flesh, the more worms; the more anxiety, the more control; the more control, the more that needs control."</li>
+<li>'It's like a drug habit," said the Abbod. "If you enforce peace, it will take greater and greater amounts of peace to satisfy you. And you will use more and more violence to obtain it. The cycle will end in cataclysm."</li>
+</ul>
+
+<h1>Against Psychohistory, Dune vs. Foundation</h1>
+
+<ul>
+<li>Bene Gesserit is found in a study of their literary antecedents. The Bene Gesserit are based in part on the scientific wizards of Isaac Asimov's Foundation trilogy.</li>
+<li>In contrast to the Foundation trilogy's exaltation of rationality's march to predicted victory, Dune proclaims the power and primacy of the unconscious and the unexpected in human affairs.</li>
+<li>This is essentially the assumption that science can produce a surprise-free future for humankind.</li>
+<li>I should be wary of this in my own attraction to super-forecasters. “messianic hunger is an example of a pervasive human need for security and stability in a universe that continually calls on people to improvise and adapt to new situations.” </li>
+</ul>
+
+<h1>Examples of Foxiness</h1>
+
+<ul>
+<li>As Herbert has emphasized, he is not a "hot-gospel ecologist," convinced that all man's interventions into nature are evil. Ecology, like all other creeds, is dangerous when it becomes an absolute.</li>
+<li>...there are no right answers and no complete doctrine. There are only answers and their consequences. What happens to people who follow any given set of beliefs? The subtleties of one doctrine as opposed to another are resolved not by logic but by looking at their effects.</li>
+</ul>
+
+<h1>How have films influenced books?</h1>
+
+<ul>
+<li>"I treat the reader's eye as a camera," Herbert says. There may be a generalized view of a scene, which is followed more and more by a concentration on the area in which the action is going to happen. Finally the eye is brought in for close-ups, "a hand tapping on the table, or somebody's mouth chewing the food."</li>
+</ul>
+
+<h1>Herbert is in favour of scenario planning, not prediction, just like Gordon</h1>
+
+<ul>
+<li>“I think it's a mistake to think about THE future, one future. We ought to think more of planning for futures as an art form, for quality of life. We have as many futures as we can invent.”</li>
+</ul>
+
+<h1>Interesting further reading after reading this book</h1>
+
+<ul>
+<li>Under Pressure: What the crew-except for one member does not know is that there are no habitable planets at Tau Ceti, and the real purpose of the mission is to create an artificial consciousness in the ship's computer...</li>
+<li>The Eyes of Heisenberg: Most of the book takes place in the "Seatac Megalopolis" </li>
+<li>The Santaroga Barrier: describes an ambiguous utopia. It makes real demands on the reader (Herbert hopes) in depicting a society that "half my readers would think was utopia, the other half would think was dystopia."</li>
+<li>Science Fiction and a World in Crisis essay.</li>
+<li>Alvin Toffler's Future Shock</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Story of Us by Tim Urban</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/story-of-us"/>
+    
+    <updated>2020-09-23T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/story-of-us</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Tim Urban describes the evo-devo view of humanity in an entertaining light in this long, illustrated series. It’s cumbersome to read as separate articles, and would be more natural in book or pamphlet form (surely this is coming).</p>
+
+<p>This is a pretty great, digestible format, tying together many ideas into a single coherent almost masterwork. The mental models along the way are really cool, and well illustrated. Unfortunately it hasn’t really gelled together yet. Maybe in the sequel?</p>
+
+<h1>Chapter 1: Fire vs Light</h1>
+
+<ul>
+<li>Genetic forces conspire to make life miserable. “The problem is that genes themselves aren’t alive, they’re just a force of nature—and forces of nature don’t give a shit about anything. Gravity wants to smoosh matter together, so that’s what it does.” (Dawkins, Selfish Gene)</li>
+<li>Your genes are in control of your Primitive Mind (System 1), while your Higher Mind (System 2) has more agency. By default the Primitive Mind is in control, but people are especially good at not letting this happen. (Kahnemann &amp; Tversky, Thinking Fast and Slow)</li>
+<li><strong>Model: Thought Spectrum</strong>. Rather than viewing as a dual, you can see Primitive vs Higher mind as a spectrum. </li>
+</ul>
+
+<p><img src="/books/story-of-us/1-thought-spectrum.png" alt="Thought spectrum" /></p>
+
+<h1>Chapter 2: Games of Giants</h1>
+
+<ul>
+<li><strong>Model: Emergence Tower</strong>. Life came about on one of the rungs of the Emergence Tower, a nice concept mentioned in any intro to biology class. Many atoms form a molecule, many of which form proteins, many of which form organelles, etc. The most interesting points along this tower are cells, individuals, and groups.</li>
+</ul>
+
+<p><img src="/books/story-of-us/2-emergence-tower.png" alt="Emergence tower" /></p>
+
+<ul>
+<li>Some species like bears are most interesting as individuals. Ants are most interesting when considered at a colony (1000s of individuals) level. Humans are interesting on many levels, from individual to billions of individuals.</li>
+<li>Generally speaking, evolution has made people in tribes act “micro-kind and macro-ruthless.” For example, “people who are normally compassionate drop that compassion when thinking and talking about members of a political party they hate”</li>
+</ul>
+
+<h1>Chapter 3: Stories</h1>
+
+<ul>
+<li>Tribes of people have the ability to create stories, and pass these stories from one person to another. These stories carry ideas about values and morals.</li>
+<li>People are also capable of social learning, imagination, and the negative side affect: delusion. </li>
+<li>The result of these things is that different tribes end up with “endless arrays of behavioural varieties—a million little evolutionary experiments”.</li>
+<li><strong>Model: Each tribe is then controlled by its story</strong>, and the tribe with the most evolutionarily adaptive story will ultimately win out over the rest. Ultimately, tribe vs. tribe in zero sum “Power Games”.</li>
+</ul>
+
+<p><img src="/books/story-of-us/3-tribe-stories.png" alt="Tribes and stories" /></p>
+
+<h1>Chapter 4: Enlightenment</h1>
+
+<ul>
+<li>After being ruled by Tzars, Kings, Dictators, since ancient times, Enlightenment thinkers began to take stock of history and consider alternatives. </li>
+<li>“In the Power Games, kings, emperors, and warlords were typically focused on some set of goals—personal or national prosperity, defence, etc”. Conversely, “The Constitution described a sacred process—a set of inviolable means by which any and all national or individual goals would need to be accomplished.”</li>
+<li>Rule of Law came about as a result. “The Power Games is full of people being found guilty without evidence and punished unfairly, something the Enlightenment was determined to put an end to—so the hard rule would be: innocent until proven guilty.”</li>
+<li><strong>Model: Power Games vs. Value Games</strong>. “While it was typically better to be feared than loved in the Power Games, in the Value Games, it’s usually better to be loved than feared—which keeps politicians and businesses on their best behavior.”
+<img src="/books/story-of-us/4-power-vs-value.png" alt="Power vs Value Games" /></li>
+</ul>
+
+<h1>Chapter 5: Mute Button</h1>
+
+<ul>
+<li>To understand humans at a larger scale, it’s worth modelling some of the dynamics at play when groups of humans meet. The basic model is this: people have an inner and an outer self. People’s outer selves communicate using language. A human in a society is like a neuron in a brain.</li>
+<li>One’s inner and outer self need not be fully aligned. You can believe things that you dare not speak. For any given topic there is a range of what is acceptable to speak and/or believe.</li>
+<li><strong>Model: expression spectrum</strong> of speech platforms, from national speech (official from on high) to community discussions, to small groups of friends.</li>
+</ul>
+
+<p><img src="/books/story-of-us/6-expression-spectrum.png" alt="Expression Spectrum" /></p>
+
+<ul>
+<li><strong>Model: idea spectrum &amp; Thought Pile</strong> models various positions on a specific topic. By putting idea spectrum on X and expression spectrum on Y, plot a Thought Pile of what people believe.</li>
+</ul>
+
+<p><img src="/books/story-of-us/5-idea-spectrum.png" alt="Thought Pile" /></p>
+
+<ul>
+<li><strong>Model: Speech Curve</strong>: Also draw a Speech Curve of what is acceptable to say at which expression level. For example, you can hold fringe views in a small group that has a certain set of priors and shared understanding. But if the same thing was said at a larger scale, it would not land well.</li>
+</ul>
+
+<p><img src="/books/story-of-us/7-speech-curve.png" alt="Speech Curve" /></p>
+
+<ul>
+<li>Sometimes if a despot is in charge, he will want to control what people think, as a way to hold on to power. There is no direct way to control though, but there is a direct way to punish and control speech. </li>
+<li>“Censorship takes a single region formed by an aligned Thought Pile and Speech Curve and turns it into three regions by generating two “censorship gaps.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/8-censorship.png" alt="Censorship's effect on Thoguht Pile and Speech Curve" /></p>
+
+<h1>Chapter 6: American Brain</h1>
+
+<ul>
+<li>Thought Piles need not be normally distributed. In America they are often bimodal.</li>
+<li>You don’t need to be ruled by a despot for there to be discrepancy between Thought Pile and Speech Curve. </li>
+<li><strong>Model: Overton window</strong> There’s a range of ideas the public will accept as politically reasonable (Overton window) and politicians at the highest level are often hamstrung by it. They can’t really move it themselves, just need to feel its boundaries.</li>
+</ul>
+
+<p><img src="/books/story-of-us/9-overton-window.png" alt="Overton window" /></p>
+
+<ul>
+<li>“If you live in a democracy, and you’re not zoomed out far enough, you might look at the politicians running your government and mistake them for your leaders. In the short term, sure, they jostle with each other over the country’s policies and steer the country on the international stage. But with a step back, the real long-term leader of a democracy is the giant communal brain of the citizen body.”</li>
+<li><strong>Model: Thought Pile follows Speech Curve</strong></li>
+</ul>
+
+<p><img src="/books/story-of-us/10-changing-minds.png" alt="Changing Minds" /></p>
+
+<h1>Chapter 7: Thinking Ladder</h1>
+
+<ul>
+<li>There’s a tension between just caring about what is true, and wanting to have your deepest beliefs confirmed. “So when it comes to beliefs, the Primitive Mind doesn’t want truth, it wants confirmation—of your existing beliefs.”</li>
+<li><strong>Model: psych spectrum</strong>, although I think many people often apply different types of thinking personas to different problems:
+<ul>
+<li>Scientist: “chasing truth is like climbing through thick fog up an infinitely high mountain. It’s the pursuit of something that can never be fully achieved, but it can be approached—and their goal is simply to continue moving up the mountain”</li>
+<li>Sports fan: “It’s just…that they really really want that process to yield a certain outcome. They’re not just watching the game—they’re rooting.”</li>
+<li>Attorney: "The client is not guilty. Now let’s figure out why.”</li>
+<li>Zealot: “In reality, you’ve taken a set of ideas to be sacred, and you’ve given up an independent truth-seeking path in order to faithfully serve those sacred ideas”</li>
+</ul></li>
+</ul>
+
+<p><img src="/books/story-of-us/11-psych-spectrum.png" alt="Psych Spectrum" /></p>
+
+<ul>
+<li><strong>Model: Skepticism Spectrum</strong>. “Move to the left of the sweet spot on the spectrum, where the filter is looser, and you begin to allow some bullshit to flow into your beliefs. Move even farther left and your beliefs become packed with a jumble of falsehoods, misconceptions, and contradictions. Moving to the right of the sweet spot tightens the filter too much, like a business owner so worried about accidentally accepting Monopoly money that they end up turning down real money too. Go way to the right and you’ll stop believing the moon landing happened.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/12-skepticism-spectrum.png" alt="Skepticism Spectrum" /></p>
+
+<h1>Chapter 8: Idea Labs vs. Echo Chambers</h1>
+
+<ul>
+<li><strong>Model: Idea Labs</strong> are collections of Higher Minds, independent thinkers all seeking truth, working off one another and testing one another’s ideas. “Thoughtful contrarianism is valued because there’s an implicit understanding that the evolution of knowledge works like the evolution of life.” “Humility wins you major respect in an Idea Lab—where “I don’t know” is a very cool thing to say.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/13-idea-lab-vs-echo-chamber.png" alt="Idea Labs" /></p>
+
+<ul>
+<li>There aren’t that many of these places around though. Because even though the constitution is awesome, people are often not. “Free speech, like any Value Games privilege, requires both the government and the culture to be on board. The U.S. Constitution makes free speech possible—but only within the right culture does the freedom come to fruition.”</li>
+<li><strong>Model: the opposite of an Idea Lab is an Echo Chamber</strong>. “To put a visual to it, Idea Lab culture views agreement and decency as separate, unrelated axes, while Echo Chamber culture views agreement and decency as a single axis”</li>
+</ul>
+
+<p><img src="/books/story-of-us/14-idea-lab-vs-echo-chamber-thought-spectrum.png" alt="Idea Labs 2" /></p>
+
+<ul>
+<li>“The over-application of taboo is the bane of free speech, so pro-free-speech cultures use it sparingly. This frees the Idea Lab’s Speech Curve to freely line up with its Thought Pile.” In an Echo Chamber, Thought Pile and Speech Curve do not align, you end up with effective censorship. </li>
+<li>“An Echo Chamber’s taboo minefield makes it a safe and protected space for all ideas that confirm the sacred beliefs and a very dangerous space for ideas—and people—that don’t.”</li>
+<li>Conversely, Idea Labs are not a safe place for people whose identities are tied to their specific ideas. And this is many people.</li>
+<li>This is a useful model, but I think in practice people’s identities are always comprised of both Echo Chambers and Idea Labs, and this is a good thing. “A human society is a rich tapestry of overlapping and sometimes sharply contradictory cultures, and each of us lives at our own unique cultural intersection.”</li>
+</ul>
+
+<h1>Chapter 9: Political Disney World</h1>
+
+<ul>
+<li>Politics is reminiscent of many of the worst aspects of religion. In terms of the psych spectrum, “The Political Ladder is bottom-heavy”, meaning full of zealots.
+<ul>
+<li><strong>Model: 2D political spectrum.</strong> By considering the political right-left spectrum with a Y-axis of psych spectrum, it becomes less about right vs. left, more about top vs. bottom, ways of thinking.</li>
+</ul></li>
+</ul>
+
+<p><img src="/books/story-of-us/15-2D-political-spectrum.jpg" alt="2D Political Spectrum" /></p>
+
+<ul>
+<li><strong>Model: conservatives vs progressives on emergence tower</strong> nice little tie in.</li>
+</ul>
+
+<p><img src="/books/story-of-us/16-conservative-progressive-emergence-tower.png" alt="Conservative vs Progressive" /></p>
+
+<ul>
+<li><strong>Model: Disney characters.</strong> Disney characters tend to be binary: good incarnate, or evil incarnate. All nuance is lost. The same is done by Americans when thinking about politics.</li>
+</ul>
+
+<p><img src="/books/story-of-us/17-binary-disney-characters.png" alt="Binary Disney" /></p>
+
+<ul>
+<li><strong>Model: Causation is Hard</strong>. Given any two events, it’s often very hard to establish causation. The causation arrow can be strategically placed to make whatever point you’d like. (Book of Why)</li>
+</ul>
+
+<p><img src="/books/story-of-us/18-causation-possibilities.png" alt="Causation is Hard" /></p>
+
+<ul>
+<li><strong>Model: Sucky Man</strong> are all great ways of arguing in order to convince others:
+<ul>
+<li>Straw Man: reframe the wording of a strong dissenting argument, transform it into a much weaker argument.</li>
+<li>Weak Man: takes a strong argument, hand-pick the weakest part of it and attacks that.</li>
+<li>Hollow Man: fabricate a fake argument from scratch. Often framed by “some people say” – the easiest match possible.</li>
+</ul></li>
+<li><strong>Model: Motte and Bailey:</strong> good visual explanation of the less-wrong concept.</li>
+</ul>
+
+<p><img src="/books/story-of-us/19-motte-baile-examples.png" alt="Motte Bailey" /></p>
+
+<h1>Chapter 10: A Sick Giant</h1>
+
+<ul>
+<li><strong>Model: Media matrix</strong></li>
+</ul>
+
+<p><img src="/books/story-of-us/20-media-matrix.png" alt="Media Matrix" /></p>
+
+<p>Very unsatisfying end (?) to the series. Many great models were introduced in prior chapters, but this last post is mostly a regurgitation of interesting Pew Research polls. Occasional references to Higher and Primitive Minds, but that’s about it!</p>
+
+<h1>from smusmac</h1>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Rewiring America</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/rewiring-america"/>
+    
+    <updated>2020-09-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/rewiring-america</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This is less of a book and more of a propaganda pamphlet, which can be succinctly summarized as follows:</p>
+
+<blockquote>
+  <p>The technical path to decarbonization is simply this: we must electrify (nearly) everything.</p>
+</blockquote>
+
+<p>I picked this book up because I admire the author for being a prolific inventor and entrepreneur and seemingly chill dude. I once toured Otherlab thanks to my friend AK, which was awesome and inspiring. I rate it as worthwhile because it’s a bold opinionated bet, which is refreshing when the dominant climate narrative is “Honestly, we need to do everythinggggg”.</p>
+
+<p><strong>Like WWII mobilization</strong>. Saul’s position is that the only way to un-fuck ourselves and remain on a 2C warming trajectory is to do an “aggressive WWII-style production ramp-up of three to five years”. He adds some colour to the WWII era mobilization effort, painting a very shabby military picture as late as 1939, when “the US had only 1700 aircraft and no bombers. By 1945, the US had 300,000 military aircraft, 18,500 B-24 bombers.”</p>
+
+<p><strong>Positive enough vision?</strong> I strongly agree that we need a positive vision for 2020 and climate, but I didn’t find the one that he provides “If we build the right infrastructure, right away, the future will be awesome!” to be much of a rallying cry. Awesome how? Also I don’t believe in the vitality of a cry to defer gratification. Seems counter to the dominant culture.</p>
+
+<p><strong>California/Australia centric</strong> “Everyone should install solar on their roofs at the next opportunity, whether that be a retrofit, replacing shingles, or buying or building a new house.” makes little sense in many places that are less sunny year-round. For example according to project Sunroof, doing this on my house would cost me $2000 over 20 years, with a $20,000 cost up-front. Similarly, I just bought a hybrid vehicle, but buying an all-electric one would cost either 50% more, and waiting 2 extra years (RAV4 Prime) or 100% more if it’s the Tesla Model Y,. And I don’t have a good place to plug a PHEV in. Plus full-electric precludes a bunch of stuff like going on hikes and driving on shitty roads. Suspect people in apartments have even less opportunity for a plug-in. And I’m super rich and on board with this whole climate thing.</p>
+
+<p><strong>Innovation in consumer loans</strong> Revolutionary mortgages and low-interest loans were in the 20th century. I’ve have heard him speak about this before in a Long Now seminar, and this remains compelling because of the possibility of changing behaviour at scale. “America’s lifestyle has been built on loans. Creating a climate loan in response to the climate crisis has clear historical precedent.” While true and interesting, car loans enabled people to own a car, and mortgages enabled them to own a house. A climate loan has no selfish benefits. This revolution has to be a government-sponsored thing, just like WWII didn’t require individuals to like take a loan in order to buy a tank for the war effort.</p>
+
+<p><strong>Rosy battery cost projections</strong> for batteries are a bit optimistic… Saul projects $75/kWh by 2024, a <a href="https://www.researchgate.net/figure/Lithium-ion-battery-price-history-and-forecast-Source-Bloomberg-2018b_fig3_340952556">random graph</a> I just found suggests more like $96/kWh by 2025. The challenge of multiple uses and battery degradation remains. Especially if one buys a large battery for their house, or expects to be driving an EV for 250,000 miles like we did the Toyota Highlander.</p>
+
+<p><strong>Why Makani shut down</strong>. It which was aiming to produce wind energy at 3-4 c/kWh, 5-6 times cheaper than other wind-powered electricity at the time. Now wind power is 4-5c/kWh. “In 2020, Makani shut down due to this evaporated advantage.”</p>
+
+<p><strong>General gripes about regulation</strong>. Great example with SF roof solar panels not being allowed to extend to the edge of the roof. Instead they must be set back 4’, which in practice eliminates 44% of the area.</p>
+
+<p><strong>Central planning would be nice</strong>. A section about electrifying 250 million vehicles, 130M households, 6M trucks, etc reminds me of how much easier such a monumental task would be in a country like China, if they set their mind to it. And it’s easy in this case because you actually know how much of everything you need, because you just replace all of the existing things with electric versions.</p>
+
+<p><strong>Carbon sequestration doesn’t work</strong>. Makes sense to me not to focus on sequestration at either smoke stacks or from atmosphere because science. Makes physics sense and also corroborated by Mark Lynas in <a href="https://overcast.fm/+JRaWQWkWs">this episode of 80,000 hours</a>.</p>
+
+<p><strong>Carbon taxes ineffective, politically fraught</strong> (I think that the main suggestion of this book is more politically fraught than passing a carbon tax.) Saul argues that it’d take too long to see the effects of a carbon tax, and that electricity is becoming so cheap as is, that it won’t really matter. Maybe. I don’t think this is happening fast enough. I think many Americans buying cars in the next 5 years will opt for gasoline or hybrid solutions rather than electric ones. But a carbon tax might shift the numbers.</p>
+
+<p><strong>Yes and…</strong> Nice little FAQ at the end, but spread pretty thin. Blanket assertion that “The rare earth metals used in high energy magnets and electronics are actually not as rare as their name implies.” No source. Also kind of sloppy rejection of self driving cars as a potentially good thing, ignoring possible benefits of automated fleets and more densely packed passengers. Electric aircraft? This is still science fiction, hasn’t been done.</p>
+
+<p>Overall I found the message to a bit monistic, but also pragmatic. I liked the outright rejection of approaches like CCS that won’t actually work. And hard boiled assessments of individual actions that are admirable but ultimately won’t be enough, like eating less meat.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Братья Карамазовы, читает Ульянов</title>
@@ -4721,264 +5208,6 @@ a good thing Theranos was ultimately stopped. </p>
 <p>The Theranos story may in part be a cautionary tale of digital culture colliding
 with physical culture. But it is not helped by a morally compromised leader who
 believes that the ends justify the means. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Darkness at Noon by Arthur Koestler (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/darkness-at-noon-by-arthur-koestler-audio"/>
-    
-    <updated>2018-07-05T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/darkness-at-noon-by-arthur-koestler-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I learned about "Darkness at Noon" from a <a href="/books/reason-in-human-affairs-by-herbert-simon/">Herb Simon
-essay</a>, where he praised
-emotional story telling as a vehicle for helping people "attend to issues
-longer, to think harder about them, to receive deeper impressions that last
-longer". He asked: would you rather read "Darkness at Noon", or verbatim
-transcripts of Stalin's purges?</p>
-
-<p>The book is historical fiction loosely based on 1930s Soviet Russia. Supposed
-counter revolutionary movements are being quashed by Stalin. The "hero",
-Nicholas Rubashov finds himself in the middle of absurd Stalinist show trials,
-having to publicly admit to crimes he never committed. The intent of his captor
-is “to gild the right, to blacken the wrong”, ingraining black and white thinking
-into the masses. The means and ends of the current government are good and just
-and pure, and everything that opposes it is hellspawn and deserves only one
-fate. Despite Rubashov's intention to deliver an impassioned speech
-like Danton did before the guillotine, he finds himself powerless against the
-Soviet machine, mechanically pleading guilty in the show trial, and then being
-put to death.</p>
-
-<p>That isn't to say that Rubashov is innocent. As a younger man fervently
-dedicated to the party, he indirectly condemned his own lover to death,
-supposedly for the sake of the collective. Now in jail, and softened by sudden
-onsets of nuance, the former revolutionary has time to reflect. Intensely
-psychological, the book delves into Rubashov's evolution as he realizes that
-human life is sacred and no idea is worth sacrificing it for. Rational
-mathematics does not apply in this domain, and Rubashov eventually becomes a
-humanist. Fundamentally, Koestler's powerful critique of Stalinism is that the
-ends do not justify the means.</p>
-
-<p>Late in the book, a distinction between two kinds of suffering:</p>
-
-<ol>
-<li>Biological: Inevitable suffering from unmet basic needs.</li>
-<li>Social: Avoidable suffering from broken social systems.</li>
-</ol>
-
-<p>Koestler observes that Revolution reduces Type 2 suffering but inevitably
-increases to Tyle 1 suffering. Was the Russian Revolution justified? When is
-revolution ever justified?  Through Rubashov, he wrestles with this issue,
-acknowledging the need for social change, but questioning the means:</p>
-
-<blockquote>
-  <p>One cannot heal a person mortally ill by pious exhortations. The only solution
-  was the surgeon's knife and his cool calculation. But wherever the knife had
-  been applied, a new sore had appeared in place of the old.</p>
-</blockquote>
-
-<p>I really liked this book. Not having read the transcript of Stalin's purges, I
-am going to assume that Herbert Simon was right: Darkness at Noon is well
-written, interesting, and visceral.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>You Belong to the Universe (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/you-belong-to-the-universe-audio"/>
-    
-    <updated>2018-05-28T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/you-belong-to-the-universe-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Buckminster Fuller's name seems to pop up everywhere in the last few years. I
-saw Jonathon Keats talk at The Interval a few years ago, on a book tour about
-Fuller's life and work. I finally got to listen to the audio version. I found
-bits to be interesting, but overall this book is less of a biography, and more
-of an attempt to riff on various modern incarnations of Fuller's ideas. Fuller
-himself comes off as overly self-involved. His investment and belief in panacea
-projects like the World Game, Domed Manhattan, Dymaxions comes off as overly
-naive for such a great man.</p>
-
-<p>The book itself is interesting but not groundbreaking. It involves overly
-flowery descriptions of things that I consider obvious: Google, Nest, Sim City,
-self driving cars, etc. The end appears especially weak. The author spends too
-much time on platitudes about specialization. If I had a dollar for every time
-he wrote “comprehensive anticipatory design science”...</p>
-
-<p>Leads from the book:</p>
-
-<ul>
-<li><a href="https://wikihouse.cc/">Wikihouse</a>: simple, sustainable, open building
-technologies.</li>
-<li><a href="https://www.insidehighered.com/blogs/technology-and-learning/mooc-pre-history">Sunrise Semester</a> was an early morning CBS program that offered NYU courses for credit to viewers, precursor of MOOCs. Thousands of people participated.</li>
-<li><a href="https://www.designbuild-network.com/projects/green-float/">Green Float</a> is a
-proposed floating city concept developed by Shimizu Corporation of Japan.</li>
-<li>Lewis Mumfort's <a href="https://en.wikipedia.org/wiki/The_Myth_of_the_Machine">Pentagon of Power</a> criticizes planned cities as
-anti-cities, and Bucky's <a href="https://www.moma.org/collection/works/863">Tetrahedron City project</a> as “A pyramid big
-enough to entomb the population of a while town”.</li>
-<li><a href="http://www.shigerubanarchitects.com/works/2013_CCC/index.html">Shigeru Ban</a> designed some cardboard-based buildings for refugees,
-from practical dwellings to cathedrals. Impressive!</li>
-<li>One of Fuller's collaborators, critiques domes as <a href="http://www.domerama.com/general/smart-but-not-wise/">"smart but not
-wise"</a>, a quip that is often applicable to modern tech. Specifically:</li>
-</ul>
-
-<blockquote>
-  <p>Metaphorically, our work on domes now appears to us to have been smart: mathematics, computers, new materials, plastics. Yet reevaluation of our actual building experiments, publications, and feedback from others leads us to emphasize that there continue to be many unsolved problems with dome homes. Difficulties in making the curved shapes livable, short lives of modern materials, and as-yet-unsolved detail and weatherproofing problems.</p>
-</blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Unsong by Scott Alexander</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/unsong-by-scott-alexander"/>
-    
-    <updated>2018-05-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/unsong-by-scott-alexander</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Unsong is based on a really compelling concept. As it turns out, the Torah is
-literally true. God is real, angels and demons literally control the fate of the
-world. Kaballah is indeed the fundamental way that the universe works. Some
-people continue to irrationally cling to their old beliefs (Science, Pluralism)
-despite overwhelming evidence to the contrary. Earth is the center of the
-Universe, and when Apollo 11 launched, it crashed into the firmament and left a
-gaping hole in it. </p>
-
-<p>Alexander's novel excels at world building. The back story to how the world came
-to be is fascinating. Unsong is full of gullible archangels and clever
-Kaballists-programmers, San Francisco is Jerusalem, magical incantations possess
-true powers and a righteous police force enforces their usage. These are all
-super creative components of the complex universe conjured from thin air.</p>
-
-<p>Unfortunately, despite the awesome concept, Unsong is not well executed. The
-storyline is dull, the characters all speak in one voice, the pacing is off, the
-interludes break the flow of the story, and the puns get annoying fast. This is
-in stark contrast with Ted Chiang's works, which are great conceptually and
-share some of the same fascinating themes (Tower of Babel, Hell is the absence
-of God, the one about golems). The difference is that Chiang’s stories are well
-crafted and come together as coherent wholes. They are emotionally driven,
-memorable, well paced, and appropriate in length. </p>
-
-<p>I got through half of the book over the last few months, in small chunks because
-Eliana is so small, often having to put the book down out of annoyance. Today I
-have decided to declare bankruptcy. I am not invested in the story, I don't care
-about the characters, and I don't care what happens in the end. Perhaps one day,
-if it is aggressively edited, I will give it another chance.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Reason in Human Affairs by Herbert Simon</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/reason-in-human-affairs-by-herbert-simon"/>
-    
-    <updated>2018-04-26T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/reason-in-human-affairs-by-herbert-simon</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>One of the people I worked with at CMU was a "Herbert A. Simon Professor of
-Human-Computer Interaction". I hadn't heard of Herbert Simon before, but his
-name came up again recently at the end of <a href="/books/skin-in-the-game-by-taleb-audio/">"Skin in the Game"</a>. Turns out Simon
-was a pretty interesting guy, and had a lot to say about Rationality.</p>
-
-<p>Simon was an academic, and mostly wrote for academic audiences. This is his
-least academic book, and still presents a dry read. The first essay, called
-"Visions of Rationality", describes three flavors of rationality: SEU,
-Bounded Rationality, and Intuitive Rationality. I skipped the second essay
-because it was too boring. The third essay was about rationality in
-organizations, which is Simon's home turf, being a key figure in Organizational
-Behavior.</p>
-
-<p>Critically, Simon treats reason as "wholly instrumental. It cannot tell us where
-to go; at best it can tell us how to get there. Thus, whereas reason may provide
-powerful help in finding means to reach our ends, it has little to say about the
-ends themselves".</p>
-
-<p>Subjective Expected Utility (SEU) is the God-like “Olympian model”, but is not a
-suitable model for the mind of man. That said, Rationalists tend to elevate this
-model:</p>
-
-<ol>
-<li>Well defined utility function.</li>
-<li>Well defined set of alternatives to choose from.</li>
-<li>Can assign a consistent joint probability distribution to all future sets of
-events.</li>
-<li>Maximize the expected value of the utility function.</li>
-</ol>
-
-<p>Bounded rationality postulates that our minds are limited, bounded by
-computational powers. The model more closely reflects human ability:</p>
-
-<ol>
-<li>A mechanism to focus attention. "Rationality could focus on dealing with one
-or a few problems at a time".</li>
-<li>A mechanism capable of generating alternatives.</li>
-<li>A capability for acquiring facts about the environment, the ability to draw
-inferences from facts.</li>
-</ol>
-
-<p>Intuitive rationality recognizes that thought is often affected by emotion, 
-which can usefully "distract you from your current focus of thought, and to call
-your attention to something else that presumably needs attention right now.".
-There is no contradiction between SEU/Bounded models and intuitive rationality.</p>
-
-<p>I really liked Herb Simon’s take on novels over textbooks for teaching social
-science. This “hot cognition” is what makes Ted Chiang’s stuff so compelling.</p>
-
-<blockquote>
-  <p>“Most humans are able to attend to issues longer, to think harder about them,
-  to receive deeper impressions that last longer, if information is presented in a
-  context of emotion, a sort of hot dressing, than if it’s presented wholly
-  without effect.”</p>
-</blockquote>
-
-<p>Examples:</p>
-
-<ul>
-<li>"Darkness at Noon" vs. a history book or transcripts of Stalin's purges?</li>
-<li>"War and Peace" vs. a treatise on military sociology?</li>
-<li>Proust and Chekhov versus a textbook on personality?</li>
-</ul>
-
-<p>People respond well to story, but this leaves us with an important
-responsibility: “if we are to learn our social science from novelists, then the
-novelists have to get it right. The scientific content must be valid.” Example:
-Freud’s stuff still permeates novels despite very few orthodox Freudians left in
-psych today.</p>
 
 
         

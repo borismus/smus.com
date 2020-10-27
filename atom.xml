@@ -5,8 +5,495 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-09-16T22:01:15-00:00</updated>
+  <updated>2020-10-26T23:28:10-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Tools for Conviviality by Ivan Illich</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/tools-for-conviviality-by-ivan-illich"/>
+    
+    <updated>2020-10-25T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/tools-for-conviviality-by-ivan-illich</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My main objection to <a href="/books/deschooling-society-by-ivan-illich">Deschooling Society</a> was that Illich completely neglected the babysitting aspect of the institution. With that out the window, feels like a reread is in order. However, I donated Deschooling to the LFL at work, but happened to have a copy of Tools for Conviviality. So here we are!</p>
+
+<p>I found this book easier to digest than Deschooling. Perhaps I knew a bit better what I was getting myself into? By the way, <a href="https://arl.human.cornell.edu/linked%20docs/Illich_Tools_for_Conviviality.pdf">book PDF is available</a>.</p>
+
+<h1>Two Watersheds: too much of a good thing</h1>
+
+<p>Illich’s core critique of modernity is that modern tools, broadly defined, have great benefits, but they have been over applied. As a result, many areas touched by modernity pass through two watersheds:</p>
+
+<ol>
+<li>In the first watershed, a modern approach improves a domain significantly.</li>
+<li>In the second watershed, the same modern approach is over-applied, causing “negative returns”, “marginal disutility”, general dehumanization, loss of autonomy, etc.</li>
+</ol>
+
+<p>These dangers of “over efficiency” remind me a lot of <a href="/books/seeing-like-a-state-by-james-scott/">Seeing Like a State</a>, which explores limits of naively applied high modernist thinking. Illich writes:</p>
+
+<blockquote>
+  <p>“There are two ranges in the growth of tools: the range within which machines are used to extend human capability and the range in which they are used to contract, eliminate or replace human function.”</p>
+</blockquote>
+
+<p>Examples:
+- Medicine: first watershed in 1913, when supposedly modern medicine caught up with witch doctors and began to outperform them. Second watershed in 1950s, when “90% of all medical care for patients with terminal diseases is unrelated to their health. Such treatment increases suffering and disability without demonstrably lengthening life.” 
+- Transportation: In the early 1930s, Mexico connected most villages with dirt roads serviced by sturdy trucks moving at 20mph. Anyone could ride in these. As infra improved more and more money was sunk into a highway system, which enabled only those rich enough to access a car to use them.</p>
+
+<h1>Convivial limiting</h1>
+
+<p>Illich’s main critique of modernity is that people are trained by social institutions to be tool operators. Instead, tools should be simpler to operate and adapt to the tool user. </p>
+
+<p>Illich despises overdevelopment, especially insofar as it paves over the heterogeneity of human civilizations. The ancient Thai system of canals enabled farmers to travel with cheap light boats. Many of these canals were literally paved over with highways. A culturerally unique, perfectly functional system was dismantled in the name of homogeneity, all because of greed on the part of developers. </p>
+
+<p>A convivial society would be one which imposes limits on consumption. Illich is opposed to most power tools since they are centralizing in nature. Cars require a network of paved roads and gas pipelines. Modern life requires a centralized electric grid.</p>
+
+<p>This line of thinking leads to some pretty radical conclusions: “Commuter transportation leads to negative returns when it admits, anywhere in the system, speeds much above those reached on a bicycle. Once the barrier of bicycle velocity is broken at any point in the system, the total capital monthly time spent at the service of travel industry increases.” I’m calling bullshit on this one. Light rail and subways seem like a pretty good way of getting around.</p>
+
+<p>I do like the vision of being basically contained in a very small pedestrian and cyclist friendly area for most of ones existence, interspersed with occasional long haul rail travel. An electric cargo bike is a perfect tool to do all shopping for the family, though this would necessarily exclude trips to Costco. Long-haul train rides are already quite pleasant. And Illich would be glad to know that Amtrak’s Seattle \&lt;=> Vancouver route currently averages about 20 mph. In terms of reducing air travel, I could see a lifestyle in which one spends 3 months in a remote staycation, half vacationing and half working from another country every couple of years.</p>
+
+<h1>Convivial balancing</h1>
+
+<p>To his credit, when it comes to rate of growth, Illich acknowledges that some change is good: “A changeless society would be as intolerable for people as the present society of constant change. Convivial reconstruction requires limits on the rate of compulsory change.” Geoff West has expressed similar sentiments in Scale.</p>
+
+<p>Ultimately, it is a balancing act, and I agree with Illich that as things stand, our collective societal balance is off. Here are Illich’s “five dimensions upon which the balance of life depends”:</p>
+
+<ol>
+<li>Faulty tech can render the environment uninhabitable</li>
+<li>Radical monopoly can force the demand for affluence </li>
+<li>Overprogramming can transform the world into a treatment ward when people are constantly taught, socialized, normalized, tested, and reformed.</li>
+<li>Centralization and packaging of institutionally produced values can polarize society into structural despotism</li>
+<li>Engineering obsolescence can break all bridges to a normative past</li>
+</ol>
+
+<h1>Radical monopoly</h1>
+
+<p>I found this concept fascinating, and apparently it’s Illich’s own. A radical monopoly is when the dominance of one type of product supersedes dominance by any one brand. For example, cars do a lot to monopolize the way that people get around in many American cities.</p>
+
+<blockquote>
+  <p>“I speak about radical monopoly when one industrial production process exercises an exclusive control over the satisfaction of a pressing need.... That motor traffic curtains the right to walk, not that more people drive Chevies than Ford's, constitutes radical monopoly."</p>
+</blockquote>
+
+<h1>A convivial research agenda?</h1>
+
+<blockquote>
+  <p>“Leisurely scientific research does not exclude a bevatron or some ultracentrifuges; removal of access restrictions now created by schools would again admit the curious, rather than the orthodox, to the alchemist’s vault; and study for its own sake would produce more surprises than team research on how to eliminate production snags.”</p>
+</blockquote>
+
+<p>Illich’s research agenda is Counterfoil Research: </p>
+
+<ol>
+<li>To provide guidelines for detecting incipient stages of murderous logic in a tool, </li>
+<li>To devise tools and tool systems that optimize the balance of life, thereby maximizing liberty for all.</li>
+</ol>
+
+<p>Sounds like a really promising research ethos to me, meandering and passion driven, and more fundamentally basic. But unfortunately, this is something that is only available for independently wealthy gentlemen-scientists. Or perhaps beneficiaries of ARPA grants of yore. That said, some small, nascent research groups like Ink &amp; Switch, Dynamicland, and Otherlab appear to still operate similarly.</p>
+
+<h1>Critiques</h1>
+
+<p>Illich seems to be deeply influenced by projections from Ehrlich’s “The Population Bomb”, which never came to pass. He considers contraception as an especially convivial tool. Side note, Barry Commoner’s response to this Malthusian trap was described in The Closing Circle (1971) was a far less radical, level headed approach, suggesting that as poor people became richer, they would have fewer children, and the population would stabilize.</p>
+
+<p>Illich calls for austerity, the need to self-limit, and slow progress in an attempt to fix society and make it more convivial. This is going to be a bitter pill for many to swallow, and Illich understands this well. I think you need a much more clearly positive vision for the future. I admire <a href="/books/rewiring-america">Rewiring America</a> for taking a stab at this.</p>
+
+<hr />
+
+<p>As usual, Illich does a good job of critiquing society, but path to specific solutions remains murky. Especially when it comes to the last sections on law and on politics, the writing becomes noticeably more vague, as if the author himself appears somewhat hazy on the right course of action.</p>
+
+<p>Thus, how to move a whole society towards Illich’s post-industrial convivial vision is unclear. The main way in which I can see operationalizing it is by changing one’s personal life to live more convivially: live near work, walk and bike more, genuinely care more about others, do less busy work, home school your children, be present for major life events, build your own house, host more guests, etc.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Frank Herbert by Tim O’Reilly</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/frank-herbert-by-tim-oreilly"/>
+    
+    <updated>2020-10-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/frank-herbert-by-tim-oreilly</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <h1>Meta: things about “Frank Herbert”, its author, the style in which it is written.</h1>
+
+<ul>
+<li>I’ll be honest, I’m excited about the upcoming Dune movie. Prior failed attempts do not inspire confidence.</li>
+<li>How crazy is it that Tim O’Reilly wrote a book about Frank Herbert?</li>
+<li>Book reads as a sort of expose about Herbert’s intentions writing Dune.</li>
+<li>Good reminder about the series, which I first read probably more than 20 years ago. I’m due for a re-read.</li>
+<li>Lots of plot summarization, but this is necessary for the non-Dune corpus of Herbert’s works which I haven’t read.</li>
+</ul>
+
+<h1>Frank Herbert the Person</h1>
+
+<ul>
+<li>Thoroughly PNW. Born in Tacoma, grew up on Olympic and Kitsap in NW Wash. </li>
+<li>Lived in California, Oregon, returned to WA in 1969. "ecological demonstration project," an example of new-style "techno-peasantry”.</li>
+<li>His mother had ten sisters, who were extremely close and shared in his upbringing.  (Interesting echo of Bene Gesserit) Orne's escape from the Nathian influence might be construed—and this is purely conjectural—as reminiscent of Herbert's own escape from the confines of the family matriarchy.</li>
+</ul>
+
+<h1>The Romance of the Desert</h1>
+
+<ul>
+<li>Dune was inspired by the dunes of Oregon. Herbert was in Florence, Oregon to write a feature story about a government project on the control of sand dunes.</li>
+<li>In his research Herbert had noted how the desert seems to be a wellspring of religion. The history of Judaism demonstrates that harsh conditions make for a religion of anticipation.</li>
+<li>Like the Jews, the Fremen have long been wandering and persecuted, always awaiting the promised land. And like the Arabs, the scattered Fremen discover their religious and cultural identity at the call of a strong leader, and build a mystical warrior-religion moved by economic as well as religious factors.</li>
+</ul>
+
+<h1>References I missed when I first read Dune</h1>
+
+<ul>
+<li>The name Atreides was also consciously chosen. It is the family name of Agamemnon. Says Herbert, "I wanted a sense of monumental aristocracy, but with tragedy hanging over them—and in our culture, Agamemnon personifies that."</li>
+<li>Kierkegaard's "life is not a problem to be solved but a reality to be experienced" becomes a Bene Gesserit aphorism. Ecologist Paul B. Sears's statement, "the highest function of science is to give us an understanding of consequences" is expressed by Kynes as a fundamental ecological principle; and his "respect for truth comes close to being the basis for all morality" is recalled as a lesson Paul had received from his father.</li>
+<li>Much of the Bene Gesserit technology of consciousness is based on the insights of general semantics, a philosophy and training method developed in the 1930s by Alfred Korzybski. Herbert had studied general semantics in San Francisco at about the time he was writing Dune.</li>
+<li>Dune was written in 1963. It is predictive science fiction of the best kind. Oriental religion had not yet become widely popular in the West; only the most primitive biofeedback experiments were being conducted, and even those were being scoffed at by most scientists.</li>
+<li>Karl Jaspers's primary formulation—that human life is bounded by inescapable limits such as death, uncertainty, struggle, and guilt—is also central to Herbert's thought.</li>
+</ul>
+
+<h1>Heightened awareness and brain-body interdependency</h1>
+
+<ul>
+<li>I remember this feeling on my first read: “Herbert's technology of consciousness is so nearly an extrapolation from the self- evident that it gives the reader at least the illusion (perhaps more) that he can learn techniques of heightened awareness for himself. And it gives many the itch to try…”</li>
+<li>Still super fascinated by the brain-body loop. It was very interesting as part of my meditation forays. “Three quick breaths triggered the responses: he fell into the floating awareness… focusing the consciousness… aortal dilation…”</li>
+</ul>
+
+<h1>Echoes of Taleb in Dune and Herbert’s thought</h1>
+
+<ul>
+<li>Skin in the game “The willing assumption of personal risk is one of the primary elements that distinguishes Paul from the Bene Gesserit and the Spacing Guild…”</li>
+<li>More SITG: “The Pakistani described the difference between American and Soviet engineers in charge of foreign-aid projects: The Soviet would stand back and supervise the operation from a distance, while the American would roll up his sleeves and show them how it was done”. Unlike the Atreides, the Emperor and the Harkonnens (recall the Baron's given name, Vladimir) would never involve themselves in personal risk.</li>
+<li>Antifragility “Those who become utterly dependent on one means of mastery will find them- selves unable to cope with the future”</li>
+</ul>
+
+<h1>Dune demonstrates the perils of heros and hero worship.</h1>
+
+<ul>
+<li>Recalling the origins of Dune, Herbert says: It began with a concept: to do a long novel about the messianic convulsions which periodically inflict themselves on human societies. I had this idea that superheros were disastrous for humans.</li>
+<li>The person who experiences greatness… must have a strong sense of the sardonic. This is what uncouples him from belief in his own pretensions. The sardonic is all that permits him to move within himself. Without this quality, even occasional greatness will destroy a man.</li>
+<li>Herbert deliberately looked for this reaction from his readers. To Herbert, the hero mystique is symptomatic of a deadly pathology in contemporary society, a compulsive yearning for easy answers. As long as men are looking for simple solutions to their problems, they will give over their ability to think for themselves to the first person who comes along and promises a solution. The Dune trilogy is an attempt to unveil that pattern and, in some small part, to change it.</li>
+</ul>
+
+<h1>Avoid rigidity, aim to be more adaptable</h1>
+
+<ul>
+<li>“Strength lies in adaptability, not fixity. Civilization, on the other hand, tries to create and maintain security, which all too frequently crystallizes into an effort to minimize diversity and stop change.”</li>
+<li>In our culture, individuals are trained to believe the evidence of mechanical measuring devices rather than their own senses. A feverish patient believes a thermometer, not his own discomfort.</li>
+<li>"You never talk of likelihoods on Arrakis. You speak only of possibilities," says Kynes.</li>
+<li>Arrakis requires a willingness to flow with the environment rather than opposes and seek control of it.</li>
+<li>Deep: ‘Orne realizes the Abbod is right: "To strengthen a thing, oppose it… You become like the worst in what you oppose.”’</li>
+<li>Halmyrach Abbod's remark in "The Priests of Psi": "We have a very ancient saying: the more god, the more devil; the more flesh, the more worms; the more anxiety, the more control; the more control, the more that needs control."</li>
+<li>'It's like a drug habit," said the Abbod. "If you enforce peace, it will take greater and greater amounts of peace to satisfy you. And you will use more and more violence to obtain it. The cycle will end in cataclysm."</li>
+</ul>
+
+<h1>Against Psychohistory, Dune vs. Foundation</h1>
+
+<ul>
+<li>Bene Gesserit is found in a study of their literary antecedents. The Bene Gesserit are based in part on the scientific wizards of Isaac Asimov's Foundation trilogy.</li>
+<li>In contrast to the Foundation trilogy's exaltation of rationality's march to predicted victory, Dune proclaims the power and primacy of the unconscious and the unexpected in human affairs.</li>
+<li>This is essentially the assumption that science can produce a surprise-free future for humankind.</li>
+<li>I should be wary of this in my own attraction to super-forecasters. “messianic hunger is an example of a pervasive human need for security and stability in a universe that continually calls on people to improvise and adapt to new situations.” </li>
+</ul>
+
+<h1>Examples of Foxiness</h1>
+
+<ul>
+<li>As Herbert has emphasized, he is not a "hot-gospel ecologist," convinced that all man's interventions into nature are evil. Ecology, like all other creeds, is dangerous when it becomes an absolute.</li>
+<li>...there are no right answers and no complete doctrine. There are only answers and their consequences. What happens to people who follow any given set of beliefs? The subtleties of one doctrine as opposed to another are resolved not by logic but by looking at their effects.</li>
+</ul>
+
+<h1>How have films influenced books?</h1>
+
+<ul>
+<li>"I treat the reader's eye as a camera," Herbert says. There may be a generalized view of a scene, which is followed more and more by a concentration on the area in which the action is going to happen. Finally the eye is brought in for close-ups, "a hand tapping on the table, or somebody's mouth chewing the food."</li>
+</ul>
+
+<h1>Herbert is in favour of scenario planning, not prediction, just like Gordon</h1>
+
+<ul>
+<li>“I think it's a mistake to think about THE future, one future. We ought to think more of planning for futures as an art form, for quality of life. We have as many futures as we can invent.”</li>
+</ul>
+
+<h1>Interesting further reading after reading this book</h1>
+
+<ul>
+<li>Under Pressure: What the crew-except for one member does not know is that there are no habitable planets at Tau Ceti, and the real purpose of the mission is to create an artificial consciousness in the ship's computer...</li>
+<li>The Eyes of Heisenberg: Most of the book takes place in the "Seatac Megalopolis" </li>
+<li>The Santaroga Barrier: describes an ambiguous utopia. It makes real demands on the reader (Herbert hopes) in depicting a society that "half my readers would think was utopia, the other half would think was dystopia."</li>
+<li>Science Fiction and a World in Crisis essay.</li>
+<li>Alvin Toffler's Future Shock</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Story of Us by Tim Urban</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/story-of-us"/>
+    
+    <updated>2020-09-23T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/story-of-us</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Tim Urban describes the evo-devo view of humanity in an entertaining light in this long, illustrated series. It’s cumbersome to read as separate articles, and would be more natural in book or pamphlet form (surely this is coming).</p>
+
+<p>This is a pretty great, digestible format, tying together many ideas into a single coherent almost masterwork. The mental models along the way are really cool, and well illustrated. Unfortunately it hasn’t really gelled together yet. Maybe in the sequel?</p>
+
+<h1>Chapter 1: Fire vs Light</h1>
+
+<ul>
+<li>Genetic forces conspire to make life miserable. “The problem is that genes themselves aren’t alive, they’re just a force of nature—and forces of nature don’t give a shit about anything. Gravity wants to smoosh matter together, so that’s what it does.” (Dawkins, Selfish Gene)</li>
+<li>Your genes are in control of your Primitive Mind (System 1), while your Higher Mind (System 2) has more agency. By default the Primitive Mind is in control, but people are especially good at not letting this happen. (Kahnemann &amp; Tversky, Thinking Fast and Slow)</li>
+<li><strong>Model: Thought Spectrum</strong>. Rather than viewing as a dual, you can see Primitive vs Higher mind as a spectrum. </li>
+</ul>
+
+<p><img src="/books/story-of-us/1-thought-spectrum.png" alt="Thought spectrum" /></p>
+
+<h1>Chapter 2: Games of Giants</h1>
+
+<ul>
+<li><strong>Model: Emergence Tower</strong>. Life came about on one of the rungs of the Emergence Tower, a nice concept mentioned in any intro to biology class. Many atoms form a molecule, many of which form proteins, many of which form organelles, etc. The most interesting points along this tower are cells, individuals, and groups.</li>
+</ul>
+
+<p><img src="/books/story-of-us/2-emergence-tower.png" alt="Emergence tower" /></p>
+
+<ul>
+<li>Some species like bears are most interesting as individuals. Ants are most interesting when considered at a colony (1000s of individuals) level. Humans are interesting on many levels, from individual to billions of individuals.</li>
+<li>Generally speaking, evolution has made people in tribes act “micro-kind and macro-ruthless.” For example, “people who are normally compassionate drop that compassion when thinking and talking about members of a political party they hate”</li>
+</ul>
+
+<h1>Chapter 3: Stories</h1>
+
+<ul>
+<li>Tribes of people have the ability to create stories, and pass these stories from one person to another. These stories carry ideas about values and morals.</li>
+<li>People are also capable of social learning, imagination, and the negative side affect: delusion. </li>
+<li>The result of these things is that different tribes end up with “endless arrays of behavioural varieties—a million little evolutionary experiments”.</li>
+<li><strong>Model: Each tribe is then controlled by its story</strong>, and the tribe with the most evolutionarily adaptive story will ultimately win out over the rest. Ultimately, tribe vs. tribe in zero sum “Power Games”.</li>
+</ul>
+
+<p><img src="/books/story-of-us/3-tribe-stories.png" alt="Tribes and stories" /></p>
+
+<h1>Chapter 4: Enlightenment</h1>
+
+<ul>
+<li>After being ruled by Tzars, Kings, Dictators, since ancient times, Enlightenment thinkers began to take stock of history and consider alternatives. </li>
+<li>“In the Power Games, kings, emperors, and warlords were typically focused on some set of goals—personal or national prosperity, defence, etc”. Conversely, “The Constitution described a sacred process—a set of inviolable means by which any and all national or individual goals would need to be accomplished.”</li>
+<li>Rule of Law came about as a result. “The Power Games is full of people being found guilty without evidence and punished unfairly, something the Enlightenment was determined to put an end to—so the hard rule would be: innocent until proven guilty.”</li>
+<li><strong>Model: Power Games vs. Value Games</strong>. “While it was typically better to be feared than loved in the Power Games, in the Value Games, it’s usually better to be loved than feared—which keeps politicians and businesses on their best behavior.”
+<img src="/books/story-of-us/4-power-vs-value.png" alt="Power vs Value Games" /></li>
+</ul>
+
+<h1>Chapter 5: Mute Button</h1>
+
+<ul>
+<li>To understand humans at a larger scale, it’s worth modelling some of the dynamics at play when groups of humans meet. The basic model is this: people have an inner and an outer self. People’s outer selves communicate using language. A human in a society is like a neuron in a brain.</li>
+<li>One’s inner and outer self need not be fully aligned. You can believe things that you dare not speak. For any given topic there is a range of what is acceptable to speak and/or believe.</li>
+<li><strong>Model: expression spectrum</strong> of speech platforms, from national speech (official from on high) to community discussions, to small groups of friends.</li>
+</ul>
+
+<p><img src="/books/story-of-us/6-expression-spectrum.png" alt="Expression Spectrum" /></p>
+
+<ul>
+<li><strong>Model: idea spectrum &amp; Thought Pile</strong> models various positions on a specific topic. By putting idea spectrum on X and expression spectrum on Y, plot a Thought Pile of what people believe.</li>
+</ul>
+
+<p><img src="/books/story-of-us/5-idea-spectrum.png" alt="Thought Pile" /></p>
+
+<ul>
+<li><strong>Model: Speech Curve</strong>: Also draw a Speech Curve of what is acceptable to say at which expression level. For example, you can hold fringe views in a small group that has a certain set of priors and shared understanding. But if the same thing was said at a larger scale, it would not land well.</li>
+</ul>
+
+<p><img src="/books/story-of-us/7-speech-curve.png" alt="Speech Curve" /></p>
+
+<ul>
+<li>Sometimes if a despot is in charge, he will want to control what people think, as a way to hold on to power. There is no direct way to control though, but there is a direct way to punish and control speech. </li>
+<li>“Censorship takes a single region formed by an aligned Thought Pile and Speech Curve and turns it into three regions by generating two “censorship gaps.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/8-censorship.png" alt="Censorship's effect on Thoguht Pile and Speech Curve" /></p>
+
+<h1>Chapter 6: American Brain</h1>
+
+<ul>
+<li>Thought Piles need not be normally distributed. In America they are often bimodal.</li>
+<li>You don’t need to be ruled by a despot for there to be discrepancy between Thought Pile and Speech Curve. </li>
+<li><strong>Model: Overton window</strong> There’s a range of ideas the public will accept as politically reasonable (Overton window) and politicians at the highest level are often hamstrung by it. They can’t really move it themselves, just need to feel its boundaries.</li>
+</ul>
+
+<p><img src="/books/story-of-us/9-overton-window.png" alt="Overton window" /></p>
+
+<ul>
+<li>“If you live in a democracy, and you’re not zoomed out far enough, you might look at the politicians running your government and mistake them for your leaders. In the short term, sure, they jostle with each other over the country’s policies and steer the country on the international stage. But with a step back, the real long-term leader of a democracy is the giant communal brain of the citizen body.”</li>
+<li><strong>Model: Thought Pile follows Speech Curve</strong></li>
+</ul>
+
+<p><img src="/books/story-of-us/10-changing-minds.png" alt="Changing Minds" /></p>
+
+<h1>Chapter 7: Thinking Ladder</h1>
+
+<ul>
+<li>There’s a tension between just caring about what is true, and wanting to have your deepest beliefs confirmed. “So when it comes to beliefs, the Primitive Mind doesn’t want truth, it wants confirmation—of your existing beliefs.”</li>
+<li><strong>Model: psych spectrum</strong>, although I think many people often apply different types of thinking personas to different problems:
+<ul>
+<li>Scientist: “chasing truth is like climbing through thick fog up an infinitely high mountain. It’s the pursuit of something that can never be fully achieved, but it can be approached—and their goal is simply to continue moving up the mountain”</li>
+<li>Sports fan: “It’s just…that they really really want that process to yield a certain outcome. They’re not just watching the game—they’re rooting.”</li>
+<li>Attorney: "The client is not guilty. Now let’s figure out why.”</li>
+<li>Zealot: “In reality, you’ve taken a set of ideas to be sacred, and you’ve given up an independent truth-seeking path in order to faithfully serve those sacred ideas”</li>
+</ul></li>
+</ul>
+
+<p><img src="/books/story-of-us/11-psych-spectrum.png" alt="Psych Spectrum" /></p>
+
+<ul>
+<li><strong>Model: Skepticism Spectrum</strong>. “Move to the left of the sweet spot on the spectrum, where the filter is looser, and you begin to allow some bullshit to flow into your beliefs. Move even farther left and your beliefs become packed with a jumble of falsehoods, misconceptions, and contradictions. Moving to the right of the sweet spot tightens the filter too much, like a business owner so worried about accidentally accepting Monopoly money that they end up turning down real money too. Go way to the right and you’ll stop believing the moon landing happened.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/12-skepticism-spectrum.png" alt="Skepticism Spectrum" /></p>
+
+<h1>Chapter 8: Idea Labs vs. Echo Chambers</h1>
+
+<ul>
+<li><strong>Model: Idea Labs</strong> are collections of Higher Minds, independent thinkers all seeking truth, working off one another and testing one another’s ideas. “Thoughtful contrarianism is valued because there’s an implicit understanding that the evolution of knowledge works like the evolution of life.” “Humility wins you major respect in an Idea Lab—where “I don’t know” is a very cool thing to say.”</li>
+</ul>
+
+<p><img src="/books/story-of-us/13-idea-lab-vs-echo-chamber.png" alt="Idea Labs" /></p>
+
+<ul>
+<li>There aren’t that many of these places around though. Because even though the constitution is awesome, people are often not. “Free speech, like any Value Games privilege, requires both the government and the culture to be on board. The U.S. Constitution makes free speech possible—but only within the right culture does the freedom come to fruition.”</li>
+<li><strong>Model: the opposite of an Idea Lab is an Echo Chamber</strong>. “To put a visual to it, Idea Lab culture views agreement and decency as separate, unrelated axes, while Echo Chamber culture views agreement and decency as a single axis”</li>
+</ul>
+
+<p><img src="/books/story-of-us/14-idea-lab-vs-echo-chamber-thought-spectrum.png" alt="Idea Labs 2" /></p>
+
+<ul>
+<li>“The over-application of taboo is the bane of free speech, so pro-free-speech cultures use it sparingly. This frees the Idea Lab’s Speech Curve to freely line up with its Thought Pile.” In an Echo Chamber, Thought Pile and Speech Curve do not align, you end up with effective censorship. </li>
+<li>“An Echo Chamber’s taboo minefield makes it a safe and protected space for all ideas that confirm the sacred beliefs and a very dangerous space for ideas—and people—that don’t.”</li>
+<li>Conversely, Idea Labs are not a safe place for people whose identities are tied to their specific ideas. And this is many people.</li>
+<li>This is a useful model, but I think in practice people’s identities are always comprised of both Echo Chambers and Idea Labs, and this is a good thing. “A human society is a rich tapestry of overlapping and sometimes sharply contradictory cultures, and each of us lives at our own unique cultural intersection.”</li>
+</ul>
+
+<h1>Chapter 9: Political Disney World</h1>
+
+<ul>
+<li>Politics is reminiscent of many of the worst aspects of religion. In terms of the psych spectrum, “The Political Ladder is bottom-heavy”, meaning full of zealots.
+<ul>
+<li><strong>Model: 2D political spectrum.</strong> By considering the political right-left spectrum with a Y-axis of psych spectrum, it becomes less about right vs. left, more about top vs. bottom, ways of thinking.</li>
+</ul></li>
+</ul>
+
+<p><img src="/books/story-of-us/15-2D-political-spectrum.jpg" alt="2D Political Spectrum" /></p>
+
+<ul>
+<li><strong>Model: conservatives vs progressives on emergence tower</strong> nice little tie in.</li>
+</ul>
+
+<p><img src="/books/story-of-us/16-conservative-progressive-emergence-tower.png" alt="Conservative vs Progressive" /></p>
+
+<ul>
+<li><strong>Model: Disney characters.</strong> Disney characters tend to be binary: good incarnate, or evil incarnate. All nuance is lost. The same is done by Americans when thinking about politics.</li>
+</ul>
+
+<p><img src="/books/story-of-us/17-binary-disney-characters.png" alt="Binary Disney" /></p>
+
+<ul>
+<li><strong>Model: Causation is Hard</strong>. Given any two events, it’s often very hard to establish causation. The causation arrow can be strategically placed to make whatever point you’d like. (Book of Why)</li>
+</ul>
+
+<p><img src="/books/story-of-us/18-causation-possibilities.png" alt="Causation is Hard" /></p>
+
+<ul>
+<li><strong>Model: Sucky Man</strong> are all great ways of arguing in order to convince others:
+<ul>
+<li>Straw Man: reframe the wording of a strong dissenting argument, transform it into a much weaker argument.</li>
+<li>Weak Man: takes a strong argument, hand-pick the weakest part of it and attacks that.</li>
+<li>Hollow Man: fabricate a fake argument from scratch. Often framed by “some people say” – the easiest match possible.</li>
+</ul></li>
+<li><strong>Model: Motte and Bailey:</strong> good visual explanation of the less-wrong concept.</li>
+</ul>
+
+<p><img src="/books/story-of-us/19-motte-baile-examples.png" alt="Motte Bailey" /></p>
+
+<h1>Chapter 10: A Sick Giant</h1>
+
+<ul>
+<li><strong>Model: Media matrix</strong></li>
+</ul>
+
+<p><img src="/books/story-of-us/20-media-matrix.png" alt="Media Matrix" /></p>
+
+<p>Very unsatisfying end (?) to the series. Many great models were introduced in prior chapters, but this last post is mostly a regurgitation of interesting Pew Research polls. Occasional references to Higher and Primitive Minds, but that’s about it!</p>
+
+<h1>from smusmac</h1>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Rewiring America</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/rewiring-america"/>
+    
+    <updated>2020-09-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/rewiring-america</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This is less of a book and more of a propaganda pamphlet, which can be succinctly summarized as follows:</p>
+
+<blockquote>
+  <p>The technical path to decarbonization is simply this: we must electrify (nearly) everything.</p>
+</blockquote>
+
+<p>I picked this book up because I admire the author for being a prolific inventor and entrepreneur and seemingly chill dude. I once toured Otherlab thanks to my friend AK, which was awesome and inspiring. I rate it as worthwhile because it’s a bold opinionated bet, which is refreshing when the dominant climate narrative is “Honestly, we need to do everythinggggg”.</p>
+
+<p><strong>Like WWII mobilization</strong>. Saul’s position is that the only way to un-fuck ourselves and remain on a 2C warming trajectory is to do an “aggressive WWII-style production ramp-up of three to five years”. He adds some colour to the WWII era mobilization effort, painting a very shabby military picture as late as 1939, when “the US had only 1700 aircraft and no bombers. By 1945, the US had 300,000 military aircraft, 18,500 B-24 bombers.”</p>
+
+<p><strong>Positive enough vision?</strong> I strongly agree that we need a positive vision for 2020 and climate, but I didn’t find the one that he provides “If we build the right infrastructure, right away, the future will be awesome!” to be much of a rallying cry. Awesome how? Also I don’t believe in the vitality of a cry to defer gratification. Seems counter to the dominant culture.</p>
+
+<p><strong>California/Australia centric</strong> “Everyone should install solar on their roofs at the next opportunity, whether that be a retrofit, replacing shingles, or buying or building a new house.” makes little sense in many places that are less sunny year-round. For example according to project Sunroof, doing this on my house would cost me $2000 over 20 years, with a $20,000 cost up-front. Similarly, I just bought a hybrid vehicle, but buying an all-electric one would cost either 50% more, and waiting 2 extra years (RAV4 Prime) or 100% more if it’s the Tesla Model Y,. And I don’t have a good place to plug a PHEV in. Plus full-electric precludes a bunch of stuff like going on hikes and driving on shitty roads. Suspect people in apartments have even less opportunity for a plug-in. And I’m super rich and on board with this whole climate thing.</p>
+
+<p><strong>Innovation in consumer loans</strong> Revolutionary mortgages and low-interest loans were in the 20th century. I’ve have heard him speak about this before in a Long Now seminar, and this remains compelling because of the possibility of changing behaviour at scale. “America’s lifestyle has been built on loans. Creating a climate loan in response to the climate crisis has clear historical precedent.” While true and interesting, car loans enabled people to own a car, and mortgages enabled them to own a house. A climate loan has no selfish benefits. This revolution has to be a government-sponsored thing, just like WWII didn’t require individuals to like take a loan in order to buy a tank for the war effort.</p>
+
+<p><strong>Rosy battery cost projections</strong> for batteries are a bit optimistic… Saul projects $75/kWh by 2024, a <a href="https://www.researchgate.net/figure/Lithium-ion-battery-price-history-and-forecast-Source-Bloomberg-2018b_fig3_340952556">random graph</a> I just found suggests more like $96/kWh by 2025. The challenge of multiple uses and battery degradation remains. Especially if one buys a large battery for their house, or expects to be driving an EV for 250,000 miles like we did the Toyota Highlander.</p>
+
+<p><strong>Why Makani shut down</strong>. It which was aiming to produce wind energy at 3-4 c/kWh, 5-6 times cheaper than other wind-powered electricity at the time. Now wind power is 4-5c/kWh. “In 2020, Makani shut down due to this evaporated advantage.”</p>
+
+<p><strong>General gripes about regulation</strong>. Great example with SF roof solar panels not being allowed to extend to the edge of the roof. Instead they must be set back 4’, which in practice eliminates 44% of the area.</p>
+
+<p><strong>Central planning would be nice</strong>. A section about electrifying 250 million vehicles, 130M households, 6M trucks, etc reminds me of how much easier such a monumental task would be in a country like China, if they set their mind to it. And it’s easy in this case because you actually know how much of everything you need, because you just replace all of the existing things with electric versions.</p>
+
+<p><strong>Carbon sequestration doesn’t work</strong>. Makes sense to me not to focus on sequestration at either smoke stacks or from atmosphere because science. Makes physics sense and also corroborated by Mark Lynas in <a href="https://overcast.fm/+JRaWQWkWs">this episode of 80,000 hours</a>.</p>
+
+<p><strong>Carbon taxes ineffective, politically fraught</strong> (I think that the main suggestion of this book is more politically fraught than passing a carbon tax.) Saul argues that it’d take too long to see the effects of a carbon tax, and that electricity is becoming so cheap as is, that it won’t really matter. Maybe. I don’t think this is happening fast enough. I think many Americans buying cars in the next 5 years will opt for gasoline or hybrid solutions rather than electric ones. But a carbon tax might shift the numbers.</p>
+
+<p><strong>Yes and…</strong> Nice little FAQ at the end, but spread pretty thin. Blanket assertion that “The rare earth metals used in high energy magnets and electronics are actually not as rare as their name implies.” No source. Also kind of sloppy rejection of self driving cars as a potentially good thing, ignoring possible benefits of automated fleets and more densely packed passengers. Electric aircraft? This is still science fiction, hasn’t been done.</p>
+
+<p>Overall I found the message to a bit monistic, but also pragmatic. I liked the outright rejection of approaches like CCS that won’t actually work. And hard boiled assessments of individual actions that are admirable but ultimately won’t be enough, like eating less meat.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Братья Карамазовы, читает Ульянов</title>
@@ -3774,816 +4261,6 @@ taste.</p>
 misunderstandings, but on a civilizational level. Memorable and bittersweet.
 Loved the special relativity explanation for the religious vs. scientific
 understanding of Earth's age. Has this been done before?</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Bowling Alone by Robert Putnam</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/bowling-alone-by-robert-putnam"/>
-    
-    <updated>2018-11-29T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/bowling-alone-by-robert-putnam</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>This one's a doozie. I don't recommend it unless you are a naturally optimistic
-and mentally stable person. I read Bowling Alone as part of my quest to understand
-social capital. I'd heard of it before, but it came to my immediate attention
-because it was referenced in <a href="/books/war-and-peace-and-war-by-peter-turchin/">War and Peace and War</a>.</p>
-
-<p>Putnam's thesis is that by many measures, social capital in America increased
-after World War II to its zenith in about 1960, and has been falling ever since.
-(The book was written in 1999, but my suspicion is that downward slide has
-continued into the oughts. It would be interesting to see an update.) Putnam
-looks at a variety of indicators from a variety of surveys, mostly the General
-Social Survey (GSS) and the DDB Needham Life Style archive. </p>
-
-<p>Bowling Alone is long, dry, and somewhat repetitive. It's broken up into several
-sections: 1) what's going on, 2) why is it happening, 3) why is it a bad thing,
-and 4) as Lenin says, "what is to be done?". I skipped large chunks of (3) since
-I'm already convinced that social capital is important and correlates strongly
-to a bunch of important things that I'd like to keep having, as well as <a href="/books/war-and-peace-and-war-by-peter-turchin/">the
-fall of empires</a>.</p>
-
-<p>A bunch of charts and graphs that Putnam cites are <a href="http://download.audible.com/product_related_docs/BK_SANS_007716.pdf">worth perusing and available
-here</a>.</p>
-
-<h2>Social capital has been falling since 1960</h2>
-
-<p>The following indicators followed the general pattern: peak in 1960, followed by
-decline through at least 1999:</p>
-
-<ul>
-<li>Percentage of voters (PV) who worked for attended a political meeting.</li>
-<li>PV who attended a public meeting for school or town affairs.</li>
-<li>PV who served as an organizer for a local club/organization in the past year.</li>
-<li>Number of club meetings attended per year.</li>
-<li>Average weekly church attendenance.</li>
-<li>Percent of labor force that is unionized.</li>
-<li>Membership in professional organizations.</li>
-<li>Frequency of whole family dinners.</li>
-<li>Frequency of card playing.</li>
-<li>Total giving by living individuals as a percentage of national income.</li>
-<li>Percent who say "most people can be trusted".</li>
-</ul>
-
-<p>As Putnam diagnoses the problem, some striking trends stuck with me:</p>
-
-<ul>
-<li>Trend towards social engagement under an umbrella of a church, and
-increasingly, an employer.</li>
-<li>Trend towards "privatized religion": belief without a specific congregation.
-Non-organized religion gives personal meaning but no social capital.</li>
-<li>Passive consumption up, active participation down. In sports, there are fewer
-players but more viewers. In music, fewer players, more listeners.</li>
-<li>Membership in organizations increasingly is a cheap way to indicate political
-preference without dedicating substantial time or money to the cause. It's
-also not social: most don't engage in person or discuss it with friends. </li>
-<li>Depressing generational shift in what constitutes a good life and what
-community means to people. More people want more money, and fewer care about
-having a job that contributes to society. Patriotism wanes, materialism waxes.</li>
-</ul>
-
-<p>As well as some concepts that were new to me:</p>
-
-<ol>
-<li>Bonding vs. bridging social capital: Bonding social capital is within a group
-or community whereas bridging social capital is between social groups, social
-class, race, religion, etc. According to Putnam, bonding social capital is
-good for “getting by” and bridging is crucial for “getting ahead”.</li>
-<li>Generalized reciprocity: gift giving without the expectation of an
-immediate return, but with the vague understanding that someone will someday
-return the favor.</li>
-<li>Thick vs. thin social trust: very related to the above. Thick trust means you
-trust a specific person for past deeds you know of personally, while thin
-trust is akin to generalized social reciprocity where everyone in a community
-is trusted by virtue of being a member.</li>
-<li>Mahers vs. schmoozers (from Yiddish): Mahers invest time in social
-organization, schmoozers: those who spend time in informal conversation.</li>
-</ol>
-
-<p>At the end of the section, Putnam's carefully hedges any predictions about the
-internet, after a discussion about how wrong predictions about the telephone's
-effect on social fabric were. This also serves as a sobering reminder that
-social capital was well on the downswing by the advent of the internet. Thus,
-Facebook or other oft-maligned internet-related entities cannot be the sole
-cause.</p>
-
-<blockquote>
-  <p>A society characterized by generalized reciprocity is more efficient than a
-  distrustful society, for the same reason that money is more efficient than
-  barter.</p>
-</blockquote>
-
-<h2>Because of TV, urban sprawl, working women, etc</h2>
-
-<p>Putnam is explicit that he thinks many mostly weak factors have led to the
-trends he's observed. But he outlines a few that seem to be the strongest:</p>
-
-<ol>
-<li>Women that are forced to work for financial reasons. This population seems to
-have had the biggest drop in social capital. In contrast, women that work
-part time by choice seem to be pulling social capital up. (~10% of cause.)</li>
-<li>Suburbs, more car dependence, more time in cars, more cars per household.
-Instead of living near work, restaurants, and shops, each facet of life is in
-a different suburb. At the time of writing, the average american spent 72
-minutes a day in cars, 70% of trips done alone. </li>
-<li>Much of America's increasing free time has been channeled into watching TV.
-Average American watches 3 hours a day. TV watching correlates strongly with
-civic disengagement, especially non news watching, and channel surfing. (~25%
-of cause.)</li>
-<li>World War II was unique. The fact that it followed the great depression meant
-that it had a leveling effect on most of society. In contrast, Korea and
-Vietnam were both highlighted by social inequality in troop selection and
-recruitment.</li>
-<li>Controversial discussion about race as a cause of disengagement. Black % of
-population has increased, but blacks actually are involved in more
-organizations than whites, due to religious and race-based groups. But they
-tend to be less trusting than whites (for good reason.)</li>
-</ol>
-
-<p>Putnam destroys the deterministic capitalism argument posed by Marxists, that
-capitalism inherently is incompatible with social cohesion. Capitalism has been
-a feature of American society for centuries while social capital has ebbed and
-flowed. That said, increased globalization means there are fewer small
-corporations with strong local ties.</p>
-
-<p>Putnam makes many references to Alexis to Tocqueville, referring to him
-colloquially as the patron saint of social capital. I was surprised to learn
-that relative social capital levels throughout the states haven’t really changed
-much since Tocqueville's travels in America in the 1830s. Generally speaking,
-the more virulent slavery was, the lower the social capital. Areas high in
-Scandinavian immigration, correlated strongly with high social capital. These
-trends remain today.</p>
-
-<h2>What to do? Look to the Gilded Age and Progressive Era</h2>
-
-<p>Putnam draws analogies from today to the Gilded Age (1870s to about 1900). One
-parallel is the way in which a surge of new technology disrupts social capital.
-The advent of electricity, new mass media: the radio, a train network which
-allowed much faster access to cities. The latter was especially important since
-automation of strength was wreaking havoc in traditional rural life. More and
-more jobs were to be found in urban factories. A centralization of companies
-were named after their illustrious founders. And this all led to an increasing
-gap in inequality. The analogies to today are clear: ubiquitous affordable air
-travel, automation of menial intelligence threatening some jobs, the advent of
-the internet.</p>
-
-<blockquote>
-  <p>Then as now, waves of immigration threaten the unum in our pluribus.</p>
-</blockquote>
-
-<p>In the Progressive Era (1890s to the 1920s) that followed, huge amount of
-reforms were undertaken. The Progressive Movement was a big tent, considered the
-only movement in the US that captured the whole population. It came as a
-response to a huge amount of technological change during the Gilded Age.
-Confusingly, there is no direct connection between the current Progressive
-movement and its origins in the late 20th century. Here are some developments
-that came around then: birth of unions, eight hour work week, birth of child
-oriented groups, boy scouts, kindergardens, playgrounds, high schools.</p>
-
-<p>(Clearly I should read more about the Gilded Age and the Progressive Era.)</p>
-
-<p>(I should also look into Amitai Etzioni's work on communitarianism. Sounds like
-he has some practical suggestions.)</p>
-
-<p>(Bowling alone seeds an update. It would be nice to see the figures updated for
-the last 25 years. A lot had changed: decline in real income, millennial
-maturation, Gen Z emergence.)</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Shape of Tomorrow by George Soule</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-shape-of-tomorrow-by-george-soule"/>
-    
-    <updated>2018-11-27T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-shape-of-tomorrow-by-george-soule</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I picked up Shape of Tomorrow, its 35 cent price imbued proudly on the front
-cover, on a foray to Powell’s books in Portland.</p>
-
-<p>In 1958, the birth control pill wasn’t yet past clinical trials and TV watching
-hadn’t yet become the dominant American hobby. What a time to be alive!</p>
-
-<p>Soule takes care not to speculate too wildly, hedging often, but many
-predictions are still downright comical. America’s increase in productivity is
-going to reduce inequality. The work week is on the brink of shortening to
-twenty four hours. Cool stories abound.</p>
-
-<p>This was not a great read by any stretch. However, it is mercifully short. 
-Safely skip the first half of the book, which excitedly enumerates unexciting
-innovations of the day. That said, if you’re looking for a time capsule into the
-technocratic mind of the 1950s, George Soule might just be the retro-futurist
-you are looking for.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Bird by Bird by Anne Lamott</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/bird-by-bird-by-anne-lamott"/>
-    
-    <updated>2018-11-03T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/bird-by-bird-by-anne-lamott</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've forgotten how this book appeared on my radar, but I think it was on
-someone's list of most influential books ever. I am more ambivalent.</p>
-
-<p>The book's subtitle is "Some Instructions on Writing and Life", and honestly I
-was hoping for more of the latter. Unfortunately it was more of the former,
-specifically how to write fiction, which is interesting in theory, but is not
-something that is very high on my current list of things I would like to spend
-my time doing.</p>
-
-<p>In general, the author has some good tips for the fledgeling writer. These are
-pretty intuitive, but do serve as good reminders:</p>
-
-<ul>
-<li>Start with "shitty first drafts", revise later.</li>
-<li>Write in small chunks as inspiration comes, as if looking through a tiny
-picture frame.</li>
-<li>Be wasteful with paper: don't worry about throwing out large chunks of what
-you write.</li>
-<li>Carry a notebook or index cards everywhere you go for when inspiration
-strikes!</li>
-</ul>
-
-<p>More strategic and insightful:</p>
-
-<ul>
-<li>Observe the world and people for who they really are. Cultivate a sense of
-"compassionate detachment" towards your characters.</li>
-<li>Treat characters as if they have a mind of their own: “you probably won’t know
-your characters until weeks or months after you’ve started working with them.
-[...] Stay open to them. [...] Listen.”</li>
-</ul>
-
-<p>The book evoked a range of reactions in me. In the spirit of an open faced
-compliment sandwich, I will start with the bad. A lot of Lamott's tips are
-overly prescriptive, like that there is no need for hopeless novels, and no room
-for an unreliable or unlikable narrator. I wonder how she and Dostoyevsky would
-get along...</p>
-
-<p>The author's tone is very California trustifarian. Attempts at black humor
-are therefore diluted into a somewhat weaker grey humor. I think it makes the
-book more accessible to a wider audience, but cheapened it in my eyes. In a
-related vein, Lamott's progressive leftiness really shines through. There's this
-hand wringing about western society being so broken and terrible. In a sense,
-this is reassuring. The "we're in the dark ages and the president is Stalin"
-sentiment is not a 2016 phenomenon, but had already emerged in 1994 when the
-book was written.</p>
-
-<p>On the flip side, I must say that a good chunk of the book put a smile on my
-face. That chapter on Calling Around was really vivid and funny and
-heartwarming. And she does produce some great visual metaphors, like these:</p>
-
-<ul>
-<li>“Lighthouses don’t go running all over an island looking for boats to save;
-they just stand there shining.”</li>
-<li>Sometimes it feels... "as if writing a novel is like trying to level Mount
-McKinley with a dentist's drill."</li>
-</ul>
-
-<p>Also, I liked her stoic tendency.</p>
-
-<blockquote>
-  <p>"My deepest belief is that to live as if we're dying can set us free. Dying
-  people teach you to pay attention and to forgive and to not sweat the small
-  things."</p>
-  
-  <p>"I heard a tape once in which an actor talked about finding God in the modern
-  world and how, left to our own decides, we seek instead all the worldly things
-  -- possessions, money, looks, and power -- because we think they will bring us
-  fulfillment. But this turns out to be a joke because they are just props, and
-  when we check out of this life, we have to give them all back to the great
-  propmaster in the sky. "They're just on loan," he said,"they're not ours."</p>
-</blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Fall and Rise of China (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-fall-and-rise-of-china-audio"/>
-    
-    <updated>2018-10-31T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-fall-and-rise-of-china-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Inspired by the Three Body Problem's best part, that is, the beginning of the
-book set in Cultural Revolution China, I realized that I know nothing about
-Chinese history. Perhaps, I thought, something like this might help? It's about
-24 hours worth of material, and I took detailed notes in an attempt to retain it
-better. The lectures are excellent, and I highly recommend listening. One
-complaint was that I felt like the lecture lost a bit of steam and became
-increasingly speculative as we approached the present day, but perhaps this is
-inherent in any attempt to subject the recent past to a historical treatment.</p>
-
-<h2>Before Communism</h2>
-
-<p>Before the mid 19th century, China was largely isolated from the west. Chinese
-society was modelled on Confucian ideals. The highest officials were selected
-based on their ability to memorize profound lines from great teachings of
-Confucius and his disciples. The entrance exam was known as the 8 legged essay
-and super arcane. China called itself the Middle Kingdom, and was surrounded by
-weaker states that paid it tribute. China had no equals, and submitted to
-nobody.</p>
-
-<p>The Manchu dynasty began its decline in the early 19th century, as a result of
-population explosion, bad harvests, an opioid epidemic, and a trade deficit with
-the west. Its exports of porcelain started to pale compared to cheap European
-textiles flooding its market. (This is in some ways, an interesting reversal
-from today's situation.)</p>
-
-<p>China tried to curtail opium imports, and this led to the two Opium Wars with
-Britain, who refused to stop the trade. China was badly outgunned by the west,
-and stood no chance militarily. The Manchu dynasty continued to decline and made
-successions to Britain, giving it a "small island" (Hong Kong) as part of the
-military tribute. It wasn’t until the late 19th century that China had decided
-to institute a foreign affairs department. Before that they only had a minister
-of barbarians, whose occupants had notoriously short lived careers, lasting no
-more than a year before being removed and punished for ineptitude.</p>
-
-<p>In the late 19th century, China tried to modernize itself by sending its best
-and brightest to study abroad in the west. The emphasis was on acquiring
-military technology alone, while keeping Chinese traditions alive. This proved
-futile, the lecturer suggesting that technology is a symptom of deeper
-structures of European civilization like their government, economy, humanism,
-and legal systems. This tension between European tech and Chinese tradition was
-never fully resolved, and many powerful Chinese elite were opposed to anything
-from the west (Mathematics? Ha!) despite their clear instrumental benefit. This
-is in stark contrast with Japan that seemed to be able to reconcile its
-traditions with modern technology.</p>
-
-<p>The boxer rebellion in 1899 was a reactionary move against a loss of tradition
-in China and increasing European influence. They were sponsored by the
-xenophobic <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Empress Cixi</a> who took power in a coup. The boxers targeted a
-German controlled area in China threatened 4000 europeans stationed there. In
-retaliation a joint force of Japanese Russians and Europeans quashed the boxers
-and killed many thousands, and led to nasty anti Chinese sentiment from the
-German kaiser. Reparations were also imposed by the western victors. And China
-returned to a conservative status quo.</p>
-
-<h2>Seeds of revolution (Sun Yat-sen)</h2>
-
-<p><a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Sun Yat-sen</a> was the first to integrate the need for Chinese self
-determination without western intervention and the overthrow of the Manchu
-dynasty. He came up with a three pronged platform: nationalism, democracy and
-people's livelihood (land to the tiller). Later this became official policy of
-Republic of China (Taiwan) and still remain credo of Nationalist party in
-Taiwan. His reputation skyrocketed after a failed Chinese assassination attempt
-in Europe. Gained many followers in the Chinese diaspora in America, France and
-the rest of Europe. He organized multiple revolutionary uprisings in south
-China. This encouraged over 200 peasant uprisings against the Manchu.</p>
-
-<p>By 1910, Sun Yat-sen's relative was inaugurated as prime minister of the republic
-(Kuomintang/KMT aka Guómíndǎng/GMD). He shared power with Yuan Shikai, a
-conservative monarchist who declared himself Emperor. Yuan decided to
-assassinate the PM and bribed the rest of the GMD to quit. Sun Yat-sen was
-exiled to Japan, where he married again (interestingly, without divorcing his
-existing wife). Meanwhile Yuan Sha Kai attempted to return China to 
-traditional, Confucian values. He extended presidential terms to 10 years and
-allowed him to name successors.</p>
-
-<p>By WW1, the European powers were distracted by the war in Europe and
-Japan decided to take advantage of the situation. Japan demanded extremely
-unfavorable terms (21 demands) of China and Yuan Shikai had no ability to oppose
-it. These demands were leaked to the public and a patriotic backlash ensued.
-This eventually lead to Multiple Chinese provinces declaring secession. The
-leader himself died unexpectedly, suspected poisoning. This led to a power
-vacuum and an age of warlords ruling different parts of China. (The Good Earth
-is a famous book about this period.)</p>
-
-<p>After WW1 ended, European powers sided with Japan as thanks for its involvement
-in the war against Germany. As a reward, parts of China were doled out to Japan.
-This led to student and intellectual protests and ultimately sparked a golden
-age in Chinese literature: colloquial and far more accessible books led to
-increased literacy and spread of ideas. This included the works of Marx Engel
-and Lenin.</p>
-
-<h2>Early Chinese Communism and Mao vs. Chiang</h2>
-
-<p>Communist reading groups started to show up, which is how <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Mao Zedong</a>
-arrived to the scene. The Soviet Cominterm wanted to influence China and found
-Sun Yat-sen willing to embrace their ideology and abandon his western facing
-position (wow). In return he received soviet training and a bunch of
-radicalized followers. <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Chiang Kai-shek</a> emerged from one of these
-training camps as Sun Yat-sen's lieutenant. Sun died from liver cancer but the
-party survived, with the right wing taking power.</p>
-
-<p>Chiang Kai-shek successfully united multiple Chinese contingents from the
-communist party under a right wing platform and successfully took care of the
-warlord problem with the help of the Soviets. Soon a left wing faction emerged
-to oppose CKS's autocratic tendencies. CKS made pacts with European and mafia
-leaders and ultimately abandoned communism as a key tenet of their platform,
-thus departeing from Sun Yat-sen's anti imperialism. Chiang's forces conquered
-Shanghai with their allies but the Communist left was not happy. This also
-alienated the Soviet cominterm.</p>
-
-<p>Meanwhile Mao and other communist leftists that splintered from CKS took control
-of rural parts of China. Left wing communist rebellions known as Autumn Harvest
-Uprisings were quashed by CKS nationalists. Mao wrote an essay that promoted
-communism not through workers revolution but through an agrarian revolution.
-This was frowned upon by the Soviets who expected industry to lead. Mao
-established rules for Chinese Red Army soldiers that made them blend in with
-villagers and farmers. By late 1928 Mao's forces were being forced to retreat
-further but his political platform was maturing.</p>
-
-<p>In the 1920s, Japan reformed, implemented western policies and retracted it's 21
-demands. Still it's military thrived and Japan remained a threat to China, with
-significant resource interests in Manchuria. The longer they waited the more
-time CKS had to consolidate power and resist more effectively, and by 1931 Japan
-controlled all of Manchuria in the NE and placed the son of Cixi as ruler of
-that region.</p>
-
-<p>Meanwhile in the south west, Maoists were another threat for Chiang Kai-shek.
-Not willing to fight on two fronts, he decided to tackle the communists first,
-letting Japan continue its expansions. Eventually Maoists were cornered
-and had to retreat, starting the [Long March][lm], a retreat over 5,000 mi,
-ending up in Yenan. In 1936 CKS wanted to pursue the Maoists again but the
-general assigned to the task was a communist sympathizer and refused to comply,
-since he wanted revenge on Japan. CKS confronted him near Yenan but was
-kidnapped and coerced into alying with the communists to form a united front
-against Japan, just in time for WW2.</p>
-
-<p>(Interestingly the Chinese Communist Party came into its own as a result of the
-Japanese invasion in WW2. This is somewhat analogous to the Soviet Communist
-come to power after WW1.)</p>
-
-<p>(Also interesting is that Stalin was forced to stop helping the Chinese and
-withdraw because of the non-aggression pact with Hitler, and thus Japan.)</p>
-
-<p>CKS was still busy chasing communists when Japan attacked, starting WW2. First
-Japanese forces took Shanghai at huge GMD losses. Next was the massacre of
-Nanjing which came at a huge civilian cost. Japanese commands pursued a scorched
-earth policy against the civilians. This led to a deep popular resentment
-against Japan. As the Chinese continue to struggle, Japan attacked Pearl Harbor
-and forced US neutrality to end. Still the nationalists suffered huge losses at
-the hands of the Japanese, their attention also divided by internal strife
-against Maoists. Ultimately the CCP gained territory and influence while CKS
-flirted with the US.</p>
-
-<p>After Japan's defeat in 1945, America had hoped for a united Chinese government
-and so tried to get Mao and Chiang and now to form a coalition. Diplomacy failed
-out and instead they clashed in Manchuria. Just as Chiang Kai-shek planned to
-take over Yenan again for the third time, Mao Zedong's PLA was amassing guerilla
-forces to confront the nationalists in Manchuria, who were busy pushing back the
-defeated Japanese and salvaging scrap metal from their former bases. Gaining
-victory against ill prepared former warlords in the nationalist army, the PLA
-proceeded to take Manchuria and marched west to capture Beijing, cross the
-Yanzhee with the help of local ferrymen, and on to Shanghai. By 1949, Mao had
-won, and Chiang fled to Taiwan. (I need a map of maos advance here, but the
-article on the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Chinese Civil War</a> probably covers most of the material
-in more detail.)</p>
-
-<h2>Mao's China</h2>
-
-<p>The Chinese Communists made it very clear that they would side with Soviets not
-the west, having been burned over the last decade by western influence. Mao has
-a great quote about how there is only the two options and no middle ground.
-(I failed to find it.) Meanwhile the policy of the CCP was to forgive those that
-admitted to their mistakes but brutally punish those who did not. What followed
-was a purge of nationalist and other non-believers characteristic of most
-revolutions. Intellectuals were forced to go through an official process of
-Thought Reform which included written confession. This may have been revised
-multiple times until deemed sufficiently ernest.</p>
-
-<p>When Mao visited Stalin in Moscow, Stalin showed his disdain for Mao and lack of
-faith in Mao's ability to succeed. Stalin took a week to meet with him in
-person. He gave Mao some loans earmarked for Russian military equipment, but
-relatively small amounts compared to what he gave Eastern European allies. In
-addition, the loans had to be repaid with 1% yearly interest. Stalin set up
-joint stock companies in North China giving Russia partial control in industry.</p>
-
-<p>In 1950 Joseph Stalin's and Chairman Mao's friendship was tested. The Korea’s
-were at war. Initially Stalin backed Chairman Kim's North Korea against South
-Korea. But when Truman decided to back South Korea he withdrew, seeking to avoid
-direct confrontation. Eventually Mao assembled a volunteer army and pushed the
-American troops back into South Korea. This back-and-forth lasted three years
-and a total of 1 million Chinese died.</p>
-
-<p>Domestically since 1950 China was destined to follow the Soviets, Also adopting
-five-year plans, and forcing its peasantry into collective farming.
-Collectivization basically failed due to the free rider problem, across the
-board in all Soviet bloc countries. China was no exception. Mao also acquired
-all private enterprises making them state owned. These reforms were celebrated
-by senior communists at the 8th CCP congress in 1959, but Mao wasn't satisfied.</p>
-
-<p>By then, Mao had been consolidating power in the party. He was now a larger
-than life hero. At the same time, Khruschev dismantled Stalin's cult of
-personality, and opened the Soviets up to the Chinese. The Soviets helped China open
-aircraft factories and even shared plans for a nuclear weapon. Initially
-friendly with Khruschev, relations went south when Mao was unsatisfied with
-Khruschev's "revisionist" tendencies, especially enraged when Khrustchev
-suggested that it was possible to achieve socialism through parliamentary means,
-directly contradicting Lenin.</p>
-
-<h3>Let one thousand flowers bloom (jk)</h3>
-
-<p>To try to address shortcomings in the Chinese communist system, Mao decided to
-"let one thousand flowers bloom". What this meant was that intellectuals we are
-now free to express themselves however they wanted. Mao quickly changed his mind when
-increasingly hostile letters started to be published against the Communist
-system in China and against them chairman himself. In response, he began
-systematic purges for dissenting intellectuals. It remains unclear whether this
-was deliberate provocation. As a result, Mao revised his initial invitation to
-intellectuals: your art writing and work in general should serve the
-proletariat. Mao wanted to distinguish good thinking "flowers" from bad thinking
-sabotage he called "weeds".</p>
-
-<h3>Great Leap Forward (jk)</h3>
-
-<p>To accelerate the advent of communism in 1959 Mao instituted the "Great Leap
-Forward", which included many different reforms, Most of which had no experts
-overseeing them. By 1962 it was clear that most had failed spectacularly, and
-with tragic consequences:</p>
-
-<ul>
-<li>To out compete great Britain in steel production, peasants built backyard
-furnaces to melt down their metal. "Металлолом". The resulting iron and was of
-low-quality and so useless.</li>
-<li>A war against nature was declared. Large water management projects were
-attempted but many ultimately failed. [One dam][banqiao] that was constructed
-in this period, collapsed during rainy season and 200,000 people died (!).</li>
-<li>Misguided attempts to control pests were instituted. Millions of Sparrows were
-killed by peasants. But this led to an overpopulation of mosquitoes and other
-harmful bugs.</li>
-<li>New policies forced farms to collectivize much quicker than initially planned
-and into much larger collectives of 20000 each. The larger the collective the
-less incentive for each individual to work. Production dropped but ideological
-fervor skyrocketed. Mid-level managers reported record food growth and
-increased quotas, as well as grain exports to the Soviets. 30 million farmers
-died in the famine that ensued.</li>
-</ul>
-
-<p>Meanwhile Mao himself was oblivious to any problem. He was getting busy with
-young peasant girls during his village visits. But his party took note of the
-problems. One party member, Peng Dehuai, was purged for his direct disagreement
-with Mao's Great Leap Forward. Two senior party members, [Liu Shaoqi][liu] and
-[Deng Xiaoping][deng] took the reigns for a time and took to a more calculated
-strategy, quietly undoing the Great Leap Forward. Needless to say Mao was not
-happy and began labeling everyone opposing him "mini-Khruschevs" and
-revisionists.</p>
-
-<h3>Cultural Revolution</h3>
-
-<p>(Find the subversive painting with three red flags and silhouettes of Mao and
-Stalin in the background. Also more about the three family village writing
-group.)</p>
-
-<p>Mao now had to deal with more backlash against his policies during the Great
-Leap Forward. He retreated to his villa in Guangzhou and set his propagandists
-to work. Impressionable students prone to extreme thought were an easy target.
-Mao's new sycophantic defense mister compiled a book of Mao quotes. Known as the
-famous Little Red Book, it became the basis for a new socialist education
-program. Leftist ideologues spurred on students calling themselves Red Guards,
-wearing green military uniforms, armed with the Little Red Book to commit
-violence against dissenting professors and fellow students in the name of
-ideological purity and conformity with Mao’s thought. Liu and Deng issued
-bureaucratic investigations into the worst offenders, but when Mao returned,
-he allowed the students to rebel against those "in power" whenever they wanted
-as long as they were aligned with his ideology. This cart Blanche also
-prevented the army from intervening in any way, to such an extent that brazen
-students raided PLA warehouses and pilfered weapons. Student groups competed
-with one another for purity, with those descended from intellectuals trying to
-prove that they too can be good ideologues despite their “low” birth. Now armed
-with modern weapons, they clashed violently with other factions. Mao fanned the
-flames by closing down schools and universities for months, meeting with heads
-of Red Guard factions, and becoming an honorary member. This student led fervor
-began expanding into the general population, and soon the workplace was
-similarly violent, unproductive, dysfunctional.</p>
-
-<p>(The far left's tendency to fight and demonize and generalize against those in
-positions of power is unchanged.)</p>
-
-<p><a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Jiang Qing</a> was Mao’s fourth wife and also known as Madame Mao. She was
-formerly a B movie actress, but now had political ambitions of her own. One of
-the terms of their marriage was that she could not hold political office.
-Instead, she began a concerted effort to heavily censor all media behind the
-scenes. Everything was banned by default. The only content available to the
-Chinese people had to be in service of the leftist communist ideal. Only 8
-operas were allowed to run, all new and revolutionary. Women were forbidden to
-wear jewelry, a strict plain-military dress code was effectively forced on all.
-Madame Mao herself resided in her villa, banned works hanging on her walls,
-decorated in jewlery, enjoying luxuries from the west.</p>
-
-<p>As violence of the Cultural Revolution escalated, even the Chairman himself could
-not curtail it through his direct pleas. Finally, he lifted the army’s ban on
-intervention and the PLA quickly and violently quashed the student rebels. To
-solve the student problem, Mao invented the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Countryside Movement</a> which
-conveniently involved shipping 17 million students to learn the way of the
-village as an antidote to bourgeoisie thought. Tho rusticated and "educated"
-students became known as the Lost Generation since they never received a modern
-education and were unable to move back to cities until much later.</p>
-
-<h3>Soviet Union and US relations</h3>
-
-<p>In 1969, tensions between China and the Soviet Union were peaking. China had
-recently demonstrated her nuclear capabilities in a small scale test. Meanwhile,
-Brezhnev had outlined a new, more aggressive Soviet foreign policy, the Brezhnev
-doctrine, which stated that the when a socialist country becomes more
-capitalistic, other socialist countries should intervene. This happened in
-Czechoslovakia, which set a dangerous precedent for Soviet intervention in
-China. In addition to the two countries were vying for leadership of the eastern
-bloc. China was completely outclassed in this regard having had several orders
-of magnitude less money to spend on the cause.</p>
-
-<p>Nervous about China's access to nuclear weapons, the Soviets were amassing
-troops along the Sino-Soviet border. Meanwhile Mao decided to take advantage of
-the opportunity and began playing off the Soviets against the Americans. Nixon
-and Kissinger were interested in having disunity among the Communist bloc, so
-allying with China, the weaker of the two potential leaders made sense as a way
-to counteract Soviet power and aggression. To kick off detente, the American
-national ping-pong team visited China. Although they were crushed by the
-Chinese, the players built up a friendly rapport. This was publicized on TV,
-which led to a warming of relations. Ultimately the culmination of this phase
-was Nixon’s own visit to China. This was not without tension on both sides. Some
-hard-core leftists are opposed to Mao's sudden change of heart. In America many
-were still loyal to Taiwan and Chiang Kai-shek as the only China that’s valid
-and were opposed to warming relations with any communist country. Interestingly,
-China only joined the UN and became a member of the security council in 1971.
-Previously the only China in the UN was Taiwan.</p>
-
-<p>US China relations got stuck for a while and actually were set back by Nixon’s
-Watergate scandal. His successor President Ford was largely ineffectual in
-general. It wasn’t until President Carter when in 1978 US China relations began
-to normalize in earnest. Many reasons why this happened, one is was the return
-of Deng Xiaoping, who was unequivocally a reformer and not bound by Mel’s shadow.
-Another was the growing hostility between the US and Soviet and a change of
-heart in there a balance of power between the two superpowers. It is now clear
-that the US sided with China as the underdog in order to weaken the Soviet bloc.</p>
-
-<h3>Mao's successor and the Gang of Four</h3>
-
-<p>By 1970 Mao is getting old and frail, and the CCP needed a successor. He
-originally designated <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Lee Biao</a>, a fervent leftist. But he was opposed to
-thawing relations with the American imperialists and was removed in an airplane
-"accident". Mao also had designs for Ding Xiaoping, by now a very experienced
-and proven administrator. But Madame Mao and her "Shanghai Clique" was opposed
-and undermined his rise because he was too pragmatic and not ideological enough,
-and was well known for pulling back some of the reforms during the great leap
-forward. Another candidate, the premier [Zhou Enlai][zhou] was credited with
-thawing US-China relations and received great press around the world. This
-triggered Mao's jealousy. Zhou was subjected to struggle sessions courtesy of
-Madame Mao. He died in 1976 from a cancer that Mao refused to treat with western
-medicine. Chinese citizens were prohibited from paying him regards by Madame
-Mao, but thousands did anyway, some writing angry notes comparing her to the
-Dowager Cixi. Madame Mao had the protesters removed with force, and then used
-the opportunity to blame Ding Xiaoping for the protests. She made an appointment
-to see her ailing husband, who signed off on a request to remove him from his
-political and military posts.</p>
-
-<p>Finally, Mao had a specific heir apparent selected in his will “with you in
-power I rest easy”, an unknown CCP member [Hua Guofeng][hua]. Madame Mao
-attempted to alter Mao's will to write herself in instead. Upon Mao's death, a
-coalition of moderate CCP members discovered this and put Madame Mao and her
-henchmen under arrest.  They were called the Gang of Four. Meanwhile Hua
-Guoattempted to ride on Mao's coattails and milk Mao's high praise for
-everything it could offer. Still, he quietly began undoing leftist trends and
-modernizing the country: </p>
-
-<ul>
-<li>Admissions into college were no longer political but based on
-standardized tests. </li>
-<li>Once called revisionist by Mao, he introduced incentive-based wage systems to
-reward performance.</li>
-<li>He opened up to china's intellectuals. Called for spirited discussions.</li>
-</ul>
-
-<p>As various leftist policies were being undone, all prior ills were blamed on the
-Gang of Four. This became the scapegoat for the Chinese people as they dealt
-with the cognitive dissonance of such a quick shift in thinking.</p>
-
-<p>Deng Xiaoping managed to get back to power patiently and strategically. It
-helped that his predecessor was not charismatic, deferring too much to Mao. He
-was ridiculed for his unquestioning attitude: "whatever Mao said we will say and
-whatever Mao did we will do" became derisively known as the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Two
-Whatevers</a>. Deng slowly took over, eventually holding high ranks
-across the party's bureaucracy, as well as the informal but influential position
-of Paramount Leader.</p>
-
-<h3>Deng's reforms</h3>
-
-<p>Deng continued in the same vein as Hua, but his reforms were even more
-progressive and western facing. Suddenly the Chinese people gained a lot more
-economic freedom. Small businesses were allowed to thrive and compete with
-government entities. Special economic zones were designated. Personal rewards
-were granted to reward high performing employees, the result of which was an
-increase in productivity across-the-board.</p>
-
-<p>Some attempts were also made to reform the political system and institute some
-western policies. This led to an increase in dissent and opposing voices.
-Ultimately Deng decided to roll back many political changes he originally
-proposed. (I found it interesting to learn about the Paramount Leader being so
-open to clearly changing his mind, without much protestation from the public.)
-In his own words, he "crossed the river by feeling the stones", trying new
-ideas, and sticking to them only if they work.</p>
-
-<p>Although he departed significantly from Mao's doctrine, Deng was very
-careful to not fully blame Mao for all of the shortcomings of the previous
-decades. </p>
-
-<h3>The late 80s</h3>
-
-<p>By the late 80s, the success of various policies began to yield diminishing
-returns. Many of the formerly prosperous village dwellers suddenly found that
-their salaries were declining and were forced to migrate back in the cities.
-This was also a time of huge corruption within the party, and inequality
-skyrocketed. This led to student unrest and ultimately the demonstration in
-Tiananmen Square.</p>
-
-<p>Many reformist ideas were floating around but no new ones really got
-implemented. Deng Xiaoping was deterred from giving in to too many liberal
-demands, citing the events of Poland as an example to avoid. Poland was inching
-towards capitalism as a result of a weak government that was giving in to too
-many popular demands. And so, Deng Xiaoping walked a fine line. He wanted his
-reforms to stick but also wanted to ensure that there was order.  During Deng's
-tenure as Paramount Leader, he appointed various high level positions who were
-officially in charge, yet Deng retained higher level control throughout.  This
-also enabled him to retain a balance of power between western oriented reformers
-and Mao oriented conservatives.</p>
-
-<p>It was a turbulent time for international communism. East Germany fell quickly
-follower by the Soviet Union. By 1989 the conservative left was starting to
-gather steam and attempted to turn back Deng's western facing reforms. At 84,
-and fighting for his life, Deng embarked on a southern tour, visiting special
-economic zones and offering congratulations to a booming economy as well as
-warnings about a leftist threat that might undo it all. In a tense few weeks, as
-his health was ailing and the bureaucrats were vying for power, the tour wasn't
-even publicized by the state run media. Eventually Deng emerged victorious and
-the politburo officially declared that the left posed a higher threat to
-China than did the right. </p>
-
-<p>Deng successfully divorced markets from capitalism, and encouraged economic
-reform while slowing political reform, in a gamble where he bet that Chinese
-people cared more about their material wealth than their political freedom. </p>
-
-<p>Meanwhile during the "roaring 90s", GDP doubled, foreign investment increased
-7x, coastal cities and stock market exchanges flourished. Meanwhile the farmers
-and country dwellers suffered. Eventually the uncontrolled market blew up and
-consumer goods increased in price 15x. As many as 100 million peasants moved to
-cities. Corruption soared: party members and cadres were immune to prosecution,
-as was the army which managed to get half its revenue from market investments. A
-spiritual crisis loomed for the youth and an economic crisis for the elderly.
-This was the origin of "Free Tibet" and the Falun Gong as well. <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Jiang
-Zemin</a> was appointed to be the General Secretary and promptly made many
-moderating changes, introducing economic regulations and also joining the WTO
-which is widely lauded as a big reason for China's Economic Miracle. Deng
-Xiaoping died in 1996, aged 92 from Parkinson's.</p>
-
-<p>With the economic changes came an increase in Chinese nationalism. Things seem
-to escalate with the US but the two countries were able to maintain good
-relations. In terms of greater China, Hong Kong transitioned peacefully 
-in 1997 as per the British contract dating back to the Opium wars. 
-Taiwan is a different, more complicated story. Chiang Kai-shek's son took over
-for him when he died, and continued center-right politics. More recently, a rift
-has formed between ethnic Chinese who fled the communists from the mainland and
-ethnic Taiwanese. An ethnic Taiwanese president succeeded the GMD and pushed for
-independence but the US, fearing war with Chana succeeded in reigning in his
-idealism. The issue remains unresolved.</p>
-
-<h3>Wrapping up</h3>
-
-<p>Holy moly, this is quite a long summary. I sure hope that writing it helps
-me remember better...  Anyways, where was I? Ah yes, during the last few
-segments, the lecturer continues on to discuss some specific issues in modern
-China: the Internet, the Beijing Olympics of 2008. He highlights a spotty human
-rights record, as well as Chinese monetary support for a wide variety of odious
-regimes including Zimbabwe and Syria.</p>
-
-<p>Overall a great introduction to modern China. Check it out.</p>
 
 
         
