@@ -5,8 +5,236 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-10-26T23:28:10-00:00</updated>
+  <updated>2020-12-21T17:06:37-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Profiles of the Future by Arthur C. Clarke</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/profiles-of-the-future-by-arthur-c-clarke"/>
+    
+    <updated>2020-12-18T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/profiles-of-the-future-by-arthur-c-clarke</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Originally written in 1960, I’m reading the edition revised in 1977. Clarke begins by reflecting on the last few decades and observing that although there were many important and expected inventions (eg. automobiles, planes, submarines, and spaceships), many of the most important were completely unexpected (eg. X-rays, nuclear energy, radio and television, electronics, and photography).</p>
+
+<p>Clarke sets out not to predict the future but to outline a range of possible futures. This approach is a sibling to scenario planning, and is more hedgy and humble. But the real value I got from reading this book was to get a sense for a 1960s umwelt seen through a futurist’s eyes.</p>
+
+<blockquote>
+  <p>“Even a highly complex object could be completely specified on a modest amount of recording medium; you can put the Ninth Symphony on a few hundred feet of tape”</p>
+</blockquote>
+
+<h2>Clarke's Three Laws:</h2>
+
+<ol>
+<li>When a distinguished but elderly scientist states that something is possible, he is almost certainly right. When he states that something is impossible, he is probably wrong.</li>
+<li>The only way of discovering the limits of the possible is to venture past them into the impossible. </li>
+<li>Any sufficiently advanced tech is indistinguishable from magic. </li>
+</ol>
+
+<h2>On the importance of Frontiers</h2>
+
+<p>Clarke says the American frontier opened in 1492 and closed in 1869 with the completion of the western railroad. There are no new frontiers on earth, he says, since Mariana’s trench was visited. Now the frontier is space!!!</p>
+
+<p>He emphasizes the importance of frontiers, both for physical resource harvesting, and for the soul. And he compares our existence on earth to being in a sensory deprivation chamber. Also cites lots of different benefits to frontier life. Toynbee claimed that the most productive and interesting work happens on frontiers, and that a civilization can be measured by how well their frontier does. </p>
+
+<blockquote>
+  <p>Peoples occupying frontier positions, exposed to constant attack, achieve a more brilliant development than their neighbors in more sheltered positions. -Toynbee </p>
+</blockquote>
+
+<p>This is definitely thought provoking, and not the first time the appeal of frontiers has crossed my mind. Almost 50 years later, I think are many interesting frontiers beyond pure geography. And space seems like the wrong focus given how many problems we face at home, the difficulties associated with space travel, and hostility of destinations. </p>
+
+<p>That said, this doesn't quite feel satisfying. Possibly because having one frontier that is all encompassing is what one thinks of as frontier living. One thinks of early new world settlers or western expansion or Israeli settlers. </p>
+
+<h2>Global TV (aka Internet)</h2>
+
+<p>Interesting timing, with StarLink being so in vogue here in 2020. This was originally written before Telstar (an early comma satellite launched in 1962).</p>
+
+<p>Reminder that long range radio is not possible without an atmosphere. On earth, the ionosphere enables longer wavelength terrestrial broadcasts. Short wave radio will pass through directly into space. </p>
+
+<p>Broadcast TV is apparently confined to very short wave radio, so doesn’t transmit well over long distances. Clarke asks what it would take to have a trans-Atlantic TV station and proposes a chain of broadcast ships to act as relays. This is a bit bizarre. Were there no transatlantic cables at the time of writing? Surely transatlantic telegraphy depended on such infrastructure.</p>
+
+<p>Clarke gets really excited about the possibility of using a satellite relay to enable global TV stations. Imagine getting TV from Moscow!! Funny to read this in an age of ubiquitous internet, but we really did get here. Prescient for its time.</p>
+
+<blockquote>
+  <p>“All men will become neighbours, whether they like it or not. Any form of censorship, political or otherwise, would be impossible. to jam signals coming from the heavens is almost as difficult as blocking the light of the stars.</p>
+</blockquote>
+
+<p>This is important and highly relevant today. Indeed StarLink could technically be such a turning point. In such a world, how would China block websites?</p>
+
+<p>Clarke makes an emphasis on the importance of this “global TV” possibility, but his assessment is very colored by Cold War specifics. He considers a scenario in which the Soviets launch a satellite above Asia, providing a dedicated propaganda machine to otherwise backwards people. “The TV satellite is mightier than the ICBM, and intercontinental TV (read: the internet) may be the ultimate weapon.” </p>
+
+<p>Lots of prescient stuff about comms, much of which happened only recently, or is in the process of occurring, while anticipating that “perils and disadvantages are obvious; there are no wholly beneficial inventions”</p>
+
+<ul>
+<li>Lightweight prediction of smartphones</li>
+<li>GPS and personal location</li>
+<li>Difficulty of escaping friends and family</li>
+<li>Video calls and their eventual effect on commuting (just happening now)</li>
+<li>Remote work, with businesses “run by executives who are scarcely ever in each other’s physical presence”</li>
+<li>Freedom of location “captains of industry of the 21st century may live where they please, running their affairs through computer keyboards”, sometimes opting for a “more personal touch... via wide-screen full-color TV”</li>
+<li>“Orbital post office”, making airmail obsolete, (funny, you’d still go to a post office to make this happen — personal computing isn’t on the radar)</li>
+<li>the demise of print media, and a real threat to newspaper model, but doesn’t quite go so far as to predict personalization, and again social media is not on the horizon at all.</li>
+</ul>
+
+<p>It’s fascinating to see these predictions which are often so right (eg. Digital trends), but also so wrong (eg. We aren’t relying on satellite links, but only underground/underwater cables)</p>
+
+<p>While Clarke acknowledges that “there are no wholly beneficial inventions”, he’s pretty optimistic that the world will converge onto one truth, and that “global TV” will lead to a reduction in ignorance. He does hedge his position: any futurist must be optimistic. At the same time, he does permit for some bad outcomes: “do we have the imagination and the statesmanship to use this new tool for the benefit of all mankind? Or will it be used merely to peddle detergents and propaganda?” </p>
+
+<p>A call to action: “we are becoming a race of watchers, not a race of doers. The miraculous powers that a re yet to come may well prove more than our self-discipline can withstand.” — indeed this may still be our undoing. And Clarke didn’t even think of the impact of video games.</p>
+
+<h2>Transportation</h2>
+
+<p>Clarke over-indexes on a bunch of trendy technology of his time. How could he not? Things like Vertical Take Off and Landing (VTOL) and Ground Effect Machines (GEM) take whole sections of the book. That said, GEM are pretty cool, and completely unknown by me. I went down a bit of a rabbit hole here on <a href="https://en.wikipedia.org/wiki/Lun-class_ekranoplan">Soviet ekranoplans</a>, which are super dope. Honestly I’m shocked that I hadn’t previously come across this, given so many overlapping interests: Soviet Russia, Hydrofoils, and History of Tech.</p>
+
+<p><strong>Super-horse</strong>: Clarke has a bizarre level of respect for the horse, and projects some strange future which never came to pass in which a genetically engineered super-horse would be extra strong and smart and function essentially like a self-driving car.</p>
+
+<p><strong>Hypersonic transport</strong>: Clarke cites an aeronautical engineer from 1929 who provided funny in retrospect limits to aircrafts in 1980: 130mph, a range of 600mi, payload of 4 tons and total weight of 20. Sure enough progress from 1929 to 1977 proved that engineer wrong. But Clarke did not realize that we were on the slowing part of the S-curve there, and seems to have no realization of the S-curve model at all, projecting exponential growth on all fronts. </p>
+
+<p><strong>Fast walkways</strong>: Clarke covers a lot of ground, dishing out ideas left and right. He suggests a variable speed conveyor walkway with a very fast express lane, as in Moving Ways by H.  G. wells. He brings up large submerged “sausages” for transporting goods over water without creating any wave related friction, citing Frank Herbert “Dragon in the Sea”. Could be a fun read.</p>
+
+<p><strong>GEVs</strong>: Wildly optimistic about this new unproven technology, going to far as to suggest that highways (which are expensive to build) will become obsolete by 1990 because everyone will be driving a hovercraft. </p>
+
+<blockquote>
+  <p>“There will be a very difficult transition period before the characteristic road sign of the 1990s becomes universal: no wheeled vehicles on this highway”</p>
+</blockquote>
+
+<p>In general there is little regard for efficiency or any sort of power consumption calculations. There is no respect for the wheel, or things like rolling friction etc. Shocking for a scientist. But he is a good science fiction thinker. Ports are obsolete! Sam Francisco? Forget it. Switzerland will be a great shipbuilding nation. TODO: Look into why GEMs ultimately did not make inroads anywhere. Suspect it's energy related. </p>
+
+<h2>Energy</h2>
+
+<ul>
+<li>Future fusion plants will be huge, but Clarke seems convinced they are coming soon. He’s very optimistic about nuclear. Sad to see that this dream remains a dream today, and has not panned out.</li>
+<li>Urgent need for batteries seems prescient for 1970s.
+<ul>
+<li>TODO: How much has battery tech improved? Has someone done an analysis of (Ah or Wh / $)? Similar studies for <a href="https://www.statista.com/chart/10567/the-cost-of-light-through-the-ages/">declining cost of light</a> (“how long you had to work for an hour of light”)</li>
+</ul></li>
+<li>Wireless power seems to be too inefficient to be practical. Although there are wireless power projects today and extremely low power electronics Clarke couldn’t have anticipated.</li>
+<li>Pessimistic about solar power. 
+<ul>
+<li>TODO: is there a similar analysis for the cost of solar? Clarke cites a 1 horsepower / square yard of sunlight theoretical max on a sunny day. Has that changed? Has the efficiency (10%) changed? How much has price changed? (my guess: a lot)</li>
+</ul></li>
+<li>Enumerates a bunch of alternative energy sources but neglects to mention wind power at all! Shocker.</li>
+<li>Moon/asteroid mining is appealing because gravitational forces for leaving the exploited mine are so small (relative mass of earth is huge)</li>
+</ul>
+
+<h2>Mind, body and machine problems</h2>
+
+<p>Clarke speculates a lot about the future of brain, body, and the obsolescence of man.</p>
+
+<p>Personally, I find these speculations to be intellectually interesting but viscerally terrifying and still technologically likely far fetched. I’m more inclined to care about augmentation, where computers can work to improve people’s abilities, rather than completely replace them.</p>
+
+<ul>
+<li>Lots of speculation about how we might be able to perceive the way that animals perceive.</li>
+<li>Synthetic brain stimulation, in part to create a “mechanical stimulator” so that you can “learn Kung fu, matrix style”.</li>
+<li>Sleep: more questions than answers in this field. Do we need it? How much little can get away with?
+<ul>
+<li>Ridiculous thing about “electric sleep apparatus”, and the footnote that indicates that a large number of readers wrote him to inquire within.</li>
+<li>Induced hibernation for long range space travel. Is this possible?</li>
+<li>TODO: Do dolphins really not need sleep?</li>
+</ul></li>
+<li>Immortality and consciousness uploading.
+<ul>
+<li>Can you upload your mind into a machine? (Meh)</li>
+<li>“In adolescence we leave our childhood behind; one day there may be a second and more portentous adolescence, when we bid farewell to the flesh” (Unappealing)</li>
+<li>Evolution is too slow, and we’ve conquered it. So let’s consider the real thing that will drive progress: machines. This is a tired argument, and I think enough progress has been made since the 60s, and enough barriers remain that this chapter feels quite obsolete.</li>
+</ul></li>
+<li>Clarke scoffs at the quality of our biological senses, laughing at the narrow field of focus of the eye, minuscule compared to any camera lens out there. “No camera ever built — even the cheapest — has as poor an optical performance as this”, and he doubles down: let’s not make a virtue of a necessity”. He pities evolution, which “has performed a truly incredible job against fantastic odds”.</li>
+</ul>
+
+<p>My take is that we’ve made tons of progress in fields like AI and new fields like Machine Learning. It’s pretty clear to me that we are dealing with a different kind of intelligence, and not necessarily a continuum of intelligences.</p>
+
+<p>My view is that we don’t understand the trade offs and the complexity of the system at hand. I suspect a lot of the design trade-offs exist because of factors not considered in Clarke’s analysis, or in a purely utilitarian short term view. Evolution cares about long term resilience more than anything else. I suspect the reason we exist today is because of the persistent forces of selection and mutation. Our form of life doesn’t need Titanium and rare earth metals to exist. If we did manage to replace our species with robots free of our “defective” eyes and ears, how long would such “M. Sapiens” species survive? Who knows, but I invoke Chesterton’s Fence. There are forces way beyond our current levels of understanding to even begin contemplating fucking with this system. Clarke’s arguments that the constant rebuilding of ourself is a problem completely ignores resilience of any sort.</p>
+
+<h2>Half-baked and extremely speculative sections</h2>
+
+<p>One downside of this book was the persistence of much wild and baseless speculation about anti gravity.</p>
+
+<p><strong>Scaling</strong> Surprising overlap with Scale by Geoff West, this book greatly precedes it, but is another popularization of some of the scaling laws proposed earlier. In particular, he dwells on the incongruities of human sized ants, pint sized humans, etc. Strangely, he calls the whole chapter Lilliputian, citing Swift a lot. It’s hokey, but I think the classics were more deeply ingrained in popular culture at the time. Clarke makes additional arguments about intelligence being linked to the number of neurons in a brain, a scaling argument I don’t remember reading about before. So he denies the possibility of extremely intelligent small animals. But he is bullish on extremely intelligent, extremely large beings as those found in Swift’s Brobdingnag.</p>
+
+<p><strong>Logical languages</strong> Clarke is pretty bullish on this idea that computers will change the way we communicate to be more logical, citing Loglan (now dead, via Lojban), and welcoming such a possibility. Obviously nothing of the sort has panned out. However computers have in some sense affected our communication, and made it more visual. This would have been extremely surprising and hard for Clarke to predict, but the ubiquity of Emoji has actually become a sort of surprising trend in global communication. Memes have really gained a lot of steam. Both these trends I think have brought visual communication to the masses in a way that has been unprecedented in history. Not to mention video (YouTube, TikTok) and audio (rise of Podcasts), as a force in mass communication.</p>
+
+<p><strong>Climate engineering</strong> is mentioned in one final paragraph, as a possible direction Clarke could have written about. Of course the context for this would not be to try to curtail a warming climate, but instead for some lofty goal like having it rain less in Seattle because we’d like to go to the beach more often. Needless to say, the current state and dire projections for global climate were well beyond a futurist’s ability to predict from the ‘60s.</p>
+
+<p><strong>Invisibility</strong> section is shockingly fluffy. Fourth dimension? Invisibility? All weird.</p>
+
+<p><strong>Teleportation</strong>: Taking a very rationalist view here, he rejects the purely mental ability to teleport oneself, and considers the alternative, which is a Star Trek like instant cloning. Is this so obvious? The discussion predates the show. Analogies from duplicating audio and video signals turns out comically mechanistic, although he does acknowledge this. The bottom line is that having this form of teleportation technology seems practically impossible. And if it were possible, the ability to create infinite copies of a person would pose very large questions, far beyond transportation. </p>
+
+<p><strong>Generalized Manufacturing</strong>: It takes Clarke a while to get to the point here, but similar to the teleportation chapter, he considers what it’d take to create a machine capable of cloning matter. Mostly the second order effects are outrageous: the end of factories, the end of farming, the end of raw goods transportation. The end of the author’s recollection of economies of scale! Every family would just synthesize whatever it needs on the spot. I guess the closest we’ve got so far are 3D printers and 3D scanners.</p>
+
+<p><strong>Anti-gravity</strong>: Clarke does have some interesting speculation about how a gravity neutralizer could automatically be turned into a gravity drive. And then how this means that you could use “slingshot” techniques to gain an arbitrary amount of speed comfortably by exploiting gravity wells “gravity assist”. Also some off handed rejection of nuclear space and long range transport for safety reasons. Seems like this would require fission to be done safely? Maybe. </p>
+
+<p><strong>Center of the earth</strong>: Not sure why we'd wanna do this. But I guess another frontier is center of Earth. Or really dense gas giants. Or like trying to land on the sun. Or a neutron star. Why do all this? The only reason appears to be for extracting natural resources.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Dune by Frank Herbert</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/dune-by-frank-herbert"/>
+    
+    <updated>2020-12-01T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/dune-by-frank-herbert</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I first read Dune 20 years ago. Earlier in the year, excited by the upcoming movie, I read “Frank Herbert” by Tim O’Reilly, and my overall feeling was one of omission. And I thought that revisiting Dune would be illuminating. Re-reading books is not something I’ve done much of. I wish I had written notes on my first reading!</p>
+
+<h2>What I remembered and what I forgot</h2>
+
+<ul>
+<li>I forgot much of the universe, which was both disappointing, and also entertaining in that many revelations were often unexpected. </li>
+<li>I’d forgotten about the convoluted and intertwined relationships between House Harkonen and House Atreides. That Sardaukar is the name of a house is a revelation. And Paul's relation to Princess Irulan was also fascinating and unremembered. </li>
+<li>Gurney Halleck and Thufir Hawat were largely forgotten.</li>
+<li>Obviously the main characters were very familiar. Stilgar was surprisingly crisp in my memory, as was Duncan Idaho, who I remember having a much larger role (perhaps he does in subsequent books).</li>
+</ul>
+
+<h2>How my impression changed</h2>
+
+<ul>
+<li>Paul Atreides felt a lot more villainous to me now, perhaps colored by my recent reading of Frank Herbert. Earlier I remember basically being wholeheartedly in awe of him. Now I'm reticent. Paul Muad’dib is übermensch, reaching apex in too many domains to be humanly possible. Politically, inheriting duke and then in line to succeed the empire, spiritually as a living prophet, mentally as a proto-mentat and seer, physically as a vanquisher of foes in melee combat. And as a Fremen sand rider, capable of mounting legendarily large worms.</li>
+<li>Leto Atreides has a much more outsized role in my mind compared to the short role he plays in the book. He is the unambiguous good character that I've personally identified as hero. Reminds me of my own father. </li>
+</ul>
+
+<p>At the end of Dune, it's very unclear that the author’s goal is to discredit hero worship. At this point you can't help but worship Pail Muad’dib yourself. Unless of course Herbert’s deliberate plan is to get the reader feeling what a Fremen zealot would feel, before tearing you down in the sequels.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Night by Elie Wiesel</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/night-by-elie-wiesel"/>
+    
+    <updated>2020-11-15T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/night-by-elie-wiesel</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Written in relatively dry prose, this book packs a punch in few words. I found it similar in affect to <a href="/books/the-road-by-cormac-mccarthy/">The Road</a>, until remembering that this book is in a completely different genre. This is not speculative science fiction. It is an autobiography. That’s when the horror and depravity really hits home. </p>
+
+<p>If you’re feeling a bit iffy on humanity, consider waiting this one out.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Tools for Conviviality by Ivan Illich</title>
@@ -38,9 +266,12 @@
   <p>“There are two ranges in the growth of tools: the range within which machines are used to extend human capability and the range in which they are used to contract, eliminate or replace human function.”</p>
 </blockquote>
 
-<p>Examples:
-- Medicine: first watershed in 1913, when supposedly modern medicine caught up with witch doctors and began to outperform them. Second watershed in 1950s, when “90% of all medical care for patients with terminal diseases is unrelated to their health. Such treatment increases suffering and disability without demonstrably lengthening life.” 
-- Transportation: In the early 1930s, Mexico connected most villages with dirt roads serviced by sturdy trucks moving at 20mph. Anyone could ride in these. As infra improved more and more money was sunk into a highway system, which enabled only those rich enough to access a car to use them.</p>
+<p>Examples:</p>
+
+<ul>
+<li>Medicine: first watershed in 1913, when supposedly modern medicine caught up with witch doctors and began to outperform them. Second watershed in 1950s, when “90% of all medical care for patients with terminal diseases is unrelated to their health. Such treatment increases suffering and disability without demonstrably lengthening life.” </li>
+<li>Transportation: In the early 1930s, Mexico connected most villages with dirt roads serviced by sturdy trucks moving at 20mph. Anyone could ride in these. As infra improved more and more money was sunk into a highway system, which enabled only those rich enough to access a car to use them.</li>
+</ul>
 
 <h1>Convivial limiting</h1>
 
@@ -1576,7 +1807,7 @@ Due to the harsh conditions of the region, engineers really needed to build soli
 <p>If you’re game to help, here are the necessary pieces:</p>
 
 <ol>
-<li>A <a href="https://drive.google.com/file/d/190RDAxrUzu5m0d_zxQi98euIguBDb0qf/view?usp=sharing">PDF of the second edition of Asimov’s Chronology</a> I scanned in hopes of automating the whole process (see above).</li>
+<li>A <a href="https://drive.google.com/file/d/1qQDnNQr6L-NGRTyID8kWGMnnVVPeCC6o/view?usp=sharing">PDF of the second edition of Asimov’s Chronology</a> I scanned in hopes of automating the whole process (see above).</li>
 <li>A <a href="https://docs.google.com/spreadsheets/d/1uDeBCfcaVUfZFEK-0WJIb43dT6cqHHq9o6Uxn6PihLY/edit#gid=158368026">publicly editable spreadsheet</a> containing stubs for all of the inventions listed in the chronology from 1700 to 1993.</li>
 </ol>
 
@@ -4022,245 +4253,6 @@ It's not credible, but his ability to spin a story is impressive. </p>
 <p>Peterson seems to be writing for an audience of very low self-esteem men. This
 is a recipe book for escaping this rut, at worst by becoming a narcissistic
 psychopath. By rule four, I'd had my fill and decided to cut my losses.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Building a Bridge to the 18th Century</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/building-a-bridge-to-the-18th-century"/>
-    
-    <updated>2019-01-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/building-a-bridge-to-the-18th-century</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Neil Postman has strong opinions:</p>
-
-<ul>
-<li>The 18th century was awesome. </li>
-<li>Postmodernism is always, unequivocally bad. </li>
-<li>You don't need typewriters or computers, paper and pen is good enough. </li>
-<li>People are getting stupider and stupider. </li>
-<li>Defeating straw man arguments is super fun. </li>
-</ul>
-
-<p>Postman cites many great thinkers in a way that is clearly erudite. However the
-book is rather short and covers a lot of ground, making his name dropping quite
-annoying. Rather than delivering deep points, Postman remains on the surface,
-hinting at the existence of various philosophical ideas that he is intimately
-familiar with. All this while struggling to structure a coherent narrative. </p>
-
-<p>I found the book mostly useless. It's a shallow summary of some stuff I already
-knew, and set forth an exaggerated technological pessimism that I, to some
-extent, share. In my most charitable view, Postman's over exaggerated positions
-were intended to provoke thought for some hypothetical starry eyed silicon
-valley entrepreneurial techno-optimist. Unfortunately, Postman's position is so
-extreme and arguments so cliched, I found myself rooting for the other side. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Reading in 2018</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/notes/2019/reading-in-2018/"/>
-    
-    <updated>2019-01-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/notes/2019/reading-in-2018/</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I read and listened to a few <a href="/books">books</a> in 2018. My highlights include
-speculative fiction stories from Chinese authors: <a href="/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang/">Ted
-Chiang</a>, <a href="/books/three-body-problem-by-liu-cixin-audio/">Liu
-Cixin</a>, <a href="/books/infinite-planets/">Ken Liu's translations
-of</a>, Chen Qiufan, Xia Jia, Hao Jingfang. Also really
-enjoyed <a href="/books/player-of-games-by-iain-m-banks/">Player of Games</a> and <a href="/books/darkness-at-noon-by-arthur-koestler-audio/">Darkness
-at Noon</a>. On the non-fiction
-front, I listened to two excellent history lectures: one on <a href="/books/the-fall-and-rise-of-china-audio/">modern
-China</a>, another on the <a href="/books/living-the-french-revolution-audio/">French
-Revolution</a>. I also read a pair of
-books describing cyclical views of history: <a href="/books/the-fourth-turning-by-howe-and-strauss/">The Fourth
-Turning</a> and a more scientific
-take, <a href="/books/war-and-peace-and-war-by-peter-turchin/">War and Peace and War</a>.
-A standout non-fiction favorite was <a href="/books/impro-by-keith-johnstone/">Impro</a>,
-which I will definitely be returning to.</p>
-
-<p>Most of my internet reading happens through Instapaper, which affords me a 
-handy chronicle of articles that I enjoyed. Here are a few of them (excerpts are
-not endorsements):</p>
-
-<!--more-->
-
-<ul>
-<li>Between 1900 and 1910, Seattle’s population tripled, from just over 80,000 to
-more than 230,000 people. <a href="http://archive.kuow.org/post/story-behind-seattles-obsession-craftsman-homes">The Story Behind Seattle's Obsession With Craftsman
-Homes</a></li>
-<li>The demo drew rave reviews from the technology press. <a href="https://www.1843magazine.com/technology/the-daily/no-googles-pixel-buds-wont-change-the-world">No, Google’s Pixel Buds
-won’t change the
-world</a></li>
-<li>That’s home. That’s us. On it everyone you love, everyone you know, everyone
-you ever heard of, every human being who ever was, lived out their lives.
-<a href="https://www.brainpickings.org/2012/12/10/pale-blue-dot-motion-graphics/">Carl Sagan’s Pale Blue Dot, Animated in Motion
-Graphics</a></li>
-<li>Our choice is not between "regulation" and "no regulation." The code
-regulates. It implements values, or not. It enables freedoms, or disables
-them. It protects privacy, or promotes monitoring. <a href="https://harvardmagazine.com/2000/01/code-is-law-html">Code Is
-Law</a></li>
-<li>In other words: AIs are best at choosing answers. Humans are best at choosing
-questions. <a href="https://jods.mitpress.mit.edu/pub/issue3-case">How To Become A
-Centaur</a></li>
-<li>Today’s belief in ineluctable certainty is the true innovation-killer of our
-age. In this environment, the best an audacious manager can do is to develop
-small improvements to existing systems — climbing the hill, as it were, toward
-a local maximum, trimming fat, eking out the occasional tiny innovation — like
-city planners painting bicycle lanes on the streets as a gesture toward
-solving our energy problems. <a href="https://www.wired.com/2011/10/stephenson-innovation-starvation/">Innovation
-Starvation</a></li>
-<li>There is no reason to let a company make so much money while potentially
-helping to radicalize billions of people <a href="https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html">YouTube, the Great
-Radicalizer</a></li>
-<li>Favoring the “soft” aspects of a college application is straightforwardly
-beneficial to the more privileged at the expense of the less. <a href="https://jacobinmag.com/2018/03/sat-class-race-inequality-college-admission">The Progressive
-Case for the
-SAT</a></li>
-<li>Science fiction allows us the distance to circumvent issue fatigue in our very
-troubled times. <a href="https://www.nature.com/articles/d41586-017-08674-8">Science fiction when the future is
-now</a></li>
-<li>Isaiah Berlin, sobered by the 20th century’s failed utopias, has argued for a
-more modest liberal pluralism that makes room for multiple, genuinely
-conflicting goods. Family and work, solidarity and autonomy, tradition and
-innovation are really valuable, and really in tension <a href="https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/">When Truth and Reason
-Are No Longer
-Enough</a></li>
-<li>I am not a relativist; I do not say "I like my coffee with milk and you like
-it without; I am in favor of kindness and you prefer concentration camps"
-<a href="https://www.cs.utexas.edu/users/vl/notes/berlin.html">Isaiah Berlin on
-Pluralism</a></li>
-<li>Unstructured, unsupervised time for play is one of the most important things
-we have to give back to kids if we want them to be strong and happy and
-resilient. <a href="https://reason.com/archives/2017/10/26/the-fragile-generation">The Fragile
-Generation</a></li>
-<li>The average net worth among adults in the 95th to 99th percentile is about
-$1.7 million. Among the 0.1 percent, it’s about $60 million. Who, exactly, are
-the aristocrats again? <a href="https://slate.com/business/2018/05/forget-the-atlantics-9-9-percent-the-1-percent-are-still-the-problem.html">Forget What the Atlantic Is Telling You. The 1 Percent
-Are Still the
-Problem</a></li>
-<li>We are a species that strives not just for survival, but also for
-significance. We want lives that matter. <a href="https://www.nytimes.com/2018/06/23/opinion/sunday/suicide-rate-existential-crisis.html">Is This an Existential
-Crisis?</a></li>
-<li>To support triangulation, we recommend a shift to a contributorship model,
-similar to the credits that roll at the end of a film — a long list of
-individuals with their contributions described fully and specifically <a href="https://www.nature.com/articles/d41586-018-01023-3">Robust
-research needs many lines of
-evidence</a></li>
-<li>Do whatever you can’t stop thinking about. Documenting your findings in public
-(regardless of outcomes!) is a worthy contribution to society, full stop. <a href="https://nadiaeghbal.com/independent-research">The
-independent researcher</a></li>
-<li>Various studies have identified cooperation as a core theme in popular
-narratives across the world. ... nearly 80% of their tales concerned moral
-decision making and social dilemmas <a href="http://www.bbc.com/culture/story/20180503-our-fiction-addiction-why-humans-need-stories">Our fiction addiction: Why humans need
-stories</a></li>
-<li>The transhumanist vision too easily reduces all of reality to data,
-concluding that “humans are nothing but information-processing objects.”
-<a href="https://medium.com/s/futurehuman/survival-of-the-richest-9ef6cddd0cc1">Survival of the
-Richest</a></li>
-<li>This means that the mistake must be at the root, at the very basis of human
-thinking in the past centuries. ... It could also be called
-anthropocentricity, with man seen as the center of everything that exists. <a href="https://www.americanrhetoric.com/speeches/alexandersolzhenitsynharvard.htm">A
-World Split
-Apart</a></li>
-<li>Concoct one story where things get better, one where they get worse, and one
-where they get weird. <a href="https://www.nytimes.com/2018/09/01/opinion/sunday/how-make-big-decision.html">How to Make a Big
-Decision</a></li>
-<li>Particularly sad is the belief that the majority of the homeless were drunks,
-drug addicts, criminals or thieves. It is true that the category “homeless”
-has come to include all of those people, but there are so many, many more who
-are none of those things. <a href="https://crosscut.com/2018/09/why-i-started-giving-homeless">Why I started giving to the homeless</a></li>
-<li>Perhaps unsurprisingly, Magic Leap is almost entirely built on the visions of
-grown men wanting to immerse themselves in fantasy worlds. <a href="https://gizmodo.com/the-magic-leap-con-1829716266">The Magic Leap
-Con</a></li>
-<li>The really important kind of freedom involves attention, and awareness, and
-discipline, and effort, and being able truly to care about other people and to
-sacrifice for them, over and over, in myriad petty little unsexy ways, every
-day. That is real freedom. The alternative is unconsciousness, the
-default-setting, the "rat race"-the constant gnawing sense of having had and
-lost some infinite thing. <a href="https://fs.blog/2012/04/david-foster-wallace-this-is-water/">This is Water</a></li>
-<li>The big mistake in this pattern of failure is projecting your subjective lack
-of comprehension onto the object you are looking at, as “irrationality.” We
-make this mistake because we are tempted by a desire for legibility. <a href="https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/">A Big Little Idea Called Legibility</a></li>
-<li>There is something sinister and corrupt—Maoist—in the habit of assigning
-people to categories. <a href="https://www.wsj.com/articles/america-is-addicted-to-outrage-is-there-a-cure-1543620811">America Is Addicted to Outrage. Is There a
-Cure?</a></li>
-<li>Like the open office, the loud restaurant seems to have overstayed its
-welcome. That’s because loud restaurants are more profitable. <a href="https://www.theatlantic.com/technology/archive/2018/11/how-restaurants-got-so-loud/576715/">How Restaurants
-Got So
-Loud</a></li>
-</ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Infinite Planets</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/infinite-planets"/>
-    
-    <updated>2019-01-02T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/infinite-planets</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've only just touched the tip of the Chinese Sci-Fi iceberg by reading <a href="/books/three-body-problem-by-liu-cixin-audio/">Three
-Body Problem</a>. So I picked up Infinite Planets, also translated by the same guy, Ken Liu.</p>
-
-<p>Many of the stories were just too out there for me to fully enjoy. I'm not sure
-if this is what's meant by "wuxia", but some had a sort of Crouching Tiger,
-Hidden Dragon feeling to them: extremely ephemeral, very unpredictable, hard to
-understand. I really enjoyed many of the stories, though. Here are my favorites:</p>
-
-<p><strong>The Fish of Lijiang</strong>: an endearing vignette of fast paced life placed on
-pause. Opposites attract in a science fiction cliche kind of way. </p>
-
-<p><strong>A Hundred Ghosts Parade Tonight</strong>: where does reality end and really good
-simulation begin?  Emotionally driven, powerful storytelling. Interesting blend
-of Chinese folklore with speculative far future robotics/AI. </p>
-
-<p><strong>Night Journey of the Dragon Horse</strong>: Memorable sketch of a post apocalypse in
-which a sentient robotic dragon horse awakens from a long slumber. </p>
-
-<blockquote>
-  <p>"Time flows like a river, halting for no one. There is nothing in the world
-  that can outlast time itself." </p>
-</blockquote>
-
-<p><strong>Folding Beijing</strong>: Great concept, compelling story. Interesting take on
-automation. Also, this served as my introduction to the cynical <a href="https://en.wikipedia.org/wiki/Phillips_curve">Philips
-Curve</a>. If I was to be picky, the
-story felt a bit too directly critical of class divisions in modern China for my
-taste.</p>
-
-<p><strong>Taking Care of God</strong>: a parable for aging, intergenerational
-misunderstandings, but on a civilizational level. Memorable and bittersweet.
-Loved the special relativity explanation for the religious vs. scientific
-understanding of Earth's age. Has this been done before?</p>
 
 
         
