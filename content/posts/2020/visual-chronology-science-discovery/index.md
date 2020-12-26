@@ -83,7 +83,7 @@ This visualization is backed by a spreadsheet which is [publicly viewable](https
 
 If you’re game to help, here are the necessary pieces:
 
-1. A [PDF of the second edition of Asimov’s Chronology](https://drive.google.com/file/d/190RDAxrUzu5m0d_zxQi98euIguBDb0qf/view?usp=sharing) I scanned in hopes of automating the whole process (see above).
+1. A [PDF of the second edition of Asimov’s Chronology](https://drive.google.com/file/d/1qQDnNQr6L-NGRTyID8kWGMnnVVPeCC6o/view?usp=sharing) I scanned in hopes of automating the whole process (see above).
 2. A [publicly editable spreadsheet](https://docs.google.com/spreadsheets/d/1uDeBCfcaVUfZFEK-0WJIb43dT6cqHHq9o6Uxn6PihLY/edit#gid=158368026) containing stubs for all of the inventions listed in the chronology from 1700 to 1993.
 
 Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! 
