@@ -5,8 +5,163 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-12-21T17:06:37-00:00</updated>
+  <updated>2020-12-27T11:54:48-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Article highlights of 2020</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2020/article-highlights-of-2020/"/>
+    
+    <updated>2020-12-26T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2020/article-highlights-of-2020/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>It's the most wonderful time of the year again! Following <a href="/notes/2019/article-highlights-of-2019/">last year's
+summary</a>, here were my top reads for
+2020. Last year I vowed to read fewer articles because they felt way more junky
+than books do. I haven't changed my mind on this matter, but I was compelled to
+try to understand this especially unusual year.</p>
+
+<!--more-->
+
+<h1>Education</h1>
+
+<ul>
+<li>An elite private school in Sydney, Australia, the alma mater of three prime ministers, banned laptops in 2016 and required students to handwrite essays through the tenth grade: the headmaster said the school found money spent on interactive white boards, laptops, and the associated software was a total waste. <a href="https://americanaffairsjournal.org/2019/08/rotten-stem-how-technology-corrupts-education/">Rotten STEM: How Technology Corrupts Education</a></li>
+<li><a href="https://www.vox.com/2020/1/8/21051869/indoor-air-pollution-student-achievement">Installing Air Filters in Classrooms Has Surprisingly Large Educational Benefits</a></li>
+<li>The best methods are therefore those that supply comprehensible input in low anxiety situations, containing messages that students really want to hear. These methods do not force early production in the second language. <a href="https://www.sk.com.br/sk-krash-english.html">Stephen Krashen's Theory of Second Language Acquisition</a></li>
+</ul>
+
+<h1>Invention</h1>
+
+<ul>
+<li>Consolidation. Today’s cloud and mobile companies — Amazon, Microsoft, Apple, and Google — may very well be the GM, Ford, and Chrysler of the 21st century. <a href="https://stratechery.com/2020/the-end-of-the-beginning/">The End of the Beginning</a></li>
+<li>Saul Griffith remains impressive. <a href="https://www.inc.com/magazine/20100201/saul-griffiths-house-of-cool-ideas.html">Saul Griffith's House of Cool Ideas</a></li>
+<li>What if the government bought the most valuable patents from its inventors, thus unlocking whole industries for more innovation? Main problem is how to price them. <a href="https://www.tenentrepreneurs.org/blog/innovation-eyes-on-the-prize">Innovation: Eyes on the Prize</a></li>
+<li>More and more online activity is sinking into the cozyweb (away from public internet). <a href="https://breakingsmart.substack.com/p/the-extended-internet-universe">The Extended Internet Universe</a></li>
+<li>We overestimate the impact of technological progress but underestimate the impact of cultural and social shifts. <a href="http://nautil.us/issue/65/in-plain-sight/why-futurism-has-a-cultural-blindspot-rp">Why Futurism Has a Cultural Blindspot</a></li>
+<li>Unimportant problems are often more fun to work on, and ultimately you never know how important they really are. <a href="http://yosefk.com/blog/work-on-unimportant-problems.html">Work on unimportant problems</a></li>
+</ul>
+
+<h1>Self help</h1>
+
+<ul>
+<li>A worthy goal for a year is to learn enough about a subject so that you can’t believe how ignorant you were a year earlier. <a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/">68 Bits of Unsolicited Advice</a></li>
+<li>When a difficulty comes your way, you should feel proud and excited, like “a wrestler whom God, like a trainer, has paired with a tough young buck.” <a href="https://www.newyorker.com/magazine/2016/12/19/how-to-be-a-stoic">How to Be a Stoic</a></li>
+<li>Look for smart people and hard problems. Smart people tend to clump together, and if you can find such a clump, it's probably worthwhile to join it. <a href="http://www.paulgraham.com/hs.html">What You'll Wish You'd Known</a></li>
+<li>Rationality used to be this capacious concept that included reasonableness, but no longer. <a href="https://www.vox.com/future-perfect/2020/1/20/21068423/rationality-behavioral-economics-psychology-reasonable-decisions">Is rationality overrated?</a></li>
+<li>It now feels okay to have an ordinary life, to not make big contributions, to be an ordinary person. I never felt like that before. <a href="https://edelwax.medium.com/narcissism-4c314beb39eb">Narcissism</a></li>
+<li>Leonardo da Vinci wrote: …the more minutely you describe, the more you will confuse the mind of the reader and the more you will remove him from knowledge of the thing described. Therefore it is necessary to make a drawing. <a href="https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand">The Benefits of Note-Taking by Hand</a></li>
+<li>They offer conceptual scaffolding for answering what I consider to be the most important question of our time: <em>How can we be good ancestors?</em>. By 01700 most clocks had minute hands and by 01800 second hands were standard. <a href="https://medium.com/the-long-now-foundation/six-ways-to-think-long-term-da373b3377a4">Six Ways to Think Long-term</a></li>
+</ul>
+
+<h1>Software</h1>
+
+<ul>
+<li>Google's new triumvirate: Mr. Pichai, Mr. Kent Walker, and Ms. Porat. <a href="https://www.economist.com/briefing/2020/07/30/googles-problems-are-bigger-than-just-the-antitrust-case">Google’s problems are bigger than just the antitrust case</a></li>
+<li>Maybe something has changed about the nature of innovation, at least in software. <a href="https://www.theatlantic.com/technology/archive/2020/01/why-silicon-valley-and-big-tech-dont-innovate-anymore/604969/">Silicon Valley Abandons the Culture That Made It the Envy of the World</a></li>
+<li>People are switching from Go to Rust. I haven't switched to Go yet! <a href="https://blog.discord.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f">Why Discord is switching from Go to Rust</a></li>
+<li>There certainly will be $10 billion dollar companies started within segments slow to adopt technology: legal tech, construction, agriculture, and mining are all prime candidates for massive new technology entrants. <a href="https://luttig.substack.com/p/when-tailwinds-vanish">When Tailwinds Vanish</a></li>
+<li>A deep look into Clubhouse, with lots of interesting hot takes. <a href="https://divinations.substack.com/p/inside-the-clubhouse">Inside the Clubhouse</a></li>
+<li>Proximity Chat: you have an avatar or icon that can move around a virtual space. There are two broad metaphors behind proximity chat platforms: table-based and map-based. <a href="https://www.wired.com/story/zoom-parties-proximity-chat/">A Mission to Make Virtual Parties Actually Fun</a></li>
+<li>Because information is formless, the metaphors we use to describe it are particularly powerful: a highway, cyber-space, surfing. <a href="https://www.theverge.com/2014/8/20/6046003/a-history-of-metaphors-for-the-internet">A History of Metaphors for the Internet</a></li>
+<li>We were spoiled by the old, weird Google that did things like Books because they could, throwing it in the teeth of the publishers, or Wave, an experiment in interactivity that in many ways is still ahead of its time. They did things because they hadn’t been done. <a href="https://techcrunch.com/2020/11/11/rip-google-music-one-of-the-companys-last-examples-of-generosity/">RIP Google Music</a></li>
+<li>Should you join a big company or start a startup? This frequently debated question paints a picture of a world where the only choice is between being a cog at a giant semi-monopoly, or taking investment money in the hopes of one day growing to be head cog at a giant semi-monopoly. <a href="https://scattered-thoughts.net/writing/small-tech/">Small tech</a></li>
+</ul>
+
+<h1>Culture</h1>
+
+<ul>
+<li>Half of single adults – and a majority of single women – are not on the dating market <a href="https://www.pewsocialtrends.org/2020/08/20/nearly-half-of-u-s-adults-say-dating-has-gotten-harder-for-most-people-in-the-last-10-years/">Nearly Half of U.S. Adults Say Dating Has Gotten Harder for Most People in the Last 10 Years</a></li>
+<li>Why don't science fiction and fantasy take root in Israeli soil? Maybe it's because tying SF to the Torah would lead to becoming a mini Salman Rushdie. Maybe it's because Israel first appeared in a work of fantasy - The Jewish State by Herzl. <a href="https://www.haaretz.com/1.5472801">Never-never land</a></li>
+<li>The personal lives of science fiction writers. Isaac Asimov died of AIDS, and Arthur C. Clarke was gay. Three rules and you're out. <a href="https://www.theatlantic.com/culture/archive/2020/01/isaac-asimovs-throwback-literary-legacy/605815/">Isaac Asimov’s Throwback Vision of the Future</a></li>
+<li>From most quarters of Japan there emanates a vaguely-defined, yet distinct fear and loathing of the internet (c. 2009, likely obsolete) <a href="http://neojaponisme.com/2009/05/19/the-fear-of-the-internet/">The Fear... of the Internet</a></li>
+<li>Kvitko, on the other hand — like many of his compatriots — sketches portraits of children with absent or incompetent parents. They must overcome this deficiency by falling back on their own internal resources as well as those of the Soviet state, the ultimate dispenser of care and guidance. <a href="https://www.jewishbookcouncil.org/pb-daily/papa-stalin-and-the-happy-family">Papa Stalin and the Happy Family</a></li>
+<li>I, like Gibson, have absolutely no idea what the physical world will be like in sixty years. <a href="https://www.newyorker.com/magazine/2019/12/16/how-william-gibson-keeps-his-science-fiction-real">How William Gibson Keeps His Science Fiction Real</a></li>
+<li>I learned a lot about bears. <a href="https://www.grizzlytimes.org/single-post/2018/12/18/Bear-Dreaming-Of-Wonder-in-Winter">Bear Dreaming: Of Wonder in Winter</a></li>
+<li>I am trying to be a good novelist, and hoping that people will forgive me for being a bad correspondent. <a href="https://www.nealstephenson.com/why-i-am-a-bad-correspondent.html">Neal Stephenson - Why I Am a Bad Correspondent</a></li>
+<li>Some $40 bottles of Okanagan cabernet sauvignon have sold for nearly $1,000 in China. <a href="https://www.nytimes.com/2020/09/19/world/canada/british-columbia-wine-Okanagan-Valley.html">Canada’s Napa Valley Seeks Elusive Audience: Canadian Wine Drinkers</a></li>
+<li>This value is known as 公德心: in Mandarin, gongdexin; in Japanese, kootokushin; in Korean, kongdkshim; and in English, public-spiritedness. <a href="https://news.mit.edu/2020/meanings-face-masks-emma-teng-0819">Historian Emma Teng on Face Masks</a></li>
+</ul>
+
+<h1>Medicine</h1>
+
+<ul>
+<li>It was thought to be caused by noxious air — “malaria”, for example, literally means “bad air". <a href="https://antonhowes.substack.com/p/age-of-invention-a-breath-of-fresh">Age of Invention: A Breath of Fresh Air</a></li>
+<li>The typical development time for a vaccine against a new disease is over five years. We've done really well this time around. <a href="https://www.gatesnotes.com/Health/Pandemic-Innovation">The first modern pandemic</a></li>
+<li>We must immediately begin random sampling of the population using both PCR testing that tells up about active infections and antibody tests that informs about who has been infected in the past. <a href="https://cliffmass.blogspot.com/2020/04/flying-blind-on-coronavirus-why-random.html">Flying Blind on Coronavirus: Why Random Testing is so Important</a></li>
+<li>Rick bought his own qPCR machine and thinks that this is the future of biotech. He may well be right! <a href="https://medium.com/@RickByers/the-dawn-of-personal-biotech-cb0af0d52e4c">The dawn of personal biotech</a></li>
+<li>Countries have two options: either they fight it hard now or they will suffer a massive epidemic. (May 28) <a href="https://tomaspueyo.medium.com/coronavirus-the-hammer-and-the-dance-be9337092b56">Coronavirus: The Hammer and the Dance</a></li>
+<li>Many health experts, including the surgeon general of the United States, told the public simultaneously that masks weren’t necessary for protecting the general public and that health care workers needed the dwindling supply. <a href="https://www.nytimes.com/2020/03/17/opinion/coronavirus-face-masks.html">Why Telling People They Don’t Need Masks Backfired</a></li>
+<li>You can apparently saturate an entire city with Tamiflu if the entire city had the bird flu. <a href="https://www.economist.com/open-future/2020/04/04/how-society-can-overcome-covid-19">How society can overcome covid-19</a></li>
+<li>The plague resurfaced roughly every 20 years from 1348 to 1665. 40 outbreaks in 300 years! And many more crazy pandemic stories. <a href="https://www.history.com/news/pandemics-end-plague-cholera-black-death-smallpox">How 5 of History's Worst Pandemics Finally Ended</a></li>
+<li>But the warnings of thoughtful shutdown skeptics warrant careful study, not stigma rooted in the false pretense that they don’t have any plausible concerns or value human life. <a href="https://www.theatlantic.com/ideas/archive/2020/05/take-shutdown-skeptics-seriously/611419/">Take the Shutdown Skeptics Seriously</a></li>
+<li>The obliteration of all microbes as often and aggressively as possible is not always appropriate. As with any medicine, more does not mean better. Not enough time to shower? Washing underarms, groin, and feet may actually be healthier. <a href="https://www.theatlantic.com/magazine/archive/2020/07/hygiene-is-overrated/612235/">You’re Showering Too Much</a></li>
+</ul>
+
+<h1>Sustainability</h1>
+
+<ul>
+<li>Fire professionals should be considering ecology and picking their fights: letting fires that pose little risk burn through the stockpiles of fuels. Yet that’s not the mission. <a href="https://www.propublica.org/article/they-know-how-to-prevent-megafires-why-wont-anybody-listen">They Know How to Prevent Megafires. Why Won’t Anybody Listen?</a></li>
+<li>Someone built a wall out of many different types of stone to see how well each material stands the test of time. <a href="https://www.nist.gov/blogs/taking-measure/test-time-nists-wall-many-stones">The Test of Time: NIST’s Wall of Many Stones</a></li>
+<li>Fixating on a future long beyond the lives of our great-great-great-grandchildren might be as defeatist as worrying about apocalypse with every little advance made by human societies. <a href="https://slate.com/technology/2020/01/doomsday-clock-10000-year-long-now.html">A Tale of Two Clocks: Doomsday vs. the Long Now</a></li>
+<li>On building an app for friends and family, with no greater ambitions. <a href="https://www.robinsloan.com/notes/home-cooked-app/">An app can be a home-cooked meal</a></li>
+<li>An inspiring position paper from Ink &amp; Switch about owning your own data and storing it locally rather than on someone's cloud. <a href="https://www.inkandswitch.com/local-first.html">Local-first software</a></li>
+<li>Back in 2008, a Bank of Korea report found that of 5,586 companies older than 200 years in 41 countries, 56% of them were in Japan. <a href="https://www.bbc.com/worklife/article/20200211-why-are-so-many-old-companies-in-japan">Why so many of the world’s oldest companies are in Japan</a></li>
+<li>A man chronicled his transatlantic journey as a passenger on a cargo ship, something I've dreamed of doing for years. <a href="https://www.theguardian.com/travel/2020/jan/07/cargo-ship-train-rail-to-vancouver-canada-low-carbon-travel-europe">I didn't want to fly – so I took a cargo ship from Germany to Canada</a></li>
+<li>If Zincton is approved it will take eight years to build all phases. It would become the first brand new major ski resort in BC in almost half a century. <a href="https://dailyhive.com/vancouver/zincton-mountain-village">New major ski resort proposed for BC interior</a></li>
+<li>Tree planting drones, tree planting robots, drones to map forests, and other surprising uses of advanced technology. <a href="https://www.fastcompany.com/90504789/these-drones-can-plant-40000-trees-in-a-month-by-2028-theyll-have-planted-1-billion">These Drones Will Plant 40,000 Trees in a Month. By 2028, They’ll Have Planted 1 Billion</a></li>
+<li>Only really huge declines in CO2 emissions, far greater that what is occurring during this lockdown period, will be necessary to really move the needle on global warming. <a href="https://cliffmass.blogspot.com/2020/04/is-atmospheric-co2-declining-from-covid.html">Is Atmospheric CO2 Declining From the Covid Economic Collapse?</a></li>
+<li>Tree planting can often worsen outcomes for everything from the number of bird, insect, and plant species to measures of canopy cover, tree density, and forest structure. Still haven't learned from SLAS? Nature knows best. <a href="https://www.wired.com/story/is-it-better-to-plant-trees-or-let-forests-regrow-naturally/">Is It Better to Plant Trees or Let Forests Regrow Naturally?</a></li>
+<li>Unlike all other forms of marine aquaculture, commercially grown bivalve shellfish have been identified as the only sustainable form of aquaculture that has no negative impact on the environment. <a href="https://www.eco-business.com/opinion/sustainable-shellfish-aquaculture/">Sustainable Shellfish Aquaculture</a></li>
+</ul>
+
+<h1>Economics</h1>
+
+<ul>
+<li>Seattle got rid of parking quotas and the requirement for property owners to live on site, and now allows two ADUs. <a href="https://www.sightline.org/2019/07/01/seattle-approves-best-backyard-cottages-rules-united-states/">Seattle Says Yes to the Best Rules in America for Backyard Cottages</a></li>
+<li>Keynes once proposed that we could jump-start an economy by paying half the unemployed people to dig holes and the other half to fill them in. <a href="https://locusmag.com/2020/07/cory-doctorow-full-employment/">Cory Doctorow: Full Employment</a></li>
+<li>Open borders and mass immigration are a victory for the bosses. Andrew Carnegie in 1886 compared immigration to “a golden stream which flows into the country each year”. Interesting ITT-worthy material. <a href="http://peterturchin.com/cliodynamica/the-left-case-against-open-borders/">The Left Case against Open Borders</a></li>
+<li>Airlines got a bailout. Parents are on their own. <a href="https://www.nytimes.com/2020/06/29/opinion/coronavirus-school-reopening.html">Remote School Is a Nightmare. Few in Power Care</a></li>
+<li>Really old money. <a href="https://qz.com/694340/the-richest-families-in-florence-in-1427-are-still-the-richest-families-in-florence/">The richest families in Florence in 1427 are still the richest families in Florence</a></li>
+<li>Supply chain resilience is underrated. TSMC is still dependent on a single Dutch supplier for its advanced lithography systems. That supplier, ASML, is in turn dependent on a single factory in Germany for its optical engine. <a href="https://sloanreview.mit.edu/article/is-it-time-to-rethink-globalized-supply-chains/">Is It Time to Rethink Globalized Supply Chains?</a></li>
+<li>What the U.S. really needs to do is reconstitute its communities of engineering practice. That will require treating manufacturing work, even in low-margin goods, as fundamentally valuable <a href="https://www.bloomberg.com/opinion/articles/2020-05-07/why-american-manufacturing-can-t-handle-the-coronavirus">Why America Can Make Semiconductors but Not Swabs</a></li>
+<li>People with limited understanding of business think that business is all about making profits. But those who actually run businesses know that running a business is all about managing cash flows. <a href="https://commoncog.com/blog/cash-flow-games/">The Games People Play With Cash Flow</a></li>
+<li>I know the real San Francisco, and I know that its underlying issues do not differ dramatically from the problems facing the other rest of America or any other corner in our hyper-capitalistic planet. <a href="https://om.co/2020/11/24/on-not-leaving-san-francisco/">On Not Leaving San Francisco</a></li>
+<li>Relative cost per mile of tunnel around the world. NYC: $2B, Other US &amp; Australia: $750M, Europe &amp; Mid-east: $350M, Asia: $150M. <a href="https://tunnelingonline.com/why-tunnels-in-the-us-cost-much-more-than-anywhere-else-in-the-world/">Why Tunnels in the US Cost Much More Than Anywhere Else in the World</a></li>
+<li>Why do companies so often cling to having general managers in charge of business units? At Apple, vice presidents are in charge of functions, not products. <a href="https://hbr.org/2020/11/how-apple-is-organized-for-innovation">How Apple Is Organized for Innovation</a></li>
+<li>Understanding where our modern standard of living comes from, at a basic level, is a responsibility of every citizen in an industrial civilization. <a href="https://rootsofprogress.org/industrial-literacy">Industrial Literacy</a></li>
+<li>The real unemployment rate (U-6) is a broader definition of unemployment than the official unemployment rate (U-3). In June 2020, it was 18%. It's down from the 22.8% rate in April. That's almost as bad as the 25% rate during the Great Depression. <a href="https://www.thebalance.com/what-is-the-real-unemployment-rate-3306198">What Is the Real Unemployment Rate?</a></li>
+</ul>
+
+<h1>Politics</h1>
+
+<ul>
+<li>Behind the bluster and rhetoric of populist discourse there lies a deeper emotion: resentment. <a href="https://foreignpolicy.com/2019/09/18/the-west-has-a-resentment-epidemic-populism/">The West Has a Resentment Epidemic</a></li>
+<li>For Warren, the problem with modern American capitalism is that it is not nearly capitalist enough. It has been captured by special interests, which are strangling competition. <a href="https://foreignpolicy.com/2019/12/12/elizabeth-socialist-understand-capitalism-pro-market-leftist/">Socialists Will Never Understand Elizabeth Warren</a></li>
+<li>Unfortunately, the problem of nuclear arms is still very serious today. <a href="https://www.japantimes.co.jp/opinion/2006/04/21/commentary/world-commentary/turning-point-at-chernobyl/">Turning point at Chernobyl by Gorbachev</a></li>
+<li>One in five Millennials thinks the Communist Manifesto better “guarantees freedom and equality” than the Declaration of Independence and thinks society would be better off if the government abolished private property; one in six thinks the world would be better off if the Soviet Union were still around. <a href="https://www.theatlantic.com/ideas/archive/2020/03/youngs-dont-care-about-ussr/607249/">Young People Don’t Care About the U.S.S.R.</a></li>
+<li>Richard Rorty cautioned the left to not accidentally the whole system, and for the "reformist left" to remain within the framework of constitutional democracy. <a href="https://www.vox.com/policy-and-politics/2017/2/9/14543938/donald-trump-richard-rorty-election-liberalism-conservatives">Richard Rorty’s prescient warnings for the American left</a></li>
+<li>The goal of disinformation is not to dominate the informational space but to dilute it. “Flood the zone with shit,” was Steve Bannon’s infamous advice for dealing with the media. <a href="https://foreignpolicy.com/2020/04/21/democracies-disinformation-russia-china-homegrown/">Democracies Can’t Blame Putin for Their Disinformation Problem</a></li>
+<li>The roles of warrior cop, traffic patroller, tax collector, and counselor are hopelessly intertwined. <a href="https://www.theatlantic.com/ideas/archive/2020/06/unbundle-police/612913/">Unbundle the Police</a></li>
+<li>If you are not doing “antiracist work” you are ipso facto a racist. A terrifying sentiment. <a href="https://nymag.com/intelligencer/2020/06/andrew-sullivan-is-there-still-room-for-debate.html">Is There Still Room for Debate?</a></li>
+<li><a href="https://www.technologyreview.com/2020/07/15/1004950/how-to-talk-to-conspiracy-theorists-and-still-be-kind/">How to talk to conspiracy theorists—and still be kind</a></li>
+<li>Gentry classes are generally hereditary, and the Americans are no exception. Example: a single family owning seventeen McDonald’s franchises in eastern Tennessee, or enrich themselves from ownership of the third-biggest construction company in Bakersfield. <a href="https://patrickwyman.substack.com/p/american-gentry">American Gentry</a></li>
+<li>Trump improved over his 2016 performance among Black women (+4 percentage points), Black men (+5), Latinas (+3) and Latinos (+4).” A third of Latino men, and a quarter of Latino women, picked Trump. Trump’s support was up among Asians and Muslims, and apparently doubled among self-identified LGBT voters. <a href="https://quillette.com/2020/11/09/america-has-serious-problems-its-time-to-stop-blaming-them-on-trumpism/">America Has Serious Problems. It’s Time to Stop Blaming Them on ‘Trumpism’</a></li>
+<li>The composition of Trump’s followers, with a large minority of Latino voters and a nontrivial number of Black voters, makes their motivations more various and complicated than just racism. <a href="https://www.theatlantic.com/ideas/archive/2020/11/theres-no-escaping-who-we-have-become/616992/">Face the Bitter Truth</a></li>
+<li>The problem is that neither side has shown any willingness or understanding to solve the structural problems that have brought about the current revolutionary situation. <a href="http://peterturchin.com/cliodynamica/america-in-november-2020-a-structural-demographic-view-from-alpha-centauri/">Structural-Demographic View from Alpha Centauri</a></li>
+<li>The Gray Lady promulgates dumb ideas, for example, the worst caste systems in human history includes the United States alongside Nazi Germany. <a href="https://www.bariweiss.com/resignation-letter">Resignation Letter</a></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Profiles of the Future by Arthur C. Clarke</title>
@@ -4205,54 +4360,6 @@ experience at war." Interesting start.</p>
 <p>Nodding, I wondered: how disconnected am I? Why don't we go build a <a href="https://www.opensourceecology.org/">house or a
 tractor</a>, or maybe learn the answers to some
 of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>12 Rules for Life</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/12-rules-for-life"/>
-    
-    <updated>2019-01-17T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/12-rules-for-life</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>One of my rules for life is: listicles are always clickbait, even in book form.
-There is a balance to be found between order and chaos. These rules are
-Petersons take on where that balance should be. I come at this with a dislike
-for Peterson. I first heard him on a Sam Harris podcast and he came off as a
-deliberate obscutantist. Also, the pronouns debate seems like a foolish hill to
-die on. But when I. told me that he respected Peterson's ideas, I decided to
-give the book ago. Spoiler alert: I got through about a third.</p>
-
-<p>Tidbits I found interesting:</p>
-
-<ul>
-<li>Classical music is a good illustration of fat head distributions / Matthew's
-law / Price's law / Zipf's law. There are not many prominent composers and few
-of their pieces are performed on a regular basis.</li>
-<li>The Yin-yang symbol is actually about chaos and order, masculinity and
-femininity.</li>
-</ul>
-
-<p>Most of Peterson's book is super annoying. Why the emphasis on the dominance
-hierarchy? Sure it exists but is it the most fundamental thing about human
-existence? After they're also other aspects to life that may be more important?
-Peterson's is a classic zero sum framing of life, explicitly so in some places.
-Petersons take on the snake as a primordial enemy that coevolved with humans is
-a classic just so story. He ties it into Mary and Christ too, for good measure.
-It's not credible, but his ability to spin a story is impressive. </p>
-
-<p>Peterson seems to be writing for an audience of very low self-esteem men. This
-is a recipe book for escaping this rut, at worst by becoming a narcissistic
-psychopath. By rule four, I'd had my fill and decided to cut my losses.</p>
 
 
         
