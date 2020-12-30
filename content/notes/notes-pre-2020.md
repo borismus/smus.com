@@ -600,7 +600,7 @@ actively from about 2002 to about 2008. Here are some blasts from the past:
 - Wrote a few computer games, like this uninspired [tank game](http://wiki.z3.ca/ArcadeTank/), and this
   totally awesome [pong variant](http://wiki.z3.ca/Sponge/) that was played inside a sphere.
 - Discovered [second system syndrome](https://en.wikipedia.org/wiki/Second-system_effect) when trying to rewrite [a web based
-  RPG][alienation](http://wiki.z3.ca/Alienation/) I originally wrote in 2000.
+  RPG](http://wiki.z3.ca/Alienation/) I originally wrote in 2000.
 - Had some interesting, still relevant [ideas foreshadowing](http://wiki.z3.ca/GpsRpg/) Augmented
   Reality gaming.
 - Catalogued delicious Japanese food in [Vancouver](http://wiki.z3.ca/JapaneseRestaurants/).
