@@ -234,3 +234,5 @@ I’m still using Instapaper for reading online things, although in 2020, my aim
 - The Reigns mechanic requires making pragmatic choices to stay alive, not always being ideologically consistent, and working to find a way out over course of generations, slowly discovering one’s true nature and power. [https://emshort.blog/2018/01/24/reigns-her-majesty/](https://emshort.blog/2018/01/24/reigns-her-majesty/)
 - [In exploration games, to spend time in a place is to deplete it, to make it less and less interesting until there’s no longer any reason to stay. In gardening games, to spend time in a place is to enrich it.](http://mkremins.github.io/blog/gardening-games/) 
 - The intersection of Science Fiction and Religion often yields greatness. [https://urbigenous.net/library/nine\_billion\_names\_of\_god.html](https://urbigenous.net/library/nine_billion_names_of_god.html)
+
+

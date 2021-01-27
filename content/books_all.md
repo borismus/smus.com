@@ -4,6 +4,35 @@ class: split
 type: book
 
 
+Sid Meier's Memoir!
+===
+posted: January 27, 2021
+rating: yes
+cover: /assets/book-covers/sid-meier-memoir.jpg
+
+MJ recommended I pick up this book. I regret nothing. 
+
+This was a fun look into game development history, narrated by a venerable insider. I remember spending days with AK and MN playing Civ 1 in the mid-90s, and have played every game in the series since.
+
+Billed as a memoir, this book focuses on anecdotes about the games and the game industry, with Sid Meier's personal life taking the backseat. I especially enjoyed the [Nuclear Gandhi](https://en.wikipedia.org/wiki/Nuclear_Gandhi) story. It's such a colorful intersection of a funny premise, computer science, and a hoax.
+
+Sid Meier's taste for non-violent educational simulators is especially compelling, and reading about these games made me really miss them. As a kid, I think Civ sparked my interest in history and war and complex systems. But I was mainly just having a lot of fun! These days playing even one game of Civ is a heavy lift, but maybe it's worth giving Civ Revolutions a look? 
+
+What I loved most about this book was how excited I became about building games again. The intersection of games and education is extremely tricky to pull off, and I would argue that edutainment as a genre has largely failed. The holy grail is to build something that plays like a game, but whets your appetite about something insightful. This is in some sense the opposite of what explorable explanations do, which are often more interactive visualizations than games.
+
+> Anyone who tries to make a distinction between education and entertainment doesn't know the first thing about either - Marshal McLuhan
+
+One thing the book lacked was specific learnings and insights into game development. The chapter on the failed dinosaur game came closest, but I would have loved a whole book on this. Here are some final notes:
+
+**Follow your interests**: Sid Meier's games have been driven by his personal interests, at least in retrospect. 
+
+**People hate randomness**: To placate people's busted sense of randomness and overdeveloped sense of fairness, Civ Revolutions had to implement some interesting decisions: any 3:1 battle in favor of human became a guaranteed win. Too many randomly bad outcomes in a row were mitigated.
+
+**Feedback is fact**: If a player is frustrated, this is a fact. It's not just their opinion! If a game is not fun, this is a fact the developer needs to contend with.
+
+**Interesting decisions**: Many of Meier's games rely heavily on decision making. The decisions must be interesting. 'I wonder what would happen next time, if I did it differently?'
+
+
 Profiles of the Future by Arthur C. Clarke
 ===
 posted: December 18, 2020
@@ -1104,3 +1133,5 @@ Savoia describes a bunch of techniques that may be interesting to apply and riff
 - Infiltrator technique: negotiate with a store to show your prototype on their shelves for a limited time.
 
 I’ve seen focus groups and traditional user research fail in the exact way that Savoia describes: lack of skin in the game on the part of research participants.
+
+
