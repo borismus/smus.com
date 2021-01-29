@@ -5,8 +5,50 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2020-12-27T11:54:48-00:00</updated>
+  <updated>2021-01-29T12:51:05-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Sid Meier&#39;s Memoir!</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/sid-meiers-memoir"/>
+    
+    <updated>2021-01-27T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/sid-meiers-memoir</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>MJ recommended I pick up this book. I regret nothing. </p>
+
+<p>This was a fun look into game development history, narrated by a venerable insider. I remember spending days with AK and MN playing Civ 1 in the mid-90s, and have played every game in the series since.</p>
+
+<p>Billed as a memoir, this book focuses on anecdotes about the games and the game industry, with Sid Meier's personal life taking the backseat. I especially enjoyed the <a href="https://en.wikipedia.org/wiki/Nuclear_Gandhi">Nuclear Gandhi</a> story. It's such a colorful intersection of a funny premise, computer science, and a hoax.</p>
+
+<p>Sid Meier's taste for non-violent educational simulators is especially compelling, and reading about these games made me really miss them. As a kid, I think Civ sparked my interest in history and war and complex systems. But I was mainly just having a lot of fun! These days playing even one game of Civ is a heavy lift, but maybe it's worth giving Civ Revolutions a look? </p>
+
+<p>What I loved most about this book was how excited I became about building games again. The intersection of games and education is extremely tricky to pull off, and I would argue that edutainment as a genre has largely failed. The holy grail is to build something that plays like a game, but whets your appetite about something insightful. This is in some sense the opposite of what explorable explanations do, which are often more interactive visualizations than games.</p>
+
+<blockquote>
+  <p>Anyone who tries to make a distinction between education and entertainment doesn't know the first thing about either - Marshal McLuhan</p>
+</blockquote>
+
+<p>One thing the book lacked was specific learnings and insights into game development. The chapter on the failed dinosaur game came closest, but I would have loved a whole book on this. Here are some final notes:</p>
+
+<p><strong>Follow your interests</strong>: Sid Meier's games have been driven by his personal interests, at least in retrospect. </p>
+
+<p><strong>People hate randomness</strong>: To placate people's busted sense of randomness and overdeveloped sense of fairness, Civ Revolutions had to implement some interesting decisions: any 3:1 battle in favor of human became a guaranteed win. Too many randomly bad outcomes in a row were mitigated.</p>
+
+<p><strong>Feedback is fact</strong>: If a player is frustrated, this is a fact. It's not just their opinion! If a game is not fun, this is a fact the developer needs to contend with.</p>
+
+<p><strong>Interesting decisions</strong>: Many of Meier's games rely heavily on decision making. The decisions must be interesting. 'I wonder what would happen next time, if I did it differently?'</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Article highlights of 2020</title>
@@ -102,7 +144,7 @@ try to understand this especially unusual year.</p>
 <li>The obliteration of all microbes as often and aggressively as possible is not always appropriate. As with any medicine, more does not mean better. Not enough time to shower? Washing underarms, groin, and feet may actually be healthier. <a href="https://www.theatlantic.com/magazine/archive/2020/07/hygiene-is-overrated/612235/">You’re Showering Too Much</a></li>
 </ul>
 
-<h1>Sustainability</h1>
+<h1>Environment</h1>
 
 <ul>
 <li>Fire professionals should be considering ecology and picking their fights: letting fires that pose little risk burn through the stockpiles of fuels. Yet that’s not the mission. <a href="https://www.propublica.org/article/they-know-how-to-prevent-megafires-why-wont-anybody-listen">They Know How to Prevent Megafires. Why Won’t Anybody Listen?</a></li>
@@ -4268,98 +4310,6 @@ Actually no. Not on the internet.</p>
 <p>This book was a trusty reference for me when things got a bit dicey. Rather
 than reading daddy or mommy blogs (urgh), a quick look at the relevant age was
 sometimes helpful in calming the nerves. I'd recommend it to a new father.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Tribe by Sebastian Junger</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/tribe-by-sebastian-junger"/>
-    
-    <updated>2019-01-18T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/tribe-by-sebastian-junger</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Junger disparages modern western life, and has a very fond attitude towards
-traditional hunter-gatherer civilization.</p>
-
-<p>"How do you become an adult in a society that doesn’t ask for sacrifice?" he
-asks. "Modern society has perfected the art of making people not feel
-necessary," he asserts. Modernity provides affluence and safety, but it's
-incompatible with freedom and equality. It's easy to spend a day in a modern
-society while "surrounded by others and yet feel deeply, dangerously alone."
-"As affluence and urbanization rise in a society, rates of depression and suicide
-tend to go up rather than down," Junger says. Modernity is fucked, Junger says,
-without citing Rousseau. It just ain't natural. Without hardship, you don't
-really <strong>need</strong> friends.</p>
-
-<p>On the other hand, Tribal society, while not perfect, was, and let's be honest,
-pretty fucking awesome! So awesome, in fact, that "a surprising number of
-Americans—mostly men—wound up joining Indian society rather than staying in
-their own." I found this surprising, and sadly, there was no citation. You don't
-really need to be a hunter gatherer, though. You can just be from Soviet Russia
-(this resonated): "Adversity often leads people to depend more on one another,
-and that closeness can produce a kind of nostalgia for the hard times that even
-civilians are susceptible to." Junger makes the distinction between family and
-tribe explicitly: "Even if he or she is part of a family, that is not the same
-as belonging to a group that shares resources and experiences almost everything
-collectively." I thought of the compania.</p>
-
-<p>But even in shitty modernity, if the circumstances are dire enough, people can
-still come together and act tribally:</p>
-
-<ul>
-<li><p>Male Youth: "They drive too fast, get into fights, haze each other, play
-sports, join fraternities, drink too much, and gamble with their lives in a
-million idiotic ways."</p></li>
-<li><p>War: "Emile Durkheim found that when European countries went to war, suicide
-rates dropped."</p></li>
-<li><p>Disaster: "social bonds were reinforced during disasters, and that people
-overwhelmingly devoted their energies toward the good of the community rather
-than just themselves."</p></li>
-</ul>
-
-<p>In the US, soldiers risk a 20 percent chance of PTSD. "they return from wars
-that are safer than those their fathers and grandfathers fought, and yet far
-greater numbers of them wind up alienated and depressed. This is true even for
-people who didn’t experience combat." Remarkably, in Israel, "Despite decades
-of intermittent war, the Israel Defense Forces have by some measures a PTSD rate
-as low as 1 percent."</p>
-
-<p>Junger thinks that re-entry into American is so difficult because the military
-is so close-knit, while modern life is so individualistic. "Soldiers experience
-this tribal way of thinking at war, but when they come home they realize that
-the tribe they were actually fighting for wasn’t their country, it was their
-unit." Compounding the problem is the public's "thank you for your service,"
-which rings hollow and reflects a distance from the war itself. Indeed, it's
-an ocean away. Further, ever since Vietnam, much of the public has had a
-principled disagreement with America's wars.</p>
-
-<p>Junger wants to bring veterans and civilians closer together, to ease
-re-integration. "More dignified might be to offer veterans all over the country
-the use of their town hall every Veterans Day to speak freely about their
-experience at war." Interesting start.</p>
-
-<p>This struck a chord:</p>
-
-<blockquote>
-  <p>The public is often accused of being disconnected from its military, but
-  frankly it’s disconnected from just about everything. Farming, mineral
-  extraction, gas and oil production, bulk cargo transport, logging, fishing,
-  infrastructure construction—all the industries that keep the nation going are
-  mostly unacknowledged by the people who depend on them most.</p>
-</blockquote>
-
-<p>Nodding, I wondered: how disconnected am I? Why don't we go build a <a href="https://www.opensourceecology.org/">house or a
-tractor</a>, or maybe learn the answers to some
-of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></p>
 
 
         
