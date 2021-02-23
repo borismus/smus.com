@@ -26,5 +26,4 @@ and a BSc (hon) in Mathematics and Computer Science from the University of
 British Columbia. I was born in Leningrad, RSFSR, and spent my formative years
 in Vancouver, Canada.
 
-Reach me by [email](mailto:boris@smus.com) or on
-[twitter](https://twitter.com/borismus).
+Reach me by [email](mailto:boris@smus.com).
