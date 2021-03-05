@@ -30,7 +30,9 @@
     <h1 class='title'>Book: {{ post.title }}</h1>
   </a>
   {% if post.yaml.cover %}
-  <img class="book-cover" src="{{ post.yaml.cover }}"/>
+  <a href='{{ post.permalink }}'>
+    <img class="book-cover" src="{{ post.yaml.cover }}"/>
+  </a>
   {% endif %}
   <div class='subfooter'>
     <a href="{{ post.permalink }}" class="readmore">
