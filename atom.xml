@@ -5,8 +5,410 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-01-29T12:51:05-00:00</updated>
+  <updated>2021-03-04T16:56:08-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Why Greatness Cannot Be Planned</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/why-greatness-cannot-be-planned"/>
+    
+    <updated>2021-03-04T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/why-greatness-cannot-be-planned</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Another GB recommendation that I really enjoyed. It's hard to summarize this book succinctly since it is such a potpourri of different fields and ideas.</p>
+
+<h1>A different lens on Evolution</h1>
+
+<blockquote>
+  <p>Evolution is the ultimate treasure hunter, searching for nothing and finding everything</p>
+</blockquote>
+
+<p>Evolution works under a constraint: whatever it produces must survive to reproduce. "Survival of the fittest" is the most popular conception of this process but does not capture any nuance. </p>
+
+<blockquote>
+  <p>The problem with competition as a general explanation for creativity is that it usually drives towards everything converging to the best. Selection is not really a creative force: It focuses and optimizes, and ultimately restricts exploration</p>
+</blockquote>
+
+<p>Forces at play in evolution:</p>
+
+<ul>
+<li>Competition doesn't actually increase interestingness, but enforces the constraint of genetic survival.</li>
+<li>Genetic drift is the process by which frequency of alleles changes over time as a result of luck. If a given trait doesn’t affect an organism’s ability to survive or reproduce (for example, the color of an organism’s bones), then natural selection will not direct that trait in one way or another, and its evolution will instead drift. </li>
+<li>Exaptation is the process of co-option of an evolved ability to do something else. For example, feathers first evolved in dinosaurs, where they helped to regulate temperature. Only later did evolution exploit them as a stepping stone to flight. </li>
+<li>Niche finding is a way to shield an organism from competition. If an organism can make a living in a new way, then it has effectively founded its own niche. A new niche often makes founding newer niches possible, and such newer niches often lead to even newer ones.</li>
+</ul>
+
+<p>As much as I disliked <em>Finite and Infinite Games</em>, this discussion of evolution reminds me of it a bit. The only goal of an infinite game is to keep playing.</p>
+
+<p>In an interesting twist, even our human inventions can be considered an evolutionary process since they were created by us, the products of evolution.</p>
+
+<blockquote>
+  <p>The bottom line is that many of our greatest engineering aspirations—such as flight, solar power, artificial intelligence—were not the explicit objective of evolution, though it created all of them.</p>
+</blockquote>
+
+<h1>Invention and stepping stones</h1>
+
+<p>A key metaphor often used to explain non-objective search processes is that of crossing a lake using stepping stones in dense fog.</p>
+
+<blockquote>
+  <p>Because of the fog, you don’t know where either path leads. For all you know, one might lead you to a dead end while the other eventually might reach the other side of the lake. </p>
+</blockquote>
+
+<p>The dense fog is a great metaphor for <em>Bounded rationality</em>. The stepping stones are a good metaphor for the idea of the <em>Adjacent possible</em>. Each stepping stone must also be stable to support your weight as you cross, which is a great metaphor for <em>Stable intermediate forms</em>.</p>
+
+<blockquote>
+  <p>If we really behave as treasure hunters and stepping stone collectors, then the only important thing about a stepping stone is that it leads to more stepping stones, period.</p>
+</blockquote>
+
+<p>The authors make sweeping claims like the following:</p>
+
+<blockquote>
+  <p>Almost no prerequisite to any major invention was invented with that invention in mind.</p>
+</blockquote>
+
+<p><em>Profiles of the Future</em> makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen. </p>
+
+<p>Expected inventions (eg. flying machines) fall less neatly into this metaphor. They are like hills above the fog, but you can't quite figure out the path to get there. On the other hand, once you get close enough to that hill, something that was completely out of reach becomes attainable.</p>
+
+<p>This idea of invention as a process of groping for the next stone in the dense fog makes it clear that learnings from the history of science are inherently limited. Again that McLuhan quote about walking backwards into the future comes to mind.</p>
+
+<blockquote>
+  <p>Contrary to popular belief, great inventors don’t peer into the distant future. A false visionary might try to look past the horizon, but a true innovator looks nearby for the next stepping stone. The successful inventor asks where we can get from here rather than how we can get there. It’s a subtle yet profound difference. Instead of wasting effort on far-off grandiose visions, they concentrate on the edge of what’s possible today.</p>
+</blockquote>
+
+<p>This reminds me of my <em>Asimov's Tech Tree</em> project, and that I really should re-think it as follows. Consider an impactful modern invention and work backwards through all of the inventions its inventors were inspired by. Then repeat this process, creating a tree culminating in this invention. This view would serve to illustrate the many surprising new horizons that one invention enables. Examples include the way that looms and vacuum tubes lead to computers, and smartphones led to better batteries, and better batteries led to electric cars. Authors included a few other uncited example I found interesting:</p>
+
+<blockquote>
+  <p>For example, the space race yielded innovations like cochlear implants, memory foam mattresses, freeze-dried food, and improved emergency blankets.</p>
+</blockquote>
+
+<p>In many cases, the inventor is driven by a search for the interesting and novel. Art often follows this pattern too, since it is more often done for its own sake. This is a very fluid process involving a lot of gut feeling, hunches and intuition. As many inventors do this, the process compounds.</p>
+
+<blockquote>
+  <p>The important point is that novelty (and interestingness) can compound over time by continually making new things possible.</p>
+</blockquote>
+
+<h1>Picbreeder and other open-ended search applications</h1>
+
+<p>The authors rely mostly on Picbreeder, but also on other projects from their research on open-endedness to make their point, which can be boiled down to this:</p>
+
+<blockquote>
+  <p>The more troubling lesson is that objective-driven search is sometimes embarrassingly incompetent.</p>
+</blockquote>
+
+<p>They built a walking robot simulator and compared optimization to open-ended search. They found that the robot that tried to walk farther and farther actually ended up walking less far than one that simply tried to do something novel again and again. They explain it like this:</p>
+
+<blockquote>
+  <p>Falling down and kicking your legs may be a better stepping stone than trying to take a step (because kicking your legs is the foundation of oscillation, which is how walking works), but if walking is the objective, falling down is considered one of the worst things you can do.</p>
+</blockquote>
+
+<p>They built a maze solver which would take considerably longer to solve mazes that were deceptive, meaning that they had deliberate dead-ends.</p>
+
+<p>Images in <a href="http://picbreeder.org/">Picbreeder</a> are generated from a DNA-like code which can <em>mutate</em> to create a different but related images. Following the evolution analogy, visitors to the website can vote on images as a form of <em>selection</em>. </p>
+
+<p>I did something similar with <em>Evogami</em>, but with a much simpler mapping from DNA to object.</p>
+
+<p>These examples are all really neat, but all deal with very specific domains: simulated walking robots, mazes, images, simulated paper. How to go from these narrow fields to something as all-encompassing as evolution remains unclear to me.</p>
+
+<h1>Evolution tends towards complexity</h1>
+
+<p>The authors pose a good question: if single celled bacteria can do the job of reproducing, why bother creating more complex offspring?</p>
+
+<blockquote>
+  <p>all organisms begin their life as single cells and end up reproducing to create offspring who also start as single cells—and this simple strategy for reproduction is effective—what objective utility is there in doing the same thing, but in more and more complicated ways?</p>
+</blockquote>
+
+<p>By viewing evolution as an open-ended search process, you end up with complexity necessarily.</p>
+
+<blockquote>
+  <p>As Stephen Jay Gould has pointed out in evolution, once all the simple ways to live are exhausted, the only way to create a new species or niche is to become more complex</p>
+</blockquote>
+
+<h1>Strange vibes and nitpicks</h1>
+
+<blockquote>
+  <p>In a sense, over eons our bodies have become a kind of encyclopedia of facts about the universe in which they exist. Eyes represent the presence of light in the universe. Ears signify mechanical vibration. Legs are reflections of gravity, and lungs of oxygen.</p>
+</blockquote>
+
+<p>This is suspicious. Most organs in the body are pretty mysterious from this perspective. </p>
+
+<p>A lot of this book rails against <em>Perils of optimization</em> and warns about maximizing meaningless metrics, along the lines of the <em>McNamara Fallacy - choose meaningful metrics</em> and the infamous cobra breeding story associated with <em>Goodhart's law - indicators will be gamed</em>. This reminds me a lot of Illich and the <em>Two Watersheds - too much institutionalization</em> discussion.</p>
+
+<blockquote>
+  <p>You show me anything that depicts institutional progress in America: school test scores, crime stats, arrest reports, anything that a politician can run on, anything that someone can get a promotion on. And as soon as you invent that statistical category, fifty people in that institution will be at work trying to figure out a way to make it look as if progress is occurring when actually none is.</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>How to Take Smart Notes</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/how-to-take-smart-notes"/>
+    
+    <updated>2021-02-17T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/how-to-take-smart-notes</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Zettelkasten Method, In Praise of Niklas Luhmann, or Ode To The Slip-box.</p>
+
+<p>The Roam cult sprang out of a practice called Zettelkasten. I refuse to join the cult, but see great value in cross-linked note taking practice. So far my tool of choice is Obsidian, mainly because I like plaintext. This book introduces the Zettel method.</p>
+
+<blockquote>
+  <p>It is not possible to think systematically without writing - Niklas Luhmann</p>
+</blockquote>
+
+<p><strong>Tools for your own thoughts</strong>: Richard Feynman once had a visitor in his office, a historian who wanted to interview him. When he spotted Feynman’s notebooks, he said how delighted he was to see such “wonderful records of Feynman’s thinking.” “No, no!” Feynman protested. “They aren’t a record of my thinking process. They are my thinking process. I actually did the work on the paper.”</p>
+
+<p><strong>A mirror of your brain</strong>: These notes are not meant for external consumption. They are meant to be a reflection and formalization of your thoughts. As you think about a topic, your mental model of the topic evolves, as does this collection of interlinked notes. Even if your memory fades, you can return to your notes and continue where you left off.</p>
+
+<p><strong>A communication partner</strong>: The slip-box is like a well-informed but down-to-earth communication partner who keeps us grounded. The slip-box forces us to ask numerous elaborating questions: What does it mean? How does it connect to … ? What is the difference between … ? What is it similar to?</p>
+
+<p><strong>Integrate seemingly unrelated sources</strong>: This is especially powerful as a way to integrate learnings from multiple sources into one place. "When we turn to the slip-box, its inner connectedness will not just provide us with isolated facts, but with lines of developed thoughts." Read with an eye towards possible connections in the slip-box.</p>
+
+<p><strong>Same format, same place</strong>: Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later. No underlined sentence will ever present itself when you need it in the development of an argument. Write brief accounts on the main ideas of a text instead of collecting quotes. </p>
+
+<p><strong>Keep notes short</strong>: By restricting ourselves to one format, we also restrict ourselves to just one idea per note and force ourselves to be as precise and brief as possible. A good rule of thumb for working with the program is: Each note should fit onto the screen and there should be no need of scrolling. This will also allow for more ready interconnections.</p>
+
+<p><strong>Avoid premature linearization</strong>: ‘Have the courage to use your own understanding,’ is therefore the motto of the Enlightenment.” Prearranging information, sorting it into modules, categories and themes achieves the opposite of what teachers intend to do. The linear process promoted by most study guides, which insanely starts with the decision on the hypothesis or the topic to write about, is a sure-fire way to let confirmation bias run rampant. </p>
+
+<p><strong>Feedback loops emerge</strong>: The addition of one note leads to a correction, a complementation or an improvement of old ideas. The great new idea you are about to add to the slip-box turns out to be already in there. Even worse, chances are this idea wasn’t even yours, but someone else’s. It is such an important skill to see differences between seemingly similar concepts, or connections between seemingly different ideas.</p>
+
+<p><strong>Take it slow</strong>: it takes time to evolve any idea, and this is another benefit of the slip-box. Related to <em>Slow hunch</em>. Taking smart notes, we collect en passant the material for our future writings in one place.</p>
+
+<p><strong>Work on many ideas in parallel</strong>: Another key point: Try working on different manuscripts at the same time. While the slip-box is already helpful to get one project done, its real strength comes into play when we start working on multiple projects at the same time.</p>
+
+<p><strong>Don't force a direction</strong>: Luhmann’s answer to the question of how one person could be so productive was that he never forced himself to do anything and only did what came easily to him. It is like martial arts: If you encounter resistance or an opposing force, you should not push against it, but redirect it towards another productive goal. The slip-box will always provide you with multiple possibilities.</p>
+
+<p><strong>Publishing by finding a path in the graph</strong>: once you have this densely linked note cloud, and you want to cobble together an idea for others to consume, you weave a path through your graph and create a linear narrative. "We extract information from different linear sources and mix it all up and shake it until new patterns emerge. Then, we form these patterns into new linear texts."</p>
+
+<p>Three kinds of notes:</p>
+
+<ol>
+<li>Temporary notes: which are designed to be processed and converted into something more permanent.</li>
+<li>Permanent notes: (aka Matuschak's Evergreen Notes) contain the necessary information in themselves in a permanently understandable way.</li>
+<li>Project notes: project specific, should theoretically be kept in a separate place.</li>
+</ol>
+
+<p>General reasons for keeping notes:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">We can hold a maximum of seven things in our head at the same time, plus/minus two.</a></li>
+<li>Zeigarnik effect</li>
+<li>Charles Darwin forced himself to write down (and therefore elaborate on) the arguments that were the most critical of his theories.</li>
+<li>Feynman once said that he could only determine whether he understood something if he could give an introductory lecture on it. Reading with a pen in your hand is the small-scale equivalent of a lecture.</li>
+</ul>
+
+<blockquote>
+  <p>“On one hand, those with wandering, defocused, childlike minds seem to be the most creative; on the other, it seems to be analysis and application that’s important. The answer to this conundrum is that creative people need both … The key to creativity is being able to switch between a wide-open, playful mind and a narrow analytical frame.” - Jeremy Dean</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Thinking in Systems: A Primer</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/thinking-in-systems-a-primer"/>
+    
+    <updated>2021-02-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/thinking-in-systems-a-primer</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Thanks to a book club at work, I finally read this legendary book.</p>
+
+<p>A system is a set of entities interconnected to produce behavior over time in response to external events. For example, a slinky's behavior lies within the slinky itself. </p>
+
+<p>Modernist thinking tends to like simple causal connections. However reality is complex. Systems thinking is an interesting and valuable lens that complements high modernism. </p>
+
+<p>One way of looking at systems thinking is as a formalization of folk wisdom:</p>
+
+<ul>
+<li>a stitch in time saves nine</li>
+<li>the rich get richer, the poor get poorer</li>
+<li>don't put all of your eggs in one basket</li>
+</ul>
+
+<h1>What are systems?</h1>
+
+<p>Systems have:</p>
+
+<ul>
+<li>discrete parts</li>
+<li>parts that interact with one another</li>
+<li>parts which together produce an effect that is different than each interaction</li>
+</ul>
+
+<p>“You think that because you understand “one” that you must therefore understand “two” because one and one make two. But you forget that you must also understand “and.” - Sufi teaching story</p>
+
+<p>System components in order of importance:</p>
+
+<ul>
+<li>purpose / function</li>
+<li>interconnections </li>
+<li>elements (often interchangeable, eg. employees)</li>
+</ul>
+
+<p>Systems are composed of stocks and of flows. Stocks are the amount of a thing. Flows are the increases or decreases of said thing. Think of a bathtub with a faucet and a drain. The water in the bathtub is the stock. The faucet is the flow of water in. The drain is the flow of water out. Flows can change quickly: you can shut on and off the faucet, plug the drain. Stocks change slowly and act as buffers: even if you open the drain completely, it will still take a minute for the water to vanish.</p>
+
+<p>Types of feedback loops:</p>
+
+<ul>
+<li>Amplifying feedback loop: the more stock there is, the higher the flow.</li>
+<li>Balancing feedback loop: attempts to move stock to a desired state.</li>
+</ul>
+
+<p>Real world systems are affected by multiple feedback loops simultaneously.</p>
+
+<h1>One stock systems</h1>
+
+<h2>Two balancing loops (eg. Thermostat)</h2>
+
+<p>Stock: temperature.
+1. Balancing 1: Exterior temperature cools the room to be the same temperature as outside, flow is tempered by insulation, air gaps, etc.
+2. Balancing 2: Heater warms the room until it is the temperature set on the thermostat.</p>
+
+<h2>One amplifying and one balancing loop (eg. Population Growth)</h2>
+
+<p>Stock: population.
+1. Amplifying: the more people there are, the more people are born. 
+2. Balancing: people don't live forever. There's a death rate.</p>
+
+<p>Ultimate behavior will depend on which of the two dominates. If reinforcing dominates, end up with exponential growth. Many other examples like this, such as capital growth, where the more capital you have, the more you can make, but there's also depreciation costs.</p>
+
+<h1>Two stock systems</h1>
+
+<h2>Renewable stock constrained by non-renewable stock  (eg. Coal Mining)</h2>
+
+<p>Stock 1: Capital.
+1. Amplifying: the more capital, the more ability to build coal mines.
+2. Balancing: the more coal mines, the more upkeep for these mines.</p>
+
+<p>Stock 2: Coal.
+1. Balancing: as the coal mine depletes, it becomes harder to extract the last bits of coal. </p>
+
+<h2>Renewable stock backed by renewable resource (eg. Fishing)</h2>
+
+<p>Stock 1: Capital.
+1. Amplifying: the more capital, the more ability to build coal mines.
+2. Balancing: the more coal mines, the more upkeep for these mines.</p>
+
+<p>Stock 2: Fish.
+1. Amplifying: the more fish there are, the more fish are born.
+2. Balancing: as the population dwindles, it becomes harder to find the last fish. </p>
+
+<h1>Great insights</h1>
+
+<p><strong>Constrained by stocks vs. flows</strong>: non-renewable resources are constrained by stocks. Renewable resources are constrained by flows. </p>
+
+<p><strong>Stocks act as buffers</strong>: rivers often flood because flow &gt;&gt; stock. Lakes rarely do because flow &lt;&lt; stock. </p>
+
+<p><strong>Delays really matter</strong> in reality many of these loops are driven by information that is delayed. This results in oscillations.</p>
+
+<p><strong>Stable intermediate forms</strong>: another important concept.  Hierarchies mean that there are independent sub-systems which are independently stable. This enables a rise in complexity. </p>
+
+<p><strong>Limiting factors</strong> are an intuitive but important idea. A systems is affected by the stock that is in least supply. As a system grows, the most limiting stock may change. </p>
+
+<p><strong>Resilience involves many balancing loops</strong>, most of which are inactive most of the time. Example: under normal circumstances, you don't sweat or shiver. But without these abilities you would be far less resilient.</p>
+
+<p><strong>Dominant loops</strong> complex systems are made of multiple feedback loops, and which loop dominates the others makes a big difference. For example, in a population grouwth system, if the amplifying loop dominates, the population will grow exponentially, but if the balancing loop dominates, it will shrink.</p>
+
+<h1>Stray thoughts</h1>
+
+<p>Firstly, what a great collection of insights! But to call it a coherent book is a bit generous. I feel like it's not well structured, and found myself picking out nuggets rather than being swept away by a coherent narrative.</p>
+
+<p>It’s hard to understand as an audio book. Need visual and ideally interactive diagrams. </p>
+
+<p>Systems thinking is a great technique for CEOs, businessmen, macroeconomists. It's less clear how a pleb like me might apply it. But it's still interesting!</p>
+
+<p>It would be worthwhile to contrast the causal diagrams of the sort Judea Pearl champions with these systems feedback loop diagrams.</p>
+
+<blockquote>
+  <p>Praise ignorance, for what man has not encountered he has not destroyed. - Wendell Berry</p>
+</blockquote>
+
+<h1>Traps and remedies</h1>
+
+<p>Systems have common failure modes. Here are some of the ones I found novel. The remedies are often easier said than done.</p>
+
+<p><strong>Policy resistance</strong>. many actors are all invested in an equilibrium involving one stock. Each pulls the supply up and down to their own benefit. Everyone exerts a lot of effort but achieves little. 
+Remedy: let go. Find another thing all parties can agree on. </p>
+
+<p><strong>Tragedy of the commons</strong>, a common resource or sink is overused by each user, leading to ultimate ruin because of erosion effects. The term was coined much later than I thought: in 1968. 
+Remedy: either apply pressure appealing to morality/decency/religion, split and privatize the commons, or impose penalties for overuse.  </p>
+
+<p><strong>Drift to low performance</strong>, a gradual degradation in quality because of a moving performance goal. If quality is under the bar, the bar is set lower, often excused by sentiment like "it's not that much worse than last year", etc.
+Remedy: Keep performance standards absolute. Even better, let standards be enhanced by the best actual performances instead of being discouraged by the worst. Invert the pattern and set up a drift toward high performance.</p>
+
+<p><strong>Escalation</strong>. Cycles of violence in conflicts between countries. Negative political ad campaigns that render both candidates unpalatable.
+Remedy: disarmament. This can be unilateral or mutually agreed upon, but the latter requires mediation. </p>
+
+<p><strong>Success to the successful</strong> is a common situation. The more money you have, the more of it you can make through investments, etc. 
+Remedy: Jubilee? Potlatch? Antitrust laws? Estate taxes?</p>
+
+<p><strong>Dependence</strong>, including personal addiction, but many other things. Societal dependence on institutions like healthcare, etc. 
+Remedy: focus on long-term restructuring rather than short-term relief.</p>
+
+<p><strong>Rule beating</strong>. Example: spending all available budget just to ensure that next years isn’t reduced. Example: only slowing down if there's a police car nearby.
+Remedy: redesign the rules!</p>
+
+<p><strong>Wrong goal</strong>, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of <em>McNamara Fallacy</em>
+Remedy: </p>
+
+<h1>Leverage points</h1>
+
+<p>Most attributes of the system are effectively immutable. Structure of the flows is often physical. Delays are often unavoidable. Information flows in feedback systems are where most leverage lies.  </p>
+
+<p>Unbridled growth with an amplifying loop is rare because such systems quickly lead to either:
+- Exhaustion of resources (eg. No more bodies to infect)
+- Balancing loop dominates (eg. Greater precautions and PPE)</p>
+
+<p><strong>Slowing growth may bring stability to a system</strong>. Reminds me of <a href="https://twitter.com/hundredrabbits/status/1357764199015849984">this tweet</a>:</p>
+
+<blockquote>
+  <p>For every hundred people telling us to "just install more solar panels", only one person will consider ways to reduce power usage.</p>
+</blockquote>
+
+<p><strong>Make invisible information visible</strong>. During the oil embargo in 1970, the Dutch began to pay attention to power consumption. Some houses mysteriously seemed to use 30% less power than others. The difference was in location of the power meter. Those with low power usage had meter in the lobby. Others had the meter in the basement.</p>
+
+<p><strong>Re-write the rules</strong>. Interventions into the system's rules are very effective. This explains why lobbyists are powerful. </p>
+
+<p><strong>Encourage self organization</strong>: allowing a system to self organize is extremely powerful. But this may lead to unknown conclusions, so is not well loved by those in power. </p>
+
+<p><strong>Goals matter</strong>. What is the ultimate goal of the system? What’s the goal of goog? What’s the priority order of many competing goals? Sometimes a leader can do this. Hitler profoundly changed the goals of Germany in the 1930s. Reagan changed the American ethos from “Ask not what your country can do for you – ask what you can do for your country.” to “Government is not the solution to our problem, government is the problem.”</p>
+
+<blockquote>
+  <p>“If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.” - St Exupery</p>
+</blockquote>
+
+<p><strong>Paradigm shifts and meta paradigm awareness</strong>. We live in a world with many unstated assumptions, hidden goals, biases. Changing these is the higest leverage point.</p>
+
+<blockquote>
+  <p>There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning, boys. How’s the water?” And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, “What the hell is water?”</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Sid Meier&#39;s Memoir!</title>
@@ -3954,362 +4356,6 @@ Perinthia gradually turn into by monsters):</p>
   describe the heavens, or else they must reveal that the order of the gods is
   reflected exactly in the city of monsters.</p>
 </blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Story of Medieval England (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-story-of-medieval-england-audio"/>
-    
-    <updated>2019-02-19T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-story-of-medieval-england-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>In the grand scheme of things, the western world today is pretty great. To what
-do we owe its prosperity? I got curious about this and realized that the answer
-probably lies in the broader traditions of the anglosphere. I'd heard of the
-Magna Carta, and even seen it, but what was the big deal? Anyway, in my quest to
-understand, I came across this great series of lectures covering English history
-from around the 9th to the 15th century. Paxton does a great job of bringing
-life to what I've felt to be an often dry and confusing time and place. The
-narrative is mostly chronological, but once in a while, she pauses and explores
-an area in depth to great effect. I enjoyed the many cross-references the
-lecturer made throughout the lecture, her etymological diversions, and lively
-depictions of heroes and villans, and also references to popular culture (movies
-mostly).</p>
-
-<h2>English chronology, roughly speaking 900 - 1500</h2>
-
-<p>(Imagine reading these in the style of Drunk History, I think it works best)</p>
-
-<p>In the 8th century, England was split into seven kingdoms, each with its own
-local lords. These kingdoms were loosely organized into counties called Shires,
-each overseen by a Sheriff. This structure was originally military in nature,
-each shire producing some quota of soldiers to fight on behalf of the local
-lord. During this period, England was plagued by Danish invaders. Eventually,
-all but Wessex came under Danish control, until the ruler of Wessex, Alfred the
-Great, pushed back against the Danes and reconquered all of England. This didn't
-last long though, and eventually the Danish and previous residents of England
-melded into one people. However this was a troubled time, full of chaos and
-internal strife and a lack of central control over the country. (TV show to
-watch: The Last Kingdom)</p>
-
-<p><strong>William the Conqueror</strong> was a Norman (ie. descended from Norwegians who had
-conquered and settled in the north of France). After a series of failed kings,
-England's succession was unclear. William crossed the channel and burned farms,
-cutting off the food supply to London, and sieging it. Eventually William
-controlled both Normandy and England. He effectively suppressed rebellion and
-got the nobles on his side. English society eventually subsumed Norman culture.</p>
-
-<p>William's succession story is very colorful. Upon his gruesome death, his eldest
-son took England, while his middle son took Normandy. The eldest went on the
-first crusade, leaving England on lease to his brother. Meanwhile, Henry, the
-youngest of the three, got nothing. After his middle brother died in a hunting
-accident, Henry came to control both Normandy and England. Upon his return from
-crusade, Henry imprisoned his oldest brother for the rest of his life (30
-years?!). As king, <strong>Henry I</strong> made many changes, instituted the exchequer post
-and appointed officials based on merit rather than birth.</p>
-
-<p>Henry I's only son drowned in a drunken boat party. In his stead, Henry I
-favored his daughter Matilda who was married off to the Holy Roman Emperor. But
-queens weren't exactly a thing yet, so a succession dispute led to **King
-Steven** coming to power. Steven was and not a very kingly man, and not a very
-effective king. Anarchy and a civil war in erupted in England over Steven's
-legitimacy, with Matilda's vying to get Henry, her son from her second
-marriage onto the throne. </p>
-
-<p>Eventually she succeeded, and <strong>Henry II</strong>'s reign was focused on mending the
-damage done by the civil war, reuniting England and Normandy, and restoring it
-to grandpa William's glory. Henry II married Eleanor of Acquitaine, further
-expanding his empire into France. Sadly his reign was undone by a conflict with
-Thomas Beckett, formerly his right hand man, but now the archbishop of
-Canterbury. When he had Beckett killed for disobedience, he became deeply
-unpopular and Becket was canonized as a saint. (Movie: Beckett)</p>
-
-<p>Henry II was succeeded by his son Richard I, know as <strong>Richard the Lionheart</strong>.
-He was extremely popular for his military prowess, as well as patronage of arts
-and literature, especially the new genre of Legends of King Arthur, and Courtly
-Love. He went on the third pilgrimage, by which point Saladin had already
-reconquered Jerusalem. But Richard succeeded in defeating Saladin at Acco, which
-remained European controlled for a century. </p>
-
-<p>Upon Richard's death, he was succeeded by brother John. <strong>King John</strong> was not a
-good king, cruel, and petulant. John managed to lose all of England's holdings
-in France. He alienated his barons to such a degree that many of them banded
-together to impose a great charter (Magna Carta) on John, designed to curtail
-his power. This included trial by a jury of peers, and also no extraordinary
-taxation without cause. John got Pope Innocent to repudiate the Magna Carta. and
-eventually many English lords sided with the French, backing prince Louis as the
-English king. John's son Henry succeeded him, and managed to best Louis and
-win support of the English nobles with the help of William Marshall. </p>
-
-<p>Under <strong>Henry III</strong>, the baronial conflicts continued. The Magna Carta was
-reinstated, but still Henry III and his barons had many disagreements.
-Especially on the foreign policy front, Henry III had many strange and foolish
-ideas, attempting to reconquer Poitu in France, to place his brother on the
-Sicilian throne, and to prevent lords from going on crusade. Every time the king
-asked for a concession, the barons would trade it for more political power.
-Eventually this led to the Treaty of Oxford, which extended the Magna Carta,
-giving barons more power to appoint councils and administrators to effectively
-run the country. Henry accepts the treaty but then reneged with the support of
-an invited arbitrator St. Louis, King of France. The barons rebelled and forced
-his hand. Simon de Montfort, leader of the baronial revolt also formalized the
-structure of the parliament (from parle) which was formerly entirely informally
-called by the king when he wanted to raise money. Now the parliament would meet
-regularly, and be composed of 2 knights from each shire, and 2 members from
-specific boroughs, elected locally. This structure clearly precedes that of The
-House.</p>
-
-<p><strong>Edward I</strong>, Henry III's son, succeeded him, to a collective baronial relief.
-He was much more level headed than his father. Edward went on crusade, just like
-the legendary and much loved Richard I. Edward passed many reforms to the common
-law. In my books, he is ultimately a villan. He passed an Edict which banned
-Jews from England, which lasted for the next 350 years, until Cromwell allowed
-their return in the 17th century. In the grand scheme, this may be a greater
-travesty than the Spanish Inquisition!</p>
-
-<p><strong>Edward II</strong> succeeded his well loved father, and had an unpopular reign. He
-was accused of homosexuality because of his closeness with his nearest advisor,
-Galston. The barons hated this so much, they successfully expelled Galston to
-France five times, and eventually murdered him. The barons attempted to rise up
-against the king, but their efforts were quashed. The rebellion's leader was
-murdered as retribution without a trial, which didn't help Ed's popularity. Also
-Edward II suffered humiliating defeat at the hands of Robert the Bruce in
-Scotland. Ultimately he was deposed by his barons and placed in prison, where he
-died, possibly by being disemboweled as punishment for his lifestyle choices.
-His wife allied herself with the Barons, and succeeded in getting their son Ed
-III to the throne.</p>
-
-<p><strong>Edward III</strong> started his career as king under the thumb of his mother and her
-lover. When he grew old enough, Ed III took over in a coup and took the reigns.
-For a while he was also a legitimate heir to the French throne through his
-mother's line. Ultimately he conquered a bunch of French lands, including Calais
-in the north which was strategically important because it was the opposing port
-to Dover and constituted the shortest crossing of the channel. Rodin's famous
-sculpture of the six nobleman of Calais depicts a an event that actually
-happened where Edward III picked out six noblemen of Calais to be hung for their
-subordination, but conceded when his pregnant wife begged for mercy. Generally a
-very successful Ed III is remembered fondly in contrast to his father.</p>
-
-<p>To finance the Hundred Years War against France, Edward III introduced a tax
-that affected everyone, even the poorest. Previously taxes only applied to
-people that owned goods, effectively a wealth tax. This new head tax also rose
-over time. Also, papal patronage meant the pope instated high ranking clergy
-from Rome, barring local clergy. This is also the period of the Avignon
-"Babylonian captivity", when popes moved from Rome to southern France. During
-this Great Schism, there were sometimes 3 popes. I'd never heard of John
-Wycliffe and his followers (known as Lollards) but he was a sort of proto-Martin
-Luther, advocating similar reforms to Christian orthodoxy such as a direct
-relationship with God and redistribution of church-owned land. He even produced
-the Bible translated into vernacular English. This economic and clerical
-dissatisfaction led to the Peasant Revolt of 1381, which was the first popular
-(as opposed to Baronial) rebellion. It was eventually quelled but did
-demonstrate that the king increasingly had to listen to the people. The head tax
-was abolished. </p>
-
-<p><strong>Richard II</strong> was the grandson of Edward III. Richard's reign was completely
-dominated by what is called the Merciless Parliament, which strove to further
-curtail the power of the king. In retaliation Richard the second banished many
-of its members and denied inheritance to several opposing Lords. Eventually he
-was deposed by a new parliament and died in a prison cell in 1400. He was
-succeeded by Henry Bolingbrook, who came to reign as <strong>Henry IV</strong>.  He was the first
-Lancaster of a long dynasty, eventually leading to the Tudors. His reign was
-short, succeeded by his son <strong>Henry V</strong>. </p>
-
-<p>Henry V's reign was highlighted by successful conquest in France during the
-Hundred Years War, most notably, in the battle of Agincourt. This was largely
-due to internal divisions in France, but it made Henry V a popular king. His son
-and successor <strong>Henry VI</strong> managed to lose all of the English territories in
-France.  By then, France was united again, and Henry VI had little interest in
-ruling was mentally unstable. The only English territory in France that remained
-was Calais, and England held it for the next century. </p>
-
-<p>Henry VI's death led to a succession dispute between two houses: Lancaster (red
-rose) and York (white rose), called the War of the Roses. At first York had the
-upper hand. Its leader Ed IV held the reigns until his death, and was succeeded
-by his son Edward V, a 12-year-old boy at the time. But his reign did not last
-long. Vying for power, Ed V's uncle Richard, invented a lie saying that Ed was a
-bastard. This led to a successful propaganda campaign in which Richard III
-successfully usurped the throne. But it backfired as most people could see
-through the lie. Richard III likely executed his young rivals in the Tower of
-London, and he was reviled by the people, often depicted as a hunchback and of
-short statue in retrospect. </p>
-
-<p><strong>Henry Tudor</strong> was part of the Lancaster faction, and had a claim to the
-throne.  His first attempt to take over was thwarted by King Richard III, and he
-escaped to Bretagne in France. From there, he eventually amassed an army and met
-Richard III in battle. Due to his unpopularity, Richard's armies did not obey
-him at a critical moment. Henry Tudor was victorious, the War of the roses was
-Won by the Lancasters, and thus begins the Tudor lineage, a long period of
-English stability. To cement his position and end the civil war definitively,
-Henry VII married Elizabeth of York. He and his son Henry VIII then
-systematically eliminated all of the pretenders to the throne, and paved the way
-for English supremacy during the Renaissance. </p>
-
-<h2>Crazy etymological stuff</h2>
-
-<ul>
-<li>The name Easter comes from the pagan holiday Eostre. The apple does not fall
-far from the tree. </li>
-<li>To liquidate comes from melting of coins and other metallic valuables. Obvious
-in retrospect, never thought of it.</li>
-<li>Tolkien's Shire and modern police Sheriffs both trace back to medieval
-England.</li>
-<li>A farthing comes from the word "fourth", because it's value is 1/4 of a penny.</li>
-<li>The title Earl comes from Ealdorman, rooted in "elder". Crazy!</li>
-<li>Chivalry comes from the French word for horse, cheval. Another obvious in
-retrospect case.</li>
-<li>Heraldry is the study of coats of arms. The connection to newspapers named The
-Herald is present but convoluted.</li>
-<li>The notion of bearing arms used to mean that you had a coat of arms, as an
-indication of status. This sure has morphed over time for sure!</li>
-</ul>
-
-<h2>Interesting thoughts and insights</h2>
-
-<p>It remains unclear to me what role Thanes played in 9th century England. Did
-they have several shires in their control?</p>
-
-<p>The Domesday book is an impressively early systematic attempt to survey all of
-England. It was conducted by William the Conqueror in 1080s. Damn impressive for
-the time. </p>
-
-<p>Apparently the switch from oxen to horses for agriculture happened from the 11th
-to 13th centuries, with a surge in commerce. Farmers were no longer subsisting,
-but producing extra, which would be sold at markets and fairs. Oxen are stronger
-than horses, but do not make very good riding animals. A second order effect of
-this switch was a change in the shape of farming fields. Previously, plots were
-long and narrow since oxen were very hard to turn. Now plots were much more
-variable in shape.</p>
-
-<p>Paxton has a really great discussion on chivalry. This horse culture apparently
-was the delineating line between yeomen and elites. Tournaments began as multi
-person melee brawls and eventually morphed into formal affairs that we think of
-today, with jousting. This tracks the evolution of knights, which were
-originally hired mercenaries but ultimately became an upper class, sharing the
-table with earls and kings. This upward mobility of knights was greatly enabled
-by the church, when it condoned violence in the name of the crusades. Finally,
-the culture of heroism and going on crusades had much cache. Vividly, Paxton
-retells the story of a blind king of Bohemia charging into battle flanked by his
-two companions. He wanted glory in death and found it in Calais. </p>
-
-<p>Written English temporarily died after the Norman conquest, and was supplanted
-by French. This lasted for a while, as the civic elite favored French and the
-religious elite favored Latin. Eventually written English made a big return with
-prominent works written in it including the Canterbury Tales, which interesting
-are about a group of pilgrims making their way to see the Tomb of Thomas
-Beckett. (Interestingly, French remained the Lingua Franca of Europe for a
-while, with Russia and other latecomers clearly falling under French influence
-as late as the 19th century.)</p>
-
-<p>I think roughly speaking, society was ordered like this: serf (indentured
-servant), then yeoman (small landowner), then gentry (artisans, merchants), then
-knight, lord, and king. Rankings among the clergy still elude me, but an
-interesting topic for future reading.</p>
-
-<p>I was struck that many historical "events" lasted much longer than I would have
-guessed. The three crusades spanned 3 centuries. The Black Plague ebbed and
-flowed also over 3 centuries. This is of course easy to see in retrospect, but
-it made me wonder what sorts of 3-century long historical events people of 2500
-will remember about us?</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Real Estate and Cash Flow</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/real-estate-and-cash-flow"/>
-    
-    <updated>2019-02-15T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/real-estate-and-cash-flow</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>"What Every Real Estate Investor Needs to Know About Cash Flow... And 36 Other
-Key Financial Measures, Updated Edition"... What a title!</p>
-
-<p>To be honest, I'm kind of embarrassed to post this here, especially so soon
-after The New Father. But, I'll admit, I'm a bit spooked by the markets lately.
-While indexing has worked well so far, it feels risky, and I'd probably be wise
-to diversify. Hence this book.</p>
-
-<p>The book makes two things crystal clear: </p>
-
-<ol>
-<li>"Investors don’t decide to buy properties; they decide to buy the income
-streams of the properties."</li>
-<li>The importance of discount rate in doing these various calculations, or as
-the author usually descibes it, "the time value of money". A meta thought
-about discount rate. It seems to be a proxy for selfishness. In the
-self-interested case (maximize profit through real estate), you really want a
-high discount rate, but in the long view, say thinking about climate change,
-you think of future generations, and have a pretty low discount rate.</li>
-</ol>
-
-<p>Also, I liked the up-front breakdown of all of the ways in which being a
-landlord may be profitable:</p>
-
-<ol>
-<li>Cash flow: "You expect to collect money, mainly in the form of rent."</li>
-<li>Amortization: "You expect to spend money to pay for the operating expenses
-and the loans against the property."</li>
-<li>Tax shelter: "When you’re done for the year, you hope to have a surplus and
-to keep as much of it as you can in your own pocket and out of the hands of
-the tax collector."</li>
-<li>Appreciation: "Perhaps someday you can also sell the property at a handsome
-profit."</li>
-</ol>
-
-<p>If I end up attempting to purchase a real estate investment, the book will serve
-as a good reference for calculating various terms of the industry (eg. APOD, Cap
-rate, CFAT, etc). Honestly, this is really boring stuff, and pretty
-straightforward from a calculation perspective. During the case studies
-especially, the author meticulously grinds through the numbers, and I could feel
-my eyes glazing over.</p>
-
-<p>Oh, before I end this topic, here is an anti-recommendation to a similarly
-titled, but much dumber "Rental Property Investing: how to invest in profitable
-properties to rent and derive maximum profit from them". Complete drivel. Skip
-it.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The New Father</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-new-father"/>
-    
-    <updated>2019-02-03T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-new-father</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>My daughter Elichka is a year old! She's the best, let me show you a picture?
-Actually no. Not on the internet.</p>
-
-<p>This book was a trusty reference for me when things got a bit dicey. Rather
-than reading daddy or mommy blogs (urgh), a quick look at the relevant age was
-sometimes helpful in calming the nerves. I'd recommend it to a new father.</p>
 
 
         

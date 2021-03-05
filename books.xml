@@ -5,8 +5,410 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-01-29T12:51:05-00:00</updated>
+  <updated>2021-03-04T16:56:08-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Why Greatness Cannot Be Planned</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/why-greatness-cannot-be-planned"/>
+    
+    <updated>2021-03-04T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/why-greatness-cannot-be-planned</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Another GB recommendation that I really enjoyed. It's hard to summarize this book succinctly since it is such a potpourri of different fields and ideas.</p>
+
+<h1>A different lens on Evolution</h1>
+
+<blockquote>
+  <p>Evolution is the ultimate treasure hunter, searching for nothing and finding everything</p>
+</blockquote>
+
+<p>Evolution works under a constraint: whatever it produces must survive to reproduce. "Survival of the fittest" is the most popular conception of this process but does not capture any nuance. </p>
+
+<blockquote>
+  <p>The problem with competition as a general explanation for creativity is that it usually drives towards everything converging to the best. Selection is not really a creative force: It focuses and optimizes, and ultimately restricts exploration</p>
+</blockquote>
+
+<p>Forces at play in evolution:</p>
+
+<ul>
+<li>Competition doesn't actually increase interestingness, but enforces the constraint of genetic survival.</li>
+<li>Genetic drift is the process by which frequency of alleles changes over time as a result of luck. If a given trait doesn’t affect an organism’s ability to survive or reproduce (for example, the color of an organism’s bones), then natural selection will not direct that trait in one way or another, and its evolution will instead drift. </li>
+<li>Exaptation is the process of co-option of an evolved ability to do something else. For example, feathers first evolved in dinosaurs, where they helped to regulate temperature. Only later did evolution exploit them as a stepping stone to flight. </li>
+<li>Niche finding is a way to shield an organism from competition. If an organism can make a living in a new way, then it has effectively founded its own niche. A new niche often makes founding newer niches possible, and such newer niches often lead to even newer ones.</li>
+</ul>
+
+<p>As much as I disliked <em>Finite and Infinite Games</em>, this discussion of evolution reminds me of it a bit. The only goal of an infinite game is to keep playing.</p>
+
+<p>In an interesting twist, even our human inventions can be considered an evolutionary process since they were created by us, the products of evolution.</p>
+
+<blockquote>
+  <p>The bottom line is that many of our greatest engineering aspirations—such as flight, solar power, artificial intelligence—were not the explicit objective of evolution, though it created all of them.</p>
+</blockquote>
+
+<h1>Invention and stepping stones</h1>
+
+<p>A key metaphor often used to explain non-objective search processes is that of crossing a lake using stepping stones in dense fog.</p>
+
+<blockquote>
+  <p>Because of the fog, you don’t know where either path leads. For all you know, one might lead you to a dead end while the other eventually might reach the other side of the lake. </p>
+</blockquote>
+
+<p>The dense fog is a great metaphor for <em>Bounded rationality</em>. The stepping stones are a good metaphor for the idea of the <em>Adjacent possible</em>. Each stepping stone must also be stable to support your weight as you cross, which is a great metaphor for <em>Stable intermediate forms</em>.</p>
+
+<blockquote>
+  <p>If we really behave as treasure hunters and stepping stone collectors, then the only important thing about a stepping stone is that it leads to more stepping stones, period.</p>
+</blockquote>
+
+<p>The authors make sweeping claims like the following:</p>
+
+<blockquote>
+  <p>Almost no prerequisite to any major invention was invented with that invention in mind.</p>
+</blockquote>
+
+<p><em>Profiles of the Future</em> makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen. </p>
+
+<p>Expected inventions (eg. flying machines) fall less neatly into this metaphor. They are like hills above the fog, but you can't quite figure out the path to get there. On the other hand, once you get close enough to that hill, something that was completely out of reach becomes attainable.</p>
+
+<p>This idea of invention as a process of groping for the next stone in the dense fog makes it clear that learnings from the history of science are inherently limited. Again that McLuhan quote about walking backwards into the future comes to mind.</p>
+
+<blockquote>
+  <p>Contrary to popular belief, great inventors don’t peer into the distant future. A false visionary might try to look past the horizon, but a true innovator looks nearby for the next stepping stone. The successful inventor asks where we can get from here rather than how we can get there. It’s a subtle yet profound difference. Instead of wasting effort on far-off grandiose visions, they concentrate on the edge of what’s possible today.</p>
+</blockquote>
+
+<p>This reminds me of my <em>Asimov's Tech Tree</em> project, and that I really should re-think it as follows. Consider an impactful modern invention and work backwards through all of the inventions its inventors were inspired by. Then repeat this process, creating a tree culminating in this invention. This view would serve to illustrate the many surprising new horizons that one invention enables. Examples include the way that looms and vacuum tubes lead to computers, and smartphones led to better batteries, and better batteries led to electric cars. Authors included a few other uncited example I found interesting:</p>
+
+<blockquote>
+  <p>For example, the space race yielded innovations like cochlear implants, memory foam mattresses, freeze-dried food, and improved emergency blankets.</p>
+</blockquote>
+
+<p>In many cases, the inventor is driven by a search for the interesting and novel. Art often follows this pattern too, since it is more often done for its own sake. This is a very fluid process involving a lot of gut feeling, hunches and intuition. As many inventors do this, the process compounds.</p>
+
+<blockquote>
+  <p>The important point is that novelty (and interestingness) can compound over time by continually making new things possible.</p>
+</blockquote>
+
+<h1>Picbreeder and other open-ended search applications</h1>
+
+<p>The authors rely mostly on Picbreeder, but also on other projects from their research on open-endedness to make their point, which can be boiled down to this:</p>
+
+<blockquote>
+  <p>The more troubling lesson is that objective-driven search is sometimes embarrassingly incompetent.</p>
+</blockquote>
+
+<p>They built a walking robot simulator and compared optimization to open-ended search. They found that the robot that tried to walk farther and farther actually ended up walking less far than one that simply tried to do something novel again and again. They explain it like this:</p>
+
+<blockquote>
+  <p>Falling down and kicking your legs may be a better stepping stone than trying to take a step (because kicking your legs is the foundation of oscillation, which is how walking works), but if walking is the objective, falling down is considered one of the worst things you can do.</p>
+</blockquote>
+
+<p>They built a maze solver which would take considerably longer to solve mazes that were deceptive, meaning that they had deliberate dead-ends.</p>
+
+<p>Images in <a href="http://picbreeder.org/">Picbreeder</a> are generated from a DNA-like code which can <em>mutate</em> to create a different but related images. Following the evolution analogy, visitors to the website can vote on images as a form of <em>selection</em>. </p>
+
+<p>I did something similar with <em>Evogami</em>, but with a much simpler mapping from DNA to object.</p>
+
+<p>These examples are all really neat, but all deal with very specific domains: simulated walking robots, mazes, images, simulated paper. How to go from these narrow fields to something as all-encompassing as evolution remains unclear to me.</p>
+
+<h1>Evolution tends towards complexity</h1>
+
+<p>The authors pose a good question: if single celled bacteria can do the job of reproducing, why bother creating more complex offspring?</p>
+
+<blockquote>
+  <p>all organisms begin their life as single cells and end up reproducing to create offspring who also start as single cells—and this simple strategy for reproduction is effective—what objective utility is there in doing the same thing, but in more and more complicated ways?</p>
+</blockquote>
+
+<p>By viewing evolution as an open-ended search process, you end up with complexity necessarily.</p>
+
+<blockquote>
+  <p>As Stephen Jay Gould has pointed out in evolution, once all the simple ways to live are exhausted, the only way to create a new species or niche is to become more complex</p>
+</blockquote>
+
+<h1>Strange vibes and nitpicks</h1>
+
+<blockquote>
+  <p>In a sense, over eons our bodies have become a kind of encyclopedia of facts about the universe in which they exist. Eyes represent the presence of light in the universe. Ears signify mechanical vibration. Legs are reflections of gravity, and lungs of oxygen.</p>
+</blockquote>
+
+<p>This is suspicious. Most organs in the body are pretty mysterious from this perspective. </p>
+
+<p>A lot of this book rails against <em>Perils of optimization</em> and warns about maximizing meaningless metrics, along the lines of the <em>McNamara Fallacy - choose meaningful metrics</em> and the infamous cobra breeding story associated with <em>Goodhart's law - indicators will be gamed</em>. This reminds me a lot of Illich and the <em>Two Watersheds - too much institutionalization</em> discussion.</p>
+
+<blockquote>
+  <p>You show me anything that depicts institutional progress in America: school test scores, crime stats, arrest reports, anything that a politician can run on, anything that someone can get a promotion on. And as soon as you invent that statistical category, fifty people in that institution will be at work trying to figure out a way to make it look as if progress is occurring when actually none is.</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>How to Take Smart Notes</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/how-to-take-smart-notes"/>
+    
+    <updated>2021-02-17T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/how-to-take-smart-notes</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Zettelkasten Method, In Praise of Niklas Luhmann, or Ode To The Slip-box.</p>
+
+<p>The Roam cult sprang out of a practice called Zettelkasten. I refuse to join the cult, but see great value in cross-linked note taking practice. So far my tool of choice is Obsidian, mainly because I like plaintext. This book introduces the Zettel method.</p>
+
+<blockquote>
+  <p>It is not possible to think systematically without writing - Niklas Luhmann</p>
+</blockquote>
+
+<p><strong>Tools for your own thoughts</strong>: Richard Feynman once had a visitor in his office, a historian who wanted to interview him. When he spotted Feynman’s notebooks, he said how delighted he was to see such “wonderful records of Feynman’s thinking.” “No, no!” Feynman protested. “They aren’t a record of my thinking process. They are my thinking process. I actually did the work on the paper.”</p>
+
+<p><strong>A mirror of your brain</strong>: These notes are not meant for external consumption. They are meant to be a reflection and formalization of your thoughts. As you think about a topic, your mental model of the topic evolves, as does this collection of interlinked notes. Even if your memory fades, you can return to your notes and continue where you left off.</p>
+
+<p><strong>A communication partner</strong>: The slip-box is like a well-informed but down-to-earth communication partner who keeps us grounded. The slip-box forces us to ask numerous elaborating questions: What does it mean? How does it connect to … ? What is the difference between … ? What is it similar to?</p>
+
+<p><strong>Integrate seemingly unrelated sources</strong>: This is especially powerful as a way to integrate learnings from multiple sources into one place. "When we turn to the slip-box, its inner connectedness will not just provide us with isolated facts, but with lines of developed thoughts." Read with an eye towards possible connections in the slip-box.</p>
+
+<p><strong>Same format, same place</strong>: Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later. No underlined sentence will ever present itself when you need it in the development of an argument. Write brief accounts on the main ideas of a text instead of collecting quotes. </p>
+
+<p><strong>Keep notes short</strong>: By restricting ourselves to one format, we also restrict ourselves to just one idea per note and force ourselves to be as precise and brief as possible. A good rule of thumb for working with the program is: Each note should fit onto the screen and there should be no need of scrolling. This will also allow for more ready interconnections.</p>
+
+<p><strong>Avoid premature linearization</strong>: ‘Have the courage to use your own understanding,’ is therefore the motto of the Enlightenment.” Prearranging information, sorting it into modules, categories and themes achieves the opposite of what teachers intend to do. The linear process promoted by most study guides, which insanely starts with the decision on the hypothesis or the topic to write about, is a sure-fire way to let confirmation bias run rampant. </p>
+
+<p><strong>Feedback loops emerge</strong>: The addition of one note leads to a correction, a complementation or an improvement of old ideas. The great new idea you are about to add to the slip-box turns out to be already in there. Even worse, chances are this idea wasn’t even yours, but someone else’s. It is such an important skill to see differences between seemingly similar concepts, or connections between seemingly different ideas.</p>
+
+<p><strong>Take it slow</strong>: it takes time to evolve any idea, and this is another benefit of the slip-box. Related to <em>Slow hunch</em>. Taking smart notes, we collect en passant the material for our future writings in one place.</p>
+
+<p><strong>Work on many ideas in parallel</strong>: Another key point: Try working on different manuscripts at the same time. While the slip-box is already helpful to get one project done, its real strength comes into play when we start working on multiple projects at the same time.</p>
+
+<p><strong>Don't force a direction</strong>: Luhmann’s answer to the question of how one person could be so productive was that he never forced himself to do anything and only did what came easily to him. It is like martial arts: If you encounter resistance or an opposing force, you should not push against it, but redirect it towards another productive goal. The slip-box will always provide you with multiple possibilities.</p>
+
+<p><strong>Publishing by finding a path in the graph</strong>: once you have this densely linked note cloud, and you want to cobble together an idea for others to consume, you weave a path through your graph and create a linear narrative. "We extract information from different linear sources and mix it all up and shake it until new patterns emerge. Then, we form these patterns into new linear texts."</p>
+
+<p>Three kinds of notes:</p>
+
+<ol>
+<li>Temporary notes: which are designed to be processed and converted into something more permanent.</li>
+<li>Permanent notes: (aka Matuschak's Evergreen Notes) contain the necessary information in themselves in a permanently understandable way.</li>
+<li>Project notes: project specific, should theoretically be kept in a separate place.</li>
+</ol>
+
+<p>General reasons for keeping notes:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">We can hold a maximum of seven things in our head at the same time, plus/minus two.</a></li>
+<li>Zeigarnik effect</li>
+<li>Charles Darwin forced himself to write down (and therefore elaborate on) the arguments that were the most critical of his theories.</li>
+<li>Feynman once said that he could only determine whether he understood something if he could give an introductory lecture on it. Reading with a pen in your hand is the small-scale equivalent of a lecture.</li>
+</ul>
+
+<blockquote>
+  <p>“On one hand, those with wandering, defocused, childlike minds seem to be the most creative; on the other, it seems to be analysis and application that’s important. The answer to this conundrum is that creative people need both … The key to creativity is being able to switch between a wide-open, playful mind and a narrow analytical frame.” - Jeremy Dean</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Thinking in Systems: A Primer</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/thinking-in-systems-a-primer"/>
+    
+    <updated>2021-02-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/thinking-in-systems-a-primer</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Thanks to a book club at work, I finally read this legendary book.</p>
+
+<p>A system is a set of entities interconnected to produce behavior over time in response to external events. For example, a slinky's behavior lies within the slinky itself. </p>
+
+<p>Modernist thinking tends to like simple causal connections. However reality is complex. Systems thinking is an interesting and valuable lens that complements high modernism. </p>
+
+<p>One way of looking at systems thinking is as a formalization of folk wisdom:</p>
+
+<ul>
+<li>a stitch in time saves nine</li>
+<li>the rich get richer, the poor get poorer</li>
+<li>don't put all of your eggs in one basket</li>
+</ul>
+
+<h1>What are systems?</h1>
+
+<p>Systems have:</p>
+
+<ul>
+<li>discrete parts</li>
+<li>parts that interact with one another</li>
+<li>parts which together produce an effect that is different than each interaction</li>
+</ul>
+
+<p>“You think that because you understand “one” that you must therefore understand “two” because one and one make two. But you forget that you must also understand “and.” - Sufi teaching story</p>
+
+<p>System components in order of importance:</p>
+
+<ul>
+<li>purpose / function</li>
+<li>interconnections </li>
+<li>elements (often interchangeable, eg. employees)</li>
+</ul>
+
+<p>Systems are composed of stocks and of flows. Stocks are the amount of a thing. Flows are the increases or decreases of said thing. Think of a bathtub with a faucet and a drain. The water in the bathtub is the stock. The faucet is the flow of water in. The drain is the flow of water out. Flows can change quickly: you can shut on and off the faucet, plug the drain. Stocks change slowly and act as buffers: even if you open the drain completely, it will still take a minute for the water to vanish.</p>
+
+<p>Types of feedback loops:</p>
+
+<ul>
+<li>Amplifying feedback loop: the more stock there is, the higher the flow.</li>
+<li>Balancing feedback loop: attempts to move stock to a desired state.</li>
+</ul>
+
+<p>Real world systems are affected by multiple feedback loops simultaneously.</p>
+
+<h1>One stock systems</h1>
+
+<h2>Two balancing loops (eg. Thermostat)</h2>
+
+<p>Stock: temperature.
+1. Balancing 1: Exterior temperature cools the room to be the same temperature as outside, flow is tempered by insulation, air gaps, etc.
+2. Balancing 2: Heater warms the room until it is the temperature set on the thermostat.</p>
+
+<h2>One amplifying and one balancing loop (eg. Population Growth)</h2>
+
+<p>Stock: population.
+1. Amplifying: the more people there are, the more people are born. 
+2. Balancing: people don't live forever. There's a death rate.</p>
+
+<p>Ultimate behavior will depend on which of the two dominates. If reinforcing dominates, end up with exponential growth. Many other examples like this, such as capital growth, where the more capital you have, the more you can make, but there's also depreciation costs.</p>
+
+<h1>Two stock systems</h1>
+
+<h2>Renewable stock constrained by non-renewable stock  (eg. Coal Mining)</h2>
+
+<p>Stock 1: Capital.
+1. Amplifying: the more capital, the more ability to build coal mines.
+2. Balancing: the more coal mines, the more upkeep for these mines.</p>
+
+<p>Stock 2: Coal.
+1. Balancing: as the coal mine depletes, it becomes harder to extract the last bits of coal. </p>
+
+<h2>Renewable stock backed by renewable resource (eg. Fishing)</h2>
+
+<p>Stock 1: Capital.
+1. Amplifying: the more capital, the more ability to build coal mines.
+2. Balancing: the more coal mines, the more upkeep for these mines.</p>
+
+<p>Stock 2: Fish.
+1. Amplifying: the more fish there are, the more fish are born.
+2. Balancing: as the population dwindles, it becomes harder to find the last fish. </p>
+
+<h1>Great insights</h1>
+
+<p><strong>Constrained by stocks vs. flows</strong>: non-renewable resources are constrained by stocks. Renewable resources are constrained by flows. </p>
+
+<p><strong>Stocks act as buffers</strong>: rivers often flood because flow &gt;&gt; stock. Lakes rarely do because flow &lt;&lt; stock. </p>
+
+<p><strong>Delays really matter</strong> in reality many of these loops are driven by information that is delayed. This results in oscillations.</p>
+
+<p><strong>Stable intermediate forms</strong>: another important concept.  Hierarchies mean that there are independent sub-systems which are independently stable. This enables a rise in complexity. </p>
+
+<p><strong>Limiting factors</strong> are an intuitive but important idea. A systems is affected by the stock that is in least supply. As a system grows, the most limiting stock may change. </p>
+
+<p><strong>Resilience involves many balancing loops</strong>, most of which are inactive most of the time. Example: under normal circumstances, you don't sweat or shiver. But without these abilities you would be far less resilient.</p>
+
+<p><strong>Dominant loops</strong> complex systems are made of multiple feedback loops, and which loop dominates the others makes a big difference. For example, in a population grouwth system, if the amplifying loop dominates, the population will grow exponentially, but if the balancing loop dominates, it will shrink.</p>
+
+<h1>Stray thoughts</h1>
+
+<p>Firstly, what a great collection of insights! But to call it a coherent book is a bit generous. I feel like it's not well structured, and found myself picking out nuggets rather than being swept away by a coherent narrative.</p>
+
+<p>It’s hard to understand as an audio book. Need visual and ideally interactive diagrams. </p>
+
+<p>Systems thinking is a great technique for CEOs, businessmen, macroeconomists. It's less clear how a pleb like me might apply it. But it's still interesting!</p>
+
+<p>It would be worthwhile to contrast the causal diagrams of the sort Judea Pearl champions with these systems feedback loop diagrams.</p>
+
+<blockquote>
+  <p>Praise ignorance, for what man has not encountered he has not destroyed. - Wendell Berry</p>
+</blockquote>
+
+<h1>Traps and remedies</h1>
+
+<p>Systems have common failure modes. Here are some of the ones I found novel. The remedies are often easier said than done.</p>
+
+<p><strong>Policy resistance</strong>. many actors are all invested in an equilibrium involving one stock. Each pulls the supply up and down to their own benefit. Everyone exerts a lot of effort but achieves little. 
+Remedy: let go. Find another thing all parties can agree on. </p>
+
+<p><strong>Tragedy of the commons</strong>, a common resource or sink is overused by each user, leading to ultimate ruin because of erosion effects. The term was coined much later than I thought: in 1968. 
+Remedy: either apply pressure appealing to morality/decency/religion, split and privatize the commons, or impose penalties for overuse.  </p>
+
+<p><strong>Drift to low performance</strong>, a gradual degradation in quality because of a moving performance goal. If quality is under the bar, the bar is set lower, often excused by sentiment like "it's not that much worse than last year", etc.
+Remedy: Keep performance standards absolute. Even better, let standards be enhanced by the best actual performances instead of being discouraged by the worst. Invert the pattern and set up a drift toward high performance.</p>
+
+<p><strong>Escalation</strong>. Cycles of violence in conflicts between countries. Negative political ad campaigns that render both candidates unpalatable.
+Remedy: disarmament. This can be unilateral or mutually agreed upon, but the latter requires mediation. </p>
+
+<p><strong>Success to the successful</strong> is a common situation. The more money you have, the more of it you can make through investments, etc. 
+Remedy: Jubilee? Potlatch? Antitrust laws? Estate taxes?</p>
+
+<p><strong>Dependence</strong>, including personal addiction, but many other things. Societal dependence on institutions like healthcare, etc. 
+Remedy: focus on long-term restructuring rather than short-term relief.</p>
+
+<p><strong>Rule beating</strong>. Example: spending all available budget just to ensure that next years isn’t reduced. Example: only slowing down if there's a police car nearby.
+Remedy: redesign the rules!</p>
+
+<p><strong>Wrong goal</strong>, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of <em>McNamara Fallacy</em>
+Remedy: </p>
+
+<h1>Leverage points</h1>
+
+<p>Most attributes of the system are effectively immutable. Structure of the flows is often physical. Delays are often unavoidable. Information flows in feedback systems are where most leverage lies.  </p>
+
+<p>Unbridled growth with an amplifying loop is rare because such systems quickly lead to either:
+- Exhaustion of resources (eg. No more bodies to infect)
+- Balancing loop dominates (eg. Greater precautions and PPE)</p>
+
+<p><strong>Slowing growth may bring stability to a system</strong>. Reminds me of <a href="https://twitter.com/hundredrabbits/status/1357764199015849984">this tweet</a>:</p>
+
+<blockquote>
+  <p>For every hundred people telling us to "just install more solar panels", only one person will consider ways to reduce power usage.</p>
+</blockquote>
+
+<p><strong>Make invisible information visible</strong>. During the oil embargo in 1970, the Dutch began to pay attention to power consumption. Some houses mysteriously seemed to use 30% less power than others. The difference was in location of the power meter. Those with low power usage had meter in the lobby. Others had the meter in the basement.</p>
+
+<p><strong>Re-write the rules</strong>. Interventions into the system's rules are very effective. This explains why lobbyists are powerful. </p>
+
+<p><strong>Encourage self organization</strong>: allowing a system to self organize is extremely powerful. But this may lead to unknown conclusions, so is not well loved by those in power. </p>
+
+<p><strong>Goals matter</strong>. What is the ultimate goal of the system? What’s the goal of goog? What’s the priority order of many competing goals? Sometimes a leader can do this. Hitler profoundly changed the goals of Germany in the 1930s. Reagan changed the American ethos from “Ask not what your country can do for you – ask what you can do for your country.” to “Government is not the solution to our problem, government is the problem.”</p>
+
+<blockquote>
+  <p>“If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.” - St Exupery</p>
+</blockquote>
+
+<p><strong>Paradigm shifts and meta paradigm awareness</strong>. We live in a world with many unstated assumptions, hidden goals, biases. Changing these is the higest leverage point.</p>
+
+<blockquote>
+  <p>There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning, boys. How’s the water?” And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, “What the hell is water?”</p>
+</blockquote>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Sid Meier&#39;s Memoir!</title>
@@ -4066,894 +4468,6 @@ McKinley with a dentist's drill."</li>
   when we check out of this life, we have to give them all back to the great
   propmaster in the sky. "They're just on loan," he said,"they're not ours."</p>
 </blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Fall and Rise of China (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-fall-and-rise-of-china-audio"/>
-    
-    <updated>2018-10-31T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-fall-and-rise-of-china-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Inspired by the Three Body Problem's best part, that is, the beginning of the
-book set in Cultural Revolution China, I realized that I know nothing about
-Chinese history. Perhaps, I thought, something like this might help? It's about
-24 hours worth of material, and I took detailed notes in an attempt to retain it
-better. The lectures are excellent, and I highly recommend listening. One
-complaint was that I felt like the lecture lost a bit of steam and became
-increasingly speculative as we approached the present day, but perhaps this is
-inherent in any attempt to subject the recent past to a historical treatment.</p>
-
-<h2>Before Communism</h2>
-
-<p>Before the mid 19th century, China was largely isolated from the west. Chinese
-society was modelled on Confucian ideals. The highest officials were selected
-based on their ability to memorize profound lines from great teachings of
-Confucius and his disciples. The entrance exam was known as the 8 legged essay
-and super arcane. China called itself the Middle Kingdom, and was surrounded by
-weaker states that paid it tribute. China had no equals, and submitted to
-nobody.</p>
-
-<p>The Manchu dynasty began its decline in the early 19th century, as a result of
-population explosion, bad harvests, an opioid epidemic, and a trade deficit with
-the west. Its exports of porcelain started to pale compared to cheap European
-textiles flooding its market. (This is in some ways, an interesting reversal
-from today's situation.)</p>
-
-<p>China tried to curtail opium imports, and this led to the two Opium Wars with
-Britain, who refused to stop the trade. China was badly outgunned by the west,
-and stood no chance militarily. The Manchu dynasty continued to decline and made
-successions to Britain, giving it a "small island" (Hong Kong) as part of the
-military tribute. It wasn’t until the late 19th century that China had decided
-to institute a foreign affairs department. Before that they only had a minister
-of barbarians, whose occupants had notoriously short lived careers, lasting no
-more than a year before being removed and punished for ineptitude.</p>
-
-<p>In the late 19th century, China tried to modernize itself by sending its best
-and brightest to study abroad in the west. The emphasis was on acquiring
-military technology alone, while keeping Chinese traditions alive. This proved
-futile, the lecturer suggesting that technology is a symptom of deeper
-structures of European civilization like their government, economy, humanism,
-and legal systems. This tension between European tech and Chinese tradition was
-never fully resolved, and many powerful Chinese elite were opposed to anything
-from the west (Mathematics? Ha!) despite their clear instrumental benefit. This
-is in stark contrast with Japan that seemed to be able to reconcile its
-traditions with modern technology.</p>
-
-<p>The boxer rebellion in 1899 was a reactionary move against a loss of tradition
-in China and increasing European influence. They were sponsored by the
-xenophobic <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Empress Cixi</a> who took power in a coup. The boxers targeted a
-German controlled area in China threatened 4000 europeans stationed there. In
-retaliation a joint force of Japanese Russians and Europeans quashed the boxers
-and killed many thousands, and led to nasty anti Chinese sentiment from the
-German kaiser. Reparations were also imposed by the western victors. And China
-returned to a conservative status quo.</p>
-
-<h2>Seeds of revolution (Sun Yat-sen)</h2>
-
-<p><a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Sun Yat-sen</a> was the first to integrate the need for Chinese self
-determination without western intervention and the overthrow of the Manchu
-dynasty. He came up with a three pronged platform: nationalism, democracy and
-people's livelihood (land to the tiller). Later this became official policy of
-Republic of China (Taiwan) and still remain credo of Nationalist party in
-Taiwan. His reputation skyrocketed after a failed Chinese assassination attempt
-in Europe. Gained many followers in the Chinese diaspora in America, France and
-the rest of Europe. He organized multiple revolutionary uprisings in south
-China. This encouraged over 200 peasant uprisings against the Manchu.</p>
-
-<p>By 1910, Sun Yat-sen's relative was inaugurated as prime minister of the republic
-(Kuomintang/KMT aka Guómíndǎng/GMD). He shared power with Yuan Shikai, a
-conservative monarchist who declared himself Emperor. Yuan decided to
-assassinate the PM and bribed the rest of the GMD to quit. Sun Yat-sen was
-exiled to Japan, where he married again (interestingly, without divorcing his
-existing wife). Meanwhile Yuan Sha Kai attempted to return China to 
-traditional, Confucian values. He extended presidential terms to 10 years and
-allowed him to name successors.</p>
-
-<p>By WW1, the European powers were distracted by the war in Europe and
-Japan decided to take advantage of the situation. Japan demanded extremely
-unfavorable terms (21 demands) of China and Yuan Shikai had no ability to oppose
-it. These demands were leaked to the public and a patriotic backlash ensued.
-This eventually lead to Multiple Chinese provinces declaring secession. The
-leader himself died unexpectedly, suspected poisoning. This led to a power
-vacuum and an age of warlords ruling different parts of China. (The Good Earth
-is a famous book about this period.)</p>
-
-<p>After WW1 ended, European powers sided with Japan as thanks for its involvement
-in the war against Germany. As a reward, parts of China were doled out to Japan.
-This led to student and intellectual protests and ultimately sparked a golden
-age in Chinese literature: colloquial and far more accessible books led to
-increased literacy and spread of ideas. This included the works of Marx Engel
-and Lenin.</p>
-
-<h2>Early Chinese Communism and Mao vs. Chiang</h2>
-
-<p>Communist reading groups started to show up, which is how <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Mao Zedong</a>
-arrived to the scene. The Soviet Cominterm wanted to influence China and found
-Sun Yat-sen willing to embrace their ideology and abandon his western facing
-position (wow). In return he received soviet training and a bunch of
-radicalized followers. <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Chiang Kai-shek</a> emerged from one of these
-training camps as Sun Yat-sen's lieutenant. Sun died from liver cancer but the
-party survived, with the right wing taking power.</p>
-
-<p>Chiang Kai-shek successfully united multiple Chinese contingents from the
-communist party under a right wing platform and successfully took care of the
-warlord problem with the help of the Soviets. Soon a left wing faction emerged
-to oppose CKS's autocratic tendencies. CKS made pacts with European and mafia
-leaders and ultimately abandoned communism as a key tenet of their platform,
-thus departeing from Sun Yat-sen's anti imperialism. Chiang's forces conquered
-Shanghai with their allies but the Communist left was not happy. This also
-alienated the Soviet cominterm.</p>
-
-<p>Meanwhile Mao and other communist leftists that splintered from CKS took control
-of rural parts of China. Left wing communist rebellions known as Autumn Harvest
-Uprisings were quashed by CKS nationalists. Mao wrote an essay that promoted
-communism not through workers revolution but through an agrarian revolution.
-This was frowned upon by the Soviets who expected industry to lead. Mao
-established rules for Chinese Red Army soldiers that made them blend in with
-villagers and farmers. By late 1928 Mao's forces were being forced to retreat
-further but his political platform was maturing.</p>
-
-<p>In the 1920s, Japan reformed, implemented western policies and retracted it's 21
-demands. Still it's military thrived and Japan remained a threat to China, with
-significant resource interests in Manchuria. The longer they waited the more
-time CKS had to consolidate power and resist more effectively, and by 1931 Japan
-controlled all of Manchuria in the NE and placed the son of Cixi as ruler of
-that region.</p>
-
-<p>Meanwhile in the south west, Maoists were another threat for Chiang Kai-shek.
-Not willing to fight on two fronts, he decided to tackle the communists first,
-letting Japan continue its expansions. Eventually Maoists were cornered
-and had to retreat, starting the [Long March][lm], a retreat over 5,000 mi,
-ending up in Yenan. In 1936 CKS wanted to pursue the Maoists again but the
-general assigned to the task was a communist sympathizer and refused to comply,
-since he wanted revenge on Japan. CKS confronted him near Yenan but was
-kidnapped and coerced into alying with the communists to form a united front
-against Japan, just in time for WW2.</p>
-
-<p>(Interestingly the Chinese Communist Party came into its own as a result of the
-Japanese invasion in WW2. This is somewhat analogous to the Soviet Communist
-come to power after WW1.)</p>
-
-<p>(Also interesting is that Stalin was forced to stop helping the Chinese and
-withdraw because of the non-aggression pact with Hitler, and thus Japan.)</p>
-
-<p>CKS was still busy chasing communists when Japan attacked, starting WW2. First
-Japanese forces took Shanghai at huge GMD losses. Next was the massacre of
-Nanjing which came at a huge civilian cost. Japanese commands pursued a scorched
-earth policy against the civilians. This led to a deep popular resentment
-against Japan. As the Chinese continue to struggle, Japan attacked Pearl Harbor
-and forced US neutrality to end. Still the nationalists suffered huge losses at
-the hands of the Japanese, their attention also divided by internal strife
-against Maoists. Ultimately the CCP gained territory and influence while CKS
-flirted with the US.</p>
-
-<p>After Japan's defeat in 1945, America had hoped for a united Chinese government
-and so tried to get Mao and Chiang and now to form a coalition. Diplomacy failed
-out and instead they clashed in Manchuria. Just as Chiang Kai-shek planned to
-take over Yenan again for the third time, Mao Zedong's PLA was amassing guerilla
-forces to confront the nationalists in Manchuria, who were busy pushing back the
-defeated Japanese and salvaging scrap metal from their former bases. Gaining
-victory against ill prepared former warlords in the nationalist army, the PLA
-proceeded to take Manchuria and marched west to capture Beijing, cross the
-Yanzhee with the help of local ferrymen, and on to Shanghai. By 1949, Mao had
-won, and Chiang fled to Taiwan. (I need a map of maos advance here, but the
-article on the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Chinese Civil War</a> probably covers most of the material
-in more detail.)</p>
-
-<h2>Mao's China</h2>
-
-<p>The Chinese Communists made it very clear that they would side with Soviets not
-the west, having been burned over the last decade by western influence. Mao has
-a great quote about how there is only the two options and no middle ground.
-(I failed to find it.) Meanwhile the policy of the CCP was to forgive those that
-admitted to their mistakes but brutally punish those who did not. What followed
-was a purge of nationalist and other non-believers characteristic of most
-revolutions. Intellectuals were forced to go through an official process of
-Thought Reform which included written confession. This may have been revised
-multiple times until deemed sufficiently ernest.</p>
-
-<p>When Mao visited Stalin in Moscow, Stalin showed his disdain for Mao and lack of
-faith in Mao's ability to succeed. Stalin took a week to meet with him in
-person. He gave Mao some loans earmarked for Russian military equipment, but
-relatively small amounts compared to what he gave Eastern European allies. In
-addition, the loans had to be repaid with 1% yearly interest. Stalin set up
-joint stock companies in North China giving Russia partial control in industry.</p>
-
-<p>In 1950 Joseph Stalin's and Chairman Mao's friendship was tested. The Korea’s
-were at war. Initially Stalin backed Chairman Kim's North Korea against South
-Korea. But when Truman decided to back South Korea he withdrew, seeking to avoid
-direct confrontation. Eventually Mao assembled a volunteer army and pushed the
-American troops back into South Korea. This back-and-forth lasted three years
-and a total of 1 million Chinese died.</p>
-
-<p>Domestically since 1950 China was destined to follow the Soviets, Also adopting
-five-year plans, and forcing its peasantry into collective farming.
-Collectivization basically failed due to the free rider problem, across the
-board in all Soviet bloc countries. China was no exception. Mao also acquired
-all private enterprises making them state owned. These reforms were celebrated
-by senior communists at the 8th CCP congress in 1959, but Mao wasn't satisfied.</p>
-
-<p>By then, Mao had been consolidating power in the party. He was now a larger
-than life hero. At the same time, Khruschev dismantled Stalin's cult of
-personality, and opened the Soviets up to the Chinese. The Soviets helped China open
-aircraft factories and even shared plans for a nuclear weapon. Initially
-friendly with Khruschev, relations went south when Mao was unsatisfied with
-Khruschev's "revisionist" tendencies, especially enraged when Khrustchev
-suggested that it was possible to achieve socialism through parliamentary means,
-directly contradicting Lenin.</p>
-
-<h3>Let one thousand flowers bloom (jk)</h3>
-
-<p>To try to address shortcomings in the Chinese communist system, Mao decided to
-"let one thousand flowers bloom". What this meant was that intellectuals we are
-now free to express themselves however they wanted. Mao quickly changed his mind when
-increasingly hostile letters started to be published against the Communist
-system in China and against them chairman himself. In response, he began
-systematic purges for dissenting intellectuals. It remains unclear whether this
-was deliberate provocation. As a result, Mao revised his initial invitation to
-intellectuals: your art writing and work in general should serve the
-proletariat. Mao wanted to distinguish good thinking "flowers" from bad thinking
-sabotage he called "weeds".</p>
-
-<h3>Great Leap Forward (jk)</h3>
-
-<p>To accelerate the advent of communism in 1959 Mao instituted the "Great Leap
-Forward", which included many different reforms, Most of which had no experts
-overseeing them. By 1962 it was clear that most had failed spectacularly, and
-with tragic consequences:</p>
-
-<ul>
-<li>To out compete great Britain in steel production, peasants built backyard
-furnaces to melt down their metal. "Металлолом". The resulting iron and was of
-low-quality and so useless.</li>
-<li>A war against nature was declared. Large water management projects were
-attempted but many ultimately failed. [One dam][banqiao] that was constructed
-in this period, collapsed during rainy season and 200,000 people died (!).</li>
-<li>Misguided attempts to control pests were instituted. Millions of Sparrows were
-killed by peasants. But this led to an overpopulation of mosquitoes and other
-harmful bugs.</li>
-<li>New policies forced farms to collectivize much quicker than initially planned
-and into much larger collectives of 20000 each. The larger the collective the
-less incentive for each individual to work. Production dropped but ideological
-fervor skyrocketed. Mid-level managers reported record food growth and
-increased quotas, as well as grain exports to the Soviets. 30 million farmers
-died in the famine that ensued.</li>
-</ul>
-
-<p>Meanwhile Mao himself was oblivious to any problem. He was getting busy with
-young peasant girls during his village visits. But his party took note of the
-problems. One party member, Peng Dehuai, was purged for his direct disagreement
-with Mao's Great Leap Forward. Two senior party members, [Liu Shaoqi][liu] and
-[Deng Xiaoping][deng] took the reigns for a time and took to a more calculated
-strategy, quietly undoing the Great Leap Forward. Needless to say Mao was not
-happy and began labeling everyone opposing him "mini-Khruschevs" and
-revisionists.</p>
-
-<h3>Cultural Revolution</h3>
-
-<p>(Find the subversive painting with three red flags and silhouettes of Mao and
-Stalin in the background. Also more about the three family village writing
-group.)</p>
-
-<p>Mao now had to deal with more backlash against his policies during the Great
-Leap Forward. He retreated to his villa in Guangzhou and set his propagandists
-to work. Impressionable students prone to extreme thought were an easy target.
-Mao's new sycophantic defense mister compiled a book of Mao quotes. Known as the
-famous Little Red Book, it became the basis for a new socialist education
-program. Leftist ideologues spurred on students calling themselves Red Guards,
-wearing green military uniforms, armed with the Little Red Book to commit
-violence against dissenting professors and fellow students in the name of
-ideological purity and conformity with Mao’s thought. Liu and Deng issued
-bureaucratic investigations into the worst offenders, but when Mao returned,
-he allowed the students to rebel against those "in power" whenever they wanted
-as long as they were aligned with his ideology. This cart Blanche also
-prevented the army from intervening in any way, to such an extent that brazen
-students raided PLA warehouses and pilfered weapons. Student groups competed
-with one another for purity, with those descended from intellectuals trying to
-prove that they too can be good ideologues despite their “low” birth. Now armed
-with modern weapons, they clashed violently with other factions. Mao fanned the
-flames by closing down schools and universities for months, meeting with heads
-of Red Guard factions, and becoming an honorary member. This student led fervor
-began expanding into the general population, and soon the workplace was
-similarly violent, unproductive, dysfunctional.</p>
-
-<p>(The far left's tendency to fight and demonize and generalize against those in
-positions of power is unchanged.)</p>
-
-<p><a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Jiang Qing</a> was Mao’s fourth wife and also known as Madame Mao. She was
-formerly a B movie actress, but now had political ambitions of her own. One of
-the terms of their marriage was that she could not hold political office.
-Instead, she began a concerted effort to heavily censor all media behind the
-scenes. Everything was banned by default. The only content available to the
-Chinese people had to be in service of the leftist communist ideal. Only 8
-operas were allowed to run, all new and revolutionary. Women were forbidden to
-wear jewelry, a strict plain-military dress code was effectively forced on all.
-Madame Mao herself resided in her villa, banned works hanging on her walls,
-decorated in jewlery, enjoying luxuries from the west.</p>
-
-<p>As violence of the Cultural Revolution escalated, even the Chairman himself could
-not curtail it through his direct pleas. Finally, he lifted the army’s ban on
-intervention and the PLA quickly and violently quashed the student rebels. To
-solve the student problem, Mao invented the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Countryside Movement</a> which
-conveniently involved shipping 17 million students to learn the way of the
-village as an antidote to bourgeoisie thought. Tho rusticated and "educated"
-students became known as the Lost Generation since they never received a modern
-education and were unable to move back to cities until much later.</p>
-
-<h3>Soviet Union and US relations</h3>
-
-<p>In 1969, tensions between China and the Soviet Union were peaking. China had
-recently demonstrated her nuclear capabilities in a small scale test. Meanwhile,
-Brezhnev had outlined a new, more aggressive Soviet foreign policy, the Brezhnev
-doctrine, which stated that the when a socialist country becomes more
-capitalistic, other socialist countries should intervene. This happened in
-Czechoslovakia, which set a dangerous precedent for Soviet intervention in
-China. In addition to the two countries were vying for leadership of the eastern
-bloc. China was completely outclassed in this regard having had several orders
-of magnitude less money to spend on the cause.</p>
-
-<p>Nervous about China's access to nuclear weapons, the Soviets were amassing
-troops along the Sino-Soviet border. Meanwhile Mao decided to take advantage of
-the opportunity and began playing off the Soviets against the Americans. Nixon
-and Kissinger were interested in having disunity among the Communist bloc, so
-allying with China, the weaker of the two potential leaders made sense as a way
-to counteract Soviet power and aggression. To kick off detente, the American
-national ping-pong team visited China. Although they were crushed by the
-Chinese, the players built up a friendly rapport. This was publicized on TV,
-which led to a warming of relations. Ultimately the culmination of this phase
-was Nixon’s own visit to China. This was not without tension on both sides. Some
-hard-core leftists are opposed to Mao's sudden change of heart. In America many
-were still loyal to Taiwan and Chiang Kai-shek as the only China that’s valid
-and were opposed to warming relations with any communist country. Interestingly,
-China only joined the UN and became a member of the security council in 1971.
-Previously the only China in the UN was Taiwan.</p>
-
-<p>US China relations got stuck for a while and actually were set back by Nixon’s
-Watergate scandal. His successor President Ford was largely ineffectual in
-general. It wasn’t until President Carter when in 1978 US China relations began
-to normalize in earnest. Many reasons why this happened, one is was the return
-of Deng Xiaoping, who was unequivocally a reformer and not bound by Mel’s shadow.
-Another was the growing hostility between the US and Soviet and a change of
-heart in there a balance of power between the two superpowers. It is now clear
-that the US sided with China as the underdog in order to weaken the Soviet bloc.</p>
-
-<h3>Mao's successor and the Gang of Four</h3>
-
-<p>By 1970 Mao is getting old and frail, and the CCP needed a successor. He
-originally designated <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Lee Biao</a>, a fervent leftist. But he was opposed to
-thawing relations with the American imperialists and was removed in an airplane
-"accident". Mao also had designs for Ding Xiaoping, by now a very experienced
-and proven administrator. But Madame Mao and her "Shanghai Clique" was opposed
-and undermined his rise because he was too pragmatic and not ideological enough,
-and was well known for pulling back some of the reforms during the great leap
-forward. Another candidate, the premier [Zhou Enlai][zhou] was credited with
-thawing US-China relations and received great press around the world. This
-triggered Mao's jealousy. Zhou was subjected to struggle sessions courtesy of
-Madame Mao. He died in 1976 from a cancer that Mao refused to treat with western
-medicine. Chinese citizens were prohibited from paying him regards by Madame
-Mao, but thousands did anyway, some writing angry notes comparing her to the
-Dowager Cixi. Madame Mao had the protesters removed with force, and then used
-the opportunity to blame Ding Xiaoping for the protests. She made an appointment
-to see her ailing husband, who signed off on a request to remove him from his
-political and military posts.</p>
-
-<p>Finally, Mao had a specific heir apparent selected in his will “with you in
-power I rest easy”, an unknown CCP member [Hua Guofeng][hua]. Madame Mao
-attempted to alter Mao's will to write herself in instead. Upon Mao's death, a
-coalition of moderate CCP members discovered this and put Madame Mao and her
-henchmen under arrest.  They were called the Gang of Four. Meanwhile Hua
-Guoattempted to ride on Mao's coattails and milk Mao's high praise for
-everything it could offer. Still, he quietly began undoing leftist trends and
-modernizing the country: </p>
-
-<ul>
-<li>Admissions into college were no longer political but based on
-standardized tests. </li>
-<li>Once called revisionist by Mao, he introduced incentive-based wage systems to
-reward performance.</li>
-<li>He opened up to china's intellectuals. Called for spirited discussions.</li>
-</ul>
-
-<p>As various leftist policies were being undone, all prior ills were blamed on the
-Gang of Four. This became the scapegoat for the Chinese people as they dealt
-with the cognitive dissonance of such a quick shift in thinking.</p>
-
-<p>Deng Xiaoping managed to get back to power patiently and strategically. It
-helped that his predecessor was not charismatic, deferring too much to Mao. He
-was ridiculed for his unquestioning attitude: "whatever Mao said we will say and
-whatever Mao did we will do" became derisively known as the <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Two
-Whatevers</a>. Deng slowly took over, eventually holding high ranks
-across the party's bureaucracy, as well as the informal but influential position
-of Paramount Leader.</p>
-
-<h3>Deng's reforms</h3>
-
-<p>Deng continued in the same vein as Hua, but his reforms were even more
-progressive and western facing. Suddenly the Chinese people gained a lot more
-economic freedom. Small businesses were allowed to thrive and compete with
-government entities. Special economic zones were designated. Personal rewards
-were granted to reward high performing employees, the result of which was an
-increase in productivity across-the-board.</p>
-
-<p>Some attempts were also made to reform the political system and institute some
-western policies. This led to an increase in dissent and opposing voices.
-Ultimately Deng decided to roll back many political changes he originally
-proposed. (I found it interesting to learn about the Paramount Leader being so
-open to clearly changing his mind, without much protestation from the public.)
-In his own words, he "crossed the river by feeling the stones", trying new
-ideas, and sticking to them only if they work.</p>
-
-<p>Although he departed significantly from Mao's doctrine, Deng was very
-careful to not fully blame Mao for all of the shortcomings of the previous
-decades. </p>
-
-<h3>The late 80s</h3>
-
-<p>By the late 80s, the success of various policies began to yield diminishing
-returns. Many of the formerly prosperous village dwellers suddenly found that
-their salaries were declining and were forced to migrate back in the cities.
-This was also a time of huge corruption within the party, and inequality
-skyrocketed. This led to student unrest and ultimately the demonstration in
-Tiananmen Square.</p>
-
-<p>Many reformist ideas were floating around but no new ones really got
-implemented. Deng Xiaoping was deterred from giving in to too many liberal
-demands, citing the events of Poland as an example to avoid. Poland was inching
-towards capitalism as a result of a weak government that was giving in to too
-many popular demands. And so, Deng Xiaoping walked a fine line. He wanted his
-reforms to stick but also wanted to ensure that there was order.  During Deng's
-tenure as Paramount Leader, he appointed various high level positions who were
-officially in charge, yet Deng retained higher level control throughout.  This
-also enabled him to retain a balance of power between western oriented reformers
-and Mao oriented conservatives.</p>
-
-<p>It was a turbulent time for international communism. East Germany fell quickly
-follower by the Soviet Union. By 1989 the conservative left was starting to
-gather steam and attempted to turn back Deng's western facing reforms. At 84,
-and fighting for his life, Deng embarked on a southern tour, visiting special
-economic zones and offering congratulations to a booming economy as well as
-warnings about a leftist threat that might undo it all. In a tense few weeks, as
-his health was ailing and the bureaucrats were vying for power, the tour wasn't
-even publicized by the state run media. Eventually Deng emerged victorious and
-the politburo officially declared that the left posed a higher threat to
-China than did the right. </p>
-
-<p>Deng successfully divorced markets from capitalism, and encouraged economic
-reform while slowing political reform, in a gamble where he bet that Chinese
-people cared more about their material wealth than their political freedom. </p>
-
-<p>Meanwhile during the "roaring 90s", GDP doubled, foreign investment increased
-7x, coastal cities and stock market exchanges flourished. Meanwhile the farmers
-and country dwellers suffered. Eventually the uncontrolled market blew up and
-consumer goods increased in price 15x. As many as 100 million peasants moved to
-cities. Corruption soared: party members and cadres were immune to prosecution,
-as was the army which managed to get half its revenue from market investments. A
-spiritual crisis loomed for the youth and an economic crisis for the elderly.
-This was the origin of "Free Tibet" and the Falun Gong as well. <a href="/books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio//books/the-fall-and-rise-of-china-audio/#">Jiang
-Zemin</a> was appointed to be the General Secretary and promptly made many
-moderating changes, introducing economic regulations and also joining the WTO
-which is widely lauded as a big reason for China's Economic Miracle. Deng
-Xiaoping died in 1996, aged 92 from Parkinson's.</p>
-
-<p>With the economic changes came an increase in Chinese nationalism. Things seem
-to escalate with the US but the two countries were able to maintain good
-relations. In terms of greater China, Hong Kong transitioned peacefully 
-in 1997 as per the British contract dating back to the Opium wars. 
-Taiwan is a different, more complicated story. Chiang Kai-shek's son took over
-for him when he died, and continued center-right politics. More recently, a rift
-has formed between ethnic Chinese who fled the communists from the mainland and
-ethnic Taiwanese. An ethnic Taiwanese president succeeded the GMD and pushed for
-independence but the US, fearing war with Chana succeeded in reigning in his
-idealism. The issue remains unresolved.</p>
-
-<h3>Wrapping up</h3>
-
-<p>Holy moly, this is quite a long summary. I sure hope that writing it helps
-me remember better...  Anyways, where was I? Ah yes, during the last few
-segments, the lecturer continues on to discuss some specific issues in modern
-China: the Internet, the Beijing Olympics of 2008. He highlights a spotty human
-rights record, as well as Chinese monetary support for a wide variety of odious
-regimes including Zimbabwe and Syria.</p>
-
-<p>Overall a great introduction to modern China. Check it out.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>War and Peace and War by Peter Turchin</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/war-and-peace-and-war-by-peter-turchin"/>
-    
-    <updated>2018-10-24T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/war-and-peace-and-war-by-peter-turchin</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>At its core, this book addresses the question raised by Asimov (his protagonist
-Hari Seldon, a scientist of Psychohistory from the Foundation Trilogy): Is a
-science of history possible? Can we design a theory for the collapse of mighty
-empires that would be no worse than, say, our understanding of why earthquakes
-happen? Again, here's a nice succinct summary of the book from the author (tl;dr):</p>
-
-<blockquote>
-  <p>The very stability and internal peace that strong empires impose contain within it
-  the seeds of chaos. Stability and internal peace bring prosperity; prosperity
-  causes population increase. Demographic growth leads to overpopulation;
-  overpopulation causes lower wages, higher land rents, and falling per-capita
-  incomes for the commoners. At first, low wages and high rents bring unparalleled
-  wealth to the upper classes, but as their numbers and appetites grow, they too
-  begin to suffer from falling incomes. Declining standards of life breed
-  discontent and strife. The elites turn to the state for employment and
-  additional income, and drive up its expenditures at the same time that the tax
-  revenues decline because of the impoverished state of the population. When the
-  state’s finances collapse, it loses control of the army and police. Freed from
-  all restraints, strife among the upper classes escalates into civil war, and the
-  discontent among the lower classes explodes into popular rebellions. The
-  collapse of order brings in its wake the four horsemen of apocalypse—famine,
-  war, pestilence, and death. Population declines, and wages increase, while rents
-  decrease. As incomes of commoners recover, the fortunes of the upper classes hit
-  the bottom. Economic distress of the elites and lack of effective government
-  feed the continuing internecine wars. But civil wars thin the ranks of the
-  elites. Some die in factional fighting, others succumb to feuds with neighbors,
-  and many just give up on trying to maintain their noble status and quietly slip
-  into the ranks of commoners. Intra-elite competition subsides, allowing order to
-  be restored. Stability and internal peace bring prosperity, and another secular
-  cycle begins. “So peace brings warre and warre brings peace."</p>
-</blockquote>
-
-<h2>Cliodynamics: science of history</h2>
-
-<p>Turchin coins a new term for the science of history called Cliodynamics. It may
-be sciencey in spirit, but isn't really quantified, and appears to be quite far
-from even the rigor of a social science. Nonetheless, it's super interesting!
-Here are some patterns Turchin points to:</p>
-
-<ul>
-<li>New empires and nations are born at metaethnic frontiers, where us-versus-them
-mentality is strongest. This is in line with the worldview in Huntingdon's Clash of
-Civilizations.</li>
-<li>Successful empires grow under two conditions: 1. when their citizens have a
-high level of asabiya (aka Social Capital) and 2. when they are good at
-incorporating new members and treating them as equals (makes me think of the
-continuous expansion of "white people" in the US)</li>
-<li>Empires falter when asabiya goes into decline (Robert Putnam's Bowling Alone
-is all about how it's declining in the US).</li>
-<li>Social Capital isn't about morality. For example, it's not the case that
-social power must come from democracy. It can come from tribalism or
-elsewhere. To be successful, even an oppressor group needs to be socially
-cohesive.</li>
-<li>Asabiya can also increase as a response to new invaders, for example "Prior to
-the conquest of the sub-Saharan Africa by western powers in the 19th
-century, Africans had no sense of shared identity. But shared experience
-of first colonization, then decolonization, and now the tendency of the rest
-of the world to lump them together."</li>
-<li>Civil war tends to recur during the disintegrative phase with a period of 40
-to 60 years. Turchin calls such dynamics the fathers-and-sons cycles. The
-survivors of the civil war and their children had direct experience of
-conflict, so are reluctant to allow the hostilities to escalate again, but the
-grandchildren of the civil warriors did not experience its horrors first hand.</li>
-<li>Turchin presents a much more nuanced view of a cyclical view of history than
-<a href="/books/the-fourth-turning-by-howe-and-strauss/">The Fourth Turning</a>, "The fathers-and-sons cycles are nested within
-secular cycles, which in turn are nested within asabiya cycles." Ultimately
-this nesting leads to unpredictable timelines, and in general chaos theory
-means that dynamics of real human societies cannot be accurately predicted far
-in the future because of the nature of chaos, free will, and natural
-disasters. "Hari Seldon was wrong."</li>
-</ul>
-
-<h2>Asabiya and inequality</h2>
-
-<p>A big cause of the decline in asabiya is economic inequality, which tends to
-increase under normal circumstances ("Matthew principle") and largely because of
-population growth. Beyond just economics, "the degree of solidarity felt between
-the commons and aristocracy, is one of the most important characteristics
-explaining its success at empire building."</p>
-
-<p>Wealth inequality tends to be reduced as population density decreases, either
-through deaths or increase in territory:</p>
-
-<ul>
-<li>Death: "Black Death had a beneficial effect on the survivors. The drop of
-population set in motion the Malthusian machinery, but now working in
-reverse."</li>
-<li>Increase in territory: happens naturally at the frontiers of an empire as it
-is growing. this was true in Russia when it was conquering east into the
-Siberian steppes, and in USA as the Americans expanded to the west. The
-frontier provides rewards for risk taking, and more upward mobility.</li>
-</ul>
-
-<p>Confirming my suspicions from an <a href="/simulating-wealth-inequality/">explorable exploration</a> I made a while back:
-"The only way to stop this process constantly breeding inequality is by either
-abolishing private property altogether or by abolishing the right to inherit it.
-A milder form of keeping inequality in check is a steeply progressive tax on
-inheritance. In other words, some sort of redistributive scheme could be used."</p>
-
-<p>At one point the author digresses into the economics of agrarian land
-distribution, and describes a series of simulations he ran. I think doing
-something like this as an explorable explanation would be super fun. Imagine a
-visual treatment of a country split up by multiple families, and how that split
-changes through the generations. Here are some variants to try:</p>
-
-<ol>
-<li>Equal distribution of land to heirs but unequal numbers of children per
-family.</li>
-<li>Primogeniture, where oldest son gets all land.</li>
-<li>First son gets half of the inheritance, but the remainder is divided equally
-among others.</li>
-<li>Wealthier men tend to choose wealthier brides.</li>
-<li>Some people are just more effective than others.</li>
-</ol>
-
-<h2>Cooperation versus individualism</h2>
-
-<p>Turchin details how cooperation was once understood to be the main basis of
-human society, but this view fell out of favor in modernity. The rise of
-economics and the popularity of “rational-choice theory” postulated that people
-behave in entirely self-interested manner. This is supported by many leading
-thinkers:</p>
-
-<ul>
-<li>Hume (1711-76) wrote, “Political writers established it as a maxim, that, in
-contriving any system of government ... every man ought to be supposed to be a
-knave and to have no other end, in all his actions, than his private
-interest.”</li>
-<li>Mandeville (1670-1713) wrote in The Fable of the Bees: Private Vices, Publick
-Benefits: “Thus every Part was full of Vice, yet the whole Mass a Paradise.”
-This does sound familiar. Wasn’t it the motto of the exuberant 1980s and
-1990s—“greed is good”?</li>
-<li>Smith is best known is his “invisible hand” argument.</li>
-</ul>
-
-<p>The problem: "When the group size becomes large enough, cooperation among
-rational agents unravels as free-loading becomes rampant. The collective-action
-problem strikes again." An interesting study shows that people across most
-societies naturally fall into 3 categories when playing repeated games: 25%
-fully selfish, 25% fully selfless, 50% tit for tat. some exceptions: Israelis
-are more selfish (lowball offers), while Lamerla are incredibly selfless. There
-is a continuum between individualism and cooperation, and we've probably over
-corrected towards the former.</p>
-
-<h2>Historical trends</h2>
-
-<p>Turchin looks at a wide variety of examples to make his points, and I learned a
-lot trying to keep track of various indigenous proto-nations. Many of his
-insights span across a long period of time, unite many seemingly unrelated
-civilizational conflicts:</p>
-
-<ul>
-<li>One ancient source of metaethnic strife is farmers vs. shepherd-nomads: "as
-exemplified by the biblical parable about the conflict between Cain with his
-fields and Abel with his flocks. (Because the early Hebrews were herders,
-naturally the evil guy in the story was Cain.) In eastern Europe, from the
-tenth century on, the cultural chasm was further deepened by the tendency of
-the settled cultivators to adopt Christianity opposed by the inclination of
-the nomads to Islam." This continued in America where the Europeans were
-farmers and the indians were nomads.</li>
-<li>A failure mode for Asabiya is social conservatism. In pre-unified Russia, each
-prince tried to resist the Tatar-Mongol hordes on his own, and all lost in a
-typical example of the tragedy of the commons. In south Italy, primacy of
-family unit caused people to distrust their neighbour, preventing large scale
-social collaboration and economic prosperity. </li>
-<li>Religion/race is a huge unifying force and common in meta-ethnic conflict. For
-example Christians vs. Pagans in the Russian conquest of Siberia, Christians
-vs. Muslims during the Crusades, in Iberia and in the new world. This was also
-true for early Romans, who were bound together by religion.</li>
-<li>Recurring thought: perhaps we'll need aliens to bring all of humanity
-together: "Thus, in the old Europe, although the Irish hated the English, and
-the French fought against the Germans, in the New World all these people
-cooperated with each other and fought together against the Indians".</li>
-<li>Wealth and power physics analogy: "Distribution of landed wealth within the
-society usually correlates very well with the distribution of political power,
-because wealth and power are akin to potential and kinetic kinds of energy in
-physics. Wealth, or rather income derived from it, is readily converted into
-power by buying influence or hiring retainers. Vice versa, political power
-brings with it the ability to acquire land, thus storing power for future
-use."</li>
-<li>Interesting that slavery has a negative impact on Asabiya in general. Putnam
-points to a “striking correlation between low social capital at the end of the
-twentieth century and slavery in the first half of the nineteenth century."</li>
-<li>Asabiya applies also to corporations: "Asabiya is as important in large
-multinational corporations today as it was in Virginia in 1700 or North Africa
-in the fourteenth century.", and "Ironically enough, although externally
-corporations brutally compete in the free market, their internal workings rely
-not on market forces, but on group solidarity! This is one of the best-kept
-secrets in the economic sciences. Just as you cannot construct a viable
-society, so you cannot put together a viable company from knaves alone."</li>
-</ul>
-
-<h2>Rome and Italy</h2>
-
-<ul>
-<li>The Roman notion of <a href="https://en.wikipedia.org/wiki/Limes">Limes</a> encompasses some combination of border,
-wall, and road. I haven't thought about these concepts as being so
-interconnected.</li>
-<li>There was no ethnic link between the Byzantines and the Romans: "Just
-designating themselves as “the Romans,” however, is not a sufficient reason to
-equate this later people with the Romans. For example, there is a modern
-country whose citizens still call themselves “the Romans”: Romania. In
-general, an appropriation of an old and glorious ethnonym (“a name of a
-nation”) is a common thing in history"</li>
-<li>Interesting parallels between Livy's account of "rampant luxury and
-conspicuous consumption of his own times, the first century B.C., with the
-simpler, less-materialistic mores of their ancestors" and the way people
-romanticize America today.</li>
-<li>Early Rome was incredibly cohesive because of huge vertical integration, and
-virtues that discouraged individualism: gravity, constancy, piety, faith:
-"When 50,000 Romans, a staggering one fifth of Rome’s total manpower, perished
-in the battle of Cannae, as mentioned previously, the senate lost almost one
-third of its membership. This suggests that the senatorial aristocracy was
-more likely to be killed in wars than the average citizen. Add this to the
-peculiarly Roman practice of “devotion,” which was always performed by a
-member of noble lineage, and it is easy to conclude that generally Roman
-aristocrats led the commoners in battle, and were the first to die."</li>
-<li>Unlike Athens and Sparta, Rome did a good job of integrating its subjects into
-the empire. </li>
-</ul>
-
-<h2>Muslim world</h2>
-
-<ul>
-<li>Islam as an attractive religion for those that recently experienced chaos:
-"This quality of Islam continues to aid its spread even today. Ten years after
-experiencing the horror of civil war and genocide, many Rwandans are turning
-to Islam. During the decade since 1995, the number of mosques in Rwanda
-doubled to 500". All Muslims are unified in the umma, which let Muhammad unify
-multiple tribes into a meta-tribe.</li>
-<li>Through this lens of us vs. them, good explanation for Austria-Hungary's
-failures: they weren't sufficiently united, and had a lot of internal
-conflict. Part of what kept the empire alive for so long was the 3 century
-long struggle against the Ottoman empire.</li>
-<li>On middle east, pretty sad projections: "Two centuries passed from the First
-Crusade, which arrived in the Holy Land in 1099, to the rise of Saladin’s
-Ayyubid dynasty in 1174. The Crusaders were expelled from their last
-stronghold of Acre in 1291." and then "occupation of Egypt by the British
-troops in 1882. The establishment of Israel in 1948 merely elevated it to new
-heights, and the second Iraq war increased the pressure to what might be an
-unbearable pitch for the Arabs. It is possible that the world changed so much
-from the days of Ibn Khaldun that his law of asabiya does not operate any
-longer. But is it wise to bet on it?"</li>
-</ul>
-
-<h2>Europe</h2>
-
-<ul>
-<li>Southern Italy has been a disaster for 1500 years: "Peninsular Italy,
-including Sicily, remained an asabiya black hole from the collapse of the
-Roman Empire to this very day." The north has done much better, but still no
-large public italian corporations (Fiat is family owned.) Also, they have
-never been an empire. Italy was the only European state that was defeated by
-an African country (Ethiopia) in the nineteenth-century scramble for colonies.
-More on this in Putnam's book Making Democracy Work: Civic Traditions in
-Modern Italy.</li>
-<li>Interesting recurring metaethnic frontier: Romans vs Barbarians in early 1st
-millennium, and Frankish Christians vs. Norman/Viking pagans in early 2nd
-millennium. Also recurring alliances a milennium later: "The first members of
-the European Union were, and the most enthusiastic proponents of the European
-Union are, France, Germany, the countries of Benelux, and Italy—almost
-precisely the regions that were part of the Carolingian Empire."</li>
-<li>Germany had huge asabiya until WW2, but the shock of defeat and anti-Nazi
-propaganda discredited this identity. Is the same thing happening now in the
-US, as a result of several failed wars? Vietnam, Afganistan, Iraq?</li>
-<li>One common myth: that France’s troubles were brought by the persistent
-conflict with the English, known as the Hundred Years’ War (1338-1453). First,
-the dates 1338 and 1453 are completely arbitrary. almost every generation of
-the French and the English fought against each other during their “Thousand
-Year War” between 1066 and 1815.</li>
-<li>Overproduction of elites comes from education. This happened at times of
-crisis in the past: "At the University of Paris, it took eight years to earn a
-Doctorate degree in the thirteenth century (five years to obtain a Bachelor
-degree, then three more to achieve the Doctorate). In the fourteenth century,
-it took 16 years to earn a Doctorate. The cost of education increased much
-faster than inflation in sixteenth-century France. Enrollments in Oxford and
-Cambridge peaked just before the Great Revolution, and then declined during
-the eighteenth century."</li>
-</ul>
-
-<h2>Random learnings</h2>
-
-<ul>
-<li>Siberia is named after the khanate of Sibir.</li>
-<li>The connection of паган (pagan) and pagans, which lost its original religious
-meaning and now just means “bad” or “evil.”</li>
-<li>in Arabic khalifa means “successor”.</li>
-<li>Jacobins &amp; Jacobites are completely different and unrelated groups.</li>
-<li>Fascinating origins of tribal names: "In fact, the very name Suebi basically
-means “us” (“those belonging to our group”). Incidentally, the names of such
-modern nations as the Swedes and the Swiss have precisely the same origin. The
-name of the later Alamanni also expressed the same idea, but with a different
-means. Alamanni means “the (true, real) people,” clearly a variation on the
-“us” versus “them” theme.</li>
-<li>In France, Normandy is named after the Norse, and Brittany is named after
-Britain. Nice to make that connection, completely obvious in retrospect. Also
-it's bizarre to be personally named after a 10th century peoples (eg. Norman,
-Brittany or Frank).</li>
-</ul>
-
-<p>Okay. I think I've distilled most of what I found valuable in the book (a lot).
-Let me complain just a bit. Firstly, there are way too many small ethnic groups
-for me to keep track of. Secondly, what's up with the formatting in the Kindle
-version? Lastly, I found that the book was not super well structured, jumping
-around conceptually, chronologically, and spatially, and going over the same
-ground multiple times. That all said, I'll be reading more Turchin in the
-future.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Three Body Problem by Liu Cixin (audio)</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/three-body-problem-by-liu-cixin-audio"/>
-    
-    <updated>2018-09-27T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/three-body-problem-by-liu-cixin-audio</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Everyone’s reading it, so I finally got around to it too. I guess this is a
-science fiction mystery book, and I enjoyed it overall. I was a bit disappointed
-when the whole mystery was revealed though, maybe this is the nature of mystery
-books?</p>
-
-<p>The part about the Cultural Revolution in the beginning was super interesting
-and well written, including great metaphors which were somehow preserved (or
-maybe introduced) by the translator. I also liked the way in which the Communist
-theme permeated throughout the book, especially in how the message broadcast
-from Red Coast evolved from one loaded with propaganda and political fervor to a
-much more neutral and nuanced one. Incidentally, I wonder how this book made it
-past the Chinese censors.</p>
-
-<p>Throughout the mysterious first part, I got a kick trying to figure out what was
-going on, and was really captured by the story. But I was disappointed by the
-big reveal. I found the hard sci-fi quantum and multi-dimensional explanation to
-be a bunch of mumbo jumbo, maybe due lack of physics expertise? Also, the AI
-protons sent by the Trisolarans just felt like a lazy explanation for the weird
-phenomenon plaguing Wong and other scientists earlier in the book. That said,
-blocking another civilization’s development is an interesting angle I haven’t
-thought/read/heard about before.</p>
-
-<p>I enjoyed the development of some of the characters, especially Ye Wenjie and
-Big Shi. She was a compelling hero and a complex character. Her early life was
-well written, and again the slow revelation of the mysterious aspects of her
-backstory was compelling to me. I think it also helped that my audio book's
-reader did a good job modulating voices and </p>
-
-<p>I really liked that I had to check some of the references made in the book to
-see if they were fictional or not. Turns out Silent Spring and Rachel Carson are
-real, but Bill Mather’s “contact as symbol” theory corporation is made up. This
-was a nice device to keep me on my feet, and blend fiction with reality.</p>
-
-<p>There is a dark, unstated backdrop to the whole book. Ye wants to find a new
-civilization to right the wrongs of humanity, but after contact, rather than
-some profound shift in the worldview of our intelligent species, concerns just
-go up to a meta level. Both Sapiens and Trisolarans are back to the same
-inter-species competitive grind.</p>
-
-<p>This book made me want to read Silent Spring, and get more informed about the
-Chinese Communist Party and Chinese history in general. I found the end to be
-both a humbling and hopeful. We may be bugs, but we are proud of it!</p>
 
 
         
