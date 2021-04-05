@@ -5,8 +5,120 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-03-04T16:56:08-00:00</updated>
+  <updated>2021-04-05T14:13:13-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Evogami: evolution meets origami</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/evogami"/>
+    
+    <updated>2021-04-05T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/evogami</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>In my latest side project, I borrow a couple of ideas from evolution and apply
+them to origami. Starting from a blank square apply a random crease, then again,
+and again, and again. The result is completely new, never before seen origami
+model! To make the process less random, pick your favorite next step from a set
+of possibilities. <a href="https://borismus.github.io/evogami/evolve/">Try it out</a> and see what you can come up with.</p>
+
+<p><style>
+.center-video {
+  display: flex;
+  justify-content: center;
+}
+video {
+  width: 50%;
+}
+</style></p>
+
+<p><a class="center-video" href="https://borismus.github.io/evogami/evolve/">
+  <video src="/evogami/evolve.mp4" muted autoplay loop></video>
+</a></p>
+
+<p>Here are a couple of resulting folds, presented in the viewer. <a href="https://borismus.github.io/evogami/view/?key=-MUk_i19pvn6aPBP1M-Y">See it live</a>.</p>
+
+<p><a class="center-video" href="https://borismus.github.io/evogami/view/?key=-MUk_i19pvn6aPBP1M-Y">
+  <video src="/evogami/view.mp4" muted autoplay loop></video>
+</a></p>
+
+<p>I'm looking forward to folding some of the best Evogamis out of real paper! </p>
+
+<!--more-->
+
+<h1>Constraints breed creativity</h1>
+
+<p>Modern origami practitioners discourage the use of cuts, glue, or markings on
+the paper. This leads to the abstract aesthetic of simple origami models.</p>
+
+<p>Evogami is even more constrained than normal origami. We only allow one type of
+fold, the humble valley fold. No pleats, rabbit ears, reverse folds, crimps,
+squashes, sinks, or petal folds. Furthermore, this fold is done across a line,
+which means that multiple disjoint segments of the current shape will be folded.
+Constraints breed creativity!</p>
+
+<h1>Evogami evolution details</h1>
+
+<p>The <a href="https://borismus.github.io/evogami/evolve/">evolver</a> starts with a blank sheet of paper. Next, we
+alternate a sequence of <strong>mutation</strong> and <strong>selection</strong> steps. Mutation is done
+randomly by the computer, and selection is done by a human, based on their
+taste. It goes something like this:</p>
+
+<ol>
+<li>Begin with a blank sheet of paper.</li>
+<li><strong>Mutate</strong>: make 12 random creases.</li>
+<li><strong>Select</strong>: the person picks an interesting direction of those presented.</li>
+<li><strong>Mutate</strong>: the computer makes 11 new random creases on top of the selected
+direction.</li>
+<li><strong>Select</strong>: the person selects the next step, or they can decide that they are
+satisfied and save this design.</li>
+</ol>
+
+<h1>Unexpected power use in the browser</h1>
+
+<p>The evolver is minimal but powerful, especially in conjunction with a few
+built-in browser primitives. Some judo moves:</p>
+
+<ul>
+<li>Tap again: unsatisfied with your set of next evogami choices? Just tap the
+same design again to re-generate the grid.</li>
+<li>Back button: return to the previous step in your design. Easily undo this by
+tapping the browser's forward button.</li>
+<li>Reload button: the page regenerates a set of 12 new random evogami with the
+same number of folds as the current generation.</li>
+</ul>
+
+<h1>Inspiration and thanks</h1>
+
+<p>I recently read <a href="/books/why-greatness-cannot-be-planned">Why Greatness Cannot Be Planned</a>, which uses
+<a href="http://picbreeder.org">Picbreeder</a> to make many of its profound arguments. Picbreeder is
+an evolution-inspired image generator that uses a complex gene-like encoding
+called <a href="http://www.cs.ucf.edu/~kstanley/neat.html">NEAT</a>. I wanted to play around with open-endedness too, but found
+the mapping from the NEAT DNA to images to be unintuitive. In a sense, Evogami
+is a simpler version of Picbreeder, with the great advantage that the resulting
+output can be folded using real paper. </p>
+
+<p>This project would have taken far longer without the impressive <a href="https://rabbitear.org/">Rabbit
+Ear</a>, a powerful JavaScript library for doing origami design on the
+web. Big thanks to <a href="https://robbykraft.com/">Robby, the maintainer</a>!</p>
+
+<p>I'm fascinated by the interplay between ancient art and modern technology. Go
+players have had their minds blown by unexpected and insightful moves produced
+by AlphaGo. Computational approaches applied to origami created new art
+pioneered by folks like <a href="https://langorigami.com/">Robert J. Lang</a>. </p>
+
+<p>Can this approach yield original origami models that inspire the paper folding
+world? 🗅</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>ESUP Builders</title>
@@ -8352,89 +8464,6 @@ it's very easy and natural to distinguish between the two modalities.</p>
 
 <p>Do you have thoughts or demos around new types of interactions using
 touch laptops? Please share them below.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>From VPS to static hosting</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/moved-to-s3"/>
-    
-    <updated>2013-01-16T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/moved-to-s3</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>All good things must come to an end. VPS hosting paid for by my former
-university is no exception! Ever since the University of
-Madeira-provided credit card paying for the account expired, I began
-wondering whether it's worth paying for a VPS that I hardly use.
-Combined with two consecutive 10-minute stretches of downtime last week,
-I had my answer.</p>
-
-<p>I run this blog, my mother's site and a handful of mini-sites, all of
-which are inherentily static content. Today, I moved them all away from
-my VPS completely. I migrated the relatively complex sites to the
-<a href="https://github.com/borismus/lightning">lightning</a> engine, and updated the engine with a couple of nice
-features: fixed content links in list pages and feeds, and support for
-publishing to S3.</p>
-
-<!--more-->
-
-<h2>System administration</h2>
-
-<p>In my early Linux days, I ran an AMD Athlon server off my parents'
-internet connection. I took pride in configuration, maintenance,
-administration, endlessly recompiling updates and dealing with broken
-dependencies. I enjoyed the challenge and got very good at it. By
-sinking enough time into any problem, I was confident that I would
-ultimately solve it. Sometimes I contributed an ebuild or two to
-portage. I learned a lot, and eventually my web server outgrew my
-parents' internet connection.</p>
-
-<p>So I turned to managed hosting. Several years later, sick of the crappy
-management UI, and yearning to flex some sysadmin muscle, I jumped on
-VPS opportunity for performance reasons. While clearly overkill for
-static sites, it was appealing from a "what if?" perspective: what if
-suddenly I wanted to run a complex webapp? No problem, VPS was ready!</p>
-
-<h2>Except system administration sucks</h2>
-
-<p>My VPS slice was running Ubuntu 8. Since Ubuntu 12 was released, I was
-greeted with a "48 packages are out of date" message upon logging into
-the machine. </p>
-
-<p>Long ago, this message would have sent me down a rabbit hole of emerging
-all of the outdated packages, resolving dependencies and rewriting
-config files. It was gratifying to be on the bleeding edge, to have a
-clean system with all of the daemons dancing to your tune in perfect
-harmony.</p>
-
-<p>These days, I could care less about being up-to-date. In fact, I
-actively dislike upgrading. An upgrade is a risk, likely to lead to
-something breaking, likely without me noticing at first. So rather than
-the "ooh, new shiny" feeling I used to have when Apache needed an
-update, I actively dread needing to update anything. I don't want to
-need to tweak configurations, especially because I've forgotten a lot of
-the domain-specific config languages. </p>
-
-<h2>S3 for static hosting, PaaS for everything else</h2>
-
-<p>Happily, all of my sites are currently static. Blogs and mini-sites all
-lend themselves very well to being hosted on S3.</p>
-
-<p>For the hypothetical case that I require a dynamic web server on
-the internet, I'll turn to a Platform-as-a-service solution like
-<a href="http://nodejitsu.com/">Nodejitsu</a> or <a href="https://developers.google.com/appengine/">AppEngine</a> to avoid doing rote configuration
-tasks.</p>
-
-<p>Being a sysadmin is not a part time job.</p>
 
 
         
