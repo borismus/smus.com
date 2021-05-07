@@ -14,11 +14,11 @@ cover: /assets/book-covers/emotional-life-toddler.jpg
 
 Alicia F. Lieberman begins with a milder version of the same sentiment:
 
-> In the raising of every toddler, society recapitulates its own development. When a child is caught between the impulse to strike out and the fear of its consequences, conscience begins to be formed and civilization begins.”
+> In the raising of every toddler, society recapitulates its own development. When a child is caught between the impulse to strike out and the fear of its consequences, conscience begins to be formed and civilization begins.
 
 # Relatable vignettes
 
-Mom speaks very highly of a book called "От Двух до Пяти" (from Two to Five) which is a sort of proto-listicle of funny things small children say. It's fun, but I feel that as a parent I get a lot of these gems delivered to me on a daily basis from my own children.
+Mom speaks very highly of a classic Russian book called [От Двух до Пяти](https://ru.wikipedia.org/wiki/%D0%9E%D1%82_%D0%B4%D0%B2%D1%83%D1%85_%D0%B4%D0%BE_%D0%BF%D1%8F%D1%82%D0%B8) (from Two to Five) which is a sort of proto-listicle of funny things small children say. It's fun, but I feel that as a parent I get a lot of these gems delivered to me on a daily basis from my own children.
 
 Anyway, the author cites this exact book on toddler creativity. Struck me as a relatively rare of example of US-Russian citation.
 
