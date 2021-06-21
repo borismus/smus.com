@@ -12,6 +12,7 @@ and may be a decent proxy for literacy. In this post, I dig into the Province of
 Canada's 1852 census, scraped from automatedgenealogy.com. To whet your
 appetite, just look at these beautiful age heaps:
 
+
 ![Age Heaps in Canada's 1852 census](ages_1852_census_heaps.png)
 
 Splitting the census data by demographics and calculating the [ABCC Index][abcc]
