@@ -5,12 +5,12 @@ posted: June 21, 2021
 The ancient Sumerians invented writing sometime around 3500 BCE. But how did
 writing get refined? How did it spread outside of Sumer? In general, tracking
 diffusion of ancient technology is hard. For tracking the spread of literacy,
-however, here's an interesting idea. Innumerate people tend to round their
-self-reported age to lucky or auspicious numbers. Individually, this leads to
+however, here's an interesting idea. Innumerate people may fudge their
+self-reported age to round or auspicious numbers. Individually, this leads to
 [terrible earworms][blink-182]. In aggregate, this error is called age heaping
-and may be a decent proxy for literacy? In this post, I dig into the Province of
-Canada's 1852 census, scraped from <https://automatedgenealogy.com>.  To whet
-your appetite, just look at these beautiful age heaps:
+and may be a decent proxy for literacy. In this post, I dig into the Province of
+Canada's 1852 census, scraped from automatedgenealogy.com. To whet your
+appetite, just look at these beautiful age heaps:
 
 ![Age Heaps in Canada's 1852 census](ages_1852_census_heaps.png)
 
@@ -59,10 +59,8 @@ Here's the theory: people that struggle with numbers often don't know their own
 age precisely, instead producing a round or lucky number.  Perhaps because they
 can’t subtract to infer their current age from their birth year and the current
 year. Or perhaps because they don't know their birth year at all. In aggregate,
-these errors add up to create Age Heaps, visible here approximately every five
-years:
-
-![Age distribution with age heaping visible](ages_1852_census_heaps.png)
+these errors add up to create Age Heaps, clearly visible at decades, with
+smaller peaks at ages ending in 5.
 
 Given any survey with self-reported ages, one can calculate a metric that
 estimates the literacy of a population. [Various indices][abcc] like Whipple's
