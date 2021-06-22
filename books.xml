@@ -5,8 +5,252 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-05-06T22:15:25-00:00</updated>
+  <updated>2021-06-22T12:45:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Understanding Complexity by Scott Page</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/understanding-complexity-by-scott-page"/>
+    
+    <updated>2021-06-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/understanding-complexity-by-scott-page</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Overall a dense but short listen. Potpourri of new ideas, and far better than
+<em>Why Information Grows by Cesar Hidalgo</em>. This lecture is well organized,
+engagingly narrated, with memorable examples. A great, rather intense
+introduction to Complexity.</p>
+
+<p>A criticism I had was that Page attempts to weave too many disparate threads
+together. The final chapter gives practical takeaways but they feel trite and
+don't really integrate the most interesting parts from earlier in the book.</p>
+
+<hr />
+
+<p>Here are some ideas I from the book I found interesting.</p>
+
+<p><em>Wolfram’s four system types</em> -
+<a href="https://www.wolframscience.com/nks/p231--four-classes-of-behavior/">https://www.wolframscience.com/nks/p231--four-classes-of-behavior/</a></p>
+
+<p><em>Complexity happens in a sweet spot</em> - There are four necessary conditions for
+complexity. But it's necessary that all of these conditions be present in
+moderate quantities. Too much or too little of any of them will lead to
+equilibrium, not complexity.</p>
+
+<p><em>Measuring diversity generally speaking</em> - <a href="https://en.wikipedia.org/wiki/Diversity_index">https://en.wikipedia.org/wiki/Diversity_index</a></p>
+
+<p><em>Dancing landscape</em> - rugged landscapes that change over time.</p>
+
+<p><em>Creative vs. evolutionary processes</em> - Evolution is relentless and infinitely
+persistent, like the tortoise. Creativity requires drive from a specific group
+of people, who are finite in energy and time, but can move quickly, like the
+hare. </p>
+
+<p><em>Power law vs normal distributions</em> - Many things are normally distributed.
+But some are power law distributed. Why? Independent events leads to normal
+distribution. Interdependent events leads to power law distributions. </p>
+
+<p><em>Explore vs exploit trade-offs</em> - A well formulated treatment on this subject.</p>
+
+<p><em>Self-organized criticality</em> - the idea that many systems approach a critical
+state automatically.</p>
+
+<p><em>Simulated annealing</em> - an approach to finding global maximums under certain
+constraints.</p>
+
+<p><em>Complexity is in the eyes of the beholder</em> - if you're really smart, checkers
+is just tic-tac-toe, and no longer complex. Is that right?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Consider Phlebas by Iain M. Banks</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/consider-phlebas-by-iain-m-banks"/>
+    
+    <updated>2021-06-06T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/consider-phlebas-by-iain-m-banks</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>After reading <em>Player of Games by Iain M. Banks</em>, I wanted to read another in the Culture Series mainly for the world-building. </p>
+
+<p>Consider Phlebas is a fast paced adventure book. The protagonist Bora Horza Gobuchul is unreasonably superhuman, possessing super strength, a great fighting ability, and among many other things, the ability to change his appearance at will. He finds himself in increasingly ridiculous situations, at one point stranded on a small island populated by fanatical cannibals. I found the plot itself to be so out there, parts of it read like my 10 year old self's stream of thought in an early creative writing assignment.</p>
+
+<p>That said, Banks does a good job with the world-building. Set in the middle of the Idiran - Culture war, Horza sides with the Idirans mainly out of hatred for the culture. This is a fascinating conflict, reminiscent in some ways of modern divisions between progressive leftism and traditional conservatism. The author does a great job of making both factions quite relatable, and the protagonist morally ambiguous.</p>
+
+<p>Idirans are monotheists, modeled on the fervent Jewish/Muslim variety. They range from zealots to pragmatists, but all have a clear sense of identity about them. Physically and spiritually my mind renders them as the Protoss from Starcraft. Except they have three limbs, and are in symbiosis with another race of six-limbed sentient beings.</p>
+
+<p>The culture is sort of a macrocosm of Western society, far more technologically advanced, and taken to an extreme. All things, strengths and weaknesses are exaggerated. They rely heavily on sentient machines, and creatively named spacecraft. The lifestyle is decadent and are subject to the <em>Tyranny of Convenience</em>. The have a general lack of conviction, and no skin in the game.</p>
+
+<p>Ultimately, Horza is killed by an Idiran that mistrusts him. A moral lesson from Mr. Banks? The non-Hollywood ending is refreshing, given the superhero-like attributes of the protagonist.</p>
+
+<p>The scale conveyed in this novel is huge, and well executed. The destruction of the Vavatch orbital is well described. Epic battle scenes are extremely cinematic and would play out well in an adaptation to the screen. But the end could have been shortened significantly. I was quite tired of the endless underground tunnels of Char's World. Overall, a fun read if you're into a fast paced, sometimes ridiculous action novel.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Why Information Grows by Cesar Hidalgo</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/why-information-grows-by-cesar-hidalgo"/>
+    
+    <updated>2021-05-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/why-information-grows-by-cesar-hidalgo</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Why Information Grows starts off strong with an accessible introduction to information theory and some interesting physics-inspired ideas. Sadly, as the book proceeds, it becomes clear that the author has pieced together multiple essays that were and remain loosely connected. It's clearly a derivative work, often far less clear than the books that are cited.</p>
+
+<p>That said, a few things stood out for me:</p>
+
+<ul>
+<li>Prigogine's work on <em>Dissipative systems</em> and their applications. </li>
+<li><em>Artifacts as crystallized imagination</em></li>
+<li>The <em>Resource curse</em></li>
+</ul>
+
+<h1>Information is the opposite of entropy</h1>
+
+<p>Information is stimuli that has meaning in some context for its receiver. There is some relationship between information and complexity and information and order but Hidalgo dances around this question.</p>
+
+<h1>Information in the universe is fractally distributed</h1>
+
+<p>Information is rare in our universe. As far as we know, Earth is one place where information is highly concentrated. Earth is to information like black holes are to matter. This observation struck me as very anthropocentric. Maybe I'm reading too much science fiction!</p>
+
+<p>On Earth, information is not uniformly distributed. Specific countries, companies, and individuals seem to represent more of it.</p>
+
+<h1>Rubic's cube example from an info theory perspective</h1>
+
+<p>The author does a decent job of explaining basic information theory. I liked his Rubic's cube example:</p>
+
+<ul>
+<li>There are e19 different states in the system.  </li>
+<li>The most information is in the lowest entropy state, the solved solid colored state</li>
+<li>You can’t just jump to the solved state without cheating</li>
+<li>It takes under twenty moves to solve a cube from any state</li>
+<li>Most algorithms take longer than the theoretical optimum sequence of moves.</li>
+<li>Most random moves cause entropy to increase.</li>
+</ul>
+
+<h1>Information state changes are constrained</h1>
+
+<p>The Rubic's cube can't go from any state to any other state unless you cheat and detach the cubes from the cube's core. The only valid moves are rotations. This is a profound point that I think is super relevant for any policy discussions. Often it’s very clear what a desired state of affairs is, but very unclear how to get to there. </p>
+
+<h1>Encoding information</h1>
+
+<p>Application to DNA: interesting sequences that code for something important are usually the least random ones. (Really?) Notably these information rich states don’t tell us about what this DNA means. Meaningless forms of order. </p>
+
+<p>Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in <em>Seeing Like a State by James Scott</em> and сноровка. </p>
+
+<h1>Energy flows cause spontaneous order</h1>
+
+<p>Entropy only increases in a closed universe. Meaning that this universe has no flow of energy into or out of it. </p>
+
+<p>Ilya Romanovich Prigogine, a Russian Jewish born Belgian studied <em>Dissapative systems</em>, which are systems far from thermodynamic equilibrium, with substantial steady-state flows of energy. Earth is such a system because the sun is the source of all our power.</p>
+
+<p>In situations where there is a steady state, there is a tendency for spontaneous order. A whirlpool will spontaneously appear when you open the drain to a bath tub. Are there other simple examples?</p>
+
+<p>This is super cool! Imagine all of life as a sort of very complex whirlpool. Actually, Ted Chiang kinda did in a more poetic version of this idea found in the story called Exhalation. <em>Exhalation by Ted Chiang</em></p>
+
+<h1>Information can be stored in solids</h1>
+
+<p>Information can be preserved, and this preservation is best done in a solid state of matter, especially if it is non-uniform (eg. not a simple solid crystal, more like an organic molecule). The canonical example of this is DNA. </p>
+
+<p>I didn't really like Zen and Art of Motorcycle Maintenance, but this quote works well here:</p>
+
+<blockquote>
+  <p>That's all the motorcycle is, a system of concepts worked out in steel. There's no part in it, no shape in it, that is not out of someone's mind - Robert M. Pirsig</p>
+</blockquote>
+
+<h1>Goldilocks zone for information to appear and remain</h1>
+
+<p>Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from <em>Where Good Ideas Come From by Steven Johnson</em>). But if it’s too liquid, solids can’t form to store that information. </p>
+
+<blockquote>
+  <p>There are no long chains of proteins in the sun</p>
+</blockquote>
+
+<p>Energy is needed for information to emerge and solids are needed for information to endure. For information to explode we need the ability of matter to compute. </p>
+
+<h1>Simple computation, very broadly defined</h1>
+
+<p>Hidalgo defines computation extremely broadly. You don’t even need life for computation to occur in the natural world. He introduces a simple example of computation, a <a href="https://en.wikipedia.org/wiki/Chemical_clock">chemical clock</a>, in which a set of regents can be mixed together to make a reaction that transitions in states at predictable time frames. Trees also compute in a similar way. </p>
+
+<p>I don't really see what practical connection there is to computation the way we think of it more colloquially. </p>
+
+<h1>Products as crystallized imagination</h1>
+
+<p>Everyone uses toothpaste. Very few know how to produce sodium fluoride, or how to get it into that tiny tube. Toothpaste the product gives billions of people access to the practical benefits that a small group of toothpaste inventors created. Products allow us to transcend our individual limits. Toothpaste gives everyone the ability to maintain our teeth into old age. </p>
+
+<p>Crystallized information comes in many forms. Most of human activity is like this. Writing, speaking, music making, dancing. But Hidalgo only cares about products. Products empower others with practical uses of your ideas. </p>
+
+<p>The economy then is the substrate that allows products to spread from one individual to another. </p>
+
+<p>I'm mildly annoyed at the author for:</p>
+
+<ol>
+<li>Not really justifying why he's so obsessed with products specifically. From an information growth perspective, does art not also compound?</li>
+<li>Calling these things "products". It's very capitalist-y for no good reason. I strongly prefer artifacts.</li>
+</ol>
+
+<h1>The bad stuff</h1>
+
+<p>The first part of the book discussing information theory and Prirogine's ideas was quite good. </p>
+
+<p>Next, Hidalgo tries to apply information theory to people, companies, countries, and the global economy. This gets increasingly awkward. </p>
+
+<h2>Personbytes, a useless analogy</h2>
+
+<p>The personbyte is a transparently info theory derived quantity that's supposed to somehow represent a person's raw potential, I guess? The analogy is not great but illustrates a point. The information-theory notion of a byte is clean and mathematically precise. Applying it to people seems oddly reductive. People vary hugely in their potential and are products of their culture which is perpetually evolving. Stripped of this, we are just smart monkeys. My personal preference is to not introduce this faux-information theory concept. The same points could be made better without it.</p>
+
+<p>Hidalgo's ultimate point is well taken: that the crystallized imagination encoded in artifacts increase your own imaginative potential. This puts you in a sort of a network with other people, and being part of this network lets you create more complex output. It’s much easier to build an electric scooter if your job is to put pieces together rather than inventing battery, electric motors, aluminum welds etc.</p>
+
+<h2>Firmbytes...</h2>
+
+<p>Hidalgo continues down this road and introduces the firmbyte, a unit of quantization for companies. Similar critiques apply.</p>
+
+<p>Ford once had a plant called <a href="https://en.wikipedia.org/wiki/Ford_River_Rouge_Complex">The Rouge</a> that created cars end-to-end, taking iron ore, soy beans, rubber as input, then performing the whole manufacturing process (refining, smelting, forming, cauterizing, etc). This facility spanned an area roughly 2km x 2km and employed 100,000 people. This isn't common practice anymore.</p>
+
+<p>Manufacturers don’t generally own the whole production line from raw material to final product. There is a natural unit size for a company, and that is the firmbyte. Again, extremely fuzzy, maybe inspired by information theory. Do not want.</p>
+
+<p>The point here is even weaker: some things require multiple companies, or firmbytes to create. If there's too much friction to doing deals between companies, large networks can't be formed. Free trade agreements and standardization reduce friction between companies.</p>
+
+<h2>Imagination trade imbalances</h2>
+
+<p>Blending the idea of crystallized imagination and global trade, Hidalgo considers trade imbalances from the perspective of imagination. In the trade between Korea and Honduras, there is an imagination trade imbalance, with Korea providing in the commodity of imagination. He then ranks countries in terms of how much information capital they produce. Again, meh. </p>
+
+<p>Hidalgo touches a bit on the <em>Resource curse</em>. This would be interesting to understand in more detail. https://en.m.wikipedia.org/wiki/Resource_curse</p>
+
+<h2>More derivative stuff</h2>
+
+<p>In the spirit of being a random amalgamation of cool ideas Hidalgo likes:</p>
+
+<ul>
+<li>High trust enables lower transaction costs, as per <em>Bowling Alone by Robert Putnam</em></li>
+<li>Family is for communism, market is for capitalism.  <em>Debt by David Graeber</em></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Emotional Life of the Toddler</title>
@@ -4641,187 +4885,6 @@ Actually no. Not on the internet.</p>
 <p>This book was a trusty reference for me when things got a bit dicey. Rather
 than reading daddy or mommy blogs (urgh), a quick look at the relevant age was
 sometimes helpful in calming the nerves. I'd recommend it to a new father.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Tribe by Sebastian Junger</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/tribe-by-sebastian-junger"/>
-    
-    <updated>2019-01-18T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/tribe-by-sebastian-junger</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Junger disparages modern western life, and has a very fond attitude towards
-traditional hunter-gatherer civilization.</p>
-
-<p>"How do you become an adult in a society that doesn’t ask for sacrifice?" he
-asks. "Modern society has perfected the art of making people not feel
-necessary," he asserts. Modernity provides affluence and safety, but it's
-incompatible with freedom and equality. It's easy to spend a day in a modern
-society while "surrounded by others and yet feel deeply, dangerously alone."
-"As affluence and urbanization rise in a society, rates of depression and suicide
-tend to go up rather than down," Junger says. Modernity is fucked, Junger says,
-without citing Rousseau. It just ain't natural. Without hardship, you don't
-really <strong>need</strong> friends.</p>
-
-<p>On the other hand, Tribal society, while not perfect, was, and let's be honest,
-pretty fucking awesome! So awesome, in fact, that "a surprising number of
-Americans—mostly men—wound up joining Indian society rather than staying in
-their own." I found this surprising, and sadly, there was no citation. You don't
-really need to be a hunter gatherer, though. You can just be from Soviet Russia
-(this resonated): "Adversity often leads people to depend more on one another,
-and that closeness can produce a kind of nostalgia for the hard times that even
-civilians are susceptible to." Junger makes the distinction between family and
-tribe explicitly: "Even if he or she is part of a family, that is not the same
-as belonging to a group that shares resources and experiences almost everything
-collectively." I thought of the compania.</p>
-
-<p>But even in shitty modernity, if the circumstances are dire enough, people can
-still come together and act tribally:</p>
-
-<ul>
-<li><p>Male Youth: "They drive too fast, get into fights, haze each other, play
-sports, join fraternities, drink too much, and gamble with their lives in a
-million idiotic ways."</p></li>
-<li><p>War: "Emile Durkheim found that when European countries went to war, suicide
-rates dropped."</p></li>
-<li><p>Disaster: "social bonds were reinforced during disasters, and that people
-overwhelmingly devoted their energies toward the good of the community rather
-than just themselves."</p></li>
-</ul>
-
-<p>In the US, soldiers risk a 20 percent chance of PTSD. "they return from wars
-that are safer than those their fathers and grandfathers fought, and yet far
-greater numbers of them wind up alienated and depressed. This is true even for
-people who didn’t experience combat." Remarkably, in Israel, "Despite decades
-of intermittent war, the Israel Defense Forces have by some measures a PTSD rate
-as low as 1 percent."</p>
-
-<p>Junger thinks that re-entry into American is so difficult because the military
-is so close-knit, while modern life is so individualistic. "Soldiers experience
-this tribal way of thinking at war, but when they come home they realize that
-the tribe they were actually fighting for wasn’t their country, it was their
-unit." Compounding the problem is the public's "thank you for your service,"
-which rings hollow and reflects a distance from the war itself. Indeed, it's
-an ocean away. Further, ever since Vietnam, much of the public has had a
-principled disagreement with America's wars.</p>
-
-<p>Junger wants to bring veterans and civilians closer together, to ease
-re-integration. "More dignified might be to offer veterans all over the country
-the use of their town hall every Veterans Day to speak freely about their
-experience at war." Interesting start.</p>
-
-<p>This struck a chord:</p>
-
-<blockquote>
-  <p>The public is often accused of being disconnected from its military, but
-  frankly it’s disconnected from just about everything. Farming, mineral
-  extraction, gas and oil production, bulk cargo transport, logging, fishing,
-  infrastructure construction—all the industries that keep the nation going are
-  mostly unacknowledged by the people who depend on them most.</p>
-</blockquote>
-
-<p>Nodding, I wondered: how disconnected am I? Why don't we go build a <a href="https://www.opensourceecology.org/">house or a
-tractor</a>, or maybe learn the answers to some
-of <a href="https://kk.org/cooltools/the-big-here-qu/">these questions?</a></p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>12 Rules for Life</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/12-rules-for-life"/>
-    
-    <updated>2019-01-17T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/12-rules-for-life</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>One of my rules for life is: listicles are always clickbait, even in book form.
-There is a balance to be found between order and chaos. These rules are
-Petersons take on where that balance should be. I come at this with a dislike
-for Peterson. I first heard him on a Sam Harris podcast and he came off as a
-deliberate obscutantist. Also, the pronouns debate seems like a foolish hill to
-die on. But when I. told me that he respected Peterson's ideas, I decided to
-give the book ago. Spoiler alert: I got through about a third.</p>
-
-<p>Tidbits I found interesting:</p>
-
-<ul>
-<li>Classical music is a good illustration of fat head distributions / Matthew's
-law / Price's law / Zipf's law. There are not many prominent composers and few
-of their pieces are performed on a regular basis.</li>
-<li>The Yin-yang symbol is actually about chaos and order, masculinity and
-femininity.</li>
-</ul>
-
-<p>Most of Peterson's book is super annoying. Why the emphasis on the dominance
-hierarchy? Sure it exists but is it the most fundamental thing about human
-existence? After they're also other aspects to life that may be more important?
-Peterson's is a classic zero sum framing of life, explicitly so in some places.
-Petersons take on the snake as a primordial enemy that coevolved with humans is
-a classic just so story. He ties it into Mary and Christ too, for good measure.
-It's not credible, but his ability to spin a story is impressive. </p>
-
-<p>Peterson seems to be writing for an audience of very low self-esteem men. This
-is a recipe book for escaping this rut, at worst by becoming a narcissistic
-psychopath. By rule four, I'd had my fill and decided to cut my losses.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Building a Bridge to the 18th Century</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/building-a-bridge-to-the-18th-century"/>
-    
-    <updated>2019-01-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/building-a-bridge-to-the-18th-century</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Neil Postman has strong opinions:</p>
-
-<ul>
-<li>The 18th century was awesome. </li>
-<li>Postmodernism is always, unequivocally bad. </li>
-<li>You don't need typewriters or computers, paper and pen is good enough. </li>
-<li>People are getting stupider and stupider. </li>
-<li>Defeating straw man arguments is super fun. </li>
-</ul>
-
-<p>Postman cites many great thinkers in a way that is clearly erudite. However the
-book is rather short and covers a lot of ground, making his name dropping quite
-annoying. Rather than delivering deep points, Postman remains on the surface,
-hinting at the existence of various philosophical ideas that he is intimately
-familiar with. All this while struggling to structure a coherent narrative. </p>
-
-<p>I found the book mostly useless. It's a shallow summary of some stuff I already
-knew, and set forth an exaggerated technological pessimism that I, to some
-extent, share. In my most charitable view, Postman's over exaggerated positions
-were intended to provoke thought for some hypothetical starry eyed silicon
-valley entrepreneurial techno-optimist. Unfortunately, Postman's position is so
-extreme and arguments so cliched, I found myself rooting for the other side. </p>
 
 
         
