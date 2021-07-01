@@ -4,6 +4,218 @@ class: split
 type: book
 
 
+Medieval Technology and Social Change
+===
+posted: June 30, 2021
+rating: yes
+cover: /assets/book-covers/medieval-technology.jpg
+
+I'm clearly on a serious history of the Middle Ages kick. I found this book by just searching the internet inspired by earlier courses on Medieval history, and didn't really know what I was getting into. Apparently it's really famous and influential among Medieval scholars, even causing the [Great Stirrup Controversy](https://en.wikipedia.org/wiki/Great_Stirrup_ContrWoversy).
+
+This book was clearly written for academics. Latin and French quotes remain
+untranslated, even in footnotes and endnotes. Yet somehow despite this, it is
+engaging and readable.
+
+It's great fun to try to integrate viewpoints on the same topic (Middle Age
+Technology) and begin to start to fill in the gaps. One great benefit of
+focusing on the Middle Ages is that there wasn't as much technology to speak of.
+This helps focus in on fewer things, and constraints are good.
+
+# History of Horses in Combat
+
+1. Horse chariots, in which a two wheeled cart is used as a moving platform for combat.
+2. Mounted archers and light combat on horseback.
+3. Knights, using combined weight of horse, rider and armor.
+
+# Charles and the Knights
+
+Charles Martel and his descendants saw the potential of using horses for mounted shock combat. (White seems to ignore high backed saddles and the couched lance technique, with a shocking emphasis on stirrups.) Using armies of knights, Martel the Hammer defeated the Arabs and retook many lands, rebuilding a shorter lived spiritual successor to the Roman empire. With knights proving so effective, there was a need for more knights. This led to a vast proliferation of feudalism, enabling new upwardly mobile vassals to gain access to lands required of a knight, and ultimately cemented this new style of warfare. By 1000, the Latin "miles", which had meant soldier, began to mean knight. 
+
+White has a great discussion about the “diffusion” of stirrups. In general this lens of [[Diffusion of Technology]] is one to keep in mind. I've adopted it in my random walk into [[Age Heaping Using Canadian 1852 Census data]]. As White eloquently puts it,
+
+> As our understanding of technology increases, it becomes clear that a new device merely opens a door; it does not compel one to enter. The acceptance or rejection of an invention, or the extent to which its implications are realized if it is accepted depends quite as much upon the condition of a society, and upon the imagination of its leaders, as upon the nature of the technological item itself.
+
+The [[Second order effects and unintended consequences]] of this shift were massive. Horses were expensive to buy and maintain, armor was becoming heavier to be effective against lances with the force of thousands of pounds at its tip. Equipment for one knight seemed to cost about 20 oxen (a peasant family relied on 2). Knights often had squires, and multiple spare horses.
+
+Charlemagne and other Carolingian kings encouraged peasants to band together and choose one of them to fight as a knight. Since land was the source of power of the time (money was not as key), the landed knights became the nouveau riche, creating a large gulf between them and the peasantry from which many of them came.
+
+The old Germanic (nit: wasn't it the case in Rome too?) idea that every freeman was a soldier was now replaced by a professional fighting class.
+
+Because of all the armor, knights became virtually unrecognizable and needed to develop some visual identification, and thus tradition of heraldry was born.
+
+The cross bow emerged, either revived, or borrowed from the Chinese to penetrate knight's armor.
+
+
+# Farming Practices
+
+Cross plowing was a technique to till tougher northern soil with a scratch plow. Furrows were made horizontally and vertically. This led to square fields. The moldboard plow, also known as the heavy plow eliminated the need for cross plowing because single furrows were deep enough for northern lands. It was also far more efficient. This made the fields long and narrow. (White does not mention the other reason for long fields: that ox teams were hard to turn.)
+
+The heavy plow was wheeled and required an eight ox team. This required collaboration between peasants and led to closer ties and village councils. Large fields collectively owned were doled out to villagers in sequence. In contrast, southerners using scratch plows remained individualistic. 
+
+Diffusion of this technology was difficult and required a large population density. Another challenge was that collaboration was required between peasants to join plots together for this new farming practice. 
+
+Nailed Horseshoes were another key invention for agriculture. In Italy the warm climate worked well for unclod horses. But in the north, the climate and soil was such that horse hooves would often break. 
+
+The need for horses to carry more weight (armored knights) led to selective breeding of destriers. These stronger horses inevitably interbred with peasant farm horses, leading to stronger offspring. 
+
+Horses with padded collars could exert as much force as oxen. But moved much faster, so could output a lot more power. More speed let to more harrowing which was more effective at breaking up clods.
+
+Yet the ox did not spread as quickly in England as one might expect. White suggests that this may have been because of a reluctance due to a lack of skin in the game, related to [[Does your output affect your paycheck?]].
+
+> the real reason for his favoring the ox at the plow emerges when he remarks that 'the malice of the ploughmen does not permit a horse-drawn plough to go any faster than one pulled by oxen'. This kind of slow-down may have affected the ploughing of demesne lands done reluctantly under manorial obligation but it would not apply when peasants were working their own fields.
+
+Other benefit of switching to horses was that they could be used as transport. During Roman times, cost of goods doubled every 100 mi of overland transport. This meant that viable farmland was situated only along rivers. During Roman times, most vehicles were two-wheeled. The first horse-drawn four-wheeled wagons appeared by 13th century and reduced overland cost so much that transport over 100 miles increased by just 30% (a 70% savings). This expanded viable farmland further from rivers, allowed a lot more farmland, and increased overall carrying capacity.
+
+Wagon inventions:
+
+- Pivoted front axles
+- Adequate brakes
+- Whipple trees
+
+Because of the horse, peasants didn't need to rely entirely on merchants, but could get their goods to market on their own.
+
+Horses also gave them more mobility, and many were able to move to form larger settlements and benefit from amenities there: the commune, a church, a tavern, more suitors, markets, etc. Horse as transport enabled them to commute to their fields daily.
+
+(This is all so interesting from the perspective of complex systems and feedback
+loops...)
+
+## Three field rotation
+
+First recorded in 763, this practice became ubiquitous by 800 (shockingly fast). Previously, Europe had practiced the two field rotation invented by Romans. The old system alternated two halves, with one planted, the other left fallow. 
+
+The three field system split holdings into three sub-fields. The peasant planted winter crops (winter wheat or rye) on field 1, then summer crops (oats, barley, lentil, etc) on field 2, and left field 3 fallow. Next year, fields do a circular shift. 
+
+This had many advantages over the two field rotation:
+
+- 2/3 land utilization during the year (vs. 1/2).
+- More crop variety means more resiliency to droughts.
+- Better yields since legumes fix the nitrogen in the soil.
+- Oats for horses! Oats are much more nutritionally rich than grass, allowing many more horses to work in agriculture. 
+- A more even workload for farmers throughout the year.
+- Legumes provided extra nutrition for protein starved peasantry.
+
+
+# Mechanical power
+
+Mechanical power experiments were done in antiquity - e.g. with Hero's Aeolipile, a proto-steam engine. But inventions like these did not get refined and was never put to use at scale until the middle ages.
+
+(Not mentioned in White's book, but it appears that labor was very cheap in the early middle ages, with agricultural slaves being common. Towards the high middle ages, slaves are replaced by serfs, and are then set free to work as smallholder farmers. The cost of labor goes up further after the population is decimated by the Black Death. All of this drives the demand for cheap power.)
+
+## Water power
+
+Water mills became common around the 11th century. By this point the Vitruvian design had won out: a vertical wheel that turned a horizontal shaft. Earlier designs used a horizontal wheel and a vertical shaft, but did not require gears. Domesday reported that 5000 water wheels were in place for 3000 villages, circa 1086. Tidal wheels were also used, with some early examples on the Adriatic.
+
+## Wind power
+
+Wind power was originally harnessed in Tibet and China where mantras written on scrolls were placed on bookshelves which rotated by power of wind to increase their holiness. Windmills in Europe spread quickly. They could produce less power than water mills, but do not require a strong river flow. Also, they are immune to rivers freezing in winter or drying up in fall.
+
+Applications of this mechanical power included mostly milling grain but also filling cloth, sawing wood, crushing olives, operating bellows for blast furnaces, turning grindstones to polish metal, mincing paper pulp. 
+
+> The late Middle Ages has indeed been described as a “medieval industrial revolution based on water and wind.”
+
+An interesting aside is that the Aelopile did have a direct application in the Middle Ages: a blower to keep fires oxygenated and burning more evenly called a sufflator.
+
+## Pneumatic weapons
+
+Other pneumatic devices may have been inspired by a blowgun from Malay. This design was apparently appropriated by Arabs and eventually made its way to Europe around the middle ages. If you continue the logical chain, the idea of having a barrel and a projectile means that the simple blowgun was a precursor to the musket, as well as the steam engine. Succinctly:
+
+> The cannon is not only important in itself as a power-machine applied to warfare: it is a one-cylinder internal combustion engine, and all of our more modern motors of this type are descended from it.
+
+Corned gunpowder was a major refinement I’d not heard of. http://firearmshistory.blogspot.com/2016/07/black-powder-vii-corned-powder.html?m=1
+
+## Gravity-based weapons
+
+Gravity based mechanical machines. The trebuchet emerged sometime in 11th (?) century and greatly improved on the Roman catapults, able to hurl 300 lb stone 300 yards using a long 50 ft lever arm and a heavy counterweight. Massive improvement over the Roman stars, 60 lb stone 450 yards. In siege warfare the mass of projectile matters most. 
+
+# Mechanisms and mechanical engineering
+
+Cranks… not sure why this section feels so dull right now. This reader struggled through a long discussion about cranks and when they were invented. Apparently not until 10th century or so in Europe. 
+
+Okay but seriously, cranks are important as a precursor to the pistons and in general the conversion of reciprocating motion into rotation or vice versa. If the driving force is reciprocation, you end up with a significant dead zone to get through. This is solved with a compound crank (as in a two stroke engine) and aided by Flywheels, which don’t appear until 14th century. Tangentially related, I really enjoyed [this marvelous interactive explanation on the internal combustion engine](https://ciechanow.ski/internal-combustion-engine/).
+
+Treadles, or foot pedals that drive a rotating mechanism, are first found in China around the 2nd century, and then in Europe around the 12th century. Spinning wheels use treadles but also use belt drive and multiple subsystems that run at different speeds. 
+
+Ultimately these increasingly sophisticated mechanisms enabled mechanical clocks, which involved many mechanisms rotating at different rates. Water clocks had been an improvement over sundials but had many shortcomings. For example, they didn’t operate in freezing temperatures. 
+
+Was there a gravity-based alternative to water clocks? A trebuchet-like idea was used and eventually culminated in mechanical clocks in the 14th century. These clocks were extremely elaborate, less functional and more status symbols and statements.
+
+> Giovanni's clock was only incidentally a timepiece. It included the celestial wanderings of sun, moon, and five planets. And provided a perpetual calendar of all religious feasts, both fixed and movable. 
+
+Wrist watches were even trickier since they relied on springs which uncoiled and provided variable force during their uncoiling. These led to the [escapement](https://www.youtube.com/watch?v=BoeP0adbDKg) mechanism, and the [fusee](https://youtu.be/cpVkTSZrg_A?t=100), both impressively complex mechanisms:
+
+> Perhaps no problem in mechanics has ever been solved so simply and so perfectly - Gawaine Baillie
+
+It’s funny how underrated this time is from tech perspective, at least in the popular imagination. To me it feels like a veritable industrial revolution.
+
+> Indeed, the four centuries following Leonardo, that is, until electrical energy demanded a supplementary set of devices, were less technologically engaged in discovering basic principles than in elaborating and refining those established during the four centuries before Leonardo.
+
+# Perpetual motion
+
+All of these mechanical inventions were inspired by the ideal of a perpetual motion machine. This was not so outlandish pre-thermodynamics, given that windmills and water mills appeared to be moving perpetually. Perpetual motion through Gravity and magnetism became the holy grail. 
+
+Roger Bacon c. 1260 imagined:
+
+> Machines may be made by which the largest ships, with only one man steering them, will be moved faster than if they were filled with rowers; wagons may be built which will move with incredible speed and without the aid of beasts; flying machines can be constructed in which a man... may beat the air with wings like a bird... machines will make it possible to go to the bottom of seas and rivers
+
+
+Asides:
+
+- I wondered if король comes from Carolingian. Nope, it comes from Charlemagne. That said, apparently "Carolingian" and in fact Charlemagne are both named after Charles Martel. In turn, Charles is a name from the common Germanic noun meaning "man". Go figure...
+- Lots of references to Bayeux tapestry. It's [available online...](https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/)
+
+
+Understanding Complexity by Scott Page
+===
+posted: 2021-06-22
+rating: yes
+cover: /assets/book-covers/understanding-complexity.jpg
+
+Overall a dense but short listen. Potpourri of new ideas, and far better than
+[[Why Information Grows by Cesar Hidalgo]]. This lecture is well organized,
+engagingly narrated, with memorable examples. A great, rather intense
+introduction to Complexity.
+
+A criticism I had was that Page attempts to weave too many disparate threads
+together. The final chapter gives practical takeaways but they feel trite and
+don't really integrate the most interesting parts from earlier in the book.
+
+---
+
+Here are some ideas I from the book I found interesting.
+
+[[Wolfram’s four system types]] -
+<https://www.wolframscience.com/nks/p231--four-classes-of-behavior/>
+
+[[Complexity happens in a sweet spot]] - There are four necessary conditions for
+complexity. But it's necessary that all of these conditions be present in
+moderate quantities. Too much or too little of any of them will lead to
+equilibrium, not complexity.
+
+[[Measuring diversity generally speaking]] - <https://en.wikipedia.org/wiki/Diversity_index>
+
+[[Dancing landscape]] - rugged landscapes that change over time.
+
+[[Creative vs. evolutionary processes]] - Evolution is relentless and infinitely
+persistent, like the tortoise. Creativity requires drive from a specific group
+of people, who are finite in energy and time, but can move quickly, like the
+hare. 
+
+[[Power law vs normal distributions]] - Many things are normally distributed.
+But some are power law distributed. Why? Independent events leads to normal
+distribution. Interdependent events leads to power law distributions. 
+
+[[Explore vs exploit trade-offs]] - A well formulated treatment on this subject.
+
+[[Self-organized criticality]] - the idea that many systems approach a critical
+state automatically.
+
+[[Simulated annealing]] - an approach to finding global maximums under certain
+constraints.
+
+[[Complexity is in the eyes of the beholder]] - if you're really smart, checkers
+is just tic-tac-toe, and no longer complex. Is that right?
+
+
 Consider Phlebas by Iain M. Banks
 ===
 posted: 2021-06-06
