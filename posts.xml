@@ -5,8 +5,141 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-08-25T21:40:54-00:00</updated>
+  <updated>2021-09-08T17:46:37-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>File Systems for Thought</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/file-systems-for-thought"/>
+    
+    <updated>2021-09-08T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/file-systems-for-thought</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is <a href="https://subconscious.substack.com/p/composability-with-other-tools">very poor</a>. At the same time, it's pretty clear to me that no single app can serve as my <a href="https://thesephist.com/posts/browser/">second brain</a>. What I need instead is a <a href="https://speakerdeck.com/adewale/tools-for-thought-from-the-memex-to-index-cards?slide=13">System for Thought</a> that supports many different tools working seamlessly together.</p>
+
+<p>The solution I have arrived at is a cloud-synchronized directory of plaintext <a href="https://jenson.org/files">files</a> and images. Here's a visual summary of what's going on in my system for thought today:</p>
+
+<p><img src="/file-systems-for-thought/fs-for-thought.jpg" alt="File Systems for Thought 2021" /></p>
+
+<p>This system has two key advantages: </p>
+
+<ol>
+<li><strong>Tool choice</strong>: I can choose my favorite among multiple existing tools</li>
+<li><strong>Hackability</strong>: I can build my own tools to support specific needs</li>
+</ol>
+
+<!--more-->
+
+<h1>Advantages: tool choice &amp; hackability</h1>
+
+<p>One advantage of this approach is that I can pick and choose which editors to use across multiple platforms. On desktop, I tend to the corpus using Obsidian. On mobile, even though Obsidian recently launched an iOS app, I prefer to continue using iA Writer. Additionally, I can quickly jot notes using a Siri shortcut from an iPhone.</p>
+
+<p>Another advantage is that as a programmer, I have full control to build solutions that work well for my needs. I've built my own scripts to synchronize reading highlights from Instapaper. I have multiple tools do automatically scheduled cleanup tasks, auto-deploy a subset of my corpus to the web. Below, I'll describe these components in more detail.</p>
+
+<h1>Note corpus storage</h1>
+
+<p>My notes are stored in a directory of plaintext markdown files. These are also interlinked with Wiki-style markup. They are currently synchronized to iCloud Drive to make interoperability with iOS easier, while still allowing the notes to be accessed across multiple devices.</p>
+
+<p>In theory, I aim for terse, evergreen notes that use the <em>BLUF TLDR note taking style</em>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
+
+<h2>Small ideas</h2>
+
+<p>I use my note corpus for a lot of unimportant, practical things pretty far from any sort of intellectual pursuit. These include: </p>
+
+<ul>
+<li>temporary shopping lists</li>
+<li>household notes, like car repair and nanny payments</li>
+<li>notes from conversations with people (stored in <code>Meeting notes/</code>)</li>
+<li>daily notes (stored in <code>Inbox/</code>)</li>
+<li>longer term TODO lists like <em>WORK NEXT</em></li>
+<li>notes for new project ideas</li>
+<li>running notes for ongoing projects, like <em>eFoil project notes</em></li>
+</ul>
+
+<h2>Bigger ideas</h2>
+
+<p>I like to read actively and synthesize what I read to try to create a deeper understanding. Some of these notes are half-formed ideas at best, others are taken in a hurry when I am away from a computer. Others aspire to <a href="https://notes.andymatuschak.org/Evergreen_notes">evergreen status</a>. </p>
+
+<p>Anyway, let me describe more of the system in three steps:</p>
+
+<ol>
+<li>Inputs: How do notes begin?</li>
+<li>Synthesis: How are notes refined and intertwingled?</li>
+<li>Output: What do notes turn into?</li>
+</ol>
+
+<h1>1. Inputs: how do notes begin?</h1>
+
+<h2>On a computer</h2>
+
+<p>On Desktop, I tend to have some time and can create a new note start-to-finish. I typically do this with Obsidian, which affords a nice editor and native support for traversal of wiki-style links.</p>
+
+<p>I take meeting notes using Obsidian and store them separately (in <code>Meeting notes/</code>), and make random daily notes which get stored in a daily file such as <code>Inbox/2021-09-08.md</code>.</p>
+
+<h2>On a mobile phone</h2>
+
+<p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <em>Words I didn’t know well</em> when I encounter it for the first time.</p>
+
+<h2>On the go</h2>
+
+<p>Inspiration strikes at the most inconvenient times, often when I'm walking somewhere in nature. On iOS, I use a Siri Shortcut that I built to quickly dictate or type a semi-formed idea that may emerge on the go. Two slightly different shortcuts support both typing and dictation, and the result of either is to append the note text to the daily note (<code>Inbox/2021-09-08.md</code>). The <a href="https://support.apple.com/en-us/HT211781">Back Tap accessibility gesture</a> is quite a handy way of triggering this shortcut.</p>
+
+<p>Siri Shortcuts are a bit more awkward on the Apple Watch, since it takes a surprising amount tapping to invoke. I've also attempted to take notes completely hands free using AirPods by saying "hey siri note" which invokes my awesome shortcut. However this is quite frustrating in practice. Dictating notes, I often take a short pause to gather my thoughts, which triggers the silence detector in this dictation mode, and truncates my input. I'd love to be able to explicitly to trigger the end of dictation while hands free. My preferred solution would be a "safe word". Hufflepuff!</p>
+
+<h2>Reading articles</h2>
+
+<p>My current article reading workflow is to funnel everything into Instapaper. I filter articles from friends, private groups on Discord, twitter, and general web browsing. If from a quick skim the article seems worthwhile, I'll cue up in Instapaper to calmly read at a later point.</p>
+
+<p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <em>Readwise to markdown script</em> runs daily, importing annotations into my note collection for easy referencing.</p>
+
+<h2>While reading/listening to books</h2>
+
+<p>Books feel more wholesome than articles, and afford me the luxury of delving more deeply into an area. Part of it is just that I can spend more time thinking about a single thing. This is both intrinsically pleasing, and can hopefully yield a more insightful synthesis. I typically keep a note for each book review, and append to it roughly while reading or listening to a book.</p>
+
+<h1>2. Synthesis: how are notes refined?</h1>
+
+<p>By synthesis I mean the collision of multiple concepts inside my note corpus into a new idea or insight. This process occurs naturally as I write and am reminded of something I have previously written. This is an iterative process, often done in multiple sittings. It resembles having a conversation with my past self, as ideas are clarified, integrated, and interlinked. </p>
+
+<p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <em>How to Take Smart Notes by Sonke Ahrens</em>.</p>
+
+<p>Tools can also catalyze synthesis. For example, in Obsidian, when typing a new internal link using the double bracket syntax, you are presented with a list of suggested notes based on title. This can sometimes remind me that I have another note that is relevant. Perhaps it should be linked, transcluded, or merged into this one. Notational Velocity was guite good at this, and Obsidian could do much more on this front.</p>
+
+<p>Synthesis also happens when I triage rough daily notes taken on the go, and review highlights from articles. Reading through these half formed thoughts, I sometimes create a new note, or find an old note and append an elaboration.</p>
+
+<p>I've also been experimenting with large language models for synthesis. Specifically, what happens if we take two randomly chosen notes, and then collide them using GPT3? I have a script that technically works but does not produce especially compelling results yet. Stay tuned.</p>
+
+<h1>3. Outputs: what do notes turn into?</h1>
+
+<h2>Manual book reviews</h2>
+
+<p>Once I finish reading a book, I read through the notes I took, organize them lightly, and cross-link to existing notes. Then I store the completed book note in the <code>Book notes/</code> directory, and post it manually on smus.com/books.</p>
+
+<h2>Automatic publishing</h2>
+
+<p>I've started designating some notes as public by placing them in the <code>Public/</code> directory. A daily cron script automatically posts these notes to my new public note host, <a href="https://z3.ca">z3.ca</a>. </p>
+
+<h2>Integration with spaced repetition</h2>
+
+<p>I've made several attempts at trying to use spaced repetition for self-improvement purposes, and many have failed. However, one thing I'm still keen on is to use spaced repetition for improving my English vocabulary. I keep a list of new words I've encountered in a special note, and have tried using some spaced repetition apps to try to cram these. So far the habit has not stuck.</p>
+
+<hr />
+
+<p>I'm excited to see a rennaisance in the Tools for Thought space. Hopefully new
+entrants embrace a more interoperable approach, while still building sustainable
+businesses. But for now, I have kludged together various pieces that together
+feel more like a coherent System for Thought, address my specific needs, and
+allow for interesting experiments in the future.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Diffusion of Literacy in 19th Century Canada</title>
@@ -8379,145 +8512,6 @@ me about $100. This was my first time paying anyone to do work for me.</p>
 helping. Also, thanks to <a href="http://www.kevincennis.com/">Kevin Ennis</a> who kindly donated the
 <a href="http://webaudioapi.com">webaudioapi.com</a> domain which I'm currently using to host the
 samples.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Really simple social syndication</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/really-simple-social-syndication"/>
-    
-    <updated>2013-03-14T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/really-simple-social-syndication</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've been thinking about this for a while, but the recent <a href="http://googlereader.blogspot.ca/2013/03/powering-down-google-reader.html">sunset
-announcement of Google Reader</a> made me revisit this topic.
-Google Reader isn't the only thing that's dead. RSS (aka. Really Simple
-Syndication) has long been proclaimed dead as well. In fact most people
-never even knew what RSS was. That said, it was a very useful tool for
-me and many others that like to stay up-to-date in their areas of
-interest. Increasingly, I've been getting my dose of news through social
-networks. However, social networks contain a lot of noise that I care
-little for. I want to rebuild the RSS spirit using modern social
-networks. This post describes one possible approach, which I refer to as
-<strong>Really Simple Social Syndication (RSSS)</strong>.</p>
-
-<!--more-->
-
-<h2>Really simple syndication: the good old days</h2>
-
-<p>Here's what the content flow used to be with blogs and RSS:</p>
-
-<p><img src="/really-simple-social-syndication/rss-flow.png" alt="RSS-based content syndication" /></p>
-
-<p>It was simple. Really simple, actually!</p>
-
-<h2>Social syndication: today</h2>
-
-<p>I don't care much for social networks. I mostly see them as a two-way
-utility for ultimately connecting content creators to content consumers.</p>
-
-<p>One way, social networks like Facebook, Twitter, G+, etc are just
-vehicles for finding out what to read based on your interests. I spend
-too much time checking them individually for my news, and this is
-unfortunate. </p>
-
-<p>The other way, social networks make it easier to have your content read
-by a bunch of the right people. In my case, the vast majority of
-non-organic search traffic comes from social sources (mostly twitter). I
-waste a bit of time tweeting, and G+ing new posts on my blog as they
-come out, but sometimes they are picked up by others and I don't
-actually need to do that.</p>
-
-<p>As long as the content itself stays outside of the walled gardens of the
-social networks, I think we can come to a syndication solution that
-might rival the old RSS-based one, but enjoy the benefits of having some
-extra signals from all of the social network junk. Here's the model I'm
-thinking of:</p>
-
-<p><img src="/really-simple-social-syndication/social-flow.png" alt="Social-based content syndication" /></p>
-
-<p>Now for a little bit more about Pub and Sub.</p>
-
-<h2>Sub: Requirements for consumption</h2>
-
-<ul>
-<li><p><strong>Reuse existing feeds</strong>. I don't want to re-create my sources. Use
-existing people you follow on Twitter, from G+ circles, Facebook
-friends.</p></li>
-<li><p><strong>De-duplicated content</strong>. Some people post the same link on multiple
-networks. Some popular posts are reshared by everyone. I only want to
-see a post once.</p></li>
-<li><p><strong>Content centric</strong>. Show me the content in some standard, readable
-way. Hide the social stuff unless I explicitly ask. Most of the time I
-don't care where it came from, don't care how many people liked it, or
-what they wrote in the comments. Sometimes I'm curious and want a way
-to trace it back.</p></li>
-<li><p><strong>Social signals as a metric</strong>. If many of my sources share something,
-I probably should at least take a skim.</p></li>
-<li><p><strong>Web based service</strong> so that I can use it anywhere.</p></li>
-<li><p>Set a <strong>volume-based daily quota</strong>. If I'm busy today I'd like to only
-see the top N articles, sorted by some transparent metric of my
-choosing.</p></li>
-</ul>
-
-<p>Flipboard, Pulse, Feedly all sort of fit into this class of readers.
-Ideally this would be an API that just lets me connect a few social
-accounts, and get back a filtered feed of content. This could be the API
-for the product - a Really Simple Social Syndication (RSSS) feed.</p>
-
-<p>Anyone could then build a UI on top of it for their favorite platform
-(Google Reader-like).</p>
-
-<h2>Pub: Requirements for content production</h2>
-
-<ul>
-<li><p>Automatically post content to a bunch of social services. </p></li>
-<li><p>Intelligent shortening of links and content (eg. for twitter, to fit
-in 140 chars).</p></li>
-</ul>
-
-<p>Wordpress plugins, Tumblr and others provide ways to automatically tweet
-and otherwise post new updates to your content. There needs to be some
-other way that works in general for any type of content. Such a service
-could be similar to feedburner, in that it would take an existing RSS
-feed and socialize it.</p>
-
-<h2>Social networks, let's be friends!</h2>
-
-<p>I'm not religious about Google Reader or RSS. It was a good solution for
-content syndication at the time, but I'm ready to accept that perhaps
-it's time to move on. Hopefully with tools like the above, we can have
-something that comes close to the utility of RSS feeds.</p>
-
-<p>Social networks could do some evil stuff which would preclude RSSS from
-happening. Economically, they are incentivized own content, create
-walled gardens, insert advertisements, and prevent access to their
-feeds. I'm hoping that some human element will prevent that from
-happening.</p>
-
-<p>Here is a short list of what we need from the social networks:</p>
-
-<ul>
-<li><p>The content itself must be free from walled gardens (eg. paywalls,
-login walls, etc)</p></li>
-<li><p>Social network feeds are available to read in full, as is, without
-magical suggestions, collaborative filtering, etc.</p></li>
-<li><p>Social networks provide some programmatic way to post content.</p></li>
-</ul>
-
-<p>Once we have a good flow for the production and consumption of content,
-using social networks as a delivery mechanism, I will be very happy to
-minimize the amount of time spent on social networks directly, and focus
-on consuming and producing interesting things. Also, happy &pi; day!</p>
 
 
         
