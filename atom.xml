@@ -5,8 +5,125 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-09-08T17:46:37-00:00</updated>
+  <updated>2021-09-15T14:20:25-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>ABC by Illich and Sanders</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/abc-by-illich-and-sanders"/>
+    
+    <updated>2021-09-15T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/abc-by-illich-and-sanders</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>The Alphabetization of the Popular Mind is an interesting deep dive into the way
+that consciousness evolved throughout history, especially as a result of
+literacy. I guess this is the Illich version of Orality and Literacy (which I
+have not yet read). </p>
+
+<p>In general, the book is overly declamatory, often feels like a sermon. Parts of it are more literary critique, especially where Illich/Sanders delves into specific literary works (Chaucer's Canterbury, Defoe's Journal, Twain's Huck Finn) and tries to make sweeping generalizations based on their novels. Arguments rely mostly on wordplay and clever assertions, but are often unconvincing.</p>
+
+<p>Sections correspond to chapters in the book that I thought were vaguely interesting:</p>
+
+<h1>Text</h1>
+
+<p>The spread of writing turned society upside down in almost every domain. But the authors consider the subtler side. Everything we know about that society is conveyed to us through writing, including everything we know of the oral tradition of the time, leading to a paradox of “oral writing”. </p>
+
+<p>With literacy, trust shifted from a spoken promise in the form of an oath, to a sealed document. Oaths were a conditional curse: let me be maimed if I break this promise. Formerly formulaic speeches like the Danes “by the ships side and the shields rim, by the swords edge and the horses thigh”, ritualized by raising weapon skyward and placing a foot on a stone. Instead of oaths, literacy led to a more legal and binding form of promise. It’s no surprise that we now use the book in the “pantomime of legal gesture”. </p>
+
+<p>Authors points to a rapid increase in writing in the 13th century based on consumption of parchment and sealing wax. According to some records (uncited?), the numbers were 3 pounds a week in 1226, 13 in 1256, 31 in 1266. Similarly, the authors point to the number of recorded royal decrees  1080-1180: 3 to 60 for French kings, 25 to 115 for the English, 22 to 180 for popes. After that it’s exponential. From Pope Innocent III ending in 1215, 280 survive, Innocent IV ending in 1254, 730 survive, Boniface VIII ending in 1303, 50000.</p>
+
+<p>Wills also became determined not by last words on the deathbed or a symbol imbued with meaning but by a sealed document. This transition happened in 12th century when symbols began to be engraved with explicit writings. </p>
+
+<p>Written documents also enabled trust to be formalized. The issuer would create two copies: one for themselves and one for the recipient. Technical details around this included the seal, a signature, a date, creating a copy and storing it in a catalog, which is part of a register. </p>
+
+<p>High Middle Age monks simply remembered where things were without a system. Earliest known scrutinium (monastic catalogs) were introduced in 1170. This is also the advent of libraries. </p>
+
+<p>Writing enabled exact copying of materials, which became desirable. In 1283 Cambridge hired its first corrector whose job was to check documents according to form, legibility, word order, and spelling. Documents being identical became a criteria for legal validity. </p>
+
+<blockquote>
+  <p>Two hundred years before Gutenberg, archives gave rise to the intellectual prototype of printer matter: an original from which a number of identical copies had been produced and written. </p>
+</blockquote>
+
+<p>Even people required “identification” (written credentials that are identical to your person). No wonder the domesday book doesn't include a list of people — there was probably no accounting of individuals at all at the time.</p>
+
+<p>Around this time a written chronicle of time emerged too, an essential piece of cataloging many charters. Notaries would travel around and witness and date major transactions around them, from the birth of the Lord. This gave a new dimension to text: time. Documents could be ordered by recency. Time in general grows in importance as a result. In the dance of death genre, the hourglass is prominently displayed. Time is scarce. </p>
+
+<p>In the 12th century, news needed to be proclaimed orally (by a herald, “heard”) for it to be official. The written copy (if any) was just a record of the oral delivery. A signet ring served as seal and was accompanied with arbitrary and ever changing signature. But then as courts became more concerned with authenticity, this practice changed into the 14th century and onwards. The author also writes that vellum (calf) was replaced with membranum (sheep) supposedly thinner, harder to erase and prevented forgeries. (This is surprising since I think vellum was more sought after). Slowly text became the medium of guarantee. </p>
+
+<p>This is reflected in art: The Last Judgement involves the Archangel Michael depicted with a book in which the text of ones life is recorded and decisions made. </p>
+
+<p>Early “writing” did not involve clutching a pen and drawing letters on parchment, but dictating to a scribe. So initially there was a gulf between writer and author. Wax tablets also played some role in writing, mostly for temporary note taking. (Interesting that this hasn't really been a focus in other works I've read on this topic.)</p>
+
+<p>Words were initially not separated at all, but spaces between became common around the 7th century (confirm with <em>Carolingian minuscule</em>), in order to teach Latin to the barbarians as a foreign language. </p>
+
+<p>Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved. </p>
+
+<p>Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century. </p>
+
+<p>Also see <em>Reading and writing transition in the 12th century</em>.</p>
+
+<p>In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!). </p>
+
+<p>Previously text and images were deeply interwoven. The <a href="https://www.youtube.com/watch?v=qtQAsvUiwPg">Book of Kells</a> and the <a href="https://en.wikipedia.org/wiki/Lindisfarne_Gospels">Lindisfarne Gospels</a> provide two such examples. Now a monolithic text heavy manuscript was gaining shape, with structure and chapters and quotes separated visually from the rest of the content. </p>
+
+<p>Another major change was that rather than always reading aloud, reading became a mostly silent pursuit. </p>
+
+<h1>Self</h1>
+
+<p>I enjoyed the Text chapter of this book, so decided to read on. The section on self is basically a great takedown of autobiographies. </p>
+
+<blockquote>
+  <p>Autobiography is born out of hubris. In Franklin's case his autobiography grows out of the hubris of America’s emerging power - its myths and ideals - a power that actually thrives on mistakes. One merely seized upon them as Franklin makes clear and turns them into substantial financial success. Autobiography amplifies that power: since a person is literally creating a new being, he can smooth out the rough transitions in his life, clean up the mistakes to produce a polished and attractive literary self. </p>
+</blockquote>
+
+<blockquote>
+  <p>A chief obstacle to writing a modern autobiography is its ending. How can it end, really, reach its final conclusion, until the writer is dead?</p>
+</blockquote>
+
+<p>Malcolm X's autobiography is published posthumously. Maybe that's the ticket?</p>
+
+<h1>Untruth and narration</h1>
+
+<p>Love the Latin expression “ex suo digito suxit” - высосано из пальца - sucked out of ones finger. Finger and fiction are apparently connected through this? But I haven't been able to verify.</p>
+
+<p>St Augustine defined every lie as an assault on the God given truth. A contempt of God. Fascinatingly this precludes fiction in the traditional sense of being fully invented. Epic bards retell old stories that really happened, not fictions. Storytellers too, are not inventing but retelling. Chaucer (1386) is supposedly the first English author to spin a tale. But he does this not explicitly, couching heavily. </p>
+
+<p>Chaucer writes just as England is moving from a culture of orality to literacy. And finds himself in an awkward position between fact and fiction. He needs to have Canterbury story taken as truth “for this is the way readers come to enter into any fictional dream” and goes to great lengths to do this. He makes himself one of the pilgrims, and tells a story “Tale of Sir Thopas” which is so boring that the fictional hosts ask him to stop. But apparently “too much truth can get Chaucer into theological trouble”. Why???</p>
+
+<p>Defoe writes a book entitled "Journal of the Plague Year" which is a semi-fictional journal of a man living in London in 1665, the last major plague outbreak. Authors claim that this is the first novel, but this is completely ludicrous. In fact Robinson Crusoe came before this Journal, which immediately nullifies many of the claims made. There are <a href="https://en.m.wikipedia.org/wiki/List_of_claimed_first_novels_in_English">many other candidates</a> for first novel too. Anyway, the authors really focus on the word “novel” and how it is closely related to “news” and shares the Latin root “novus”, new. Who cares?</p>
+
+<p>By this point it is clear that this chapter has evolved into speculative literary criticism with very tenuous arguments based on word games. The end is especially cringeworthy, with a vast narrative being cobbled together on the basis of the three works encountered. It’s very shaky and very ideological and not convincing at all. A little reminiscent of Deschooling, but worse.</p>
+
+<h1>Newspeak and UNIQUACK</h1>
+
+<p>Speculative literary criticism continues into the 20th century, this time with Orwell's 1984. Fascinating pointers, but not much substance. </p>
+
+<p>Basic English was a subset of English (less than 1000 words) popular in the 1950s as a universal language designed to increase international collaboration. Apparently Orwell was into it initially, then worked for the institute promulgating it and realized this was a terrible idea.</p>
+
+<p>The authors declare that words like energy, sexuality, transportation, education, communication, information, crisis, problem, solution, are too vague, and “amoeba-words”. I don't understand why. Many of these have precise meaning depending on context. Maybe the authors felt that people don’t generally know these precise meanings and misuse them?</p>
+
+<h1>Silence</h1>
+
+<p>Authors introduce an idea of “alphabetic silence”: pauses between words, silent contemplation of text, meditative thought. </p>
+
+<p>I enjoyed the interpretation of the Ten Commandments. What did the Israelites hear when they received the ten commandments? A few theories:</p>
+
+<ol>
+<li>They heard them all in the Divine Voice</li>
+<li>They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses. </li>
+<li>They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”</li>
+</ol>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>File Systems for Thought</title>
@@ -5027,96 +5144,6 @@ Due to the harsh conditions of the region, engineers really needed to build soli
   </blockquote>
 </blockquote></li>
 </ol>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Toddler’s First Music Box</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/toddler-music-box"/>
-    
-    <updated>2019-09-26T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/toddler-music-box</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better! </p>
-
-<p>So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:</p>
-
-<p><a href="https://www.youtube.com/watch?v=nS879aGP6O0"><img src="/toddler-music-box/final-box.jpg" alt="My daughter’s music box" /></a></p>
-
-<!--more-->
-
-<h1>Building a portable music player</h1>
-
-<p>My first instinct was to try to build this using a Raspberry Pi,  but turns out running Linux has a few major downsides:</p>
-
-<ol>
-<li>Eeking out reasonable battery life is really difficult.</li>
-<li>Boot times are very slow, in the 10s of seconds.</li>
-</ol>
-
-<p>An alternative to running embedded Linux is programming a prototyping board directly. So I dusted off an old Arduino Uno and discovered the <a href="https://www.adafruit.com/product/94">Adafruit Wave Shield</a>, which does exactly what I needed. It reads audio from an SD card, and plays it back through a speaker. When the Wave Shield kit arrived, I was somewhat shocked to see a bare PCB and all of the components in a little baggie. </p>
-
-<p>Luckily, there’s an incredible Makerspace at work, so I dropped by after my actual work was done, picked up a soldering iron, and got to work. I’ve soldered before, but not much since my favorite class of all time: Making Things Interact at CMU, taught by Mark Gross. Initially daunting, I knocked it out in no time thanks to some really detailed instructions. The results were amazing. Fuse a bunch of metal and silicon together, attach a battery and 1.5 seconds later (that’s the boot time), a song is playing through the speaker! Any sufficiently advanced technology is indistinguishable from magic.</p>
-
-<p><img src="/toddler-music-box/solder.jpg" alt="Soldering the Adafruit Wave Hat" /></p>
-
-<h1>Randomly playing songs</h1>
-
-<p>The <a href="https://learn.adafruit.com/adafruit-wave-shield-audio-shield-for-arduino/play6-hc">sample software</a> for the Wave Shield plays all of the .wav files on the SD card in lexical order. I wanted something a bit more delightful than playing the same playlist in the same order. So I wrote a program that plays a random song instead. Easy peasy, here we go.</p>
-
-<p>I enumerated all of the wavs on the card and stored all of their filenames in a <code>char**</code> dynamically allocated on the heap. Oops! There’s barely enough space there to allocate a dozen file names, and I’d selected 60 songs. It appears that years of front-end UI engineering have dulled my low level embedded software development instincts. After fighting the C++ compiler about static 2D array allocation, I took a simpler and more memory efficient approach, first counting all of the songs, then picking a random song number to play. </p>
-
-<p>Even generating random numbers is non-trivial, since there’s no reliable absolute clock to use as a seed - the device cold-starts every time. Instead, I’m using a technique which reads in analog inputs for a pseudo random input. This may or may not be a good idea, but seems to provide some variation. Anyway, the <a href="https://github.com/borismus/toddler-music-box">Arduino sketch</a> is in the GitHub repo.</p>
-
-<h1>Prototyping in plastic</h1>
-
-<p>One of the great perks of my work’s Makerspace is access to all sorts of awesome prototype manufacturing equipment, including a <a href="https://www.inventables.com/technologies/carvey">Carvey</a>. So I went to Rockler and bought a 5”x5” maple block, thinking I’d hollow it out into a box with the CNC machine. Not so fast! It’d take a mere 15 hours of drilling. </p>
-
-<p>Rather than wait, I opted for a faster route: prototyping with 3D printing. So I began designing music boxes on paper, then in OnShape, then printing them using the <a href="https://www.prusa3d.com/">Prusa</a> printers. Seeing a design evolve from figment of imagination to tangible physical object is incredibly satisfying. However, once that satisfaction wore off, I can honestly say that the results were functional, but not at all aesthetically pleasing:</p>
-
-<p><img src="/toddler-music-box/plastic-box.jpg" alt="Early 3D printed plastic box" /></p>
-
-<h1>That old time wooden aesthetic</h1>
-
-<p>So I went for a different strategy: buy a nice off-the-shelf box to house everything and just design its insides. This way, the 3D print is mostly hidden, and can be capped off with a laser cut or CNC milled wooden lid. I can learn about CNC joinery later.</p>
-
-<p>I found a <a href="https://www.amazon.com/gp/product/B071WFSRBD/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">nice hexagonal box</a> on Amazon and bought two, discarding both lids. The bottom half of the clam would house the Arduino, Shield and battery, while the top would house the speaker. They’d be connected with a speaker wire and joined by wood hinges.</p>
-
-<p>Designing the innards was a delight. <a href="https://www.onshape.com">OnShape’s</a> UI is excellent and responsive. The constraint system makes a lot of sense, sketching on arbitrary surfaces and then extruding them is amazingly powerful. The Assembly View and Edit-in-Context feature made aligning elements between upper and lower clamshells a cinch. This included the speaker wire port and holes for the microswitch. I experimented with a variety of designs for fastening lid to container. Initially, I opted for ambitious <a href="https://markforged.com/blog/embedding-nuts-3d-printing/">embedded nut</a> designs, but ultimately went with a self-tapping (into plastic) approach using <a href="https://www.homedepot.com/b/Hardware-Fasteners-Screws/Internal-Hex/Flat/N-5yc1vZc2b0Z1z0sfp4Z1z0sgtn">flat head screws</a>. For fastening electronics to the plastic, I printed offsets and used nuts.</p>
-
-<p>After a few iterations of fastener tweaking, design adjustments, and measurement corrections, I had a top insert for housing the speaker, and a speaker grille to protect the speaker’s membrane, a bottom insert for housing the electronic core, and a cover to hide them. The <a href="https://github.com/borismus/toddler-music-box">STL files</a> are all in the GitHub repo. Here’s the result:</p>
-
-<p><img src="/toddler-music-box/final-disassembly.jpg" alt="Finished wooden musical box" /></p>
-
-<p>If you’re curious, the <a href="https://cad.onshape.com/documents/786c5f0b153cdd48f9b0f2f8/w/b4275650dc7aac134e30275f/e/4a850077e5ce208659a14aab">OnShape project is public</a>, you just need to make an OnShape account.</p>
-
-<h1>Toddler user testing</h1>
-
-<p>Once everything was in place, it was time for toddler testing! Luckily I have a very cute and curious user on retainer for the next 18 years. I asked her to open the box, and when she did, she began wiggling along to Cat Stevens’ “la-la-la”s. I’ve since corrected the poor initial music choice – the music box now plays a healthy milieu of classics from Soviet cartoons.</p>
-
-<p>A few other things became immediately clear as a result of user testing:</p>
-
-<ol>
-<li>My daughter was completely fascinated by the small speaker wire running between the top and bottom lid. She kept pulling at it, and eventually the wire came out enough to prevent the lid from closing fully.</li>
-<li>Predictably, she loves abusing the box in creative ways. At one point she was dancing on top of the box. Then she used it as a step stool to climb onto the couch. Later, she smashed the box so hard the microswitch toggled and restarted the music.</li>
-</ol>
-
-<p>In the current version, I’ve concealed the speaker wire in nylon casing and affixed it on both ends using zipties. This solves the first issue where the wire would prevent the box from closing. I’ve also padded the battery pack so that the contents of the box rattles less, hopefully making it less satisfying to shake and smash.</p>
-
-<p>I’m not sure how much battery life I’ll get from this construction, but it’s been running off the same triple AAA pack for about a week of sporadic play with maybe a couple of hours of being actually on. The fact that the device is fully off when the lid is closed (and not secretly draining batteries) makes me happy.</p>
-
-<p>Finally, massive thanks to Matthew Wilson and Jon Ward for their sage advice and friendly encouragement with this project. How might we imbue other beautiful everyday objects with magical abilities?</p>
-
-<p>Until next time.</p>
 
 
         
