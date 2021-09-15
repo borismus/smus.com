@@ -4,6 +4,106 @@ class: split
 type: book
 
 
+ABC by Illich and Sanders
+===
+rating: no
+posted: September 15, 2021
+cover: /assets/book-covers/abc.jpg
+
+The Alphabetization of the Popular Mind is an interesting deep dive into the way
+that consciousness evolved throughout history, especially as a result of
+literacy. I guess this is the Illich version of Orality and Literacy (which I
+have not yet read). 
+
+In general, the book is overly declamatory, often feels like a sermon. Parts of it are more literary critique, especially where Illich/Sanders delves into specific literary works (Chaucer's Canterbury, Defoe's Journal, Twain's Huck Finn) and tries to make sweeping generalizations based on their novels. Arguments rely mostly on wordplay and clever assertions, but are often unconvincing.
+
+Sections correspond to chapters in the book that I thought were vaguely interesting:
+
+# Text
+
+The spread of writing turned society upside down in almost every domain. But the authors consider the subtler side. Everything we know about that society is conveyed to us through writing, including everything we know of the oral tradition of the time, leading to a paradox of “oral writing”. 
+
+With literacy, trust shifted from a spoken promise in the form of an oath, to a sealed document. Oaths were a conditional curse: let me be maimed if I break this promise. Formerly formulaic speeches like the Danes “by the ships side and the shields rim, by the swords edge and the horses thigh”, ritualized by raising weapon skyward and placing a foot on a stone. Instead of oaths, literacy led to a more legal and binding form of promise. It’s no surprise that we now use the book in the “pantomime of legal gesture”. 
+
+Authors points to a rapid increase in writing in the 13th century based on consumption of parchment and sealing wax. According to some records (uncited?), the numbers were 3 pounds a week in 1226, 13 in 1256, 31 in 1266. Similarly, the authors point to the number of recorded royal decrees  1080-1180: 3 to 60 for French kings, 25 to 115 for the English, 22 to 180 for popes. After that it’s exponential. From Pope Innocent III ending in 1215, 280 survive, Innocent IV ending in 1254, 730 survive, Boniface VIII ending in 1303, 50000.
+
+Wills also became determined not by last words on the deathbed or a symbol imbued with meaning but by a sealed document. This transition happened in 12th century when symbols began to be engraved with explicit writings. 
+
+Written documents also enabled trust to be formalized. The issuer would create two copies: one for themselves and one for the recipient. Technical details around this included the seal, a signature, a date, creating a copy and storing it in a catalog, which is part of a register. 
+
+High Middle Age monks simply remembered where things were without a system. Earliest known scrutinium (monastic catalogs) were introduced in 1170. This is also the advent of libraries. 
+
+Writing enabled exact copying of materials, which became desirable. In 1283 Cambridge hired its first corrector whose job was to check documents according to form, legibility, word order, and spelling. Documents being identical became a criteria for legal validity. 
+
+> Two hundred years before Gutenberg, archives gave rise to the intellectual prototype of printer matter: an original from which a number of identical copies had been produced and written. 
+
+Even people required “identification” (written credentials that are identical to your person). No wonder the domesday book doesn't include a list of people — there was probably no accounting of individuals at all at the time.
+
+Around this time a written chronicle of time emerged too, an essential piece of cataloging many charters. Notaries would travel around and witness and date major transactions around them, from the birth of the Lord. This gave a new dimension to text: time. Documents could be ordered by recency. Time in general grows in importance as a result. In the dance of death genre, the hourglass is prominently displayed. Time is scarce. 
+
+In the 12th century, news needed to be proclaimed orally (by a herald, “heard”) for it to be official. The written copy (if any) was just a record of the oral delivery. A signet ring served as seal and was accompanied with arbitrary and ever changing signature. But then as courts became more concerned with authenticity, this practice changed into the 14th century and onwards. The author also writes that vellum (calf) was replaced with membranum (sheep) supposedly thinner, harder to erase and prevented forgeries. (This is surprising since I think vellum was more sought after). Slowly text became the medium of guarantee. 
+
+This is reflected in art: The Last Judgement involves the Archangel Michael depicted with a book in which the text of ones life is recorded and decisions made. 
+
+Early “writing” did not involve clutching a pen and drawing letters on parchment, but dictating to a scribe. So initially there was a gulf between writer and author. Wax tablets also played some role in writing, mostly for temporary note taking. (Interesting that this hasn't really been a focus in other works I've read on this topic.)
+
+Words were initially not separated at all, but spaces between became common around the 7th century (confirm with [[Carolingian minuscule]]), in order to teach Latin to the barbarians as a foreign language. 
+
+Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved. 
+
+Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century. 
+
+Also see [[Reading and writing transition in the 12th century]].
+
+In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!). 
+
+Previously text and images were deeply interwoven. The [Book of Kells](https://www.youtube.com/watch?v=qtQAsvUiwPg) and the [Lindisfarne Gospels](https://en.wikipedia.org/wiki/Lindisfarne_Gospels) provide two such examples. Now a monolithic text heavy manuscript was gaining shape, with structure and chapters and quotes separated visually from the rest of the content. 
+
+Another major change was that rather than always reading aloud, reading became a mostly silent pursuit. 
+
+# Self
+
+I enjoyed the Text chapter of this book, so decided to read on. The section on self is basically a great takedown of autobiographies. 
+
+> Autobiography is born out of hubris. In Franklin's case his autobiography grows out of the hubris of America’s emerging power - its myths and ideals - a power that actually thrives on mistakes. One merely seized upon them as Franklin makes clear and turns them into substantial financial success. Autobiography amplifies that power: since a person is literally creating a new being, he can smooth out the rough transitions in his life, clean up the mistakes to produce a polished and attractive literary self. 
+
+> A chief obstacle to writing a modern autobiography is its ending. How can it end, really, reach its final conclusion, until the writer is dead?
+
+Malcolm X's autobiography is published posthumously. Maybe that's the ticket?
+
+# Untruth and narration
+
+Love the Latin expression “ex suo digito suxit” - высосано из пальца - sucked out of ones finger. Finger and fiction are apparently connected through this? But I haven't been able to verify.
+
+St Augustine defined every lie as an assault on the God given truth. A contempt of God. Fascinatingly this precludes fiction in the traditional sense of being fully invented. Epic bards retell old stories that really happened, not fictions. Storytellers too, are not inventing but retelling. Chaucer (1386) is supposedly the first English author to spin a tale. But he does this not explicitly, couching heavily. 
+
+Chaucer writes just as England is moving from a culture of orality to literacy. And finds himself in an awkward position between fact and fiction. He needs to have Canterbury story taken as truth “for this is the way readers come to enter into any fictional dream” and goes to great lengths to do this. He makes himself one of the pilgrims, and tells a story “Tale of Sir Thopas” which is so boring that the fictional hosts ask him to stop. But apparently “too much truth can get Chaucer into theological trouble”. Why???
+
+Defoe writes a book entitled "Journal of the Plague Year" which is a semi-fictional journal of a man living in London in 1665, the last major plague outbreak. Authors claim that this is the first novel, but this is completely ludicrous. In fact Robinson Crusoe came before this Journal, which immediately nullifies many of the claims made. There are [many other candidates](https://en.m.wikipedia.org/wiki/List_of_claimed_first_novels_in_English) for first novel too. Anyway, the authors really focus on the word “novel” and how it is closely related to “news” and shares the Latin root “novus”, new. Who cares?
+
+By this point it is clear that this chapter has evolved into speculative literary criticism with very tenuous arguments based on word games. The end is especially cringeworthy, with a vast narrative being cobbled together on the basis of the three works encountered. It’s very shaky and very ideological and not convincing at all. A little reminiscent of Deschooling, but worse.
+
+# Newspeak and UNIQUACK
+
+Speculative literary criticism continues into the 20th century, this time with Orwell's 1984. Fascinating pointers, but not much substance. 
+
+Basic English was a subset of English (less than 1000 words) popular in the 1950s as a universal language designed to increase international collaboration. Apparently Orwell was into it initially, then worked for the institute promulgating it and realized this was a terrible idea.
+
+The authors declare that words like energy, sexuality, transportation, education, communication, information, crisis, problem, solution, are too vague, and “amoeba-words”. I don't understand why. Many of these have precise meaning depending on context. Maybe the authors felt that people don’t generally know these precise meanings and misuse them?
+
+# Silence
+
+Authors introduce an idea of “alphabetic silence”: pauses between words, silent contemplation of text, meditative thought. 
+
+I enjoyed the interpretation of the Ten Commandments. What did the Israelites hear when they received the ten commandments? A few theories:
+
+1. They heard them all in the Divine Voice
+2. They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses. 
+3. They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”
+
+
+
+
 Gardener & Carpenter by Alison Gopnik
 ===
 rating: yes
