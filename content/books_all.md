@@ -4,6 +4,130 @@ class: split
 type: book
 
 
+The Protestant Ethic and the Spirit of Capitalism by Max Weber
+===
+rating: yes
+posted: September 26, 2021
+cover: /assets/book-covers/weber-protestant-ethic.jpg
+
+Max Weber piqued my interest in an overview course in philosophy [[The Modern Political Tradition - Hobbes to Habermas]]. I took a note about Weber's ideas then:
+
+> Work is good in itself, a sign of higher character. Modernity is all about instrumental rationality: refining means to achieve ends. Modernity is polytheistic. Each context provides its own value. This leads to a permanent identity crisis. Weber’s options are: bear with it or return to an all encompassing religion. (Protestant capitalism)
+
+When GB suggested that Weber's translated works were readable, I decided to take the plunge. Weber is sometimes long winded. The last sections seem to go deep into narrow protestant sub-sects and associated thinkers. Zinzendorf, Herrnhut and the Pietists were just a bit too much for me. I found this section to be repetitive and overly detailed. But other times, the text was so dense and rich I actually had to slow the audio book narration to below real-time, which is a first for me. If you are tempted to skim, be sure to read the last chapters.
+
+According to Weber, Protestants in general are characterized by a strong piety and a remarkable proficiency at their trade. 
+
+> [Striking] is the connection of a religious way of life with the most intensive development of business acumen among those sects whose otherworldliness is proverbial as their wealth
+
+When I think of a devoutly religious person, I think of them giving their whole life to god. My intuitive model is that of the Baal Shem Tov who spent every waking minute reading the Torah. Or a “athlete of god” who turns to extreme asceticism as a reaction to excesses of the established clergy.
+
+Weber makes a sharp distinction: the Protestant work ethic is diametrically opposed to 1) joie de vivre and also to 2) aspirations for worldly progress. Instead, this work ethic is one tied to a deep faith. He cites Montesqieu, that the English have "progressed the farthest of all peoples of the world in three important things: in piety, in commerce, and in freedom." Weber's work focuses on the relationship between the first two.
+
+
+# Satisfaction vs. acquisition
+
+Interesting distinction between:
+
+1. Satisfaction of needs and
+2. Acquisition beyond those needs. 
+
+Economic traditionalism is exemplified in (1). But capitalism is mostly (2), an acquisitive economy. 
+
+The acquisitive economy relies on money and wealth as a measure of how well you have done your job. 
+
+The idea of a calling irrational and is associated with Protestantism according to Weber. He will tease this out in chapter 3. 
+
+# The Calling: from monasticism to craftsmanship
+
+Luther said that the fulfillment of worldly activity is the best way to worship the lord. 
+
+In the early Catholic Church, the notion of a calling was often applied to a monastic lifestyle. Worldly duties were derided. The individual should stay in the station he was given at birth and glorify god.
+
+Luther translated this notion into something much more worldly. Religious authority was not reduced, but the calling could force you to pursue a path divergent from the station provided at birth. 
+
+The emphasis thus shifted from an unending glorification of god to a creation of god-glorifying works, fruits of your craft. I think of J. S. Bach as an exemplar of this attitude. Even mom has said that at her best, her hands are moved by god's grace.
+
+The emphasis on works reminds me of [[Never Let Me Go by Kazuo Ishiguro]], in which students' works are harvested in order to prove that clone-students are worthy of salvation.
+
+Weber enumerates protestant denominations that contributed to this solid work ethic:
+
+- Calvinism/Reformed (Presbyterians)
+- Pietism, a Calvinist-adjacent branch within Lutheranism. 
+- Methodism, which split off from Anglicanism.
+- Sects from the Baptist movement.
+
+# Brief aside on protestant sects
+
+I've always found protestant denominations to be very confusing, and here's [a
+diagram I found helpful](https://en.wikipedia.org/wiki/Protestantism#/media/File:Protestant_branches.svg).
+
+I also spent a couple of hours trying to understand a bit beyond what the book has to offer, and here are my findings:
+
+- Not all branches of Protestantism stem from Luther directly. Some seem to be inspired by his disobedience, but don't inherit from Lutheranism directly.
+- Anglicanism was started by Henry VIII, a few decades after Luther (details of the story I will skip here). Puritans dissented against the Anglican church, demanding extreme divergence from Catholicism. 
+- Methodists are a sort of Puritan revival, also splitting off from Anglicans. Their name comes from "method".
+- Weber refers to Moravians. These are followers of Jan Hus (mentioned in [[Late Middle Ages]], and predates Luther by sixty years (!)
+- Speaking of schisms, it's fascinating to watch two different strategies in the Christian world:
+
+  1. Catholic schisms and re-unifications, all the while maintaining a unified organization.
+  2. Protestant forks and a branching hierarchy of denominations.
+
+# Predestination and its implications
+
+The strongest formulation of Calvinist concept of double predestination was that before birth, all people were destined to either go to heaven or burn in hell, regardless of their deeds. And which bucket you fell into was unknown until your death. For Calvin, man is created for god, not god for man. His decrees thus don’t need to be pleasant in the slightest. For the damned to complain of their lot is the same as animals complaining that they were not born as men. For god to change his mind on the basis of some earthly human actions would diminish his power. Puritans share the same view of predestination as Calvinists.
+
+For Luther, the doctrine of predestination was initially important, but faded over time. The Lutheran concept of predestination is "single predestination", meaning that some people are pre-destined for salvation, but nobody is pre-destined for damnation.
+
+This was a huge difference between Catholicism and Calvinism/Puritanism: for the Puritans, no amount of sacrament or worship was going to get you into heaven. So they deliberately avoided doing any ritualized burial, as that was seen as superstition. From this stemmed a general aversion to anything sensuous and emotional in culture and religion. These are no use towards salvation, merely deluding people via idolatrous superstition. 
+
+**Against magic**: For the Puritan, the Catholic tradition looked as if “the priest was a magician who performed the miracle of transubstantiation and held the key to eternal life in his hand”. As a result, they made their project to "eliminate magic as a means of absolution".
+
+**Individualism**: This doctrine forms the roots of a disillusioned individualism. Bunyan's "Pilgrim's Progress" is the most read Protestant book. The protagonist named Christian abandons his family to escape from the "City of Destruction" (this world), to the "Celestial City" (heaven). Once safe, he remembers that he should probably also bring his family too...
+
+**Self-confidence**: The elect and the damned do not differ in any way. This wasn’t a problem for Calvin, who felt himself obviously chosen. But for many others was not tenable, as everyone would wonder endlessly whether they are in a state of grace. The result is that all people must act with self confidence as if they are in a state of Grace, and avoid doubt at all cost. (The basis of high self confidence in the west?)
+
+**Unbounded piety**: In this view, Catholics live with “hand to mouth” piety. They try to be good but inevitably stray from the ideal, and then need to offset their misdeeds via confession or sacrament. In contrast, the Puritan would need to act as if they were in a state of grace, constantly are outdoing themselves in their piety. There is no upper bound on piety if you are truly one of the chosen. (Does this piety then translate into money in the modern age?).
+
+
+(Is there predestination in Judaism?)
+
+
+# Emphasis on works
+
+This more modern interpretation of the calling is intimately tied to producing great works. For Lutherans it wasn’t enough to do righteous works. They insisted on an emotional component. For them, the feeling of grace was needed to actually attain salvation (aka state of grace). For a Calvinist this was just empty emotion.
+
+According to the Puritans, works are not the cause but only the proof of a state of grace, and only if the works are done for the glory of god alone. He who did not perform good works was not a true believer. The harshness of Calvinism continues to astound.
+
+# Ben Franklin's post-religious take
+
+At first Weber appears to lambaste Ben Franklin for being overly pragmatic as he describes the “spirit of capitalism”, in a passage from his autobiography. Franklin's virtues are all merely a means to an end. In the end, if you are virtuous, you will have good standing with money lenders. This uncharitable take is very easy to mock, and has been done effectively by Ferdinand Kurnberger, who in "Picture of American Culture" describes Americans thus: "They make tallow out of cattle and money out of men."
+
+But Weber gives Franklin a much more charitable interpretation. Franklin's response to “why should money be made from men?” comes from his strict Calvinist father: 
+
+> Seest thou a man diligent in his business? He shall stand before kings. — Proverbs 22:29
+
+On Weber's account, Franklin philosophy as written in his autobiography is not greed at all, but a direct continuation of puritan ideals. Franklin was a self avowed deist, far less religious than his pious Puritan predecessors. 
+
+# Three attitudes to wealth
+
+1. Wealth for its own sake, because of the desire to be wealthy. (Greed)
+2. Wealth for the sake of a carefree life. (Sloth)
+3. Wealth as a side effect of following your calling. 
+
+The Calvinist/Puritan tradition holds that (3) is acceptable, but the rest are sinful. If your calling happens to be entrepreneurship, then wealth of your company is basically the explicitly endorsed goal. 
+
+Another pious angle on accumulating wealth is one of eventually giving it away. This idea of "earning to give" is quite old. 
+
+# Modernity (well, circa 1905)
+
+And so Max Weber us forced into this mandatory system of a calling, works, originally set out as an optional path.
+
+> The Puritan wanted to work in a calling; we are forced to do so. For when asceticism was carried out of monastic cells into everyday life, and began to dominate worldly morality, it did its part in building the tremendous cosmos of the modern economic order. This order is now bound to the technical and economic conditions of machine production which to-day determine the lives of all the individuals who are born into this mechanism, not only those directly concerned with economic acquisition, with irresitible force. Perhaps it will so determine them until the last ton of fossilized coal is burnt. In Baxter’s view the care for external goods should only lie on the shoulders of the “saint like a light cloak, which can be thrown aside at any moment.” But fate decreed that the cloak should become an iron cage.
+
+Weber ends with a meta point. Modern man consistently underestimates the importance of religious influences in shaping modernity.
+
+
 ABC by Illich and Sanders
 ===
 rating: no
@@ -102,6 +226,37 @@ I enjoyed the interpretation of the Ten Commandments. What did the Israelites he
 3. They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”
 
 
+Never Let Me Go by Kazuo Ishiguro
+===
+rating: yes
+posted: August 30, 2021
+cover: /assets/book-covers/never-let-me-go.jpg
+
+I really liked it. Author does a great job conveying little nuances of relationships. I feel similarly about past life and previous relationships that could have gone so differently. 
+
+At any rate it’s great writing and vivid character development. The love triangle is extremely strong. But the world building is pretty weak. How can the world of the "students" and the world of the rest of the population be so hermetic? They have full freedom to go anywhere, yet there is no interaction. On this topic, I find myself actively suspending disbelief.
+
+As a teacher, I guess there are three possible scenarios:
+
+1. Hide the truth from clones, raise them like wolves, harvest their organs. (Ground truth universe)
+2. Hide the truth from clone-students, give them a decent human childhood, harvest their organs. (Hailsham's approach)
+3. Tell students the whole story which would deprive them of their childhood, but give them a chance to potentially empower them to change the system somehow. (Lucy's approach)
+
+I kept waiting for Tommy to attempt to change the system during his fourth donation. Ishiguro does some nice false foreshadowing, and when Tommy caves without a fight, the effect is one of resignation.
+
+Systemic change is hard to achieve.
+
+Everyone is born into some station and feels like they must do what it is they are born to do, rarely questioning or acting on their impulses. Tommy's river analogy comes to mind. People drift down this river of least resistance without much agency. If you were born as a student-clone, what would you do? Very likely, live the life allotted to you, in the best case that of a Hailsham student.
+
+# We are in Hailsham
+
+The fact that the students can't have children of their own is the tragic part of this whole piece. In their lives, as in ours, death is guaranteed. In theirs, it becomes inevitable after the fourth donation, in ours after age 80 or 90. But the finality of death without children is such that all is lost. This is not really a well-developed theme in the book, more of a background take. Kathy makes it explicitly through the song.
+
+I thought that Kazuo Ishiguro invented "Never Let Me Go" the song, and but it turns out that [the song is real](https://www.youtube.com/watch?v=4UX6tzE7P44), the cover is real, and Judy Bridgewater is real. Honestly, this is disappointing. Previously, I wrote:
+
+> Nice use of the invented song, and vividly described. It serves as a really touching tearjerker.
+
+I found the ending to be a little bit drawn out. For example I thought that the book would end at the scene where Tommy and Kathy go and talk to Madame. A lot of the stuff after that was a little bit less clear and might have just been possible to cut.
 
 
 Gardener & Carpenter by Alison Gopnik
