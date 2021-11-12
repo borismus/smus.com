@@ -4,6 +4,474 @@ class: split
 type: book
 
 
+Collapse of Complex Societies by Joseph Tainter
+===
+rating: yes
+posted: November 12, 2021
+cover: /assets/book-covers/collapse-complex-societies.jpg
+
+I read Collapse of Complex Societies on GB' suggestion. This one was a doozie, and I must say, often over my head for its breadth of references into specific civilizations that I have no background with at all. And Tainter assumes you are either familiar with a broad variety of civilizations in detail, or will do the legwork to get there. As a result, I felt that this book was better suited to an Anthropology/Archaeology professional.
+
+Tainter strives toward a general pattern of collapse, one that applies to all collapses at all times. Very simplified, it goes like this. A civilization grows, becomes more complex, and then crumbles under its own success. Succinctly:
+
+> Think of civilisation as a poorly-built ladder. As you climb, each step that you used falls away. A fall from a height of just a few rungs is fine. Yet the higher you climb, the larger the fall. Eventually, once you reach a sufficient height, any drop from the ladder is fatal.
+
+https://www.bbc.com/future/article/20190218-are-we-on-the-road-to-civilisation-collapse
+
+
+# Tainter's general theory
+
+In Tainter's words, four concepts lead to understanding collapse, the first three of which are the underpinnings of the fourth. These are:
+
+1. human societies are problem-solving organizations
+2. sociopolitical systems require energy for their maintenance
+3. increased complexity carries with it increased costs per capita, and
+4. investment in sociopolitical complexity as a problem-solving response often reaches a point of **negative** marginal returns.
+
+Thus, while initial investment by a society in growing complexity may be a rational solution to perceived needs, that happy state of affairs cannot last. As the least costly extractive, economic, information-processing, and organizational solutions are progressively exhausted, any further need for increased complexity must be met by more costly responses.
+
+Once a complex society enters the stage of declining marginal returns, collapse becomes a mathematical likelihood, requiring only time.
+
+The following diagram is illuminating:
+
+![[Tainter's diminishing marginal returns in complex societies.png]]
+
+I am immediately reminded of [[Two Watersheds - too much institutionalization]], but Tainter's argument is even more macro. The whole of society reaches the second watershed, and then sets itself on track for general collapse. 
+
+
+# Civilization = complexity
+
+> The features that popularly define a civilized society - such as great traditions of art and writing - are epiphenomena or covariables of social, political, and economic complexity. Complexity calls these traditions into being, for such art and literature serve social and economic purposes and classes that exist only in complex settings. Civilization emerges with complexity, exists because of it, and disappears when complexity does.
+
+Thus, Tainter argues, rising and falling complexity is a monitor for the phenomenon termed civilization.
+
+
+# States are complex, chiefdoms are simple
+
+Tainter distinguishes between complex and simple societies. Most societies are complex, and governed by states. Robert Carneiro has estimated that 99.8 percent of human history has been dominated by states.
+
+In contrast, simple societies, governed by chiefdoms are limited by the obligations of kinship and the lack of true coercive force. By the time human organizations emerged that today would be called a state, these limitations had been surpassed.
+
+> The features that set states apart ... are: territorial organization, differentiation by class and occupation rather than by kinship, monopoly of force, authority to mobilize resources and personnel, and legal jurisdiction.
+
+Tainter sees states as a series of complex systems. Very much along the lines of [[Thinking in Systems by Donella Meadows]]. 
+
+> Complex societies tend to be what Simon has called "nearly decomposable systems". That is, they are at least partly built up of social units that are themselves potentially stable and independent, and indeed at one time may have been so.
+
+# How are states formed? Conflict vs. integration theory
+
+Tainter fairly accuses the reader of being obsessed by collapse, and insufficiently interested in formation.
+
+> It cannot be wholly resisted, for collapse may not be understood except in the context of how complex societies function and operate, and that cannot he divorced from the question of how they have come into being.
+
+**Conflict theory** can be traced to Ibn Khaldun (1377). In essence, conflict theory asserts that the state emerged out of the needs and desires of individuals and subgroups of a society. The state, in this view, is based on divided interests, on domination and exploitation, on coercion, and is primarily a stage for power struggles (Lenski 1966: 16-17). More specifically, the governing institutions of the state were developed as coercive mechanisms to resolve intra- societal conflicts arising out of economic stratification (Fried 1967; Haas 1982: 20). The state serves, thus, to maintain the privileged position of a ruling class that is largely based on the exploitation and economic degradation of the masses.
+
+> Conflict theory suffers from a problem of psychological reductionism. That is, the emergence of the state is explained by reference to the wishes, intentions, needs, and/or desires of a small, privileged segment of society.
+
+**Integration theory** suggests that complexity, stratification, and the state arose, not out of the ambitions of individuals or subgroups, but out of the needs of society. The major elements of this approach are: (a) shared, rather than divided, social interests; (b) common advantages instead of dominance and exploitation; (c) consensus, not coercion; and (d) societies as integrated systems rather than as stages for power struggles (Lenski 1966: 15-17). The governing institutions of the state developed to centralize, coordinate, and direct the disparate parts of complex societies.
+
+Integration theory resonates with me. Specifically this framing as stratification as a necessary evil:
+
+> The costs of stratification are a necessary evil which must be borne to realize its integrative benefits. In basing the development of complexity on real, observable, physical needs (defense, public works, resource sharing, etc).
+
+It also does not preclude that compensation of elites does not always match their contribution to society.
+
+> There is, however, a very important point that conflict and integration theory have in common. In both views, states are problem-solving organizations. Both theories see the state as arising out of changed circumstances,
+
+
+# Types of collapse
+
+**Partial imperial collapse is common** Tainter identifies a pattern in which an empire doesn't fully collapse, merely loses its colonies and reverts to being a standalone country:
+
+> Other cases that could be added to this list are the collapses of modern empires (such as the Spanish, French, and British). The demise of these empires clearly represents a retrenchment from a multi-national level of centralized organization that was global in extent. There are, however, differences from the majority of cases just discussed. Most notable is the fact that the loss of empire did not correspondingly entail collapse of the home administration.
+
+**Full imperial collapse is also possible** Tainter describes the terrifying disintegration of Ottoman Turkish authority in 1918:
+
+> the Allied troops... found a city that was dead. The Turkish government had just ceased to function. The electrical supply had failed and was intermittent. Tramways did not work and abandoned trams littered the roads. There was no railway service, no street cleaning and a police force which had largely become bandit, living on blackmail from citizens in lieu of pay. Corpses lay at street corners and in side lanes, dead horses were everywhere, with no organization to remove them.
+
+**Institutional collapse** Each civilization may typically contain a number of individual political entities that themselves rise and fall. However the definition of "civilization" tends to be vague and intuitive. 
+
+**Cultural continuity** Even if a civilization collapses, the culture tends to continuity.
+
+# A catalog of other causes of collapse
+
+Tainter is skeptical about many commonly provided reasons for collapse:
+
+1. Depletion of vital resource
+2. Establishment of a new resource base
+3. Catastrophe
+4. Insufficient response to circumstances
+5. Other complex societies
+6. Intruders
+7. Class conflict, elite misbehavior
+8. Social dysfunction
+9. Mystical factors
+10. Chance events
+11. Economic factors 
+
+None of these factors help understand collapse as a general phenomenon, applicable to all societies.
+
+Tainter has general critiques of his predecessors: 
+
+> Rarely do authors question the logic of the climate proposition: How does or how can climatic fluctuations, invaders, and so forth lead to collapse? Can the postulated cause really account for the outcome? Is the explanation adequate?
+
+**Resource depletion**: If a society cannot deal with resource depletion (which all societies are to some degree designed to do) then the truly interesting questions revolve around the society, not the resource. What structural, political, ideological, or economic factors in a society prevented an appropriate response?
+
+**Elite misbehavior**: To suggest that societies collapse because elites act unwisely explains little. Are there conditions under which elites act wisely or unwisely, or is this a random variable? Is it even a definable and measurable factor?
+
+
+# Mechanisms for collapse 
+
+Specialization => Reduction of resiliency
+
+> Self-sufficiency and autonomy of local systems are reduced as specialization increases. As special-purpose subsystems become increasingly differentiated, stability declines. Disruptions occurring anywhere will be spread everywhere, whereas in less complex settings a society would be cushioned against disruptions by less specialization, less interlinkage among parts, and greater time delays between cause and ultimate outcome. 
+
+Elman Service's [[Law of evolutionary potential]]:
+
+> The more specialized and adapted a form in a given evolutionary stage, the smaller its potential for passing to the next stage.
+
+This rhymes quite a bit with [[The Great Filter solution to Fermi's paradox]]. Service also writes:
+
+> Successful complex societies become locked into their adaptations, and are easily bypassed by those less specialized. So by having greater flexibility, less complex border states gain an increasing competitive advantage, and are thus able ultimately to topple older, established states
+
+Another way of stating the same thing is the **Dinosaur Model**. Here, a complex society is seen as a lumbering colossus, fixed in its morphology, and incapable of rapid change. Locked into an evolutionary dead end, it represents an investment in structure, size, and complexity that is awesome and admirable, yet highly maladaptive. When stresses arise, such a society cannot adapt, and so must expire.
+
+This rhymes very much with [[Disruption theory]] in business. This lock-in phenomenon can also be framed as a feedback loop: 
+
+> Other scholars implicate a positive feedback loop in collapse, from which escape is impossible. Colin Renfrew (1979) argues that under stress complex societies lack the option to diversify, to become less specialized. By doing more of what may have caused the problem in the first place, the breakdown of the system is made inevitable.
+
+The **Runaway Train** model may be a variant of the Dinosaur model, but it has its own distinct characteristics. A complex society is seen as impelled along a path of increasing complexity, unable to switch directions, regress, or remain static. When obstacles impinge, it can continue in only the direction it is headed, so that catastrophe ultimately results.
+
+The **House of Cards** model differs from the previous two. It suggests that complex societies, either as a rule or in certain kinds of environments, are inherently fragile, operating on low margins of reserve, so that their collapse is inevitable.
+
+The argument of these laws and models is that all societies, complex or otherwise, run the risk of adapting so well to existing circumstances that change becomes impossible.
+
+
+# Complexity reduction => depopulation
+
+For Tainter, complexity reduction causes depopulation and not vice-versa. [[Depopulation is often correlated with decline]]
+
+> A complex society that has collapsed is suddenly smaller, simpler, less stratified, and less socially differentiated. Specialization decreases and there is less centralized control. The flow of information drops, people trade and interact less, and there is overall lower coordination among individuals and groups. Economic activity drops to a commensurate level, while the arts and literature experience such a quantitative decline that a dark age often ensues. Population levels tend to drop, and for those who are left the known world shrinks.
+
+
+# High upkeep of complex societies
+
+> Complexity and stratification are oddities when viewed from the full perspective of our history, and where present, must be constantly reinforced. Leaders, parties, and governments need constantly to establish and maintain legitimacy. This effort must have a genuine material basis, which means that some level of responsiveness to a support population is necessary.
+
+Civilization itself (i.e., great complexity), to Rappaport, may be maladaptive: Civilisation has emerged only recently - in the past six thousand or so years - and it may yet prove to be an unsuccessful experiment' (Rappaport 1977: 65).
+
+
+# Misc
+
+The Ik People are really fascinating:
+
+> Children are minimally cared for by their mothers until age three, and then are put out to fend for themselves. This separation is absolute. By age three they are expected to find their own food and shelter, and those that survive do provide for themselves. Children band into age-sets for protection, since adults will 
+
+
+Understanding How We Learn: A Visual Guide
+===
+rating: yes
+posted: November 4, 2021
+cover: /assets/book-covers/understanding-how-we-learn.jpg
+
+I read this book because it was recommended by C for work. This book serves as a nice visual summary of what we know about learning from a cognitive science perspective. The authors lament the large gap between what we know from this field and how educators do their job in practice.
+
+# Educational myths
+
+Educational practices rely too much on intuition, and not enough on science. The authors make an analogy to medicine, and a scientific approach improved health outcomes dramatically around the turn of the 20th century. For examples, students read textbooks and notes repeatedly because it feels good, but this does not improve their learning outcomes. 
+
+Cognitive psychology can immediately debunk many myths in education:
+
+1. Individuals DON’T learn better when they receive information in their preferred learning style (e.g., auditory, visual, kinesthetic) [[Learning styles are a stubborn myth]]
+2. Environments that are rich in stimuli DON’T improve the brains of pre-school children.
+3. Short bouts of coordination exercises DO NOT improve integration of left and right hemisphere brain function.
+4. Exercises that rehearse coordination of motor-perception skills CAN’T improve literacy skills.
+5. Differences in hemispheric dominance (left brain, right brain) DO NOT help explain individual differences among learners.
+6. It has NOT been scientifically proven that fatty acid supplements (omega-3 and omega-6) have a positive effect on academic achievement
+7. Emotional brain processes DO NOT interrupt those brain processes involved with reasoning
+8. We DO NOT only use 10% of our brain
+9. Memory is NOT stored in the brain much like as in a computer: each memory goes into a tiny piece of the brain
+10. Children are NOT less attentive after consuming sugary drinks and/or snacks
+
+Good start. But it's hard to learn from a bunch of negation. The meat of the book is covered by first introducing human cognitive processes, which serve as an underpinning for everything. Then, the real gems are in the following section, which articulates  strategies for effective learning which were generated from theory, have been verified in the lab, and sometimes even in the classroom.
+
+
+# Part 2: Summary of human cognitive processes
+
+## Sensation and perception
+
+**Sensation** the output of sense organs. This will vary depending on your senses, but is generally objective
+
+**Perception** your interpretation of the sensations. This is generally very subjective, and depends on the context and the person
+
+One way in which perception is subjective is illustrated by [[Intensity of stimulus is proportional to the pre-existing stimulus, and logarithmic (Weber-Fechner law)]], which says that what you perceive is highly dependent on what you were just perceiving. This is true for both time and space.
+
+**Bottom-up vs top-down processing**: bottom-up processing focuses on the stimulus only, without bringing prior knowledge to make sense of it. This is similar to just sensing? Top-down processing involves using prior knowledge. For example, you hear a fire alarm, but know it was part of the fire drill, so remain calm (top-down). A baby, however, gets upset and cries (bottom-up).
+
+**Curse of knowledge** refers to the problem that a teacher may know a lot more than the student, and lack the empathy to decide how to properly explain something so that the student understands. Reminds me of https://www.reddit.com/r/explainlikeimfive/
+
+
+## Attention and cognitive load
+
+Attention is a limited capacity resource. If you work on a difficult task, all of your attention is required. A simple task will leave you with some left over attention. **Cognitive load** is a measure of how much of someone’s attention will be required to grok an explanation. The goal, then, is to minimize cognitive load but still convey the concept.
+
+Attention involves focusing on one thing at a time. **Multi-tasking** for humans is similar to multi-tasking for machines: you end up duty-cycling from one “simultaneous” activity to the next. And this causes both activities to be done worse than if they were done sequentially. Nice demonstration: 
+
+1. Count aloud 1-26
+2. Recite letters A-Z
+3. Combine (1) and (2), reciting 1A, 2B, 3C, 4D, etc
+
+Empirically, it takes longer to do (3) than to do (1) + (2).
+
+Attention can be focused towards the salient. For example, it’s easy to look around and quickly spot all objects that are red at will. In education, **saliency** comes from the students motivation, interest levels, the way the material is presented. This is very related to the [[Krashen - Comprehensible and Interesting Input]] approach.
+
+Attention can also be lost, and this is known as **mind wandering**. This happens more during easy tasks, but also during very difficult tasks. This is one of the benefits of being in the [[Zone of Proximal Development (ZPD)]].
+
+In the chunking example, where the authors provide the characters of CHAPTER6ATTENTION scrambled in random order, I am finding that I can remember it better with a mnemonic. I guess this is sort of the point of chunking: it’s a way for more information to be stored in short-term memory, by relying on “chunks” that are already in exiting memory.
+
+Why does attention vary between people? Three theories, but no consensus:
+
+1. Differences in working memory capacity
+2. Differences in processing speed
+3. Differences in attentional control (uh, seems tautological)
+
+## Working memory
+
+Working memory is modeled by a few components:
+
+- **The phonological loop**: stores and rehearses auditory and language information. I came across this recently noticing how much easier it is to remember OTP codes if I speak them out loud. The phonological loop need not rely on audible speech, subvocalizing works too (but maybe less effectively? Look into this)
+- **The visuospatial sketch pad** helps store visual information, such as creating mental maps of how to go from the bedroom to the kitchen. It’s the machinery that lets you manipulate an object in your head.
+- **The central executive** is not well defined in the book, presented as everything not in the two categories above.
+
+**Memory is needed to do almost everything**, from remembering names, to remembering how to do something, to doing basic things like comprehending speech, to having a coherent sense of self.
+
+**Memory is reconstructive** Recalling things is not a pure lookup as in a library or a computer. Memory is reconstructive, which means that every time you retrieve it, you are actually changing it. This means that memory is not objective, Many memories we have of things never happened, or happened very differently. Memories can also be changed by others.
+
+**Short term memory only last 15-30 seconds**. Psych experiments can easily be run where you administer a quiz to people in that time range to see short term memory performance, and longer to see long term memory performance. Subjects with long term memory loss do very poorly at 30s+ time intervals compared to those with normally functioning memory. (Example: H.M.)
+
+## Memory representations in the brain
+
+Memories are **encoded** in the brain by groups of nerve cells (neurons) which are connected to one another via connections (synapses). When active neurons in a certain group are simultaneously active (engram), we are able to recall a concept. These engrams can be connected to one another (by synapses) by neuronal pathways.
+
+When we learn, new groups of neurons activate in response to the incoming information. Ideally, these just active neurons undergo **consolidation**. Connections to other engrams are strengthened to create a long lasting engram. Ideal conditions involve sufficient rest and sleep.
+
+Consolidated memories become **stored** as long-term memories, which makes them available for **retrieval**. But consolidation is not a one-time event. Every time a memory is retrieved, it is subject to reconsolidation.
+
+This memory model helps motivate some pedagogic approaches: spaced practice, creating meaningful connections to existing knowledge, retrieving prior knowledge.
+
+As soon as you encode something, you immediately start to forget it. Forgetting curves show an exponential drop off in retrieval performance over time. But forgetting is not a binary. Retrieval can be greatly helped for example by providing retrieval cues, which greatly increase performance.
+
+# Part 3: Strategies for effective learning
+
+Studies on brain-training games suggest that performance on the games does not transfer to real-life tasks. 
+
+Each of the following section introduces a study technique that has been shown to work through studies. Many of them overlap one another.
+
+## Spaced repetition: spread study activities out over time
+
+Ebbinghaus (1885) first showed that spacing repetition over time rather than massing them together (ie. cramming) led to better results long-term. This is replicated widely in RCTs in many contexts, seems like a pretty fundamental piece of the puzzle.
+
+There is a well defined answer to the question “when should I be studying given that the test is on $DATE”. But how does this best work when there is no test, and the goal is just indefinite retention. Is this even a good goal? Surely there are benefits to forgetting things.
+
+[[Forgetting curves show how quickly information is naturally forgotten]]
+
+## Interleaving: switch between topics while studying
+
+Focus on the same topic during a study session will improve results in the short term. But long term studies show that results are dramatically better in the interleaved case. 
+
+Which concepts should be interleaved? Studies show that interleaving completely unrelated concepts (eg. Science concepts and foreign language vocab) doesn’t lead to especially good outcomes. Also unclear what the effect is on attention. Is it bad like multi-tasking, or good because it reduces boredom?
+
+Overall, a spaced repetition practice often includes interleaving naturally. But the authors acknowledge that establishing a spaced repetition practice is tricky. I think it’s even trickier for non-school settings.
+
+
+## Elaborative interrogation: ask and explain how and why things work
+
+Elaborative interrogation (EI) is a specific method of elaboration where you ask yourself questions of how and why things work, then produce answers. 
+
+Cousins include [[Socratic dialogue]] and the chain of why questions that toddlers and young children are famous for.
+
+A study (Woloshyn and Stockley) found that EI led to better long term retention than re-reading the material. It worked in both an individual condition (self-asking and answering) and in pairs (one asks, the other answers, WLOG). 
+
+Performance was even better if an adequate answer to the question was produced by the student. But only works if background knowledge high enough. Otherwise better to read for understanding. Caveat
+
+## Concrete examples: illustrate abstract concepts with specific examples 
+
+It helps to ground an abstract idea by giving concrete examples that tie back to the concept. For example, the notion of scarcity can be described abstractly:
+
+> Abstract: the rarer something is, the higher it’s value
+
+But seeing this for the first time may be hard to internalize, so providing a variety of examples is worthwhile:
+
+> Concrete: if you buy an airplane ticket 4 months in advance, there are many open seats on the plane and the price is low. If you buy last minute there are fewer (scarcity), and so their value is higher and the ticket costs more.
+
+Even better is to provide multiple examples, from different domains. Given the above example, one about buying sports tickets would not be illuminating. But an example around water scarcity during a drought might be worthwhile.
+
+## Dual coding: combine words with visuals
+
+Pictures are often remembered better than words, so the idea is to combine words and pictures to enhance learning. These can be diagrams, infographics, cartoon strips, etc. Presumably the same would apply to other mediums like video.
+
+Combining modalities is helpful for all learners, not just those that like pictures or think of themselves as “visual learners”. Also, [[Learning styles are a stubborn myth]].
+
+One pitfall is to include visuals that are distracting because they are:
+
+1. Too far from the content being studied, or
+2. Too much information, causing cognitive overload
+
+The goal is clear and simple diagrams related to the target text.
+
+## Retrieval practice: bring learned information to mind from long-term memory
+
+Retrieval involves reconstructing something you’ve learned in the past, **from memory**, and thinking about it right now. The key part is that retrieval is done from memory, as opposed to having the reference material in front of you. (Abbott, 1909)
+
+Direct benefit: retrieval practice is highly effective for long-lasting durable learning. This practice has been consistently shown to be more effective than repeated reading. It improves not just the memory’s durability, but also flexibility, helping make more far-reaching inferences. (Roedigger and Karpicke 2006)
+
+Indirect benefit: students and teachers get feedback about what they know and don’t know. A computer system can track what students do and do not know.
+
+Because memory is reconstructive, accessing it repeatedly might send signals to the brain that this bit is important. But a lot of the underlying principles of why retrieval practice works aren’t known yet.
+
+Many possible forms of retrieval practice:
+
+- Write everything they know on a blank sheet
+- Create concept maps from memory
+- Draw a diagram from memory
+- Explain what they can remember to another person
+
+**Need to be ZPD**: If a retrieval task is too hard, students will be discouraged. If it’s too easy, they will be bored. Need to be in the [[Zone of Proximal Development (ZPD)]], while retaining [[Desirable difficulties]]. 
+
+**Failed retrieval can still help**: there is evidence that even a failed retrieval attempt can improve learning.
+
+**Feedback > no feedback**: Authors discourage letting students self-grade. You can address their misunderstandings directly if you have an idea of what they got wrong.
+
+**Delayed feedback?**: Giving some feedback is better than giving none. But supposing we can give feedback, there’s also the question of when to best present it. But then there’s the danger of thinking they answered correctly when they were in fact incorrect.
+
+
+## Strategy: frequent, low-stakes quizzes
+
+In addition to measuring performance, tests are also retrieval practice. But high pressure tests decrease learning benefits.
+
+Both short-form answer and multiple choice quizzes have been shown to be effective. Short form answers are slightly better for retrieval, but not significantly (Smith and Karpicke, 2014). Multiple choice questions require a bunch of reasonable distractors to be effective.
+
+## Scaffolding: retrieval practice should be modified for some learners
+
+Interesting if not directly related: this doesn’t work well on 4th graders, because the task of writing out everything they know on a blank sheet of paper is daunting. Young learners have a very low (9%) recall rate after reading a passage. 
+
+Solution might be to help them review the material first, which is called scaffolding. One example is to give a partially completed concept map based on the passage, then have the student fill out the rest, then do the recall. This has been shown to be very effective.
+
+Look into this idea of “guided notes” for a subject. Take notes on a worksheet with cues and blank spaces, so that you are forced to take notes about specific concepts covered in class. (Konrad, Joseph & Eveleigh, 2009)
+
+# Establishing a spaced repetition practice is hard
+
+Again that damned study about how taking notes by hand is a better way to retain memory than by computer. (Muller & Oppenheimer 2014)
+
+Spacing practice is hard to get into. Authors suggest getting students to do personalized scheduling so that they can squeeze spaced retrieval sessions in on a daily basis.
+
+- Spacing: find a regular time to review
+- Elaborative interrogation: ask questions about how and why things work
+- Concrete examples: think about turning ideas into concrete examples
+- Visuals: combine visuals and words
+- Retrieval practice: bring information to mind independent of any crutch
+
+
+# How to apply these strategies in AI-assisted learning
+
+**Elaborative interrogation**: I wonder if it would help to let learners take one of the sides and the AI takes the other? Here's how it might work: 
+
+1. Given a topic, generate some comprehension questions and have the learner answer. 
+2. Given a topic, have the learner come up with comprehension questions themselves.
+
+**Concrete examples**: Can LLMs generate concrete examples of abstract concepts?
+
+**Quiz short answer grading**: Can LLMs be used to grade short answer questions for how well they match the model answer? Anki and Orbit don't do this at all.
+
+**Quiz multiple choice distractors**: Can LLMs be used to generate reasonable distractors?
+
+**Scaffolding: concept maps**: Can LLMs be used to provide scaffolding? Perhaps a concept map can be intelligently blanked depending on skill level?
+
+**Scaffolding: guided notes**: Can LLMs intelligently generate a cloze reading activity?
+
+
+The Scout Mindset by Julia Galef
+===
+rating: yes
+posted: October 22, 2021
+cover: /assets/book-covers/scout-mindset.jpg
+
+It's been years since I would have said that I aspire to be a rationalist. But I've been swimming in rationality circles for long enough that some of the arguments and ideas in the book are somewhat trite. But I have enjoyed Julia’s podcast for her crispness of thought, ability to popularize, and pleasant voice. I'd recommend this book for someone unfamiliar with modern rationalism that's looking to get their feet wet. It's definitely a more coherent and less overwhelming starting point than lesswrong.
+
+I was looking forward to the takedown of [[Gerd Gigerenzer on Gut Feelings]], who’s ideas I am sympathetic to. 
+
+**Soldier mindset** we tend to defend our beliefs against any evidence or arguments that might threaten them. Reasoning in the English language is often described through militaristic metaphors. We try to “shore up” our beliefs, “support them” and “buttress them” as if they’re fortresses. We try to “shoot down” opposing arguments and we try to “poke holes” in the other side.
+
+**Scout mindset** The scout’s job is not to attack or defend; it’s to understand. The scout is the one going out, mapping the terrain, identifying potential obstacles. Above all, the scout wants to know what’s really out there as accurately as possible.
+
+Julia argues that scout mindset is always better than soldier mindset. There are some parallels to hedgehogs (Soldiers) and foxes (Scouts) too, as in [[The Hedgehog and the Fox by Isaiah Berlin]]. There are also echoes of System 1 (Soldier) and System 2 (Scout) ideas from [[Thinking Fast and Slow by Kahneman and Tversky]].
+
+# Rational irrationality
+
+Sometimes it's rational to be irrational. For example, you your outcomes as a start-up founder might be better if you have irrational belief in yourself (IS). This can be described as "rational irrationality", which is paradoxical. My prior is that this is well warranted sometimes. 
+
+Galef diffuses this paradox and explains what's going on clearly and succinctly. What's happening is that two meanings of rationality are being used: 
+
+- Instrumental rationality involves the pursuit of a particular end goal, by any means necessary.
+- Epistemic rationality involves achieving accurate beliefs about the world.
+
+
+So, to rephrase the paradox is to diffuse it: it may be **instrumentally** rational to be **epistemically** irrational. This is highly related to [[Information Hazards]].
+
+# Always strive for epistemic rationality
+
+Galef argues the "тайное становятся явным" idea, something [I grew up with](https://vseskazki.su/dragunskii-deniskiny-rasskazy/tajnoe-stanovitsya-yavnym.html). Lying to yourself has the same downsides as other social lies that beget more lies. The cascade of muddled thinking proceeds with potentially very long delays and unpredictable outcomes. This is a good argument.
+
+Elon Musk assigned a 10% chance of success to his ventures Space X and Tesla, but decided it was worth trying anyway. Mainly because of the cool factor and his ideological considerations. Green energy!! Electric cars!! Also, space!! But also, rationally speaking, the expected outcome was still high, since the impact of being successful was potentially so great. This resonates with me too, and part of why I think it's worth starting an early stage company one day.
+
+But I still struggle with the absolutist framing that Galef presents. Surely there are situations where you would rather not have maximum rationality? Perhaps actual Infohazards? Or information that would best not be known to you. For example, if you somehow knew exactly how long you would live, it's easy to imagine negative second order effects.
+
+
+# Thought experiments for clearer thinking
+
+Sometimes, if you're about to make a difficult decision, Galef suggests trying one of these thought experiments:
+
+- **The double standard test**. Are you judging one individual or group by a standard that is different from other individuals or groups?
+- **The outsider test**: how would you evaluate this situation if it wasn’t your situation?
+- **The conformity test**. If other people no longer held the view, would you no longer hold it?
+- **The selective skeptic test**. If this evidence supported the other side, how credible would you judge it to be?
+- **Status quo bias test**. If your current situation was not the status quo, would you actively choose it?
+
+I suspect the hardest part about Galef's advice is being sufficiently mindful to decide that now is a good time to try.
+
+The idea of calibrated bets is a great one that I've incorporated into my New Years routine. I set predictions for a year ahead on all fronts (SSC, AK inspired) and then see how well calibrated I am. 
+
+However generating probabilities for predictions is always tricky. Galef also introduces a technique for called the **equivalent bet test**, which she attributes to Douglas Hubbard. The way it works is to compare the issue at hand to a simpler scenario where you randomly draw balls from a jar. One of N balls in the jar is black, and the rest are white. You play with which N would feel right so that both bets yield the same winnings.
+
+
+# Celebrity calibration
+
+I love that Galef picks on Spock, who is often considered a model of rationality. By showing how poorly calibrated he is, she also dispels the idea that being rational means being robotic and failing to understand humans. 
+
+In spirit of Spock’s poor calibration, what can we say about Elon Musk's calibration? He gave 10% chance of success to two of his successful companies!
+
+
+
+# Epistemic vs. social confidence
+
+[[Social confidence vs. epistemic confidence]]
+
+- Soldier as press secretary: extremely high social confidence, and artificially
+  inflated, unawarranted epistemic confidence.
+- Scout as board of directors: calibrated epistemic confidence. Knowing what is
+  really true is extremely important.
+
+Her example of Vitalik Buterin is maybe slightly unfortunate. He seems really smart, and appears to be well calibrated epistemically. But he is too dorky to be a paragon of social confidence, in my opinion.
+
+# Keep your identity...?
+
+Julia Galef and Paul Graham are overly bearish on identity. But identity is what makes you who you are. By rooting it out you demolish your own uniqueness, traditions, original insights. In this sense I am in favor of intersectionality, but broadly construed. Diversity (see [[Measuring non-woke diversity broadly]]) not of skin color and gender but of substantive and nuanced things like having been homeschooled, or being a practicing orthodox Christian or believing in Gaia theory or the fact that you raised three children on a 30’ sailboat circumnavigating the globe. Maybe you are super old and survived the Leningrad blockade. Maybe you grew up in desperate poverty. Or even, that you grew up as the son of a Saudi Prince. These things will give you a different perspective on life, and are genuinely valuable to bring to the table.
+
+Great. Reminder. About. Righteous. Sentences. Produced. By. Emphatic. Use. Of. Periods. 
+
+I 👋 Should 👋 Use 👋 This 👋 Trick 👋 Way 👋 More 👋 Often.
+
+
 History of Future Cities by Daniel Brook
 ===
 rating: no
