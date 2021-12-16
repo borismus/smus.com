@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-12-16T11:04:57-00:00</updated>
+  <updated>2021-12-16T11:20:15-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -195,9 +195,8 @@ we're dealing with, and then pick from a variety of different summarization
 techniques. The current approach doesn't work well on lists. Fragments of code
 don't need to be summarized at all.</p>
 
-<p>So that's Summer, the note summarizer. She could use more work, but I'm going to
-call it a day for now. I'll be back soon to introduce you to another AI-based
-note gardener apprentice.</p>
+<p>Stay tuned. I'll be back soon to introduce you to another AI-based note
+gardener.</p>
 
 
         
