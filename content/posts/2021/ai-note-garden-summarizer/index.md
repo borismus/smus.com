@@ -176,6 +176,5 @@ we're dealing with, and then pick from a variety of different summarization
 techniques. The current approach doesn't work well on lists. Fragments of code
 don't need to be summarized at all.
 
-So that's Summer, the note summarizer. She could use more work, but I'm going to
-call it a day for now. I'll be back soon to introduce you to another AI-based
-note gardener apprentice.
+Stay tuned. I'll be back soon to introduce you to another AI-based note
+gardener.
