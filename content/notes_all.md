@@ -13,19 +13,18 @@ Following my yearly tradition ([2020](/notes/2020/article-highlights-of-2020/),
 [2018](notes/2019/reading-in-2018/)), here were my favorite articles from 2021.
 It's hard to come up with coherent groupings, but overall I definitely read more
 about emergence, evolution, equilibrium and complexity-related stuff. I tried to
-make sense of Russia, China and the new world order. I read a lot of
-[Construction Physics](https://constructionphysics.substack.com), got to know
-all sorts of new building materials, as if in preparation for an ambitious but
-yet unspecified building project.
+make sense of Russia, China and where the US sits in the new world order.
+Notably, I read a lot of [Construction
+Physics](https://constructionphysics.substack.com), as if preparing for an
+ambitious but unspecified building project.
 
 I may have overindexed on articles and non-fiction books this year, at the
-expense of reading novels. This is especially at odds with my belief in the
-[[Power of Fiction]]. Looking back at my [book list](/books), I only read two
-fiction books the whole year — possibly an all-time low. My aim for 2022 is to
-double down on reading for pleasure, relieving pressure to capture every
-insight.
+expense of reading novels. This is at odds with my stated belief in the [[Power
+of Fiction]]. Looking back at my [book list](/books), I only read two fiction
+books the whole year — possibly an all-time low. My aim for 2022 is to double
+down on reading for pleasure, relieving pressure to capture every insight.
 
-Happy New Year! 
+Happy New Year!
 
 <!--more-->
 
