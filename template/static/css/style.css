@@ -93,6 +93,10 @@ article a:hover {
   color: forestgreen;
 }
 
+article a.wiki {
+  text-decoration-style: dotted;
+}
+
 article img, article iframe {
   width: 100%;
 }
