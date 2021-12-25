@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-12-21T20:57:08-00:00</updated>
+  <updated>2021-12-25T11:53:34-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -30,8 +30,7 @@ Physics</a>, as if preparing for an
 ambitious but unspecified building project.</p>
 
 <p>I may have overindexed on articles and non-fiction books this year, at the
-expense of reading novels. This is at odds with my stated belief in the <em>Power
-of Fiction</em>. Looking back at my <a href="/books">book list</a>, I only read two fiction
+expense of reading novels. This is at odds with my stated belief in the <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>. Looking back at my <a href="/books">book list</a>, I only read two fiction
 books the whole year — possibly an all-time low. My aim for 2022 is to double
 down on reading for pleasure, relieving pressure to capture every insight.</p>
 
@@ -120,7 +119,7 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <h1>Construction techniques</h1>
 
 <ul>
-<li><a href="https://austinvernon.eth.link/blog/construction.html">So, You Want to Build a House More Efficiently</a> (Austin Vernon) - There's a naive high modern take that is tempting to apply to house construction: "Let's build buildings like cars". Unfortunately this doesn't work: materials are too heavy and no cost dominates the cost of new home construction. </li>
+<li><a href="https://austinvernon.eth.link/blog/construction.html">So, You Want to Build a House More Efficiently</a> (Austin Vernon) - There's a naive high modern take that is tempting to apply to house construction: "Let's build buildings like cars". Unfortunately this doesn't work: materials are too heavy and no cost dominates the cost of new home construction.</li>
 <li><a href="https://constructionphysics.substack.com/p/mass-effects">Mass Effects</a> (Construction Physics) - Advancing construction technology over the last 200 years has seen the weight and volume of construction materials plummet. The Eiffel Tower is twice as tall as the Pyramid of Giza, but uses 1/300 of the volume. Less material means easier transportation, simpler assembly, smaller foundation. But thick and heavy building elements confer advantages like being less prone to vibration, more thermal and sound proofing, and feeling nicer.</li>
 <li><a href="https://constructionphysics.substack.com/p/balloon-framing-is-worse-is-better">Balloon Framing is Worse is Better</a> (Construction Physics) - Impressed by Austin Vernon's post, I decided to follow up and read the source. This article digs into pre-fabrication and transport vs. on-site construction, and explains why the balloon frame has persisted for as long as it has.</li>
 <li><a href="https://constructionphysics.substack.com/p/where-are-the-robotic-bricklayers">Where Are The Robotic Bricklayers?</a> (Construction Physics) - Masonry seemed like the perfect candidate for mechanization, but a hundred years of limited success suggests there’s some aspect to it that prevents a machine from easily doing it. At least a couple of reasons: 1. Mortar has sort of complex physical properties, eg. viscosity increases when it’s moved or shaken, 2. Heavy bricks require larger, more expensive machinery, and 3. In the US, masonry walls are constructed with a large amount of reinforcement.</li>
@@ -134,11 +133,11 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <ul>
 <li><a href="https://www.lesswrong.com/posts/FcRt3xAF4ynojfj6G/what-do-gdp-growth-curves-really-mean">What Do GDP Growth Curves Really Mean?</a> (Less Wrong) - Even granting that GDP doesn’t measure happiness, or leisure time, or household work, GDP calculations are misleading because they ignore the effects of technological revolutions. GDP is calculated at recent prices, dominated by the things which are expensive today (eg. real estate). Things which are cheap today are ignored in hindsight. So goods whose prices drop dramatically because of some technological revolution are downweighted to near-zero.</li>
 <li><a href="https://tunnelingonline.com/why-tunnels-in-the-us-cost-much-more-than-anywhere-else-in-the-world">Why Tunnels in The US Cost Much More Than Anywhere Else in The World</a> (Tunnel Business Magazine) - It costs $2.5B/mi in New York, $900M/mi in other parts of the US and Australia, $500M/mi in Europe and the Middle East, and $200M/mi in India &amp; China to build tunnels. Many complex cost drivers, including labor costs, labor laws, regulations, bureaucracy.</li>
-<li><a href="https://patrickwyman.substack.com/p/american-gentry">American Gentry</a> (Patrick Wyman) - Patrick points at a certain kind of usually invisible wealthy family, whose wealth is not flashy, but stays in the family for generations. The sort of family that owns seventeen McDonald’s franchises in eastern Tennessee, or owners of the third-biggest construction company in Bakersfield. </li>
+<li><a href="https://patrickwyman.substack.com/p/american-gentry">American Gentry</a> (Patrick Wyman) - Patrick points at a certain kind of usually invisible wealthy family, whose wealth is not flashy, but stays in the family for generations. The sort of family that owns seventeen McDonald’s franchises in eastern Tennessee, or owners of the third-biggest construction company in Bakersfield.</li>
 <li><a href="https://commoncog.com/blog/cash-flow-games/">The Games People Play With Cash Flow</a> (Common Cog) - Deep dive into trade-offs of raising capital early. Succinctly answers why so many profitable SaaS companies still want to take on venture funding. "in many businesses, you must spend money now to make money later. This implies that you’ll need a source of capital at the start of many business ventures".</li>
-<li><a href="https://evonomics.com/why-behavioral-economics-is-itself-biased/">Why Behavioral Economics is Itself Biased</a> (Evonomics) - Turns out that the study showing that there is no "Hot Hand" in basketball was biased, and in fact the phenomenon is real. The winds of change are blowing, and behavioral economics is not immune to its own critiques. </li>
+<li><a href="https://evonomics.com/why-behavioral-economics-is-itself-biased/">Why Behavioral Economics is Itself Biased</a> (Evonomics) - Turns out that the study showing that there is no "Hot Hand" in basketball was biased, and in fact the phenomenon is real. The winds of change are blowing, and behavioral economics is not immune to its own critiques.</li>
 <li><a href="https://www.theatlantic.com/ideas/archive/2021/04/the-autopilot-economy/618497/">Could Index Funds Be ‘Worse Than Marxism’?</a> (The Atlantic) - Some $11 trillion is now invested in index funds, up from $2 trillion a decade ago. And as of 2019, more money is invested in passive funds than in active funds in the United States. Index funds increase inertia, and they get too dominant, capital will get allocated only to the big companies and not necessarily to good, promising, or efficient companies. Also, index fund managers like Vanguard get outsized control of votes in companies in the index. Perhaps we could all use a little more of that manic stock-picking energy, not less.</li>
-<li><a href="https://www.profgalloway.com/the-martian/">The Martian</a> (No Mercy/No Malice) - A look at Elon Musk's financial machinations and outsized influence on markets. </li>
+<li><a href="https://www.profgalloway.com/the-martian/">The Martian</a> (No Mercy/No Malice) - A look at Elon Musk's financial machinations and outsized influence on markets.</li>
 <li><a href="https://theprepared.com/blog/why-ykk-zippers-are-the-brown-mms-of-product-design-look-at-the-little-details-to-judge-overall-gear-quality/">Why YKK zippers are the brown M&amp;Ms of product design</a> (The Prepared) - A surprising look at YKK, a Japanese manufacturer of high quality zippers. The authors suggest using this and other signs to look for quality in products.</li>
 <li><a href="https://cointelegraph.com/magazine/2020/09/24/wtf-happened-in-1971">WTF happened in 1971</a> (Coin Telegraph) - Still very confused on this one. But alarmingly,  hours to buy a single unit of the S&amp;P 500 has increased to an all time high of 126 hours today, up from an average of 30.9 hours since 1860.</li>
 </ul>
@@ -154,7 +153,7 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <li><a href="https://www.theverge.com/2021/4/27/22403741/deepfake-geography-satellite-imagery-ai-generated-fakes-threat">Deepfake satellite imagery poses a not-so-distant threat, warn geographers</a> (The Verge) - Far from presenting deepfakes cartography as a novel challenge, "humans have been lying with maps for pretty much as long as maps have existed, they say, from mythological geographies devised by ancient civilizations like the Babylonians, to modern propaganda maps distributed during wartime". No mention of Potemkin villages, but same genre.</li>
 <li><a href="https://www.theatlantic.com/technology/archive/2021/10/facebook-metaverse-was-always-terrible/620546/">Hey, Facebook, I Made a Metaverse 27 Years Ago</a> (The Atlantic) Zuck isn't building the metaverse because he has a remarkable new vision of how things could be. The futures it imagines have been imagined a thousand times before, and usually better.</li>
 <li><a href="https://dlc.dlib.indiana.edu/dlc/bitstream/handle/10535/5962/Silence%2520is%2520a%2520Commons.html?isAllowed=y&amp;sequence=1">Ivan Illich: Silence is a Commons</a> (indiana.edu) - Ivan Illich is doing to computers what he did to education (De-Schooling Society, 1971), to energy (Energy and Equity, 1974), to medicine (Medical Nemesis, 1975), etc.</li>
-<li><a href="https://www.interaction-design.org/literature/article/design-for-the-future-but-balance-it-with-your-users-present">The MAYA Principle: Design for the Future, but Balance it with Your Users’ Present</a> (Interaction Design Foundation)† - Google Glass has not become the success it was anticipated to become. How do we learn to strike the right balance between the most advanced design and our users’ ability to accept our product? </li>
+<li><a href="https://www.interaction-design.org/literature/article/design-for-the-future-but-balance-it-with-your-users-present">The MAYA Principle: Design for the Future, but Balance it with Your Users’ Present</a> (Interaction Design Foundation)† - Google Glass has not become the success it was anticipated to become. How do we learn to strike the right balance between the most advanced design and our users’ ability to accept our product?</li>
 <li><a href="https://thefrailestthing.com/2014/08/21/preserving-the-person-in-the-emerging-kingdom-of-technological-force/">Preserving the Person in the Emerging Kingdom of Technological Force</a> (The Frailest Thing) - L. M. Sacasas presents a coherent critical theory take on why it is that Google Glass has so far been rejected by society.</li>
 <li><a href="https://glazkov.com/2021/08/20/the-miracle-count/">The miracle count</a> (Dimitri Glazkov)† - Put simply, the miracle count is the number of unlikely events that we need to happen for a project to succeed. If your startup needs zero miracles to work, it probably isn't a defensible startup. If your startup needs multiple miracles, it probably isn't going to work.</li>
 <li><a href="https://alexdanco.com/2020/02/28/vcs-should-play-bridge/">VCs should play bridge</a> (Alex Danco) - In bridge, your bids have to serve two purposes: they are both literal commitments (if your bid wins, you must follow through with it) and also coded signals which you use to try and telegraph information to your partner about where you see opportunity. This seems like a useful analogy to understand insanely high startup valuations.</li>
@@ -172,7 +171,7 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <li><a href="https://avc.com/2021/04/the-vision-thing/">The Vision Thing</a> (Fred Wilson) - Leadership comes in two flavors, visionary leadership and operational leadership. Founders are almost always visionaries and hired CEOs are almost always operators.</li>
 <li><a href="https://rootsofprogress.org/a-career-path-for-invention">We need a career path for invention</a> (Roots of Progress) - “Inventor” is not a role one can be hired for. The aspiring inventor finds themselves straddling science and business. They could join a research lab, or become an engineer at a technology-based company. In either case, they will be misaligned with their environment.</li>
 <li><a href="https://www.technologyreview.com/2021/07/13/1028295/proud-solutionist-history-technology-industry/">Why I’m a proud solutionist</a> (Jason Crawford) - Jason highlights that there is a middle way between starry-eyed optimism and nihilistic pessimism. Nothing new here, but a good reminder of a stance that I am sympathetic to.</li>
-<li><a href="https://www.theatlantic.com/business/archive/2014/10/why-germany-is-so-much-better-at-training-its-workers/381550/">Why Germany Is So Much Better at Training Its Workers</a> (The Atlantic) - Laments how hard it is to imagine many American firms, generally focused on short-term financial gain, building the kind of in-house training centers we saw at every German plant. They focus on "Dual training", which captures the idea at the heart of every apprenticeship: Trainees split their days between classroom instruction at a vocational school and on-the-job time at a company. </li>
+<li><a href="https://www.theatlantic.com/business/archive/2014/10/why-germany-is-so-much-better-at-training-its-workers/381550/">Why Germany Is So Much Better at Training Its Workers</a> (The Atlantic) - Laments how hard it is to imagine many American firms, generally focused on short-term financial gain, building the kind of in-house training centers we saw at every German plant. They focus on "Dual training", which captures the idea at the heart of every apprenticeship: Trainees split their days between classroom instruction at a vocational school and on-the-job time at a company.</li>
 </ul>
 
 <h1>Urban design</h1>
@@ -181,8 +180,8 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <li><a href="http://urbankchoze.blogspot.com/2014/04/japanese-zoning.html">Japanese Zoning</a> (Urban kchoze) - US zoning laws impose one or two exclusive uses for every zone. Japanese laws tend to view things more as the maximum nuisance level to tolerate in each zone, but every use that is considered to be less of a nuisance is still allowed. So low-nuisance uses are allowed essentially everywhere. How did American zoning get so prescriptive and over-regulated? In general I am enjoying articles that point to a better system, or suggest concrete improvements to the existing one.</li>
 <li><a href="https://devonzuegel.com/post/urban-density-is-a-tragedy-of-the-commons">Urban sprawl is a tragedy of the commons</a> (Devon Zuegel) - Space and access form a polarity. You want to have a big house, but you also want it to be close to places you like and need. Acknowledges that the underlying coordination problem is wicked, but also that there are many low-hanging fruit to increase access to amazing things without sacrificing space.</li>
 <li><a href="https://www.ben-evans.com/benedictevans/2017/3/20/cars-and-second-order-consequences">Cars and second order consequences</a> (Benedict Evans) - Evans follows two major trends in cars through some speculative scenarios: moving to electric means much more than replacing the gas tank with a battery, and moving to autonomy means much more than ending accidents. What happens to public transport? To parking garages? To long commutes? To surveillance due to multiple video cameras in every car?</li>
-<li><a href="http://www.theguardian.com/cities/2016/aug/12/lost-cities-merv-worlds-biggest-city-razed-turkmenistan">Lost cities #5: how the magnificent city of Merv was razed – and never recovered</a> (The Guardian) - I only learned about Merv recently from <em>Lost Enlightenment by Frederick Starr</em>. A shocking story of collapse — from the largest city in the world in the 13th century to dusty, windswept remains. Even the name is lost.</li>
-<li><a href="https://noahpinion.substack.com/p/drawing-pictures-of-cities">Drawing pictures of cities</a> (Noah Smith) - Smith breaks down what makes the famous Solar Punk image !<em>Imperial Boy Solar Punk Art.png</em> so appealing. I loved the systematic breakdown of solarpunk aesthetics, which is still nascent and thus impervious to analysis.</li>
+<li><a href="http://www.theguardian.com/cities/2016/aug/12/lost-cities-merv-worlds-biggest-city-razed-turkmenistan">Lost cities #5: how the magnificent city of Merv was razed – and never recovered</a> (The Guardian) - I only learned about Merv recently from <a class="wiki" href="https://z3.ca/Lost_Enlightenment_by_Frederick_Starr">Lost Enlightenment by Frederick Starr</a>. A shocking story of collapse — from the largest city in the world in the 13th century to dusty, windswept remains. Even the name is lost.</li>
+<li><a href="https://noahpinion.substack.com/p/drawing-pictures-of-cities">Drawing pictures of cities</a> (Noah Smith) - Smith breaks down what makes the famous Solar Punk image !<a class="wiki" href="https://z3.ca/Imperial_Boy_Solar_Punk_Art.png">Imperial Boy Solar Punk Art.png</a> so appealing. I loved the systematic breakdown of solarpunk aesthetics, which is still nascent and thus impervious to analysis.</li>
 </ul>
 
 <h1>Movable type</h1>
@@ -471,9 +470,9 @@ gardener.</p>
 
 <p>The following diagram is illuminating:</p>
 
-<p>!<em>Tainter's diminishing marginal returns in complex societies.png</em></p>
+<p>!<a class="wiki" href="https://z3.ca/Tainter's_diminishing_marginal_returns_in_complex_societies.png">Tainter's diminishing marginal returns in complex societies.png</a></p>
 
-<p>I am immediately reminded of <em>Two Watersheds - too much institutionalization</em>, but Tainter's argument is even more macro. The whole of society reaches the second watershed, and then sets itself on track for general collapse. </p>
+<p>I am immediately reminded of <a class="wiki" href="https://z3.ca/Two_Watersheds_-_too_much_institutionalization">Two Watersheds - too much institutionalization</a>, but Tainter's argument is even more macro. The whole of society reaches the second watershed, and then sets itself on track for general collapse. </p>
 
 <h1>Civilization = complexity</h1>
 
@@ -493,7 +492,7 @@ gardener.</p>
   <p>The features that set states apart ... are: territorial organization, differentiation by class and occupation rather than by kinship, monopoly of force, authority to mobilize resources and personnel, and legal jurisdiction.</p>
 </blockquote>
 
-<p>Tainter sees states as a series of complex systems. Very much along the lines of <em>Thinking in Systems by Donella Meadows</em>. </p>
+<p>Tainter sees states as a series of complex systems. Very much along the lines of <a class="wiki" href="https://z3.ca/Thinking_in_Systems_by_Donella_Meadows">Thinking in Systems by Donella Meadows</a>. </p>
 
 <blockquote>
   <p>Complex societies tend to be what Simon has called "nearly decomposable systems". That is, they are at least partly built up of social units that are themselves potentially stable and independent, and indeed at one time may have been so.</p>
@@ -583,13 +582,13 @@ gardener.</p>
   <p>Self-sufficiency and autonomy of local systems are reduced as specialization increases. As special-purpose subsystems become increasingly differentiated, stability declines. Disruptions occurring anywhere will be spread everywhere, whereas in less complex settings a society would be cushioned against disruptions by less specialization, less interlinkage among parts, and greater time delays between cause and ultimate outcome. </p>
 </blockquote>
 
-<p>Elman Service's <em>Law of evolutionary potential</em>:</p>
+<p>Elman Service's <a class="wiki" href="https://z3.ca/Law_of_evolutionary_potential">Law of evolutionary potential</a>:</p>
 
 <blockquote>
   <p>The more specialized and adapted a form in a given evolutionary stage, the smaller its potential for passing to the next stage.</p>
 </blockquote>
 
-<p>This rhymes quite a bit with <em>The Great Filter solution to Fermi's paradox</em>. Service also writes:</p>
+<p>This rhymes quite a bit with <a class="wiki" href="https://z3.ca/The_Great_Filter_solution_to_Fermi's_paradox">The Great Filter solution to Fermi's paradox</a>. Service also writes:</p>
 
 <blockquote>
   <p>Successful complex societies become locked into their adaptations, and are easily bypassed by those less specialized. So by having greater flexibility, less complex border states gain an increasing competitive advantage, and are thus able ultimately to topple older, established states</p>
@@ -597,7 +596,7 @@ gardener.</p>
 
 <p>Another way of stating the same thing is the <strong>Dinosaur Model</strong>. Here, a complex society is seen as a lumbering colossus, fixed in its morphology, and incapable of rapid change. Locked into an evolutionary dead end, it represents an investment in structure, size, and complexity that is awesome and admirable, yet highly maladaptive. When stresses arise, such a society cannot adapt, and so must expire.</p>
 
-<p>This rhymes very much with <em>Disruption theory</em> in business. This lock-in phenomenon can also be framed as a feedback loop: </p>
+<p>This rhymes very much with <a class="wiki" href="https://z3.ca/Disruption_theory">Disruption theory</a> in business. This lock-in phenomenon can also be framed as a feedback loop: </p>
 
 <blockquote>
   <p>Other scholars implicate a positive feedback loop in collapse, from which escape is impossible. Colin Renfrew (1979) argues that under stress complex societies lack the option to diversify, to become less specialized. By doing more of what may have caused the problem in the first place, the breakdown of the system is made inevitable.</p>
@@ -611,7 +610,7 @@ gardener.</p>
 
 <h1>Complexity reduction =&gt; depopulation</h1>
 
-<p>For Tainter, complexity reduction causes depopulation and not vice-versa. <em>Depopulation is often correlated with decline</em></p>
+<p>For Tainter, complexity reduction causes depopulation and not vice-versa. <a class="wiki" href="https://z3.ca/Depopulation_is_often_correlated_with_decline">Depopulation is often correlated with decline</a></p>
 
 <blockquote>
   <p>A complex society that has collapsed is suddenly smaller, simpler, less stratified, and less socially differentiated. Specialization decreases and there is less centralized control. The flow of information drops, people trade and interact less, and there is overall lower coordination among individuals and groups. Economic activity drops to a commensurate level, while the arts and literature experience such a quantitative decline that a dark age often ensues. Population levels tend to drop, and for those who are left the known world shrinks.</p>
@@ -660,7 +659,7 @@ gardener.</p>
 <p>Cognitive psychology can immediately debunk many myths in education:</p>
 
 <ol>
-<li>Individuals DON’T learn better when they receive information in their preferred learning style (e.g., auditory, visual, kinesthetic) <em>Learning styles are a stubborn myth</em></li>
+<li>Individuals DON’T learn better when they receive information in their preferred learning style (e.g., auditory, visual, kinesthetic) <a class="wiki" href="https://z3.ca/Learning_styles_are_a_stubborn_myth">Learning styles are a stubborn myth</a></li>
 <li>Environments that are rich in stimuli DON’T improve the brains of pre-school children.</li>
 <li>Short bouts of coordination exercises DO NOT improve integration of left and right hemisphere brain function.</li>
 <li>Exercises that rehearse coordination of motor-perception skills CAN’T improve literacy skills.</li>
@@ -682,7 +681,7 @@ gardener.</p>
 
 <p><strong>Perception</strong> your interpretation of the sensations. This is generally very subjective, and depends on the context and the person</p>
 
-<p>One way in which perception is subjective is illustrated by <em>Intensity of stimulus is proportional to the pre-existing stimulus, and logarithmic (Weber-Fechner law)</em>, which says that what you perceive is highly dependent on what you were just perceiving. This is true for both time and space.</p>
+<p>One way in which perception is subjective is illustrated by <a class="wiki" href="https://z3.ca/Intensity_of_stimulus_is_proportional_to_the_pre-existing_stimulus,_and_logarithmic_(Weber-Fechner_law)">Intensity of stimulus is proportional to the pre-existing stimulus, and logarithmic (Weber-Fechner law)</a>, which says that what you perceive is highly dependent on what you were just perceiving. This is true for both time and space.</p>
 
 <p><strong>Bottom-up vs top-down processing</strong>: bottom-up processing focuses on the stimulus only, without bringing prior knowledge to make sense of it. This is similar to just sensing? Top-down processing involves using prior knowledge. For example, you hear a fire alarm, but know it was part of the fire drill, so remain calm (top-down). A baby, however, gets upset and cries (bottom-up).</p>
 
@@ -702,9 +701,9 @@ gardener.</p>
 
 <p>Empirically, it takes longer to do (3) than to do (1) + (2).</p>
 
-<p>Attention can be focused towards the salient. For example, it’s easy to look around and quickly spot all objects that are red at will. In education, <strong>saliency</strong> comes from the students motivation, interest levels, the way the material is presented. This is very related to the <em>Krashen - Comprehensible and Interesting Input</em> approach.</p>
+<p>Attention can be focused towards the salient. For example, it’s easy to look around and quickly spot all objects that are red at will. In education, <strong>saliency</strong> comes from the students motivation, interest levels, the way the material is presented. This is very related to the <a class="wiki" href="https://z3.ca/Krashen_-_Comprehensible_and_Interesting_Input">Krashen - Comprehensible and Interesting Input</a> approach.</p>
 
-<p>Attention can also be lost, and this is known as <strong>mind wandering</strong>. This happens more during easy tasks, but also during very difficult tasks. This is one of the benefits of being in the <em>Zone of Proximal Development (ZPD)</em>.</p>
+<p>Attention can also be lost, and this is known as <strong>mind wandering</strong>. This happens more during easy tasks, but also during very difficult tasks. This is one of the benefits of being in the <a class="wiki" href="https://z3.ca/Zone_of_Proximal_Development_(ZPD)">Zone of Proximal Development (ZPD)</a>.</p>
 
 <p>In the chunking example, where the authors provide the characters of CHAPTER6ATTENTION scrambled in random order, I am finding that I can remember it better with a mnemonic. I guess this is sort of the point of chunking: it’s a way for more information to be stored in short-term memory, by relying on “chunks” that are already in exiting memory.</p>
 
@@ -756,7 +755,7 @@ gardener.</p>
 
 <p>There is a well defined answer to the question “when should I be studying given that the test is on $DATE”. But how does this best work when there is no test, and the goal is just indefinite retention. Is this even a good goal? Surely there are benefits to forgetting things.</p>
 
-<p><em>Forgetting curves show how quickly information is naturally forgotten</em></p>
+<p><a class="wiki" href="https://z3.ca/Forgetting_curves_show_how_quickly_information_is_naturally_forgotten">Forgetting curves show how quickly information is naturally forgotten</a></p>
 
 <h2>Interleaving: switch between topics while studying</h2>
 
@@ -770,7 +769,7 @@ gardener.</p>
 
 <p>Elaborative interrogation (EI) is a specific method of elaboration where you ask yourself questions of how and why things work, then produce answers. </p>
 
-<p>Cousins include <em>Socratic dialogue</em> and the chain of why questions that toddlers and young children are famous for.</p>
+<p>Cousins include <a class="wiki" href="https://z3.ca/Socratic_dialogue">Socratic dialogue</a> and the chain of why questions that toddlers and young children are famous for.</p>
 
 <p>A study (Woloshyn and Stockley) found that EI led to better long term retention than re-reading the material. It worked in both an individual condition (self-asking and answering) and in pairs (one asks, the other answers, WLOG). </p>
 
@@ -796,7 +795,7 @@ gardener.</p>
 
 <p>Pictures are often remembered better than words, so the idea is to combine words and pictures to enhance learning. These can be diagrams, infographics, cartoon strips, etc. Presumably the same would apply to other mediums like video.</p>
 
-<p>Combining modalities is helpful for all learners, not just those that like pictures or think of themselves as “visual learners”. Also, <em>Learning styles are a stubborn myth</em>.</p>
+<p>Combining modalities is helpful for all learners, not just those that like pictures or think of themselves as “visual learners”. Also, <a class="wiki" href="https://z3.ca/Learning_styles_are_a_stubborn_myth">Learning styles are a stubborn myth</a>.</p>
 
 <p>One pitfall is to include visuals that are distracting because they are:</p>
 
@@ -826,7 +825,7 @@ gardener.</p>
 <li>Explain what they can remember to another person</li>
 </ul>
 
-<p><strong>Need to be ZPD</strong>: If a retrieval task is too hard, students will be discouraged. If it’s too easy, they will be bored. Need to be in the <em>Zone of Proximal Development (ZPD)</em>, while retaining <em>Desirable difficulties</em>. </p>
+<p><strong>Need to be ZPD</strong>: If a retrieval task is too hard, students will be discouraged. If it’s too easy, they will be bored. Need to be in the <a class="wiki" href="https://z3.ca/Zone_of_Proximal_Development_(ZPD)">Zone of Proximal Development (ZPD)</a>, while retaining <a class="wiki" href="https://z3.ca/Desirable_difficulties">Desirable difficulties</a>. </p>
 
 <p><strong>Failed retrieval can still help</strong>: there is evidence that even a failed retrieval attempt can improve learning.</p>
 
@@ -901,13 +900,13 @@ gardener.</p>
       <div>
         <p>It's been years since I would have said that I aspire to be a rationalist. But I've been swimming in rationality circles for long enough that some of the arguments and ideas in the book are somewhat trite. But I have enjoyed Julia’s podcast for her crispness of thought, ability to popularize, and pleasant voice. I'd recommend this book for someone unfamiliar with modern rationalism that's looking to get their feet wet. It's definitely a more coherent and less overwhelming starting point than lesswrong.</p>
 
-<p>I was looking forward to the takedown of <em>Gerd Gigerenzer on Gut Feelings</em>, who’s ideas I am sympathetic to. </p>
+<p>I was looking forward to the takedown of <a class="wiki" href="https://z3.ca/Gerd_Gigerenzer_on_Gut_Feelings">Gerd Gigerenzer on Gut Feelings</a>, who’s ideas I am sympathetic to. </p>
 
 <p><strong>Soldier mindset</strong> we tend to defend our beliefs against any evidence or arguments that might threaten them. Reasoning in the English language is often described through militaristic metaphors. We try to “shore up” our beliefs, “support them” and “buttress them” as if they’re fortresses. We try to “shoot down” opposing arguments and we try to “poke holes” in the other side.</p>
 
 <p><strong>Scout mindset</strong> The scout’s job is not to attack or defend; it’s to understand. The scout is the one going out, mapping the terrain, identifying potential obstacles. Above all, the scout wants to know what’s really out there as accurately as possible.</p>
 
-<p>Julia argues that scout mindset is always better than soldier mindset. There are some parallels to hedgehogs (Soldiers) and foxes (Scouts) too, as in <em>The Hedgehog and the Fox by Isaiah Berlin</em>. There are also echoes of System 1 (Soldier) and System 2 (Scout) ideas from <em>Thinking Fast and Slow by Kahneman and Tversky</em>.</p>
+<p>Julia argues that scout mindset is always better than soldier mindset. There are some parallels to hedgehogs (Soldiers) and foxes (Scouts) too, as in <a class="wiki" href="https://z3.ca/The_Hedgehog_and_the_Fox_by_Isaiah_Berlin">The Hedgehog and the Fox by Isaiah Berlin</a>. There are also echoes of System 1 (Soldier) and System 2 (Scout) ideas from <a class="wiki" href="https://z3.ca/Thinking_Fast_and_Slow_by_Kahneman_and_Tversky">Thinking Fast and Slow by Kahneman and Tversky</a>.</p>
 
 <h1>Rational irrationality</h1>
 
@@ -920,7 +919,7 @@ gardener.</p>
 <li>Epistemic rationality involves achieving accurate beliefs about the world.</li>
 </ul>
 
-<p>So, to rephrase the paradox is to diffuse it: it may be <strong>instrumentally</strong> rational to be <strong>epistemically</strong> irrational. This is highly related to <em>Information Hazards</em>.</p>
+<p>So, to rephrase the paradox is to diffuse it: it may be <strong>instrumentally</strong> rational to be <strong>epistemically</strong> irrational. This is highly related to <a class="wiki" href="https://z3.ca/Information_Hazards">Information Hazards</a>.</p>
 
 <h1>Always strive for epistemic rationality</h1>
 
@@ -956,7 +955,7 @@ gardener.</p>
 
 <h1>Epistemic vs. social confidence</h1>
 
-<p><em>Social confidence vs. epistemic confidence</em></p>
+<p><a class="wiki" href="https://z3.ca/Social_confidence_vs._epistemic_confidence">Social confidence vs. epistemic confidence</a></p>
 
 <ul>
 <li>Soldier as press secretary: extremely high social confidence, and artificially
@@ -969,7 +968,7 @@ really true is extremely important.</li>
 
 <h1>Keep your identity...?</h1>
 
-<p>Julia Galef and Paul Graham are overly bearish on identity. But identity is what makes you who you are. By rooting it out you demolish your own uniqueness, traditions, original insights. In this sense I am in favor of intersectionality, but broadly construed. Diversity (see <em>Measuring non-woke diversity broadly</em>) not of skin color and gender but of substantive and nuanced things like having been homeschooled, or being a practicing orthodox Christian or believing in Gaia theory or the fact that you raised three children on a 30’ sailboat circumnavigating the globe. Maybe you are super old and survived the Leningrad blockade. Maybe you grew up in desperate poverty. Or even, that you grew up as the son of a Saudi Prince. These things will give you a different perspective on life, and are genuinely valuable to bring to the table.</p>
+<p>Julia Galef and Paul Graham are overly bearish on identity. But identity is what makes you who you are. By rooting it out you demolish your own uniqueness, traditions, original insights. In this sense I am in favor of intersectionality, but broadly construed. Diversity (see <a class="wiki" href="https://z3.ca/Measuring_non-woke_diversity_broadly">Measuring non-woke diversity broadly</a>) not of skin color and gender but of substantive and nuanced things like having been homeschooled, or being a practicing orthodox Christian or believing in Gaia theory or the fact that you raised three children on a 30’ sailboat circumnavigating the globe. Maybe you are super old and survived the Leningrad blockade. Maybe you grew up in desperate poverty. Or even, that you grew up as the son of a Saudi Prince. These things will give you a different perspective on life, and are genuinely valuable to bring to the table.</p>
 
 <p>Great. Reminder. About. Righteous. Sentences. Produced. By. Emphatic. Use. Of. Periods. </p>
 
@@ -1021,7 +1020,7 @@ really true is extremely important.</li>
 
 <p>As a modernization means, Peter forced all men to shave their beards and cut off the flowing sleeves of their caftans. </p>
 
-<p>St. Petersburg was built by serfs on 6 month tours of duty. Peter ordered 40,000 a year. And they didn't even have wheelbarrows. Known as a “city built on bones”. Peter boasted 100,000 died building it. Reminds me of <em>Roman slaves were cheaper than machines</em></p>
+<p>St. Petersburg was built by serfs on 6 month tours of duty. Peter ordered 40,000 a year. And they didn't even have wheelbarrows. Known as a “city built on bones”. Peter boasted 100,000 died building it. Reminds me of <a class="wiki" href="https://z3.ca/Roman_slaves_were_cheaper_than_machines">Roman slaves were cheaper than machines</a></p>
 
 <p>Peter mandated travel by boat, but banned oars to force his people to learn how to sail by the wind alone. Nobles were gifted sailboats whose size corresponded to their rank. Peter built canals throughout the city to facilitate travel by water, but neglected to consider that they would freeze in winter.</p>
 
@@ -1069,7 +1068,7 @@ really true is extremely important.</li>
 
 <p>Mind blowing connection of the Russian word вокзал named after the first train station in Tsarskoe Selo, modeled after Vauxhall station in London. “A permanent reminder of Russia's cribbed modernity at its most blatant”.</p>
 
-<p>Fittingly, the first railway line connected the capital with the tzar's residence, a vanity project. Meanwhile, a national railway network was nixed out of fear that “frequent purposeless travel would foster the restless spirit of our age”. Reminds me of the crackdown on <em>Parasitism in Soviet Russia</em>.</p>
+<p>Fittingly, the first railway line connected the capital with the tzar's residence, a vanity project. Meanwhile, a national railway network was nixed out of fear that “frequent purposeless travel would foster the restless spirit of our age”. Reminds me of the crackdown on <a class="wiki" href="https://z3.ca/Parasitism_in_Soviet_Russia">Parasitism in Soviet Russia</a>.</p>
 
 <p>Funny: when European fashions changed to wearing facial hair, Petersburgers followed suit, reversing Peter's decree. Gogol mocks this in “Nevsky prospect”.</p>
 
@@ -1123,7 +1122,7 @@ really true is extremely important.</li>
 
 <p>The Bauhaus movement found eager home in the Soviet state. <a href="https://en.wikipedia.org/wiki/Tatlin%27s_Tower">Tatlin's Tower</a> was an ambitious modern example of such a project but was never built for lack of funds. </p>
 
-<p>Constructivism became Russia's distinctive style of modernism integrating obsession with geometry and perspective. Example: <a href="http://architectuul.com/architecture/gorky-palace-of-culture">Palace of Culture</a>. <a href="https://newhumanist.org.uk/articles/2301/on-tractor-street">Tractornaya Ulitsa</a> homes were a tasteful update on classic Petersburg forms. I'm reminded of <em>Palaces for the People by Eric Klinenberg</em>, just making the connection from the name.</p>
+<p>Constructivism became Russia's distinctive style of modernism integrating obsession with geometry and perspective. Example: <a href="http://architectuul.com/architecture/gorky-palace-of-culture">Palace of Culture</a>. <a href="https://newhumanist.org.uk/articles/2301/on-tractor-street">Tractornaya Ulitsa</a> homes were a tasteful update on classic Petersburg forms. I'm reminded of <a class="wiki" href="https://z3.ca/Palaces_for_the_People_by_Eric_Klinenberg">Palaces for the People by Eric Klinenberg</a>, just making the connection from the name.</p>
 
 <p><strong>Erich Mendelssohn</strong> was brought to design red banner factory in 1925, which looked like a giant ocean liner ready to set sail. </p>
 
@@ -1183,7 +1182,7 @@ really true is extremely important.</li>
 
 <p>The early 90s were extremely rough: from 1990 to 1995, the number of Russians living on $4 a day or less went from 2M to 60M. Life expectancy went from 68.5 to 64.5. "everything Marx said about communism was wrong, but everything he said about capitalism was right"</p>
 
-<p>By 1998, the ruble had collapsed. This economic chaos began to be associated with democracy in the Russian mind, and the people pined for a strong leader. Putin's Russia would be autocracy reborn. The next bits go into Putin's biography, mostly a rehash of <em>Nothing is True and Everything is Possible</em>. Notably Putin consolidated TV networks under state control. Gasprom, the giant government owned conglomerate, benefited greatly from spikes in oil demand in the early 21st century. </p>
+<p>By 1998, the ruble had collapsed. This economic chaos began to be associated with democracy in the Russian mind, and the people pined for a strong leader. Putin's Russia would be autocracy reborn. The next bits go into Putin's biography, mostly a rehash of <a class="wiki" href="https://z3.ca/Nothing_is_True_and_Everything_is_Possible">Nothing is True and Everything is Possible</a>. Notably Putin consolidated TV networks under state control. Gasprom, the giant government owned conglomerate, benefited greatly from spikes in oil demand in the early 21st century. </p>
 
 <p>The last St. Pete gubernatorial election was in 2003. In 2004, a law was passed that makes heads of all "federal subjects" (provinces, republics, territories, federal cities like St. Pete) appointed directly by the President of Russia. In the west we have checks and balances. In Russia we have check and mate (I made that up)</p>
 
@@ -1223,7 +1222,7 @@ really true is extremely important.</li>
     <content type="html">
       <![CDATA[
       <div>
-        <p>Max Weber piqued my interest in an overview course in philosophy <em>The Modern Political Tradition - Hobbes to Habermas</em>. I took a note about Weber's ideas then:</p>
+        <p>Max Weber piqued my interest in an overview course in philosophy <a class="wiki" href="https://z3.ca/The_Modern_Political_Tradition_-_Hobbes_to_Habermas">The Modern Political Tradition - Hobbes to Habermas</a>. I took a note about Weber's ideas then:</p>
 
 <blockquote>
   <p>Work is good in itself, a sign of higher character. Modernity is all about instrumental rationality: refining means to achieve ends. Modernity is polytheistic. Each context provides its own value. This leads to a permanent identity crisis. Weber’s options are: bear with it or return to an all encompassing religion. (Protestant capitalism)</p>
@@ -1266,7 +1265,7 @@ really true is extremely important.</li>
 
 <p>The emphasis thus shifted from an unending glorification of god to a creation of god-glorifying works, fruits of your craft. I think of J. S. Bach as an exemplar of this attitude. Even mom has said that at her best, her hands are moved by god's grace.</p>
 
-<p>The emphasis on works reminds me of <em>Never Let Me Go by Kazuo Ishiguro</em>, in which students' works are harvested in order to prove that clone-students are worthy of salvation.</p>
+<p>The emphasis on works reminds me of <a class="wiki" href="https://z3.ca/Never_Let_Me_Go_by_Kazuo_Ishiguro">Never Let Me Go by Kazuo Ishiguro</a>, in which students' works are harvested in order to prove that clone-students are worthy of salvation.</p>
 
 <p>Weber enumerates protestant denominations that contributed to this solid work ethic:</p>
 
@@ -1288,7 +1287,7 @@ diagram I found helpful</a>.</p>
 <li>Not all branches of Protestantism stem from Luther directly. Some seem to be inspired by his disobedience, but don't inherit from Lutheranism directly.</li>
 <li>Anglicanism was started by Henry VIII, a few decades after Luther (details of the story I will skip here). Puritans dissented against the Anglican church, demanding extreme divergence from Catholicism. </li>
 <li>Methodists are a sort of Puritan revival, also splitting off from Anglicans. Their name comes from "method".</li>
-<li>Weber refers to Moravians. These are followers of Jan Hus (mentioned in <em>Late Middle Ages</em>, and predates Luther by sixty years (!)</li>
+<li>Weber refers to Moravians. These are followers of Jan Hus (mentioned in <a class="wiki" href="https://z3.ca/Late_Middle_Ages">Late Middle Ages</a>, and predates Luther by sixty years (!)</li>
 <li><p>Speaking of schisms, it's fascinating to watch two different strategies in the Christian world:</p>
 
 <ol>
@@ -1412,13 +1411,13 @@ have not yet read). </p>
 
 <p>Early “writing” did not involve clutching a pen and drawing letters on parchment, but dictating to a scribe. So initially there was a gulf between writer and author. Wax tablets also played some role in writing, mostly for temporary note taking. (Interesting that this hasn't really been a focus in other works I've read on this topic.)</p>
 
-<p>Words were initially not separated at all, but spaces between became common around the 7th century (confirm with <em>Carolingian minuscule</em>), in order to teach Latin to the barbarians as a foreign language. </p>
+<p>Words were initially not separated at all, but spaces between became common around the 7th century (confirm with <a class="wiki" href="https://z3.ca/Carolingian_minuscule">Carolingian minuscule</a>), in order to teach Latin to the barbarians as a foreign language. </p>
 
 <p>Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved. </p>
 
 <p>Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century. </p>
 
-<p>Also see <em>Reading and writing transition in the 12th century</em>.</p>
+<p>Also see <a class="wiki" href="https://z3.ca/Reading_and_writing_transition_in_the_12th_century">Reading and writing transition in the 12th century</a>.</p>
 
 <p>In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!). </p>
 
@@ -1515,7 +1514,7 @@ have not yet read). </p>
 
 <p>My notes are stored in a directory of plaintext markdown files. These are also interlinked with Wiki-style markup. They are currently synchronized to iCloud Drive to make interoperability with iOS easier, while still allowing the notes to be accessed across multiple devices.</p>
 
-<p>In theory, I aim for terse, evergreen notes that use the <em>BLUF TLDR note taking style</em>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
+<p>In theory, I aim for terse, evergreen notes that use the <a class="wiki" href="https://z3.ca/BLUF_TLDR_note_taking_style">BLUF TLDR note taking style</a>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
 
 <h2>Small ideas</h2>
 
@@ -1526,9 +1525,9 @@ have not yet read). </p>
 <li>household notes, like car repair and nanny payments</li>
 <li>notes from conversations with people (stored in <code>Meeting notes/</code>)</li>
 <li>daily notes (stored in <code>Inbox/</code>)</li>
-<li>longer term TODO lists like <em>WORK NEXT</em></li>
+<li>longer term TODO lists like <a class="wiki" href="https://z3.ca/WORK_NEXT">WORK NEXT</a></li>
 <li>notes for new project ideas</li>
-<li>running notes for ongoing projects, like <em>eFoil project notes</em></li>
+<li>running notes for ongoing projects, like <a class="wiki" href="https://z3.ca/eFoil_project_notes">eFoil project notes</a></li>
 </ul>
 
 <h2>Bigger ideas</h2>
@@ -1553,7 +1552,7 @@ have not yet read). </p>
 
 <h2>On a mobile phone</h2>
 
-<p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <em>Words I didn’t know well</em> when I encounter it for the first time.</p>
+<p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <a class="wiki" href="https://z3.ca/Words_I_didn’t_know_well">Words I didn’t know well</a> when I encounter it for the first time.</p>
 
 <h2>On the go</h2>
 
@@ -1565,7 +1564,7 @@ have not yet read). </p>
 
 <p>My current article reading workflow is to funnel everything into Instapaper. I filter articles from friends, private groups on Discord, twitter, and general web browsing. If from a quick skim the article seems worthwhile, I'll cue up in Instapaper to calmly read at a later point.</p>
 
-<p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <em>Readwise to markdown script</em> runs daily, importing annotations into my note collection for easy referencing.</p>
+<p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <a class="wiki" href="https://z3.ca/Readwise_to_markdown_script">Readwise to markdown script</a> runs daily, importing annotations into my note collection for easy referencing.</p>
 
 <h2>While reading/listening to books</h2>
 
@@ -1575,7 +1574,7 @@ have not yet read). </p>
 
 <p>By synthesis I mean the collision of multiple concepts inside my note corpus into a new idea or insight. This process occurs naturally as I write and am reminded of something I have previously written. This is an iterative process, often done in multiple sittings. It resembles having a conversation with my past self, as ideas are clarified, integrated, and interlinked. </p>
 
-<p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <em>How to Take Smart Notes by Sonke Ahrens</em>.</p>
+<p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <a class="wiki" href="https://z3.ca/How_to_Take_Smart_Notes_by_Sonke_Ahrens">How to Take Smart Notes by Sonke Ahrens</a>.</p>
 
 <p>Tools can also catalyze synthesis. For example, in Obsidian, when typing a new internal link using the double bracket syntax, you are presented with a list of suggested notes based on title. This can sometimes remind me that I have another note that is relevant. Perhaps it should be linked, transcluded, or merged into this one. Notational Velocity was guite good at this, and Obsidian could do much more on this front.</p>
 
@@ -1679,7 +1678,7 @@ allow for interesting experiments in the future.</p>
 
 <p>A parent’s goal should instead be to raise their child like resilient garden that can adapt to a dynamic world. Such a garden or maybe even wild meadow evolves and adapts to circumstances. This is in contrast to a much more static approach of growing hot house tomatoes. The hot house is highly regulated and creates ideal circumstances for the tomato to grow. But these ideal circumstances are not reflective of the real world. Hot house tomato’s are not resilient. </p>
 
-<p>Reminds me a bit of legibility and <em>Seeing Like a State by James Scott</em> but applied to children. Authoritarian High modern failure mode in kids is one that tries to carpenter too much. I have examples of this in distant friends: MA rebelled against becoming a doctor, IN rebelled against becoming a software engineer. Both results were disappointing to their parents. Better to not be so prescriptive.</p>
+<p>Reminds me a bit of legibility and <a class="wiki" href="https://z3.ca/Seeing_Like_a_State_by_James_Scott">Seeing Like a State by James Scott</a> but applied to children. Authoritarian High modern failure mode in kids is one that tries to carpenter too much. I have examples of this in distant friends: MA rebelled against becoming a doctor, IN rebelled against becoming a software engineer. Both results were disappointing to their parents. Better to not be so prescriptive.</p>
 
 <p>(Does this idea of parent-gardener break down if you consider a very large garden? I guess if garden is large enough you end up with parent-industrial farmer. Is that what school is then?)</p>
 
@@ -1693,10 +1692,10 @@ allow for interesting experiments in the future.</p>
 
 <ul>
 <li><strong>Formal education and play</strong>, which itself leads to education but in roundabout illegible ways. (Makes me think of my work and when I’m happiest. It’s when I’m playing. Building toys. Playing to learn. </li>
-<li><strong>Explore vs exploit</strong>. Since childhood kids want to be independent but also seek out the comfort of their parents. The same is true over a lifecycle, going from profound dependence to the opposite extreme. Similar tensions around Tradition and innovation. More on this in <em>Explore vs exploit trade-offs</em>.</li>
+<li><strong>Explore vs exploit</strong>. Since childhood kids want to be independent but also seek out the comfort of their parents. The same is true over a lifecycle, going from profound dependence to the opposite extreme. Similar tensions around Tradition and innovation. More on this in <a class="wiki" href="https://z3.ca/Explore_vs_exploit_trade-offs">Explore vs exploit trade-offs</a>.</li>
 </ul>
 
-<p>Fundamentally, <em>Open-endedness is required to solve ambitious problems</em>. Play and childhood are optimized for this.</p>
+<p>Fundamentally, <a class="wiki" href="https://z3.ca/Open-endedness_is_required_to_solve_ambitious_problems">Open-endedness is required to solve ambitious problems</a>. Play and childhood are optimized for this.</p>
 
 <h1>Recent changes parents and society</h1>
 
@@ -1710,9 +1709,9 @@ allow for interesting experiments in the future.</p>
 
 <p>Referencing Omnivore's Dilemma by Michael Pollan. What was formerly a traditional way of being, like cooking meals from a certain cuisine, was replaced by a sort of science-inspired explosion of dieting advice. The more we deliberately cook and eat to become healthy, the less healthy we become.</p>
 
-<p>The more we raise children to make them happy and successful adults the less happy and successful they become. <em>Trying not to try</em></p>
+<p>The more we raise children to make them happy and successful adults the less happy and successful they become. <a class="wiki" href="https://z3.ca/Trying_not_to_try">Trying not to try</a></p>
 
-<p>The sheer quantity of parenting and dieting books itself is just an indication that none of them work. If one did, they’d all be out of business. This critique reminds me of the one in <em>Two Watersheds - too much institutionalization</em>. </p>
+<p>The sheer quantity of parenting and dieting books itself is just an indication that none of them work. If one did, they’d all be out of business. This critique reminds me of the one in <a class="wiki" href="https://z3.ca/Two_Watersheds_-_too_much_institutionalization">Two Watersheds - too much institutionalization</a>. </p>
 
 <h1>Generational compounding</h1>
 
@@ -1741,7 +1740,7 @@ allow for interesting experiments in the future.</p>
 
 <p>It's a reinforcing feedback loop.</p>
 
-<p>I'm intrigued by this idea of <em>Catholic Age of Reason is 7</em>. Clearly the long childhood has become much longer in recent generations.</p>
+<p>I'm intrigued by this idea of <a class="wiki" href="https://z3.ca/Catholic_Age_of_Reason_is_7">Catholic Age of Reason is 7</a>. Clearly the long childhood has become much longer in recent generations.</p>
 
 <h1>Maybe against evo psych?</h1>
 
@@ -1757,7 +1756,7 @@ allow for interesting experiments in the future.</p>
 
 <p>Kids also over-imitate, which is to say they will repeat additional actions of the adult even if they appear to be superfluous. Does this natural inclination of over-imitation explain rites that carry over almost verbatim l'dor v'dor? TRADITION!!</p>
 
-<p>And so, argues Gopnik, imitation based learning is a super good foundation for the master-apprentice model. Lots of critiques of school a la <em>Deschooling Society by Ivan Illich</em>. There's also the historical argument, that the master-apprentice model is how people have learned for a long time.</p>
+<p>And so, argues Gopnik, imitation based learning is a super good foundation for the master-apprentice model. Lots of critiques of school a la <a class="wiki" href="https://z3.ca/Deschooling_Society_by_Ivan_Illich">Deschooling Society by Ivan Illich</a>. There's also the historical argument, that the master-apprentice model is how people have learned for a long time.</p>
 
 <p>Grad students are often professor apprentices, learning to write and getting critiqued.</p>
 
@@ -1769,7 +1768,7 @@ allow for interesting experiments in the future.</p>
 
 <p>Gopnik describes a thought experiment in which baseball is taught as if it were part of the core school curriculum. Students would begin with history of the game, introduction to running, then dive deeply into ball and bat construction, and those that get accepted into a Masters in Baseball might get to play some softball in the last few months of their degree.</p>
 
-<p>Great (apocryphal) story about the master swordsman who forced his pupil to cook his food. But would show up randomly in the kitchen and smack his apprentice with a wooden sword. After three years of this the apprentice became always vigilant. Full legend is <em>The Taste of Banzo's Sword</em></p>
+<p>Great (apocryphal) story about the master swordsman who forced his pupil to cook his food. But would show up randomly in the kitchen and smack his apprentice with a wooden sword. After three years of this the apprentice became always vigilant. Full legend is <a class="wiki" href="https://z3.ca/The_Taste_of_Banzo's_Sword">The Taste of Banzo's Sword</a></p>
 
 <p>Effective passage on "the device", which is reads like a Tristan Harris-style attack on smartphones, social media, or insert<em>bogeyman</em>here. She then reveals that it's actually about books, which were similar criticized by Socrates. This is a good reminder about generational conservatism, and made me feel more inclined to pursue far future technology with questionable social implications.</p>
 
@@ -1781,7 +1780,7 @@ allow for interesting experiments in the future.</p>
 
 <p>Interesting that children seem to seek out evidence that contradicts their theories as part of play. </p>
 
-<p>Play must be spontaneous. The <em>Ms. Havisham Problem illustrates that play must be spontaneous</em> is a good framing of why, citing Dickens' book where a disgruntled old lady asks a child to play for her entertainment. </p>
+<p>Play must be spontaneous. The <a class="wiki" href="https://z3.ca/Ms._Havisham_Problem_illustrates_that_play_must_be_spontaneous">Ms. Havisham Problem illustrates that play must be spontaneous</a> is a good framing of why, citing Dickens' book where a disgruntled old lady asks a child to play for her entertainment. </p>
 
 <blockquote>
   <p>"I am tired," said Miss Havisham. "I want diversion, and I have done with men and women. Play." I think it will be conceded by my most disputatious reader, that she could hardly have directed an unfortunate boy to do anything in the wide world more difficult to be done under the circumstances.</p>
@@ -1789,7 +1788,7 @@ allow for interesting experiments in the future.</p>
 
 <p>Play must be spontaneous and is demonstrably more effective than teaching in some cases. Gopnik cites a study where children were either 1) shown how a multifunctional toy works, or 2) allowed to discover the functionality for themselves. Children shown how to play with a toy did not tend to discover other novel ways of playing with it while those that were allowed to explore ended up discovering more functionality. (Surely this depends on how much functionality was demonstrated in 1).</p>
 
-<p>(Gopnik does not explicitly say this but I really like the idea that <em>Play is deliberate practice for wicked problems</em>)</p>
+<p>(Gopnik does not explicitly say this but I really like the idea that <a class="wiki" href="https://z3.ca/Play_is_deliberate_practice_for_wicked_problems">Play is deliberate practice for wicked problems</a>)</p>
 
 <h2>Why is play fun?</h2>
 
@@ -1811,7 +1810,7 @@ allow for interesting experiments in the future.</p>
 
 <h1>My critique: consider ergodicity</h1>
 
-<p>Most gardens have hundreds of plants growing in them. But your average kinder garden only has 2.5 kinders, and every parent wants to do everything in their power to help them thrive. Even in a garden with hundreds of plants, it's hard to really understand what works and what doesn't. With an N of O(1), you certainly don't want to experiment and risk failure. So people take the safe path, another example of <em>Cover Your Ass</em>.</p>
+<p>Most gardens have hundreds of plants growing in them. But your average kinder garden only has 2.5 kinders, and every parent wants to do everything in their power to help them thrive. Even in a garden with hundreds of plants, it's hard to really understand what works and what doesn't. With an N of O(1), you certainly don't want to experiment and risk failure. So people take the safe path, another example of <a class="wiki" href="https://z3.ca/Cover_Your_Ass">Cover Your Ass</a>.</p>
 
 <p>This is my fundamental criticism of the Gardener model of parenting. In other words, I am identifying the core challenge to the parent. If Gopnik is indeed right, and the gardener model is the one to adopt, it is difficult for ambitious parents to do this in practice, because they are so invested in their child's future and be subject to competitive parenting, etc.</p>
 
@@ -1845,7 +1844,7 @@ Ages</a>.</p>
 
 <p>Crusaders that remained in the holy lands after the crusades formed Crusader States. One such order, The Knights Templar defended Christian Jerusalem from Arab reconquest. They were monk-knights who helped other crusaders. The Knights Templar grew rich from donations from Christians who wanted to keep the holy city in their grasp. They grew unpopular after losing Jerusalem to Saladin and amassing great wealth. </p>
 
-<p>Phil IV decided to pursue the Templar order, prosecution was also likely a money grab. He also expelled the Jews and annexed their property. <em>Expelling Jews is historically a great way for kings to get rich quick</em>. The pope initially condemned the mass Templar arrest but then when they confessed under torture, the pope called for other European kings to also arrest their Templars under papal authority. Papal palaces we’re built in Avignon. Subsequent popes were selected from the population of southern France. </p>
+<p>Phil IV decided to pursue the Templar order, prosecution was also likely a money grab. He also expelled the Jews and annexed their property. <a class="wiki" href="https://z3.ca/Expelling_Jews_is_historically_a_great_way_for_kings_to_get_rich_quick">Expelling Jews is historically a great way for kings to get rich quick</a>. The pope initially condemned the mass Templar arrest but then when they confessed under torture, the pope called for other European kings to also arrest their Templars under papal authority. Papal palaces we’re built in Avignon. Subsequent popes were selected from the population of southern France. </p>
 
 <h2>Papal Schism</h2>
 
@@ -1867,7 +1866,7 @@ Ages</a>.</p>
 
 <h1>Hundred Years War</h1>
 
-<p>The hundred year war was a long conflict, not a constant total war, but a series of skirmishes. Britain decisively won the important battles early on. (Lots of overlap with <em>The Story of Medieval England</em>). Joan of Arc had a decisive part to play, just when France was all but defeated and almost entirely under British control managed to incite a last ditch effort to reconquer. </p>
+<p>The hundred year war was a long conflict, not a constant total war, but a series of skirmishes. Britain decisively won the important battles early on. (Lots of overlap with <a class="wiki" href="https://z3.ca/The_Story_of_Medieval_England">The Story of Medieval England</a>). Joan of Arc had a decisive part to play, just when France was all but defeated and almost entirely under British control managed to incite a last ditch effort to reconquer. </p>
 
 <p>One of the most violent years during the war was one in which there was no fighting between sides after the treaty of Brétigny in 1360. Mercenary armies hired by the warring kings began indiscriminately pillage for want of supplies. The result was chaos, death, and destruction. To remedy this failure mode, salaried standing armies were introduced around 1450. This was expensive but cheaper than the alternative. It also greatly strengthened royal power compared to that of the nobles since now the crown could rely more on a paid army rather than the decentralized feudal system or lords and vassals. 
 This was the first Christian standing army since the fall of the Western Roman Empire.</p>
@@ -1890,7 +1889,7 @@ This was the first Christian standing army since the fall of the Western Roman E
 
 <p>Around 1340 was a local maximum in European population. These levels were not seen again until the 17th century. Outbreaks of the plague still occurred, but became rarer and rarer. </p>
 
-<p>!<em>Population of Europe 1300-1800.png</em></p>
+<p>!<a class="wiki" href="https://z3.ca/Population_of_Europe_1300-1800.png">Population of Europe 1300-1800.png</a></p>
 
 <p>Because of the huge depopulation, things looked quite different economically. Suddenly there was a labor shortage. Wages shot up 3-5x. Cost of food had decreased due to a reduction in demand. Land prices went down too. Wage laborers began to enjoy a very high standard of living. </p>
 
@@ -1958,7 +1957,7 @@ This was the first Christian standing army since the fall of the Western Roman E
 
 <h2>Advances in script</h2>
 
-<p><em>Carolingian minuscule</em> was commonly used around the time of the early middle ages. One problem with this script was that it was quite rounded and laborious for scribes to produce by hand. So scribes created a more efficient writing style called now called Gothic script. This had the benefit of being mostly vertical, so easieir to write because of a predominantly unidirectional motion of the arm. An added benefit was that the script was more compact, so more text would fit on one page.</p>
+<p><a class="wiki" href="https://z3.ca/Carolingian_minuscule">Carolingian minuscule</a> was commonly used around the time of the early middle ages. One problem with this script was that it was quite rounded and laborious for scribes to produce by hand. So scribes created a more efficient writing style called now called Gothic script. This had the benefit of being mostly vertical, so easieir to write because of a predominantly unidirectional motion of the arm. An added benefit was that the script was more compact, so more text would fit on one page.</p>
 
 <p>Simultaneously, handwritten script with ligatures was revived from classical antiquity. Later, in an attempt to disavow of anything middle age related, scholars shunned gothic script and reverted back to minuscule, not realizing that it too was a middle age invention (c. 9th century)</p>
 
@@ -1995,7 +1994,7 @@ This was the first Christian standing army since the fall of the Western Roman E
 
 <h1>Humanism in Late Medieval Europe</h1>
 
-<p>The humanist movement arose in 14th century Italy as part of the Italian Renaissance. Humanists aimed for a revival of classical art and literature, and following Petrarch, viewed the preceding centuries as a dark and lost age of regression. (Interesting to see how the “first industrial revolution” from <em>Medieval Technology and Social Change</em> framing conflicts with this). They were headquartered largely in Florence where the recently founded university had not yet been fully oriented toward the scholastic tradition which was ubiquitous everywhere else. Florence at the time was extremely rich, minting the Florin, the first gold coin Europe had seen in almost a millennium.</p>
+<p>The humanist movement arose in 14th century Italy as part of the Italian Renaissance. Humanists aimed for a revival of classical art and literature, and following Petrarch, viewed the preceding centuries as a dark and lost age of regression. (Interesting to see how the “first industrial revolution” from <a class="wiki" href="https://z3.ca/Medieval_Technology_and_Social_Change">Medieval Technology and Social Change</a> framing conflicts with this). They were headquartered largely in Florence where the recently founded university had not yet been fully oriented toward the scholastic tradition which was ubiquitous everywhere else. Florence at the time was extremely rich, minting the Florin, the first gold coin Europe had seen in almost a millennium.</p>
 
 <p>Unlike medieval artists and authors, humanists signed their work and strive for a sort of secular immortality by living on in the minds of their peers after their inevitable death. That said, humanists were still deeply entrenched in the Christian tradition. This was not yet the enlightenment, nor the reformation, nor the scientific revolution.</p>
 
@@ -2121,13 +2120,13 @@ This helps focus in on fewer things, and constraints are good.</p>
 
 <p>Charles Martel and his descendants saw the potential of using horses for mounted shock combat. (White seems to ignore high backed saddles and the couched lance technique, with a shocking emphasis on stirrups.) Using armies of knights, Martel the Hammer defeated the Arabs and retook many lands, rebuilding a shorter lived spiritual successor to the Roman empire. With knights proving so effective, there was a need for more knights. This led to a vast proliferation of feudalism, enabling new upwardly mobile vassals to gain access to lands required of a knight, and ultimately cemented this new style of warfare. By 1000, the Latin "miles", which had meant soldier, began to mean knight. </p>
 
-<p>White has a great discussion about the “diffusion” of stirrups. In general this lens of <em>Diffusion of Technology</em> is one to keep in mind. I've adopted it in my random walk into <em>Age Heaping Using Canadian 1852 Census data</em>. As White eloquently puts it,</p>
+<p>White has a great discussion about the “diffusion” of stirrups. In general this lens of <a class="wiki" href="https://z3.ca/Diffusion_of_Technology">Diffusion of Technology</a> is one to keep in mind. I've adopted it in my random walk into <a class="wiki" href="https://z3.ca/Age_Heaping_Using_Canadian_1852_Census_data">Age Heaping Using Canadian 1852 Census data</a>. As White eloquently puts it,</p>
 
 <blockquote>
   <p>As our understanding of technology increases, it becomes clear that a new device merely opens a door; it does not compel one to enter. The acceptance or rejection of an invention, or the extent to which its implications are realized if it is accepted depends quite as much upon the condition of a society, and upon the imagination of its leaders, as upon the nature of the technological item itself.</p>
 </blockquote>
 
-<p>The <em>Second order effects and unintended consequences</em> of this shift were massive. Horses were expensive to buy and maintain, armor was becoming heavier to be effective against lances with the force of thousands of pounds at its tip. Equipment for one knight seemed to cost about 20 oxen (a peasant family relied on 2). Knights often had squires, and multiple spare horses.</p>
+<p>The <a class="wiki" href="https://z3.ca/Second_order_effects_and_unintended_consequences">Second order effects and unintended consequences</a> of this shift were massive. Horses were expensive to buy and maintain, armor was becoming heavier to be effective against lances with the force of thousands of pounds at its tip. Equipment for one knight seemed to cost about 20 oxen (a peasant family relied on 2). Knights often had squires, and multiple spare horses.</p>
 
 <p>Charlemagne and other Carolingian kings encouraged peasants to band together and choose one of them to fight as a knight. Since land was the source of power of the time (money was not as key), the landed knights became the nouveau riche, creating a large gulf between them and the peasantry from which many of them came.</p>
 
@@ -2151,7 +2150,7 @@ This helps focus in on fewer things, and constraints are good.</p>
 
 <p>Horses with padded collars could exert as much force as oxen. But moved much faster, so could output a lot more power. More speed let to more harrowing which was more effective at breaking up clods.</p>
 
-<p>Yet the ox did not spread as quickly in England as one might expect. White suggests that this may have been because of a reluctance due to a lack of skin in the game, related to <em>Does your output affect your paycheck?</em>.</p>
+<p>Yet the ox did not spread as quickly in England as one might expect. White suggests that this may have been because of a reluctance due to a lack of skin in the game, related to <a class="wiki" href="https://z3.ca/Does_your_output_affect_your_paycheck?">Does your output affect your paycheck?</a>.</p>
 
 <blockquote>
   <p>the real reason for his favoring the ox at the plow emerges when he remarks that 'the malice of the ploughmen does not permit a horse-drawn plough to go any faster than one pulled by oxen'. This kind of slow-down may have affected the ploughing of demesne lands done reluctantly under manorial obligation but it would not apply when peasants were working their own fields.</p>
@@ -2291,7 +2290,7 @@ loops...)</p>
       <![CDATA[
       <div>
         <p>Overall a dense but short listen. Potpourri of new ideas, and far better than
-<em>Why Information Grows by Cesar Hidalgo</em>. This lecture is well organized,
+<a class="wiki" href="https://z3.ca/Why_Information_Grows_by_Cesar_Hidalgo">Why Information Grows by Cesar Hidalgo</a>. This lecture is well organized,
 engagingly narrated, with memorable examples. A great, rather intense
 introduction to Complexity.</p>
 
@@ -2303,36 +2302,36 @@ don't really integrate the most interesting parts from earlier in the book.</p>
 
 <p>Here are some ideas I from the book I found interesting.</p>
 
-<p><em>Wolfram’s four system types</em> -
+<p><a class="wiki" href="https://z3.ca/Wolfram’s_four_system_types">Wolfram’s four system types</a> -
 <a href="https://www.wolframscience.com/nks/p231--four-classes-of-behavior/">https://www.wolframscience.com/nks/p231--four-classes-of-behavior/</a></p>
 
-<p><em>Complexity happens in a sweet spot</em> - There are four necessary conditions for
+<p><a class="wiki" href="https://z3.ca/Complexity_happens_in_a_sweet_spot">Complexity happens in a sweet spot</a> - There are four necessary conditions for
 complexity. But it's necessary that all of these conditions be present in
 moderate quantities. Too much or too little of any of them will lead to
 equilibrium, not complexity.</p>
 
-<p><em>Measuring diversity generally speaking</em> - <a href="https://en.wikipedia.org/wiki/Diversity_index">https://en.wikipedia.org/wiki/Diversity_index</a></p>
+<p><a class="wiki" href="https://z3.ca/Measuring_diversity_generally_speaking">Measuring diversity generally speaking</a> - <a href="https://en.wikipedia.org/wiki/Diversity_index">https://en.wikipedia.org/wiki/Diversity_index</a></p>
 
-<p><em>Dancing landscape</em> - rugged landscapes that change over time.</p>
+<p><a class="wiki" href="https://z3.ca/Dancing_landscape">Dancing landscape</a> - rugged landscapes that change over time.</p>
 
-<p><em>Creative vs. evolutionary processes</em> - Evolution is relentless and infinitely
+<p><a class="wiki" href="https://z3.ca/Creative_vs._evolutionary_processes">Creative vs. evolutionary processes</a> - Evolution is relentless and infinitely
 persistent, like the tortoise. Creativity requires drive from a specific group
 of people, who are finite in energy and time, but can move quickly, like the
 hare. </p>
 
-<p><em>Power law vs normal distributions</em> - Many things are normally distributed.
+<p><a class="wiki" href="https://z3.ca/Power_law_vs_normal_distributions">Power law vs normal distributions</a> - Many things are normally distributed.
 But some are power law distributed. Why? Independent events leads to normal
 distribution. Interdependent events leads to power law distributions. </p>
 
-<p><em>Explore vs exploit trade-offs</em> - A well formulated treatment on this subject.</p>
+<p><a class="wiki" href="https://z3.ca/Explore_vs_exploit_trade-offs">Explore vs exploit trade-offs</a> - A well formulated treatment on this subject.</p>
 
-<p><em>Self-organized criticality</em> - the idea that many systems approach a critical
+<p><a class="wiki" href="https://z3.ca/Self-organized_criticality">Self-organized criticality</a> - the idea that many systems approach a critical
 state automatically.</p>
 
-<p><em>Simulated annealing</em> - an approach to finding global maximums under certain
+<p><a class="wiki" href="https://z3.ca/Simulated_annealing">Simulated annealing</a> - an approach to finding global maximums under certain
 constraints.</p>
 
-<p><em>Complexity is in the eyes of the beholder</em> - if you're really smart, checkers
+<p><a class="wiki" href="https://z3.ca/Complexity_is_in_the_eyes_of_the_beholder">Complexity is in the eyes of the beholder</a> - if you're really smart, checkers
 is just tic-tac-toe, and no longer complex. Is that right?</p>
 
 
@@ -2588,7 +2587,7 @@ covering 1834 - 1900.</p>
     <content type="html">
       <![CDATA[
       <div>
-        <p>After reading <em>Player of Games by Iain M. Banks</em>, I wanted to read another in the Culture Series mainly for the world-building. </p>
+        <p>After reading <a class="wiki" href="https://z3.ca/Player_of_Games_by_Iain_M._Banks">Player of Games by Iain M. Banks</a>, I wanted to read another in the Culture Series mainly for the world-building. </p>
 
 <p>Consider Phlebas is a fast paced adventure book. The protagonist Bora Horza Gobuchul is unreasonably superhuman, possessing super strength, a great fighting ability, and among many other things, the ability to change his appearance at will. He finds himself in increasingly ridiculous situations, at one point stranded on a small island populated by fanatical cannibals. I found the plot itself to be so out there, parts of it read like my 10 year old self's stream of thought in an early creative writing assignment.</p>
 
@@ -2596,7 +2595,7 @@ covering 1834 - 1900.</p>
 
 <p>Idirans are monotheists, modeled on the fervent Jewish/Muslim variety. They range from zealots to pragmatists, but all have a clear sense of identity about them. Physically and spiritually my mind renders them as the Protoss from Starcraft. Except they have three limbs, and are in symbiosis with another race of six-limbed sentient beings.</p>
 
-<p>The culture is sort of a macrocosm of Western society, far more technologically advanced, and taken to an extreme. All things, strengths and weaknesses are exaggerated. They rely heavily on sentient machines, and creatively named spacecraft. The lifestyle is decadent and are subject to the <em>Tyranny of Convenience</em>. The have a general lack of conviction, and no skin in the game.</p>
+<p>The culture is sort of a macrocosm of Western society, far more technologically advanced, and taken to an extreme. All things, strengths and weaknesses are exaggerated. They rely heavily on sentient machines, and creatively named spacecraft. The lifestyle is decadent and are subject to the <a class="wiki" href="https://z3.ca/Tyranny_of_Convenience">Tyranny of Convenience</a>. The have a general lack of conviction, and no skin in the game.</p>
 
 <p>Ultimately, Horza is killed by an Idiran that mistrusts him. A moral lesson from Mr. Banks? The non-Hollywood ending is refreshing, given the superhero-like attributes of the protagonist.</p>
 
@@ -2625,9 +2624,9 @@ covering 1834 - 1900.</p>
 <p>That said, a few things stood out for me:</p>
 
 <ul>
-<li>Prigogine's work on <em>Dissipative systems</em> and their applications. </li>
-<li><em>Artifacts as crystallized imagination</em></li>
-<li>The <em>Resource curse</em></li>
+<li>Prigogine's work on <a class="wiki" href="https://z3.ca/Dissipative_systems">Dissipative systems</a> and their applications. </li>
+<li><a class="wiki" href="https://z3.ca/Artifacts_as_crystallized_imagination">Artifacts as crystallized imagination</a></li>
+<li>The <a class="wiki" href="https://z3.ca/Resource_curse">Resource curse</a></li>
 </ul>
 
 <h1>Information is the opposite of entropy</h1>
@@ -2661,17 +2660,17 @@ covering 1834 - 1900.</p>
 
 <p>Application to DNA: interesting sequences that code for something important are usually the least random ones. (Really?) Notably these information rich states don’t tell us about what this DNA means. Meaningless forms of order. </p>
 
-<p>Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in <em>Seeing Like a State by James Scott</em> and сноровка. </p>
+<p>Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in <a class="wiki" href="https://z3.ca/Seeing_Like_a_State_by_James_Scott">Seeing Like a State by James Scott</a> and сноровка. </p>
 
 <h1>Energy flows cause spontaneous order</h1>
 
 <p>Entropy only increases in a closed universe. Meaning that this universe has no flow of energy into or out of it. </p>
 
-<p>Ilya Romanovich Prigogine, a Russian Jewish born Belgian studied <em>Dissapative systems</em>, which are systems far from thermodynamic equilibrium, with substantial steady-state flows of energy. Earth is such a system because the sun is the source of all our power.</p>
+<p>Ilya Romanovich Prigogine, a Russian Jewish born Belgian studied <a class="wiki" href="https://z3.ca/Dissapative_systems">Dissapative systems</a>, which are systems far from thermodynamic equilibrium, with substantial steady-state flows of energy. Earth is such a system because the sun is the source of all our power.</p>
 
 <p>In situations where there is a steady state, there is a tendency for spontaneous order. A whirlpool will spontaneously appear when you open the drain to a bath tub. Are there other simple examples?</p>
 
-<p>This is super cool! Imagine all of life as a sort of very complex whirlpool. Actually, Ted Chiang kinda did in a more poetic version of this idea found in the story called Exhalation. <em>Exhalation by Ted Chiang</em></p>
+<p>This is super cool! Imagine all of life as a sort of very complex whirlpool. Actually, Ted Chiang kinda did in a more poetic version of this idea found in the story called Exhalation. <a class="wiki" href="https://z3.ca/Exhalation_by_Ted_Chiang">Exhalation by Ted Chiang</a></p>
 
 <h1>Information can be stored in solids</h1>
 
@@ -2685,7 +2684,7 @@ covering 1834 - 1900.</p>
 
 <h1>Goldilocks zone for information to appear and remain</h1>
 
-<p>Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from <em>Where Good Ideas Come From by Steven Johnson</em>). But if it’s too liquid, solids can’t form to store that information. </p>
+<p>Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from <a class="wiki" href="https://z3.ca/Where_Good_Ideas_Come_From_by_Steven_Johnson">Where Good Ideas Come From by Steven Johnson</a>). But if it’s too liquid, solids can’t form to store that information. </p>
 
 <blockquote>
   <p>There are no long chains of proteins in the sun</p>
@@ -2740,15 +2739,15 @@ covering 1834 - 1900.</p>
 
 <p>Blending the idea of crystallized imagination and global trade, Hidalgo considers trade imbalances from the perspective of imagination. In the trade between Korea and Honduras, there is an imagination trade imbalance, with Korea providing in the commodity of imagination. He then ranks countries in terms of how much information capital they produce. Again, meh. </p>
 
-<p>Hidalgo touches a bit on the <em>Resource curse</em>. This would be interesting to understand in more detail. https://en.m.wikipedia.org/wiki/Resource_curse</p>
+<p>Hidalgo touches a bit on the <a class="wiki" href="https://z3.ca/Resource_curse">Resource curse</a>. This would be interesting to understand in more detail. https://en.m.wikipedia.org/wiki/Resource_curse</p>
 
 <h2>More derivative stuff</h2>
 
 <p>In the spirit of being a random amalgamation of cool ideas Hidalgo likes:</p>
 
 <ul>
-<li>High trust enables lower transaction costs, as per <em>Bowling Alone by Robert Putnam</em></li>
-<li>Family is for communism, market is for capitalism.  <em>Debt by David Graeber</em></li>
+<li>High trust enables lower transaction costs, as per <a class="wiki" href="https://z3.ca/Bowling_Alone_by_Robert_Putnam">Bowling Alone by Robert Putnam</a></li>
+<li>Family is for communism, market is for capitalism.  <a class="wiki" href="https://z3.ca/Debt_by_David_Graeber">Debt by David Graeber</a></li>
 </ul>
 
 
@@ -2876,13 +2875,13 @@ covering 1834 - 1900.</p>
 
 <p>Petrarch (13th century) believed that classical Greco-Roman art and culture was the apogee of humanity. After the fall of Rome, which he dated to the sack of Rome in 410, everything went downhill. Naturalism went out the window in favor of abstraction. The Latin language became corrupted. It was all horseshit! Petrarch hoped that his lifetime would see a return to classical values. His hope came true with the emerging Renaissance. Thus, two great eras in human history (classical &amp; renaissance) sandwiched a middle age so terrible it doesn't even deserve a proper name.</p>
 
-<p>During the romantic period, the Middle Ages were viewed with nostalgia. Dirty, polluted, overworked people sought philosophers like Rousseau, who pined for the lush greenery of the past. Marx's vision of constant conflict between classes was seen in contrast to the harmonious system of <em>The Three Orders</em> of the Middle Age.</p>
+<p>During the romantic period, the Middle Ages were viewed with nostalgia. Dirty, polluted, overworked people sought philosophers like Rousseau, who pined for the lush greenery of the past. Marx's vision of constant conflict between classes was seen in contrast to the harmonious system of <a class="wiki" href="https://z3.ca/The_Three_Orders">The Three Orders</a> of the Middle Age.</p>
 
 <p>Medeival is just how you say Middle Age in Latin. Love it when simple things click into place. </p>
 
 <h1>Population explosion</h1>
 
-<p>Europe's population roughly doubled during the high middle ages (1000-1300), in contrast to <em>Early Middle Ages</em> (300-1000), where late Rome was charaterized by depopulation, followed by stagnation 700-1000. The era that followed, the <em>Late Middle Ages</em> were pummeled by the black death leading again to a decline in population. <em>Depopulation is often correlated with decline</em></p>
+<p>Europe's population roughly doubled during the high middle ages (1000-1300), in contrast to <a class="wiki" href="https://z3.ca/Early_Middle_Ages">Early Middle Ages</a> (300-1000), where late Rome was charaterized by depopulation, followed by stagnation 700-1000. The era that followed, the <a class="wiki" href="https://z3.ca/Late_Middle_Ages">Late Middle Ages</a> were pummeled by the black death leading again to a decline in population. <a class="wiki" href="https://z3.ca/Depopulation_is_often_correlated_with_decline">Depopulation is often correlated with decline</a></p>
 
 <p>Around 1000 CE, Europe was very rural. Cities had at most 10,000 people living in them. By 1300 many towns grow into cities and have 100,000 residents. </p>
 
@@ -2894,7 +2893,7 @@ covering 1834 - 1900.</p>
 
 <p>As European cities grew, they became worthwhile stops for global merchants, since their markets now became big enough to be interesting. Italy dominated in trade because of its central position in the mediterranean. It's no accident that the famous Marco Polo emerges from Italy in 1270.</p>
 
-<p>The monetary system also evolves around this time. At the height of Rome, a tri-metallic system was in place. Large transactions were done in gold coins, while bronze and copper coins were used for small daily transactions. By 1000, the continent regressed to a a much simpler system, relying on just silver for all transactions. By 1252, gold coinage was reintroduced by Florence: the florin. Small transactions were done in low quality silver. Related: <em>History of global mediums of exchange</em>.</p>
+<p>The monetary system also evolves around this time. At the height of Rome, a tri-metallic system was in place. Large transactions were done in gold coins, while bronze and copper coins were used for small daily transactions. By 1000, the continent regressed to a a much simpler system, relying on just silver for all transactions. By 1252, gold coinage was reintroduced by Florence: the florin. Small transactions were done in low quality silver. Related: <a class="wiki" href="https://z3.ca/History_of_global_mediums_of_exchange">History of global mediums of exchange</a>.</p>
 
 <h1>Aside on agricultural technology</h1>
 
@@ -2908,7 +2907,7 @@ covering 1834 - 1900.</p>
 
 <h2>Ox yokes =&gt; Horse collars</h2>
 
-<p>Romans used oxen to till the soil. These dumb animals were easily domesticated but slow. To pull a plow, a wooden device called a yoke would sit on top of the ox and the beast would plod across the length of a field. Plots tilled by oxen were long and narrow since ox teams were so hard to turn. <em>Second order effects and unintended consequences</em></p>
+<p>Romans used oxen to till the soil. These dumb animals were easily domesticated but slow. To pull a plow, a wooden device called a yoke would sit on top of the ox and the beast would plod across the length of a field. Plots tilled by oxen were long and narrow since ox teams were so hard to turn. <a class="wiki" href="https://z3.ca/Second_order_effects_and_unintended_consequences">Second order effects and unintended consequences</a></p>
 
 <p>Horses were much faster, but equally strong as oxen. However their anatomy was quite different from an ox, and the strap of the ox yoke would sit across the horse's neck, pressing on its windpipe. This not only reduced air supply reducing efficiency, but was also often fatal.</p>
 
@@ -2924,7 +2923,7 @@ covering 1834 - 1900.</p>
 
 <h1>Those who fought</h1>
 
-<p>In early Middle Ages knights were thugs. But they became increasingly legitimate in their power. As merchants became increasingly affluent and more of them wanted to join the ranks of the knights, there was a problem of <em>Elite overproduction</em>.  The fighting class (see <em>The Three Orders</em>) became so numerous that money alone stopped being enough to join. Now to be dubbed a knight you needed to prove that your bloodline was noble.</p>
+<p>In early Middle Ages knights were thugs. But they became increasingly legitimate in their power. As merchants became increasingly affluent and more of them wanted to join the ranks of the knights, there was a problem of <a class="wiki" href="https://z3.ca/Elite_overproduction">Elite overproduction</a>.  The fighting class (see <a class="wiki" href="https://z3.ca/The_Three_Orders">The Three Orders</a>) became so numerous that money alone stopped being enough to join. Now to be dubbed a knight you needed to prove that your bloodline was noble.</p>
 
 <p>After the collapse of the Carolingian empire in the 9th century, noble infighting soared to dangerous highs. The church attempted to curtail this trend by designating days and periods in the calendar as peaceful through programs such as the Peace and Truce of God. <a href="https://en.wikipedia.org/wiki/Courtesy_book">Courtesy Books</a> were uninteresting lists written in Latin and ultimately fell on deaf ears, or into the hands of largely illiterate ruling class. These attempts did little to curtail noble violence.</p>
 
@@ -2996,7 +2995,7 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 
 <h1>Jews of the High Middle ages</h1>
 
-<p>As mentioned ad nauseam in <em>The Thirteenth Tribe by Arthur Koestler</em>, Jews were often expelled from kingdoms. I even made a list of <em>History of Jewish Expulsions</em>.</p>
+<p>As mentioned ad nauseam in <a class="wiki" href="https://z3.ca/The_Thirteenth_Tribe_by_Arthur_Koestler">The Thirteenth Tribe by Arthur Koestler</a>, Jews were often expelled from kingdoms. I even made a list of <a class="wiki" href="https://z3.ca/History_of_Jewish_Expulsions">History of Jewish Expulsions</a>.</p>
 
 <p>Why? It was an easy way for kings to make quick money. They would seize Jewish assets and take ownership of all outstanding loans. But this would disrupt the economy, so these measures were often reverted quickly. </p>
 
@@ -3021,7 +3020,7 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 
 <p><a href="https://en.wikipedia.org/wiki/Peter_Abelard">Abelard</a> was an early famous Scholastic with a colorful but gruesome story. He began a tradition of debate, with explicit reliance on old texts - bible and derived works (eg. St. Augustine), but also blended it with the pagan philosophers like Aristotle and Plato.</p>
 
-<p>Classic philosophers were accessible thanks to Islamic preservation efforts, especially the work of Ibn Rushd of Al-Andulus (Averroes). (Why was he not mentioned in <em>Lost Enlightenment by Frederick Starr</em>? Seems like that book devoted no time at all to Al-Andulus, just the caliphate centered at Baghdad.)</p>
+<p>Classic philosophers were accessible thanks to Islamic preservation efforts, especially the work of Ibn Rushd of Al-Andulus (Averroes). (Why was he not mentioned in <a class="wiki" href="https://z3.ca/Lost_Enlightenment_by_Frederick_Starr">Lost Enlightenment by Frederick Starr</a>? Seems like that book devoted no time at all to Al-Andulus, just the caliphate centered at Baghdad.)</p>
 
 <p>Scholastic practices were criticized and censored by the church. Their reliance on reason was seen as having excess hubris. Who are they to think that they can contribute something worthy of the great ancient thinkers? Also their reliance on Aristotle and Islamic commentaries and insufficiently on the Bible was seen as problematic. Indeed Aristotle directly contradicted church dogma on some issues. According to Aristotle,</p>
 
@@ -3073,16 +3072,16 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 
 <h1>Norman conquest — meanwhile in England</h1>
 
-<p>The next few lectures were a review of <em>The Story of Medieval England</em>, but the enlarged scope of this lecture made for some new insights.</p>
+<p>The next few lectures were a review of <a class="wiki" href="https://z3.ca/The_Story_of_Medieval_England">The Story of Medieval England</a>, but the enlarged scope of this lecture made for some new insights.</p>
 
 <p>The Normans were partly Franks but also partly descendants of north men, Vikings that were invited to settle in western France by the Franks in an attempt to prevent other Vikings from raiding and pillaging. </p>
 
-<p>Vikings seem to have settled often despite their reputation. They were a key genetic component to the Russian (see <em>The Thirteenth Tribe by Arthur Koestler</em>), French, and English people.</p>
+<p>Vikings seem to have settled often despite their reputation. They were a key genetic component to the Russian (see <a class="wiki" href="https://z3.ca/The_Thirteenth_Tribe_by_Arthur_Koestler">The Thirteenth Tribe by Arthur Koestler</a>), French, and English people.</p>
 
 <ul>
 <li>Exchequer an early accountant system in England. The name comes from the checkered board in which counters representing debts were moved around.</li>
 <li>Domesday book: is this something where age rounding has been analyzed? Might be a cool baseline. Sadly, doesn't appear to include ages, according to the data in https://opendomesday.org/.</li>
-<li>How can I find digitized versions of early censuses? <em>Age Heaping and Numeracy</em></li>
+<li>How can I find digitized versions of early censuses? <a class="wiki" href="https://z3.ca/Age_Heaping_and_Numeracy">Age Heaping and Numeracy</a></li>
 </ul>
 
 <p>After the Norman conquest, there was an interesting dynamic between England and France. The French speaking Normans that conquered England were vassals to the French king. As a result, William the conqueror and his descendants like Henry II were both feudal subordinates and equals to the French kings. Things got especially weird when the English monarchs controlled large tracts of France (called the <a href="https://en.wikipedia.org/wiki/Angevin_Empire">Angevin Empire</a>) through strategic marriages. </p>
@@ -3091,7 +3090,7 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 
 <p>By 987 France was being raided by Magyars, Vikings, and Arabs. The kings were no longer able to retain power. Aristocrats rebelled and split the Carolingian kingdom into smaller units. The subsequent dynasty that takes over is led by Hugh Capet, first of the Capetians. Under their watch France further fragmented into duchies and beyond. But the dynasty's lineage continued despite the fragmentation. This continuity helped prevent civil wars which usual meant bad news for the ruling family. </p>
 
-<p>Learning from the mistakes of the Merovingians and Carolingians, the Capetians changed their succession style. The practiced anticipatory succession and picked an heir before your death. Rather than splitting the kingdom between all of the king's sons, the firstborn was given the kingdom, and his brothers received Appenages (see <em>Primogeniture vs partible inheritance</em>).</p>
+<p>Learning from the mistakes of the Merovingians and Carolingians, the Capetians changed their succession style. The practiced anticipatory succession and picked an heir before your death. Rather than splitting the kingdom between all of the king's sons, the firstborn was given the kingdom, and his brothers received Appenages (see <a class="wiki" href="https://z3.ca/Primogeniture_vs_partible_inheritance">Primogeniture vs partible inheritance</a>).</p>
 
 <p>Eventually Louis VI the Fat began to try and assemble the disintegrated French kingdom. He retakes Île-de-France in relentless military attacks against the castellans that resided there. This became the base for expansion, a place to reimpose authority on rebel lords. </p>
 
@@ -3101,11 +3100,11 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 
 <p>Philip begins repossessing English lands on the continent. First he took Normandy, then Anjou. John forms an alliance with German king Otto of Brunswick. In 1214, a joint English-German invasion of France begins to try to retake back the Angevin lands. Philip II defeats Otto at the <a href="https://en.wikipedia.org/wiki/Battle_of_Bouvines">Battle of Bouvines</a>. Upon seeing the Germans crushed, John retreats fearing a similar fate. This confirms Philip's reconquest, leaving just a small region in the French southwest under English control. </p>
 
-<p>Around the same time, the pope declared a crusade against the south of France known as the <a href="https://en.wikipedia.org/wiki/Albigensian_Crusade">Cathar Crusade</a>. Supposedly those in the south were harboring Cathar heretics and thus needed to be cleansed, one of the major cities harboring them was Carcassonne. This was a twenty year affair, extremely bloody. Overall this led the decentralized French political system (discussed in early Middle Ages), further damaged by English conquest, to centralize again under a powerful king. See <em>Decentralization and Centralization cycles</em></p>
+<p>Around the same time, the pope declared a crusade against the south of France known as the <a href="https://en.wikipedia.org/wiki/Albigensian_Crusade">Cathar Crusade</a>. Supposedly those in the south were harboring Cathar heretics and thus needed to be cleansed, one of the major cities harboring them was Carcassonne. This was a twenty year affair, extremely bloody. Overall this led the decentralized French political system (discussed in early Middle Ages), further damaged by English conquest, to centralize again under a powerful king. See <a class="wiki" href="https://z3.ca/Decentralization_and_Centralization_cycles">Decentralization and Centralization cycles</a></p>
 
 <h1>England's Canterbury Debacles</h1>
 
-<p>A bit more review of <em>The Story of Medieval England</em>, but Thomas Beckett's story is truly fascinating. Appointed as Archbishop of Canterbury by Henry II, Thomas Beckett, personal friend of the king quickly turns on him. Rather than buttressing royal power as expected by Henry, Beckett strongly criticized the corrupt system of royal ecclesiastical appointments. His subversion exiles him to Paris for 6 years, but upon returning, Beckett continues as before. Apocryphally, Henry II asks “will no one rid me of this pesky priest?”, whereupon four of his knights travel to Canterbury and kill Beckett in cold blood in his own cathedral. Beckett is quickly canonized and Henry II pays the price both in PR and by being embarrassingly lashed by monks.</p>
+<p>A bit more review of <a class="wiki" href="https://z3.ca/The_Story_of_Medieval_England">The Story of Medieval England</a>, but Thomas Beckett's story is truly fascinating. Appointed as Archbishop of Canterbury by Henry II, Thomas Beckett, personal friend of the king quickly turns on him. Rather than buttressing royal power as expected by Henry, Beckett strongly criticized the corrupt system of royal ecclesiastical appointments. His subversion exiles him to Paris for 6 years, but upon returning, Beckett continues as before. Apocryphally, Henry II asks “will no one rid me of this pesky priest?”, whereupon four of his knights travel to Canterbury and kill Beckett in cold blood in his own cathedral. Beckett is quickly canonized and Henry II pays the price both in PR and by being embarrassingly lashed by monks.</p>
 
 <p>Henry II's son John is also tied up by a <a href="https://en.wikipedia.org/wiki/Canterbury_election_of_1205">long quarrel at Canterbury in 1205</a>: after the prior archbishop dies, the monks elected a new one, egged on by a doctrine of Papal Supremacy. This is legal but not how the English king liked it — it was normally an appointment in practice. John refuses the election and instead pressured the monks to select his preferred candidate. They agreed to this but the two archbishop candidates both insisted on their legitimacy. As a result the papacy intervenes and insists that both candidates are invalid and that a third archbishop be selected. John refuses this and the pope declares an interdict, a sort of clerical strike in which only key services like baptisms are done. This lasts 6 years and John finally gives in when Innocent III begins to support John's deposition. Ultimately the pope's candidate Stephen Langton becomes Archbishop of Canterbury. Throughout this long period, King John does nothing to retake English possessions retaken by Phillip II, giving him time to prepare.</p>
 
@@ -3166,9 +3165,9 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
     <content type="html">
       <![CDATA[
       <div>
-        <p>When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished <em>Early Middle Ages</em> and really enjoyed <em>Darkness at Noon by Arthur Koestler</em> by Arthur Koestler. </p>
+        <p>When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished <a class="wiki" href="https://z3.ca/Early_Middle_Ages">Early Middle Ages</a> and really enjoyed <a class="wiki" href="https://z3.ca/Darkness_at_Noon_by_Arthur_Koestler">Darkness at Noon by Arthur Koestler</a> by Arthur Koestler. </p>
 
-<p>The first half of the book focuses on the facts. Who were the Khazars? Who were the Rus? Where did these people come from? How did they interact with dominant Byzantines, Ummayads, Abassids? It's super readable and more engaging than prior lectures on the subject matter. That said, I feel that having listened to <em>Early Middle Ages</em> was a bit of a prerequisite. It would have been too hard to keep track of the major players otherwise.</p>
+<p>The first half of the book focuses on the facts. Who were the Khazars? Who were the Rus? Where did these people come from? How did they interact with dominant Byzantines, Ummayads, Abassids? It's super readable and more engaging than prior lectures on the subject matter. That said, I feel that having listened to <a class="wiki" href="https://z3.ca/Early_Middle_Ages">Early Middle Ages</a> was a bit of a prerequisite. It would have been too hard to keep track of the major players otherwise.</p>
 
 <p>In contrast, the remainder of the book is way more speculative. Koestler seems to have started with a thesis: Ashkenazi Jews are Khazars. A narrative then is carefully constructed gather the relevant evidence. However given that this is all set in Dark Ages, the facts are inherently sparse and shrouded in uncertainty. </p>
 
@@ -3239,7 +3238,7 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
   <p>Many Jews of Maeonce, Strasbourg, Spires, ... escaped from centers and left their posessesions to kindly Burgers.</p>
 </blockquote>
 
-<p>!<em>History of Jewish Expulsions</em></p>
+<p>!<a class="wiki" href="https://z3.ca/History_of_Jewish_Expulsions">History of Jewish Expulsions</a></p>
 
 <h1>Controversial conclusions</h1>
 
@@ -3252,9 +3251,9 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 <h1>Random stuff</h1>
 
 <ul>
-<li>Realized that there were two Justinians. Justinian I was discussed in <em>Early Middle Ages</em>, but here it's Justinian II Rhinotmetos (noseless). He lost his nose after being overthrown and sent into exile, but then came back and became Emperor again!</li>
+<li>Realized that there were two Justinians. Justinian I was discussed in <a class="wiki" href="https://z3.ca/Early_Middle_Ages">Early Middle Ages</a>, but here it's Justinian II Rhinotmetos (noseless). He lost his nose after being overthrown and sent into exile, but then came back and became Emperor again!</li>
 <li>Apparently splitting a man in twain by attaching his arms to two trees and felling them was a common penalty for adultery. Poetic Justice.</li>
-<li>There was a Rus invasion of Constantinople in 860, which was also described in <em>Early Middle Ages</em>.</li>
+<li>There was a Rus invasion of Constantinople in 860, which was also described in <a class="wiki" href="https://z3.ca/Early_Middle_Ages">Early Middle Ages</a>.</li>
 <li>Koestler keeps talking about "Russian Chronicle". Apparently it's <a href="https://en.wikipedia.org/wiki/Primary_Chronicle">Nestor's letopis</a>.</li>
 <li>Matthias Mieses is an oft-cited historian. Who was he? A German-only Wikipedia entry suggests he was a historian of Yiddish.</li>
 <li>Interesting analysis from the evolution perspective of Jews in the ghetto effect of them. Three things: inbreeding, genetic drift, and selection pressure.</li>
@@ -3448,7 +3447,7 @@ world? 🗅</p>
 
 <h2>Iconoclasm</h2>
 
-<p>The pope remained tied to the Byzantine empire for many centuries after last western Roman emperor. However, as the empire became increasingly besieged it was less capable and interested in protecting assets of the church. To raise money for a large army to defend against Muslims, the Byzantine emperor Leo III instituted a new tax. But since church interests were not being adequately protected, the pope refused to pay it. <em>History of the world viewed through the lens of taxes</em></p>
+<p>The pope remained tied to the Byzantine empire for many centuries after last western Roman emperor. However, as the empire became increasingly besieged it was less capable and interested in protecting assets of the church. To raise money for a large army to defend against Muslims, the Byzantine emperor Leo III instituted a new tax. But since church interests were not being adequately protected, the pope refused to pay it. <a class="wiki" href="https://z3.ca/History_of_the_world_viewed_through_the_lens_of_taxes">History of the world viewed through the lens of taxes</a></p>
 
 <p>Leo III then demanded destruction of holy icons, a core practice of the still unified church. It's pretty unclear why this happened, perhaps an attempt to emulate successful Islamic tradition? At any rate, the pope refused and eventually the papacy turned away from Byzantine and the East in general, so much that popes, who had long been from Greece, now weren’t sourced from there for 800 years. It's the dark ages, things are murky, but there's more speculation <a href="https://en.wikipedia.org/wiki/Byzantine_Iconoclasm">on Wikipedia</a>.</p>
 
@@ -3462,7 +3461,7 @@ world? 🗅</p>
 
 <p>Charlemagne stands out as the greatest Carolingian, and reconquers more territory, including lands not originally in the Roman empire. He struggles much more against the Saxons than against the Lombards. The Saxons were primitive and distributed, actually consisting of many tiny tribes. Conversely, the Lombards were developed city dwellers with a capital city in Padua. Conquering the capital meant capitulation.</p>
 
-<p>Does this generalize? Do we necessarily become less resilient as civilization progresses? Seems unlikely. <em>Distributed is more resilient</em></p>
+<p>Does this generalize? Do we necessarily become less resilient as civilization progresses? Seems unlikely. <a class="wiki" href="https://z3.ca/Distributed_is_more_resilient">Distributed is more resilient</a></p>
 
 <h2>Carolingian Renaissance</h2>
 
@@ -3474,19 +3473,19 @@ world? 🗅</p>
 
 <p>During this period, bishops became much better educated and much better stewards of the religion. Meanwhile priests remained unrefined. Priesthood tests involved with very basic questions about the faith and included an answer key, suggesting a low level of theological sophistication. Also interesting is the use of standardized testing for this purpose.</p>
 
-<p>To help bring about more literacy the Carolingian Rennaisance is an early example of writing reform, helping usher in <em>Carolingian minuscule</em>, which introduced lower case letters, spaces between words, basic punctuation, and other hints to help make reading easier.</p>
+<p>To help bring about more literacy the Carolingian Rennaisance is an early example of writing reform, helping usher in <a class="wiki" href="https://z3.ca/Carolingian_minuscule">Carolingian minuscule</a>, which introduced lower case letters, spaces between words, basic punctuation, and other hints to help make reading easier.</p>
 
 <h2>Treaty of Verdun</h2>
 
-<p>Carolingians and Merovingians both suffered from being too equitable in splitting inheritance along their heirs. This led to conflicts between the heirs often military and loss of stability. Charlemagne got "lucky", since by his death, all of his kids were dead except Louis the Pious. The Carolingian Rennaisance continued under his watch. But Louis' successors saw Carolingian power collapse. <em>Primogeniture and other methods of splitting inheritance</em></p>
+<p>Carolingians and Merovingians both suffered from being too equitable in splitting inheritance along their heirs. This led to conflicts between the heirs often military and loss of stability. Charlemagne got "lucky", since by his death, all of his kids were dead except Louis the Pious. The Carolingian Rennaisance continued under his watch. But Louis' successors saw Carolingian power collapse. <a class="wiki" href="https://z3.ca/Primogeniture_and_other_methods_of_splitting_inheritance">Primogeniture and other methods of splitting inheritance</a></p>
 
 <p>Louis the Pious declared his successors when he was just 40, decades before his death. His three sons quickly rebelled against him. After an extended kerfuffle involving Louis' imprisonment to a monastery on two separate occasions, an equilibrium was reached between his three surviving children: Lothair, the eldest controlled Middle Francia (approx. Italy). Louis, a younger son from the same marriage controlled East Francia (approx. Germany), and Charles, much younger and from another marriage, controlled West Francia (approx. France).</p>
 
 <h1>Carolingian decomposition: France and Germany</h1>
 
-<p>Under Charlemagne, the empire was subdivided into counties each governed by an appointed count, accountable to the emperor. This is a nice illustration of an anti-democratic principle at play, succinctly formulated by Fukuyama as <em>Higher political bodies should be answerable to lower ones not vice versa</em>. </p>
+<p>Under Charlemagne, the empire was subdivided into counties each governed by an appointed count, accountable to the emperor. This is a nice illustration of an anti-democratic principle at play, succinctly formulated by Fukuyama as <a class="wiki" href="https://z3.ca/Higher_political_bodies_should_be_answerable_to_lower_ones_not_vice_versa">Higher political bodies should be answerable to lower ones not vice versa</a>. </p>
 
-<p>As the Carolingian Empire succumbed to infighting and Viking invaders, Counts began to gain more power. To secure their alliance in war, Kings began to give Counts multiple counties. The office of Count became hereditary and no longer appointed. Counts, not Kings begin appointing local bishops and abbots, and creating their own law courts. This process is known as <em>Devolution of Power</em>. By 900 there are 30 principalities in West Francia, many of which prevented the King from even visiting. A similar process occurred in East Francia, but instead Dukes (a level above Count) retained power. As a result, the east was less fragmented, into about 5 Dutchies. </p>
+<p>As the Carolingian Empire succumbed to infighting and Viking invaders, Counts began to gain more power. To secure their alliance in war, Kings began to give Counts multiple counties. The office of Count became hereditary and no longer appointed. Counts, not Kings begin appointing local bishops and abbots, and creating their own law courts. This process is known as <a class="wiki" href="https://z3.ca/Devolution_of_Power">Devolution of Power</a>. By 900 there are 30 principalities in West Francia, many of which prevented the King from even visiting. A similar process occurred in East Francia, but instead Dukes (a level above Count) retained power. As a result, the east was less fragmented, into about 5 Dutchies. </p>
 
 <p>The West fragments fractally as Castellan do the same to their local Counts as what Counts did to Carolingian Kings. Under Charlemagne, Castellans were a public office, appointed by the ruler and non hereditary. But this breaks down as part of the process of devolution. These castelins assume titles of Dominus (Lord). Increasingly their castles are built of stone, not wood as before.</p>
 
@@ -3502,7 +3501,7 @@ Holy Roman Empire</p>
 
 <h1>Meanwhile in Spain/Al-Andalus</h1>
 
-<p>Not taking too many notes here, since a lot of the material overlaps with <em>Lost Enlightenment by Frederick Starr</em>. The <em>Jizya tax</em> stood out as especially interesting, in the perverse incentives it created. If too many Christians and Jews converted to Islam, the Arab leaders would lose their tax base!</p>
+<p>Not taking too many notes here, since a lot of the material overlaps with <a class="wiki" href="https://z3.ca/Lost_Enlightenment_by_Frederick_Starr">Lost Enlightenment by Frederick Starr</a>. The <a class="wiki" href="https://z3.ca/Jizya_tax">Jizya tax</a> stood out as especially interesting, in the perverse incentives it created. If too many Christians and Jews converted to Islam, the Arab leaders would lose their tax base!</p>
 
 <p>The visigoths in Spain were quickly overrun but Arab invaders, who established an Umayyad kingdom there, and eventually self-declared a Caliphate. </p>
 
@@ -3512,7 +3511,7 @@ Holy Roman Empire</p>
 
 <h1>England</h1>
 
-<p>Alfred the Great... zoned out a bit because it was mostly recap of <em>The Story of Medieval England</em>.</p>
+<p>Alfred the Great... zoned out a bit because it was mostly recap of <a class="wiki" href="https://z3.ca/The_Story_of_Medieval_England">The Story of Medieval England</a>.</p>
 
 <h2>From Slavery to Serfdom</h2>
 
@@ -3551,7 +3550,7 @@ Holy Roman Empire</p>
 <li><strong>Couching lances</strong>, meaning tucking a weighted spear under your arm as you charge. This put all of the horse's momentum into the spear tip for an extremely devastating blow. </li>
 </ul>
 
-<p>This is a fascinating general direction, see <em>Horse related inventions</em>.</p>
+<p>This is a fascinating general direction, see <a class="wiki" href="https://z3.ca/Horse_related_inventions">Horse related inventions</a>.</p>
 
 <h2>Viking longboats</h2>
 
@@ -3621,7 +3620,7 @@ Holy Roman Empire</p>
 <li>Niche finding is a way to shield an organism from competition. If an organism can make a living in a new way, then it has effectively founded its own niche. A new niche often makes founding newer niches possible, and such newer niches often lead to even newer ones.</li>
 </ul>
 
-<p>As much as I disliked <em>Finite and Infinite Games</em>, this discussion of evolution reminds me of it a bit. The only goal of an infinite game is to keep playing.</p>
+<p>As much as I disliked <a class="wiki" href="https://z3.ca/Finite_and_Infinite_Games">Finite and Infinite Games</a>, this discussion of evolution reminds me of it a bit. The only goal of an infinite game is to keep playing.</p>
 
 <p>In an interesting twist, even our human inventions can be considered an evolutionary process since they were created by us, the products of evolution.</p>
 
@@ -3637,7 +3636,7 @@ Holy Roman Empire</p>
   <p>Because of the fog, you don’t know where either path leads. For all you know, one might lead you to a dead end while the other eventually might reach the other side of the lake. </p>
 </blockquote>
 
-<p>The dense fog is a great metaphor for <em>Bounded rationality</em>. The stepping stones are a good metaphor for the idea of the <em>Adjacent possible</em>. Each stepping stone must also be stable to support your weight as you cross, which is a great metaphor for <em>Stable intermediate forms</em>.</p>
+<p>The dense fog is a great metaphor for <a class="wiki" href="https://z3.ca/Bounded_rationality">Bounded rationality</a>. The stepping stones are a good metaphor for the idea of the <a class="wiki" href="https://z3.ca/Adjacent_possible">Adjacent possible</a>. Each stepping stone must also be stable to support your weight as you cross, which is a great metaphor for <a class="wiki" href="https://z3.ca/Stable_intermediate_forms">Stable intermediate forms</a>.</p>
 
 <blockquote>
   <p>If we really behave as treasure hunters and stepping stone collectors, then the only important thing about a stepping stone is that it leads to more stepping stones, period.</p>
@@ -3649,7 +3648,7 @@ Holy Roman Empire</p>
   <p>Almost no prerequisite to any major invention was invented with that invention in mind.</p>
 </blockquote>
 
-<p><em>Profiles of the Future</em> makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen. </p>
+<p><a class="wiki" href="https://z3.ca/Profiles_of_the_Future">Profiles of the Future</a> makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen. </p>
 
 <p>Expected inventions (eg. flying machines) fall less neatly into this metaphor. They are like hills above the fog, but you can't quite figure out the path to get there. On the other hand, once you get close enough to that hill, something that was completely out of reach becomes attainable.</p>
 
@@ -3659,7 +3658,7 @@ Holy Roman Empire</p>
   <p>Contrary to popular belief, great inventors don’t peer into the distant future. A false visionary might try to look past the horizon, but a true innovator looks nearby for the next stepping stone. The successful inventor asks where we can get from here rather than how we can get there. It’s a subtle yet profound difference. Instead of wasting effort on far-off grandiose visions, they concentrate on the edge of what’s possible today.</p>
 </blockquote>
 
-<p>This reminds me of my <em>Asimov's Tech Tree</em> project, and that I really should re-think it as follows. Consider an impactful modern invention and work backwards through all of the inventions its inventors were inspired by. Then repeat this process, creating a tree culminating in this invention. This view would serve to illustrate the many surprising new horizons that one invention enables. Examples include the way that looms and vacuum tubes lead to computers, and smartphones led to better batteries, and better batteries led to electric cars. Authors included a few other uncited example I found interesting:</p>
+<p>This reminds me of my <a class="wiki" href="https://z3.ca/Asimov's_Tech_Tree">Asimov's Tech Tree</a> project, and that I really should re-think it as follows. Consider an impactful modern invention and work backwards through all of the inventions its inventors were inspired by. Then repeat this process, creating a tree culminating in this invention. This view would serve to illustrate the many surprising new horizons that one invention enables. Examples include the way that looms and vacuum tubes lead to computers, and smartphones led to better batteries, and better batteries led to electric cars. Authors included a few other uncited example I found interesting:</p>
 
 <blockquote>
   <p>For example, the space race yielded innovations like cochlear implants, memory foam mattresses, freeze-dried food, and improved emergency blankets.</p>
@@ -3689,7 +3688,7 @@ Holy Roman Empire</p>
 
 <p>Images in <a href="http://picbreeder.org/">Picbreeder</a> are generated from a DNA-like code which can <em>mutate</em> to create a different but related images. Following the evolution analogy, visitors to the website can vote on images as a form of <em>selection</em>. </p>
 
-<p>I did something similar with <em>Evogami</em>, but with a much simpler mapping from DNA to object.</p>
+<p>I did something similar with <a class="wiki" href="https://z3.ca/Evogami">Evogami</a>, but with a much simpler mapping from DNA to object.</p>
 
 <p>These examples are all really neat, but all deal with very specific domains: simulated walking robots, mazes, images, simulated paper. How to go from these narrow fields to something as all-encompassing as evolution remains unclear to me.</p>
 
@@ -3715,7 +3714,7 @@ Holy Roman Empire</p>
 
 <p>This is suspicious. Most organs in the body are pretty mysterious from this perspective. </p>
 
-<p>A lot of this book rails against <em>Perils of optimization</em> and warns about maximizing meaningless metrics, along the lines of the <em>McNamara Fallacy - choose meaningful metrics</em> and the infamous cobra breeding story associated with <em>Goodhart's law - indicators will be gamed</em>. This reminds me a lot of Illich and the <em>Two Watersheds - too much institutionalization</em> discussion.</p>
+<p>A lot of this book rails against <a class="wiki" href="https://z3.ca/Perils_of_optimization">Perils of optimization</a> and warns about maximizing meaningless metrics, along the lines of the <a class="wiki" href="https://z3.ca/McNamara_Fallacy_-_choose_meaningful_metrics">McNamara Fallacy - choose meaningful metrics</a> and the infamous cobra breeding story associated with <a class="wiki" href="https://z3.ca/Goodhart's_law_-_indicators_will_be_gamed">Goodhart's law - indicators will be gamed</a>. This reminds me a lot of Illich and the <a class="wiki" href="https://z3.ca/Two_Watersheds_-_too_much_institutionalization">Two Watersheds - too much institutionalization</a> discussion.</p>
 
 <blockquote>
   <p>You show me anything that depicts institutional progress in America: school test scores, crime stats, arrest reports, anything that a politician can run on, anything that someone can get a promotion on. And as soon as you invent that statistical category, fifty people in that institution will be at work trying to figure out a way to make it look as if progress is occurring when actually none is.</p>
@@ -3763,7 +3762,7 @@ Holy Roman Empire</p>
 
 <p><strong>Feedback loops emerge</strong>: The addition of one note leads to a correction, a complementation or an improvement of old ideas. The great new idea you are about to add to the slip-box turns out to be already in there. Even worse, chances are this idea wasn’t even yours, but someone else’s. It is such an important skill to see differences between seemingly similar concepts, or connections between seemingly different ideas.</p>
 
-<p><strong>Take it slow</strong>: it takes time to evolve any idea, and this is another benefit of the slip-box. Related to <em>Slow hunch</em>. Taking smart notes, we collect en passant the material for our future writings in one place.</p>
+<p><strong>Take it slow</strong>: it takes time to evolve any idea, and this is another benefit of the slip-box. Related to <a class="wiki" href="https://z3.ca/Slow_hunch">Slow hunch</a>. Taking smart notes, we collect en passant the material for our future writings in one place.</p>
 
 <p><strong>Work on many ideas in parallel</strong>: Another key point: Try working on different manuscripts at the same time. While the slip-box is already helpful to get one project done, its real strength comes into play when we start working on multiple projects at the same time.</p>
 
@@ -3947,7 +3946,7 @@ Remedy: focus on long-term restructuring rather than short-term relief.</p>
 <p><strong>Rule beating</strong>. Example: spending all available budget just to ensure that next years isn’t reduced. Example: only slowing down if there's a police car nearby.
 Remedy: redesign the rules!</p>
 
-<p><strong>Wrong goal</strong>, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of <em>McNamara Fallacy</em>
+<p><strong>Wrong goal</strong>, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of <a class="wiki" href="https://z3.ca/McNamara_Fallacy">McNamara Fallacy</a>
 Remedy: </p>
 
 <h1>Leverage points</h1>

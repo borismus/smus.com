@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-12-21T20:57:09-00:00</updated>
+  <updated>2021-12-25T11:53:34-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -241,7 +241,7 @@ gardener.</p>
 
 <p>My notes are stored in a directory of plaintext markdown files. These are also interlinked with Wiki-style markup. They are currently synchronized to iCloud Drive to make interoperability with iOS easier, while still allowing the notes to be accessed across multiple devices.</p>
 
-<p>In theory, I aim for terse, evergreen notes that use the <em>BLUF TLDR note taking style</em>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
+<p>In theory, I aim for terse, evergreen notes that use the <a class="wiki" href="https://z3.ca/BLUF_TLDR_note_taking_style">BLUF TLDR note taking style</a>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
 
 <h2>Small ideas</h2>
 
@@ -252,9 +252,9 @@ gardener.</p>
 <li>household notes, like car repair and nanny payments</li>
 <li>notes from conversations with people (stored in <code>Meeting notes/</code>)</li>
 <li>daily notes (stored in <code>Inbox/</code>)</li>
-<li>longer term TODO lists like <em>WORK NEXT</em></li>
+<li>longer term TODO lists like <a class="wiki" href="https://z3.ca/WORK_NEXT">WORK NEXT</a></li>
 <li>notes for new project ideas</li>
-<li>running notes for ongoing projects, like <em>eFoil project notes</em></li>
+<li>running notes for ongoing projects, like <a class="wiki" href="https://z3.ca/eFoil_project_notes">eFoil project notes</a></li>
 </ul>
 
 <h2>Bigger ideas</h2>
@@ -279,7 +279,7 @@ gardener.</p>
 
 <h2>On a mobile phone</h2>
 
-<p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <em>Words I didn’t know well</em> when I encounter it for the first time.</p>
+<p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <a class="wiki" href="https://z3.ca/Words_I_didn’t_know_well">Words I didn’t know well</a> when I encounter it for the first time.</p>
 
 <h2>On the go</h2>
 
@@ -291,7 +291,7 @@ gardener.</p>
 
 <p>My current article reading workflow is to funnel everything into Instapaper. I filter articles from friends, private groups on Discord, twitter, and general web browsing. If from a quick skim the article seems worthwhile, I'll cue up in Instapaper to calmly read at a later point.</p>
 
-<p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <em>Readwise to markdown script</em> runs daily, importing annotations into my note collection for easy referencing.</p>
+<p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <a class="wiki" href="https://z3.ca/Readwise_to_markdown_script">Readwise to markdown script</a> runs daily, importing annotations into my note collection for easy referencing.</p>
 
 <h2>While reading/listening to books</h2>
 
@@ -301,7 +301,7 @@ gardener.</p>
 
 <p>By synthesis I mean the collision of multiple concepts inside my note corpus into a new idea or insight. This process occurs naturally as I write and am reminded of something I have previously written. This is an iterative process, often done in multiple sittings. It resembles having a conversation with my past self, as ideas are clarified, integrated, and interlinked. </p>
 
-<p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <em>How to Take Smart Notes by Sonke Ahrens</em>.</p>
+<p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <a class="wiki" href="https://z3.ca/How_to_Take_Smart_Notes_by_Sonke_Ahrens">How to Take Smart Notes by Sonke Ahrens</a>.</p>
 
 <p>Tools can also catalyze synthesis. For example, in Obsidian, when typing a new internal link using the double bracket syntax, you are presented with a list of suggested notes based on title. This can sometimes remind me that I have another note that is relevant. Perhaps it should be linked, transcluded, or merged into this one. Notational Velocity was guite good at this, and Obsidian could do much more on this front.</p>
 
