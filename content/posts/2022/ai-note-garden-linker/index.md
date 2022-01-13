@@ -2,20 +2,20 @@ AI note garden: link suggestions
 ===
 posted: January 14, 2022
 
-In which I apply semantic similarity to my note garden, creating a digest of
-related notes.
+My latest [AI gardener apprentice](/ai-note-garden-summarizer) finds pairs of notes that aren't explicitly linked, but maybe ought to be. This project was inspired by the human subconscious, which creates, cements, and removes neural connections during sleep.
+
+Like a sleeping brain, my python script runs nightly, scouring my note garden for related notes. The end result is a list of the most similar notes pairs in the garden, based on semantic similarity. I found the results to be illuminating, and a real-time version with solid UX would be a central feature of my [system for thought](/file-systems-for-thought).
 
 <!--more-->
 
 # Ideas and connections
 
 Ideas are naturally interlinked. They build on one another, like stepping stones
-in the [[Adjacent Possible]]. It's no accident that curriculums are so common in
-education. Concepts build on one another forming a dependency tree.
-You can only learn something if you have internalized the prerequisites and have
-a place to "hang" the new information. In other words, it must be in your [[Zone of Proximate Development]].
+in the [[Adjacent Possible]]. Concepts build on one another forming a dependency tree, and
+you can only learn something if you have first prepared a place to attach the new information. In other words, it must be in your [[Zone of Proximate Development]].
+Fortune favours the prepared mind.
 
-Our brains reflect this interlinked nature of knowledge, with billions of neurons
+Our brains reflect this interlinked nature of ideas, with billions of neurons
 and trillions of connections between them. This complicated machinery does its
 best to create a representation of the world around us.
 
@@ -41,18 +41,19 @@ What might be useful automation for us note gardeners?
 
 # Finding connections automatically
 
-If you take a lot of notes, I bet you've had a feeling of deja-vu, as you
-realize that you've been parroting something you already wrote
-months or perhaps years ago.
+I take a fair amount of notes and sometimes have a feeling of deja-vu when I
+realize that I've been parroting something I already wrote
+many moons ago. If like me, you have a large note garden, a stable set of
+interests, and a crappy memory, you might know what I'm talking about.
 
 The simplest remedy to this problem might be to scour the note garden, looking
-for text that appears redundant, and inspired by the sleeping brain, take some action.
-You might reword the redundant note, link it to something relevant, refactor
-multiple notes to make more sense together, or remove it altogether.
+for redundancies: ideas that appear in multiple places. You might prune the
+redundant note, reword it, link it to something relevant, or refactor
+multiple notes to make more sense together.
 
-Of course, redundancies aren't all bad! Notes need enough context to stand on their own,
-and topics that are actually interconnected can't help but overlap somewhat.
-The goal here is not terseness, but cohesion and legibility — if a note is
+Of course, redundancies aren't all bad! Notes need enough context to stand on their own
+and topics that are interconnected can't help but overlap somewhat.
+The goal here is not terseness, but cohesion and legibility. If a note is
 related to other notes, let's cement that relationship with an explicit link.
 
 
@@ -76,10 +77,11 @@ we calculate an NxN matrix of similarity values which might look like this:
 
 ![Similarity matrix between a 20 randomly selected note titles in my note garden](similarity-matrix.png)
 
-As expected, the diagonal is all identical (similarity 1), and the
-matrix is symmetric (eg. A is as similar to B as B is to A). As expected, in the
-example above, the notes named "Seattle culture" and "Seattle nearby
-child-friendly hikes" have high semantic similarity.
+Quick sanity check:
+
+- The diagonal answers the question "how similar is this sentence to itself" and has similarity 1 across the board
+- The matrix is symmetric (eg. A is as similar to B as B is to A).
+- In the above, notes named "Seattle culture" and "Seattle nearby child-friendly hikes" have high semantic similarity.
 
 
 # Semantic similarity in my note garden
@@ -89,7 +91,7 @@ works:
 
 1. Load all notes and their content
 2. Split each note into paragraphs
-3. Calculate embeddings for all paragraphs using [USE](https://tfhub.dev/google/universal-sentence-encoder-large/5),
+3. Calculate embeddings for all paragraphs using [Universal Sentence Encoder (USE)](https://tfhub.dev/google/universal-sentence-encoder-large/5),
    keeping track of the source note.
 4. Calculate the correlation matrix for all paragraphs using cosine similarity
 5. Calculate a similarity score for each note pair using the above matrix
@@ -118,7 +120,17 @@ Once you have the matrix of minimum distances, filtering out the note pairs is e
 # Living with the note garden linker
 
 I run the semantic similarity AI nightly. This generates an updated note called
-`Similar notes.md` which lists the most similar notes in my note garden.
+`Similar notes.md` which lists the most similar notes in my note garden. The resulting note is a collection of entries that look like this:
+
+    Similarity 0.61:
+
+    Note 1: Inventing on what principle c. 2019
+
+    > Paragraph excerpt: How can you build software that doesn't need backends and SREs to run...
+
+    Note 2: Evogami without firebase
+
+    > Paragraph excerpt: How might we create multiplayer apps with state, without relying on a backend at all...
 
 There is some mathematical beauty to a script which takes a collection of notes
 as input, and outputs another note. Having notes update overnight without my
@@ -142,7 +154,9 @@ take one of the following actions:
 - Both notes are highly related but not explicitly linked ➡️ create a link from one note to the other
 
 Any of these actions will cause the entry to disappear from `Similar notes` on
-a subsequent run, so there is a nice feedback loop here.
+a subsequent run. A virtuous cycle.
+
+## Repetition in my book reviews
 
 I found some surprising redundancies in my book reviews. In 2017, I overused the
 word "vivid" (similarity 0.71):
@@ -176,6 +190,20 @@ In 2019, I did not mince words (similarity 0.64):
 > groundbreaking. It involves overly flowery descriptions of things that I
 > consider obvious: Google, Nest, Sim City, self driving cars, etc.
 
+## How to handle quotes?
+
+I have a special note where I track quotes that I really enjoyed from all over the place.
+Since I like them, these quotes end up in other notes too. Since the quotes are inserted
+verbatim, their presence is a very strong signal for note similarity.
+
+My current solution is to ignore my `Quotes I like.md` note for this analysis,
+but this is a hack, since there are still many instances of the same quote across
+different notes used perhaps in different contexts. A shared quote is very weak evidence
+that the two notes are related, often insufficient to warrant a direct link.
+
+One approach I haven't yet tried might be to discard identical matches as meaningless.
+This would naturally discard quotes, since they are generally inserted verbatim.
+
 
 # Future works
 
@@ -201,4 +229,4 @@ shell script:
 2. As you write, periodically calculate this note's embeddings and compare them to the rest of the corpus
 3. Surface relevant but as yet unlinked notes and their similarity scores in a sidebar
 
-Wanna build it? I promise to cheer you on from the sidelines! Drop me a line.
+Wanna build it together? I promise to cheer you on from the sidelines! Drop me a line.

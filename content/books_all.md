@@ -41,12 +41,12 @@ January 2022
 
 > Ms. Jules was the first to arrive, as always. Dex smiled to themself as she approached
 
-- Character development a bit weak. Dex seems like an angsty teenager without much depth. Is this young adult writing? I think no, given the prolific cursing towards the end?
+- Character development a bit weak. Dex seems like an angsty teenager without much depth. Is this young adult writing? I think no, given the prolific cursing towards the end.
 
 
 # Strong ecosystem musings
 
-- Great ecosystem musings, for including [[Subsystems that integrate conflict can lead to resilient systems]]
+- I'm a bit obsessed by this idea that [[Subsystems that integrate conflict can lead to resilient systems]], and this fragment resonated with me:
 
 > It must have been such a relief to be free of predators and eat whatever the hell you wanted. But that was the exact opposite of what the ecosystem needed. The ecosystem required the elk to be afraid in order to stay in balance. But elk don’t want to be afraid. Fear is miserable, as is pain. As is hunger. Every animal is hardwired to do absolutely anything to stop those feelings as fast as possible. We’re all just trying to be comfortable, and well fed, and unafraid. It wasn’t the elk’s fault. The elk just wanted to relax.” Dex nodded at the ruined factory. “And the people who made places like this weren’t at fault either—at least, not at first. They just wanted to be comfortable. They wanted their children to live past the age of five. They wanted everything to stop being so fucking hard. Any animal would do the same—and they do, if given the chance.” “Just like the elk.”
 
