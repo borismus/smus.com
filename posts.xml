@@ -5,8 +5,264 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2021-12-25T11:53:34-00:00</updated>
+  <updated>2022-01-12T22:29:49-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>AI note garden: link suggestions</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/ai-note-garden-linker"/>
+    
+    <updated>2022-01-14T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/ai-note-garden-linker</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My latest <a href="/ai-note-garden-summarizer">AI gardener apprentice</a> finds pairs of notes that aren't explicitly linked, but maybe ought to be. This project was inspired by the human subconscious, which creates, cements, and removes neural connections during sleep.</p>
+
+<p>Like a sleeping brain, my python script runs nightly, scouring my note garden for related notes. The end result is a list of the most similar notes pairs in the garden, based on semantic similarity. I found the results to be illuminating, and a real-time version with solid UX would be a central feature of my <a href="/file-systems-for-thought">system for thought</a>.</p>
+
+<!--more-->
+
+<h1>Ideas and connections</h1>
+
+<p>Ideas are naturally interlinked. They build on one another, like stepping stones
+in the <a class="wiki" href="https://z3.ca/Adjacent_Possible">Adjacent Possible</a>. Concepts build on one another forming a dependency tree, and
+you can only learn something if you have first prepared a place to attach the new information. In other words, it must be in your <a class="wiki" href="https://z3.ca/Zone_of_Proximate_Development">Zone of Proximate Development</a>.
+Fortune favours the prepared mind.</p>
+
+<p>Our brains reflect this interlinked nature of ideas, with billions of neurons
+and trillions of connections between them. This complicated machinery does its
+best to create a representation of the world around us.</p>
+
+<p>When we sleep, automatic processes in the brain tend to these connections,
+creating new links, removing the obsolete ones, and paving the cowpaths.
+<a class="wiki" href="https://z3.ca/Sleep_has_a_profound_effect_on_memory_and_learning">Sleep has a profound effect on memory and learning</a>.</p>
+
+<h1>Networked notes</h1>
+
+<p>An ideal collection of personal notes mirrors your own thoughts. Obsidian
+emphasizes interlinking, and places a lot of weight on the note graph, a mind
+map-like view of the whole note garden resembling a connectome. Connections are emphasized in Roam's marketing copy as a "note taking tool for <strong>networked</strong> thought".</p>
+
+<p>While today's crop of note taking tools makes links and backlinks easier to manage than before,
+it's still a pain to interlink notes. One major challenge is to recall what related notes you might
+have written in the past.</p>
+
+<p>What is the note garden equivalent of sleep, during which the brain's
+subconscious processes triage new information gleaned during the day?
+What might be useful automation for us note gardeners?</p>
+
+<h1>Finding connections automatically</h1>
+
+<p>I take a fair amount of notes and sometimes have a feeling of deja-vu when I
+realize that I've been parroting something I already wrote
+many moons ago. If like me, you have a large note garden, a stable set of
+interests, and a crappy memory, you might know what I'm talking about.</p>
+
+<p>The simplest remedy to this problem might be to scour the note garden, looking
+for redundancies: ideas that appear in multiple places. You might prune the
+redundant note, reword it, link it to something relevant, or refactor
+multiple notes to make more sense together.</p>
+
+<p>Of course, redundancies aren't all bad! Notes need enough context to stand on their own
+and topics that are interconnected can't help but overlap somewhat.
+The goal here is not terseness, but cohesion and legibility. If a note is
+related to other notes, let's cement that relationship with an explicit link.</p>
+
+<h2>Sidebar: semantic similarity</h2>
+
+<p>Now, how might we determine if two notes are related? One could simply consider
+two notes to be related if they have significant overlap in words. But we are
+better than that. The NLP keyword for this problem is semantic similarity.</p>
+
+<p>For words, the situation is relatively simple.
+<a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a> takes a word
+and represents it as an array of numbers. Words that are semantically similar end up
+closer together in the resulting vector space, and those that are semantically different end up far away.
+The same can be done with sentences, using some of the same machinery that powers
+large language models. We have the technology to take a whole sentence of variable length and create an
+embedding for it. Once we have the ability to generate embeddings from sentences,
+we can compare two sentences by evaluating how close or far their embeddings are.</p>
+
+<p>We can do the same thing at a larger scale. Given N sentences,
+we calculate an NxN matrix of similarity values which might look like this:</p>
+
+<p><img src="/ai-note-garden-linker/similarity-matrix.png" alt="Similarity matrix between a 20 randomly selected note titles in my note garden" /></p>
+
+<p>Quick sanity check:</p>
+
+<ul>
+<li>The diagonal answers the question "how similar is this sentence to itself" and has similarity 1 across the board</li>
+<li>The matrix is symmetric (eg. A is as similar to B as B is to A).</li>
+<li>In the above, notes named "Seattle culture" and "Seattle nearby child-friendly hikes" have high semantic similarity.</li>
+</ul>
+
+<h1>Semantic similarity in my note garden</h1>
+
+<p>I wrote a python script to find related notes in my note garden. Here's how it
+works:</p>
+
+<ol>
+<li>Load all notes and their content</li>
+<li>Split each note into paragraphs</li>
+<li>Calculate embeddings for all paragraphs using <a href="https://tfhub.dev/google/universal-sentence-encoder-large/5">Universal Sentence Encoder (USE)</a>,
+keeping track of the source note.</li>
+<li>Calculate the correlation matrix for all paragraphs using cosine similarity</li>
+<li>Calculate a similarity score for each note pair using the above matrix</li>
+<li>Sort note pairs by most similar, providing paragraph pairs as evidence</li>
+</ol>
+
+<p>Now we have a list of the most similar notes in the garden, their associated
+similarity scores.</p>
+
+<h2>Sidebar: ignoring existing links</h2>
+
+<p>Notes that are already interlinked should not show up
+in this list of similar notes. Their similarity is already legible to the system,
+and there are really a lot of such notes. For instance, most of my Medieval
+history notes are highly semantically similar, because they are derived from
+similar books and cover very similar themes.</p>
+
+<p>We can easily filter out these note pairs by considering the
+graph structure of the note garden. An adjacency matrix gives O(1) lookup.
+In practice, going on step further and ignoring note pairs that are a minimum
+distance of 2 away has worked better on my note corpus. To help with this,
+I hired the <a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Floyd–Warshall algorithm</a>
+and its friendly <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csgraph.floyd_warshall.html">scipy implementation</a>.
+Once you have the matrix of minimum distances, filtering out the note pairs is easy.</p>
+
+<h1>Living with the note garden linker</h1>
+
+<p>I run the semantic similarity AI nightly. This generates an updated note called
+<code>Similar notes.md</code> which lists the most similar notes in my note garden. The resulting note is a collection of entries that look like this:</p>
+
+<pre><code>Similarity 0.61:
+
+Note 1: Inventing on what principle c. 2019
+
+&gt; Paragraph excerpt: How can you build software that doesn't need backends and SREs to run...
+
+Note 2: Evogami without firebase
+
+&gt; Paragraph excerpt: How might we create multiplayer apps with state, without relying on a backend at all...
+</code></pre>
+
+<p>There is some mathematical beauty to a script which takes a collection of notes
+as input, and outputs another note. Having notes update overnight without my
+intervention makes the note garden feel like it's alive and growing.
+That said, having an AI make arbitrary modifications to my hand written notes
+sounds like a real nightmare. To mitigate this, I have by convention decided to
+keep all AI-produced notes in the <code>Nightly/</code> directory.</p>
+
+<p>My note linker has been up and running for the last month, so I have a sense
+for how useful the resulting output is. One observation is that my note
+garden grows slowly, and most notes are relatively static. The first time I ran
+the similarity script, I found a lot of surprising and actionable output, but
+unless I have an especially prolific note taking session,
+running over the whole corpus nightly is probably overkill. More on this later.</p>
+
+<p>Going through a fruitful generated list of similar notes, I tend to
+take one of the following actions:</p>
+
+<ul>
+<li>One of the notes supercedes the other ➡️ merge any useful bits from the deprecated note and remove it</li>
+<li>Both notes point to the same concept ➡️ refactor the concept into a separate note and link to it from both</li>
+<li>Both notes are highly related but not explicitly linked ➡️ create a link from one note to the other</li>
+</ul>
+
+<p>Any of these actions will cause the entry to disappear from <code>Similar notes</code> on
+a subsequent run. A virtuous cycle.</p>
+
+<h2>Repetition in my book reviews</h2>
+
+<p>I found some surprising redundancies in my book reviews. In 2017, I overused the
+word "vivid" (similarity 0.71):</p>
+
+<blockquote>
+  <p><strong>Gatsby</strong>: Incredibly vividly written. Fascinating to see the self made struggles
+  of people that are so fantastically well off. Very unsympathetic characters
+  throughout, except for the narrator.</p>
+  
+  <p><strong>Nothing is True and Everything is Possible</strong>: Super well written, incredibly
+  engaging throughout. Incredibly so for non-fiction about a depressing topic.
+  Much more entertaining than Gessen’s barrage of pessimism.</p>
+</blockquote>
+
+<p>I struggled with provenance in 2018 (similarity 0.63):</p>
+
+<blockquote>
+  <p><strong>Bird by Bird</strong>: I've forgotten how this book appeared on my radar, but I
+  think it was on someone's list of most influential books ever. I am more
+  ambivalent.</p>
+  
+  <p><strong>The Fourth Turning</strong>: I don’t remember why I decided to read this book. The
+  political theory it describes is loved by both Gore and Bannon. This
+  surprisingly heterogeneous recommendation reignited my interest when I saw it
+  on my reading list.</p>
+</blockquote>
+
+<p>In 2019, I did not mince words (similarity 0.64):</p>
+
+<blockquote>
+  <p><strong>Building a Bridge to the 18th century</strong>: I found the book mostly useless.
+  It's a shallow summary of some stuff I already knew, and set forth an
+  exaggerated technological pessimism that I, to some extent, share.</p>
+  
+  <p><strong>You Belong To The Universe</strong>: The book itself is interesting but not
+  groundbreaking. It involves overly flowery descriptions of things that I
+  consider obvious: Google, Nest, Sim City, self driving cars, etc.</p>
+</blockquote>
+
+<h2>How to handle quotes?</h2>
+
+<p>I have a special note where I track quotes that I really enjoyed from all over the place.
+Since I like them, these quotes end up in other notes too. Since the quotes are inserted
+verbatim, their presence is a very strong signal for note similarity.</p>
+
+<p>My current solution is to ignore my <code>Quotes I like.md</code> note for this analysis,
+but this is a hack, since there are still many instances of the same quote across
+different notes used perhaps in different contexts. A shared quote is very weak evidence
+that the two notes are related, often insufficient to warrant a direct link.</p>
+
+<p>One approach I haven't yet tried might be to discard identical matches as meaningless.
+This would naturally discard quotes, since they are generally inserted verbatim.</p>
+
+<h1>Future works</h1>
+
+<p>The USE semantic similarity model I currently use is somewhat limited. It doesn't
+perform well on non-latin character sets. According to it, anything with cyrillic
+characters is extremely semantically similar. Relatedly, it doesn't perform well
+on non-words. Snippets of code, guitar tabs, and ASCII art all look same.
+Lastly, USE is already 4+ years old. AI/NLP is progressing so quickly, I
+should be using a more modern model to generate embeddings. I recently got access to OpenAI's beta
+embedding feature, which might be a logical next step. But running OpenAI embeddings on
+tens of thousands of paragraphs sounds like an expensive proposition. I'd like
+to continue to be able to run semantic similarity in the comfort of my own computer.</p>
+
+<p>Let me be the first to admit that what I have hacked together is a crude
+prototype, and a very rough approximation of the ultimate user experience
+I want my note taking app to provide. I want to be able to request suggestions
+for relevant notes to reference as I write, in a way that is not distracting.</p>
+
+<p>If I had time, I'd build an Obsidian plugin version of what I've built as a
+shell script:</p>
+
+<ol>
+<li>Keep a cache of embeddings for notes in the note garden</li>
+<li>As you write, periodically calculate this note's embeddings and compare them to the rest of the corpus</li>
+<li>Surface relevant but as yet unlinked notes and their similarity scores in a sidebar</li>
+</ol>
+
+<p>Wanna build it together? I promise to cheer you on from the sidelines! Drop me a line.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>AI note garden: summarizer</title>
@@ -8500,165 +8756,6 @@ more than a <a href="http://code.google.com/intl/en-US/chrome/apps/docs/no_crx.h
 
 <p>To my knowledge, the most active project along the lines of this
 proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open Web Apps</a> work from Firefox OS. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Gestural music direction</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/gestural-music-direction"/>
-    
-    <updated>2013-05-03T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/gestural-music-direction</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Imagine this: you start conducting as if you were in front of a great
-orchestra, and music fades in out of thin air, matching your tempo and time
-signature. Your nuanced gestures can indicate changes in intensity, and of
-course affect the speed of the piece. You'd first need to learn some
-basic conducting patterns, like these:</p>
-
-<p><img src="/gestural-music-direction/conduct-time-signatures.png" alt="Conducting patterns for various time signatures" /></p>
-
-<!--more-->
-
-<p>You would also have to wait for me to finish this project, which uses a LEAP
-motion device (or your trackpad), the Web Audio API, and some signal processing
-to achieve a scaled back version of the idea described above.</p>
-
-<h2>Prototype</h2>
-
-<p>The current prototype lets you control the tempo of a song called "Phantom"
-from the excellent <a href="http://www.parovstelar.com/">Parov Stelar</a>. You can do this by making simple
-conducting patterns, similar to the 2/4 pattern above. In practice, you can use
-any pattern in which your hand oscillates between two points in space to play
-with this prototype. You can even use your mouse instead of a LEAP motion
-device. Just click in to enable pointer lock. This will ensure that your mouse
-will always be focused inside your browser.</p>
-
-<p>I built a visualizer which is an 8-bit inspired frequency graph which
-also shows directional changes as pulsating red dots, and clusters which
-flash to the beat.</p>
-
-<p><a href="http://borismus.github.io/gestural-music-direction/"><img src="/gestural-music-direction/screenshot.png" alt="Screenshot of leap conductor" /></a></p>
-
-<p>If you'd like to try it live, the <a href="http://borismus.github.io/gestural-music-direction/">demo lives here</a>.</p>
-
-<h2>Handling input</h2>
-
-<p>With a LEAP device plugged in, the prototype maps the palm's 3D center
-to 2D. It works just as well with just a trackpad or mouse attached to
-your computer, which directly outputs 2D coordinates. The input handling
-algorithm then uses the resulting (x, y) pairs to do roughly the
-following:</p>
-
-<ul>
-<li><p>First, track positions and first (velocity) and second (acceleration)
-order history, including times. Store in a ring buffer, which is
-implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/ring-buffer.js">ring-buffer.js</a>.</p></li>
-<li><p>Extract sudden changes of direction based on heuristics related to
-velocity and acceleration history.</p></li>
-<li><p>Cluster directional changes using K-means or similar clustering
-algorithm which is implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/clusterizer.js">clusterizer.js</a>. I run this
-K-means implementation with 3 values of k in [2, 3, 4] and pick the
-one with the lowest error. I've also build a standalone
-<a href="http://borismus.github.io/gestural-music-direction/cluster.html">clustering test page</a> with the following output:</p></li>
-</ul>
-
-<p><img src="/gestural-music-direction/cluster.png" alt="Clustering algorithm visualization" /></p>
-
-<ul>
-<li><p>To calculate tempo, pick a cluster and calculate mode of the deltas
-between adjacent points.</p></li>
-<li><p>The time signature is just the number of clusters over 4 (for the
-simple 2/4, 3/4 and 4/4 patterns).</p></li>
-</ul>
-
-<h2>Changing tempo in real-time</h2>
-
-<p>Once we have an idea of what pattern the user is creating with their hands, we
-need to match up the song to the pattern, and continuously adapt the song's
-playback rate to the user's motions.</p>
-
-<p>The Web Audio API makes it dead simple to change the playback rate of an audio
-buffer for a source node'ss entire duration. However, things get a bit
-trickier if this rate changes continuously over time. Chris Wilson
-describes a scheduling technique which addresses this exact problem in
-his <a href="http://www.html5rocks.com/en/tutorials/audio/scheduling/">"Tale of Two Clocks" HTML5Rocks article</a>. You can also see
-a simple version of it inaction in his <a href="http://www.html5rocks.com/en/tutorials/audio/scheduling/goodmetronome.html">metronome demo</a>.</p>
-
-<p>I used this idea to do a bit of granular synthesis on an audio buffer. I
-schedule a bit of the buffer into the future, at the current tempo. As the
-tempo changes, new bits of the buffer are scheduled at a different
-playbackRate. I keep track of how far into the buffer we've gone and use that
-as the grainOffset. Here's some code that illustrates this (but see the
-<a href="https://github.com/borismus/gestural-music-direction/blob/master/js/music-player.js">variable rate music player</a> for the full code):</p>
-
-<pre><code>MusicPlayer.prototype.loop_ = function() {
-  // Schedule the next bar if it's not yet scheduled.
-  while (this.nextNoteTime &lt; audioContext.currentTime + this.scheduleAheadTime) {
-    this.scheduleSegment_(this.grainOffset, this.nextNoteTime);
-    this.nextNote_();
-  }
-}
-
-MusicPlayer.prototype.scheduleSegment_ = function(grainOffset, time) {
-  // Get the part of the buffer that we're going to play.
-  var source = audioContext.createBufferSource();
-  source.buffer = this.buffer;
-  source.connect(audioContext.destination);
-
-  var rate = this.getPlaybackRate_();
-  source.playbackRate.value = rate;
-
-  var secondsPerBeat = 60.0 / this.tempo;
-  source.noteGrainOn(time, grainOffset, secondsPerBeat * rate);
-}
-
-MusicPlayer.prototype.nextNote_ = function() {
-  // Advance current note and time by a 16th note...
-  var secondsPerBeat = 60.0 / this.tempo;
-  // Notice this picks up the CURRENT tempo value to calculate beat length.
-  this.nextNoteTime += secondsPerBeat;
-  // Get the next grain.
-  var rate = this.getPlaybackRate_();
-  this.grainOffset += secondsPerBeat * rate;
-}
-</code></pre>
-
-<p>In practice, I'm unfortunately hitting some rounding errors, so the
-grains aren't stitched together as seamlessly as I wanted. You can
-sometimes hear artifacts if you slow the tempo way down.</p>
-
-<h2>A work in progress</h2>
-
-<p>My initial idea was to use <a href="http://developer.echonest.com/">The Echo Nest</a> to pick the right song
-(based on time signature and tempo), and then stream that song from some
-streaming music service. Unfortunately it's quite hard to get at PCM versions
-of tracks from Rdio and Spotify. That said, it can be <a href="https://github.com/oampo/AmbientCloud">done with
-Soundcloud</a>. Long story short, the prototype currently only
-supports one song.</p>
-
-<p>A time signature recognizer is mainly useful for classical music, since so much
-of popular music is in common time (with <a href="http://twentytwowords.com/2011/05/18/6-pop-songs-in-unusual-time-signatures/">rare exceptions of popular music with
-complex time signatures</a>). But applying simple transformations
-like changing the tempo just feels wrong for complex music without a very
-obvious rhythmic structure.</p>
-
-<p>Lastly, LEAP's palm tracking is still quite noisy (even after drastic
-improvements to palm tracking as of <a href="https://developer.leapmotion.com/blog/sdk-0-7-7-released-new-palm-tracking-and-gesture-settings">SDK 0.7.7</a>). Also, the
-bay windows in my living room lets in tons of infrared light which often puts
-the device into a low fidelity tracking mode.</p>
-
-<p>As always, let me know what you think, and of course, feel free to fork
-and evolve on <a href="https://github.com/borismus/gestural-music-direction">github</a>.</p>
 
 
         
