@@ -297,6 +297,7 @@ section#gallery .item label {
   transition: opacity 0.2s ease-in-out;
   z-index: 1;
   cursor: pointer;
+  pointer-events: none;
 }
 
 section#gallery .item:hover label {
