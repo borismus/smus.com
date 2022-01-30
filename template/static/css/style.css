@@ -280,11 +280,13 @@ section#gallery .item a {
   transition: transform 0.2s ease-in, -webkit-filter 0.2s ease-in;
   transform: scale(1);
   -webkit-filter: brightness(100%);
+  filter: brightness(100%);
 }
 
 section#gallery .item:hover a {
   transform: scale(1.04);
   -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 section#gallery .item label {
