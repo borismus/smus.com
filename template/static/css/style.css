@@ -489,3 +489,54 @@ video {
     margin: 0;
   }
 }
+
+/* Dark mode 🌙 */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  article, p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  body a {
+    color: #80ff80bd;
+  }
+
+  article h1.title {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  article.type-book h1.title {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  article .readmore {
+    color: inherit;
+  }
+  article .readmore:hover {
+    color: inherit;
+  }
+
+  article time.published {
+    color: rgba(255, 255, 255,0.5);
+  }
+
+  section#archives a, section#gallery .item time {
+    color: white;
+  }
+
+  section#archives time {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .book-cover {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  }
+
+  ::selection {
+    background: #413d2f;
+  }
+}
