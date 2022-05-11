@@ -4,6 +4,23 @@ class: split
 type: book
 
 
+Practical Doomsday by Michal Zalewski
+===
+rating: no
+posted: January 28, 2022
+
+Not sure how I got suckered into reading this. It must have appealed to some
+deepseated prepper instincts in me. Provenance aside, this prepper book started
+off strong, rejecting the typical prepper tropes of guns, generators, and glory.
+
+Two useful things I got from this book:
+
+1. A nudge to try to scenario plan some possible near future disasters and have
+   a basic plan of action.
+2. A reminder to check on some of the rudimentary gear I have in the house and
+   in the car (eg. water, basic food supplies).
+
+
 A Psalm for the Wild-Built by Becky Chambers
 ===
 rating: yes
