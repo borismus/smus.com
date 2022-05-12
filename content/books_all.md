@@ -4,6 +4,66 @@ class: split
 type: book
 
 
+The End of Eternity by Isaac Asimov
+===
+rating: yes
+posted: May 11, 2022
+cover: /assets/book-covers/end-of-eternity.jpg
+
+Truly masterful, this book. The way Harlan wants to control Noys mirrors perfectly the way the Eternals want to control reality. Just like Harlan takes her for himself by transporting her to the 100,000th century,
+
+Asimov's views are super complex. Much more complex than the one dimensional technologist I tend to associate with him. Maybe he has suffered more than I thought in light of his habits as a womanizer. But he has many interesting takes, and Noys is not nearly as simple as she initially seems, and is revealed to be the one in charge. Asimov does espouse a certain inevitability of progress. Though mathematician's names change as a result of Reality changes, the nature of math doesn’t. And it all appears to move in lockstep. And he does initially seem like he believes that humans are bound to kill ourselves unless subjected to some kind paternalism. At the end, it's a much more complex and interesting take on both progress and women.
+
+I initially found a certain lack of imagination on Asimov's part when Harlan is described traveling between centuries. Surely the vast timespan would yield a far greater variety of interesting societies than those found in the book? Like the cultural mores and the living conditions feel a bit too cyclical and predictable. This is partly explained by the mass duplicator though, a nice touch! Even more impressively, this is explained when the whole thrust of the book is explained: Reality over all Time is made safe and homogenous by the Allwhen Council's interventions.
+
+I love how precarious Reality feels in the book. I feel a similar precarity in our own reality today. We are just a hair away from collapse, and we keep squeaking by. Why? Perhaps the Eternals are watching…
+
+# World building
+Asimov invented a compelling and original concept to tackle time travel.
+
+There is our regular flow of time: Time, Reality. And in parallel, there is Eternity, which lets Eternals travel to any Time in Reality and return back to Eternity using a device hilariously called a Kettle.
+
+The top Eternal brass sits in the Allwhen Council. This council consists of Computers, who back in 1955 when the book was written, were people that did math. They make mathematical models of Reality, and intervene in it to prevent societal collapse. They aim for changing as little as possible, while averting calamity and keeping humanity on the right track throughout the ages. In their technical lingo, they make the Minimal Necessary Change (MNC) to achieve the Maximal Desired Response (MDR). Cute!
+
+Eternals still age on their own timeline, in "physioyears". It’s just that Eternity is completely disconnected from the specific year in Time you happen have been born in. They are carefully selected for and plucked from Reality at a young age, swearing a solemn vow to leave their old life behind. They are supposed to be perfect beings, but in practice are extremely flawed individuals.
+
+Eternals also facilitate trade between centuries in Reality. This becomes especially interesting when one century wants a cancer curing drug from another century. The fact that all of these cancer patients would no longer die poses big problems for the eternals. Such a huge change could not be permitted by the Allwhen Council.
+
+Any interactions with Reality is precarious. Eternals are careful to avoid making accidental changes. A change typically has high impact on subsequent centuries, but its impact reduces the further into the future you go.
+
+# Live-streamed impressions
+As I read this book, I took notes describing where I expected the story would go. I was wrong every time. Obviously, spoilers abound, but you knew that already. Here are some such notes:
+
+- Looks like the protagonist Andrew just got a girl Noys pregnant though… this’ll be fun
+- Interesting… it seems to have turned even more radically. The one MNC that the protagonist found himself involved in caused his beloved Noys to disappear completely.
+- At this point I’m convinced that Finge is just testing the protagonist to see if he has what it takes to graduate to the next level.
+- No— another twist. (It’s fascinating to record my own reaction to the book as I read it). Apparently Finge is merely pointing out a flaw in Noys' matriarchal society, which believes that Eternals live forever and so seduces Harlan in a calculated way. (Is Finge really motivated to annoy Harlan or is he driven by his own job? I suspect the latter and Harlan is just immature.)
+- Does Asimov see the problem with leaving Noys thousands of centuries in the future all alone? Seems extremely lonely, although I guess Harlan’s visits can be arbitrarily frequent? Or can they if she’s in eternity? Do they share the same physiological time since they are both in eternity?
+- After travel is blocked beyond the 100,000 century. Why is Harlan so convinced of his importance? Is it an immature petulance and overconfidence? What secret weapon does he hide that he could use against the Council of Allwhen?
+- Nice — so it’s not just petulance. Instead Harlan has been thinking behind the scenes of the book. He deduced (in a twist) that Eternity would be impossible as described by the historical events of the chronicle. Because of his familiarity with “primitive history” he found The math required to understand time travel in the 24th century was unavailable until the 27th. And Harlan’s role is to coach a pupil who will in fact travel to the 24th to create this “original sin” of time travel.
+- Asimov's broadly concerned for continued human existence. We are bound to kill ourselves unless subjected to some kind paternalism. Every time we invent nuclear weapons…
+- Onto these “hidden centuries” in the distant future where there is only eternity and no Reality. What’s that about? It’s hinted at at the start but hardly at all until this “limbo” state that Harlan and Twissel end up in. And why are they alone for days? Where did everyone else go?
+- I didn’t have a great guess as to why Harlan is unable to travel past the 100,000th century, but Twissel did. He speculated that Eternity actively prevents human evolution, because the Eternals make sure that nothing goes wrong. But what does it mean for something to “go wrong”? And so the Eternals are just conservative and insist on nothing ever changing. This is why Twissel from the 30,000th century is nearly identical to Harlan from the 95th. Eternity stopped evolution.
+- And so, with this in mind, Twissel speculates that future humans from the hidden centuries deliberately thwarted Eternity’s meddling with them so that the natural order of things can be resumed. But is this speculation? There appears to be no barrier anymore!
+- Harlan’s tantrum when he feels like he was turned into a marionette by some mysterious force that blocked him from traveling back into the 100,000th centuries to see Noys is a great piece of drama. He is so blind to his own shortcomings!
+- Wow man, this book is so insanely full of twists. Now it is Noys who is the post-Eternal that was actually pulling all the strings? She was the one that setup Finge and Harlan and Twissel and played them off one another? I looked back in the book even, and it’s true: she did stop the kettle at the exactly 111,394, very subtly.
+- Noys' explanation is an interesting one and ties to another mysterious previously mentioned in the novel: that of space faring. The fact that Eternity had such a skeptical attitude to space faring and actively prevented humans from engaging in it, led to a situation where humanity was earthbound, while other intelligent beings were colonizing our galaxy. As a result, people were capable of space travel, but stuck on a prison planet (a dim vision - seems like a stretch). Asimov indirectly argues for the intrinsic benefit of humanity eventually becoming a multi-planetary civilization.
+
+
+# Time travel is hard
+I was almost thrilled that this was a time travel story without paradox. But of course it’s not! For example this business with an infinite time loop of Cooper/Mallahsohn needing to travel from the future to 2317 is completely problematic! If this indeed happens a bunch of times, would it happen an infinite number of times? And what if there’s any deviation any of those times? The whole thing is too unstable.
+
+Fascinating solution to the paradox problem of seeing yourself in reality: if this event happens you trigger an automatic change to prevent it from ever happening. So it can never be you that you see in reality. Kind of a clean solution, but definitely suffers from all of the known issues with time travel.
+
+# Connections
+I see a lot of echoes of [[Greatness Cannot Be Planned]] and overall Eternity follows [[The Authoritarian High-Modernist Recipe for Failure]]. The ultimate failure of Eternity is the usual: a group of flawed humans making centralized decisions about the future on behalf of all of humanity. In fact, at one point, in conversation with Harlan, Twissel reveals his complete ignorance of markets. This is even more pronounced in the 1987 Soviet rendition of the book, in which the Allwhen Council is transparently portrayed as a group of stooges sitting at the Supreme Soviet.
+
+> Noys said: In ironing out the disasters of Reality, Eternity rules out the triumphs as well. It is in meeting the great tests that mankind can most successfully rise to great heights.
+
+To which Harlan woodenly replies “The greatest good for the greatest…”, a great illustration of some limitations of utilitarianism.
+
+The end is a bit rushed and marred with overly complex time loops, but overall a great work!
+
 Grand Transitions by Vaclav Smil
 ===
 rating: yes
