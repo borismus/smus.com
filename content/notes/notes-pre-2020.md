@@ -170,7 +170,7 @@ relationships.
 As my career and interests shifted, so did the people I followed on twitter.
 I started following VR engineers, machine learning researchers, philosophers
 and psychologists. But more tweeps meant more tweets. Soon I had a [twitter
-list][smartpeople](https://twitter.com/borismus/lists/smartpeople) for people that I had reluctantly unfollowed. They had
+list](https://twitter.com/borismus/lists/smartpeople) for people that I had reluctantly unfollowed. They had
 interesting things to say, but said them too often.
 
 Following someone on twitter is like having a direct line into their brain. If
@@ -280,7 +280,7 @@ posted: July 21, 2018
 
 Monism gives life meaning through a single all-encompassing doctrine. Examples
 include some political ideologies, religions, and [variants of
-rationality][chapman-rationality](https://meaningness.com/non-theistic-eternalism). History has not been kind to those that have
+rationality](https://meaningness.com/non-theistic-eternalism). History has not been kind to those that have
 fervently followed such doctrines. But once you see flaws in Monism, it can be
 tempting to decide that life has [no meaning at all](https://meaningness.com/extreme-examples-eternalism-and-nihilism), falling
 into the trap of Nihilism.
@@ -288,7 +288,7 @@ into the trap of Nihilism.
 ![Stuck](https://i.imgur.com/WXdU3ef.gif)
 
 The choice between these two extremes is a false one. [Rationalists know
-this][third-alternative](https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative). [Buddhists know this](https://en.wikipedia.org/wiki/Middle_Way). Philosophers know
+this](https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative). [Buddhists know this](https://en.wikipedia.org/wiki/Middle_Way). Philosophers know
 this too. David Chapman writes a [whole blog](https://meaningness.com/) devoted to exploring
 the space in between. But I have found [Isaiah Berlin](https://www.cs.utexas.edu/users/vl/notes/berlin.html)'s synthesis to
 be the most compelling:
@@ -297,7 +297,7 @@ be the most compelling:
 argued for a more modest liberal pluralism that makes room for multiple,
 genuinely conflicting goods. Family and work, solidarity and autonomy, tradition
 and innovation are really valuable, and really in tension.  – [Alison
-Gopnik][gopnik](https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/)
+Gopnik](https://www.theatlantic.com/magazine/archive/2018/04/steven-pinker-enlightenment-now/554054/)
 
 In this view, we are condemned to an eternal balancing act, sometimes peering
 too far into the meaningless abyss, and other times relaxing too deeply into
