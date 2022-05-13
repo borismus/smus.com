@@ -64,6 +64,73 @@ To which Harlan woodenly replies “The greatest good for the greatest…”, a 
 
 The end is a bit rushed and marred with overly complex time loops, but overall a great work!
 
+
+Genesis by ✨
+===
+rating: yes
+posted: May 1, 2022
+cover: /assets/book-covers/genesis.jpg
+
+Genesis is not so much a book, but an “accretion of sundry traditions, shot through with disjunctions and contradictions, and accumulated in an uneven editorial process over several centuries”. The Hebrew word for book, “Sefer” actually translates more to scroll than to book, and scrolls are much more fungible than books. A scroll can be stitched to another scroll, split, and spliced, and rarely has named attribution. Not a coherent artwork by a single author, Genesis is more like a cathedral of medieval Europe, the product of many hands, involving an elaborate process of editing, like the greatest Hollywood films.
+
+Main sources of compilation include {Y/J}ahwist (J), Elohistic (E), and Priestly (P) source documents. J and E might be contemporary and early, P dates to about 6th century BCE. But all is hotly debated.
+
+The translator lambastes his contemporary commentators for being too focused on the sourcing and not sufficiently focused on analyzing the material itself, while refining medieval commentators like Rashi & Abraham bin Ezra.
+
+Genesis split into primeval history (1-11) and a focus on the past, how this all came to be, told in a formal, repetitive way. Bulk of the book is patriarchal tales (12-50) which is focused on the future, promising long-term national greatness etc. Here the style changes, becomes much more concerned with human affairs, emotions, feuds, violence, and constant struggle.
+
+The narrative arc is really clean: “Genesis begins with the making heaven and earth and all life, and ends with the image of a mummy — Joseph’s — in a coffin.”
+
+---
+
+# Themes and surprises
+
+**Nomads vs. farmers**: The story of Cain and Abel is about the superiority of the noble nomadic herdsmen (Abel) over the terrible and evil sedentary farmers (Cain). Echoes of this later “for every shepherd is abhorrent to Egypt” (46:34)
+
+**Displacement of the firstborn** Cain and Abel is also the start of the theme of how the firstborn often gets screwed, despite their birth order. Similar story with Esau and Jacob.
+
+**Not children of Cain**: I wrongly thought that humans were descended from Cain. No — Cain and Abel had a third brother, Seth.
+
+**Antediluvian ages**: Methuselah, known for his long life, was 969 years old, but that is only moderately impressive in the grand scheme of things. Adam died at the ripe old age of 930, his son Seth at 912. Cain died young at 730.
+
+**Magical beings**: What the heck are the Nephilim (6:1)?
+
+**Sexual mystery**: What is it that Canaan actually did to his grandfather Noah when he became drunk? (9:20)
+
+**Abram's military conquest**: Chedorlaomer, king of Elam (what a name!) abducted Lot and his crew, and Abram had to raise an army of 318 people and wage war to bail him out!
+
+**Abram's ritual**: in 15:15, Abram cleaves his farm animals in twain, leaves the halves in some sort of bizarre ritual. He then falls into a deep slumber. He wards off carrion birds, and sees smoke and fire. No drugs involved?
+
+**Ishmael's short stick**: Shockingly disparaging of Ishmael "He shall be a wild ass of a man; His hand against everyone, And everyone’s hand against him"
+
+**Barely monotheism:** El Elyon, El-Roi, El Shaddai, God Most High. There are so many different Semitic gods fused into one here. Sometimes god is referred to Elohim (literally "gods" — plural). Jewish Monotheism is clearly only just emerging in these passages.
+
+**Surrogate slave mothers**: Ishmael was born to Abraham from Hagar (Sarah's servant). And only two of Jacob's children were born to him from Rebeca.
+
+**Lot and his daughters**: Lot unambiguously offered up his own virgin daughters to be raped in the angels’ stead (19:7). Later, he and his virgin daughters settled in a cave, and then had children via their own father (19:31). Deeply disturbed.
+
+**Hands and thighs**: apparently cupping someone else's genitals or at least putting your hand near there is part of the act of solemn oath taking in ancient societies (24:2). This also happens when Jacob asks Joseph to bury him with the other patriarchs (47:29).
+
+**Apocryphal camels**: The translator suggests that camels in the bible are not actually historical. Archaeological evidence suggests that they weren’t adapted to the climate until several centuries after the patriarchal period.
+
+**Named wells:** Water is extremely important in the desert. Water rights are key, and Abraham battles Abimelech over this (21:22). Wells are so important, the wells have names (26:17)
+
+**Wells and betrothals**: Abraham's servant meets Rebekah (betrothed to Isaac) at a well (24:14). Later, Jacob meets Rachel at a well (29:10). In Exodus Moses meets Zipporah in the same manner.
+
+**Laban is a real slimeball**: Such a greedy dude, obsessed with jewlery (24:30), and then tricks Jacob into working him for 14 years. And still Jacob was unable to take his harem (2 wives, 2 slave girls, 9 children) without asking Laban’s permission (30:29). Quite the scene with Laban furious over his stolen idol, in which Jacob inadvertently condemns his beloved to death (31:32), followed by another gem, in which Rachel sits on a cushion concealing the stolen figurine and pleading to her father that she has menses and cannot get up. (31:35).
+
+**Girl names**: anyone looking for a biblical name for their baby girl? I recommend Oholibamah. There is also Basemath, although I guess it’s pronounced bass-seh-mat. Or consider Mehetabel.
+
+**Boy names**: highly recommend naming them like Benjamin did. And he had a lot of kids: Bella and Beecher and Ashbel, Gera and Naaman, Ehi and Rosh, **Muppim and Huppim** and Ard.
+
+**Juda* the traitor**: Judah sells his brother (37:20), and Judas sells his brother Jesus Christ.
+
+**Tamar and Judah**: Tamar is I guess fixated on getting a son by Judah’s lineage (Er) one way or another, so in desperation dresses like a whore and seduces Judah. Is it normal for Judah to go whoring? (38:16)
+
+**Joseph the autist**: “And look” is Joseph’s signature childish excitement. He seems to have no ability to read the room. No wonder his brothers hated him so much! (41:1)
+
+**Jacob and Joseph were embalmed**: Jacob was embalmed (50:3), and Joseph was even mummified and placed in a coffin (50:26). Surprisingly Egyptian for a forefather.
+
 Grand Transitions by Vaclav Smil
 ===
 rating: yes
