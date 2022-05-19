@@ -65,7 +65,7 @@ To which Harlan woodenly replies “The greatest good for the greatest…”, a 
 The end is a bit rushed and marred with overly complex time loops, but overall a great work!
 
 
-Genesis by ✨
+Genesis by ✨ (translated by Robert Alter)
 ===
 rating: yes
 posted: May 1, 2022
