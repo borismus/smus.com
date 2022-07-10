@@ -29,7 +29,7 @@ A fascinating, self-referential, format. I see the man as a stand-in for K., and
 
 Arcadia by Tom Stoppard
 ===
-rating: yes
+rating: no
 posted: June 11, 2022
 
 It's pretty funny but in a very high falutin’ way, which detracts from the
