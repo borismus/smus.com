@@ -4,6 +4,52 @@ class: split
 type: book
 
 
+Parables by Franz Kafka
+===
+rating: yes
+posted: July 7, 2022
+cover: /assets/book-covers/parables.jpg
+
+Many misses, for sure. But the hits I enjoyed were worthwhile:
+
+**Imperial message**: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape. 
+
+**Tower of Babel and The City Coat of Arms**: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city. 
+
+A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness. 
+
+**Before the law**: A man seeks entrance into The Law (I think the Torah version), but is prevented from entering by a guard because it is not time yet. The two exchange words and the man decides to wait until the time will come. He waits for many years, and the two have occasional conversations revealing that beyond this door lie more doors, with more guards. The man is undeterred and continues to wait. Near death, he gathers up the courage to ask his most pressing questions. After answering them, the guard announces he will be closing the door.
+
+This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free? 
+
+A fascinating, self-referential, format. I see the man as a stand-in for K., and the priest as a stand-in for the guard. Where does the reader fit? What about the author? Reminds me a lot of Borges, and a little bit of Ted Chiang. (I’d love to do a group reading session around a story like this. I miss my Multiplayer Essay concept.)
+
+**Poseidon**: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely. 
+
+
+Arcadia by Tom Stoppard
+===
+rating: yes
+posted: June 11, 2022
+
+It's pretty funny but in a very high falutin’ way, which detracts from the
+comedy.
+
+Isn’t that conjecture just Laplace’s Demon? From WP: 
+
+> Laplace's demon is a hypothetical all-knowing being who knows the precise location and momentum of every atom in the universe, and therefore could use Newton's laws to reveal the entire course of cosmic events, past and future. Based upon the philosophical proposition of causal determinism.
+
+Septimus & Chater demanding satisfaction exchange is hilarious!
+
+Overall I’m struggling to follow the arc. Lots of wit but just very much a
+comedy of errors. I might try again when I'm in a more frivolous headspace. 
+
+A stray thought: I haven't tended to really enjoy plays much. Is this a lack of
+imagination on my part? Perhaps it takes more work to truly imagine each
+character delivering their lines without any of the scaffolding a narrator
+provides...
+
+
 Creativity by Mihaly Csikszentmihalyi
 ===
 rating: yes
