@@ -4,6 +4,24 @@ class: split
 type: book
 
 
+The Secret Life of Groceries
+===
+rating: no
+posted: August 17, 2022
+
+At first I was taken by the surprisingly well written prose (for a non-fiction book). Here Lorr recollects his feelings after having lived abroad for a while and seeing an American supermarket for the first time in a while. This feeling of awe is familiar to me having immigrated from the Soviet Union in 1990:
+
+> A love like all love filled with doubt and rage and insecurity, but also overwhelming and blanketing, warm and intoxicating. It was a love of re-acclimation, of reabsorbing a childhood and birthright, of seeing myself and my country with new eyes, both fearful and reverent.
+
+And here is a memory conveyed remarkably well in writing of the olfactory experience of cleaning a whole foods fish freezer.
+
+> ...ten thousand minnows piled up in silver ribbons, left for days, as they waited to be transformed into the protein base of the aquaculture pyramid. Those were some strong sniffs. And yet none of it—not the trash fish nor fecal lagoons—was as fundamentally gross and disturbing as the smell that came out of that fish case in Manhattan. In a Whole Foods. In one of the wealthiest neighborhoods in the wealthiest nation in the world.
+
+I learned that SKUs stand for "Shop Keeping Units", and that the average adult spends 2% of their life in a supermarket.
+
+Despite the relative interestingness, the book kind of drones on. The section on Trader Joe's was overly fanboyish and protracted. Further, I am ashamed to admit that my interest in groceries and supply chains appears to be dwindling as the pandemic comes to a close.
+
+
 Bloodlands by Timothy Snyder
 ===
 rating: yes
@@ -33,19 +51,19 @@ The breakdown of victims in these events is as follows:
 - Nazi Jewish killings (Holocaust): 5.4 million Jews.
 - German killings of Polish and Belorussian partisans in 1942-44: 700,000 civilians shot during the occupation of the western soviet union.
 
-**Triple occupation: Soviets, Nazis and back again**. Many of the territories in question were triply occupied: first by the Soviets, then the Nazis, and back again to the Soviets. 
+**Triple occupation: Soviets, Nazis and back again**. Many of the territories in question were triply occupied: first by the Soviets, then the Nazis, and back again to the Soviets.
 
 **Stalin enabled Hitler**. Stalin's brutal collectivization and ensuing famines paved the way for Hitler to point to the transgressions of the communists. He rode that wave to consolidate power in Germany. This in turn reduced Comintern prestige globally and strained Russia German relations.
 
-**Jews as communists**. The communist party was largely Jewish, a fact the media gleefully covered for decades in the 1920 and 1930s. When Stalin's communists began committing mass murder at an unprecedented scale, this played into the propaganda of the Nazis. 
+**Jews as communists**. The communist party was largely Jewish, a fact the media gleefully covered for decades in the 1920 and 1930s. When Stalin's communists began committing mass murder at an unprecedented scale, this played into the propaganda of the Nazis.
 
-**Ethnic composition of the NKVD**. The founder of the NKVD, Felix Dzerzhinsky, was a Polish nobleman by birth, and Poles were highly represented in the NKVD at its foundation. Snyder claims that 40% of the NKVD were Jewish in ethnicity, which is shockingly high and somewhat [controversial](https://skeptics.stackexchange.com/questions/45384/did-40-of-the-nkvd-soviet-police-leadership-have-jewish-nationality). Both Poles and Jews were systematically purged, and by 1940, the party was more ethnically Russian than the general population. The only more represented ethnicity were Georgians, largely because of Stalin’s nepotism. 
+**Ethnic composition of the NKVD**. The founder of the NKVD, Felix Dzerzhinsky, was a Polish nobleman by birth, and Poles were highly represented in the NKVD at its foundation. Snyder claims that 40% of the NKVD were Jewish in ethnicity, which is shockingly high and somewhat [controversial](https://skeptics.stackexchange.com/questions/45384/did-40-of-the-nkvd-soviet-police-leadership-have-jewish-nationality). Both Poles and Jews were systematically purged, and by 1940, the party was more ethnically Russian than the general population. The only more represented ethnicity were Georgians, largely because of Stalin’s nepotism.
 
-**Eastern European Nazi collaborators**. Many Lithuanians, Latvians, Estonians, Poles, Belorussians, and Ukrainians collaborated with the Nazis in their Jew killing venture. The jews were a convenient scapegoat for the ills of the Soviets. By agreeing that the Jews were at fault and needed to be purged, they saved their own skin from the wrath of the nazis.  
+**Eastern European Nazi collaborators**. Many Lithuanians, Latvians, Estonians, Poles, Belorussians, and Ukrainians collaborated with the Nazis in their Jew killing venture. The jews were a convenient scapegoat for the ills of the Soviets. By agreeing that the Jews were at fault and needed to be purged, they saved their own skin from the wrath of the nazis.
 
-**European polarization**. Europe was so polarized by 1936 that it was impossible to criticize the Soviet Union without appearing to endorse Hitlers Germany. Hitler called his enemies Marxists. Stalin called his Fascists. They agreed there was no middle ground. 
+**European polarization**. Europe was so polarized by 1936 that it was impossible to criticize the Soviet Union without appearing to endorse Hitlers Germany. Hitler called his enemies Marxists. Stalin called his Fascists. They agreed there was no middle ground.
 
-**Murderous troikas**. A shockingly high number of people were killed by Stalinist Troikas, which consisted of three administrators from various levels of government, acting as judge jury and executioner.  
+**Murderous troikas**. A shockingly high number of people were killed by Stalinist Troikas, which consisted of three administrators from various levels of government, acting as judge jury and executioner.
 
 **Japan's role**. The Russo-German alliance 1939-41 sidelined the Japanese, who were Germany's natural ally and Russia's natural enemy. What would happen, speculates Snyder, if rather than purging its own citizenry, Stalin focused on disarming Japan and preventing the War in the Pacific? The course of the war might have been altered drastically, and perhaps not for the better... Imagine no Pearl Harbor?
 
@@ -55,37 +73,37 @@ The breakdown of victims in these events is as follows:
 
 **Unknown war crimes**. The scale of the Stalinist program was completely unknown outside of soviet Russia. And even in Soviet Russia it was not at all widely known. (How much clandestine terror happens behind closed doors today? At what scale can such things operate in a world of internet and social media?)
 
-**Personal stories help re-humanize people**: This masterwork does an impressive job of combining the birds eye view with deeply troubling personal stories. Snyder writes eloquently about the importance of the latter: 
+**Personal stories help re-humanize people**: This masterwork does an impressive job of combining the birds eye view with deeply troubling personal stories. Snyder writes eloquently about the importance of the latter:
 
-> The Nazi and Soviet regimes turned people into numbers some of which we can only estimate. It is for us as scholars to seek these numbers and put them into perspective. It is for us as humanists to turn these numbers back into people. If we cannot do that, then hitler and Stalin have shaped not only our world but our humanity. 
+> The Nazi and Soviet regimes turned people into numbers some of which we can only estimate. It is for us as scholars to seek these numbers and put them into perspective. It is for us as humanists to turn these numbers back into people. If we cannot do that, then hitler and Stalin have shaped not only our world but our humanity.
 
 **Names and history of Donetsk**. Bizarrely, the city of Donetsk was founded in 1869 by Welsh businessman John Hughes, an energy magnate. It was originally named Юзовка after Hughes but by 1931 it was renamed to Stalino. It was renamed to Donetsk by Khrushev as part of destalinization in 1961.
 
 **Jews: shot and gassed**. Jews living east of the Molotov-Ribbentrop line tended to be shot. Those living in German Reich territory tended to be gassed. Gassing techniques were first perfected for mass euthanasia of disabled and elderly “useless eaters”. Rather than running the exhaust of a truck into its cab, they took out the ICE of trucks and put them into buildings to increase the scale of the killings. First perfected at Belzec (“Boo-jets”), this was also used in Treblinka and other death camps like Sobibor.
 
-**Let them destroy each other** 
+**Let them destroy each other**
 - The West stood by as Russia and Germany waged war on one another, hoping to let the Nazis and Communists destroy one another without lifting a finger.
-- The Soviets let the Poles rise up against the Nazis during the Warsaw uprising and falsely promised reinforcements. 
+- The Soviets let the Poles rise up against the Nazis during the Warsaw uprising and falsely promised reinforcements.
 
 **Polish lack of control**. Stalin bullied Churchill into labeling the Polish resistance as “adventurers”, and forced the rest of the Allies to do the same. This move was heavily condemned by Koestler and Orwell. Thus the Polish Home Army was not able to retain any control over Warsaw. By the end of the war Stalin finally allowed Allied powers to liberate Warsaw, but he delayed enough that the Soviets had de facto control, not the Polish government in exile.
 
-**Soviet alternative history**. 
-- According to Soviet history books, the war started in 1941 not in 1939. There could be no mention of the Nazi-Soviet alliance against Poland. 
-- To the Soviets, Russians needed to be the main victims of the Great War, not the Jews. Thus the Holocaust could not become part of the official history of the war. 
+**Soviet alternative history**.
+- According to Soviet history books, the war started in 1941 not in 1939. There could be no mention of the Nazi-Soviet alliance against Poland.
+- To the Soviets, Russians needed to be the main victims of the Great War, not the Jews. Thus the Holocaust could not become part of the official history of the war.
 
 **Solomon Michoels and the Jewish Anti-Fascist Committee** attempted to bring the plight of the Jews to the attention of the world. He petitioned Stalin to allow to publish the [The Black Book of Soviet Jewry](https://en.m.wikipedia.org/wiki/The_Black_Book_of_Soviet_Jewry) written by Red Army reporters Ilya Ehrenburg and Vasily Grossman. But this initiative was blocked. Michoels political campaigning led him to be murdered by Stalin (officially a truck accident). A surprising group of high profile activists including violinist [David Oistrakh](https://yivoencyclopedia.org/article.aspx/jewish_anti-fascist_committee).
 
 **Death camps, not concentration camps**. Snyder really drives home the point that concentration camps were just the tip of the iceberg. The vast majority of Jews killed in the Shoah had never seen one or been in one. Many hundreds of thousands were shot are gassed in death facilities. The emphasis on concentration camps probably comes from media coverage shortly after the war as well as personal accounts from survivors. Case in point, Hannah Arendt's work is mostly about Auschwitz.
 
-**Poles and Polish Jews**. Polish Jews suffered the worst fate at the hands of the Germans. The worst parts of Poland were due to the Jews according to the Nazi stereotype. Polish Jews in the military were represented heavily, especially doctors, which was an affront to the Nazi world view. 90% of the Jews living in Poland were killed by the end of the war. Those that survived had no desire to return home, afraid of the displaced Poles that would resist if they they would try to retake their homes. Most fled via Germany to Israel or the United States. Before the war, 3 million Jews lived in Poland. By the end of it, and after the Polish communist anti-Semitism of the 60s, 30,000 remained. The non-Jewish Poles also suffered disproportionately compared to other non-Jewish ethnicities. Even so, a Jewish Pole was 15x more likely to die than their non-Jewish counterpart. 
+**Poles and Polish Jews**. Polish Jews suffered the worst fate at the hands of the Germans. The worst parts of Poland were due to the Jews according to the Nazi stereotype. Polish Jews in the military were represented heavily, especially doctors, which was an affront to the Nazi world view. 90% of the Jews living in Poland were killed by the end of the war. Those that survived had no desire to return home, afraid of the displaced Poles that would resist if they they would try to retake their homes. Most fled via Germany to Israel or the United States. Before the war, 3 million Jews lived in Poland. By the end of it, and after the Polish communist anti-Semitism of the 60s, 30,000 remained. The non-Jewish Poles also suffered disproportionately compared to other non-Jewish ethnicities. Even so, a Jewish Pole was 15x more likely to die than their non-Jewish counterpart.
 
 **Jewish resistance**. A unified front of armed Jews came to be known as the Jewish Combat Organization. They sought to kill heads of the Judenrat and Jewish informants. Most of the action was in the Warsaw ghetto. By 1943 they had managed to kill some Nazis too, which led to a German vendetta against the Warsaw ghetto. When the Nazis came to destroy it they were met with sniper fire and Molotov cocktails. Called by some the “Jewish German War”, this resulted in the Nazis razing the Warsaw ghetto and turning it into a concentration camp.
 
 **Resettlement**: When the Nazis "resettled" Jews, this was used as a euphemism for mass murder. Resettlement from the Warsaw ghetto involved "deportation" of 250,000 Jews to the Treblinka death camp. Post-war Stalin used the same term to actually resettle people en mass. These were also brutal endeavours, and thousands died in transit, many traveling in open train cars in the bitter cold. The Germans suffered greatly after the war, dehumanized as a nation for the atrocities of the Nazis. As the Red Army pressed west, soldiers raped German women, and killed the men or took them as laborers.
 
-**"Respecting" national boundaries**. After the end of the war, Stalin implemented policies which segregated nations into their own national boundaries. In some cases, these boundaries were drawn up arbitrarily. Stalin effectively moved Poland westward, annexing eastern Poland into the soviet Ukraine at the expense of east German lands given to Poland. Germany would be for the Germans once more, just like Hitler envisioned but a much smaller territory. There was a large consensus throughout the word that each nation should be defined by its own nationality living within it. 
+**"Respecting" national boundaries**. After the end of the war, Stalin implemented policies which segregated nations into their own national boundaries. In some cases, these boundaries were drawn up arbitrarily. Stalin effectively moved Poland westward, annexing eastern Poland into the soviet Ukraine at the expense of east German lands given to Poland. Germany would be for the Germans once more, just like Hitler envisioned but a much smaller territory. There was a large consensus throughout the word that each nation should be defined by its own nationality living within it.
 
-**Who to surrender to?** 
+**Who to surrender to?**
 - The Poles had to decide whether to surrender to the Wehrmacht or the Red Army in 1939, when they were attacked simultaneously by Germany from the west and Russia from the east. This was a tricky choice.
 - The Germans had to decide when they were attacked by the Russians from the east and by other allies from the west. This was a no brainer: flee westward as quickly as possible.
 - It's like an especially horrifying version of [You Gotta Serve Somebody](https://www.youtube.com/watch?v=wC10VWDTzmU).
@@ -103,7 +121,7 @@ The breakdown of victims in these events is as follows:
 
 **Stalin and Israel in 1948**. Moscow was initially very sympathetic to Israel, seeing it potentially as fertile soil for communism. There was elation in Moscow when Golda Meir, originally from Kyiv, visited during Rosh Hashanah 1948. However Stalin quickly changed his mind, finding that Jews had more influence on the Soviet state than the Soviet state did on Israel.
 
-**Systematic Stalinist Anti-semitism**. Around 1949, Stalin began a concerted campaign against the Jews of Soviet Union. Many Jewish poets writing under Russian synonyms were arrested and killed as part of the [Night of the Murdered Poets](https://en.wikipedia.org/wiki/Night_of_the_Murdered_Poets) (including Leib Kvitko), followed by the [Doctor's Plot](https://en.wikipedia.org/wiki/Doctors%27_plot) which was diffused only by Stalin's death. Jews were now suspected of either being "Jewish Nationalists" or being "Rootless Cosmopolitans", with their names placed in parentheses in official lists. Increasingly Israel was seen as a client state of America, which led to fundamental aversion to the country. 
+**Systematic Stalinist Anti-semitism**. Around 1949, Stalin began a concerted campaign against the Jews of Soviet Union. Many Jewish poets writing under Russian synonyms were arrested and killed as part of the [Night of the Murdered Poets](https://en.wikipedia.org/wiki/Night_of_the_Murdered_Poets) (including Leib Kvitko), followed by the [Doctor's Plot](https://en.wikipedia.org/wiki/Doctors%27_plot) which was diffused only by Stalin's death. Jews were now suspected of either being "Jewish Nationalists" or being "Rootless Cosmopolitans", with their names placed in parentheses in official lists. Increasingly Israel was seen as a client state of America, which led to fundamental aversion to the country.
 
 **Molotov's wife**. Molotov's wife Polina Zhemchuzhina was Jewish and accused of having Zionist ties for her support of the Jewish Anti-Fascists. A close friend of Stalin's wife Nadezhda (another murky story), she was arrested for treason in 1948, and forced into an unwanted divorce from Μolotov. She was convicted and sentenced to five years in a labor camp, released only after Stalin's death.
 
@@ -111,7 +129,7 @@ The breakdown of victims in these events is as follows:
 
 # Next
 - Check out Vassiliy Grossman. In my mind, at least, he seems to be in the same category as Arendt: bearing witness. Novels that might be worthwhile: Life and Fate, and Everything Flows.
-- Read more Анна Ахматова poems. 
+- Read more Анна Ахматова poems.
 
 
 Ministry for the Future
@@ -134,19 +152,19 @@ cover: /assets/book-covers/parables.jpg
 
 Many misses, for sure. But the hits I enjoyed were worthwhile:
 
-**Imperial message**: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape. 
+**Imperial message**: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape.
 
-**Tower of Babel and The City Coat of Arms**: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city. 
+**Tower of Babel and The City Coat of Arms**: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city.
 
-A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness. 
+A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness.
 
 **Before the law**: A man seeks entrance into The Law (I think the Torah version), but is prevented from entering by a guard because it is not time yet. The two exchange words and the man decides to wait until the time will come. He waits for many years, and the two have occasional conversations revealing that beyond this door lie more doors, with more guards. The man is undeterred and continues to wait. Near death, he gathers up the courage to ask his most pressing questions. After answering them, the guard announces he will be closing the door.
 
-This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free? 
+This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free?
 
 A fascinating, self-referential, format. I see the man as a stand-in for K., and the priest as a stand-in for the guard. Where does the reader fit? What about the author? Reminds me a lot of Borges, and a little bit of Ted Chiang. (I’d love to do a group reading session around a story like this. I miss my Multiplayer Essay concept.)
 
-**Poseidon**: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely. 
+**Poseidon**: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely.
 
 
 Arcadia by Tom Stoppard
@@ -157,14 +175,14 @@ posted: June 11, 2022
 It's pretty funny but in a very high falutin’ way, which detracts from the
 comedy.
 
-Isn’t that conjecture just Laplace’s Demon? From WP: 
+Isn’t that conjecture just Laplace’s Demon? From WP:
 
 > Laplace's demon is a hypothetical all-knowing being who knows the precise location and momentum of every atom in the universe, and therefore could use Newton's laws to reveal the entire course of cosmic events, past and future. Based upon the philosophical proposition of causal determinism.
 
 Septimus & Chater demanding satisfaction exchange is hilarious!
 
 Overall I’m struggling to follow the arc. Lots of wit but just very much a
-comedy of errors. I might try again when I'm in a more frivolous headspace. 
+comedy of errors. I might try again when I'm in a more frivolous headspace.
 
 A stray thought: I haven't tended to really enjoy plays much. Is this a lack of
 imagination on my part? Perhaps it takes more work to truly imagine each
