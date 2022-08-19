@@ -8,6 +8,8 @@ February Links
 ===
 posted: February 28, 2022
 
+![Generated image of Georg Cantor contemplating infinity](/assets/generated/2022-02-28.jpg)
+
 - [Against longtermism](https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo) (*Aeon*) — Torres argues that an over-focus on the long term is dangerous because it ignores shorter term existential threats, and encourages endless growth, which itself might be the cause of our problems. As a fan of long term thinking, I found this very provocative. What is the synthesis between pollyannaish beliefs in technology and degrowth?
 - [Web3 is Self-Certifying](https://jaygraber.medium.com/web3-is-self-certifying-9dad77fd8d81) (*Jay Graber*) — Graber describes the concept of self-certifying data, which "enables trust to reside in the data itself, not in where you found it, allowing apps to move away from client-server architectures." Examples of protocols that enable this include git, BitTorrent, IPFS, and SSB.
 - [What’s the Point If We Can’t Have Fun?](https://thebaffler.com/salvos/whats-the-point-if-we-cant-have-fun) (*David Graeber*) – In a rambling article, Graeber highlights Kropotkin's argument that species that cooperate most effectively tend to be the most competitive in the long run. Kropotkin argues that animal cooperation often has nothing to do with survival or reproduction, but is a form of pleasure in itself.
@@ -22,6 +24,8 @@ posted: February 28, 2022
 January Links
 ===
 posted: January 31, 2022
+
+![Generated image of a space shuttle in Leonardo Da Vinci's sketchbook](/assets/generated/2022-01-31.jpg)
 
 - [Buy Things, Not Experiences]() (*Harold Lee*) – Common wisdom suggests that having a lot of stuff will not bring happiness, but advocates of this "new minimalism" often live in modern houses in expensive neighborhoods. In general, Lee argues that there is no real boundary between things and experiences, and in fact we may have erred too far and are now over-consuming experiences.
 - [Speaking in Tales: conversing in Chinese means constantly alluding to folklore](https://www.michellelim.org/writing/speaking-in-tales/) (*Michelle Lim*) — Lim describes chéng yǔ, commonly used 4-character phrases in Chinese, which are allusions to classical Chinese folk tales. This introduces unique challenges to translations, which lose their evocative impact when you don’t know the story.
