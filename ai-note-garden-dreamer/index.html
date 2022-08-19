@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI note garden: Dreamer, note collider | Boris Smus</title>
+
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+
+  <meta name="description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/ai-note-garden-dreamer" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="AI note garden: Dreamer, note collider" />
+  <meta name="twitter:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/ai-note-garden-dreamer" />
+  <meta property="og:title" content="AI note garden: Dreamer, note collider" />
+  <meta property="og:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+
+  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
+  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/icons/site.webmanifest">
+
+  <!-- Styles -->
+  <link
+  href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="//feeds.feedburner.com/smuscom" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/clippings/' >Clippings</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/ai-note-garden-dreamer'><h1 class='title'>AI note garden: Dreamer, note collider</h1></a>
+    <div class='body'>
+      <p>The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories. <a href="https://www.goodreads.com/book/show/34466963-why-we-sleep">Matt Walker</a> describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.</p>
+
+<p>In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny.</p>
+
+<!--more-->
+
+<h1>How can an AI dreamer synthesize new connections?</h1>
+
+<p>Let's take two random notes and see if the collective wisdom contained within a large language model can generate something interesting based on the text content of each. Picking two notes at random is easy enough, but the two need to be combined somehow to ultimately create a string of input for GPT-3.</p>
+
+<p>The simplest imaginable thing of concatenating the two random notes together and seeing what GPT-3 spits out is a non-starter for several reasons. Firstly, GPT-3 is constrained in its input length. Secondly, GPT-3 is pretty susceptible to the order in which these prompts are presented. Since it generates a string to continue the provided text, the closer a word is to the end of the input, the more weight it is effectively given.</p>
+
+<h2>Multiple doses of GPT-3</h2>
+
+<p>We have a note corpus, and <a href="/ai-note-garden-summarizer">the power of summarization</a>. Broadly speaking, each note consists of the following:</p>
+
+<ul>
+<li>Name (<code>note.name</code>)</li>
+<li>Note body (<code>note.body</code>)</li>
+<li>First paragraph of the note body (<code>shortbody</code>)</li>
+<li>Summary (<code>summary</code>)</li>
+<li>Summarized summary (<code>sumsum</code>)</li>
+</ul>
+
+<p>The goal is to build a prompt string that encourages GPT-3 to synthesize something interesting related to both notes, ideally written in a writing style that mimics the originals.</p>
+
+<p>Here's the best I've come up with so far (prompt engineers, please @-me):</p>
+
+<p><code>
+ f'''{note1.name}: {shortbody1}
+ {note2.name}: {shortbody2}
+ In summary: {sumsum2} and {sumsum1}.
+ The connection between "{note1.name}" and "{note2.name}" is the following.'''
+</code></p>
+
+<p>This python f-string contains excerpts of my own writing (<code>shortbody</code>), the summarized summary (<code>sumsum</code>), as well as both note names at the very end, to remind GPT-3 what we are after as explicitly as possible. I try to mix up the order so as to not bias too much towards one of the two notes.</p>
+
+<p>By having the verbatim text of the original notes, I gently nudge GPT-3 to produce output in a similar style.</p>
+
+<p>One parameter of these LLMs is called temperature, which is a proxy for how wild the output should be. I've cranked it up to close to its maximum value for more spicy results.</p>
+
+<h1>Results from living with AI note collider</h1>
+
+<p>Dreamer is now part of my <a href="/file-systems-for-thought/">System for Thought</a> suite, running nightly alongside <a href="/ai-note-garden-dreamer/">other</a> <a href="">AI gardeners</a>. It's been operational since late 2021, so I have had about a hundred examples of its output to casually peruse.</p>
+
+<p>Just seeing two random notes from the garden can a good nudge to remove a note that was temporary, spark a new connection, or create a new note. Sometimes it's fascinating to revisit an old shower thought that I'd long forgotten about.</p>
+
+<p>Dreamer's results are usually nonsensical, but sometimes surprisingly funny and surreal. Here are some of <a href="https://photos.app.goo.gl/oRTnemu2EiwMewm1A">my favorites</a>:</p>
+
+<table>
+    <thead>
+        <tr>
+      <td>Index</td>
+            <td>Note 1</td>
+            <td>Note 2</td>
+            <td>Collision excerpt</td>
+        </tr>
+    </thead>
+    <tr>
+        <td>1</td>
+        <td>Ikea shopping list</td>
+        <td>Political debates in VR</td>
+        <td>"IKEA", in Norway, is known as the "Freedom Store", because of the store's role during the German occupation of Norway in World War II, who hid people in a secret room in the ceiling.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Carolingian miniscule</td>
+        <td>Canada debate aphorisms</td>
+        <td>In the beginning, there was no spaces between words. Then, people started to want more space between words. Canada debated tax-increases on the rich. NDP said, "FUCK THE RICH!" The Liberals wanted more social services. Conservatives wanted a balanced budget. People wanted a tighter pussy. People changed their mind.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Whitman kitchen paint</td>
+        <td>Notes from mentoring session</td>
+        <td>It feels so clear that I will even share it: Cooking is a merging of UX and engineering that results in an edible meal. Which is well written amounts to an edible book.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Canadians entering US by land</td>
+        <td>Steveston's Fraser River estuary and current flow</td>
+        <td>Officer says "Good That's more interesting than the usual vacation." Note: Canada has quite a few kind of kayaks to rent. Large types used for the interior of huge lakes. Also the kind used for the Sea used for day touring</td>
+    </tr>
+</table>
+
+<ol>
+<li>IKEA is Swedish not Norwegian. It was founded in 1943, so had no significant role to play in WWII. As far as I can tell, is not known as the "Freedom Store" in any way whatsoever. But I loved the visual of hiding people in a secret room in the ceiling.</li>
+<li>Good trajectory, first taking a bit from Carolingian miniscule, then advancing to Canadian politics. But then things take an unexpected turn for the worse. That escalated quickly!</li>
+<li>I liked that cooking was poetically described as a mix of UX and engineering that resulted in an "edible meal". Edible meals are my favorite kind. The "edible book" gave me pause, and made me question the AI's taste.</li>
+<li>I enjoyed the border guard's description of Canada's broad variety of kayaks available for the day touring!</li>
+</ol>
+
+<h1>Failure modes and ideas for improvement</h1>
+
+<p>Most of Dreamer's results are bad in a variety of ways. Here are a few of them:</p>
+
+<ol>
+<li><strong>Errors accrue</strong>: My current approach relies on running GPT-3 several times for summarization. Each of these invocations blurs the idea a little bit, and then a little bit more. The resulting soup is then blurred again at collision time. If I was more diligent about <a class="wiki" href="https://z3.ca/Bottom_Line_Up_Front_(BLUF)_note_taking_style">Bottom Line Up Front (BLUF) note taking style</a> in my note corpus, summarization might not be necessary to fit within the token limits.</li>
+<li><strong>One of the notes is ignored</strong>: Despite my efforts, GPT-3 still often overindexes on one of the notes and completely ignores the other.</li>
+<li><strong>False information</strong>: There is no attempt at grounding output in truth. Generated results often include alternative facts, to put it mildly.</li>
+<li><strong>The notes are truly unrelated</strong>: This happens quite often, since my notes are written on a broad variety of topics in a variety of styles. Some are Evergreen notes, others are lists of quotes, others indices that link a certain topic together. Others are notes about my day-to-day life, dream logs, etc.</li>
+</ol>
+
+<p>One March night, Dreamer attempted to combine my aspirational lifestyle notes on building a camper van with historical research notes about the "high medieval power shift from lords to peasants and kings". This resulted in the following:</p>
+
+<blockquote>
+  <p>One weekend when we’re all together in Idaho, we're going drive Nic’s Audi A4 FSi Quattro to Guernsey together and find avocados on an island called Herm. That’s southern France. It’s on the English Channel. Also where I started! Overall happy with the car and the weekend. Felt good to run an out of town car in the snow, and liked the road.</p>
+</blockquote>
+
+<p>Drivel? Yes, let me count the ways:</p>
+
+<ul>
+<li>You can't drive to an island.</li>
+<li>The English Channel is not near southern France.</li>
+<li>Herm is not a very good place to find avocados.</li>
+</ul>
+
+<p>But this example is still illustrative because you can see how GPT-3 incorporated bits of both notes. A car is close enough to a camper van. Lords and kings and peasants sound like they are vaguely related to the Norman conquest, hence the English Channel, Herm, and France.</p>
+
+<p>Finding a meaningful connection in the above example is pretty difficult, even for human intelligence. Is it really fair to blame an AI for failing at this task?</p>
+
+<p>It often takes an oneirocritic to extract insight out of a cryptic dream. Cormac McCarthy <a href="https://nautil.us/the-kekul-problem-6082/">writes eloquently</a> about this subject. If we consider <a href="https://read.fluxcollective.org/p/64">LLMs as a muse</a>, perhaps this cryptic output is good enough?</p>
+
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>August 19, 2022</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2005–2021 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='//feeds.feedburner.com/smuscom'>RSS</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<script>
+  // Syntax highlighting for code.
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<script>
+  // Google Analytics.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17930798-22', 'smus.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<script src="/lightning_error.js"></script>
+
+</body>
+</html>

@@ -5,8 +5,182 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2022-07-23T14:19:53-00:00</updated>
+  <updated>2022-08-18T22:32:34-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>AI note garden: Dreamer, note collider</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/ai-note-garden-dreamer"/>
+    
+    <updated>2022-08-19T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/ai-note-garden-dreamer</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories. <a href="https://www.goodreads.com/book/show/34466963-why-we-sleep">Matt Walker</a> describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.</p>
+
+<p>In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny.</p>
+
+<!--more-->
+
+<h1>How can an AI dreamer synthesize new connections?</h1>
+
+<p>Let's take two random notes and see if the collective wisdom contained within a large language model can generate something interesting based on the text content of each. Picking two notes at random is easy enough, but the two need to be combined somehow to ultimately create a string of input for GPT-3.</p>
+
+<p>The simplest imaginable thing of concatenating the two random notes together and seeing what GPT-3 spits out is a non-starter for several reasons. Firstly, GPT-3 is constrained in its input length. Secondly, GPT-3 is pretty susceptible to the order in which these prompts are presented. Since it generates a string to continue the provided text, the closer a word is to the end of the input, the more weight it is effectively given.</p>
+
+<h2>Multiple doses of GPT-3</h2>
+
+<p>We have a note corpus, and <a href="/ai-note-garden-summarizer">the power of summarization</a>. Broadly speaking, each note consists of the following:</p>
+
+<ul>
+<li>Name (<code>note.name</code>)</li>
+<li>Note body (<code>note.body</code>)</li>
+<li>First paragraph of the note body (<code>shortbody</code>)</li>
+<li>Summary (<code>summary</code>)</li>
+<li>Summarized summary (<code>sumsum</code>)</li>
+</ul>
+
+<p>The goal is to build a prompt string that encourages GPT-3 to synthesize something interesting related to both notes, ideally written in a writing style that mimics the originals.</p>
+
+<p>Here's the best I've come up with so far (prompt engineers, please @-me):</p>
+
+<p><code>
+ f'''{note1.name}: {shortbody1}
+ {note2.name}: {shortbody2}
+ In summary: {sumsum2} and {sumsum1}.
+ The connection between "{note1.name}" and "{note2.name}" is the following.'''
+</code></p>
+
+<p>This python f-string contains excerpts of my own writing (<code>shortbody</code>), the summarized summary (<code>sumsum</code>), as well as both note names at the very end, to remind GPT-3 what we are after as explicitly as possible. I try to mix up the order so as to not bias too much towards one of the two notes.</p>
+
+<p>By having the verbatim text of the original notes, I gently nudge GPT-3 to produce output in a similar style.</p>
+
+<p>One parameter of these LLMs is called temperature, which is a proxy for how wild the output should be. I've cranked it up to close to its maximum value for more spicy results.</p>
+
+<h1>Results from living with AI note collider</h1>
+
+<p>Dreamer is now part of my <a href="/file-systems-for-thought/">System for Thought</a> suite, running nightly alongside <a href="/ai-note-garden-dreamer/">other</a> <a href="">AI gardeners</a>. It's been operational since late 2021, so I have had about a hundred examples of its output to casually peruse.</p>
+
+<p>Just seeing two random notes from the garden can a good nudge to remove a note that was temporary, spark a new connection, or create a new note. Sometimes it's fascinating to revisit an old shower thought that I'd long forgotten about.</p>
+
+<p>Dreamer's results are usually nonsensical, but sometimes surprisingly funny and surreal. Here are some of <a href="https://photos.app.goo.gl/oRTnemu2EiwMewm1A">my favorites</a>:</p>
+
+<table>
+    <thead>
+        <tr>
+      <td>Index</td>
+            <td>Note 1</td>
+            <td>Note 2</td>
+            <td>Collision excerpt</td>
+        </tr>
+    </thead>
+    <tr>
+        <td>1</td>
+        <td>Ikea shopping list</td>
+        <td>Political debates in VR</td>
+        <td>"IKEA", in Norway, is known as the "Freedom Store", because of the store's role during the German occupation of Norway in World War II, who hid people in a secret room in the ceiling.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Carolingian miniscule</td>
+        <td>Canada debate aphorisms</td>
+        <td>In the beginning, there was no spaces between words. Then, people started to want more space between words. Canada debated tax-increases on the rich. NDP said, "FUCK THE RICH!" The Liberals wanted more social services. Conservatives wanted a balanced budget. People wanted a tighter pussy. People changed their mind.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Whitman kitchen paint</td>
+        <td>Notes from mentoring session</td>
+        <td>It feels so clear that I will even share it: Cooking is a merging of UX and engineering that results in an edible meal. Which is well written amounts to an edible book.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Canadians entering US by land</td>
+        <td>Steveston's Fraser River estuary and current flow</td>
+        <td>Officer says "Good That's more interesting than the usual vacation." Note: Canada has quite a few kind of kayaks to rent. Large types used for the interior of huge lakes. Also the kind used for the Sea used for day touring</td>
+    </tr>
+</table>
+
+<ol>
+<li>IKEA is Swedish not Norwegian. It was founded in 1943, so had no significant role to play in WWII. As far as I can tell, is not known as the "Freedom Store" in any way whatsoever. But I loved the visual of hiding people in a secret room in the ceiling.</li>
+<li>Good trajectory, first taking a bit from Carolingian miniscule, then advancing to Canadian politics. But then things take an unexpected turn for the worse. That escalated quickly!</li>
+<li>I liked that cooking was poetically described as a mix of UX and engineering that resulted in an "edible meal". Edible meals are my favorite kind. The "edible book" gave me pause, and made me question the AI's taste.</li>
+<li>I enjoyed the border guard's description of Canada's broad variety of kayaks available for the day touring!</li>
+</ol>
+
+<h1>Failure modes and ideas for improvement</h1>
+
+<p>Most of Dreamer's results are bad in a variety of ways. Here are a few of them:</p>
+
+<ol>
+<li><strong>Errors accrue</strong>: My current approach relies on running GPT-3 several times for summarization. Each of these invocations blurs the idea a little bit, and then a little bit more. The resulting soup is then blurred again at collision time. If I was more diligent about <a class="wiki" href="https://z3.ca/Bottom_Line_Up_Front_(BLUF)_note_taking_style">Bottom Line Up Front (BLUF) note taking style</a> in my note corpus, summarization might not be necessary to fit within the token limits.</li>
+<li><strong>One of the notes is ignored</strong>: Despite my efforts, GPT-3 still often overindexes on one of the notes and completely ignores the other.</li>
+<li><strong>False information</strong>: There is no attempt at grounding output in truth. Generated results often include alternative facts, to put it mildly.</li>
+<li><strong>The notes are truly unrelated</strong>: This happens quite often, since my notes are written on a broad variety of topics in a variety of styles. Some are Evergreen notes, others are lists of quotes, others indices that link a certain topic together. Others are notes about my day-to-day life, dream logs, etc.</li>
+</ol>
+
+<p>One March night, Dreamer attempted to combine my aspirational lifestyle notes on building a camper van with historical research notes about the "high medieval power shift from lords to peasants and kings". This resulted in the following:</p>
+
+<blockquote>
+  <p>One weekend when we’re all together in Idaho, we're going drive Nic’s Audi A4 FSi Quattro to Guernsey together and find avocados on an island called Herm. That’s southern France. It’s on the English Channel. Also where I started! Overall happy with the car and the weekend. Felt good to run an out of town car in the snow, and liked the road.</p>
+</blockquote>
+
+<p>Drivel? Yes, let me count the ways:</p>
+
+<ul>
+<li>You can't drive to an island.</li>
+<li>The English Channel is not near southern France.</li>
+<li>Herm is not a very good place to find avocados.</li>
+</ul>
+
+<p>But this example is still illustrative because you can see how GPT-3 incorporated bits of both notes. A car is close enough to a camper van. Lords and kings and peasants sound like they are vaguely related to the Norman conquest, hence the English Channel, Herm, and France.</p>
+
+<p>Finding a meaningful connection in the above example is pretty difficult, even for human intelligence. Is it really fair to blame an AI for failing at this task?</p>
+
+<p>It often takes an oneirocritic to extract insight out of a cryptic dream. Cormac McCarthy <a href="https://nautil.us/the-kekul-problem-6082/">writes eloquently</a> about this subject. If we consider <a href="https://read.fluxcollective.org/p/64">LLMs as a muse</a>, perhaps this cryptic output is good enough?</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>The Secret Life of Groceries</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-secret-life-of-groceries"/>
+    
+    <updated>2022-08-17T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-secret-life-of-groceries</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>At first I was taken by the surprisingly well written prose (for a non-fiction book). Here Lorr recollects his feelings after having lived abroad for a while and seeing an American supermarket for the first time in a while. This feeling of awe is familiar to me having immigrated from the Soviet Union in 1990:</p>
+
+<blockquote>
+  <p>A love like all love filled with doubt and rage and insecurity, but also overwhelming and blanketing, warm and intoxicating. It was a love of re-acclimation, of reabsorbing a childhood and birthright, of seeing myself and my country with new eyes, both fearful and reverent.</p>
+</blockquote>
+
+<p>And here is a memory conveyed remarkably well in writing of the olfactory experience of cleaning a whole foods fish freezer.</p>
+
+<blockquote>
+  <p>...ten thousand minnows piled up in silver ribbons, left for days, as they waited to be transformed into the protein base of the aquaculture pyramid. Those were some strong sniffs. And yet none of it—not the trash fish nor fecal lagoons—was as fundamentally gross and disturbing as the smell that came out of that fish case in Manhattan. In a Whole Foods. In one of the wealthiest neighborhoods in the wealthiest nation in the world.</p>
+</blockquote>
+
+<p>I learned that SKUs stand for "Shop Keeping Units", and that the average adult spends 2% of their life in a supermarket.</p>
+
+<p>Despite the relative interestingness, the book kind of drones on. The section on Trader Joe's was overly fanboyish and protracted. Further, I am ashamed to admit that my interest in groceries and supply chains appears to be dwindling as the pandemic comes to a close.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Bloodlands by Timothy Snyder</title>
@@ -46,19 +220,19 @@
 <li>German killings of Polish and Belorussian partisans in 1942-44: 700,000 civilians shot during the occupation of the western soviet union.</li>
 </ul>
 
-<p><strong>Triple occupation: Soviets, Nazis and back again</strong>. Many of the territories in question were triply occupied: first by the Soviets, then the Nazis, and back again to the Soviets. </p>
+<p><strong>Triple occupation: Soviets, Nazis and back again</strong>. Many of the territories in question were triply occupied: first by the Soviets, then the Nazis, and back again to the Soviets.</p>
 
 <p><strong>Stalin enabled Hitler</strong>. Stalin's brutal collectivization and ensuing famines paved the way for Hitler to point to the transgressions of the communists. He rode that wave to consolidate power in Germany. This in turn reduced Comintern prestige globally and strained Russia German relations.</p>
 
-<p><strong>Jews as communists</strong>. The communist party was largely Jewish, a fact the media gleefully covered for decades in the 1920 and 1930s. When Stalin's communists began committing mass murder at an unprecedented scale, this played into the propaganda of the Nazis. </p>
+<p><strong>Jews as communists</strong>. The communist party was largely Jewish, a fact the media gleefully covered for decades in the 1920 and 1930s. When Stalin's communists began committing mass murder at an unprecedented scale, this played into the propaganda of the Nazis.</p>
 
-<p><strong>Ethnic composition of the NKVD</strong>. The founder of the NKVD, Felix Dzerzhinsky, was a Polish nobleman by birth, and Poles were highly represented in the NKVD at its foundation. Snyder claims that 40% of the NKVD were Jewish in ethnicity, which is shockingly high and somewhat <a href="https://skeptics.stackexchange.com/questions/45384/did-40-of-the-nkvd-soviet-police-leadership-have-jewish-nationality">controversial</a>. Both Poles and Jews were systematically purged, and by 1940, the party was more ethnically Russian than the general population. The only more represented ethnicity were Georgians, largely because of Stalin’s nepotism. </p>
+<p><strong>Ethnic composition of the NKVD</strong>. The founder of the NKVD, Felix Dzerzhinsky, was a Polish nobleman by birth, and Poles were highly represented in the NKVD at its foundation. Snyder claims that 40% of the NKVD were Jewish in ethnicity, which is shockingly high and somewhat <a href="https://skeptics.stackexchange.com/questions/45384/did-40-of-the-nkvd-soviet-police-leadership-have-jewish-nationality">controversial</a>. Both Poles and Jews were systematically purged, and by 1940, the party was more ethnically Russian than the general population. The only more represented ethnicity were Georgians, largely because of Stalin’s nepotism.</p>
 
-<p><strong>Eastern European Nazi collaborators</strong>. Many Lithuanians, Latvians, Estonians, Poles, Belorussians, and Ukrainians collaborated with the Nazis in their Jew killing venture. The jews were a convenient scapegoat for the ills of the Soviets. By agreeing that the Jews were at fault and needed to be purged, they saved their own skin from the wrath of the nazis.  </p>
+<p><strong>Eastern European Nazi collaborators</strong>. Many Lithuanians, Latvians, Estonians, Poles, Belorussians, and Ukrainians collaborated with the Nazis in their Jew killing venture. The jews were a convenient scapegoat for the ills of the Soviets. By agreeing that the Jews were at fault and needed to be purged, they saved their own skin from the wrath of the nazis.</p>
 
-<p><strong>European polarization</strong>. Europe was so polarized by 1936 that it was impossible to criticize the Soviet Union without appearing to endorse Hitlers Germany. Hitler called his enemies Marxists. Stalin called his Fascists. They agreed there was no middle ground. </p>
+<p><strong>European polarization</strong>. Europe was so polarized by 1936 that it was impossible to criticize the Soviet Union without appearing to endorse Hitlers Germany. Hitler called his enemies Marxists. Stalin called his Fascists. They agreed there was no middle ground.</p>
 
-<p><strong>Murderous troikas</strong>. A shockingly high number of people were killed by Stalinist Troikas, which consisted of three administrators from various levels of government, acting as judge jury and executioner.  </p>
+<p><strong>Murderous troikas</strong>. A shockingly high number of people were killed by Stalinist Troikas, which consisted of three administrators from various levels of government, acting as judge jury and executioner.</p>
 
 <p><strong>Japan's role</strong>. The Russo-German alliance 1939-41 sidelined the Japanese, who were Germany's natural ally and Russia's natural enemy. What would happen, speculates Snyder, if rather than purging its own citizenry, Stalin focused on disarming Japan and preventing the War in the Pacific? The course of the war might have been altered drastically, and perhaps not for the better... Imagine no Pearl Harbor?</p>
 
@@ -68,39 +242,39 @@
 
 <p><strong>Unknown war crimes</strong>. The scale of the Stalinist program was completely unknown outside of soviet Russia. And even in Soviet Russia it was not at all widely known. (How much clandestine terror happens behind closed doors today? At what scale can such things operate in a world of internet and social media?)</p>
 
-<p><strong>Personal stories help re-humanize people</strong>: This masterwork does an impressive job of combining the birds eye view with deeply troubling personal stories. Snyder writes eloquently about the importance of the latter: </p>
+<p><strong>Personal stories help re-humanize people</strong>: This masterwork does an impressive job of combining the birds eye view with deeply troubling personal stories. Snyder writes eloquently about the importance of the latter:</p>
 
 <blockquote>
-  <p>The Nazi and Soviet regimes turned people into numbers some of which we can only estimate. It is for us as scholars to seek these numbers and put them into perspective. It is for us as humanists to turn these numbers back into people. If we cannot do that, then hitler and Stalin have shaped not only our world but our humanity. </p>
+  <p>The Nazi and Soviet regimes turned people into numbers some of which we can only estimate. It is for us as scholars to seek these numbers and put them into perspective. It is for us as humanists to turn these numbers back into people. If we cannot do that, then hitler and Stalin have shaped not only our world but our humanity.</p>
 </blockquote>
 
 <p><strong>Names and history of Donetsk</strong>. Bizarrely, the city of Donetsk was founded in 1869 by Welsh businessman John Hughes, an energy magnate. It was originally named Юзовка after Hughes but by 1931 it was renamed to Stalino. It was renamed to Donetsk by Khrushev as part of destalinization in 1961.</p>
 
 <p><strong>Jews: shot and gassed</strong>. Jews living east of the Molotov-Ribbentrop line tended to be shot. Those living in German Reich territory tended to be gassed. Gassing techniques were first perfected for mass euthanasia of disabled and elderly “useless eaters”. Rather than running the exhaust of a truck into its cab, they took out the ICE of trucks and put them into buildings to increase the scale of the killings. First perfected at Belzec (“Boo-jets”), this was also used in Treblinka and other death camps like Sobibor.</p>
 
-<p><strong>Let them destroy each other</strong> 
+<p><strong>Let them destroy each other</strong>
 - The West stood by as Russia and Germany waged war on one another, hoping to let the Nazis and Communists destroy one another without lifting a finger.
-- The Soviets let the Poles rise up against the Nazis during the Warsaw uprising and falsely promised reinforcements. </p>
+- The Soviets let the Poles rise up against the Nazis during the Warsaw uprising and falsely promised reinforcements.</p>
 
 <p><strong>Polish lack of control</strong>. Stalin bullied Churchill into labeling the Polish resistance as “adventurers”, and forced the rest of the Allies to do the same. This move was heavily condemned by Koestler and Orwell. Thus the Polish Home Army was not able to retain any control over Warsaw. By the end of the war Stalin finally allowed Allied powers to liberate Warsaw, but he delayed enough that the Soviets had de facto control, not the Polish government in exile.</p>
 
-<p><strong>Soviet alternative history</strong>. 
-- According to Soviet history books, the war started in 1941 not in 1939. There could be no mention of the Nazi-Soviet alliance against Poland. 
-- To the Soviets, Russians needed to be the main victims of the Great War, not the Jews. Thus the Holocaust could not become part of the official history of the war. </p>
+<p><strong>Soviet alternative history</strong>.
+- According to Soviet history books, the war started in 1941 not in 1939. There could be no mention of the Nazi-Soviet alliance against Poland.
+- To the Soviets, Russians needed to be the main victims of the Great War, not the Jews. Thus the Holocaust could not become part of the official history of the war.</p>
 
 <p><strong>Solomon Michoels and the Jewish Anti-Fascist Committee</strong> attempted to bring the plight of the Jews to the attention of the world. He petitioned Stalin to allow to publish the <a href="https://en.m.wikipedia.org/wiki/The_Black_Book_of_Soviet_Jewry">The Black Book of Soviet Jewry</a> written by Red Army reporters Ilya Ehrenburg and Vasily Grossman. But this initiative was blocked. Michoels political campaigning led him to be murdered by Stalin (officially a truck accident). A surprising group of high profile activists including violinist <a href="https://yivoencyclopedia.org/article.aspx/jewish_anti-fascist_committee">David Oistrakh</a>.</p>
 
 <p><strong>Death camps, not concentration camps</strong>. Snyder really drives home the point that concentration camps were just the tip of the iceberg. The vast majority of Jews killed in the Shoah had never seen one or been in one. Many hundreds of thousands were shot are gassed in death facilities. The emphasis on concentration camps probably comes from media coverage shortly after the war as well as personal accounts from survivors. Case in point, Hannah Arendt's work is mostly about Auschwitz.</p>
 
-<p><strong>Poles and Polish Jews</strong>. Polish Jews suffered the worst fate at the hands of the Germans. The worst parts of Poland were due to the Jews according to the Nazi stereotype. Polish Jews in the military were represented heavily, especially doctors, which was an affront to the Nazi world view. 90% of the Jews living in Poland were killed by the end of the war. Those that survived had no desire to return home, afraid of the displaced Poles that would resist if they they would try to retake their homes. Most fled via Germany to Israel or the United States. Before the war, 3 million Jews lived in Poland. By the end of it, and after the Polish communist anti-Semitism of the 60s, 30,000 remained. The non-Jewish Poles also suffered disproportionately compared to other non-Jewish ethnicities. Even so, a Jewish Pole was 15x more likely to die than their non-Jewish counterpart. </p>
+<p><strong>Poles and Polish Jews</strong>. Polish Jews suffered the worst fate at the hands of the Germans. The worst parts of Poland were due to the Jews according to the Nazi stereotype. Polish Jews in the military were represented heavily, especially doctors, which was an affront to the Nazi world view. 90% of the Jews living in Poland were killed by the end of the war. Those that survived had no desire to return home, afraid of the displaced Poles that would resist if they they would try to retake their homes. Most fled via Germany to Israel or the United States. Before the war, 3 million Jews lived in Poland. By the end of it, and after the Polish communist anti-Semitism of the 60s, 30,000 remained. The non-Jewish Poles also suffered disproportionately compared to other non-Jewish ethnicities. Even so, a Jewish Pole was 15x more likely to die than their non-Jewish counterpart.</p>
 
 <p><strong>Jewish resistance</strong>. A unified front of armed Jews came to be known as the Jewish Combat Organization. They sought to kill heads of the Judenrat and Jewish informants. Most of the action was in the Warsaw ghetto. By 1943 they had managed to kill some Nazis too, which led to a German vendetta against the Warsaw ghetto. When the Nazis came to destroy it they were met with sniper fire and Molotov cocktails. Called by some the “Jewish German War”, this resulted in the Nazis razing the Warsaw ghetto and turning it into a concentration camp.</p>
 
 <p><strong>Resettlement</strong>: When the Nazis "resettled" Jews, this was used as a euphemism for mass murder. Resettlement from the Warsaw ghetto involved "deportation" of 250,000 Jews to the Treblinka death camp. Post-war Stalin used the same term to actually resettle people en mass. These were also brutal endeavours, and thousands died in transit, many traveling in open train cars in the bitter cold. The Germans suffered greatly after the war, dehumanized as a nation for the atrocities of the Nazis. As the Red Army pressed west, soldiers raped German women, and killed the men or took them as laborers.</p>
 
-<p><strong>"Respecting" national boundaries</strong>. After the end of the war, Stalin implemented policies which segregated nations into their own national boundaries. In some cases, these boundaries were drawn up arbitrarily. Stalin effectively moved Poland westward, annexing eastern Poland into the soviet Ukraine at the expense of east German lands given to Poland. Germany would be for the Germans once more, just like Hitler envisioned but a much smaller territory. There was a large consensus throughout the word that each nation should be defined by its own nationality living within it. </p>
+<p><strong>"Respecting" national boundaries</strong>. After the end of the war, Stalin implemented policies which segregated nations into their own national boundaries. In some cases, these boundaries were drawn up arbitrarily. Stalin effectively moved Poland westward, annexing eastern Poland into the soviet Ukraine at the expense of east German lands given to Poland. Germany would be for the Germans once more, just like Hitler envisioned but a much smaller territory. There was a large consensus throughout the word that each nation should be defined by its own nationality living within it.</p>
 
-<p><strong>Who to surrender to?</strong> 
+<p><strong>Who to surrender to?</strong>
 - The Poles had to decide whether to surrender to the Wehrmacht or the Red Army in 1939, when they were attacked simultaneously by Germany from the west and Russia from the east. This was a tricky choice.
 - The Germans had to decide when they were attacked by the Russians from the east and by other allies from the west. This was a no brainer: flee westward as quickly as possible.
 - It's like an especially horrifying version of <a href="https://www.youtube.com/watch?v=wC10VWDTzmU">You Gotta Serve Somebody</a>.</p>
@@ -120,7 +294,7 @@
 
 <p><strong>Stalin and Israel in 1948</strong>. Moscow was initially very sympathetic to Israel, seeing it potentially as fertile soil for communism. There was elation in Moscow when Golda Meir, originally from Kyiv, visited during Rosh Hashanah 1948. However Stalin quickly changed his mind, finding that Jews had more influence on the Soviet state than the Soviet state did on Israel.</p>
 
-<p><strong>Systematic Stalinist Anti-semitism</strong>. Around 1949, Stalin began a concerted campaign against the Jews of Soviet Union. Many Jewish poets writing under Russian synonyms were arrested and killed as part of the <a href="https://en.wikipedia.org/wiki/Night_of_the_Murdered_Poets">Night of the Murdered Poets</a> (including Leib Kvitko), followed by the <a href="https://en.wikipedia.org/wiki/Doctors%27_plot">Doctor's Plot</a> which was diffused only by Stalin's death. Jews were now suspected of either being "Jewish Nationalists" or being "Rootless Cosmopolitans", with their names placed in parentheses in official lists. Increasingly Israel was seen as a client state of America, which led to fundamental aversion to the country. </p>
+<p><strong>Systematic Stalinist Anti-semitism</strong>. Around 1949, Stalin began a concerted campaign against the Jews of Soviet Union. Many Jewish poets writing under Russian synonyms were arrested and killed as part of the <a href="https://en.wikipedia.org/wiki/Night_of_the_Murdered_Poets">Night of the Murdered Poets</a> (including Leib Kvitko), followed by the <a href="https://en.wikipedia.org/wiki/Doctors%27_plot">Doctor's Plot</a> which was diffused only by Stalin's death. Jews were now suspected of either being "Jewish Nationalists" or being "Rootless Cosmopolitans", with their names placed in parentheses in official lists. Increasingly Israel was seen as a client state of America, which led to fundamental aversion to the country.</p>
 
 <p><strong>Molotov's wife</strong>. Molotov's wife Polina Zhemchuzhina was Jewish and accused of having Zionist ties for her support of the Jewish Anti-Fascists. A close friend of Stalin's wife Nadezhda (another murky story), she was arrested for treason in 1948, and forced into an unwanted divorce from Μolotov. She was convicted and sentenced to five years in a labor camp, released only after Stalin's death.</p>
 
@@ -130,7 +304,7 @@
 
 <ul>
 <li>Check out Vassiliy Grossman. In my mind, at least, he seems to be in the same category as Arendt: bearing witness. Novels that might be worthwhile: Life and Fate, and Everything Flows.</li>
-<li>Read more Анна Ахматова poems. </li>
+<li>Read more Анна Ахматова poems.</li>
 </ul>
 
 
@@ -153,19 +327,19 @@
       <div>
         <p>Many misses, for sure. But the hits I enjoyed were worthwhile:</p>
 
-<p><strong>Imperial message</strong>: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape. </p>
+<p><strong>Imperial message</strong>: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape.</p>
 
-<p><strong>Tower of Babel and The City Coat of Arms</strong>: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city. </p>
+<p><strong>Tower of Babel and The City Coat of Arms</strong>: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city.</p>
 
-<p>A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness. </p>
+<p>A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness.</p>
 
 <p><strong>Before the law</strong>: A man seeks entrance into The Law (I think the Torah version), but is prevented from entering by a guard because it is not time yet. The two exchange words and the man decides to wait until the time will come. He waits for many years, and the two have occasional conversations revealing that beyond this door lie more doors, with more guards. The man is undeterred and continues to wait. Near death, he gathers up the courage to ask his most pressing questions. After answering them, the guard announces he will be closing the door.</p>
 
-<p>This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free? </p>
+<p>This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free?</p>
 
 <p>A fascinating, self-referential, format. I see the man as a stand-in for K., and the priest as a stand-in for the guard. Where does the reader fit? What about the author? Reminds me a lot of Borges, and a little bit of Ted Chiang. (I’d love to do a group reading session around a story like this. I miss my Multiplayer Essay concept.)</p>
 
-<p><strong>Poseidon</strong>: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely. </p>
+<p><strong>Poseidon</strong>: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely.</p>
 
 
         
@@ -188,7 +362,7 @@
         <p>It's pretty funny but in a very high falutin’ way, which detracts from the
 comedy.</p>
 
-<p>Isn’t that conjecture just Laplace’s Demon? From WP: </p>
+<p>Isn’t that conjecture just Laplace’s Demon? From WP:</p>
 
 <blockquote>
   <p>Laplace's demon is a hypothetical all-knowing being who knows the precise location and momentum of every atom in the universe, and therefore could use Newton's laws to reveal the entire course of cosmic events, past and future. Based upon the philosophical proposition of causal determinism.</p>
@@ -197,7 +371,7 @@ comedy.</p>
 <p>Septimus &amp; Chater demanding satisfaction exchange is hilarious!</p>
 
 <p>Overall I’m struggling to follow the arc. Lots of wit but just very much a
-comedy of errors. I might try again when I'm in a more frivolous headspace. </p>
+comedy of errors. I might try again when I'm in a more frivolous headspace.</p>
 
 <p>A stray thought: I haven't tended to really enjoy plays much. Is this a lack of
 imagination on my part? Perhaps it takes more work to truly imagine each
@@ -828,6 +1002,64 @@ provides...</p>
   </entry>
   
   <entry>
+    <title>February Links</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2022/february-links/"/>
+    
+    <updated>2022-02-28T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2022/february-links/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><img src="/assets/generated/2022-02-28.jpg" alt="Generated image of Georg Cantor contemplating infinity" /></p>
+
+<ul>
+<li><a href="https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo">Against longtermism</a> (<em>Aeon</em>) — Torres argues that an over-focus on the long term is dangerous because it ignores shorter term existential threats, and encourages endless growth, which itself might be the cause of our problems. As a fan of long term thinking, I found this very provocative. What is the synthesis between pollyannaish beliefs in technology and degrowth?</li>
+<li><a href="https://jaygraber.medium.com/web3-is-self-certifying-9dad77fd8d81">Web3 is Self-Certifying</a> (<em>Jay Graber</em>) — Graber describes the concept of self-certifying data, which "enables trust to reside in the data itself, not in where you found it, allowing apps to move away from client-server architectures." Examples of protocols that enable this include git, BitTorrent, IPFS, and SSB.</li>
+<li><a href="https://thebaffler.com/salvos/whats-the-point-if-we-cant-have-fun">What’s the Point If We Can’t Have Fun?</a> (<em>David Graeber</em>) – In a rambling article, Graeber highlights Kropotkin's argument that species that cooperate most effectively tend to be the most competitive in the long run. Kropotkin argues that animal cooperation often has nothing to do with survival or reproduction, but is a form of pleasure in itself.</li>
+<li><a href="https://longnow.org/essays/richard-feynman-connection-machine/">Feynman and The Connection Machine</a> (<em>Long Now</em>) — A sometimes touching vignette of Richard Feynman, as seen by Danny Hillis, who founded Thinking Machines to build the world's fastest parallel supercomputers in the 1980s. Nobody really knew how to build computers back then, so the problem was left to amateurs like Hillis and Feynman.</li>
+<li><a href="https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/">The Internet Is Just Investment Banking Now</a> (<em>The Atlantic</em>) — Argues that Web3 is “the most honest turn of the internet epoch”: many things in our everyday life have become financialized, and while Web2 entrepreneurs have tried to hide that behind a facade of idealism, the new world of crypto at last makes the financialization explicit.</li>
+<li><a href="https://www.ft.com/content/a81c934c-cb31-11e9-af46-b09e8bfe60c0">Why Cisco’s ‘spin-ins’ never caught on</a> (<em>Financial Times</em>) — In the 90's, Cisco pioneered the model of 'spin-ins': a group of employees would leave Cisco and form a new company with well defined short-term goals, which if achieved, required Cisco to acquire the venture and possibly breed resentment from less entrepreneurial peers. On the other hand, the downside for the entrepreneurs was also quite high, since they would end up with nothing if no acquisition took place.</li>
+<li><a href="/notes/2022/february-links/#">Is Old Music Killing New Music?</a> (<em>Ted Gioia</em>) — Top 40 charts, Grammy Awards, and other incarnations of mainstream pop culture seem to be losing their cultural cache. Instead, songs most in demand are by musicians in their 70s and 80s, if not already dead.</li>
+<li><a href="https://www.newyorker.com/science/elements/can-you-warm-yourself-with-your-mind">Can You Warm Yourself with Your Mind?</a> (<em>New Yorker</em>) — Studies in Nature show that advanced practitioners of g-tummo meditation can raise their core temperature by 1-2°C, or their extremities by around 10°C. This is done by contracting abdominal and pelvic muscles and visualizing a flame rising from below the navel to the top of the head.</li>
+<li><a href="https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306">Why the Web Won't Be Nirvana (1995)</a> (<em>Newsweek</em>) — A cantankerous skeptic dumps on the future of the web, producing a litany of predictions which are wrong to various degrees. Revisiting pundits from the past is a useful exercise that reminds us just how difficult the future is to predict.</li>
+<li><a href="https://noahpinion.substack.com/p/a-moment-of-clarity">A Moment of Clarity</a> (<em>Noah Smith</em>) — In addition to astute observations on the eve of Russia's war on Ukraine, Smith describes a clear headedness on shared American values that surely must have been felt internally, even by adherents of "warmed-over Chomsky".</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>January Links</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2022/january-links/"/>
+    
+    <updated>2022-01-31T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2022/january-links/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><img src="/assets/generated/2022-01-31.jpg" alt="Generated image of a space shuttle in Leonardo Da Vinci's sketchbook" /></p>
+
+<ul>
+<li><a href="/notes/2022/january-links/">Buy Things, Not Experiences</a> (<em>Harold Lee</em>) – Common wisdom suggests that having a lot of stuff will not bring happiness, but advocates of this "new minimalism" often live in modern houses in expensive neighborhoods. In general, Lee argues that there is no real boundary between things and experiences, and in fact we may have erred too far and are now over-consuming experiences.</li>
+<li><a href="https://www.michellelim.org/writing/speaking-in-tales/">Speaking in Tales: conversing in Chinese means constantly alluding to folklore</a> (<em>Michelle Lim</em>) — Lim describes chéng yǔ, commonly used 4-character phrases in Chinese, which are allusions to classical Chinese folk tales. This introduces unique challenges to translations, which lose their evocative impact when you don’t know the story.</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Practical Doomsday by Michal Zalewski</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/practical-doomsday-by-michal-zalewski"/>
@@ -1237,7 +1469,7 @@ down on reading for pleasure, relieving pressure to capture every insight.</p>
 <li><a href="https://marginalrevolution.com/marginalrevolution/2011/03/the-fallacy-of-mood-affiliation.html">The fallacy of mood affiliation</a> (Marginal Revolution) - A form of motivated reasoning where you first choose a mood or attitude, then find confirming evidence that matches the mood.</li>
 <li><a href="https://www.edge.org/response-detail/27080">Concept: Bisociation</a> (Edge) - Arthur Koestler, who has transformed into a kind of totem for me over the last few years, coined this word bisociation, which integrates two (or more) apparently incompatible frames of thought. In humor, the canonical example is a pun. For Koestler, the ability to simultaneously view a situation through multiple frames of reference is the source of all creative breakthroughs.</li>
 <li><a href="https://www.systemsinnovation.io/post/edge-of-chaos-1">Edge of Chaos</a> (Systems Innovation) - Right between the two extremes, order and chaos, at a kind of abstract phase transition called the edge of chaos, you also find complexity: a class of behaviors in which the components of the system never quite lock into place, yet never dissolve into turbulence.</li>
-<li><a href="https://sandwalk.blogspot.com/2008/02/evolution-as-tinkering.html">Evolution as Tinkering</a> (Larry Moran)† — Argues that natural selection has no analogy with any aspect of human behavior, but the closest thing might be tinkering. Often without even knowing what she’s going to create, the tinkerer uses whatever she can find to make a workable object.</li>
+<li><a href="https://sandwalk.blogspot.com/2008/02/evolution-as-tinkering.html">Evolution as Tinkering</a> (Larry Moran) — Argues that natural selection has no analogy with any aspect of human behavior, but the closest thing might be tinkering. Often without even knowing what she’s going to create, the tinkerer uses whatever she can find to make a workable object.</li>
 <li><a href="https://www.lewissociety.org/innerring/">The Inner Ring</a> (C. S. Lewis) - Every organization has a legible hierarchy. A general is superior to a colonel, and a colonel to a captain. But the way things really work is via a series of concentric rings, a shadow organization that is illegible to the uninitiated. To a young person, just entering on adult life, the world seems full of “insides,” full of delightful intimacies and confidentialities, and he desires to enter them. But if he follows that desire he will reach no “inside” that is worth reaching. The true road lies in quite another direction: mastering a craft.</li>
 <li><a href="https://apenwarr.ca/log/20211201">100 years of whatever this will be</a> (apenwarr) - Decentralized, distributed systems aren't a panacea, and often need to be regulated. Furthermore, if no regulation is present, some other shadow hierarchy will emerge, and it may not be one that we like.</li>
 <li><a href="https://astralcodexten.substack.com/p/secrets-of-the-great-families">Secrets Of The Great Families</a> (Scott Alexander) - A fun overview of a few impressive families and their multitalented members. I learned about the Tagores and their amazing names, all of which end with "dranath". Seriously though, how do great families remain great without reversion to the mean? Three ways, at least: 1. having a lot of children, and 2. marrying people from other great families, 3. children of great people feel pressure to do something great.</li>
@@ -6115,222 +6347,6 @@ try to understand this especially unusual year.</p>
 <p>The mystery aspect of this book is intense, with the missed scene. Is there a patricide? Yes, but in a roundabout way. </p>
 
 <p>Clearly things are missing in this abridged edition. Reading more into the story, I was disappointed to find whole characters missing, and reading more into it, I think that Ivan comes off somewhat flat, and could have been portrayed in more idealistic detail. </p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Quicksilver by Neal Stephenson</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/quicksilver-by-neal-stephenson"/>
-    
-    <updated>2020-08-22T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/quicksilver-by-neal-stephenson</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>One of the better written Neal Stephenson books I’ve read so far. I found the first half especially engaging. Extremely varied, this book covers a lot of ground. </p>
-
-<ul>
-<li>History: Cromwell and the English Civil War, the Third Anglo-Dutch war. </li>
-<li>Famous scientists and the Royal Society: Newton, Boyle, Hooke, Leibniz, <em>Waterhouse</em>. </li>
-<li>Sailing and pirates: Edward Teach (Blackbeard) and <em>Otto van Hoek, captain of The Minerva</em></li>
-<li>Pandemics and end-times: 1666 as the year of the beast, as well as continuing waves of the Black Death in London.</li>
-<li>Money: bullion to paper &amp; centralized banking, and back.</li>
-<li>Jews: a lens crafter makes a cameo in a casually anti-semitic context. Spinoza is mentioned. Wilkins’ treatise on tolerance.</li>
-</ul>
-
-<p>I found this to be an excellent example of fiction doing what non-fiction can only dream of: in this case, imbuing dry history with a soul. Stephenson masterfully guides his reader through the gradual evolution of bullion and coinage to bills, and the regression that follows the Dutch war. A far more entertaining vignette of something dryly described in Debt.</p>
-
-<p>Waterhouse aboard the Minerva feels like a more fun version of Pirates of the Caribbean. Maybe I was especially into it since I’m sailing so much this year. Nice to see Stevenson using some antiquated sailing terms too. I learned that <em>larboard</em> is an antiquated term for port.</p>
-
-<p>Part of the fun of reading Quicksilver is that, unless you cheat or happen to know many personalities from the 17th century, it’s hard to know whether a character is real or fictional. Daniel Waterhouse was so vivid by the end of it, I wasn’t sure about his status until checking.</p>
-
-<p>The book feels a bit unfinished. For example, what happened to Enoch Root? Some passages are a bit rough, like the repetitive dialog with the Jew, who is continually called “The Ashkenazi”, “The Forelocked One”, “The Circumsized One”, etc. The last half felt a bit rushed, and the battle which Waterhouse solves with Trigonometry was a bit of a stretch!</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>ESUP Builders</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/esup-builders"/>
-    
-    <updated>2020-07-30T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/esup-builders</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Since May, I’ve been tinkering with brushless electrical motors, trying to make floating objects move more quickly. The proximate result is this electric motorized paddleboard:</p>
-
-<p><a href="https://photos.app.goo.gl/9BbHWMzhPdxekJZf7"><img src="/esup-builders/esup.gif" alt="Riding my DIY eSUP" /></a></p>
-
-<p>This project is by no means finished. Traveling at 5 mph is fun, but not nearly fast enough. As we speak, a motor ten times the power of this one is sitting in a shipping container, en route to my basement. While I wait, let me pause and reflect on the project so far.</p>
-
-<!--more-->
-
-<p>This summer I’ve been spending more time on the water. Sailing and stand-up paddling are great escapes from a sometimes monotonous routine. As a result, I’m slowly forgetting luxuries I once took for granted: work trips, visits to Vancouver, vacations to faraway lands.</p>
-
-<p>After my forced sailing hiatus, I needed to find another way to get out on the water. SUPing was great fun, but a bit repetitive, and frustrating in even light headwind. Driven by the need for speed, I found <a href="http://efoil.builders/">efoil.builders</a>. They are a community of crazy European kids building electric hydrofoils that scream above the surface of the water at breakneck speed.</p>
-
-<p>I’m no stranger to strange electric vehicles, but I certainly was when it came to high voltage and high current. When my Solowheel broke down last year and I was unable to fix it on my own, I donated it to an acquaintance who promptly replaced the battery and brought it into tip-top shape. It took him no time at all, but I had no idea where to begin.</p>
-
-<p>Happily, the last few months have presented many opportunities for electrical work around the house. I installed a ceiling fan in our bedroom and a window AC in my daughter’s. I wired up and installed new outlets in the basement. These are not glamorous achievements, just small victories that slightly reduced my fear of electricity.</p>
-
-<h1>Building for …</h1>
-
-<p>There is something very satisfying about creating physical objects with your own hands. In these strange times, I find this to be one of my most comforting escapes.</p>
-
-<p>If the resulting object is of value to you or others, so much the better. <a href="/toddler-music-box">Building for my daughter</a> takes the cake, especially when she appreciates the results. <a href="/little-free-library">Building for the community</a> is also gratifying and surprising. Sometimes you just build to learn. This time, I’m building for myself. And in this case, a big part of the challenge will be learning to ride the damn thing. I think I’m up for the challenge!</p>
-
-<p>Realizing that I’m dealing with a completely new domain, and my chance of failure is high, I decided to start small. The first milestone was to create some sort of vessel from a plastic IKEA bin (max 30A, 11V, 5000 RPM, 3cm prop). Having proved the concept, I moved on to something that would support my weight, and substantially larger components (60A, 22V, 1000 RPM, 15cm prop).</p>
-
-<p>Let me conclude with a parts list for both builds.</p>
-
-<h1>Tropfast components</h1>
-
-<p>As you can see, this is not a seaworthy vessel.</p>
-
-<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/tropfast.jpg" alt="HMS Tropfast, IKEA RC boat shelf" /></a></p>
-
-<p>Electronics:</p>
-
-<ul>
-<li>ESC: <a href="https://www.amazon.com/gp/product/B00PR8XT7G">Hobbywing Seaking 30A</a></li>
-<li>Motor: <a href="https://www.amazon.com/gp/product/B00PRAME7U">Hobbywing Seaking 4800KV-2040SL</a></li>
-<li>Battery: <a href="https://www.amazon.com/gp/product/B07TS2GVS3">POVWAY 5200mAh 3S</a></li>
-</ul>
-
-<p>Mechanics:</p>
-
-<ul>
-<li>Hull: IKEA <a href="https://www.ikea.com/us/en/p/trofast-storage-box-white-80089239/">TROFAST bin</a> with <a href="https://www.ikea.com/us/en/p/trofast-lid-white-57454500/">TROFAST lid</a></li>
-<li>Propeller: <a href="https://www.amazon.com/gp/product/B07Q32KHDW">uxcell D=36mm</a></li>
-<li>Motor mount: <a href="https://www.amazon.com/gp/product/B07NWKGTZT">L base for RC motors</a></li>
-<li>Rudder: <a href="https://www.amazon.com/gp/product/B0773D9L9X">Basic RC boat rudder with water-cooling intake</a></li>
-</ul>
-
-<h1>SUPSMUS v1 components</h1>
-
-<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/esup.jpg" alt="ESUP assembly" /></a>
-<a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/esup-drive.jpg" alt="ESUP drive closeup" /></a></p>
-
-<p>Electronics:</p>
-
-<ul>
-<li>ESC: <a href="https://flipsky.net/products/torque-esc-vesc-%C2%AE-bldc-electronic-speed-controller">Flipsky 50A VESC based on V4.12</a></li>
-<li>Motor: <a href="https://flipsky.net/products/f5085-140kv-brushless-motor-for-direct-drive-propeller">Flipsky 5085 outrunner motor</a></li>
-<li>Battery: <a href="https://www.amazon.com/Gens-ace-4000mAh-Battery-Goblin/dp/B0721BJT3J">Gens Ace 6S 4 mAh LiPo battery</a></li>
-</ul>
-
-<p>Mechanics:</p>
-
-<ul>
-<li>Hull: Foiling board with Tuttle box. Bought it from a guy on craigslist.</li>
-<li>Propeller: <a href="https://cad.onshape.com/documents/07ebbbfe9074e0b9b543ca4c/v/837c590e6d8c15772aa5432e/e/81de0414d9560e59eb06bc57">3D printed prop design</a></li>
-</ul>
-
-<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/3d-prop.png" alt="3D print of propeller" /></a></p>
-
-<ul>
-<li>Motor mount: <a href="/esup-builders/TODO">Naish 65cm mast</a> and <a href="https://cad.onshape.com/documents/9008f491eb3b37b138306395/w/151f8733bac1d09cb1fbce5b/e/dc088e9e03eb76f671d5bc26">3D printed mast clamp</a></li>
-</ul>
-
-<p><a href="https://photos.app.goo.gl/eUSU6HqHvKrR3dzi8"><img src="/esup-builders/3d-mast-clamp.png" alt="3D printed mast clamp" /></a></p>
-
-<h1>Shared components</h1>
-
-<p>As you can see, both vessels have a lot of component types in common. So much so that I simply reused some of the same parts in both projects:</p>
-
-<ul>
-<li>Remote: <a href="https://www.amazon.com/gp/product/B00VE3QC7C">Flysky FS-GT2E</a></li>
-<li>Charger: <a href="https://www.amazon.com/gp/product/B07QRQT3LC">Haisito 80W 6A Balance Charger</a></li>
-</ul>
-
-<p>I plan to write up a technical summary of what I learned in the process. Stay tuned.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Road by Cormac McCarthy</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-road-by-cormac-mccarthy"/>
-    
-    <updated>2020-07-20T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-road-by-cormac-mccarthy</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Somehow I am just now reading Cormac McCarthy for the first time. Thanks for the recommendation, M!</p>
-
-<p>Incredible descriptions. Long beautifully flowing sentences and great vocabulary. I find myself looking up new words every few pages, and it feels nice to be reading literature again. The style is interesting too, with uniquely applied passive dialogs that I found very distinct.</p>
-
-<p>Perhaps reading this serious dystopia at a particularly dystopian feeling time wasn’t the best call. Although short, it took me a while to finish, spacing my consumption apart, to avoid overdosing on doom and gloom.</p>
-
-<p>The apocalyptic scenario was well done and mysterious. What happened to humanity to cause such a scenario? Half way, it’s unclear if that will actually be revealed or not. By the end of the book, somehow it doesn’t matter. The world sucks you in. It is what it is, and humanity persists.</p>
-
-<p>Parts of this book reminded me of an interactive fiction, or a role playing game, especially the constant search for loot, rummaging through abandoned barns, copious amounts of useless, broken rakes.</p>
-
-<p>And yet so dark, so biblical.</p>
-
-<blockquote>
-  <p>do you think that your fathers are watching? That they weigh you in their ledger books? Against what? There is no book and your fathers are dead in the ground</p>
-</blockquote>
-
-<p>At the core of this book is the father son dynamic between the anonymous man and anonymous boy. It is deeply touching. Oh man, how incredibly sad that last scene is, even though you can see it coming for miles. I spent a good amount of time shedding tears, so surely this is a great work.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Red Plenty by Francis Spufford</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/red-plenty-by-francis-spufford"/>
-    
-    <updated>2020-06-19T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/red-plenty-by-francis-spufford</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Red Plenty is written as a series of vignettes that together do a remarkably good job of painting a picture of soviet life. It finds a comfortable spot between fiction and non-fiction. If someone ever asks me for a book on what life was like in the Soviet Union, I’d recommend this.</p>
-
-<p>For me personally, it tied together a lot of personalities and events I was previously familiar with, having been raised in a Russian family. But many aspects crystallized in a more objective, less personal way. It was nice to feel certain stories and personalities fall into place, and fascinating to hear about some of the same events and people in English.</p>
-
-<p>Spufford takes liberties for sure, often putting real people into semi-imagined situations. But this is done explicitly and honestly. He doesn’t quite tie everything together into a coherent arc. Instead, multiple sub-stories can be seen: Galich’s transformation from bon-vivant and darling of the state to a dissident, Khrushev’s rise from obscurity, and disillusioned retirement, a biologist’s battle with Lysenkoism, a mathematical economist’s attempt to reform central planning.</p>
-
-<p>The author’s conception of the whole project of communism is that it itself is a sort of fable, heavily inspired by  Russian fables. Stories about the self-setting tablecloth (скатерть самобранка), flying carpets (ковер самоет), beyond the 39th land (тридевять земелья). He could have included any number of such fables, and to be fair, this is true of any techno-utopian perspective.</p>
-
-<p>The format lends itself well to showing Russia from many lenses, letting the reader triangulate into the bigger picture. What is the role of connections in a world where money isn’t generally effective? Spufford shows how, to climb the ranks of an organization, one had to grovel and pander to communist ideologues despite deepest feelings. He shows cynicism, corruption, and violence that permeated life. He shows how stuck many people felt within it, especially women.</p>
-
-<p>Despite my familiarity with the general outlines of many pieces of this book, I learned some completely new stuff:</p>
-
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Novocherkassk_massacre">Расстрел в новочеркасске</a> — First I’ve heard of it.</li>
-<li><a href="https://en.wikipedia.org/wiki/Akademgorodok">Akademgorodok</a> - I have an acquaintance from there, and have heard of it before, but this is way more detail than I’d ever known.</li>
-</ul>
-
-<p>I’ve been listening to Галич lately…</p>
 
 
         
