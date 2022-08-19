@@ -2,31 +2,32 @@ AI note garden: Dreamer, note collider
 ===
 posted: August 19, 2022
 
-The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a handy toolkit for doing this. Sleep intelligently interconnects newly gleaned information with prior memories. [Matt Walker](https://www.goodreads.com/book/show/34466963-why-we-sleep) describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.
+The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories. [Matt Walker](https://www.goodreads.com/book/show/34466963-why-we-sleep) describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.
 
-In this experiment, I use GPT-3 to assist in this dream-like synthesis. My script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are nonsensical, surreal, and often funny.
+In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny.
 
 <!--more-->
 
 # How can an AI dreamer synthesize new connections?
 
-Let's take two random notes and see if the collective wisdom contained within the large language model can generate something interesting based on the text content of each. Picking two notes at random is easy enough, but the two need to be combined somehow to ultimately create a string of input for GPT-3.
+Let's take two random notes and see if the collective wisdom contained within a large language model can generate something interesting based on the text content of each. Picking two notes at random is easy enough, but the two need to be combined somehow to ultimately create a string of input for GPT-3.
 
 The simplest imaginable thing of concatenating the two random notes together and seeing what GPT-3 spits out is a non-starter for several reasons. Firstly, GPT-3 is constrained in its input length. Secondly, GPT-3 is pretty susceptible to the order in which these prompts are presented. Since it generates a string to continue the provided text, the closer a word is to the end of the input, the more weight it is effectively given.
 
 
 ## Multiple doses of GPT-3
+
 We have a note corpus, and [the power of summarization](/ai-note-garden-summarizer). Broadly speaking, each note consists of the following:
 
 - Name (`note.name`)
-- Body (`note.body`)
-- Shortened body (`shortbody`)
+- Note body (`note.body`)
+- First paragraph of the note body (`shortbody`)
 - Summary (`summary`)
 - Summarized summary (`sumsum`)
 
 The goal is to build a prompt string that encourages GPT-3 to synthesize something interesting related to both notes, ideally written in a writing style that mimics the originals.
 
-Here's the best I've come up with so far:
+Here's the best I've come up with so far (prompt engineers, please @-me):
 
  ```
  f'''{note1.name}: {shortbody1}
@@ -43,7 +44,8 @@ One parameter of these LLMs is called temperature, which is a proxy for how wild
 
 
 # Results from living with AI note collider
-Dreamer is now part of my [System for Thought](/file-systems-for-thought/) suite, running nightly alongside [other]() [AI gardeners](). It's been operational since the start of 2022.
+
+Dreamer is now part of my [System for Thought](/file-systems-for-thought/) suite, running nightly alongside [other]() [AI gardeners](). It's been operational since late 2021, so I have had about a hundred examples of its output to casually peruse.
 
 Just seeing two random notes from the garden can a good nudge to remove a note that was temporary, spark a new connection, or create a new note. Sometimes it's fascinating to revisit an old shower thought that I'd long forgotten about.
 
@@ -84,8 +86,6 @@ Dreamer's results are usually nonsensical, but sometimes surprisingly funny and 
 	</tr>
 </table>
 
-Notes:
-
 1. IKEA is Swedish not Norwegian. It was founded in 1943, so had no significant role to play in WWII. As far as I can tell, is not known as the "Freedom Store" in any way whatsoever. But I loved the visual of hiding people in a secret room in the ceiling.
 2. Good trajectory, first taking a bit from Carolingian miniscule, then advancing to Canadian politics. But then things take an unexpected turn for the worse. That escalated quickly!
 3. I liked that cooking was poetically described as a mix of UX and engineering that resulted in an "edible meal". Edible meals are my favorite kind. The "edible book" gave me pause, and made me question the AI's taste.
@@ -103,7 +103,7 @@ One March night, Dreamer attempted to combine my aspirational lifestyle notes on
 
 > One weekend when we’re all together in Idaho, we're going drive Nic’s Audi A4 FSi Quattro to Guernsey together and find avocados on an island called Herm. That’s southern France. It’s on the English Channel. Also where I started! Overall happy with the car and the weekend. Felt good to run an out of town car in the snow, and liked the road.
 
-Drivel? Let me count the ways:
+Drivel? Yes, let me count the ways:
 
 - You can't drive to an island.
 - The English Channel is not near southern France.
@@ -113,4 +113,4 @@ But this example is still illustrative because you can see how GPT-3 incorporate
 
 Finding a meaningful connection in the above example is pretty difficult, even for human intelligence. Is it really fair to blame an AI for failing at this task?
 
-Since [LLMs are a muse](#FLUX), perhaps this state of the art is good enough?
+It often takes an oneirocritic to extract insight out of a cryptic dream. Cormac McCarthy [writes eloquently](https://nautil.us/the-kekul-problem-6082/) about this subject. If we consider [LLMs as a muse](https://read.fluxcollective.org/p/64), perhaps this cryptic output is good enough?
