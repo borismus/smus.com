@@ -4,6 +4,20 @@ type: note
 class: split
 
 
+March Links
+===
+posted: March 31, 2022
+
+![Generated image of nuclear ice breaker as depicted by leonardo davinci in his sketchbook](/assets/generated/2022-03-31.jpg)
+
+- [Pacific Northwest's ‘forest gardens' were deliberately planted by Indigenous people](https://www.science.org/content/article/pacific-northwest-s-forest-gardens-were-deliberately-planted-indigenous-people) *(Science)* — It took a long time for researchers to recognize these forest gardens as a human-created landscape at all. A hopeful peek at how "humans have the ability to not just allow biodiversity to flourish, but to be a part of it". Perhaps the dichotomy of hunter-gatherers vs. farmers is overstated?
+- [Is Earth Smart](https://www.theatlantic.com/science/archive/2022/02/biosphere-planetary-intelligence-evolution/622867/) *(The Atlantic)* — Building on the notion of a biosphere (life), the noosphere (intelligent life) and technosphere (technological systems created by intelligent life) present major challenges to survival. Just like the immature biosphere did not really hit its stride until the Great Oxygenation Event, our immature technosphere is actively destructive until an equivalent transition, argue the authors.
+- [Anti-Anti-Semitism (2010)](https://www.tabletmag.com/sections/news/articles/anti-anti-semitism) *(Tablet Magazine)* — A bizarre foray into World Without Nazism, a Kremlin-flavored Anti-Defamation League for the post-Soviet realm. This is especially sinister given the [denazification propaganda](https://www.youtube.com/watch?v=J3ugaKoAuNs) used to justify Russia's invasion of Ukraine.
+- [Vaccine Emoji Comes to Life](https://blog.emojipedia.org/vaccine-emoji-comes-to-life/) *(Emojipedia)* — In response to increased discourse about vaccinations and COVID, the blood-filled syringe emoji (💉) was updated to remove the blood to make it more universal. This raises a bunch of different questions: why is there only a white wine glass emoji, only a red one (🍷)? Famously, Apple changed its pistol emoji into a toy water gun (🔫) in 2016, causing widespread upset. When is it OK to repurpose existing emoji, and when is it not?
+- [Amazon Shareholder's Letter (2005)](https://s2.q4cdn.com/299287126/files/doc_financials/annual/shareholderletter2005.pdf) (*Jeff Bezos*) — Bezos explores the limits of math and data, conceding that many important decisions cannot be made in a math-based way, lamenting "math-based decisions command wide agreement, whereas judgment-based decisions are rightly debated and often controversial, at least until put into practice and demonstrated". Alas, Complexity!
+- [How Zelensky Gave the World a Jewish Hero](https://www.theatlantic.com/international/archive/2022/02/zelensky-ukraine-president-jewish-hero/622945/) (*The Atlantic*) — In addition to a quick recap of Zelenskyy's unlikely path from Russian comedian to Ukranian president, and an aside into the sorry state of [Jewish intolerance in Europe](https://www.pewresearch.org/fact-tank/2018/03/28/most-poles-accept-jews-as-fellow-citizens-and-neighbors-but-a-minority-do-not/ft_18-03-26_polandholocaustlaws_map), I was heartened to learn that the Jewish community in Ukraine is recovering, for example the newly built [Menorah center in Dnipro](https://en.wikipedia.org/wiki/Menorah_center,_Dnipro) reportedly serving 40,000 people a day.
+- [Еврейство президента Зеленского как символ](https://detaly.co.il/evrejstvo-prezidenta-zelenskogo-kak-simvol/) (*Detali Israel*) — A look into the outsized impact of Ukraine on Jewry, including atrocities like Bogdan Khmelnytsky's attempt to eradicate Ukranian Jews, and the Holocaust massacre at Babyn Yar. At the same time, Ukraine has a long history of relative tolerance to Jews, and was the birthplace of many greats: politicians like David Ben-Gurion, Ze'ev Jabotinsky, writers like Isaac Babel, Sholom Alechem, Chaim Bialik. Many American greats descend directly from Ukranian Jews: Leonard Bernstein, Bob Dylan, Noam Chomsky, Steven Spielberg, Mel Brooks, Jon Stewart.
+
 February Links
 ===
 posted: February 28, 2022
