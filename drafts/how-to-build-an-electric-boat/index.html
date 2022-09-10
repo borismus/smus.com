@@ -90,11 +90,11 @@
 
 <p><strong>VESC is highly configurable</strong>: Many of the more advanced speed controllers are built on top of an open source platform called VESC. This is an extremely cool piece of technology which is used across a wide variety of personal EV projects. Fundamentally, it enables very granular software control over the ESC’s behavior. For example, I was able to set current limits, and then increase them when I felt things were going well, all in real time. VESC has a large user base and the software ecosystem is strong, including an open source cross platform UI to configure things. Just plug the VESC into a laptop using a USB cable and you’re off to the races.</p>
 
-<p><strong>VESC gives real-time data logging during trials</strong>: I bought a <a href="/drafts/how-to-build-an-electric-boat//drafts/how-to-build-an-electric-boat/TODO">cheap little Bluetooth module</a> for my VESC which lets me pair with the device with an Android phone (no iOS yet) during a water trial. This was super handy, as I could get real-time diagnostics during the trial, including motor and battery current and how quickly the motor was spinning. Most importantly, you can log real-time data to a CSV file for later analysis, which is built into the desktop VESC Tool.</p>
+<p><strong>VESC gives real-time data logging during trials</strong>: I bought a <a href="/drafts/how-to-build-an-electric-boat/TODO">cheap little Bluetooth module</a> for my VESC which lets me pair with the device with an Android phone (no iOS yet) during a water trial. This was super handy, as I could get real-time diagnostics during the trial, including motor and battery current and how quickly the motor was spinning. Most importantly, you can log real-time data to a CSV file for later analysis, which is built into the desktop VESC Tool.</p>
 
 <p><strong>ERPM vs RPM</strong>: One of the main things I wanted to know from the water trials was how quickly the propeller was spinning under load (in the water, and pushing my body weight). However the VESC only outputs the “electrical RPM” (ERPM), which is defined as <code>ERPM = RPM * Number of coils in motor</code>. This is a bit tricky, given the fact that it was hard to know what the number of coils was without taking it apart. One way to divine it is to spin the unplugged motor and try to count the number of times in a full rotation where the motor clicks into some groove. Each of these “notches” corresponds to a permanent magnet crossing. By dividing said number by 3, you get the number of coils because of the way the motor is set up. I found this to be tricky, so took an empirical approach. Marking the rotor with a marker, I set the ERPM to 5000 and counted the actual RPM using my smartphones slow motion mode. Based on the fact that I counted 720 RPM, the number of coils must be 7.</p>
 
-<p>/drafts/how-to-build-an-electric-boat//drafts/how-to-build-an-electric-boat/TODO: include slow mo video</p>
+<p>/drafts/how-to-build-an-electric-boat/TODO: include slow mo video</p>
 
 <h2>Batteries</h2>
 
@@ -114,9 +114,9 @@
 
 <h2>Propellers and propulsion</h2>
 
-<p><strong>Propeller basics</strong>: MIT offers an entire class about propellers called Hydrofoils and Propellers, 13.04, and features a <a href="/drafts/how-to-build-an-electric-boat//drafts/how-to-build-an-electric-boat/TODO">handy pamphlet</a> introducing propeller terms and concepts. A propeller displaces water, but also generates lift because each blade is shaped like a foil. The pamphlet linked above also provides nice cross-sections of a sample propeller, which gave me enough information to emulate it is Onshape. Here’s the resulting design:</p>
+<p><strong>Propeller basics</strong>: MIT offers an entire class about propellers called Hydrofoils and Propellers, 13.04, and features a <a href="/drafts/how-to-build-an-electric-boat/TODO">handy pamphlet</a> introducing propeller terms and concepts. A propeller displaces water, but also generates lift because each blade is shaped like a foil. The pamphlet linked above also provides nice cross-sections of a sample propeller, which gave me enough information to emulate it is Onshape. Here’s the resulting design:</p>
 
-<p>/drafts/how-to-build-an-electric-boat//drafts/how-to-build-an-electric-boat/TODO: prop pic and link to onshape</p>
+<p>/drafts/how-to-build-an-electric-boat/TODO: prop pic and link to onshape</p>
 
 <p>The main ways to measure a propeller is diameter and pitch, which is the distance the propeller would move (linearly, perpendicular to its axis of rotation) if it were a helical screw traveling through a soft solid.</p>
 
@@ -149,7 +149,7 @@ particular case, I use one in conjunction with a kill switch. They aren't that s
 
 <p><strong>Masts and clamps</strong>: A common pattern in the efoil.builders community is to 3D print a clamp that attaches to a foiling mast, so that the motor is just above the fuselage of the plane. Here’s my attempt at it. Works pretty well:</p>
 
-<p>/drafts/how-to-build-an-electric-boat//drafts/how-to-build-an-electric-boat/TODO: mast clamp image etc.</p>
+<p>/drafts/how-to-build-an-electric-boat/TODO: mast clamp image etc.</p>
 
     </div>
   </article>
