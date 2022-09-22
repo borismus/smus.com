@@ -4,6 +4,72 @@ class: split
 type: book
 
 
+Wild Problems by Russ Roberts
+===
+rating: yes
+posted: Sep 22, 2022
+cover: /assets/book-covers/wild-problems.jpg
+
+Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see [[Kind and wicked problems]]), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise. 
+
+Much of the book is spent on dismantling Subjective Expected Utility (SEU), and reifying Herb Simon's [[Bounded rationality]] observations. Examples familiar to me included Darwin’s famous marry/don’t marry note and Franklins “moral algebra” where pros and cons for making a tough decision are weighed against one another and crossed out until one column is longer than the other and you have an answer. Of course, this sort of moral algebra doesn't work. Firstly, it's very hard to quantify things that matter to us. Secondly, [[Values are incommensurable]].
+
+**Persi Diaconis** was agonizing about a decision whether or not to move to Harvard from Stanford. He had bored his friends silly with endless discussion. Finally, one of them said, “You’re one of our leading decision theorists. Maybe you should make a list of the costs and benefits and try to roughly calculate your expected utility.” Without thinking, Persi blurted out, “Come on, Sandy, this is serious.”
+
+**The Vampire Problem** I really enjoyed a new-to-me thought experiment Roberts introduces, attributing L. A. Paul, of a man deciding whether to become a vampire. A human cannot imagine what it would be like to be a vampire because they have never been a vampire. In the same way, a woman cannot imagine what it would be like to become a mother until she has become one. Becoming a mother will fundamentally change you, your priorities, your tastes. Becoming a vampire too, will make you much more interested in drinking other people's blood and avoiding the sun. Such transformations involve a leap of faith. Whether to take it is not a decision that can be made using a decision matrix or rational deliberation.
+
+So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life. 
+
+**Flourishing over pleasure** The problem with Benjamin Franklin's moral algebra is that values are incommensurable with one another. Furthermore, comparing things from the realm of economics (eg. money, things) with values, ideals, and principles is impossible. They are in distinct categories:
+
+1. Things pertaining to **flourishing**, which tend to provide a backdrop for life spanning a long term. They form your identity.
+2. Short term **pleasures and pains**: a nice meal, a flat tire. These are fleeting and have no long term bearing on life. 
+
+**Prioritize your principles**. From this flourishing perspective, becoming a vampire is a bad idea. Your core values will not be satisfied even though the vampire you will become will get a lot of Hedons from drinking all that delicious human blood. 🧛
+
+Roberts even combines this with [[Two types of fun, type 1 and type 2]]. You flourish from Type 2 fun, even though it may be less pleasurable in the moment.
+
+**Aside: picking a religion**: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds: 
+- Of the **Muslim** Bulgarians of the Volga the envoys reported there is no gladness among them, only sorrow and a great stench. He also reported that Islam was undesirable due to its taboo against alcoholic beverages and pork. Vladimir remarked on the occasion: "Drinking is the joy of all Rus'. We cannot exist without that pleasure."
+- Ukrainian and Russian sources also describe Vladimir consulting with **Jewish** envoys and questioning them about their religion, but ultimately rejecting it as well, saying that their loss of Jerusalem was evidence that they had been abandoned by God.
+
+**The Penelope problem**. The secretary problem is cleverly reframed as the “Penelope problem” from the perspective of Odysseus' wife who is besieged by 108 suitors. A very PC move, Roberts. Well played! Also, it's a good reminder that the correct percentage of houses to view first is 1/e or about 38% to establish a baseline to compare the rest against.
+
+“The happy hypocrite” story is ridiculous. 
+
+Three kinds of people:
+
+1. No conscience. You get a kick from hedonism. 
+2. Conscience and you get a kick from doing the right thing
+3. No conscience. But aspiring to find one. 
+
+
+# Things I liked less
+It's unclear why Roberts adopts the new terminology "wild" versus "tame" problems? It seems neatly analogous to the preexisting terminology I first saw in [The Gardener and The Carpenter by Alison Gopnik](/books/gardener-carpenter-by-alison-gopnik/) and [Range - Why Generalists Triumph in a Specialized World by David Epstein](/books/range-by-david-epstein-audio/): [[Kind and wicked problems]].
+
+Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes. 
+
+In general, and I'm not sure this is avoidable, Roberts soapboxes a lot, imploring the reader to stick to his principles, fully trumping any utilitarian considerations. Ones values should always stand above the domain of economic utility. No amount of money should be enough to sway this. Reality is clearly more complex than this, and ultimately the difficult questions remain difficult.
+
+Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart: 
+
+    Beware the urge for certainty. 
+    The mortal lock. 
+    The sure thing.
+    The lure of the bird in the hand.
+
+    Maybe once or twice, put all your eggs in one basket. 
+    Take a chance 
+    On romance. Ask her out. Or him.
+    Embrace doubt.
+    Go on a limb.
+
+
+Pointers for later:
+
+- The Agency of Becoming by Agnes Callard
+
+
 Forever Flowing by Vasily Grossman
 ===
 rating: yes
