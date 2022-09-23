@@ -5,8 +5,91 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2022-09-14T20:40:43-00:00</updated>
+  <updated>2022-09-22T21:43:22-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Wild Problems by Russ Roberts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/wild-problems-by-russ-roberts"/>
+    
+    <updated>2022-09-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/wild-problems-by-russ-roberts</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise. </p>
+
+<p>Much of the book is spent on dismantling Subjective Expected Utility (SEU), and reifying Herb Simon's <a class="wiki" href="https://z3.ca/Bounded_rationality">Bounded rationality</a> observations. Examples familiar to me included Darwin’s famous marry/don’t marry note and Franklins “moral algebra” where pros and cons for making a tough decision are weighed against one another and crossed out until one column is longer than the other and you have an answer. Of course, this sort of moral algebra doesn't work. Firstly, it's very hard to quantify things that matter to us. Secondly, <a class="wiki" href="https://z3.ca/Values_are_incommensurable">Values are incommensurable</a>.</p>
+
+<p><strong>Persi Diaconis</strong> was agonizing about a decision whether or not to move to Harvard from Stanford. He had bored his friends silly with endless discussion. Finally, one of them said, “You’re one of our leading decision theorists. Maybe you should make a list of the costs and benefits and try to roughly calculate your expected utility.” Without thinking, Persi blurted out, “Come on, Sandy, this is serious.”</p>
+
+<p><strong>The Vampire Problem</strong> I really enjoyed a new-to-me thought experiment Roberts introduces, attributing L. A. Paul, of a man deciding whether to become a vampire. A human cannot imagine what it would be like to be a vampire because they have never been a vampire. In the same way, a woman cannot imagine what it would be like to become a mother until she has become one. Becoming a mother will fundamentally change you, your priorities, your tastes. Becoming a vampire too, will make you much more interested in drinking other people's blood and avoiding the sun. Such transformations involve a leap of faith. Whether to take it is not a decision that can be made using a decision matrix or rational deliberation.</p>
+
+<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life. </p>
+
+<p><strong>Flourishing over pleasure</strong> The problem with Benjamin Franklin's moral algebra is that values are incommensurable with one another. Furthermore, comparing things from the realm of economics (eg. money, things) with values, ideals, and principles is impossible. They are in distinct categories:</p>
+
+<ol>
+<li>Things pertaining to <strong>flourishing</strong>, which tend to provide a backdrop for life spanning a long term. They form your identity.</li>
+<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life. </li>
+</ol>
+
+<p><strong>Prioritize your principles</strong>. From this flourishing perspective, becoming a vampire is a bad idea. Your core values will not be satisfied even though the vampire you will become will get a lot of Hedons from drinking all that delicious human blood. 🧛</p>
+
+<p>Roberts even combines this with <a class="wiki" href="https://z3.ca/Two_types_of_fun,_type_1_and_type_2">Two types of fun, type 1 and type 2</a>. You flourish from Type 2 fun, even though it may be less pleasurable in the moment.</p>
+
+<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds: 
+- Of the <strong>Muslim</strong> Bulgarians of the Volga the envoys reported there is no gladness among them, only sorrow and a great stench. He also reported that Islam was undesirable due to its taboo against alcoholic beverages and pork. Vladimir remarked on the occasion: "Drinking is the joy of all Rus'. We cannot exist without that pleasure."
+- Ukrainian and Russian sources also describe Vladimir consulting with <strong>Jewish</strong> envoys and questioning them about their religion, but ultimately rejecting it as well, saying that their loss of Jerusalem was evidence that they had been abandoned by God.</p>
+
+<p><strong>The Penelope problem</strong>. The secretary problem is cleverly reframed as the “Penelope problem” from the perspective of Odysseus' wife who is besieged by 108 suitors. A very PC move, Roberts. Well played! Also, it's a good reminder that the correct percentage of houses to view first is 1/e or about 38% to establish a baseline to compare the rest against.</p>
+
+<p>“The happy hypocrite” story is ridiculous. </p>
+
+<p>Three kinds of people:</p>
+
+<ol>
+<li>No conscience. You get a kick from hedonism. </li>
+<li>Conscience and you get a kick from doing the right thing</li>
+<li>No conscience. But aspiring to find one. </li>
+</ol>
+
+<h1>Things I liked less</h1>
+
+<p>It's unclear why Roberts adopts the new terminology "wild" versus "tame" problems? It seems neatly analogous to the preexisting terminology I first saw in <a href="/books/gardener-carpenter-by-alison-gopnik/">The Gardener and The Carpenter by Alison Gopnik</a> and <a href="/books/range-by-david-epstein-audio/">Range - Why Generalists Triumph in a Specialized World by David Epstein</a>: <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>.</p>
+
+<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes. </p>
+
+<p>In general, and I'm not sure this is avoidable, Roberts soapboxes a lot, imploring the reader to stick to his principles, fully trumping any utilitarian considerations. Ones values should always stand above the domain of economic utility. No amount of money should be enough to sway this. Reality is clearly more complex than this, and ultimately the difficult questions remain difficult.</p>
+
+<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart: </p>
+
+<pre><code>Beware the urge for certainty. 
+The mortal lock. 
+The sure thing.
+The lure of the bird in the hand.
+
+Maybe once or twice, put all your eggs in one basket. 
+Take a chance 
+On romance. Ask her out. Or him.
+Embrace doubt.
+Go on a limb.
+</code></pre>
+
+<p>Pointers for later:</p>
+
+<ul>
+<li>The Agency of Becoming by Agnes Callard</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Forever Flowing by Vasily Grossman</title>
@@ -5626,162 +5709,6 @@ Due to the harsh conditions of the region, engineers really needed to build soli
 <li>Read something by Omar Khayyam. Maybe “The Rubaiyat”?</li>
 <li>The first poem in Lalla-Rookh (1817) by Thomas Moore is “The Veiled Prophet of Khorassan”.</li>
 </ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Debt: The First 5000 Years</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/debt-the-first-5000-years"/>
-    
-    <updated>2020-03-06T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/debt-the-first-5000-years</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>“Debt” has been on my reading list for a long time. I once attempted the hard copy, but abandoned it quickly. It was mentioned again on a podcast by Saul Griffith, just as I was starting to get interested in the role of financing advances in innovation and progress. So I decided to give it another shot. This is the second edition of the book, updated after the financial crisis and after the 99% protest movement, which the author helped organize.</p>
-
-<p>My overall feeling is that I learned a lot. The author, Graeber, is an anthropologist, and clearly erudite in a lot of adjacent fields as well. On the flip side, especially toward the end, the author’s personal beliefs became too prominent, at times transforming informative book into angry screed. Understandably, this detracted from the credibility of the book.</p>
-
-<h1>Moral confusion around debt</h1>
-
-<p>Graeber starts many chapters of the book with awesome quotes. Here’s one: </p>
-
-<blockquote>
-  <p>If you owe the bank one hundred thousand, the bank owns you. If you owe the bank one hundred million, you own the bank.</p>
-</blockquote>
-
-<p>Graeber describes how small-scale societies were based on mutual obligation, but as they grew and matured, debt became identified with money, became more transferrable from one person to another organization, to a yet larger one. Every step in that chain becomes less personal and more cruel. This may be the case, but it remains unclear to me that we can do better given the scale of our current societies.</p>
-
-<p>Interestingly, many monetary systems are based on a small group of creditors giving out a large loan to the government that is then never repaid. This is true of Britain today, where the system nominally rests on a 1 million pound loan given by a few wealthy merchants many centuries ago. </p>
-
-<h1>Myth of barter</h1>
-
-<blockquote>
-  <p>For every complex problem there is an answer that is clear, simple, and wrong. – H. L. Mencken</p>
-</blockquote>
-
-<p>In the afterword, Graeber reflects on the book and suggests that this chapter was his strongest. I agree: it is least rambling, most concrete and informative.</p>
-
-<p>Barter is often imagined as a prehistoric mode of exchange by economists, as a precursor to money. A point out that a society that employed barter would require a two sided marketplace for each transaction (eg. I want shoes but have pencils, so need to find a shoe vendor that wants pencils specifically). The way out is to create a multilateral deal, or invent a medium of exchange (money). </p>
-
-<p>Except there are no known societies that employ barter internally. This is where Graeber’s anthropology background really comes in handily. Barter tends to be used between strangers, and typically as a single turn game, not a repeated one. </p>
-
-<p>In fact, the system that predates bullion wasn’t barter, but one of lending and ledgers. This was the dominant system in Egypt and Mesopotamia. Coins came later and were relatively unimportant for a long time.</p>
-
-<h1>Wizard of oz</h1>
-
-<p>Apparently there is an economics reading of the Wizard of Oz: </p>
-
-<p>The Wicked Witches of the East and West are the coastal banking elites. The scarecrow is the prototypical farmer that gets screwed over but doesn't have the brains to address the underlying issue. The tin man is the proletarian worker who doesn't have the heart to side with the farmer. The lion is the political elite that doesn't have the courage to step out of rank. And they all march to the White House. The Emerald City is full of greenbacks, and many other gems refer to the proposed silver standard. All of it is a parable for William Jennings Brian's attempt at presidency and the first marches on the White House.</p>
-
-<p><a href="https://en.wikipedia.org/wiki/Political_interpretations_of_The_Wonderful_Wizard_of_Oz">Turns out</a> this isn’t Graeber’s invention.</p>
-
-<h1>Primordial debt</h1>
-
-<p>Graeber explores the link between monetary debt and its predecessor, spiritual debt. Linguistically, the two concepts are deeply intertwined, most strikingly, German “gelt” and English “guilt” share a root (many other examples in book).</p>
-
-<p>In a sense, you owe your existence to your parents, to society, and ultimately to God. But this is a debt you can never fully repay, although you must try anyway. Would you want to be square with your parents? If even possible, That implies you want nothing to do with them. Graeber’s take is that our relationship with cosmos is ultimately nothing like a commercial transaction. </p>
-
-<p>Here, we tend towards a more philosophical exploration. I enjoyed it:</p>
-
-<blockquote>
-  <p>You are free from your debt to your ancestors when you become an ancestor; you are free from your debt to the sages when you become a sage, you are free from your debt to humanity when you act with humanity.</p>
-</blockquote>
-
-<h1>Morality and economics</h1>
-
-<p>Communism as defined by “for each according to their needs, from each according to ability” is often practiced in smaller units, most notably the family, but not successfully in large scale societies.</p>
-
-<p>Giving gifts to low status folks is fraught. You risk putting them down because there’s no way for them to pay you back. Conversely, giving gifts to superiors is fraught too. What can you really give to a king? It often leads to an expectation of such gifts and ultimately a tradition of tribute. Even to peers, gift giving can often be competitive. A fancy meal is met with a fancier meal.</p>
-
-<p>At the same time, being slightly indebted to peers is a great way to build social cohesion. It feels like in western society many don't often feel indebted to other individuals, only to institutions. </p>
-
-<h1>History of honor</h1>
-
-<p>I struggled a bit with this chapter. Graeber drives at this idea that commerce is inherently based on violence, and is deeply rooted in slavery. This is where Graeber’s personal opinions start muddying the waters and the going gets tough for the first time. But he recovers and there’s more meat to be had.</p>
-
-<h1>Money vs debt</h1>
-
-<p>Currency and more traditional debt and credit system arrangements came in and out of fashion over time. Money correlated to periods of war, because it was a time of mass mobilization, and having currency made it easier to pay soldiers. Credit systems flourished during periods of peace because they relied on trust networks to operate.</p>
-
-<p>Many forms of currency existed before bullion (gold and silver). Cowrie shells were commonly used as money in China and other societies. Coins were first invented in Anatolia around 600 BCE by private citizens. Almost immediately they were adopted by the state. Same pattern repeats in other civilizations.</p>
-
-<p>Coins and silver bars were mostly controlled by the rich, mostly stored in temples for religious purposes. But during times of conquest they were broken up and split up among warriors. Alexander the Great’s forces numbered 120,000 and had a daily wage of half a ton of silver! When he conquered, he coined new money from Assyrian reserves to pay his army. </p>
-
-<p>In India, Ashoka began his rule by conquering a neighbor, one of the last independent Indian states. He won the war but at a huge cost of hundreds of thousands of deaths, and vowed never to fight again. Coinage began to dwindle and was replaced by system of credits. </p>
-
-<p>Origins of interest are unknown but it was already happening by 2500 BCE in Mesopotamia! In the ancient world, a jubilee ritual of “breaking the tablets”, annulling all debts was done on a semi-regular basis. Jubilee was also demanded by peasant uprisings and granted by kings to mollify the people. </p>
-
-<h1>Axial age</h1>
-
-<p>(Interestingly, I am attempting to tackle a series of lectures on this topic. Haven’t made much progress yet, but this angle was specifically financial.)</p>
-
-<p>Coined by Karl Jaspers, the Axial Age is a period around 800 BCE to 200 BCE marking a sudden beginning of reasoned inquiry. A wide range of positions in philosophy suddenly bloomed simultaneously in many places. Consider the lifespans of a few but diverse philosophers:</p>
-
-<ul>
-<li>Pythagoras - 570-495 BC</li>
-<li>Buddha - 563-483 BCE </li>
-<li>Confucius - 551-479 BCE</li>
-</ul>
-
-<p>Graeber extends his timespan to 600 CE, also including the “spiritual age” when Jesus and Mohamed and the Rabbinical tradition came into being. These were times of war, and transactions needed to be anonymous. Luckily, cash enabled this, and radically simplified all of the complex dynamics of trust-based systems. This led to the cold, hard, rational calculations and a profusion of new concepts: profit and loss.</p>
-
-<p>Interestingly, with the advent of both impersonal greed and philosophical thought, religious spheres emerged, promulgating the idea that giving is better than taking, common to all religions of the axial age including Buddhism, Christianity, Islam. This is when the concept of Charity first enters the picture.</p>
-
-<h1>Middle Ages</h1>
-
-<p>The Middle Ages have a bad rap, but this is in large part because of the way that they are often presented in stark opposition to the renaissance, oftentimes by people living in the renaissance. The terms themselves are illuminating: a dark age turned into an era of rebirth!</p>
-
-<p>True, cities like London and Paris which blossomed during the renaissance, were just remote outposts of the Roman Empire. When the empire fell, these cities returned to their prior obscurity. And even in these frontier towns, records were continued to be kept in Roman currencies. Meanwhile Rome and Constantinople flourished. </p>
-
-<p>Around the same time in India, Buddhism was flourishing and monasteries were funded by permanent trusts where the principal was lent out at a steep (15%) yearly interest rate. This was super surprising to me, since I’ve associated trusts like these with modernity.</p>
-
-<p>In China, paper money emerged out of convenience in the 10th century. Rather than carrying strings of coins, which incidentally is why coins had a hole in the middle — to thread a string through for ease of carry, merchants traveling long distances preferred to carry less so developed a system of stamped paper notes. These were initially rejected by Chinese authorities, but being unable to control the practice adequately, they ultimately created a bureau to regulate the practice. A common pattern for China. </p>
-
-<h2>The Arab world</h2>
-
-<p>Graeber considers the Arab world at this time as basically western, an intellectual successor to the Greeks and Romans. Just like Middle Eastern Europe (then in shambles), the Arab world was attempting to synthesize the greek tradition with the prophets of Judaism, Christianity and Islam. In stark contrast, the East was completely different. Super interesting 10,000 foot view.</p>
-
-<p>Islam was super progressive for its time, addressing many of the injustices of the Axial Age. This included prohibitions against kidnapping into slavery, and also the hard stance against usury. But despite that, Islam had no issue with commerce in general, Mohamed himself at one point working as a merchant. Early Muslim states flourished economically and had banks that charged fees rather than compounding interest due to usury prohibitions. As a result, banking on its own wasn't a lucrative enough profession so many rich merchants doubled as banks for lesser brethren. Much of the economy was based on trust, and there was a real aversion to government interference in market mechanisms.</p>
-
-<p>Apparently Adam Smith actually cites a lot of Persian economists. Smith’s pin factory is just a re-hashing of Al-Ghazali, who used the example of a needle factory to illustrate the same point. The pin doesn’t have a single maker, but twenty-five persons involved; these are all collaborating in the absence of a central planner. Adam Smith changed Al-Ghazali’s view that markets work because people like to co-operate to the view that market participants are only interested in selfish gain.  (Just how much of Smith was borrowed from Al-Ghazali and Al-Tusi is unclear from Graeber’s account, and he doesn’t make explicit claims here, but this is definitely one of those “this is why we can’t have nice things” with finger pointed at Americans.)</p>
-
-<p>Meanwhile in Christendom, things were quite different. Markets came quite late and merchants as a profession were shunned by the church. All of Europe was a checkerboard of baronies and church holdings, with constant conflict reshaping the borders.</p>
-
-<h1>The great capitalist empires</h1>
-
-<p>After a long shift away from bullion, the age of exploration coincided with a reversion to money     Partly due to the influx of gold and silver from the new world. </p>
-
-<p>During the enlightenment, an interesting trend: the dominance of bullion as a logical continuation of conservation laws coming from physics. “Newtonian economics” suggests that money cannot be created or destroyed, and that it needs an intrinsic anchor for its value. This wasn't really a consideration until the renaissance. </p>
-
-<p>Locke himself advocated for this Gold Standard, which led to financial troubles. Hobbes meanwhile promulgated the natural selfishness of people and necessity for social contacts. </p>
-
-<p>From this point onward, Graeber’s writing really becomes unbearable. His bias is too apparent.</p>
-
-<blockquote>
-  <p>It is the secret scandal of capitalism that at no point was it organized primarily around free labor. The conquest of the Americas began with mass enslavement then gradually settled into debt peonage, African slavery and indentured service.</p>
-</blockquote>
-
-<p>He does concede that the world is better today, but at a cost, making asinine comparisons between slavery and modern wage labor.</p>
-
-<blockquote>
-  <p>There is no doubt that progress has produced an unprecedented improvement on the lives of billions over the last 250 years. But it's also unclear to me whether all of these improvements can be tied to capitalism.</p>
-</blockquote>
-
-<h1>The beginning of something to be determined…</h1>
-
-<p>Nixon gets blamed for a lot of terrible things, including Vietnam. Is this fair, given that he inherited the war?</p>
-
-<p>So many tropes! The US supposedly uses its military power to terrorize the world. US bonds are actually tribute, not loans. Many of his claims reek of edge-lordship, others come off sounding like conspiracy theories. China is apparently trying to turn the US into a client state. By giving tribute and lavish gifts to its clients, China has previously turned its nemeses into dependents. </p>
-
-<p>Yeah, okay, maybe. I’m torn!</p>
 
 
         
