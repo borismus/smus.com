@@ -9,7 +9,7 @@ taking app could act as a co-pilot? It could surface similar notes that are
 relevant to your current writing, and if you use such a system for long enough,
 help you synthesize across your own thinking over many years. You might want to
 link to the semantically related note, or to merge with it entirely. Building on
-[a previous technique](/ai-note-garden-linker), I implemented this as an
+[a previous technique](/ai-note-garden-linker), I implemented this idea as an
 Obsidian plugin:
 
 <iframe width="560" height="360" src="https://www.youtube.com/embed/kZkDCjr8ZqU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
