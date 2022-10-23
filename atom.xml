@@ -5,7 +5,7 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2022-10-13T11:10:23-00:00</updated>
+  <updated>2022-10-23T14:41:03-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -134,6 +134,55 @@ distracting? Let's find out; ƒor science!</p>
   </entry>
   
   <entry>
+    <title>The Toynbee Convector by Ray Bradbury</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-toynbee-convector-by-ray-bradbury"/>
+    
+    <updated>2022-10-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-toynbee-convector-by-ray-bradbury</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I picked up this volume after reading The Toynbee Convector and really enjoying it. I'm surprised Ray Bradbury wrote so much horror and so little science fiction. Perhaps it's selection bias in this volume? Here are a few stories that really stood out to me:</p>
+
+<ul>
+<li><p><strong>Let Me Remind You of Why We Are Here</strong>: resonates strongly on a personal level, exploring the nuances in communication between parents and children at various stages of that relationship.</p></li>
+<li><p><strong>Trapdoor</strong>: a slightly loony story about monsters in the attic. Creeepy and surprisingly compelling, very far from my usual taste.</p></li>
+<li><p><strong>The Last Circus</strong>: Ominous and timely once more.</p></li>
+<li><p><strong>Banshee</strong>: Another horror tale that I enjoyed. He had it coming.</p></li>
+<li><p><strong>Bless me Father, For I have Sinned</strong>: who blesses the givers of blessings?</p></li>
+<li><p><strong>A Touch of Petulance</strong>: Relationships are so complex. A self fulfilling time travel tragedy.</p></li>
+<li><p><strong>Come, and Bring Constance</strong>: Cute story with multiple possible interpretations.</p></li>
+</ul>
+
+<p>I also really liked the titular story. Here's the basic premise: Craig Bennet Stiles travels a century into the future and returns with detailed descriptions and photographs of a bright future in which all of humanity's problems have been solved. This gives people hope in a hopeless world much like our own:</p>
+
+<blockquote>
+  <p>You name it, we had it. The economy was a snail. The world was a cesspool. Economies remained an insolvable mystery. Melancholy was the attitude. The impossibility of change was the vogue. End of the world was the slogan.
+  ...a fifth horseman, worse than all the rest rode with them: Despair, wrapped in dark shrouds of defeat, crying only repetitions of past disasters, present failures, future cowardices.</p>
+</blockquote>
+
+<p>There is of course a giant twist which I will leave out, out of respect for you, dear reader. But you might piece together where things are going anyway.</p>
+
+<p>Overall I loved it. One remarkable thing is that this is a truly consistent time travel story, no caveats. It left a strong impression on me and reified the power of positive visions (see <a class="wiki" href="https://z3.ca/Positive_visions_are_necessary">Positive visions are necessary</a>).</p>
+
+<p>Stray thoughts still linger:</p>
+
+<ul>
+<li><p>Fake it 'till you make it is almost trite, but how much 'faking it' is too much?</p></li>
+<li><p>How much credence to give Toynbee's idea that "any group, any race, any world that did not run to seize the future and shape it was doomed to dust away to the grave, in the past"?</p></li>
+<li><p>Is Stiles a science fiction writer? So many technological efforts are inspired by fiction, even dystopian fiction (see <a class="wiki" href="https://z3.ca/Dystopian_fiction_that_inspires_real_products">Dystopian fiction that inspires real products</a>). In this light, this is a pretty self serving story, Mr. Bradbury!</p></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
     <title>Wild Problems by Russ Roberts</title>
     <author><name>Boris Smus</name></author>
     <link href="https://smus.com/books/wild-problems-by-russ-roberts"/>
@@ -144,7 +193,7 @@ distracting? Let's find out; ƒor science!</p>
     <content type="html">
       <![CDATA[
       <div>
-        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise. </p>
+        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise.</p>
 
 <p>Much of the book is spent on dismantling Subjective Expected Utility (SEU), and reifying Herb Simon's <a class="wiki" href="https://z3.ca/Bounded_rationality">Bounded rationality</a> observations. Examples familiar to me included Darwin’s famous marry/don’t marry note and Franklins “moral algebra” where pros and cons for making a tough decision are weighed against one another and crossed out until one column is longer than the other and you have an answer. Of course, this sort of moral algebra doesn't work. Firstly, it's very hard to quantify things that matter to us. Secondly, <a class="wiki" href="https://z3.ca/Values_are_incommensurable">Values are incommensurable</a>.</p>
 
@@ -152,52 +201,52 @@ distracting? Let's find out; ƒor science!</p>
 
 <p><strong>The Vampire Problem</strong> I really enjoyed a new-to-me thought experiment Roberts introduces, attributing L. A. Paul, of a man deciding whether to become a vampire. A human cannot imagine what it would be like to be a vampire because they have never been a vampire. In the same way, a woman cannot imagine what it would be like to become a mother until she has become one. Becoming a mother will fundamentally change you, your priorities, your tastes. Becoming a vampire too, will make you much more interested in drinking other people's blood and avoiding the sun. Such transformations involve a leap of faith. Whether to take it is not a decision that can be made using a decision matrix or rational deliberation.</p>
 
-<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life. </p>
+<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life.</p>
 
 <p><strong>Flourishing over pleasure</strong> The problem with Benjamin Franklin's moral algebra is that values are incommensurable with one another. Furthermore, comparing things from the realm of economics (eg. money, things) with values, ideals, and principles is impossible. They are in distinct categories:</p>
 
 <ol>
 <li>Things pertaining to <strong>flourishing</strong>, which tend to provide a backdrop for life spanning a long term. They form your identity.</li>
-<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life. </li>
+<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life.</li>
 </ol>
 
 <p><strong>Prioritize your principles</strong>. From this flourishing perspective, becoming a vampire is a bad idea. Your core values will not be satisfied even though the vampire you will become will get a lot of Hedons from drinking all that delicious human blood. 🧛</p>
 
 <p>Roberts even combines this with <a class="wiki" href="https://z3.ca/Two_types_of_fun,_type_1_and_type_2">Two types of fun, type 1 and type 2</a>. You flourish from Type 2 fun, even though it may be less pleasurable in the moment.</p>
 
-<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds: 
+<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds:
 - Of the <strong>Muslim</strong> Bulgarians of the Volga the envoys reported there is no gladness among them, only sorrow and a great stench. He also reported that Islam was undesirable due to its taboo against alcoholic beverages and pork. Vladimir remarked on the occasion: "Drinking is the joy of all Rus'. We cannot exist without that pleasure."
 - Ukrainian and Russian sources also describe Vladimir consulting with <strong>Jewish</strong> envoys and questioning them about their religion, but ultimately rejecting it as well, saying that their loss of Jerusalem was evidence that they had been abandoned by God.</p>
 
 <p><strong>The Penelope problem</strong>. The secretary problem is cleverly reframed as the “Penelope problem” from the perspective of Odysseus' wife who is besieged by 108 suitors. A very PC move, Roberts. Well played! Also, it's a good reminder that the correct percentage of houses to view first is 1/e or about 38% to establish a baseline to compare the rest against.</p>
 
-<p>“The happy hypocrite” story is ridiculous. </p>
+<p>“The happy hypocrite” story is ridiculous.</p>
 
 <p>Three kinds of people:</p>
 
 <ol>
-<li>No conscience. You get a kick from hedonism. </li>
+<li>No conscience. You get a kick from hedonism.</li>
 <li>Conscience and you get a kick from doing the right thing</li>
-<li>No conscience. But aspiring to find one. </li>
+<li>No conscience. But aspiring to find one.</li>
 </ol>
 
 <h1>Things I liked less</h1>
 
 <p>It's unclear why Roberts adopts the new terminology "wild" versus "tame" problems? It seems neatly analogous to the preexisting terminology I first saw in <a href="/books/gardener-carpenter-by-alison-gopnik/">The Gardener and The Carpenter by Alison Gopnik</a> and <a href="/books/range-by-david-epstein-audio/">Range - Why Generalists Triumph in a Specialized World by David Epstein</a>: <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>.</p>
 
-<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes. </p>
+<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes.</p>
 
 <p>In general, and I'm not sure this is avoidable, Roberts soapboxes a lot, imploring the reader to stick to his principles, fully trumping any utilitarian considerations. Ones values should always stand above the domain of economic utility. No amount of money should be enough to sway this. Reality is clearly more complex than this, and ultimately the difficult questions remain difficult.</p>
 
-<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart: </p>
+<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart:</p>
 
-<pre><code>Beware the urge for certainty. 
-The mortal lock. 
+<pre><code>Beware the urge for certainty.
+The mortal lock.
 The sure thing.
 The lure of the bird in the hand.
 
-Maybe once or twice, put all your eggs in one basket. 
-Take a chance 
+Maybe once or twice, put all your eggs in one basket.
+Take a chance
 On romance. Ask her out. Or him.
 Embrace doubt.
 Go on a limb.
@@ -359,6 +408,41 @@ Go on a limb.
 <p>Glimpses of Russian influence were imagined during the height of Russia's monarchic peak a century before the revolution of 1917, but never like this.</p>
 
 <p>Rather than shining as a beacon for those dreaming of a communist utopia, Lenin's Soviet Russia rose up as an example of a simpler totalitarian society for the west to emulate. First Italy, then Nazi Germany followed suite. Leninism inspired authoritarian regimes in Asia too, including Communist China. Its legacy continues, with menacing echoes into the present day.</p>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Links for August 2022</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2022/links-for-august-2022/"/>
+    
+    <updated>2022-08-31T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2022/links-for-august-2022/</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p><img src="/assets/generated/2022-08-31.jpg" alt="Generated image of an Origami fold of Rodin's Thinker." /></p>
+
+<ul>
+<li><a href="https://archive.vcu.edu/english/engweb/transcendentalism/authors/emerson/essays/selfreliance.html">Self-Reliance</a> (<em>Ralph Waldo Emerson</em>) — A classic essay from the transcendentalist 19th century philosopher, reminding to think for yourself, avoid conformity, be open to changing your mind, and worry less about being misunderstood.</li>
+<li><a href="https://fs.blog/jootsing">"JOOTSing": The Key to Creativity</a> (<em>Farnam Street</em>) — Jootsing, a term coined by Douglas Hofstadter, means Jumping Out Of The System (JOOTS). First you must become intimately familiar with the system and its rules, and only then can you create something new by breaking some of them.</li>
+<li><a href="https://theanarchistlibrary.org/library/ursula-k-le-guin-the-carrier-bag-theory-of-fiction">The Carrier Bag Theory of Fiction</a> (<em>Ursula K. Le Guin</em>) — Referencing the Carrier Bag Theory of Evolution, in which Fisher suggest the primacy of the bag over the knife, Le Guin questions the idea that the proper shape of a narrative involves conflict. Instead, Le Guin argues that "reduction of narrative to conflict is absurd"; instead, the natural shape of a novel is one of a bag of words carrying meanings, far less prescriptive than the hero's journey.</li>
+<li><a href="https://sashachapin.substack.com/p/notes-against-note-taking-systems">Notes Against Note-Taking Systems</a> (<em>Sasha Chapin</em>) —  A forceful reminder that getting lost in your knowledge management system is a fantastic way to avoid creating things. Keep it simple!</li>
+<li><a href="https://oxonianreview.com/articles/death-is-a-master-from-russia">Death Is a Master From Russia</a> (<em>The Oxonian</em>) — Pomerantsev: "I am a writer and I love my mother tongue. Today my love is still valid, but it has become difficult, dramatic. Evil is polyglot. It speaks hundreds of different languages. It has its favorites, though."</li>
+<li><a href="https://medium.com/personal-growth/sprezzatura-the-art-of-making-difficult-things-look-simple-55d0441c5cd">Sprezzatura: The Art of Making Difficult Things Look Simple</a> (<em>Louis Chew</em>) — The ability to display a certain nonchalance while performing a great feat was the hallmark of the ideal courtier. To the untrained eye, the performer is a genius, and this is magical; but the trained observer sees sprezzatura as a sign that the individual has put in the work. Fortune favors the prepared.</li>
+<li><a href="https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/">June Huh, High School Dropout, Wins the Fields Medal</a> (<em>Quanta</em>) — A portrait of a poet turned mathematician whose character is charming and in many ways the polar opposite of a prototypically successful person who moves fast and gets things done. So many ways to be.</li>
+<li><a href="https://mysticalsilicon.substack.com/p/you-know-nothing-a-conversational">"You Know Nothing”: A Conversational Mindset</a> (<em>David Gasca</em>) — David suggests a stance for having better conversations: resist the urge to make assumptions about your interlocutor and start from a place of curiosity. From this place, it's easier to initiate and have a good conversation.</li>
+<li><a href="https://jsomers.net/i-should-have-loved-biology/">I Should Have Loved Biology</a> (<em>James Somers</em>) — James recalls how little he enjoyed learning Biology, which despite its interestingness as a field, felt like a "lifeless recitation of names". What if instead of focusing on seemingly arbitrary facts, Bio was taught historically, by acquainting students with real biological questions, the scientific processes biologists used to answer them, to give students an opportunity to put themselves in the scientists shoes and wonder? What if it involved more <a href="https://www.youtube.com/watch?v=wJyUtbn0O5Y">inspiring and beautiful illustrations</a> and explorable explanations?</li>
+<li><a href="https://ourworldindata.org/much-better-awful-can-be-better">The World Is Awful. The World Is Much Better. The World Can Be Much Better</a> (<em>Our World in Data</em>) — For many issues all three statements can be true at the same time. Take child mortality where 5.2 million children, or 3.8% of their population dies every year (completely awful), this number was 43% in 1800 (so we are making progress), but if the whole world was like the EU, this number could be reduced ten-fold (room to improve).</li>
+<li><a href="https://every.to/p/what-i-miss-about-working-at-stripe">What I Miss About Working at Stripe</a> (<em>Brie Wolfson</em>) — A nostalgic piece about a time when the gravitational pull of work was strong. The author does a good job of capturing the feeling that a kind and balanced working environment may be at odds with the latent desire to do the best work of one's lifetime.</li>
+<li><a href="https://www.theatlantic.com/ideas/archive/2022/05/parenting-decisions-dont-trust-your-gut-book-excerpt/629734/">The One Parenting Decision That Really Matters</a> (<em>The Atlantic</em>) — In a large scale study of children's outcomes as a function of many variables, recent studies indicate that the effect of nature on a child is far stronger than nurture, but one parenting factor stands above the rest: the location of the childhood home. See <a href="https://www.opportunityatlas.org/">The Opportunity Atlas</a> for more details.</li>
+</ul>
 
 
         
@@ -5783,238 +5867,6 @@ Holy Roman Empire</p>
 <blockquote>
   <p>“On one hand, those with wandering, defocused, childlike minds seem to be the most creative; on the other, it seems to be analysis and application that’s important. The answer to this conundrum is that creative people need both … The key to creativity is being able to switch between a wide-open, playful mind and a narrow analytical frame.” - Jeremy Dean</p>
 </blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Thinking in Systems: A Primer</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/thinking-in-systems-a-primer"/>
-    
-    <updated>2021-02-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/thinking-in-systems-a-primer</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Thanks to a book club at work, I finally read this legendary book.</p>
-
-<p>A system is a set of entities interconnected to produce behavior over time in response to external events. For example, a slinky's behavior lies within the slinky itself. </p>
-
-<p>Modernist thinking tends to like simple causal connections. However reality is complex. Systems thinking is an interesting and valuable lens that complements high modernism. </p>
-
-<p>One way of looking at systems thinking is as a formalization of folk wisdom:</p>
-
-<ul>
-<li>a stitch in time saves nine</li>
-<li>the rich get richer, the poor get poorer</li>
-<li>don't put all of your eggs in one basket</li>
-</ul>
-
-<h1>What are systems?</h1>
-
-<p>Systems have:</p>
-
-<ul>
-<li>discrete parts</li>
-<li>parts that interact with one another</li>
-<li>parts which together produce an effect that is different than each interaction</li>
-</ul>
-
-<p>“You think that because you understand “one” that you must therefore understand “two” because one and one make two. But you forget that you must also understand “and.” - Sufi teaching story</p>
-
-<p>System components in order of importance:</p>
-
-<ul>
-<li>purpose / function</li>
-<li>interconnections </li>
-<li>elements (often interchangeable, eg. employees)</li>
-</ul>
-
-<p>Systems are composed of stocks and of flows. Stocks are the amount of a thing. Flows are the increases or decreases of said thing. Think of a bathtub with a faucet and a drain. The water in the bathtub is the stock. The faucet is the flow of water in. The drain is the flow of water out. Flows can change quickly: you can shut on and off the faucet, plug the drain. Stocks change slowly and act as buffers: even if you open the drain completely, it will still take a minute for the water to vanish.</p>
-
-<p>Types of feedback loops:</p>
-
-<ul>
-<li>Amplifying feedback loop: the more stock there is, the higher the flow.</li>
-<li>Balancing feedback loop: attempts to move stock to a desired state.</li>
-</ul>
-
-<p>Real world systems are affected by multiple feedback loops simultaneously.</p>
-
-<h1>One stock systems</h1>
-
-<h2>Two balancing loops (eg. Thermostat)</h2>
-
-<p>Stock: temperature.
-1. Balancing 1: Exterior temperature cools the room to be the same temperature as outside, flow is tempered by insulation, air gaps, etc.
-2. Balancing 2: Heater warms the room until it is the temperature set on the thermostat.</p>
-
-<h2>One amplifying and one balancing loop (eg. Population Growth)</h2>
-
-<p>Stock: population.
-1. Amplifying: the more people there are, the more people are born. 
-2. Balancing: people don't live forever. There's a death rate.</p>
-
-<p>Ultimate behavior will depend on which of the two dominates. If reinforcing dominates, end up with exponential growth. Many other examples like this, such as capital growth, where the more capital you have, the more you can make, but there's also depreciation costs.</p>
-
-<h1>Two stock systems</h1>
-
-<h2>Renewable stock constrained by non-renewable stock  (eg. Coal Mining)</h2>
-
-<p>Stock 1: Capital.
-1. Amplifying: the more capital, the more ability to build coal mines.
-2. Balancing: the more coal mines, the more upkeep for these mines.</p>
-
-<p>Stock 2: Coal.
-1. Balancing: as the coal mine depletes, it becomes harder to extract the last bits of coal. </p>
-
-<h2>Renewable stock backed by renewable resource (eg. Fishing)</h2>
-
-<p>Stock 1: Capital.
-1. Amplifying: the more capital, the more ability to build coal mines.
-2. Balancing: the more coal mines, the more upkeep for these mines.</p>
-
-<p>Stock 2: Fish.
-1. Amplifying: the more fish there are, the more fish are born.
-2. Balancing: as the population dwindles, it becomes harder to find the last fish. </p>
-
-<h1>Great insights</h1>
-
-<p><strong>Constrained by stocks vs. flows</strong>: non-renewable resources are constrained by stocks. Renewable resources are constrained by flows. </p>
-
-<p><strong>Stocks act as buffers</strong>: rivers often flood because flow &gt;&gt; stock. Lakes rarely do because flow &lt;&lt; stock. </p>
-
-<p><strong>Delays really matter</strong> in reality many of these loops are driven by information that is delayed. This results in oscillations.</p>
-
-<p><strong>Stable intermediate forms</strong>: another important concept.  Hierarchies mean that there are independent sub-systems which are independently stable. This enables a rise in complexity. </p>
-
-<p><strong>Limiting factors</strong> are an intuitive but important idea. A systems is affected by the stock that is in least supply. As a system grows, the most limiting stock may change. </p>
-
-<p><strong>Resilience involves many balancing loops</strong>, most of which are inactive most of the time. Example: under normal circumstances, you don't sweat or shiver. But without these abilities you would be far less resilient.</p>
-
-<p><strong>Dominant loops</strong> complex systems are made of multiple feedback loops, and which loop dominates the others makes a big difference. For example, in a population grouwth system, if the amplifying loop dominates, the population will grow exponentially, but if the balancing loop dominates, it will shrink.</p>
-
-<h1>Stray thoughts</h1>
-
-<p>Firstly, what a great collection of insights! But to call it a coherent book is a bit generous. I feel like it's not well structured, and found myself picking out nuggets rather than being swept away by a coherent narrative.</p>
-
-<p>It’s hard to understand as an audio book. Need visual and ideally interactive diagrams. </p>
-
-<p>Systems thinking is a great technique for CEOs, businessmen, macroeconomists. It's less clear how a pleb like me might apply it. But it's still interesting!</p>
-
-<p>It would be worthwhile to contrast the causal diagrams of the sort Judea Pearl champions with these systems feedback loop diagrams.</p>
-
-<blockquote>
-  <p>Praise ignorance, for what man has not encountered he has not destroyed. - Wendell Berry</p>
-</blockquote>
-
-<h1>Traps and remedies</h1>
-
-<p>Systems have common failure modes. Here are some of the ones I found novel. The remedies are often easier said than done.</p>
-
-<p><strong>Policy resistance</strong>. many actors are all invested in an equilibrium involving one stock. Each pulls the supply up and down to their own benefit. Everyone exerts a lot of effort but achieves little. 
-Remedy: let go. Find another thing all parties can agree on. </p>
-
-<p><strong>Tragedy of the commons</strong>, a common resource or sink is overused by each user, leading to ultimate ruin because of erosion effects. The term was coined much later than I thought: in 1968. 
-Remedy: either apply pressure appealing to morality/decency/religion, split and privatize the commons, or impose penalties for overuse.  </p>
-
-<p><strong>Drift to low performance</strong>, a gradual degradation in quality because of a moving performance goal. If quality is under the bar, the bar is set lower, often excused by sentiment like "it's not that much worse than last year", etc.
-Remedy: Keep performance standards absolute. Even better, let standards be enhanced by the best actual performances instead of being discouraged by the worst. Invert the pattern and set up a drift toward high performance.</p>
-
-<p><strong>Escalation</strong>. Cycles of violence in conflicts between countries. Negative political ad campaigns that render both candidates unpalatable.
-Remedy: disarmament. This can be unilateral or mutually agreed upon, but the latter requires mediation. </p>
-
-<p><strong>Success to the successful</strong> is a common situation. The more money you have, the more of it you can make through investments, etc. 
-Remedy: Jubilee? Potlatch? Antitrust laws? Estate taxes?</p>
-
-<p><strong>Dependence</strong>, including personal addiction, but many other things. Societal dependence on institutions like healthcare, etc. 
-Remedy: focus on long-term restructuring rather than short-term relief.</p>
-
-<p><strong>Rule beating</strong>. Example: spending all available budget just to ensure that next years isn’t reduced. Example: only slowing down if there's a police car nearby.
-Remedy: redesign the rules!</p>
-
-<p><strong>Wrong goal</strong>, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of <a class="wiki" href="https://z3.ca/McNamara_Fallacy">McNamara Fallacy</a>
-Remedy: </p>
-
-<h1>Leverage points</h1>
-
-<p>Most attributes of the system are effectively immutable. Structure of the flows is often physical. Delays are often unavoidable. Information flows in feedback systems are where most leverage lies.  </p>
-
-<p>Unbridled growth with an amplifying loop is rare because such systems quickly lead to either:
-- Exhaustion of resources (eg. No more bodies to infect)
-- Balancing loop dominates (eg. Greater precautions and PPE)</p>
-
-<p><strong>Slowing growth may bring stability to a system</strong>. Reminds me of <a href="https://twitter.com/hundredrabbits/status/1357764199015849984">this tweet</a>:</p>
-
-<blockquote>
-  <p>For every hundred people telling us to "just install more solar panels", only one person will consider ways to reduce power usage.</p>
-</blockquote>
-
-<p><strong>Make invisible information visible</strong>. During the oil embargo in 1970, the Dutch began to pay attention to power consumption. Some houses mysteriously seemed to use 30% less power than others. The difference was in location of the power meter. Those with low power usage had meter in the lobby. Others had the meter in the basement.</p>
-
-<p><strong>Re-write the rules</strong>. Interventions into the system's rules are very effective. This explains why lobbyists are powerful. </p>
-
-<p><strong>Encourage self organization</strong>: allowing a system to self organize is extremely powerful. But this may lead to unknown conclusions, so is not well loved by those in power. </p>
-
-<p><strong>Goals matter</strong>. What is the ultimate goal of the system? What’s the goal of goog? What’s the priority order of many competing goals? Sometimes a leader can do this. Hitler profoundly changed the goals of Germany in the 1930s. Reagan changed the American ethos from “Ask not what your country can do for you – ask what you can do for your country.” to “Government is not the solution to our problem, government is the problem.”</p>
-
-<blockquote>
-  <p>“If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.” - St Exupery</p>
-</blockquote>
-
-<p><strong>Paradigm shifts and meta paradigm awareness</strong>. We live in a world with many unstated assumptions, hidden goals, biases. Changing these is the higest leverage point.</p>
-
-<blockquote>
-  <p>There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning, boys. How’s the water?” And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, “What the hell is water?”</p>
-</blockquote>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Sid Meier&#39;s Memoir!</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/sid-meiers-memoir"/>
-    
-    <updated>2021-01-27T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/sid-meiers-memoir</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>MJ recommended I pick up this book. I regret nothing. </p>
-
-<p>This was a fun look into game development history, narrated by a venerable insider. I remember spending days with AK and MN playing Civ 1 in the mid-90s, and have played every game in the series since.</p>
-
-<p>Billed as a memoir, this book focuses on anecdotes about the games and the game industry, with Sid Meier's personal life taking the backseat. I especially enjoyed the <a href="https://en.wikipedia.org/wiki/Nuclear_Gandhi">Nuclear Gandhi</a> story. It's such a colorful intersection of a funny premise, computer science, and a hoax.</p>
-
-<p>Sid Meier's taste for non-violent educational simulators is especially compelling, and reading about these games made me really miss them. As a kid, I think Civ sparked my interest in history and war and complex systems. But I was mainly just having a lot of fun! These days playing even one game of Civ is a heavy lift, but maybe it's worth giving Civ Revolutions a look? </p>
-
-<p>What I loved most about this book was how excited I became about building games again. The intersection of games and education is extremely tricky to pull off, and I would argue that edutainment as a genre has largely failed. The holy grail is to build something that plays like a game, but whets your appetite about something insightful. This is in some sense the opposite of what explorable explanations do, which are often more interactive visualizations than games.</p>
-
-<blockquote>
-  <p>Anyone who tries to make a distinction between education and entertainment doesn't know the first thing about either - Marshal McLuhan</p>
-</blockquote>
-
-<p>One thing the book lacked was specific learnings and insights into game development. The chapter on the failed dinosaur game came closest, but I would have loved a whole book on this. Here are some final notes:</p>
-
-<p><strong>Follow your interests</strong>: Sid Meier's games have been driven by his personal interests, at least in retrospect. </p>
-
-<p><strong>People hate randomness</strong>: To placate people's busted sense of randomness and overdeveloped sense of fairness, Civ Revolutions had to implement some interesting decisions: any 3:1 battle in favor of human became a guaranteed win. Too many randomly bad outcomes in a row were mitigated.</p>
-
-<p><strong>Feedback is fact</strong>: If a player is frustrated, this is a fact. It's not just their opinion! If a game is not fun, this is a fact the developer needs to contend with.</p>
-
-<p><strong>Interesting decisions</strong>: Many of Meier's games rely heavily on decision making. The decisions must be interesting. 'I wonder what would happen next time, if I did it differently?'</p>
 
 
         

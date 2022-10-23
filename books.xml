@@ -5,8 +5,57 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2022-10-13T11:10:23-00:00</updated>
+  <updated>2022-10-23T14:41:03-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Toynbee Convector by Ray Bradbury</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-toynbee-convector-by-ray-bradbury"/>
+    
+    <updated>2022-10-10T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-toynbee-convector-by-ray-bradbury</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I picked up this volume after reading The Toynbee Convector and really enjoying it. I'm surprised Ray Bradbury wrote so much horror and so little science fiction. Perhaps it's selection bias in this volume? Here are a few stories that really stood out to me:</p>
+
+<ul>
+<li><p><strong>Let Me Remind You of Why We Are Here</strong>: resonates strongly on a personal level, exploring the nuances in communication between parents and children at various stages of that relationship.</p></li>
+<li><p><strong>Trapdoor</strong>: a slightly loony story about monsters in the attic. Creeepy and surprisingly compelling, very far from my usual taste.</p></li>
+<li><p><strong>The Last Circus</strong>: Ominous and timely once more.</p></li>
+<li><p><strong>Banshee</strong>: Another horror tale that I enjoyed. He had it coming.</p></li>
+<li><p><strong>Bless me Father, For I have Sinned</strong>: who blesses the givers of blessings?</p></li>
+<li><p><strong>A Touch of Petulance</strong>: Relationships are so complex. A self fulfilling time travel tragedy.</p></li>
+<li><p><strong>Come, and Bring Constance</strong>: Cute story with multiple possible interpretations.</p></li>
+</ul>
+
+<p>I also really liked the titular story. Here's the basic premise: Craig Bennet Stiles travels a century into the future and returns with detailed descriptions and photographs of a bright future in which all of humanity's problems have been solved. This gives people hope in a hopeless world much like our own:</p>
+
+<blockquote>
+  <p>You name it, we had it. The economy was a snail. The world was a cesspool. Economies remained an insolvable mystery. Melancholy was the attitude. The impossibility of change was the vogue. End of the world was the slogan.
+  ...a fifth horseman, worse than all the rest rode with them: Despair, wrapped in dark shrouds of defeat, crying only repetitions of past disasters, present failures, future cowardices.</p>
+</blockquote>
+
+<p>There is of course a giant twist which I will leave out, out of respect for you, dear reader. But you might piece together where things are going anyway.</p>
+
+<p>Overall I loved it. One remarkable thing is that this is a truly consistent time travel story, no caveats. It left a strong impression on me and reified the power of positive visions (see <a class="wiki" href="https://z3.ca/Positive_visions_are_necessary">Positive visions are necessary</a>).</p>
+
+<p>Stray thoughts still linger:</p>
+
+<ul>
+<li><p>Fake it 'till you make it is almost trite, but how much 'faking it' is too much?</p></li>
+<li><p>How much credence to give Toynbee's idea that "any group, any race, any world that did not run to seize the future and shape it was doomed to dust away to the grave, in the past"?</p></li>
+<li><p>Is Stiles a science fiction writer? So many technological efforts are inspired by fiction, even dystopian fiction (see <a class="wiki" href="https://z3.ca/Dystopian_fiction_that_inspires_real_products">Dystopian fiction that inspires real products</a>). In this light, this is a pretty self serving story, Mr. Bradbury!</p></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Wild Problems by Russ Roberts</title>
@@ -19,7 +68,7 @@
     <content type="html">
       <![CDATA[
       <div>
-        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise. </p>
+        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise.</p>
 
 <p>Much of the book is spent on dismantling Subjective Expected Utility (SEU), and reifying Herb Simon's <a class="wiki" href="https://z3.ca/Bounded_rationality">Bounded rationality</a> observations. Examples familiar to me included Darwin’s famous marry/don’t marry note and Franklins “moral algebra” where pros and cons for making a tough decision are weighed against one another and crossed out until one column is longer than the other and you have an answer. Of course, this sort of moral algebra doesn't work. Firstly, it's very hard to quantify things that matter to us. Secondly, <a class="wiki" href="https://z3.ca/Values_are_incommensurable">Values are incommensurable</a>.</p>
 
@@ -27,52 +76,52 @@
 
 <p><strong>The Vampire Problem</strong> I really enjoyed a new-to-me thought experiment Roberts introduces, attributing L. A. Paul, of a man deciding whether to become a vampire. A human cannot imagine what it would be like to be a vampire because they have never been a vampire. In the same way, a woman cannot imagine what it would be like to become a mother until she has become one. Becoming a mother will fundamentally change you, your priorities, your tastes. Becoming a vampire too, will make you much more interested in drinking other people's blood and avoiding the sun. Such transformations involve a leap of faith. Whether to take it is not a decision that can be made using a decision matrix or rational deliberation.</p>
 
-<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life. </p>
+<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life.</p>
 
 <p><strong>Flourishing over pleasure</strong> The problem with Benjamin Franklin's moral algebra is that values are incommensurable with one another. Furthermore, comparing things from the realm of economics (eg. money, things) with values, ideals, and principles is impossible. They are in distinct categories:</p>
 
 <ol>
 <li>Things pertaining to <strong>flourishing</strong>, which tend to provide a backdrop for life spanning a long term. They form your identity.</li>
-<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life. </li>
+<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life.</li>
 </ol>
 
 <p><strong>Prioritize your principles</strong>. From this flourishing perspective, becoming a vampire is a bad idea. Your core values will not be satisfied even though the vampire you will become will get a lot of Hedons from drinking all that delicious human blood. 🧛</p>
 
 <p>Roberts even combines this with <a class="wiki" href="https://z3.ca/Two_types_of_fun,_type_1_and_type_2">Two types of fun, type 1 and type 2</a>. You flourish from Type 2 fun, even though it may be less pleasurable in the moment.</p>
 
-<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds: 
+<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds:
 - Of the <strong>Muslim</strong> Bulgarians of the Volga the envoys reported there is no gladness among them, only sorrow and a great stench. He also reported that Islam was undesirable due to its taboo against alcoholic beverages and pork. Vladimir remarked on the occasion: "Drinking is the joy of all Rus'. We cannot exist without that pleasure."
 - Ukrainian and Russian sources also describe Vladimir consulting with <strong>Jewish</strong> envoys and questioning them about their religion, but ultimately rejecting it as well, saying that their loss of Jerusalem was evidence that they had been abandoned by God.</p>
 
 <p><strong>The Penelope problem</strong>. The secretary problem is cleverly reframed as the “Penelope problem” from the perspective of Odysseus' wife who is besieged by 108 suitors. A very PC move, Roberts. Well played! Also, it's a good reminder that the correct percentage of houses to view first is 1/e or about 38% to establish a baseline to compare the rest against.</p>
 
-<p>“The happy hypocrite” story is ridiculous. </p>
+<p>“The happy hypocrite” story is ridiculous.</p>
 
 <p>Three kinds of people:</p>
 
 <ol>
-<li>No conscience. You get a kick from hedonism. </li>
+<li>No conscience. You get a kick from hedonism.</li>
 <li>Conscience and you get a kick from doing the right thing</li>
-<li>No conscience. But aspiring to find one. </li>
+<li>No conscience. But aspiring to find one.</li>
 </ol>
 
 <h1>Things I liked less</h1>
 
 <p>It's unclear why Roberts adopts the new terminology "wild" versus "tame" problems? It seems neatly analogous to the preexisting terminology I first saw in <a href="/books/gardener-carpenter-by-alison-gopnik/">The Gardener and The Carpenter by Alison Gopnik</a> and <a href="/books/range-by-david-epstein-audio/">Range - Why Generalists Triumph in a Specialized World by David Epstein</a>: <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>.</p>
 
-<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes. </p>
+<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes.</p>
 
 <p>In general, and I'm not sure this is avoidable, Roberts soapboxes a lot, imploring the reader to stick to his principles, fully trumping any utilitarian considerations. Ones values should always stand above the domain of economic utility. No amount of money should be enough to sway this. Reality is clearly more complex than this, and ultimately the difficult questions remain difficult.</p>
 
-<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart: </p>
+<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart:</p>
 
-<pre><code>Beware the urge for certainty. 
-The mortal lock. 
+<pre><code>Beware the urge for certainty.
+The mortal lock.
 The sure thing.
 The lure of the bird in the hand.
 
-Maybe once or twice, put all your eggs in one basket. 
-Take a chance 
+Maybe once or twice, put all your eggs in one basket.
+Take a chance
 On romance. Ask her out. Or him.
 Embrace doubt.
 Go on a limb.
@@ -5473,241 +5522,6 @@ Remedy: </p>
 <li>The Act of Creation by Arthur Koestler</li>
 <li>How Buildings Learn by Stewart Brand (and TV mini-series)</li>
 <li>The Structure of Scientific Revolutions by Thomas Kuhn</li>
-</ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Lost Enlightenment by Frederick Starr</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/lost-enlightenment-by-frederick-starr"/>
-    
-    <updated>2020-04-13T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/lost-enlightenment-by-frederick-starr</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I first learned of this book after a quick conversation with Mark, whom I’ve only met once in-person. I was just finishing Debt, and found the book intriguing, especially the parts about the monetary systems in Islamic societies. Mark suggested this book, and indeed it covers a period of history that I know basically nothing about. With my interest piqued already, I decided to take the plunge.</p>
-
-<p>This book was both broad and deep, covering an era from about 750 (a nominal end of the Arab conquest) through 1150 (roughly the time when intellectual fruits of the enlightenment were starting to wilt). It is well written, so in the moment you think you understand what’s happening, but afterwards it turns out that everything is really complicated.</p>
-
-<p>My overall feeling after reading this book is that it serves well as a comprehensive introduction to the topic. But the topic is quite complex, and as a complete noob, I found myself struggling a little bit. As I write this summary, I constantly have to consult Wikipedia to understand the region and its civilizational chronology. Keeping track of the giant cast of ancient Arab, Turkish, and Mongol characters that the author presents is also a challenge. On the other hand, the introduction really hooked me and the first half of the book flowed very well. I did come close to abandoning the book about 3/4 through, especially since the Turkish empires just before the Mongol invasion seemed to be somewhat dull from both action and cultural perspectives. But it picks up again with Genghis Khan and Timur and their respective empires, and then the conclusion does a great job of tying it all together. I listened to the last chapter twice!</p>
-
-<p>I don't know why, but these Soviet stamps of great Islamic scientists are really
-appealing:</p>
-
-<p><img style="width: 30%" src="/assets/al-kwarizmi.png"/>
-<img style="width: 30%" src="/assets/al-biruni.png"/>
-<img style="width: 30%" src="/assets/ibn-sina.png"/></p>
-
-<h1>Where: cities and regions</h1>
-
-<p>I left myself a TODO as I was summarizing: “understand all of the cities/regions? mentioned in this book, put them on a map. Who would have been living there at the time? And maybe one day visit them.” So far, I only have <a href="https://drive.google.com/open?id=1r3caNCqtH91TXpF2rug03XzKByZ1BkdL&amp;usp=sharing">a Google map</a>, but it’s a start! The trip may have to wait for global pandemics and regional instabilities to wane.</p>
-
-<p>Throughout the book, it was never clear which name corresponded to a city, and which to a region. Trying to resolve this online isn’t that simple. One is confounded by inconsistent Latinization. Khwarazm has been known also as Chorasmia, Khaurism, Khwarezm, Khwarezmia, Khwarizm, Khwarazm, Khorezm, Khoresm, Khorasam, Kharazm, Harezm, Horezm, and Chorezm. </p>
-
-<p>Here’s a crazy tidbit: by 1200, Merv (aka Marv, Merw, Mary, …) was the largest city in the world with possibly half a million souls. Thousands were employed just to maintain its irrigation systems. Yet I hadn’t even heard of the place. Much of central Asian architecture of the time was lost because buildings were not built out of stone but of more perishable materials. But the cities were huge and glorious for their time, according to eyewitnesses. </p>
-
-<p>Later into the book, there were some familiar places mentioned which helped me anchor a bit. My dad’s business trips to Taskhent, Almaty in the heart of the region where some of my friends were born, as well as song references: the <a href="https://www.youtube.com/watch?v=gmfjt0DnfCs">Tian Shan mountains, lake Issik Kul</a>. I love it when I have multiple angles on the same concept. It feels like things snap into place!</p>
-
-<h1>Why did the Islamic golden age happen?</h1>
-
-<ul>
-<li>Hardship and need for water meant complex irrigation systems required advances in science and technology.</li>
-<li>Subsequent general prosperity (great harvests) meant intellectuals could devote time to science and art. </li>
-<li>Social norms from pre-Islam: rulers needed to patronize the arts to show their greatness. </li>
-<li>Religious pluralism: Buddhism, Hinduism, Judaism and Zoroastrianism were common and coexisted. As Islamic scholars documented each prior culture, they adopted pieces of it.</li>
-</ul>
-
-<h1>Why did the golden age end?</h1>
-
-<p>The author does a good job dismantling Sonia Brenkes’ argument that there was no decline, and that westerners are just culturally insensitive. I liked that. Starr illustrates a clear decline both quantitatively and qualitatively. He puts a lot of the blame on Sunni-Shia conflicts and restrictions in freedoms of expression. Universities languished while madrasas thrived. Printing took a very long time to be adopted. </p>
-
-<p>The Mughal, Ottoman, and Safavids, Empires that followed Timur and the period covered in the book, were rich and powerful, but focused on aesthetics, art, and architecture over science. Many great books crumbled from neglect over this period. Europeans were the ones who launched efforts to preserve the ailing manuscripts. </p>
-
-<p>The decline happened sometime around 1100. Starr enumerates many potential reasons for the decline, and rejects each in turn:</p>
-
-<ul>
-<li>Climate change: the region’s climate hasn't changed much then to now. The efforts of the oasis irrigators were thwarted when the mongols came to power, but this was after the decline. </li>
-<li>Innate tendencies of Mongols: mongols came well after the start of the decline so cannot be the cause. </li>
-<li>Vasco de Gamma, because his sea route opened trade which impoverished the land routes: unlikely, since the sea route was encouraged by high tariffs and bandits along the land routes. Also intellectual decay came before economic decay. Great Caravanserai were built in 11 and 12th centuries.</li>
-<li>Decline in patronage from rich nobles and split up of large empires into emirates: the same laws were in place during cultural vitality, same ability to donate to foundations. But at the point of decline, money went to madrasas and not individual creators. </li>
-<li>The Turks sucked, but the Persians were awesome: There were definitely greats among the Turks though. </li>
-<li>A decline of large empires: Timur’s was the last, but again this splintering happened well after the start of the decline.</li>
-</ul>
-
-<p>Ultimately the author decides the main reason for decline is a rift between Sunni and Shiite sects that led to a surge in intolerance. Rational thought and science was caught on the crossfire between the two. Great thinkers like Al-Ghazali gave firepower for restrictive legalistic interpretation of Sharia which led to tighter links between religion and statecraft. Also the rise of Sufism turned society to metaphysics and away from science.</p>
-
-<h1>Great people and their ideas</h1>
-
-<p>I didn’t get a great sense for the full impact of the intellectual output of Central Asia during this golden age. It still seems to me like the largest contributions were preserving Greek works, and popularizing Indian mathematics.</p>
-
-<p>Great thinkers found themselves between three fundamental camps intuition, reason, and revelation. At first, reason reigned, math (<a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi">Al-Khwarizmi</a>) science (<a href="https://en.wikipedia.org/wiki/Al-Biruni">Al-Biruni</a>) and medicine (<a href="https://en.wikipedia.org/wiki/Avicenna">Ibn Sina</a>) flourished, free thinkers (<a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Zakariya_al-Razi">Al-Razi</a>) were given a platform, and strange Islamic-rationalist hybrids went to great extremes. Later, the mood changed and revelation became the last word (<a href="https://en.wikipedia.org/wiki/Al-Ghazali">Al-Ghazali</a>).</p>
-
-<h2>Al-Kwarazmi’s mathematics</h2>
-
-<p>Al-Khwarizmi (780 - 850) was a popularizer of mathematics and integrated the Indian invented decimal notation system into his works. He wrote practical books for tradesmen to apply mathematics to their craft, formalizing some algebraic manipulations. He and many others exemplified the sort of mathematical, physical, medical intellectual activity of the time.</p>
-
-<h2>Extremely rational Islam!?</h2>
-
-<p>For a time, reason was so revered in the Islamic world, that rationalist schools of Islamic theology emerged. The adherents of the <a href="https://en.wikipedia.org/wiki/Mu%CA%BFtazila">Muʿtazili</a> school are best known for rejecting the widely accepted doctrine of the Qur'an as uncreated and co-eternal with God, deducing that if the Quran is the word of God, he logically "must have preceded his own speech".</p>
-
-<p>The movement reached its political height in 833 under Caliph al-Ma'mun, when Sunni and Shia scholars were punished, imprisoned, or even killed unless they conformed to Muʿtazila doctrine. The policy lasted for fifteen years, continuing through the reigns of al-Ma'mun's immediate successors.</p>
-
-<h2>Ibn-Sina and Al-Biruni debate</h2>
-
-<p>Ibn Sina (980 – 1037) and Al-Biruni (973 - 1050) were contemporaries and had a public debate which took place over many years and can be traced in their preserved letters. This feels very modern, western renaissance-y, and they dug deep into fundamental questions. If heat rises, how does the sun’s heat reach the earth? Was Aristotle right that planets have neither weight nor mass?</p>
-
-<p>Biruni focused on physics and mathematics and reason. He was an empiricist at heart, and very practical. Biruni definitely has the author’s sympathies (and mine, of course), and seems like the winner on almost all counts. He seems ridiculously advanced in many ways, often having really good hunches for science that would be discovered 500 years later. Biruni suggested that maybe orbits could be elliptical, which was shocking given previous assumptions that movement can only be linear or circular. He somehow knew and wrote about fossils, which is very surprising given a recently <a href="https://podcasts.apple.com/us/podcast/art-science-deep-time-conceiving-inconceivable-in-19th/id1246993791?i=1000464847732">Long Now talk</a>, which dates the first European fossil discoveries to the 19th century.</p>
-
-<p>In many cases in the debate, Ibn Sina was right, like suggesting that light does not emanate from the eyes, as was the platonic ideal, but instead comes from the world. </p>
-
-<h2>Al-Ghazali’s anti-rationalism</h2>
-
-<p>Al-Ghazali (1058 - 1111) was a philosopher and theologian that studied with rationalists but adopted an anti-rationalist stance and sided with islamic mystics. </p>
-
-<p>Meanwhile the sultanate became more extreme and intolerant, and Al-Ghazali gave them the theory on which to justify their politics, confidently suggesting that philosophers were apostates, and that even after a conversion to Islam, the subject may be a closeted unbeliever. Thus if a philosopher fell out of favor with authorities he could be labeled an apostate and effectively lynched.</p>
-
-<p>Al-Ghazali’s patron was killed, forcing him to change directions towards Sufism, a rising branch of Islamic mysticism. He justified his new path as the best possible life for all people with his characteristic zeal. </p>
-
-<p>In <a href="https://en.wikipedia.org/wiki/The_Incoherence_of_the_Philosophers">The Incoherence of the Philosophers</a>, Al-Ghazali solved many problems at once, explaining his popularity:</p>
-
-<ol>
-<li>Devastating weapons to use against philosophers.</li>
-<li>Justified moving Sufism into central Muslim life.</li>
-<li>Shifted political and intellectual atmosphere from philosophizing from first principles to sharia law.</li>
-</ol>
-
-<p>Al-Ghazali influences many theologians and philosophers, from Acquinas to Hume to Maimonides. </p>
-
-<p>A wise modern science administrator once quipped, “an active scientist is always right, and the younger he is, the more right he is”. In contrast, Al-Ghazali wrote:</p>
-
-<blockquote>
-  <p>The most important truths are already fully accessible in the Quran and Hadiths and are embodied in the Sharia. Faith, not science and rigorous thought, is the key to unlocking them. It it is most likely to appear among the elders (Aksakals) or Sufi masters whose lifelong pursuit of wisdom gives them the right and duty to teach the young. Let them impart wisdom, and let the young listen.”</p>
-</blockquote>
-
-<h2>Omar Khayyam</h2>
-
-<p>Omar Khayyam was a great scientist and mathematician from Nishapur, active during the Seljuk era. It was only in his old age and exile from Merv, he turned to wine and poetry for which he is most known today. He watched in horror Al-Ghazali rose to prominence.</p>
-
-<h1>Chronology</h1>
-
-<p>Most of what follows is chronological-ish summary of what happened in the region before, during, and after the Islamic enlightenment.</p>
-
-<h2>Before the Arab conquest (pre-622)</h2>
-
-<p>This was the time of the first mounted horses, the first saddles in the first stirrups. This gave the Central Asians huge advantage over chariots. In addition it made them more mobile and nomadic. However these were not the stereotypical nomads that conflicted with city dwellers. These peoples needed goods that would come from cities, and the author paints a rather convivial picture of the two groups of people living in relative harmony. Central Asian cities were large and flexible in relation to Mediterranean cities which were quite fragile and small.
-￼￼￼￼￼
-Due to the harsh conditions of the region, engineers really needed to build solid irrigation systems. And the public understood this, and so technocrats were elevated in status. A lot of technical domains involved passing knowledge down from generation to generation, as a result of these professions were often practiced by groups of ethnically homogeneous people. For example glassblowing was predominantly Jewish practice. The pre-Islamic Central Asians were super literate. Sadly, little is left of that era because the Arabs burned a lot of their books in their invasion. ￼￼￼</p>
-
-<p>The arid conditions were such that cities had to be built around oases which were pretty far spaced from one another. This meant that you couldn't really have large empires, as in Egypt for example all along the Nile.</p>
-
-<p>Zoroastrianism was dominant in the area and had a huge impact on major world religions. I know nothing about it other than that “Thus Spake Zarathustra” song. Apparently Zoroaster invented the idea of heaven, hell, and redemption.</p>
-
-<p>By 800, Roman roads were no longer needed and fell into disrepair. Instead, camels were very actively used for transport of goods but they couldn't carry as much weight as wheeled carts so trade skewed towards materials that were especially valuable and not particularly heavily. This is the “silk road”, although silk was just one of many goods, including lapis lazuli, emeralds, gold and other precious metals, ferried across this route. Dromedary or single humped camel's were phased out in favor of Bactrian (two hump) camels who are more hardy.</p>
-
-<h3>Fate of old books</h3>
-
-<p>Interesting trend of book burning by conquering civilizations. A Chinese dynasty referred to in Debt also burned all records kept before them. And the conquering Muslims burned huge swaths of history, impeding historians even today. But not all book destruction was so sudden, a lot of Islamic enlightenment books were simply allowed to decompose through neglect.</p>
-
-<h2>Arab conquest (622-661)</h2>
-
-<p>First the conquest in Central Asia proceeded slowly. Over centuries it rolled out, also stunted by internal conflict within the Islamic faith, the schism between followers of Mohameds direct line and the Ussayids.  Echoes of which continue to this day with the Sunni Shia rift. </p>
-
-<h3>Islamic schism cheat sheet</h3>
-
-<p>After Muhammad’s death, a schism emerged in Islam: who can lead the Muslim world? Two main factions:</p>
-
-<ol>
-<li>Any Muslim can lead (Umayyad Caliphate, 661 - 750). Now known as Sunni (HQ: Saudi Arabia)</li>
-<li>Only blood descendants of Ali, Muhammad’s son-in-law and appointed heir, can lead (Abbasid Caliphate, 750 - 1258). Now known as Shia (HQ: Iran)</li>
-</ol>
-
-<h2>Umayyads (661 - 750)</h2>
-
-<p>A particularly vicious conqueror <a href="https://en.wikipedia.org/wiki/Qutayba_ibn_Muslim">Qutayba ibn Muslim</a> (Umayyad) set out to finally quell central Asian forces. He was uncharacteristically brutal, likely out of a lack of self confidence. He was responsible for burning whole libraries of Zoroastrian works at Buchara, and killing and enslaving thousands brutally. Seeking certainty, Qutayba asked his forces to swear fealty to him, and was met with silence, only to be murdered days later. </p>
-
-<p>Following Qutayba came a more moderate governor and general <a href="https://en.wikipedia.org/wiki/Nasr_ibn_Sayyar">Nasr ibn Sayyar</a> who undid some of the more draconian policies, but only after a series of terrible mistakes which alienated the indigenous population, by first levying a tax on non Muslims, then having a mass conversion which undid the tax base, and then a law which forced men to prove their faith by undergoing circumcision.</p>
-
-<h2>Abbasids (750 - 1258)</h2>
-
-<p>Ultimately a general named <a href="https://en.wikipedia.org/wiki/Abu_Muslim">Abu Muslim</a> consolidated a lot of power in Central Asia, was quite heterogenous in his faith and grew a large coalition army consisting mostly of central Asians. Ultimately these forces obliterated the remaining Umayyads in Damascus and quelled the Chinese forces to the East. </p>
-
-<p><a href="https://en.wikipedia.org/wiki/Al-Mansur">Al-Mansur</a> was selected to rule the Abbasids, who were at this point concerned about Abu Muslim’s faith and loyalty. Mansur was a hard liner and didn't trust Abu Muslim, ultimately having him killed in hopes of stamping out any form of Shiism and quelling Central Asian influence. He dumped Abu Muslim’s body in the Tigris. This effectively martyred the man, who was extremely popular, and led to many more rebellions against the already unpopular Abbasid rulers. Many of these claimed to be in Abu Muslim’s blood line, including <a href="https://en.wikipedia.org/wiki/Al-Muqanna">Al-Muqanna</a>, famously wearing a green face mask, inspiring stories by Borges and Moore.</p>
-
-<blockquote>
-  <p>Much the way Greek culture eventually conquered a triumphant Rome, Central Asian culture was now in position to conquer the Abbasids and their new capital, Baghdad. </p>
-</blockquote>
-
-<h3>Baghdad modeled after Merv (762)</h3>
-
-<p>The most culturally important city of the time, <a href="https://en.wikipedia.org/wiki/Round_city_of_Baghdad">Baghdad</a> was essentially a planned circular city, likely modelled after Merv’s administrative centre, with Merv-imported architects and craftsmen central in the planning and construction. It was built my Al-Mansur, the same Abassids caliph that killed Abu Muslim. Parts of the city were named in honor of Merv too, including a street and a quarter. </p>
-
-<p><a href="https://en.wikipedia.org/wiki/Harun_al-Rashid">Harun al-Rashid</a>, Al-Mansur’s grandson eventually became caliph. His leadership coincided with a golden age in Baghdad, exemplified by the legendary <a href="https://en.wikipedia.org/wiki/House_of_Wisdom">House of Wisdom</a>, the Grand Library of Baghdad. His rise to power was in part sponsored by the <a href="https://en.wikipedia.org/wiki/Barmakids">Barmakids</a>, a very rich family of central Asian heritage and with deep Buddhist roots. They were great sponsors of science, medicine, and philosophy. They are most famously known for having translated large numbers of classic Greek texts into Arabic.</p>
-
-<p>Translations were selective. Only Greek texts, no Latin works were translated. Also no tragedies, history, or drama was translated, mostly focused on philosophy and medicine and science. </p>
-
-<p>Baghdad has a glorious phase as described in 1001 nights, but descended into a regression that lasted several generations. Ultimately it's golden age was relatively short lived and the cultural and scientific centre shifted back to central Asian cities. </p>
-
-<h3>Decline of Baghdad (808)</h3>
-
-<p>Baghdad's golden age was short. The new caliph realized that Central Asia would need its autonomy and expanded the area of <a href="https://en.wikipedia.org/wiki/Greater_Khorasan">Khorasan</a> under <a href="https://en.wikipedia.org/wiki/Tahir_ibn_Husayn">Tahir</a>, his appointed governor. Tahir promptly declared independence and Khorasan continued to be a client state, paying tribute to Baghdad but largely autonomous. </p>
-
-<blockquote>
-  <p>Khorasan comprised the present territories of northeastern Iran, parts of Afghanistan and much of Central Asia. The province was often subdivided into four quarters. Nishapur (present-day Iran), Marv (present-day Turkmenistan), Herat and Balkh (present-day Afghanistan) were the centers, respectively, of the westernmost, northernmost, southernmost, and easternmost quarters</p>
-</blockquote>
-
-<p>Tahir’s son took over after his deceased father and instituted broad minded educational reforms, insisting that even the poor farmers need to be educated. Simultaneously, there was some unrest among the patricians of the city. The rift was around a more or less literal interpretation of the Quran, but ultimately which of the two camps would wield power over the other. Ultimately the whole land owning class gently self destructed. </p>
-
-<p><a href="https://en.wikipedia.org/wiki/Nishapur">Nishapur</a> was the cultural capital in the 9th century, and on the backdrop described above, much philosophical activity ensured. From hardcore Islamist literalists to militant atheists, to Aristotelian rationalists that were still fervent Muslims. </p>
-
-<p>A populist band of brothers, <a href="https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar">Ya'qub</a> and his younger led a rebellion against the Abbasid caliph, threatening Baghdad. Barely Islamic at all, this band restored even more autonomy to the central Asian area of Khorasan. Eventually defeated, he and his younger brother briefly formed the <a href="https://en.wikipedia.org/wiki/Saffarid_dynasty">Saffarid dynasty</a>, autonomous large chunk of Central Asia.</p>
-
-<h2>Samanid Empire (819 – 999)</h2>
-
-<p>Samanid state was founded by four brothers; Nuh, Ahmad, Yahya, and Ilyas. Each took control over a large city in the region. Ultimately one of them took over but did so bloodlessly, removing just brothers from power without killing them.</p>
-
-<p>The Samanid allowed for a more diverse cultural base, keeping Arabic but also allowing indigenous languages: Persian, Turkic. This ultimately paved the way for more Turkish influence in the region.</p>
-
-<h2>The Kara-Khanids (990 - 1040)</h2>
-
-<p>The <a href="https://en.wikipedia.org/wiki/Kara-Khanid_Khanate">Kara-Khanids</a>, Turkish nomads began moving west. As the Samanid empire was declining, they made easy targets. They converted to Islam (from their native Tengrism) but weren't especially religious. Where they invaded Central Asia from the east and gained control over large chunks of it, they erected incredibly tall minarets known as victory towers, such as the <a href="https://en.wikipedia.org/wiki/Kalyan_minaret">Kalyan minaret</a>. They were mostly militaristic and remained true to their steppe culture. </p>
-
-<p>This is also a time of Turkish nationalism and a general popularization of the Turkic languages. Their capital was <a href="https://en.wikipedia.org/wiki/Balasagun">Balasagun</a> (now destroyed), but the empire extended quite far west, into <a href="https://en.wikipedia.org/wiki/Samarkand">Samarkand</a> and <a href="https://en.wikipedia.org/wiki/Termez">Termez</a>.</p>
-
-<h2>The Seljuk Empire (1037 – 1194)</h2>
-
-<p>The Seljuks were a Turkish people that originated near the Aral Sea, but expanded westward, taking Khorasan, and eventually going as far west as to conquer most of Anatolia.</p>
-
-<p>Sanjar, The last ruler of the Seljuks favored monumental architecture, which turned out to be quite influential. <a href="https://en.wikipedia.org/wiki/Tomb_of_Ahmed_Sanjar">Sanjar’s tomb</a> inspired the Duomo in Florence, <a href="https://en.wikipedia.org/wiki/Saint_Isaac%27s_Cathedral">Isaakievskiy Sobor</a> in St. Petersburg, and the Capitol Building in Washington DC.</p>
-
-<h2>Mongol Invasions (1219 - 1370)</h2>
-
-<p>Genghis Khan had no initial plan to conquer Khwarezm. He sent the ruler of the Khwarezmid Empire a message seeking trade and greeted him as his neighbor. Hoping to unify Turks and Mongols under one nomadic banner ("people in felt tents”), Genghis Khan successfully conquered other nomadic peoples with relatively little bloodshed. To establish trade ties, Genghis sent a 500-man caravan, but the <a href="https://en.wikipedia.org/wiki/Inalchuq">governor of Otrar</a> had them arrested as spies and executed the entire party with the Shah’s support. </p>
-
-<p>The mongols were swift and ruthless in their revenge. Genghis Khan besieged Otrar in 1219, which resisted for five months and then fell. In the ensuing war, lasting less than two years, the Khwarezmid Empire was destroyed. The Mongols ruled</p>
-
-<h2>Timurid Empire (1370 - 1507)</h2>
-
-<p>Timur (also known as Tamerlane), a warlord of Turco-Mongol lineage, established the empire between 1370 and his death in 1405. He envisioned himself as the great restorer of the Mongol Empire of Genghis Khan.</p>
-
-<p>By 1500, the Timurid empire was in decline due to infighting and pressure from Safavids and Ottomans. Babar, who claimed to be Genghis Khan’s descendant from father, and Timur’s descendant from mother, founded the Mughal empire which ruled over India. The three major Islamic empires split between them most of the Islamic world.</p>
-
-<hr />
-
-<p>Many open questions and lingering threads remain, as well as directions for further exploration.</p>
-
-<ul>
-<li>I’d never heard of the epic poem Shahnameh, but it seems to differ from its Greek predecessors by being more inward looking and existential in nature. Worth a looksee if there are good translations.</li>
-<li>Read the Borges stories “The Masked Dyer, Hakim of Merv”, and “The Zahir”.</li>
-<li>Read something by Omar Khayyam. Maybe “The Rubaiyat”?</li>
-<li>The first poem in Lalla-Rookh (1817) by Thomas Moore is “The Veiled Prophet of Khorassan”.</li>
 </ul>
 
 

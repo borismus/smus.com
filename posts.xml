@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2022-10-13T11:10:23-00:00</updated>
+  <updated>2022-10-23T14:41:03-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -1832,7 +1832,7 @@ Once you are ready (this will take a while, perhaps 500 iterations or 2
 minutes, depending on your hardware), stop training, and press the save
 weights (file) button.  This will download a JSON file.</p>
 
-<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p></li>
+<p><img src="/web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p></li>
 <li><p>Then go to <a href="https://google.github.io/web-audio-recognition/inference-demo/?model=yesno">the inference demo page</a>, press the load weights (file) button
 and select the downloaded JSON file to load the trained model.</p></li>
 <li><p>Flip the switch, grant access to the microphone and try saying "yes" or "no".
@@ -1909,7 +1909,7 @@ In ML parlance, we need to set the <a href="https://en.wikipedia.org/wiki/Hyperp
 setting the learning rate (how much to follow the gradient at each step) and
 batch size (how many examples to ingest at a time). And we're off to the races:</p>
 
-<p><img src="/web-voice-command-recognition//web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p>
+<p><img src="/web-voice-command-recognition/2-training-graph.png" alt="Training graph" /></p>
 
 <p>During training, the gradient descent algorithm tries to minimize cost, which
 you can see in blue. We also plot accuracy in orange, which is occasionally
@@ -2000,7 +2000,7 @@ domains to audio. This post sets the scene for the auditory equivalent of MNIST.
 Rather than recognize handwritten digits, we will focus on recognizing spoken
 commands. We'll do this by converting sounds like this:</p>
 
-<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+<p><audio src="/web-audio-ml-features/left.wav" controls></audio></p>
 
 <p>Into images like this, called log-mel spectrograms, and in the <a href="/web-voice-command-recognition/">next post</a>,
 feed these images into the same types of models that do handwriting recognition
@@ -2073,7 +2073,7 @@ useful companion to that tutorial.</p>
 
 <p>Let's begin with an audio example (a man saying the word "left"):</p>
 
-<p><audio src="/web-audio-ml-features//web-audio-ml-features/left.wav" controls></audio></p>
+<p><audio src="/web-audio-ml-features/left.wav" controls></audio></p>
 
 <p>Here's that raw waveform plotted as pressure as a function of time:</p>
 
@@ -6046,7 +6046,7 @@ if somewhat non-sequitur ending to the conference.</p>
 <p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>
 
 <p>Your smartphone is now in a box, so how do you do input? Now that we have a
-<a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
+<a href="/magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
 
 <!--more-->
 
@@ -6166,7 +6166,7 @@ which is the smallest value of the first half of the window, and <code>max_2</co
 largest value in the second half. Next, we compare to empirically determined
 thresholds perform the appropriate transition in the state machine. I won't bore
 you with details of normalizing the data, etc but you can find all of the
-details in <a href="/magnetic-input-mobile-vr//magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
+details in <a href="/magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
 github</a>.</p>
 
 <h2>What's next?</h2>
