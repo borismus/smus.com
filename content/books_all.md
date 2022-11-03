@@ -10,13 +10,14 @@ rating: yes
 posted: Oct 30, 2022
 cover: /assets/book-covers/power-of-ritual.jpg
 
-Ritual is closely associated with tradition, but Casper ter Kuile offers a third approach, which is to embrace the good parts of religion, and reconstruct your own rituals. At times, the book gave me annoying self-help vibes, other times it came off as overly woke. Overall, I'm pretty sure it was ghost written by a slightly flamboyant gay alien who just landed on Earth.
+Ritual is closely associated with an ancient monolithic tradition, but Casper ter Kuile encourages us to cherry-pick the good parts from many traditions, and reconstruct your own rituals. At times, the book gives off obnoxious self-help vibes, other times it came off as overly woke. Overall, I'm pretty sure it was ghost written by a slightly flamboyant gay alien who just landed on Earth.
 
-I am thankful that I don't need to reinvent rituals as I find myself firmly rooted in the Jewish tradition, where rituals are glorified (see [[Jewish tradition of doing first and understanding later - na'aseh v'nishma]]). Yet my concept of God is sufficiently abstract that I cannot help but do some extra work to fill in the gaps.
+I am thankful that I personally don't need to reinvent rituals rom scratch, as I find myself firmly rooted in the Jewish tradition. In this tradition, rituals are glorified as an end in themselves (see [[Jewish tradition of doing first and understanding later - na'aseh v'nishma]]). But I'm way too skeptical to embrace the whole canon wholesale.
+That said, I'm much more inclined to ground myself in some traditional basis and make modifications, rather than start from "first principles". In Rationalist circles, unmoored by any traditional or religious foundation, solstice celebrations are fully made up. The result is inspiring in some ways, but also feel cringeworthy and a little bit fraudulent.
 
-Still, I'm much more inclined to ground myself in some traditional basis and make modifications, rather than start from "first principles". In Rationalist circles, solstice celebrations are inspiring in some ways, but their lack of grounding in a firm tradition is somehow cringeworthy.
+This book inspired me to start a journalling practice, and incorporate aspects of "prayer" into it. Also, I've implemented tech sabbath, which kicks in automatically on my devices from Friday 6pm to Saturday 6pm.
 
-This book inspired me to start a journalling practice, and incorporate aspects of "prayer" into it. Also, I've implemented tech sabbath, which kicks in automatically on my devices from Friday 6pm to Saturday 6pm. Here are my (slightly sanitized) notes on the book:
+Here are my (slightly sanitized) notes on the book:
 
 # Sacred reading and Lectio Divina
 I found value in the sacred reading idea that ter Kuile outlines, and appreciated his breakdown of various kinds of reading. The crux of the sacred practice is to read a text but then address questions that are far more broad ranging than the text as written. As an example of how far this practice can be stretched, ter Kuile points to his [Harry Potter and the Sacred Text](https://www.harrypottersacredtext.com/) podcast.
@@ -32,11 +33,11 @@ Lectio Divina comes from Christian tradition, but there are similar traditions i
 
 # A modern dearth of celebrations
 
-The author suggests insightfully that the reason that weddings are so overblown is also the reason that it is because there are so few other rituals in our daily lives that we have the luxury of attending to. In the mainstream west, there are no more harvest festivals, no real Easter celebrations, and not much for Christmas either.
+The author suggests insightfully that the reason that weddings are so overblown is to compensate for a dearth of rituals in our daily lives. In the mainstream west, there are no more harvest festivals, no real Easter celebrations, and not much for Christmas either.
 
-The religious and spiritual calendar tends to follow a yearly cycle. We should embrace that more. There is something comforting about this cyclical nature, although it’s not a strict repetition of prior celebrations. The world changes, and you yourself change. It’s more of a spiral...
+The religious and spiritual calendar tends to follow a yearly cycle. Casper thinks we should embrace that more. There is something comforting about this cyclical nature, although it’s not a strict repetition of prior celebrations. The world changes, and you yourself change in some direction, leading to a spiral-like progression.
 
-I am reminded of Rabbi Heschel's take on Jewish time and its emphasis on celebrating historical events as part of the yearly cadence. This, by the way, is from [[Notes on The Sabbath by Heschel]] which I am reading next.
+I am reminded of Rabbi Heschel's take on "Jewish time" and its emphasis on celebrating historical events as part of the yearly cadence. This, by the way, is from [[Notes on The Sabbath by Heschel]] which I am reading next.
 
 # Connecting with nature
 A few lenses when connecting with nature:
@@ -48,9 +49,9 @@ A few lenses when connecting with nature:
 
 Perspectives one and two are dominant in our culture. Three I didn't quite understand, but I resonate with four.
 
-Our thoughts encourage us to see animals and plants as an "individual sack". In fact the skin of a thing is ecologically much more like a pond surface than a shell. The author describes this as "Delicate Interpenetration"; evocative if a bit disgusting. A technique: verbalize the landscape from its perspective. “I am the pond and the pond is me”
+A common worldview sees animals and plants as "individual sacks". In fact, the skin of a thing ecologically speaking much more like a pond surface than a sack or a shell. The author describes this as "delicate interpenetration", which is evocative if a bit disgusting. I strongly resonate with the idea of mutual interdependence, and the elation and suffering which is to be found in nature. Shared laughter and shared suffering is critical for community. Also see [[Two types of fun, type 1 and type 2]].
 
-I strongly resonate with the idea of mutual interdependence, and the elation and suffering which is to be found in nature. Shared laughter and shared suffering is critical for community. Also see [[Two types of fun, type 1 and type 2]].
+A technique: verbalize the landscape from its perspective. “I am the pond and the pond is me”
 
 
 # A modern take on prayer
