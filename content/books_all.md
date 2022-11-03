@@ -4,6 +4,80 @@ class: split
 type: book
 
 
+The Power of Ritual by Casper ter Kuile
+===
+rating: yes
+posted: Oct 30, 2022
+cover: /assets/book-covers/power-of-ritual.jpg
+
+Ritual is closely associated with tradition, but Casper ter Kuile offers a third approach, which is to embrace the good parts of religion, and reconstruct your own rituals. At times, the book gave me annoying self-help vibes, other times it came off as overly woke. Overall, I'm pretty sure it was ghost written by a slightly flamboyant gay alien who just landed on Earth.
+
+I am thankful that I don't need to reinvent rituals as I find myself firmly rooted in the Jewish tradition, where rituals are glorified (see [[Jewish tradition of doing first and understanding later - na'aseh v'nishma]]). Yet my concept of God is sufficiently abstract that I cannot help but do some extra work to fill in the gaps.
+
+Still, I'm much more inclined to ground myself in some traditional basis and make modifications, rather than start from "first principles". In Rationalist circles, solstice celebrations are inspiring in some ways, but their lack of grounding in a firm tradition is somehow cringeworthy.
+
+This book inspired me to start a journalling practice, and incorporate aspects of "prayer" into it. Also, I've implemented tech sabbath, which kicks in automatically on my devices from Friday 6pm to Saturday 6pm. Here are my (slightly sanitized) notes on the book:
+
+# Sacred reading and Lectio Divina
+I found value in the sacred reading idea that ter Kuile outlines, and appreciated his breakdown of various kinds of reading. The crux of the sacred practice is to read a text but then address questions that are far more broad ranging than the text as written. As an example of how far this practice can be stretched, ter Kuile points to his [Harry Potter and the Sacred Text](https://www.harrypottersacredtext.com/) podcast.
+
+Adapted from Lectio Divina, here are four levels of analysis of a sacred text:
+
+1. Literal content: what is happening?
+2. Allegorical content: what is this alluding to, what is the bigger meaning?
+3. Personal reflection: what does this evoke in your personal experience?
+4. Action: what do you want to do about it?
+
+Lectio Divina comes from Christian tradition, but there are similar traditions in other cultures. In the Jewish tradition, ḥavruta is a study group structure often practiced in Yeshivas.
+
+# A modern dearth of celebrations
+
+The author suggests insightfully that the reason that weddings are so overblown is also the reason that it is because there are so few other rituals in our daily lives that we have the luxury of attending to. In the mainstream west, there are no more harvest festivals, no real Easter celebrations, and not much for Christmas either.
+
+The religious and spiritual calendar tends to follow a yearly cycle. We should embrace that more. There is something comforting about this cyclical nature, although it’s not a strict repetition of prior celebrations. The world changes, and you yourself change. It’s more of a spiral...
+
+I am reminded of Rabbi Heschel's take on Jewish time and its emphasis on celebrating historical events as part of the yearly cadence. This, by the way, is from [[Notes on The Sabbath by Heschel]] which I am reading next.
+
+# Connecting with nature
+A few lenses when connecting with nature:
+
+1. Nature is a resource for humans to exploit for our own purposes.
+2. Nature is to be avoided. We should get away from it as far as possible.
+3. Nature is like a lover.
+4. We are part of nature not distinct from it.
+
+Perspectives one and two are dominant in our culture. Three I didn't quite understand, but I resonate with four.
+
+Our thoughts encourage us to see animals and plants as an "individual sack". In fact the skin of a thing is ecologically much more like a pond surface than a shell. The author describes this as "Delicate Interpenetration"; evocative if a bit disgusting. A technique: verbalize the landscape from its perspective. “I am the pond and the pond is me”
+
+I strongly resonate with the idea of mutual interdependence, and the elation and suffering which is to be found in nature. Shared laughter and shared suffering is critical for community. Also see [[Two types of fun, type 1 and type 2]].
+
+
+# A modern take on prayer
+
+Prayer can be viewed as way to getting yourself to verbalize how you truly feel. It feels reductive to use prayer as a journaling technique, but also really intriguing.
+
+Four steps prayer framework:
+
+1. **Decentering**: stop thinking about your individual experience, and refocus on the profound.
+2. **Contrition**: what have I done that I shouldn’t have? Where have I gone astray? Incidentally this is all of Yom Kippur.
+3. **Thanksgiving**: give thanks for being alive. For the body, for health and people and meaning and joy. Recognize that the goodness comes from without, outside ourselves.
+4. **Supplication**: what one thinks about when one thinks of prayer: making requests. One approach is to sequence it, repeating three intentions. (1) Self, (2) someone we love or a stranger, (3) someone with whom you’re struggling (from Jack Kornfield)
+
+Unless a pretty literal god exists, this sort of prayer will not work directly to change the world. But it can change you. Why Journal?
+
+>Talk about who you are, and who you wish to become. Talk about what matters most. Unless we speak the truth, we will forget what we want to stay loyal to.
+
+Rhymes so much with the C. S. Lewis' Inner Circle and John Boyd's "To be somebody or to do something".
+
+# Random
+
+- Spiritual music I should revisit: Arvo Pärt - [Spiegel im Spiegel](https://www.youtube.com/watch?v=TJ6Mzvh3XCc)
+- Beyond Monteverdi: Jacobus Clemens non Papa wrote some dope choral music, including a [bunch of motets](https://www.youtube.com/watch?v=yLRgLM0HHek).
+- Simone Weil wrote that god and prayer can be found in the most surprising places, like in a [geometry problem](https://www.wabashcenter.wabash.edu/2018/08/simone-weil-on-study-prayer-and-love/).
+
+
+
 The Toynbee Convector by Ray Bradbury
 ===
 rating: yes
