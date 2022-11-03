@@ -3,7 +3,7 @@ from livereload import Server, shell
 import os
 import formic
 
-ROOT = 'preview-www'
+ROOT = '/tmp/smus.com-preview'
 LIGHTNING = os.path.expanduser('~/Projects/lightning/lightning')
 
 BUILD_COMMAND = shell('%s -o %s' % (LIGHTNING, ROOT))
