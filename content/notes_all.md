@@ -4,6 +4,19 @@ type: note
 class: split
 
 
+Links for September 2022
+===
+posted: September 30, 2022
+
+- [Can Russia Execute a Gas Pivot to Asia?](https://www.csis.org/analysis/can-russia-execute-gas-pivot-asia) (*CSIS*) — Shines a light on some difficulties Russia will be facing as it tries to send most of its gas exports east rather than west, including the challenge of breaking into a brand new market full of much larger players, the need to build new pipelines, all while selling its product at a discounted rate.
+- [Addition vs Subtraction](https://mollyg.substack.com/p/addition-vs-subtraction) (*Molly Graham*) — Graham argues that corporations (like people) tend to add new processes, and rarely remove existing ones, which leads to a steady march towards the overly complicated. Rather than simply complain, Molly offers some interesting ideas for combating this trend, like declaring a yearly calendar jubilee, or for large companies to hire a full-time employee dedicated to looking for things to stop doing.
+- [Not So Wicked](http://weblog.tetradian.com/2014/05/09/not-so-wicked/) (*Tetradian*) — Tom Graves digs into the term "wicked problem", which in contrast to tame or kind problems do not have a definite answer, and are highly complex. He prefers the term "wild problem", which is also the term Russ Roberts uses in his eponymous book.
+- [Other People's Problems](https://skamille.medium.com/opp-other-peoples-problems-d7eb174724ee) (*Camille Fournier*) — Fournier emphasizes the importance of picking your battles in a corporate setting, and underscores just how difficult solving problems is, especially if they have a cultural element. "There’s always going to be something you can’t fix."
+- [On Extending Human Understanding of Animal Sensory Worlds Through AI](https://mysticalsilicon.substack.com/p/on-extending-human-understanding) (*David Gasca*) — Inspired by Ed Yong's latest book, Gasca observes that just like animals experience the world in a way that we cannot, AIs might do the same. An engaging summary of "An Immense World", which seems like a worthy read.
+- [Instagram, TikTok, and the Three Trends](https://stratechery.com/2022/instagram-tiktok-and-the-three-trends/) (*Stratechery*) — Ben Thompson describes the current transition from social media where you consume content from your friends (Instagram), to algorithmic media, where you consume extremely engaging content created by others (TikTok) to a speculative near future where AI generated content is the most engaging.
+- [Failure to Cope "Under Capitalism"](https://www.gawker.com/culture/failure-to-cope-under-capitalism) (*Gawker*) — Clare Coffey criticizes the quickness with which we are prone to blaming the system rather than looking inward. Then again, I am a sucker for any call to think seriously about the good life and pursue it wholeheartedly, despite the struggles and inevitable failures along the way.
+
+
 Links for August 2022
 ===
 posted: August 31, 2022
