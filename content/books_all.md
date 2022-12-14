@@ -4,6 +4,85 @@ class: split
 type: book
 
 
+The Sabbath by Heschel
+===
+rating: yes
+posted: Dec 15, 2022
+cover: /assets/book-covers/the-sabbath.jpg
+
+This is a great example of a branch book (see [[Narrative, tree, and branch books]]), containing one big idea followed by elaboration. In this case, the core idea is that the Jewish Sabbath celebrates time over space, which is a rare thing to celebrate. The elaboration is a poetic meditation on time's superiority over space, and it quickly gets koan-like, but in a way that is less repetitive than [[Finite and Infinite Games by James Carse]].
+
+# Sabbath: a cathedral in time
+
+"Where is god?" is often asked. It is assumed to be in a place. But what if instead, it is at a time? (Perhaps then, a better question to ask is "When is god"?)
+
+It is not a thing that lends significance to a moment, but a moment that lends significance to things. 
+
+> The meaning if the sabbath is to celebrate time rather than space. Six days a week we live under the tyrant of things of space; on the sabbath we try to become attended to the holiness in time. 
+
+Here's a silly story I found evocative:
+
+> Angels have six wings, one for each day of the week, with which they chant their song; but they remain silent on the Sabbath, for it is the Sabbath which then chants a hymn to God."
+
+Sabbath: the idea of a holy space is well understood. Not so the idea of a holy time. This in itself a beautiful insight. Rhymes with Finite and Infinite games, where the climax is arguably the abstract. But Heschel has more to offer.
+
+# Sabbath is the end, not the means
+
+Philo of Alexandria, spokesman of Greek speaking Jews was famous for his ability to blend Roman philosophy with Jerusalem's theology. He provided a practical reason for Shabbat: even athletes need to take a break sometimes:
+
+> For a breathing spell enables athletes to collect their strength with a stronger force behind them to undertake promptly and patiently each of the tasks set before them. (Philo)
+
+But it’s not the case that the Shabbat serves some instrumental purpose. It is an end in and of itself: 
+
+> The sabbath is not for the sake of the weekdays. The weekdays are for the sake of the sabbath.
+
+A passage in the book reminded me of the idea of God via negation. I find this to be an extremely powerful framing that I actually resonate with, despite not really being religious (see [[Negative theology and via negativa]]). Like a sculptor chipping away in the latent space of concepts.
+
+# Misery in space, solace in time?
+
+It is handy that the Jews, ever persecuted, forever wandering, sanctify a time, not a place. Very wise!
+
+The Jewish tradition converted cyclical festivals into ones that celebrate specific events from historical time. For example, Pesach went from harvest holiday to a commemoration of the Jewish exodus from Egypt.
+
+In the world of time, sabbaths are our great cathedrals. The holy of holies is Yom Kippur. 
+
+There is no Hebrew word for “thing”. Holiness of things is explicitly prohibited in idols and the story of the holy calf. It’s not a holy mountain or a holy sprint that was emphasized in Judaism. But instead a holy time. 
+
+
+# Freedom from technology
+
+Humanity has grown to know how to control space but we remain powerless to control time. So we try to use our time to make it subservient to space. 
+
+> Time to us is sarcasm, a slick treacherous monster with a jaw like a furnace incinerating every moment of our lives.
+
+Spirit of sabbath is to advance beyond technical civilization, become independent of it.
+
+Big idea: Shabbat helps us to emphasize resilience and independence from technology. We should learn to live with things but not depend on them. We should learn to live with people but not be dependent on them. This resonates with me from the perspective of type two fun, (see [[Manufactured suffering for resilience, antifragility and happiness]]). Along similar lines, one great way to get independent from tech is to go backpacking for a week... but I don't think this is the intent of the Sabbath.
+
+
+# Sabbath as eternity
+
+Sabbath as eternity or a taste of the world to come:
+
+> A story is told about a rabbi who once entered heaven in his dream. He was permitted to approach the temple in Paradise where the great sages of the Talmud, the Tannaim, were spending their eternal lives. He saw that they were just sitting around tables studying the Talmud. The disappointed rabbi wondered, “Is this all there is to Paradise?" But suddenly he heard a voice: "You are mistaken. The Tannaim are not in Paradise. Paradise is in the Tannaim."
+
+Salvation through study or knowledge? I don't think I fully understand this yet, but it feels important.
+
+> To Rabbi Shimeon, eternity was not attained by those who bartered time for space but by those who knew how to fill their time with spirit. To him the great problem was time rather than space; the task was how to convert time into eternity rather than how to fill space with buildings, bridges and roads; and the solution of the problem lay in study and prayer rather than in geometry and engineering.
+
+# Personal reflections
+
+Feels weird to be looking forward to Shabbat all week. Shouldn’t you aspire to enjoy every living moment? The restful aspect of sabbath adds variety to life, but if all of life were a sabbath, much would be lost.
+
+One is supposed to love the sabbath in the way that chivalric knights love their ladies. Shabbat as a bride or a queen? These analogies fall flat for me.
+
+Finding the balance between austerity (the way Shabbat still feels to me) and luxury “choice meals and beautiful garments” feels strange and unattainable.
+
+The sabbath prohibitions are in place to prevent “vulgarization of the grandeur of the day”. The sabbath is for enjoying the best meals, the best clothes. I find it a challenge to bring this into practice, especially as a parent of young children!
+
+The adage "buy experiences, not things" rhymes with some of the time over space wisdom in this book, although of course buying is far too vulgar, and explicitly prohibited on Shabbat.
+
+
 Impossible Owls by Brian Phillips
 ===
 rating: yes
