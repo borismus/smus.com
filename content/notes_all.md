@@ -4,6 +4,24 @@ type: note
 class: split
 
 
+Links for October 2022
+===
+posted: October 30, 2022
+
+- [What if Russia Uses Nuclear Weapons in Ukraine](https://www.theatlantic.com/ideas/archive/2022/06/russia-ukraine-nuclear-weapon-us-response/661315/) (*The Atlantic*) — What to do about a Russian tactical nuclear attack on Ukraine led to two very different responses from two groups tasked with this morbid scenario; a stark reminder about the contingency of history.
+- [Russia Wants to Lock Ukraine Back in the Soviet Cellar](https://time.com/6219200/what-russia-wants-ukraine/) (*Time*) — Pomerantsev describes a flourishing civil society in Ukraine, which comes at a time of great fear, evocatively describing the primal feeling of being alive triggered in the face of existential risk, looking upward, "like some medieval villager, the sky seems full of portents, danger, hope and symbols".
+- [Why Deception Is Probably the Single Most Important Leadership Skill](https://fortune.com/2016/06/02/lying-leadership-skills-expectations-communication/) (*Fortune*) — Argues that deception, not candor is a key quality in leadership because of reinforcing feedback loops: convincingly displaying confidence can attract the support that makes the confident posture become true, and similarly, projecting high expectations of employees leads to them performing better.
+- [Why No Roman Industrial Revolution](https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/) (*Bret Devereaux*) — Bret argues that the Industrial Revolution could have only happened in Britain in the late 18th century because of a very specific set of contingent events: the centuries-long arms race for the best cannon led to pressure-resistant cylinders, which enabled nascent piston steam engines; steam power found a killer app: pumping water out of coal mines, and it happened to be easy to run steam engines on coal, leading to a virtuous cycle of efficiency improvements until finally the steam engine was good enough for use in textile production, which through serendipity was also centered in Great Britain.
+- [Possibility Space](https://subconscious.substack.com/p/possibility-space) (*Gordon Brander*) — "You don’t need to *be* creative. The creative breakthrough already exists out there in the space of possibility. It’s just waiting to be discovered."
+- [Why Practice Judaism?](https://kvetch.substack.com/p/why-practice-judaism) (*Misha Saul*) — Misha writes vocatively about aspiring to connect with thousands of years of communal observance by leaning on religious rituals (na'aseh v'nishma). Like the commitment of marriage, religion is a covenant to fall back on when life becomes too complex and tumultuous.
+- [Model Metropolis](https://logicmag.io/play/model-metropolis/) (*Logic Magazine*) — Kevin describes how Jay W. Forrester's complex modeling influenced the creator of Sim City to build a game that promulgates similar biases to its players, but more generally explores the limits to modeling, and the built-in assumptions that models carry in them. While itself flawed, this article is a healthy reminder that a model is just a map, and possibly a faulty one.
+- [Simulation Games Might Be What The World Needs Now](http://dangrover.com/blog/2022/09/24/sim-games.html) (*Dan Grover*) — Simulated models of reality, argues Dan, aren't useful because they provide a perfect map of the territory, but because they can facilitate a grounded, concrete conversation without the "scaffolding of narrative". Almost always, they reinforce that the world is always more complicated than it looks.
+- [They Are Stealing Russia: Hyper-Capitalism Wrecked a Nation](https://www.theguardian.com/tv-and-radio/2022/oct/12/russia-adam-curtis-extreme-capitalism-liz-truss-traumazone) (*Adam Curtis*) — Curtis' BBC documentary takes the viewer into unique footage of late USSR and early modern Russian life, showing the chaos, rampant corruption and trauma which three decades ago sowed the seeds for Russia's current path.
+- [Xi Jinping's Party Is Just Getting Started](https://www.bbc.com/news/world-asia-china-63225277) (*BBC*) — Wingfield-Hayes chronicles Xi Jinping's contingent rise to consolidated power in China, from his fight against corruption under Hu Jintao, to a purge of the old party and its replacement with "Yes" men, to an inculcation of his ideas in everyday Chinese life. Strong echoes of Mao, Stalin, and Putin.
+- [Scintillation Points](https://studio.ribbonfarm.com/p/scintillation-points) (*Venkatesh Rao*) — Rao suggests that sceniuses (scenii?) form around preferred topics that he calls Scintillation points (after Schelling points), which serve as nebulous attractors for the group to make steady progress on clarifying, but also provide social validation for each individual that their exploration is worthwhile.
+- [John Boyd’s Roll Call: Do You Want to Be Someone or Do Something](https://www.artofmanliness.com/character/advice/john-boyds-roll-call-do-you-want-to-be-someone-or-do-something/) (*Art of Manliness*) — John Boyd's life story is an example of a man who chose to do something meaningful with the time given him instead of taking the comfortable path of being a well liked careerist, chasing accolades and ranks.
+
+
 Links for September 2022
 ===
 posted: September 30, 2022
@@ -74,7 +92,7 @@ posted: June 30, 2022
 - [Why Urban Life Suddenly Got Way More Expensive](https://www.theatlantic.com/newsletters/archive/2022/06/uber-ride-share-prices-high-inflation/661250/) (*The Atlantic*) — When interest rates were near zero, VC money flowed easily and subsidized many risky ventures operating at a loss that aimed to "[Blitzscale](https://www.youtube.com/watch?v=p7Lo0sZfdHE)" their way to gaining a monopoly, effectively subsidizing the price for consumers. As the tides turn, Blitzscaling is becoming harder to execute, so prices for food delivery, ride sharing, meal kits should further increase.
 
 
-May Links
+Links for May 2022
 ===
 posted: May 31, 2022
 
@@ -95,7 +113,7 @@ posted: May 31, 2022
 - [Why Pebble Failed](https://medium.com/@ericmigi/why-pebble-failed-d7be937c6232) *(Eric Migicovsky)* — Almost a decade after it failed, the CEO of a promising smartwatch company wrote a postmortem highlighting the importance of product-market fit, of having a well communicated long-term vision, and the value of a good marketing team.
 
 
-April Links
+Links for April 2022
 ===
 posted: April 30, 2022
 
@@ -110,7 +128,7 @@ posted: April 30, 2022
 - [Elon Musk Is Already Grinding Us Down](https://newsletters.theatlantic.com/galaxy-brain/626c8c4e12500c0020ca5f5b/twitter-elon-musk-meme-tweet-debates/) (*The Atlantic*) — Warzel highlights two dark patterns on twitter, which are likely to be amplified by Musk's changes: 1) The dominance of pithy, short, reductive utterances (memes) over chains of informative tweets (tweetstorms), and 2) The tendency to race to quickly reply to high profile tweets, in order for the reply to be placed in the valuable real estate below.
 
 
-March Links
+Links for March 2022
 ===
 posted: March 31, 2022
 
@@ -124,7 +142,7 @@ posted: March 31, 2022
 - [How Zelensky Gave the World a Jewish Hero](https://www.theatlantic.com/international/archive/2022/02/zelensky-ukraine-president-jewish-hero/622945/) (*The Atlantic*) — In addition to a quick recap of Zelenskyy's unlikely path from Russian comedian to Ukranian president, and an aside into the sorry state of [Jewish intolerance in Europe](https://www.pewresearch.org/fact-tank/2018/03/28/most-poles-accept-jews-as-fellow-citizens-and-neighbors-but-a-minority-do-not/ft_18-03-26_polandholocaustlaws_map), I was heartened to learn that the Jewish community in Ukraine is recovering, for example the newly built [Menorah center in Dnipro](https://en.wikipedia.org/wiki/Menorah_center,_Dnipro) reportedly serving 40,000 people a day.
 - [Еврейство президента Зеленского как символ](https://detaly.co.il/evrejstvo-prezidenta-zelenskogo-kak-simvol/) (*Detali Israel*) — A look into the outsized impact of Ukraine on Jewry, including atrocities like Bogdan Khmelnytsky's attempt to eradicate Ukranian Jews, and the Holocaust massacre at Babyn Yar. At the same time, Ukraine has a long history of relative tolerance to Jews, and was the birthplace of many greats: politicians like David Ben-Gurion, Ze'ev Jabotinsky, writers like Isaac Babel, Sholom Alechem, Chaim Bialik. Many American greats descend directly from Ukranian Jews: Leonard Bernstein, Bob Dylan, Noam Chomsky, Steven Spielberg, Mel Brooks, Jon Stewart.
 
-February Links
+Links for February 2022
 ===
 posted: February 28, 2022
 
@@ -141,7 +159,7 @@ posted: February 28, 2022
 - [Why the Web Won't Be Nirvana (1995)](https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306) (*Newsweek*) — A cantankerous skeptic dumps on the future of the web, producing a litany of predictions which are wrong to various degrees. Revisiting pundits from the past is a useful exercise that reminds us just how difficult the future is to predict.
 - [A Moment of Clarity](https://noahpinion.substack.com/p/a-moment-of-clarity) (*Noah Smith*) — In addition to astute observations on the eve of Russia's war on Ukraine, Smith describes a clear headedness on shared American values that surely must have been felt internally, even by adherents of "warmed-over Chomsky".
 
-January Links
+Links for January 2022
 ===
 posted: January 31, 2022
 

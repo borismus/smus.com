@@ -1,5 +1,5 @@
 Blog
-=======
+====
 class: index
 type: archive
 filter: [post, note]

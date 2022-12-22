@@ -9,7 +9,7 @@ permalink_formats:
   default: '{{slug}}'
   index: 'index.html'
   draft: 'drafts/{{slug}}'
-  book: 'books/{{slug}}'
+  book: 'books/{{slug}}/'
   note: 'notes/{{year}}/{{slug}}/'
   error: '{{slug}}.html'
 # If no type is specified, but a page is in one of these subdirectories, use the
