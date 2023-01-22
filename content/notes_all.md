@@ -4,6 +4,16 @@ type: note
 class: split
 
 
+Links for November 2022
+===
+posted: November 31, 2022
+
+- [Why Did Comedy Die?](https://kvetch.substack.com/p/why-did-comedy-die) (*Kvetch*) — The genre of comedy movie appears to have peaked in the the 1990s; perhaps it's a regression to the mean, maybe comedy movies are hard to translate for a global audience, or perhaps it's "sequelitis" and Marvel movies sucking all of the air out of the room, or perhaps the author is getting old and curmudgeonly?
+- [Arabic and Islamic Themes in Frank Herbert's "Dune"](https://baheyeldin.com/literature/arabic-and-islamic-themes-in-frank-herberts-dune.html) (*The Baheyeldin Dynasty*) — From the transparent analogy between spice and crude oil, and the stylings of the Fremen, Herbert's masterpiece was prima facie inspired by Middle Eastern themes. Khalid digs deeper into an etymological tour of the series revealing more Arabic influences than a typical westerner could glean.
+- [Simone Weil’s Radical Conception of Attention](https://lithub.com/simone-weils-radical-conception-of-attention/) (*Literary Hub*) — Weil drew a distinction between two kinds of attention: the first involving "muscular effort", where we perform for our interlocutor, demonstrating that we are heeding them through social cues, and the second which she dubs "negative attention", where we blot out all distractions, dilate our minds, and wait selflessly for insights to come to us.
+- [The Good Delusion: Has Effective Altruism Broken Bad?](https://www.economist.com/1843/2022/11/15/the-good-delusion-has-effective-altruism-broken-bad) (*The Economist*) — As Sam Bankman-Fried's crypto empire collapses, the public eye turns critically towards the earning to give and existential risk strains of the Effective Altruism movement which inspired his activity and nudged him to use destructive means to achieve questionable ends.
+
+
 Links for October 2022
 ===
 posted: October 30, 2022
