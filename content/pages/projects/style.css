@@ -160,7 +160,7 @@ a.patent {
   height: 16px;
 }
 
-@media (max-device-width: 480px) {
+@media (max-width: 700px) {
   section.project {
     flex-direction: column;
   }
