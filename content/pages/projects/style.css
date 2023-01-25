@@ -63,8 +63,8 @@ section.project {
 }
 
 .media img, .media video {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 290px;
+  max-width: 290px;
   width: auto;
   height: auto;
   padding: 5px;
