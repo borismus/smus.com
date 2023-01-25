@@ -62,7 +62,7 @@ section.project {
   align-items: flex-start;
 }
 
-.media img {
+.media img, .media video {
   max-height: 300px;
   max-width: 300px;
   width: auto;
@@ -163,5 +163,11 @@ a.patent {
 @media (max-width: 700px) {
   section.project {
     flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.patent {
+    background: rgb(84, 84, 0);
   }
 }

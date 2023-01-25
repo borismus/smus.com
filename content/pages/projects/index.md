@@ -26,12 +26,13 @@ type: custom
           href="https://www.engadget.com/google-ar-glasses-190114468.html">Endadget</a>, etc.</p>
       <ul class="pubs">
         <li><a class="patent" href="/patents/2017 - Speech Translation Device and Associated Method.pdf">US2019/095430</a> Speech translation device and associated method <span class="authors">Smus, B., Donsbach, A.</span> 2017</li>
-        <li><a class="paper" href="/papers/2020 - Unmet Needs and Opportunities for Mobile Translation AI.pdf">Unmet needs and opportunities for mobile translation AI</a> <span class="authors">Liebling, D., J., al, E., Smus, B.</span> <a href="https://chi2020.acm.org/"> CHI 2020</a></li>
+        <li><a class="paper" href="/papers/2020 - Unmet Needs and Opportunities for Mobile Translation AI.pdf">Unmet needs and opportunities for mobile translation AI</a> <span class="authors">Liebling, D., J., Lahav, M., ..., Smus, B., et al</span> <a href="https://chi2020.acm.org/"> CHI 2020</a></li>
       </ul>
       </p>
     </div>
     <div class="media">
-      <video class="big" autoplay muted src="media/augmented-language.mp4"></video>
+      <video class="big" autoplay muted loop poster="media/augmented-language-preview.jpg"
+      src="media/augmented-language.mp4"></video>
     </div>
   </section>
 
@@ -63,7 +64,7 @@ type: custom
       <div class="media-item">
         <a href="https://vr.google.com/tourcreator/">
           <img src="media/webvr-expeditions.png" />
-          <label>I prototyped the Tour Creator for Google Expeditions</label>
+          <label>I built the Tour Creator for Google Expeditions</label>
         </a>
       </div>
       <div class="media-item">
@@ -84,6 +85,7 @@ type: custom
           <label>3D interaction patterns that scale up to full VR.</label>
         </a>
       </div>
+    </div>
   </section>
 
 
@@ -111,8 +113,8 @@ type: custom
       </p>
     </div>
     <div class="media">
-      <video class="big" autoplay muted src="media/google-tone-youtube.mp4"
-        poster="media/google-tone_preview.png" preload="none"></video>
+      <video class="big" autoplay muted loop preload="none" src="media/google-tone.mp4"
+        poster="media/google-tone-preview.png" preload="none"></video>
     </div>
   </section>
 
@@ -136,7 +138,7 @@ type: custom
       </p>
     </div>
     <div class="media">
-      <video class="big" autoplay muted src="media/cardboard.mp4"></video>
+      <video class="big" autoplay muted loop preload="none" poster="media/cardboard-preview.jpg" src="media/cardboard.mp4"></video>
     </div>
   </section>
 
@@ -196,7 +198,7 @@ type: custom
       </div>
       <div class="media-item">
         <a href="https://borismus.github.io/filter-playground/">
-          <img src="media/wa-filter-playground.png" />
+          <img src="media/wa-filter-playground.jpg" />
           <label>Build multimodal intuition around digital filters.</label>
         </a>
       </div>
@@ -243,13 +245,13 @@ type: custom
       </div>
       <div class="media-item">
         <a href="/skip-running-gesture/">
-          <img src="media/phys-running-gestures.png" />
+          <img src="media/phys-running-gestures.jpg" />
           <label>Control your music player with a little hop.</label>
         </a>
       </div>
       <div class="media-item">
         <a href="/ubiquitous-drums/">
-          <img src="media/phys-ubi-drums.png" />
+          <img src="media/phys-ubi-drums.jpg" />
           <label>Drums in your pants.</label>
         </a>
       </div>
@@ -283,4 +285,40 @@ type: custom
     </div>
   </section>
 
+
+  <section class="project">
+    <div class="info">
+      <h2>Social Computing</h2>
+      <h3>Crowdsourcing and visualization projects</h3>
+      <p class="date">2011 — now</p>
+      <p>
+      My Crowdforge research at CMU showed that Microtask markets like MTurk can be used to accomplish complex tasks. I then got a taste for the wisdom of the crowds, as well as their foolishness. Could random people on the internet be corralled to create a tech tree? Could they be asked to tinker with an evolutionary origami art system? Could people with opposing viewpoints be brought together to participate in friendlier debates?
+      </p>
+      <ul class="pubs">
+        <li><a class="paper" href="/papers/2011 - Crowdforge - Crowdsourcing Complex Work.pdf">Crowdforge: Crowdsourcing Complex Work</a> <span class="authors">Kittur, A., Smus, B., Khamkar, S., Kraut, R., E.</span> <a href="https://uist.acm.org/uist2011/"> UIST 2011</a></li>
+        <li><a class="paper" href="/papers/2020 - Usnea - An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing.pdf">Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing</a> <span class="authors">Swanson, B., Smus, B.</span> <a href="https://acl2020.org/"> ACL 2020</a></li>
+        <li><a class="paper" href="/papers/2011 - An Assessment of Intrinsic and Extrinsic Motivation on Task Performance in Crowdsourcing Markets.pdf">An Assessment of Intrinsic and Extrinsic Motivation on Task Performance in Crowdsourcing Markets</a> <span class="authors">Rogstadius, J., Kostakos, V., Kittur, A., Smus, B.</span> <a href="https://www.icwsm.org/2011"> ICWSM 2011</a></li>
+      </ul>
+    </div>
+    <div class="media">
+      <div class="media-item">
+        <a href="/evogami/">
+          <video autoplay muted loop src="media/social-evogami.mp4" />
+          <label>Evolutionary origami with crowds.</label>
+        </a>
+      </div>
+      <div class="media-item">
+        <a href="https://borismus.github.io/asimov/web/cross-shape/#steel">
+          <img src="media/social-asimov.jpg" />
+          <label>I visualized Asimov's chronology of science & technology.</label>
+        </a>
+      </div>
+      <div class="media-item">
+        <a href="/debaters-friendly-disagreement">
+          <img src="media/social-debaters.png" />
+          <label>You and someone with an opposing view in a private, friendly conversation.</label>
+        </a>
+      </div>
+    </div>
+  </section>
 </main>
