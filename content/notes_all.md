@@ -6,7 +6,7 @@ class: split
 
 Links for November 2022
 ===
-posted: November 31, 2022
+posted: November 30, 2022
 
 - [Why Did Comedy Die?](https://kvetch.substack.com/p/why-did-comedy-die) (*Kvetch*) — The genre of comedy movie appears to have peaked in the the 1990s; perhaps it's a regression to the mean, maybe comedy movies are hard to translate for a global audience, or perhaps it's "sequelitis" and Marvel movies sucking all of the air out of the room, or perhaps the author is getting old and curmudgeonly?
 - [Arabic and Islamic Themes in Frank Herbert's "Dune"](https://baheyeldin.com/literature/arabic-and-islamic-themes-in-frank-herberts-dune.html) (*The Baheyeldin Dynasty*) — From the transparent analogy between spice and crude oil, and the stylings of the Fremen, Herbert's masterpiece was prima facie inspired by Middle Eastern themes. Khalid digs deeper into an etymological tour of the series revealing more Arabic influences than a typical westerner could glean.
