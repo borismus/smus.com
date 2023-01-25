@@ -19,14 +19,14 @@ type: custom
         Our work on enabling live translation in everyday glasses was the
         closing feature at the Google I/O 2022 keynote: <q>Let's see what happens when we take our advances in
           translation and transcription, and deliver them in your line-of-sight.</q> — Sundar Pichai, CEO (<a
-          href="#">video</a>)
+          href="https://www.youtube.com/watch?v=nP-nMZpLM1A&t=6978">video</a>)
       </p>
       <p>Extensive coverage on <a
           href="https://www.theverge.com/2022/5/11/23067426/google-ar-glasses-live-translate-io">The Verge</a>, <a
           href="https://www.engadget.com/google-ar-glasses-190114468.html">Endadget</a>, etc.</p>
       <ul class="pubs">
-        <li><a class="patent" href="/patents/2017 - Speech Translation Device and Associated Method.pdf">US2019/095430</a> Speech translation device and associated method <span class="authors">Smus, B., Donsbach, A.</span> 2017</li>
-        <li><a class="paper" href="/papers/2020 - Unmet Needs and Opportunities for Mobile Translation AI.pdf">Unmet needs and opportunities for mobile translation AI</a> <span class="authors">Liebling, D., J., Lahav, M., ..., Smus, B., et al</span> <a href="https://chi2020.acm.org/"> CHI 2020</a></li>
+        <li><a class="patent" href="/patents/2017 - Speech Translation Device and Associated Method.pdf">US2019/095430</a> Speech translation device and associated method. <span class="authors">Smus B., Donsbach A.</span> 2017</li>
+        <li><a class="paper" href="/papers/2020 - Unmet Needs and Opportunities for Mobile Translation AI.pdf">Unmet needs and opportunities for mobile translation AI</a> <span class="authors">Liebling D. J., Lahav M., Evans A., Donsbach A., Holbrook J., Smus B., Boran L.</span> <a href="https://chi2020.acm.org/"> CHI 2020</a></li>
       </ul>
       </p>
     </div>
@@ -104,9 +104,9 @@ type: custom
           href="https://techcrunch.com/2015/05/19/googles-tone-chrome-extension-lets-you-share-urls-by-sound/">Techcrunch</a>.
       </p>
       <ul class="pubs">
-        <li><a class="patent" href="/patents/2017 - Communicating Data with Audible Harmonies.pdf">US9,882,658</a> Communicating Data with Audible Harmonies <span class="authors">Smus, B., Getreuer, P., T.</span> 2017</li>
-        <li><a class="patent" href="/patents/2014 - Using Ultrasound to Improve IMU-based Gesture Detection.pdf">US9,811,311</a> Using Ultrasound to Improve IMU-based Gesture Detection <span class="authors">Smus, B., Plagemann, C., Mohan, A., Rifkin, R., M.</span> 2014</li>
-        <li><a class="patent" href="/patents/2016 - Methods Systems and Media for Synchronizing Media Content with Audio Timecodes.pdf">US 2018/0063572</a> Methods Systems and Media for Synchronizing Media Content with Audio Timecodes <span class="authors">Smus, B.</span> 2016</li>
+        <li><a class="patent" href="/patents/2017 - Communicating Data with Audible Harmonies.pdf">US9,882,658</a> Communicating Data with Audible Harmonies. <span class="authors">Smus B., Getreuer P. T.</span> 2017</li>
+        <li><a class="patent" href="/patents/2014 - Using Ultrasound to Improve IMU-based Gesture Detection.pdf">US9,811,311</a> Using Ultrasound to Improve IMU-based Gesture Detection. <span class="authors">Smus B., Plagemann C., Mohan A., Rifkin R. M.</span> 2014</li>
+        <li><a class="patent" href="/patents/2016 - Methods Systems and Media for Synchronizing Media Content with Audio Timecodes.pdf">US 2018/0063572</a> Methods Systems and Media for Synchronizing Media Content with Audio Timecodes. <span class="authors">Smus B.</span> 2016</li>
       </ul>
       <p class="actions">
         <a class="primary" href="https://g.co/tone" target="_blank">Try Google Tone</a>
@@ -128,9 +128,9 @@ type: custom
         headset. The initial run was 10,000 units. There are now more than 20 million viewers out there.
       </p>
       <ul class="pubs">
-        <li><a class="patent" href="/patents/2019 - Magnetic controller for device control.pdf">US11,269,022</a> Magnetic controller for device control <span class="authors">Smus, B., Plagemann, C.</span> 2019</li>
-        <li><a class="patent" href="/patents/2015 - Virtual Reality Headset (Cardboard VR Design Patent).pdf">US D750074</a> Virtual Reality Headset <span class="authors">Coz, D., Henry, D., Plagemann, C., Smus, B.</span> 2015</li>
-        <li><a class="paper" href="/papers/2015 - Magnetic Input for Mobile Virtual Reality.pdf">Magnetic Input for Mobile Virtual Reality</a> <span class="authors">Smus, B., Riederer, C.</span> <a href="http://iswc2015.semanticweb.org/"> ISWC 2015</a></li>
+        <li><a class="patent" href="/patents/2019 - Magnetic controller for device control.pdf">US11,269,022</a> Magnetic controller for device control. <span class="authors">Smus B., Plagemann C.</span> 2019</li>
+        <li><a class="patent" href="/patents/2015 - Virtual Reality Headset (Cardboard VR Design Patent).pdf">US D750074</a> Virtual Reality Headset. <span class="authors">Coz D., Henry D., Plagemann C., Smus B.</span> 2015</li>
+        <li><a class="paper" href="/papers/2015 - Magnetic Input for Mobile Virtual Reality.pdf">Magnetic Input for Mobile Virtual Reality</a> <span class="authors">Smus B., Riederer C.</span> <a href="http://iswc2015.semanticweb.org/"> ISWC 2015</a></li>
       </ul>
       </p>
       <p class="actions">
@@ -155,8 +155,8 @@ type: custom
         of the API, which came together in a number of open source projects.
       </p>
       <ul class="pubs">
-        <ul><li><a class="patent" href="/patents/2021 - Synchronized performances for remotely located performers.pdf">US2022/014570</a> Synchronized performances for remotely located performers <span class="authors">Goldstein, M., McNabb, M., Smus, B.</span> 2021</li>
-        <li><a class="paper" href="/papers/2022 - Telejam - From Low Latency to No Latency.pdf">Telejam: From Low Latency to No Latency</a> <span class="authors">Goldstein, M., McNabb, M., Smus, B.</span> <a href="https://webaudioconf.com/"> Web Audio Conference 2022</a></li>
+        <ul><li><a class="patent" href="/patents/2021 - Synchronized performances for remotely located performers.pdf">US2022/014570</a> Synchronized performances for remotely located performers. <span class="authors">Goldstein M., McNabb M., Smus B.</span> 2021</li>
+        <li><a class="paper" href="/papers/2022 - Telejam - From Low Latency to No Latency.pdf">Telejam: From Low Latency to No Latency</a> <span class="authors">Goldstein M., McNabb M., Smus B.</span> <a href="https://webaudioconf.com/"> WAC 2022</a></li>
       </ul>
       <p class="actions">
         <a class="primary" href="https://www.amazon.com/Web-Audio-API-Advanced-Interactive/dp/1449332684"
@@ -214,8 +214,8 @@ type: custom
         I like creating things with my hands. It's a nice remedy to staring at screens all day long. Here are some projects that require more than fingers typing on a keyboard.
       </p>
       <ul class="pubs">
-        <li><a class="paper" href="/papers/2010 - Running Gestures - hands-free interaction during physical activity.pdf">Running Gestures: hands-free interaction during physical activity</a> <span class="authors">Smus, B., Kostakos, V.</span> <a href="https://www.ubicomp.org/ubicomp2010/"> UbiComp 2010</a></li>
-        <li><a class="paper" href="/papers/2010 - Ubiquitous Drums - a tangible, wearable musical interface.pdf">Ubiquitous Drums: a tangible, wearable musical interface</a> <span class="authors">Smus, B., Gross, M.</span> <a href="http://www.chi2010.org/"> CHI 2010</a></li>
+        <li><a class="paper" href="/papers/2010 - Running Gestures - hands-free interaction during physical activity.pdf">Running Gestures: hands-free interaction during physical activity</a> <span class="authors">Smus B., Kostakos V.</span> <a href="https://www.ubicomp.org/ubicomp2010/"> UbiComp 2010</a></li>
+        <li><a class="paper" href="/papers/2010 - Ubiquitous Drums - a tangible, wearable musical interface.pdf">Ubiquitous Drums: a tangible, wearable musical interface</a> <span class="authors">Smus B., Gross M.</span> <a href="http://www.chi2010.org/"> CHI 2010</a></li>
       </ul>
     </div>
     <div class="media">
@@ -276,7 +276,7 @@ type: custom
       </ul>
       </p>
       <ul class="pubs">
-        <li><a class="patent" href="/patents/2008 - Shared comments for online document collaboration.pdf">US2010/0095198</a> Shared comments for online document collaboration <span class="authors">Bultrowicz, M., Smus, B.</span> 2008</li>
+        <li><a class="patent" href="/patents/2008 - Shared comments for online document collaboration.pdf">US2010/0095198</a> Shared comments for online document collaboration. <span class="authors">Bultrowicz M., Smus B.</span> 2008</li>
       </ul>
       </p>
     </div>
