@@ -26,7 +26,7 @@ PATENTS_DIR = './pages/patents/'
 
 
 def format_author(author):
-  tokens = author.split(' ')
+  tokens = author.strip().split(' ')
   first_names = tokens[:-1]
   last_name = tokens[-1]
   first_initials = [name[0].capitalize() for name in first_names]
