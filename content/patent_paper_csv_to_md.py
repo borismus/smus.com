@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''Given a CSV file with rows like this:
 
     ,Device pairing via a cloud server,Boris Smus,Christian Plagemann,Trond Thomas Wuellner,Antonio Bernardo Monteiro Costa,2013,"US9,621,645",Google
@@ -32,14 +33,14 @@ def format_author(author):
   first_initials = [name[0].capitalize() for name in first_names]
   formatted = last_name
   for init in first_initials:
-    formatted += f', {init}.'
+    formatted += f' {init}.'
   return formatted
 
 
 def format_authors(row):
   author_string = ''
-  authors = [row['Author 1'], row['Author 2'],
-             row['Author 3'], row['Author 4']]
+  author_headers = [f'Author {index}' for index in range(1, 8)]
+  authors = [row[header] for header in author_headers if header in row]
   authors = [author for author in authors if author != '']
   for author in authors[:-1]:
     author_string += f'{format_author(author)}, '
