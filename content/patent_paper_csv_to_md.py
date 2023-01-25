@@ -57,7 +57,7 @@ def format_patent(row):
 
   patent_link = f'/patents/{url}'
 
-  return f'''<li><a class="patent" href="{patent_link}">{patent_number}</a> {title} <span class="authors">{authors}</span> {year}</li>'''
+  return f'''<li><a class="patent" href="{patent_link}">{patent_number}</a> {title}. <span class="authors">{authors}</span> {year}</li>'''
 
 
 def format_paper(row):
