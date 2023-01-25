@@ -1,0 +1,173 @@
+:root {
+  --accent-color: rgba(26, 115, 232, 1);
+  --accent-color-10p: rgba(26, 115, 232, .1);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.projects h1,
+.projects h2,
+.projects h3 {
+  font-family: 'Sofia Sans';
+  margin-bottom: 16px;
+}
+
+.projects h1 {
+  margin: 36px 0;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+q {
+  font-style: italic;
+}
+
+.tagline {
+  color: var(--accent-color);
+}
+
+main.projects {
+  width: min(1300px, 100vw);
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-family: 'Source Serif Pro';
+  font-size: 16px;
+  line-height: 22px;
+  margin: 1rem auto;
+}
+
+section.project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.info {
+  width: 300px;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.media img, .media video {
+  max-height: 290px;
+  max-width: 290px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.media .big {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.date {
+  color: #999;
+}
+
+.media-item {
+  position: relative;
+}
+
+.media-item label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background: white;
+  color: black;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.media-item:hover label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+.actions a {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.actions a.primary {
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+}
+
+.actions a:hover {
+  background: var(--accent-color-10p);
+}
+
+a label {
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.pubs {
+  padding-left: 0;
+}
+
+.pubs li {
+  list-style: none;
+}
+
+.pubs .authors {
+  color: #999;
+}
+
+a.patent {
+  font-family: 'Inconsolata';
+  border: 1px solid black;
+  background: yellow;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.paper:before {
+  content: url(media/pdf_icon.svg);
+  position: absolute;
+  margin-left: -18px;
+  width: 14px;
+  height: 16px;
+}
+
+@media (max-width: 700px) {
+  section.project {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.patent {
+    background: rgb(84, 84, 0);
+  }
+}
