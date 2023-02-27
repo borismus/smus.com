@@ -5,8 +5,45 @@
   <title>Boris Smus (Notes)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2023-01-25T07:57:29-00:00</updated>
+  <updated>2023-02-27T09:11:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Links for December 2022</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2022/links-for-december-2022"/>
+    
+    <updated>2022-12-31T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2022/links-for-december-2022</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <ul>
+<li><a href="https://superbowl.substack.com/p/causal-explanations-considered-harmful">Causal Explanations Considered Harmful</a> (<em>Superb Owl</em>) — Argues that we can’t model trends in human societies with simple directed acyclic graphs (DAGs); sociological systems are far too dynamic for that. A better approach might be to use causal loop diagrams (CLDs), with their tangle of positive and negative feedback loops. But these tools too, are insufficient for confidently answering counterfactual questions because of the nuances in each situation which are hard to capture in a simple diagram.</li>
+<li><a href="https://pedrodelgallego.github.io/blog/amazon/single-threaded-model/">Single-Threaded Leaders at Amazon</a> (<em>Pedro Del Gallego</em>) — As a company grows, each product area (at Google: Chrome, Android, Search, etc) scales to thousands of people, and any horizontal coordination becomes extremely difficult. This post explains a top-down corporate structure used at Amazon (and others), in which a single leader of a business unit acts as THE decision maker for all aspects of a product, and is fanatically devoted to keeping everyone fanatically devoted to it.</li>
+<li><a href="https://therightstuff.medium.com/the-trust-thermocline-explains-how-companies-suddenly-lose-customers-and-employees-2657c9535e6a">The Trust Thermocline Explains How Companies “Suddenly” Lose Customers and Employees</a> (<em>Adam Fisher</em>) — Applies the analogy of the thermocline, a sharp discontinuity in temperature in a body of water as you go deeper, to corporate trust, by introducing a concept of a homeostatic plateau: the normal operating range of a system, which if exceeded, will cause breakdown. Rhymes with the adage, when asked about how Hemingway went bankrupt, "Two ways. Gradually, then suddenly".</li>
+<li><a href="https://www.nytimes.com/2022/12/11/business/howard-schultz-starbucks-union.html">Why Is Howard Schultz Taking This So Personally</a> (<em>NYTimes</em>) — Scheiber and Creswell explain that Schultz bought Starbucks when it had six stores. The workforce was unionized, and he took pride in creating a great workplace for all of his employees. He did this, and successfully disbanded the union, hailing a great success for him as a manager: a benevolent leader that does not need a countervailing force to keep him honest. Now Starbucks has not 6, not 36, but nearly 36,000 stores worldwide. The corporation has scaled, but Schultz attitude towards a Union remains unchanged.</li>
+</ul>
+
+<!--more-->
+
+<ul>
+<li><a href="https://www.businessinsider.com/larry-page-sergey-brin-post-google-investments-businesses-wealth-2022-12">Private Islands, Flying Cars, and Psychedelic Parties: Inside the Wild Post-Google Lives of Larry Page and Sergey Brin</a> (<em>Business Insider</em>) — Langley and Price observe the retired lives of the ultra-rich Google founders, with their different aspirations, as well as similarities: an obsession with flying, islands and yachts, as well as a tangled web of corporate entities and "Family Offices" that serve to minimize their tax obligations, protect them from liability, and shield their wealth from public view. I'm not usually a sucker for inside scoops, but this one depicts colorful characters and describes fun adventures.</li>
+<li><a href="https://www.themarginalian.org/2022/11/13/mushrooms-sound-waves/">Nature Is Always Listening: The Science of Mushrooms, Music, and How Sound Waves Stimulate Mycelial Growth</a> (<em>Brain Pickings</em>) — Lightning strikes are more likely to hit mushrooms than other organisms. Stamets suggests that mushrooms have "learned" over evolutionary time that a rolling tide of low frequency sound (ie. thunder) is correlated with impending rain, water, and electricity. Evocatively, these low-frequency sounds act as a "mycelial clarion call for duty".</li>
+<li><a href="https://obscuritory.com/sim/when-simcity-got-serious/">Got Serious: The Story of Maxis Business Simulations</a> (<em>The Obscuritory</em>) — Chronicles the misadventures of Maxis' serious simulations department and its spinout which, inspired by SimCity's success was tasked to create simulations for employees of companies that manage complex technical systems like refineries, military bases, hospitals, and power grids. The creators of <em>SimAnything</em> wanted to help people create mental models for understanding parts of the world, but the fun parts are often at odds with this goal; case in point SimRefinery, where the fun part was to make it blow up. TODO: TLDR?</li>
+<li><a href="https://www.systems-thinking.org/intst/d-3312.pdf">Problems with Causal Loop Diagrams (1976)</a>  and <a href="https://www.albany.edu/~gpr/CLDs2.pdf">ibid Revisited (1997)</a> (<em>George P. Richardson</em>) — Points out that CLDs are under-specified. A simple causal-loop diagram can't be "read" correctly and its dynamic behavior can't be inferred, largely because there is no distinction between rates (aka flows) and levels (aka stocks), and there is no distinction between additive and proportional links; these deficiencies are illustrated well through entertaining examples including an example of a family feud between Hatfields and McCoys.</li>
+<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwjHpbfQ85r8AhWxAjQIHcqcD9oQFnoECAgQAQ&amp;url=https%3A%2F%2Fwww.systemdynamics.org%2Fwp-content%2Fuploads%2Fassets%2Fdynamica%2Fvolume-8%2F8-1%2F5.pdf&amp;usg=AOvVaw2VWfAkfLBKt97eRzWMLgm1">A Critical Review of Diagramming Tools for Conceptualizing Feedback System Models (1982)</a>  (<em>John Morecroft</em>) — Causal Loop Diagrams (CLDs) might be an evocative and concise way to describe the various feedback loops inside a complex system, but they can only be put together after lots of critical thought and simulation. Causal Loop Diagrams are not a great tool for the conceptualization stage, despite their <a href="https://thesystemsthinker.com/step-by-step-stocks-and-flows-converting-from-causal-loop-diagrams">proponents insistence</a>.</li>
+<li><a href="https://thebulletin.org/2022/10/ai-is-plundering-the-imagination-and-replacing-it-with-a-slot-machine/">AI Is Plundering the Imagination and Replacing It With a Slot Machine</a> (<em>The Bulletin</em>) — Computational art is a fundamentally human endeavor because the human programmer wrote the code that generates the art, a process "full of uncertainty and trial and error, as the artist gropes around for a method that will produce the desired results". Not so for AI generated art, where the process is reduced to throwing words against the black box and seeing what is generated, which is constrained to the "dulling sameness of a world of infinite but meaningless variety (in shades of teal and orange)."</li>
+<li><a href="https://asteriskmag.com/issues/1/review-what-we-owe-the-future">What We Owe the Future (Book Review)</a> (<em>Asterisk Magazine</em>) — Piper argues that MacAskill's new book does a good job of "driving home the sheer magnitude and potential of humanity’s future", but shirks the details that arise when you end up "face-to-face with problems that are deeply unclear and solutions that are deeply technical".</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Links for November 2022</title>

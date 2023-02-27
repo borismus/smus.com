@@ -62,7 +62,8 @@ section.project {
   align-items: flex-start;
 }
 
-.media img, .media video {
+.media img,
+.media video {
   max-height: 290px;
   max-width: 290px;
   width: auto;
@@ -164,10 +165,35 @@ a.patent {
   section.project {
     flex-direction: column;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  a.patent {
-    background: rgb(84, 84, 0);
+  .info {
+    width: 100%;
+  }
+
+  .media {
+    justify-content: center;
+  }
+
+  .media .big {
+    padding: 0;
+  }
+
+  .media img,
+  .media video {
+    max-height: 42vw;
+    max-width: 42vw;
+    width: auto;
+    height: auto;
+    padding: 3px;
+  }
+
+  main.projects {
+    padding: 0 1.5rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a.patent {
+      background: rgb(84, 84, 0);
+    }
   }
 }

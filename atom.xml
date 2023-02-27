@@ -5,8 +5,99 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2023-01-25T07:57:29-00:00</updated>
+  <updated>2023-02-27T09:11:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Old Man&#39;s War by John Scalzi</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/old-mans-war-by-john-scalzi"/>
+    
+    <updated>2023-01-28T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/old-mans-war-by-john-scalzi</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>A recommendation from MP, this is apparently one of the classics of the genre of Military Science Fiction. In addition to being a fun and quick read, I found it thought provoking, and a really cool concept.</p>
+
+<p>In a near-future earth, humans have traveled to other planets and made contact with aliens. As it turns out, our galaxy is teeming with intelligent, multiplanetary species far more advanced than us. And they're aggressive! To protect earth and its colonies against this thread, the humans have created the Colonial Defense Force (CDF). This galactic army is shrowded in mystery to the earth dwelling humans, which are bound to the planet. The only way for a human to leave earth is to take a leap of faith and sign your future septegenarian self to fight for the CDF. And you can never go home again.</p>
+
+<p>The book is not really profound, but skims some deeper than expected themes and references, including Arendt's banality of evil. This surpassed my expectations given the genre.</p>
+
+<ul>
+<li>Reincarnation: what happens when an army division consists entirely of octogenarians?</li>
+<li>Nature vs nurture (ghost brigades): what would it be like to be a completely different person with roughly the same set of genes?</li>
+<li>What is it like to love a person deeply, lose them, and then meet their clone?</li>
+<li>What is it like to gain a completely new body after living a full and long life?</li>
+<li>What would it be like to be battling a huge variety of unknown species all the time, where you have absolutely no idea what to expect?</li>
+</ul>
+
+<p>Choice quotes:</p>
+
+<blockquote>
+  <p>The problem with aging is not that it’s one damn thing after another—it’s every damn thing, all at once, all the time.</p>
+</blockquote>
+
+<p>Fun tech mockery, like naming a personal assistant "asshole" and the resulting potty humor including “Activate Asshole” and "Go away Asshole", as well as the assistant confirming that "I am Asshole". And other crass hilarity like a female soldier activating her assistant with "Hey Bitch".</p>
+
+<p>I enjoyed the world building quite a bit, from the whole premise of the book, to the various alien species encountered:</p>
+
+<ul>
+<li>The Consu, vaguely culturally Japanese are a very advanced and enlightened species capable of destroying the humans easily, but interested in more profound goals. Honor and tradition seems to play a huge role in their culture, as is ritual honor based suicide clearly modeled after harakiri.</li>
+<li>The Whaidians, vaguely culturally Arabic are brutally destroyed by the CDF. I suspect there is a political agenda here as well, with parallels to the War on Terror.</li>
+<li>A variety of other species which were only alluded to. A terrifying slime-mold which enters through your mouth and eats you from within. The Covandu, a tiny but intelligent species with high tech weaponry, but so small they can be crushed underfoot like a bug.</li>
+</ul>
+
+<p>Open questions:</p>
+
+<ul>
+<li>Why don't animals photosynthesize in addition to regular metabolism?</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Links for December 2022</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2022/links-for-december-2022"/>
+    
+    <updated>2022-12-31T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2022/links-for-december-2022</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <ul>
+<li><a href="https://superbowl.substack.com/p/causal-explanations-considered-harmful">Causal Explanations Considered Harmful</a> (<em>Superb Owl</em>) — Argues that we can’t model trends in human societies with simple directed acyclic graphs (DAGs); sociological systems are far too dynamic for that. A better approach might be to use causal loop diagrams (CLDs), with their tangle of positive and negative feedback loops. But these tools too, are insufficient for confidently answering counterfactual questions because of the nuances in each situation which are hard to capture in a simple diagram.</li>
+<li><a href="https://pedrodelgallego.github.io/blog/amazon/single-threaded-model/">Single-Threaded Leaders at Amazon</a> (<em>Pedro Del Gallego</em>) — As a company grows, each product area (at Google: Chrome, Android, Search, etc) scales to thousands of people, and any horizontal coordination becomes extremely difficult. This post explains a top-down corporate structure used at Amazon (and others), in which a single leader of a business unit acts as THE decision maker for all aspects of a product, and is fanatically devoted to keeping everyone fanatically devoted to it.</li>
+<li><a href="https://therightstuff.medium.com/the-trust-thermocline-explains-how-companies-suddenly-lose-customers-and-employees-2657c9535e6a">The Trust Thermocline Explains How Companies “Suddenly” Lose Customers and Employees</a> (<em>Adam Fisher</em>) — Applies the analogy of the thermocline, a sharp discontinuity in temperature in a body of water as you go deeper, to corporate trust, by introducing a concept of a homeostatic plateau: the normal operating range of a system, which if exceeded, will cause breakdown. Rhymes with the adage, when asked about how Hemingway went bankrupt, "Two ways. Gradually, then suddenly".</li>
+<li><a href="https://www.nytimes.com/2022/12/11/business/howard-schultz-starbucks-union.html">Why Is Howard Schultz Taking This So Personally</a> (<em>NYTimes</em>) — Scheiber and Creswell explain that Schultz bought Starbucks when it had six stores. The workforce was unionized, and he took pride in creating a great workplace for all of his employees. He did this, and successfully disbanded the union, hailing a great success for him as a manager: a benevolent leader that does not need a countervailing force to keep him honest. Now Starbucks has not 6, not 36, but nearly 36,000 stores worldwide. The corporation has scaled, but Schultz attitude towards a Union remains unchanged.</li>
+</ul>
+
+<!--more-->
+
+<ul>
+<li><a href="https://www.businessinsider.com/larry-page-sergey-brin-post-google-investments-businesses-wealth-2022-12">Private Islands, Flying Cars, and Psychedelic Parties: Inside the Wild Post-Google Lives of Larry Page and Sergey Brin</a> (<em>Business Insider</em>) — Langley and Price observe the retired lives of the ultra-rich Google founders, with their different aspirations, as well as similarities: an obsession with flying, islands and yachts, as well as a tangled web of corporate entities and "Family Offices" that serve to minimize their tax obligations, protect them from liability, and shield their wealth from public view. I'm not usually a sucker for inside scoops, but this one depicts colorful characters and describes fun adventures.</li>
+<li><a href="https://www.themarginalian.org/2022/11/13/mushrooms-sound-waves/">Nature Is Always Listening: The Science of Mushrooms, Music, and How Sound Waves Stimulate Mycelial Growth</a> (<em>Brain Pickings</em>) — Lightning strikes are more likely to hit mushrooms than other organisms. Stamets suggests that mushrooms have "learned" over evolutionary time that a rolling tide of low frequency sound (ie. thunder) is correlated with impending rain, water, and electricity. Evocatively, these low-frequency sounds act as a "mycelial clarion call for duty".</li>
+<li><a href="https://obscuritory.com/sim/when-simcity-got-serious/">Got Serious: The Story of Maxis Business Simulations</a> (<em>The Obscuritory</em>) — Chronicles the misadventures of Maxis' serious simulations department and its spinout which, inspired by SimCity's success was tasked to create simulations for employees of companies that manage complex technical systems like refineries, military bases, hospitals, and power grids. The creators of <em>SimAnything</em> wanted to help people create mental models for understanding parts of the world, but the fun parts are often at odds with this goal; case in point SimRefinery, where the fun part was to make it blow up. TODO: TLDR?</li>
+<li><a href="https://www.systems-thinking.org/intst/d-3312.pdf">Problems with Causal Loop Diagrams (1976)</a>  and <a href="https://www.albany.edu/~gpr/CLDs2.pdf">ibid Revisited (1997)</a> (<em>George P. Richardson</em>) — Points out that CLDs are under-specified. A simple causal-loop diagram can't be "read" correctly and its dynamic behavior can't be inferred, largely because there is no distinction between rates (aka flows) and levels (aka stocks), and there is no distinction between additive and proportional links; these deficiencies are illustrated well through entertaining examples including an example of a family feud between Hatfields and McCoys.</li>
+<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwjHpbfQ85r8AhWxAjQIHcqcD9oQFnoECAgQAQ&amp;url=https%3A%2F%2Fwww.systemdynamics.org%2Fwp-content%2Fuploads%2Fassets%2Fdynamica%2Fvolume-8%2F8-1%2F5.pdf&amp;usg=AOvVaw2VWfAkfLBKt97eRzWMLgm1">A Critical Review of Diagramming Tools for Conceptualizing Feedback System Models (1982)</a>  (<em>John Morecroft</em>) — Causal Loop Diagrams (CLDs) might be an evocative and concise way to describe the various feedback loops inside a complex system, but they can only be put together after lots of critical thought and simulation. Causal Loop Diagrams are not a great tool for the conceptualization stage, despite their <a href="https://thesystemsthinker.com/step-by-step-stocks-and-flows-converting-from-causal-loop-diagrams">proponents insistence</a>.</li>
+<li><a href="https://thebulletin.org/2022/10/ai-is-plundering-the-imagination-and-replacing-it-with-a-slot-machine/">AI Is Plundering the Imagination and Replacing It With a Slot Machine</a> (<em>The Bulletin</em>) — Computational art is a fundamentally human endeavor because the human programmer wrote the code that generates the art, a process "full of uncertainty and trial and error, as the artist gropes around for a method that will produce the desired results". Not so for AI generated art, where the process is reduced to throwing words against the black box and seeing what is generated, which is constrained to the "dulling sameness of a world of infinite but meaningless variety (in shades of teal and orange)."</li>
+<li><a href="https://asteriskmag.com/issues/1/review-what-we-owe-the-future">What We Owe the Future (Book Review)</a> (<em>Asterisk Magazine</em>) — Piper argues that MacAskill's new book does a good job of "driving home the sheer magnitude and potential of humanity’s future", but shirks the details that arise when you end up "face-to-face with problems that are deeply unclear and solutions that are deeply technical".</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Sabbath by Heschel</title>
@@ -25,10 +116,10 @@
 
 <p>"Where is god?" is often asked. It is assumed to be in a place. But what if instead, it is at a time? (Perhaps then, a better question to ask is "When is god"?)</p>
 
-<p>It is not a thing that lends significance to a moment, but a moment that lends significance to things. </p>
+<p>It is not a thing that lends significance to a moment, but a moment that lends significance to things.</p>
 
 <blockquote>
-  <p>The meaning if the sabbath is to celebrate time rather than space. Six days a week we live under the tyrant of things of space; on the sabbath we try to become attended to the holiness in time. </p>
+  <p>The meaning if the sabbath is to celebrate time rather than space. Six days a week we live under the tyrant of things of space; on the sabbath we try to become attended to the holiness in time.</p>
 </blockquote>
 
 <p>Here's a silly story I found evocative:</p>
@@ -47,7 +138,7 @@
   <p>For a breathing spell enables athletes to collect their strength with a stronger force behind them to undertake promptly and patiently each of the tasks set before them. (Philo)</p>
 </blockquote>
 
-<p>But it’s not the case that the Shabbat serves some instrumental purpose. It is an end in and of itself: </p>
+<p>But it’s not the case that the Shabbat serves some instrumental purpose. It is an end in and of itself:</p>
 
 <blockquote>
   <p>The sabbath is not for the sake of the weekdays. The weekdays are for the sake of the sabbath.</p>
@@ -61,13 +152,13 @@
 
 <p>The Jewish tradition converted cyclical festivals into ones that celebrate specific events from historical time. For example, Pesach went from harvest holiday to a commemoration of the Jewish exodus from Egypt.</p>
 
-<p>In the world of time, sabbaths are our great cathedrals. The holy of holies is Yom Kippur. </p>
+<p>In the world of time, sabbaths are our great cathedrals. The holy of holies is Yom Kippur.</p>
 
-<p>There is no Hebrew word for “thing”. Holiness of things is explicitly prohibited in idols and the story of the holy calf. It’s not a holy mountain or a holy sprint that was emphasized in Judaism. But instead a holy time. </p>
+<p>There is no Hebrew word for “thing”. Holiness of things is explicitly prohibited in idols and the story of the holy calf. It’s not a holy mountain or a holy sprint that was emphasized in Judaism. But instead a holy time.</p>
 
 <h1>Freedom from technology</h1>
 
-<p>Humanity has grown to know how to control space but we remain powerless to control time. So we try to use our time to make it subservient to space. </p>
+<p>Humanity has grown to know how to control space but we remain powerless to control time. So we try to use our time to make it subservient to space.</p>
 
 <blockquote>
   <p>Time to us is sarcasm, a slick treacherous monster with a jaw like a furnace incinerating every moment of our lives.</p>
@@ -134,7 +225,7 @@
 <p>and:</p>
 
 <blockquote>
-  <p>England pulls the sea around her like a mantle: these waters our robe of ermine, these stars our imperial crown. </p>
+  <p>England pulls the sea around her like a mantle: these waters our robe of ermine, these stars our imperial crown.</p>
 </blockquote>
 
 <p>Another observation: Phillips is clearly from the internet, which shines through in the way he writes. But this does not detract from his writing, instead it somehow legitimates writers from very online culture I know so well.</p>
@@ -5055,187 +5146,6 @@ covering 1834 - 1900.</p>
 </ul>
 
 <p>Stay tuned and find out.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Consider Phlebas by Iain M. Banks</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/consider-phlebas-by-iain-m-banks"/>
-    
-    <updated>2021-06-06T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/consider-phlebas-by-iain-m-banks</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>After reading <a class="wiki" href="https://z3.ca/Player_of_Games_by_Iain_M._Banks">Player of Games by Iain M. Banks</a>, I wanted to read another in the Culture Series mainly for the world-building. </p>
-
-<p>Consider Phlebas is a fast paced adventure book. The protagonist Bora Horza Gobuchul is unreasonably superhuman, possessing super strength, a great fighting ability, and among many other things, the ability to change his appearance at will. He finds himself in increasingly ridiculous situations, at one point stranded on a small island populated by fanatical cannibals. I found the plot itself to be so out there, parts of it read like my 10 year old self's stream of thought in an early creative writing assignment.</p>
-
-<p>That said, Banks does a good job with the world-building. Set in the middle of the Idiran - Culture war, Horza sides with the Idirans mainly out of hatred for the culture. This is a fascinating conflict, reminiscent in some ways of modern divisions between progressive leftism and traditional conservatism. The author does a great job of making both factions quite relatable, and the protagonist morally ambiguous.</p>
-
-<p>Idirans are monotheists, modeled on the fervent Jewish/Muslim variety. They range from zealots to pragmatists, but all have a clear sense of identity about them. Physically and spiritually my mind renders them as the Protoss from Starcraft. Except they have three limbs, and are in symbiosis with another race of six-limbed sentient beings.</p>
-
-<p>The culture is sort of a macrocosm of Western society, far more technologically advanced, and taken to an extreme. All things, strengths and weaknesses are exaggerated. They rely heavily on sentient machines, and creatively named spacecraft. The lifestyle is decadent and are subject to the <a class="wiki" href="https://z3.ca/Tyranny_of_Convenience">Tyranny of Convenience</a>. The have a general lack of conviction, and no skin in the game.</p>
-
-<p>Ultimately, Horza is killed by an Idiran that mistrusts him. A moral lesson from Mr. Banks? The non-Hollywood ending is refreshing, given the superhero-like attributes of the protagonist.</p>
-
-<p>The scale conveyed in this novel is huge, and well executed. The destruction of the Vavatch orbital is well described. Epic battle scenes are extremely cinematic and would play out well in an adaptation to the screen. But the end could have been shortened significantly. I was quite tired of the endless underground tunnels of Char's World. Overall, a fun read if you're into a fast paced, sometimes ridiculous action novel.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Why Information Grows by Cesar Hidalgo</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/why-information-grows-by-cesar-hidalgo"/>
-    
-    <updated>2021-05-20T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/why-information-grows-by-cesar-hidalgo</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Why Information Grows starts off strong with an accessible introduction to information theory and some interesting physics-inspired ideas. Sadly, as the book proceeds, it becomes clear that the author has pieced together multiple essays that were and remain loosely connected. It's clearly a derivative work, often far less clear than the books that are cited.</p>
-
-<p>That said, a few things stood out for me:</p>
-
-<ul>
-<li>Prigogine's work on <a class="wiki" href="https://z3.ca/Dissipative_systems">Dissipative systems</a> and their applications. </li>
-<li><a class="wiki" href="https://z3.ca/Artifacts_as_crystallized_imagination">Artifacts as crystallized imagination</a></li>
-<li>The <a class="wiki" href="https://z3.ca/Resource_curse">Resource curse</a></li>
-</ul>
-
-<h1>Information is the opposite of entropy</h1>
-
-<p>Information is stimuli that has meaning in some context for its receiver. There is some relationship between information and complexity and information and order but Hidalgo dances around this question.</p>
-
-<h1>Information in the universe is fractally distributed</h1>
-
-<p>Information is rare in our universe. As far as we know, Earth is one place where information is highly concentrated. Earth is to information like black holes are to matter. This observation struck me as very anthropocentric. Maybe I'm reading too much science fiction!</p>
-
-<p>On Earth, information is not uniformly distributed. Specific countries, companies, and individuals seem to represent more of it.</p>
-
-<h1>Rubic's cube example from an info theory perspective</h1>
-
-<p>The author does a decent job of explaining basic information theory. I liked his Rubic's cube example:</p>
-
-<ul>
-<li>There are e19 different states in the system.  </li>
-<li>The most information is in the lowest entropy state, the solved solid colored state</li>
-<li>You can’t just jump to the solved state without cheating</li>
-<li>It takes under twenty moves to solve a cube from any state</li>
-<li>Most algorithms take longer than the theoretical optimum sequence of moves.</li>
-<li>Most random moves cause entropy to increase.</li>
-</ul>
-
-<h1>Information state changes are constrained</h1>
-
-<p>The Rubic's cube can't go from any state to any other state unless you cheat and detach the cubes from the cube's core. The only valid moves are rotations. This is a profound point that I think is super relevant for any policy discussions. Often it’s very clear what a desired state of affairs is, but very unclear how to get to there. </p>
-
-<h1>Encoding information</h1>
-
-<p>Application to DNA: interesting sequences that code for something important are usually the least random ones. (Really?) Notably these information rich states don’t tell us about what this DNA means. Meaningless forms of order. </p>
-
-<p>Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in <a class="wiki" href="https://z3.ca/Seeing_Like_a_State_by_James_Scott">Seeing Like a State by James Scott</a> and сноровка. </p>
-
-<h1>Energy flows cause spontaneous order</h1>
-
-<p>Entropy only increases in a closed universe. Meaning that this universe has no flow of energy into or out of it. </p>
-
-<p>Ilya Romanovich Prigogine, a Russian Jewish born Belgian studied <a class="wiki" href="https://z3.ca/Dissapative_systems">Dissapative systems</a>, which are systems far from thermodynamic equilibrium, with substantial steady-state flows of energy. Earth is such a system because the sun is the source of all our power.</p>
-
-<p>In situations where there is a steady state, there is a tendency for spontaneous order. A whirlpool will spontaneously appear when you open the drain to a bath tub. Are there other simple examples?</p>
-
-<p>This is super cool! Imagine all of life as a sort of very complex whirlpool. Actually, Ted Chiang kinda did in a more poetic version of this idea found in the story called Exhalation. <a class="wiki" href="https://z3.ca/Exhalation_by_Ted_Chiang">Exhalation by Ted Chiang</a></p>
-
-<h1>Information can be stored in solids</h1>
-
-<p>Information can be preserved, and this preservation is best done in a solid state of matter, especially if it is non-uniform (eg. not a simple solid crystal, more like an organic molecule). The canonical example of this is DNA. </p>
-
-<p>I didn't really like Zen and Art of Motorcycle Maintenance, but this quote works well here:</p>
-
-<blockquote>
-  <p>That's all the motorcycle is, a system of concepts worked out in steel. There's no part in it, no shape in it, that is not out of someone's mind - Robert M. Pirsig</p>
-</blockquote>
-
-<h1>Goldilocks zone for information to appear and remain</h1>
-
-<p>Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from <a class="wiki" href="https://z3.ca/Where_Good_Ideas_Come_From_by_Steven_Johnson">Where Good Ideas Come From by Steven Johnson</a>). But if it’s too liquid, solids can’t form to store that information. </p>
-
-<blockquote>
-  <p>There are no long chains of proteins in the sun</p>
-</blockquote>
-
-<p>Energy is needed for information to emerge and solids are needed for information to endure. For information to explode we need the ability of matter to compute. </p>
-
-<h1>Simple computation, very broadly defined</h1>
-
-<p>Hidalgo defines computation extremely broadly. You don’t even need life for computation to occur in the natural world. He introduces a simple example of computation, a <a href="https://en.wikipedia.org/wiki/Chemical_clock">chemical clock</a>, in which a set of regents can be mixed together to make a reaction that transitions in states at predictable time frames. Trees also compute in a similar way. </p>
-
-<p>I don't really see what practical connection there is to computation the way we think of it more colloquially. </p>
-
-<h1>Products as crystallized imagination</h1>
-
-<p>Everyone uses toothpaste. Very few know how to produce sodium fluoride, or how to get it into that tiny tube. Toothpaste the product gives billions of people access to the practical benefits that a small group of toothpaste inventors created. Products allow us to transcend our individual limits. Toothpaste gives everyone the ability to maintain our teeth into old age. </p>
-
-<p>Crystallized information comes in many forms. Most of human activity is like this. Writing, speaking, music making, dancing. But Hidalgo only cares about products. Products empower others with practical uses of your ideas. </p>
-
-<p>The economy then is the substrate that allows products to spread from one individual to another. </p>
-
-<p>I'm mildly annoyed at the author for:</p>
-
-<ol>
-<li>Not really justifying why he's so obsessed with products specifically. From an information growth perspective, does art not also compound?</li>
-<li>Calling these things "products". It's very capitalist-y for no good reason. I strongly prefer artifacts.</li>
-</ol>
-
-<h1>The bad stuff</h1>
-
-<p>The first part of the book discussing information theory and Prirogine's ideas was quite good. </p>
-
-<p>Next, Hidalgo tries to apply information theory to people, companies, countries, and the global economy. This gets increasingly awkward. </p>
-
-<h2>Personbytes, a useless analogy</h2>
-
-<p>The personbyte is a transparently info theory derived quantity that's supposed to somehow represent a person's raw potential, I guess? The analogy is not great but illustrates a point. The information-theory notion of a byte is clean and mathematically precise. Applying it to people seems oddly reductive. People vary hugely in their potential and are products of their culture which is perpetually evolving. Stripped of this, we are just smart monkeys. My personal preference is to not introduce this faux-information theory concept. The same points could be made better without it.</p>
-
-<p>Hidalgo's ultimate point is well taken: that the crystallized imagination encoded in artifacts increase your own imaginative potential. This puts you in a sort of a network with other people, and being part of this network lets you create more complex output. It’s much easier to build an electric scooter if your job is to put pieces together rather than inventing battery, electric motors, aluminum welds etc.</p>
-
-<h2>Firmbytes...</h2>
-
-<p>Hidalgo continues down this road and introduces the firmbyte, a unit of quantization for companies. Similar critiques apply.</p>
-
-<p>Ford once had a plant called <a href="https://en.wikipedia.org/wiki/Ford_River_Rouge_Complex">The Rouge</a> that created cars end-to-end, taking iron ore, soy beans, rubber as input, then performing the whole manufacturing process (refining, smelting, forming, cauterizing, etc). This facility spanned an area roughly 2km x 2km and employed 100,000 people. This isn't common practice anymore.</p>
-
-<p>Manufacturers don’t generally own the whole production line from raw material to final product. There is a natural unit size for a company, and that is the firmbyte. Again, extremely fuzzy, maybe inspired by information theory. Do not want.</p>
-
-<p>The point here is even weaker: some things require multiple companies, or firmbytes to create. If there's too much friction to doing deals between companies, large networks can't be formed. Free trade agreements and standardization reduce friction between companies.</p>
-
-<h2>Imagination trade imbalances</h2>
-
-<p>Blending the idea of crystallized imagination and global trade, Hidalgo considers trade imbalances from the perspective of imagination. In the trade between Korea and Honduras, there is an imagination trade imbalance, with Korea providing in the commodity of imagination. He then ranks countries in terms of how much information capital they produce. Again, meh. </p>
-
-<p>Hidalgo touches a bit on the <a class="wiki" href="https://z3.ca/Resource_curse">Resource curse</a>. This would be interesting to understand in more detail. https://en.m.wikipedia.org/wiki/Resource_curse</p>
-
-<h2>More derivative stuff</h2>
-
-<p>In the spirit of being a random amalgamation of cool ideas Hidalgo likes:</p>
-
-<ul>
-<li>High trust enables lower transaction costs, as per <a class="wiki" href="https://z3.ca/Bowling_Alone_by_Robert_Putnam">Bowling Alone by Robert Putnam</a></li>
-<li>Family is for communism, market is for capitalism.  <a class="wiki" href="https://z3.ca/Debt_by_David_Graeber">Debt by David Graeber</a></li>
-</ul>
 
 
         
