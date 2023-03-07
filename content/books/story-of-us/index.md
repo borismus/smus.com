@@ -12,7 +12,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 
 - Genetic forces conspire to make life miserable. “The problem is that genes themselves aren’t alive, they’re just a force of nature—and forces of nature don’t give a shit about anything. Gravity wants to smoosh matter together, so that’s what it does.” (Dawkins, Selfish Gene)
 - Your genes are in control of your Primitive Mind (System 1), while your Higher Mind (System 2) has more agency. By default the Primitive Mind is in control, but people are especially good at not letting this happen. (Kahnemann & Tversky, Thinking Fast and Slow)
-- **Model: Thought Spectrum**. Rather than viewing as a dual, you can see Primitive vs Higher mind as a spectrum. 
+- **Model: Thought Spectrum**. Rather than viewing as a dual, you can see Primitive vs Higher mind as a spectrum.
 
 ![Thought spectrum](1-thought-spectrum.png)
 
@@ -28,7 +28,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 # Chapter 3: Stories
 
 - Tribes of people have the ability to create stories, and pass these stories from one person to another. These stories carry ideas about values and morals.
-- People are also capable of social learning, imagination, and the negative side affect: delusion. 
+- People are also capable of social learning, imagination, and the negative side affect: delusion.
 - The result of these things is that different tribes end up with “endless arrays of behavioural varieties—a million little evolutionary experiments”.
 - **Model: Each tribe is then controlled by its story**, and the tribe with the most evolutionarily adaptive story will ultimately win out over the rest. Ultimately, tribe vs. tribe in zero sum “Power Games”.
 
@@ -36,7 +36,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 
 # Chapter 4: Enlightenment
 
-- After being ruled by Tzars, Kings, Dictators, since ancient times, Enlightenment thinkers began to take stock of history and consider alternatives. 
+- After being ruled by Tzars, Kings, Dictators, since ancient times, Enlightenment thinkers began to take stock of history and consider alternatives.
 - “In the Power Games, kings, emperors, and warlords were typically focused on some set of goals—personal or national prosperity, defence, etc”. Conversely, “The Constitution described a sacred process—a set of inviolable means by which any and all national or individual goals would need to be accomplished.”
 - Rule of Law came about as a result. “The Power Games is full of people being found guilty without evidence and punished unfairly, something the Enlightenment was determined to put an end to—so the hard rule would be: innocent until proven guilty.”
 - **Model: Power Games vs. Value Games**. “While it was typically better to be feared than loved in the Power Games, in the Value Games, it’s usually better to be loved than feared—which keeps politicians and businesses on their best behavior.”
@@ -58,7 +58,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 
 ![Speech Curve](7-speech-curve.png)
 
-- Sometimes if a despot is in charge, he will want to control what people think, as a way to hold on to power. There is no direct way to control though, but there is a direct way to punish and control speech. 
+- Sometimes if a despot is in charge, he will want to control what people think, as a way to hold on to power. There is no direct way to control though, but there is a direct way to punish and control speech.
 - “Censorship takes a single region formed by an aligned Thought Pile and Speech Curve and turns it into three regions by generating two “censorship gaps.”
 
 ![Censorship's effect on Thoguht Pile and Speech Curve](8-censorship.png)
@@ -67,7 +67,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 # Chapter 6: American Brain
 
 - Thought Piles need not be normally distributed. In America they are often bimodal.
-- You don’t need to be ruled by a despot for there to be discrepancy between Thought Pile and Speech Curve. 
+- You don’t need to be ruled by a despot for there to be discrepancy between Thought Pile and Speech Curve.
 - **Model: Overton window** There’s a range of ideas the public will accept as politically reasonable (Overton window) and politicians at the highest level are often hamstrung by it. They can’t really move it themselves, just need to feel its boundaries.
 
 ![Overton window](9-overton-window.png)
@@ -104,7 +104,7 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 
 ![Idea Labs 2](14-idea-lab-vs-echo-chamber-thought-spectrum.png)
 
-- “The over-application of taboo is the bane of free speech, so pro-free-speech cultures use it sparingly. This frees the Idea Lab’s Speech Curve to freely line up with its Thought Pile.” In an Echo Chamber, Thought Pile and Speech Curve do not align, you end up with effective censorship. 
+- “The over-application of taboo is the bane of free speech, so pro-free-speech cultures use it sparingly. This frees the Idea Lab’s Speech Curve to freely line up with its Thought Pile.” In an Echo Chamber, Thought Pile and Speech Curve do not align, you end up with effective censorship.
 - “An Echo Chamber’s taboo minefield makes it a safe and protected space for all ideas that confirm the sacred beliefs and a very dangerous space for ideas—and people—that don’t.”
 - Conversely, Idea Labs are not a safe place for people whose identities are tied to their specific ideas. And this is many people.
 - This is a useful model, but I think in practice people’s identities are always comprised of both Echo Chambers and Idea Labs, and this is a good thing. “A human society is a rich tapestry of overlapping and sometimes sharply contradictory cultures, and each of us lives at our own unique cultural intersection.”
@@ -144,5 +144,3 @@ This is a pretty great, digestible format, tying together many ideas into a sing
 ![Media Matrix](20-media-matrix.png)
 
 Very unsatisfying end (?) to the series. Many great models were introduced in prior chapters, but this last post is mostly a regurgitation of interesting Pew Research polls. Occasional references to Higher and Primitive Minds, but that’s about it!
-
-#from smusmac#

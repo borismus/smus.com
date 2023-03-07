@@ -36,7 +36,7 @@ The following diagram is illuminating:
 
 ![[Tainter's diminishing marginal returns in complex societies.png]]
 
-I am immediately reminded of [[Two Watersheds - too much institutionalization]], but Tainter's argument is even more macro. The whole of society reaches the second watershed, and then sets itself on track for general collapse. 
+I am immediately reminded of [[Two Watersheds - too much institutionalization]], but Tainter's argument is even more macro. The whole of society reaches the second watershed, and then sets itself on track for general collapse.
 
 
 # Civilization = complexity
@@ -54,7 +54,7 @@ In contrast, simple societies, governed by chiefdoms are limited by the obligati
 
 > The features that set states apart ... are: territorial organization, differentiation by class and occupation rather than by kinship, monopoly of force, authority to mobilize resources and personnel, and legal jurisdiction.
 
-Tainter sees states as a series of complex systems. Very much along the lines of [[Thinking in Systems by Donella Meadows]]. 
+Tainter sees states as a series of complex systems. Very much along the lines of [[Thinking in Systems by Donella Meadows]].
 
 > Complex societies tend to be what Simon has called "nearly decomposable systems". That is, they are at least partly built up of social units that are themselves potentially stable and independent, and indeed at one time may have been so.
 
@@ -89,7 +89,7 @@ It also does not preclude that compensation of elites does not always match thei
 
 > the Allied troops... found a city that was dead. The Turkish government had just ceased to function. The electrical supply had failed and was intermittent. Tramways did not work and abandoned trams littered the roads. There was no railway service, no street cleaning and a police force which had largely become bandit, living on blackmail from citizens in lieu of pay. Corpses lay at street corners and in side lanes, dead horses were everywhere, with no organization to remove them.
 
-**Institutional collapse** Each civilization may typically contain a number of individual political entities that themselves rise and fall. However the definition of "civilization" tends to be vague and intuitive. 
+**Institutional collapse** Each civilization may typically contain a number of individual political entities that themselves rise and fall. However the definition of "civilization" tends to be vague and intuitive.
 
 **Cultural continuity** Even if a civilization collapses, the culture tends to continuity.
 
@@ -107,11 +107,11 @@ Tainter is skeptical about many commonly provided reasons for collapse:
 8. Social dysfunction
 9. Mystical factors
 10. Chance events
-11. Economic factors 
+11. Economic factors
 
 None of these factors help understand collapse as a general phenomenon, applicable to all societies.
 
-Tainter has general critiques of his predecessors: 
+Tainter has general critiques of his predecessors:
 
 > Rarely do authors question the logic of the climate proposition: How does or how can climatic fluctuations, invaders, and so forth lead to collapse? Can the postulated cause really account for the outcome? Is the explanation adequate?
 
@@ -120,11 +120,11 @@ Tainter has general critiques of his predecessors:
 **Elite misbehavior**: To suggest that societies collapse because elites act unwisely explains little. Are there conditions under which elites act wisely or unwisely, or is this a random variable? Is it even a definable and measurable factor?
 
 
-# Mechanisms for collapse 
+# Mechanisms for collapse
 
 Specialization => Reduction of resiliency
 
-> Self-sufficiency and autonomy of local systems are reduced as specialization increases. As special-purpose subsystems become increasingly differentiated, stability declines. Disruptions occurring anywhere will be spread everywhere, whereas in less complex settings a society would be cushioned against disruptions by less specialization, less interlinkage among parts, and greater time delays between cause and ultimate outcome. 
+> Self-sufficiency and autonomy of local systems are reduced as specialization increases. As special-purpose subsystems become increasingly differentiated, stability declines. Disruptions occurring anywhere will be spread everywhere, whereas in less complex settings a society would be cushioned against disruptions by less specialization, less interlinkage among parts, and greater time delays between cause and ultimate outcome.
 
 Elman Service's [[Law of evolutionary potential]]:
 
@@ -136,7 +136,7 @@ This rhymes quite a bit with [[The Great Filter solution to Fermi's paradox]]. S
 
 Another way of stating the same thing is the **Dinosaur Model**. Here, a complex society is seen as a lumbering colossus, fixed in its morphology, and incapable of rapid change. Locked into an evolutionary dead end, it represents an investment in structure, size, and complexity that is awesome and admirable, yet highly maladaptive. When stresses arise, such a society cannot adapt, and so must expire.
 
-This rhymes very much with [[Disruption theory]] in business. This lock-in phenomenon can also be framed as a feedback loop: 
+This rhymes very much with [[Disruption theory]] in business. This lock-in phenomenon can also be framed as a feedback loop:
 
 > Other scholars implicate a positive feedback loop in collapse, from which escape is impossible. Colin Renfrew (1979) argues that under stress complex societies lack the option to diversify, to become less specialized. By doing more of what may have caused the problem in the first place, the breakdown of the system is made inevitable.
 
@@ -165,7 +165,7 @@ Civilization itself (i.e., great complexity), to Rappaport, may be maladaptive: 
 
 The Ik People are really fascinating:
 
-> Children are minimally cared for by their mothers until age three, and then are put out to fend for themselves. This separation is absolute. By age three they are expected to find their own food and shelter, and those that survive do provide for themselves. Children band into age-sets for protection, since adults will 
+> Children are minimally cared for by their mothers until age three, and then are put out to fend for themselves. This separation is absolute. By age three they are expected to find their own food and shelter, and those that survive do provide for themselves. Children band into age-sets for protection, since adults will steal a child's food whenever possible.
 
 
 Understanding How We Learn: A Visual Guide
@@ -178,7 +178,7 @@ I read this book because it was recommended by C for work. This book serves as a
 
 # Educational myths
 
-Educational practices rely too much on intuition, and not enough on science. The authors make an analogy to medicine, and a scientific approach improved health outcomes dramatically around the turn of the 20th century. For examples, students read textbooks and notes repeatedly because it feels good, but this does not improve their learning outcomes. 
+Educational practices rely too much on intuition, and not enough on science. The authors make an analogy to medicine, and a scientific approach improved health outcomes dramatically around the turn of the 20th century. For examples, students read textbooks and notes repeatedly because it feels good, but this does not improve their learning outcomes.
 
 Cognitive psychology can immediately debunk many myths in education:
 
@@ -215,7 +215,7 @@ One way in which perception is subjective is illustrated by [[Intensity of stimu
 
 Attention is a limited capacity resource. If you work on a difficult task, all of your attention is required. A simple task will leave you with some left over attention. **Cognitive load** is a measure of how much of someone’s attention will be required to grok an explanation. The goal, then, is to minimize cognitive load but still convey the concept.
 
-Attention involves focusing on one thing at a time. **Multi-tasking** for humans is similar to multi-tasking for machines: you end up duty-cycling from one “simultaneous” activity to the next. And this causes both activities to be done worse than if they were done sequentially. Nice demonstration: 
+Attention involves focusing on one thing at a time. **Multi-tasking** for humans is similar to multi-tasking for machines: you end up duty-cycling from one “simultaneous” activity to the next. And this causes both activities to be done worse than if they were done sequentially. Nice demonstration:
 
 1. Count aloud 1-26
 2. Recite letters A-Z
@@ -263,7 +263,7 @@ As soon as you encode something, you immediately start to forget it. Forgetting 
 
 # Part 3: Strategies for effective learning
 
-Studies on brain-training games suggest that performance on the games does not transfer to real-life tasks. 
+Studies on brain-training games suggest that performance on the games does not transfer to real-life tasks.
 
 Each of the following section introduces a study technique that has been shown to work through studies. Many of them overlap one another.
 
@@ -277,7 +277,7 @@ There is a well defined answer to the question “when should I be studying give
 
 ## Interleaving: switch between topics while studying
 
-Focus on the same topic during a study session will improve results in the short term. But long term studies show that results are dramatically better in the interleaved case. 
+Focus on the same topic during a study session will improve results in the short term. But long term studies show that results are dramatically better in the interleaved case.
 
 Which concepts should be interleaved? Studies show that interleaving completely unrelated concepts (eg. Science concepts and foreign language vocab) doesn’t lead to especially good outcomes. Also unclear what the effect is on attention. Is it bad like multi-tasking, or good because it reduces boredom?
 
@@ -286,15 +286,15 @@ Overall, a spaced repetition practice often includes interleaving naturally. But
 
 ## Elaborative interrogation: ask and explain how and why things work
 
-Elaborative interrogation (EI) is a specific method of elaboration where you ask yourself questions of how and why things work, then produce answers. 
+Elaborative interrogation (EI) is a specific method of elaboration where you ask yourself questions of how and why things work, then produce answers.
 
 Cousins include [[Socratic dialogue]] and the chain of why questions that toddlers and young children are famous for.
 
-A study (Woloshyn and Stockley) found that EI led to better long term retention than re-reading the material. It worked in both an individual condition (self-asking and answering) and in pairs (one asks, the other answers, WLOG). 
+A study (Woloshyn and Stockley) found that EI led to better long term retention than re-reading the material. It worked in both an individual condition (self-asking and answering) and in pairs (one asks, the other answers, WLOG).
 
 Performance was even better if an adequate answer to the question was produced by the student. But only works if background knowledge high enough. Otherwise better to read for understanding. Caveat
 
-## Concrete examples: illustrate abstract concepts with specific examples 
+## Concrete examples: illustrate abstract concepts with specific examples
 
 It helps to ground an abstract idea by giving concrete examples that tie back to the concept. For example, the notion of scarcity can be described abstractly:
 
@@ -336,7 +336,7 @@ Many possible forms of retrieval practice:
 - Draw a diagram from memory
 - Explain what they can remember to another person
 
-**Need to be ZPD**: If a retrieval task is too hard, students will be discouraged. If it’s too easy, they will be bored. Need to be in the [[Zone of Proximal Development (ZPD)]], while retaining [[Desirable difficulties]]. 
+**Need to be ZPD**: If a retrieval task is too hard, students will be discouraged. If it’s too easy, they will be bored. Need to be in the [[Zone of Proximal Development (ZPD)]], while retaining [[Desirable difficulties]].
 
 **Failed retrieval can still help**: there is evidence that even a failed retrieval attempt can improve learning.
 
@@ -353,7 +353,7 @@ Both short-form answer and multiple choice quizzes have been shown to be effecti
 
 ## Scaffolding: retrieval practice should be modified for some learners
 
-Interesting if not directly related: this doesn’t work well on 4th graders, because the task of writing out everything they know on a blank sheet of paper is daunting. Young learners have a very low (9%) recall rate after reading a passage. 
+Interesting if not directly related: this doesn’t work well on 4th graders, because the task of writing out everything they know on a blank sheet of paper is daunting. Young learners have a very low (9%) recall rate after reading a passage.
 
 Solution might be to help them review the material first, which is called scaffolding. One example is to give a partially completed concept map based on the passage, then have the student fill out the rest, then do the recall. This has been shown to be very effective.
 
@@ -374,9 +374,9 @@ Spacing practice is hard to get into. Authors suggest getting students to do per
 
 # How to apply these strategies in AI-assisted learning
 
-**Elaborative interrogation**: I wonder if it would help to let learners take one of the sides and the AI takes the other? Here's how it might work: 
+**Elaborative interrogation**: I wonder if it would help to let learners take one of the sides and the AI takes the other? Here's how it might work:
 
-1. Given a topic, generate some comprehension questions and have the learner answer. 
+1. Given a topic, generate some comprehension questions and have the learner answer.
 2. Given a topic, have the learner come up with comprehension questions themselves.
 
 **Concrete examples**: Can LLMs generate concrete examples of abstract concepts?
@@ -398,7 +398,7 @@ cover: /assets/book-covers/scout-mindset.jpg
 
 It's been years since I would have said that I aspire to be a rationalist. But I've been swimming in rationality circles for long enough that some of the arguments and ideas in the book are somewhat trite. But I have enjoyed Julia’s podcast for her crispness of thought, ability to popularize, and pleasant voice. I'd recommend this book for someone unfamiliar with modern rationalism that's looking to get their feet wet. It's definitely a more coherent and less overwhelming starting point than lesswrong.
 
-I was looking forward to the takedown of [[Gerd Gigerenzer on Gut Feelings]], who’s ideas I am sympathetic to. 
+I was looking forward to the takedown of [[Gerd Gigerenzer on Gut Feelings]], who’s ideas I am sympathetic to.
 
 **Soldier mindset** we tend to defend our beliefs against any evidence or arguments that might threaten them. Reasoning in the English language is often described through militaristic metaphors. We try to “shore up” our beliefs, “support them” and “buttress them” as if they’re fortresses. We try to “shoot down” opposing arguments and we try to “poke holes” in the other side.
 
@@ -408,9 +408,9 @@ Julia argues that scout mindset is always better than soldier mindset. There are
 
 # Rational irrationality
 
-Sometimes it's rational to be irrational. For example, you your outcomes as a start-up founder might be better if you have irrational belief in yourself (IS). This can be described as "rational irrationality", which is paradoxical. My prior is that this is well warranted sometimes. 
+Sometimes it's rational to be irrational. For example, you your outcomes as a start-up founder might be better if you have irrational belief in yourself (IS). This can be described as "rational irrationality", which is paradoxical. My prior is that this is well warranted sometimes.
 
-Galef diffuses this paradox and explains what's going on clearly and succinctly. What's happening is that two meanings of rationality are being used: 
+Galef diffuses this paradox and explains what's going on clearly and succinctly. What's happening is that two meanings of rationality are being used:
 
 - Instrumental rationality involves the pursuit of a particular end goal, by any means necessary.
 - Epistemic rationality involves achieving accurate beliefs about the world.
@@ -439,14 +439,14 @@ Sometimes, if you're about to make a difficult decision, Galef suggests trying o
 
 I suspect the hardest part about Galef's advice is being sufficiently mindful to decide that now is a good time to try.
 
-The idea of calibrated bets is a great one that I've incorporated into my New Years routine. I set predictions for a year ahead on all fronts (SSC, AK inspired) and then see how well calibrated I am. 
+The idea of calibrated bets is a great one that I've incorporated into my New Years routine. I set predictions for a year ahead on all fronts (SSC, AK inspired) and then see how well calibrated I am.
 
 However generating probabilities for predictions is always tricky. Galef also introduces a technique for called the **equivalent bet test**, which she attributes to Douglas Hubbard. The way it works is to compare the issue at hand to a simpler scenario where you randomly draw balls from a jar. One of N balls in the jar is black, and the rest are white. You play with which N would feel right so that both bets yield the same winnings.
 
 
 # Celebrity calibration
 
-I love that Galef picks on Spock, who is often considered a model of rationality. By showing how poorly calibrated he is, she also dispels the idea that being rational means being robotic and failing to understand humans. 
+I love that Galef picks on Spock, who is often considered a model of rationality. By showing how poorly calibrated he is, she also dispels the idea that being rational means being robotic and failing to understand humans.
 
 In spirit of Spock’s poor calibration, what can we say about Elon Musk's calibration? He gave 10% chance of success to two of his successful companies!
 
@@ -467,7 +467,7 @@ Her example of Vitalik Buterin is maybe slightly unfortunate. He seems really sm
 
 Julia Galef and Paul Graham are overly bearish on identity. But identity is what makes you who you are. By rooting it out you demolish your own uniqueness, traditions, original insights. In this sense I am in favor of intersectionality, but broadly construed. Diversity (see [[Measuring non-woke diversity broadly]]) not of skin color and gender but of substantive and nuanced things like having been homeschooled, or being a practicing orthodox Christian or believing in Gaia theory or the fact that you raised three children on a 30’ sailboat circumnavigating the globe. Maybe you are super old and survived the Leningrad blockade. Maybe you grew up in desperate poverty. Or even, that you grew up as the son of a Saudi Prince. These things will give you a different perspective on life, and are genuinely valuable to bring to the table.
 
-Great. Reminder. About. Righteous. Sentences. Produced. By. Emphatic. Use. Of. Periods. 
+Great. Reminder. About. Righteous. Sentences. Produced. By. Emphatic. Use. Of. Periods.
 
 I 👋 Should 👋 Use 👋 This 👋 Trick 👋 Way 👋 More 👋 Often.
 
@@ -490,53 +490,53 @@ Ultimately I won't read the whole book, and can't broadly recommend this one unl
 
 # St. Petersburg: 1703 - 1825
 
-German - немец shares a root with немой - mute. A general shorthand for all foreigners. 
+German - немец shares a root with немой - mute. A general shorthand for all foreigners.
 
-Peter I traveled incognito 🥸 thru Amsterdam as Peter Mikhailov. He got an internship at a shipyard and truly lived that life for four months. 
+Peter I traveled incognito 🥸 thru Amsterdam as Peter Mikhailov. He got an internship at a shipyard and truly lived that life for four months.
 
-> Amsterdam was a kind of factory for creating modern people… just as a well designed sawmill could transform rough timber into uniform usable planks so too a city, if properly designed could shape even the toughest hewn barbarians into civilized men and women. 
+> Amsterdam was a kind of factory for creating modern people… just as a well designed sawmill could transform rough timber into uniform usable planks so too a city, if properly designed could shape even the toughest hewn barbarians into civilized men and women.
 
 (Very Le Corbusier: A house is a machine for living in)
 
-Witnessing the parliament of William III shortly after the glorious revolution, Peter remarked that it was good that the ruler was given counsel, but to be bound by any of it was an outrage. 
+Witnessing the parliament of William III shortly after the glorious revolution, Peter remarked that it was good that the ruler was given counsel, but to be bound by any of it was an outrage.
 
-Peter concluded his trip to Holland with realization of importance of sea port. But Russia was landlocked, so he conquered St. Petersburg which was Swedish at the time. 
+Peter concluded his trip to Holland with realization of importance of sea port. But Russia was landlocked, so he conquered St. Petersburg which was Swedish at the time.
 
-As a modernization means, Peter forced all men to shave their beards and cut off the flowing sleeves of their caftans. 
+As a modernization means, Peter forced all men to shave their beards and cut off the flowing sleeves of their caftans.
 
 St. Petersburg was built by serfs on 6 month tours of duty. Peter ordered 40,000 a year. And they didn't even have wheelbarrows. Known as a “city built on bones”. Peter boasted 100,000 died building it. Reminds me of [[Roman slaves were cheaper than machines]]
 
 Peter mandated travel by boat, but banned oars to force his people to learn how to sail by the wind alone. Nobles were gifted sailboats whose size corresponded to their rank. Peter built canals throughout the city to facilitate travel by water, but neglected to consider that they would freeze in winter.
 
-Peter imported books on architecture and employed hundreds of foreign architects. His lead was **Dominico Trezzini**. The city arose out of imported theory rather than locally rooted processes, and tended towards extremes. 
+Peter imported books on architecture and employed hundreds of foreign architects. His lead was **Dominico Trezzini**. The city arose out of imported theory rather than locally rooted processes, and tended towards extremes.
 
-The Kunstkamera, constructed in 1727 was the first public museum in Russia (author claims the world, but AFAICT it's The Ashmolean in Oxford, c. 1683), where Peter hoped to educate the general public. When his aides suggested he charge for entry, he even provided visitors with vodka and snacks. 
+The Kunstkamera, constructed in 1727 was the first public museum in Russia (author claims the world, but AFAICT it's The Ashmolean in Oxford, c. 1683), where Peter hoped to educate the general public. When his aides suggested he charge for entry, he even provided visitors with vodka and snacks.
 
 Peter began hosting concerts of instrumental music, which was illegal in Moscow because god had to be praised by the human voice alone. He imported French salons as “assemblies” which he observed in Paris.
 
-In Moscow, the German quarter was cordoned off from the rest of city out of fears that foreigners would corrupt the Russians with their unorthodox ways. In St. Petersburg, the немцы were integrated and were allowed to build non-orthodox churches and even conduct services in foreign languages. 
+In Moscow, the German quarter was cordoned off from the rest of city out of fears that foreigners would corrupt the Russians with their unorthodox ways. In St. Petersburg, the немцы were integrated and were allowed to build non-orthodox churches and even conduct services in foreign languages.
 
-By 1720 st. Pete had population of 40,000. Thirty years before, it was a swamp. 
+By 1720 st. Pete had population of 40,000. Thirty years before, it was a swamp.
 
-Peters son Alexis did not approve of St. Petersburg, thinking it was too western facing. He attempted a coup and vowed to return the capital to Moscow. Peter sentenced his own son to death in 1717. 
+Peters son Alexis did not approve of St. Petersburg, thinking it was too western facing. He attempted a coup and vowed to return the capital to Moscow. Peter sentenced his own son to death in 1717.
 
 Peter was succeeded by Anna, an empress and intellectual lightweight who did little and reverted to frivolity. She built the worlds largest ice palace. But she also commissioned the winter palace (hermitage) done by **Bartolommeo Rastreli**. Was she all that useless?
 
-Catherine married Peter's grandson Peter III and took the throne in 1762. By then the city's population was 100,000. She followed in Peter's footsteps, turning it westward again. She hired **Giacomo Quarenghi**. All architects seemed to have been inspired by Palladio. 
+Catherine married Peter's grandson Peter III and took the throne in 1762. By then the city's population was 100,000. She followed in Peter's footsteps, turning it westward again. She hired **Giacomo Quarenghi**. All architects seemed to have been inspired by Palladio.
 
 
-Catherine amassed European art. Her collection of 4000 paintings rivaled what generations of French kings collected in the Louvre for four centuries. 
+Catherine amassed European art. Her collection of 4000 paintings rivaled what generations of French kings collected in the Louvre for four centuries.
 
-Catherine corresponded with Voltaire, who wrote a hagiography of Peter I. She imported Voltaire's works and invited Diderot to Russia. His stay was short lived since he had some radically egalitarian ideas. He saw Russia as a blank slate that was easier to reform than Europe. (Prescient given the communist revolution to come). Ultimately Diderot was booted for suggesting to dismantle Russian serfdom, a system of “masters and slaves”, which was the last straw. 
+Catherine corresponded with Voltaire, who wrote a hagiography of Peter I. She imported Voltaire's works and invited Diderot to Russia. His stay was short lived since he had some radically egalitarian ideas. He saw Russia as a blank slate that was easier to reform than Europe. (Prescient given the communist revolution to come). Ultimately Diderot was booted for suggesting to dismantle Russian serfdom, a system of “masters and slaves”, which was the last straw.
 
 
-> Not only was the empress seeking advice from foreign experts when Peter had vowed that Russia would “show Europe its ass”, but when they offered advice to empower the people, the empress refused to take it. 
+> Not only was the empress seeking advice from foreign experts when Peter had vowed that Russia would “show Europe its ass”, but when they offered advice to empower the people, the empress refused to take it.
 
-Catherine did take some advice. And attempted to bring open debate by running public salons in the winter palace. But the French Revolution of 1789 changed this openness. And her lieutenant Radischev wrote a French Revolution inspired “Journey from St. Petersburg to Moscow”, highly sympathetic to the plight of serfs, including plans for abolition. This closed the window for Catherine and Russia was firmly an autocracy. 
+Catherine did take some advice. And attempted to bring open debate by running public salons in the winter palace. But the French Revolution of 1789 changed this openness. And her lieutenant Radischev wrote a French Revolution inspired “Journey from St. Petersburg to Moscow”, highly sympathetic to the plight of serfs, including plans for abolition. This closed the window for Catherine and Russia was firmly an autocracy.
 
-> Open debate would reign within the winter palace even as autocracy prevailed outside its walls. 
+> Open debate would reign within the winter palace even as autocracy prevailed outside its walls.
 
-When Alexander I, grandson of Catherine, defeated napoleon and entered Paris in 1814, Peter the Great's vision of modernity without democracy was fulfilled. Russia was compared to Rome and Alexander I went on a building spree, rapping **Carlo Rossi**, who trained in Rome. He was most famous for the general staff building and an arch. 
+When Alexander I, grandson of Catherine, defeated napoleon and entered Paris in 1814, Peter the Great's vision of modernity without democracy was fulfilled. Russia was compared to Rome and Alexander I went on a building spree, rapping **Carlo Rossi**, who trained in Rome. He was most famous for the general staff building and an arch.
 
 French influences were still prominent even after 1814. **Auguste de Montferrand** redesigned the St. Isaac's cathedral. In his bid he presented oil paintings of many possible styles: Indian, Chinese, Byzantine, green etc. but the choice was obvious: giant gilded neoclassical dome. Just like the best of Europe!
 
@@ -544,7 +544,7 @@ As the Russian army marched through Europe pursuing the fleeing armies of Napole
 
 This planted the seeds of the Decembrist revolt, organized by six members of the imperial guard, who wanted to bring constitutional government to Russia. Waiting for a succession, they vowed to make a move during the chaos that would ensue. Instead, they were massacred in front of the Hermitage.
 
-Subsequently, to tamp down future rebellions, Nicholas I instituted a secret police to watch dissent, suggested that European travelers come back with criticism, and pared back liberal arts education to focus on technical subjects instead. The window to the west was closing. 
+Subsequently, to tamp down future rebellions, Nicholas I instituted a secret police to watch dissent, suggested that European travelers come back with criticism, and pared back liberal arts education to focus on technical subjects instead. The window to the west was closing.
 
 
 # St. Petersburg: 1825 - 1934
@@ -559,9 +559,9 @@ The Crimean War loss at the end of Nicholas I's rule was a wake up call. His son
 
 Sept 1 1861: St. Petersburg University Rebellion demanding a democratically elected leader not a tzar. I've never heard of this, nor had dad, and so I dug in a bit. The author claims "the university was closed outright for two years", while [Wikipedia says](https://en.wikipedia.org/wiki/Saint_Petersburg_Imperial_University) "it was temporarily closed twice during the year".
 
-Narodniks were student intellectuals that went to the people (народ) to try to spread revolutionary ideas. First they tried with pamphlets but the peasants were illiterate (hmm... really?). Then they tried with speeches and the peasants reported them to the tzar. By 1877, 1600 students were imprisoned in Peter and Paul fortress. 
+Narodniks were student intellectuals that went to the people (народ) to try to spread revolutionary ideas. First they tried with pamphlets but the peasants were illiterate (hmm... really?). Then they tried with speeches and the peasants reported them to the tzar. By 1877, 1600 students were imprisoned in Peter and Paul fortress.
 
-The radicals adopted another strategy. A new organization, The People's Will began to assassinate key regime officials. Alexander II had his liberal interior minister draw up plans to ease censorship, abolish secret police and allow elected representatives to vote in national affairs. Alas, the peoples will succeeded after six attempts to assassinate the tzar. 
+The radicals adopted another strategy. A new organization, The People's Will began to assassinate key regime officials. Alexander II had his liberal interior minister draw up plans to ease censorship, abolish secret police and allow elected representatives to vote in national affairs. Alas, the peoples will succeeded after six attempts to assassinate the tzar.
 
 Instead of triggering a revolution, they triggered succession, and Alexander III was far more conservative than his father. Rather than moving the capital back to Moscow, he brought Moscow to St. Petersburg by erecting a large cathedral: Church of the Savior on Spilled Blood. This structure designed by an archimandrite (orthodox title) with no architectural background, stood out like a sore thumb in the middle of the city. “A deliberate intrusion of the real Russia onto the Petersburg scene”.
 
@@ -579,7 +579,7 @@ Five thousand protesters led by Gapon were joined by curious sympathizers as the
 
 However this democratic stint was short lived. In 1906, nearly half of the Duma’s representatives were rural peasants, underscoring Russia’s backwardness (really?). Further, Nicholas II dissolved the Duma and called for new elections. He did this repeatedly to limit the socialists in its ranks.
 
-Nicholas II became increasingly insular, hiding from the people in Tsarskoe Selo. He pined for the Russia before Peter the Great turned westward, adopting the title tzar (instead of emperor, preferred by Peter and used by many Russian monarchs). He wore a beard, a caftan with long impractical sleeves, and commissioned his architects to build the [Feodorov village](https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)), a mini walled town modeled after the 17th century. 
+Nicholas II became increasingly insular, hiding from the people in Tsarskoe Selo. He pined for the Russia before Peter the Great turned westward, adopting the title tzar (instead of emperor, preferred by Peter and used by many Russian monarchs). He wore a beard, a caftan with long impractical sleeves, and commissioned his architects to build the [Feodorov village](https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)), a mini walled town modeled after the 17th century.
 
 In St. Petersburg, he built the Romanov Tercentenary to commemorate the 300 anniversary of Romanov rule.
 
@@ -589,29 +589,29 @@ But the jubilation was short lived, and massive casualties begat draft dodgers, 
 
 Nicholas abdicated the throne and gave up power to his brother, who also refused it. A temporary government was set up under Kerensky.
 
-Some concessions were given to the labor movement: an eight hour work day. But real wages plummeted and unemployment skyrocketed. 
+Some concessions were given to the labor movement: an eight hour work day. But real wages plummeted and unemployment skyrocketed.
 
-Lenin’s Bolsheviks called for national transformation, echoing Peter the greats conviction he could autocratically wrench Russia into the modern world without having to wait for more organic development from below. 
+Lenin’s Bolsheviks called for national transformation, echoing Peter the greats conviction he could autocratically wrench Russia into the modern world without having to wait for more organic development from below.
 
-After the successful October revolution, Lenin found himself in a civil war which erupted against an alliance of opponents aided by anti-communist western powers like Britain, France, and the USA. The capital was moved from Petrograd to Moscow for military strategic reasons. 
+After the successful October revolution, Lenin found himself in a civil war which erupted against an alliance of opponents aided by anti-communist western powers like Britain, France, and the USA. The capital was moved from Petrograd to Moscow for military strategic reasons.
 
 In the Kremlin centuries ago, a bearded theocratic elite ruled Russia following eternal truths of church teachings. Now a new class of grey men would rule according to the holy canon of official Bolshevik doctrine. (Really?)
 
 After the civil war was won and the whites were crushed, major changes came to St. Petersburg. Originally the gateway through which European ideas including Marx’s flowed into the country. When Lenin came to power, new ideas became a threat. Lenin quickly set up the Cheka secret police to stifle Petrograd's “embittered bourgeoisie intelligencia”. Meanwhile wages fell and food became scarce and Petrograd dropped from 2.3 million in 1918 to 0.7 million in 1920 (!!) as workers returned to their villages and became peasants again. (Shocking drop— was it due to foreign divestment?)
 
-Worker strikes spread to the naval installation of Kronstadt, and 10,000 sailors rose up against Bolshevism. The rebellion was crushed violently but made Lenin lay off Petrograd and give the city a bit of breathing room. When Lenin died in 1924 the city was renamed in his honor. 
+Worker strikes spread to the naval installation of Kronstadt, and 10,000 sailors rose up against Bolshevism. The rebellion was crushed violently but made Lenin lay off Petrograd and give the city a bit of breathing room. When Lenin died in 1924 the city was renamed in his honor.
 
-Meanwhile Russia felt to the exterior world like once again a promising blank slate as under Catherine the great. This time there were more talented Russians  to lead the charge. 
+Meanwhile Russia felt to the exterior world like once again a promising blank slate as under Catherine the great. This time there were more talented Russians  to lead the charge.
 
-The Bauhaus movement found eager home in the Soviet state. [Tatlin's Tower](https://en.wikipedia.org/wiki/Tatlin%27s_Tower) was an ambitious modern example of such a project but was never built for lack of funds. 
+The Bauhaus movement found eager home in the Soviet state. [Tatlin's Tower](https://en.wikipedia.org/wiki/Tatlin%27s_Tower) was an ambitious modern example of such a project but was never built for lack of funds.
 
 Constructivism became Russia's distinctive style of modernism integrating obsession with geometry and perspective. Example: [Palace of Culture](http://architectuul.com/architecture/gorky-palace-of-culture). [Tractornaya Ulitsa](https://newhumanist.org.uk/articles/2301/on-tractor-street) homes were a tasteful update on classic Petersburg forms. I'm reminded of [[Palaces for the People by Eric Klinenberg]], just making the connection from the name.
 
-**Erich Mendelssohn** was brought to design red banner factory in 1925, which looked like a giant ocean liner ready to set sail. 
+**Erich Mendelssohn** was brought to design red banner factory in 1925, which looked like a giant ocean liner ready to set sail.
 
-This period of early soviet avant-garde was short lived as cultural conservatives gained the upper hand, chief among them Stalin. 
+This period of early soviet avant-garde was short lived as cultural conservatives gained the upper hand, chief among them Stalin.
 
-> As in the Age of Enlightenment, Russia’s window on the west birthed dreams of a glorious future only to smother them. 
+> As in the Age of Enlightenment, Russia’s window on the west birthed dreams of a glorious future only to smother them.
 
 
 # St. Petersburg: 1934 - 1985
@@ -634,7 +634,7 @@ By 1941, the Germans had fully cut off food supplies from Leningrad. Once the cr
 
 Stalin may have been deliberately slow to stop the siege, as he watched the city he hated be crushed by Nazi air raids. The Smolny party headquarters were camouflaged, while great buildings like St. Isaac’s and the Admiralty were not. And party members were not starving like the commoners. Their only wartime rule was: no seconds of meat!
 
-Throughout all this in 1941, a strike broke out at Kirov Works (formerly Putilov Works), where strikers demanded an end to Stalin’s Russia. This in the context of being fully cut off from the rest of Russia was a fascinating political threat from within. 
+Throughout all this in 1941, a strike broke out at Kirov Works (formerly Putilov Works), where strikers demanded an end to Stalin’s Russia. This in the context of being fully cut off from the rest of Russia was a fascinating political threat from within.
 
 The history associated with this period did not jive well with the party line. The curator of the Blockade Museum, which opened a few months after the end of the war, was promptly shot, and museum closed. Even the official Monument to the Defenders of Leningrad did not open until the 70’s.
 
@@ -646,15 +646,15 @@ Never heard of "Санкт Петербург" the punk band, actually pretty go
 
 # St. Petersburg: 1985 - ~now
 
-Under Gorbachev the city turned westward again and people made great strides in civil rights, especially of speech and assembly. 
+Under Gorbachev the city turned westward again and people made great strides in civil rights, especially of speech and assembly.
 
 **Angleterre Hotel**, a historical landmark was due to be razed in 1987. A crowd gathered to protest and the leader was told by officials that no such thing would happen. Half an hour later the hotel was demolished. A sign of the times, rather than dispersing the crowd stood its ground and formed an “information point”, dissenting in public. Known as Battle of the Angleterre.
 
 In the **Mikhailovsky Garden**, Peter's assemblies and Catherine’s salons were revived on Saturday afternoons. This “Hyde Park” was shutdown and then moved to Nevsky prospect!
 
-I didn't know the new name of the city was decided by popular referendum in June 1991. Choices were Leningrad and St. Petersburg. Solzhenitsyn wanted Svyato-Petrograd which is a bit awkward, and never made ballot. 
+I didn't know the new name of the city was decided by popular referendum in June 1991. Choices were Leningrad and St. Petersburg. Solzhenitsyn wanted Svyato-Petrograd which is a bit awkward, and never made ballot.
 
-Anatoly Sobchak, former head of Leningrad Soyuz was elected as head of Leningrad mayor of St. Petersburg. He aimed to turn the city into a special economic zone after China. He established ties with us universities and mega corps like Coca Cola and Gillette began opening offices in St. Pete. 
+Anatoly Sobchak, former head of Leningrad Soyuz was elected as head of Leningrad mayor of St. Petersburg. He aimed to turn the city into a special economic zone after China. He established ties with us universities and mega corps like Coca Cola and Gillette began opening offices in St. Pete.
 
 Rather than a China-style transition to market economy slowly weaning unproductive industry from subsidies, St. Pete endorsed immediate removal of price controls, calling it “shock therapy”. The result was skyrocketing prices, "all shock and no therapy". Interesting debate about Shock Therapy between Joseph Stiglitz (against) and Jeffrey Sachs (in favor). Look into it later.
 
@@ -664,7 +664,7 @@ Western firms found that they needed to be headquartered in Moscow, since that i
 
 The early 90s were extremely rough: from 1990 to 1995, the number of Russians living on $4 a day or less went from 2M to 60M. Life expectancy went from 68.5 to 64.5. "everything Marx said about communism was wrong, but everything he said about capitalism was right"
 
-By 1998, the ruble had collapsed. This economic chaos began to be associated with democracy in the Russian mind, and the people pined for a strong leader. Putin's Russia would be autocracy reborn. The next bits go into Putin's biography, mostly a rehash of [[Nothing is True and Everything is Possible]]. Notably Putin consolidated TV networks under state control. Gasprom, the giant government owned conglomerate, benefited greatly from spikes in oil demand in the early 21st century. 
+By 1998, the ruble had collapsed. This economic chaos began to be associated with democracy in the Russian mind, and the people pined for a strong leader. Putin's Russia would be autocracy reborn. The next bits go into Putin's biography, mostly a rehash of [[Nothing is True and Everything is Possible]]. Notably Putin consolidated TV networks under state control. Gasprom, the giant government owned conglomerate, benefited greatly from spikes in oil demand in the early 21st century.
 
 The last St. Pete gubernatorial election was in 2003. In 2004, a law was passed that makes heads of all "federal subjects" (provinces, republics, territories, federal cities like St. Pete) appointed directly by the President of Russia. In the west we have checks and balances. In Russia we have check and mate (I made that up)
 
@@ -676,7 +676,7 @@ Valentina Matviyenko, Putin's puppet established the city as a Potemkin village,
 - But this spurred on a powerful countervailing force administered by rulers like Alexander I, Nicholas I, and Stalin that wanted Russia to look inwardly.
 - Even the western facing rulers avoided embracing political freedom and democracy. The trend continues to this day.
 - Great architecture, often built by foreign architects or under the auspices of some great Italian or French designs.
-- The Russians cribbed from the French. But the Germans cribbed from the Romans, and the Romans cribbed from the Greeks. 
+- The Russians cribbed from the French. But the Germans cribbed from the Romans, and the Romans cribbed from the Greeks.
 
 > That the Romans copied doesn't mean that history is nothing but copying, but it does mean that copying is an integral part of history. [...] The US too, like the Germans and the Romans, consciously wrote itself into the western tradition.
 
@@ -695,7 +695,7 @@ Max Weber piqued my interest in an overview course in philosophy [[The Modern Po
 
 When GB suggested that Weber's translated works were readable, I decided to take the plunge. Weber is sometimes long winded. The last sections seem to go deep into narrow protestant sub-sects and associated thinkers. Zinzendorf, Herrnhut and the Pietists were just a bit too much for me. I found this section to be repetitive and overly detailed. But other times, the text was so dense and rich I actually had to slow the audio book narration to below real-time, which is a first for me. If you are tempted to skim, be sure to read the last chapters.
 
-According to Weber, Protestants in general are characterized by a strong piety and a remarkable proficiency at their trade. 
+According to Weber, Protestants in general are characterized by a strong piety and a remarkable proficiency at their trade.
 
 > [Striking] is the connection of a religious way of life with the most intensive development of business acumen among those sects whose otherworldliness is proverbial as their wealth
 
@@ -709,21 +709,21 @@ Weber makes a sharp distinction: the Protestant work ethic is diametrically oppo
 Interesting distinction between:
 
 1. Satisfaction of needs and
-2. Acquisition beyond those needs. 
+2. Acquisition beyond those needs.
 
-Economic traditionalism is exemplified in (1). But capitalism is mostly (2), an acquisitive economy. 
+Economic traditionalism is exemplified in (1). But capitalism is mostly (2), an acquisitive economy.
 
-The acquisitive economy relies on money and wealth as a measure of how well you have done your job. 
+The acquisitive economy relies on money and wealth as a measure of how well you have done your job.
 
-The idea of a calling irrational and is associated with Protestantism according to Weber. He will tease this out in chapter 3. 
+The idea of a calling irrational and is associated with Protestantism according to Weber. He will tease this out in chapter 3.
 
 # The Calling: from monasticism to craftsmanship
 
-Luther said that the fulfillment of worldly activity is the best way to worship the lord. 
+Luther said that the fulfillment of worldly activity is the best way to worship the lord.
 
 In the early Catholic Church, the notion of a calling was often applied to a monastic lifestyle. Worldly duties were derided. The individual should stay in the station he was given at birth and glorify god.
 
-Luther translated this notion into something much more worldly. Religious authority was not reduced, but the calling could force you to pursue a path divergent from the station provided at birth. 
+Luther translated this notion into something much more worldly. Religious authority was not reduced, but the calling could force you to pursue a path divergent from the station provided at birth.
 
 The emphasis thus shifted from an unending glorification of god to a creation of god-glorifying works, fruits of your craft. I think of J. S. Bach as an exemplar of this attitude. Even mom has said that at her best, her hands are moved by god's grace.
 
@@ -732,7 +732,7 @@ The emphasis on works reminds me of [[Never Let Me Go by Kazuo Ishiguro]], in wh
 Weber enumerates protestant denominations that contributed to this solid work ethic:
 
 - Calvinism/Reformed (Presbyterians)
-- Pietism, a Calvinist-adjacent branch within Lutheranism. 
+- Pietism, a Calvinist-adjacent branch within Lutheranism.
 - Methodism, which split off from Anglicanism.
 - Sects from the Baptist movement.
 
@@ -744,7 +744,7 @@ diagram I found helpful](https://en.wikipedia.org/wiki/Protestantism#/media/File
 I also spent a couple of hours trying to understand a bit beyond what the book has to offer, and here are my findings:
 
 - Not all branches of Protestantism stem from Luther directly. Some seem to be inspired by his disobedience, but don't inherit from Lutheranism directly.
-- Anglicanism was started by Henry VIII, a few decades after Luther (details of the story I will skip here). Puritans dissented against the Anglican church, demanding extreme divergence from Catholicism. 
+- Anglicanism was started by Henry VIII, a few decades after Luther (details of the story I will skip here). Puritans dissented against the Anglican church, demanding extreme divergence from Catholicism.
 - Methodists are a sort of Puritan revival, also splitting off from Anglicans. Their name comes from "method".
 - Weber refers to Moravians. These are followers of Jan Hus (mentioned in [[Late Middle Ages]], and predates Luther by sixty years (!)
 - Speaking of schisms, it's fascinating to watch two different strategies in the Christian world:
@@ -758,7 +758,7 @@ The strongest formulation of Calvinist concept of double predestination was that
 
 For Luther, the doctrine of predestination was initially important, but faded over time. The Lutheran concept of predestination is "single predestination", meaning that some people are pre-destined for salvation, but nobody is pre-destined for damnation.
 
-This was a huge difference between Catholicism and Calvinism/Puritanism: for the Puritans, no amount of sacrament or worship was going to get you into heaven. So they deliberately avoided doing any ritualized burial, as that was seen as superstition. From this stemmed a general aversion to anything sensuous and emotional in culture and religion. These are no use towards salvation, merely deluding people via idolatrous superstition. 
+This was a huge difference between Catholicism and Calvinism/Puritanism: for the Puritans, no amount of sacrament or worship was going to get you into heaven. So they deliberately avoided doing any ritualized burial, as that was seen as superstition. From this stemmed a general aversion to anything sensuous and emotional in culture and religion. These are no use towards salvation, merely deluding people via idolatrous superstition.
 
 **Against magic**: For the Puritan, the Catholic tradition looked as if “the priest was a magician who performed the miracle of transubstantiation and held the key to eternal life in his hand”. As a result, they made their project to "eliminate magic as a means of absolution".
 
@@ -782,21 +782,21 @@ According to the Puritans, works are not the cause but only the proof of a state
 
 At first Weber appears to lambaste Ben Franklin for being overly pragmatic as he describes the “spirit of capitalism”, in a passage from his autobiography. Franklin's virtues are all merely a means to an end. In the end, if you are virtuous, you will have good standing with money lenders. This uncharitable take is very easy to mock, and has been done effectively by Ferdinand Kurnberger, who in "Picture of American Culture" describes Americans thus: "They make tallow out of cattle and money out of men."
 
-But Weber gives Franklin a much more charitable interpretation. Franklin's response to “why should money be made from men?” comes from his strict Calvinist father: 
+But Weber gives Franklin a much more charitable interpretation. Franklin's response to “why should money be made from men?” comes from his strict Calvinist father:
 
 > Seest thou a man diligent in his business? He shall stand before kings. — Proverbs 22:29
 
-On Weber's account, Franklin philosophy as written in his autobiography is not greed at all, but a direct continuation of puritan ideals. Franklin was a self avowed deist, far less religious than his pious Puritan predecessors. 
+On Weber's account, Franklin philosophy as written in his autobiography is not greed at all, but a direct continuation of puritan ideals. Franklin was a self avowed deist, far less religious than his pious Puritan predecessors.
 
 # Three attitudes to wealth
 
 1. Wealth for its own sake, because of the desire to be wealthy. (Greed)
 2. Wealth for the sake of a carefree life. (Sloth)
-3. Wealth as a side effect of following your calling. 
+3. Wealth as a side effect of following your calling.
 
-The Calvinist/Puritan tradition holds that (3) is acceptable, but the rest are sinful. If your calling happens to be entrepreneurship, then wealth of your company is basically the explicitly endorsed goal. 
+The Calvinist/Puritan tradition holds that (3) is acceptable, but the rest are sinful. If your calling happens to be entrepreneurship, then wealth of your company is basically the explicitly endorsed goal.
 
-Another pious angle on accumulating wealth is one of eventually giving it away. This idea of "earning to give" is quite old. 
+Another pious angle on accumulating wealth is one of eventually giving it away. This idea of "earning to give" is quite old.
 
 # Modernity (well, circa 1905)
 
@@ -816,7 +816,7 @@ cover: /assets/book-covers/abc.jpg
 The Alphabetization of the Popular Mind is an interesting deep dive into the way
 that consciousness evolved throughout history, especially as a result of
 literacy. I guess this is the Illich version of Orality and Literacy (which I
-have not yet read). 
+have not yet read).
 
 In general, the book is overly declamatory, often feels like a sermon. Parts of it are more literary critique, especially where Illich/Sanders delves into specific literary works (Chaucer's Canterbury, Defoe's Journal, Twain's Huck Finn) and tries to make sweeping generalizations based on their novels. Arguments rely mostly on wordplay and clever assertions, but are often unconvincing.
 
@@ -824,51 +824,51 @@ Sections correspond to chapters in the book that I thought were vaguely interest
 
 # Text
 
-The spread of writing turned society upside down in almost every domain. But the authors consider the subtler side. Everything we know about that society is conveyed to us through writing, including everything we know of the oral tradition of the time, leading to a paradox of “oral writing”. 
+The spread of writing turned society upside down in almost every domain. But the authors consider the subtler side. Everything we know about that society is conveyed to us through writing, including everything we know of the oral tradition of the time, leading to a paradox of “oral writing”.
 
-With literacy, trust shifted from a spoken promise in the form of an oath, to a sealed document. Oaths were a conditional curse: let me be maimed if I break this promise. Formerly formulaic speeches like the Danes “by the ships side and the shields rim, by the swords edge and the horses thigh”, ritualized by raising weapon skyward and placing a foot on a stone. Instead of oaths, literacy led to a more legal and binding form of promise. It’s no surprise that we now use the book in the “pantomime of legal gesture”. 
+With literacy, trust shifted from a spoken promise in the form of an oath, to a sealed document. Oaths were a conditional curse: let me be maimed if I break this promise. Formerly formulaic speeches like the Danes “by the ships side and the shields rim, by the swords edge and the horses thigh”, ritualized by raising weapon skyward and placing a foot on a stone. Instead of oaths, literacy led to a more legal and binding form of promise. It’s no surprise that we now use the book in the “pantomime of legal gesture”.
 
 Authors points to a rapid increase in writing in the 13th century based on consumption of parchment and sealing wax. According to some records (uncited?), the numbers were 3 pounds a week in 1226, 13 in 1256, 31 in 1266. Similarly, the authors point to the number of recorded royal decrees  1080-1180: 3 to 60 for French kings, 25 to 115 for the English, 22 to 180 for popes. After that it’s exponential. From Pope Innocent III ending in 1215, 280 survive, Innocent IV ending in 1254, 730 survive, Boniface VIII ending in 1303, 50000.
 
-Wills also became determined not by last words on the deathbed or a symbol imbued with meaning but by a sealed document. This transition happened in 12th century when symbols began to be engraved with explicit writings. 
+Wills also became determined not by last words on the deathbed or a symbol imbued with meaning but by a sealed document. This transition happened in 12th century when symbols began to be engraved with explicit writings.
 
-Written documents also enabled trust to be formalized. The issuer would create two copies: one for themselves and one for the recipient. Technical details around this included the seal, a signature, a date, creating a copy and storing it in a catalog, which is part of a register. 
+Written documents also enabled trust to be formalized. The issuer would create two copies: one for themselves and one for the recipient. Technical details around this included the seal, a signature, a date, creating a copy and storing it in a catalog, which is part of a register.
 
-High Middle Age monks simply remembered where things were without a system. Earliest known scrutinium (monastic catalogs) were introduced in 1170. This is also the advent of libraries. 
+High Middle Age monks simply remembered where things were without a system. Earliest known scrutinium (monastic catalogs) were introduced in 1170. This is also the advent of libraries.
 
-Writing enabled exact copying of materials, which became desirable. In 1283 Cambridge hired its first corrector whose job was to check documents according to form, legibility, word order, and spelling. Documents being identical became a criteria for legal validity. 
+Writing enabled exact copying of materials, which became desirable. In 1283 Cambridge hired its first corrector whose job was to check documents according to form, legibility, word order, and spelling. Documents being identical became a criteria for legal validity.
 
-> Two hundred years before Gutenberg, archives gave rise to the intellectual prototype of printer matter: an original from which a number of identical copies had been produced and written. 
+> Two hundred years before Gutenberg, archives gave rise to the intellectual prototype of printer matter: an original from which a number of identical copies had been produced and written.
 
 Even people required “identification” (written credentials that are identical to your person). No wonder the domesday book doesn't include a list of people — there was probably no accounting of individuals at all at the time.
 
-Around this time a written chronicle of time emerged too, an essential piece of cataloging many charters. Notaries would travel around and witness and date major transactions around them, from the birth of the Lord. This gave a new dimension to text: time. Documents could be ordered by recency. Time in general grows in importance as a result. In the dance of death genre, the hourglass is prominently displayed. Time is scarce. 
+Around this time a written chronicle of time emerged too, an essential piece of cataloging many charters. Notaries would travel around and witness and date major transactions around them, from the birth of the Lord. This gave a new dimension to text: time. Documents could be ordered by recency. Time in general grows in importance as a result. In the dance of death genre, the hourglass is prominently displayed. Time is scarce.
 
-In the 12th century, news needed to be proclaimed orally (by a herald, “heard”) for it to be official. The written copy (if any) was just a record of the oral delivery. A signet ring served as seal and was accompanied with arbitrary and ever changing signature. But then as courts became more concerned with authenticity, this practice changed into the 14th century and onwards. The author also writes that vellum (calf) was replaced with membranum (sheep) supposedly thinner, harder to erase and prevented forgeries. (This is surprising since I think vellum was more sought after). Slowly text became the medium of guarantee. 
+In the 12th century, news needed to be proclaimed orally (by a herald, “heard”) for it to be official. The written copy (if any) was just a record of the oral delivery. A signet ring served as seal and was accompanied with arbitrary and ever changing signature. But then as courts became more concerned with authenticity, this practice changed into the 14th century and onwards. The author also writes that vellum (calf) was replaced with membranum (sheep) supposedly thinner, harder to erase and prevented forgeries. (This is surprising since I think vellum was more sought after). Slowly text became the medium of guarantee.
 
-This is reflected in art: The Last Judgement involves the Archangel Michael depicted with a book in which the text of ones life is recorded and decisions made. 
+This is reflected in art: The Last Judgement involves the Archangel Michael depicted with a book in which the text of ones life is recorded and decisions made.
 
 Early “writing” did not involve clutching a pen and drawing letters on parchment, but dictating to a scribe. So initially there was a gulf between writer and author. Wax tablets also played some role in writing, mostly for temporary note taking. (Interesting that this hasn't really been a focus in other works I've read on this topic.)
 
-Words were initially not separated at all, but spaces between became common around the 7th century (confirm with [[Carolingian minuscule]]), in order to teach Latin to the barbarians as a foreign language. 
+Words were initially not separated at all, but spaces between became common around the 7th century (confirm with [[Carolingian minuscule]]), in order to teach Latin to the barbarians as a foreign language.
 
-Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved. 
+Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved.
 
-Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century. 
+Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century.
 
 Also see [[Reading and writing transition in the 12th century]].
 
-In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!). 
+In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!).
 
-Previously text and images were deeply interwoven. The [Book of Kells](https://www.youtube.com/watch?v=qtQAsvUiwPg) and the [Lindisfarne Gospels](https://en.wikipedia.org/wiki/Lindisfarne_Gospels) provide two such examples. Now a monolithic text heavy manuscript was gaining shape, with structure and chapters and quotes separated visually from the rest of the content. 
+Previously text and images were deeply interwoven. The [Book of Kells](https://www.youtube.com/watch?v=qtQAsvUiwPg) and the [Lindisfarne Gospels](https://en.wikipedia.org/wiki/Lindisfarne_Gospels) provide two such examples. Now a monolithic text heavy manuscript was gaining shape, with structure and chapters and quotes separated visually from the rest of the content.
 
-Another major change was that rather than always reading aloud, reading became a mostly silent pursuit. 
+Another major change was that rather than always reading aloud, reading became a mostly silent pursuit.
 
 # Self
 
-I enjoyed the Text chapter of this book, so decided to read on. The section on self is basically a great takedown of autobiographies. 
+I enjoyed the Text chapter of this book, so decided to read on. The section on self is basically a great takedown of autobiographies.
 
-> Autobiography is born out of hubris. In Franklin's case his autobiography grows out of the hubris of America’s emerging power - its myths and ideals - a power that actually thrives on mistakes. One merely seized upon them as Franklin makes clear and turns them into substantial financial success. Autobiography amplifies that power: since a person is literally creating a new being, he can smooth out the rough transitions in his life, clean up the mistakes to produce a polished and attractive literary self. 
+> Autobiography is born out of hubris. In Franklin's case his autobiography grows out of the hubris of America’s emerging power - its myths and ideals - a power that actually thrives on mistakes. One merely seized upon them as Franklin makes clear and turns them into substantial financial success. Autobiography amplifies that power: since a person is literally creating a new being, he can smooth out the rough transitions in his life, clean up the mistakes to produce a polished and attractive literary self.
 
 > A chief obstacle to writing a modern autobiography is its ending. How can it end, really, reach its final conclusion, until the writer is dead?
 
@@ -878,7 +878,7 @@ Malcolm X's autobiography is published posthumously. Maybe that's the ticket?
 
 Love the Latin expression “ex suo digito suxit” - высосано из пальца - sucked out of ones finger. Finger and fiction are apparently connected through this? But I haven't been able to verify.
 
-St Augustine defined every lie as an assault on the God given truth. A contempt of God. Fascinatingly this precludes fiction in the traditional sense of being fully invented. Epic bards retell old stories that really happened, not fictions. Storytellers too, are not inventing but retelling. Chaucer (1386) is supposedly the first English author to spin a tale. But he does this not explicitly, couching heavily. 
+St Augustine defined every lie as an assault on the God given truth. A contempt of God. Fascinatingly this precludes fiction in the traditional sense of being fully invented. Epic bards retell old stories that really happened, not fictions. Storytellers too, are not inventing but retelling. Chaucer (1386) is supposedly the first English author to spin a tale. But he does this not explicitly, couching heavily.
 
 Chaucer writes just as England is moving from a culture of orality to literacy. And finds himself in an awkward position between fact and fiction. He needs to have Canterbury story taken as truth “for this is the way readers come to enter into any fictional dream” and goes to great lengths to do this. He makes himself one of the pilgrims, and tells a story “Tale of Sir Thopas” which is so boring that the fictional hosts ask him to stop. But apparently “too much truth can get Chaucer into theological trouble”. Why???
 
@@ -888,7 +888,7 @@ By this point it is clear that this chapter has evolved into speculative literar
 
 # Newspeak and UNIQUACK
 
-Speculative literary criticism continues into the 20th century, this time with Orwell's 1984. Fascinating pointers, but not much substance. 
+Speculative literary criticism continues into the 20th century, this time with Orwell's 1984. Fascinating pointers, but not much substance.
 
 Basic English was a subset of English (less than 1000 words) popular in the 1950s as a universal language designed to increase international collaboration. Apparently Orwell was into it initially, then worked for the institute promulgating it and realized this was a terrible idea.
 
@@ -896,12 +896,12 @@ The authors declare that words like energy, sexuality, transportation, education
 
 # Silence
 
-Authors introduce an idea of “alphabetic silence”: pauses between words, silent contemplation of text, meditative thought. 
+Authors introduce an idea of “alphabetic silence”: pauses between words, silent contemplation of text, meditative thought.
 
 I enjoyed the interpretation of the Ten Commandments. What did the Israelites hear when they received the ten commandments? A few theories:
 
 1. They heard them all in the Divine Voice
-2. They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses. 
+2. They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses.
 3. They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”
 
 
@@ -911,7 +911,7 @@ rating: yes
 posted: August 30, 2021
 cover: /assets/book-covers/never-let-me-go.jpg
 
-I really liked it. Author does a great job conveying little nuances of relationships. I feel similarly about past life and previous relationships that could have gone so differently. 
+I really liked it. Author does a great job conveying little nuances of relationships. I feel similarly about past life and previous relationships that could have gone so differently.
 
 At any rate it’s great writing and vivid character development. The love triangle is extremely strong. But the world building is pretty weak. How can the world of the "students" and the world of the rest of the population be so hermetic? They have full freedom to go anywhere, yet there is no interaction. On this topic, I find myself actively suspending disbelief.
 
@@ -944,13 +944,13 @@ rating: yes
 posted: August 25, 2021
 cover: /assets/book-covers/gardener-and-carpenter.jpg
 
-This one's been on my radar for years. I've read a lot of the author's articles and generally feel a strong affinity for Isaiah Berlin, whom Gopnik has done quite a bit to popularize. Self described as a Bubbie from Berkeley with a PhD in developmental neuroscience that sometimes dabbles in philosophy. 
+This one's been on my radar for years. I've read a lot of the author's articles and generally feel a strong affinity for Isaiah Berlin, whom Gopnik has done quite a bit to popularize. Self described as a Bubbie from Berkeley with a PhD in developmental neuroscience that sometimes dabbles in philosophy.
 
 # Core idea
 
-The message promulgated in most parenting books is that raising kids is like carpentry: consider what material your dealing with, form a well specified blueprint, measure twice, cut once. Then you can judge how well you’ve done by the final result. 
+The message promulgated in most parenting books is that raising kids is like carpentry: consider what material your dealing with, form a well specified blueprint, measure twice, cut once. Then you can judge how well you’ve done by the final result.
 
-A parent’s goal should instead be to raise their child like resilient garden that can adapt to a dynamic world. Such a garden or maybe even wild meadow evolves and adapts to circumstances. This is in contrast to a much more static approach of growing hot house tomatoes. The hot house is highly regulated and creates ideal circumstances for the tomato to grow. But these ideal circumstances are not reflective of the real world. Hot house tomato’s are not resilient. 
+A parent’s goal should instead be to raise their child like resilient garden that can adapt to a dynamic world. Such a garden or maybe even wild meadow evolves and adapts to circumstances. This is in contrast to a much more static approach of growing hot house tomatoes. The hot house is highly regulated and creates ideal circumstances for the tomato to grow. But these ideal circumstances are not reflective of the real world. Hot house tomato’s are not resilient.
 
 Reminds me a bit of legibility and [[Seeing Like a State by James Scott]] but applied to children. Authoritarian High modern failure mode in kids is one that tries to carpenter too much. I have examples of this in distant friends: MA rebelled against becoming a doctor, IN rebelled against becoming a software engineer. Both results were disappointing to their parents. Better to not be so prescriptive.
 
@@ -959,13 +959,13 @@ Reminds me a bit of legibility and [[Seeing Like a State by James Scott]] but ap
 
 # Against parentING
 
-I appreciated the more philosophical bent, especially as compared to other parenting books. But the narrative sometimes bent towards a pedantic but still an insightful critique of “parenting” especially as a goal driven activity. You don’t go around “friending” people, offspring are never “childing” you and your spouse is not usually “wifing” you. Gerunds have their place though. 
+I appreciated the more philosophical bent, especially as compared to other parenting books. But the narrative sometimes bent towards a pedantic but still an insightful critique of “parenting” especially as a goal driven activity. You don’t go around “friending” people, offspring are never “childing” you and your spouse is not usually “wifing” you. Gerunds have their place though.
 
 Other relationships offer an interesting parallel: you don’t think you are a successful friend if they have become successful. Nor do you become a successful husband by profoundly improving your wife.
 
 Many observations framed as paradoxes. Sounds more like tensions to me. Tensions between:
 
-- **Formal education and play**, which itself leads to education but in roundabout illegible ways. (Makes me think of my work and when I’m happiest. It’s when I’m playing. Building toys. Playing to learn. 
+- **Formal education and play**, which itself leads to education but in roundabout illegible ways. (Makes me think of my work and when I’m happiest. It’s when I’m playing. Building toys. Playing to learn.
 - **Explore vs exploit**. Since childhood kids want to be independent but also seek out the comfort of their parents. The same is true over a lifecycle, going from profound dependence to the opposite extreme. Similar tensions around Tradition and innovation. More on this in [[Explore vs exploit trade-offs]].
 
 Fundamentally, [[Open-endedness is required to solve ambitious problems]]. Play and childhood are optimized for this.
@@ -973,23 +973,23 @@ Fundamentally, [[Open-endedness is required to solve ambitious problems]]. Play 
 
 # Recent changes parents and society
 
-Historically, humans live grown in large, multigenerational families. Most have the opportunity to help raise siblings Or cousins before becoming parents. Once parents, their kids are raised in large party but extended family. 
+Historically, humans live grown in large, multigenerational families. Most have the opportunity to help raise siblings Or cousins before becoming parents. Once parents, their kids are raised in large party but extended family.
 
-Families growing smaller. More mobility. Having kids later in line after more education. Many new parents don’t have any expertise with kids at all. 
+Families growing smaller. More mobility. Having kids later in line after more education. Many new parents don’t have any expertise with kids at all.
 
-“Parenting” builds on this gap in knowledge and caregivers. It’s profits from the expectation of educated people that things are learned through books. 
+“Parenting” builds on this gap in knowledge and caregivers. It’s profits from the expectation of educated people that things are learned through books.
 
-# Analogy to dieting 
+# Analogy to dieting
 
 Referencing Omnivore's Dilemma by Michael Pollan. What was formerly a traditional way of being, like cooking meals from a certain cuisine, was replaced by a sort of science-inspired explosion of dieting advice. The more we deliberately cook and eat to become healthy, the less healthy we become.
 
 The more we raise children to make them happy and successful adults the less happy and successful they become. [[Trying not to try]]
 
-The sheer quantity of parenting and dieting books itself is just an indication that none of them work. If one did, they’d all be out of business. This critique reminds me of the one in [[Two Watersheds - too much institutionalization]]. 
+The sheer quantity of parenting and dieting books itself is just an indication that none of them work. If one did, they’d all be out of business. This critique reminds me of the one in [[Two Watersheds - too much institutionalization]].
 
 # Generational compounding
 
-If a child is slightly better at using a tool, this advantage is slightly conferred to their offspring. And the effect compounds. Children's brains are the largest of all animals and our childhoods are the longest. Largely this is to have more time to develop and grow a brain, which is extremely plastic so that it can adapt maximally to its cultural milieu. 
+If a child is slightly better at using a tool, this advantage is slightly conferred to their offspring. And the effect compounds. Children's brains are the largest of all animals and our childhoods are the longest. Largely this is to have more time to develop and grow a brain, which is extremely plastic so that it can adapt maximally to its cultural milieu.
 
 Birds are categorized as either precocial or altricial, depending on their capabilities at birth.
 
@@ -1004,7 +1004,7 @@ Most mammals die before they reach menopause.
 
 Gopnik, a grandma herself, produces a strong argument in defense of grandmas. Post-menopausal grandmothers are evolutionarily advantageous because they allow their children to have more offspring despite the high maintenance and long childhood of each grandchild. By providing more childcare, the grandmother helps scale her genetic impact.
 
-> We don’t care about children because we love them. We love them because we care for them. 
+> We don’t care about children because we love them. We love them because we care for them.
 
 It's a reinforcing feedback loop.
 
@@ -1043,9 +1043,9 @@ Effective passage on "the device", which is reads like a Tristan Harris-style at
 
 # Play is fundamental
 
-Interesting that children seem to seek out evidence that contradicts their theories as part of play. 
+Interesting that children seem to seek out evidence that contradicts their theories as part of play.
 
-Play must be spontaneous. The [[Ms. Havisham Problem illustrates that play must be spontaneous]] is a good framing of why, citing Dickens' book where a disgruntled old lady asks a child to play for her entertainment. 
+Play must be spontaneous. The [[Ms. Havisham Problem illustrates that play must be spontaneous]] is a good framing of why, citing Dickens' book where a disgruntled old lady asks a child to play for her entertainment.
 
 > "I am tired," said Miss Havisham. "I want diversion, and I have done with men and women. Play." I think it will be conceded by my most disputatious reader, that she could hardly have directed an unfortunate boy to do anything in the wide world more difficult to be done under the circumstances.
 
@@ -1053,7 +1053,7 @@ Play must be spontaneous and is demonstrably more effective than teaching in som
 
 (Gopnik does not explicitly say this but I really like the idea that [[Play is deliberate practice for wicked problems]])
 
-## Why is play fun? 
+## Why is play fun?
 
 Why is sex fun? Evolution made sex fun so that people and animals would do it and propagate our genes.
 
@@ -1093,23 +1093,23 @@ The papacy was not doing so hot in the late middle ages. Cardinals routinely fai
 
 Phillip the Fair (Phillip IV), king of France around the 13th century, had a falling out with the pope reminiscent of the Teutonic rulers of prior centuries. The difference here is rather than succumbing to papal power he thwarted it successfully so that future popes knew not to mess with French kings. After threatening to excommunicate Philip IV and issuing a papal bull suggesting explicitly that popes trumped kings, Philip IV's royal troops captured Pope Boniface VIII, imprisoned him, beat him badly. The Boniface VIII died a month later and his successor Clement V was pressured to move the papacy to France.
 
-Crusaders that remained in the holy lands after the crusades formed Crusader States. One such order, The Knights Templar defended Christian Jerusalem from Arab reconquest. They were monk-knights who helped other crusaders. The Knights Templar grew rich from donations from Christians who wanted to keep the holy city in their grasp. They grew unpopular after losing Jerusalem to Saladin and amassing great wealth. 
+Crusaders that remained in the holy lands after the crusades formed Crusader States. One such order, The Knights Templar defended Christian Jerusalem from Arab reconquest. They were monk-knights who helped other crusaders. The Knights Templar grew rich from donations from Christians who wanted to keep the holy city in their grasp. They grew unpopular after losing Jerusalem to Saladin and amassing great wealth.
 
-Phil IV decided to pursue the Templar order, prosecution was also likely a money grab. He also expelled the Jews and annexed their property. [[Expelling Jews is historically a great way for kings to get rich quick]]. The pope initially condemned the mass Templar arrest but then when they confessed under torture, the pope called for other European kings to also arrest their Templars under papal authority. Papal palaces we’re built in Avignon. Subsequent popes were selected from the population of southern France. 
+Phil IV decided to pursue the Templar order, prosecution was also likely a money grab. He also expelled the Jews and annexed their property. [[Expelling Jews is historically a great way for kings to get rich quick]]. The pope initially condemned the mass Templar arrest but then when they confessed under torture, the pope called for other European kings to also arrest their Templars under papal authority. Papal palaces we’re built in Avignon. Subsequent popes were selected from the population of southern France.
 
 ## Papal Schism
 
-Meanwhile, pressure mounted for the Papacy to return to Rome. Popes were the spiritual successors of St. Paul, bishop of Rome. If they weren't in Rome that legacy was undermined. Urban VI was then selected under pressure from Roman citizens who rioted in demand of an Italian pope. The cardinals presented the masses with a pope of Italian origin but years later the French cardinals reneged and appointed another pope, Clement VII. He ruled in Avignon. As a result, there were two active popes at this time, and this period is referred to as the Western Schism aka Papal Schism (not to be confused with the East-West Schism aka Great Schism). 
+Meanwhile, pressure mounted for the Papacy to return to Rome. Popes were the spiritual successors of St. Paul, bishop of Rome. If they weren't in Rome that legacy was undermined. Urban VI was then selected under pressure from Roman citizens who rioted in demand of an Italian pope. The cardinals presented the masses with a pope of Italian origin but years later the French cardinals reneged and appointed another pope, Clement VII. He ruled in Avignon. As a result, there were two active popes at this time, and this period is referred to as the Western Schism aka Papal Schism (not to be confused with the East-West Schism aka Great Schism).
 
-France and it’s allies like Scotland were generally in favor of the pope in Avignon. But sometimes there was a split in a single city and there were two bishops, each loyal to the French and Italian pope respectively. 
+France and it’s allies like Scotland were generally in favor of the pope in Avignon. But sometimes there was a split in a single city and there were two bishops, each loyal to the French and Italian pope respectively.
 
-It was thought that once one of the popes died, the population would support the other and the schism would end. But when urban VI died, his followers appointed another successor in Rome. And then when Clement VII died, his followers appointed a new pope in Avignon. 
+It was thought that once one of the popes died, the population would support the other and the schism would end. But when urban VI died, his followers appointed another successor in Rome. And then when Clement VII died, his followers appointed a new pope in Avignon.
 
 ## Conciliarism reform movement
 
 In response to this shitshow, the Conciliarism reform movement began. A high level church councils composed of bishops and other Catholic leaders met and passed judgement apart from, or potentially against, the pope. The council of Pisa in 1408 was organized by a few breakout bishops from both French and Italian sides. They hoped to appoint a new pope and depose the two existing ones. The appointed pope died a year later and was replaced by John XXIII, who was odious and widely hated. So now there were three popes.
 
-The council at Constance succeeded in deposing John 23 for moral reasons. The pope in Rome was also convinced to step down. The council finally deposed the pope in France. The papal schism finally ended in 1407 when the Cardinals elected Martin V. 
+The council at Constance succeeded in deposing John 23 for moral reasons. The pope in Rome was also convinced to step down. The council finally deposed the pope in France. The papal schism finally ended in 1407 when the Cardinals elected Martin V.
 
 What followed was a disagreement between those in favor of church councils and those in favor of the old system. Subsequent councils were not well attended, little reason to do so since the schism had ended. Still council at Basel imposed a bunch of limitations on the church. They made a limit of 24 cardinals, no more than 8 from each country, and constrained the amount of money the papacy could collect from local churches.
 
@@ -1117,55 +1117,55 @@ What followed was a disagreement between those in favor of church councils and t
 
 # Hundred Years War
 
-The hundred year war was a long conflict, not a constant total war, but a series of skirmishes. Britain decisively won the important battles early on. (Lots of overlap with [[The Story of Medieval England]]). Joan of Arc had a decisive part to play, just when France was all but defeated and almost entirely under British control managed to incite a last ditch effort to reconquer. 
+The hundred year war was a long conflict, not a constant total war, but a series of skirmishes. Britain decisively won the important battles early on. (Lots of overlap with [[The Story of Medieval England]]). Joan of Arc had a decisive part to play, just when France was all but defeated and almost entirely under British control managed to incite a last ditch effort to reconquer.
 
-One of the most violent years during the war was one in which there was no fighting between sides after the treaty of Brétigny in 1360. Mercenary armies hired by the warring kings began indiscriminately pillage for want of supplies. The result was chaos, death, and destruction. To remedy this failure mode, salaried standing armies were introduced around 1450. This was expensive but cheaper than the alternative. It also greatly strengthened royal power compared to that of the nobles since now the crown could rely more on a paid army rather than the decentralized feudal system or lords and vassals. 
+One of the most violent years during the war was one in which there was no fighting between sides after the treaty of Brétigny in 1360. Mercenary armies hired by the warring kings began indiscriminately pillage for want of supplies. The result was chaos, death, and destruction. To remedy this failure mode, salaried standing armies were introduced around 1450. This was expensive but cheaper than the alternative. It also greatly strengthened royal power compared to that of the nobles since now the crown could rely more on a paid army rather than the decentralized feudal system or lords and vassals.
 This was the first Christian standing army since the fall of the Western Roman Empire.
 
 ## Critical invention: The Longbow
 
-The English first encountered the longbow in their wars with the Welsh. English Longbows emerged by the 100 years war contributed to their prowess against the French who relied heavily on knights. The original short bow didn't require much training to use, but packed almost no punch against a knight. Crossbows were then invented as an effective ranged weapon against knights but suffered from a slow firing rate. You could speed it up a bit by lying prone but doing this in the face of a charging knight was not prudent. 
+The English first encountered the longbow in their wars with the Welsh. English Longbows emerged by the 100 years war contributed to their prowess against the French who relied heavily on knights. The original short bow didn't require much training to use, but packed almost no punch against a knight. Crossbows were then invented as an effective ranged weapon against knights but suffered from a slow firing rate. You could speed it up a bit by lying prone but doing this in the face of a charging knight was not prudent.
 
-The Longbow took the best of both worlds: the force of its blow could penetrate armor and it didn't take ages to reload. This weapon gave the English their decisive victories against the French knight armies at Crécy, Poitiers and Agincourt. 
+The Longbow took the best of both worlds: the force of its blow could penetrate armor and it didn't take ages to reload. This weapon gave the English their decisive victories against the French knight armies at Crécy, Poitiers and Agincourt.
 
 The longbow wielded by hundreds of archers was a very effective way to deal with knights. And although unlike short bows, it requires training, fighting as a longbowman was far cheaper and easier than fighting as a knight. Now the peasant class had once again a reason to fight, and gain some leverage over the noble fighting classes.
 
-The Hundred Years War and “Babylonian captivity” of the church in France occurred simultaneously, as did the Black Death. 
+The Hundred Years War and “Babylonian captivity” of the church in France occurred simultaneously, as did the Black Death.
 
 # The Black Death
 
 Likely Bubonic Plague. 1347-1351 was period of greatest mortality.  Killed potentially 50% of people in Europe at the time. It came from the east via Italy, the main connection point to the Orient. Earlier and more southerly parts of Europe were the most affected, in some cases 75% of the population dying.
 
-There wasn't a good understanding about the underlying reason for the plague at all, so other reasons were sought. As usual, Jews were blamed for the plague, leading to increased pogroms around this same era. 
+There wasn't a good understanding about the underlying reason for the plague at all, so other reasons were sought. As usual, Jews were blamed for the plague, leading to increased pogroms around this same era.
 
-Around 1340 was a local maximum in European population. These levels were not seen again until the 17th century. Outbreaks of the plague still occurred, but became rarer and rarer. 
+Around 1340 was a local maximum in European population. These levels were not seen again until the 17th century. Outbreaks of the plague still occurred, but became rarer and rarer.
 
 ![[Population of Europe 1300-1800.png]]
 
-Because of the huge depopulation, things looked quite different economically. Suddenly there was a labor shortage. Wages shot up 3-5x. Cost of food had decreased due to a reduction in demand. Land prices went down too. Wage laborers began to enjoy a very high standard of living. 
+Because of the huge depopulation, things looked quite different economically. Suddenly there was a labor shortage. Wages shot up 3-5x. Cost of food had decreased due to a reduction in demand. Land prices went down too. Wage laborers began to enjoy a very high standard of living.
 
-Economically speaking, this was great news for the surviving poor, but bad news for the nobles. A variety of attempts were made by nobles to curtail these negative economic effects. Some tried to fix wages by law, which largely failed to overpower strong market forces. Others tried to bring back serfdom, effectively bringing back free labor. This was counter to the interests of the crown since serfs were in the jurisdiction of their lord, including for tax and legal reasons. This was resisted in the west, but for some reason in the east of Europe serfdom came back with a vengeance and lasted well into the 19th century, with second order effects into modernity. 
+Economically speaking, this was great news for the surviving poor, but bad news for the nobles. A variety of attempts were made by nobles to curtail these negative economic effects. Some tried to fix wages by law, which largely failed to overpower strong market forces. Others tried to bring back serfdom, effectively bringing back free labor. This was counter to the interests of the crown since serfs were in the jurisdiction of their lord, including for tax and legal reasons. This was resisted in the west, but for some reason in the east of Europe serfdom came back with a vengeance and lasted well into the 19th century, with second order effects into modernity.
 
 # Freedom in East and West Europe
 
-In the early Middle Ages, Eastern Europe was the European frontier. Lords of the east could entice western serfs to move and settle in their domains in exchange for freedom. Thus early in the Middle Ages, the east had more free smallholders than the west. 
+In the early Middle Ages, Eastern Europe was the European frontier. Lords of the east could entice western serfs to move and settle in their domains in exchange for freedom. Thus early in the Middle Ages, the east had more free smallholders than the west.
 
-After the plague, the dynamics shifted substantially. Western countries with historically stronger kings were not interested in supporting serfs, who would only strengthen nobles, paying tax to them and being subject to their courts. 
+After the plague, the dynamics shifted substantially. Western countries with historically stronger kings were not interested in supporting serfs, who would only strengthen nobles, paying tax to them and being subject to their courts.
 
 Also, empowered peasantry in the west staged successful rebellions (The Jacquerie in France, English Peasant Revolt) against nobles that attempted to revive serfdom. England was especially ahead of the game in terms of personal liberties for the masses. After the Normal conquest, William the Conqueror and his line established unprecedentedly strong and centralized control over England. The Baronial revolts and early Magna Carta set the stage for more personal liberties, and a rule of law. The island had time to develop independently due to its distance from mainland Europe.
 
-In the east however, a feudal, more distributed system controlled by nobles and weaker rulers meant that serfdom could be brought back in force. Toward the late Middle Ages, many peasants in the east were newly serfs, and very few in the west. Russian serfdom lasted well into the mid 19th century. 
+In the east however, a feudal, more distributed system controlled by nobles and weaker rulers meant that serfdom could be brought back in force. Toward the late Middle Ages, many peasants in the east were newly serfs, and very few in the west. Russian serfdom lasted well into the mid 19th century.
 
-Feudalism is distributed and leads to bad outcomes for the masses. In general this is a good example of distributed not being always better than centralized from a consequential standpoint. 
+Feudalism is distributed and leads to bad outcomes for the masses. In general this is a good example of distributed not being always better than centralized from a consequential standpoint.
 
 
 # Gone are the days of the knights
 
 ## Pikes
- 
+
 Infantry was becoming increasingly effective against knights around the 13th century. In Flanders, a knight army could be thwarted by to opening up water gates and flooding the whole plain. In the Scottish mountains, knights did not have a flat area from which to charge. More generally, effective anti-knight tactics were developed around this time:
 
-- **Traps**: Infantry would dig ditches, fill them with spikes and cover them with leaves. 
+- **Traps**: Infantry would dig ditches, fill them with spikes and cover them with leaves.
 - **Pikemen**: pikes were longer than lances, so would impale a knight before they would impale the pikeman. Armies of pikemen would dig their pike's dull ends into the ground.
 - **Halberds**: The Swiss developed the halberd, a spear with an axe and hook. You could use it as a pike, and/or use the hook to pull the knight off his horse, and/or split him in twain with the axe. It’s sort of a Swiss Army knife, so to speak. The halberd could also be used offensively in phalanx-like formations.
 
@@ -1179,14 +1179,14 @@ Each cannon was initially given a name, much like Trebuchets, one named Malvoisi
 
 At the start of the hundred years war, cannonballs were made out of large stone boulders. These were rounded out by hand, and inevitably ended up with irregularities which would greatly reduce accuracy. Even if the stone cannonball hit the wall, it would shatter on impact. Around 1430, stone cannonballs were replaced with cast iron cannonballs which were much more spherical and much  more devastating on impact.
 
-Castle design reacted to the invention of cannon. Walls became lower and thicker. Square towers rounded out and became cylindrical. Towers became the same height as walls, to allow artillery on the walls to more easily move into position. 
+Castle design reacted to the invention of cannon. Walls became lower and thicker. Square towers rounded out and became cylindrical. Towers became the same height as walls, to allow artillery on the walls to more easily move into position.
 
 
 ## Arquebusiers and musketeers
 
-Personal firearms were less effective than cannons during the middle ages. The earliest resembled broomsticks with a small cannon on the end. The arquebus was developed in the early 15th century and it was a functional precursor to the musket. This weapon proved effective against knights at the Battle of Pavia, just like the longbow at Agincourt. 
+Personal firearms were less effective than cannons during the middle ages. The earliest resembled broomsticks with a small cannon on the end. The arquebus was developed in the early 15th century and it was a functional precursor to the musket. This weapon proved effective against knights at the Battle of Pavia, just like the longbow at Agincourt.
 
-The combination of pikemen and musketeers was an especially formidable force against knights. Knights really hated Musketeers especially (nice backstory on the whole Three Musketeers plot). Even heavier plate mail was developed to try to defend against musket balls. Some inroads were made, but ultimately these full-plate suits were so heavy that they were impractical. 
+The combination of pikemen and musketeers was an especially formidable force against knights. Knights really hated Musketeers especially (nice backstory on the whole Three Musketeers plot). Even heavier plate mail was developed to try to defend against musket balls. Some inroads were made, but ultimately these full-plate suits were so heavy that they were impractical.
 
 ---
 
@@ -1198,9 +1198,9 @@ Although the printing press is by far the sexiest invention required for broader
 
 ## Papyrus-parchment-paper
 
-Papyrus was the earliest writing material, made of a water plant that grows in abundance in the Nile river delta in Egypt. It emerged around 3000 BCE and the Egyptians controlled it fully. 
+Papyrus was the earliest writing material, made of a water plant that grows in abundance in the Nile river delta in Egypt. It emerged around 3000 BCE and the Egyptians controlled it fully.
 
-Parchment is another writing material made of animal skins. It may have emerged as early as 1500 BCE, but is named after the King of Pergamum (пергамент) in Asia Minor around 100 BCE. It was developed in response to the cessation of Egyptian papyrus exports. The process was of making parchment was quite intense, requiring animal skins to be stretched over a frame, cleaned fully of fat, then dried. The rougher exterior side of the skin could serve as a book cover. The whiter interior was used to write on. 
+Parchment is another writing material made of animal skins. It may have emerged as early as 1500 BCE, but is named after the King of Pergamum (пергамент) in Asia Minor around 100 BCE. It was developed in response to the cessation of Egyptian papyrus exports. The process was of making parchment was quite intense, requiring animal skins to be stretched over a frame, cleaned fully of fat, then dried. The rougher exterior side of the skin could serve as a book cover. The whiter interior was used to write on.
 
 Parchment was expensive to produce, and as a result was often reused. Old scrolls would just be cleaned up, with ink removed, and then use it again to create anew. Vellum was a fancier, whiter variant of parchment. The highest grade required killing a pregnant sheep and her unborn calf, and then creating the parchment from the calf's skin (aka Chickenskin).
 
@@ -1214,7 +1214,7 @@ Simultaneously, handwritten script with ligatures was revived from classical ant
 
 ## Book style
 
-During the early Middle Ages books were extremely large and heavy, requiring a pedestal to support. Books tended to get smaller over time, some were soon small enough to fit into a pocket. 
+During the early Middle Ages books were extremely large and heavy, requiring a pedestal to support. Books tended to get smaller over time, some were soon small enough to fit into a pocket.
 
 Further inventions in readability were introduced: indices, tables of contents.
 
@@ -1228,16 +1228,16 @@ Another challenge with wood blocks was that the stamped image would sometimes be
 
 Gutenberg's printing press combined two prior inventions: the wine press for evenly transferring ink from source to target, and movable metal type. A printer would typeset a whole page, make many copies of it, then move on to the next page. The end result were many copies of a printed book.
 
-Metal typesetting was known in Asia, but never combined with wine style presses. Compared to Asia, Europe had other important advantages: 
+Metal typesetting was known in Asia, but never combined with wine style presses. Compared to Asia, Europe had other important advantages:
 
-- European alphabets are phonetic and have fewer than 30 symbols. In contrast, Asian alphabets are mostly ideographical and have thousands of symbols. 
+- European alphabets are phonetic and have fewer than 30 symbols. In contrast, Asian alphabets are mostly ideographical and have thousands of symbols.
 - Chinese printing presses were state run, and as a result mostly Confucian classics were produced. In Europe the printing press was subject to the free market, and thrived.
 
 Second order impacts of the printing press were huge:
 
 1. Spread of knowledge in general. Nuff said!
-2. Errata could be issued in bulk, since many books were now identical and issued in editions. 
-3. Ossification of English spelling. Previously spelling was pretty variable. This is especially annoying since the great vowel shift followed shortly thereafter, rendering English spellings nonsensical. 
+2. Errata could be issued in bulk, since many books were now identical and issued in editions.
+3. Ossification of English spelling. Previously spelling was pretty variable. This is especially annoying since the great vowel shift followed shortly thereafter, rendering English spellings nonsensical.
 
 
 # Humanism in Late Medieval Europe
@@ -1249,15 +1249,15 @@ Unlike medieval artists and authors, humanists signed their work and strive for 
 
 # Christians and Muslim conflicts in the late middle ages
 
-The Byzantine empire stood valiantly for a millennium longer than its western roman counterpart. Its land holdings empire ebbed and flowed from assailants from all around, sometimes shrinking to little more than Constantinople itself. By the 15th century, the Ottoman Turks finally conquered the impregnable city of Constantinople and officially ended the Byzantine empire. 
+The Byzantine empire stood valiantly for a millennium longer than its western roman counterpart. Its land holdings empire ebbed and flowed from assailants from all around, sometimes shrinking to little more than Constantinople itself. By the 15th century, the Ottoman Turks finally conquered the impregnable city of Constantinople and officially ended the Byzantine empire.
 
 This was seen as a huge loss, especially from a humanist lens. The whole Greek trove of knowledge was lost to Christendom for eternity! In practice, by then much of this trove of classical Greek culture had been assimilated by the west, through translation, and through a revival of Greek language, hearkening back to classical antiquity, when Roman elites were fluent in both Latin and Greek.
 
-With the fall of the Byzantine empire, Europe was bracing for more incursions from their aggressive and powerful Turkish neighbors. Sure enough, the Ottomans even managed to conquer and briefly hold small parts of Italy. So it was welcome news that in Iberia, the kingdoms of Aragon and Castille had formed an alliance with the marriage of Ferdinand and Isabella, and they had set out to conquer Granada, the last Islamic state in the west. This was a culmination of many centuries of European reconquest of Al-Andalus, the Ummayad kingdom that formed from the ashes of the Visigoths, defeated in the 8th century. Spain was once a cultural melange of three religions, but F&I were keen to homogenize their joint kingdom. 
+With the fall of the Byzantine empire, Europe was bracing for more incursions from their aggressive and powerful Turkish neighbors. Sure enough, the Ottomans even managed to conquer and briefly hold small parts of Italy. So it was welcome news that in Iberia, the kingdoms of Aragon and Castille had formed an alliance with the marriage of Ferdinand and Isabella, and they had set out to conquer Granada, the last Islamic state in the west. This was a culmination of many centuries of European reconquest of Al-Andalus, the Ummayad kingdom that formed from the ashes of the Visigoths, defeated in the 8th century. Spain was once a cultural melange of three religions, but F&I were keen to homogenize their joint kingdom.
 
 # The Spanish Inquisition
 
-Shortly after the defeat of Granada, jubilant Ferdinand and Isabella decided to kick it up a notch and the Spanish Inquisition swung into full force. Spain had previously not participated in the papal inquisition, and unlike the previous inquisitions which relied on inquisitors reporting to the pope, the Spanish inquisition was operated by the king and queen. 
+Shortly after the defeat of Granada, jubilant Ferdinand and Isabella decided to kick it up a notch and the Spanish Inquisition swung into full force. Spain had previously not participated in the papal inquisition, and unlike the previous inquisitions which relied on inquisitors reporting to the pope, the Spanish inquisition was operated by the king and queen.
 
 It's somewhat unclear why F&I decided to force all Jews to convert or leave. Ferdinand had recently appointed Jewish courtiers whose contract was not due to expire for years. The reason given was that there were too many Christians converting to Judaism in Spain. In practice, anti-Jewish sentiment had been rising for decades, thanks to preachers like Ferrand Martinez, and the massacre in 1391 which led to 50,000 Jewish deaths and far more forced conversions.
 
@@ -1272,7 +1272,7 @@ Back to technology: navigation and sailing ships, in the context of Iberian expa
 Shipbuilding technology was fairly stagnant until the 15th century. Here are a few common ship types before this period:
 
 - **Longships**, aka galleys were powered by teams of rowers. They had to be light so that the men could propel it and it had to be long enough so enough men could fit inside. Because of the large crew, their provisions, and other constraints, these ships could not carry much cargo. Longships were short range and only used on the Mediterranean. Some longships had sails that would be raised in favorable downwinding conditions.
-- **Roundships** often had a single mast with a square rigged single sail. They were large and bulky and slow, but could carry a lot of cargo. The square rigged sail meant you would mainly use the sail to go downwind, greatly limiting maneuverability. 
+- **Roundships** often had a single mast with a square rigged single sail. They were large and bulky and slow, but could carry a lot of cargo. The square rigged sail meant you would mainly use the sail to go downwind, greatly limiting maneuverability.
 - **Lateen** sailboats originated in the Nile, but were later used in the Mediterranean. These triangular sails could luff and generate lift using the sail as a wing, and move the vessel towards the wind. Lateen sails of the 14th century also tended to be quite small, so were not very effective.
 
 Because of its geography, the Iberian kingdoms had exposure to both north Atlantic roundships, and ships with Lateen sails commonly used in the Mediterranean. The Caravel, invented by the Portuguese in the 15th century, combined both types of sails. Early designs had a front square rigged sail, and a rear lateen sail, allowing ships to zig-zag upwind, or run downwind depending on wind conditions.
@@ -1281,17 +1281,17 @@ Because of its geography, the Iberian kingdoms had exposure to both north Atlant
 
 The Iberian peninsula was extremely well situated geographically, in the far southwest of Europe, and thus the natural portal to west Africa. Furthermore, the Spanish had a great history of seafaring already and were notoriously brave sailors, willing to venture further than others in pursuit of fish and whales. Lastly, some of the best mapmakers of the age were based on the Balearic islands (Ibiza, Mallorca, Menorca).
 
-The Kingdom of Portugal had the early upper hand. Portuguese Caravels were slowly traveling further and further south down the West African coast. Thanks to the funding efforts of Prince Henry the navigator, Vasco da Gamma finally reached the Cape of Good Hope. Meanwhile, F&I were spending most of their disposable income on conquering Granada for the new Spanish alliance. 
+The Kingdom of Portugal had the early upper hand. Portuguese Caravels were slowly traveling further and further south down the West African coast. Thanks to the funding efforts of Prince Henry the navigator, Vasco da Gamma finally reached the Cape of Good Hope. Meanwhile, F&I were spending most of their disposable income on conquering Granada for the new Spanish alliance.
 
-Portugal established footholds in many parts strategically located in Africa and far beyond. Distant ports included Goa off the coast of India, Macao off China, many of which remain to this day Portuguese territories. F&I had attempted to loosen the Portuguese monopoly on the world, they were ultimately unsuccessful and in 1480 Ferdinand and Isabella granted a official monopoly to Portugal over a train with west Africa. Portuguese caravels were militarily superior and were very quickly able to destroy Arab fleets that previously controlled trade in the Indian ocean. The Portuguese king assumed a lofty title: Lord of the conquest and navigation of the ocean in India, Arabia, and Persia. 
+Portugal established footholds in many parts strategically located in Africa and far beyond. Distant ports included Goa off the coast of India, Macao off China, many of which remain to this day Portuguese territories. F&I had attempted to loosen the Portuguese monopoly on the world, they were ultimately unsuccessful and in 1480 Ferdinand and Isabella granted a official monopoly to Portugal over a train with west Africa. Portuguese caravels were militarily superior and were very quickly able to destroy Arab fleets that previously controlled trade in the Indian ocean. The Portuguese king assumed a lofty title: Lord of the conquest and navigation of the ocean in India, Arabia, and Persia.
 
-The Canary Islands were a bit of a revelation for Europeans that discovered them a new world that wasn't yet known to them, yet populated by people! Castilians first conquered the island and enslaved the local Guanches, the indigenous people of the islands. They died in huge quantities from the diseases the Europeans brought with them. Instead, the Spanish had to rely on imported west African slaves to run the plantations there. Why weren't west Africans subject to European diseases? Mainly because the cross-pollination between Europe and Africa. The European treatment of the Canaries established the model for colonization and served as a base for Columbus to venture further west. 
+The Canary Islands were a bit of a revelation for Europeans that discovered them a new world that wasn't yet known to them, yet populated by people! Castilians first conquered the island and enslaved the local Guanches, the indigenous people of the islands. They died in huge quantities from the diseases the Europeans brought with them. Instead, the Spanish had to rely on imported west African slaves to run the plantations there. Why weren't west Africans subject to European diseases? Mainly because the cross-pollination between Europe and Africa. The European treatment of the Canaries established the model for colonization and served as a base for Columbus to venture further west.
 
 Madeira and the Azores were uninhabited and discovered shortly after the Canaries. West African slaves were quickly imported there to establish the Sugar plantations as well as the Portuguese Madeira industry.
 
 # The Columbian exchange
 
-Columbus had failed to convince the Portuguese king to fund his voyage, so pursued funding from Ferdinand and Isabella. The Catholic Monarchs were busy vanquishing the last remnants of Granada, it was taking longer than expected, and cost a fortune. They kept him on retainer for seven years, and only then committed to Columbus' voyage. Once he discovered what he called Asia but what was actually the New World, it was unclear who would own the territory. 
+Columbus had failed to convince the Portuguese king to fund his voyage, so pursued funding from Ferdinand and Isabella. The Catholic Monarchs were busy vanquishing the last remnants of Granada, it was taking longer than expected, and cost a fortune. They kept him on retainer for seven years, and only then committed to Columbus' voyage. Once he discovered what he called Asia but what was actually the New World, it was unclear who would own the territory.
 
 Prior to the European discovery of America, The Treaty of Tordesillas divided the newly-discovered lands outside Europe between the Portuguese Empire and the Spanish Empire (Crown of Castile), along an arbitrary meridian set by the Pope. This line happened to miss North America but cut South America in half, and explains why Brazil became a Portuguese territory (!).
 
@@ -1303,7 +1303,7 @@ One way to look at Columbus' discovery is as a large ecological event, in which 
 
 Meanwhile, the New World saw a lot of new and critical crops from the east: sugar cane, bananas, coffee, wine grapes. Also onions, radish, and dandelions.
 
-**Diseases**: a big imbalance in favor of Europe. America had syphilis, and that's pretty much it. But the old world had loads of new diseases for the Americans, decimating their population. 
+**Diseases**: a big imbalance in favor of Europe. America had syphilis, and that's pretty much it. But the old world had loads of new diseases for the Americans, decimating their population.
 
 **Animals** a big imbalance in favor of Europe. America had very few pack animals: no cattle, pigs, sheep, or horses. Americans mainly had Turkeys and Llamas.
 
@@ -1318,10 +1318,10 @@ Scholars can’t decide if 14th and 15th centuries are Middle Ages or renaissanc
 - Elites are nobles, basis in landowning and military dominance.
 - Small scale production in the home, commerce dominated by guilds designed to keep production low.
 - Bottom of society are serfs, liberties constrained.
-- Belief in god is universal, and the basis of all intellectual life. 
+- Belief in god is universal, and the basis of all intellectual life.
 - Reverence for the past and skepticism for thinking from first principles.
 
-Based on this list, the Middle Ages continues well into the 16th century. Italian Humanists were trying to make a break from the past, but did nothing to eliminate nobility or serfdom, improve quality of life, or reform the guild system. 
+Based on this list, the Middle Ages continues well into the 16th century. Italian Humanists were trying to make a break from the past, but did nothing to eliminate nobility or serfdom, improve quality of life, or reform the guild system.
 
 Daileader proposes a better potential endpoints to the Middle Ages, like the Scientific Revolution or the Protestant Reformation. But even these periods were rooted in the Middle Ages. Luther was a scholastic scholar following Aquinas' tradition. Newton was deeply religious. Perhaps an even better endpoint for the Middle Ages actually is the Enlightenment in the mid-18th century. The French Revolution was the antithesis to the Middle Ages and ushered in the drastic and abrupt end to many of the institutions central to the Middle Ages. (That said, the lecturer is a professor of Middle Age History, and is biased towards stretching the start and endpoints of his period of study.)
 
@@ -1351,7 +1351,7 @@ This helps focus in on fewer things, and constraints are good.
 
 # Charles and the Knights
 
-Charles Martel and his descendants saw the potential of using horses for mounted shock combat. (White seems to ignore high backed saddles and the couched lance technique, with a shocking emphasis on stirrups.) Using armies of knights, Martel the Hammer defeated the Arabs and retook many lands, rebuilding a shorter lived spiritual successor to the Roman empire. With knights proving so effective, there was a need for more knights. This led to a vast proliferation of feudalism, enabling new upwardly mobile vassals to gain access to lands required of a knight, and ultimately cemented this new style of warfare. By 1000, the Latin "miles", which had meant soldier, began to mean knight. 
+Charles Martel and his descendants saw the potential of using horses for mounted shock combat. (White seems to ignore high backed saddles and the couched lance technique, with a shocking emphasis on stirrups.) Using armies of knights, Martel the Hammer defeated the Arabs and retook many lands, rebuilding a shorter lived spiritual successor to the Roman empire. With knights proving so effective, there was a need for more knights. This led to a vast proliferation of feudalism, enabling new upwardly mobile vassals to gain access to lands required of a knight, and ultimately cemented this new style of warfare. By 1000, the Latin "miles", which had meant soldier, began to mean knight.
 
 White has a great discussion about the “diffusion” of stirrups. In general this lens of [[Diffusion of Technology]] is one to keep in mind. I've adopted it in my random walk into [[Age Heaping Using Canadian 1852 Census data]]. As White eloquently puts it,
 
@@ -1372,13 +1372,13 @@ The cross bow emerged, either revived, or borrowed from the Chinese to penetrate
 
 Cross plowing was a technique to till tougher northern soil with a scratch plow. Furrows were made horizontally and vertically. This led to square fields. The moldboard plow, also known as the heavy plow eliminated the need for cross plowing because single furrows were deep enough for northern lands. It was also far more efficient. This made the fields long and narrow. (White does not mention the other reason for long fields: that ox teams were hard to turn.)
 
-The heavy plow was wheeled and required an eight ox team. This required collaboration between peasants and led to closer ties and village councils. Large fields collectively owned were doled out to villagers in sequence. In contrast, southerners using scratch plows remained individualistic. 
+The heavy plow was wheeled and required an eight ox team. This required collaboration between peasants and led to closer ties and village councils. Large fields collectively owned were doled out to villagers in sequence. In contrast, southerners using scratch plows remained individualistic.
 
-Diffusion of this technology was difficult and required a large population density. Another challenge was that collaboration was required between peasants to join plots together for this new farming practice. 
+Diffusion of this technology was difficult and required a large population density. Another challenge was that collaboration was required between peasants to join plots together for this new farming practice.
 
-Nailed Horseshoes were another key invention for agriculture. In Italy the warm climate worked well for unclod horses. But in the north, the climate and soil was such that horse hooves would often break. 
+Nailed Horseshoes were another key invention for agriculture. In Italy the warm climate worked well for unclod horses. But in the north, the climate and soil was such that horse hooves would often break.
 
-The need for horses to carry more weight (armored knights) led to selective breeding of destriers. These stronger horses inevitably interbred with peasant farm horses, leading to stronger offspring. 
+The need for horses to carry more weight (armored knights) led to selective breeding of destriers. These stronger horses inevitably interbred with peasant farm horses, leading to stronger offspring.
 
 Horses with padded collars could exert as much force as oxen. But moved much faster, so could output a lot more power. More speed let to more harrowing which was more effective at breaking up clods.
 
@@ -1403,16 +1403,16 @@ loops...)
 
 ## Three field rotation
 
-First recorded in 763, this practice became ubiquitous by 800 (shockingly fast). Previously, Europe had practiced the two field rotation invented by Romans. The old system alternated two halves, with one planted, the other left fallow. 
+First recorded in 763, this practice became ubiquitous by 800 (shockingly fast). Previously, Europe had practiced the two field rotation invented by Romans. The old system alternated two halves, with one planted, the other left fallow.
 
-The three field system split holdings into three sub-fields. The peasant planted winter crops (winter wheat or rye) on field 1, then summer crops (oats, barley, lentil, etc) on field 2, and left field 3 fallow. Next year, fields do a circular shift. 
+The three field system split holdings into three sub-fields. The peasant planted winter crops (winter wheat or rye) on field 1, then summer crops (oats, barley, lentil, etc) on field 2, and left field 3 fallow. Next year, fields do a circular shift.
 
 This had many advantages over the two field rotation:
 
 - 2/3 land utilization during the year (vs. 1/2).
 - More crop variety means more resiliency to droughts.
 - Better yields since legumes fix the nitrogen in the soil.
-- Oats for horses! Oats are much more nutritionally rich than grass, allowing many more horses to work in agriculture. 
+- Oats for horses! Oats are much more nutritionally rich than grass, allowing many more horses to work in agriculture.
 - A more even workload for farmers throughout the year.
 - Legumes provided extra nutrition for protein starved peasantry.
 
@@ -1431,7 +1431,7 @@ Water mills became common around the 11th century. By this point the Vitruvian d
 
 Wind power was originally harnessed in Tibet and China where mantras written on scrolls were placed on bookshelves which rotated by power of wind to increase their holiness. Windmills in Europe spread quickly. They could produce less power than water mills, but do not require a strong river flow. Also, they are immune to rivers freezing in winter or drying up in fall.
 
-Applications of this mechanical power included mostly milling grain but also filling cloth, sawing wood, crushing olives, operating bellows for blast furnaces, turning grindstones to polish metal, mincing paper pulp. 
+Applications of this mechanical power included mostly milling grain but also filling cloth, sawing wood, crushing olives, operating bellows for blast furnaces, turning grindstones to polish metal, mincing paper pulp.
 
 > The late Middle Ages has indeed been described as a “medieval industrial revolution based on water and wind.”
 
@@ -1447,21 +1447,21 @@ Corned gunpowder was a major refinement I’d not heard of. http://firearmshisto
 
 ## Gravity-based weapons
 
-Gravity based mechanical machines. The trebuchet emerged sometime in 11th (?) century and greatly improved on the Roman catapults, able to hurl 300 lb stone 300 yards using a long 50 ft lever arm and a heavy counterweight. Massive improvement over the Roman stars, 60 lb stone 450 yards. In siege warfare the mass of projectile matters most. 
+Gravity based mechanical machines. The trebuchet emerged sometime in 11th (?) century and greatly improved on the Roman catapults, able to hurl 300 lb stone 300 yards using a long 50 ft lever arm and a heavy counterweight. Massive improvement over the Roman stars, 60 lb stone 450 yards. In siege warfare the mass of projectile matters most.
 
 # Mechanisms and mechanical engineering
 
-Cranks… not sure why this section feels so dull right now. This reader struggled through a long discussion about cranks and when they were invented. Apparently not until 10th century or so in Europe. 
+Cranks… not sure why this section feels so dull right now. This reader struggled through a long discussion about cranks and when they were invented. Apparently not until 10th century or so in Europe.
 
 Okay but seriously, cranks are important as a precursor to the pistons and in general the conversion of reciprocating motion into rotation or vice versa. If the driving force is reciprocation, you end up with a significant dead zone to get through. This is solved with a compound crank (as in a two stroke engine) and aided by Flywheels, which don’t appear until 14th century. Tangentially related, I really enjoyed [this marvelous interactive explanation on the internal combustion engine](https://ciechanow.ski/internal-combustion-engine/).
 
-Treadles, or foot pedals that drive a rotating mechanism, are first found in China around the 2nd century, and then in Europe around the 12th century. Spinning wheels use treadles but also use belt drive and multiple subsystems that run at different speeds. 
+Treadles, or foot pedals that drive a rotating mechanism, are first found in China around the 2nd century, and then in Europe around the 12th century. Spinning wheels use treadles but also use belt drive and multiple subsystems that run at different speeds.
 
-Ultimately these increasingly sophisticated mechanisms enabled mechanical clocks, which involved many mechanisms rotating at different rates. Water clocks had been an improvement over sundials but had many shortcomings. For example, they didn’t operate in freezing temperatures. 
+Ultimately these increasingly sophisticated mechanisms enabled mechanical clocks, which involved many mechanisms rotating at different rates. Water clocks had been an improvement over sundials but had many shortcomings. For example, they didn’t operate in freezing temperatures.
 
 Was there a gravity-based alternative to water clocks? A trebuchet-like idea was used and eventually culminated in mechanical clocks in the 14th century. These clocks were extremely elaborate, less functional and more status symbols and statements.
 
-> Giovanni's clock was only incidentally a timepiece. It included the celestial wanderings of sun, moon, and five planets. And provided a perpetual calendar of all religious feasts, both fixed and movable. 
+> Giovanni's clock was only incidentally a timepiece. It included the celestial wanderings of sun, moon, and five planets. And provided a perpetual calendar of all religious feasts, both fixed and movable.
 
 Wrist watches were even trickier since they relied on springs which uncoiled and provided variable force during their uncoiling. These led to the [escapement](https://www.youtube.com/watch?v=BoeP0adbDKg) mechanism, and the [fusee](https://youtu.be/cpVkTSZrg_A?t=100), both impressively complex mechanisms:
 
@@ -1473,7 +1473,7 @@ It’s funny how underrated this time is from tech perspective, at least in the 
 
 # Perpetual motion
 
-All of these mechanical inventions were inspired by the ideal of a perpetual motion machine. This was not so outlandish pre-thermodynamics, given that windmills and water mills appeared to be moving perpetually. Perpetual motion through Gravity and magnetism became the holy grail. 
+All of these mechanical inventions were inspired by the ideal of a perpetual motion machine. This was not so outlandish pre-thermodynamics, given that windmills and water mills appeared to be moving perpetually. Perpetual motion through Gravity and magnetism became the holy grail.
 
 Roger Bacon c. 1260 imagined:
 
@@ -1520,11 +1520,11 @@ equilibrium, not complexity.
 [[Creative vs. evolutionary processes]] - Evolution is relentless and infinitely
 persistent, like the tortoise. Creativity requires drive from a specific group
 of people, who are finite in energy and time, but can move quickly, like the
-hare. 
+hare.
 
 [[Power law vs normal distributions]] - Many things are normally distributed.
 But some are power law distributed. Why? Independent events leads to normal
-distribution. Interdependent events leads to power law distributions. 
+distribution. Interdependent events leads to power law distributions.
 
 [[Explore vs exploit trade-offs]] - A well formulated treatment on this subject.
 
@@ -1544,7 +1544,7 @@ posted: 2021-06-06
 rating: no
 cover: /assets/book-covers/consider-phlebas.jpg
 
-After reading [[Player of Games by Iain M. Banks]], I wanted to read another in the Culture Series mainly for the world-building. 
+After reading [[Player of Games by Iain M. Banks]], I wanted to read another in the Culture Series mainly for the world-building.
 
 Consider Phlebas is a fast paced adventure book. The protagonist Bora Horza Gobuchul is unreasonably superhuman, possessing super strength, a great fighting ability, and among many other things, the ability to change his appearance at will. He finds himself in increasingly ridiculous situations, at one point stranded on a small island populated by fanatical cannibals. I found the plot itself to be so out there, parts of it read like my 10 year old self's stream of thought in an early creative writing assignment.
 
@@ -1569,7 +1569,7 @@ Why Information Grows starts off strong with an accessible introduction to infor
 
 That said, a few things stood out for me:
 
-- Prigogine's work on [[Dissipative systems]] and their applications. 
+- Prigogine's work on [[Dissipative systems]] and their applications.
 - [[Artifacts as crystallized imagination]]
 - The [[Resource curse]]
 
@@ -1588,7 +1588,7 @@ On Earth, information is not uniformly distributed. Specific countries, companie
 
 The author does a decent job of explaining basic information theory. I liked his Rubic's cube example:
 
-- There are e19 different states in the system.  
+- There are e19 different states in the system.
 - The most information is in the lowest entropy state, the solved solid colored state
 - You can’t just jump to the solved state without cheating
 - It takes under twenty moves to solve a cube from any state
@@ -1598,17 +1598,17 @@ The author does a decent job of explaining basic information theory. I liked his
 
 # Information state changes are constrained
 
-The Rubic's cube can't go from any state to any other state unless you cheat and detach the cubes from the cube's core. The only valid moves are rotations. This is a profound point that I think is super relevant for any policy discussions. Often it’s very clear what a desired state of affairs is, but very unclear how to get to there. 
+The Rubic's cube can't go from any state to any other state unless you cheat and detach the cubes from the cube's core. The only valid moves are rotations. This is a profound point that I think is super relevant for any policy discussions. Often it’s very clear what a desired state of affairs is, but very unclear how to get to there.
 
 # Encoding information
 
-Application to DNA: interesting sequences that code for something important are usually the least random ones. (Really?) Notably these information rich states don’t tell us about what this DNA means. Meaningless forms of order. 
+Application to DNA: interesting sequences that code for something important are usually the least random ones. (Really?) Notably these information rich states don’t tell us about what this DNA means. Meaningless forms of order.
 
-Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in [[Seeing Like a State by James Scott]] and сноровка. 
+Information itself is meaningless. But can be absorbed my people to form knowledge. And practice can lead to know-how which I think is same idea as métis as in [[Seeing Like a State by James Scott]] and сноровка.
 
 # Energy flows cause spontaneous order
 
-Entropy only increases in a closed universe. Meaning that this universe has no flow of energy into or out of it. 
+Entropy only increases in a closed universe. Meaning that this universe has no flow of energy into or out of it.
 
 Ilya Romanovich Prigogine, a Russian Jewish born Belgian studied [[Dissapative systems]], which are systems far from thermodynamic equilibrium, with substantial steady-state flows of energy. Earth is such a system because the sun is the source of all our power.
 
@@ -1618,7 +1618,7 @@ This is super cool! Imagine all of life as a sort of very complex whirlpool. Act
 
 # Information can be stored in solids
 
-Information can be preserved, and this preservation is best done in a solid state of matter, especially if it is non-uniform (eg. not a simple solid crystal, more like an organic molecule). The canonical example of this is DNA. 
+Information can be preserved, and this preservation is best done in a solid state of matter, especially if it is non-uniform (eg. not a simple solid crystal, more like an organic molecule). The canonical example of this is DNA.
 
 I didn't really like Zen and Art of Motorcycle Maintenance, but this quote works well here:
 
@@ -1627,26 +1627,26 @@ I didn't really like Zen and Art of Motorcycle Maintenance, but this quote works
 
 # Goldilocks zone for information to appear and remain
 
-Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from [[Where Good Ideas Come From by Steven Johnson]]). But if it’s too liquid, solids can’t form to store that information. 
+Interesting analogy to physics: a desirable temperature range. you need liquidity for information to grow (eg. Whirlpool example, as well as the notion of liquid networks from [[Where Good Ideas Come From by Steven Johnson]]). But if it’s too liquid, solids can’t form to store that information.
 
 > There are no long chains of proteins in the sun
 
-Energy is needed for information to emerge and solids are needed for information to endure. For information to explode we need the ability of matter to compute. 
+Energy is needed for information to emerge and solids are needed for information to endure. For information to explode we need the ability of matter to compute.
 
 
 # Simple computation, very broadly defined
 
-Hidalgo defines computation extremely broadly. You don’t even need life for computation to occur in the natural world. He introduces a simple example of computation, a [chemical clock](https://en.wikipedia.org/wiki/Chemical_clock), in which a set of regents can be mixed together to make a reaction that transitions in states at predictable time frames. Trees also compute in a similar way. 
+Hidalgo defines computation extremely broadly. You don’t even need life for computation to occur in the natural world. He introduces a simple example of computation, a [chemical clock](https://en.wikipedia.org/wiki/Chemical_clock), in which a set of regents can be mixed together to make a reaction that transitions in states at predictable time frames. Trees also compute in a similar way.
 
-I don't really see what practical connection there is to computation the way we think of it more colloquially. 
+I don't really see what practical connection there is to computation the way we think of it more colloquially.
 
 # Products as crystallized imagination
 
-Everyone uses toothpaste. Very few know how to produce sodium fluoride, or how to get it into that tiny tube. Toothpaste the product gives billions of people access to the practical benefits that a small group of toothpaste inventors created. Products allow us to transcend our individual limits. Toothpaste gives everyone the ability to maintain our teeth into old age. 
+Everyone uses toothpaste. Very few know how to produce sodium fluoride, or how to get it into that tiny tube. Toothpaste the product gives billions of people access to the practical benefits that a small group of toothpaste inventors created. Products allow us to transcend our individual limits. Toothpaste gives everyone the ability to maintain our teeth into old age.
 
-Crystallized information comes in many forms. Most of human activity is like this. Writing, speaking, music making, dancing. But Hidalgo only cares about products. Products empower others with practical uses of your ideas. 
+Crystallized information comes in many forms. Most of human activity is like this. Writing, speaking, music making, dancing. But Hidalgo only cares about products. Products empower others with practical uses of your ideas.
 
-The economy then is the substrate that allows products to spread from one individual to another. 
+The economy then is the substrate that allows products to spread from one individual to another.
 
 I'm mildly annoyed at the author for:
 
@@ -1655,9 +1655,9 @@ I'm mildly annoyed at the author for:
 
 # The bad stuff
 
-The first part of the book discussing information theory and Prirogine's ideas was quite good. 
+The first part of the book discussing information theory and Prirogine's ideas was quite good.
 
-Next, Hidalgo tries to apply information theory to people, companies, countries, and the global economy. This gets increasingly awkward. 
+Next, Hidalgo tries to apply information theory to people, companies, countries, and the global economy. This gets increasingly awkward.
 
 
 ## Personbytes, a useless analogy
@@ -1679,7 +1679,7 @@ The point here is even weaker: some things require multiple companies, or firmby
 
 ## Imagination trade imbalances
 
-Blending the idea of crystallized imagination and global trade, Hidalgo considers trade imbalances from the perspective of imagination. In the trade between Korea and Honduras, there is an imagination trade imbalance, with Korea providing in the commodity of imagination. He then ranks countries in terms of how much information capital they produce. Again, meh. 
+Blending the idea of crystallized imagination and global trade, Hidalgo considers trade imbalances from the perspective of imagination. In the trade between Korea and Honduras, there is an imagination trade imbalance, with Korea providing in the commodity of imagination. He then ranks countries in terms of how much information capital they produce. Again, meh.
 
 Hidalgo touches a bit on the [[Resource curse]]. This would be interesting to understand in more detail. https://en.m.wikipedia.org/wiki/Resource_curse
 
@@ -1715,7 +1715,7 @@ Many vignettes are dispersed throughout this book too, some instructive and very
 
 Other stories are more creative and thought provoking, or just plain funny:
 
-> Damian is sitting at a table in his day care center, slowly moving his jaws and mouth while staring into space. "What are you chewing, Damian?" asks his caregiver. "I'm chewing Mommy," replies Damian dreamily.' 
+> Damian is sitting at a table in his day care center, slowly moving his jaws and mouth while staring into space. "What are you chewing, Damian?" asks his caregiver. "I'm chewing Mommy," replies Damian dreamily.'
 
 Somehow the author can contain her laughter and respond seriously and eloquently:
 
@@ -1726,7 +1726,7 @@ Somehow the author can contain her laughter and respond seriously and eloquently
 
 When words are not enough:
 
-> Putting things into words has an inherent alienating effect because the part of the experience that remains unnamed is cut off and fragmented from the portion that is given official existence through language... When a precious toy is broken, words such as "sad" or "disappointed" cannoy possibly capture the enormity of the child's loss... 
+> Putting things into words has an inherent alienating effect because the part of the experience that remains unnamed is cut off and fragmented from the portion that is given official existence through language... When a precious toy is broken, words such as "sad" or "disappointed" cannoy possibly capture the enormity of the child's loss...
 
 > Coaxing children to express their feelings in words before they are ready alienates them from access to the unspeakable realms of experience and teaches them wrongly that talking is equivalent to feeling.
 
@@ -1740,17 +1740,17 @@ On play as simulation
 
 On toddlers vs. teenagers (I am afeared):
 
-> Not until adolescence will parents face as many dilemmas in rais ing their children as they do in the toddler years. In fact, the second and third years of life are excellent practice for the challenges posed by a teenager. Toddlerhood resembles adolescence because of the ra pidity of physical growth and because of the impulse to break loose of parental boundaries. At both ages, the struggle for independence exists hand in hand with the often hidden wish to be contained and protected while striving to move forward in the world. 
+> Not until adolescence will parents face as many dilemmas in rais ing their children as they do in the toddler years. In fact, the second and third years of life are excellent practice for the challenges posed by a teenager. Toddlerhood resembles adolescence because of the ra pidity of physical growth and because of the impulse to break loose of parental boundaries. At both ages, the struggle for independence exists hand in hand with the often hidden wish to be contained and protected while striving to move forward in the world.
 
 # Other notes
 
 Interesting take on parental discord: sometimes it's okay to resolve mild disagreements in front of a toddler. This demonstrates how adults resolve conflict. Doing this may be better than trying to hide animosity and build up an atmosphere of tension.
 
-Great passage on guilt. Scenario with Cynthia not wanting to stay with a babysitter. She is precocious and tells her mom things like “I will miss you too much” and “why are you going without me?” Her mom feels bad, alternating between reassurance that it’ll be fine and admonishment that the child should stop whining. 
+Great passage on guilt. Scenario with Cynthia not wanting to stay with a babysitter. She is precocious and tells her mom things like “I will miss you too much” and “why are you going without me?” Her mom feels bad, alternating between reassurance that it’ll be fine and admonishment that the child should stop whining.
 
-The remedy? A less accepting response. Assert with confidence that it’s gonna be ok. 
+The remedy? A less accepting response. Assert with confidence that it’s gonna be ok.
 
-> Won’t Cynthia fee guilty if she is told that her mother doesn’t arove of her behavior? If she does her ability to feel guilty at 40 months will actually speak well for her emotional development. As they grow children like adults need to experience remorse when they do something that is not acceptable to others. Guilt is a useful emotion when felt in response to specific damaging behavior. It is unhealthy only when it is pervasive, as in the Case of children who constantly worry they’re doing something wrong. 
+> Won’t Cynthia fee guilty if she is told that her mother doesn’t arove of her behavior? If she does her ability to feel guilty at 40 months will actually speak well for her emotional development. As they grow children like adults need to experience remorse when they do something that is not acceptable to others. Guilt is a useful emotion when felt in response to specific damaging behavior. It is unhealthy only when it is pervasive, as in the Case of children who constantly worry they’re doing something wrong.
 
 # Concluding...
 
@@ -1777,13 +1777,13 @@ Petrarch (13th century) believed that classical Greco-Roman art and culture was 
 
 During the romantic period, the Middle Ages were viewed with nostalgia. Dirty, polluted, overworked people sought philosophers like Rousseau, who pined for the lush greenery of the past. Marx's vision of constant conflict between classes was seen in contrast to the harmonious system of [[The Three Orders]] of the Middle Age.
 
-Medeival is just how you say Middle Age in Latin. Love it when simple things click into place. 
+Medeival is just how you say Middle Age in Latin. Love it when simple things click into place.
 
 # Population explosion
 
 Europe's population roughly doubled during the high middle ages (1000-1300), in contrast to [[Early Middle Ages]] (300-1000), where late Rome was charaterized by depopulation, followed by stagnation 700-1000. The era that followed, the [[Late Middle Ages]] were pummeled by the black death leading again to a decline in population. [[Depopulation is often correlated with decline]]
 
-Around 1000 CE, Europe was very rural. Cities had at most 10,000 people living in them. By 1300 many towns grow into cities and have 100,000 residents. 
+Around 1000 CE, Europe was very rural. Cities had at most 10,000 people living in them. By 1300 many towns grow into cities and have 100,000 residents.
 
 Why this growth?
 1. Decline in foreign attacks (Arabs, Vikings, Magyar marauders), partly because all of the good stuff had already been looted.
@@ -1801,9 +1801,9 @@ The monetary system also evolves around this time. At the height of Rome, a tri-
 
 ## Scratch plows => Moldboard plows
 
-As the Roman empire grew, the Scratch plow began to spread to northern Europe. This plow was designed with a short sharpened wooden stake, making shallow scratchy furrows well suited to dry Mediterranean soil. In contrast, Northern European soils were waterlogged and dense in clay, and the scratch plow hardly made a dent in such soil. [Seed ratios](https://en.wikipedia.org/wiki/Crop_yield#Seed_ratio) in the early Middle Ages were abysmal, something like 2:1. 
+As the Roman empire grew, the Scratch plow began to spread to northern Europe. This plow was designed with a short sharpened wooden stake, making shallow scratchy furrows well suited to dry Mediterranean soil. In contrast, Northern European soils were waterlogged and dense in clay, and the scratch plow hardly made a dent in such soil. [Seed ratios](https://en.wikipedia.org/wiki/Crop_yield#Seed_ratio) in the early Middle Ages were abysmal, something like 2:1.
 
-With the introduction of the Moldboard Plow (aka Heavy Plow) from eastern Europe, seed ratios improved drastically. This plow was far heavier, required wheels to move, and a much deeper, metal cutting blade. 
+With the introduction of the Moldboard Plow (aka Heavy Plow) from eastern Europe, seed ratios improved drastically. This plow was far heavier, required wheels to move, and a much deeper, metal cutting blade.
 
 ## Ox yokes => Horse collars
 
@@ -1829,15 +1829,15 @@ After the collapse of the Carolingian empire in the 9th century, noble infightin
 
 ## Chivalric Romances
 
-Chaplains were clergy members in the courts of noblemen. They were the most worldly of the clergy class and could thus find ways to appeal to the fighting class. The approach that worked turned out to be the new literary genre of Chivalric Romances, around 13th century. These were stories that depicted heroic knights on great adventures of love and conquest. The chivalric code insisted on romantic love with a woman in order to “civilize” a knight and encourage good deeds. 
+Chaplains were clergy members in the courts of noblemen. They were the most worldly of the clergy class and could thus find ways to appeal to the fighting class. The approach that worked turned out to be the new literary genre of Chivalric Romances, around 13th century. These were stories that depicted heroic knights on great adventures of love and conquest. The chivalric code insisted on romantic love with a woman in order to “civilize” a knight and encourage good deeds.
 
 Chrétien de Troyes wrote simple stories exploring the balance between fighting and loving. In some, the hero focused too much on loving his wife and lost status in the field, causing his wife to leave him. In others, he focused too much on conquest at the expense of his relationship. Damned if you do, and damned if you don’t. Lancelot is a more complex classic, who had an extramarital affair with Arthur’s wife Gwyn.
 
 ## Tournaments
 
-Early tournaments around the 11th century evolved from free-for-all mounted melees taking place on large swaths of territory. They were not aimed explicitly at killing but at capture, but the structure was so loose that all bets were off. Action occurred with real weapons, and had real impacts on innocent bystanders, as well as other externalities. Crops were trampled, houses burned, peasants murdered. Not to mention the large death toll among the fighters. 
+Early tournaments around the 11th century evolved from free-for-all mounted melees taking place on large swaths of territory. They were not aimed explicitly at killing but at capture, but the structure was so loose that all bets were off. Action occurred with real weapons, and had real impacts on innocent bystanders, as well as other externalities. Crops were trampled, houses burned, peasants murdered. Not to mention the large death toll among the fighters.
 
-King and clergy attempted to ban tournaments outright, but failed Instead, they evolved and became more formalized, converging to the 1-on-1 jousting matches with dulled lances and a barrier wall to prevent head on collisions. Knights that broke with chivalric norms, speaking ill of women or hurting the helpless, were disinvited from such gatherings. 
+King and clergy attempted to ban tournaments outright, but failed Instead, they evolved and became more formalized, converging to the 1-on-1 jousting matches with dulled lances and a barrier wall to prevent head on collisions. Knights that broke with chivalric norms, speaking ill of women or hurting the helpless, were disinvited from such gatherings.
 
 ## Feudalism
 
@@ -1854,13 +1854,13 @@ The status of ordinary folk generally improved during the period of 1000-1300. 
 
 Serfdom gradually became less onerous and less common. Serfs that spent a year in a city would automatically become free, and many would escape in this manner. Lords would treat their serfs better to avoid losing their unpaid workforce entirely. More of the population moved into towns.
 
-Townspeople were split into populo grosso (fat people), consisting of merchants and landlords and populo minuto (little people), consisting of artisans and farmers. 
+Townspeople were split into populo grosso (fat people), consisting of merchants and landlords and populo minuto (little people), consisting of artisans and farmers.
 
 During periods of heightened violence, towns formed communes, associations of mutual defense which attempted to maintain peace, militia style. These associations were led by elected Consuls, elected for a set term, often a year. Consuls judged when members of the commune were injured, and decided when to exact vengeance.
 
 A town would have one commune, but each trade was governed by its own guild: the bakers, the dyers, etc. To practice a trade you needed to belong to the guild. Guilds enforced the quality of work produced by its members and standardized production and distribution of goods to ensure that nobody had an unfair advantage.
 
-# Those who prayed 
+# Those who prayed
 
 Secular clergy: priests headed by a bishop at a bishopric.
 Regular clergy: monks headed by an abbot at a monastery.
@@ -1869,7 +1869,7 @@ Most monasteries were based on a Benedictine laws which were focused on austerit
 
 ## Attempts at reform
 
-At various points monastic reforms were attempted to bring monasteries closer to their platonic ideal. Two ecclesiastical reform movements stand out, often for the cruelty gave their abbots: [Cluniacs](https://en.wikipedia.org/wiki/Cluniac_Reforms) and [Cistercians](https://en.wikipedia.org/wiki/Cistercians). But these reverted to the mean within a couple of centuries. 
+At various points monastic reforms were attempted to bring monasteries closer to their platonic ideal. Two ecclesiastical reform movements stand out, often for the cruelty gave their abbots: [Cluniacs](https://en.wikipedia.org/wiki/Cluniac_Reforms) and [Cistercians](https://en.wikipedia.org/wiki/Cistercians). But these reverted to the mean within a couple of centuries.
 
 Franciscans took a different route, insisting on a new kind of monk that does not belong to a monastery at all. Instead he must own nothing and beg for alms, mimicking the life of the apostles. They were led by St. Francis of Assisi (1181-1226), who had pretty intense views. St. Francis did not permit his followers to store up money or provisions for a rainy day, since this indicated a lack of faith. Eventually the Franciscans were recognized by the papacy and their hard-line stances diluted.
 
@@ -1879,7 +1879,7 @@ The Gregorian movement attempted to reform the secular clergy. It enforced pries
 
 As lay people became more literate, they began reading the Bible themselves and coming to their own conclusions. Literacy was highest in urban areas, where merchant class needed to be numerate and literate to do their work. (TODO: what was the actual spread of writing like over time and space? Has this been mapped in detail?)
 
-This combination led to high rates of heresy, self described Christians that challenged the basic tenets of the faith. 
+This combination led to high rates of heresy, self described Christians that challenged the basic tenets of the faith.
 
 [Cathars](https://en.wikipedia.org/wiki/Catharism) had a different take on Christianity. Cathars believed that the good God was the God of the New Testament, creator of the spiritual realm, whereas the evil God was the God of the Old Testament, creator of the physical world whom many Cathars identified as Satan. This was against the teachings of the church and they were labeled heretics. Waldenzians, followers of Peter Waldo shared a similar fate.
 
@@ -1896,24 +1896,24 @@ Torture by this point was common in Medieval justice. Inquisitors were allowed t
 
 As mentioned ad nauseam in [[The Thirteenth Tribe by Arthur Koestler]], Jews were often expelled from kingdoms. I even made a list of [[History of Jewish Expulsions]].
 
-Why? It was an easy way for kings to make quick money. They would seize Jewish assets and take ownership of all outstanding loans. But this would disrupt the economy, so these measures were often reverted quickly. 
+Why? It was an easy way for kings to make quick money. They would seize Jewish assets and take ownership of all outstanding loans. But this would disrupt the economy, so these measures were often reverted quickly.
 
 Jews were also forced to wear a badge (star, circle, etc) or a conical cap. Visual indicators were also forced on other minorities, like heretics ([yellow cross](https://en.wikipedia.org/wiki/Cathar_yellow_cross)), prostitutes (yellow dress?), and lepers (rattle, clapper). Jews liked the privacy of living in their own enclaves, but the badges were universally hated. It made Jews visible targets of pogroms. The distinguishing badges could sometimes be removed by paying the sovereign a fee. The king would then annul this deal and force Jews to pay again, another money making scheme.
 
 Especially dangerous times for Jews:
 
 - Crusades would often trigger local pogroms, as echoes of holy war would resonate at home.
-- Easter sometimes saw accusations of blood libel, where Jews were accused of crucifying a Christian child gone missing from a village. No coincidence too with Christ’s death. Blood libel was only a popular belief, never an official position. 
+- Easter sometimes saw accusations of blood libel, where Jews were accused of crucifying a Christian child gone missing from a village. No coincidence too with Christ’s death. Blood libel was only a popular belief, never an official position.
 
-During the high Middle Ages 1000-1300 prosperity increased but so did anti Jewish violence. 
+During the high Middle Ages 1000-1300 prosperity increased but so did anti Jewish violence.
 
 # Intellectual progress
 
-Monk style education involved rote memorization and recitation. There was no space for intellectual activity because it would open up the possibility of heresy. 
+Monk style education involved rote memorization and recitation. There was no space for intellectual activity because it would open up the possibility of heresy.
 
 ## Scholastic philosophers
 
-Scholastic movement: beginning a tradition of comparison of multiple sources with the goal of synthesizing two seemingly incompatible perspectives into something coherent. Through valiant hoop jumping they seemed to be able to get to an interesting equilibrium. 
+Scholastic movement: beginning a tradition of comparison of multiple sources with the goal of synthesizing two seemingly incompatible perspectives into something coherent. Through valiant hoop jumping they seemed to be able to get to an interesting equilibrium.
 
 [Abelard](https://en.wikipedia.org/wiki/Peter_Abelard) was an early famous Scholastic with a colorful but gruesome story. He began a tradition of debate, with explicit reliance on old texts - bible and derived works (eg. St. Augustine), but also blended it with the pagan philosophers like Aristotle and Plato.
 
@@ -1934,9 +1934,9 @@ According to Aquinas, there are several ways in which God wills actions. He dire
 
 ## Early Universities
 
-Strange sub-plot with early universities. The first two universities in Europe were in Paris and in Bologna. 
+Strange sub-plot with early universities. The first two universities in Europe were in Paris and in Bologna.
 
-Students of universities were called [Clerici vagantes](https://en.wikipedia.org/wiki/Clerici_vagantes) or vagabundi, Latin for wandering clergy. They were considered to be part of the secular clergy, and subject to special privileges as a result. No one was allowed to physically harm them; they could only be tried for crimes in an ecclesiastical court, and were thus immune from any corporal punishment. Students took advantage of this and broke secular laws with impunity, engaging in theft, rape, and murder. 
+Students of universities were called [Clerici vagantes](https://en.wikipedia.org/wiki/Clerici_vagantes) or vagabundi, Latin for wandering clergy. They were considered to be part of the secular clergy, and subject to special privileges as a result. No one was allowed to physically harm them; they could only be tried for crimes in an ecclesiastical court, and were thus immune from any corporal punishment. Students took advantage of this and broke secular laws with impunity, engaging in theft, rape, and murder.
 
 One side effect of students as clergy was that under Canon Law, women could only be part of the regular clergy (nuns), but not part of the secular clergy, so were banned outright from universities.
 
@@ -1950,27 +1950,27 @@ Crusades were declared by popes, and often for political reasons. The first crus
 
 ## Popular crusade
 
-The first part of the first crusade was led by common people. Many of these crusaders took a detour to first kill a bunch of Jews and loot their stuff in order to finance the trip to Jerusalem. This was done partly from sheer anti-semitism and holy war fervor, but partly from Millenarian convictions that the world would soon end, and that the ends to their salvation justified the means. 
+The first part of the first crusade was led by common people. Many of these crusaders took a detour to first kill a bunch of Jews and loot their stuff in order to finance the trip to Jerusalem. This was done partly from sheer anti-semitism and holy war fervor, but partly from Millenarian convictions that the world would soon end, and that the ends to their salvation justified the means.
 
 When this first wave of crusaders arrived to rendezvous with Byzantine forces, they arrived earlier than expected, were ill-equipped and hungry. This led to skirmishes among the Christians of the east and the west. Eventually those Popular Crusaders that survived were slaughtered by the Seljuk Turks in Asia Minor.
 
 ## Baron's crusade
 
-A colorful story, this time about the adventures of crusading knights of noble rank. About 7000 departed from various European kingdoms organized in loose bands under a variety of local leaders. When they arrived at Constantinople to rendezvous with the Byzantines they were not greeted kindly by the Byzantine king Alexios I. Having just been ravished by the people’s crusade he did not trust the westerners and insisted they sign a treaty to ensure territories recently owned by Byzantines would be returned to them. 
+A colorful story, this time about the adventures of crusading knights of noble rank. About 7000 departed from various European kingdoms organized in loose bands under a variety of local leaders. When they arrived at Constantinople to rendezvous with the Byzantines they were not greeted kindly by the Byzantine king Alexios I. Having just been ravished by the people’s crusade he did not trust the westerners and insisted they sign a treaty to ensure territories recently owned by Byzantines would be returned to them.
 
-First taking [Nicaea in 1097](https://en.wikipedia.org/wiki/Siege_of_Nicaea), then [Antioch in 1098](https://en.wikipedia.org/wiki/Siege_of_Antioch), joint Crusader-Byzantine forces marched toward Jerusalem. However these victories only further eroded relations between east and west. The crusaders took Antioch, and left no prisoners, and their leader Bohemond decided to keep the city for himself, breaching the oath he swore to Alexios. Multiple waves of Muslim reinforcements attempted to take back the city, besieging the crusaders. The crusading knights nearly perished from famine. 
+First taking [Nicaea in 1097](https://en.wikipedia.org/wiki/Siege_of_Nicaea), then [Antioch in 1098](https://en.wikipedia.org/wiki/Siege_of_Antioch), joint Crusader-Byzantine forces marched toward Jerusalem. However these victories only further eroded relations between east and west. The crusaders took Antioch, and left no prisoners, and their leader Bohemond decided to keep the city for himself, breaching the oath he swore to Alexios. Multiple waves of Muslim reinforcements attempted to take back the city, besieging the crusaders. The crusading knights nearly perished from famine.
 
 A lowly priest named Peter Bartholomew had a vision wherein St. Andrew came to him and told him that the [Holy Lance](https://en.wikipedia.org/wiki/Holy_Lance) was in Antioch. Enthralled by this, the crusaders began to dig in the cathedral in search for the Holy Lance. Initially coming up empty, Peter joined in the digging and found the object he was looking for, which boosted morale significantly. After fasting for 5 days, the already famished knights sortied out of the garrison with Raymond of Toulouse at the head, carrying the Holy Lance. Despite his general's suggestions, the Turkish commander decided to let all of the knights exit the city walls before engaging them in battle. Soon the Muslim troops were in panicked retreat.
 
-After several months of rest at Antioch, a decimated crusading army set out for the ultimate goal Jerusalem in 1099. Another priest, Peter Desiderius had a vision: if the crusaders circumscribed the Jerusalem walls barefoot, the city would fall within nine days. Befuddled defenders spared these erratic barefoot knights. Sure enough, Jerusalem fell in seven days. This is shocking given an invading force of 1500 against city walls. Unmentioned in the lecture was the fact that an additional 10,000 infantrymen came as reinforcements via Jaffa. Using wood from the boats, Genoese engineers built two huge siege towers (called Malvoisin or "Bad Neighbors"), catapults and a battering ram. Eyewitnesses reported gruesome crusading with the entire population of the city indiscriminately murdered. 
+After several months of rest at Antioch, a decimated crusading army set out for the ultimate goal Jerusalem in 1099. Another priest, Peter Desiderius had a vision: if the crusaders circumscribed the Jerusalem walls barefoot, the city would fall within nine days. Befuddled defenders spared these erratic barefoot knights. Sure enough, Jerusalem fell in seven days. This is shocking given an invading force of 1500 against city walls. Unmentioned in the lecture was the fact that an additional 10,000 infantrymen came as reinforcements via Jaffa. Using wood from the boats, Genoese engineers built two huge siege towers (called Malvoisin or "Bad Neighbors"), catapults and a battering ram. Eyewitnesses reported gruesome crusading with the entire population of the city indiscriminately murdered.
 
-This first crusade marked a turning point in European standing on the world stage, previously clearly inferior to their more technological and culturally developed Muslim neighbors. 
+This first crusade marked a turning point in European standing on the world stage, previously clearly inferior to their more technological and culturally developed Muslim neighbors.
 
-# Norman conquest — meanwhile in England 
+# Norman conquest — meanwhile in England
 
 The next few lectures were a review of [[The Story of Medieval England]], but the enlarged scope of this lecture made for some new insights.
 
-The Normans were partly Franks but also partly descendants of north men, Vikings that were invited to settle in western France by the Franks in an attempt to prevent other Vikings from raiding and pillaging. 
+The Normans were partly Franks but also partly descendants of north men, Vikings that were invited to settle in western France by the Franks in an attempt to prevent other Vikings from raiding and pillaging.
 
 Vikings seem to have settled often despite their reputation. They were a key genetic component to the Russian (see [[The Thirteenth Tribe by Arthur Koestler]]), French, and English people.
 
@@ -1978,21 +1978,21 @@ Vikings seem to have settled often despite their reputation. They were a key gen
 - Domesday book: is this something where age rounding has been analyzed? Might be a cool baseline. Sadly, doesn't appear to include ages, according to the data in https://opendomesday.org/.
 - How can I find digitized versions of early censuses? [[Age Heaping and Numeracy]]
 
-After the Norman conquest, there was an interesting dynamic between England and France. The French speaking Normans that conquered England were vassals to the French king. As a result, William the conqueror and his descendants like Henry II were both feudal subordinates and equals to the French kings. Things got especially weird when the English monarchs controlled large tracts of France (called the [Angevin Empire](https://en.wikipedia.org/wiki/Angevin_Empire)) through strategic marriages. 
+After the Norman conquest, there was an interesting dynamic between England and France. The French speaking Normans that conquered England were vassals to the French king. As a result, William the conqueror and his descendants like Henry II were both feudal subordinates and equals to the French kings. Things got especially weird when the English monarchs controlled large tracts of France (called the [Angevin Empire](https://en.wikipedia.org/wiki/Angevin_Empire)) through strategic marriages.
 
 # Meanwhile in France
 
-By 987 France was being raided by Magyars, Vikings, and Arabs. The kings were no longer able to retain power. Aristocrats rebelled and split the Carolingian kingdom into smaller units. The subsequent dynasty that takes over is led by Hugh Capet, first of the Capetians. Under their watch France further fragmented into duchies and beyond. But the dynasty's lineage continued despite the fragmentation. This continuity helped prevent civil wars which usual meant bad news for the ruling family. 
+By 987 France was being raided by Magyars, Vikings, and Arabs. The kings were no longer able to retain power. Aristocrats rebelled and split the Carolingian kingdom into smaller units. The subsequent dynasty that takes over is led by Hugh Capet, first of the Capetians. Under their watch France further fragmented into duchies and beyond. But the dynasty's lineage continued despite the fragmentation. This continuity helped prevent civil wars which usual meant bad news for the ruling family.
 
 Learning from the mistakes of the Merovingians and Carolingians, the Capetians changed their succession style. The practiced anticipatory succession and picked an heir before your death. Rather than splitting the kingdom between all of the king's sons, the firstborn was given the kingdom, and his brothers received Appenages (see [[Primogeniture vs partible inheritance]]).
 
-Eventually Louis VI the Fat began to try and assemble the disintegrated French kingdom. He retakes Île-de-France in relentless military attacks against the castellans that resided there. This became the base for expansion, a place to reimpose authority on rebel lords. 
+Eventually Louis VI the Fat began to try and assemble the disintegrated French kingdom. He retakes Île-de-France in relentless military attacks against the castellans that resided there. This became the base for expansion, a place to reimpose authority on rebel lords.
 
 The Capetians waited patiently for opportunities to retake their holdings. They would buy out barons that went bankrupt. They would annex the duchy of a dead duke with no clear heirs.
 
-Phillip II Augustus was the best known king in the Capetian dynasty, an unlikely ruler. Compared to his contemporary Richard Lionheart, he was not much of a warrior, shunning crusading. Instead, he focused on trying to recover French lands that were now in English hands due to the Angevin Empire. At first, he tried to turn King John against his brother Richard but his scheme failed. Finally he decided to exploit the feudal relationship with English kings. He summoned John to nominally resolve a dispute between John and one of his French vassals. When John failed to show up, Philip declared his vassal John Lackland's possessions in the European continent forfeit. 
+Phillip II Augustus was the best known king in the Capetian dynasty, an unlikely ruler. Compared to his contemporary Richard Lionheart, he was not much of a warrior, shunning crusading. Instead, he focused on trying to recover French lands that were now in English hands due to the Angevin Empire. At first, he tried to turn King John against his brother Richard but his scheme failed. Finally he decided to exploit the feudal relationship with English kings. He summoned John to nominally resolve a dispute between John and one of his French vassals. When John failed to show up, Philip declared his vassal John Lackland's possessions in the European continent forfeit.
 
-Philip begins repossessing English lands on the continent. First he took Normandy, then Anjou. John forms an alliance with German king Otto of Brunswick. In 1214, a joint English-German invasion of France begins to try to retake back the Angevin lands. Philip II defeats Otto at the [Battle of Bouvines](https://en.wikipedia.org/wiki/Battle_of_Bouvines). Upon seeing the Germans crushed, John retreats fearing a similar fate. This confirms Philip's reconquest, leaving just a small region in the French southwest under English control. 
+Philip begins repossessing English lands on the continent. First he took Normandy, then Anjou. John forms an alliance with German king Otto of Brunswick. In 1214, a joint English-German invasion of France begins to try to retake back the Angevin lands. Philip II defeats Otto at the [Battle of Bouvines](https://en.wikipedia.org/wiki/Battle_of_Bouvines). Upon seeing the Germans crushed, John retreats fearing a similar fate. This confirms Philip's reconquest, leaving just a small region in the French southwest under English control.
 
 Around the same time, the pope declared a crusade against the south of France known as the [Cathar Crusade](https://en.wikipedia.org/wiki/Albigensian_Crusade). Supposedly those in the south were harboring Cathar heretics and thus needed to be cleansed, one of the major cities harboring them was Carcassonne. This was a twenty year affair, extremely bloody. Overall this led the decentralized French political system (discussed in early Middle Ages), further damaged by English conquest, to centralize again under a powerful king. See [[Decentralization and Centralization cycles]]
 
@@ -2003,23 +2003,23 @@ A bit more review of [[The Story of Medieval England]], but Thomas Beckett's sto
 
 Henry II's son John is also tied up by a [long quarrel at Canterbury in 1205](https://en.wikipedia.org/wiki/Canterbury_election_of_1205): after the prior archbishop dies, the monks elected a new one, egged on by a doctrine of Papal Supremacy. This is legal but not how the English king liked it — it was normally an appointment in practice. John refuses the election and instead pressured the monks to select his preferred candidate. They agreed to this but the two archbishop candidates both insisted on their legitimacy. As a result the papacy intervenes and insists that both candidates are invalid and that a third archbishop be selected. John refuses this and the pope declares an interdict, a sort of clerical strike in which only key services like baptisms are done. This lasts 6 years and John finally gives in when Innocent III begins to support John's deposition. Ultimately the pope's candidate Stephen Langton becomes Archbishop of Canterbury. Throughout this long period, King John does nothing to retake English possessions retaken by Phillip II, giving him time to prepare.
 
-English barons in France were in a weird position: are they now loyal to France, or to England? They pressured John Lackland to retake the lands. Finally after the botched English-German attack on France, the English barons rebel. They take London and force John to accept the Magma Carta. 
+English barons in France were in a weird position: are they now loyal to France, or to England? They pressured John Lackland to retake the lands. Finally after the botched English-German attack on France, the English barons rebel. They take London and force John to accept the Magma Carta.
 
 # Magna Carta
 
 A lot of the Magma Carta contains detailed articles that were designed to limit the king's power. Article 39 had more longstanding relevance to us, imposed formal legal restraints on royal will, declaring that no action detrimental to a free man’s life, limb or property was to be taken without a prior judgment in a lawfully constituted court. Within a year John rejects the Magna Carta and then promptly dies. His son Henry III accepts it and has a long reign, paving the path toward a fledgling parliament.
 
-Henry III used the parliament to seek financial aid. The Barons agreed but pushed back, insisting on the [Provisions of Oxford](https://en.wikipedia.org/wiki/Provisions_of_Oxford), which gave a group of barons representation in the king's government. The king would gather and consult Great Councils on occasion. These would sometimes include commoners as well as barons. Initially mostly to collect money, these gradually became more formalized in time, soon were done thrice a year. 
+Henry III used the parliament to seek financial aid. The Barons agreed but pushed back, insisting on the [Provisions of Oxford](https://en.wikipedia.org/wiki/Provisions_of_Oxford), which gave a group of barons representation in the king's government. The king would gather and consult Great Councils on occasion. These would sometimes include commoners as well as barons. Initially mostly to collect money, these gradually became more formalized in time, soon were done thrice a year.
 
 Despite all this turmoil, 13th century England had a strong and stable monarchy, at least compared to France and Germany. This led barons to really push back on the monarchy and lobby for more power. This led to rudimentary checks and balances and eventually English Common Law. In weaker states, there was less need for these balances since the king was already weak. Thus when countries like France centralized again, their monarchs became extremely powerful, their power unchecked.
 
 # Meanwhile in Germany
 
-Holy Roman emperors in the territory of Germany had done well for themselves while France was fallen apart into smaller pieces. These Teutonic rulers held a firm grasp on the church through the practice of investiture, in which kings appointed important abbots and bishops. 
+Holy Roman emperors in the territory of Germany had done well for themselves while France was fallen apart into smaller pieces. These Teutonic rulers held a firm grasp on the church through the practice of investiture, in which kings appointed important abbots and bishops.
 
 ## Investiture controversy
 
-Popes had extra leverage over Holy Roman Emperors since the pope was the only individual allowed to crown an emperor, a tradition that went back to Constantine. As part of Gregorian reforms, pope Gregory VII decided to take action against investiture. He terminated a group of imperially appointed bishops in Italy (part of the Holy Roman Empire). In response, Emperor Henry IV wrote a letter denouncing the pope and calling for his resignation. To which Gregory responded, I’m not fired — you’re fired. He excommunicated and deposed Henry IV. German elites then took advantage of the mess, and decided to rebel against their ruler. As a result, Henry IV rushed back to Rome to apologize to the pope. 
+Popes had extra leverage over Holy Roman Emperors since the pope was the only individual allowed to crown an emperor, a tradition that went back to Constantine. As part of Gregorian reforms, pope Gregory VII decided to take action against investiture. He terminated a group of imperially appointed bishops in Italy (part of the Holy Roman Empire). In response, Emperor Henry IV wrote a letter denouncing the pope and calling for his resignation. To which Gregory responded, I’m not fired — you’re fired. He excommunicated and deposed Henry IV. German elites then took advantage of the mess, and decided to rebel against their ruler. As a result, Henry IV rushed back to Rome to apologize to the pope.
 
 The apology led to a temporary truce, but it was clear to the pope that it was not a sincere apology. Also, the German aristocracy was not done rebelling. They declare an alternative candidate, Rudolph as German King. Three years later, Gregory VII declared his support for Rudolph and excommunicated Henry IV. In response, Henry IV declares a new pope and lays siege to Rome with the intent of forcibly replacing the current pope with his candidate known as [Antipope Clement III](https://en.wikipedia.org/wiki/Antipope_Clement_III). Pope Gregory VII comes close to death as Henry IV takes Rome in 1084, but is saved by an army of Normans that the pope calls on for help. They arrive and force Henry to retreat, but in their zeal [plunder Rome](https://en.wikipedia.org/wiki/Sack_of_Rome_(1084)).
 
@@ -2036,9 +2036,9 @@ Frederic II was a famous member of the Hohenstaufen dynasty. The end of his reig
 
 Born in Sicily, Frederic II was fluent in Arabic. He was well read and even wrote books about hawking. Early in his reign he went on crusade, took a vow to participate or risked excommunication, by then a common issue between kings of Germany and popes. He fell ill (or may have pretended to do so) on his voyage to Jerusalem. The pope promptly excommunicated him and prevented him from continuing the crusade until excommunication was lifted. However, to lift excommunication, pope Gregory IX requested a small gift: Sicily.
 
-Frederic II ignored all of the above and continued on to Jerusalem. Taking advantage of Muslim infighting of the time, he secured Jerusalem for Christendom through diplomacy alone. However the pope was resentful, calling Frederic preambulus Antichristi and denied this treaty. Instead, a papal army marched on Sicily. Frederic was not greeted warmly in Jerusalem by fellow Christians because of an interdict. Frederic II returned quickly to Sicily to quash the papal forces. 
+Frederic II ignored all of the above and continued on to Jerusalem. Taking advantage of Muslim infighting of the time, he secured Jerusalem for Christendom through diplomacy alone. However the pope was resentful, calling Frederic preambulus Antichristi and denied this treaty. Instead, a papal army marched on Sicily. Frederic was not greeted warmly in Jerusalem by fellow Christians because of an interdict. Frederic II returned quickly to Sicily to quash the papal forces.
 
-A tentative peace breaks out for a decade. Pope Gregory IX, then his successor Innocent IV called for [a crusade against Frederic II](https://en.wikipedia.org/wiki/Sixth_Crusade). Crusaders with vows to the east are allowed to change course to fight Frederic II instead. Some of his own subjects turn against him. Civil wars rage beyond Frederic II's death in 1250, and Germany disintegrates further. The papacy denies election of further members of the Hohenstaufen dynasty. The result is a final decimation of the Holy Roman Empire into a loose confederacy with an elected emperor. 
+A tentative peace breaks out for a decade. Pope Gregory IX, then his successor Innocent IV called for [a crusade against Frederic II](https://en.wikipedia.org/wiki/Sixth_Crusade). Crusaders with vows to the east are allowed to change course to fight Frederic II instead. Some of his own subjects turn against him. Civil wars rage beyond Frederic II's death in 1250, and Germany disintegrates further. The papacy denies election of further members of the Hohenstaufen dynasty. The result is a final decimation of the Holy Roman Empire into a loose confederacy with an elected emperor.
 
 
 
@@ -2048,11 +2048,11 @@ posted: 2021-04-30
 rating: no
 cover: /assets/book-covers/thirteenth-tribe.jpg
 
-When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished [[Early Middle Ages]] and really enjoyed [[Darkness at Noon by Arthur Koestler]] by Arthur Koestler. 
+When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished [[Early Middle Ages]] and really enjoyed [[Darkness at Noon by Arthur Koestler]] by Arthur Koestler.
 
 The first half of the book focuses on the facts. Who were the Khazars? Who were the Rus? Where did these people come from? How did they interact with dominant Byzantines, Ummayads, Abassids? It's super readable and more engaging than prior lectures on the subject matter. That said, I feel that having listened to [[Early Middle Ages]] was a bit of a prerequisite. It would have been too hard to keep track of the major players otherwise.
 
-In contrast, the remainder of the book is way more speculative. Koestler seems to have started with a thesis: Ashkenazi Jews are Khazars. A narrative then is carefully constructed gather the relevant evidence. However given that this is all set in Dark Ages, the facts are inherently sparse and shrouded in uncertainty. 
+In contrast, the remainder of the book is way more speculative. Koestler seems to have started with a thesis: Ashkenazi Jews are Khazars. A narrative then is carefully constructed gather the relevant evidence. However given that this is all set in Dark Ages, the facts are inherently sparse and shrouded in uncertainty.
 
 # Conversion and neutrality
 
@@ -2062,7 +2062,7 @@ The Khazars converted to Judaism because choosing Christianity or Islam would pu
 
 The Khazars adopted Hebrew script too. Some Hebrew letters, ש and צ made it into Cyrillic as ш and ц, after St. Cyril learned their language in Crimea.
 
-Becoming a neutral territory meant that those fleeing forced conversion in Christendom and Islam world had a natural safe haven. Many Greek pagans and their rich classical traditions found their way to Khazaria. So did many Jews of the diaspora. 
+Becoming a neutral territory meant that those fleeing forced conversion in Christendom and Islam world had a natural safe haven. Many Greek pagans and their rich classical traditions found their way to Khazaria. So did many Jews of the diaspora.
 
 The conversion is chronicled by a Khazar king Joseph, in [an exchange of letters](https://en.wikipedia.org/wiki/Khazar_Correspondence) with Hasdai ibn Shaprut, a Jewish doctor living in Al-Andalus (modern Spain). In his response, Joseph recounts the Khazar conversion story. After dropping idolatry, King Bulan, sometime in the 8th century needed to choose between the three dominant religions. He gathered a panel of representatives and asked each separately which of the other two religions were least wrong. Judaism won by elimination, since both Christian and Muslim had greater affinity to it than to one another.
 
@@ -2073,7 +2073,7 @@ The Khazars seem to have been karaiites, meaning that they rejected the rabbinic
 
 The Khazars were a Turcik people ruled by a system of dual kingship. The Khagan was the nominal ruler and figurehead. Menawhile the general executive and military general was called the Khagan Bek. Upon end of reign the Khagan was ritually killed.
 
-Khazaria was a buffer state situated between the Black Sea and the Caspian Sea, shielding the Byzantine Empire from both Vikings and Arabs. 
+Khazaria was a buffer state situated between the Black Sea and the Caspian Sea, shielding the Byzantine Empire from both Vikings and Arabs.
 
 Perhaps there's a map in the printed version of this book, but I listened to it and found myself floundering a bit on the geography front. Embarassingly I found it hard to keep all of the rivers (Volga, Dniepr, Don, Ural) straight. I spent a bit of time and put [all the things on a map](https://borismus.github.io/central-asia-maps/), including two major cities, Atil the capital, and Sarkel, the remains of which were flooded by the Soviets in the 1950s.
 
@@ -2084,7 +2084,7 @@ The Varangians were Vikings. In the 9th century, they set out on large expeditio
 
 When this group of vikings moved into the territory of modern Ukraine and Russia, they settled down near Kiev and became known as the Rus. They intermingled with native Slavs. Olga is Helga, Oleg is Helgi. Ivan, Ingvarr. Vladimir, Valdamarr. Mind, Blown.
 
-Early Kievan Rus was a shit show. After Igor son of Rurik was killed by a tribe of Slavs called the Drevlians, his wife Olga exacted sweet revenge on them. Igor and Olga had a son, Sviatoslav, who was also a military hero and legendary warrior. Their children caused a civil war for succession. As Koestler would have us think, most of these early Rus regends tended to lead debaucherous lives and then convert to Christianity on their death bed. Some to be subsequently canonized. 
+Early Kievan Rus was a shit show. After Igor son of Rurik was killed by a tribe of Slavs called the Drevlians, his wife Olga exacted sweet revenge on them. Igor and Olga had a son, Sviatoslav, who was also a military hero and legendary warrior. Their children caused a civil war for succession. As Koestler would have us think, most of these early Rus regends tended to lead debaucherous lives and then convert to Christianity on their death bed. Some to be subsequently canonized.
 
 Vladimir, son of Sviatoslav decided it was time to pick a religion. He did so in a Khazar-like fashion. Summoning delegation of representatives. The result is described by the chronicler Nestor:
 
@@ -2107,11 +2107,11 @@ Chronologically, first the Khazar empire fell, then new Jewish settlements began
 
 Around this time the Shtetl began to emerge in Poland-Lithuanian empire. Origin dates to the 13th century.
 
-Interesting connection between the kippa and the [Tubeteika](https://en.wikipedia.org/wiki/Tubeteika), or traditional headwear of steppe dwellers. 
+Interesting connection between the kippa and the [Tubeteika](https://en.wikipedia.org/wiki/Tubeteika), or traditional headwear of steppe dwellers.
 
 # A chronicle of suffering
 
-During the crusades, many Jews were forced to convert and many communities chose to self-immolate and die as martyrs. 
+During the crusades, many Jews were forced to convert and many communities chose to self-immolate and die as martyrs.
 
 > Many Jews of Maeonce, Strasbourg, Spires, ... escaped from centers and left their posessesions to kindly Burgers.
 
@@ -2150,7 +2150,7 @@ posted: 2021-03-17
 rating: yes
 cover: /assets/book-covers/early-middle-ages.jpg
 
-12 hours dedicated to the period from 300 to 1000 CE, often called the Dark Ages. The modern official nomenclature refers to the fact that sources on the time period are scarce. The lecturer distances from the colloquial usage of backwardness, decline, evil, etc. 
+12 hours dedicated to the period from 300 to 1000 CE, often called the Dark Ages. The modern official nomenclature refers to the fact that sources on the time period are scarce. The lecturer distances from the colloquial usage of backwardness, decline, evil, etc.
 
 # Late Rome
 
@@ -2160,7 +2160,7 @@ Diocletian finally stabilized Rome by imposing authoritarian measures. He milita
 
 Constantine converted to Christianity in 312 and many followed his lead, although Senators often held out and savored their pagan traditions. The only imperial attempt to revert to paganism by Julian the Apostate completely failed. He was the only pagan emperor after Constantine.
 
-The transition from Rome to the Fall of Rome was varied depending on locale within the Roman empire. In many areas it was quite gradual. In Rome, the last emperor's deposition in 473 had no bearing on day to day life. Commerce was still done in Roman coins, barbarian peoples still enjoyed Roman traditions. 
+The transition from Rome to the Fall of Rome was varied depending on locale within the Roman empire. In many areas it was quite gradual. In Rome, the last emperor's deposition in 473 had no bearing on day to day life. Commerce was still done in Roman coins, barbarian peoples still enjoyed Roman traditions.
 
 
 ## St. Augustine and Early Christian thinking
@@ -2176,17 +2176,17 @@ Athletes of God: not sure how widespread, but around 300 CE there were many famo
 
 ## Fall of Rome in the west
 
-These barbarian tribes took on a lot of Roman traditions and lifestyles. Many became practically indistinguishable from their Roman counterparts. 
+These barbarian tribes took on a lot of Roman traditions and lifestyles. Many became practically indistinguishable from their Roman counterparts.
 
 In England, a distant outpost of Rome, Christianity was lost well before the last emperor, along with literacy. Interesting example of regression in civilization.
 
-Irish monks retained their Christianity and eventually settled in Britain, bringing their religion back to England. They were extremely serious in their interpretation of monastic life. Part of this was due to the fact that Anglia retained its Celtic language which was Germanic and very different from Latin. So studying the scriptures was substantially more difficult because of the language barrier. 
+Irish monks retained their Christianity and eventually settled in Britain, bringing their religion back to England. They were extremely serious in their interpretation of monastic life. Part of this was due to the fact that Anglia retained its Celtic language which was Germanic and very different from Latin. So studying the scriptures was substantially more difficult because of the language barrier.
 
-When Irish monks exported their version of Catholicism to the world, including Italy and Spain, it was a hardened take on the subject. 
+When Irish monks exported their version of Catholicism to the world, including Italy and Spain, it was a hardened take on the subject.
 
 ## Rome in the east
 
-The eastern Roman empire lasted for a long time. Eventually it fell in 1453 due to largely to Arab invaders. The east diverged significantly after Diocletian split the empire in two. For example, it switched to Greek as the main language. 
+The eastern Roman empire lasted for a long time. Eventually it fell in 1453 due to largely to Arab invaders. The east diverged significantly after Diocletian split the empire in two. For example, it switched to Greek as the main language.
 
 One of the most successful Byzantine emperors, Justinian made some attempts to reunite the empire, successfully conquering the North African Vandal kingdom. He made peace with the Persians in the east, establishing an “eternal treaty”. However just as he was attempting to reconquer Italy, the Persians break the treaty and invade from the east, sacking cities and gaining territories in Palestine and Syria. This misstep, as well as the appearance of the Plague of Justinian, put an end to Justinian's ambition.
 
@@ -2196,7 +2196,7 @@ The Byzantine empire was constantly besieged by the Arabs from the south, by Per
 
 # Francia after Rome
 
-As Rome was collapsing, The Franks established Frankia, a kingdom preceding modern France. Clovis I was the best known ruler of the Merovingian dynasty. This dynasty suffered from problems of succession. They split their inheritance between children, and due to bad luck had a long strain of many child-rulers. Eventually they lost control and were replaced by the Carolingians, initially Pippin II, but later Charles Martell (the hammer), who made significant gains pushing back against the invading Arabs. 
+As Rome was collapsing, The Franks established Frankia, a kingdom preceding modern France. Clovis I was the best known ruler of the Merovingian dynasty. This dynasty suffered from problems of succession. They split their inheritance between children, and due to bad luck had a long strain of many child-rulers. Eventually they lost control and were replaced by the Carolingians, initially Pippin II, but later Charles Martell (the hammer), who made significant gains pushing back against the invading Arabs.
 
 ## Iconoclasm
 
@@ -2204,7 +2204,7 @@ The pope remained tied to the Byzantine empire for many centuries after last wes
 
 Leo III then demanded destruction of holy icons, a core practice of the still unified church. It's pretty unclear why this happened, perhaps an attempt to emulate successful Islamic tradition? At any rate, the pope refused and eventually the papacy turned away from Byzantine and the East in general, so much that popes, who had long been from Greece, now weren’t sourced from there for 800 years. It's the dark ages, things are murky, but there's more speculation [on Wikipedia](https://en.wikipedia.org/wiki/Byzantine_Iconoclasm).
 
-This wasn’t quite the schism yet tho. That’s later. 
+This wasn’t quite the schism yet tho. That’s later.
 
 The papacy found itself without protection. The Carolingians under Pippin III (son of Charles Martel) wanted to make their ascension legitimate and saw an opportunity. To officially depose the still Merovingian king, they struck a deal with the pope: legitimate us, and we will defend your interests against the Lombards in northern Italy. Thus did the church's power and attention shift towards the West.
 
@@ -2218,11 +2218,11 @@ Does this generalize? Do we necessarily become less resilient as civilization pr
 
 ## Carolingian Renaissance
 
-Charlemagne's rule in the 9th century coincided with a golden age. 
+Charlemagne's rule in the 9th century coincided with a golden age.
 
 Latin at this point was just a wildly evolving colloquial language which was slowly evolving into French, Spanish and Italian, depending on the region.
 
-Around this period, Irish and Anglosaxon missionaries were spreading their faith far and wide. When they landed in the Carolingian empire, they were distinguished by their classical Latin, which remained unadulterated by their main germanic tongue. These monks found inconsistencies between many versions of holy scriptures and sought to consolidate back to their purest form. Charlemagne too did not believe in divine omniscience and insisted on addressing God in proper Latin. 
+Around this period, Irish and Anglosaxon missionaries were spreading their faith far and wide. When they landed in the Carolingian empire, they were distinguished by their classical Latin, which remained unadulterated by their main germanic tongue. These monks found inconsistencies between many versions of holy scriptures and sought to consolidate back to their purest form. Charlemagne too did not believe in divine omniscience and insisted on addressing God in proper Latin.
 
 During this period, bishops became much better educated and much better stewards of the religion. Meanwhile priests remained unrefined. Priesthood tests involved with very basic questions about the faith and included an answer key, suggesting a low level of theological sophistication. Also interesting is the use of standardized testing for this purpose.
 
@@ -2236,13 +2236,13 @@ Louis the Pious declared his successors when he was just 40, decades before his 
 
 # Carolingian decomposition: France and Germany
 
-Under Charlemagne, the empire was subdivided into counties each governed by an appointed count, accountable to the emperor. This is a nice illustration of an anti-democratic principle at play, succinctly formulated by Fukuyama as [[Higher political bodies should be answerable to lower ones not vice versa]]. 
+Under Charlemagne, the empire was subdivided into counties each governed by an appointed count, accountable to the emperor. This is a nice illustration of an anti-democratic principle at play, succinctly formulated by Fukuyama as [[Higher political bodies should be answerable to lower ones not vice versa]].
 
-As the Carolingian Empire succumbed to infighting and Viking invaders, Counts began to gain more power. To secure their alliance in war, Kings began to give Counts multiple counties. The office of Count became hereditary and no longer appointed. Counts, not Kings begin appointing local bishops and abbots, and creating their own law courts. This process is known as [[Devolution of Power]]. By 900 there are 30 principalities in West Francia, many of which prevented the King from even visiting. A similar process occurred in East Francia, but instead Dukes (a level above Count) retained power. As a result, the east was less fragmented, into about 5 Dutchies. 
+As the Carolingian Empire succumbed to infighting and Viking invaders, Counts began to gain more power. To secure their alliance in war, Kings began to give Counts multiple counties. The office of Count became hereditary and no longer appointed. Counts, not Kings begin appointing local bishops and abbots, and creating their own law courts. This process is known as [[Devolution of Power]]. By 900 there are 30 principalities in West Francia, many of which prevented the King from even visiting. A similar process occurred in East Francia, but instead Dukes (a level above Count) retained power. As a result, the east was less fragmented, into about 5 Dutchies.
 
 The West fragments fractally as Castellan do the same to their local Counts as what Counts did to Carolingian Kings. Under Charlemagne, Castellans were a public office, appointed by the ruler and non hereditary. But this breaks down as part of the process of devolution. These castelins assume titles of Dominus (Lord). Increasingly their castles are built of stone, not wood as before.
 
-These lords then impose power in their realm, typically a 15 mile radius circle around the castle. To enforce their lordship, they hire Knights as mafia-like enforcers. Knights multiply in numbers, get fiefdoms, and we converge to feudalism.  
+These lords then impose power in their realm, typically a 15 mile radius circle around the castle. To enforce their lordship, they hire Knights as mafia-like enforcers. Knights multiply in numbers, get fiefdoms, and we converge to feudalism.
 
 By this point, the King is effectively elected official, selected by Counts that hold the real power. This process of devolution is really interesting as a way of transforming a top-down hierarchy into one that turns bottom up, at least up to some rung. Clearly not all the way, since commoners, serfs and slaves were fully excluded from these power games. Does this apply to corporations in some way?
 
@@ -2256,11 +2256,11 @@ Holy Roman Empire
 
 Not taking too many notes here, since a lot of the material overlaps with [[Lost Enlightenment by Frederick Starr]]. The [[Jizya tax]] stood out as especially interesting, in the perverse incentives it created. If too many Christians and Jews converted to Islam, the Arab leaders would lose their tax base!
 
-The visigoths in Spain were quickly overrun but Arab invaders, who established an Umayyad kingdom there, and eventually self-declared a Caliphate. 
+The visigoths in Spain were quickly overrun but Arab invaders, who established an Umayyad kingdom there, and eventually self-declared a Caliphate.
 
 Initially a dusty outpost of the Islamic world, by the 10th century Al-Andalus became a significant, urbanized and diverse region in Europe. The capital at Cordoba dwarfed any other European centers, with population around 100-250k. In contrast, population of Paris at the time was perhaps 20k, and London perhaps 10k.
 
-The Arabs brought with them irrigation techniques acquired to survive in harsh deserts, relying on gravity to relay water from Oases many tens of miles away. They also brought with them new crops like rice, sugar cane and cotton, which became staples of Spanish food, and instrumental in the New World. They brought a great amount of high culture, math, and astronomy, and the region became dominant so that contemporary European mathematicians like [Gerbert](https://en.wikipedia.org/wiki/Pope_Sylvester_II) would flock to Al-Andalus for access to the greatest minds of the time, as well as preserved writings of Greek philosophers. 
+The Arabs brought with them irrigation techniques acquired to survive in harsh deserts, relying on gravity to relay water from Oases many tens of miles away. They also brought with them new crops like rice, sugar cane and cotton, which became staples of Spanish food, and instrumental in the New World. They brought a great amount of high culture, math, and astronomy, and the region became dominant so that contemporary European mathematicians like [Gerbert](https://en.wikipedia.org/wiki/Pope_Sylvester_II) would flock to Al-Andalus for access to the greatest minds of the time, as well as preserved writings of Greek philosophers.
 
 # England
 
@@ -2268,11 +2268,11 @@ Alfred the Great... zoned out a bit because it was mostly recap of [[The Story o
 
 ## From Slavery to Serfdom
 
-Fantastic historical perspective on serfdom as actually a substantial improvement to quality of life. 
+Fantastic historical perspective on serfdom as actually a substantial improvement to quality of life.
 
-Roman latifundia were large estates controlled by wealthy romans. These were mostly tilled by agricultural slaves, acquired as war booty. These slaves have no rights at all, not even to their offspring or their spouses. They could not own anything at all and generally lived in terrrible conditions. 
+Roman latifundia were large estates controlled by wealthy romans. These were mostly tilled by agricultural slaves, acquired as war booty. These slaves have no rights at all, not even to their offspring or their spouses. They could not own anything at all and generally lived in terrrible conditions.
 
-Estates would typically consist of one or both of these: 
+Estates would typically consist of one or both of these:
 1. The demesne (or domain) of the lord, which a serf is required to till some number of days a week for no pay.
 2. The tenantship allotted to each serf, from which the lord gets a cut, but is fundamentally tied to the serf. Except if the serf dies childless, in which case posessions would revert to the lord by [Mortmain](https://en.wikipedia.org/wiki/Mortmain).
 
@@ -2280,7 +2280,7 @@ By the 10th century, slavery is mostly gone, but it’s not fully rooted.
 
 # Feudalism
 
-The feudal system based on lords and vassals was put in place around this same time. Vassals would swear fealty to their lords. This would grant them a fief, usually heritable property within their lord's holdings. In Latin, fief is feudum, from which feudalism comes from, and this is a central notion to the idea. In exchange for the fief, the vassal must come to the lord's aid in war, and generally give them advice when it is requested by the overlord. 
+The feudal system based on lords and vassals was put in place around this same time. Vassals would swear fealty to their lords. This would grant them a fief, usually heritable property within their lord's holdings. In Latin, fief is feudum, from which feudalism comes from, and this is a central notion to the idea. In exchange for the fief, the vassal must come to the lord's aid in war, and generally give them advice when it is requested by the overlord.
 
 (For some reason, this reminds me a lot of a corporate structure, where the fief is a steady salary, and the war is with the code.)
 
@@ -2296,9 +2296,9 @@ Family structure changed as a result of Christianity. Completely novel ideas cam
 
 Knights first emerged during the reign of Charlemagne. They relied on a few different technologies:
 
-- **Stirrups** from Central Asia enabled a much more stable ride. 
+- **Stirrups** from Central Asia enabled a much more stable ride.
 - **High backed saddles** increased stability especially in case of frontal impact that would normally throw you backwards.
-- **Couching lances**, meaning tucking a weighted spear under your arm as you charge. This put all of the horse's momentum into the spear tip for an extremely devastating blow. 
+- **Couching lances**, meaning tucking a weighted spear under your arm as you charge. This put all of the horse's momentum into the spear tip for an extremely devastating blow.
 
 This is a fascinating general direction, see [[Horse related inventions]].
 
@@ -2318,9 +2318,9 @@ The Dark Ages are shrouded in mystery but two famous historians devoted their li
 - Edward Gibbon wrote The History of the Decline and Fall of the Roman Empire in 1776
 - Henri Pirenne was a Belgian historian, wrote Mohammed and Charlemagne in 1937.
 
-Gibbon attributed the fall of Rome to Christianity. On his analysis, the religion made Romans too laconic and insufficient concerned about this world, more concerned about the world to come. As a result, they could not muster up the energy to withstand barbarism incursions. This is unconvincing since he pegs collapse at the date of deposition of the last western emperor. Meanwhile the eastern Roman empire lasts another millennium. And it’s actually the more Christian half. 
+Gibbon attributed the fall of Rome to Christianity. On his analysis, the religion made Romans too laconic and insufficient concerned about this world, more concerned about the world to come. As a result, they could not muster up the energy to withstand barbarism incursions. This is unconvincing since he pegs collapse at the date of deposition of the last western emperor. Meanwhile the eastern Roman empire lasts another millennium. And it’s actually the more Christian half.
 
-Pirenne doesn't accept that the Roman empire fell in the 5th century at all. He attributes eventual collapse to economic decline and the Arab invasions around the 8th century. 
+Pirenne doesn't accept that the Roman empire fell in the 5th century at all. He attributes eventual collapse to economic decline and the Arab invasions around the 8th century.
 
 Daileader, the lecturer, has a better explanation: depopulation. Strangely, no symptoms of depopulation appear in any of the prior lectures. It's a bit odd to conclude with a completely new insight.
 
@@ -2341,15 +2341,15 @@ Another GB recommendation that I really enjoyed. It's hard to summarize this boo
 
 > Evolution is the ultimate treasure hunter, searching for nothing and finding everything
 
-Evolution works under a constraint: whatever it produces must survive to reproduce. "Survival of the fittest" is the most popular conception of this process but does not capture any nuance. 
+Evolution works under a constraint: whatever it produces must survive to reproduce. "Survival of the fittest" is the most popular conception of this process but does not capture any nuance.
 
 > The problem with competition as a general explanation for creativity is that it usually drives towards everything converging to the best. Selection is not really a creative force: It focuses and optimizes, and ultimately restricts exploration
 
 Forces at play in evolution:
 
 - Competition doesn't actually increase interestingness, but enforces the constraint of genetic survival.
-- Genetic drift is the process by which frequency of alleles changes over time as a result of luck. If a given trait doesn’t affect an organism’s ability to survive or reproduce (for example, the color of an organism’s bones), then natural selection will not direct that trait in one way or another, and its evolution will instead drift. 
-- Exaptation is the process of co-option of an evolved ability to do something else. For example, feathers first evolved in dinosaurs, where they helped to regulate temperature. Only later did evolution exploit them as a stepping stone to flight. 
+- Genetic drift is the process by which frequency of alleles changes over time as a result of luck. If a given trait doesn’t affect an organism’s ability to survive or reproduce (for example, the color of an organism’s bones), then natural selection will not direct that trait in one way or another, and its evolution will instead drift.
+- Exaptation is the process of co-option of an evolved ability to do something else. For example, feathers first evolved in dinosaurs, where they helped to regulate temperature. Only later did evolution exploit them as a stepping stone to flight.
 - Niche finding is a way to shield an organism from competition. If an organism can make a living in a new way, then it has effectively founded its own niche. A new niche often makes founding newer niches possible, and such newer niches often lead to even newer ones.
 
 As much as I disliked [[Finite and Infinite Games]], this discussion of evolution reminds me of it a bit. The only goal of an infinite game is to keep playing.
@@ -2363,7 +2363,7 @@ In an interesting twist, even our human inventions can be considered an evolutio
 
 A key metaphor often used to explain non-objective search processes is that of crossing a lake using stepping stones in dense fog.
 
-> Because of the fog, you don’t know where either path leads. For all you know, one might lead you to a dead end while the other eventually might reach the other side of the lake. 
+> Because of the fog, you don’t know where either path leads. For all you know, one might lead you to a dead end while the other eventually might reach the other side of the lake.
 
 The dense fog is a great metaphor for [[Bounded rationality]]. The stepping stones are a good metaphor for the idea of the [[Adjacent possible]]. Each stepping stone must also be stable to support your weight as you cross, which is a great metaphor for [[Stable intermediate forms]].
 
@@ -2373,7 +2373,7 @@ The authors make sweeping claims like the following:
 
 > Almost no prerequisite to any major invention was invented with that invention in mind.
 
-[[Profiles of the Future]] makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen. 
+[[Profiles of the Future]] makes a distinction between expected and unexpected inventions. This book's framework applies most clearly to unexpected inventions (eg. nuclear energy). These unexpected inventions are shrouded by fog. They are too many stepping stones away to be seen.
 
 Expected inventions (eg. flying machines) fall less neatly into this metaphor. They are like hills above the fog, but you can't quite figure out the path to get there. On the other hand, once you get close enough to that hill, something that was completely out of reach becomes attainable.
 
@@ -2402,7 +2402,7 @@ They built a walking robot simulator and compared optimization to open-ended sea
 
 They built a maze solver which would take considerably longer to solve mazes that were deceptive, meaning that they had deliberate dead-ends.
 
-Images in [Picbreeder](http://picbreeder.org/) are generated from a DNA-like code which can *mutate* to create a different but related images. Following the evolution analogy, visitors to the website can vote on images as a form of *selection*. 
+Images in [Picbreeder](http://picbreeder.org/) are generated from a DNA-like code which can *mutate* to create a different but related images. Following the evolution analogy, visitors to the website can vote on images as a form of *selection*.
 
 I did something similar with [[Evogami]], but with a much simpler mapping from DNA to object.
 
@@ -2422,7 +2422,7 @@ By viewing evolution as an open-ended search process, you end up with complexity
 
 > In a sense, over eons our bodies have become a kind of encyclopedia of facts about the universe in which they exist. Eyes represent the presence of light in the universe. Ears signify mechanical vibration. Legs are reflections of gravity, and lungs of oxygen.
 
-This is suspicious. Most organs in the body are pretty mysterious from this perspective. 
+This is suspicious. Most organs in the body are pretty mysterious from this perspective.
 
 A lot of this book rails against [[Perils of optimization]] and warns about maximizing meaningless metrics, along the lines of the [[McNamara Fallacy - choose meaningful metrics]] and the infamous cobra breeding story associated with [[Goodhart's law - indicators will be gamed]]. This reminds me a lot of Illich and the [[Two Watersheds - too much institutionalization]] discussion.
 
@@ -2450,11 +2450,11 @@ The Roam cult sprang out of a practice called Zettelkasten. I refuse to join the
 
 **Integrate seemingly unrelated sources**: This is especially powerful as a way to integrate learnings from multiple sources into one place. "When we turn to the slip-box, its inner connectedness will not just provide us with isolated facts, but with lines of developed thoughts." Read with an eye towards possible connections in the slip-box.
 
-**Same format, same place**: Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later. No underlined sentence will ever present itself when you need it in the development of an argument. Write brief accounts on the main ideas of a text instead of collecting quotes. 
+**Same format, same place**: Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later. No underlined sentence will ever present itself when you need it in the development of an argument. Write brief accounts on the main ideas of a text instead of collecting quotes.
 
 **Keep notes short**: By restricting ourselves to one format, we also restrict ourselves to just one idea per note and force ourselves to be as precise and brief as possible. A good rule of thumb for working with the program is: Each note should fit onto the screen and there should be no need of scrolling. This will also allow for more ready interconnections.
 
-**Avoid premature linearization**: ‘Have the courage to use your own understanding,’ is therefore the motto of the Enlightenment.” Prearranging information, sorting it into modules, categories and themes achieves the opposite of what teachers intend to do. The linear process promoted by most study guides, which insanely starts with the decision on the hypothesis or the topic to write about, is a sure-fire way to let confirmation bias run rampant. 
+**Avoid premature linearization**: ‘Have the courage to use your own understanding,’ is therefore the motto of the Enlightenment.” Prearranging information, sorting it into modules, categories and themes achieves the opposite of what teachers intend to do. The linear process promoted by most study guides, which insanely starts with the decision on the hypothesis or the topic to write about, is a sure-fire way to let confirmation bias run rampant.
 
 **Feedback loops emerge**: The addition of one note leads to a correction, a complementation or an improvement of old ideas. The great new idea you are about to add to the slip-box turns out to be already in there. Even worse, chances are this idea wasn’t even yours, but someone else’s. It is such an important skill to see differences between seemingly similar concepts, or connections between seemingly different ideas.
 
@@ -2491,9 +2491,9 @@ cover: /assets/book-covers/thinking-in-systems.jpg
 
 Thanks to a book club at work, I finally read this legendary book.
 
-A system is a set of entities interconnected to produce behavior over time in response to external events. For example, a slinky's behavior lies within the slinky itself. 
+A system is a set of entities interconnected to produce behavior over time in response to external events. For example, a slinky's behavior lies within the slinky itself.
 
-Modernist thinking tends to like simple causal connections. However reality is complex. Systems thinking is an interesting and valuable lens that complements high modernism. 
+Modernist thinking tends to like simple causal connections. However reality is complex. Systems thinking is an interesting and valuable lens that complements high modernism.
 
 One way of looking at systems thinking is as a formalization of folk wisdom:
 
@@ -2514,7 +2514,7 @@ Systems have:
 System components in order of importance:
 
 - purpose / function
-- interconnections 
+- interconnections
 - elements (often interchangeable, eg. employees)
 
 Systems are composed of stocks and of flows. Stocks are the amount of a thing. Flows are the increases or decreases of said thing. Think of a bathtub with a faucet and a drain. The water in the bathtub is the stock. The faucet is the flow of water in. The drain is the flow of water out. Flows can change quickly: you can shut on and off the faucet, plug the drain. Stocks change slowly and act as buffers: even if you open the drain completely, it will still take a minute for the water to vanish.
@@ -2537,7 +2537,7 @@ Stock: temperature.
 ## One amplifying and one balancing loop (eg. Population Growth)
 
 Stock: population.
-1. Amplifying: the more people there are, the more people are born. 
+1. Amplifying: the more people there are, the more people are born.
 2. Balancing: people don't live forever. There's a death rate.
 
 Ultimate behavior will depend on which of the two dominates. If reinforcing dominates, end up with exponential growth. Many other examples like this, such as capital growth, where the more capital you have, the more you can make, but there's also depreciation costs.
@@ -2551,9 +2551,9 @@ Stock 1: Capital.
 2. Balancing: the more coal mines, the more upkeep for these mines.
 
 Stock 2: Coal.
-1. Balancing: as the coal mine depletes, it becomes harder to extract the last bits of coal. 
+1. Balancing: as the coal mine depletes, it becomes harder to extract the last bits of coal.
 
-## Renewable stock backed by renewable resource (eg. Fishing) 
+## Renewable stock backed by renewable resource (eg. Fishing)
 
 Stock 1: Capital.
 1. Amplifying: the more capital, the more ability to build coal mines.
@@ -2561,20 +2561,20 @@ Stock 1: Capital.
 
 Stock 2: Fish.
 1. Amplifying: the more fish there are, the more fish are born.
-2. Balancing: as the population dwindles, it becomes harder to find the last fish. 
+2. Balancing: as the population dwindles, it becomes harder to find the last fish.
 
 
 # Great insights
 
-**Constrained by stocks vs. flows**: non-renewable resources are constrained by stocks. Renewable resources are constrained by flows. 
+**Constrained by stocks vs. flows**: non-renewable resources are constrained by stocks. Renewable resources are constrained by flows.
 
-**Stocks act as buffers**: rivers often flood because flow >> stock. Lakes rarely do because flow << stock. 
+**Stocks act as buffers**: rivers often flood because flow >> stock. Lakes rarely do because flow << stock.
 
 **Delays really matter** in reality many of these loops are driven by information that is delayed. This results in oscillations.
 
-**Stable intermediate forms**: another important concept.  Hierarchies mean that there are independent sub-systems which are independently stable. This enables a rise in complexity. 
+**Stable intermediate forms**: another important concept.  Hierarchies mean that there are independent sub-systems which are independently stable. This enables a rise in complexity.
 
-**Limiting factors** are an intuitive but important idea. A systems is affected by the stock that is in least supply. As a system grows, the most limiting stock may change. 
+**Limiting factors** are an intuitive but important idea. A systems is affected by the stock that is in least supply. As a system grows, the most limiting stock may change.
 
 **Resilience involves many balancing loops**, most of which are inactive most of the time. Example: under normal circumstances, you don't sweat or shiver. But without these abilities you would be far less resilient.
 
@@ -2584,7 +2584,7 @@ Stock 2: Fish.
 
 Firstly, what a great collection of insights! But to call it a coherent book is a bit generous. I feel like it's not well structured, and found myself picking out nuggets rather than being swept away by a coherent narrative.
 
-It’s hard to understand as an audio book. Need visual and ideally interactive diagrams. 
+It’s hard to understand as an audio book. Need visual and ideally interactive diagrams.
 
 Systems thinking is a great technique for CEOs, businessmen, macroeconomists. It's less clear how a pleb like me might apply it. But it's still interesting!
 
@@ -2596,33 +2596,33 @@ It would be worthwhile to contrast the causal diagrams of the sort Judea Pearl c
 
 Systems have common failure modes. Here are some of the ones I found novel. The remedies are often easier said than done.
 
-**Policy resistance**. many actors are all invested in an equilibrium involving one stock. Each pulls the supply up and down to their own benefit. Everyone exerts a lot of effort but achieves little. 
-Remedy: let go. Find another thing all parties can agree on. 
+**Policy resistance**. many actors are all invested in an equilibrium involving one stock. Each pulls the supply up and down to their own benefit. Everyone exerts a lot of effort but achieves little.
+Remedy: let go. Find another thing all parties can agree on.
 
-**Tragedy of the commons**, a common resource or sink is overused by each user, leading to ultimate ruin because of erosion effects. The term was coined much later than I thought: in 1968. 
-Remedy: either apply pressure appealing to morality/decency/religion, split and privatize the commons, or impose penalties for overuse.  
+**Tragedy of the commons**, a common resource or sink is overused by each user, leading to ultimate ruin because of erosion effects. The term was coined much later than I thought: in 1968.
+Remedy: either apply pressure appealing to morality/decency/religion, split and privatize the commons, or impose penalties for overuse.
 
 **Drift to low performance**, a gradual degradation in quality because of a moving performance goal. If quality is under the bar, the bar is set lower, often excused by sentiment like "it's not that much worse than last year", etc.
 Remedy: Keep performance standards absolute. Even better, let standards be enhanced by the best actual performances instead of being discouraged by the worst. Invert the pattern and set up a drift toward high performance.
 
 **Escalation**. Cycles of violence in conflicts between countries. Negative political ad campaigns that render both candidates unpalatable.
-Remedy: disarmament. This can be unilateral or mutually agreed upon, but the latter requires mediation. 
+Remedy: disarmament. This can be unilateral or mutually agreed upon, but the latter requires mediation.
 
-**Success to the successful** is a common situation. The more money you have, the more of it you can make through investments, etc. 
+**Success to the successful** is a common situation. The more money you have, the more of it you can make through investments, etc.
 Remedy: Jubilee? Potlatch? Antitrust laws? Estate taxes?
 
-**Dependence**, including personal addiction, but many other things. Societal dependence on institutions like healthcare, etc. 
+**Dependence**, including personal addiction, but many other things. Societal dependence on institutions like healthcare, etc.
 Remedy: focus on long-term restructuring rather than short-term relief.
 
 **Rule beating**. Example: spending all available budget just to ensure that next years isn’t reduced. Example: only slowing down if there's a police car nearby.
 Remedy: redesign the rules!
 
 **Wrong goal**, a common situation where a system pursues a goal that does not actually reflect desired outcomes. Reminds a lot of [[McNamara Fallacy]]
-Remedy: 
+Remedy:
 
-# Leverage points 
+# Leverage points
 
-Most attributes of the system are effectively immutable. Structure of the flows is often physical. Delays are often unavoidable. Information flows in feedback systems are where most leverage lies.  
+Most attributes of the system are effectively immutable. Structure of the flows is often physical. Delays are often unavoidable. Information flows in feedback systems are where most leverage lies.
 
 Unbridled growth with an amplifying loop is rare because such systems quickly lead to either:
 - Exhaustion of resources (eg. No more bodies to infect)
@@ -2634,9 +2634,9 @@ Unbridled growth with an amplifying loop is rare because such systems quickly le
 
 **Make invisible information visible**. During the oil embargo in 1970, the Dutch began to pay attention to power consumption. Some houses mysteriously seemed to use 30% less power than others. The difference was in location of the power meter. Those with low power usage had meter in the lobby. Others had the meter in the basement.
 
-**Re-write the rules**. Interventions into the system's rules are very effective. This explains why lobbyists are powerful. 
+**Re-write the rules**. Interventions into the system's rules are very effective. This explains why lobbyists are powerful.
 
-**Encourage self organization**: allowing a system to self organize is extremely powerful. But this may lead to unknown conclusions, so is not well loved by those in power. 
+**Encourage self organization**: allowing a system to self organize is extremely powerful. But this may lead to unknown conclusions, so is not well loved by those in power.
 
 **Goals matter**. What is the ultimate goal of the system? What’s the goal of goog? What’s the priority order of many competing goals? Sometimes a leader can do this. Hitler profoundly changed the goals of Germany in the 1930s. Reagan changed the American ethos from “Ask not what your country can do for you – ask what you can do for your country.” to “Government is not the solution to our problem, government is the problem.”
 
@@ -2653,13 +2653,13 @@ posted: January 27, 2021
 rating: yes
 cover: /assets/book-covers/sid-meier-memoir.jpg
 
-MJ recommended I pick up this book. I regret nothing. 
+MJ recommended I pick up this book. I regret nothing.
 
 This was a fun look into game development history, narrated by a venerable insider. I remember spending days with AK and MN playing Civ 1 in the mid-90s, and have played every game in the series since.
 
 Billed as a memoir, this book focuses on anecdotes about the games and the game industry, with Sid Meier's personal life taking the backseat. I especially enjoyed the [Nuclear Gandhi](https://en.wikipedia.org/wiki/Nuclear_Gandhi) story. It's such a colorful intersection of a funny premise, computer science, and a hoax.
 
-Sid Meier's taste for non-violent educational simulators is especially compelling, and reading about these games made me really miss them. As a kid, I think Civ sparked my interest in history and war and complex systems. But I was mainly just having a lot of fun! These days playing even one game of Civ is a heavy lift, but maybe it's worth giving Civ Revolutions a look? 
+Sid Meier's taste for non-violent educational simulators is especially compelling, and reading about these games made me really miss them. As a kid, I think Civ sparked my interest in history and war and complex systems. But I was mainly just having a lot of fun! These days playing even one game of Civ is a heavy lift, but maybe it's worth giving Civ Revolutions a look?
 
 What I loved most about this book was how excited I became about building games again. The intersection of games and education is extremely tricky to pull off, and I would argue that edutainment as a genre has largely failed. The holy grail is to build something that plays like a game, but whets your appetite about something insightful. This is in some sense the opposite of what explorable explanations do, which are often more interactive visualizations than games.
 
@@ -2667,7 +2667,7 @@ What I loved most about this book was how excited I became about building games 
 
 One thing the book lacked was specific learnings and insights into game development. The chapter on the failed dinosaur game came closest, but I would have loved a whole book on this. Here are some final notes:
 
-**Follow your interests**: Sid Meier's games have been driven by his personal interests, at least in retrospect. 
+**Follow your interests**: Sid Meier's games have been driven by his personal interests, at least in retrospect.
 
 **People hate randomness**: To placate people's busted sense of randomness and overdeveloped sense of fairness, Civ Revolutions had to implement some interesting decisions: any 3:1 battle in favor of human became a guaranteed win. Too many randomly bad outcomes in a row were mitigated.
 
