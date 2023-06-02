@@ -4,7 +4,7 @@ class: split
 type: book
 
 
-Bowling Alone by Robert Putnam 
+Bowling Alone by Robert Putnam
 ===
 posted: November 29, 2018
 rating: yes
@@ -19,7 +19,7 @@ after World War II to its zenith in about 1960, and has been falling ever since.
 (The book was written in 1999, but my suspicion is that downward slide has
 continued into the oughts. It would be interesting to see an update.) Putnam
 looks at a variety of indicators from a variety of surveys, mostly the General
-Social Survey (GSS) and the DDB Needham Life Style archive. 
+Social Survey (GSS) and the DDB Needham Life Style archive.
 
 Bowling Alone is long, dry, and somewhat repetitive. It's broken up into several
 sections: 1) what's going on, 2) why is it happening, 3) why is it a bad thing,
@@ -58,7 +58,7 @@ As Putnam diagnoses the problem, some striking trends stuck with me:
   players but more viewers. In music, fewer players, more listeners.
 - Membership in organizations increasingly is a cheap way to indicate political
   preference without dedicating substantial time or money to the cause. It's
-  also not social: most don't engage in person or discuss it with friends. 
+  also not social: most don't engage in person or discuss it with friends.
 - Depressing generational shift in what constitutes a good life and what
   community means to people. More people want more money, and fewer care about
   having a job that contributes to society. Patriotism wanes, materialism waxes.
@@ -101,7 +101,7 @@ trends he's observed. But he outlines a few that seem to be the strongest:
 1. Suburbs, more car dependence, more time in cars, more cars per household.
    Instead of living near work, restaurants, and shops, each facet of life is in
    a different suburb. At the time of writing, the average american spent 72
-   minutes a day in cars, 70% of trips done alone. 
+   minutes a day in cars, 70% of trips done alone.
 1. Much of America's increasing free time has been channeled into watching TV.
    Average American watches 3 hours a day. TV watching correlates strongly with
    civic disengagement, especially non news watching, and channel surfing. (~25%
@@ -183,7 +183,7 @@ predictions are still downright comical. America’s increase in productivity is
 going to reduce inequality. The work week is on the brink of shortening to
 twenty four hours. Cool stories abound.
 
-This was not a great read by any stretch. However, it is mercifully short. 
+This was not a great read by any stretch. However, it is mercifully short.
 Safely skip the first half of the book, which excitedly enumerates unexciting
 innovations of the day. That said, if you’re looking for a time capsule into the
 technocratic mind of the 1950s, George Soule might just be the retro-futurist
@@ -337,7 +337,7 @@ By 1910, Sun Yat-sen's relative was inaugurated as prime minister of the republi
 conservative monarchist who declared himself Emperor. Yuan decided to
 assassinate the PM and bribed the rest of the GMD to quit. Sun Yat-sen was
 exiled to Japan, where he married again (interestingly, without divorcing his
-existing wife). Meanwhile Yuan Sha Kai attempted to return China to 
+existing wife). Meanwhile Yuan Sha Kai attempted to return China to
 traditional, Confucian values. He extended presidential terms to 10 years and
 allowed him to name successors.
 
@@ -635,10 +635,10 @@ coalition of moderate CCP members discovered this and put Madame Mao and her
 henchmen under arrest.  They were called the Gang of Four. Meanwhile Hua
 Guoattempted to ride on Mao's coattails and milk Mao's high praise for
 everything it could offer. Still, he quietly began undoing leftist trends and
-modernizing the country: 
+modernizing the country:
 
 - Admissions into college were no longer political but based on
-  standardized tests. 
+  standardized tests.
 - Once called revisionist by Mao, he introduced incentive-based wage systems to
   reward performance.
 - He opened up to china's intellectuals. Called for spirited discussions.
@@ -674,7 +674,7 @@ ideas, and sticking to them only if they work.
 
 Although he departed significantly from Mao's doctrine, Deng was very
 careful to not fully blame Mao for all of the shortcomings of the previous
-decades. 
+decades.
 
 
 ### The late 80s
@@ -706,11 +706,11 @@ warnings about a leftist threat that might undo it all. In a tense few weeks, as
 his health was ailing and the bureaucrats were vying for power, the tour wasn't
 even publicized by the state run media. Eventually Deng emerged victorious and
 the politburo officially declared that the left posed a higher threat to
-China than did the right. 
+China than did the right.
 
 Deng successfully divorced markets from capitalism, and encouraged economic
 reform while slowing political reform, in a gamble where he bet that Chinese
-people cared more about their material wealth than their political freedom. 
+people cared more about their material wealth than their political freedom.
 
 Meanwhile during the "roaring 90s", GDP doubled, foreign investment increased
 7x, coastal cities and stock market exchanges flourished. Meanwhile the farmers
@@ -727,8 +727,8 @@ Xiaoping died in 1996, aged 92 from Parkinson's.
 
 With the economic changes came an increase in Chinese nationalism. Things seem
 to escalate with the US but the two countries were able to maintain good
-relations. In terms of greater China, Hong Kong transitioned peacefully 
-in 1997 as per the British contract dating back to the Opium wars. 
+relations. In terms of greater China, Hong Kong transitioned peacefully
+in 1997 as per the British contract dating back to the Opium wars.
 Taiwan is a different, more complicated story. Chiang Kai-shek's son took over
 for him when he died, and continued center-right politics. More recently, a rift
 has formed between ethnic Chinese who fled the communists from the mainland and
@@ -919,7 +919,7 @@ civilizational conflicts:
   prince tried to resist the Tatar-Mongol hordes on his own, and all lost in a
   typical example of the tragedy of the commons. In south Italy, primacy of
   family unit caused people to distrust their neighbour, preventing large scale
-  social collaboration and economic prosperity. 
+  social collaboration and economic prosperity.
 - Religion/race is a huge unifying force and common in meta-ethnic conflict. For
   example Christians vs. Pagans in the Russian conquest of Siberia, Christians
   vs. Muslims during the Crusades, in Iberia and in the new world. This was also
@@ -972,7 +972,7 @@ civilizational conflicts:
   member of noble lineage, and it is easy to conclude that generally Roman
   aristocrats led the commoners in battle, and were the first to die."
 - Unlike Athens and Sparta, Rome did a good job of integrating its subjects into
-  the empire. 
+  the empire.
 
 ## Muslim world
 
@@ -1094,7 +1094,7 @@ I enjoyed the development of some of the characters, especially Ye Wenjie and
 Big Shi. She was a compelling hero and a complex character. Her early life was
 well written, and again the slow revelation of the mysterious aspects of her
 backstory was compelling to me. I think it also helped that my audio book's
-reader did a good job modulating voices and 
+reader did a good job modulating voices and
 
 I really liked that I had to check some of the references made in the book to
 see if they were fictional or not. Turns out Silent Spring and Rachel Carson are
@@ -1366,7 +1366,7 @@ theme in this sad story. Robespierre seems to be a tragic hero.  Initially
 opposed to the death penalty, he slipped towards the terror one step at a time,
 first arguing in favor of the death of Louis XVI, next killing others that were
 seen as opponents to the revolution. This is the sort of thing that happens when
-means and ends get mixed up. 
+means and ends get mixed up.
 
 There was also a strong proselytizing, international aspect to the revolution,
 foreshadowing the Comintern.  In the grand scheme, it was a war of people
@@ -1384,7 +1384,7 @@ As an aside, I realized that "privateer", "mercenary", and the more modern
 Here's a resolution to some confusing terminology. In France, "federation"
 refers to multiple states that have equal political rights. In the US, the same
 word has the opposite meaning: a strong central government; US "confederation" =
-French "federation". 
+French "federation".
 
 
 ## Second half: Napoleon
@@ -1394,7 +1394,7 @@ too tired to resist yet another upheval, exhausted by the infighting of the
 revolution, terror, and frustrated by a newly instated Directorate system, whose
 weak executive branch couldn't rule effectively. Upon seizing power, Napoleon
 drafted an illiberal constitution that greatly increased executive power. This
-was the fourth French constitution of the decade of the 1790s. 
+was the fourth French constitution of the decade of the 1790s.
 
 At his core, Napoleon was a pragmatist. In 1806, Napoleon turned down the
 revolutionary calendar. He distanced itself from the revolutionary ideals in
@@ -1414,7 +1414,7 @@ exile or death.
 Napoleon's strategy seems to have been driven by several modus operandi:
 
 - Nepotism: he placed his many brothers into positions of power, used his
-  siblings for strategic marriages with European royalty. 
+  siblings for strategic marriages with European royalty.
 - Military autonomy: he restructured the Grand Armee into separately managed
   corps to be more autonomous.
 - Expansionary conscription: he used the newly conquered peoples to expand the
@@ -1454,7 +1454,7 @@ spanned from Spain to Poland.
   brother Joseph there. He was overly confident that the Spanish would be on
   the French side, underestimated their conservatism and their ability to
   resist. 200K Grand Armee soldiers were stationed there in order to try to keep
-  the peace. The term guerilla (little war) comes from this period. 
+  the peace. The term guerilla (little war) comes from this period.
 - Russia: by 1812 Napoleon needed another great victory to maintain his
   legitimacy as emperor. Once improving Russian relations had soured since
   Alexander I felt threatened by French proximity in Warsaw. Napoleon marched
@@ -1462,7 +1462,7 @@ spanned from Spain to Poland.
   he'd lost half due to disease, extreme heat and cold. The day after he took
   Moscow it was burned down by retreating Russian forces. Napoleon was
   eventually forced to retreat and returned home with one fifth the men.
-  
+
 Weakened after the Russian campaign, Napoleon's forces were crushed decisively
 by a joint force of Austrians, Russians, and Prussians. Louis XVIII, a cousin of
 Louis XVI, returned from exile and was placed onto the throne by the victorious
@@ -1478,7 +1478,7 @@ the tyrannical Louis XVIII. Upon his return, Napoleon amended the constitution
 he drafted with limits to executive power, making France more of a
 constitutional Monarchy. Of course, his foreign opponents were unhappy with his
 return and decided to stop him once and for all. Napoleon had to prove himself
-once more with a decisive battle at Waterloo. 
+once more with a decisive battle at Waterloo.
 
 Defeated, Bonaparte was exiled to St. Helena where he spent his last 6 years.
 Even after his death, Napoleon remained incredibly popular and became more and
@@ -1504,7 +1504,7 @@ rating: yes
 
 Every society operates on very deeply rooted assumptions that are worth
 understanding. Watts thinks we can seek wisdom from Chinese and Indian culture
-to better understand our own. 
+to better understand our own.
 
 Watts is for a holistic view of self without boundaries. We humans have a clear
 distinction between the natural (eg. our bodies) and artificial (eg. our houses).
@@ -1515,12 +1515,12 @@ symmetry. Every coin has heads and tails, every inside has an outside. Waves,
 the fundamental unit of animal perception is composed from crests and troughs.
 You cannot have one without the other. His ultimate aim here is to try to
 eliminate the illusion of self. In this view, there’s no barrier between
-yourself and the rest, just a unified whole. 
+yourself and the rest, just a unified whole.
 
 Watts is a big fan of gerunds, and does a good job of taking an outside view:
 
 > The Apple tree “apples”, meaning it produces apples, and in the same way earth
-“peoples”, producing intelligent humans. 
+“peoples”, producing intelligent humans.
 
 He breaks down various kinds of “why?” Which reminds me of Alex’s post that
 in Russian there are at least two words for why: зачем (instrumental: what is it
@@ -1534,7 +1534,7 @@ be in itself, not for the sake of something else. Great example of Bach and
 baroque composers that are satisfying as is without having explicit meaning.
 Watts calls for us to embrace nonsense, pointing at Lewis Carroll’s whimsical
 “twas brillig...”, babbling choruses in English folk songs (eg. The Corries) and
-bopping to Jazz. 
+bopping to Jazz.
 
 He quotes G. K. Chesterton quite a bit, and I enjoyed the quotes he selected:
 
@@ -1555,32 +1555,32 @@ posted: July 20, 2018
 rating: no
 
 A sad story about Theranos and it’s leadership, in large part Elisabeth Holmes,
-a tragic hero with a fatal flaw: unbridled ambition. 
+a tragic hero with a fatal flaw: unbridled ambition.
 
 The rest follows: unreasonably high confidence, sweeping major problems under
 the rug, and cargo cult worship dedicated to successful leaders. Which includes
 setting super high expectations for employees, fostering internal competition,
-demanding absolute loyalty and punishing any whiffs of dissent. 
+demanding absolute loyalty and punishing any whiffs of dissent.
 
 What was most surprising to me were the many ethical breaches exhibited by
 Holmes herself: mixing business and romance, hiring exclusively political
 celebrities to your board, and showing almost no empathy for employees, while
-pursuing ruthless legal tactics in personal vendettas. 
+pursuing ruthless legal tactics in personal vendettas.
 
 It’s hard to say how fringe the Theranos story is. I’ve seen some parts in other
 Silicon Valley contexts, especially Steve Jobs worship, unreasonable levels of
-confidence in executives. And incredible secrecy for questionable reasons. 
+confidence in executives. And incredible secrecy for questionable reasons.
 
 But some parts of the Theranos story seem more unique, especially given their
 specialized domain of health care where I think many startups tread lightly
 because of the regulatory environment. Uber may be a good analogy and
 counterpoint here, playing hard and fast with regulation and actually
 succeeding. The stakes in health care are understandably higher and its probably
-a good thing Theranos was ultimately stopped. 
+a good thing Theranos was ultimately stopped.
 
 The Theranos story may in part be a cautionary tale of digital culture colliding
 with physical culture. But it is not helped by a morally compromised leader who
-believes that the ends justify the means. 
+believes that the ends justify the means.
 
 
 Darkness at Noon by Arthur Koestler (audio)
@@ -1689,7 +1689,7 @@ world. Kaballah is indeed the fundamental way that the universe works. Some
 people continue to irrationally cling to their old beliefs (Science, Pluralism)
 despite overwhelming evidence to the contrary. Earth is the center of the
 Universe, and when Apollo 11 launched, it crashed into the firmament and left a
-gaping hole in it. 
+gaping hole in it.
 
 Alexander's novel excels at world building. The back story to how the world came
 to be is fascinating. Unsong is full of gullible archangels and clever
@@ -1704,7 +1704,7 @@ in stark contrast with Ted Chiang's works, which are great conceptually and
 share some of the same fascinating themes (Tower of Babel, Hell is the absence
 of God, the one about golems). The difference is that Chiang’s stories are well
 crafted and come together as coherent wholes. They are emotionally driven,
-memorable, well paced, and appropriate in length. 
+memorable, well paced, and appropriate in length.
 
 I got through half of the book over the last few months, in small chunks because
 Eliana is so small, often having to put the book down out of annoyance. Today I
@@ -1755,7 +1755,7 @@ computational powers. The model more closely reflects human ability:
 3. A capability for acquiring facts about the environment, the ability to draw
    inferences from facts.
 
-Intuitive rationality recognizes that thought is often affected by emotion, 
+Intuitive rationality recognizes that thought is often affected by emotion,
 which can usefully "distract you from your current focus of thought, and to call
 your attention to something else that presumably needs attention right now.".
 There is no contradiction between SEU/Bounded models and intuitive rationality.
@@ -1788,18 +1788,18 @@ rating: yes
 
 I don’t remember why I decided to read this book. The political theory it
 describes is loved by both Gore and Bannon. This surprisingly heterogeneous
-recommendation reignited my interest when I saw it on my reading list. 
+recommendation reignited my interest when I saw it on my reading list.
 
 The basic idea is this: history is cyclical with the unit of interest being
 80-90 years. The authors call it a "saeculum", also known as a natural century,
 or a long human life. Each saeculum has four stages with the last one climaxing
 into a crisis. Each stage is associated with a general mood, and last roughly
-20-22 years each. 
+20-22 years each.
 
-1. High - occurs after a crisis, institutions are strong, individuals weak. 
-2. Awakening - institutions are attacked in the name of personal autonomy. 
-3. Unraveling - institutions are weak, individuals strong. 
-4. Crisis - often involves destruction, sometimes war or revolution. 
+1. High - occurs after a crisis, institutions are strong, individuals weak.
+2. Awakening - institutions are attacked in the name of personal autonomy.
+3. Unraveling - institutions are weak, individuals strong.
+4. Crisis - often involves destruction, sometimes war or revolution.
 
 Each stage brings forth a new generation with a distinct personality type which
 evolves the generational lifespan.
@@ -1815,13 +1815,13 @@ evolves the generational lifespan.
 4. Artists (eg. Gen Z, Silent Generation) enter childhood during a Crisis, a
    time when great dangers cut down social and political complexity in favor of
    public consensus, aggressive institutions, and an ethic of personal
-   sacrifice. 
+   sacrifice.
 
 The authors view [history through this lens][turnings], for example citing
 previous great crises in US history:
 
 - 1774-94: Era of the American Revolution and the Constitution
-- 1860-68: the Civil War and its immediate aftermath 
+- 1860-68: the Civil War and its immediate aftermath
 - 1929-45: and the Depression and the Second World War
 
 [turnings]: https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory#Timing_of_generations_and_turnings
@@ -1838,14 +1838,14 @@ turning: 9/11 in 2001, the recession of 2008. Trump's election in 2016 can also
 fit into their framework. Other things are way off. The way the media represents
 millennials is quite far from heroic (at least so far). Or like the way that
 millennial’s are supposed to be like GIs, community focused and socially
-cohesive. The increased communitarianism in the 4th turning has not panned out. 
+cohesive. The increased communitarianism in the 4th turning has not panned out.
 
 A summary from Howe from 2017 retroactively glosses over the parts that don’t
 fit, and focuses on those that do: <https://m.youtube.com/watch?v=8Yfb2zQjKWE>.
 
 Overall, the theory is unfalsifiable and overly general. Specific claims in the
 book are often unsubstantiated. However I found it an entertaining read, and
-potentially a fruitful “fake framework”. 
+potentially a fruitful “fake framework”.
 
 
 The Coffee-House: A Cultural History
@@ -1975,7 +1975,7 @@ coffee bar at the corner of Vine and Walnut in Berkeley. As the home of the Beat
 poets and student protest, cafés and coffee-shops played an important part in
 nurturing San Francisco’s cultural revolution in the 1960s. In 1970 three
 college graduates who shared an enthusiasm for Peet’s coffee banded together to
-open a coffee shop in Pike Place Market in Seattle, doing their own roasting. 
+open a coffee shop in Pike Place Market in Seattle, doing their own roasting.
 One of their number, Jerry Baldwin, came up with ‘Starbuck’, a name with no
 special meaning to them other than a pleasing sound and look. By 2003, Starbucks
 was more than twenty times larger than its nearest rival in the American market
@@ -2003,10 +2003,10 @@ In the sanitised, lactified form of the branded chain, the coffee-house is no
 longer oppositional, rebellious and dissident. This is their profit, but our
 loss.
 
-> Yet these will o’er their Jewish Liquor  
-About Religion Jar and Bicker;  
-And rave till grown as Piping Hot,  
-As the dull Grout o’er which they sot.  
+> Yet these will o’er their Jewish Liquor
+About Religion Jar and Bicker;
+And rave till grown as Piping Hot,
+As the dull Grout o’er which they sot.
 &mdash; Vulgus Britannicus: or The British Hudibras
 
 
@@ -2048,9 +2048,9 @@ decisions on whether or not to go to war, are shielded from their actions. He
 makes some interesting arguments:
 
 - Big companies want employees to be family men. Because they have more
-  dependents and thus debt. So they are less likely to leave. 
+  dependents and thus debt. So they are less likely to leave.
 - Cato’s injunction: it's better to have someone ask why you don’t have a statue
-  rather than why you do. 
+  rather than why you do.
 - VR can never be compelling since there's no downside risk to you. You have no
   skin in the game. (This might be a leap I'm taking).
 - The Silver Rule - negative version of the golden rule: don’t do to others what
@@ -2082,10 +2082,10 @@ makes some interesting arguments:
 - Rationality of a belief makes no sense. The only rationality that makes sense,
   is that of an action, any only from the standpoint of survival. That which
   helps you survive is rational. From this perspective, whether or not you can
-  explain something has no bearing on whether it’s rational or not. 
+  explain something has no bearing on whether it’s rational or not.
 - Good reminder: correlation between deaths matters. Even though Ebola kills
   fewer people than bathtubs, it’s still a bigger risk because it's an
-  infectuous disease, and so has huge downside. 
+  infectuous disease, and so has huge downside.
 - Loss aversion isn't an irrational bias. It's rational to be fearful of ruin.
 - Summary statistics are often misleading. “Never cross a river if it is on
   average 4ft deep”.
@@ -2105,7 +2105,7 @@ be ignored or made fun of:
 - He insults people as "not even weightlifters". I think this is a reference to
   his obsession with deadlifting.
 - Taleb uses “domestication" as an insult. But the flip side is that this is the
-  basis of a functional social system. 
+  basis of a functional social system.
 - He claims that employees are just like slaves. But employment is at-will on
   both sides, and the trend today is away from "lifer"-dom.
 - He disparages academics because "talk is cheap", yet writes many books with
@@ -2125,9 +2125,9 @@ names that Taleb mentions instead:
 - Herb Simon - bounded rationality: people are fundamentally limited. (I've been
   meaning to read him since being a CMU student.)
 - Gerd Gigerenzer - many things appear illogical but are actually done for good
-  reasons. 
+  reasons.
 - Ken Binmore - the word “rational” is ill defined. It’s all about revealed
-  preferences. 
+  preferences.
 
 
 
@@ -2139,7 +2139,7 @@ rating: yes
 An impressively comprehensive series of 36 half-hour [lectures on political
 philosophy][link]. I wanted a political philosophy survey to better understand
 some of the political articles I've been reading in Foreign Affairs, as well as
-have a better sense of context for the current moment. 
+have a better sense of context for the current moment.
 
 [link]: https://www.audible.com/pd/Nonfiction/The-Modern-Political-Tradition-Hobbes-to-Habermas-Audiobook/B00K58X53Q
 
@@ -2492,7 +2492,7 @@ brief notes on each philosopher that was mentioned in the course.
   dominate. Life is modular and each part follows different rules. So pluralism
   is key. In the West this loss of identity was OK because of nationalism. Most
   countries are no longer Ideocracies (single moral idea, no pluralism) with the
-  exception of those dominated by political Islam. 
+  exception of those dominated by political Islam.
 - Mahatma Gandhi/Martin Luther King - forceful non violent resistance but
   inspired by Tolstoy. (Non-violent resistance)
 - William T. Sherman - open to war as needed. "War is hell". (War Realism)
@@ -2524,9 +2524,9 @@ rating: yes
 I listened to a podcast with Geoffrey West and thought his ideas were compelling
 enough that I should delve deeper. "Scale" covers a lot of ground, but the main
 focus is what West calls [allometric][allometry] (as opposed to isometric)
-scaling laws, which means a nonlinear relationship. 
+scaling laws, which means a nonlinear relationship.
 
-True to his physicist roots, West looks for a unified theory of everything. 
+True to his physicist roots, West looks for a unified theory of everything.
 According to him, biologists in general lack an appreciation for theory. And in
 general biology has us “drowning in a sea of data and thirsting for some
 theoretical framework with which to understand it”. The same can be said about
@@ -2536,7 +2536,7 @@ cities, economies, and companies.
 West invokes colorful characters like [Isambard Kingdom Brunel][brunel] (what a
 name!) and his ship building adventures. His insight was that scaling law favor
 long ships: the main slowing factor in drag is cross sectional area, but thing
-to optimize is volume. 
+to optimize is volume.
 
 One of the earliest formulations of allometric scaling is [Klieber's
 law][kleiber]. Animal metabolic rates scale as the ¾ power of the animal's
@@ -2552,7 +2552,7 @@ West poses the question: why ¼ is such an important and recurring ratio? He
 turns to network theory and fundamentals for an explaination: "these networks
 are constrained by three postulates: they are space filling, have invariant
 terminal units, and minimize the energy needed to pump fluid through the
-system." 
+system."
 
 The physics of blood flow was first understood by [Thomas Young][young], the
 same guy (polymath) most famous for his double slit experiment. Interesting is
@@ -2591,7 +2591,7 @@ definition, and so has a fractal dimension of 1 + 0.5 = 1.5. The crinkliest line
 would have a dimension close to 2, which corresponds to the fractal dimension of
 a perfectly smooth surface. The crinkliest surface would have a dimension close
 to 3, corresponding to a volume. This is fascinating since now we’re talking
-about a continuum in R^n, where n is no longer an integer! 
+about a continuum in R^n, where n is no longer an integer!
 
 *I wonder... What would fractal dimension greater than 3 look like?*
 
@@ -2612,7 +2612,7 @@ limits, the average age has been going up but the max seems to be converging at
 125. Most age related damage happens at the terminals (capillaries, mitochondria).
 These are space filling so evenly distributed throughout.  The larger the
 animal, the slower the metabolic rate and so less damage at terminals and so
-longer lifespan. 
+longer lifespan.
 
 Caloric restriction and temperature reduction are both viable ways of increasing
 lifespans but obviously have negative side effects. Also these methods yield
@@ -2625,7 +2625,7 @@ Cities also have scaling patterns associated with them. There’s an economy of
 scale of many infrastructure elements: gas station, length of roads, electrical,
 water and gas lines, all scale at `rate ~ population ^ 0.85`. At the same
 time, socioeconomic metrics scale at a super linear rate. Number of patents,
-wages, crime rates, number of restaurants, scale at `rate ~ population ^ 1.15`. 
+wages, crime rates, number of restaurants, scale at `rate ~ population ^ 1.15`.
 
 There are inherent limits to how many people you can know: 5 intimates, 15 close
 friends, 50 acquaintances, 150 familiars. This is [Dunbar’s number][dunbar],
@@ -2633,7 +2633,7 @@ which seems to be fundamental and spans across societies. Another pattern is
 [Zipf's Law][zipf] which originated for words usage which varies inversely with rank.
 Example: “the” is most frequently used at 7%, next is “of” at 3.5% (1/2), then
 “and” at 2.3% (1/3). Same non-normal distribution applies to size of cities and
-companies. 
+companies.
 
 Socioeconomic interactions in a city are the sum of interactions between people.
 If everyone knew everyone it would be a power law with exponent 2. But because
@@ -2663,15 +2663,15 @@ good SAMI for innovation. I wonder how Seattle stacks up?
 Organisms vs. cities vs. companies:
 
 - Organisms: sublinear scaling and economies of scale dominating biology lead to
-  stable bounded growth and slowing pace of life. 
+  stable bounded growth and slowing pace of life.
 - Cities: superlinear scaling dominating socioeconomic activity leads to
-  unbounded growth and increasing pace of life. 
+  unbounded growth and increasing pace of life.
 - Companies scale more like organisms than like cities. There is an analogy
   between metabolism and revenue, between maintenance and expenses.
 
 Just like organisms that have a maximum size, companies also stop growing in
 relation to the market. There’s a temporal aspect too, by 20 years, 85% of
-companies disappear through bankruptcy or liquidation. 
+companies disappear through bankruptcy or liquidation.
 
 Speculation on why companies die: R&D fraction goes down over time. More rules
 and process over time, ossification of processes. More focused on short term
@@ -2682,7 +2682,7 @@ I don’t understand why superexponential means that there must be finite time
 singularities. It seems to me like `e^x < f(x) < \inf` between the two. West's
 overall view is that major paradigm shifts happen increasingly frequently.
 Either we will need to be more and more innovative or learn to “be content with
-what we’ve got and find some new way of defining progress”. 
+what we’ve got and find some new way of defining progress”.
 
 A surprisingly zenful end to a whirlwind of a book. It opened up my eyes to a
 lot of interesting ideas. I recommend it!
@@ -2749,15 +2749,15 @@ Next, I was disappointed in the long-winded story-of-my-life narrative that the 
 
 Before improvising a scene, a helpful technique is to decide your place in the status hierarchy in relation to the other actors. What Johnstone means by status isn’t necessarily some socio-economic standing in the world, but more of an internal confidence which corresponds to a pecking order. In the animal sense, low status means "don’t bite me, I’m not tasty", while high status means "don’t come near, I bite". Status can also be a lens with which to analyze any social interaction, and Johnstone presents dialogue that he annotates with status transactions, for example:
 
-> Sgnarelle: [Raising himself] I’m the master.
-Martine: [Lowers S, raises self] And I’m telling you that I’lol have you do as I want. I didn’t marry you to put up with your nonsense.
-S: [Lowers Martine] Oh! The misery of married life! How right Aristotle was when he said wives were the very devil.
-M: [Lowers S and Aristotle]: Just listen to the clever fellow — him and his blockhead of an Aristotle!
+> Sgnarelle: [Raising himself] I’m the master.<br/>
+Martine: [Lowers S, raises self] And I’m telling you that I’lol have you do as I want. I didn’t marry you to put up with your nonsense.</br>
+S: [Lowers Martine] Oh! The misery of married life! How right Aristotle was when he said wives were the very devil.<br/>
+M: [Lowers S and Aristotle]: Just listen to the clever fellow — him and his blockhead of an Aristotle!<br/>
 
 Usually, status manifests in various physical ways:
 
 - Eye contact: breaking it can cause status loss. Not making it in the first place can cause status gain.
-- Controlling space: low status players shut off their own space (eg. servants kneeling, bowing, prostrating). High status allows their space to flow into other people (eg. drill sergeant yelling at someone from an inch away) 
+- Controlling space: low status players shut off their own space (eg. servants kneeling, bowing, prostrating). High status allows their space to flow into other people (eg. drill sergeant yelling at someone from an inch away)
 - Leg position: toes inward for low status, outward for high.
 - Stillness: holding still while speaking raises status. Fidgeting lowers it.
 
@@ -2772,7 +2772,7 @@ I want a hat, buckteeth!
 Buckteeth! Try this on for size, you jerk.
 You call *me* a jerk? Cowflop!
 
-- Master-servant, where both players act as if all of the space belongs to the master. A variant where the master can snap at the servant if he is displeased, and the servant dies after 3 snaps. The master doesn’t need to be reasonable. 
+- Master-servant, where both players act as if all of the space belongs to the master. A variant where the master can snap at the servant if he is displeased, and the servant dies after 3 snaps. The master doesn’t need to be reasonable.
 - Another variant with more people in a proscribed pecking order.
 
 > I don’t myself see that an educated man in this culture necessarily has to understand the second law of thermodynamics, but he certainly should understand that we are pecking-order animals and that this affects the tiniest details of our behavior.
@@ -2783,7 +2783,7 @@ Johnstone begins with a tirade against school. "Most schools encourage children 
 
 > Suppose an eight year old writes a story about being chased down a mouse hole by a monstrous spider. No one will worry. But if he writes the same story when he’s fourteen, it may be taken as a sign of mental abnormality. Writing such things leaves the adolescent up to criticism. He therefore has to fake everything so that he appears ‘sensitive’ or ‘witty’ or ‘intelligent’ according to the image he is trying to establish in the eyes of other people.
 
-This essay’s goal is to try to fix the above, providing an antidote to the switch-off that occurs at puberty. For example, when responding to "what’s for supper?", there is a temptation to think of something really clever. You will be too slow, and come up with something lame like "fried mermaid", but if you said "fish" quickly, would be better. 
+This essay’s goal is to try to fix the above, providing an antidote to the switch-off that occurs at puberty. For example, when responding to "what’s for supper?", there is a temptation to think of something really clever. You will be too slow, and come up with something lame like "fried mermaid", but if you said "fish" quickly, would be better.
 
 Some exercises:
 
@@ -2874,7 +2874,7 @@ And, justifying the need for spaces between words:
 > sounds a person made while speaking were as smooth and unbroken as the hide of
 > a goat’s leg, but the words were like the bones underneath the meat, and the
 > space between them was the joint where you’d cut if you wanted to separate it
-> into pieces. 
+> into pieces.
 
 Another core idea is whether or not perfect recall is desirable. Perfect recall
 can be a disability: "At times, he tried to deliberately forget things. He wrote
@@ -2906,7 +2906,7 @@ not practical yet because of battery life, but this will probably change in
 lifetime.
 
 Quick idea: over-reliance on external memory leads to virtual amnesia in the
-absense of an extenral medium. This is already true for writing to some extent. 
+absense of an extenral medium. This is already true for writing to some extent.
 
 In the climax of the story, both the future-journalist and past-missionary arcs
 twist. When his wife and her mother left them, the journalist-protagonist
