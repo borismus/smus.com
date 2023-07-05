@@ -12,25 +12,25 @@ cover: /assets/book-covers/the-mountain-in-the-sea.jpg
 
 What if a book review could be composed entirely of "what if?" questions?
 
-**Speculative cephalopods**: what if octopuses developed a communication system, exapted from their ability to create clouds to escape from predators, like a sort of visual speech, ephemeral as a an ink cloud?
+**Speculative cephalopods**: What if octopuses developed a communication system, exapted from their ability to create clouds to escape from predators? What if it was like visual speech, ephemeral as an ink cloud?
 
-**Climate pressure as a catalyst for cephalopod intelligence**: What if cephalopods experienced survival pressure from human induced climate change, which caused them to become extremely intelligent, just like early humans were forced into resourceful survival by the coming of an ice age?
+**Climate pressure as a catalyst for cephalopod intelligence**: What if cephalopods experienced survival pressure from human induced climate change, which caused them to become extremely intelligent? What if it was analogous to early humans who were forced into resourceful survival by the coming of an ice age?
 
-**Social learning**: What if deep sea octopuses with a longer natural lifespan adapted to shallower depths and changed their breeding practices to overlap with their offspring,  raising them and passing on their language and wisdom?
+**Social learning**: What if deep sea octopuses with a longer natural lifespan adapted to shallower depths and changed their breeding practices to overlap with their offspring, raising them and passing on their language and wisdom?
 
-**Human machine labor**: What if human labor ends up being cheaper than machine labor, and a wave of automation that once replaced human fish cleaners with robots runs in reverse because it turns out that a crew of human slaves is cheaper to maintain than a crew of marine robots?
+**Human machine labor**: What if human labor ends up being cheaper than machine labor, and a wave of automation that once replaced human workers with robots runs in reverse because it turns out that a crew of human slaves is cheaper to maintain than a crew of marine robots?
 
-(This reminds me of the low cost of human slave labor in Roman times. Why bother improving on simple water wheels if slaves are ubiquitous?)
+(This reminds me of the low cost of human slave labor in Roman times. Why bother improving on simple water wheels if slaves are ubiquitous? [[Increasing costs of human labor and mechanization]])
 
 **Tricking super-human intelligence:** What if even in the far future, an advanced AI could be outwitted by a mere human to make a fatal mistake, just like Bing's ChatGPT could be outwitted to reveal its creepy secret identity, Sydney?
 
-**Praying to super-human intelligence**: What if the power imbalance between AIs and humans becomes so great that people will begin praying to AIs in the same way that a naive Christian might pray to Christ, hoping The Lord hears her and grants her her wish, except the AI can actually hear it and grant it?
+**Praying to super-human intelligence**: What if the power imbalance between AIs and humans becomes so great that people will begin praying to AIs in the same way that a Christian might pray hoping The Lord hears her and grants her wish, except the AI can actually hear it and grant it?
 
-**Musings on consciousness**: What if "what is it like to be a Bat" is way too hopelessly difficult to answer, and we should instead be focusing on "what is it like to be another person", which involves more empathy and theory-of-mind than most people can muster?
+**Musings on consciousness**: What if "what is it like to be a Bat" is too hopelessly difficult to answer, and we should instead be focusing on "what is it like to be another person", which involves more empathy and theory-of-mind than most people can ever muster?
 
-**Automonks**: What if religious ceremonies could be performed by automata, and would that somehow diminish their effects on the dieties that they are aimed to please?
+**Automonks**: What if religious ceremonies could be performed by automata, and would that somehow diminish their effects on the deities that they are aimed to please?
 
-**Oriental robotics**: What if zen-inspired contemplative buddhist traditions could be harnessed to crate more biological, nature-compatible robots?
+**Contemplative robotics**: What if zen-inspired contemplative Buddhist traditions could be harnessed to create biologically inspired, nature-compatible robots that are far superior to those descending from the higher modernist western tradition?
 
 **Memory and forgetting**: What if there was a conscious being that never forgets, and could it really have a human-like intelligence with perfect memory, while still retaining the ability to grow and change over time?
 
@@ -40,19 +40,23 @@ What if a book review could be composed entirely of "what if?" questions?
 
 **Computerized therapy companions**: What if a common prescription for loneliness and some mental health problems is to talk to a sophisticated virtual friend designed to be the perfect companion that discretely also administers a CBT program? What if this extends to virtual romantic partners? What if people delude themselves into thinking their virtual companions are real?
 
----
+## Meta observations
 
 I am once again reminded that good speculative fiction is often a more powerful medium for conveying information than popular science (see [[Power of Fiction]]).
 
-The names of the characters were out of this world: Evrim, Rustem, Arnkatla Mínervudóttir-Chan, Altantsetseg, and I enjoyed the unusual Central Asian settings where the events took place.
+The names of the characters were out of this world: Evrim, Rustem, Altantsetseg, Arnkatla Mínervudóttir-Chan. I enjoyed the somewhat exotic Central Asian settings where the events took place.
 
-The quotes are at the start of the chapters are excepted from books authored by two main protagonists, *How Oceans Think* by Dr. Ha Hguyen, and *Building Minds* by Arnkatla Mínervudóttir-Chan. These quotes both contribute to character development and sprinkle in abstract wisdom. I thought it was a really effective way through this mechanism, and wish that "How Oceans Think" was a real book. Cephalopods are fascinating!
+The quotes are at the start of the chapters are excepted from books authored by two main protagonists, *How Oceans Think* by Dr. Ha Hguyen, and *Building Minds* by Arnkatla Mínervudóttir-Chan. These quotes both contribute to character development and sprinkle in abstract wisdom. I really wish that "How Oceans Think" was a real book. I'd read it in a heartbeat.
 
-Observations and synthesis:
+Although Nayler doesn't quite tie up all loose threads, the threads compliment one another in a way that I found pretty compelling.
 
-- Nosferatu is apparently a reference to Dracula and the corresponding [eponymous silent movie Nosferatu from 1922](https://www.youtube.com/watch?v=FC6jFoYm3xs&t=3051s).
-- The character Rustem's internet alias is Bakunin, a reference to the most famous Russian anarchist prominently featured in my contemporaneous foray into the Russian Revolution via the Revolutions Podcast (highly recommended).
-- Just like a successful octopus or a successful drone army operator (Altantsetseg) rely on autonomous leaf-nodes, whether they are limbs or drones, Sun Tzu and John Boyd recommend giving leaders on the ground loose orders, but
+## Synthesis with other mediums
+
+Nosferatu is apparently a reference to Dracula and the corresponding [eponymous silent movie Nosferatu from 1922](https://www.youtube.com/watch?v=FC6jFoYm3xs&t=3051s).
+
+The character Rustem's internet alias is Bakunin, a reference to the most famous Russian anarchist prominently featured in the [Russian Revolutions Podcast](https://podcasts.apple.com/us/podcast/revolutions/id703889772). I'm digesting this magnum-podcast in parallel, review/summary forthcoming.
+
+Nayler draws analogies between octopuses and fictional drone army operators (Altantsetseg) in their reliance on autonomous leaf-nodes, whether they are limbs or drones. Similarly, Sun Tzu and John Boyd [recommend](/books/boyd-by-robert-coram/) giving subordinates loose orders but empowering with almost complete autonomy.
 
 > “A good science fiction story should be able to predict not the automobile but the traffic jam.” – Frederik Pohl
 
