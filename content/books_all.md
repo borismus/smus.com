@@ -4,6 +4,61 @@ class: split
 type: book
 
 
+The Mountain in the Sea by Ray Nayler
+===
+rating: yes
+posted: July 4, 2023
+cover: /assets/book-covers/the-mountain-in-the-sea.jpg
+
+What if a book review could be composed entirely of "what if?" questions?
+
+**Speculative cephalopods**: what if octopuses developed a communication system, exapted from their ability to create clouds to escape from predators, like a sort of visual speech, ephemeral as a an ink cloud?
+
+**Climate pressure as a catalyst for cephalopod intelligence**: What if cephalopods experienced survival pressure from human induced climate change, which caused them to become extremely intelligent, just like early humans were forced into resourceful survival by the coming of an ice age?
+
+**Social learning**: What if deep sea octopuses with a longer natural lifespan adapted to shallower depths and changed their breeding practices to overlap with their offspring,  raising them and passing on their language and wisdom?
+
+**Human machine labor**: What if human labor ends up being cheaper than machine labor, and a wave of automation that once replaced human fish cleaners with robots runs in reverse because it turns out that a crew of human slaves is cheaper to maintain than a crew of marine robots?
+
+(This reminds me of the low cost of human slave labor in Roman times. Why bother improving on simple water wheels if slaves are ubiquitous?)
+
+**Tricking super-human intelligence:** What if even in the far future, an advanced AI could be outwitted by a mere human to make a fatal mistake, just like Bing's ChatGPT could be outwitted to reveal its creepy secret identity, Sydney?
+
+**Praying to super-human intelligence**: What if the power imbalance between AIs and humans becomes so great that people will begin praying to AIs in the same way that a naive Christian might pray to Christ, hoping The Lord hears her and grants her her wish, except the AI can actually hear it and grant it?
+
+**Musings on consciousness**: What if "what is it like to be a Bat" is way too hopelessly difficult to answer, and we should instead be focusing on "what is it like to be another person", which involves more empathy and theory-of-mind than most people can muster?
+
+**Automonks**: What if religious ceremonies could be performed by automata, and would that somehow diminish their effects on the dieties that they are aimed to please?
+
+**Oriental robotics**: What if zen-inspired contemplative buddhist traditions could be harnessed to crate more biological, nature-compatible robots?
+
+**Memory and forgetting**: What if there was a conscious being that never forgets, and could it really have a human-like intelligence with perfect memory, while still retaining the ability to grow and change over time?
+
+**Embodied cognition:** What if most of an intelligent being's intelligence was located not in some centralized brain, but decentralized in its extremities, and what would the implications of that be?
+
+**Underwater control**: What if a human submerged underwater attached to a breathing apparatus could use their arms and legs to control more devices, like an army of semi-autonomous drones?
+
+**Computerized therapy companions**: What if a common prescription for loneliness and some mental health problems is to talk to a sophisticated virtual friend designed to be the perfect companion that discretely also administers a CBT program? What if this extends to virtual romantic partners? What if people delude themselves into thinking their virtual companions are real?
+
+---
+
+I am once again reminded that good speculative fiction is often a more powerful medium for conveying information than popular science (see [[Power of Fiction]]).
+
+The names of the characters were out of this world: Evrim, Rustem, Arnkatla Mínervudóttir-Chan, Altantsetseg, and I enjoyed the unusual Central Asian settings where the events took place.
+
+The quotes are at the start of the chapters are excepted from books authored by two main protagonists, *How Oceans Think* by Dr. Ha Hguyen, and *Building Minds* by Arnkatla Mínervudóttir-Chan. These quotes both contribute to character development and sprinkle in abstract wisdom. I thought it was a really effective way through this mechanism, and wish that "How Oceans Think" was a real book. Cephalopods are fascinating!
+
+Observations and synthesis:
+
+- Nosferatu is apparently a reference to Dracula and the corresponding [eponymous silent movie Nosferatu from 1922](https://www.youtube.com/watch?v=FC6jFoYm3xs&t=3051s).
+- The character Rustem's internet alias is Bakunin, a reference to the most famous Russian anarchist prominently featured in my contemporaneous foray into the Russian Revolution via the Revolutions Podcast (highly recommended).
+- Just like a successful octopus or a successful drone army operator (Altantsetseg) rely on autonomous leaf-nodes, whether they are limbs or drones, Sun Tzu and John Boyd recommend giving leaders on the ground loose orders, but
+
+> “A good science fiction story should be able to predict not the automobile but the traffic jam.” – Frederik Pohl
+
+By Pohl's metric, The Mountain in The Sea is great science fiction. I enjoyed the book thoroughly, major thanks to Captain A for the recommendation.
+
+
 Boyd by Robert Coram
 ===
 rating: yes
