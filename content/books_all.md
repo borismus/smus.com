@@ -4,6 +4,214 @@ class: split
 type: book
 
 
+Russian Revolution by Mike Duncan
+===
+rating: yes
+posted: July 20, 2023
+cover: /assets/book-covers/revolutions-podcast.jpg
+
+Mike Duncan covers a ton of ground on the events, people, and the necessary background to understand the Russian Revolution.
+
+I appreciated the time spent on pre-revolutionary Russian history, and ideas and learned a lot about Russian anarchism. In particular, [[Bakunin's ideas of collectivist anarchism are appealing]], because [[Power corrupts, but absolute power corrupts absolutely]].
+
+One may balk at [[Kremlinology, Putinology, and now Prigozhinology]], but understanding the main players deeply is important, especially when events are contingent and individual actions can determine the fate of whole countries. Here too, Duncan does a good job providing more personal color than a dry history lecture might.
+
+Feel free to read my working notes, or [listen to the podcast yourself](https://thehistoryofrome.typepad.com/revolutions_podcast/). What follows is an incomplete summary of themes I found novel and compelling.
+
+<!--more-->
+
+# A chain of embarrassing defeats lead up to the revolution
+
+- Defeat in the Crimean war (1850s), embarrassingly shows how backwards Russia was, supposedly a military powerhouse.
+- Defeat in Russo Japanese war (1905). Lost Port Arthur and the whole pacific fleet.
+- Poor performance in WW1, which found Russia "grossly unprepared" and with far worst logistics than Germany, infighting, and distracted by lofty goals like taking Constantinople.
+
+### Russia's Turkish ambitions
+
+That's right, Russia had an explicit goal of taking the city of Constantinople away from the Ottomans. That would give Russians both the second and the third Rome! This was incredibly ambitious and in retrospect unrealistic. Despite Russia's sub-par performance in the war, some Russian leaders in the provisional government attempted to keep the conquest of Constantinople as one of Russia's military goals. Even as late as February 1917!
+
+# Jewish matters
+
+- Curious to see how important the Jewish Bund is to the whole revolution, both in the labor movement and Russian Revolution.
+- The reactionary forces set in motion by the 1905 Russian Revolution mostly targeted Jews. Jews were very closely associated with Bolsheviks because most of the Bolshevik leaders were Jews. The internationalist orientation of the Bolshevik party, only helped antisemites confirm that Jews were foreign agents. The Protocols of the Elders of Zion were a Russian invention, first printed in 1903.
+- "Death to the Yids!" was as common as "Death to the Bolsheviks" during these times. This rhymes with the [[Jewish Bolshevism conspiracy]] used by Nazis to justify the Holocaust, which I first read about in [[Bloodlands by Timothy Snyder]].
+- Yet leaders of all colors, red, white, and black constantly distanced themselves from the pogroms on the ground. They would condemn antisemitism in words only, without ever actually doing anything to stop it.
+
+# Russia's early industrialization
+
+Sergei Witte successfully led Russian railway modernization in the late 19th century. He argued that the tsarist regime could only be saved by transforming Russia into a modern industrial society. Some of his rapid industrial reforms were very successful and showed that Russia was well on its way to industrialization. This played well into the Marxist narrative that a first revolution was necessary for the socialist one that was to follow.
+
+### Russia's archaic farming system
+The "open-field system" was the prevalent agricultural system in Europe throughout the Middle Ages. Large fields, usually several hundred acres each, were divided into many narrow strips of land and doled out to peasants. A lucky family might own several independent strips in different regions, which was very inefficient.
+
+Because Russia freed the serfs only in the mid-19th century, this system remained in place far longer than in other European countries. And it wasn't until Stolypin's reforms in 1905 that the system began to slowly phase out.
+
+- [[Medieval farm plots were long and thin because oxen couldn't turn]]
+
+### Western-backed industrialization
+After the revolution and during the 1920s, the Great Depression in the West reduced popular confidence in capitalism. This combined with successful soviet propaganda made investors turn to the Soviet Union whose economy was faltering:
+
+> Impressive growth rates during the first three five-year plans (1928–1940) are particularly notable given that this period is nearly congruent with the Great Depression. During this period, the Soviet Union saw rapid industrial growth while other regions were suffering from crisis. ([Wikipedia](https://en.wikipedia.org/wiki/Economy_of_the_Soviet_Union))
+
+This was an [interesting paper](https://www.jstor.org/stable/41933723) I read about this period: The Soviet Problem with Two "Unknowns": How an American Architect and a Soviet Negotiator Jump-Started the Industrialization of Russia.
+
+
+# Russia was never democratic
+Wow, the color of the political climate between 1905 and 1917 makes me really reconsider the position that Russia had this period of democracy between 1905 and 1917. Something like 2000 people were murdered by the state as part of punitive actions conducted by the tsar following the revolution of 1905. The first Duma Congress was not real democracy, by any stretch of the imagination, and multiple Dumas were created and dismantled by the tsar.
+
+So the actual precedent of liberals in power in Russian history is very small, possibly just Gorbachev and Yeltsin?
+
+- [[Russia has never been liberal, democratic, or free]]
+- [[Russian pathologies through the centuries]]
+
+
+# WW1: Europe's workers chose war over solidarity
+Fascinating (socialist) perspective: on the dawn of WW1, the workers were at a cross road between two choices:
+
+1. Join together for an international communist revolution
+2. Kill each other at scale in the battlefield in the name of their respective nations.
+
+Ultimately they chose (2). Why? International socialists ultimately embraced their national identities rather than the globalist agenda:
+
+- By 1914 the socialist parties had been well integrated into the parliaments and could influence the government directly. They now had a lot to lose.
+- Being against the war meant that opposing parties could accuse the socialists of being unpatriotic.
+
+# Marx's prophecy of two revolutions
+Lenin and other Bolsheviks took Marx so seriously that he thought Russia needed to undergo two revolutions. First one to become more capitalist and industrialized. Then another for getting to a point of socialist revolution.
+
+Causes of the Revolution of 1905:
+
+- Terrible performance in Russo Japanese war. Lost Port Arthur and the whole pacific fleet
+- Worker strikes in at Petersburg and general support from workers and the Intelligentsia.
+- Bloody Sunday illustrating the tsar true colors: bloody Nicholas.
+- SR combat organization assassinations causing appointments of overbearing reactionaries and liberal ministers.
+
+# Women began the February 1917 revolution
+In 1916, women spent forty hours a week in bread lines. And ultimately the radicalized women galvanized the February 1917 revolution during International Women's Day. From [Wikipedia](https://en.wikipedia.org/wiki/International_Women%27s_Day#Early_development_in_the_USSR_and_other_communist_nations):
+
+> On March 8, 1917, in Petrograd (February 23, 1917, on the Julian calendar), women textile workers began a demonstration that eventually engulfed the whole city, demanding "Bread and Peace"—an end to World War I, to food shortages, and to czarism. This marked the beginning of the February Revolution, which alongside the October Revolution, made up the second Russian Revolution
+
+[[There are only nine meals between mankind and anarchy]]. Of course, there were also other causes for the February 1917 revolution:
+
+1. Millions of casualties in an entrenched war with front lines stabilizing but still a dismal situation
+2. Massive inflation due to finding the war effort leading to unaffordable living
+3. Lack of food and goods due to supply chain disruptions from prioritizing war efforts
+4. An unusually cold winter in 1917, leading to general immiseration
+5. A tsar that refused to do anything in response to a chorus of voices warning him of the dire path he is on.
+
+Still, International Women's Day was the catalyzing event.
+
+# The hemophilic grandmother of Europe
+Tsarevich Alexei, son of Nikolai II had hemophilia (non-clotting blood), a dire disease inherited from Queen Victoria I, known as the “grandmother of Europe” because of how many rulers were descended from her blood. Nicholas and Alexandra sought out a healer in hopes of curing their son and heir of Russia. And that is how Rasputin got an initial foothold in the Russian palace, coming recommended as a holy man and miracle healer.
+
+# Defeatism and defencism
+Defencists hoped Russia would win World War 1 outright. But there was also an internationalist (less charitably, defeatist) camp which hoped that Russia would lose. Lenin was more aligned with the latter, although his views are characterized as “flexible” despite bombastic delivery.
+
+The Bolshevik membership dwindled during the war years because of their defeatist position. Because they wanted Russia to end the war and lose, they were easily painted as being extremely unpatriotic and equivalent to German agents. Lenin's flexibility allowed this to almost come true:
+
+### Lenin's German-backed voyage from Switzerland to Petrograd
+The story of how Lenin got back from Switzerland to Russia on the eve of the February 1917 revolution is completely fascinating. It includes Bolshevik collusion with the Germans to make this all happen, a circuitous path, and sneakily traveling in closed railway cars. The whole trip sounds like a great adventure, culminating in a terrible reception in St. Petersburg.
+
+# Lenin's role and historical contingency
+During the "July Days", the revolutionaries themselves had to talk radicalized people down from pursuing a socialist revolution because they felt like they weren't quite ready for the events that might unfold. And if the provisional government managed to retain power after such an attempt, it would be bad news for future revolutionary prospects.
+
+But Lenin was extremely passionate about decisive action, and managed to eventually convince the rest of the Bolsheviks. What would have happened without his drive, if the October Revolution did not play out?
+
+Fanny Kaplan attempted to kill Lenin and almost did in 1919:
+
+> One bullet passed through Lenin's coat, and the other two struck him. One passed through his neck, punctured part of his left lung, and stopped near his right collarbone; the other lodged in his left shoulder
+
+What would have happened if she succeeded?
+
+# Duma ➡ Soviets ➡ Communists
+After Nicholas' abdication, Russia was governed by "Dual Power". Under this scheme the country was ruled partly by the Provisional Government (Duma) and partly the people directly via bottom-up Soviets. The Soviet system emerged from the St. Petersburg Soviet and when they declared that they will be the Soviet of All of Russia, which eventually morphed into the Soviet Union.
+
+The slogan "All power to the Soviets" now makes more sense in this context of the parallel tracks of a provisional government and of soviets sharing power.
+
+Lenin sensed that this dual power system was unstable and helped quash the provisional government. Then his Bolsheviks had a unified agenda and successfully ["bolshevized" the soviets](https://en.wikipedia.org/wiki/Bolshevization_of_the_Soviets).
+
+The Russian Communist Party is just a rebranding of the Bolshevik party and retains full continuity. The split between Communists and Socialists might mirror the differences of opinion between Bolsheviks and Mensheviks. Why is the political left so often infighting?
+
+The new Communist government was recognized as by many of the international powers as part of the treaty of Brest-Litovsk, hastily signed by the triumphant Communists after the October 1917 revolution on March 3, 1918. The treaty was terrible for the sovereignty of Russia because it lost so many territories. This was a serious gambit on the part of the Bolsheviks, an astounding move because of how much territory was ceded. But this did not last, as the treaty was annulled by the armistice of November 11, 1918.
+
+
+# Absolute power corrupts absolutely
+Kerensky, leader of the provisional government in 1917 assumed more and more power until eventually he took up residence in the winter palace. Flags were raised when he was at home, as was the custom of the old order. He slept in the bed of the tsar. Kerensky believed he was the right leader for Russia. By September 1917 he had effectively cultivated a dictatorship. Didn’t last long though.
+
+Kerensky lost touch and feared a counter revolution from the right. Through a series of miscommunication Kerensky became convinced that Kornilov was planning a right wing coup and empowered the Bolsheviks to defend the counter revolution (see
+[[Defense is much more palatable than offense]]). This gave the Bolsheviks a second life, because at this point most were held in prison and convinced they were about to be executed.
+
+It’s funny that the Soviets by 1919 had become quite corrupt and society was extremely unequal. Just as expected from a new elite that suddenly discovers an inordinate amount of power. This is interesting especially in contrast with the extremely austere and ideological stance of the communists just a year before.
+
+Now this inequality meant that communist party began to attract careerists and those seeking comfort, a completely different group than ideologically driven revolutionaries. And the cycle is complete.
+
+
+# Russians are a passive and nihilistic population
+A big factor during the October revolution of 1917 was the fact that most Russians were neutral in the conflict between the bolsheviks and interim administration.
+
+This neutrality, I think, stems from general skepticism that Russians tend to exhibit and nihilism that can be seen even today. Ultimately, as my theory is that this stems from a lack of civic society, like a lack of the sort of thing that is the French traveler, Alexis de Tocqueville observed in the American society when he visited America. I strongly suspect that this lack of civil society is keeping Russia back politically.
+
+- [[Russia's strategy is sowing cynicism]]
+- [[Civil society is an antidote to autocracy]]
+
+# Reds, whites, blacks, and other colors
+Despite the whites military success in Ukraine, they were universally hated by the people that were local to the country. The Cossack division of the white army served as mounted shocktroopers, basically raiding Ukrainian cities to such an extent that they were completely heated by the local population. Thus the people chose the lesser of two evils: the communists.
+
+### Lineage of the anarchist blacks
+Nestor Makhno was a Ukrainian anarchist and an anti-anti-Semite, which is both of those things are interesting, and I should look more into him.
+
+Also, interesting is the black flag which is an anarchist symbol under which Makhno's army fought, and they allowed with the Reds the communists, but that was a temporary alliance against the whites.
+
+- [[Bakunin's ideas of collectivist anarchism are appealing]]
+
+### Other color armies
+Surprising to hear about the Polish blue army. And also my dad mentioned that there was a Green army during the same period of the Russian Civil War. This is all pretty funny in retrospect.
+
+# Russian chauvinism against Ukraine and visible minorities
+The White Russians completely denied Ukraine's existence, instead calling it little Russia, (Malorossiya). They completely ignored Ukrainian autonomy and national statehood, and appointed just White Russians, as governors for the region.
+
+Also, really disgusting overtly racist takes on hatred of the Japanese coming up to the war of 1905 are par for the course.
+
+Lots of echoes to today's war that Putin waged against the Ukraine in particular.
+
+# Western-backed anti-Russian forces
+The white counter-revolution managed to make significant gains largely supported by the British. And they came through the west just with similar parallels to today.
+
+It feels like most conflicts may be in the 20th century, at least in the beginning, including the Civil War, and the Polish Soviet war is seen by the Russians, as a war in which allied western powers together are using a puppet state, whether it's the whites or the polls to wage war against Russia's historical integral territory. This is extremely resonant with what Putin is thinking of today.
+
+The Russians fighting in the civil war were not motivated to fight for the cause of the idealism of the communists. Instead, the rallying cry in the Soviet Polish war and in general focused on preserving the integrity of Russia itself. And the same was true during World War II, which was framed as the great patriotic war by Stalin to appeal not to ideology or way of life, but nationalism.
+
+Why did Lloyd George change his mind on regime change in Russia? It seems like we may be on track for same thing here in the Russian Ukrainian war of 2023. I feel like the west will change their mind and regret it later.
+
+# Western relief for Russian famines
+During the terrible famines in the 1920s I didn't realize how much external help Soviets were getting. Twice as many people would have died if not for the internal help from foreign agencies like the American family relief something committee. Pretty interesting.
+
+
+# Lenin sowed the seeds for Stalin
+Lenin's cruelty is often overshadowed by his more cruel successor, but Stalin was largely building on top of the foundation that Lenin poured during his tenure.
+
+Grossman makes a similar argument in ([[Все Течёт (Everything Flows by Vasily Grossman)]]), saying that none of Lenin's potential successors captured the essence of his soul: thirst for power.
+
+> Who, asks Grossman rhetorically, should be Lenin's successor? Would it be the brilliant, turbulent, magnificent Trostky? The charming, gifted political theorist Bukharin? Perhaps the one closest to the workers Rykov? Maybe the well-educated, confident, and sophisticated governor Kamenev? Last but not least, the one best versed in international labor, Zinovyev?
+
+
+### Lenin and the Bolsheviks were flexible and not bound to morals
+One of the Bolsheviks named Bauman had an affair with another agent and then outed her causing her to commit suicide. Most members of the SR wanted Bauman expelled for this misconduct but not Lenin, citing that he was a good agent. Personal ethics was nothing to Lenin.
+
+Early Bolsheviks would routinely participate in so-called expropriations. This was just a fancy term for stealing from the bourgeoisie. The [1907 Tiflis bank robbery](https://en.wikipedia.org/wiki/1907_Tiflis_bank_robbery) in particular was especially impressive and bloody, killing 40 and injuring 50. It was planned mainly by Stalin (aka Koba) and Ter-Petrosian (aka Kamo), but also involved Lenin.
+
+Initially imagined as a multiparty system centered around the soviets, left SRs were well represented alongside the Bolsheviks. Their presence gave the bolsheviks the plausible deniability to claim they weren’t authoritarian at all, and were just facilitating a democratic system.
+
+The left SR rebellion in 1918 changed that. They were opposed to Brest-Litovsk and wanted to usher in international communism. At this point their leadership Maria Spiridonova ended up jailed. The Trial of the SRs around the same timeframe paved the way for Stalinist show trials in the era that followed.
+
+Surprising how early the Soviet ban on Factions began. Seems it as early as 1920 it's almost a foundational idea. Because a ban on factions is affectively a ban on freedom of assembly. It also strengthened the Communist Party, weakening the soviets.
+
+It was Lenin's fault that the Communist party became so dominated by personalities. But I wonder if it's truly his fault or actually something deeper. The tsars and the mongols that preceded them presided over societies dominated by small cliques or individuals (Genghis Khan, Ivan the Terrible, Peter the Great). Stalin and Lenin are just a continuation of the same chain
+
+- [[Russia and the Horde]]
+- [[Russian pathologies through the centuries]]
+
+
 The Mountain in the Sea by Ray Nayler
 ===
 rating: yes
