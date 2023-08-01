@@ -76,8 +76,6 @@ def convert_patents():
   out = '''Patents
 =======
 
-Over 25 patents:
-
 <ul>'''
   patents_csv_path = os.path.join(PATENTS_DIR, 'index.csv')
   with open(patents_csv_path, newline='') as csvfile:

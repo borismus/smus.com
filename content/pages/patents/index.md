@@ -1,8 +1,6 @@
 Patents
 =======
 
-Over 25 patents:
-
 <ul><li><a class="patent" href="/patents/2021 - Synchronized performances for remotely located performers.pdf">US2022/014570</a> Synchronized performances for remotely located performers. <span class="authors">Goldstein M., McNabb M., Smus B.</span> 2021</li>
 <li><a class="patent" href="/patents/2019 - Magnetic controller for device control.pdf">US11,269,022</a> Magnetic controller for device control. <span class="authors">Smus B., Plagemann C.</span> 2019</li>
 <li><a class="patent" href="/patents/2017 - Communicating Data with Audible Harmonies.pdf">US9,882,658</a> Communicating Data with Audible Harmonies. <span class="authors">Smus B., Getreuer P. T.</span> 2017</li>
