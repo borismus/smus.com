@@ -21,6 +21,9 @@
   <meta property="og:title" content="Installable webapps: extend the sandbox" />
   <meta property="og:description" content="article img.border {   margin: 0 auto;   max-width: 100%;   box-shadow: inset 0 0 10px #999 }         Have you seen the  extensible web manifesto ? It's the formalization of a recent trend in web standards: a tendency towards lower level APIs. Lower levels of abstraction enable developers to build more on top of a solid foundation. By going down a level of abstraction in the web platform, web developers can contribute to the platform itself in a more fundamental way, working along with browser vendors and spec writers. This is  how the web should work .    But there is a big missing piece in the extensible web vision. Our beloved platform is stuck in a constrictive security sandbox. The "drive by" web's security philosophy is that users of the web should be able to feel safe on any webpage they visit. While very important for the well being of web denizens, it prevents developers from using increasingly important features enjoyed by native platforms such as access to contacts, TCP/UDP sockets, interfaces to external USB/Bluetooth devices. Breaching this sandbox is a huge barrier for the web as a compelling application platform.    Some recent features, such as  getUserMedia , which gives web developers access to the audio and video streams of your device's camera and microphone, have started to break out of the sandbox. There are two approaches to this problem today: (a) infobars and (b) packaged apps. In the rest of this post I'll describe why these are bad solutions, deconstruct them down into small pieces and then glue the pieces back together. The ultimate goal is a modest proposal for installable web apps. Read on for my take on the background of the problem, or skip ahead to read my  illustrated proposal  for fixing it." />
 
+  <!-- Mastodon -->
+  <link rel="me" href="https://mastodon.social/@borismus">
+
   <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
   <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
 
@@ -469,9 +472,6 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
   </div>
   <nav role="footer">
     <a href='https://smus.com/atom.xml'>RSS</a>
-
-    <!-- Mastodon verification -->
-    <a rel="me" href="https://mastodon.social/@borismus" style="display: none">Mastodon</a>
   </nav>
 </footer>
 
