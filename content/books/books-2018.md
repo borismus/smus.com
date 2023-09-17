@@ -2859,7 +2859,7 @@ with European missionaries. It takes some time to relate the two stories
 together, but that's part of the process.
 
 Ted is amazing at retelling how it might have felt to experience writing for the
-first time. I especially writing as an analogy to nature:
+first time. I loved this gem comparing writing to nature:
 
 > “Where you or I would see nothing but some disturbed grass, he can see that a
 > leopard had killed a cane rat at that spot and carried it off,” his father
