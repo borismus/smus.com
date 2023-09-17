@@ -4,6 +4,37 @@ class: split
 type: book
 
 
+Empowered by Cagan & Jones
+===
+rating: no
+posted: Sep 17, 2023
+
+My skip-skip-skip level manager at work recommended it to all of his manager reports, and so I decided to read this book to get closer to the top brass. Overall it was a sobering read, actively reminding me how far my organization is from being customer-centric. The book mostly addresses product managers, but tries to also apply to leaders in general, and "product people" in particular. It's a bit unclear who these people are, but I suspect they include product-minded engineers and designers.
+
+Things I liked:
+
+- **Coach-as-manager**: Emphasis on coach-as-manager was interesting. "You can no longer be a good manager without being a good coach."
+- **Build Right Thing**: The goal of a product manager is to ensure that the features being built by the product engineering team are the right features to be building.
+- **Product Discovery**: The product development process is a process of discovery. It's like the product is already there, you just need to discover it, as opposed to inventing it from whole cloth.
+- **PM's fault**: for a product to be successful, all cross-functional stakeholders have to have been successful. But if a product is not successful, it's the fault of the product manager.
+- **Platform vs. experience**: Platform teams are not the same as experience teams and I strongly gravitate towards experience teams. The worst is when your experience team gets reorged to become a platform team.
+- **Against the agency model**: The authors advocate strongly against the agency model, which encourages employees to behave like mercenaries rather than like missionaries.
+- **Strategy means focus**:
+- **Four big product risks**: ([[Four Big Product Risks]])
+    1. Value: will they buy it?
+    2. Usability: will they figure out how to use it?
+    3. Feasibility: can we build it?
+    4. Business viability: will it work for the business?
+
+Things I did not like:
+
+- Perpetuating Silicon Valley tropes:
+    - Bill Campbell cult (reminds me of CB)
+    - Favorite essay is "Software is Eating the World". How trite!
+- Unclear how lessons from this book apply to completely new products like Smart Glasses. How we be customer-centric in a world where we have no customers?
+- Authors seem overly optimistic about equity based compensation as a way to perfectly align incentives. At a company the size of Google, I don't think that sufficiently aligns individual actions. Might work better at a smaller company though!
+
+
 Russian Revolutions by Mike Duncan
 ===
 rating: yes
