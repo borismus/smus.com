@@ -4,6 +4,19 @@ type: note
 class: split
 
 
+Five Links for Summer 2023
+===
+posted: Sep 22, 2023
+
+Five links that stood out to me over the summer:
+
+- [The Live Oak Playbook](https://medium.com/@komorama/the-live-oak-playbook-504000d0afa2) (*Alex Komoroske*) — Invoking a botanical analogy, Alex argues that as our environment gets more harsh, the industry needs to adopt an approach more akin to an oak than to a eucalyptus. An insightful synthesis full of great, [FLUX-y](https://read.fluxcollective.org/) ideas.
+- [The Circle of Control](https://www.simoncross.com/p/the-circle-of-control) (*Simon Cross*) — Elaborating on the Serenity Prayer, a succinct visual metaphor to distinguish between 1) things you directly control, 2) things you can only indirectly influence, and 3) things that affect you, but you have no control or influence over.
+- [The Dream of Russia](https://www.theatlantic.com/magazine/archive/1886/12/the-dream-of-russia/522855/) (*The Atlantic, 1886*) — In this Atlantic article written nearly 150 years ago, Cyrus Hamlin describes Russia's deeply held imperial ambitions, focusing on their desire to control Constantinople.
+- [Everything is Cyclical](https://collabfund.com/blog/everything-is-cyclical/) (*Morgan Housel*) — Mountains grow from tectonic activity and then collapse under their own weight, victory has always sown the seeds of a fresh war, revolution brings with it counter-revolution, and so on.
+- [Death Metal English](https://www.invisibleoranges.com/death-metal-english/) (*Invisible Oranges*) — A concise playbook for converting regular English into DEATH METAL ENGLISH. For example, "commuting to work" gets translated into TRANSPORTATION OF THE WAGEBOUND UNTO THE NEXUS OF PERPETUAL QUOTIDIAN ENSLAVEMENT.
+
+
 Five Links for Spring 2023
 ===
 posted: June 30, 2023
