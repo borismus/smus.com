@@ -17,8 +17,8 @@ the web platform, developer tools, rapid prototyping, interactive visualization,
 and user interface design. For the still curious, please see:
 
 - Highlighted [projects](/projects).
-- Published [patents](/patents) and [papers](/papers) on this site or on [scholar](https://scholar.google.com/citations?user=bIgFmUwAAAAJ&hl=en).
-- Open source contributions on [github](https://github.com/borismus/)
+- Public [press](/press), [patents](/patents), and [papers](/papers) related to the above.
+- Open source code contributions via [github](https://github.com/borismus/).
 
 I have a Masters in Human Computer Interaction from Carnegie Mellon University,
 and a BSc (hon) in Mathematics and Computer Science from the University of
