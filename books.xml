@@ -5,8 +5,59 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2023-08-01T09:27:17-00:00</updated>
+  <updated>2023-09-25T22:32:36-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Empowered by Cagan &amp; Jones</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/empowered-by-cagan-jones"/>
+    
+    <updated>2023-09-17T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/empowered-by-cagan-jones</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>My skip-skip-skip level manager at work recommended it to all of his manager reports, and so I decided to read this book to get closer to the top brass. Overall it was a sobering read, actively reminding me how far my organization is from being customer-centric. The book mostly addresses product managers, but tries to also apply to leaders in general, and "product people" in particular. It's a bit unclear who these people are, but I suspect they include product-minded engineers and designers.</p>
+
+<p>Things I liked:</p>
+
+<ul>
+<li><strong>Coach-as-manager</strong>: Emphasis on coach-as-manager was interesting. "You can no longer be a good manager without being a good coach."</li>
+<li><strong>Build Right Thing</strong>: The goal of a product manager is to ensure that the features being built by the product engineering team are the right features to be building.</li>
+<li><strong>Product Discovery</strong>: The product development process is a process of discovery. It's like the product is already there, you just need to discover it, as opposed to inventing it from whole cloth.</li>
+<li><strong>PM's fault</strong>: for a product to be successful, all cross-functional stakeholders have to have been successful. But if a product is not successful, it's the fault of the product manager.</li>
+<li><strong>Platform vs. experience</strong>: Platform teams are not the same as experience teams and I strongly gravitate towards experience teams. The worst is when your experience team gets reorged to become a platform team.</li>
+<li><strong>Against the agency model</strong>: The authors advocate strongly against the agency model, which encourages employees to behave like mercenaries rather than like missionaries.</li>
+<li><strong>Strategy means focus</strong>:</li>
+<li><strong>Four big product risks</strong>: (<a class="wiki" href="https://z3.ca/Four_Big_Product_Risks">Four Big Product Risks</a>)
+<ol>
+<li>Value: will they buy it?</li>
+<li>Usability: will they figure out how to use it?</li>
+<li>Feasibility: can we build it?</li>
+<li>Business viability: will it work for the business?</li>
+</ol></li>
+</ul>
+
+<p>Things I did not like:</p>
+
+<ul>
+<li>Perpetuating Silicon Valley tropes:
+<ul>
+<li>Bill Campbell cult (reminds me of CB)</li>
+<li>Favorite essay is "Software is Eating the World". How trite!</li>
+</ul></li>
+<li>Unclear how lessons from this book apply to completely new products like Smart Glasses. How we be customer-centric in a world where we have no customers?</li>
+<li>Authors seem overly optimistic about equity based compensation as a way to perfectly align incentives. At a company the size of Google, I don't think that sufficiently aligns individual actions. Might work better at a smaller company though!</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Russian Revolutions by Mike Duncan</title>
@@ -5891,133 +5942,6 @@ Remedy:</p>
 <p>As usual, Illich does a good job of critiquing society, but path to specific solutions remains murky. Especially when it comes to the last sections on law and on politics, the writing becomes noticeably more vague, as if the author himself appears somewhat hazy on the right course of action.</p>
 
 <p>Thus, how to move a whole society towards Illich’s post-industrial convivial vision is unclear. The main way in which I can see operationalizing it is by changing one’s personal life to live more convivially: live near work, walk and bike more, genuinely care more about others, do less busy work, home school your children, be present for major life events, build your own house, host more guests, etc.</p>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Frank Herbert by Tim O’Reilly</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/frank-herbert-by-tim-oreilly"/>
-    
-    <updated>2020-10-10T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/frank-herbert-by-tim-oreilly</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <h1>Meta: things about “Frank Herbert”, its author, the style in which it is written.</h1>
-
-<ul>
-<li>I’ll be honest, I’m excited about the upcoming Dune movie. Prior failed attempts do not inspire confidence.</li>
-<li>How crazy is it that Tim O’Reilly wrote a book about Frank Herbert?</li>
-<li>Book reads as a sort of expose about Herbert’s intentions writing Dune.</li>
-<li>Good reminder about the series, which I first read probably more than 20 years ago. I’m due for a re-read.</li>
-<li>Lots of plot summarization, but this is necessary for the non-Dune corpus of Herbert’s works which I haven’t read.</li>
-</ul>
-
-<h1>Frank Herbert the Person</h1>
-
-<ul>
-<li>Thoroughly PNW. Born in Tacoma, grew up on Olympic and Kitsap in NW Wash. </li>
-<li>Lived in California, Oregon, returned to WA in 1969. "ecological demonstration project," an example of new-style "techno-peasantry”.</li>
-<li>His mother had ten sisters, who were extremely close and shared in his upbringing.  (Interesting echo of Bene Gesserit) Orne's escape from the Nathian influence might be construed—and this is purely conjectural—as reminiscent of Herbert's own escape from the confines of the family matriarchy.</li>
-</ul>
-
-<h1>The Romance of the Desert</h1>
-
-<ul>
-<li>Dune was inspired by the dunes of Oregon. Herbert was in Florence, Oregon to write a feature story about a government project on the control of sand dunes.</li>
-<li>In his research Herbert had noted how the desert seems to be a wellspring of religion. The history of Judaism demonstrates that harsh conditions make for a religion of anticipation.</li>
-<li>Like the Jews, the Fremen have long been wandering and persecuted, always awaiting the promised land. And like the Arabs, the scattered Fremen discover their religious and cultural identity at the call of a strong leader, and build a mystical warrior-religion moved by economic as well as religious factors.</li>
-</ul>
-
-<h1>References I missed when I first read Dune</h1>
-
-<ul>
-<li>The name Atreides was also consciously chosen. It is the family name of Agamemnon. Says Herbert, "I wanted a sense of monumental aristocracy, but with tragedy hanging over them—and in our culture, Agamemnon personifies that."</li>
-<li>Kierkegaard's "life is not a problem to be solved but a reality to be experienced" becomes a Bene Gesserit aphorism. Ecologist Paul B. Sears's statement, "the highest function of science is to give us an understanding of consequences" is expressed by Kynes as a fundamental ecological principle; and his "respect for truth comes close to being the basis for all morality" is recalled as a lesson Paul had received from his father.</li>
-<li>Much of the Bene Gesserit technology of consciousness is based on the insights of general semantics, a philosophy and training method developed in the 1930s by Alfred Korzybski. Herbert had studied general semantics in San Francisco at about the time he was writing Dune.</li>
-<li>Dune was written in 1963. It is predictive science fiction of the best kind. Oriental religion had not yet become widely popular in the West; only the most primitive biofeedback experiments were being conducted, and even those were being scoffed at by most scientists.</li>
-<li>Karl Jaspers's primary formulation—that human life is bounded by inescapable limits such as death, uncertainty, struggle, and guilt—is also central to Herbert's thought.</li>
-</ul>
-
-<h1>Heightened awareness and brain-body interdependency</h1>
-
-<ul>
-<li>I remember this feeling on my first read: “Herbert's technology of consciousness is so nearly an extrapolation from the self- evident that it gives the reader at least the illusion (perhaps more) that he can learn techniques of heightened awareness for himself. And it gives many the itch to try…”</li>
-<li>Still super fascinated by the brain-body loop. It was very interesting as part of my meditation forays. “Three quick breaths triggered the responses: he fell into the floating awareness… focusing the consciousness… aortal dilation…”</li>
-</ul>
-
-<h1>Echoes of Taleb in Dune and Herbert’s thought</h1>
-
-<ul>
-<li>Skin in the game “The willing assumption of personal risk is one of the primary elements that distinguishes Paul from the Bene Gesserit and the Spacing Guild…”</li>
-<li>More SITG: “The Pakistani described the difference between American and Soviet engineers in charge of foreign-aid projects: The Soviet would stand back and supervise the operation from a distance, while the American would roll up his sleeves and show them how it was done”. Unlike the Atreides, the Emperor and the Harkonnens (recall the Baron's given name, Vladimir) would never involve themselves in personal risk.</li>
-<li>Antifragility “Those who become utterly dependent on one means of mastery will find them- selves unable to cope with the future”</li>
-</ul>
-
-<h1>Dune demonstrates the perils of heros and hero worship.</h1>
-
-<ul>
-<li>Recalling the origins of Dune, Herbert says: It began with a concept: to do a long novel about the messianic convulsions which periodically inflict themselves on human societies. I had this idea that superheros were disastrous for humans.</li>
-<li>The person who experiences greatness… must have a strong sense of the sardonic. This is what uncouples him from belief in his own pretensions. The sardonic is all that permits him to move within himself. Without this quality, even occasional greatness will destroy a man.</li>
-<li>Herbert deliberately looked for this reaction from his readers. To Herbert, the hero mystique is symptomatic of a deadly pathology in contemporary society, a compulsive yearning for easy answers. As long as men are looking for simple solutions to their problems, they will give over their ability to think for themselves to the first person who comes along and promises a solution. The Dune trilogy is an attempt to unveil that pattern and, in some small part, to change it.</li>
-</ul>
-
-<h1>Avoid rigidity, aim to be more adaptable</h1>
-
-<ul>
-<li>“Strength lies in adaptability, not fixity. Civilization, on the other hand, tries to create and maintain security, which all too frequently crystallizes into an effort to minimize diversity and stop change.”</li>
-<li>In our culture, individuals are trained to believe the evidence of mechanical measuring devices rather than their own senses. A feverish patient believes a thermometer, not his own discomfort.</li>
-<li>"You never talk of likelihoods on Arrakis. You speak only of possibilities," says Kynes.</li>
-<li>Arrakis requires a willingness to flow with the environment rather than opposes and seek control of it.</li>
-<li>Deep: ‘Orne realizes the Abbod is right: "To strengthen a thing, oppose it… You become like the worst in what you oppose.”’</li>
-<li>Halmyrach Abbod's remark in "The Priests of Psi": "We have a very ancient saying: the more god, the more devil; the more flesh, the more worms; the more anxiety, the more control; the more control, the more that needs control."</li>
-<li>'It's like a drug habit," said the Abbod. "If you enforce peace, it will take greater and greater amounts of peace to satisfy you. And you will use more and more violence to obtain it. The cycle will end in cataclysm."</li>
-</ul>
-
-<h1>Against Psychohistory, Dune vs. Foundation</h1>
-
-<ul>
-<li>Bene Gesserit is found in a study of their literary antecedents. The Bene Gesserit are based in part on the scientific wizards of Isaac Asimov's Foundation trilogy.</li>
-<li>In contrast to the Foundation trilogy's exaltation of rationality's march to predicted victory, Dune proclaims the power and primacy of the unconscious and the unexpected in human affairs.</li>
-<li>This is essentially the assumption that science can produce a surprise-free future for humankind.</li>
-<li>I should be wary of this in my own attraction to super-forecasters. “messianic hunger is an example of a pervasive human need for security and stability in a universe that continually calls on people to improvise and adapt to new situations.” </li>
-</ul>
-
-<h1>Examples of Foxiness</h1>
-
-<ul>
-<li>As Herbert has emphasized, he is not a "hot-gospel ecologist," convinced that all man's interventions into nature are evil. Ecology, like all other creeds, is dangerous when it becomes an absolute.</li>
-<li>...there are no right answers and no complete doctrine. There are only answers and their consequences. What happens to people who follow any given set of beliefs? The subtleties of one doctrine as opposed to another are resolved not by logic but by looking at their effects.</li>
-</ul>
-
-<h1>How have films influenced books?</h1>
-
-<ul>
-<li>"I treat the reader's eye as a camera," Herbert says. There may be a generalized view of a scene, which is followed more and more by a concentration on the area in which the action is going to happen. Finally the eye is brought in for close-ups, "a hand tapping on the table, or somebody's mouth chewing the food."</li>
-</ul>
-
-<h1>Herbert is in favour of scenario planning, not prediction, just like Gordon</h1>
-
-<ul>
-<li>“I think it's a mistake to think about THE future, one future. We ought to think more of planning for futures as an art form, for quality of life. We have as many futures as we can invent.”</li>
-</ul>
-
-<h1>Interesting further reading after reading this book</h1>
-
-<ul>
-<li>Under Pressure: What the crew-except for one member does not know is that there are no habitable planets at Tau Ceti, and the real purpose of the mission is to create an artificial consciousness in the ship's computer...</li>
-<li>The Eyes of Heisenberg: Most of the book takes place in the "Seatac Megalopolis" </li>
-<li>The Santaroga Barrier: describes an ambiguous utopia. It makes real demands on the reader (Herbert hopes) in depicting a society that "half my readers would think was utopia, the other half would think was dystopia."</li>
-<li>Science Fiction and a World in Crisis essay.</li>
-<li>Alvin Toffler's Future Shock</li>
-</ul>
 
 
         

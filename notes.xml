@@ -5,8 +5,36 @@
   <title>Boris Smus (Notes)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2023-08-01T09:27:17-00:00</updated>
+  <updated>2023-09-25T22:32:36-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Five Links for Summer 2023</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2023/five-links-for-summer-2023"/>
+    
+    <updated>2023-09-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2023/five-links-for-summer-2023</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Five links that stood out to me over the summer:</p>
+
+<ul>
+<li><a href="https://medium.com/@komorama/the-live-oak-playbook-504000d0afa2">The Live Oak Playbook</a> (<em>Alex Komoroske</em>) — Invoking a botanical analogy, Alex argues that as our environment gets more harsh, the industry needs to adopt an approach more akin to an oak than to a eucalyptus. An insightful synthesis full of great, <a href="https://read.fluxcollective.org/">FLUX-y</a> ideas.</li>
+<li><a href="https://www.simoncross.com/p/the-circle-of-control">The Circle of Control</a> (<em>Simon Cross</em>) — Elaborating on the Serenity Prayer, a succinct visual metaphor to distinguish between 1) things you directly control, 2) things you can only indirectly influence, and 3) things that affect you, but you have no control or influence over.</li>
+<li><a href="https://www.theatlantic.com/magazine/archive/1886/12/the-dream-of-russia/522855/">The Dream of Russia</a> (<em>The Atlantic, 1886</em>) — In this Atlantic article written nearly 150 years ago, Cyrus Hamlin describes Russia's deeply held imperial ambitions, focusing on their desire to control Constantinople.</li>
+<li><a href="https://collabfund.com/blog/everything-is-cyclical/">Everything is Cyclical</a> (<em>Morgan Housel</em>) — Mountains grow from tectonic activity and then collapse under their own weight, victory has always sown the seeds of a fresh war, revolution brings with it counter-revolution, and so on.</li>
+<li><a href="https://www.invisibleoranges.com/death-metal-english/">Death Metal English</a> (<em>Invisible Oranges</em>) — A concise playbook for converting regular English into DEATH METAL ENGLISH. For example, "commuting to work" gets translated into TRANSPORTATION OF THE WAGEBOUND UNTO THE NEXUS OF PERPETUAL QUOTIDIAN ENSLAVEMENT.</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Five Links for Spring 2023</title>
