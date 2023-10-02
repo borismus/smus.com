@@ -66,7 +66,6 @@ The advantages that it brings are huge: no installation required, and
 ubiquitous cross platform compatibility. I took a practical look at
 games in the HTML5 mobile space, taking <a href="http://lostdecadegamesapp.appspot.com/">Onslaught!</a>, a particularly
 fun and well written game, and <a href="/mobile-html-games/onslaught/">porting it to Android/iPhone</a>. </p>
-
 <p>Perhaps porting is too strong a word here. Onslaught! runs and performs
 reasonably well on my Nexus One running Android 2.2.1. The only problem
 is that the game uses keyboard input, making it completely unplayable on
@@ -77,7 +76,6 @@ games.  At first I was inclined to build the controls by extending the
 game itself (using the canvas element), but then decided that an
 HTML-based approach is better (since it saves the trouble of hit
 detection), and might even work as a generic controller for other games.</p>
-
 <p>Hoping to create a general game controller for Android/iPhone, I sought
 to generate keyboard events from JavaScript, based on touch input. While
 this is possible if your key event handlers are written in a particular
@@ -89,49 +87,42 @@ then scaled to the device size using the <a href="http://www.quirksmode.org/mobi
 result is a mobile game that's playable on Nexus One, and
 not-quite-playable on iPod Touch (2nd gen) due to slower JavaScript
 execution. These are the only two devices I currently have access to, so
-I would appreciate it if you could [try it][porting it to
-Android/iPhone] on your Android or iOS device (in landscape mode) and
+I would appreciate it if you could <a href="/mobile-html-games/onslaught/">try it</a> on your Android or iOS device (in landscape mode) and
 let me know how it goes!</p>
-
-<p><a href="/mobile-html-games/onslaught/"><img src="/mobile-html-games/onslaught.png" alt="image" /></a> </p>
-
+<p><a href="/mobile-html-games/onslaught/"><img alt="image" src="onslaught.png" /></a> </p>
 <p>I ran into a few stumbling blocks as I was developing and testing this
 port, most of which involve the Android browser on Nexus One running
 Android 2.2.1.</p>
-
 <ol>
 <li>Very immature touch event (ontouchstart, ontouchend, etc) support.
-In fact, the <strong>browser doesn't seem to support multi-touch at all</strong>
-(ie. only one touch can be registered at a time). In contrast,
-Safari for iOS supports multitouch events quite well. For complete
-details, see this <a href="http://quirksmode.org/mobile/tableTouch.html">quirksmode writeup</a> and this <a href="http://code.google.com/p/android/issues/detail?id=11909">bug report</a>.</li>
+    In fact, the <strong>browser doesn't seem to support multi-touch at all</strong>
+    (ie. only one touch can be registered at a time). In contrast,
+    Safari for iOS supports multitouch events quite well. For complete
+    details, see this <a href="http://quirksmode.org/mobile/tableTouch.html">quirksmode writeup</a> and this <a href="http://code.google.com/p/android/issues/detail?id=11909">bug report</a>.</li>
 <li>The Android browser completely ignores many properties in the meta
-viewport element's content attribute. Specifically, the <strong>browser
-doesn't react to initial-scale, minimum-scale, maximum-scale and
-width</strong>. As a result, I had to hack around this issue by abusing an
-Android-only property called <a href="http://developer.android.com/reference/android/webkit/WebView.html">target-densityDpi</a>. I suspect that I
-may be doing something wrong here, since it's a pretty fundamental
-issue. Still I logged a <a href="http://code.google.com/p/android/issues/detail?id=11912">bug</a>.</li>
+    viewport element's content attribute. Specifically, the <strong>browser
+    doesn't react to initial-scale, minimum-scale, maximum-scale and
+    width</strong>. As a result, I had to hack around this issue by abusing an
+    Android-only property called <a href="http://developer.android.com/reference/android/webkit/WebView.html">target-densityDpi</a>. I suspect that I
+    may be doing something wrong here, since it's a pretty fundamental
+    issue. Still I logged a <a href="http://code.google.com/p/android/issues/detail?id=11912">bug</a>.</li>
 <li>Less significant but still noteworthy, the CSS <strong>:active selector
-does not activate</strong> on the Android browser (at least for div
-elements). The reference implementation is iOS, where a touchstart
-event on a div element causes it to become :active until a touchend
-event.</li>
+    does not activate</strong> on the Android browser (at least for div
+    elements). The reference implementation is iOS, where a touchstart
+    event on a div element causes it to become :active until a touchend
+    event.</li>
 </ol>
-
 <p>In the short term, HTML as a gaming platform is emerging as a real Flash
 killer. In the long term, I wouldn't be surprised if HTML games will be
 widely played on Mac, PC, TV console, and mobile phone platforms.
 Whatever happens, browsers will continue to be pushed to conform to
 modern specifications and perform ever better, making mobile rich web
 applications more and more feasible. </p>
-
 <p>In closing, many thanks to <a href="http://blog.lostdecadegames.com/">Lost Decade Games</a> team for writing such a
 sweet game and not obfuscating the JavaScript! Oh, and a reminder that
 if you're working on a HTML game, be sure to submit it to 
 <a href="http://mozillalabs.com/gaming/2010/09/30/game-on-2010-is-here/">Mozilla's Game On</a> contest, then add some touch controls and submit
 it to this <a href="http://www.html5contest.com/">mobile HTML game contest</a>. Let the games begin!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -69,14 +69,11 @@ message-passing mechanism between applications, but they are not exposed
 to web applications. The sample Android plugin I wrote is called
 WebIntent, which lets you create a first class Android applications in
 JavaScript.</p>
-
 <h2>WebIntent</h2>
-
 <p>Firstly, the WebIntent plugin is a means of creating Android activities
 via Intents. With just four parameters, <code>action, url, type, extras</code>,
 it's possible to get a lot of mileage from the Android OS. For example,
 you can send email: </p>
-
 <pre><code>Android.sendEmail = function(subject, body) { 
   var extras = {};
   extras[WebIntent.EXTRA_SUBJECT] = subject;
@@ -93,9 +90,7 @@ you can send email: </p>
   ); 
 };
 </code></pre>
-
 <p>Or, you can load Google Maps: </p>
-
 <pre><code>Android.showMap = function (address) {
   window.plugins.webintent.startActivity({
     action: WebIntent.ACTION_VIEW,
@@ -105,23 +100,19 @@ you can send email: </p>
   });
 };
 </code></pre>
-
 <p>Secondly, the plugin lets you react when your PhoneGap
 application gets invoked with certain intents. To do this, you need to
 setup correct intent-filters in the AndroidManifest.xml. For example, to
 respond to ACTION_SEND, something like the following should appear in
 the manifest: </p>
-
 <pre><code>&lt;intent-filter&gt; 
   &lt;action android:name="android.intent.action.SEND" /&gt;
   &lt;category android:name="android.intent.category.DEFAULT" /&gt;
   &lt;data android:mimeType="text/plain" /&gt;
 &lt;/intent-filter&gt;
 </code></pre>
-
 <p>Then, in the JavaScript, you can check what extras were specified during
 invocation:</p>
-
 <pre><code>// deviceready is PhoneGap's init event
 document.addEventListener('deviceready', function () {
   window.plugins.webintent.getExtra(WebIntent.EXTRA\_TEXT, function (url) {
@@ -131,15 +122,12 @@ document.addEventListener('deviceready', function () {
   });
 });
 </code></pre>
-
 <p>This lets you respond to Intents without writing native code. The plugin
 code is available for your use and/or perusal on <a href="https://github.com/phonegap/phonegap-plugins/tree/master/Android/WebIntent/">my github</a>. To install
 the plugin, move <a href="https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/webintent.js">webintent.js</a> to your project's www folder and include a
 reference to it in your html files. Create a folder called "borismus" within
 your project's src/com/ folder and move <a href="https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/WebIntent.java">WebIntent.java</a> into it.  </p>
-
 <h2>Writing Android PhoneGap Plugins</h2>
-
 <p>The PhoneGap project provides a <a href="http://blogs.nitobi.com/joe/2009/12/17/introducing-ponygap-phonegap-plugins-for-android/">plugin architecture</a>, which isn't very
 well documented. Perhaps as a result, there are very few Android plugins
 (see <a href="https://github.com/phonegap/phonegap-plugins/tree/master/Android/">the github</a>). There are two parts of an Android plugin: a native
@@ -147,21 +135,16 @@ Java class that extends <code>com.phonegap.api.Plugin</code>, and a JavaScript w
 for that Java class. The JavaScript wrapper registers the plugin with the
 PhoneGap plugin manager. A plugin API is defined in JavaScript, and exposed
 via <code>window.plugins.myplugin</code>. Calling the API is done as follows: </p>
-
 <pre><code>window.plugins.webintent.foo({ arg1: 'val1', arg2: 'val2', // etc });
 </code></pre>
-
 <p>The plugin API is defined in the <code>MyPlugin</code> JavaScript class:</p>
-
 <pre><code>var MyPlugin = function () {};
 MyPlugin.prototype.foo = function (params, success, fail) {
   return PhoneGap.exec(success, fail, 'MyPlugin', 'startActivity', [params]);
 };
 </code></pre>
-
 <p>The plugin needs to be registered with PhoneGap before it can be
 used. </p>
-
 <pre><code>PhoneGap.addConstructor(function () {
   // Creates window.plugins.myplugin, an instance of MyPlugin
   PhoneGap.addPlugin('myplugin', new MyPlugin()); 
@@ -169,11 +152,9 @@ used. </p>
   PluginManager.addService('MyPlugin', 'com.example.MyPlugin');
 });
 </code></pre>
-
 <p>Finally, there needs to be a Java class that actually implements the desired
 behavior. The execute method takes an action parameter, which is the name of
 the function (foo in this example), and an array of arguments: </p>
-
 <pre><code>public class MyPlugin extends Plugin {
   public PluginResult execute(String
   action, JSONArray args, String callbackId) {
@@ -183,7 +164,6 @@ the function (foo in this example), and an array of arguments: </p>
   }
 }
 </code></pre>
-
 <p>This architecture is the key to unlock any Android functionality to your
 PhoneGap-wrapped mobile web application. One of huge benefits of PhoneGap
 and mobile web is that it's a cross-platform solution. I admit that writing
@@ -191,7 +171,6 @@ platform-specific plugins seems counter-productive to this end. However
 until the mobile web gets the love it deserves (via extra sweet mobile
 browsers), there will be a place for platform-specific PhoneGap plugins to
 make web applications fit better into native mobile platforms.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

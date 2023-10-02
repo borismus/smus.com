@@ -63,7 +63,6 @@
 I've finally built a fully working piano playback robot. The usage is
 simple: someone plays or sings an arbitrary monophonic melody, and the
 robot, parked on a piano bench, will play it back.</p>
-
 <iframe class="youtube-16x9" title="YouTube video player"
   src="//www.youtube.com/embed/Bo0eCSkjy-0" frameborder="0"
   allowfullscreen></iframe>
@@ -74,35 +73,30 @@ single piano key. On either end of the car, there are sensors which detect if
 the robot has come too close to the edges of the piano bench. The simplicity of
 the robot comes at the price of significant limitations, such as only being
 able to play back melodies on the white keys. </p>
-
 <p>Software is the challenging part of the project. The Mindstorms sound sensor is
 too primitive to use for pitch analysis. Without hacking it, you can only
 extract the amplitude of the sound signal, not any frequency details.  Instead
 of the NXT sound sensor, I use a macbook pro and it's built-in microphone. A
 computer separate from the NXT is involved, so an additional set of
 communication problems arose. </p>
-
 <p>Here's a rough outline of happens to make the playback work, from capturing the
 melody line to playing the melody back.</p>
-
 <ol>
 <li>On the mac, using a <a href="http://appscript.sourceforge.net/">Python AppleScript bridge</a>, the QuickTime
-Player is invoked and starts capturing audio.</li>
+    Player is invoked and starts capturing audio.</li>
 <li>Once the audio is captured into an AIFF file, a very useful 
-<a href="http://aubio.org/">pitch detection library</a> called aubio processes the audio file and
-extracts raw frequency-to-time data, sampled at some tick rate.
-Compiling this library on OS X was quite a feat!</li>
+    <a href="http://aubio.org/">pitch detection library</a> called aubio processes the audio file and
+    extracts raw frequency-to-time data, sampled at some tick rate.
+    Compiling this library on OS X was quite a feat!</li>
 <li>Next, the raw data is processed by throwing out extraneous values
-and extracting a melody</li>
+    and extracting a melody</li>
 <li>Once we have the melody line, we inject it into <a href="http://bricxcc.sourceforge.net/nbc/">an NXC program</a>,
-and compile it with the nbc compiler</li>
+    and compile it with the nbc compiler</li>
 <li>This program is then sent via bluetooth to the robot via nxtcom</li>
 <li>Using <a href="http://home.comcast.net/~dplau/nxt_python/">NXT_Python</a> and <a href="http://www.cs.wlu.edu/~levy/software/nxt_lightblue_glue/">Lightblue Glue</a>, the robot is told to
-execute the program.</li>
+    execute the program.</li>
 </ol>
-
 <p>Please let me know if you have any questions or suggestions!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

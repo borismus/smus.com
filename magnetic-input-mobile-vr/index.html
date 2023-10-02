@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="It's easy to do, just follow these steps:      Cut two holes in a box   Put your phone in that box   Look inside the box       And that's the way you do it .    Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
+  <meta name="description" content="It's easy to do, just follow these steps:     Cut two holes in a box   Put your phone in that box   Look inside the box      And that's the way you do it .   Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/magnetic-input-mobile-vr/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Magnetic Input for Mobile VR" />
-  <meta name="twitter:description" content="It's easy to do, just follow these steps:      Cut two holes in a box   Put your phone in that box   Look inside the box       And that's the way you do it .    Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
+  <meta name="twitter:description" content="It's easy to do, just follow these steps:     Cut two holes in a box   Put your phone in that box   Look inside the box      And that's the way you do it .   Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/magnetic-input-mobile-vr/" />
   <meta property="og:title" content="Magnetic Input for Mobile VR" />
-  <meta property="og:description" content="It's easy to do, just follow these steps:      Cut two holes in a box   Put your phone in that box   Look inside the box       And that's the way you do it .    Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
+  <meta property="og:description" content="It's easy to do, just follow these steps:     Cut two holes in a box   Put your phone in that box   Look inside the box      And that's the way you do it .   Your smartphone is now in a box, so how do you do input? Now that we have a  paper  accepted to  ISWC 2015 , I can tell you!" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,66 +60,47 @@
     <a href='/magnetic-input-mobile-vr'><h1 class='title'>Magnetic Input for Mobile VR</h1></a>
     <div class='body'>
       <p>It's easy to do, just follow these steps:</p>
-
 <ol>
 <li>Cut two holes in a box</li>
 <li>Put your phone in that box</li>
 <li>Look inside the box</li>
 </ol>
-
 <p><a href="https://www.youtube.com/watch?v=ABrSYqiqvzc&amp;t=1m42s">And that's the way you do it</a>.</p>
-
 <p>Your smartphone is now in a box, so how do you do input? Now that we have a
 <a href="/magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">paper</a> accepted to <a href="http://iswc.net/">ISWC 2015</a>, I can tell you!</p>
-
 <!--more-->
 
 <h2>It's not easy being in a box</h2>
-
 <p>Let me remind you: your smartphone is still in a box. This means that your
 fingers can't reach the touch screen or the volume buttons. Let's consider a
 couple of input alternatives:</p>
-
 <ul>
 <li>Cameras and microphones require extra app permissions, are inefficient to keep
-always on, and may face many false positives.</li>
+    always on, and may face many false positives.</li>
 <li>External electronic devices cost money. Plugging them in and out is a
-usability nightmare.</li>
+    usability nightmare.</li>
 </ul>
-
 <p>Ok, let's nix those. How about permanent magnets? They are inexpensive, robust,
 require no power to operate, and do not degrade over time. The vast majority of
 smartphones have a magnetometer, which is used for the compass. Intriguing...</p>
-
 <h2>Fun with permanent magnets</h2>
-
 <p>In 2009, Chris Harrison and Scott Hudson published <a href="http://www.chrisharrison.net/index.php/Research/Abracadabra">Abracadabra</a>, a
 magnetic ring form factor for finger interactions with small devices:</p>
-
-<p><img src="/magnetic-input-mobile-vr/abra.jpg" alt="Abracadabra" /></p>
-
+<p><img alt="Abracadabra" src="abra.jpg" /></p>
 <p>In 2010, Hamed Ketabdar and others published <a href="https://www.facebook.com/MagiTact">Magitact</a>, instead using
 a magnetic rod for more varied interactions near smartphones:</p>
-
-<p><img src="/magnetic-input-mobile-vr/magitact.jpg" alt="Magitact" /></p>
-
+<p><img alt="Magitact" src="magitact.jpg" /></p>
 <p>In 2011, Daniel Ashbrook and others published <a href="http://dl.acm.org/citation.cfm?id=1979238">Nenya</a>, which is similar
 to Abracadabra, but focused more on the eyes-free input aspects:</p>
-
-<p><img src="/magnetic-input-mobile-vr/nenya.jpg" alt="Nenya" /></p>
-
+<p><img alt="Nenya" src="nenya.jpg" /></p>
 <p>In 2013, Sungjae Hwang and others published <a href="https://www.youtube.com/watch?v=_sSgp0hD-jk">Maggetz</a>, which used
 passive magnets to build all sorts of widgets around the device:</p>
-
-<p><img src="/magnetic-input-mobile-vr/maggetz.jpg" alt="Maggetz" /></p>
-
+<p><img alt="Maggetz" src="maggetz.jpg" /></p>
 <h2>Fucking magnets: how do they work?</h2>
-
 <p>Magnets affect the magnetometer in an <a href="https://www.quora.com/Why-does-the-magnetic-field-obey-an-inverse-cube-law">inverse-cubic relationship</a>, so
 distance between magnet and magnetometer really makes a dramatic difference in
 signal strength. We empirically determined that in most phones, the sensor is
 placed at the top of the device, near the earpiece:</p>
-
 <table>
 <tr><th>Smartphone Model</th><th>Sensor Location</th></tr>
 <tr><td>Moto X</td><td>Top</td></tr>
@@ -135,16 +116,13 @@ placed at the top of the device, near the earpiece:</p>
 of the HTC M7, or broken, like in some models of the Galaxy Nexus we tested
 with. There's little that we can do in these cases, but luckily they are quite
 rare.</p>
-
 <p><img src="/magnetic-input-mobile-vr/calibration.png" class="floatright" title="Plot of calibration events"/></p>
-
 <p>The way you access the magnetometer on Android is via the sensor stack,
 requesting the <code>TYPE_MAGNETIC_FIELD</code> sensor. This is a calibrated sensor, since
 it's primarily used to determine the direction of magnetic north for the
 compass. Calibration means that somewhere deep inside Android, software and
 hardware periodically calibrates the output of the sensor. When calibration
 occurs, magnetometer readings effectively reset to some new coordinate system.</p>
-
 <p>Calibration can happen at any point, and the calibration pattern can look quite
 different depending on the device. In some cases, it's a gradual calibration,
 not a sudden spike as above. This limitation restricts what we can reliably
@@ -153,13 +131,10 @@ has provisions for an uncalibrated magnetometer via
 <code>TYPE_MAGNETIC_FIELD_UNCALIBRATED</code>, but this sensor is not nearly as ubiquitous
 as its calibrated cousin. Even so, we should be robust to phone insertions and
 removals from Cardboard, which can also look like calibration events.</p>
-
 <h2>Magnetic input for VR</h2>
-
 <iframe width="853" height="480" src="//www.youtube.com/embed/a53a-9FLdL8" frameborder="0" allowfullscreen></iframe>
 
 <p><img src="/magnetic-input-mobile-vr/mechanism.png" class="floatright" title="Interaction mechanism"/></p>
-
 <p>As you can see, the interaction involves pulling the magnet downward, and
 releasing it. The magnetic ring automatically returns to its rest position
 because of the force exerted on it by an internal magnet. The external magnet is
@@ -169,21 +144,16 @@ magnet is constrained by a cardboard indentation, so it can only move downward.
 The thing I find most elegant about this design is that both the digital signal
 to the smartphone and the physical mechanism itself relies on the same
 principle: magnetism.</p>
-
 <p>We collected a bunch of data for this pull-and-release interaction from many
 devices. We found that most devices behave predictably well. Here's a combined
 plot of normalized, superimposed positives and negatives from all phones which
 we collected data from, with each dimension of the magnetometer vector plotted
 separately.</p>
-
-<p><img src="/magnetic-input-mobile-vr/all_features.png" alt="Image of the true positives and negatives from all phones." /></p>
-
+<p><img alt="Image of the true positives and negatives from all phones." src="all_features.png" /></p>
 <p>The detector we built was not based on a template learned from all of the data
 above, but a simpler state machine based on thresholding. The thresholds
 themselves were learned empirically. Here's the simple state machine:</p>
-
-<p><img src="/magnetic-input-mobile-vr/state_machine.png" alt="State machine of the detector" /></p>
-
+<p><img alt="State machine of the detector" src="state_machine.png" /></p>
 <p>The basic idea is that we take a sliding window approach, normalizing all of the
 data relative to the last value in the window. For each window, we calculate <code>min_1</code>,
 which is the smallest value of the first half of the window, and <code>max_2</code>, the
@@ -192,51 +162,39 @@ thresholds perform the appropriate transition in the state machine. I won't bore
 you with details of normalizing the data, etc but you can find all of the
 details in <a href="/magnetic-input-mobile-vr/mimvr-iswc-2015.pdf">the paper</a>. Oh, and all of the code is also available <a href="https://github.com/dodger487/MIST">on
 github</a>.</p>
-
 <h2>What's next?</h2>
-
 <p><img src="/magnetic-input-mobile-vr/joystick.jpg" class="floatright" title="Hypothetical magnetic joystick"/></p>
-
 <p>A lot more can be done using passive magnetic input. With uncalibrated
 magnetometers, there is no fear of calibration events, so we could implement a
 faster detector based on just the down motion of the magnet. We could reliably
 detect long presses and double clicks. Alternatively, extensions to the existing
 input can be implemented by simply changing the geometry of the physical
 constraints, such as a joystick form factor.</p>
-
 <p>I'm incredibly happy that Cardboard has been doing so well. Thanks to the great
 team working so hard on it, there are now <a href="http://techcrunch.com/2015/05/28/google-has-shipped-over-1-million-cardboard-vr-units/">over 1 million units shipped</a>.
 The press has been happy with it too, with kind reviews from many tech
 publications.</p>
-
 <p><a href="http://techcrunch.com/2014/06/25/hands-on-with-googles-incredibly-clever-cardboard-virtual-reality-headset/">Techcrunch</a> said:</p>
-
 <blockquote>
-  <p>This funny little cardboard faux-Rift has something even the original Rift
-  itself does not: a built-in button. Your phone is able to sense the magnet’s
-  movement, allowing it to act as a ridiculously clever little button. Yeesh.</p>
+<p>This funny little cardboard faux-Rift has something even the original Rift
+itself does not: a built-in button. Your phone is able to sense the magnet’s
+movement, allowing it to act as a ridiculously clever little button. Yeesh.</p>
 </blockquote>
-
 <p><a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/google-cardboard-everything-you-need-to-know-1277738">Techradar</a> said:</p>
-
 <blockquote>
-  <p>What's also somewhat amazing is the magnet on the side. […] The little magnet
-  on the side is actually a quite ingenious design aspect of Google Cardboard.
-  It's a button!</p>
+<p>What's also somewhat amazing is the magnet on the side. […] The little magnet
+on the side is actually a quite ingenious design aspect of Google Cardboard.
+It's a button!</p>
 </blockquote>
-
 <p><a href="http://www.engadget.com/2014/12/10/google-cardboard/">Engadget</a> said:</p>
-
 <blockquote>
-  <p>One of the things I liked most was a switch located on the left temple, which
-  consists of just a couple of magnets and a metal ring.</p>
+<p>One of the things I liked most was a switch located on the left temple, which
+consists of just a couple of magnets and a metal ring.</p>
 </blockquote>
-
 <p><a href="http://www.google.com/get/cardboard/downloads/wwgc_manufacturers_kit_v2.0.zip">Future versions of Cardboard</a> are switching to a different input method
 using a conductive button which brings your body's capacitance to the screen,
 similar to how a touch stylus works. It's cheaper without them, and the new
 input works well, but I'll definitely miss the magnets!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

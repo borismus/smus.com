@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .    At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.     Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
+  <meta name="description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .   At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.    Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/ebb-of-the-web/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="The ebb of the web" />
-  <meta name="twitter:description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .    At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.     Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
+  <meta name="twitter:description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .   At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.    Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/ebb-of-the-web/" />
   <meta property="og:title" content="The ebb of the web" />
-  <meta property="og:description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .    At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.     Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
+  <meta property="og:description" content="Tech pundits like to lament that the web has  no viable future , while web idealists hold that in fact the web is totally fine, with a "too big to fail"  sort of attitude .   At the root of this disagreement are poorly defined terms. The web can mean many different things to different people. Though it started from a pretty abstract notion of a series of interlinked documents, it has now evolved to refer to a very specific technology stack of hyperlinked HTML documents styled with CSS, enhanced with JavaScript, all served on top of HTTP. In light of an increasing movement away from desktop-style computing, we've seen a big shift away from the web in mobile platforms.    Let's take apart this gob of web technology in light of the increasingly complex landscape of computing and try to make sense of what the web is and where it's going." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -62,7 +62,6 @@
       <p>Tech pundits like to lament that the web has <a href="http://cdixon.org/2014/04/07/the-decline-of-the-mobile-web/">no viable
 future</a>, while web idealists hold that in fact the web is
 totally fine, with a "too big to fail" <a href="http://schepers.cc/the-recline-of-the-mobile-web">sort of attitude</a>.</p>
-
 <p>At the root of this disagreement are poorly defined terms. The web can
 mean many different things to different people. Though it started from a
 pretty abstract notion of a series of interlinked documents, it has now
@@ -70,27 +69,21 @@ evolved to refer to a very specific technology stack of hyperlinked HTML
 documents styled with CSS, enhanced with JavaScript, all served on top
 of HTTP. In light of an increasing movement away from desktop-style
 computing, we've seen a big shift away from the web in mobile platforms. </p>
-
 <p>Let's take apart this gob of web technology in light of the increasingly
 complex landscape of computing and try to make sense of what the web is
 and where it's going.</p>
-
-<p><img src="/ebb-of-the-web/webiness.png" alt="A framework for webiness" /></p>
-
+<p><img alt="A framework for webiness" src="webiness.png" /></p>
 <!--more-->
 
 <h2>Webiness: how far down the rabbit hole?</h2>
-
 <p>I want to introduce the concept of webiness, a framework for evaluating
 how deeply an application embraces "the web":</p>
-
 <p>Games are typical examples of apps that are <strong>pure native</strong> and not
 webby at all (barring high score servers, etc). Because many are
 playable offline, with no added benefit of having an internet
 connection, there is obviously no room for web. They are built entirely
 on native APIs, benefiting from being as close to the hardware as
 possible for performance reasons.</p>
-
 <p>Another class of native apps are Twitter, Facebook and the like, which
 essentially act as <strong>specialized browsers</strong>. They largely use HTTP to
 access RESTful endpoints that serve up JSON, which is rendered by the
@@ -100,14 +93,12 @@ for that purpose and doesn't need to deal with processing the web's
 presentation layer (HTML, CSS, JavaScript). Therefore it presents a
 more focused experience and benefits from being faster at start-up and
 during interaction, offline support, and a generally better experience.</p>
-
 <p><strong>Embedded browsers</strong> (also called hybrid apps) embed a webview into the
 user interface of the page to use the web's presentation layer for part
 of the user interface. How much of the user interface is created using
 web technologies varies widely. This approach is beneficial because it
 allows web developers to be featured in app stores, and also gives them
 access to native APIs that are not available on the open web.</p>
-
 <p>Lastly, <strong>browser-based</strong> pages and apps are ones where even the code
 itself is fetched over HTTP. The app is written in a cross-browser way
 to ensure that regardless of which browser loads the page, the user is
@@ -116,16 +107,13 @@ to write once, deploy everywhere. Like the other types of apps on our
 spectrum, these also use HTTP to interact with the server. All of the
 content is rendered using HTML/CSS/JavaScript. Additionally, the HTML is
 often hyperlinked.</p>
-
 <h2>The web as greatest common divisor</h2>
-
 <p>In mathematics, the greatest common divisor (GCD) between multiple
 digits is the largest positive integer that divides the numbers without
 a remainder. Observe that the GCD of a set of numbers (S) is by
 definition less than or equal to each number. Furthermore, if the
 numbers in S are not multiples of one another, the inequality
 becomes strict. So <code>foreach n in S, gcd(S) &lt; n</code>.</p>
-
 <p>In the webbiest case above, where we write once for all browsers, the
 web user interface becomes the GCD for all existing interfaces. It is
 guaranteed to be slower, less featureful, etc, than each individual
@@ -136,15 +124,12 @@ a physical keyboard, mouse, and relatively large display at, let's say
 1024x768 pixels. At best, variance was between operating systems. The
 computer geeks were on the Linux fringe. The art and music geeks used
 Macs. But the hardware was pretty much the same.</p>
-
 <p>Because of this uniformity, it was easy to standardize on a set of input
 and outputs that would work reasonably well across a bunch of existing
 computer configurations and operating systems. Computer hardware was all
 very similar, just off by some factor. And the GCD of this orderly set
 was pretty large: <code>gcd(200, 300, 400) = 100</code>.</p>
-
 <h2>We're not in Kansas anymore</h2>
-
 <p>Contrast this uniformity to today, when our mots du jour are "mobile
 first", or even "mobile only". But even these notions are becoming
 passé, as our day-to-day tech encounters start including wearable
@@ -157,7 +142,6 @@ web hasn't even recovered from the fact that screens have gotten
 smaller. With today's extended notion of computing, the GCD of all
 of the devices and use cases the web is trying to support becomes very
 small: <code>gcd(100, 200, 300, 50, 99, 198, 33) = 1</code>.</p>
-
 <p>At the same Edge conf panel on the future of the web, somebody
 asked the question of how the web would work on hardware without a
 display. Answers from the panel were incoherent, but it's unclear how
@@ -167,7 +151,6 @@ notion of <strong>THE WEB</strong> as a single platform. This is both its greate
 strength, and ultimately its tragic flaw, as the legacy of the early 90s
 causes the singular web to cave in on itself, as we are experiencing
 today.</p>
-
 <p>We can no longer have a one-web-for-all approach. We need to focus on
 having many different webs, each specializing on a particular subset of
 our universe of devices. Taking our set above, we can split it in two
@@ -175,21 +158,17 @@ subsets, <code>S1 = {100, 200, 300, 50}</code>, and <code>S2 = {99, 198, 33}</co
 S1 are the desktop-like devices, and S2 are the phone-like devices. Now,
 we have pretty okay GCDs: <code>gcd(S1) = 50</code>, and <code>gcd(S2) = 33</code>. Our worst
 case GCD is now 33, which is a lot better than 1!</p>
-
 <h2>The web is dead, long live the web!</h2>
-
 <p>I'm pretty sure that HTTP is here to stay. Our desire for content is
 universal, and that content needs to live somewhere. Regardless of how
 that content is presented to us, it is likely to be served to us through
 the cloud, over HTTP in the forseeable future.</p>
-
 <p>What is indisputably being downplayed in the vibrant and variant near
 future of computing, is the web's presentation layer - HTML, JavaScript
 and CSS. These comprise the lingua franca of the web, and have no real
 competition. However, this browser-served presentation layer of the web
 will become less relevant as fewer things are done through the browser,
 especially on mobile platforms.</p>
-
 <p>To me, the critical thing is that content be addressable by URL, and
 cross-linkable in some reasonable way. This is conventionally achieved
 with HTML's <code>&lt;a&gt;</code> elements, but can also be done with JavaScript (eg. a
@@ -199,14 +178,11 @@ even be done without HTML at all. As long as we continue using HTTP, we
 are guaranteed to have content that is available at a given URL. And as
 long as we can guarantee that there's some handler for that content, the
 spirit of the web lives on.</p>
-
 <h2>Specialized browsers are a good solution</h2>
-
 <p>RSS readers are good examples of specialized browsers focused on
 presenting a good reading experience to the user. They are a single
 entry point for all of the interesting things on the internet for the
 user to read.</p>
-
 <p>The Twitter app on your mobile device is an example of a specialized
 browser designed for reading and sending tweets. This specialized
 browser relies on the web's ability to link to various kinds of content
@@ -214,7 +190,6 @@ addressable by URLs. Tweets typically include an article or an image
 which are served up using HTTP, and sometimes require HTML to render.
 Twitter is all about hyperlinked content, without ever using an <code>&lt;a&gt;</code>
 tag.</p>
-
 <p>Apple also has several projects that are specialized browsers in spirit,
 though they rarely link out to the wild west of the world wide
 web. Generally, these specialized browsers focus on giving a great
@@ -225,7 +200,6 @@ event tickets, boarding passes and coupons. From a developer
 perspective, both of these browsers require you to setup a server and
 write some iOS code. (Unfortunately you're then stuck in Apple's
 ecosystem forever.)</p>
-
 <p>By identifying common patterns of functionality, Apple is able to
 successfully introduce a specialized browser notion that spans across
 multiple services, unifying it with a consistent user experience. This
@@ -234,7 +208,6 @@ everything</a>. Of course you don't want separate apps for
 NYTimes, WSJ, USA Today, LA Times, etc. And of course you don't want
 separate apps for each event booking service, airline and coupon
 company.</p>
-
 <p>The problem is endemic to the web community. The standards process
 behemoth is slow, heavy and change-averse. Its focus is on a monolothic
 web, <strong>THE WEB</strong>. Imagine if we focused on use cases in the same way
@@ -245,7 +218,6 @@ one another. There would be a browser for that sub-web, providing a good
 experience to see historical data, analyze trends, and plot data over
 time. This is not the stuff of a web browser, but a completely different
 beast.</p>
-
 <p>Android's intent filters are a step in the direction of a specialized
 browser. Intent filters let apps register to handle specific URL
 patterns. If the URL pattern is opened by the user, she is presented
@@ -256,9 +228,7 @@ stuck. Unless the app provides the ability to share content, there's no
 way to send your state to someone else. In contrast, with a web browser,
 you just take the URL and send it to your friend and if they have access
 to that content, they get to see it.</p>
-
 <h2>The web, the good parts</h2>
-
 <p>When tech pundits hail the ebb of the web, they mean that mobile native
 apps are eating away at the presentation layer on the mobile web and
 beyond. After some contemplation, I have made peace with this
@@ -268,7 +238,6 @@ commonly used, but that does not make it a very good language. The
 presentation layer is optimized for content consumption using pointers
 and keyboard input, or if you're really adventurous, a smaller touch
 screen.</p>
-
 <p>Apps are another story. Frameworks like iOS and Android provide a much
 more modern, cogent way of developing apps for mobile platforms. But
 unfortunately they aren't linkable or portable across platforms. As I
@@ -276,31 +245,26 @@ mentioned earlier, there's no need for <code>&lt;a&gt;</code> elements, or anyth
 the presentation layer to preserve benefits of linkability. But what
 does the web look like once we've gutted the presentation layer?  Here
 are some characteristics that we should preserve:</p>
-
 <ul>
 <li>The ability to take any content that is currently being shown and
-serialize it into a URL.</li>
+  serialize it into a URL.</li>
 <li>The ability to open a URL with the right specialized browser of the
-user's choosing.</li>
+  user's choosing.</li>
 <li>If no specialized browser is installed, some way of presenting the
-user with a list of good browsers.</li>
+  user with a list of good browsers.</li>
 </ul>
-
 <p>By dropping the notion of <strong>THE WEB</strong> (singular), and ushering an era of
 specialized browsers, we can split our universe of devices into subsets
 and increase the baseline greatest common denominator. Trying to extend
 the web to work for every possible case will lead to even more feature
 creep in a web platform that is already keeling over.</p>
-
 <p>The web community should take a look at verticals and spec and build
 specialized browsers for them. How would a web for boarding passes,
 concert tickets and coupons look like? How about a web for personal
 health tracking data? A web for content that should be consumed on an
 audio-only device?</p>
-
 <p>This has been my slightly edited brain dump on the future of the web.
 Thanks for reading, I eagerly await your thoughts :)</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -65,81 +65,64 @@ Bros</a> and <a href="http://chrome.angrybirds.com">Angry Birds</a> prove that i
 create competitive gaming experiences in the browser. Games like these are
 possible thanks largely to the modern web stack which includes WebGL, the Web
 Audio API, Web Sockets and others.</p>
-
 <p>Often forgotten, however, is the less sexy story of loading game assets. As the
 web platform progresses and allows for increasingly complex games, game assets
 (ex. textures, movies, music and images) grow in size and number, and asset
 management becomes a sticking point for game developers.</p>
-
 <p>Let me share with you some truths:</p>
-
 <ol>
 <li>Modern games require gigabytes of assets (textures, movies, etc)</li>
 <li>Gamers don't like waiting for their game to load</li>
 <li>Browser gamers want to be able to play regardless of internet connectivity</li>
 </ol>
-
 <p>"But wait," you say, "I know! Just use the <a href="http://diveintohtml5.org/offline.html">Application Cache</a>
 and yer done!". Not so fast, dear reader... As described below, there are
 problems with this approach, and I propose some solutions.</p>
-
 <h1>Problems with Application Cache</h1>
-
 <p>So you've started implementing your awesome asset loading solution using
 AppCache. The good news is that there are some useful tools to help you debug
 if you have taken this difficult route:</p>
-
 <ol>
 <li>You can get basic information about the site's app cache through the
-Developer Tools' <a href="http://code.google.com/chrome/devtools/docs/resources.html">resource panel</a>.</li>
+   Developer Tools' <a href="http://code.google.com/chrome/devtools/docs/resources.html">resource panel</a>.</li>
 <li>You can view (and remove!) caches stored in Chrome by navigating to
-<code>chrome://appcache-internals/</code>.</li>
+   <code>chrome://appcache-internals/</code>.</li>
 </ol>
-
 <p>But let me be blunt: <strong>AppCache is annoying to deal with</strong>. If you've made a
 small error in your cache manifest file, you'll quickly hit a brick
 wall. I ran into an issue where I forgot to include a <code>NETWORK:</code>
 fallback clause, and wasted hours trying to figure out why all of my
 XHRs were responding with status 0.</p>
-
 <p>Part of what makes AppCache difficult to debug is its very <strong>limited
 JavaScript API</strong>. Aside from letting you inspect the status of the entire cache
 with <code>window.applicationCache</code> and the <code>updateready</code> event, AppCache doesn't
 give us much to work with. There's no way to tell if a particular resource
 we're dealing with is cached or not and no programmatic way of clearing the
 cache.</p>
-
 <p>AppCache takes a fully transactional approach to asset loading.  Either
 the cache is fully loaded, or fully unloaded. Compounding this issue,
 it's impossible to resume the download of an AppCache. Thus, if you have
 a large amount of assets, your user will have to <strong>wait a long time for
 everything to be loaded</strong>, and if they reload, they will need to restart
 their cache download.</p>
-
 <p>Lastly, you can only include one cache manifest per page, making it
 <strong>impossible to group assets</strong> into multiple bundles. There are hacks that
 use multiple iframes with different cache manifests to work around this
 limitation (used in <a href="http://chrome.angrybirds.com">Angry Birds</a>), but these are ugly!</p>
-
 <p>Ultimately, what we need is a well-thought-out Application Cache
 enhancement or replacement. Given how quickly web standards bodies move,
 I've started thinking a bit about a transitional solution.</p>
-
 <h1>Designing a game asset loader</h1>
-
 <p>An ideal asset loading solution requires some of these features:</p>
-
 <ol>
 <li>Granular asset loading. Load all, in groups, or individually.</li>
 <li>No asset size limits.</li>
 <li>Offline capability.</li>
 <li>Programatic control over assets.</li>
 </ol>
-
 <p>It makes sense to group assets in bundles and let the loader take care
 of the details. We can even create a custom manifest format, for
 example, in JSON format:</p>
-
 <pre><code>{
   "assetRoot": "./media/",   // The root of the assets.
   "bundles": [{
@@ -163,10 +146,8 @@ example, in JSON format:</p>
   "autoDownload": false      // If true, download all in order.
 }
 </code></pre>
-
 <p>With this manifest format in mind, sample API usage might look like
 this:</p>
-
 <pre><code>// Load the asset library.
 var gal = new GameAssetLoader('/path/to/gal.manifest');
 
@@ -189,23 +170,18 @@ gal.onProgress('core', function(status) {
   console.log('status:', status.current/status.total, '%');
 });
 </code></pre>
-
 <p>Note that although I've been using the name Game Asset Loader, this
 approach can be used for loading any large non-game assets, such as for
 example, a video or photo gallery.</p>
-
 <h1>Implementation details</h1>
-
 <p>Luckily, the modern web stack enables us to create a custom solution to
 address all of these requirements. By leveraging technologies such as
 the HTML5 Filesystem API or Indexed DB, we have programmatic access to
 a storage mechanism that we can use to build an asset loader described
 here.</p>
-
 <p>I used the <a href="http://www.html5rocks.com/en/tutorials/file/filesystem/">Filesystem API</a> to implement a version of the asset
 loader. The code requests a large amount of persistent storage using the 
 <a href="https://groups.google.com/a/chromium.org/group/chromium-html5/msg/5261d24266ba4366?dmode=source">Quota API</a>, which is undocumented, but works anyway:</p>
-
 <pre><code>// Get quota.
 storageInfo.requestQuota(window.PERSISTENT, quota,
   onQuotaGranted, onError);
@@ -226,21 +202,16 @@ function onInitFS = function(fs) {
   }, onError);
 };
 </code></pre>
-
 <p>The approach fetches assets with <code>XMLHttpRequest</code>, and stores them in the
 filesystem. All files in the filesystem are accessible via the <code>filesystem://</code>
 schema, and can be used as any other resource. This filesystem URL is returned
 by the library in the <code>get(path)</code> call.</p>
-
 <p>Note that the writable HTML5 filesystem API is currently available in Chrome
 only, but that it's quite possible to use IndexedDB (supported in Firefox and
 IE10) as the data store.</p>
-
 <h1>Usage scenarios</h1>
-
 <p>The following section briefly describes what the game asset loader (GAL) does
 in several scenarios.</p>
-
 <p>Player goes to game.com which uses the game asset loader. The game calls
 <code>gal.download('core')</code> to download core assets and
 <code>gal.download('level1')</code> to load the first level into the player’s
@@ -248,27 +219,22 @@ filesystem. While the core bundle loads, the game displays a loading
 indicator. Once core is loaded, the game displays the main menu. As soon
 as the first level is loaded, the "Play now" button is enabled. As the
 player plays, the GAL downloads more of the levels in the background.</p>
-
 <p>Next time, the player tries playing offline. He goes to game.com, whose
 code is cached via AppCache, and loads GAL again. This time GAL knows it’s
 offline, looks up its manifest stored on the filesystem and doesn’t try to
 download new assets. The old assets still work though.</p>
-
 <p>Player is still offline, making good progress, and beats level 5, but
 there are no assets downloaded for level 6. Luckily, before starting
 each level, the game calls <code>gal.download('levelBundle')</code> to make sure
 that the contents of that bundle are downloaded. The callback returns an
 error and the game displays an error telling the player that he needs to
 be online to download the next level.</p>
-
 <p>So the player goes online and tries again. GAL re-downloads a manifest.
 Next, GAL tries re-downloading every asset that the JS requests. Luckily most
 of these assets are still in the browser cache, and won't be re-downloaded. The
 loader then saves all of the assets in the filesystem, clobbering old files
 indiscriminately. (This is bad, and needs to be fixed. Read on!)</p>
-
 <h1>Future work</h1>
-
 <p>In particular, re-downloading every asset while online is not desirable
 behavior, and we can't always rely on the browser cache for this. For
 smaller files, we can probably rely on ETag and Last-Modified headers
@@ -277,24 +243,20 @@ and hopefully the browser won't re-download the files. However, the
 it's unmodified</strong>. This needs to be fixed. Large files are not likely to be
 cached by the browser, so we will need more intelligent <strong>caching built into
 the asset loader itself</strong>.</p>
-
 <p>There are other edge cases that need to be considered, such as what happens
 when an <strong>asset is removed from a manifest</strong>. Ideally if this occurs, it
 <strong>should also be removed from the filesystem</strong>, but this is not currently
 implemented.</p>
-
 <p>I'm happy to release the <a href="https://github.com/borismus/game-asset-loader">source</a> under the permissive Apache 2
 license and provide <a href="https://github.com/borismus/game-asset-loader/blob/master/tests/tests.js">unit tests</a> and a <a href="https://github.com/borismus/game-asset-loader/tree/master/tests/game">sample</a> project
 for your perusal. It's well documented and should be reasonably easy to
 understand. I've also made provisions to separate the core library
 interface from the Filesystem-based implementation, making it even
 easier to implement an Indexed DB adapter.</p>
-
 <p>Before I go, let me reiterate that this library isn't quite production ready,
 but a step in the right direction for facilitating real games on the web.
 Please comment below if you have feedback on the idea, or are using the
 library to write a game of your own!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
