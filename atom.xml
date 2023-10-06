@@ -5,8 +5,165 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2023-10-02T09:12:06-00:00</updated>
+  <updated>2023-10-06T09:37:34-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Tools for Thinking in Systems</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/tools-for-thinking-in-systems"/>
+    
+    <updated>2023-10-05T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/tools-for-thinking-in-systems</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>With this post I aim to synthesize some ideas from the Tools for Thought movement (e.g. Roam) with Systems Thinking (e.g. feedback loops). The result, as advertised in the title, is a tool for helping people think in systems. Let me first explain what I'm talking about, then walk you through some design considerations, and finally show you a prototype which takes a description of a system and converts it into causal loop diagram. Imagine if every news article included a little visual explainer to help you understand the story better.</p>
+<p>If you're impatient (who can blame you?), here's a quick demo:</p>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/QLok-ubBJl4?si=rBqOaRwyBn3kILOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!--more-->
+<h2>Systems and causal loop diagrams</h2>
+<p>A couple of years ago, I read and was inspired by <a href="https://smus.com/books/thinking-in-systems-a-primer/">Thinking in Systems: A Primer</a> by Donella Meadows. One of the tools presented in Meadows' book are causal loop diagrams. Here's a simple riff on a classic causal loop diagram to help us grapple with chicken populations. More chickens mean more eggs, and more eggs mean more chickens (a reinforcing loop). As we know, chickens have a certain propensity for crossing the road, and the more chickens, the more chaotic the road crossings with unfortunate consequences for their overall population (a balancing loop).</p>
+<p><img alt="A causal loop diagram about chickens" src="chicken-cld.png" /></p>
+<p>Causal loop diagrams are a way to visually represent a complex system. They can be a good visual summary, giving us a sense of factors and feedback loops that relate to a topic.</p>
+<p>Over the last couple of years I got a bit nerdy about the topic and "modeled" some of my own systems based on some of my reading. For example, based on a series of lectures about the Middle Ages, I sketched out causal loop diagrams that illustrated some secular trends. These can be found in the <a href="https://z3.ca/Medieval_feedback_loops">public version of my note corpus</a>.</p>
+<p><img alt="One of my causal loop diagrams on the late Middle Ages" src="late_middle_ages_cld.png" /></p>
+<p>I found the process insightful as a way to process a complex topic, and the results to be interesting to share and generalize from. However, the process is time consuming and challenging. Could an AI help here?</p>
+<p>There is no canonical mapping between a system and a corresponding causal loop diagram. In other words, there can be many diagrams which correspond to the same system, each emphasizing different aspects of it. Also, while they are well suited to illustrating fuzzy problems, causal loop diagrams are not well suited for rigorous system analysis<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
+<h2>Tools for thought… for what?</h2>
+<p>Popular Tools for Thought like Roam and Muse are general purpose organizational tools that help you to think and capture all kinds of thoughts. The new generation of these generic note-taking apps is now being imbued with AI. Some of these AI-powered features include:</p>
+<ul>
+<li>Transcribing audio and providing robust transcriptions (e.g. <a href="https://otter.ai/">Otter</a>)</li>
+<li>Summarizing tracts of text into something more terse (e.g. <a href="https://reflect.app/">Reflect</a> and <a href="https://mem.ai/">Mem</a>)</li>
+<li>Offering grammar correction or stylistic suggestions (e.g. <a href="https://languagetool.org/">LanguageTool</a>)</li>
+</ul>
+<p>What if you had a tool that helped you think or create in a specific domain? Here are a few examples I found compelling:</p>
+<ul>
+<li><a href="https://textfx.withgoogle.com/">TextFX</a> is a suite of "AI-powered tools for rappers, writers and wordsmiths". These tools for thinking like a poet help people come up with similes, make a scene more unexpected, find alliterations, and fuse two concepts together.</li>
+<li><a href="https://elicit.com/">Elicit</a> is a tool for thinking like a researcher, helping you quickly find prior art on a topic you might have no idea about, well outside your area of expertise.</li>
+</ul>
+<p>So now for the synthesis. What could a tool for thinking in systems look like?</p>
+<h2>A tool for thinking in systems</h2>
+<p>Given a description of a system, can an AI generate a causal loop diagram representation for it? Imagine if every news article included a little diagram explaining the systemic background for the news story.</p>
+<p>The current state of AI is not quite ready to tackle this problem without human intervention. So I strove to create a tool that would help people co-create with the help of an LLM. The system's vibe should not be <em>thanks for the text, here is the corresponding CLD</em>, but a metaphorical dialog: <strong>is this the CLD you are imagining?</strong> Or <strong>here's a crazy take on this, WDYT?</strong>, with the person using the tool making the appropriate changes.</p>
+<p>This dialectic approach has the potential to be useful, even if you are talking to yourself or an inanimate object. Studies have shown that conversations with yourself, as in <a href="https://www.youtube.com/watch?v=EAhtbxMV1lA">distanced self-talk</a> where we give ourselves advice by pretending like we’re advising a friend with the same issue, seem to help us get unstuck. In software engineering, <a href="https://rubberduckdebugging.com/">rubber duck debugging</a> is a method of debugging code by describing your approach to a lifeless rubber duck sitting on your desk.</p>
+<h2>Principle 1: muses &gt; mentats</h2>
+<p>I mentioned earlier that there is no canonical causal loop diagram for a given complex system. My goal was not to have a sequence of LLM invocations result in some perfect output, but to make headway on the cold start problem I found when attempting to model. You have a blank canvas; where should you begin? At what level of granularity should you be thinking about? What entities are at play? What relationships matter?</p>
+<p>Thus, the first principle I've adopted is <strong>muses over mentats</strong> (from <a href="https://www.geoffreylitt.com/2023/02/26/llm-as-muse-not-oracle.html">ChatGPT as muse, not oracle</a>). Mentats in Dune are computer-like humans (long story), able to quickly compute and predict and produce factually correct results to help nobles rule. In contrast, Muses were inspirational Greek goddesses of literature, science and the arts, colloquially serving as someone's source of artistic inspiration. In other words, correctness is optional; it is sufficient to be inspiring.</p>
+<p>This principle jives well with the strengths and weaknesses of generative AI. LLMs can simulate reasoning and create a large volume of content quickly, but tend to hallucinate. Grounding LLMs in facts remains an open research problem.</p>
+<h2>Principle 2: bikes &gt; genies</h2>
+<p>How can the user feel like she is co-creating with a helpful partner, rather than putting her trust in a lifeless machine?</p>
+<p>Bikes amplify our innate human abilities to get to where we're going, while genies are simply teleport us to our destination. How do they do it? Nobody really knows! Hopefully you don't run out of wishes, and hopefully the Genie doesn't make any mistakes. And given that AIs make many mistakes, we need to give people a lot of control!</p>
+<p>What's needed here is not a genie to get you <em>the</em> answer. Instead, people need a tool to support getting to <em>their own</em> answer.</p>
+<p>That these LLMs fib might not strictly be a bad thing. For example, if a generated diagram is blatantly incorrect, a user may be tempted to jump in and fix it, leading to new insights! After all, we all know what happens when <a href="https://xkcd.com/386/">someone is wrong on the internet</a>. The principle of bikes over genies ensures that people have the ability to make corrections where needed.</p>
+<h2>Some examples</h2>
+<p>Before diving into implementation details of my little tool, here are two examples of causal loop diagrams this system is capable of producing.</p>
+<p><a href="https://borismus.github.io/llm4cld/?ents=Smoking%3BLungs%3BDiseases%3BDeath&amp;desc=Smoking+can+cause%C2%A0heart+attacks%2C+if+continued+for+years+of+using+tobacco+or+any+other+powders+used+for+smoking%2C+including+marijuana.+Smoking+can+cause+mental%2C+as+well+as+physical+health+problems%2C+such+as%C2%A0schizophrenia%2C%C2%A0depression%2C+mood+swings+and+many+others.+If+a+smoker+continues+smoking+for+years%2C+or+even+decades%2C+their+health+will+worsen.+Smoking+can+cause+coughing%2C+or%C2%A0inflammation%C2%A0%28swelling%29+of+the+throat+or+lungs.+The%C2%A0alveoli%C2%A0are+air+sacs+via+which+breathing+happens%2C+but+they+will+become+badly+damaged.+Once+breathed+in%2C+the+tobacco+smoke+travels+down+the%C2%A0trachea%C2%A0and+enters+the+lungs.+When+entering+the+body%2C+the+smoke+would+damage+the%C2%A0cilia%2C+which+are+millions+of+small+hairs+that+push+away%C2%A0mucus%C2%A0when+it+enters+the+body.+If+the+lungs+become+even+more+damaged%2C+smokers+may+not+be+able+to+breathe+on+their+own%2C+and+they+will+be+put+on+a+device+to+help+them+breathe+such+as+a%C2%A0ventilator.+In+some+cases%2C+smoking+causes+the+lining+of+the+lungs+to+become+inflamed%2C+making+the+smoker+unable+to+breathe%2C+which+leads+to+death.&amp;cgml=Smoking+o-%3E+Lungs+%2F%2F+Smoking+damages+alveoli+%5Cnand+cilia%2C+impairing+%5Cnlung+function.%0A%0ASmoking+--%3E+Diseases+%2F%2F+Smoking+damages+vital+%5Cnorgans%2C+leading+to+various+%5Cndiseases.%0A%0ASmoking+--%3E+Death+%2F%2F+Smoking+damages+lungs%2C+%5Cnimpairs+breathing%2C+and+%5Cnleads+to+death.%0A%0ADiseases+o-%3E+Lungs+%2F%2F+Smoking-induced+diseases+%5Cndamage+and+destroy+lung+%5Cntissue.%0A%0ADiseases+--%3E+Death+%2F%2F+Diseases+damage+body+%5Cnsystems%2C+leading+to+diminished+%5Cnfunction+and+death.%0A%0A">This diagram</a> is generated from a paragraph on the Simple Wikipedia page <a href="https://simple.wikipedia.org/wiki/Tobacco_smoking">"Tobacco Smoking"</a>:</p>
+<p><img alt="An LLM4CLD diagram based on the Simple Wikipedia article on tobacco smoking" src="smoking-llm-cld.png" /></p>
+<p><a href="https://borismus.github.io/llm4cld/?ents=Knights%3BHeavier+Armor%3BStronger+Horses%3BFarmer+Prosperity&amp;desc=%C2%A0+%C2%A0+-+During+the+middle+ages%2C+knights+emerged+as+a+new+superweapon.%0A%C2%A0+%C2%A0+-+More+knights+meant+more+demand+for+horses.%0A%C2%A0+%C2%A0+-+And+they+needed+to+be+strong+to+carry+the+weight+of+the+knights+and+their+armor.%0A%C2%A0+%C2%A0+-+As+horses+got+stronger%2C+knight+armor+got+heavier+too%21%0A%C2%A0+%C2%A0+-+These+stronger+war+horses+interbred+with+regular+farm+horses%2C+and+also+more+horses+were+available+for+farmers%0A%C2%A0+%C2%A0+-+Improved+horse+collars+made+horses+pull+with+5x+more+power%2C+and+ultimately+displaced+oxen.%0A%C2%A0+%C2%A0+-+Now+farmers+had+horses+instead+of+oxen+and+could+also+ride+them+to+the+markets+to+sell+their+wares+on+their+own.&amp;cgml=Knights+--%3E+Heavier+Armor+%2F%2F+Knights+required+stronger+%5Cnhorses%2C+enabling+heavier+%5Cnarmor.%0A%0AKnights+--%3E+Stronger+Horses+%2F%2F+Knights%27+demand+for+stronger+%5Cnhorses+drove+selective+%5Cnbreeding.%0A%0AKnights+--%3E+Farmer+Prosperity+%2F%2F+More+knights+increased+%5Cndemand+for+stronger+horses%2C+%5Cnbenefiting+farmers.%0A%0AHeavier+Armor+--%3E+Stronger+Horses+%2F%2F+Heavier+armor+necessitates+%5Cnstronger+horses+for+effective+%5Cntransportation.%0A%0AStronger+Horses+--%3E+Heavier+Armor+%2F%2F+Stronger+horses+could+%5Cncarry+heavier+armored+%5Cnknights.%0A%0AStronger+Horses+--%3E+Farmer+Prosperity+%2F%2F+Stronger+horses+increased+%5Cnfarming+efficiency+and+%5Cnmarket+accessibility.%0A%0A">This diagram</a> is generated from some of my observations about medieval history:</p>
+<p><img alt="An LLM4CLD diagram based on my observations on the late Middle Ages" src="medieval-llm-cld.png" /></p>
+<p>A few words about these diagrams:</p>
+<ul>
+<li>Boxes are entities involved in the system.</li>
+<li>Solid edges labeled with <code>+</code>'s are direct relations (more Source causes† more Target).</li>
+<li>Dashed arrows labeled with <code>-</code>'s are inverse relations (more Source causes† less Target).</li>
+<li>Edge labels provide an explanation for why the relationship exists.</li>
+<li>Bolded "R" and "B" in labels indicate a Reinforcing and Balancing feedback loop, respectively.</li>
+</ul>
+<p>I go over both in the <a href="https://www.youtube.com/watch?v=QLok-ubBJl4">demo video</a>.</p>
+<h2>Prototype implementation details</h2>
+<p>At a high level, the prototype works as follows:</p>
+<ol>
+<li>Extract entities based on description</li>
+<li>Check if entities are directly related (e.g. mo money ➡️ mo problems)</li>
+<li>Check if entities are inversely related (e.g. more children ➡️ less money)</li>
+<li>For every relation, come up with a terse explanation</li>
+<li>Generate the corresponding causal loop diagram</li>
+<li>Label any reinforcing or balancing feedback loops</li>
+</ol>
+<h3>Entity extraction (Step 1)</h3>
+<p>Entity extraction is done through an LLM, not because that is a good idea, but because it was expedient from a prototyping perspective. This is relatively uninteresting, and I used a straightforward prompt template like this:</p>
+<pre><code>Text: ${groundingText}
+
+The following ${entityCount} entities appear in the text above:
+-
+</code></pre>
+<p>Here, <code>groundingText</code> refers to the system description and <code>entityCount</code> is a configurable number.</p>
+<h3>Causal entity relationships (Steps 2-3)</h3>
+<p>I took a brute force approach to <strong>entity-to-entity causal relationships</strong>. Once all entities are available, we check each ordered entity pair to see if and how they are related. For each pair, I use the same LLM to check if there is a direct relation with the following prompt template:</p>
+<pre><code>Text: ${groundingText}
+
+The text above suggests that more ${entity1} causes more ${entity2}. Answer one of &quot;true&quot; or &quot;false&quot;.
+</code></pre>
+<p>To check for an inverse relation, I replaced "more" in the prompt above with "less".</p>
+<p>Now whether the model obeyed the request and produced a single word response "true" or "false" is another question. The state-of-the-art OpenAI LLM I used produced a variety of results with varying frequencies:</p>
+<table>
+<thead>
+<tr>
+<th>Result</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>true/false</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>True/False</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>something else</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>But this is still good enough. In practice, 80% of the time, parsing the result was trivial. The rest of the time, we treat the result as false.</p>
+<p>In some rare cases (I'd estimate 5% of the time), the model would produce both a direct and inverse relationships. This is a sort of logical contradiction which I treated as a failure mode. In these cases, I ignored both relationships.</p>
+<p>My approach here is pretty simple. Another interesting approach was taken by Long and her collaborators<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> was to evaluate the strength of causality, by looking at the number of times the LLM responds positively or negatively. The same paper also notes that the prompt used matters quite a bit. They experimented with three variations on a prompt similar to the one I used:</p>
+<ol>
+<li>Introduced an authority by prepending something like <code>According to Big Pharma...</code></li>
+<li>Altered the linking, for example replacing "causes more" with something like "increases the likelihood"</li>
+<li>Rephrased entity names to be more specific.</li>
+</ol>
+<p>These prompt engineering tweaks all made a difference and there wasn't a clear winner.</p>
+<h3>Generating explanations (Step 4)</h3>
+<p>Terse explanation generation is also implemented using an LLM with a similar prompt:</p>
+<pre><code>Text: ${groundingText}
+
+The text above suggests that more ${entity1} causes ${adverb} ${entity2}. Explain why in fewer than ten words.
+</code></pre>
+<p>One design question for me was whether to show explanations at all and if so, how to best show them. The diagrams I generated initially did not have explanation, but I found it very mysterious why the system produced the connections that it did. When I added explanations, I initially added them as comments in the causal loop diagram's markup language. This was step in the right direction, but resulted in sub-par UX. Because explanations were not inline in the graph itself, it took a lot of effort to try to find them.</p>
+<p>Ultimately I decided that the best thing would be to show explanations as edge labels. This is a bit of a departure from the usual causal loop diagram conventions, but it helps make the diagram standalone. To generate these, I needed to compress the results significantly, and I found that "fewer than N words" was a really effective way to tune the results. Then, with a bit of additional wizardry to ensure that the explanations wrapped every ~30 chars, we were off to the races.</p>
+<h3>Rendering causal loop diagrams (Steps 5-6)</h3>
+<p>I used <a href="https://mermaid.live/">mermaid.js</a> to render the causal loop diagram because of its convenient markup. This lends itself well to being easily generated, and also edited without any need for WYSIWYG tools.</p>
+<p>Instead of generating mermaid markup directly, I generated custom markup that I parsed with another, yet unreleased project of mine, which finds feedback loops in causal graphs, and labels them either reinforcing (R) or balancing (B). It was a nice excuse to brush up on some computer science! I cribbed from an implementation of <a href="https://github.com/Vacilando/js-tarjan/blob/main/tarjan.js">Tarjan's Algorithm</a> for this purpose.</p>
+<hr />
+<p>Still with me? If so, <a href="https://borismus.github.io/llm4cld">try the tool</a> on your own complex system descriptions! <a href="https://www.youtube.com/watch?v=FdFAqf_zfhM&amp;t=192s">All you need</a> is an OpenAI Key to start the engine.</p>
+<p>Once you've taken it for a spin, please tell me where it works well, and where it fails for you. Lastly, please share your creations with me — it should be easy with this tool. The third button in the UI copies the URL to your clipboard, so that you can send it my way. Thanks for reading, and please <a href="https://smus.com/about">don't be a stranger</a>.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://systemdynamics.org/wp-content/uploads/assets/dynamica/volume-8/8-1/5.pdf">A critical review of diagramming tools for conceptualizing feedback system models</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.systems-thinking.org/intst/d-3312.pdf">Problems with causal-loop diagrams</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://arxiv.org/abs/2303.05279">Can large language models build causal graphs?</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Five Links for Summer 2023</title>
@@ -3518,78 +3675,6 @@ diagram I found helpful</a>.</p>
 <p>The Puritan wanted to work in a calling; we are forced to do so. For when asceticism was carried out of monastic cells into everyday life, and began to dominate worldly morality, it did its part in building the tremendous cosmos of the modern economic order. This order is now bound to the technical and economic conditions of machine production which to-day determine the lives of all the individuals who are born into this mechanism, not only those directly concerned with economic acquisition, with irresitible force. Perhaps it will so determine them until the last ton of fossilized coal is burnt. In Baxter’s view the care for external goods should only lie on the shoulders of the “saint like a light cloak, which can be thrown aside at any moment.” But fate decreed that the cloak should become an iron cage.</p>
 </blockquote>
 <p>Weber ends with a meta point. Modern man consistently underestimates the importance of religious influences in shaping modernity.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>ABC by Illich and Sanders</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/abc-by-illich-and-sanders"/>
-    
-    <updated>2021-09-15T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/abc-by-illich-and-sanders</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>The Alphabetization of the Popular Mind is an interesting deep dive into the way
-that consciousness evolved throughout history, especially as a result of
-literacy. I guess this is the Illich version of Orality and Literacy (which I
-have not yet read).</p>
-<p>In general, the book is overly declamatory, often feels like a sermon. Parts of it are more literary critique, especially where Illich/Sanders delves into specific literary works (Chaucer's Canterbury, Defoe's Journal, Twain's Huck Finn) and tries to make sweeping generalizations based on their novels. Arguments rely mostly on wordplay and clever assertions, but are often unconvincing.</p>
-<p>Sections correspond to chapters in the book that I thought were vaguely interesting:</p>
-<h1>Text</h1>
-<p>The spread of writing turned society upside down in almost every domain. But the authors consider the subtler side. Everything we know about that society is conveyed to us through writing, including everything we know of the oral tradition of the time, leading to a paradox of “oral writing”.</p>
-<p>With literacy, trust shifted from a spoken promise in the form of an oath, to a sealed document. Oaths were a conditional curse: let me be maimed if I break this promise. Formerly formulaic speeches like the Danes “by the ships side and the shields rim, by the swords edge and the horses thigh”, ritualized by raising weapon skyward and placing a foot on a stone. Instead of oaths, literacy led to a more legal and binding form of promise. It’s no surprise that we now use the book in the “pantomime of legal gesture”.</p>
-<p>Authors points to a rapid increase in writing in the 13th century based on consumption of parchment and sealing wax. According to some records (uncited?), the numbers were 3 pounds a week in 1226, 13 in 1256, 31 in 1266. Similarly, the authors point to the number of recorded royal decrees  1080-1180: 3 to 60 for French kings, 25 to 115 for the English, 22 to 180 for popes. After that it’s exponential. From Pope Innocent III ending in 1215, 280 survive, Innocent IV ending in 1254, 730 survive, Boniface VIII ending in 1303, 50000.</p>
-<p>Wills also became determined not by last words on the deathbed or a symbol imbued with meaning but by a sealed document. This transition happened in 12th century when symbols began to be engraved with explicit writings.</p>
-<p>Written documents also enabled trust to be formalized. The issuer would create two copies: one for themselves and one for the recipient. Technical details around this included the seal, a signature, a date, creating a copy and storing it in a catalog, which is part of a register.</p>
-<p>High Middle Age monks simply remembered where things were without a system. Earliest known scrutinium (monastic catalogs) were introduced in 1170. This is also the advent of libraries.</p>
-<p>Writing enabled exact copying of materials, which became desirable. In 1283 Cambridge hired its first corrector whose job was to check documents according to form, legibility, word order, and spelling. Documents being identical became a criteria for legal validity.</p>
-<blockquote>
-<p>Two hundred years before Gutenberg, archives gave rise to the intellectual prototype of printer matter: an original from which a number of identical copies had been produced and written.</p>
-</blockquote>
-<p>Even people required “identification” (written credentials that are identical to your person). No wonder the domesday book doesn't include a list of people — there was probably no accounting of individuals at all at the time.</p>
-<p>Around this time a written chronicle of time emerged too, an essential piece of cataloging many charters. Notaries would travel around and witness and date major transactions around them, from the birth of the Lord. This gave a new dimension to text: time. Documents could be ordered by recency. Time in general grows in importance as a result. In the dance of death genre, the hourglass is prominently displayed. Time is scarce.</p>
-<p>In the 12th century, news needed to be proclaimed orally (by a herald, “heard”) for it to be official. The written copy (if any) was just a record of the oral delivery. A signet ring served as seal and was accompanied with arbitrary and ever changing signature. But then as courts became more concerned with authenticity, this practice changed into the 14th century and onwards. The author also writes that vellum (calf) was replaced with membranum (sheep) supposedly thinner, harder to erase and prevented forgeries. (This is surprising since I think vellum was more sought after). Slowly text became the medium of guarantee.</p>
-<p>This is reflected in art: The Last Judgement involves the Archangel Michael depicted with a book in which the text of ones life is recorded and decisions made.</p>
-<p>Early “writing” did not involve clutching a pen and drawing letters on parchment, but dictating to a scribe. So initially there was a gulf between writer and author. Wax tablets also played some role in writing, mostly for temporary note taking. (Interesting that this hasn't really been a focus in other works I've read on this topic.)</p>
-<p>Words were initially not separated at all, but spaces between became common around the 7th century (confirm with <a class="wiki" href="https://z3.ca/Carolingian_minuscule">Carolingian minuscule</a>), in order to teach Latin to the barbarians as a foreign language.</p>
-<p>Previously writing was arduous, inscribed with a knife on hard leather. New script emerged in the 13th century. This more circular cursive writing was easier to write using a quill on a smooth surface, on parchment or paper. By the 13th century scholars like Thomas Aquinas were writing on their own without the need for scribes, and drafts are preserved.</p>
-<p>Later scholars had access to much smaller books which were portable and used as a reference enabling direct quotation from sources. But so far all quotations had to be made verbatim, since books were not structured in any way until 12th century.</p>
-<p>Also see <a class="wiki" href="https://z3.ca/Reading_and_writing_transition_in_the_12th_century">Reading and writing transition in the 12th century</a>.</p>
-<p>In addition to structured catalogs and libraries, books themselves became structured. Chapters and verses became the somewhat arbitrary superstructure placed after the fact over top the Old Testament only in 1200 (!).</p>
-<p>Previously text and images were deeply interwoven. The <a href="https://www.youtube.com/watch?v=qtQAsvUiwPg">Book of Kells</a> and the <a href="https://en.wikipedia.org/wiki/Lindisfarne_Gospels">Lindisfarne Gospels</a> provide two such examples. Now a monolithic text heavy manuscript was gaining shape, with structure and chapters and quotes separated visually from the rest of the content.</p>
-<p>Another major change was that rather than always reading aloud, reading became a mostly silent pursuit.</p>
-<h1>Self</h1>
-<p>I enjoyed the Text chapter of this book, so decided to read on. The section on self is basically a great takedown of autobiographies.</p>
-<blockquote>
-<p>Autobiography is born out of hubris. In Franklin's case his autobiography grows out of the hubris of America’s emerging power - its myths and ideals - a power that actually thrives on mistakes. One merely seized upon them as Franklin makes clear and turns them into substantial financial success. Autobiography amplifies that power: since a person is literally creating a new being, he can smooth out the rough transitions in his life, clean up the mistakes to produce a polished and attractive literary self.</p>
-<p>A chief obstacle to writing a modern autobiography is its ending. How can it end, really, reach its final conclusion, until the writer is dead?</p>
-</blockquote>
-<p>Malcolm X's autobiography is published posthumously. Maybe that's the ticket?</p>
-<h1>Untruth and narration</h1>
-<p>Love the Latin expression “ex suo digito suxit” - высосано из пальца - sucked out of ones finger. Finger and fiction are apparently connected through this? But I haven't been able to verify.</p>
-<p>St Augustine defined every lie as an assault on the God given truth. A contempt of God. Fascinatingly this precludes fiction in the traditional sense of being fully invented. Epic bards retell old stories that really happened, not fictions. Storytellers too, are not inventing but retelling. Chaucer (1386) is supposedly the first English author to spin a tale. But he does this not explicitly, couching heavily.</p>
-<p>Chaucer writes just as England is moving from a culture of orality to literacy. And finds himself in an awkward position between fact and fiction. He needs to have Canterbury story taken as truth “for this is the way readers come to enter into any fictional dream” and goes to great lengths to do this. He makes himself one of the pilgrims, and tells a story “Tale of Sir Thopas” which is so boring that the fictional hosts ask him to stop. But apparently “too much truth can get Chaucer into theological trouble”. Why???</p>
-<p>Defoe writes a book entitled "Journal of the Plague Year" which is a semi-fictional journal of a man living in London in 1665, the last major plague outbreak. Authors claim that this is the first novel, but this is completely ludicrous. In fact Robinson Crusoe came before this Journal, which immediately nullifies many of the claims made. There are <a href="https://en.m.wikipedia.org/wiki/List_of_claimed_first_novels_in_English">many other candidates</a> for first novel too. Anyway, the authors really focus on the word “novel” and how it is closely related to “news” and shares the Latin root “novus”, new. Who cares?</p>
-<p>By this point it is clear that this chapter has evolved into speculative literary criticism with very tenuous arguments based on word games. The end is especially cringeworthy, with a vast narrative being cobbled together on the basis of the three works encountered. It’s very shaky and very ideological and not convincing at all. A little reminiscent of Deschooling, but worse.</p>
-<h1>Newspeak and UNIQUACK</h1>
-<p>Speculative literary criticism continues into the 20th century, this time with Orwell's 1984. Fascinating pointers, but not much substance.</p>
-<p>Basic English was a subset of English (less than 1000 words) popular in the 1950s as a universal language designed to increase international collaboration. Apparently Orwell was into it initially, then worked for the institute promulgating it and realized this was a terrible idea.</p>
-<p>The authors declare that words like energy, sexuality, transportation, education, communication, information, crisis, problem, solution, are too vague, and “amoeba-words”. I don't understand why. Many of these have precise meaning depending on context. Maybe the authors felt that people don’t generally know these precise meanings and misuse them?</p>
-<h1>Silence</h1>
-<p>Authors introduce an idea of “alphabetic silence”: pauses between words, silent contemplation of text, meditative thought.</p>
-<p>I enjoyed the interpretation of the Ten Commandments. What did the Israelites hear when they received the ten commandments? A few theories:</p>
-<ol>
-<li>They heard them all in the Divine Voice</li>
-<li>They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses.</li>
-<li>They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”</li>
-</ol>
 
         
       </div>
