@@ -10,11 +10,11 @@ If you're impatient (who can blame you?), here's a quick demo:
 
 <!--more-->
 ## Systems and causal loop diagrams
-A couple of years ago, I read and was inspired by [Thinking in Systems: A Primer](https://smus.com/books/thinking-in-systems-a-primer/) by Donella Meadows. One of the tools presented in Meadows' book are causal loop diagrams. Here's a simple riff on a classic causal loop diagram to help us grapple with chicken populations. More chickens mean more eggs, and more eggs mean more chickens (a reinforcing loop). On the flip side, chickens have a certain propensity for crossing the road. The more chickens, the more chaotic the road crossings, with unfortunate consequences for their overall population (a balancing loop).
+A couple of years ago, I read and was inspired by [Thinking in Systems: A Primer](https://smus.com/books/thinking-in-systems-a-primer/) by Donella Meadows. One of the tools presented in Meadows' book are causal loop diagrams. Here's a simple riff on a classic causal loop diagram to help us grapple with chicken populations. More chickens mean more eggs, and more eggs mean more chickens (a reinforcing loop). As we know, chickens have a certain propensity for crossing the road, and the more chickens, the more chaotic the road crossings with unfortunate consequences for their overall population (a balancing loop).
 
 ![A causal loop diagram about chickens](chicken-cld.png)
 
-Causal loop diagrams are a way to visually represent a complex system. They can be a good visual summary, giving us a sense of factors and feedback loops that relate to a topic. They are well suited to illustrating fuzzy problems, but are not well suited for rigorous system analysis[^1][^2].
+Causal loop diagrams are a way to visually represent a complex system. They can be a good visual summary, giving us a sense of factors and feedback loops that relate to a topic.
 
 Over the last couple of years I got a bit nerdy about the topic and "modeled" some of my own systems based on some of my reading. For example, based on a series of lectures about the Middle Ages, I sketched out causal loop diagrams that illustrated some secular trends. These can be found in the [public version of my note corpus](https://z3.ca/Medieval_feedback_loops).
 
@@ -22,14 +22,12 @@ Over the last couple of years I got a bit nerdy about the topic and "modeled" so
 
 I found the process insightful as a way to process a complex topic, and the results to be interesting to share and generalize from. However, the process is time consuming and challenging. Could an AI help here?
 
-There is no canonical mapping between a system and a corresponding causal loop diagram. In other words, there can be many diagrams which correspond to the same system, each emphasizing different aspects of it.
+There is no canonical mapping between a system and a corresponding causal loop diagram. In other words, there can be many diagrams which correspond to the same system, each emphasizing different aspects of it. Also, while they are well suited to illustrating fuzzy problems, causal loop diagrams are not well suited for rigorous system analysis[^1][^2].
 
 [^1]: [A critical review of diagramming tools for conceptualizing feedback system models](https://systemdynamics.org/wp-content/uploads/assets/dynamica/volume-8/8-1/5.pdf)
 [^2]: [Problems with causal-loop diagrams](https://www.systems-thinking.org/intst/d-3312.pdf)
 ## Tools for thought… for what?
-Popular tools for thought like Roam and Muse are examples of a Tools for Thought. These general purpose organizational tools that help you to think and capture all kinds of thoughts.
-
-The new generation of these generic note-taking apps is now being imbued with AI. Some of these AI-powered features include:
+Popular Tools for Thought like Roam and Muse are general purpose organizational tools that help you to think and capture all kinds of thoughts. The new generation of these generic note-taking apps is now being imbued with AI. Some of these AI-powered features include:
 
 - Transcribing audio and providing robust transcriptions (e.g. [Otter](https://otter.ai/))
 - Summarizing tracts of text into something more terse (e.g. [Reflect](https://reflect.app/) and [Mem](https://mem.ai/))
