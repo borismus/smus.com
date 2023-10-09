@@ -4,6 +4,50 @@ class: split
 type: book
 
 
+This is How You Lose the Time War
+===
+rating: yes
+posted: Oct 5, 2023
+cover: /assets/book-covers/time-war.jpg
+
+A stylistically beautiful novella reminiscent of [Invisible cities by Italo Calvino](/books/invisible-cities-by-italo-calvino/). Written in an innovative format, this is more poetry than prose. "Time War" was certainly worth my time, but I could see how it may be annoying to some. At least it is mercifully short!
+
+### Observations
+
+- Well executed slow reveal (Burn Before Reading)
+    - Multiverse composed of multiple forking strands and threads. They have names and numbers. Going "upthread" means back in time, "downthread" into the future.
+- Beautiful quips like:
+    - “adventure works in any strand. It calls to those who care more for living than for their lives”
+    - "She climbs up thread and down. She braids and unbraids history’s hair"
+- Ridiculously creative way of corresponding with one another. Letters are cleverly encoded in owl pellets (ha gross), seed sacks etc.
+- Maybe this is deliberate, but who The Seeker is remains unclear. Is it the other agent? Or is it something else, planted by capital-C Chaos?
+- If the world is a game, Blue and Red play a meta-game. But it feels like there is also a meta-meta game being played, which Blue and Red are only faintly aware of.
+
+### Complaints
+
+- Blue and Red are agents for two opposing "shifts", led by Garden and Commandant respectively, and representing broadly speaking Nature versus Technology.
+    - Maybe this is somehow the point, but the two narrators/voices of the letters were indistinguishable.
+- At some point the agents discover that they are madly in love with one another. But the letters are more clever than revelatory, and neither character arc well-defined.
+    - Why did the agents actually fall in love? Pretty unclear.
+- (On the other hand, the same kinds of complaints can be leveled at Calvino, and that would not be fair.)
+
+
+### Associations
+
+- Travel Light by Naomi Mitchison is lauded as "it's the same in all strands in which it exists"
+- The classic Rolling Stones song [Sympathy for the Devil](https://www.youtube.com/watch?v=Jwtyn-L-2gQ) came up for me multiple times while reading.
+
+> And I was 'round when Jesus Christ<br>
+> Had his moment of doubt and pain<br>
+> Made damn sure that Pilate<br>
+> Washed his hands and sealed his fate<br>
+>
+> Stuck around St. Petersburg<br>
+> When I saw it was a time for a change<br>
+> Killed Tsar and his ministers<br>
+> Anastasia screamed in vain<br>
+
+
 Empowered by Cagan & Jones
 ===
 rating: no
