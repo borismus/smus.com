@@ -59,6 +59,30 @@
 
 
 
+
+
+<article class="type-book">
+  <a href='/books/this-is-how-you-lose-the-time-war'>
+    <h1 class='title'>Book: This is How You Lose the Time War</h1>
+  </a>
+  
+  <a href='/books/this-is-how-you-lose-the-time-war'>
+    <img class="book-cover" src="/assets/book-covers/time-war.jpg"/>
+  </a>
+  
+  <div class='subfooter'>
+    <a href="/books/this-is-how-you-lose-the-time-war" class="readmore">
+      Notes &rarr;
+    </a>
+    <time class='published'>October 5, 2023</time>
+  </div>
+</article>
+
+
+
+
+
+
 <article class="type-post">
   <a href='/tools-for-thinking-in-systems'><h1 class='title'>Tools for Thinking in Systems</h1></a>
   <div class='body'>
@@ -538,30 +562,6 @@ Obsidian plugin:</p>
 
 
 
-
-
-
-
-<article class="type-book">
-  <a href='/books/wild-problems-by-russ-roberts'>
-    <h1 class='title'>Book: Wild Problems by Russ Roberts</h1>
-  </a>
-  
-  <a href='/books/wild-problems-by-russ-roberts'>
-    <img class="book-cover" src="/assets/book-covers/wild-problems.jpg"/>
-  </a>
-  
-  <div class='subfooter'>
-    <a href="/books/wild-problems-by-russ-roberts" class="readmore">
-      Notes &rarr;
-    </a>
-    <time class='published'>September 22, 2022</time>
-  </div>
-</article>
-
-
-
-
 </section>
 
 <footer>
@@ -575,23 +575,23 @@ Obsidian plugin:</p>
 
 <!-- Misc scripts: syntax highlighting, analytics, stats. -->
 <script src="/static/js/highlight.pack.js"></script>
+<!-- Syntax highlighting for code. -->
 <script>
-  // Syntax highlighting for code.
   hljs.tabReplace = '  ';
   hljs.initHighlightingOnLoad();
 </script>
-<script>
-  // Google Analytics.
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-17930798-22', 'smus.com');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-</script>
+<!-- Lightning builder error check. -->
 <script src="/lightning_error.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38Y45XD5VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38Y45XD5VQ');
+</script>
+
 
 </body>
 </html>
