@@ -80,7 +80,7 @@ non-vehicular native tongues. Even among the vehicular there are great
 disbalances, eg Swedish gets as much attention as Chinese despite 100x fewer
 speakers. English is the dominant language today, 65% of all translations are
 from English and 7% are into English. To really do well globally you need to
-read and write English. 
+read and write English.
 
 *Hub languages*: It’s common for English to be used as the inter-language too,
 for example for going from Chinese to English to {Finnish, Estonian, Latvian,
@@ -89,7 +89,7 @@ going N to N languages at the EU, and requiring N^2 interpreters, use a hub
 language like German so everyone translates to and from German instead, only
 requiring 2N. Bizarre that most translators into English are amateurs, despite
 being important in the global translation flow (as a hub language). Translators
-into Japanese are revered and have almost author like status. 
+into Japanese are revered and have almost author like status.
 
 *Translation vs. language learning*: In India, there was historically very
 little translation between regional languages. (Translation is always a crutch
@@ -169,7 +169,7 @@ rating: yes
 Seneca lies at the intersection of Roman history, stoic philosophy and Buddhism.
 Despite many endorsements, I haven’t had the time to sit down and read any of
 his writings. So I picked up this short volume of three letters, two to his
-friends and one to his mother. 
+friends and one to his mother.
 
 There are almost no clarifying notes in the book, no context about Seneca's
 life, events he references, or any of the many names he mentions in supporting
@@ -259,7 +259,7 @@ make. Physics unification, broad psychological insights, hacking ability,
 fundamental number theory advances. Also interesting is the protagonists (teds?)
 fascination with physical self control through mental means which has become an
 interest of mine recently. The whole story is incredibly cinematic especially
-the last part involving a psychic battle between superintelligent brains. 
+the last part involving a psychic battle between superintelligent brains.
 
 **Division by Zero** A very experimental format which is presented in triads: 1.
 A mathematical fact, 2. A’s prepsective on being terminally depressed due to a
@@ -285,9 +285,9 @@ re-read in the future.
 **72 letters**
 
 - What is Chartist reform? A British working class movement dating to 1838.
-- What’s a cucurbit? A sort of gourd, similar to a cucumber. 
+- What’s a cucurbit? A sort of gourd, similar to a cucumber.
 - Der Zauberlehring? This is Goethe’s poem “The Sourcerer’s Apprentice”, which
-  is the basis for Disney's Fantasia. 
+  is the basis for Disney's Fantasia.
 
 Very clever integration of the significance of names and Jewish themes:
 Kabbalah, Golems. Again, Ted’s writing is very convincing, as if he is well
@@ -416,7 +416,7 @@ Also terrifyingly effective is his depiction of bureaucrats:
 > common Russian political performer who gives his rants with a knowing wink and
 > a nod. Flat and hollow-eyed, as if they have been turned and twisted in so
 > many ways they’ve spun right off the whirligig into something clinical.
-> Because isn’t some sort of madness implicit in the system? 
+> Because isn’t some sort of madness implicit in the system?
 
 Peter ends with a warning, uttered by a British investor in Russia, which
 resonates strongly with me:
@@ -570,7 +570,7 @@ The basic thesis of the book is this:
 - Mendelian selection has been happening for ages. Chemical mutagenesis and then
   nuclear metagenesis, where plants get exposed to large amounts of radiation in
   order to encourage mutation, has also been common. These approaches are
-  random, sometimes cause downsides. 
+  random, sometimes cause downsides.
 - With GE you can do much more tailored, fine-grained tweaks. “Like getting a
   spouse without in-laws, while breeding is like getting a spouse with a whole
   village”.
@@ -586,7 +586,7 @@ The basic thesis of the book is this:
   genetic engineering”.
 - How Monsanto works: glyphosate kills all plants but safe for animals. But
   Monsanto’s seeds are engineered by be glyphosate resistant. So spray
-  glyphosate on fields and kill all of the weeds quickly. 
+  glyphosate on fields and kill all of the weeds quickly.
 - Similar technique involves adding Bacillus thuringenesis (Bt) to crops, which
   is poisonous only to larvae. Bt corn and cotton are examples, and need way
   less pesticides.
@@ -614,29 +614,29 @@ replacing conventional energy with renewable energy. This is not sufficiently
 efficient to be practical.
 
 1. Steven salter autonomous water particle sprayer with flettner sails. Would
-   brighten clouds to offset a doubling of CO<sub>2</sub> in the atmosphere. 
+   brighten clouds to offset a doubling of CO<sub>2</sub> in the atmosphere.
 
 2. SO<sub>2</sub> in the atmosphere. This happened naturally due to a volcanic
    explosion at Pinotubo in which 20M tons of so2 reduced earths temperature by
-   0.5C. 
+   0.5C.
 
 3. Feed iron to carbon fixing algae to make them bloom. Unclear if this will
    work. Good case: algae sinks to bottom acting like carbon sink. Bad case:
-   circulates in food webs near surface and returns to atmosphere. 
+   circulates in food webs near surface and returns to atmosphere.
 
 4. Floating vertical pipes to drive cool nutrient rich water from depths upward,
    while pumping CO<sub>2</sub> and dimethyl sulphide (which makes sun reflective clouds)
-   down. Using wave energy to do the work. 
+   down. Using wave energy to do the work.
 
 5. Mixing non biodegradable biochar with soil you can ensure that the CO<sub>2</sub> within
    it doesn't escape. Essentially you're growing plants which takes CO<sub>2</sub> and then
-   burning them into biochar, keeping the c sequestered. 
+   burning them into biochar, keeping the c sequestered.
 
 6. Artificial trees that capture a ton of CO<sub>2</sub> a day chemically and use it for
-   commercial stuff. 
+   commercial stuff.
 
 7. Large sunglasses at L1 orbit to reduce the amount of heat from the sun
-   directly. 
+   directly.
 
 8. CROPS: sequester agricultural residues with bales at the bottom of the ocean.
    (Another idea I've heard is doing something similar but sending the waste to
@@ -646,7 +646,7 @@ efficient to be practical.
 
 1. Critique of precautionary principle, which is a doctrine against meddling
    regardless of risks and rewards. Fable of the steak knives (formulated by
-   Jimmy Wales): 
+   Jimmy Wales):
 
 > “You want to design a restaurant, and you think to yourself, “Well, in this
 > restaurant we’re going to be serving steak. And since we’re going to be
@@ -667,7 +667,7 @@ efficient to be practical.
    Greenpeace’s anti GE activity has harmed developing world, leading to large
    scale famines. At the same time "romantics" are given their due for inspiring
    the masses to care about the environment, yet it's clear why they are at odds
-   with science and engineering. 
+   with science and engineering.
 
 > "It's fortunate that there are so many romantics in the movement, because they
 > are the ones who inspire the majority in most developed societies to see
@@ -677,10 +677,10 @@ efficient to be practical.
 
 Environmentalists were against space exploration but it turned out to be a big
 deal because satellites were instrumental for ocean monitoring and the photo of
-earth from space motivated huge interest in ecology. 
+earth from space motivated huge interest in ecology.
 
 3. Concentrate harm geographically. Cities > sprawl, nuclear waste > coal waste,
-   high yield > low yield crop. Wall off the artificial from the natural. 
+   high yield > low yield crop. Wall off the artificial from the natural.
 
 
 ## Random interestingnesses
@@ -691,7 +691,7 @@ earth from space motivated huge interest in ecology.
 
 - Brand makes an example out of being wrong in public. He calls for more foxes
   to hold their opinions more strongly and for audiences to be more open to
-  opinion change. 
+  opinion change.
 
 - Fascinating angle on European-native American collision: that the indigenous
   population of the continent fell from 50-100M in 1491 to 7M by 1650? "Far
@@ -706,12 +706,12 @@ earth from space motivated huge interest in ecology.
   apparently creating the biochar is good since it can be made from waste
   materials like rice husks and peanut shells. (TODO: Read more about it)
 
-- Costa Rica considers its whole territory a national park. 
+- Costa Rica considers its whole territory a national park.
 
 - Very humanist: protected areas not "from people" but "for people".
 
 - The most ecologically diverse place in Asia? Somehow it is the DMZ between the
-  Koreas. 
+  Koreas.
 
 - Surprising: causes of [bird
   deaths](http://www.sibleyguides.com/conservation/causes-of-bird-mortality/).
@@ -720,11 +720,11 @@ earth from space motivated huge interest in ecology.
 
 - There's a movement to reintroduce extinct animals to their original habitats.
   Active efforts for buffalo but even for megafauna like jaguars and elephants.
-  Mainly to restore the ecosystem. 
+  Mainly to restore the ecosystem.
 
 - Interesting idea from Dave Foreman of huge interconnected nature preserves. In
   North America they form a square, across the pacific mountains, continental
-  divide, Atlantic mountains and then arctic far north. 
+  divide, Atlantic mountains and then arctic far north.
 
 - Brand seems really confident in our ability to predict potentially negative
   consequences of geoengineering by introducing foreign species yet there are so
@@ -734,7 +734,7 @@ earth from space motivated huge interest in ecology.
 - Crazy thing he mentions early on is the amount of biomass that is human vs
   that is bacterial. See human microbiome project. Apparently our bacteria
   outweigh us. Same with parasites, e.g. There's a parrot with 30 species of
-  parasites that live on its wings. 
+  parasites that live on its wings.
 
 - Check out the [big here quiz](http://kk.org/cooltools/the-big-here-qu/). I
   hardly knew any of the answers.
@@ -749,16 +749,16 @@ On Tyranny by Timothy Snyder
 posted: June 13, 2017
 rating: no
 
-More of a pamphlet than a book, both in brevity and in alarmist urgency. 
+More of a pamphlet than a book, both in brevity and in alarmist urgency.
 
 Structured as a strange combination of trends that lead to tyranny and general
 life tips. Dangerous trends include the destruction of institutions and
 paramilitary rule. As for life tips, the author suggests reading more books and
 longer articles, donating to charities, and having more conversations in person,
-and remaining calm in the face of terror. 
+and remaining calm in the face of terror.
 
 The last point I think is a good one and I agree that there is good reason to be
-deeply concerned about the political impact of a major terror attack on US soil. 
+deeply concerned about the political impact of a major terror attack on US soil.
 
 Overall quite heavy handed. Despite not calling out Trump by name, some passages
 like this one are overly didactic:
@@ -792,7 +792,7 @@ for actual policy changes or prosecution of specific people, he has (so far)
 been stopped at every turn. I agree that these are unusual times, and that extra
 vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
 a classic case of crying wolf. I find it hard to believe that it will stand the
-test of time. 
+test of time.
 
 
 Great Gatsby by F. Scott Fitzgerald
@@ -802,7 +802,7 @@ rating: yes
 
 Incredibly vividly written. Fascinating to see the self made struggles of people
 that are so fantastically well off.  Very unsympathetic characters throughout,
-except for the narrator. 
+except for the narrator.
 
 Something about Gatsby's lifestyle reminds me of my time in SF. Large house
 parties, loose connections, endless networking and small talk.  There is a
@@ -823,7 +823,7 @@ get into it.  Despite being only ~100 small, sparse pages, I had to cut it off
 after about twenty. Here's why:
 
 > "Dramatically, one chooses to be a mother; theatrically, one takes on the role
-> of mother." 
+> of mother."
 
 Is this profound or what? My impression is that the author is a deliberate
 obscurantist. The whole book reads like a collection of Zen koans. But unlike
@@ -855,13 +855,13 @@ Interesting things from the recap:
 - In 2016, war killed 120k, crime 500k, suicide 800k, diabetes 1500k.
 - Well stated paradox of knowledge using Marx as an example. Specifically
   communist revolutions never came to the western world because its leaders had
-  read Marx. 
+  read Marx.
 - Also this logic conveniently defends Homo Deus existence as a way of avoiding
   the future it describes. But also of obviating the author from any
   responsibilities. Smart :)
 - Big claim that in 1016 Europe people knew what 1050 would be like (but not 2016,
-  2050). Not sure if this is just hindsight bias. 
-- Nice crisp description of intersubjectivity, better than in sapiens. 
+  2050). Not sure if this is just hindsight bias.
+- Nice crisp description of intersubjectivity, better than in sapiens.
 - Claim: religion is for control, science is for power. I agree, except
   s/science/engineering/.
 - The Vatican was once an institution for technological progress, a Silicon Valley
@@ -877,24 +877,24 @@ Even in the summary, Harari goes on some bizarre but interesting tangents:
 - The Garden of Woolsthorpe (where Newton's apple accident occurred) as a
   founding Myth paralleling the garden of eden. This is where newton had his
   kinematic revelation. Except rather than being punished for his curiosity like
-  Adam and Eve were, we have modern science. 
+  Adam and Eve were, we have modern science.
 - Why do we have consciousness when there are so many automatic processes that are
   handled by the body and the brain without any conscious intervention?
 - Weird and tenuous analogy of gods to corporations. Corporations actually
-  produce output like a product or service but gods are purely fictional. 
+  produce output like a product or service but gods are purely fictional.
 - Judge systems from without. For example a corporation thrives if it makes a lot
-  of money. But that's not why corporations exist. 
+  of money. But that's not why corporations exist.
 
 To transition from the summary to the meat of the book (speculating about the
 future), Harari rehashes his branches of humanism:
 
 - liberal: equality for all, economically artistically etc
-- social: socialism and communism. Deference to the group. 
-- evolutionary: belief in superiority of some over others. 
+- social: socialism and communism. Deference to the group.
+- evolutionary: belief in superiority of some over others.
 
 My critique: this is too broad. Humanism seems to include everything that is
 non-religious. Because either God is the main thing or humans are the main
-thing. Are there other better alternatives? Maybe with Zen Buddhism? 
+thing. Are there other better alternatives? Maybe with Zen Buddhism?
 
 Harari then dives into an overly stark analysis of the weakness of liberalism.
 As if the only US allies were dictators during post war period. Not true! Most
@@ -902,14 +902,14 @@ of Europe was liberal. And although the Soviet Union was critical in defeating
 Nazi Germany, liberal Allies did play a huge role too. Harari then goes into
 counterfactuals, suggesting that social humanism (communism) defeated
 evolutionary humanism (Nazism) in World War II, and that the Cold War didn't
-turn Hot because of mutually assured destruction due to nukes. 
+turn Hot because of mutually assured destruction due to nukes.
 
 ## Last third
 
 The book really begins in Chapter 8, where Harari jumps headlong into future
 speculation.  It's unclear to me why Harari jumps to some post humanist fantasy.
 Currently we are seeing the resurgence of "evolutionary humanism" in the form of
-authoritarian regimes. 
+authoritarian regimes.
 
 Harari is clearly not an expert in AI and overly optimistic about it. He claims
 that"computers programmed with ethical algorithms could far more easily conform
@@ -918,16 +918,16 @@ to the latest rulings of the international criminal court."
 On replacing service type jobs, especially in medicine, over optimism. People
 like dealing with people. And the supposedly empathetic machine is still a long
 ways off. Even in the case of near perfect replication, I think acknowledging
-consciousness and experience on the other side goes a long way. 
+consciousness and experience on the other side goes a long way.
 
 More reductionist thinking: biology is just an algorithm and we can do
-algorithms. Yes it is but the devil is in the details. 
+algorithms. Yes it is but the devil is in the details.
 
 He cites a Frey and Osborne study which suggests that all sorts of jobs are
 going away. A twenty year horizon cannot reasonably have such precise
 probabilities. And many problems with specifics. 98% Sports referee jobs to go
 obsolete by 2033? Sure we can tell fowls through video. Who will prevent fights?
-Who will make difficult calls? Seems like bullshit. 
+Who will make difficult calls? Seems like bullshit.
 
 On self knowledge again Harari goes too far by claiming that your self is the
 sum of your biometric data. As long as we don't divulge everything to the
@@ -940,12 +940,12 @@ thing:
 One threat is that we will lose our agency and become agents of some networked
 machine. This is terrifying. We may need some anti-tech revolution to prevent
 this. Also it's unclear what the scope would be. I'd like to always be able to
-disconnect and go into nature. 
+disconnect and go into nature.
 
 Another threat is that the rich will become increasingly intelligent, healthy,
 successful, further separating the gap between the rich and the poor.  I believe
 that if things get bad enough, the population at large will rebel and
-redistribute the spoils more evenly. 
+redistribute the spoils more evenly.
 
 Here's why. In established first world countries, the rich know how to behave.
 They rarely flaunt their money and mostly blend in with the rest of the world.
@@ -954,12 +954,12 @@ follow it aren't respected by giant swaths of the population. For example overly
 flashy people are generally considered to be douchebags. Trump is an aberration
 and widely hated. Now imagine if he was also some superhuman demigod. Would his
 supporters be into that? If a tiny clique of people were visibly richer
-healthier, people would rebel. 
+healthier, people would rebel.
 
 I think Harari a third point is only viable in an dystopian oligarchy. And if
 people have become completely useless, why would some small elite group of
 humans still hold the reigns? This scenario folds into the superintellihgence
-one. 
+one.
 
 We use machine strength and machine intelligence augmented tools all the time.
 Harari seems to be obsessed with the neural augmentation aspect, but is this
@@ -969,15 +969,15 @@ Good points that are hard to argue against: human loss of smell, attention,
 ability to dream. I seek to get it all back. But I wonder: were these all things
 that came naturally to everybody in some long forgotten utopia, or did rare
 individuals have to work on developing these skills for themselves while the
-rest of the population plowed the field or caught the deer? 
+rest of the population plowed the field or caught the deer?
 
 - Dreaming: It's no accident that Joseph's dream interpretation was so rare and
   that there were commonly priest classes for interfacing with dreams
 - Smelling: yes seems likely that the masses of the day: hunters and farmers
-  needed this more long ago. 
+  needed this more long ago.
 - Attention: also an elite skill I think. We are In an age of distraction but
   attention today is more needed than ever before. Attention for a hunter was
-  focused with adrenaline. Focusing otherwise is and probably was rare. 
+  focused with adrenaline. Focusing otherwise is and probably was rare.
 
 The focus on technology changing our minds and wills seems premature. And by the
 way this is why I think SSRIs are a slippery slope. Maybe the google normal
@@ -986,7 +986,7 @@ health index can serve as some humanistic baseline for human norms?
 The last section is entirely focused on "Dataism". It sounds like he's
 describing information theory. I suppose any discipline can already be viewed
 through that lens. Except is that activity likely going to produce useful
-results? Empirical evidence from science points to no. 
+results? Empirical evidence from science points to no.
 
 Harari claims that the phrase "information wants to be free" means that
 the information itself is the actor. This is surprising, since the phrase is not
@@ -1011,7 +1011,7 @@ man the last third especially is just chock full of wild speculation.  It
 strikes me that the way to read this book is as a provocation. Overall I'm left
 with the feeling that this was a fast follow for Harari. A lot of the solid
 stuff in the first 2/3 of the book is a rehash of Sapiens. The last part was
-stimulating but mainly to get me thinking about why I disagree. 
+stimulating but mainly to get me thinking about why I disagree.
 
 
 Understanding Japan: A Cultural History (audio)
@@ -1026,7 +1026,7 @@ new to me:
 Lots about Buddhism:
 
 - There's a super interesting argument that the fact that Shinto traditions are
-  completely illogical is proof of the divine origin of those teachings. 
+  completely illogical is proof of the divine origin of those teachings.
 - There were multiple streams of Buddhism commonly practices in early Japan. Pure
   Land Buddhism is very similar to Christianity's because of the centrality of
   salvation through belief. Also there are multiple streams of Zen Buddhism. One
@@ -1034,14 +1034,14 @@ Lots about Buddhism:
 - Key idea of zen gardens is that you get a new view from every step in the
   path. This is a metaphor for human nature, which is prone to seeing the world
   very differently depending on emotional state. Constant reminder about the
-  limitation of the senses. 
+  limitation of the senses.
 - In Pure Land Buddhism, gardens include a bridge to paradise. Dry landscaping.
 
 Politics:
 
 - "Tycoon" comes from tai + kun, a made up title (great lord) for the Japanese
   Emperor as a result of a Japanese-Korean treaty. It was invented to avoid direct
-  vassalage to the Ming. 
+  vassalage to the Ming.
 - Interesting oscillation between isolationism and globalism. 1600-1860 was
   complete isolation. Hardly knew about the pre-WW2 Japan with Manchurian
   ambitions.
@@ -1049,13 +1049,13 @@ Politics:
 Arts
 
 - Apparently the tea ceremony inspired the English Arts and Crafts movement.
-  Also a part of minimalism. (Check out Okakuro's "The Book of Tea" from 1906). 
+  Also a part of minimalism. (Check out Okakuro's "The Book of Tea" from 1906).
 - (Check out Nou theater but it's unclear if I'll be able to follow it. Not much
   interest in Kabuki.)
 - Haiku is young. Started in 1890. Fascinating idea of pivot words: homonyms that
   can be used just once but translated into multiple of its meanings. Also renga
-  is an interesting chain of poems each written by another poet. 
-- Hokusai invented the comic book. What. 
+  is an interesting chain of poems each written by another poet.
+- Hokusai invented the comic book. What.
 
 Lecturer provides a good summary of why he is interested in Japan: it's
 incredibly interesting and exotic, but still has enough western services.
@@ -1071,19 +1071,19 @@ multi-tome historical "The Story of Civilization" into under 100 pages. Full
 disclaimer: I haven't read the original. I found this one is a bit of a mixed
 bag. Overall, I say read it, since it's so short (~100 short pages).  I found
 the flourishing writing style and strong opinions sometimes leads to funny dated
-read. Similar in some ways to Jacob Bronowski writing. 
+read. Similar in some ways to Jacob Bronowski writing.
 
 
 Random but interesting ideas:
 
-- Freedom and equality are at odds. 
+- Freedom and equality are at odds.
 - Authors seem to rely on group selection. Still unclear what I think about the
-  idea. 
+  idea.
 - Interesting coverage of the great man theory of history. A nod to both the
   causes of greatness in the environment and also personal originality that can
   bridge gaps.
 - Also insight into the yin yang nature of liberal vs conservative
-  thought. 
+  thought.
 - Interesting that Rome took 500 years to collapse from its nadir in 60 BCE.
 - Revolutions rarely succeed in redistributing wealth, mainly in destroying it.
 - In Chapter X, authors express concern about a despot ruining America democracy.
@@ -1092,7 +1092,7 @@ A lot of interesting thinking on morality and history:
 
 - In general the idea that morality follows the times.
 - Intimate relationship between Bible and agriculture. Biblical morals developed
-  to help with agriculture, and have deteriorated as a result of industry. 
+  to help with agriculture, and have deteriorated as a result of industry.
 - Was every vice once a virtue? Pugnacity, brutality, greed, and sexual readiness
   were virtues for the hunter age.
 - The idea that most times in history have been full of sin. Examples from the
@@ -1112,16 +1112,16 @@ Some things that felt dated and detracted from the experience:
 
 The authors allude to some historical patterns:
 
-- History that is written is different from history that is lived. 
+- History that is written is different from history that is lived.
 - The church as an organization that stands above Christian nation states. Kind
   of like a religious version of the UN. Like an alternative to the international
   system. Except while the International System is really vague and doesn't really
   seem to have much power, the Church worked once.
 - Prevalence of the cycle between religion and atheism. And I think that Sam
-  Harris is wrong about the end of faith. 
+  Harris is wrong about the end of faith.
 - Cycles pervade economic inequality. This has a tendency to
   increase until the poor can't take it anymore and revolt. Or until the ruling
-  class realizes and course corrects. 
+  class realizes and course corrects.
 - Now irrelevant but quite prescient that they would apply Hegelian thinking to
   industrialization. Meaning that industrialization is thesis, communism is
   antithesis and now we need a synthesis. (Evidence points to Liberal welfare
@@ -1149,7 +1149,7 @@ Some of my favorites from the book:
 
 April in Paris: interesting fantasy/sci-fi exploration of the same place over
 time. It gets a bit silly in the end, but very memorable. Her obsession with
-archaeology is very apparent. 
+archaeology is very apparent.
 
 The Masters: the intersection between religion and technology is just always
 fascinating. Reminded me a bit of one of my favorites: Canticle for Leibowitz
@@ -1162,7 +1162,7 @@ like? How do you(s) interact with the world and others? What happens if your
 group is split? Fascinating premise and great execution.
 
 Some of her other stories are much less focused on a sci-fi premise, and more
-focused on a mental trip and human psychology. She calls them psychomyths. 
+focused on a mental trip and human psychology. She calls them psychomyths.
 
 The Good Trip: close to my heart at the moment, as I worry about my life and
 wife. I didn't realize Le Guin was from Portland. How cool!
@@ -1181,14 +1181,15 @@ posted: March 2017
 rating: yes
 
 Several strategies for deeply working:
+
 - Sabbatical for days
 - Regular schedule e.g. Just mornings.
-- Attempt to squeeze it in blocks of 90 minutes 
+- Attempt to squeeze it in blocks of 90 minutes
 
 Unconscious thought theory. Can you really solve hard problems unconsciously?
 Does type 1 thinking have non primal uses?
 
-Evenings are sacred. No work or work email. 
+Evenings are sacred. No work or work email.
 
 General distractions like waiting in line and micro checking random stuff. How
 to avoid it?

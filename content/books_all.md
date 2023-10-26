@@ -4,6 +4,90 @@ class: split
 type: book
 
 
+The Burnout Society by Byung-Chul Han
+===
+rating: no
+posted: Oct 25, 2023
+
+Some interesting ideas in this philosophical pamphlet. However it's not especially well written - rambling and repetitive. I'd probably recommend a shorter summary (like this one!) or listening to Stephen West's Philosophize This! about it (Episode [188](https://www.youtube.com/watch?v=Jm56nQ31kBk))
+
+# Modernity suffers from too much positivity
+Human societies operate like the immune system. Just like the immune system's goal is to determine which cells are part of the organism and which are foreign, societies determine who is part of "us" and who is part of "them".
+
+As contemporary society shifts to be more inclusive, "otherness is being replaced with difference". Because of this shift, we live in a time that is "poor in negativity". And so, unlike the pathologies of yore that are born from excess negativity, modernity suffers from too much positivity.
+
+This rhymes a bit with toxic positivity, but is also reminds me of modern censorship tactics (eg. [[Flood the zone with shit]]) which also suffer from too much positivity.
+
+> The violence of positivity does not deprive, it saturates; it does not exclude, it exhausts.
+
+Depression, ADHD, and burnout syndrome point to excess positivity:
+
+> Today’s society is no longer Foucault’s disciplinary world of hospitals, madhouses, prisons, barracks, and factories. It has long been replaced by another regime, namely a society of fitness studios, office towers, banks, airports, shopping malls, and genetic laboratories.
+
+People living in a society which glorifies the idea that nothing is impossible are likely to set unreasonable expectations for themselves. This leads to a downward spiral of disappointment, and ultimately depression.
+
+> Also, its inhabitants are no longer “obedience-subjects” but “achievement-subjects.” They are entrepreneurs of themselves [...] Excess work and performance escalate into auto-exploitation. This is more efficient than allo-exploitation, for the feeling of freedom attends it. The exploiter is simultaneously the exploited. Perpetrator and victim can no longer be distinguished.
+
+# Against multitasking
+Han compares modernity's demands to multi-task with the state of nature, in which animals must divide its attention between many activities:
+
+> That is why animals are incapable of contemplative immersion—either they are eating or they are copulating
+
+This state of being is incompatible with culture, creative work, and mental health. Han criticizes Arendt's and Nietzsche's endorsement of the active life, instead favoring the contemplative life.
+
+> Culture presumes an environment in which deep attention is possible. Increasingly, such immersive reflection is being displaced by an entirely different form of attention: hyperattention. A rash change of focus between different tasks, sources of information, and processes characterizes this scattered mode of awareness.
+
+This reminds me a lot of a few books:
+- [[Creativity — Flow and the Psychology of Discovery and Invention by Mihaly Csikszentmihalyi]]
+- [[Deep Work by Cal Newport]]
+- And of course this amazing video: https://www.youtube.com/watch?v=YJg02ivYzSs
+# Negative emotions can be good
+
+Examples:
+- Too much positivity weakens feelings such as dread and mourning, which are important parts of the human experinece.
+- In Zen meditation, one attempts to free the mind of thoughts, "achieve the pure negativity of not-to"
+
+# Even rage can be good
+Han writes that part of the problem of too much positivity is that we are losing the capacity for rage. He interprets rage in a positive light. Perhaps there is something lost a bit in translation:
+
+> Rage is the capacity to interrupt a given state and make a new state begin. Today it is yielding more and more to offense or annoyance [Ärgernis], “having a beef,” which proves incapable of effecting decisive change.
+
+Defined this way, my mind goes to rage quitting a job, which is less negative than say, road rage or a raging rampage.
+
+# Two types of tiredness
+But I'm le tired can mean two things. Han invokes Handke's ideas of I-tiredness vs.
+
+1. "I-tiredness", the tiredness of an exhausted ego. As in, I'm tired of you, a separating an isolating kind of fatigue.
+2. "we-tiredness" after Handke, a collective, deep tiredness which brings wonder back into the world.
+
+Somewhat cryptically, Han describes the difference:
+
+> The tiredness of exhaustion is the tiredness of positive potency. It makes one incapable of doing something. Tiredness that inspires is tiredness of negative potency, namely of not-to.
+
+He then ties it to The Sabbath, which I really liked because of it's links to Heschel's ideas (see [[The Sabbath by Heschel]]).
+
+And he ties this tiredness to the war the achivement society individual wages on himself, linking it to a very short story by Kafka I read recently called Prometheus (see [[Kafka parables notes]]), in which “The gods grew weary, the eagles grew weary, the wound closed wearily.” Han comments:
+
+> As everyone knows, Prometheus also brought work to mankind when he gave mortals the gift of fire. Today’s achievement-subject deems itself free when in fact it is bound like Prometheus. The eagle that consumes an ever-regrowing liver can be interpreted as the subject’s alter ego. Viewed in this way, the relation between Prometheus and the eagle represents a relation of self-exploitation.
+
+# Achievement society
+In a somewhat wayward and not super coherent way, we arrive at the main thesis of the book, which is that modern society is no longer a disciplinary society, but rather an achievement society. He rehashes the same point many times over:
+
+- Our society has eliminated the commanding Other in exchange for the self-starting entrepreneur.
+- The late-modern achievement-subject [...] liberates itself into a project. However, the change from subject to project does not make power or violence disappear. Auto-compulsion, which presents itself as freedom, takes the place of allo-compulsion.
+- Achievement society is the society of self-exploitation.
+- The achievement-subject exploits itself until it burns out.
+- The achievement-subject that understands itself as its own master, as homo liber, turns out to be homo sacer.
+- The achievement-subject is simultaneously perpetrator and victim, master and slave. Freedom and violence now coincide.
+- The project turns out to be a projectile that the achievement-subject is aiming at itself (haha — nice wordplay)
+
+Han suggests that depression is caused by becoming “exhausted by his sovereignty”, tired from the constant need for initiative.
+
+Han dunks on Freud and declares psychoanalysis obsolete. If I was more versed in psychoanalysis I might be more capable of understanding convoluted phrases like:
+
+> It proves quite easy to withdraw the weakened libido from the Other and to use it to cathect new objects. There is no need for drawn-out, pain-filled “dream work.”
+
+
 This is How You Lose the Time War
 ===
 rating: yes
