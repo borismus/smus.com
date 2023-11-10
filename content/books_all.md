@@ -4,19 +4,61 @@ class: split
 type: book
 
 
+Tales from the Ant World by E. O. Wilson
+===
+rating: yes
+posted: Nov 8, 2023
+cover: /assets/book-covers/tales-ant-world.jpg
+
+As a kid growing up in the Soviet Union, I remember eyeing a book called Пароль скрещенных антенн (literally "password of the crossed antennae") on my grandfather's bookshelf. It had a green leather home-made cover on it with just the title on it in block capital lettering. My grandfather bound it himself, as he did with many other books, from popular science books to books banned by the authorities. Grandma told me many stories about his obsession with books and bookbinding hobby which he took on after retirement. He would read everywhere: on the pot, at the dinner table, on the sofa. He always had a book on his person, which came in handy because Soviet life involved waiting in so many long queues, you could get a lot of reading done.
+
+I still have the book, and it's on my to-read shelf, but for now, I opted for E. O. Wilson's most accessible take about ants to whet my appetite. "Tales from the Ant World" is a sort of popularization of his more famous "Ants", a Pulitzer prize winning textbook. This in itself is remarkable, but E. O. Wilson is also a pretty remarkable figure who I first learned about from his work on [consilience](https://en.wikipedia.org/wiki/Consilience#Edward_O._Wilson). The writing in "Tales" is very personal, including many anecdotes from Wilson's life, and I think is geared to nudge younger readers towards myrmecology when they grow up. Perhaps less specifically, this book feels primed to maximize latent curiosity for budding scientists (it me?).
+
+Overall it was well written and crazy interesting, a nice diversion from my usual topics. As it happens, I'm dealing with a minor ant infestation at home. There's something pleasantly escapist about peeling back a mundane aspect of our daily experience and discovering a whole world inside. It's equally real, but completely different.
+
+### Reproduction
+
+- The vast majority of useful ants (workers, soldiers, queens) are female.
+- Males are "little more than flying sperm missiles", who after their nuptial flight, die or are driven away by their sisters
+- Winged ant queens can be inseminated by multiple males and have provisions for storing male sperm for the duration of their whole lifetime, 10 to 15 years!
+- A single queen is usually the mother of all the other ants in that colony.
+
+### Pheromones
+
+- Ants can "speak" with a limited vocabulary 10-20 chemical "words". For example, a scout can discover food and report it to her sisters via pheromones she leaves on the trail behind her.
+- Each ant colony has its own unique smell, allowing ants to differentiate members of their own colony from intruders.
+- Dead ants emit a certain pheromone, and when they do, their sisters bring them to the ant cemetery.
+    - Wilson experimented by dabbing living ants with that pheromone and sure enough if dabbed, these ants are also carried to the cemetery despite their protestation! No ants were harmed in this particular experiment though. Subjects eventually wash themselves of it and return to normal ant life.
+
+### Violence
+
+- Ants are the dominant carnivores in their weight class.
+- Many ants are cannibals, eating their dead and injured.
+- Some species of ants can enslave other species of ants, and this is most commonly done by raiding another colony and stealing the larvae. These then grow up in the slaver nest and become pheromonically synchronized with their captors.
+    - Wilson suggests this may be a good strategy of expanding worker ranks in a very difficult survival environment.
+
+### Super-organisms?
+
+- Fire ants have a fascinating survival tactic for flooding. They cling onto one another and create a living raft to float an entire colony back to shore (check out [this video](https://www.youtube.com/watch?v=L2ZysgGAABw)).
+    - More accurately, it is a partially living raft given that many of the lower layers of ants will die of asphyxiation for their sisters.
+- Leaf cutter ants are especially coherent and work as a single unit.
+    - At which point are a collection of individuals better understood as a Super-organism?
+
+
 The Burnout Society by Byung-Chul Han
 ===
-rating: no
+rating: yes
 posted: Oct 25, 2023
+cover: /assets/book-covers/burnout-society.jpg
 
-Some interesting ideas in this philosophical pamphlet. However it's not especially well written - rambling and repetitive. I'd probably recommend a shorter summary (like this one!) or listening to Stephen West's Philosophize This! about it (Episode [188](https://www.youtube.com/watch?v=Jm56nQ31kBk))
+Some interesting ideas in this philosophical pamphlet, but they are atomized and not woven into a strong coherent argument. The book is not especially well written: rambling and repetitive and lacking structure. I'd recommend a shorter summary (hello, you're welcome) or listening to [Episode 188 of Philosophize This](https://www.youtube.com/watch?v=Jm56nQ31kBk), which is what turned me onto Byung-Chul Han in the first place.
 
 # Modernity suffers from too much positivity
-Human societies operate like the immune system. Just like the immune system's goal is to determine which cells are part of the organism and which are foreign, societies determine who is part of "us" and who is part of "them".
+Human societies operate like the immune system. Just like the immune system's goal is to determine which cells are part of the organism and which aren't, societies do the same at a higher level of organization. Societies historically are based on an identity. Some people are part of the in-group, and others are not.
 
-As contemporary society shifts to be more inclusive, "otherness is being replaced with difference". Because of this shift, we live in a time that is "poor in negativity". And so, unlike the pathologies of yore that are born from excess negativity, modernity suffers from too much positivity.
+If an immune system is not working properly, the organism becomes infected with disease. Similarly, as contemporary society shifts to be more inclusive, "otherness is being replaced with difference", and societies and individuals living in them lose their identity. Because of this shift, we live in a time that is "poor in negativity". And so, unlike the pathologies of yore that are borne from excess negativity, modernity suffers from too much positivity. I don't think Han takes this in a xenophobic direction, but I can definitely see the potential for this strain of thinking.
 
-This rhymes a bit with toxic positivity, but is also reminds me of modern censorship tactics (eg. [[Flood the zone with shit]]) which also suffer from too much positivity.
+This rhymes a bit with toxic positivity, which errs too much on being outwardly positive, no matter how dire the circumstances. It also reminds me of modern censorship tactics (eg. [[Flood the zone with shit]]).
 
 > The violence of positivity does not deprive, it saturates; it does not exclude, it exhausts.
 
@@ -31,47 +73,48 @@ People living in a society which glorifies the idea that nothing is impossible a
 # Against multitasking
 Han compares modernity's demands to multi-task with the state of nature, in which animals must divide its attention between many activities:
 
-> That is why animals are incapable of contemplative immersion—either they are eating or they are copulating
+> That is why animals are incapable of contemplative immersion: either they are eating or they are copulating.
 
-This state of being is incompatible with culture, creative work, and mental health. Han criticizes Arendt's and Nietzsche's endorsement of the active life, instead favoring the contemplative life.
+This state of being is incompatible with maintaining and creating culture, creative work, and mental health. Han criticizes Arendt's and Nietzsche's endorsement of the active life, instead favoring the contemplative life.
 
 > Culture presumes an environment in which deep attention is possible. Increasingly, such immersive reflection is being displaced by an entirely different form of attention: hyperattention. A rash change of focus between different tasks, sources of information, and processes characterizes this scattered mode of awareness.
 
 This reminds me a lot of a few books:
-- [[Creativity — Flow and the Psychology of Discovery and Invention by Mihaly Csikszentmihalyi]]
-- [[Deep Work by Cal Newport]]
-- And of course this amazing video: https://www.youtube.com/watch?v=YJg02ivYzSs
+
+- [Creativity — Flow and the Psychology of Discovery and Invention by Mihaly Csikszentmihalyi](/books/creativity-by-mihaly-csikszentmihalyi/)
+- [Deep Work by Cal Newport](/books/deep-work-by-cal-newport/)
+- And of course [HYPER-REALITY](https://www.youtube.com/watch?v=YJg02ivYzSs)
+
+
 # Negative emotions can be good
 
-Examples:
-- Too much positivity weakens feelings such as dread and mourning, which are important parts of the human experinece.
-- In Zen meditation, one attempts to free the mind of thoughts, "achieve the pure negativity of not-to"
+- Too much positivity weakens feelings such as dread and mourning, which are important parts of the human experience.
+- In Zen meditation, one attempts to free the mind of thoughts to "achieve the pure negativity of not-to".
 
-# Even rage can be good
-Han writes that part of the problem of too much positivity is that we are losing the capacity for rage. He interprets rage in a positive light. Perhaps there is something lost a bit in translation:
+Even rage can be good. Han writes that part of the problem of too much positivity is that we are losing the capacity for rage. Surprisingly, he interprets rage in a positive light. Perhaps there is something lost a bit in translation:
 
 > Rage is the capacity to interrupt a given state and make a new state begin. Today it is yielding more and more to offense or annoyance [Ärgernis], “having a beef,” which proves incapable of effecting decisive change.
 
-Defined this way, my mind goes to rage quitting a job, which is less negative than say, road rage or a raging rampage.
+Defined this way, my mind goes to rage-quitting a job, which is less negative than say, road rage or a raging rampage. Indeed, when you notice negative emotions arise, that can be a catalyst for change.
 
 # Two types of tiredness
-But I'm le tired can mean two things. Han invokes Handke's ideas of I-tiredness vs.
+Han suggests that there are two kinds of tiredness. I don’t want to be tired of you. I want to be tired with you.
 
-1. "I-tiredness", the tiredness of an exhausted ego. As in, I'm tired of you, a separating an isolating kind of fatigue.
-2. "we-tiredness" after Handke, a collective, deep tiredness which brings wonder back into the world.
+1. "I-tiredness" is the tiredness of an exhausted ego. As in, I'm tired of you, a separating an isolating kind of fatigue.
+2. "We-tiredness" after [Handke](https://www.goodreads.com/en/book/show/874779) is a collective deep tiredness which brings wonder back into the world.
 
-Somewhat cryptically, Han describes the difference:
+Han describes the difference in his usual cryptic style:
 
 > The tiredness of exhaustion is the tiredness of positive potency. It makes one incapable of doing something. Tiredness that inspires is tiredness of negative potency, namely of not-to.
 
-He then ties it to The Sabbath, which I really liked because of it's links to Heschel's ideas (see [[The Sabbath by Heschel]]).
+To Han, The Sabbath is a dedicated space-time for collective deep tiredness built into the Jewish week. This resonates with me and reminds me a lot of Heschel's ideas in [The Sabbath by Heschel](/books/the-sabbath-by-heschel/).
 
-And he ties this tiredness to the war the achivement society individual wages on himself, linking it to a very short story by Kafka I read recently called Prometheus (see [[Kafka parables notes]]), in which “The gods grew weary, the eagles grew weary, the wound closed wearily.” Han comments:
+Han ties this I-tiredness to the war the achievement society individual wages on himself. He invokes a very short story by Kafka called Prometheus (see [[Kafka parables notes]]), in which “The gods grew weary, the eagles grew weary, the wound closed wearily.” Han comments:
 
 > As everyone knows, Prometheus also brought work to mankind when he gave mortals the gift of fire. Today’s achievement-subject deems itself free when in fact it is bound like Prometheus. The eagle that consumes an ever-regrowing liver can be interpreted as the subject’s alter ego. Viewed in this way, the relation between Prometheus and the eagle represents a relation of self-exploitation.
 
 # Achievement society
-In a somewhat wayward and not super coherent way, we arrive at the main thesis of the book, which is that modern society is no longer a disciplinary society, but rather an achievement society. He rehashes the same point many times over:
+In a somewhat wayward way, Han brings us to the main thesis of the book, which is that modern society is no longer a negative disciplinary society (thou shalt not X), but rather a positive, achievement society (you can be anything you want to be). He rehashes the same point many times over:
 
 - Our society has eliminated the commanding Other in exchange for the self-starting entrepreneur.
 - The late-modern achievement-subject [...] liberates itself into a project. However, the change from subject to project does not make power or violence disappear. Auto-compulsion, which presents itself as freedom, takes the place of allo-compulsion.
@@ -87,6 +130,7 @@ Han dunks on Freud and declares psychoanalysis obsolete. If I was more versed in
 
 > It proves quite easy to withdraw the weakened libido from the Other and to use it to cathect new objects. There is no need for drawn-out, pain-filled “dream work.”
 
+My assessment from the first read is "great ideas poorly assembled". Maybe it flows better in the original German?
 
 This is How You Lose the Time War
 ===
