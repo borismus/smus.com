@@ -5,7 +5,7 @@
   <article>
     <a href='{{permalink}}'><h1 class='title'>{{ title }}</h1></a>
     {% if yaml.cover %}
-    <img class="book-cover" src="{{ yaml.cover }}"/>
+    <img class="book-cover" loading="lazy" src="{{ yaml.cover }}"/>
     {% endif %}
     <div class='body'>
       {{content}}
