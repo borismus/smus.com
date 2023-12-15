@@ -12,7 +12,7 @@ link to the semantically related note, or to merge with it entirely. Building on
 [a previous technique](/ai-note-garden-linker), I implemented this idea as an
 Obsidian plugin:
 
-<iframe width="560" height="360" src="https://www.youtube.com/embed/kZkDCjr8ZqU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="360" loading="lazy" src="https://www.youtube.com/embed/kZkDCjr8ZqU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--more-->
 

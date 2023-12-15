@@ -6,7 +6,7 @@ With this post I aim to synthesize some ideas from the Tools for Thought movemen
 
 If you're impatient (who can blame you?), here's a quick demo:
 
-<iframe width="600" height="338" src="https://www.youtube.com/embed/QLok-ubBJl4?si=rBqOaRwyBn3kILOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="600" height="338" loading="lazy" src="https://www.youtube.com/embed/QLok-ubBJl4?si=rBqOaRwyBn3kILOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!--more-->
 ## Systems and causal loop diagrams
