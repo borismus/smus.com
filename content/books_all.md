@@ -4,6 +4,97 @@ class: split
 type: book
 
 
+Great Work Of Time by John Crowley
+===
+rating: no
+posted: Dec 19, 2023
+cover: /assets/book-covers/great-work-of-time.jpg
+
+Thanks to AK for the suggestion, I found this to be a more historical and literary take on a concept similar to [End of Eternity by Isaac Asimov](/books/the-end-of-eternity-by-isaac-asimov/). It's also a short novella, which I think is part of why a lot of the details feel like they are left as an exercise to the reader.
+
+Crowley's secret cabal of time traveling elites, takes after Asimov's Allwhen Council of Eternals. Except is founded by Cecil Rhodes and called the Otherhood. Just like Asimov's Eternals seek to intervene in time by making Minimal Necessary Changes for the Maximal Desired Response, the Otherhood seeks “the smallest possible intrusion that would have the proper effect”.
+
+But unlike the Allwhen Council interested in preventing societal collapse, the Otherhood are Tories whose main goal is to keep the British empire going for as long as possible. In one future explored by Crowley, the Otherhood succeeds in this, preventing the calamities of the 20th century. A glimpse into the far future, however, reveals a dark and bizarre world with Hominids, Angels, and "Draconics". (Connecting the dots, this is supposed to be a terrible turn of events, but its apparent awfulness doesn’t really come through in the prose. What’s bad about it?)
+
+Crowley goes beyond Asimov in describing the geometry of the multiverse which time travelers ("orthogonists") can traverse. Time marches on inexorably:
+
+> The universe proceeds out of what has been and into what it will be, inexorably, unstoppably, at the rate of one second per second, one year per year, forever.
+
+But as I understand it, any forward progress breeds a new universe that is literally orthogonal to the arrow of time:
+
+> At right angles to its forward progress lie the past and the future. The future, that is to say, does not lie "ahead" of the present in the stream of time, but at a right angle to it
+
+You can never enter the same present twice.
+
+> The past he had passed through on his way back was not 'behind' his present at all, but at a right angle to it; the future of that past, which he had to traverse in order to get back again, was not the same road, and 'back' was not where he got.
+
+(I think this is similar to the [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation) that quantum mechanics applies everywhere and at all times and so describes the whole universe. In particular, there is no wave function collapse. Schrödinger's cat is both alive and dead, even before the box is opened, but the "alive" and "dead" cats are in different branches of the multiverse, both of which are equally real, but which do not interact with each other.)
+
+But how does time travel work in such a world? Well, I guess one possibility is that in the next time step, you move into a world that is a lot like the one before. With the many-worlds interpretation, it's possible that anything happens. So there's a non-zero probability of having a time machine and using it to time travel to a world that looks just like 1893. There is also a non-zero probability that you will use a chicken to time travel to a magical rainbow under the surface of Jupiter's smallest monkey. The only difference between these two scenarios is their respective probabilities.
+
+
+Letters to my Palestinian Neighbor by Halevi
+===
+rating: yes
+posted: Dec 7, 2023
+cover: /assets/book-covers/letters-palestinian-neighbor.jpg
+
+I discovered Yossi Klein Halevi following Hamas' massacre on Oct 7 on a podcast. Halevi's ability to combine a firmly pro-Israeli position with a gentle touch impressed me. This comes through in his book too, which I liked overall. I'll recommend it to left-leaning friends struggling to understand the situation.
+
+# Interesting history
+Half of Israeli Jews descend from the Arab diaspora. (I did some additional research at [[Waves of Jewish immigration (aliyah) into Israel]]). This is a pretty solid counter to the idea that Zionism is a European colonial project.
+
+Hertzl's [Uganda Scheme](https://en.wikipedia.org/wiki/Uganda_Scheme) was new to me, or I'd forgotten the idea completely. Was this omitted from the brave and valiant history of Israel in my Hebrew school?
+
+The 1975 UN resolution that "[Zionism is a form of racism](https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_3379)" caused the hard Israeli right to harden. This "Zionism = racism" act was reverted in 1990 which increased Jewish and Israeli inclination to peace.
+
+**Genocidal neighbors**: On one hand, you want to befriend your neighbors and let them into your house. On the other, when a genocidal enemy says that they want to destroy you, you should believe them. This is the dilemma that Israel faces with many Palestinians in Gaza. They are both neighbors and committed to the destruction of Israel.
+
+**Arafat’s Johannesburg Speech**: In 1994, Yasser Arafat gave a speech in which he admitted that he wasn't actually looking for peace with Israel at all just a temporary seize fire.
+
+> What they are saying is that [Jerusalem] is their capital. No, it is not their capital. It is our capital. It is the first shrine of the Islam and the Moslems
+
+**Palestinian voice for peace?**: It's completely unclear where the serious voices advocating for a two state solution are in the Palestinian media. Where are they in the Arab world? Where are they in the broader Muslim world? (They seem to [exist](https://www.facebook.com/PalestinianVoiceforPeace/), but they are quiet.)
+
+> No national movement has rejected as many offers to create a nation as the Palestinian national movement.
+
+# Yossi's remedy
+
+**Distinguish between country & land** Both the Israelis and the Palestinians make claims to the same land. But neither side can have full control over that land, so the only way the conflict can resolve peacefully is if there's some equilibrium in which the country of Israel is not the same as the land of Israel and the country of Palestine is not the same as the land of Palestine.
+
+**Understand the imperfection**: Both sides must understand the imperfection of this equilibrium. This is just a compromise that needs to be reached while also acknowledging that both sides have a maximalist tendency to acquire all the land. This must be resisted in a credible way.
+
+**Mutual contraction**: There is a mirroring here between the Palestinian right of return and the Israeli settlement movement:
+
+- **Palestinian right of return**: Palestinians from Tel Aviv, Western Jerusalem, etc, want to return there. This is unprecedented — no other defeated nation would ever make such demands, and there's no way Israel would concede to them.
+- **Israeli settlers movement**: Israelis that care about holy lands in Judea, Samaria, and in Arab cities like Hebron want to return there. This flies in the face of a two state solution and gives Palestinians proof that there is no credible partner for negotiation.
+
+These maximalist claims need to be reneged in a mutual contraction. Israel contracts its settlements and Palestine contracts its refugee return demands.
+
+**Cherry-pick the holy books**: There is so much in the scriptures, it’s a matter of picking the right narrative for the right time.
+
+For example, from a religious Jewish perspective, it’s easy to see the territories as a literal commandment to capture the land of Israel and make it belong to the country. But also there are commandments about leaving the land fallow every 7 years and a bicentennial jubilee in which all debts and ownership is forgiven.
+
+
+**Find common ground**: Despite the differences between Abraham and Ibrahim in the Torah and Quran respectively (e.g. [[Abraham vs. Ibrahim in the story of Sodom]]), there is a common ground:
+
+- Abraham/Ibrahim smashed his father's idols.
+- Ibrahim/Abraham was buried jointly by his sons Isaac and Ishmael, progenitors of proto-Judaism and proto-Islam.
+
+**Religious surrender vs. intellectual inquiry**: Both Judaism and Islam have traditions of religious surrender and intellectual inquiry:
+
+|                      | Judaism          | Islam              |
+| -------------------- | ---------------- | ------------------ |
+| Religious surrender  | Binding of Isaac | Prayer mats        |
+| Intellectual inquiry | Study houses     | Lost enlightenment |
+
+Now in the 3rd millennium, Judaism lacks religious surrender, while Islam lacks intellectual inquiry. Both could use some work.
+
+**On The Holocaust**: A common Arab take on the holocaust is: "it never happened, we're glad it did, and we're gonna do it again". Yossi describes a conciliatory trip to Auschwitz, undertaken by a mixed group of Israelis and Palestinians in which Arabs got to see the plight of the Jews due to the Nazis. (The people that need that trip the most are the people that would never go on such a trip.)
+
+A solution to the Israeli-Palestinian conflict remains as illusive as ever, and while no book will provide one, this one shed light on some historical details I did not know about. I hope that "Letters" might be even more illuminating to left leaning friends that feel less intrinsically connected to Israel than I do.
+
+
 Tales from the Ant World by E. O. Wilson
 ===
 rating: yes
