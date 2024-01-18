@@ -4,7 +4,7 @@ class: split
 type: book
 
 
-The End of the World Is Just the Beginning
+End of the World by Peter Zeihan
 ===
 posted: Jan 18, 2024
 rating: yes
@@ -12,22 +12,22 @@ cover: /assets/book-covers/end-of-the-world.jpg
 
 Zeihan's book is an interesting exercise in scenario planning: what if America decides to step back from its role as policeman of the world? But this is not the framing that the author uses. Instead, the book is a high-confidence prediction about the future based on geopolitical and demographic trends. In short, America will step down as global hegemon, global trade will end, supply chains will be irreparably damaged, the world will turn multipolar, and everyone will starve to death, except the Americans who will be a-OK!
 
-Zeihan is a consultant to large companies making important strategic decisions, so I guess high confidence comes with the territory. That said, I would be surprised if Zeihan's world transpires fully, but I think he makes good "big history" points and the book was worthwhile if you can get past the bombastic clickbait vibes.
+Zeihan is a consultant to large companies making important strategic decisions, so I guess high confidence comes with the territory. I would be surprised if Zeihan's world transpires fully, but he makes good "big history" points and the book was worthwhile if you can get past the bombastic vibes.
 
-In general, Zeihan does a good job of going pretty deep into how the world works, and explaining things like I'm five. This is inevitably simplifying, as in his explanation of mediums of exchange, which ignore ledgers as an important part of the history (see [[Debt by David Graeber]]). Nits aside, I really liked his concise chronicle of global mediums of exchange, all historically gold-backed currencies, all the way to the end of Bretton Woods, where the USD now floats freely, untethered to gold. There is a certain unevenness in the presentation however, for example I really disliked his convoluted explanation of inflation, disinflation, and deflation.
+In general, Zeihan does a good job of going pretty deep into how the world works, and explaining things like I'm five. This is inevitably simplifying, as in his explanation of mediums of exchange, which ignore ledgers as an important part of the history (see [Debt by David Graeber](books/debt-the-first-5000-years/)). Nits aside, I really liked his concise chronicle of global mediums of exchange, all historically gold-backed currencies, all the way to the end of Bretton Woods, where the USD now floats freely, untethered to gold. There is a certain unevenness in the presentation however, for example I really disliked his convoluted explanation of inflation, disinflation, and deflation.
 
-The book delves surprisingly deeply into many nitty gritty side-spurs most of which I think serve to explain the complexity of the modern manufacturing.
+The book delves surprisingly deeply into many nitty-gritty side-spurs most of which I think serve to explain the complexity of the modern manufacturing.
 
 **Geographies of Success**. At different stages of human civilization, different geographic features were desirable. For example:
 
-- Hunter gatherers geography of success: access to a variety of climactic zones, often best situated at the bases of mountains.
+- Hunter-gatherers geography of success: access to a variety of climactic zones, often best situated at the bases of mountains.
 - Farmer geography of success: access to water, but also insulated from other people by large deserts.
 
 Selon Zeihan, during the globalized American Order, these geographies ceased to matter, since you could get anything shipped to you. But once The Order collapses, they will begin to matter again.
 
 **The Order and globalization**: After World War II, America was in a position to try to establish a Rome-like global empire. America weighed her options and decided that direct rule would be unsustainable. Instead, America wisely bought a period of peace by offering a militarily brokered economic order with prosperity for all. This meant an essentially global free trade network without any of the historical challenges and high costs. Previous trade networks had way more middle-men charging exuberant prices at every step of the way and way smaller shipping volumes. This ushered in an unprecedented peace dividend (see [[The peace dividend is over]]).
 
-**Collapse of The Order**: When the Soviets emerged as a countervailing pole shortly after WW2, America's need to create a strong western alliance became even stronger. When the Soviet empire collapsed, and America "won" the cold war, it lost its sense of urgency and direction. Zeihan claims that the order is over without much justification. It seems to be more of a mood affiliation (see [[The fallacy of mood affiliation]])
+**Collapse of The Order**: When the Soviets emerged as a countervailing pole shortly after WW2, America's need to create a strong western alliance became even stronger. When the Soviet empire collapsed, and America "won" the Cold War, it lost its sense of urgency and direction. Zeihan claims that the order is over without much justification. It seems to be more of a mood affiliation (see [[The fallacy of mood affiliation]])
 
 **The uneven spread of tech revolutions**: the industrial revolution began in Britain, where it took decades to refine the key inventions: steam engines, looms, factories. Subsequent adoption in other countries like Germany proceeded much faster. Later entrants like China industrialized even faster.
 
@@ -54,5 +54,6 @@ Pointers:
 
 - Dominant professions over time: this would be an interesting statistic to track. One angle could be to investigate the capital investment going into each profession. Another could be just raw numbers. [[Most common professions over history]]
 - Japanese finance culture and debt forgiveness: Zeihan mentions some Japan-specific historical precedent having to do with debt forgiveness.
-- Demographic pyramids in general seem really powerful and interesting tools. https://www.visualcapitalist.com/population-pyramids-compared/
+- Demographic pyramids in general seem really powerful and interesting tools. <https://www.visualcapitalist.com/population-pyramids-compared>
 - 3D printing could be a significant enabling technology if Zeihan's dire predictions come to pass and globalized world trade propped up by the American Order vanishes.
+- In a zero-sum world, people will be more likely to look for scapegoats even in America and we all know what that means...
