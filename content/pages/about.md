@@ -14,11 +14,8 @@ involves a mix of software engineering, UX design, and invention.
 
 I have experience building speech interfaces, virtual reality, audio processing,
 the web platform, developer tools, rapid prototyping, interactive visualization,
-and user interface design. For the still curious, please see:
-
-- Highlighted [projects](/projects).
-- Public [press](/press), [patents](/patents), and [papers](/papers) related to the above.
-- Open source code contributions via [github](https://github.com/borismus/).
+and user interface design. For the still curious, please see my
+[visual resume](/projects) and [open source work](https://github.com/borismus/).
 
 I have a Masters in Human Computer Interaction from Carnegie Mellon University,
 and a BSc (hon) in Mathematics and Computer Science from the University of
