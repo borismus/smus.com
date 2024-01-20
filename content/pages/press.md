@@ -1,7 +1,7 @@
-Press
+Press Coverage
 =====
 
-Selected news about my work:
+Selected media coverage about my work:
 
 - Aug 2023: [Modeling and improving text stability in live captions](https://blog.research.google/2023/08/modeling-and-improving-text-stability.html) (*Google Research Blog*)
 
