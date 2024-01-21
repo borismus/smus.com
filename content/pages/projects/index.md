@@ -21,7 +21,7 @@ type: custom
     <h3>AI-powered Smart Glasses</h3>
     <p class="date">2021 - 2024</p>
     <p>
-      <p>I manage a team of SWEs and prototypers building Translate and Transcribe for Augmented Reality glasses <a href="http://go/alps-prototype-log">and beyond</a>. Our work on enabling live translation in everyday glasses was the closing feature at the <a href="https://www.youtube.com/watch?v=nP-nMZpLM1A&amp;t=6978">Google I/O 2022 keynote</a>:</p>
+      <p>I manage a team of SWEs and prototypers building Translate and Transcribe for Augmented Reality glasses and beyond. Our work on enabling live translation in everyday glasses was the closing feature at the <a href="https://www.youtube.com/watch?v=nP-nMZpLM1A&amp;t=6978">Google I/O 2022 keynote</a>:</p>
 <blockquote>
 <p>Let's see what happens when we take our advances in translation and transcription, and deliver them in your line-of-sight. — Sundar</p>
 </blockquote>
