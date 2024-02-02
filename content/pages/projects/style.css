@@ -154,7 +154,7 @@ a.patent {
 }
 
 .paper:before {
-  content: url(media/pdf_icon.svg);
+  content: url(assets/icons/pdf_icon.svg);
   position: absolute;
   margin-left: -18px;
   width: 14px;
