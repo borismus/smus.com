@@ -4,6 +4,50 @@ class: split
 type: book
 
 
+Every Life is on Fire by Jeremy England
+===
+posted: Feb 9, 2024
+rating: yes
+cover: /assets/book-covers/every-life-is-on-fire.jpg
+
+I came across this peculiar book in a circuitous way. I listened to part of an interview in which a certain Beff Jesos spent an inordinate amount of time speculating about non-equilibrium systems and how they might relate to the genesis of life. He also casually name-dropped Jeremy England. On his lead, I read an article about some of recent research on life-like simulations that seem to spontaneously reach orderly states, and came across this book. Turns out England is not just a statistical physicist, but also an ordained rabbi, and that "Every Life is On Fire" is a strange amalgam of condensed matter theory and The Torah, which sounded right up my alley.
+
+Overall, I found the book thought-provoking and worthwhile despite its unevenness, abrupt end, and overreliance on scripture. One obscure episode from Exodus in which God teaches Moses to turn his hand sickly white and revert it back to normal was given far too much weight, resulting in a contorted and unconvincing analogy. On the other hand, some Torah references illuminated the author's thought process, and at a meta-level, reminded me about the flexibility of human minds to synthesize across such seemingly disparate fields. Anyway here are some ideas that stood out to me:
+
+**Escape velocity and state changes**: An intuitive and new-to-me way of looking at changes in state. Consider a particle in its transition from liquid to gas (e.g. boiling water), we can apply the concept of escape velocity. This particle is like a rocket trying to escape the gravitational field of earth. In this analogy, the earth is made out of these rocket-particles, so as more of them leave, the earth's mass decreases, effectively reducing escape velocity. This bandwagon effect applies generally to state changes, explaining why we observe quick transitions rather than gradual ones.
+
+**Limitations of "first principles thinking"**: Reductionism holds that you can understand system by just understanding its constituent parts. But a complex system is often greater than the sum of its parts, exhibiting emergent behavior, so reductive thinking is inherently limited. Emergence is the opposite of reductionism. Multiple different fields have evolved to study phenomena from different perspectives. Each field has their scope and level of abstraction, suited to best study the phenomenons in their scope.
+
+**Life and life-likeness**: Physics doesn't concern itself with defining life, but some life-like properties can be described in physical terms. For example, life tends to replicate itself, tends to require external energy and use it to repair itself. Considering some edge cases reveals how complex the barrier between life and not-life is:
+
+ - Fire can self-replicate by spreading through a dry forest
+ - Ice can repair itself if you make a hole in it and wait for the water to freeze
+
+**Active and passive stability**: Consider the self repair of an ice sheet crushed by a stick and the self repair that happens when skin repairs a cut. These are very different processes; skin is capable of dynamic self-repair, but ice is passively self-repaired.
+
+Life has a tendency to exist in states that require constant energy input just to remain alive; repair happens continuously in response to ongoing wear and tear. In the event of a cut, the same regular maintenance occurs but perhaps at an accelerated rate.
+
+A frozen pond, in contrast, requires no continuous energy to remain frozen. The crystal structure of the ice is sufficiently stable that it can just continue to exist as long as the temperature doesn't increase. If the structure is disrupted, water under the ice will naturally return to the surface and spontaneously freeze because of the temperature of the surroundings, self-repairing spontaneously.
+
+The downside of the frozen pond strategy is that ice's crystal structure is highly vulnerable to changes in the environment. When it gets warm, the crystal will reliably melt and turn into water. This is static stability.
+
+A biological system, in contrast, typically has a broader operating range, and is more resilient to environmental variation. Life is complex and constantly requires external energy to survive, but it is far more resilient.
+
+**Everything interesting flows**: is it true that all interesting systems require a constant flow of inbound energy? Equilibrium is death. There is a cascade of systems in which energy flows from one system to the next, with each of the energy flows cyclical in nature. These sub-systems are not in equilibrium, but they are still in predictable flow states. (There's an amazing visualization to be made on this theme, along the lines of [Powers of Ten](https://www.youtube.com/watch?v=0fKBhvDjuy0))
+
+**Resonance and adaptation**: Energy does not just come into a system in some random way. Instead, its flow and properties have a certain structure. For example, a singer can break a glass with her voice if her pitch matches the resonance frequency of the glass. The singer's voice can be represented as a spectrum of frequencies and powers. In this case, the singer modulates the frequency of the sound wave she emits until it matches that of the glass, and then cranks up the amplitude.
+
+The singer's pitch is the source of energy for the singer-glass system. Unlike the singer-glass, most systems have a fixed source of energy, and entities in the system can adapt to it. In the singer-glass system, imagine an imaginary glass that changes size to match the resonance frequency of the singer's voice. Like the singer's voice, the sun's rays transmit electromagnetic energy in a particular spectrum of frequencies and powers. And like the glass, every living creature adapts to this structured energy to survive.
+
+**Energy in the Goldilocks zone**: If energy is not structured correctly or is overpowering, it can be destructive to a system. England makes an interesting Goldilocks zone argument (see [[Goldilocks principle]]) inspired by the paradoxical story of Moses and the burning bush.
+
+- A bush subject to no external driving force will die of neglect.
+- A bush subject to too chaotic an external driving force will die of immolation.
+- A bush needs to have structured external driving forces to thrive.
+
+This is what inspired the name of the book. Every life is a bit on fire.
+
+
 End of the World by Peter Zeihan
 ===
 posted: Jan 18, 2024
