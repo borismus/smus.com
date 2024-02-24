@@ -4,6 +4,42 @@ class: split
 type: book
 
 
+David: The Divided Heart by David Wolpe
+===
+posted: Feb 23, 2024
+rating: yes
+cover: /assets/book-covers/david-divided-heart.jpg
+
+I read this book as respite from Samuel I and before tackling Samuel II. Wolpe's retelling of David's stories is lively, easy to read, and insightful. Most of this book summarizes David's story from various perspectives: as a young man, on the run from Saul, as a king, as a father, at the end of his journey, and as the progenitor of the Messiah. I found Wolpe's negative insights to be the most incisive.
+
+Wolpe observes that
+
+> Conventional religion has a regrettable tendency to do surgery on the human soul, leaving only the exalted parts.
+
+Not so with David. In the words of Baruch Halpern, "David is the first human being in world literature". Wolpe's overall portrait of David is not super sympathetic. David's flaws, sins, and moral failings are so great that this sentiment from former Israeli president Shimon Peres seems like an understatement:
+
+> Not everything David did on land, or on roofs, appears to me to be Judaism.
+
+The author of this book is my radar from a number of different directions, most surprisingly via his [interview with Sadhguru](https://www.youtube.com/watch?v=aQzPhEbyZ5g).
+
+**The supernatural and the feminine**: With the exception of Saul raising Samuel from the dead, there is not a single supernatural miracle in the entire story of David. Wolpe observes that when David needs a miracle, God finds a woman to enact it in an earthly manner. Is this like [real life](https://youtu.be/txqiwrbYGrs?si=9PPAGRrQ5006kbis&t=15)?
+
+**Family strife**: Wolpe writes resonantly that “for king or commoner, the pain in families dwarfs even the final, eschatological battle”. David's family is rather extreme, a wild caricature of the sorts of pedestrian problems most people experience in their life. In a modern reading, does one soften and interpret them as allegory?
+
+- David commits both adultery and murder in one sordid chapter, sleeping with Bathsheva ("I saw her bathing on the roof") and sending her husband Uriah to die at the hands of the Ammonites.
+- Nathan's prophecy that David and Bathsheba's first child would die then comes true.
+- David's children reenact David's own rape-and-murder when Amnon rapes his half-sister Tamar. Tamar's brother Absalom then avenges this act by murdering Amnon. All three are David's children.
+- Absalom attempts to usurp the throne from David in his moment of weakness. David flees like he fled from his stepfather Saul. Eventually David tries to spare Absalom, but his general kills his son against his will.
+- David's parting words to his son and heir Solomon are ruthless: kill Joab (David's general), kill Shimei (a man from Saul's lineage), and dispatch of Adonijah (David's son). Solomon systematically executes his father's wishes and secures his succession.
+
+I must say, recalling David's story in detail really enhances my appreciation the much loved "Hallelujah":
+
+> But all I ever learned from love,
+> Was how to shoot somebody who outdrew you.
+
+Wolpe argues that David is the cho­sen of God exact­ly because of his com­plex­i­ty, which strikes me as a very modern take. Would the authors of the Bible considered complexity a desirable quality? I suspect they would laud David for being a great warrior king. A gentler modern reading is far more damning. David was "a man after God’s own heart", at the cost of sordid and tragic personal and family affairs. A broken hallelujah.
+
+
 Every Life is on Fire by Jeremy England
 ===
 posted: Feb 9, 2024
