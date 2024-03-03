@@ -4,6 +4,61 @@ class: split
 type: book
 
 
+Technofeudalism by Yanis Varoufakis
+===
+posted: Mar 1, 2024
+rating: no
+cover: /assets/book-covers/technofeudalism.jpg
+
+Varoufakis' book is written as a missive to his late socialist father, as an attempt to answer his question “Now that computers speak to each other, will capitalism self-destruct or become unassailable?”. His answer is confidently that capitalism has already metastasized into something much worse, characterized by a highly centralized Big Tech sector which engages in rent seeking behavior. He sensationally calls this diagnosis Technofeudalism, and his remedies are unconvincing.
+
+**Manufacturing demand post-WW2**: Going beyond Zeihan (see [[The End of the World Is Just the Beginning by Peter Zeihan]]), Varoufakis elaborates on how the WW2-era war machine was turned into a consumer-facing economy. He describes the period between WW2 and now as one in which the US established global hegemony. This soviet-esque centrally planned war economy was a great success. During the war, America's manufacturing machine grew so large that once the war was over and it switched to consumer goods, it would overflow the US market. As a result, there was a need to manufacture more demand domestically, and to create international demand for American goods. Thus in addition to robust advertisement at home, we needed America's exported global culture. (Lots of overlap with Adam Curtis' Century of the Self, and a reference to [Mad Men](https://www.youtube.com/watch?v=aY-HR88uPBU))
+
+**Sacking the commons**: Varoufakis claims that large paradigm shifts aren’t just technological but first social. For the internet age, he describes a politically sanctioned plunder of the internet commons. This was followed by the invention of page rank and other tech. 
+
+Provocative analogy of common protocols of internet 1.0 (IMAP, SMTP, HTTP) to the British forests. Both used to be public, but became increasingly privatized and exploited for its resources for personal and corporate gain.
+
+**Incentivizing over-complication**: Bankers are incentivized to make complex instruments that are not well understood by the public. Big tech employees are similarly incentivized to do the same, creating complex systems to dazzle promotion committees with their sheer ambition and scalability and level of abstraction. [[Simplicity is underrated at Big Tech]]
+
+**Rents vs. profits**: Varoufakis rails against rent seeking as something that is actively destructive in the tradition of Adam Smith. His argument is that when rental income dominates corporate profits, you end up with a sort of degenerative capitalism that he calls feudalism. But how is rent different than profit fundamentally?
+
+- Profits is reduced by competition while rent is not. If my neighbor landlords raise rents, my rent also goes up.
+- Branding extracts not just profits but “brand rents”, which let them accrue value for “nothing”
+- (He doesn't mention this, but presumably we want to avoid monopolies too. In a monopoly you end up with only one winner taking the whole pie.)
+
+**Capitalism ➡ Technofeudalism**: Varoufakis' main argument is that modern capitalism has changed over the last decades, and no longer resembles the capitalism of the early 20th century. In particular, he blames big tech's cloud computing sector for rent seeking behavior. He calls this shift "technofeudalism" but acknowledges that this is spin — a marketing term designed to evoke the gravity of the situation. He lists many examples of cloud rent:
+
+- Apple and Play Store are lords, charging app developer as vassals a 30% tax.
+- Major cloud providers (Amazon AWS, Microsoft Azure, Google Cloud) charging for cloud APIs that enable all applications.
+- Amazon taking a fee for selling goods in their online marketplace.
+
+Related: [[Building on a platform is providing free R&D]]
+
+**The remedy**: Varoufakis notes that historically, the economic left struggles with offering a socialist vision for what the future ought to be, and attempts to remedy it by providing one. His vision is extremely multifaceted and includes many huge ideas, many of which he devotes fewer than a paragraph to. They include:
+
+- Democratic corporations: divide post tax profits into tranches: fixed costs, salaries, bonuses.
+- Mostly egalitarian: each employee owns exactly one share of their company.
+- Bonuses: determined by Eurovision style tokens, similar to peer bonuses at Google.
+- Everything will be run by the committees, at various levels. Very anarchist.
+- Sortition: random delegates are chosen to represent some committees (see [[Sortition prevents power hungry people from exerting too much control]]).
+- Land reform: land is constantly on auction. Varoufakis doesn't bother citing Henry George, but he is clearly taking a page from his book (see [[Georgism is a constantly running auction on all land]]).
+- Workers of the world unite: a global alliance of consumers, unionized workers, etc should decide to strike against all Amazon warehouses at the same time.
+
+Like many radicals, Varoufakis suffers from the pathology of being unable to even propose a coherent desired state, let alone a path to getting there (see [[Strategy != Goals != Ambitions]]). He describes a very elaborate, broad ranging vision, and then posits that the many modifications he proposes will get us there. I'm highly skeptical that this would work, since each one of the bullet points above are big ideas on their own and would introduce dozens of second order effects. In tandem, these second order effects would only multiply, leading to some unfathomable future even a very small number of time-steps away.
+
+Perhaps Varoufakis is well grounded on many of these interventions. He worked at Valve previously, which I think is the source of some of the ideas behind "democratic corporations", but the book ends abruptly without much detail into these actual policies. But it feels to me that going into actual policy was never his goal. "Technofeudalism" is a manifesto that describes meaty problems without seriously proposing adequate solutions.
+
+---
+
+Random:
+
+- Bessemer process first enable large scale steel production. This enabled a lot more things to be built out of steel, such as ship hulls, which up to the 1850s were necessarily built out of wood. More in [[Diffusion of steel technology]].
+- Contra the author, Thomas Edison did not actually electrocute an elephant to spread it alternating current. That’s a common misconception and draft the narrative. [[List of my own misconceptions]]
+- A compelling point that crypto is just another vehicle for Wall Street now. It’ll especially clear now that BTC is part of the various retirement funds. Just another vehicle for readying existing power structures.
+- Two antagonistic "super cloud fiefs". Chinese and American. But I don’t think that the Chinese superfiefdom is open for business.
+- After US froze Russia central bank out of the global financial system, Varoufakis claims that it’s the first time this happened. Even during the Russia-Britain war in 1850 (Crimean war?) British and Russian bankers continued to collaborate. True?
+
+
 David: The Divided Heart by David Wolpe
 ===
 posted: Feb 23, 2024
