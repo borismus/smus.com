@@ -5,8 +5,65 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-02-23T22:34:47-00:00</updated>
+  <updated>2024-03-03T15:50:51-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Technofeudalism by Yanis Varoufakis</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/technofeudalism-by-yanis-varoufakis"/>
+    
+    <updated>2024-03-01T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/technofeudalism-by-yanis-varoufakis</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Varoufakis' book is written as a missive to his late socialist father, as an attempt to answer his question “Now that computers speak to each other, will capitalism self-destruct or become unassailable?”. His answer is confidently that capitalism has already metastasized into something much worse, characterized by a highly centralized Big Tech sector which engages in rent seeking behavior. He sensationally calls this diagnosis Technofeudalism, and his remedies are unconvincing.</p>
+<p><strong>Manufacturing demand post-WW2</strong>: Going beyond Zeihan (see <a class="wiki" href="https://z3.ca/The_End_of_the_World_Is_Just_the_Beginning_by_Peter_Zeihan">The End of the World Is Just the Beginning by Peter Zeihan</a>), Varoufakis elaborates on how the WW2-era war machine was turned into a consumer-facing economy. He describes the period between WW2 and now as one in which the US established global hegemony. This soviet-esque centrally planned war economy was a great success. During the war, America's manufacturing machine grew so large that once the war was over and it switched to consumer goods, it would overflow the US market. As a result, there was a need to manufacture more demand domestically, and to create international demand for American goods. Thus in addition to robust advertisement at home, we needed America's exported global culture. (Lots of overlap with Adam Curtis' Century of the Self, and a reference to <a href="https://www.youtube.com/watch?v=aY-HR88uPBU">Mad Men</a>)</p>
+<p><strong>Sacking the commons</strong>: Varoufakis claims that large paradigm shifts aren’t just technological but first social. For the internet age, he describes a politically sanctioned plunder of the internet commons. This was followed by the invention of page rank and other tech. </p>
+<p>Provocative analogy of common protocols of internet 1.0 (IMAP, SMTP, HTTP) to the British forests. Both used to be public, but became increasingly privatized and exploited for its resources for personal and corporate gain.</p>
+<p><strong>Incentivizing over-complication</strong>: Bankers are incentivized to make complex instruments that are not well understood by the public. Big tech employees are similarly incentivized to do the same, creating complex systems to dazzle promotion committees with their sheer ambition and scalability and level of abstraction. <a class="wiki" href="https://z3.ca/Simplicity_is_underrated_at_Big_Tech">Simplicity is underrated at Big Tech</a></p>
+<p><strong>Rents vs. profits</strong>: Varoufakis rails against rent seeking as something that is actively destructive in the tradition of Adam Smith. His argument is that when rental income dominates corporate profits, you end up with a sort of degenerative capitalism that he calls feudalism. But how is rent different than profit fundamentally?</p>
+<ul>
+<li>Profits is reduced by competition while rent is not. If my neighbor landlords raise rents, my rent also goes up.</li>
+<li>Branding extracts not just profits but “brand rents”, which let them accrue value for “nothing”</li>
+<li>(He doesn't mention this, but presumably we want to avoid monopolies too. In a monopoly you end up with only one winner taking the whole pie.)</li>
+</ul>
+<p><strong>Capitalism ➡ Technofeudalism</strong>: Varoufakis' main argument is that modern capitalism has changed over the last decades, and no longer resembles the capitalism of the early 20th century. In particular, he blames big tech's cloud computing sector for rent seeking behavior. He calls this shift "technofeudalism" but acknowledges that this is spin — a marketing term designed to evoke the gravity of the situation. He lists many examples of cloud rent:</p>
+<ul>
+<li>Apple and Play Store are lords, charging app developer as vassals a 30% tax.</li>
+<li>Major cloud providers (Amazon AWS, Microsoft Azure, Google Cloud) charging for cloud APIs that enable all applications.</li>
+<li>Amazon taking a fee for selling goods in their online marketplace.</li>
+</ul>
+<p>Related: <a class="wiki" href="https://z3.ca/Building_on_a_platform_is_providing_free_R&D">Building on a platform is providing free R&amp;D</a></p>
+<p><strong>The remedy</strong>: Varoufakis notes that historically, the economic left struggles with offering a socialist vision for what the future ought to be, and attempts to remedy it by providing one. His vision is extremely multifaceted and includes many huge ideas, many of which he devotes fewer than a paragraph to. They include:</p>
+<ul>
+<li>Democratic corporations: divide post tax profits into tranches: fixed costs, salaries, bonuses.</li>
+<li>Mostly egalitarian: each employee owns exactly one share of their company.</li>
+<li>Bonuses: determined by Eurovision style tokens, similar to peer bonuses at Google.</li>
+<li>Everything will be run by the committees, at various levels. Very anarchist.</li>
+<li>Sortition: random delegates are chosen to represent some committees (see <a class="wiki" href="https://z3.ca/Sortition_prevents_power_hungry_people_from_exerting_too_much_control">Sortition prevents power hungry people from exerting too much control</a>).</li>
+<li>Land reform: land is constantly on auction. Varoufakis doesn't bother citing Henry George, but he is clearly taking a page from his book (see <a class="wiki" href="https://z3.ca/Georgism_is_a_constantly_running_auction_on_all_land">Georgism is a constantly running auction on all land</a>).</li>
+<li>Workers of the world unite: a global alliance of consumers, unionized workers, etc should decide to strike against all Amazon warehouses at the same time.</li>
+</ul>
+<p>Like many radicals, Varoufakis suffers from the pathology of being unable to even propose a coherent desired state, let alone a path to getting there (see <a class="wiki" href="https://z3.ca/Strategy_!=_Goals_!=_Ambitions">Strategy != Goals != Ambitions</a>). He describes a very elaborate, broad ranging vision, and then posits that the many modifications he proposes will get us there. I'm highly skeptical that this would work, since each one of the bullet points above are big ideas on their own and would introduce dozens of second order effects. In tandem, these second order effects would only multiply, leading to some unfathomable future even a very small number of time-steps away.</p>
+<p>Perhaps Varoufakis is well grounded on many of these interventions. He worked at Valve previously, which I think is the source of some of the ideas behind "democratic corporations", but the book ends abruptly without much detail into these actual policies. But it feels to me that going into actual policy was never his goal. "Technofeudalism" is a manifesto that describes meaty problems without seriously proposing adequate solutions.</p>
+<hr />
+<p>Random:</p>
+<ul>
+<li>Bessemer process first enable large scale steel production. This enabled a lot more things to be built out of steel, such as ship hulls, which up to the 1850s were necessarily built out of wood. More in <a class="wiki" href="https://z3.ca/Diffusion_of_steel_technology">Diffusion of steel technology</a>.</li>
+<li>Contra the author, Thomas Edison did not actually electrocute an elephant to spread it alternating current. That’s a common misconception and draft the narrative. <a class="wiki" href="https://z3.ca/List_of_my_own_misconceptions">List of my own misconceptions</a></li>
+<li>A compelling point that crypto is just another vehicle for Wall Street now. It’ll especially clear now that BTC is part of the various retirement funds. Just another vehicle for readying existing power structures.</li>
+<li>Two antagonistic "super cloud fiefs". Chinese and American. But I don’t think that the Chinese superfiefdom is open for business.</li>
+<li>After US froze Russia central bank out of the global financial system, Varoufakis claims that it’s the first time this happened. Even during the Russia-Britain war in 1850 (Crimean war?) British and Russian bankers continued to collaborate. True?</li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>David: The Divided Heart by David Wolpe</title>
@@ -3768,123 +3825,6 @@ Regular clergy: monks headed by an abbot at a monastery.</p>
 <p>Koestler attempted to discourage misuse of his theory by hedging extensively in the conclusion, saying that Israel's right to exist is based on the UN mandate and not on Biblical covenants or genetic inheritance.</p>
 <p>Sadly, Koestler's theory has been used extensively by Arab anti-Zionists, and white supremacists alike. Anyway, the first half is great, but the remainder can be safely skipped.</p>
 <p>That all said, this Khazar question is historically fascinating, shrouded in mystery, and full of people on both sides, exhibiting classic motivated reasoning. We'll see where I eventually land.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Early Middle Ages</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/early-middle-ages"/>
-    
-    <updated>2021-03-17T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/early-middle-ages</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>12 hours dedicated to the period from 300 to 1000 CE, often called the Dark Ages. The modern official nomenclature refers to the fact that sources on the time period are scarce. The lecturer distances from the colloquial usage of backwardness, decline, evil, etc.</p>
-<h1>Late Rome</h1>
-<p>Rome was in shambles around the third century. Wars with Persia, conflict with barbarians. The <a href="https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century">Crisis of the Third Century</a> saw 50 emperors in 25 years!</p>
-<p>Diocletian finally stabilized Rome by imposing authoritarian measures. He militarized Roman society, dismantled any vestiges of the old Roman republic, and split empire in Twain, taking the eastern Roman Empire for himself. The new structure involved an emperor (title Augustus) in the east and in the west, each paired with an understudy-successor (title Caesar). Diocletian thought he was pretty dope, and changed his title from Primus inter pares (first among equals) to Dominus (master).</p>
-<p>Constantine converted to Christianity in 312 and many followed his lead, although Senators often held out and savored their pagan traditions. The only imperial attempt to revert to paganism by Julian the Apostate completely failed. He was the only pagan emperor after Constantine.</p>
-<p>The transition from Rome to the Fall of Rome was varied depending on locale within the Roman empire. In many areas it was quite gradual. In Rome, the last emperor's deposition in 473 had no bearing on day to day life. Commerce was still done in Roman coins, barbarian peoples still enjoyed Roman traditions.</p>
-<h2>St. Augustine and Early Christian thinking</h2>
-<p>St. Augustine's life is a mirror through which to try to gleam religious morality of the period. He was first inspired by Manicheanism, later Neo-platonism, and finally developed original ideas that were the basis for rigid, early Christian doctrines.</p>
-<p>Manichaeans: inspired by a Persian school. Good and evil is in perpetual gridlock, neither able to overpower the other.</p>
-<p>Neo-platonists: God is everything and everything is good. Some things may appear evil, but that's just because God got distracted.</p>
-<p>Athletes of God: not sure how widespread, but around 300 CE there were many famous cases of people turning to asceticism and other extremes in the name of worshipping the Christian God.</p>
-<h2>Fall of Rome in the west</h2>
-<p>These barbarian tribes took on a lot of Roman traditions and lifestyles. Many became practically indistinguishable from their Roman counterparts.</p>
-<p>In England, a distant outpost of Rome, Christianity was lost well before the last emperor, along with literacy. Interesting example of regression in civilization.</p>
-<p>Irish monks retained their Christianity and eventually settled in Britain, bringing their religion back to England. They were extremely serious in their interpretation of monastic life. Part of this was due to the fact that Anglia retained its Celtic language which was Germanic and very different from Latin. So studying the scriptures was substantially more difficult because of the language barrier.</p>
-<p>When Irish monks exported their version of Catholicism to the world, including Italy and Spain, it was a hardened take on the subject.</p>
-<h2>Rome in the east</h2>
-<p>The eastern Roman empire lasted for a long time. Eventually it fell in 1453 due to largely to Arab invaders. The east diverged significantly after Diocletian split the empire in two. For example, it switched to Greek as the main language.</p>
-<p>One of the most successful Byzantine emperors, Justinian made some attempts to reunite the empire, successfully conquering the North African Vandal kingdom. He made peace with the Persians in the east, establishing an “eternal treaty”. However just as he was attempting to reconquer Italy, the Persians break the treaty and invade from the east, sacking cities and gaining territories in Palestine and Syria. This misstep, as well as the appearance of the Plague of Justinian, put an end to Justinian's ambition.</p>
-<blockquote>
-<p>The Plague of Justinian is the first and the best known outbreak of the first plague pandemic, which continued to recur until the middle of the 8th century. Some historians believe the first plague pandemic was one of the deadliest pandemics in history, resulting in the deaths of an estimated 15–100 million people during two centuries of recurrence, a death toll equivalent to 25–60% of Europe's population at the time of the first outbreak.</p>
-</blockquote>
-<p>The Byzantine empire was constantly besieged by the Arabs from the south, by Persians from the east, and sometimes by Slavs and other barbarians from the north. Many attempts were made on Constantinople, including a <a href="https://en.wikipedia.org/wiki/Siege_of_Constantinople_(626)">joint siege</a> by Persian and Slav armies in 626.</p>
-<h1>Francia after Rome</h1>
-<p>As Rome was collapsing, The Franks established Frankia, a kingdom preceding modern France. Clovis I was the best known ruler of the Merovingian dynasty. This dynasty suffered from problems of succession. They split their inheritance between children, and due to bad luck had a long strain of many child-rulers. Eventually they lost control and were replaced by the Carolingians, initially Pippin II, but later Charles Martell (the hammer), who made significant gains pushing back against the invading Arabs.</p>
-<h2>Iconoclasm</h2>
-<p>The pope remained tied to the Byzantine empire for many centuries after last western Roman emperor. However, as the empire became increasingly besieged it was less capable and interested in protecting assets of the church. To raise money for a large army to defend against Muslims, the Byzantine emperor Leo III instituted a new tax. But since church interests were not being adequately protected, the pope refused to pay it. <a class="wiki" href="https://z3.ca/History_of_the_world_viewed_through_the_lens_of_taxes">History of the world viewed through the lens of taxes</a></p>
-<p>Leo III then demanded destruction of holy icons, a core practice of the still unified church. It's pretty unclear why this happened, perhaps an attempt to emulate successful Islamic tradition? At any rate, the pope refused and eventually the papacy turned away from Byzantine and the East in general, so much that popes, who had long been from Greece, now weren’t sourced from there for 800 years. It's the dark ages, things are murky, but there's more speculation <a href="https://en.wikipedia.org/wiki/Byzantine_Iconoclasm">on Wikipedia</a>.</p>
-<p>This wasn’t quite the schism yet tho. That’s later.</p>
-<p>The papacy found itself without protection. The Carolingians under Pippin III (son of Charles Martel) wanted to make their ascension legitimate and saw an opportunity. To officially depose the still Merovingian king, they struck a deal with the pope: legitimate us, and we will defend your interests against the Lombards in northern Italy. Thus did the church's power and attention shift towards the West.</p>
-<h2>Charlemagne</h2>
-<p>Charlemagne, Charles I, aka Charles Magnus, aka Charles the Great, was named after his grandfather Charles Martel, the hammer that successfully pushed back against many Arab invaders. Charlemagne eventually inherits the whole Carolingian empire, first splitting it with his brother Carloman. The names are really too much!</p>
-<p>Charlemagne stands out as the greatest Carolingian, and reconquers more territory, including lands not originally in the Roman empire. He struggles much more against the Saxons than against the Lombards. The Saxons were primitive and distributed, actually consisting of many tiny tribes. Conversely, the Lombards were developed city dwellers with a capital city in Padua. Conquering the capital meant capitulation.</p>
-<p>Does this generalize? Do we necessarily become less resilient as civilization progresses? Seems unlikely. <a class="wiki" href="https://z3.ca/Distributed_is_more_resilient">Distributed is more resilient</a></p>
-<h2>Carolingian Renaissance</h2>
-<p>Charlemagne's rule in the 9th century coincided with a golden age.</p>
-<p>Latin at this point was just a wildly evolving colloquial language which was slowly evolving into French, Spanish and Italian, depending on the region.</p>
-<p>Around this period, Irish and Anglosaxon missionaries were spreading their faith far and wide. When they landed in the Carolingian empire, they were distinguished by their classical Latin, which remained unadulterated by their main germanic tongue. These monks found inconsistencies between many versions of holy scriptures and sought to consolidate back to their purest form. Charlemagne too did not believe in divine omniscience and insisted on addressing God in proper Latin.</p>
-<p>During this period, bishops became much better educated and much better stewards of the religion. Meanwhile priests remained unrefined. Priesthood tests involved with very basic questions about the faith and included an answer key, suggesting a low level of theological sophistication. Also interesting is the use of standardized testing for this purpose.</p>
-<p>To help bring about more literacy the Carolingian Rennaisance is an early example of writing reform, helping usher in <a class="wiki" href="https://z3.ca/Carolingian_minuscule">Carolingian minuscule</a>, which introduced lower case letters, spaces between words, basic punctuation, and other hints to help make reading easier.</p>
-<h2>Treaty of Verdun</h2>
-<p>Carolingians and Merovingians both suffered from being too equitable in splitting inheritance along their heirs. This led to conflicts between the heirs often military and loss of stability. Charlemagne got "lucky", since by his death, all of his kids were dead except Louis the Pious. The Carolingian Rennaisance continued under his watch. But Louis' successors saw Carolingian power collapse. <a class="wiki" href="https://z3.ca/Primogeniture_and_other_methods_of_splitting_inheritance">Primogeniture and other methods of splitting inheritance</a></p>
-<p>Louis the Pious declared his successors when he was just 40, decades before his death. His three sons quickly rebelled against him. After an extended kerfuffle involving Louis' imprisonment to a monastery on two separate occasions, an equilibrium was reached between his three surviving children: Lothair, the eldest controlled Middle Francia (approx. Italy). Louis, a younger son from the same marriage controlled East Francia (approx. Germany), and Charles, much younger and from another marriage, controlled West Francia (approx. France).</p>
-<h1>Carolingian decomposition: France and Germany</h1>
-<p>Under Charlemagne, the empire was subdivided into counties each governed by an appointed count, accountable to the emperor. This is a nice illustration of an anti-democratic principle at play, succinctly formulated by Fukuyama as <a class="wiki" href="https://z3.ca/Higher_political_bodies_should_be_answerable_to_lower_ones_not_vice_versa">Higher political bodies should be answerable to lower ones not vice versa</a>.</p>
-<p>As the Carolingian Empire succumbed to infighting and Viking invaders, Counts began to gain more power. To secure their alliance in war, Kings began to give Counts multiple counties. The office of Count became hereditary and no longer appointed. Counts, not Kings begin appointing local bishops and abbots, and creating their own law courts. This process is known as <a class="wiki" href="https://z3.ca/Devolution_of_Power">Devolution of Power</a>. By 900 there are 30 principalities in West Francia, many of which prevented the King from even visiting. A similar process occurred in East Francia, but instead Dukes (a level above Count) retained power. As a result, the east was less fragmented, into about 5 Dutchies.</p>
-<p>The West fragments fractally as Castellan do the same to their local Counts as what Counts did to Carolingian Kings. Under Charlemagne, Castellans were a public office, appointed by the ruler and non hereditary. But this breaks down as part of the process of devolution. These castelins assume titles of Dominus (Lord). Increasingly their castles are built of stone, not wood as before.</p>
-<p>These lords then impose power in their realm, typically a 15 mile radius circle around the castle. To enforce their lordship, they hire Knights as mafia-like enforcers. Knights multiply in numbers, get fiefdoms, and we converge to feudalism.</p>
-<p>By this point, the King is effectively elected official, selected by Counts that hold the real power. This process of devolution is really interesting as a way of transforming a top-down hierarchy into one that turns bottom up, at least up to some rung. Clearly not all the way, since commoners, serfs and slaves were fully excluded from these power games. Does this apply to corporations in some way?</p>
-<h1>Teutonicum / Germany</h1>
-<p>TODO
-OTTO
-Holy Roman Empire</p>
-<h1>Meanwhile in Spain/Al-Andalus</h1>
-<p>Not taking too many notes here, since a lot of the material overlaps with <a class="wiki" href="https://z3.ca/Lost_Enlightenment_by_Frederick_Starr">Lost Enlightenment by Frederick Starr</a>. The <a class="wiki" href="https://z3.ca/Jizya_tax">Jizya tax</a> stood out as especially interesting, in the perverse incentives it created. If too many Christians and Jews converted to Islam, the Arab leaders would lose their tax base!</p>
-<p>The visigoths in Spain were quickly overrun but Arab invaders, who established an Umayyad kingdom there, and eventually self-declared a Caliphate.</p>
-<p>Initially a dusty outpost of the Islamic world, by the 10th century Al-Andalus became a significant, urbanized and diverse region in Europe. The capital at Cordoba dwarfed any other European centers, with population around 100-250k. In contrast, population of Paris at the time was perhaps 20k, and London perhaps 10k.</p>
-<p>The Arabs brought with them irrigation techniques acquired to survive in harsh deserts, relying on gravity to relay water from Oases many tens of miles away. They also brought with them new crops like rice, sugar cane and cotton, which became staples of Spanish food, and instrumental in the New World. They brought a great amount of high culture, math, and astronomy, and the region became dominant so that contemporary European mathematicians like <a href="https://en.wikipedia.org/wiki/Pope_Sylvester_II">Gerbert</a> would flock to Al-Andalus for access to the greatest minds of the time, as well as preserved writings of Greek philosophers.</p>
-<h1>England</h1>
-<p>Alfred the Great... zoned out a bit because it was mostly recap of <a class="wiki" href="https://z3.ca/The_Story_of_Medieval_England">The Story of Medieval England</a>.</p>
-<h2>From Slavery to Serfdom</h2>
-<p>Fantastic historical perspective on serfdom as actually a substantial improvement to quality of life.</p>
-<p>Roman latifundia were large estates controlled by wealthy romans. These were mostly tilled by agricultural slaves, acquired as war booty. These slaves have no rights at all, not even to their offspring or their spouses. They could not own anything at all and generally lived in terrrible conditions.</p>
-<p>Estates would typically consist of one or both of these:
-1. The demesne (or domain) of the lord, which a serf is required to till some number of days a week for no pay.
-2. The tenantship allotted to each serf, from which the lord gets a cut, but is fundamentally tied to the serf. Except if the serf dies childless, in which case posessions would revert to the lord by <a href="https://en.wikipedia.org/wiki/Mortmain">Mortmain</a>.</p>
-<p>By the 10th century, slavery is mostly gone, but it’s not fully rooted.</p>
-<h1>Feudalism</h1>
-<p>The feudal system based on lords and vassals was put in place around this same time. Vassals would swear fealty to their lords. This would grant them a fief, usually heritable property within their lord's holdings. In Latin, fief is feudum, from which feudalism comes from, and this is a central notion to the idea. In exchange for the fief, the vassal must come to the lord's aid in war, and generally give them advice when it is requested by the overlord.</p>
-<p>(For some reason, this reminds me a lot of a corporate structure, where the fief is a steady salary, and the war is with the code.)</p>
-<p>Family structure changed as a result of Christianity. Completely novel ideas came about, borrowing neither from Roman nor barbarism traditions, but driven more by the church. Two interesting examples:</p>
-<ul>
-<li>Prohibition of cousin marriage, up to 6th cousins! I can barely track my lineage that far.</li>
-<li>Delegalizaton of concubinage, which apparently is not always as nefarious as it sounds. In Ancient Rome, concubinage "was an institution of quasi-marriage between Roman citizens who for various reasons did not want to enter into a full marriage".</li>
-</ul>
-<h1>Aside on technology</h1>
-<h2>Knights</h2>
-<p>Knights first emerged during the reign of Charlemagne. They relied on a few different technologies:</p>
-<ul>
-<li><strong>Stirrups</strong> from Central Asia enabled a much more stable ride.</li>
-<li><strong>High backed saddles</strong> increased stability especially in case of frontal impact that would normally throw you backwards.</li>
-<li><strong>Couching lances</strong>, meaning tucking a weighted spear under your arm as you charge. This put all of the horse's momentum into the spear tip for an extremely devastating blow.</li>
-</ul>
-<p>This is a fascinating general direction, see <a class="wiki" href="https://z3.ca/Horse_related_inventions">Horse related inventions</a>.</p>
-<h2>Viking longboats</h2>
-<p>Vikings initially were great traders, establishing vast trade routes throughout the world. Archaeological digs at <a href="https://en.wikipedia.org/wiki/Helg%C3%B6">Helgo</a> recovered  Buddha statues from India dating to the 6th century. Eventually Viking traders turned into Viking raiders, conducting seasonal raids in the Carolingian empire and in Britain.</p>
-<p>One of their secret weapons was the longboat, able to carry about 100 men with very shallow draft enabled transport of raiders over seas, but also critically, to enter rivers that would normally be inaccessible.</p>
-<p>Vikings would often establish semi-permanent bases from which to conduct yearly raids on especially plentiful targets.</p>
-<h1>Conclusion and some historiography</h1>
-<p>The Dark Ages are shrouded in mystery but two famous historians devoted their lives to studying the period.</p>
-<ul>
-<li>Edward Gibbon wrote The History of the Decline and Fall of the Roman Empire in 1776</li>
-<li>Henri Pirenne was a Belgian historian, wrote Mohammed and Charlemagne in 1937.</li>
-</ul>
-<p>Gibbon attributed the fall of Rome to Christianity. On his analysis, the religion made Romans too laconic and insufficient concerned about this world, more concerned about the world to come. As a result, they could not muster up the energy to withstand barbarism incursions. This is unconvincing since he pegs collapse at the date of deposition of the last western emperor. Meanwhile the eastern Roman empire lasts another millennium. And it’s actually the more Christian half.</p>
-<p>Pirenne doesn't accept that the Roman empire fell in the 5th century at all. He attributes eventual collapse to economic decline and the Arab invasions around the 8th century.</p>
-<p>Daileader, the lecturer, has a better explanation: depopulation. Strangely, no symptoms of depopulation appear in any of the prior lectures. It's a bit odd to conclude with a completely new insight.</p>
-<p>According to the lecturer, Roman population declined greatly between 2nd and 7th centuries, which led to inability to defend against various Euro-barbarians, Arabs, etc. There's apparently tons of archaeological evidence for this: declining sizes of cities as witnessed by receding city walls. Main reasons for the population decline may have been diseases: The Plague of Cyprian in the 3rd century CE, the Plague of Justinian in 6th century CE (first known occurence of Yersinia pestis, the Justinianic plague), and <a href="https://www.theatlantic.com/science/archive/2016/03/plagues-roman-empire/473862/">others</a>.</p>
-<p>Gibbon and Pirenne saw Carolingian period as a low point in European history. Modern historians don't associate Dark Ages with a cultural darkness or decline, but a period lacking primary sources. Culturally and economically, the Carolingian Renaissance seems to have pushed Europe out of a decline, spurred on by exchanges with Vikings who had huge trade networks, and cultural interactions with Arabs who were just ramping up.</p>
 
         
       </div>
