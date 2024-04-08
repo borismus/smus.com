@@ -4,6 +4,29 @@ class: split
 type: book
 
 
+Good Omens by Pratchett and Gaiman
+===
+posted: April 6, 2024
+rating: yes
+cover: /assets/book-covers/good-omens.jpg
+
+I picked this one up on Sr. B's recommendation and enjoyed it in multi-voice audiobook form. Overall, a fun listen. Very (in-)effable(?). Lots of jokes and satirical observations reminiscent of Doug Adams' Hitchhiker's Guide to the Galaxy and I think way more Pratchett than Gaiman.
+
+I couldn't help but wonder which of the two authors identified and wrote more of the demon Crowley and the angel Aziraphale. Their hilarious and love-hate dynamic reminded me of the starkly different and far more self-serious duo depicted in [[This is How You Lose the Time War]].
+
+On that more serious note, Good Omens explores the possibility of Angels, Demons, and God having a free will. As the end of the world nears it becomes clear that the great conflict of this book is not between good and evil. Both sides act wrongly, and dream only of a war of total annihilation in which one of them wins and the other loses. A zero-sum game. In a real sense, the Biblical "good" is also evil.
+
+Instead, the real struggle is between forces that want the world to end, and those that, despite all imperfections, would prefer it to continue. Framed this way, I am reminded a lot of Carse (see [[Finite and Infinite Games by James Carse]]). And when the world of course doesn't end, my stance against millenarianism is only strengthened (see [[Millenarianism is always wrong]]).
+
+Little notes:
+
+- Adam Young is well named
+- "Piss artist" is a great expression
+- I knew all the "ineffable" jokes seemed familiar, and I must have recalled Dirk Gently, to whom I leave the last word:
+
+> Let us think the unthinkable, let us do the undoable, let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.
+
+
 Mystery Teachings by J. M. Greer
 ===
 posted: Mar 4, 2024
@@ -16,15 +39,15 @@ The bulk of Greer's book features seven laws, which may be better described as p
 
 (The [[Seven Fundamental Laws of Spiritual Ecology]] are well documented, so rather than enumerating them I'll just focus on the ideas across the laws that I found compelling.)
 
-**An alternative entry point to complex systems** Greer's first three laws can be cleanly mapped to the the canon of complexity science. Wholeness is all about the world consisting of complex adaptive systems. Flow is about stocks and flows. Finally, balance is about balancing feedback loops.
+**An alternative entry point to complex systems** Greer's first three laws can be cleanly mapped to the canon of complexity science. Wholeness is all about the world consisting of complex adaptive systems. Flow is about stocks and flows. Finally, balance is about balancing feedback loops.
 
 **Everything flows at different rates**. Flow rates vary, often moving at a pace far slower or faster than humans are capable of perceiving:
 
 > the boulder left by a glacier on one corner of the meadow during the last ice age fifteen thousand years ago is slowly being weathered away by rain, wind, and the slow action of lichens, and fifteen thousand years from now, it will be a fraction of its present size. Solid as it seems, the stone is also flowing.
 
-Perhaps there is a general scaling law that the smaller the faster, and the higher the frequency? (Also see [[Small animals perceive time more quickly]] and [[Smaller objects move faster]])
+Perhaps there is a general scaling law that the smaller, the faster, and the higher the frequency? (Also see [[Small animals perceive time more quickly]] and [[Smaller objects move faster]])
 
-**Accumulation is poison** because it effectively stop the natural flow of things. My initial reaction to this was one of skepticism: some accumulations seem alright. Organisms need a store of energy to survive. Accumulation also afford freedom. Freedom to consider something other than just constant toil for the purpose of survival.
+**Accumulation is poison** because it effectively stops the natural flow of things. My initial reaction to this was one of skepticism: some accumulations seem alright. Organisms need a store of energy to survive. Accumulation also afford freedom. Freedom to consider something other than just constant toil for the purpose of survival.
 
 Greer seems less judgmental about accumulation in the human realm, especially when this is for the future of one’s own life. He explicitly rejects that material wealth is an evil thing and the only right path is one of abject poverty. Instead, in the spirit of seeking a middle way (see [[Middle way in Buddhism]]), Greer suggests something that resonates with me:
 
@@ -100,7 +123,7 @@ This reminds me of Turchin ([[Fathers-and-sons cycles]]) as well as Tainter ([[C
 4. Convince yourselves that changing your own thinking will scale up.
 5. Sit and wait for some apocalyptic event to make the world live up to our expectations.
 
-> Yet there is also another way: the way of the mysteries. This way starts by realizing that our everyday life in the world of manifestation, here and now, exactly as it is, is a lesson to be studied and understood, rather than a trap to be escaped or an illusion to be ignored. It goes on to recognize that the same laws that shape our ecological relationships with the world around us also define our existence in the subtler realms of mind and spirit and that learning to live and act in harmony. 
+> Yet there is also another way: the way of the mysteries. This way starts by realizing that our everyday life in the world of manifestation, here and now, exactly as it is, is a lesson to be studied and understood, rather than a trap to be escaped or an illusion to be ignored. It goes on to recognize that the same laws that shape our ecological relationships with the world around us also define our existence in the subtler realms of mind and spirit and that learning to live and act in harmony.
 
 I like Greer's call to curiosity, but it seems to me that the mystery schools are just one of many different ways to study and understand the lessons from daily life. Still, I'm pleasantly surprised how neatly Greer's ideas map onto my existing canon of Complexity-related notes. Also, it's useful to find giant gaps in my understanding of ecology (e.g. sers, climax communities, etc) will surely make for an illuminating follow-up.
 
@@ -115,7 +138,7 @@ Varoufakis' book is written as a missive to his late socialist father, as an att
 
 **Manufacturing demand post-WW2**: Going beyond Zeihan (see [[The End of the World Is Just the Beginning by Peter Zeihan]]), Varoufakis elaborates on how the WW2-era war machine was turned into a consumer-facing economy. He describes the period between WW2 and now as one in which the US established global hegemony. This soviet-esque centrally planned war economy was a great success. During the war, America's manufacturing machine grew so large that once the war was over and it switched to consumer goods, it would overflow the US market. As a result, there was a need to manufacture more demand domestically, and to create international demand for American goods. Thus in addition to robust advertisement at home, we needed America's exported global culture. (Lots of overlap with Adam Curtis' Century of the Self, and a reference to [Mad Men](https://www.youtube.com/watch?v=aY-HR88uPBU))
 
-**Sacking the commons**: Varoufakis claims that large paradigm shifts aren’t just technological but first social. For the internet age, he describes a politically sanctioned plunder of the internet commons. This was followed by the invention of page rank and other tech. 
+**Sacking the commons**: Varoufakis claims that large paradigm shifts aren’t just technological but first social. For the internet age, he describes a politically sanctioned plunder of the internet commons. This was followed by the invention of page rank and other tech.
 
 Provocative analogy of common protocols of internet 1.0 (IMAP, SMTP, HTTP) to the British forests. Both used to be public, but became increasingly privatized and exploited for its resources for personal and corporate gain.
 
