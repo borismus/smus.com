@@ -4,6 +4,74 @@ class: split
 type: book
 
 
+Disappearance of Ritual by Byung-Chul Han
+===
+posted: April 15, 2024
+rating: no
+cover: /assets/book-covers/dissapearance-of-rituals.jpg
+
+I recently read [The Burnout Society by Byung-Chul Han](/books/the-burnout-society-by-byung-chul-han/), a chaotic, disorganized read full of interesting ideas. "Disappearance of Ritual" continues in the same tradition, but I found the ideas presented in it somewhat weaker and less original than in "Burnout Society". In one section, BCH extols the virtues of beautiful and playful language and laments its disappearance. Yet he writes woeful passages like this:
+
+> Delirious contiguity is the poetic principle of wit. The signifiers licentiously enter into neighborly relations without giving any consideration to the signified.
+
+Blemishes aside, there are some diamonds in the rough in this work, but nothing really jumped at me as totally earth-shattering.
+
+**Echoes of The Sabbath**: BCH explores the analogy that rituals are to time like dwellings are to space. Citing Antoine de Saint-Exupéry, "rituals are temporal techniques of making oneself at home in the world". Similarly, he uses rest as a sort of sacred ritual:
+
+> Rest is not merely recovery from work, nor is it a preparation for further work. Rather, it transcends work, and it must in no way come into contact with work
+
+Bizarrely, he does not quote [The Sabbath by Heschel](/books/the-sabbath-by-heschel/) which contains very similar ideas and predates Saint-Exupéry's "Citadelle" by 20 years.
+
+**If Rituals did not exist, it would be necessary to invent Them**: BCH laments the loss of rituals in our modern society. Somewhat along the lines of [The Power of Ritual by Casper ter Kuile](/books/the-power-of-ritual-by-casper-ter-kuile/), he suggests that rituals make life more enjoyable, give form to our lifecycles, and bring variety. Because our society has given up on rituals, they need to be synthesized along the slightly cringe lines described in "Power of Ritual" and observed in rationalist solstices:
+
+> The demand for individually designed rites to mark the phases of life and their transitional points is also on the increase, with the place of priests now taken by so-called ritual designers. These novel rituals have to obey the imperative of authenticity and creativity. But they are not rituals in the proper sense. They do not exert the symbolic force which directs life towards something higher and thus provides meaning and orientation. Where there is no longer a higher order, rituals disappear.
+
+A ritualistic life is also less depressing. BCH argues forcefully that there can be no depression in a ritualistic society:
+
+> In a society governed by ritual, there is no depression. In such a society, the soul is fully absorbed by ritual forms; it is even emptied out. Rituals contain aspects of the world, and they produce in us a strong relationship to the world. Depression, by contrast, is based on an excessive relation to self.
+
+I this is overstated and that BCH presents an overly romantic view of ritualistic societies. That said, I have seen how needing to synthesize your own rituals leads people to a place of "narcissistic introspection" and depression.
+
+**Learning things by heart is underrated**. I resonated with this idea, and I'll let BCH speak for himself here:
+
+> Today, many forms of repetition, such as learning by heart, are scorned on account of the supposed stifling of creativity and innovation they involve.
+
+> The cultural technique of deep attention emerged precisely out of ritual and religious practices. It is no accident that ‘religion’ is derived from relegere: to take note... Rituals are characterized by repetition. Repetition differs from routine in its capacity to create intensity.
+
+
+**Politeness as ritual** that produces a positive mental state in all parties. Yet politeness is at odds with authenticity, and the latter wins in modernity. Quoting William James's "[Gospel of Relaxation](https://archive.org/details/onvitalreserves02jamegoog/page/n51/mode/2up)" fake it till you make it ethos:
+
+> In order to feel kindly towards a person to whom we have been inimical, the only way is more or less deliberately to smile, to make sympathetic inquiries, and to force ourselves to say genial things. One hearty laugh together will bring enemies into a closer communion of heart than hours spent on both sides in inward wrestling with the mental demon of uncharitable feeling.
+
+BCH and I find deep wisdom in this:
+
+> A ritual of politeness is not an expression of subjective feeling; it is an objective act. It resembles a magical invocation that produces a positive mental state.
+
+**Ritual made ancient warfare better**. Towards the second half of the book, BCH goes on all sorts of wild tangents, covering a broad range of "bads", from capitalism to pornography in all sorts of blanket statements. It was sort of hard to extract value from the fragments there.
+
+**Modernity compresses life's dynamic range**. BCH laments a sort of dynamic range compression over all spheres of life. On the play end of the continuum, leisure has been dumbed down to binge-watching Netflix, a far cry from the word's original sense, the freedom to pursue education in a way not directly concerned with productivity and profit. On the other end of the continuum, peak experiences lack "splendor, sovereignty, and intensity"
+
+> Only weak play is tolerated, and it forms a functional element within production. The sacred seriousness of play has entirely given way to the profane seriousness of work and production. Life subordinated to the dictates of health, optimization and performance comes to resemble mere survival. It lacks splendor, sovereignty, intensity.
+
+This is an incomplete thought, but a quote from Juvenal stuck with me, which is BCH's way of describing the modern condition:
+
+> "losing the reasons to live for the sake of staying alive" (propter vitam vivendi perdere causas)
+
+My romanticized analogy to the startup world is that entrepreneurs escape this form of weak play which predominates inside large corporations. Instead, they risk more and live with the prospect of honor and glory.
+
+**Ritualized warfare was better**. Continuing on this of "strong play", BCH extends his observations to war. The way he tells it, ancient warfare was ritualized and game-like, with sovereign warriors as players, unafraid of death.
+
+> The prohibition of certain weapons and the agreement on the time and place of battle underline the play-like character of war in the ancient world.
+
+Ancient generals would be at the front of a column leading the charge. Alexander the Great was famously willing to put everything on the line for the sake of achieving his vision.
+
+> According to the chivalric code, which had a decisive influence on the development of the notion of military honor in Europe, it is not honorable to attack an enemy without putting yourself at risk.
+
+In contrast, modern warfare involves soldiers, which in his BCH-ish fashion, literally translates as "the one who is in someone's pay", from salary and salt. He risks his life not because he is a live player (see [[Live player vs dead player]]), but because he receives payment for it. And honor is rarely taken into account, with cynicism and realpolitik the dominant stances.
+
+> The rules of the game to which all belligerents commit themselves ensure that, after the war is over, there is space left for politics. By contrast, killing without rules, pure violence, destroys the political space. War as large-scale dueling differs fundamentally from the kind of military action we see today, which is increasingly degenerating into ruthless killing.
+
+
 Good Omens by Pratchett and Gaiman
 ===
 posted: April 6, 2024
@@ -12,7 +80,7 @@ cover: /assets/book-covers/good-omens.jpg
 
 I picked this one up on Sr. B's recommendation and enjoyed it in multi-voice audiobook form. Overall, a fun listen. Very (in-)effable(?). Lots of jokes and satirical observations reminiscent of Doug Adams' Hitchhiker's Guide to the Galaxy and I think way more Pratchett than Gaiman.
 
-I couldn't help but wonder which of the two authors identified and wrote more of the demon Crowley and the angel Aziraphale. Their hilarious and love-hate dynamic reminded me of the starkly different and far more self-serious duo depicted in [[This is How You Lose the Time War]].
+I couldn't help but wonder which of the two authors identified and wrote more of the demon Crowley and the angel Aziraphale. Their hilarious love-hate dynamic reminded me of the starkly different and far more self-serious duo depicted in [[This is How You Lose the Time War]].
 
 On that more serious note, Good Omens explores the possibility of Angels, Demons, and God having a free will. As the end of the world nears it becomes clear that the great conflict of this book is not between good and evil. Both sides act wrongly, and dream only of a war of total annihilation in which one of them wins and the other loses. A zero-sum game. In a real sense, the Biblical "good" is also evil.
 
