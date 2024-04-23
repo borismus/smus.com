@@ -4,6 +4,59 @@ class: split
 type: book
 
 
+A Sand County Almanac by Aldo Leopold
+===
+posted: April 23, 2024
+rating: yes
+cover: /assets/book-covers/sand-county-almanac.jpg
+
+Inspired to read more about ecology after enjoying [Mystery Teachings from the Living Earth by J. M. Greer](/books/mystery-teachings-by-j-m-greer/), I picked up "Sand County Almanac". I'm not sure how I managed to miss this gem for so long.
+
+Aldo Leopold was an ecosystems' genius, and this most famous book of his contains deep analysis couched in poetic but accessible prose. Leopold was one of the O.G. environmentalists, perhaps an east coast John Muir? I really loved this collection of essays, especially "Good Oak", "Axe in Hand" and "The Land Ethic". These three essays stand alone, contain great quotes, and should be required reading.
+
+# Good Oak
+
+In his "Good Oak" chapter, Leopold recalls felling a dead oak, peeling back the layers of time as his saw cuts through each annual circle in the cross-section of the tree. As he does this, Leopold recalls the history of his 80 acre Sand County farm from an Oak's perspective. This is such a great device, noticed by others as well, as in this blog post entitled [Tree Ring-Span Storytelling](https://forestbathingcentral.com/tree-ring-span-storytelling/). I loved this quote from the chapter:
+
+> There are two spiritual dangers in not owning a farm. One is the danger of supposing that breakfast comes from the grocery, and the other that heat comes from the furnace.
+
+# Axe in Hand
+
+"Axe in Hand" focuses on the almost god-like role of farmers, and a deep discussion on bias (along the lines of my [[Maybe biases are good]]). Leopold muses on why he prefers pine trees to birches, digging deeply and honestly to try to understand why. I'm impressed at the number of possible reasons he produces to favor the pine, but ultimately concedes:
+
+> The only conclusion I have ever reached is that I love all trees, but I am in love with pines.
+
+Farmers decide which plants should live and which should die. Improvements to farming tools are all still fundamentally concerned with doing these god-like activities more efficiently. It's an interesting sentiment expressed many years later, in 1968 by Stewart Brand "We are as gods and might as well get good at it". Leopold quotes "Tristram" by Edwin Arlington Robinson:
+
+> Whether you will or not
+> You are a King, Tristram, for you are one
+> Of the time-tested few that leave the world,
+> When they are gone, not the same place it was.
+> Mark what you leave.
+
+# The Land Ethic
+
+In "The Land Ethic", Leopold describes a model for the natural world he calls the land pyramid. This is similar to the food chain, except with soil as the foundation. Leopold observes that soil is not just a place to plant things, but the substrate in which life can evolve and flourish.
+
+The land pyramid tends to grow in height over evolutionary time, increasing in complexity as life figures out increasingly clever adaptations and ways of being. Leopold laments the loss of megafauna and other apex predators due to human over-hunting, as this flattened the land pyramid for the first time in a long time.
+
+Leopold describes his conservationist philosophy in a few choice quotes:
+
+> Ethical behavior is doing the right thing when no one else is watching- even when doing the wrong thing is legal.
+
+> We are remodeling the Alhambra with a steam-shovel, and we are proud of our yardage. We shall hardly relinquish the shovel, which after all has many good points, but we are in need of gentler and more objective criteria for its successful use.
+
+> A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.
+
+Throughout the narrative, Leopold intertwines natural phenomena that were new to me and raised many questions in my mind:
+
+- Rabbits apparently girdle Oak trees. (What does girdling mean? What is the rabbit-tree symbiosis he alludes to?)
+- You can apparently tell how good a year was by the vertical spacing between branches on the trunk. (How do trees grow? How do bones grow?)
+- I am really intrigued by this sky dance that the Woodcock does. They are [hilarious birds](https://www.youtube.com/watch?v=YF3-LvmHM4E).
+
+"Sand County Almanac" is well worth a read or a listen.
+
+
 Disappearance of Ritual by Byung-Chul Han
 ===
 posted: April 15, 2024
