@@ -5,8 +5,99 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-04-23T17:02:45-00:00</updated>
+  <updated>2024-05-15T23:21:22-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Visual Chronology of Science &amp; Discovery 2.0</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/visual-chronology-science-discovery-v2"/>
+    
+    <updated>2024-05-16T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/visual-chronology-science-discovery-v2</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I recently resumed my Visual Chronology of Science &amp; Discovery <a href="/visual-chronology-science-discovery/">project</a>, a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:</p>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/THE4xSGTQzc?si=E-_y2GX2j2poPHkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>And some major improvements vis-à-vis the original version:</p>
+<ul>
+<li>Revised the visual design of the cards, each of which now features an illustration.</li>
+<li>Improved the UI of the overall system including search and field filtering and a separate timeline component.</li>
+<li>Addressed table-stakes like panning, zooming, and mobile web support.</li>
+<li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
+</ul>
+<p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
+<!--more-->
+
+<h1>Challenge 1: chronological graphs</h1>
+<p>I <a href="/visual-chronology-science-discovery/">previously</a> described the challenge of combining a chronological timeline with a dependency graph. I had originally incorporated both in a single visualization:</p>
+<blockquote>
+<p>Technologies that enabled the focused card are shown to the left and technologies that the focused card enabled are shown to the right, along the x-axis. Chronologically previous and next entries are shown along the y-axis.
+f
+Overwhelmingly, people found this very confusing. Rather than attempt to wedge both dependencies and chronology into to the same view, I've split out the temporal bits into its own timeline component, which also allows search and filtering by field. This is much clearer!</p>
+</blockquote>
+<p><img alt="Timeline component screenshot" src="visual-chronology-timeline.png" /></p>
+<h1>Challenge 2: location, location, location?</h1>
+<p>Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> is not particularly consistent with location names. England is often used interchangeably with Britain, Great Britain, the United Kingdom, etc. As I create a more structured version of his encyclopedia, I feel the need to rectify these inconsistencies.</p>
+<p>One option is to provide the temporally correct name of the originating place. For example, if an invention was created on the territory of modern day Crimea in the 7th century, perhaps it should be called a Greek invention. In the 13th century it ought to be labeled Mongolian. In the 18th century it ought to be labeled Russian. In 2000, it ought to be Ukrainian. Another option is to use the modern name for the territory, regardless of its historically accurate name.</p>
+<p>I think I've arrived at a compromise with an arbitrary dividing line between the ancient world and the modern world.</p>
+<p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://borismus.github.io/asimov/#library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://borismus.github.io/asimov/#arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
+<p>For inventions in the last half-millennium is to use the modern country's name for the place where the discovery or invention occurred. Attempting to provide a historically accurate place name is difficult and potentially confusing. Also, historically accurate place names would often change depending on political events irrelevant to the arc of invention and discovery, making it hard to trace golden ages to a meaningful place.</p>
+<p>Conveniently this approach allows for a distinction between English and Scottish inventors, so subsequent analysis should be able to pinpoint the Scottish Enlightenment, for example.</p>
+<h1>Challenge 3: improved design</h1>
+<p>I was originally inspired by a set of physical card games and technology trees from computer games (see <a href="https://www.are.na/boris-smus/tech-tree-cards">are.na</a>), and finally decided to bite the bullet and clone the original Magic the Gathering card design. I also managed to solve the problem of consistent imagery across whole collection.</p>
+<h1>Challenge 4: consistent imagery</h1>
+<p>One of the biggest limitations of the first version of this project was to create a consistent visual design for this set of cards.</p>
+<blockquote>
+<p>While you can find reams of royalty free images, [...] finding a set that is visually consistent was tough.</p>
+</blockquote>
+<p>Four years ago I speculated:</p>
+<blockquote>
+<p>Theoretically a style transfer model might be able to convert them all to a consistent look.</p>
+</blockquote>
+<p>Modern AI models helped me solve this problem by generating a set of imagery using a textual prompt to guide the content and ensure a consistent style. I'm pleased with the results:</p>
+<p><img alt="New visual style" src="visual-chronology-illustrations-v2.jpg" /></p>
+<p>Compare to where I began several years ago:</p>
+<p><img alt="Old visual style" src="visual-chronology-illustrations-v1.jpg" /></p>
+<h1>Challenge 5: data entry</h1>
+<p>It was difficult to fully digitize the original book because of its multi-columnar and sectional layout. As I wrote <a href="/visual-chronology-science-discovery/">before</a>:</p>
+<blockquote>
+<p>optical character recognition (OCR) is not easy if your content is laid out like a newspaper [...] Cloud Vision and tesseract don’t do well on complex text flows, often failing to recognize section boundaries.</p>
+</blockquote>
+<p>With modern AI, I've been able to extract content from the pages of the book into a structured output. This has been a boon to my productivity, and although I still verify the output of the model, my speed of data entry has greatly accelerated.</p>
+<p>This project continues to be backed by a <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">spreadsheet</a> which has now grown to nearly 600 entries.</p>
+<h1>Open challenge: dependencies</h1>
+<p>One of my goals with the visual chronology of science &amp; discovery was to explore how science builds on itself and to articulate the way in which one invention sometimes serendipitously leads to the next.</p>
+<p>Asimov sometimes cites previous inventions in his encyclopedic entries, but truly connecting the dots is left as an exercise to the reader. To capture this relationship, each entry has a list of dependencies that led to its invention or discovery. This list of dependencies is quite subjective, and produced mostly by my judgement.</p>
+<p>There are a number of ways of interpreting this parent-child relationship between cards:</p>
+<ol>
+<li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://borismus.github.io/asimov/#paved-road">Paved roads</a> were improved upon with <a href="https://borismus.github.io/asimov/#macadamized-roads">Macadamized roads</a>.</li>
+<li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://borismus.github.io/asimov/#improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://borismus.github.io/asimov/#steamboat">Steamboat</a>. <a href="https://borismus.github.io/asimov/#screw-propeller">Screw propeller</a> was necessary to build <a href="https://borismus.github.io/asimov/#transatlantic-liner">Transatlantic liner</a>.</li>
+<li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://borismus.github.io/asimov/#bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://borismus.github.io/asimov/#ocean-navigation">Ocean navigation</a>.</li>
+</ol>
+<p>I think this is the shakiest part of the data that powers the visualization. If you are an expert in the history of science, let's talk. I'd love to discuss where to draw the line. Pun intended.</p>
+<h1>What's next for this project?</h1>
+<ol>
+<li>
+<p>I've only digitized half of the book! Another 600 cards spanning from 1850 to 1993 have yet to be added. I'll continue chipping away at this.</p>
+</li>
+<li>
+<p>Much of my recent progress on this project is due to hot new AI models. I'll have more details to share about that in a future post.</p>
+</li>
+<li>
+<p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p>
+</li>
+</ol>
+<p>Please <a href="https://borismus.github.io/asimov">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Telejam: Interplanetary Musical Ensembles</title>
@@ -6564,191 +6655,6 @@ health tracking data? A web for content that should be consumed on an
 audio-only device?</p>
 <p>This has been my slightly edited brain dump on the future of the web.
 Thanks for reading, I eagerly await your thoughts :)</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Remote controls for web media</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/remote-controls-web-media"/>
-    
-    <updated>2014-01-27T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/remote-controls-web-media</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>When the world wide web was first conceived, it was as a collection of
-interlinked textual documents. Today's web is full of rich media.
-YouTube and other video sites alone consume an enormous 53% of all
-internet traffic. Web denizens often have an open audio player in one of
-their tabs. Web-based photo sharing services such as Flickr are the most
-common way of enjoying photos on our computers. The remote control,
-foundations of which are attributed to everyone's favorite inventor
-Nikola Tesla in <a href="https://www.google.com/patents/US613809">patent US613809</a>, has been the preferred way of
-controlling media for over half a century.</p>
-<p>Yet the only way we can control all of this web media is via the
-on-screen user interfaces that the websites provide. The web has no
-remote control, and this is a big usability problem. Many use the
-desktop versions of streaming services like Spotify and Rdio rather than
-their web player, exclusively because of mac media key support. For
-scenarios where you're far from the screen, like showing friends a
-slideshow of photos on a TV, the lack of remote controllability is a
-non-starter.</p>
-<p>This post is a concrete proposal for what a remote controls for the web
-should be like. To get a sense for how it might feel, try a <a href="http://borismus.github.io/media-control-prototype/">rough
-prototype</a>.</p>
-<!--more-->
-
-<p><img alt="Ways of controlling media: dedicated keyboard buttons,headphone
-remotes, hardware remote controls, second-screen remote controls,
-camera-based gestures, voice commands" src="inputs.png" /></p>
-<h2>Related attempts to solve this problem</h2>
-<p>Many platforms, especially Android, Mac and iOS, do a pretty good job of
-supporting some of the inputs from the above image. The web, one of the
-most common platforms for consuming media, supports none of them. The
-only exception, of course, is the mouse and keyboard, but only when the
-player tab is in the foreground.</p>
-<p>On the web, there have been a number of proposals and half-solutions to
-address this problem. Back in 2011, I shared <a href="http://smus.com/chrome-media-keys-revisited/">KeySocket</a>, a
-Menu Bar app for OS X that handles media keys on the mac keyboard and
-sends them to a companion Chrome extension that injects content scripts
-into web-based media players. A similar project, <a href="http://sway.fm/">Sway.fm</a> built
-support for media keys as an NPAPI plugin (a now <a href="http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html">deprecated</a>
-technology). The <a href="https://flutterapp.com/">Flutter app</a> takes a similar approach (native
-app and companion extension), but enables webcam-based gestures for
-controlling media.</p>
-<p>Recently, I contributed the Mac implementation to the new <a href="https://codereview.chromium.org/60353008/">global
-keyboard shortcuts API</a> for Chrome Apps and
-Extensions. This API lets developers bind to any global shortcut,
-including media keys. This is a good start since it brings the media key
-handling infrastructure into Chrome, but does not address the problem
-for the web in general.</p>
-<h2>Starting with a good user experience</h2>
-<p>Since we have a blank slate when it comes to controlling media on the
-web, how should media controls behave? Let's start with some
-sub-optimal behaviors. Here's one: all media events to get routed to all
-open tabs capable of handling them. Imagine the case with many YouTube
-tabs open, and the ensuing cacophony! Another bad approach is to route
-commands only to the foreground tab, since a very common case for
-needing media controls occurs when music is playing in the background.</p>
-<p><a href="http://borismus.github.io/media-control-prototype/">This rough prototype</a> illustrates what I think is a pretty
-good experience. It follows a focus-based model inspired by mobile
-operating systems like iOS and Android. However, the web is messier than
-the app model and edge cases like multiple sources of media playing
-simultaneously (eg. music player and YouTube video) are likely to
-happen, so we need to be careful.</p>
-<p>Here is what happens when a user issues a play/pause command. I'll
-define the bold terms in a second.</p>
-<ol>
-<li>If any media is <strong>playing</strong> in a <strong>background tab</strong>, it should pause.</li>
-<li>Otherwise, if the <strong>foreground tab</strong> supports <strong>media events</strong>, it
-   should receive the media control and be pushed to the <strong>media focus
-   stack</strong>.</li>
-<li>Otherwise, if the <strong>media focus stack</strong> is non-empty, the event
-   should be routed to the tab at the top of the stack.</li>
-<li>Otherwise (if the stack is empty), find the first open tab
-   supporting <strong>media events</strong>, relay the event to that page and push it
-   on the <strong>media focus stack</strong>.</li>
-<li>If there are no open tabs supporting <strong>media events</strong>, do nothing.
-   Optionally alert the user with a non-modal notification (eg. audible
-   chime).</li>
-</ol>
-<p>When a next or previous control is issued, the command should be routed
-to the tab with <strong>media focus</strong>. If there are no tabs with <strong>media
-focus</strong> and none capable of media control, we drop the event.</p>
-<p>If a tab closes, remove it from the <strong>media focus stack</strong> and ensure
-that <strong>media focus</strong> is granted to the tab at the top of the stack.</p>
-<p>To clarify the description above, here are a few terms:</p>
-<ul>
-<li><strong>Foreground</strong>: the active tab of the foreground browser window.</li>
-<li><strong>Background</strong>: every tab that is not in the foreground.</li>
-<li><strong>Media events</strong>: a new event type that a page can listen to,
-  indicating how to interpret media controls (see the next section).</li>
-<li><strong>Playing tab</strong>: a tab that is currently playing audio or video
-  content.</li>
-<li><strong>Media focused tab</strong>: the tab which is the default receiver of media
-  control events.</li>
-<li><strong>Media focus stack</strong>: a stack of tabs where the top-most tab
-  is the one that currently has media focus. If that tab is
-  popped off the stack, the next one gets media focus.</li>
-</ul>
-<p>The dry description above and <a href="http://borismus.github.io/media-control-prototype/">the prototype</a> should give a
-sense of what tab should handle basic media controls, regardless of
-their origin: keyboard, remote control hardware, gesture, etc.</p>
-<p>Now, when a command comes in, how does the page know how to interpret
-it? That's up to the web developer, and is done through <code>media</code> events,
-described in the next section.</p>
-<h2>Enabling media controls using media events</h2>
-<p>A fundamental missing piece so far is a way for a web page to indicate
-that it can receive media controls, and a way for it to specify how it
-wants to handle them. The solution to this is to create a new type of
-event, the <code>media</code> event, which are defined on a page-level, bound to
-the window object. This suggestion is not new, and first (as far as I
-can tell) came up in this <a href="http://paulrouget.com/e/mediaevents/">blog post by Paul Rouget</a>. Here's
-how media events work:</p>
-<pre><code>// Subscribing to media events.
-window.addEventListener('media', function(e) {
-  if (e.data == e.MEDIA_PLAY) {
-    myPlayer.play();
-  } else if (e.data == e.MEDIA_PAUSE) {
-    myPlayer.pause();
-  } else if (e.data == e.MEDIA_NEXT_TRACK) {
-    myPlayer.next();
-  } else if (e.data == e.MEDIA_PREVIOUS_TRACK) {
-    myPlayer.previous();
-  }
-});
-</code></pre>
-<p>This code tells the browser that this page can accept media controls,
-and what this page should do when a particular media control is
-received.</p>
-<h2>Determining user-initiated media playback change</h2>
-<p>Another missing piece in the narrative so far is how to populate the
-focus stack. So far, we know that a closed tab should be popped from the
-stack, and that play/pause sometimes causes a tab to be pushed onto the
-stack. But this is not enough, since the user can still interact with
-media using the UI of the player. For example, if I start listening to
-music through a Spotify tab, and then switch tabs, media commands should
-obviously go to the Spotify tab, despite me never having issued any
-media controls.</p>
-<p>One option is to, as the user navigates between tabs, push any tab with
-supporting media events onto the stack. This approach fails for the case
-where you are listening to music in the background, and then change
-tabs, passing an open YouTube video on the way. In this case, that
-YouTube video would become focused and there would be no way to control
-the music (until you close the YouTube tab). What we actually need is to
-be able to <strong>track when the user interacts with the page using the media
-player UI</strong>, in order to then push page to the media focus stack.</p>
-<p>A browser can distinguish user-initiated events (like clicks and
-keyboard presses) from programatic ones (like a timer firing, or a page
-loading). <a href="https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html">iOS does this</a> to prevent annoying pages from
-autoplaying music (remember the 90s?). Using the same idea, browsers can
-also track when a media player's playback state changes due to user
-input.</p>
-<p>Even so, there may be special cases that aren't perfect. For example,
-imagine a music app with media controls and a video ad on the side. If
-the user then clicks the video ad, it doesn't mean that the page should
-now have media focus. There are other tricky cases such as a page full
-of videos. Here, if a user starts playing a particular video, and then
-wants to stop it using media controls, the expectation is that the same
-video pauses. If the web developer does not handle this case gracefully,
-another video may start playing concurrently.</p>
-<h2>Response at FOMS was positive</h2>
-<p>Pitching this idea at <a href="http://www.foms-workshop.org/foms2013/pmwiki.php/Main/MediaFocus">FOMS 2013</a> a few months ago, folks seemed
-receptive. There was an understanding that a lack of media controls on
-the web is a genuine problem. Additionally, I got good feedback on the
-solution, which helped to iterate and get to this stage. This is all
-very encouraging, and I've written this post to keep the discussion
-alive and keep the momentum going. To make remote controls for the web a
-reality, we need is a critical mass of interested browser implementers.</p>
-<p>As always, thanks for reading, and let me know if you have thoughts or
-suggestions on this topic, especially if you make browsers for a living
-and want to help standardize!</p>
 
         
       </div>

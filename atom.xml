@@ -5,8 +5,99 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-04-23T17:02:45-00:00</updated>
+  <updated>2024-05-15T23:21:22-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Visual Chronology of Science &amp; Discovery 2.0</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/visual-chronology-science-discovery-v2"/>
+    
+    <updated>2024-05-16T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/visual-chronology-science-discovery-v2</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I recently resumed my Visual Chronology of Science &amp; Discovery <a href="/visual-chronology-science-discovery/">project</a>, a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:</p>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/THE4xSGTQzc?si=E-_y2GX2j2poPHkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>And some major improvements vis-à-vis the original version:</p>
+<ul>
+<li>Revised the visual design of the cards, each of which now features an illustration.</li>
+<li>Improved the UI of the overall system including search and field filtering and a separate timeline component.</li>
+<li>Addressed table-stakes like panning, zooming, and mobile web support.</li>
+<li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
+</ul>
+<p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
+<!--more-->
+
+<h1>Challenge 1: chronological graphs</h1>
+<p>I <a href="/visual-chronology-science-discovery/">previously</a> described the challenge of combining a chronological timeline with a dependency graph. I had originally incorporated both in a single visualization:</p>
+<blockquote>
+<p>Technologies that enabled the focused card are shown to the left and technologies that the focused card enabled are shown to the right, along the x-axis. Chronologically previous and next entries are shown along the y-axis.
+f
+Overwhelmingly, people found this very confusing. Rather than attempt to wedge both dependencies and chronology into to the same view, I've split out the temporal bits into its own timeline component, which also allows search and filtering by field. This is much clearer!</p>
+</blockquote>
+<p><img alt="Timeline component screenshot" src="visual-chronology-timeline.png" /></p>
+<h1>Challenge 2: location, location, location?</h1>
+<p>Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> is not particularly consistent with location names. England is often used interchangeably with Britain, Great Britain, the United Kingdom, etc. As I create a more structured version of his encyclopedia, I feel the need to rectify these inconsistencies.</p>
+<p>One option is to provide the temporally correct name of the originating place. For example, if an invention was created on the territory of modern day Crimea in the 7th century, perhaps it should be called a Greek invention. In the 13th century it ought to be labeled Mongolian. In the 18th century it ought to be labeled Russian. In 2000, it ought to be Ukrainian. Another option is to use the modern name for the territory, regardless of its historically accurate name.</p>
+<p>I think I've arrived at a compromise with an arbitrary dividing line between the ancient world and the modern world.</p>
+<p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://borismus.github.io/asimov/#library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://borismus.github.io/asimov/#arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
+<p>For inventions in the last half-millennium is to use the modern country's name for the place where the discovery or invention occurred. Attempting to provide a historically accurate place name is difficult and potentially confusing. Also, historically accurate place names would often change depending on political events irrelevant to the arc of invention and discovery, making it hard to trace golden ages to a meaningful place.</p>
+<p>Conveniently this approach allows for a distinction between English and Scottish inventors, so subsequent analysis should be able to pinpoint the Scottish Enlightenment, for example.</p>
+<h1>Challenge 3: improved design</h1>
+<p>I was originally inspired by a set of physical card games and technology trees from computer games (see <a href="https://www.are.na/boris-smus/tech-tree-cards">are.na</a>), and finally decided to bite the bullet and clone the original Magic the Gathering card design. I also managed to solve the problem of consistent imagery across whole collection.</p>
+<h1>Challenge 4: consistent imagery</h1>
+<p>One of the biggest limitations of the first version of this project was to create a consistent visual design for this set of cards.</p>
+<blockquote>
+<p>While you can find reams of royalty free images, [...] finding a set that is visually consistent was tough.</p>
+</blockquote>
+<p>Four years ago I speculated:</p>
+<blockquote>
+<p>Theoretically a style transfer model might be able to convert them all to a consistent look.</p>
+</blockquote>
+<p>Modern AI models helped me solve this problem by generating a set of imagery using a textual prompt to guide the content and ensure a consistent style. I'm pleased with the results:</p>
+<p><img alt="New visual style" src="visual-chronology-illustrations-v2.jpg" /></p>
+<p>Compare to where I began several years ago:</p>
+<p><img alt="Old visual style" src="visual-chronology-illustrations-v1.jpg" /></p>
+<h1>Challenge 5: data entry</h1>
+<p>It was difficult to fully digitize the original book because of its multi-columnar and sectional layout. As I wrote <a href="/visual-chronology-science-discovery/">before</a>:</p>
+<blockquote>
+<p>optical character recognition (OCR) is not easy if your content is laid out like a newspaper [...] Cloud Vision and tesseract don’t do well on complex text flows, often failing to recognize section boundaries.</p>
+</blockquote>
+<p>With modern AI, I've been able to extract content from the pages of the book into a structured output. This has been a boon to my productivity, and although I still verify the output of the model, my speed of data entry has greatly accelerated.</p>
+<p>This project continues to be backed by a <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">spreadsheet</a> which has now grown to nearly 600 entries.</p>
+<h1>Open challenge: dependencies</h1>
+<p>One of my goals with the visual chronology of science &amp; discovery was to explore how science builds on itself and to articulate the way in which one invention sometimes serendipitously leads to the next.</p>
+<p>Asimov sometimes cites previous inventions in his encyclopedic entries, but truly connecting the dots is left as an exercise to the reader. To capture this relationship, each entry has a list of dependencies that led to its invention or discovery. This list of dependencies is quite subjective, and produced mostly by my judgement.</p>
+<p>There are a number of ways of interpreting this parent-child relationship between cards:</p>
+<ol>
+<li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://borismus.github.io/asimov/#paved-road">Paved roads</a> were improved upon with <a href="https://borismus.github.io/asimov/#macadamized-roads">Macadamized roads</a>.</li>
+<li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://borismus.github.io/asimov/#improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://borismus.github.io/asimov/#steamboat">Steamboat</a>. <a href="https://borismus.github.io/asimov/#screw-propeller">Screw propeller</a> was necessary to build <a href="https://borismus.github.io/asimov/#transatlantic-liner">Transatlantic liner</a>.</li>
+<li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://borismus.github.io/asimov/#bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://borismus.github.io/asimov/#ocean-navigation">Ocean navigation</a>.</li>
+</ol>
+<p>I think this is the shakiest part of the data that powers the visualization. If you are an expert in the history of science, let's talk. I'd love to discuss where to draw the line. Pun intended.</p>
+<h1>What's next for this project?</h1>
+<ol>
+<li>
+<p>I've only digitized half of the book! Another 600 cards spanning from 1850 to 1993 have yet to be added. I'll continue chipping away at this.</p>
+</li>
+<li>
+<p>Much of my recent progress on this project is due to hot new AI models. I'll have more details to share about that in a future post.</p>
+</li>
+<li>
+<p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p>
+</li>
+</ol>
+<p>Please <a href="https://borismus.github.io/asimov">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>A Sand County Almanac by Aldo Leopold</title>
@@ -2970,54 +3061,6 @@ provides...</p>
 </blockquote>
 <p>To which Harlan woodenly replies “The greatest good for the greatest…”, a great illustration of some limitations of utilitarianism.</p>
 <p>The end is a bit rushed and marred with overly complex time loops, but overall a great work!</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Genesis by ✨ translated by Robert Alter</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/genesis-by-translated-by-robert-alter"/>
-    
-    <updated>2022-05-01T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/genesis-by-translated-by-robert-alter</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Genesis is not so much a book, but an “accretion of sundry traditions, shot through with disjunctions and contradictions, and accumulated in an uneven editorial process over several centuries”. The Hebrew word for book, “Sefer” actually translates more to scroll than to book, and scrolls are much more fungible than books. A scroll can be stitched to another scroll, split, and spliced, and rarely has named attribution. Not a coherent artwork by a single author, Genesis is more like a cathedral of medieval Europe, the product of many hands, involving an elaborate process of editing, like the greatest Hollywood films.</p>
-<p>Main sources of compilation include {Y/J}ahwist (J), Elohistic (E), and Priestly (P) source documents. J and E might be contemporary and early, P dates to about 6th century BCE. But all is hotly debated.</p>
-<p>The translator lambastes his contemporary commentators for being too focused on the sourcing and not sufficiently focused on analyzing the material itself, while refining medieval commentators like Rashi &amp; Abraham bin Ezra.</p>
-<p>Genesis split into primeval history (1-11) and a focus on the past, how this all came to be, told in a formal, repetitive way. Bulk of the book is patriarchal tales (12-50) which is focused on the future, promising long-term national greatness etc. Here the style changes, becomes much more concerned with human affairs, emotions, feuds, violence, and constant struggle.</p>
-<p>The narrative arc is really clean: “Genesis begins with the making heaven and earth and all life, and ends with the image of a mummy — Joseph’s — in a coffin.”</p>
-<hr />
-<h1>Themes and surprises</h1>
-<p><strong>Nomads vs. farmers</strong>: The story of Cain and Abel is about the superiority of the noble nomadic herdsmen (Abel) over the terrible and evil sedentary farmers (Cain). Echoes of this later “for every shepherd is abhorrent to Egypt” (46:34)</p>
-<p><strong>Displacement of the firstborn</strong> Cain and Abel is also the start of the theme of how the firstborn often gets screwed, despite their birth order. Similar story with Esau and Jacob.</p>
-<p><strong>Not children of Cain</strong>: I wrongly thought that humans were descended from Cain. No — Cain and Abel had a third brother, Seth.</p>
-<p><strong>Antediluvian ages</strong>: Methuselah, known for his long life, was 969 years old, but that is only moderately impressive in the grand scheme of things. Adam died at the ripe old age of 930, his son Seth at 912. Cain died young at 730.</p>
-<p><strong>Magical beings</strong>: What the heck are the Nephilim (6:1)?</p>
-<p><strong>Sexual mystery</strong>: What is it that Canaan actually did to his grandfather Noah when he became drunk? (9:20)</p>
-<p><strong>Abram's military conquest</strong>: Chedorlaomer, king of Elam (what a name!) abducted Lot and his crew, and Abram had to raise an army of 318 people and wage war to bail him out!</p>
-<p><strong>Abram's ritual</strong>: in 15:15, Abram cleaves his farm animals in twain, leaves the halves in some sort of bizarre ritual. He then falls into a deep slumber. He wards off carrion birds, and sees smoke and fire. No drugs involved?</p>
-<p><strong>Ishmael's short stick</strong>: Shockingly disparaging of Ishmael "He shall be a wild ass of a man; His hand against everyone, And everyone’s hand against him"</p>
-<p><strong>Barely monotheism:</strong> El Elyon, El-Roi, El Shaddai, God Most High. There are so many different Semitic gods fused into one here. Sometimes god is referred to Elohim (literally "gods" — plural). Jewish Monotheism is clearly only just emerging in these passages.</p>
-<p><strong>Surrogate slave mothers</strong>: Ishmael was born to Abraham from Hagar (Sarah's servant). And only two of Jacob's children were born to him from Rebeca.</p>
-<p><strong>Lot and his daughters</strong>: Lot unambiguously offered up his own virgin daughters to be raped in the angels’ stead (19:7). Later, he and his virgin daughters settled in a cave, and then had children via their own father (19:31). Deeply disturbed.</p>
-<p><strong>Hands and thighs</strong>: apparently cupping someone else's genitals or at least putting your hand near there is part of the act of solemn oath taking in ancient societies (24:2). This also happens when Jacob asks Joseph to bury him with the other patriarchs (47:29).</p>
-<p><strong>Apocryphal camels</strong>: The translator suggests that camels in the bible are not actually historical. Archaeological evidence suggests that they weren’t adapted to the climate until several centuries after the patriarchal period.</p>
-<p><strong>Named wells:</strong> Water is extremely important in the desert. Water rights are key, and Abraham battles Abimelech over this (21:22). Wells are so important, the wells have names (26:17)</p>
-<p><strong>Wells and betrothals</strong>: Abraham's servant meets Rebekah (betrothed to Isaac) at a well (24:14). Later, Jacob meets Rachel at a well (29:10). In Exodus Moses meets Zipporah in the same manner.</p>
-<p><strong>Laban is a real slimeball</strong>: Such a greedy dude, obsessed with jewlery (24:30), and then tricks Jacob into working him for 14 years. And still Jacob was unable to take his harem (2 wives, 2 slave girls, 9 children) without asking Laban’s permission (30:29). Quite the scene with Laban furious over his stolen idol, in which Jacob inadvertently condemns his beloved to death (31:32), followed by another gem, in which Rachel sits on a cushion concealing the stolen figurine and pleading to her father that she has menses and cannot get up. (31:35).</p>
-<p><strong>Girl names</strong>: anyone looking for a biblical name for their baby girl? I recommend Oholibamah. There is also Basemath, although I guess it’s pronounced bass-seh-mat. Or consider Mehetabel.</p>
-<p><strong>Boy names</strong>: highly recommend naming them like Benjamin did. And he had a lot of kids: Bella and Beecher and Ashbel, Gera and Naaman, Ehi and Rosh, <strong>Muppim and Huppim</strong> and Ard.</p>
-<p><strong>Juda* the traitor</strong>: Judah sells his brother (37:20), and Judas sells his brother Jesus Christ.</p>
-<p><strong>Tamar and Judah</strong>: Tamar is I guess fixated on getting a son by Judah’s lineage (Er) one way or another, so in desperation dresses like a whore and seduces Judah. Is it normal for Judah to go whoring? (38:16)</p>
-<p><strong>Joseph the autist</strong>: “And look” is Joseph’s signature childish excitement. He seems to have no ability to read the room. No wonder his brothers hated him so much! (41:1)</p>
-<p><strong>Jacob and Joseph were embalmed</strong>: Jacob was embalmed (50:3), and Joseph was even mummified and placed in a coffin (50:26). Surprisingly Egyptian for a forefather.</p>
 
         
       </div>
