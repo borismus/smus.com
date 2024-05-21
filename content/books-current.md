@@ -4,9 +4,38 @@ class: split
 type: book
 
 
+The Blessing of a Skinned Knee by Wendy Mogel
+===
+posted: May 20, 2024
+rating: no
+
+This book presents a Jewish take on parenting from a former psychologist who became disenchanted with her profession and sought wisdom in the tradition of her ancestors. I found myself nodding in agreement along to many of the ideas which are a sort of conservative reaction to many trends in modern parenting. Thanks to LL for the recommendation.
+
+Some things I liked:
+
+- **A paradox**: parents aren't happy when there is nothing psychologically wrong with her child. If that's the case, then there's nothing to fix and the problem doesn't just go away through some clear intervention.
+- **A parable**: keep one sheet of paper in each the left and right pockets of your jacket. The left note should say "I am a speck of dust", and the right should say "the world was created for me". Mogel refers to this classic from Rabbi Simcha Boonim. This spirit of keeping multiple lenses as well as being able to entertain opposite extremes is such a key part of how I want to be in the world.
+- **An insight into the first commandment** "I am the Lord your God". This isn't a commandment in itself, as it doesn't really entail any action. Despite this, it does add gravitas to the rest of the ten commandments. Similarly, reminding children "I am your father" (not like Darth Vader) feels tautological, but may actually be effective.
+- **Deed over creed** is a great terse summary of the Jewish approach to na'aseh v'nishma (see [[Jewish tradition of doing first and understanding later - na'aseh v'nishma]])
+- **Yetzer Hara**. Humans have a congenital inclination to do evil, but there can be a [positive role to the evil inclination](https://en.wikipedia.org/wiki/Yetzer_hara#Positive_role_of_the_evil_inclination). What are the worst behaviors of your child? The attributes that cause these misbehaviors might also be their greatest strengths.  Is this "evil inclination" actually a misnomer for chaos? This sort of rhymes with the D&D concept of chaotic good which separates the simple axis of good and evil into the more complex 2x2. I also wrote a previous note along similar lines (see [[Embracing deviance as a value]]).
+- **Mishegas** — a great Yiddish term for non-clinical craziness.
+
+Potentially fruitful parenting ideas to incorporate into my life:
+
+- We need to spend more time as a family doing nothing. My children could stand to learn how to be bored with more grace.
+- Something we should work on are patterns of speech. Our kiddos need to say thank you and good morning and may I leave the table. They need to clean up after themselves after they play and eat. They need to use a nicer tone every time they address their parents. I will insist on this.
+- I should also stop threatening timeouts, and instead approach kiddos on their level, take their hand, look them in the eye, and explain to them that their behavior is not acceptable.
+- I should come up with a list of age-appropriate chores that the kids need to do. This is something we should discuss in detail.
+
+What I wanted to debate with the author:
+
+- Mogel claims that children are asked to be generalists in a way that is unreasonable and never again relevant for adult life. My take on this is highly inspired by books like [Range - Why Generalists Triumph in a Specialized World by David Epstein](/books/range-by-david-epstein-audio/), which suggest that generalism in adults is underrated. In "Range", Epstein suggests that children should try a wide variety of activities to increase match quality.
+- Mogel observes that many find the word "God" to be awkward to say, and that we ought to get over it. For me, "God" is a weird word to say mainly because it's so closely associated with trite concepts related to Jesus and a simple conception of God as a sort of bearded superman in the sky. Abstract Jewish terms like HaShem (literally "The Name") is a good workaround I think, although HaShem in particular connotes a deep religiosity which I do not possess. Does anyone call it "The Lord"? Sounds formal and creepy but kinda cool. Maybe I should try calling it "The Name"?
+-
+
 Annihilation by Jeff VanderMeer
 ===
-posted: May 18, 2024
+posted: May 11, 2024
 rating: yes
 cover: /assets/book-covers/annihilation.jpg
 
