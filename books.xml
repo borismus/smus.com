@@ -5,8 +5,64 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-05-15T23:21:22-00:00</updated>
+  <updated>2024-05-21T08:36:25-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Blessing of a Skinned Knee by Wendy Mogel</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-blessing-of-a-skinned-knee-by-wendy-mogel"/>
+    
+    <updated>2024-05-20T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-blessing-of-a-skinned-knee-by-wendy-mogel</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This is a Jewish take on parenting from a former psychologist who became disenchanted with her profession and sought wisdom in the tradition of her ancestors. I found myself nodding along in agreement to many of her ideas, which try to synthesize Jewish concepts with "common sense" parenting. Less charitably, this book can also be seen as a conservative reaction to modern parenting trends. Either way, a better than average parenting book. Thanks to LL for the recommendation.</p>
+<p>Some things I liked:</p>
+<ul>
+<li><strong>A paradox</strong>: parents aren't happy when there is nothing psychologically wrong with her child. If that's the case, then there's nothing to fix and the problem doesn't just go away through some clear intervention.</li>
+<li><strong>A parable</strong>: keep one sheet of paper in each the left and right pockets of your jacket. The left note should say "I am a speck of dust", and the right should say "the world was created for me". Mogel refers to this classic parable from Rabbi Simcha Boonim. This spirit of keeping multiple lenses as well as being able to entertain opposite extremes is such an important skill for parents and a key part of how I want to be in the world.</li>
+<li><strong>An insight into the first commandment</strong> "I am the Lord your God". This isn't a commandment in itself, as it doesn't really entail any action. Despite this, it serves as a preamble to the rest of the ten commandments, adding appropriate gravitas. Similarly, reminding children "I am your father" (but not like Darth Vader) may tautological, but is actually effective.</li>
+<li><strong>Deed over creed</strong> is a great terse summary of the Jewish approach to na'aseh v'nishma (see <a class="wiki" href="https://z3.ca/Jewish_tradition_of_doing_first_and_understanding_later_-_na'aseh_v'nishma">Jewish tradition of doing first and understanding later - na'aseh v'nishma</a>)</li>
+<li><strong>Yetzer Hara</strong>. Humans have a congenital inclination to do evil, but there can be a <a href="https://en.wikipedia.org/wiki/Yetzer_hara#Positive_role_of_the_evil_inclination">positive role to the evil inclination</a>. What is the worst behavior of your child? The attributes that cause it might also lead to their greatest strength. If this "evil inclination" is something that has potential for positivity, perhaps it is a misnomer for chaos? This evokes the D&amp;D concept of chaotic good which separates the simple axis of good and evil into the more complex 2x2. I also wrote a previous note along similar lines (see <a class="wiki" href="https://z3.ca/Embracing_deviance_as_a_value">Embracing deviance as a value</a>).</li>
+<li><strong>Mishegas</strong> — a great Yiddish term for non-clinical craziness.</li>
+</ul>
+<p>What I wanted to debate with the author:</p>
+<ul>
+<li>Mogel claims that children are asked to be generalists in a way that is unreasonable and never again relevant for adult life. My take on this is highly inspired by books like <a href="/books/range-by-david-epstein-audio/">Range - Why Generalists Triumph in a Specialized World by David Epstein</a>, which suggest that generalism in adults is underrated. In "Range", Epstein suggests that children should try a wide variety of activities to increase match quality.</li>
+<li>Mogel observes that many find the word "God" to be awkward to say, and that we ought to get over it. For me, "God" is a weird word to say mainly because it's so closely associated with trite concepts related to Jesus and a simple conception of God as a sort of bearded superman in the sky. Abstract Jewish terms like HaShem (literally "The Name") is a good workaround I think, although HaShem in particular connotes a deep religiosity which I do not possess. Does anyone call it "The Lord"? Sounds formal and creepy but kinda cool. Maybe I should try calling it "The Name"?</li>
+</ul>
+<p>Most importantly, a parenting book should have parenting advice! I left "Skinned Knee" with many promising parenting ideas to incorporate into our life, but I'll spare you those details.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Annihilation by Jeff VanderMeer</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/annihilation-by-jeff-vandermeer"/>
+    
+    <updated>2024-05-11T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/annihilation-by-jeff-vandermeer</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Annihilation was first recommended to me by KO. This book is a creepy combination of Roadside Picnic and Soylent Green. It was advertised to me as Sci-Fi, but I think it really leans into horror, which is Jeff VanderMeer's specialty.</p>
+<p>I found this to be a captivating read with a very rich atmosphere, despite the world building being extremely shrouded in uncertainty. Nothing can be trusted. Neither your senses nor your sensors. The vibes this book emanates are unlike anything else I can remember. Reading this book gave me a perpetual sense of Déjà vu.</p>
+<p>Annihilation was a very quick read. I don't plan to read the rest of the books in the Southern Cross trilogy yet, although I am somewhat intrigued. I hope that the next book reveals something about the authorities that send missions to Area X. I found this to be the most fruitfully mysterious part for a sequel.</p>
+<p>Let me speculate about the book overall and provide my overall theory of what is happening in Area X. This is based on a book club discussion with VK, MM, MK &amp; AK. What if Area X is a generalized next token predictor that uses human cells as its tokens? The gibberish writing spiraling inside the tower could have easily been generated by an LLM. What if this whole world of Area X is an LLM in biological space?</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>A Sand County Almanac by Aldo Leopold</title>
@@ -3603,80 +3659,6 @@ loops...)</p>
 <li>I wondered if король comes from Carolingian. Nope, it comes from Charlemagne. That said, apparently "Carolingian" and in fact Charlemagne are both named after Charles Martel. In turn, Charles is a name from the common Germanic noun meaning "man". Go figure...</li>
 <li>Lots of references to Bayeux tapestry. It's <a href="https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/">available online...</a></li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Understanding Complexity by Scott Page</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/understanding-complexity-by-scott-page"/>
-    
-    <updated>2021-06-22T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/understanding-complexity-by-scott-page</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Overall a dense but short listen. Potpourri of new ideas, and far better than
-<a class="wiki" href="https://z3.ca/Why_Information_Grows_by_Cesar_Hidalgo">Why Information Grows by Cesar Hidalgo</a>. This lecture is well organized,
-engagingly narrated, with memorable examples. A great, rather intense
-introduction to Complexity.</p>
-<p>A criticism I had was that Page attempts to weave too many disparate threads
-together. The final chapter gives practical takeaways but they feel trite and
-don't really integrate the most interesting parts from earlier in the book.</p>
-<hr />
-<p>Here are some ideas I from the book I found interesting.</p>
-<p><a class="wiki" href="https://z3.ca/Wolfram’s_four_system_types">Wolfram’s four system types</a> -
-<a href="https://www.wolframscience.com/nks/p231--four-classes-of-behavior/">https://www.wolframscience.com/nks/p231--four-classes-of-behavior/</a></p>
-<p><a class="wiki" href="https://z3.ca/Complexity_happens_in_a_sweet_spot">Complexity happens in a sweet spot</a> - There are four necessary conditions for
-complexity. But it's necessary that all of these conditions be present in
-moderate quantities. Too much or too little of any of them will lead to
-equilibrium, not complexity.</p>
-<p><a class="wiki" href="https://z3.ca/Measuring_diversity_generally_speaking">Measuring diversity generally speaking</a> - <a href="https://en.wikipedia.org/wiki/Diversity_index">https://en.wikipedia.org/wiki/Diversity_index</a></p>
-<p><a class="wiki" href="https://z3.ca/Dancing_landscape">Dancing landscape</a> - rugged landscapes that change over time.</p>
-<p><a class="wiki" href="https://z3.ca/Creative_vs._evolutionary_processes">Creative vs. evolutionary processes</a> - Evolution is relentless and infinitely
-persistent, like the tortoise. Creativity requires drive from a specific group
-of people, who are finite in energy and time, but can move quickly, like the
-hare.</p>
-<p><a class="wiki" href="https://z3.ca/Power_law_vs_normal_distributions">Power law vs normal distributions</a> - Many things are normally distributed.
-But some are power law distributed. Why? Independent events leads to normal
-distribution. Interdependent events leads to power law distributions.</p>
-<p><a class="wiki" href="https://z3.ca/Explore_vs_exploit_trade-offs">Explore vs exploit trade-offs</a> - A well formulated treatment on this subject.</p>
-<p><a class="wiki" href="https://z3.ca/Self-organized_criticality">Self-organized criticality</a> - the idea that many systems approach a critical
-state automatically.</p>
-<p><a class="wiki" href="https://z3.ca/Simulated_annealing">Simulated annealing</a> - an approach to finding global maximums under certain
-constraints.</p>
-<p><a class="wiki" href="https://z3.ca/Complexity_is_in_the_eyes_of_the_beholder">Complexity is in the eyes of the beholder</a> - if you're really smart, checkers
-is just tic-tac-toe, and no longer complex. Is that right?</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Consider Phlebas by Iain M. Banks</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/consider-phlebas-by-iain-m-banks"/>
-    
-    <updated>2021-06-06T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/consider-phlebas-by-iain-m-banks</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>After reading <a class="wiki" href="https://z3.ca/Player_of_Games_by_Iain_M._Banks">Player of Games by Iain M. Banks</a>, I wanted to read another in the Culture Series mainly for the world-building.</p>
-<p>Consider Phlebas is a fast paced adventure book. The protagonist Bora Horza Gobuchul is unreasonably superhuman, possessing super strength, a great fighting ability, and among many other things, the ability to change his appearance at will. He finds himself in increasingly ridiculous situations, at one point stranded on a small island populated by fanatical cannibals. I found the plot itself to be so out there, parts of it read like my 10 year old self's stream of thought in an early creative writing assignment.</p>
-<p>That said, Banks does a good job with the world-building. Set in the middle of the Idiran - Culture war, Horza sides with the Idirans mainly out of hatred for the culture. This is a fascinating conflict, reminiscent in some ways of modern divisions between progressive leftism and traditional conservatism. The author does a great job of making both factions quite relatable, and the protagonist morally ambiguous.</p>
-<p>Idirans are monotheists, modeled on the fervent Jewish/Muslim variety. They range from zealots to pragmatists, but all have a clear sense of identity about them. Physically and spiritually my mind renders them as the Protoss from Starcraft. Except they have three limbs, and are in symbiosis with another race of six-limbed sentient beings.</p>
-<p>The culture is sort of a macrocosm of Western society, far more technologically advanced, and taken to an extreme. All things, strengths and weaknesses are exaggerated. They rely heavily on sentient machines, and creatively named spacecraft. The lifestyle is decadent and are subject to the <a class="wiki" href="https://z3.ca/Tyranny_of_Convenience">Tyranny of Convenience</a>. The have a general lack of conviction, and no skin in the game.</p>
-<p>Ultimately, Horza is killed by an Idiran that mistrusts him. A moral lesson from Mr. Banks? The non-Hollywood ending is refreshing, given the superhero-like attributes of the protagonist.</p>
-<p>The scale conveyed in this novel is huge, and well executed. The destruction of the Vavatch orbital is well described. Epic battle scenes are extremely cinematic and would play out well in an adaptation to the screen. But the end could have been shortened significantly. I was quite tired of the endless underground tunnels of Char's World. Overall, a fun read if you're into a fast paced, sometimes ridiculous action novel.</p>
 
         
       </div>
