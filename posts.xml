@@ -5,8 +5,119 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-05-21T08:36:25-00:00</updated>
+  <updated>2024-05-30T08:20:14-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Invention Cards enhanced by AI</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/invention-cards-ai"/>
+    
+    <updated>2024-05-30T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/invention-cards-ai</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I used GPT4's multimodal features to accelerate and improve my recently rebooted <a href="/visual-chronology-science-discovery-v2/">Visual Chronology of Science &amp; Discovery</a> project now hosted at <a href="https://invention.cards">https://invention.cards</a>. First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for <strong>accelerated data entry</strong>. Then I used text-to-image models to generate <strong>visually consistent imagery</strong> for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my <a href="https://github.com/borismus/asimov-gpt">asimov-gpt repository</a>.</p>
+<!--more-->
+
+<h1>Accelerated data entry</h1>
+<p>Invention Cards is based on Asimov's encyclopedia, which is laid out like a newspaper: multiple sections of multi-column text:</p>
+<p><img alt="Areas of interest over two pages in Asimov's encyclopedia" src="asimov-example-pages.jpg" /></p>
+<p>The "In Addition" sections are interesting but do not directly map to a card in my chronology so should be skipped. The bi-fold above has four relevant sections which I've numbered in the image:</p>
+<ol>
+<li>Age of the Sun</li>
+<li>Glider</li>
+<li>Kerosine</li>
+<li>Cholera</li>
+</ol>
+<p>My initial idea was to completely transcribe the text using OCR, and then run an NLP extraction task on the extracted text. As I <a href="/visual-chronology-science-discovery/">wrote before</a>, off-the-shelf OCR solutions don't work well for digitizing this sort of layout. Inevitably the flow of text gets mangled, and manual intervention is required.</p>
+<p>Experimenting with the current crop of multimodal AI models, I was pleasantly surprised that I could skip the explicit OCR step and jump straight to extraction. <code>gpt-4o</code>  happily follows detailed instructions given images of pages in the encyclopedia, extracting structured JSON for each heading on the page. Here's how my system works.</p>
+<p>First I extract a page of interest from the 755-page PDF using the pypdf library. I send the page image to the OpenAI API along with the following prompt. I ironed out some kinks through trial and error:</p>
+<blockquote>
+<p>Summarize the inventions or discoveries on the following page. Please ignore sections entitled "In Addition".</p>
+<p>Provide the following information for each invention or discovery. Output should be described as an array of JSON objects with the following keys:</p>
+<ul>
+<li>title: one to three words describing the invention or discovery.</li>
+<li>year: the year the invention or discovery was made.</li>
+<li>description: full description of the invention or discovery as close to the text as possible.</li>
+<li>summary: two sentence summary without mentioning people or dates, focusing on what the invention or discovery is and does, and its impact.</li>
+<li>description: full description of the invention or discovery.</li>
+<li>inventor: full name of the inventor or discoverer.</li>
+<li>location: in which country was the invention or discovery made? In the case of Great Britain or the United Kingdom, use "England".</li>
+<li>field: (one of Math, Science, Culture, War, General, Design, Geography, Space). Sub-fields can be indicated with a colon (e.g. "Science: Physics or Science: Biology")</li>
+<li>related: one or more related previous invention or discovery, separated by commas. If there are no related inventions or discoveries, use "".</li>
+</ul>
+<p>Remember to escape quotes in JSON strings.</p>
+</blockquote>
+<p>I found empirically that using JSON mode yielded worse results, but that not using JSON mode, I was able to easily extract JSON from the response. Sometimes it came in markdown-style code blocks, which are easy enough to strip. I then validate the resulting JSON object with <a href="https://pydantic.dev/">pydantic</a>, ensuring the types make sense and then sanity check it so that values are within ranges. If things do not validate, I automatically retry. Finally the script serializes each invention on the page in a Tab Separated Value (TSV) format, so that it can be copied from the terminal and pasted into my <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=1533876043">master spreadsheet</a>. Once entered into the spreadsheet, I can iterate on the content manually.</p>
+<p>Here are my observations from extracting ~300 cards from Asimov's encyclopedia using this AI-infused workflow:</p>
+<ul>
+<li><strong>Title</strong>: works quite well if the section is identified. About 2% of the sections are ignored.</li>
+<li><strong>Year</strong>: works great with almost no errors.</li>
+<li><strong>Summary</strong>: often wrong or incomplete, missing key details, especially when multiple inventions are mentioned under the same heading.</li>
+<li><strong>Inventor</strong>: name works reasonably well when only one person is mentioned. A challenge arises when Asimov refers to previously mentioned people by just their last name. I haven't yet built a system for resolving full names from last names yet.</li>
+<li><strong>Location</strong>: works well too, but there are tricky cases like United Kingdom / Great Britain / England. Also expect failures when multiple places are mentioned in Asimov's blurb.</li>
+<li><strong>Field</strong>: sometimes wrong, often defaulting to "Science". Sub-fields were also sometimes muddled or overly specific. One common confusion is the preference of "Science:Astronomy" over "Space". To be honest, which field an invention or discovery belongs to is often fuzzy even for a human. The greatest discoveries span multiple fields or create new fields.</li>
+<li><strong>Related</strong>: inventions are often missing, especially if none are explicitly mentioned in the originating text.</li>
+</ul>
+<h3>Aside on page boundaries</h3>
+<p>Many of Asimov's invention &amp; discovery descriptions span page boundaries. In the example above, Glider begins on 367 and wraps to the next page; Cholera begins on 368 and continues further.</p>
+<p>I began working on an improved pipeline for handling page wrapped text, but realized that in practice, I needed to make revisions to many summarized card descriptions to make them more terse and informative than the AI generated summary. When I did this for inventions and discoveries that extended onto a second page, I ended up also manually incorporating content that was only available below the fold. This is not so bad because I'm curious about Asimov's invention &amp; discovery stories, so end up at least skimming Asimov's original text anyway.</p>
+<p>To handle the page boundary robustly in the future, I'm imagining a two pass solution: 1) Extract the headings from the page. 2) Send a bi-fold image of the current and next page, and in the prompt, ask to provide summaries for the headings extracted from the first pass. How well <code>gpt-4o</code> or the next crop of models will handle multi-page images remains to be seen.</p>
+<h3>Data workflow</h3>
+<p>Here's my overall data extraction workflow:</p>
+<p><img alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
+<p>I run the script for a range of pages:</p>
+<p><code>&gt; python3 src/extract_cards.py --from=388 --to=400</code></p>
+<p>This outputs TSV for all entries on the page (terminal, window 2). I copy the TSV into the master spreadsheet (sheets, window 3), and then cross-reference the fields with the original text (preview, window 1).</p>
+<p>Once ready, the spreadsheet is exported as TSV. I then load this TSV in the <a href="https://invention.cards">https://invention.cards</a> site, and also use it as the source of truth for further processing. The inventions and discoveries on page 367-368 will be transformed into cards like this: <a href="https://invention.cards/glider">Glider</a>, <a href="https://invention.cards/cholera">Cholera</a>, <a href="https://invention.cards/kerosene">Kerosene</a>, and <a href="https://invention.cards/age-of-the-sun">Age of the sun</a>.</p>
+<p><img alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
+<p>At this point you might be wondering where the snazzy images came from. Read on to find out!</p>
+<h1>Visually consistent imagery</h1>
+<p>After I have a TSV file of inventions and discoveries from the AI-assisted process I described above, we can begin generating consistent imagery for these inventions. I use OpenAI's <code>dall-e-3</code> model to generate an image using the metadata provided. The f-string prompt looks something like this:</p>
+<blockquote>
+<ul>
+<li>Title: {invention.title}</li>
+<li>Description: {invention.summary}</li>
+<li>Category: {invention.field}</li>
+<li>Year: {invention.year}</li>
+<li>Person: {invention.inventor}</li>
+</ul>
+<p>Generate vibrant art nouveau for the invention/discovery described above. The image should be a single object or scene that represents the invention/discovery.</p>
+</blockquote>
+<p>The results are stylistically consistent and visually pleasing. Sometimes things are a bit off though. Here are a few failure modes I've observed:</p>
+<p>A. The image does not correspond to the factual details of the card (e.g. <a href="https://invention.cards/aerodynamics">Aerodynamics (1809)</a>, <a href="https://invention.cards/binary-system">Binary System (1700)</a> pictured):</p>
+<p><img alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
+<p>B. The card title has multiple meanings, and the image generator latches on to the wrong one (e.g. <a href="https://invention.cards/percussion">Percussion (1761)</a> and <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> pictured):</p>
+<p><img alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
+<p>C. The card is obscure and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/discovery-of-lanthanum">Lanthanum (1839)</a>, <a href="https://invention.cards/molybdenum">Molybdenum (1778)</a>, and <a href="https://invention.cards/thallium">Thallium (1861)</a> pictured):</p>
+<p><img alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
+<p>D. The card is abstract and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/celsius">Celsius (1742)</a>, <a href="https://invention.cards/celluloid">Celluloid (1869)</a>, and <a href="https://invention.cards/positive-negative-charge">Positive negative charge (1733)</a> pictured):</p>
+<p><img alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
+<p>E. The card includes an object that the image generator struggles to generate, so creates a crazy version of the object (e.g. <a href="https://invention.cards/safety-pin">Safety Pin (1849)</a>, <a href="https://invention.cards/telescope">Telescope (1668)</a>):</p>
+<p><img alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
+<p>Two common and undesirable occurrences in these generated card images are people and text. The image often focuses on the visage of the inventor to the detriment of his actual invention. Sometimes it's not the inventor or the discoverer, but a beautiful woman depicted in art nouveau style. The other failure mode is that the image contains unnecessary text. My favorite is when it is prominently misspelled, as in this set of attempts for <a href="https://invention.cards/carbon-dioxide">Carbon Dioxide (1754)</a>.</p>
+<p><img alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
+<p>First I tried threats to discourage these misbehaviors. Unfortunately threatening to kill <code>dall-e-3</code>'s firstborn child triggers their AI safety subsystem. Then I tried cajoling. In the end I ended up pleading with very clear instructions. The prompt ends with:</p>
+<blockquote>
+<p>Please do not include any typography or text. Please do not draw any people.</p>
+</blockquote>
+<p>This helps but does not fully solve the problem. Roughly ~10% of the images still suffer from unnecessary people and text.</p>
+<h3>Image workflow</h3>
+<p>As a result of various problems in image generation, I can't fully trust the system to do a good job. So I've become the human in this AI loop. Let me describe my workflow.</p>
+<p>My script generates images for cards spanning a range of years, saving the corresponding images in a directory with the same filename as the card's identifier</p>
+<p><code>&gt; python3 src/gen_card_image.py --from_year=-100000000 --to_year=2000</code></p>
+<p>After these images are generated, I review them. I leave the ones I like untouched and rename the duds, adding a suffix (e.g. <code>carbon-dioxide.jpg</code> becomes <code>carbon-dioxide-1.jpg</code>). After this pass, I run the script again which will ignore existing images unless forced. Now I have a smaller set of images to review and rename. Rinse and repeat. At the end of this iterative process, I have a list of canonical imagery for each invention.</p>
+<p>I'd say that more than half of the card images generated on the first pass are good enough for my bar. Some images end up requiring multiple generations and eventually produce something compelling. Other cards fail completely and require workarounds. In some cases, like <a href="https://invention.cards/morphine">Morphine (1805)</a>, <code>dall-e-3</code> simply refused to generate any image because it violated their policies. Winners don't use drugs!</p>
+<p>In other cases, <code>dall-e-3</code> gets confused by Asimov's terms and generates consistently wonky images. In these rare cases, I took liberties and retitled the card. Though a separture from the original text, the new names are less confusing to both the image generator and to the general public. I renamed <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> to "Blackbody Radiation" to be able to generate images without a black human body. Similarly, I renamed <a href="https://invention.cards/percussion">Percussion (1761)</a>, to "Medical Percussion" to avoid spurious musical instruments.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Visual Chronology of Science &amp; Discovery 2.0</title>
@@ -44,7 +155,7 @@ Overwhelmingly, people found this very confusing. Rather than attempt to wedge b
 <p>Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> is not particularly consistent with location names. England is often used interchangeably with Britain, Great Britain, the United Kingdom, etc. As I create a more structured version of his encyclopedia, I feel the need to rectify these inconsistencies.</p>
 <p>One option is to provide the temporally correct name of the originating place. For example, if an invention was created on the territory of modern day Crimea in the 7th century, perhaps it should be called a Greek invention. In the 13th century it ought to be labeled Mongolian. In the 18th century it ought to be labeled Russian. In 2000, it ought to be Ukrainian. Another option is to use the modern name for the territory, regardless of its historically accurate name.</p>
 <p>I think I've arrived at a compromise with an arbitrary dividing line between the ancient world and the modern world.</p>
-<p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://borismus.github.io/asimov/#library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://borismus.github.io/asimov/#arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
+<p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://invention.cards/library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://invention.cards/arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
 <p>For inventions in the last half-millennium is to use the modern country's name for the place where the discovery or invention occurred. Attempting to provide a historically accurate place name is difficult and potentially confusing. Also, historically accurate place names would often change depending on political events irrelevant to the arc of invention and discovery, making it hard to trace golden ages to a meaningful place.</p>
 <p>Conveniently this approach allows for a distinction between English and Scottish inventors, so subsequent analysis should be able to pinpoint the Scottish Enlightenment, for example.</p>
 <h1>Challenge 3: improved design</h1>
@@ -74,9 +185,9 @@ Overwhelmingly, people found this very confusing. Rather than attempt to wedge b
 <p>Asimov sometimes cites previous inventions in his encyclopedic entries, but truly connecting the dots is left as an exercise to the reader. To capture this relationship, each entry has a list of dependencies that led to its invention or discovery. This list of dependencies is quite subjective, and produced mostly by my judgement.</p>
 <p>There are a number of ways of interpreting this parent-child relationship between cards:</p>
 <ol>
-<li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://borismus.github.io/asimov/#paved-road">Paved roads</a> were improved upon with <a href="https://borismus.github.io/asimov/#macadamized-roads">Macadamized roads</a>.</li>
-<li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://borismus.github.io/asimov/#improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://borismus.github.io/asimov/#steamboat">Steamboat</a>. <a href="https://borismus.github.io/asimov/#screw-propeller">Screw propeller</a> was necessary to build <a href="https://borismus.github.io/asimov/#transatlantic-liner">Transatlantic liner</a>.</li>
-<li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://borismus.github.io/asimov/#bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://borismus.github.io/asimov/#ocean-navigation">Ocean navigation</a>.</li>
+<li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://invention.cards/paved-road">Paved roads</a> were improved upon with <a href="https://invention.cards/macadamized-roads">Macadamized roads</a>.</li>
+<li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://invention.cards/improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://invention.cards/steamboat">Steamboat</a>. <a href="https://invention.cards/screw-propeller">Screw propeller</a> was necessary to build <a href="https://invention.cards/transatlantic-liner">Transatlantic liner</a>.</li>
+<li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://invention.cards/bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://invention.cards/ocean-navigation">Ocean navigation</a>.</li>
 </ol>
 <p>I think this is the shakiest part of the data that powers the visualization. If you are an expert in the history of science, let's talk. I'd love to discuss where to draw the line. Pun intended.</p>
 <h1>What's next for this project?</h1>
@@ -91,7 +202,7 @@ Overwhelmingly, people found this very confusing. Rather than attempt to wedge b
 <p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p>
 </li>
 </ol>
-<p>Please <a href="https://borismus.github.io/asimov">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
+<p>Please <a href="https://invention.cards">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
 
         
       </div>
@@ -1400,20 +1511,20 @@ world? 🗅</p>
       <![CDATA[
       <div>
         <p>As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.</p>
-<p>Last year, I got my hands on a remarkable book, <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov’s Chronology of Science and Discovery</a>. It inspired me to produce a visual summary of human ingenuity, to see what one giant saw from the shoulders of another. After some experimentation, I turned it into an interactive visualization. You can play with it <a href="https://borismus.github.io/asimov/web/cross-shape#steel">here</a>:</p>
-<p><a href="https://borismus.github.io/asimov/web/cross-shape/#steel"><img alt="Screenshot of the visual chronology centered at Steel." src="screenshot-steel.jpg" /></a></p>
+<p>Last year, I got my hands on a remarkable book, <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov’s Chronology of Science and Discovery</a>. It inspired me to produce a visual summary of human ingenuity, to see what one giant saw from the shoulders of another. After some experimentation, I turned it into an interactive visualization. You can play with it <a href="https://invention.cards/steel">here</a>:</p>
+<p><a href="https://invention.cards/steel"><img alt="Screenshot of the visual chronology centered at Steel." src="screenshot-steel.jpg" /></a></p>
 <!--more-->
 
 <p>One of the unnerving things about Isaac Asimov’s book was the visual table of contents for the first edition:</p>
 <p><img alt="Winding visualization of Asimov’s Chronology in the first edition." src="original-visualization.jpg" /></p>
 <p>Following this winding path is tricky to say the least. With this in mind, I carefully read the first quarter of the book, spanning from the beginning of time until 1700 CE, which amounts to about 300 entries, or about a quarter of those contained in the book. I took notes in a spreadsheet, providing a 1-2 sentence summary of each entry and manually extracting some key metadata. For each of Asimov’s entries, I captured the title, a couple sentences of description, the associated person’s name, and where the invention was created or discovery found, usually the country or empire.</p>
-<p>In addition, I provided two extra fields which are more subjective and frankly, made up by yours truly, to bring the visualization to life: </p>
+<p>In addition, I provided two extra fields which are more subjective and frankly, made up by yours truly, to bring the visualization to life:</p>
 <ol>
 <li><strong>Field</strong>: which domain was this discovery made. (How granular should this be? Should Science be split up into Chemistry, Physics, and Biology?)</li>
 <li><strong>Dependencies</strong>: what older inventions and discoveries enabled this one. (This can be really tricky.)</li>
 </ol>
 <p>With this in place, Asimov’s linear chronology becomes a directed graph, and since we don’t know how to time travel, there are no time cycles. So what we have is a <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">directed acyclic graph (DAG)</a>. It is not a tree since I allow each node to have multiple parents. For instance, the field of Geometry is built up logically from axioms. At the same time, the founding text of the field, Euclid’s Elements, is mostly derived work from many mathematicians working before Euclid in the Academy and Lyceum. So the DAG shows <strong>Geometry</strong> rooted both in <strong>Advanced Schools</strong> and <strong>Logic</strong>.</p>
-<p><a href="https://borismus.github.io/asimov/web/cross-shape/#geometry"><img alt="Screenshot of the visual chronology centered at Geometry." src="screenshot-geometry.jpg" /></a></p>
+<p><a href="https://invention.cards/geometry"><img alt="Screenshot of the visual chronology centered at Geometry." src="screenshot-geometry.jpg" /></a></p>
 <h2>Manual entry is tiring</h2>
 <p>Sadly, the Chronology is not available as a text-based ebook, which complicates matters. As it turns out, optical character recognition (OCR) is not easy if your content is laid out like a newspaper:</p>
 <p><img alt="Excerpt of the book showing tricky text flow" src="book-flow-ocr.jpg" /></p>
@@ -1428,17 +1539,17 @@ world? 🗅</p>
 <p><img alt="Chronology of first millennium" src="chrono-first-millennium.jpg" /></p>
 <p>While this is just the 16th century (100 years, an order of magnitude shorter than above):</p>
 <p><img alt="Chronology of 16th century" src="chrono-sixteenth-century.jpg" /></p>
-<p>Even with the log-scale, inventions are by no means well distributed in time, with the 16th century far more visually dense than the first millennium. In both examples, links are especially obscure, since they often stretch out for many screens, and are basically impossible to trace from source to destination. </p>
+<p>Even with the log-scale, inventions are by no means well distributed in time, with the 16th century far more visually dense than the first millennium. In both examples, links are especially obscure, since they often stretch out for many screens, and are basically impossible to trace from source to destination.</p>
 <p>I tried variants of this view as well, involving collapsing entries into more compact default representations, and allowing them to be expanded for more detail. One promising variant involved expanding a selected entry and all transitively linked ones, but the predecessors and successors are still typically positioned far off-screen, so a lot of scrolling is required.</p>
 <h2>Entry-centric visualization</h2>
 <p>One of the shortcomings of a purely chronological view is that connections between entries are lost. Yet this is the most important part of this whole project, so I kept searching.</p>
-<p>I opted for a more structured approach, one that lets you focus on a particular entry and at a glance see what technology led to it, and what technology it enabled. At the same time, I wanted to show the invention in its chronological context, in the spirit of Asimov’s book. So the current design takes a Cartesian approach, with one card centered at the origin, serving as the focus. Technologies that enabled the focused card are shown to the left and technologies that the focus enabled are shown to the right, along the x axis. Chronologically previous and next entries are shown along the y axis. </p>
+<p>I opted for a more structured approach, one that lets you focus on a particular entry and at a glance see what technology led to it, and what technology it enabled. At the same time, I wanted to show the invention in its chronological context, in the spirit of Asimov’s book. So the current design takes a Cartesian approach, with one card centered at the origin, serving as the focus. Technologies that enabled the focused card are shown to the left and technologies that the focus enabled are shown to the right, along the x axis. Chronologically previous and next entries are shown along the y axis.</p>
 <h2>Technology transcending fields</h2>
-<p>Once the dependency graph is in place and each entry is associated with a field, one starts seeing interesting patterns in the data. </p>
+<p>Once the dependency graph is in place and each entry is associated with a field, one starts seeing interesting patterns in the data.</p>
 <p>The discovery of magnetism lead to the invention of the compass, giving navigators confidence to traverse the ocean, in turn leading to the discovery of the new world:</p>
-<p><a href="https://borismus.github.io/asimov/web/cross-shape#compass"><img alt="Screenshot of the visual chronology centered at Compass." src="screenshot-compass.jpg" /></a></p>
-<p>Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine. </p>
-<p><a href="https://borismus.github.io/asimov/web/cross-shape#microscope"><img alt="Screenshot of the visual chronology centered at Microscope." src="screenshot-microscope.jpg" /></a></p>
+<p><a href="https://invention.cards/compass"><img alt="Screenshot of the visual chronology centered at Compass." src="screenshot-compass.jpg" /></a></p>
+<p>Melting glass beads and glass blowing enabled lens crafting and microscopes which in turn let careful observers see microorganisms in pond water, ultimately leading to great advances in medicine.</p>
+<p><a href="https://invention.cards/microscope"><img alt="Screenshot of the visual chronology centered at Microscope." src="screenshot-microscope.jpg" /></a></p>
 <p>Cross field dependencies like the ones I described above are visualized as dashed red arrows.</p>
 <h2>Please help complete this project</h2>
 <p>This visualization is backed by a spreadsheet which is <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">publicly viewable</a>, the result of a bunch of my own reading and summarizing. I’ve compiled a quarter of Asimov’s impressive tome by hand, but I’d love your help finishing the project.</p>
@@ -1447,7 +1558,7 @@ world? 🗅</p>
 <li>A <a href="https://drive.google.com/file/d/1qQDnNQr6L-NGRTyID8kWGMnnVVPeCC6o/view?usp=sharing">PDF of the second edition of Asimov’s Chronology</a> I scanned in hopes of automating the whole process (see above).</li>
 <li>A <a href="https://docs.google.com/spreadsheets/d/1uDeBCfcaVUfZFEK-0WJIb43dT6cqHHq9o6Uxn6PihLY/edit#gid=158368026">publicly editable spreadsheet</a> containing stubs for all of the inventions listed in the chronology from 1700 to 1993.</li>
 </ol>
-<p>Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious! </p>
+<p>Please read a chunk of the latter quarter of the book (starting 1700) and contribute it to the public spreadsheet. I hope you will be as excited as I was to learn a whole lot about the history of science and compile it into this format. Once the project is complete, it will be glorious!</p>
 <p>I’ll update this post as more of the spreadsheet is filled out. Meanwhile, thanks for reading and stay tuned – I have a few follow up posts in mind already.</p>
 <p><strong>Update Feb 23</strong>: People seem to be interested in the project; excellent! I’ve <a href="https://github.com/borismus/asimov">open sourced</a> the visualization code.</p>
 
@@ -6431,230 +6542,6 @@ web must be the one that wins out the most, keeping the idea of
 addressability alive.</p>
 <p>That URLs become a universal address that works across all platforms,
 and not just the web, is a proposition worth considering.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The ebb of the web</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/ebb-of-the-web"/>
-    
-    <updated>2014-04-15T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/ebb-of-the-web</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Tech pundits like to lament that the web has <a href="http://cdixon.org/2014/04/07/the-decline-of-the-mobile-web/">no viable
-future</a>, while web idealists hold that in fact the web is
-totally fine, with a "too big to fail" <a href="http://schepers.cc/the-recline-of-the-mobile-web">sort of attitude</a>.</p>
-<p>At the root of this disagreement are poorly defined terms. The web can
-mean many different things to different people. Though it started from a
-pretty abstract notion of a series of interlinked documents, it has now
-evolved to refer to a very specific technology stack of hyperlinked HTML
-documents styled with CSS, enhanced with JavaScript, all served on top
-of HTTP. In light of an increasing movement away from desktop-style
-computing, we've seen a big shift away from the web in mobile platforms. </p>
-<p>Let's take apart this gob of web technology in light of the increasingly
-complex landscape of computing and try to make sense of what the web is
-and where it's going.</p>
-<p><img alt="A framework for webiness" src="webiness.png" /></p>
-<!--more-->
-
-<h2>Webiness: how far down the rabbit hole?</h2>
-<p>I want to introduce the concept of webiness, a framework for evaluating
-how deeply an application embraces "the web":</p>
-<p>Games are typical examples of apps that are <strong>pure native</strong> and not
-webby at all (barring high score servers, etc). Because many are
-playable offline, with no added benefit of having an internet
-connection, there is obviously no room for web. They are built entirely
-on native APIs, benefiting from being as close to the hardware as
-possible for performance reasons.</p>
-<p>Another class of native apps are Twitter, Facebook and the like, which
-essentially act as <strong>specialized browsers</strong>. They largely use HTTP to
-access RESTful endpoints that serve up JSON, which is rendered by the
-native clients. Because a specialized browser is designed for a specific
-use case in mind (eg. interacting with Twitter), it can be streamlined
-for that purpose and doesn't need to deal with processing the web's
-presentation layer (HTML, CSS, JavaScript). Therefore it presents a
-more focused experience and benefits from being faster at start-up and
-during interaction, offline support, and a generally better experience.</p>
-<p><strong>Embedded browsers</strong> (also called hybrid apps) embed a webview into the
-user interface of the page to use the web's presentation layer for part
-of the user interface. How much of the user interface is created using
-web technologies varies widely. This approach is beneficial because it
-allows web developers to be featured in app stores, and also gives them
-access to native APIs that are not available on the open web.</p>
-<p>Lastly, <strong>browser-based</strong> pages and apps are ones where even the code
-itself is fetched over HTTP. The app is written in a cross-browser way
-to ensure that regardless of which browser loads the page, the user is
-presented with a reasonable experience. The idea of this is to be able
-to write once, deploy everywhere. Like the other types of apps on our
-spectrum, these also use HTTP to interact with the server. All of the
-content is rendered using HTML/CSS/JavaScript. Additionally, the HTML is
-often hyperlinked.</p>
-<h2>The web as greatest common divisor</h2>
-<p>In mathematics, the greatest common divisor (GCD) between multiple
-digits is the largest positive integer that divides the numbers without
-a remainder. Observe that the GCD of a set of numbers (S) is by
-definition less than or equal to each number. Furthermore, if the
-numbers in S are not multiples of one another, the inequality
-becomes strict. So <code>foreach n in S, gcd(S) &lt; n</code>.</p>
-<p>In the webbiest case above, where we write once for all browsers, the
-web user interface becomes the GCD for all existing interfaces. It is
-guaranteed to be slower, less featureful, etc, than each individual
-native platform, but when the web was conceived, the benefits outweighed
-the costs. As the web evolved in the 90s, native platforms evolved
-alongside it. Computing at the time was very desktop-centric, requiring
-a physical keyboard, mouse, and relatively large display at, let's say
-1024x768 pixels. At best, variance was between operating systems. The
-computer geeks were on the Linux fringe. The art and music geeks used
-Macs. But the hardware was pretty much the same.</p>
-<p>Because of this uniformity, it was easy to standardize on a set of input
-and outputs that would work reasonably well across a bunch of existing
-computer configurations and operating systems. Computer hardware was all
-very similar, just off by some factor. And the GCD of this orderly set
-was pretty large: <code>gcd(200, 300, 400) = 100</code>.</p>
-<h2>We're not in Kansas anymore</h2>
-<p>Contrast this uniformity to today, when our mots du jour are "mobile
-first", or even "mobile only". But even these notions are becoming
-passé, as our day-to-day tech encounters start including wearable
-sensors for health, chips embedded in your appliances, shoes, and
-computers on your face. Even with the most conservative notion of what
-mobile means - small screens and touch input - we've really thrown a
-wrench into the big-screen, mouse-and-keyboard web. Scott Jenson is
-absolutely right in remarking in an <a href="https://www.youtube.com/watch?v=6u03xYkwMVI">Edge conf panel</a>, that the
-web hasn't even recovered from the fact that screens have gotten
-smaller. With today's extended notion of computing, the GCD of all
-of the devices and use cases the web is trying to support becomes very
-small: <code>gcd(100, 200, 300, 50, 99, 198, 33) = 1</code>.</p>
-<p>At the same Edge conf panel on the future of the web, somebody
-asked the question of how the web would work on hardware without a
-display. Answers from the panel were incoherent, but it's unclear how
-this would be built into today's frankenweb, which is already a snowball
-of many, often redundant technologies. And this is largely because of the
-notion of <strong>THE WEB</strong> as a single platform. This is both its greatest
-strength, and ultimately its tragic flaw, as the legacy of the early 90s
-causes the singular web to cave in on itself, as we are experiencing
-today.</p>
-<p>We can no longer have a one-web-for-all approach. We need to focus on
-having many different webs, each specializing on a particular subset of
-our universe of devices. Taking our set above, we can split it in two
-subsets, <code>S1 = {100, 200, 300, 50}</code>, and <code>S2 = {99, 198, 33}</code>.  Imagine
-S1 are the desktop-like devices, and S2 are the phone-like devices. Now,
-we have pretty okay GCDs: <code>gcd(S1) = 50</code>, and <code>gcd(S2) = 33</code>. Our worst
-case GCD is now 33, which is a lot better than 1!</p>
-<h2>The web is dead, long live the web!</h2>
-<p>I'm pretty sure that HTTP is here to stay. Our desire for content is
-universal, and that content needs to live somewhere. Regardless of how
-that content is presented to us, it is likely to be served to us through
-the cloud, over HTTP in the forseeable future.</p>
-<p>What is indisputably being downplayed in the vibrant and variant near
-future of computing, is the web's presentation layer - HTML, JavaScript
-and CSS. These comprise the lingua franca of the web, and have no real
-competition. However, this browser-served presentation layer of the web
-will become less relevant as fewer things are done through the browser,
-especially on mobile platforms.</p>
-<p>To me, the critical thing is that content be addressable by URL, and
-cross-linkable in some reasonable way. This is conventionally achieved
-with HTML's <code>&lt;a&gt;</code> elements, but can also be done with JavaScript (eg. a
-button that runs <code>javascript:window.location.href = myUrl;</code>, or a
-<code>&lt;form&gt;</code> that creates a POST request to some other resource. This can
-even be done without HTML at all. As long as we continue using HTTP, we
-are guaranteed to have content that is available at a given URL. And as
-long as we can guarantee that there's some handler for that content, the
-spirit of the web lives on.</p>
-<h2>Specialized browsers are a good solution</h2>
-<p>RSS readers are good examples of specialized browsers focused on
-presenting a good reading experience to the user. They are a single
-entry point for all of the interesting things on the internet for the
-user to read.</p>
-<p>The Twitter app on your mobile device is an example of a specialized
-browser designed for reading and sending tweets. This specialized
-browser relies on the web's ability to link to various kinds of content
-addressable by URLs. Tweets typically include an article or an image
-which are served up using HTTP, and sometimes require HTML to render.
-Twitter is all about hyperlinked content, without ever using an <code>&lt;a&gt;</code>
-tag.</p>
-<p>Apple also has several projects that are specialized browsers in spirit,
-though they rarely link out to the wild west of the world wide
-web. Generally, these specialized browsers focus on giving a great
-experience for the user aiming to do something specific. Similar in
-function to an RSS reader, Newsstand is an entry point to the magazines
-and newspapers you read. Passbook is a specialized browser for tracking
-event tickets, boarding passes and coupons. From a developer
-perspective, both of these browsers require you to setup a server and
-write some iOS code. (Unfortunately you're then stuck in Apple's
-ecosystem forever.)</p>
-<p>By identifying common patterns of functionality, Apple is able to
-successfully introduce a specialized browser notion that spans across
-multiple services, unifying it with a consistent user experience. This
-begins to address the concern that there are <a href="http://designmind.frogdesign.com/blog/mobile-apps-must-die.html">too many apps for
-everything</a>. Of course you don't want separate apps for
-NYTimes, WSJ, USA Today, LA Times, etc. And of course you don't want
-separate apps for each event booking service, airline and coupon
-company.</p>
-<p>The problem is endemic to the web community. The standards process
-behemoth is slow, heavy and change-averse. Its focus is on a monolothic
-web, <strong>THE WEB</strong>. Imagine if we focused on use cases in the same way
-that Apple does, and created specialized sub-webs for various related
-things. The next big thing is wearable health. Imagine a sub-web for
-that, where we get to define the way all of these devices can talk to
-one another. There would be a browser for that sub-web, providing a good
-experience to see historical data, analyze trends, and plot data over
-time. This is not the stuff of a web browser, but a completely different
-beast.</p>
-<p>Android's intent filters are a step in the direction of a specialized
-browser. Intent filters let apps register to handle specific URL
-patterns. If the URL pattern is opened by the user, she is presented
-with a dialog of all of the possible handlers for that resource, which
-may include Chrome, other web browsers, and specialized browsers that
-subscribe to that URL. Once you're in an Android app, however, you're
-stuck. Unless the app provides the ability to share content, there's no
-way to send your state to someone else. In contrast, with a web browser,
-you just take the URL and send it to your friend and if they have access
-to that content, they get to see it.</p>
-<h2>The web, the good parts</h2>
-<p>When tech pundits hail the ebb of the web, they mean that mobile native
-apps are eating away at the presentation layer on the mobile web and
-beyond. After some contemplation, I have made peace with this
-possible future. HTML is not the best possible way of creating content,
-nor is CSS a reasonable way of laying out content. JavaScript may be
-commonly used, but that does not make it a very good language. The
-presentation layer is optimized for content consumption using pointers
-and keyboard input, or if you're really adventurous, a smaller touch
-screen.</p>
-<p>Apps are another story. Frameworks like iOS and Android provide a much
-more modern, cogent way of developing apps for mobile platforms. But
-unfortunately they aren't linkable or portable across platforms. As I
-mentioned earlier, there's no need for <code>&lt;a&gt;</code> elements, or anything from
-the presentation layer to preserve benefits of linkability. But what
-does the web look like once we've gutted the presentation layer?  Here
-are some characteristics that we should preserve:</p>
-<ul>
-<li>The ability to take any content that is currently being shown and
-  serialize it into a URL.</li>
-<li>The ability to open a URL with the right specialized browser of the
-  user's choosing.</li>
-<li>If no specialized browser is installed, some way of presenting the
-  user with a list of good browsers.</li>
-</ul>
-<p>By dropping the notion of <strong>THE WEB</strong> (singular), and ushering an era of
-specialized browsers, we can split our universe of devices into subsets
-and increase the baseline greatest common denominator. Trying to extend
-the web to work for every possible case will lead to even more feature
-creep in a web platform that is already keeling over.</p>
-<p>The web community should take a look at verticals and spec and build
-specialized browsers for them. How would a web for boarding passes,
-concert tickets and coupons look like? How about a web for personal
-health tracking data? A web for content that should be consumed on an
-audio-only device?</p>
-<p>This has been my slightly edited brain dump on the future of the web.
-Thanks for reading, I eagerly await your thoughts :)</p>
 
         
       </div>

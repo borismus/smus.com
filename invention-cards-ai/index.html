@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invention Cards enhanced by AI | Boris Smus</title>
+
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+
+  <meta name="description" content="I used GPT4's multimodal features to accelerate and improve my recently rebooted  Visual Chronology of Science &amp; Discovery  project now hosted at  https://invention.cards . First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for  accelerated data entry . Then I used text-to-image models to generate  visually consistent imagery  for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my  asimov-gpt repository ." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/invention-cards-ai/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Invention Cards enhanced by AI" />
+  <meta name="twitter:description" content="I used GPT4's multimodal features to accelerate and improve my recently rebooted  Visual Chronology of Science &amp; Discovery  project now hosted at  https://invention.cards . First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for  accelerated data entry . Then I used text-to-image models to generate  visually consistent imagery  for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my  asimov-gpt repository ." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/invention-cards-ai/" />
+  <meta property="og:title" content="Invention Cards enhanced by AI" />
+  <meta property="og:description" content="I used GPT4's multimodal features to accelerate and improve my recently rebooted  Visual Chronology of Science &amp; Discovery  project now hosted at  https://invention.cards . First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for  accelerated data entry . Then I used text-to-image models to generate  visually consistent imagery  for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my  asimov-gpt repository ." />
+
+  <!-- Mastodon -->
+  <link rel="me" href="https://mastodon.social/@borismus">
+
+  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
+  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/icons/site.webmanifest">
+
+  <!-- Styles -->
+  <link
+  href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/style.css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+
+  <!-- Feed -->
+  <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/projects/' >Projects</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/invention-cards-ai'><h1 class='title'>Invention Cards enhanced by AI</h1></a>
+    <div class='body'>
+      <p>I used GPT4's multimodal features to accelerate and improve my recently rebooted <a href="/visual-chronology-science-discovery-v2/">Visual Chronology of Science &amp; Discovery</a> project now hosted at <a href="https://invention.cards">https://invention.cards</a>. First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for <strong>accelerated data entry</strong>. Then I used text-to-image models to generate <strong>visually consistent imagery</strong> for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my <a href="https://github.com/borismus/asimov-gpt">asimov-gpt repository</a>.</p>
+<!--more-->
+
+<h1>Accelerated data entry</h1>
+<p>Invention Cards is based on Asimov's encyclopedia, which is laid out like a newspaper: multiple sections of multi-column text:</p>
+<p><img alt="Areas of interest over two pages in Asimov's encyclopedia" src="asimov-example-pages.jpg" /></p>
+<p>The "In Addition" sections are interesting but do not directly map to a card in my chronology so should be skipped. The bi-fold above has four relevant sections which I've numbered in the image:</p>
+<ol>
+<li>Age of the Sun</li>
+<li>Glider</li>
+<li>Kerosine</li>
+<li>Cholera</li>
+</ol>
+<p>My initial idea was to completely transcribe the text using OCR, and then run an NLP extraction task on the extracted text. As I <a href="/visual-chronology-science-discovery/">wrote before</a>, off-the-shelf OCR solutions don't work well for digitizing this sort of layout. Inevitably the flow of text gets mangled, and manual intervention is required.</p>
+<p>Experimenting with the current crop of multimodal AI models, I was pleasantly surprised that I could skip the explicit OCR step and jump straight to extraction. <code>gpt-4o</code>  happily follows detailed instructions given images of pages in the encyclopedia, extracting structured JSON for each heading on the page. Here's how my system works.</p>
+<p>First I extract a page of interest from the 755-page PDF using the pypdf library. I send the page image to the OpenAI API along with the following prompt. I ironed out some kinks through trial and error:</p>
+<blockquote>
+<p>Summarize the inventions or discoveries on the following page. Please ignore sections entitled "In Addition".</p>
+<p>Provide the following information for each invention or discovery. Output should be described as an array of JSON objects with the following keys:</p>
+<ul>
+<li>title: one to three words describing the invention or discovery.</li>
+<li>year: the year the invention or discovery was made.</li>
+<li>description: full description of the invention or discovery as close to the text as possible.</li>
+<li>summary: two sentence summary without mentioning people or dates, focusing on what the invention or discovery is and does, and its impact.</li>
+<li>description: full description of the invention or discovery.</li>
+<li>inventor: full name of the inventor or discoverer.</li>
+<li>location: in which country was the invention or discovery made? In the case of Great Britain or the United Kingdom, use "England".</li>
+<li>field: (one of Math, Science, Culture, War, General, Design, Geography, Space). Sub-fields can be indicated with a colon (e.g. "Science: Physics or Science: Biology")</li>
+<li>related: one or more related previous invention or discovery, separated by commas. If there are no related inventions or discoveries, use "".</li>
+</ul>
+<p>Remember to escape quotes in JSON strings.</p>
+</blockquote>
+<p>I found empirically that using JSON mode yielded worse results, but that not using JSON mode, I was able to easily extract JSON from the response. Sometimes it came in markdown-style code blocks, which are easy enough to strip. I then validate the resulting JSON object with <a href="https://pydantic.dev/">pydantic</a>, ensuring the types make sense and then sanity check it so that values are within ranges. If things do not validate, I automatically retry. Finally the script serializes each invention on the page in a Tab Separated Value (TSV) format, so that it can be copied from the terminal and pasted into my <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=1533876043">master spreadsheet</a>. Once entered into the spreadsheet, I can iterate on the content manually.</p>
+<p>Here are my observations from extracting ~300 cards from Asimov's encyclopedia using this AI-infused workflow:</p>
+<ul>
+<li><strong>Title</strong>: works quite well if the section is identified. About 2% of the sections are ignored.</li>
+<li><strong>Year</strong>: works great with almost no errors.</li>
+<li><strong>Summary</strong>: often wrong or incomplete, missing key details, especially when multiple inventions are mentioned under the same heading.</li>
+<li><strong>Inventor</strong>: name works reasonably well when only one person is mentioned. A challenge arises when Asimov refers to previously mentioned people by just their last name. I haven't yet built a system for resolving full names from last names yet.</li>
+<li><strong>Location</strong>: works well too, but there are tricky cases like United Kingdom / Great Britain / England. Also expect failures when multiple places are mentioned in Asimov's blurb.</li>
+<li><strong>Field</strong>: sometimes wrong, often defaulting to "Science". Sub-fields were also sometimes muddled or overly specific. One common confusion is the preference of "Science:Astronomy" over "Space". To be honest, which field an invention or discovery belongs to is often fuzzy even for a human. The greatest discoveries span multiple fields or create new fields.</li>
+<li><strong>Related</strong>: inventions are often missing, especially if none are explicitly mentioned in the originating text.</li>
+</ul>
+<h3>Aside on page boundaries</h3>
+<p>Many of Asimov's invention &amp; discovery descriptions span page boundaries. In the example above, Glider begins on 367 and wraps to the next page; Cholera begins on 368 and continues further.</p>
+<p>I began working on an improved pipeline for handling page wrapped text, but realized that in practice, I needed to make revisions to many summarized card descriptions to make them more terse and informative than the AI generated summary. When I did this for inventions and discoveries that extended onto a second page, I ended up also manually incorporating content that was only available below the fold. This is not so bad because I'm curious about Asimov's invention &amp; discovery stories, so end up at least skimming Asimov's original text anyway.</p>
+<p>To handle the page boundary robustly in the future, I'm imagining a two pass solution: 1) Extract the headings from the page. 2) Send a bi-fold image of the current and next page, and in the prompt, ask to provide summaries for the headings extracted from the first pass. How well <code>gpt-4o</code> or the next crop of models will handle multi-page images remains to be seen.</p>
+<h3>Data workflow</h3>
+<p>Here's my overall data extraction workflow:</p>
+<p><img alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
+<p>I run the script for a range of pages:</p>
+<p><code>&gt; python3 src/extract_cards.py --from=388 --to=400</code></p>
+<p>This outputs TSV for all entries on the page (terminal, window 2). I copy the TSV into the master spreadsheet (sheets, window 3), and then cross-reference the fields with the original text (preview, window 1).</p>
+<p>Once ready, the spreadsheet is exported as TSV. I then load this TSV in the <a href="https://invention.cards">https://invention.cards</a> site, and also use it as the source of truth for further processing. The inventions and discoveries on page 367-368 will be transformed into cards like this: <a href="https://invention.cards/glider">Glider</a>, <a href="https://invention.cards/cholera">Cholera</a>, <a href="https://invention.cards/kerosene">Kerosene</a>, and <a href="https://invention.cards/age-of-the-sun">Age of the sun</a>.</p>
+<p><img alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
+<p>At this point you might be wondering where the snazzy images came from. Read on to find out!</p>
+<h1>Visually consistent imagery</h1>
+<p>After I have a TSV file of inventions and discoveries from the AI-assisted process I described above, we can begin generating consistent imagery for these inventions. I use OpenAI's <code>dall-e-3</code> model to generate an image using the metadata provided. The f-string prompt looks something like this:</p>
+<blockquote>
+<ul>
+<li>Title: {invention.title}</li>
+<li>Description: {invention.summary}</li>
+<li>Category: {invention.field}</li>
+<li>Year: {invention.year}</li>
+<li>Person: {invention.inventor}</li>
+</ul>
+<p>Generate vibrant art nouveau for the invention/discovery described above. The image should be a single object or scene that represents the invention/discovery.</p>
+</blockquote>
+<p>The results are stylistically consistent and visually pleasing. Sometimes things are a bit off though. Here are a few failure modes I've observed:</p>
+<p>A. The image does not correspond to the factual details of the card (e.g. <a href="https://invention.cards/aerodynamics">Aerodynamics (1809)</a>, <a href="https://invention.cards/binary-system">Binary System (1700)</a> pictured):</p>
+<p><img alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
+<p>B. The card title has multiple meanings, and the image generator latches on to the wrong one (e.g. <a href="https://invention.cards/percussion">Percussion (1761)</a> and <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> pictured):</p>
+<p><img alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
+<p>C. The card is obscure and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/discovery-of-lanthanum">Lanthanum (1839)</a>, <a href="https://invention.cards/molybdenum">Molybdenum (1778)</a>, and <a href="https://invention.cards/thallium">Thallium (1861)</a> pictured):</p>
+<p><img alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
+<p>D. The card is abstract and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/celsius">Celsius (1742)</a>, <a href="https://invention.cards/celluloid">Celluloid (1869)</a>, and <a href="https://invention.cards/positive-negative-charge">Positive negative charge (1733)</a> pictured):</p>
+<p><img alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
+<p>E. The card includes an object that the image generator struggles to generate, so creates a crazy version of the object (e.g. <a href="https://invention.cards/safety-pin">Safety Pin (1849)</a>, <a href="https://invention.cards/telescope">Telescope (1668)</a>):</p>
+<p><img alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
+<p>Two common and undesirable occurrences in these generated card images are people and text. The image often focuses on the visage of the inventor to the detriment of his actual invention. Sometimes it's not the inventor or the discoverer, but a beautiful woman depicted in art nouveau style. The other failure mode is that the image contains unnecessary text. My favorite is when it is prominently misspelled, as in this set of attempts for <a href="https://invention.cards/carbon-dioxide">Carbon Dioxide (1754)</a>.</p>
+<p><img alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
+<p>First I tried threats to discourage these misbehaviors. Unfortunately threatening to kill <code>dall-e-3</code>'s firstborn child triggers their AI safety subsystem. Then I tried cajoling. In the end I ended up pleading with very clear instructions. The prompt ends with:</p>
+<blockquote>
+<p>Please do not include any typography or text. Please do not draw any people.</p>
+</blockquote>
+<p>This helps but does not fully solve the problem. Roughly ~10% of the images still suffer from unnecessary people and text.</p>
+<h3>Image workflow</h3>
+<p>As a result of various problems in image generation, I can't fully trust the system to do a good job. So I've become the human in this AI loop. Let me describe my workflow.</p>
+<p>My script generates images for cards spanning a range of years, saving the corresponding images in a directory with the same filename as the card's identifier</p>
+<p><code>&gt; python3 src/gen_card_image.py --from_year=-100000000 --to_year=2000</code></p>
+<p>After these images are generated, I review them. I leave the ones I like untouched and rename the duds, adding a suffix (e.g. <code>carbon-dioxide.jpg</code> becomes <code>carbon-dioxide-1.jpg</code>). After this pass, I run the script again which will ignore existing images unless forced. Now I have a smaller set of images to review and rename. Rinse and repeat. At the end of this iterative process, I have a list of canonical imagery for each invention.</p>
+<p>I'd say that more than half of the card images generated on the first pass are good enough for my bar. Some images end up requiring multiple generations and eventually produce something compelling. Other cards fail completely and require workarounds. In some cases, like <a href="https://invention.cards/morphine">Morphine (1805)</a>, <code>dall-e-3</code> simply refused to generate any image because it violated their policies. Winners don't use drugs!</p>
+<p>In other cases, <code>dall-e-3</code> gets confused by Asimov's terms and generates consistently wonky images. In these rare cases, I took liberties and retitled the card. Though a separture from the original text, the new names are less confusing to both the image generator and to the general public. I renamed <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> to "Blackbody Radiation" to be able to generate images without a black human body. Similarly, I renamed <a href="https://invention.cards/percussion">Percussion (1761)</a>, to "Medical Percussion" to avoid spurious musical instruments.</p>
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>May 30, 2024</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2005–2024 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='https://smus.com/atom.xml'>RSS</a>
+    <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
+  </nav>
+</footer>
+
+<!-- Misc scripts: syntax highlighting, analytics, stats. -->
+<script src="/static/js/highlight.pack.js"></script>
+<!-- Syntax highlighting for code. -->
+<script>
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+</script>
+<!-- Lightning builder error check. -->
+<script src="/lightning_error.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38Y45XD5VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38Y45XD5VQ');
+</script>
+
+
+</body>
+</html>
