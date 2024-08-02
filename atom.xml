@@ -5,8 +5,45 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-05-30T08:20:14-00:00</updated>
+  <updated>2024-08-01T22:13:46-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Blindsight by Peter Watts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/blindsight-by-peter-watts"/>
+    
+    <updated>2024-08-01T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/blindsight-by-peter-watts</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Blindsight was recommended to me by GB, DK, and maybe NA. I resisted for a long time, but as the recommendations piled up, I decided it was time. I was not disappointed. The book is masterfully written, a slow and often baffling build (wtf, vampires?) culminates in an excellent story with lots of twists and turns. This is indeed a hard science fiction book and really shows off how good fiction can be at articulating complex ideas (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>).</p>
+<p>The characters are compelling too, especially Isaac Spindle, who I think reminded me a bit of VJ. The scene when Cunningham begins to recite Yitgadal was wildly unexpected and made me realize that I kinda missed Spindle! The Vampire Jukka Sarasti was my favorite though. In an odd way he reminded me of AH, at least in his brute intelligence. I also really liked that "Vampire Logic" was basically abduction (see <a class="wiki" href="https://z3.ca/Abductive_reasoning_—_Inference_to_the_Best_Explanation">Abductive reasoning — Inference to the Best Explanation</a>).</p>
+<p>This book is packed with ideas.</p>
+<p><strong>Lensical thinking</strong> involves being able to see something from multiple lenses, or different perspectives (see <a class="wiki" href="https://z3.ca/Multiple_lenses_are_required_to_understand_anything_complex">Multiple lenses are required to understand anything complex</a>). For humans this is not easy, and changing lenses requires deliberate practice. Further, only one lens can be tried on one at a time. Vampires in Blindsight can see both sides of the Necker cube simultaneously. This reminds me a bit of a cool concept I recently learned about called double consciousness, in which theory of mind becomes a survival skill (see <a class="wiki" href="https://z3.ca/Double_consciousness_—_oppression_increases_lensical_thinking">Double consciousness — oppression increases lensical thinking</a>).</p>
+<p><strong>Multiple personalities</strong>. Fascinating discussion around Multi Personality Disorder (MPD). One of the protagonists is a in fact four. These four personalities each have their own dedicated space inside a shared brain. This quadfurcation was done deliberately by the original human owner of the body as a sort of "CPU sharing" scheme. You can tell who is in control only from changes in mannerisms, gait and slight variations in voice.</p>
+<p>Watts looks back at our current moment from a bird's eye view, 100 years into the future. From this vantage point, it is widely considered that carnivorism will be an appalling and disgusting primitive practice. In the same vein, what if the way we handle MPD/DID is also barbarous, administering drugs to suppress all these potential other lives-within-lives. Trust me, it's a more compelling argument in the book. Aside: I'm reminded of my prospective renter experience who turned out to be a Tulpamancer. Ask me sometime over a beer.</p>
+<p><strong>Unconscious intelligence</strong>. Shortly after first contact with Rorschach, the entity seems to communicate. This is initially exciting but after extended conversations it seems that Rorschach is an LLM. It's not really conscious, nor does it have a stable identity. Did it just quickly learn human communication patterns during it's enveloping of Earth? This is a great way to land the reader into a scenario and internalize the Chinese Room thought experiment. I am reminded of my belief that thought experiments are best understood through fiction (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>). Once enveloped inside a world where the thought experiment can root naturally, I find myself more receptive to consider the thought experiment more deeply.</p>
+<p><strong>Is consciousness adaptive?</strong> In one of Cunningham's diatribes, he observes that many sociopaths are in positions of power. These sociopaths lack self-awareness. Is the evolutionarily expedient adaptation to not be conscious? Would it be better if people were actually p-zombies? Imagine if intelligent beings didn't need to waste time any cycles thinking and modeling one another, recursively? I found these questions disturbing but interesting. Provocative and unanswered. Unanswerable?</p>
+<p><strong>Superintelligence timewarps</strong>. The scramblers are superintelligent and operate at a rate of perception that far exceeds human abilities. In addition to being mathematical geniuses, they seem to have a far superior set of reflexes, or perhaps just perceive the world at a much faster rate. They communicate at extremely high frequency, and also hide things from humans by doing things while humans aren't paying attention. They learned to perceive human blinks and eye saccades, and managed to use that information to hide in plain-sight.</p>
+<p>I was thinking about this in context of a blinking traffic light. I saw the traffic light out of the corner of my eye, but perceived the light as broken, because my blinks coincided with it being off for two cycles. How little it takes to fool us!</p>
+<p><strong>Vibe: unsettling horror</strong>. In Blindsight, the whole world is actively hostile. Neither the captain (an AI) nor Jukka Sarasti (a Vampire) can be trusted. Rorschach and the scramblers seem likely hostile, but it's very unclear until the end. And the setting is in deep space extremely far from home. Everything and everyone feels volatile and perpetually ready to kill you in a way that reminded me of <a href="/books/annihilation-by-jeff-vandermeer/">Annihilation</a>.</p>
+<p><strong>Vibe: what is reality</strong> There's a masterfully written segment in Blindside about how Cygnus suddenly sees that his crew is no longer human, but actually made out of tiny, disturbing alien particles. Again I'm reminded of Annihilation... It's executed so well that for the rest of the book I didn't know if I've decided that it is true or not. Not sure if this is what Watts was going for, but it's a great illustration of seeing two sides of the Necker cube.</p>
+<p>Suppose the entire crew had been replaced by strange alien cells created by this extraterrestrial super intelligence? The author seems to suggest that the answer to this question is "Yes". It might not matter too much. But if the crew is no longer "human", how about Cygnus himself? In the back of the reader's mind, the crew was never <em>really</em> human to begin with. They are all cyborgs of some sort, having melded with computers long ago. Is this further transformation that different or relevant?</p>
+<p>At the end of the book, when you have all but forgotten that the crew is on an intelligent ship, the AI "Captain" re-emerges and appears to have been the one calling the shots all along. The Vampire was just a proxy for the ship because "We don't like taking orders from machines".</p>
+<p>Provocations:</p>
+<ul>
+<li>Why would we expect higher beings to be merciful to us if we treat lower beings the way that we do?</li>
+<li>Are art and our general sense of aesthetics drived from our over-active sense of the mundane questions of say what makes a good habitat?</li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Invention Cards enhanced by AI</title>
@@ -2976,37 +3013,6 @@ This khan in velvet boots, citing Schedrin and living by the law of the jungle, 
 <li><a href="https://tedgioia.substack.com/p/where-did-the-long-tail-go">Where Did the Long Tail Go?</a> (<em>Ted Gioia</em>) — A look back at Chris Anderson's starry eyed take on the future of the internet in "The Long Tail" (2006), which predicted that the internet would flourish into a world of endless choices for every fringe interest under the sun. In retrospect, rather than "Selling Less of More", thanks to aggregators and centralization, we are losing the long tail and returning back to normal economics, selling more of less.</li>
 <li><a href="https://www.theatlantic.com/newsletters/archive/2022/06/uber-ride-share-prices-high-inflation/661250/">Why Urban Life Suddenly Got Way More Expensive</a> (<em>The Atlantic</em>) — When interest rates were near zero, VC money flowed easily and subsidized many risky ventures operating at a loss that aimed to "<a href="https://www.youtube.com/watch?v=p7Lo0sZfdHE">Blitzscale</a>" their way to gaining a monopoly, effectively subsidizing the price for consumers. As the tides turn, Blitzscaling is becoming harder to execute, so prices for food delivery, ride sharing, meal kits should further increase.</li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Arcadia by Tom Stoppard</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/arcadia-by-tom-stoppard"/>
-    
-    <updated>2022-06-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/arcadia-by-tom-stoppard</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>It's pretty funny but in a very high falutin’ way, which detracts from the
-comedy.</p>
-<p>Isn’t that conjecture just Laplace’s Demon? From WP:</p>
-<blockquote>
-<p>Laplace's demon is a hypothetical all-knowing being who knows the precise location and momentum of every atom in the universe, and therefore could use Newton's laws to reveal the entire course of cosmic events, past and future. Based upon the philosophical proposition of causal determinism.</p>
-</blockquote>
-<p>Septimus &amp; Chater demanding satisfaction exchange is hilarious!</p>
-<p>Overall I’m struggling to follow the arc. Lots of wit but just very much a
-comedy of errors. I might try again when I'm in a more frivolous headspace.</p>
-<p>A stray thought: I haven't tended to really enjoy plays much. Is this a lack of
-imagination on my part? Perhaps it takes more work to truly imagine each
-character delivering their lines without any of the scaffolding a narrator
-provides...</p>
 
         
       </div>

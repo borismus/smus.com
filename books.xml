@@ -5,8 +5,45 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-05-30T08:20:14-00:00</updated>
+  <updated>2024-08-01T22:13:46-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Blindsight by Peter Watts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/blindsight-by-peter-watts"/>
+    
+    <updated>2024-08-01T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/blindsight-by-peter-watts</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Blindsight was recommended to me by GB, DK, and maybe NA. I resisted for a long time, but as the recommendations piled up, I decided it was time. I was not disappointed. The book is masterfully written, a slow and often baffling build (wtf, vampires?) culminates in an excellent story with lots of twists and turns. This is indeed a hard science fiction book and really shows off how good fiction can be at articulating complex ideas (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>).</p>
+<p>The characters are compelling too, especially Isaac Spindle, who I think reminded me a bit of VJ. The scene when Cunningham begins to recite Yitgadal was wildly unexpected and made me realize that I kinda missed Spindle! The Vampire Jukka Sarasti was my favorite though. In an odd way he reminded me of AH, at least in his brute intelligence. I also really liked that "Vampire Logic" was basically abduction (see <a class="wiki" href="https://z3.ca/Abductive_reasoning_—_Inference_to_the_Best_Explanation">Abductive reasoning — Inference to the Best Explanation</a>).</p>
+<p>This book is packed with ideas.</p>
+<p><strong>Lensical thinking</strong> involves being able to see something from multiple lenses, or different perspectives (see <a class="wiki" href="https://z3.ca/Multiple_lenses_are_required_to_understand_anything_complex">Multiple lenses are required to understand anything complex</a>). For humans this is not easy, and changing lenses requires deliberate practice. Further, only one lens can be tried on one at a time. Vampires in Blindsight can see both sides of the Necker cube simultaneously. This reminds me a bit of a cool concept I recently learned about called double consciousness, in which theory of mind becomes a survival skill (see <a class="wiki" href="https://z3.ca/Double_consciousness_—_oppression_increases_lensical_thinking">Double consciousness — oppression increases lensical thinking</a>).</p>
+<p><strong>Multiple personalities</strong>. Fascinating discussion around Multi Personality Disorder (MPD). One of the protagonists is a in fact four. These four personalities each have their own dedicated space inside a shared brain. This quadfurcation was done deliberately by the original human owner of the body as a sort of "CPU sharing" scheme. You can tell who is in control only from changes in mannerisms, gait and slight variations in voice.</p>
+<p>Watts looks back at our current moment from a bird's eye view, 100 years into the future. From this vantage point, it is widely considered that carnivorism will be an appalling and disgusting primitive practice. In the same vein, what if the way we handle MPD/DID is also barbarous, administering drugs to suppress all these potential other lives-within-lives. Trust me, it's a more compelling argument in the book. Aside: I'm reminded of my prospective renter experience who turned out to be a Tulpamancer. Ask me sometime over a beer.</p>
+<p><strong>Unconscious intelligence</strong>. Shortly after first contact with Rorschach, the entity seems to communicate. This is initially exciting but after extended conversations it seems that Rorschach is an LLM. It's not really conscious, nor does it have a stable identity. Did it just quickly learn human communication patterns during it's enveloping of Earth? This is a great way to land the reader into a scenario and internalize the Chinese Room thought experiment. I am reminded of my belief that thought experiments are best understood through fiction (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>). Once enveloped inside a world where the thought experiment can root naturally, I find myself more receptive to consider the thought experiment more deeply.</p>
+<p><strong>Is consciousness adaptive?</strong> In one of Cunningham's diatribes, he observes that many sociopaths are in positions of power. These sociopaths lack self-awareness. Is the evolutionarily expedient adaptation to not be conscious? Would it be better if people were actually p-zombies? Imagine if intelligent beings didn't need to waste time any cycles thinking and modeling one another, recursively? I found these questions disturbing but interesting. Provocative and unanswered. Unanswerable?</p>
+<p><strong>Superintelligence timewarps</strong>. The scramblers are superintelligent and operate at a rate of perception that far exceeds human abilities. In addition to being mathematical geniuses, they seem to have a far superior set of reflexes, or perhaps just perceive the world at a much faster rate. They communicate at extremely high frequency, and also hide things from humans by doing things while humans aren't paying attention. They learned to perceive human blinks and eye saccades, and managed to use that information to hide in plain-sight.</p>
+<p>I was thinking about this in context of a blinking traffic light. I saw the traffic light out of the corner of my eye, but perceived the light as broken, because my blinks coincided with it being off for two cycles. How little it takes to fool us!</p>
+<p><strong>Vibe: unsettling horror</strong>. In Blindsight, the whole world is actively hostile. Neither the captain (an AI) nor Jukka Sarasti (a Vampire) can be trusted. Rorschach and the scramblers seem likely hostile, but it's very unclear until the end. And the setting is in deep space extremely far from home. Everything and everyone feels volatile and perpetually ready to kill you in a way that reminded me of <a href="/books/annihilation-by-jeff-vandermeer/">Annihilation</a>.</p>
+<p><strong>Vibe: what is reality</strong> There's a masterfully written segment in Blindside about how Cygnus suddenly sees that his crew is no longer human, but actually made out of tiny, disturbing alien particles. Again I'm reminded of Annihilation... It's executed so well that for the rest of the book I didn't know if I've decided that it is true or not. Not sure if this is what Watts was going for, but it's a great illustration of seeing two sides of the Necker cube.</p>
+<p>Suppose the entire crew had been replaced by strange alien cells created by this extraterrestrial super intelligence? The author seems to suggest that the answer to this question is "Yes". It might not matter too much. But if the crew is no longer "human", how about Cygnus himself? In the back of the reader's mind, the crew was never <em>really</em> human to begin with. They are all cyborgs of some sort, having melded with computers long ago. Is this further transformation that different or relevant?</p>
+<p>At the end of the book, when you have all but forgotten that the crew is on an intelligent ship, the AI "Captain" re-emerges and appears to have been the one calling the shots all along. The Vampire was just a proxy for the ship because "We don't like taking orders from machines".</p>
+<p>Provocations:</p>
+<ul>
+<li>Why would we expect higher beings to be merciful to us if we treat lower beings the way that we do?</li>
+<li>Are art and our general sense of aesthetics drived from our over-active sense of the mundane questions of say what makes a good habitat?</li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Blessing of a Skinned Knee by Wendy Mogel</title>
@@ -3534,131 +3571,6 @@ This was the first Christian standing army since the fall of the Western Roman E
 </ul>
 <p>Based on this list, the Middle Ages continues well into the 16th century. Italian Humanists were trying to make a break from the past, but did nothing to eliminate nobility or serfdom, improve quality of life, or reform the guild system.</p>
 <p>Daileader proposes a better potential endpoints to the Middle Ages, like the Scientific Revolution or the Protestant Reformation. But even these periods were rooted in the Middle Ages. Luther was a scholastic scholar following Aquinas' tradition. Newton was deeply religious. Perhaps an even better endpoint for the Middle Ages actually is the Enlightenment in the mid-18th century. The French Revolution was the antithesis to the Middle Ages and ushered in the drastic and abrupt end to many of the institutions central to the Middle Ages. (That said, the lecturer is a professor of Middle Age History, and is biased towards stretching the start and endpoints of his period of study.)</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Medieval Technology and Social Change</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/medieval-technology-and-social-change"/>
-    
-    <updated>2021-06-30T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/medieval-technology-and-social-change</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I'm clearly on a serious history of the Middle Ages kick. I found this book by just searching the internet inspired by earlier courses on Medieval history, and didn't really know what I was getting into. Apparently it's really famous and influential among Medieval scholars, even causing the <a href="https://en.wikipedia.org/wiki/Great_Stirrup_Controversy">Great Stirrup Controversy</a>.</p>
-<p>This book was clearly written for academics. Latin and French quotes remain
-untranslated, even in footnotes and endnotes. Yet somehow despite this, it is
-engaging and readable.</p>
-<p>It's great fun to try to integrate viewpoints on the same topic (Middle Age
-Technology) and begin to start to fill in the gaps. One great benefit of
-focusing on the Middle Ages is that there wasn't as much technology to speak of.
-This helps focus in on fewer things, and constraints are good.</p>
-<h1>History of Horses in Combat</h1>
-<ol>
-<li>Horse chariots, in which a two wheeled cart is used as a moving platform for combat.</li>
-<li>Mounted archers and light combat on horseback.</li>
-<li>Knights, using combined weight of horse, rider and armor.</li>
-</ol>
-<h1>Charles and the Knights</h1>
-<p>Charles Martel and his descendants saw the potential of using horses for mounted shock combat. (White seems to ignore high backed saddles and the couched lance technique, with a shocking emphasis on stirrups.) Using armies of knights, Martel the Hammer defeated the Arabs and retook many lands, rebuilding a shorter lived spiritual successor to the Roman empire. With knights proving so effective, there was a need for more knights. This led to a vast proliferation of feudalism, enabling new upwardly mobile vassals to gain access to lands required of a knight, and ultimately cemented this new style of warfare. By 1000, the Latin "miles", which had meant soldier, began to mean knight.</p>
-<p>White has a great discussion about the “diffusion” of stirrups. In general this lens of <a class="wiki" href="https://z3.ca/Diffusion_of_Technology">Diffusion of Technology</a> is one to keep in mind. I've adopted it in my random walk into <a class="wiki" href="https://z3.ca/Age_Heaping_Using_Canadian_1852_Census_data">Age Heaping Using Canadian 1852 Census data</a>. As White eloquently puts it,</p>
-<blockquote>
-<p>As our understanding of technology increases, it becomes clear that a new device merely opens a door; it does not compel one to enter. The acceptance or rejection of an invention, or the extent to which its implications are realized if it is accepted depends quite as much upon the condition of a society, and upon the imagination of its leaders, as upon the nature of the technological item itself.</p>
-</blockquote>
-<p>The <a class="wiki" href="https://z3.ca/Second_order_effects_and_unintended_consequences">Second order effects and unintended consequences</a> of this shift were massive. Horses were expensive to buy and maintain, armor was becoming heavier to be effective against lances with the force of thousands of pounds at its tip. Equipment for one knight seemed to cost about 20 oxen (a peasant family relied on 2). Knights often had squires, and multiple spare horses.</p>
-<p>Charlemagne and other Carolingian kings encouraged peasants to band together and choose one of them to fight as a knight. Since land was the source of power of the time (money was not as key), the landed knights became the nouveau riche, creating a large gulf between them and the peasantry from which many of them came.</p>
-<p>The old Germanic (nit: wasn't it the case in Rome too?) idea that every freeman was a soldier was now replaced by a professional fighting class.</p>
-<p>Because of all the armor, knights became virtually unrecognizable and needed to develop some visual identification, and thus tradition of heraldry was born.</p>
-<p>The cross bow emerged, either revived, or borrowed from the Chinese to penetrate knight's armor.</p>
-<h1>Farming Practices</h1>
-<p>Cross plowing was a technique to till tougher northern soil with a scratch plow. Furrows were made horizontally and vertically. This led to square fields. The moldboard plow, also known as the heavy plow eliminated the need for cross plowing because single furrows were deep enough for northern lands. It was also far more efficient. This made the fields long and narrow. (White does not mention the other reason for long fields: that ox teams were hard to turn.)</p>
-<p>The heavy plow was wheeled and required an eight ox team. This required collaboration between peasants and led to closer ties and village councils. Large fields collectively owned were doled out to villagers in sequence. In contrast, southerners using scratch plows remained individualistic.</p>
-<p>Diffusion of this technology was difficult and required a large population density. Another challenge was that collaboration was required between peasants to join plots together for this new farming practice.</p>
-<p>Nailed Horseshoes were another key invention for agriculture. In Italy the warm climate worked well for unclod horses. But in the north, the climate and soil was such that horse hooves would often break.</p>
-<p>The need for horses to carry more weight (armored knights) led to selective breeding of destriers. These stronger horses inevitably interbred with peasant farm horses, leading to stronger offspring.</p>
-<p>Horses with padded collars could exert as much force as oxen. But moved much faster, so could output a lot more power. More speed let to more harrowing which was more effective at breaking up clods.</p>
-<p>Yet the ox did not spread as quickly in England as one might expect. White suggests that this may have been because of a reluctance due to a lack of skin in the game, related to <a class="wiki" href="https://z3.ca/Does_your_output_affect_your_paycheck?">Does your output affect your paycheck?</a>.</p>
-<blockquote>
-<p>the real reason for his favoring the ox at the plow emerges when he remarks that 'the malice of the ploughmen does not permit a horse-drawn plough to go any faster than one pulled by oxen'. This kind of slow-down may have affected the ploughing of demesne lands done reluctantly under manorial obligation but it would not apply when peasants were working their own fields.</p>
-</blockquote>
-<p>Other benefit of switching to horses was that they could be used as transport. During Roman times, cost of goods doubled every 100 mi of overland transport. This meant that viable farmland was situated only along rivers. During Roman times, most vehicles were two-wheeled. The first horse-drawn four-wheeled wagons appeared by 13th century and reduced overland cost so much that transport over 100 miles increased by just 30% (a 70% savings). This expanded viable farmland further from rivers, allowed a lot more farmland, and increased overall carrying capacity.</p>
-<p>Wagon inventions:</p>
-<ul>
-<li>Pivoted front axles</li>
-<li>Adequate brakes</li>
-<li>Whipple trees</li>
-</ul>
-<p>Because of the horse, peasants didn't need to rely entirely on merchants, but could get their goods to market on their own.</p>
-<p>Horses also gave them more mobility, and many were able to move to form larger settlements and benefit from amenities there: the commune, a church, a tavern, more suitors, markets, etc. Horse as transport enabled them to commute to their fields daily.</p>
-<p>(This is all so interesting from the perspective of complex systems and feedback
-loops...)</p>
-<h2>Three field rotation</h2>
-<p>First recorded in 763, this practice became ubiquitous by 800 (shockingly fast). Previously, Europe had practiced the two field rotation invented by Romans. The old system alternated two halves, with one planted, the other left fallow.</p>
-<p>The three field system split holdings into three sub-fields. The peasant planted winter crops (winter wheat or rye) on field 1, then summer crops (oats, barley, lentil, etc) on field 2, and left field 3 fallow. Next year, fields do a circular shift.</p>
-<p>This had many advantages over the two field rotation:</p>
-<ul>
-<li>2/3 land utilization during the year (vs. 1/2).</li>
-<li>More crop variety means more resiliency to droughts.</li>
-<li>Better yields since legumes fix the nitrogen in the soil.</li>
-<li>Oats for horses! Oats are much more nutritionally rich than grass, allowing many more horses to work in agriculture.</li>
-<li>A more even workload for farmers throughout the year.</li>
-<li>Legumes provided extra nutrition for protein starved peasantry.</li>
-</ul>
-<h1>Mechanical power</h1>
-<p>Mechanical power experiments were done in antiquity - e.g. with Hero's Aeolipile, a proto-steam engine. But inventions like these did not get refined and was never put to use at scale until the middle ages.</p>
-<p>(Not mentioned in White's book, but it appears that labor was very cheap in the early middle ages, with agricultural slaves being common. Towards the high middle ages, slaves are replaced by serfs, and are then set free to work as smallholder farmers. The cost of labor goes up further after the population is decimated by the Black Death. All of this drives the demand for cheap power.)</p>
-<h2>Water power</h2>
-<p>Water mills became common around the 11th century. By this point the Vitruvian design had won out: a vertical wheel that turned a horizontal shaft. Earlier designs used a horizontal wheel and a vertical shaft, but did not require gears. Domesday reported that 5000 water wheels were in place for 3000 villages, circa 1086. Tidal wheels were also used, with some early examples on the Adriatic.</p>
-<h2>Wind power</h2>
-<p>Wind power was originally harnessed in Tibet and China where mantras written on scrolls were placed on bookshelves which rotated by power of wind to increase their holiness. Windmills in Europe spread quickly. They could produce less power than water mills, but do not require a strong river flow. Also, they are immune to rivers freezing in winter or drying up in fall.</p>
-<p>Applications of this mechanical power included mostly milling grain but also filling cloth, sawing wood, crushing olives, operating bellows for blast furnaces, turning grindstones to polish metal, mincing paper pulp.</p>
-<blockquote>
-<p>The late Middle Ages has indeed been described as a “medieval industrial revolution based on water and wind.”</p>
-</blockquote>
-<p>An interesting aside is that the Aelopile did have a direct application in the Middle Ages: a blower to keep fires oxygenated and burning more evenly called a sufflator.</p>
-<h2>Pneumatic weapons</h2>
-<p>Other pneumatic devices may have been inspired by a blowgun from Malay. This design was apparently appropriated by Arabs and eventually made its way to Europe around the middle ages. If you continue the logical chain, the idea of having a barrel and a projectile means that the simple blowgun was a precursor to the musket, as well as the steam engine. Succinctly:</p>
-<blockquote>
-<p>The cannon is not only important in itself as a power-machine applied to warfare: it is a one-cylinder internal combustion engine, and all of our more modern motors of this type are descended from it.</p>
-</blockquote>
-<p>Corned gunpowder was a major refinement I’d not heard of. http://firearmshistory.blogspot.com/2016/07/black-powder-vii-corned-powder.html?m=1</p>
-<h2>Gravity-based weapons</h2>
-<p>Gravity based mechanical machines. The trebuchet emerged sometime in 11th (?) century and greatly improved on the Roman catapults, able to hurl 300 lb stone 300 yards using a long 50 ft lever arm and a heavy counterweight. Massive improvement over the Roman stars, 60 lb stone 450 yards. In siege warfare the mass of projectile matters most.</p>
-<h1>Mechanisms and mechanical engineering</h1>
-<p>Cranks… not sure why this section feels so dull right now. This reader struggled through a long discussion about cranks and when they were invented. Apparently not until 10th century or so in Europe.</p>
-<p>Okay but seriously, cranks are important as a precursor to the pistons and in general the conversion of reciprocating motion into rotation or vice versa. If the driving force is reciprocation, you end up with a significant dead zone to get through. This is solved with a compound crank (as in a two stroke engine) and aided by Flywheels, which don’t appear until 14th century. Tangentially related, I really enjoyed <a href="https://ciechanow.ski/internal-combustion-engine/">this marvelous interactive explanation on the internal combustion engine</a>.</p>
-<p>Treadles, or foot pedals that drive a rotating mechanism, are first found in China around the 2nd century, and then in Europe around the 12th century. Spinning wheels use treadles but also use belt drive and multiple subsystems that run at different speeds.</p>
-<p>Ultimately these increasingly sophisticated mechanisms enabled mechanical clocks, which involved many mechanisms rotating at different rates. Water clocks had been an improvement over sundials but had many shortcomings. For example, they didn’t operate in freezing temperatures.</p>
-<p>Was there a gravity-based alternative to water clocks? A trebuchet-like idea was used and eventually culminated in mechanical clocks in the 14th century. These clocks were extremely elaborate, less functional and more status symbols and statements.</p>
-<blockquote>
-<p>Giovanni's clock was only incidentally a timepiece. It included the celestial wanderings of sun, moon, and five planets. And provided a perpetual calendar of all religious feasts, both fixed and movable.</p>
-</blockquote>
-<p>Wrist watches were even trickier since they relied on springs which uncoiled and provided variable force during their uncoiling. These led to the <a href="https://www.youtube.com/watch?v=BoeP0adbDKg">escapement</a> mechanism, and the <a href="https://youtu.be/cpVkTSZrg_A?t=100">fusee</a>, both impressively complex mechanisms:</p>
-<blockquote>
-<p>Perhaps no problem in mechanics has ever been solved so simply and so perfectly - Gawaine Baillie</p>
-</blockquote>
-<p>It’s funny how underrated this time is from tech perspective, at least in the popular imagination. To me it feels like a veritable industrial revolution.</p>
-<blockquote>
-<p>Indeed, the four centuries following Leonardo, that is, until electrical energy demanded a supplementary set of devices, were less technologically engaged in discovering basic principles than in elaborating and refining those established during the four centuries before Leonardo.</p>
-</blockquote>
-<h1>Perpetual motion</h1>
-<p>All of these mechanical inventions were inspired by the ideal of a perpetual motion machine. This was not so outlandish pre-thermodynamics, given that windmills and water mills appeared to be moving perpetually. Perpetual motion through Gravity and magnetism became the holy grail.</p>
-<p>Roger Bacon c. 1260 imagined:</p>
-<blockquote>
-<p>Machines may be made by which the largest ships, with only one man steering them, will be moved faster than if they were filled with rowers; wagons may be built which will move with incredible speed and without the aid of beasts; flying machines can be constructed in which a man... may beat the air with wings like a bird... machines will make it possible to go to the bottom of seas and rivers</p>
-</blockquote>
-<p>Asides:</p>
-<ul>
-<li>I wondered if король comes from Carolingian. Nope, it comes from Charlemagne. That said, apparently "Carolingian" and in fact Charlemagne are both named after Charles Martel. In turn, Charles is a name from the common Germanic noun meaning "man". Go figure...</li>
-<li>Lots of references to Bayeux tapestry. It's <a href="https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/">available online...</a></li>
-</ul>
 
         
       </div>
