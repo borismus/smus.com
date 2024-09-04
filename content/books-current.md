@@ -4,6 +4,128 @@ class: split
 type: book
 
 
+Entangled Life by Martin Sheldrake
+===
+posted: Aug 28, 2024
+rating: yes
+cover: /assets/book-covers/entangled-life.jpg
+
+Entangled Life is about the world of fungi, especially focused on the symbiosis between mushrooms and plants, called mycorrhiza. This symbiosis is achieved through the entanglement of plant roots and fungal mycelia. Mycelia are underground networks built out of hyphae, thin and long strands of fungal material. Hypha branch and grow and connect with other fungi and plants. In most fungi, hyphae are the main mode of vegetative growth. The part that lives underground is collectively called a mycelium.
+
+**Aside on mushrooms**. The most charismatic fungi are the edible mushrooms. They are sometimes beautiful, delicious and/or healthy. However, the mushroom is just the tip of the fungal iceberg. More accurately, it is the fruiting body, used as a mechanism to ultimately release spores. Incidentally, Mushrooms are built out of the same intertwined hyphae as mycelium, but present as a single entity. Most of the action and growth happens underneath in the mushroom's mycelial network.
+
+Mushrooms are just one type of fungus. In general, fungi are extremely variable in phenotype, from microscopic to the largest living organisms.
+
+**Fungal impact**. Throughout the book, Sheldrake sings praises to the many ways in which fungi have made a huge impact on the world in ways that are easily recognizable in everyday life:
+
+- Edible mushrooms, are delicious and some are extremely valuable (e.g. Truffles)
+- Psychedelic mushrooms lead people to intense states of mind
+- Bread and beer are due to yeast, microscopic fungi consisting of solitary cells which incidentally don't have hyphae.
+- Slightly rotten fruits: at some point our primate ancestors evolved resistance to alcohol which was previously poisonous. This unlocked a whole new source of food: fermenting fruit, which was shunned by many other animals. This also potentially explains why humans love booze, colloquially known as the [drunken monkey hypothesis](https://en.wikipedia.org/wiki/Drunken_monkey_hypothesis).
+- Many eastern and western medicines are based on fungi. [Penecillin](https://invention.cards/penicillin) was first discovered by Alexander Fleming in 1928 when a strange mold was found to have antibacterial properties. A more modern example, the discovery of statins in a mold called Penicillium citrinum was a huge boon and made Merck lots of money.
+
+**Fungal sensing** Fungi actively sense and attract one another. They know themselves from other organisms, despite having a very wide-ranging fungal network. Some species can sense and attract worms.
+
+**Fungal reproduction** happens through sexual reproduction, but rather than having two sexes, there are thousands. The main point is that just like with humans, you need different sexes to make offspring. It seems like the main goal is to avoid self-insemination which would decrease genetic diversity. More on this on [Wikipedia](https://en.m.wikipedia.org/wiki/Schizophyllum_commune).
+
+**Contrast with charismatic megafauna**. The most charismatic of all life are the charismatic megafauna. Next are other animals. Then it’s tall trees. Then a bunch of minor animals and plants you rarely think about. Then the cute insects, like butterflies and ladybugs. Mushrooms might be next. Fungi even further down the line. (See [[Charismatic mega-fauna and repugnant mini-flora]])
+
+### New lenses
+
+**Magic shows are curiosity pumps**. After a magic show, you see the world differently. No longer do you see what you expect. Instead, you look with fresh eyes, a blank slate without preconception of what the world should be like. As one ages, the default is to experience this less and less. But I think books like this one help bring that sense of awe and wonder back to people.
+
+**Boundaries between individuals and ecosystems**: I'm fascinated by the boundary when an individual becomes an ecosystem. For example, a human can be viewed as an individual even though biologically we depend on many microorganisms, some which are fungi. There is also groups of people, and much of our societies are based on the successes of group activities.
+
+**Everything alive is not a thing but a process**. This lens is generative, interesting and very deep. William Bateson, who coined the word genetics, observed, 'We commonly think of animals and plants as matter, but they are really systems through which matter is continually passing.' (See [[Objects as processes. Verbs as nouns]] and [[Energy flows, but matter cycles]])
+
+**Extended phenotype**: Interesting idea about the extended phenotype. Beaver dams under this definition are part of their expressive phenotype. This idea is due to Dawkins.
+
+**Horizontal gene transfer**: Recent major advances in biology are due to horizontal gene transfer through symbiotic-like processes. Horizontal gene transfer is so fascinating. This is the main way bacterial individuals acquire genes. The transfer happens across domains and kingdoms. Also see Lynn Margulis' endosymbiotic theory.
+
+### Crazy fungal examples
+
+**Zombie fungus** Such a crazy situation with the ant and the fungus that takes control over this animal. Related to the ergot fungi. These things are called [Zombie-ant fungus](https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis).  Another bizarre and lucrative fungi, [[Caterpillar fungus]]. Is that another zombie fungus?
+
+Crazy to think about, but an infected ant is a fungus in ant's clothing. This is a much more dramatic transformation than the one that people have when they have some gut microbio him dysfunction.
+
+**Magic mushrooms**: Default mode network (DMN) is the thing that is suppressed by psilocybin. This enables a bunch of new neuronal connections all around.
+
+Terence McKenna thought that if you took a large enough dose for mushrooms you could feel like the mushroom is acting through you in the same way that the anti-fungus essentially controls the end fully.
+
+It’s unclear whether psilocybin is a poison or an appealing thing for animals.
+
+**Truffles** grow completely underground. They are visually unattractive it completely makes up for it with their smells, which are strong enough to pass through soil!
+
+
+### Mycorrhizal networks
+The plant-fungi relationship with mycorrhiza is mostly symbiotic & mutualist but sometimes parasitic. Mycorrhiza also help plants survive, droughts and provide other minerals like nitrogen. And further make arousal net work the plant is able to provide some large percentage of its carbon, something like 30%. Together this world of mycorrhiza forms a rhizosphere. (See [[Mature and immature biosphere noosphere technosphere]])
+
+Mycorrhizal fungi act as a mediator and buffer between plants in a forest ecosystem. They can break down rocks and dense soils that plants cant and provide minerals. And they need carbon from plants. So they act as brokers on a trading floor.
+
+Unlike most plants, Voyria and other [myco-heterotrophs](https://en.wikipedia.org/wiki/Myco-heterotrophy) do not contain chlorophyll and get their food through parasitism upon fungi rather than photosynthesis. Their roots are thick and densely clustered, forming a "birds nest" that house their fungus host.
+
+90% of plants depend on mycorrhizal networks. Historically, these mycorrhizal networks enabled algae to become able to live on land.
+
+If you take out all the mycorrhizal networks and leave them at length you get something that is like greater than the diameter of the known universe. On one hand this is impressive, but on the other a meaningless comparison. A more relevant factoid is that if you create a 2D woven fabric out of all mycorrhizal roots, you can envelop the earth twice.
+
+**Intersection with modern farming practices** has been pretty detrimental to mycorrhizal fungi because of a combination of deep plowing and chemical pesticide use. An analogy from medicine: when you take antibiotics, you obliterate the Microbiome of your body, destroying all micro organisms, both the ones causing the disease, and the ones that are beneficial. The result is less diverse life in general, as well as the impoverishment of the soil. No mycorizal networks means there’s no breakdown of rocks and minerals remain locked up. This all rhymes with other pitfalls of high modernism (see [[The Authoritarian High-Modernist Recipe for Failure]]).
+
+**The wood wide web** is a fun name for the rhizosphere network. It features are a clear set of carbon sources and sinks. Large trees have priveleged access to the sun, so can photosynthesize really well, producing tons of carbon. They can then feed excess carbon to smaller trees.
+
+Sometimes young plants start out as carbon sinks and grow into carbon sources later. This is the case for Orchids, for example.
+
+But why would this happen? Evolutionarily it doesn’t make sense. What's the benefit for the plant to give fungus carbon so that it gives it to neighbor? This entire perspective is overly Tree centric.
+
+In the wood wide web metaphor, trees are routers and mycorizal connections are cables. But this is misleading. On the internet, connections between routers are just wires, entirely passive. In the forest, the connections are fungal, and fungi have agency. They can decide who to give from and who to take from, and how much.
+
+Rather than taking a tree-centric view, let's flip this graph of edges and vertices around (see [Line graph](https://en.wikipedia.org/wiki/Line_graph)). A fungi-centric view of this explains a lot. A fungi benefits if it exists in a diverse ecosystem and will do what it must to achieve those ends. But this is just one of many framings. Sheldrake is great at lensical thinking:
+
+> How best to think about shared mycorrhizal networks then? Are we dealing with a superorganism? A metropolis? [...] Nursery schools for trees? Socialism in the soil? Deregulated markets of late capitalism, with fungi jostling on the trading floor of a forest stock exchange? Or maybe it’s fungal feudalism, with mycorrhizal overlords presiding over the lives of their plant laborers for their own ultimate benefit. (190–91)
+
+### Lichens are hybrid organisms
+A lichen is an organism that is a combination of fungus and algae.
+
+Any fungi and algae tend to symbioses spontaneously. When this happens, fungi partner with algae for the purpose of photosynthesis symbiosis.
+
+Lichen can dehydrate themselves and go dormant. And rehydrate after months. Or in extreme cases years.
+
+Toby Spribille found recently that lichen can be way more complex than a single symbiosis between algae and fungi. He found the presence of yeast cells as an additional fungal component of some lichens.
+
+
+### Evolution of fungi and plants from 1500 ma to 290 ma
+
+(A lot of this is my piecing together things from this book alongside other articles. I hope I got it right — ish? It's really fascinating...)
+
+**Landed plants.** Fungi diverged from other life around 1500 ma, and were some of the first complex life forms on land, mining rocks for mineral nourishment, slowly turning them into what would become soil. Then by the Ordovician era, about 450 ma, they began forming symbiotic relationship with liverworts, the earliest plants. Fungi had helped to create land-dwelling plants
+
+**Evolution of trees**. Plants gained a new adaptation: they began to create wood out of cellulose and lignin. This led to a huge reduction of CO2 in the atmosphere since all of that carbon was now needed to create gigantic trees. This led to a giant temperature decrease and an instability in the environment. This all happened around the Devonian period, about 350 ma.
+
+**Stockpiling wood.** The proliferation of large trees led to a giant stockpile of dead trees which simply grew over many millions of years. Without any mechanism for breaking down this vast amount of wood, it simply accumulated and compressed, and became responsible for a large amount of the coal humanity benefits from today.
+
+**Evolution of wood decomposers.** By the Carboniferous period, about 290 ma, some fungi evolved to process lignin and then feast on the delicious cellulose hidden within these dead trees. Much of the tree mass accumulated during the Devonian period had become inaccessible, buried under sediment due to erosion. However, newly dead trees were now being munched on by these hungry fungi (white rot). Decomposition was in full swing.
+
+Interestingly, fungal decomposition of plants is by far a larger source of carbon dioxide emissions into the atmosphere than anything human caused. By an order of magnitude?
+
+### Random tidbits
+- [Cedar Enzyme Baths](https://www.osmosis.com/cedar-enzyme-bath/) are a thing that can be experienced in Japan and in California.
+
+> 	In its contemporary form, the Cedar Enzyme Bath received international attention in 1972 when it was offered at the Olympic Games in Sapporo, Japan as an opportunity for athletes to quickly recover from the stress of exertion.  Over the past half century, many parts of Japan have adopted it, often in clinical environments that promote its therapeutic benefits.
+
+- Look into Peter Kropotkin's "Mutual Aid" written in 1903. He was a Russian and then Soviet anarchist who challenged the "everything is competition" narrative popularized by Darwin.
+- Look into Kevin Beiler [map](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8137.2009.03069.x) of 30 x 30 m in British Columbia where he tracks in the connections between Douglas Fir through various kinds of mycorrhizal networks
+- [[Flatworms can regrow new brains and transfer memories to them]]. Shocking.
+- Who knew I'd be discovering this amazing Tom Waits song: [[Tom Waits - Green Grass]], which I really like!
+
+### Organizations and companies
+- Peter McCoy seems to be very busy online. [Mycologos](https://mycologos.world/pages/school) teaches fungi-focused skills though online and hands-on courses. Radical mycology hosts events, e.g. Rad Myco 7 - Sept. 26-29 @ Mulino, OR.
+- [Ecovative](https://www.ecovative.com/) subtitled "Mycelium Technology" makes a variety of products out of mycelium, from food to foam to leather to the packaging these items ship in.
+
+### Random musings
+- Why do so few mushrooms or fungi live underwater?
+- How quickly would you die if all fungi became extinct? What would you die from?
+
+
+
 Blindsight by Peter Watts
 ===
 posted: August 1, 2024
