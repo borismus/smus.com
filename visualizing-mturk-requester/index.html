@@ -67,6 +67,7 @@ Fortunately, I've always been <em>theoretically</em> interested in data
 visualization, so I was happy to have a solid excuse to explore the
 subject. All I needed was a sufficiently rich data set, mad skills and a
 bit of inspiration.</p>
+
 <p>Lately, I've been pretty excited about squeezing some new potential out
 of Mechanical Turk. Part of my research involves finding patterns in
 Mechanical Turk requester strategies. A few weeks ago, I began gathering
@@ -74,6 +75,7 @@ data with a <a href="/visualizing-mturk-requester/turk-visualizer/turkviz_scrape
 about every HIT group and stores it in a sqlite3 database. This is quite
 an interesting data set, so I pounced on the opportunity to visualize
 it, killing two birds with one stone.</p>
+
 <p>Due to lack of time, I decided to skip most of the 
 <a href="http://www.amazon.com/Visual-Display-Quantitative-Information/dp/096139210X">visualization literature</a>. Instead, I found a great 
 <a href="http://www.visualcomplexity.com/vc/">visualization project database</a> and started writing simple examples
@@ -85,7 +87,9 @@ bubble chart. I had no specific visualization in mind, so my vague goal
 was to be able to visualize data in <a href="http://www.gapminder.org/">Hans Rosling</a>'s favorite
 five-dimensional (x, y, size, color, time) graph. Making this graph
 animate, however, proved to be quite difficult.</p>
-<p><img alt="image" src="raphael.jpg" /> </p>
+
+<p><img src="/visualizing-mturk-requester/raphael.jpg" alt="image" /> </p>
+
 <p>I turned to
 the internet for help, and Itai Raz <a href="http://www.youtube.com/watch?v=guhdYoPY3kM">explained to me</a> in his thick
 Israeli accent that the Google Visualization API is pretty sweet.
@@ -95,6 +99,7 @@ export data in the format that the visualization framework consumes.
 Thus my problem was greatly reduced to one of analyzing and uploading
 data to a Google Spreadsheet. Turns out that this too is quite easy
 using the python <a href="http://code.google.com/p/gdata-python-client/">GData framework</a>.</p>
+
 <p>I decided to visualize differences between requester strategies on
 Mechanical Turk. Every time I scrape, I generate a Average Reward (x),
 Average Allotted Time (y), Total Number of Hits (size) graph for the top
@@ -106,6 +111,9 @@ from the data since it's irrelevant to this largely technical discussion
 about visualization technologies. I'll soon get my hands on the data I'm
 expecting and create a custom visualization for it with the Google
 Visualization API. Stay chooned!</p>
+
+<p>[]: turk-visualizer/</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

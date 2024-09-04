@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:         Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
+  <meta name="description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:           Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/spatial-audio-web-vr/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Spatial audio and web VR" />
-  <meta name="twitter:description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:         Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
+  <meta name="twitter:description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:           Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/spatial-audio-web-vr/" />
   <meta property="og:title" content="Spatial audio and web VR" />
-  <meta property="og:description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:         Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
+  <meta property="og:description" content="Last summer I visited Austria, the capital of classical music. I had the pleasure of hearing the  Vespers of 1610  in the great  Salzburger Dom (photosphere) . The most memorable part of the piece was that the soloists moved between movements, so their voices and instruments emanated from surprising parts of the great hall. Inspired, I returned to the west coast and eventually came around to building a spatial audio prototypes like this one:           Spatial audio is an important part of any good VR experience, since the more senses we simulate, the more compelling it feels to our sense fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs to enable this necessary experience. As you would expect, because it uses the  WebVR boilerplate , this demo can be viewed on mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will need headphones :)" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -66,7 +66,9 @@ the piece was that the soloists moved between movements, so their voices
 and instruments emanated from surprising parts of the great hall.
 Inspired, I returned to the west coast and eventually came around to
 building a spatial audio prototypes like this one:</p>
-<p><a href="http://borismus.github.io/moving-music"><img alt="Screenshot of a demo" src="collage_small.jpg" /></a></p>
+
+<p><a href="http://borismus.github.io/moving-music"><img src="/spatial-audio-web-vr/collage_small.jpg" alt="Screenshot of a demo" /></a></p>
+
 <p>Spatial audio is an important part of any good VR experience, since the
 more senses we simulate, the more compelling it feels to our sense
 fusing mind. WebVR, WebGL, and WebAudio all act as complementary specs
@@ -74,9 +76,11 @@ to enable this necessary experience. As you would expect, because it
 uses the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a>, this demo can be viewed on
 mobile, desktop, in Cardboard or an Oculus Rift. In all cases, you will
 need headphones :)</p>
+
 <!--more-->
 
 <h2>Early spatial music</h2>
+
 <p>One of the things that made my acoustic experience in the Salzburg Dom
 so memorable was the beauty of the space in which it was performed. The
 potential for awesome sound was staggering, with one massive organ at
@@ -89,12 +93,15 @@ cloister, sounding distant and muffled. Other times, it would come from
 the balcony behind the audience, full of unexpected reverb. It was a
 truly unique acoustic experience that I will never forget, and it made
 me wonder about the role of space in music.</p>
+
 <p>As it turns out, there is a rich history on the <a href="http://en.wikipedia.org/wiki/Spatial_music">topic of spatialization
 in music</a> going back to the 16th century. For the
 purposes of this blog, I am more interested in the present day. In
 particular, given the <a href="http://www.w3.org/TR/webaudio/">excellent state of audio APIs</a> on the
 web, what follows is a foray into spatial audio with WebVR.</p>
+
 <h2>Experiments in spatial audio</h2>
+
 <p>How does music sound if in addition to pitch, rhythm and timbre, we
 could tweak position and velocity as additional expressive dimension?
 My demo places you into a virtual listening space, that you look
@@ -104,29 +111,36 @@ keyboard, mobile phone gyroscope, or cardboard-like device) -- thanks to
 particles. These animate according to the instantaneous amplitude of the
 track, serving as a per-track visualizer and indicating where the track
 is in space.</p>
+
 <p>There is a surprising amount of multi-track music out there, such as
 <a href="http://www.cambridge-mt.com/ms-mtk.htm">Cambridge Music Technology's raw recordings archive</a> for aspiring
 audio engineers and <a href="https://soundcloud.com/search/sets?q=stems">soundcloud stems</a> which are typically
 recorded separately in a studio and then released publicly for <a href="http://www.remixcomps.com/">remix
 contests</a>. In the end, I went with a few different sets just to
 get a feeling for spatializing a variety of tracks:</p>
+
 <ul>
 <li>Multiple people <a href="http://borismus.github.io/moving-music/?set=speech">speaking (demo)</a> simultaneously (the <a href="http://en.wikipedia.org/wiki/Cocktail_party_effect">cocktail party effect</a>).</li>
 <li>Multi-track <a href="http://borismus.github.io/moving-music/?set=jazz">live (demo)</a> recording with many mic'ed instruments.</li>
 <li>Multi-track <a href="http://borismus.github.io/moving-music/?set=phoenix">studio recording (demo)</a> with cleanly recorded tracks (A <a href="http://en.wikipedia.org/wiki/Phoenix_%28band%29">Phoenix</a> track).</li>
 </ul>
+
 <p>In addition to selecting the sounds to spatialize, the demo supports
 laying out the tracks in various formations. To cycle between these
 modes, hit space on desktop, or tap the screen on mobile:</p>
+
 <ul>
 <li>Sources are <a href="http://borismus.github.io/moving-music/?mode=0">clumped together (demo)</a> in one place.</li>
 <li>Sources are <a href="http://borismus.github.io/moving-music/?mode=1">positioned around the observer (demo)</a>.</li>
 <li>Sources are <a href="http://borismus.github.io/moving-music/?mode=2">moving around the observer (demo)</a>.</li>
 </ul>
+
 <p>Given that the code is <a href="https://github.com/borismus/moving-music">open sourced on github</a>, it's pretty
 easy to try your own tracks, implement new trajectories or change the
 visualizer. Please fork away!</p>
+
 <h2>Implementation details</h2>
+
 <p>In an attempt to eat my own dogfood, this project partly serves as a way
 to test the <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> to make sure that
 it is usable, and provides the functionality that it purports to. I've
@@ -136,6 +150,7 @@ inception include the ability to mouselook via <a href="http://www.html5rocks.co
 lock</a> in regular desktop mode and improved support for iOS
 and Firefox nightly. Thanks to <a href="http://www.antoniocosta.eu/">Antonio</a>, my awesome designer
 colleague, the WebVR boilerplate has a new icon!</p>
+
 <p>This project relies heavily on audio, but requires the page to be
 running in the foreground for you to enjoy the immersive nature of the
 experience. Browsers, especially on mobile devices, can have some weird
@@ -145,6 +160,7 @@ visibility API</a> to mute the music when the tab goes out of
 focus, and then resume it when it's back in focus. This works super well
 across browsers I've tested in and prevents the page-hunt where you're
 trying to find which annoying tab/activity/app is playing!</p>
+
 <p>I toyed a little bit with the doppler effect, but found it to be
 terrible for music. Because in the moving case, each track moves with
 its own velocity relative to the viewer, frequency shifts are
@@ -152,29 +168,35 @@ non-uniform, leading to a cacophany of out-of-tune instruments. For
 spoken word, it worked quite well, though. The caveat to all this is that the
 current <a href="http://crbug.com/439644">doppler API is deprecated</a>, so I
 didn't delve too deeply into doppler until we have a new implementation.</p>
+
 <h2>Pitfalls and workarounds</h2>
+
 <p><strong>Set your listener's up vector properly.</strong> Something you should beware
 of is to always set the up vector correctly in the
 <code>listener.setOrientation(...)</code> call. Initially, I was only setting the
 direction vector, keeping up fixed at <code>(0, 1, 0)</code>, but this yielded
 unpredictable results and took a long time to track down.</p>
+
 <p><strong>Streaming is broken in mobile implementations.</strong> A couple of issues
 related to loading audio bit me as I was developing, proving to be
 nearly show stoppers (please star if you feel strongly):</p>
+
 <ul>
 <li>Streaming audio doesn't work on Android (or iOS). This means that
-  every track we play needs to be first loaded, and then decoded:
-  <a href="http://crbug.com/419446">http://crbug.com/419446</a></li>
+every track we play needs to be first loaded, and then decoded:
+<a href="http://crbug.com/419446">http://crbug.com/419446</a></li>
 <li>Decoding mp3 on Android takes a very very long time (same in Firefox):
-  <a href="http://crbug.com/232973">http://crbug.com/232973</a></li>
+<a href="http://crbug.com/232973">http://crbug.com/232973</a></li>
 <li>Though it doesn't directly affect my spatial sound experiments, the
-  inability to bring in remote WebRTC audio streams into the audio graph
-  is blocking other ideas: <a href="https://crbug.com/121673">https://crbug.com/121673</a></li>
+inability to bring in remote WebRTC audio streams into the audio graph
+is blocking other ideas: <a href="https://crbug.com/121673">https://crbug.com/121673</a></li>
 </ul>
+
 <p>I tried to work around the streaming issue by doing my own chunking
 locally and then writing a <code>ChunkedAudioPlayer</code>, but this is harder than
 it seems, especially when you want to synchronize multiple chunked
 tracks.</p>
+
 <p><strong>Beware of implementation differences.</strong> It's also worth noting that
 different browsers have slightly different behaviors when it comes to
 PannerNodes. In particular, Firefox spatialization can appear to sound
@@ -182,13 +204,16 @@ better, but this is simply because it's louder (the same effect can be
 replicated in Chrome by just increasing gain). Also, on iOS, it seems
 that the spatialization effect is weaker -- potentially because they are
 using a different HRTF, or maybe they are just panning.</p>
+
 <p><strong>Spatialization effect can be subtle.</strong> I found that there wasn't
 enough oomph to the effect provided by WebAudio's HRTF. Perhaps it is
 acoustically correct, but it just wasn't obvious or compelling enough as
 is. I had to fudge the situation slightly, and implement a sound cone
 for the observer, so that sources that are within the field of view got
 a slight gain boost.</p>
+
 <h2>Parting words and links</h2>
+
 <p><a href="http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/errors_hr97.pdf">The nature and distribution of errors in sound localization</a>
 is a seminal paper from 1997, giving a thorough psychoacoustic analysis
 on our hearing limits. In this web audio context, however, it is unclear
@@ -199,17 +224,20 @@ probably need a personalized HRTF, and also a more sophisticated room
 model that could simulate reflections from the walls of the building.
 This is concievable on the web in the near future, especially with the
 prospect of the <a href="https://plus.sandbox.google.com/+ChrisWilson/posts/QapzKucPp6Y">highly anticipated</a> <a href="http://webaudio.github.io/web-audio-api/#audio-worker-examples">AudioWorker</a>.</p>
+
 <p>Let me conclude by linking you to a couple more spatial audio demos:</p>
+
 <ul>
 <li>Ilmari wrote an <a href="http://www.html5rocks.com/en/tutorials/webaudio/positional_audio/">html5rocks post</a> a while back about three.js
-  and the Web Audio API.</li>
+and the Web Audio API.</li>
 <li>Mozilla built the <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/">Songs of Diridum demo</a>, showing a cute
-  spatialized jazz band.</li>
+spatialized jazz band.</li>
 <li>Arturo recently emailed me, showing me a <a href="http://inspirit.unboring.net/">pretty compelling WebVR +
-  Audio project</a>, in the spirit of WebVR.</li>
+Audio project</a>, in the spirit of WebVR.</li>
 <li>Not web-based, but a painstakingly recorded and tweaked <a href="https://www.youtube.com/watch?v=IUDTlvagjJA">binaural
-  haircut simulation</a> just to illustrate the potential.</li>
+haircut simulation</a> just to illustrate the potential.</li>
 </ul>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

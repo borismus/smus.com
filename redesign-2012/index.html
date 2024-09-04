@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,     PT Sans is based on Russian sans serif types of the second part of the 20th century, but at the same time has distinctive features of contemporary humanistic designs.     Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
+  <meta name="description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,        PT Sans is based on Russian sans serif types of the second part of the   20th century, but at the same time has distinctive features of   contemporary humanistic designs.      Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/redesign-2012/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="New design" />
-  <meta name="twitter:description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,     PT Sans is based on Russian sans serif types of the second part of the 20th century, but at the same time has distinctive features of contemporary humanistic designs.     Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
+  <meta name="twitter:description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,        PT Sans is based on Russian sans serif types of the second part of the   20th century, but at the same time has distinctive features of   contemporary humanistic designs.      Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/redesign-2012/" />
   <meta property="og:title" content="New design" />
-  <meta property="og:description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,     PT Sans is based on Russian sans serif types of the second part of the 20th century, but at the same time has distinctive features of contemporary humanistic designs.     Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
+  <meta property="og:description" content="I re-designed this site using the  PT Sans font , aiming for appealing typography for optimal readability. Interestingly,        PT Sans is based on Russian sans serif types of the second part of the   20th century, but at the same time has distinctive features of   contemporary humanistic designs.      Since visitors are increasingly coming from a variety of devices, I also created three variants of the site for small, medium and large screens via media queries:" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -61,36 +61,46 @@
     <div class='body'>
       <p>I re-designed this site using the <a href="http://www.google.com/webfonts/specimen/PT+Sans">PT Sans font</a>, aiming for
 appealing typography for optimal readability. Interestingly,</p>
+
 <blockquote>
-<p>PT Sans is based on Russian sans serif types of the second part of the
-20th century, but at the same time has distinctive features of
-contemporary humanistic designs.</p>
+  <p>PT Sans is based on Russian sans serif types of the second part of the
+  20th century, but at the same time has distinctive features of
+  contemporary humanistic designs.</p>
 </blockquote>
+
 <p>Since visitors are increasingly coming from a variety of devices, I also
 created three variants of the site for small, medium and large screens
 via media queries:</p>
+
 <!--more-->
 
 <pre><code>@media screen and (max-width: $small) {/* small */}
 @media screen and (min-width: $small) and (max-width: $large) {/* medium */}
 @media screen and (min-width: $large) {/* large */}
 </code></pre>
+
 <p>Note that the above is valid <a href="http://sass-lang.com/">SCSS</a> (as of version 3.2)! To try it out,
 you may need to install the prerelease via <code>gem install sass --pre</code>.</p>
+
 <p>As usual, the layout of this site is largely inspired by designers far
 more skilled than I, including: <a href="http://viljamis.com/">http://viljamis.com/</a> and
 <a href="http://www.markboulton.co.uk/">http://www.markboulton.co.uk/</a>.</p>
+
 <h2>New engine</h2>
+
 <p>This blog can now also double as a micro blog, where I can easily <a href="/archive/links">post
 links</a> in a social network-agnostic way. Similarly, it now hosts
 <a href="/archive/talks">all of my talks</a>, which used to live on
 <a href="http://smustalks.appspot.com">http://smustalks.appspot.com</a>. It's also a lot easier for me to create
 new posts.</p>
+
 <p>All of these structural changes are largely due to me building a
 completely new static site generator which addresses a lot of my pains
 using other static generators. I'll write a separate article about this
 engine when I'm ready to release it to the public.</p>
+
 <h2>No more comments</h2>
+
 <p>Since the start of this blog, I've struggled with the concept of
 comments on my site and in on blogs in general. Even with services like
 disqus, which try to integrate your blog commentator personality into
@@ -98,47 +108,63 @@ one place, I feel that in practice, commenting on the web is very hard
 to keep in one place, and the most interesting discussions end up
 distributed in many pockets such as Hacker News, twitter, etc. Having
 the in-blog comments as well only makes things messier.</p>
+
 <p>Other problems include:</p>
+
 <ul>
 <li>Leaving a comment right after reading content encourages unconsidered
-  responses, since readers haven't had time to process the content.</li>
+responses, since readers haven't had time to process the content.</li>
 <li>Lately my blog has been generating a lot of spam comments that I need
-  to moderate. I don't have time for that.</li>
+to moderate. I don't have time for that.</li>
 <li>People tend to ask for technical support in the comments, which adds
-  very little value for other readers.</li>
+very little value for other readers.</li>
 <li>Disqus slows down page load time, and presents a UI that's not easily
-  skinnable.</li>
+skinnable.</li>
 </ul>
+
 <p>For a more in-depth analysis about blog comments, see Matt Gemmell's
 thorough post <a href="http://mattgemmell.com/2011/11/29/comments-off/">on this subject</a>.</p>
+
 <p>I've disabled comments on all posts. That said, I still want to hear
 your ideas and feedback, and engage in discussion around topics I'm
 obviously interested in (enough to write about!)</p>
+
 <h2>Evolving designs</h2>
+
 <p>This is the fourth iteration of my blog's design. I apparently do a
 re-design every year, since I started in 2008.</p>
+
 <style>
 article img { border: 1px solid gray; }
 </style>
 
-<p><img alt="original un-design" src="v1.png" /></p>
+<p><img src="/redesign-2012/v1.png" alt="original un-design" /></p>
+
 <p>This version was a small modification done to an existing wordpress
 theme.</p>
-<p><img alt="first iteration" src="v2.png" /></p>
+
+<p><img src="/redesign-2012/v2.png" alt="first iteration" /></p>
+
 <p>I really liked this version for a long time, since it was so clean and
 minimal. Unfortunately the header took way too much space, and the
 typography left something to be desired.</p>
-<p><img alt="second iteration" src="v3.png" /></p>
+
+<p><img src="/redesign-2012/v3.png" alt="second iteration" /></p>
+
 <p>This was the first "responsive" version. It had too many gimmicky,
 non-standard design elements.</p>
-<p><img alt="current iteration" src="v4.png" /></p>
+
+<p><img src="/redesign-2012/v4.png" alt="current iteration" /></p>
+
 <p>I'm reasonably happy with the current version, especially the typography
 in the main body.</p>
+
 <p>And strangely excited about the engine that powers this blog too
 (codenamed <em>Lightning</em>, which generates a lot of static, and is also
 very fast! Ha, get it?). Once released, I will write another meta-blog
 post about it. For now, though, I wrote a bit about Lightning
 <a href="/site">here</a>.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -67,6 +67,7 @@ interesting, like diagonal lines, or polygons. There are currently two
 relatively well-supported web graphics technologies: SVG and Canvas. There are
 significant performance differences, however, which I would like to discuss in
 this article. </p>
+
 <p><a href="http://en.wikipedia.org/wiki/Svg">Scalable Vector Graphics</a> (SVG) is by far the oldest of the two. It is a
 declarative, graphical language used to describe geometrical primitives via DOM
 elements. SVG was drafted in the late 90s, and the latest version of 
@@ -78,6 +79,7 @@ introduced as a much simpler alternative to graphics on the web. It provides an
 image-like graphics context which can be accessed via a set of javascript
 calls, similar to a 2D subset of OpenGL. It was originally introduced by Apple
 in WebKit builds, but is now supported in Mozilla Firefox as well. </p>
+
 <p>I produced some metrics to compare the two technologies in terms of performance
 by writing a Javascript program for <a href="/canvas-vs-svg-performance/canvas-svg-benchmark/">collecting performance data</a>. This
 program draws rows of circles onto a fixed-size drawing area in SVG and in
@@ -87,7 +89,9 @@ clear the scene. A test runner invokes the benchmark with the following
 variables: number of circles, drawing area dimensions and circle size. Each of
 these variables are varied independantly and automatically resulting in the
 following observations: </p>
-<p><img alt="Varying the number of objects" src="varying-number-of-objects.png" /> </p>
+
+<p><img src="/canvas-vs-svg-performance/varying-number-of-objects.png" alt="Varying the number of objects" /> </p>
+
 <p>Here are the results of the first fruitful experiment, which clearly shows that
 SVG performance degrades quickly (exponentially on Safari?) in the number of
 objects, but Canvas performance remains at a near-constant low. This makes
@@ -95,24 +99,30 @@ sense, since Canvas is just a bitmap buffer, while SVG has to maintain
 additional references to each object that it renders. Also, though not
 pictured, note that performance in clearing an SVG element also decreases in
 the number of drawn objects. </p>
-<p><img alt="Varying drawing area height" src="varying-drawing-area-height.png" /> </p>
+
+<p><img src="/canvas-vs-svg-performance/varying-drawing-area-height.png" alt="Varying drawing area height" /> </p>
+
 <p>When varying the size of the drawing area, canvas performance degrades
 significantly, while SVG performance is completely unaffected.  Canvas
 rendering performance seems to degrade linearly in the number of pixels in the
 canvas area. Not pictured on the graph is clear performance for large canvases,
 which also suffers linearly in pixel count.</p>
+
 <p>I did not include the graph resulting from varying circle size as it had no
 significant impact on render time. Another interesting observation is that
 creating the canvas element takes a mysterious 10 ms on Firefox, but not on
 Safari. This is not significant unless you are dealing with large numbers of
 canvas elements.</p>
+
 <p>Whether or not you use Canvas or SVG mostly depends on your specific
 application. A graphics-intensive game, where many objects are redrawn all the
 time is probably best implemented in Canvas. On the other hand, applications
 like map viewers may involve large rendering areas and might lend themselves
 better to SVG.</p>
+
 <p>As always, please comment if something is unclear, inconsistent, boring or
 omitted. Thanks!</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

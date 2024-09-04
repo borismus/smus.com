@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:    Serve the optimal image to the device.    Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.   Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:    &lt;img src="img.jpg"/&gt;" />
+  <meta name="description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:     Serve the optimal image to the device.     Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.    Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:     &lt;img src="img.jpg"/&gt;" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/responsive-image-workflow/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Responsive image workflow" />
-  <meta name="twitter:description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:    Serve the optimal image to the device.    Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.   Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:    &lt;img src="img.jpg"/&gt;" />
+  <meta name="twitter:description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:     Serve the optimal image to the device.     Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.    Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:     &lt;img src="img.jpg"/&gt;" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/responsive-image-workflow/" />
   <meta property="og:title" content="Responsive image workflow" />
-  <meta property="og:description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:    Serve the optimal image to the device.    Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.   Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:    &lt;img src="img.jpg"/&gt;" />
+  <meta property="og:description" content="About a year ago, I wrote an overview of many of the different  responsive image approaches  in an HTML5Rocks article, all of which try to solve the fundamental problem:     Serve the optimal image to the device.     Sounds simple, but the devil's in the details. For the purposes of this here discussion, I will focus on optimal image size and fidelity, and much to your chagrin, will completely ignore the art direction component of the problem.    Even for tackling screen density, a lot of the solutions out there involve a lot of extra work for web developers. I'll go into two solutions (client and server side) on the horizon that serve the right density images. In both cases, all you need to do is:     &lt;img src="img.jpg"/&gt;" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -62,47 +62,63 @@
       <p>About a year ago, I wrote an overview of many of the different <a href="http://www.html5rocks.com/en/mobile/high-dpi/">responsive
 image approaches</a> in an HTML5Rocks article, all of which try to solve the
 fundamental problem:</p>
+
 <p><strong>Serve the optimal image to the device.</strong></p>
+
 <p>Sounds simple, but the devil's in the details. For the purposes of this here
 discussion, I will focus on optimal image size and fidelity, and much to your
 chagrin, will completely ignore the art direction component of the problem.</p>
+
 <p>Even for tackling screen density, a lot of the solutions out there involve a
 lot of extra work for web developers. I'll go into two solutions (client and
 server side) on the horizon that serve the right density images. In both cases,
 all you need to do is:</p>
+
 <pre><code>&lt;img src="img.jpg"/&gt;
 </code></pre>
+
 <!--more-->
 
 <h2>Nobody cares about responsive images (that much)</h2>
+
 <p>Let me start with an underlying problem: for one reason or another, most developers
 don't really care that much about responsive images. Even if left unsolved,
 the images still get to their destination, they're just a little crummier than
 they should be. If fidelity doesn't matter much to you and your app, then no
 big deal.</p>
+
 <p>Others may not even know about the problem. If you're not a high density screen
 user, you may have not been disappointed by the gulf in quality between crisp
 images in native apps and blurry images in web apps. Some applications may prioritize
 performance over fidelity, and want to deliberately send low resolution images.</p>
+
 <p><strong>A vast majority of devs know about the problem, but are just waiting for a
 solution that works well</strong>. We're all inherently lazy and in my opinion, a
 reasonable solution is one that requires little to no extra work.</p>
+
 <h2>Good solutions require almost no extra work</h2>
+
 <p>How can we serve the optimal image to the device with as little work as
 possible?  One approach is to always serve a highly compressed but high density
 image, as I outlined in <a href="http://www.html5rocks.com/en/mobile/easy-high-dpi-images/">Easy High DPI Images</a> on HTML5Rocks. This
 approach is better than nothing, but isn't really optimal since you end up
 sending high density images to low density screens.</p>
+
 <p>Two promising standards are on the horizon to wider adoption: the <code>srcset</code>
 attribute for <code>img</code> elements, and the <code>CH</code> client hint header.</p>
+
 <h3>Solution 1: Client-side build step with srcset &amp; friends</h3>
+
 <p>The <code>srcset</code> attribute <a href="https://www.webkit.org/blog/2910/improved-support-for-high-resolution-displays-with-the-srcset-image-attribute/">recently landed in WebKit</a>, and it looks like
 others will follow. Though it's more terse than <code>&lt;picture&gt;</code> and friends, <code>srcset</code>
 still requires quite a bit of extra work to implement:</p>
+
 <pre><code>&lt;img src="img.jpg" srcset="img-1.5x.jpg 1.5x, img-2x.jpg 2x, img-3x.jpg 3x"&gt;
 </code></pre>
+
 <p><a href="http://www.w3.org/TR/css4-images/#image-set-notation"><code>image-set</code></a> is the CSS equivalent, and looks quite similar.
 Unfortunately it requires even more work:</p>
+
 <pre><code>selector {
   background-image: url(img.jpg);
   background-image: -webkit-image-set(
@@ -116,52 +132,67 @@ Unfortunately it requires even more work:</p>
   /* Hehe, moar prefixes! */
 }
 </code></pre>
+
 <p>Phew! After you have exploded your markup, you need to generate multiple images
 of different sizes and decide on appropriate compression levels for each.</p>
+
 <p>You'll notice that this extra work is very formulaic. It almost looks like it
 could be automated! Let's skip the busywork and write our web pages like we do
 today, specifying a very high quality asset (eg. 3x), and running a build
 script. In your markup, all you need to do is:</p>
+
 <pre><code>&lt;img src="img.jpg" /&gt;
 </code></pre>
+
 <p>or</p>
+
 <pre><code>selector {
   background-image: url(img.jpg);
 }
 </code></pre>
+
 <p>This magic time-saving script would need to do two things. First, it
 generates images:</p>
+
 <ol>
 <li>Find all image files on the site.</li>
 <li>Downsize all image files to the right size depending on desired density breakpoints (eg. <code>1x, 1.5x, 2x, 3x</code>).</li>
 <li>Name the images according to some convention (eg. <code>${image}-${density}.${format}</code>).</li>
 </ol>
+
 <p>Image resizing already has a <a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/">grunt-based solution</a>, and many
 others will surely follow. The second part is rewriting the HTML and
 CSS. Here's how it works:</p>
+
 <ol>
 <li>Parse all image references from HTML (eg. <code>img</code>) and CSS (eg. <code>background</code>,
-   <code>background-image</code>).</li>
+<code>background-image</code>).</li>
 <li>Augment all HTML <code>img</code> elements with the right srcset. Augment all CSS
-   <code>background</code> and <code>background-image</code> properties with the right (and prefixed)
-   image-set value.</li>
+<code>background</code> and <code>background-image</code> properties with the right (and prefixed)
+image-set value.</li>
 </ol>
+
 <p>Now we're talking! And all you need to do is provide one set of high quality
 image assets and add this script to your build step (you have a build step,
 right?). Keep writing those <code>&lt;img src&gt;</code>s!</p>
+
 <h3>Solution 2: Server-side build step with Client-Hints</h3>
+
 <p>The <a href="http://tools.ietf.org/html/draft-grigorik-http-client-hints-00">Client-Hints proposal</a> (CH) is another promising (read: minimal
 developer effort required) future direction that would help solve the
 responsive image problem on the server. Ilya Grigorik goes into much
 more detail in <a href="http://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/">his post</a>.</p>
+
 <p>Currently, the main thing a server has to identify a client is its
 User-Agent (UA) header. The UA header is insufficient to infer basic
 things like display density, even in conjunction with a <a href="http://en.wikipedia.org/wiki/WURFL">UA
 database</a>. CH is a new header used to pass information to the
 server about the user agent.  With it, you can specify the
 <code>devicePixelRatio</code> (DPR) of your device explicitly:</p>
+
 <pre><code>CH: dpr=2
 </code></pre>
+
 <p>Once browsers send this CH header, you can imagine some really simple
 server-side logic to serve the best asset for the DPR specified. You will need
 either a smart image generator (and cache) on the server, or a build script for
@@ -169,6 +200,7 @@ generating images at different densities. Luckily this build script is the same
 as the first half of solution 2, so less work for us! Once the images are
 generated, it's just a matter of producing the right redirects based on the CH
 header, which Ilya provides his <a href="http://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/">article</a>.</p>
+
 <p>One benefit of solving this problem server side is that it's universal
 and completely transparent to the client. A drawback to the first
 (client-side) solution is that it will not work when setting <code>&lt;img src&gt;</code>
@@ -176,14 +208,18 @@ with JavaScript, although this can be remedied easily with a loader that
 you use to specify the image asset. In practice, instead of specifying
 the image asset directly, you would need to go through a small image URL
 rewriter. Imagine something like this:</p>
+
 <pre><code>var imagePath = images.get('img.jpg');
 // imagePath is now img-2x.jpg if on a 2x display.
 imageEl.src = imagePath;
 </code></pre>
+
 <p>Another benefit of the server-side approach is that there's no need for
 parsing HTML and CSS (the second part of the build step) which can be
 tricky and error prone.</p>
+
 <h2>Both solutions are good</h2>
+
 <p>In summary, both solutions have merit, and since <code>srcset</code> has <a href="https://www.webkit.org/blog/2910/improved-support-for-high-resolution-displays-with-the-srcset-image-attribute/">momentum
 already</a>, it should be standardized and broadly supported as soon as
 possible. Many designers may not have access to server side configuration, so
@@ -191,7 +227,9 @@ for them the client-side build script would make sense. Conversely, many
 developers that have access to server-side image generators and advanced
 caching techniques should take advantage of Client-Hints once it's
 available, which <a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/c38s7y6dH-Q">may be soon</a>!</p>
+
 <p>Now, to write that build script... Any volunteers?</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

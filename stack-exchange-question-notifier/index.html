@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.   Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
+  <meta name="description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.    Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/stack-exchange-question-notifier/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Stack Exchange question notifier" />
-  <meta name="twitter:description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.   Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
+  <meta name="twitter:description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.    Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/stack-exchange-question-notifier/" />
   <meta property="og:title" content="Stack Exchange question notifier" />
-  <meta property="og:description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.   Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
+  <meta property="og:description" content="I've been a member of the Chrome developer relations team for the last 9 months, where one aspect of my job is developer support. I actively monitor the chromium-extensions@chromium.org list, answering questions about developing Chrome extensions. Thankfully, there are many others that help me in this endeavor, both from the Chrome team and from within the developer community itself, notably a certain  PhistucK , the current record holder for the number of messages posted to the list.    Over the last years, another channel of questions has emerged:  Stack Overflow (SO) . SO is a great Q&amp;A community for software developers, providing many advantages over ordinary discussion groups. Google has recognized this and sponsored SO tags, such as  google-chrome , and  google-chrome-extension . As I outlined in an mail to the group, we are now including SO as an official Chrome extension developer support channel." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -66,6 +66,7 @@ about developing Chrome extensions. Thankfully, there are many others that
 help me in this endeavor, both from the Chrome team and from within the
 developer community itself, notably a certain <a href="http://goo.gl/di3kR">PhistucK</a>, the current
 record holder for the number of messages posted to the list.</p>
+
 <p>Over the last years, another channel of questions has emerged:
 <a href="http://stackoverflow.com/">Stack Overflow (SO)</a>. SO is a great Q&amp;A community for
 software developers, providing many advantages over ordinary discussion
@@ -73,22 +74,28 @@ groups. Google has recognized this and sponsored SO tags,
 such as <a href="http://stackoverflow.com/questions/tagged/google-chrome">google-chrome</a>, and <a href="http://stackoverflow.com/questions/tagged/google-chrome-extension">google-chrome-extension</a>. As I
 outlined in an mail to the group, we are now including SO as
 an official Chrome extension developer support channel.</p>
+
 <!--more-->
 
 <p>As part of optimizing the support workflow, I wrote a Chrome extension
 which monitors questions with certain tags on SO and other Stack
 Exchange sites. This extension implements a browser action which gets
 badged with the number of unreviewed questions.</p>
+
 <p>The extension UI uses the same visual style as other Google apps, and
 blends well into Chrome. I think it works reasonably well from a design
 perspective, both in the options page and in a browser action:</p>
-<p><img alt="screenshot" src="stack-screenshot.png" /></p>
+
+<p><img src="/stack-exchange-question-notifier/stack-screenshot.png" alt="screenshot" /></p>
+
 <p>If you're curious to see how the extension is implemented, the source
 <a href="https://github.com/borismus/Question-Monitor-for-Stack-Exchange">is available</a> free of charge! This extension was implemented in
 <a href="http://code.google.com/closure/">Closure-style</a> JavaScript.</p>
+
 <p>If you support developers on Stack Overflow, please <a href="https://chrome.google.com/webstore/detail/bnnkhapbhkejookmhgpgaikfdoegkmdp">install it</a>,
 give me constructive feedback and consider monitoring the
 <a href="http://stackoverflow.com/questions/tagged/google-chrome-extension">google-chrome-extension</a> tag :)</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -66,6 +66,7 @@ prototyping input device. Wiimotes are portable and rugged, and thus
 well suited to high-intensity activities like running. They attach
 easily to legs with a physio band, although the elastic tension tends to
 cut off circulation. No big deal, though... it's For Science! </p>
+
 <p>This article is not about attaching Wiis to legs (more on that at a
 later date!), but about communicating with the Wii remote using python.
 I started out by writing a Cocoa application to harvest accelerometer
@@ -77,9 +78,11 @@ developed to integrate with the wiimote. <a href="http://stackoverflow.com/quest
 lightweight wrapper around the <a href="http://www.wiiuse.net/">wiiuse</a> library and does not work on
 OS X. An alternative, <a href="http://code.google.com/p/pywiimote/">pywiimote</a> claims to be multiplatform but
 pointedly isn't. Here's the start of their code: </p>
+
 <pre><code>from ctypes import *
 kernel = windll.kernel32
 </code></pre>
+
 <p>Having found no existing wiimote-specific python libraries that would
 work on my platform, I had no choice but to dig a little into the
 bluetooth-based protocol that the wiimote uses. I found all the details
@@ -90,6 +93,7 @@ sent over the write socket, the wiimote springs into life and sends a
 stream of data on the read socket. In this data are accelerometer values
 and button presses. Here's a simple python snippet using the
 <a href="http://lightblue.sourceforge.net/">lightblue</a> library:</p>
+
 <pre><code>import sys, lightblue, hexbyte
 
 WIIMOTE_DEVICE_NAME = 'Nintendo RVL-CNT-01'
@@ -120,11 +124,13 @@ while 1:
     # do something interesting with the data
     print data
 </code></pre>
+
 <p>You'll need <a href="https://github.com/borismus/Running-Gestures/blob/master/hexbyte.py">hexbyte.py</a> to run the above snippet. I hope
 you (the wii remote wielding python fan) find this snippet useful. As a
 side note, if you've figured how to pair a wiimote with an android phone
 and released the code into the public domain, please let me know. Since
 Android 2.2 still doesn't ship with L2CAP APIs, I hit the wall.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

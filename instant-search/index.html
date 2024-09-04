@@ -65,18 +65,22 @@ backend, which now needs to handle a lot more load. The frontend
 implementation, however, is quite simple. Yearning for some web
 development, I decided to get my hands dirty. Here's a minimal
 <a href="/instant-search/instant-search.html">implementation</a> in under 60 lines of jQuery code.</p>
+
 <p>Instant Search relies on two separate data sources: a suggestions API,
 and a web search API. Roughly speaking, it works as follows: as you type
 in the search box, AJAX requests are made to the suggestion API. The top
 suggestion is then used as the query to search. In this case, I used the
 following two services, both of which support JSONP:</p>
+
 <ul>
 <li>Suggest: <a href="http://suggestqueries.google.com/complete/search">http://suggestqueries.google.com/complete/search</a></li>
 <li>Search: <a href="http://ajax.googleapis.com/ajax/services/search/web">http://ajax.googleapis.com/ajax/services/search/web</a></li>
 </ul>
+
 <p>To make your own search instant, all you need are your own suggest and
 search feeds, and some tweaks to my code. Just make sure your server can
 handle the load!</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

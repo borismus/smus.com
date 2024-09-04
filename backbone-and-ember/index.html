@@ -67,40 +67,50 @@ basic experiments with Ember (full disclosure: haven't built a large Ember app
 yet). I'll also supplement claims with quotes from a fantastic <a href="http://goo.gl/t7gHG">conversation</a>
 from Freenode <a href="/backbone-and-ember/irc://irc.freenode.net/#documentcloud">#documentcloud</a> on February 3rd, 2011. For quote
 context, <code>wycats</code> is <a href="http://yehudakatz.com/">Yehuda Katz</a>, one of the lead developers on Ember, and
-<code>jashkenas</code> is <a href="http://ashkenas.com/">Jeremy Ashkenas</a>, one of the lead developers on Backbone.</p>
-<!--more-->
+<code>jashkenas</code> is <a href="http://ashkenas.com/">Jeremy Ashkenas</a>, one of the lead developers on Backbone.
+<!--more--></p>
 
 <p>Before I go into too much detail, it's pretty clear that both frameworks have
 the same goal: to help developers build apps.</p>
+
 <blockquote>
-<p>1:09 PM <strong>wycats</strong> backbone apps are apps</p>
+  <p>1:09 PM <strong>wycats</strong> backbone apps are apps</p>
 </blockquote>
+
 <p>So we have a roughly apples-to-apples comparison. Let me dive in and talk about
 some philosophical differences:</p>
+
 <h2>Backbone at a glance</h2>
+
 <p>Backbone is a minimalist framework that builds on top of ideas from
 jQuery to give some structure to web applications. It introduces
 concepts of views, models, a restful sync interface, routers, etc, in
 surprisingly little code. Backbone is the darling of microframework
 lovers, who highly value small framework size and don't want to commit
 to a single "full stack" solution.</p>
+
 <p>Backbone is incredibly flexible, and doesn't impose how your views and
 models should actually interact. The main benefit is that it adds some
 structure to the app and provides convenient ways of listening to DOM
 events and turning them into application events.</p>
+
 <blockquote>
-<p>1:15 PM <strong>wycats</strong> backbone is 600loc<br />
-1:16 PM <strong>wycats</strong> "here's how you should think about your app structure"</p>
+  <p>1:15 PM <strong>wycats</strong> backbone is 600loc<br />
+  1:16 PM <strong>wycats</strong> "here's how you should think about your app structure"</p>
 </blockquote>
+
 <p>Since Backbone is so small, it leaves a lot of decisions up to the
 developer. This is both a blessing (flexibility, works for me, etc) and
 a curse, since support for many things is missing.</p>
+
 <blockquote>
-<p>12:32 PM <strong>wycats</strong> jashkenas: backbone is 600 lines of code<br />
-12:32 PM <strong>wycats</strong> jashkenas: the idea that there are things missing in it that
-are common should not be controversial</p>
+  <p>12:32 PM <strong>wycats</strong> jashkenas: backbone is 600 lines of code<br />
+  12:32 PM <strong>wycats</strong> jashkenas: the idea that there are things missing in it that
+  are common should not be controversial</p>
 </blockquote>
+
 <h2>Ember at a glance</h2>
+
 <p>Ember has a very different history. It's an evolution of SproutCore,
 which is a complete web application solution. Ember takes the core parts
 of SproutCore - two-way data binding, computed properties, tight
@@ -109,212 +119,264 @@ that come in module format are a data serialization layer (via <a href="https://
 routing (via <a href="https://github.com/emberjs-addons/sproutcore-routing">routes</a>). Ember's out of the box functionality is
 actually smaller than Backbone's, but it provides a higher level
 abstraction.</p>
+
 <p>I used SproutCore back in 2008 while working as an engineer on
 iWork.com. It was a SproutCore pre-1.0 release, and things were a bit
 rough. Ember seems to have come clean in many ways, presenting a more
 consistent template data binding solution via Handlebars, and being a
 lot less monolithic SproutCore once was.</p>
+
 <p>Ember aims to provide a full solution in an opinionated way. Thus,
 to get the most of the framework, developers must do things in a certain
 style. While you're not forced to use Handlebars, it's the only way to
 get some of the compelling features the framework provides (eg. for
 two-way data binding). Many of the auxillary modules such as ember-data
 are designed to fit will into the existing structure of the framework.</p>
+
 <blockquote>
-<p>1:22 PM <strong>wycats</strong> tbranyen: ember is an end-to-end framework built on
-top of more modular components</p>
+  <p>1:22 PM <strong>wycats</strong> tbranyen: ember is an end-to-end framework built on
+  top of more modular components</p>
 </blockquote>
+
 <p>There is a sentiment from many people, including Backbone's founder that
 much of what Ember provides is over-engineered:</p>
+
 <blockquote>
-<p>12:28 PM <strong>jashkenas</strong> It's Backbone's take that Ember's more complex
-data binding model, intermediate controllers, run loop etc. ... are
-all interesting approaches, but are <em>not</em> usually helpful in building
-a real site.</p>
+  <p>12:28 PM <strong>jashkenas</strong> It's Backbone's take that Ember's more complex
+  data binding model, intermediate controllers, run loop etc. ... are
+  all interesting approaches, but are <em>not</em> usually helpful in building
+  a real site.</p>
 </blockquote>
+
 <h2>Different audiences</h2>
+
 <blockquote>
-<p>12:30 PM <strong>jashkenas</strong> wycats: and I find quite the opposite --
-self-selecting sample pools, as you'd expect.</p>
+  <p>12:30 PM <strong>jashkenas</strong> wycats: and I find quite the opposite --
+  self-selecting sample pools, as you'd expect.</p>
 </blockquote>
+
 <p>So to summarize at a high level, there are two camps (and excuse me
 while I generalize a lot).</p>
+
 <ol>
-<li>
-<p>Lovers of micro-frameworks. JavaScript hackers seeking extra
-   structure in their slightly complex apps. These people are
-   comfortable mixing and matching frameworks, solving problems as they
-   come, and just want to get started quickly.</p>
-</li>
-<li>
-<p>Software Engineers that are used to a deep abstraction layer and a
-   full service stack. These people are probably coming from native app
-   development and want to write very complex applications on the web.</p>
-</li>
+<li><p>Lovers of micro-frameworks. JavaScript hackers seeking extra
+structure in their slightly complex apps. These people are
+comfortable mixing and matching frameworks, solving problems as they
+come, and just want to get started quickly.</p></li>
+<li><p>Software Engineers that are used to a deep abstraction layer and a
+full service stack. These people are probably coming from native app
+development and want to write very complex applications on the web.</p></li>
 </ol>
+
 <p>Basically, these two developers have different needs, come from
 different programming cultures, and are maybe even writing different
 applications.</p>
+
 <blockquote>
-<p>12:31 PM <strong>wycats</strong> jashkenas: so then it's fair to say that for <em>some</em>
-people, Ember's approach is overkill</p>
+  <p>12:31 PM <strong>wycats</strong> jashkenas: so then it's fair to say that for <em>some</em>
+  people, Ember's approach is overkill</p>
 </blockquote>
+
 <p>Andrew says it best:</p>
+
 <blockquote>
-<p>12:36 PM <strong>andrewdeandrade</strong> It's really all about values. Occasionally
-I get frustrated by things backbone.js doesn't do and occasionally I
-get frustrated by things rails does that are hard to undo. My personal
-preference is to have a framework not do something and implement it
-myself than have a framework do something and figure out how to do the
-opposite. That's me. I know people who feel differently</p>
+  <p>12:36 PM <strong>andrewdeandrade</strong> It's really all about values. Occasionally
+  I get frustrated by things backbone.js doesn't do and occasionally I
+  get frustrated by things rails does that are hard to undo. My personal
+  preference is to have a framework not do something and implement it
+  myself than have a framework do something and figure out how to do the
+  opposite. That's me. I know people who feel differently</p>
 </blockquote>
+
 <h2>A more detailed comparison</h2>
+
 <p>After engineering with SproutCore, writing an app with Backbone, and
 writing small amounts of Ember (mostly samples to get a feel for data
 bindings, etc), I've got some sense of the issues that you will run into
 when developing a moderately complex app. I'll go over some, and
 supplement them with quotes from framework authors.</p>
+
 <blockquote>
-<p>1:28 PM <strong>wycats</strong> jashkenas: do you disagree that the pattern "listen
-for these properties, and when any of them changes, trigger observers"
-is very common?<br />
-1:26 PM <strong>jashkenas</strong> that's correct -- you listen for changes to the source data and render computed values. not hard.<br />
-1:26 PM <strong>wycats</strong> jashkenas: yes… a pattern that happens sufficiently often that it's good to abstract</p>
+  <p>1:28 PM <strong>wycats</strong> jashkenas: do you disagree that the pattern "listen
+  for these properties, and when any of them changes, trigger observers"
+  is very common?<br />
+  1:26 PM <strong>jashkenas</strong> that's correct -- you listen for changes to the source data and render computed values. not hard.<br />
+  1:26 PM <strong>wycats</strong> jashkenas: yes… a pattern that happens sufficiently often that it's good to abstract</p>
 </blockquote>
+
 <p>In general, Ember seeks to find common problems that developers face,
 and solve them in an opinionated way. Backbone, on the other hand,
 leaves it to developers solve their own problems in the way that works
 for them.</p>
+
 <h3>Templates</h3>
+
 <p>While Ember in theory lets you pick which templating engine to use, you
 lose a lot of benefits if you're not using Handlebars.</p>
+
 <blockquote>
-<p>1:29 PM <strong>jashkenas</strong> forcing your users to use logic-less templates is <em>incredibly</em> constraining.<br />
-1:30 PM <strong>tomdale</strong> jashkenas: ember supports any templating language you'd like. you just don't get auto-updating<br />
-1:30 PM <strong>jashkenas</strong> right, exactly.</p>
+  <p>1:29 PM <strong>jashkenas</strong> forcing your users to use logic-less templates is <em>incredibly</em> constraining.<br />
+  1:30 PM <strong>tomdale</strong> jashkenas: ember supports any templating language you'd like. you just don't get auto-updating<br />
+  1:30 PM <strong>jashkenas</strong> right, exactly.</p>
 </blockquote>
+
 <p>In practice, my last project used Mustache because it was logic-less.
 Such templating engines are my preference, and I'm happy to be
 constrained to a pretty good templating system if that means access to
 powerful features, cleaner application code and less boilerplate.</p>
+
 <p>I don't think that Ember should be toting choice of template as a big
 benefit. Like any application framework, Ember is a contract between
 developer and framework author. You write in our style and we'll give
 you powerful features. In an ideal world, this lets developers focus on
 their app instead of dealing with middleware.</p>
+
 <h3>Views</h3>
+
 <p>view decomposition is one of the first tasks a front end developer
 faces. They need to decide which parts of their app will be implemented
 with what view. Should each list item be its own view? Should the list
 be a single monolithic view?</p>
+
 <p>In my experience writing Backbone apps, views are very primitive and
 tend to cause issues. There's no support for any sort of view nesting,
 which is totally critical for large applications with complex UIs. In
 contrast, Ember provides an easy way of nesting views inside one
 another.</p>
+
 <p>The other thing you'll notice with Backbone is that there's a lot of
 micro-management required when building Backbone views. They need to
 be properly cleaned up by hand, otherwise you end up with <a href="http://stackoverflow.com/questions/7125402/backbone-bind-multi-event-to-one-button-after-i-new-view-multi-times">zombie
 views</a> bound to events, or events that <a href="http://stackoverflow.com/questions/7348988/backbone-js-events-not-firing-after-re-render">don't fire at all</a>.</p>
+
 <p>Some backbone projects, such as the <a href="https://github.com/tbranyen/backbone.layoutmanager">layout manager</a>, aim to remedy
 some of these limitations by creating a Layout abstraction, that allows
 nested views and handles a lot of the rendering. This is a very
 interesting project, but I haven't tried it yet.</p>
+
 <h3>MVC?</h3>
+
 <p>Ember is a traditional MVC framework, where it's clear which parts are
 the view, the controller and the model. Backbone on the other hand, is
 explicitly not an MVC. It never even claims to be!</p>
+
 <p>In fact, if you read the <a href="http://documentcloud.github.com/backbone/">main page</a>, you'll notice that
 there's no mention of controllers anywhere. Don't get me wrong: Backbone
 still gives your applications structure, but has no opinion on the
 gluing layer between data and presentation. I think Backbone once had
 controllers, but they were renamed to routers, designed primarily for
 handling URLs and history/pushState.</p>
+
 <p>In my experience, there's very much a need for a controller when writing
 even moderately complex apps. You're presented with several options:</p>
+
 <ol>
 <li>Write controller code in views</li>
 <li>Write controller code in models</li>
 <li>Write controller code in a router</li>
 <li>Write your own controller infrastructure</li>
 </ol>
+
 <p>If you care about separation of concerns, none of these options are
 really acceptable.</p>
+
 <h3>Data and servers</h3>
+
 <p>Backbone packs a huge punch in a small package. It comes with
 <code>Backbone.sync</code>, which lets you fully customize how you want to interact
 with the server.</p>
+
 <p>Following the CRUD pattern, Backbone lets you specify the response
 format of an Read, but unfortunately doesn't allow you to fully
 customize how you would like to serialize Create and Update and Delete
 payloads for calling your server-side API. For my last project, I ended
 up just completely redefining Backbone.sync, which is very powerful, but
 I needed to write a lot of boilerplate to make it work reasonably.</p>
+
 <p>The problem with Backbone's approach is that it doesn't separate two
 parts of data stores: internal collection management and the interface
 with the backend API.</p>
+
 <p>Ember data, on the other hand, has the concept of API adapters, which
 let you specify the interface the server. Additionally it has a
 DataStore model. I haven't experimented with this in Ember yet, but
 SproutCore's version of this worked quite well.</p>
+
 <h3>Performance considerations</h3>
+
 <p>When I worked on iWork.com, we definitely had some issues with
 SproutCore performance for large amounts of data. The problem was that
 we couldn't really optimize our code because we were locked into the way
 SproutCore does things, so our way forward was to patch SproutCore
 itself to address some of the performance issues, or break out of the
 framework and implement the performance intensive part manually.</p>
+
 <p>Jeremy voices this concern here:</p>
+
 <blockquote>
-<p>1:33 PM <strong>jashkenas</strong> finally, and perhaps most importantly, embers tight
-coupling of handlebars-ui-with-very-specific-bindings-to-ember-models is
-trouble, performance-wise. You can't build the really intensive parts of
-your UI with that level of binding / dom tweaking.</p>
+  <p>1:33 PM <strong>jashkenas</strong> finally, and perhaps most importantly, embers tight
+  coupling of handlebars-ui-with-very-specific-bindings-to-ember-models is
+  trouble, performance-wise. You can't build the really intensive parts of
+  your UI with that level of binding / dom tweaking.</p>
 </blockquote>
+
 <p>And I agree with him. It's very legitimate concern for large apps, and
 Yehuda didn't answer adequately in my opinion.</p>
+
 <blockquote>
-<p>1:34 PM <strong>wycats</strong> jashkenas: exposing the performance question to the
-user is trouble<br />
-1:34 PM <strong>wycats</strong> over the long haul Ember will be able to heuristically
-decide how bulky to update<br />
-1:34 PM <strong>jashkenas</strong> sufficiently smart compiler, eh?<br />
-1:34 PM <strong>wycats</strong> jashkenas: :P  </p>
+  <p>1:34 PM <strong>wycats</strong> jashkenas: exposing the performance question to the
+  user is trouble<br />
+  1:34 PM <strong>wycats</strong> over the long haul Ember will be able to heuristically
+  decide how bulky to update<br />
+  1:34 PM <strong>jashkenas</strong> sufficiently smart compiler, eh?<br />
+  1:34 PM <strong>wycats</strong> jashkenas: :P  </p>
 </blockquote>
+
 <p>I'm a bit concerned about this point and would love to hear a less
 handwavy answer from Yehuda.</p>
+
 <h2>Final thoughts (Backbone)</h2>
+
 <p>My conclusion from writing an app with Backbone, and attending a Bocoup
 training workshop, is that Backbone by itself is not sufficient for
 building complex web apps. You will invariably go one of two directions:</p>
+
 <ol>
 <li>Engineer a lot of stuff on top of it, or</li>
 <li>Use existing Backbone plugins of various maturity and hope they work
-   well together.</li>
+well together.</li>
 </ol>
+
 <p>Based on my experience with jQuery, and the mess of ensuing plugins, The
 latter seems overly optimistic. So basically, be prepared to write a lot
 of extra <a href="https://github.com/tbranyen/backbone-boilerplate">boilerplate</a> code. But if you're a JavaScript developer, you
 can handle that!</p>
+
 <p>In practice, it's very difficult to remain productive if you're writing
 both an app and a framework at the same time. Unfortunately this was my
 tendency when using Backbone. I hate reinventing the wheel. Especially
 if it's kind of lopsided.</p>
+
 <p>That said, Backbone is fantastic for mid-to-low complexity applications
 that want to maintain structured code.</p>
+
 <h2>Final thoughts (Ember)</h2>
+
 <p>Ember, on the other hand, forces you into its way of doing things. This
 is a framework with opinions that gives you less flexibility. However,
 if you grit your teeth a little bit and buy in, you'll be exposed to a
 well thought out set of libraries that work well together.</p>
+
 <p>I really like the features Ember offers, and its philosophy of finding
 common problems developers will face and solving them. One thing I
 anticipate is that many of the non-core Ember modules are immature.
 However, just having these modules that are designed to work together is
 a boon for serious application developers.</p>
+
 <p>I'm still concerned that Ember applications may be stuck if dealing with
 particularly hairy custom view situations, or large amounts of data, but
 I'll have a better sense of the limitations soon.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

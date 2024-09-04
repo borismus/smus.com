@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.    Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:     No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.     I'll look at each in a bit of detail, and then show you  pointer.js ." />
+  <meta name="description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.     Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:      No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.      I'll look at each in a bit of detail, and then show you  pointer.js ." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/mouse-touch-pointer/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Generalized input on the cross-device web" />
-  <meta name="twitter:description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.    Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:     No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.     I'll look at each in a bit of detail, and then show you  pointer.js ." />
+  <meta name="twitter:description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.     Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:      No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.      I'll look at each in a bit of detail, and then show you  pointer.js ." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/mouse-touch-pointer/" />
   <meta property="og:title" content="Generalized input on the cross-device web" />
-  <meta property="og:description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.    Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:     No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.     I'll look at each in a bit of detail, and then show you  pointer.js ." />
+  <meta property="og:description" content="Update (August 7, 2013): Pointer.js is deprecated. Please use the  PointerEvents polyfill  instead.     Mouse will soon cease to be the dominant input method for computing, though it will likely remain in some form for the forseeable future. Touch is the heir to the input throne, and the web needs to be ready. Unfortunately, the current state of input on the web is... you guessed it: a complete mess! There are two separate issues:      No unified story between mouse, touch, and other spatial input.   Poor support for complex gestures, especially needed for touch.      I'll look at each in a bit of detail, and then show you  pointer.js ." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -61,26 +61,33 @@
     <div class='body'>
       <p><strong>Update (August 7, 2013): Pointer.js is deprecated. Please use the
 <a href="https://github.com/Polymer/PointerEvents">PointerEvents polyfill</a> instead.</strong></p>
+
 <p>Mouse will soon cease to be the dominant input method for computing,
 though it will likely remain in some form for the forseeable future.
 Touch is the heir to the input throne, and the web needs to be ready.
 Unfortunately, the current state of input on the web is... you guessed
 it: a complete mess! There are two separate issues:</p>
+
 <ol>
 <li>No unified story between mouse, touch, and other spatial input.</li>
 <li>Poor support for complex gestures, especially needed for touch.</li>
 </ol>
+
 <p>I'll look at each in a bit of detail, and then show you
 <a href="https://github.com/borismus/pointer.js">pointer.js</a>. </p>
+
 <!--more-->
 
 <h2>Lack of unified touch and mouse system</h2>
+
 <p>Most web developers should care about providing a good experience on
 both mouse and touch interfaces. This is increasingly true with
 crossover mouse-touch devices like the Transformer prime, and upcoming
 Windows 8 laptops.</p>
+
 <p>Here's what you end up with if you want to support touch and mouse
 events on the web today:</p>
+
 <pre><code>$(window).mousedown(function(e) { down(e.pageY); });
 $(window).mousemove(function(e) { move(e.pageY); });
 $(window).mouseup(function() { up(); });
@@ -99,18 +106,22 @@ $(window).bind('touchend', function(e) {
   up();
 });
 </code></pre>
+
 <p>The above is a bunch of boilerplate code that does absolutely nothing!
 You end up having to manually wrangle two completely different models
 into one.</p>
+
 <p>Microsoft is taking a very smart approach with IE10 to address this
 issue by <a href="http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx">introducing pointer events</a>. The idea is to
 consolidate all input that deals with one or more points on the screen
 into a single unified model.</p>
+
 <p>Unfortunately, it's not being proposed as a standardized spec.
 Also, because it's not universally available, it will be yet another
 thing developers need to support (if they want to support Windows
 8/Metro apps). So now our sample above gets <a href="http://blogs.msdn.com/b/ie/archive/2011/10/19/handling-multi-touch-and-mouse-input-in-all-browsers.aspx">even more
 boilerplate</a>, with at least three more calls like the following:</p>
+
 <pre><code>$(window).bind('MSPointerDown', function(e) {
   // Extract x, y, and call shared handler.
 });
@@ -121,15 +132,19 @@ $(window).bind('MSPointerUp', function(e) {
   // Extract x, y, and call shared handler.
 });
 </code></pre>
+
 <p>Although their intentions are good, this approach potentially makes the
 situation (hopefully temporarily) worse.</p>
+
 <h2>Touch gestures need to be easy</h2>
+
 <p>Touch UIs often involve gestures that aren't easy for developers to
 implement, such as pinch-zooming and rotation. However, on the web, due
 to the simplicity of <a href="https://dvcs.w3.org/hg/webevents/raw-file/tip/touchevents.html">the touch events</a>, even implementing
 something as simple as a button <a href="http://code.google.com/mobile/articles/fast_buttons.html">is non-trivial</a>.
 Implementing more complex gesture recognizers on top of the primitive
 <code>touch*</code> events is even less trivial.</p>
+
 <p>Frameworks like <a href="http://dev.sencha.com/deploy/touch/examples/production/kitchensink/index.html/mouse-touch-pointer/#demo/touchevents">Sencha Touch</a> and <a href="http://eightmedia.github.com/hammer.js/">Hammer.js</a> come to
 the rescue to address the lack of gestures, however these both have
 problems. Sencha comes as a complete package, and it's impossible to use
@@ -138,40 +153,51 @@ spending considerable effort trying to pull it out). Hammer.js, on the
 other hand, doesn't actually implement gesture recognition for
 pinchzoom, but instead relies on the touch spec providing non-standard
 <code>rotation</code> and <code>scale</code> values <a href="http://developer.apple.com/library/safari//mouse-touch-pointer/#documentation/UserExperience/Reference/TouchEventClassReference/TouchEvent/TouchEvent.html/mouse-touch-pointer/#//apple_ref/doc/uid/TP40009358">pioneered by Apple</a>.</p>
+
 <p>Microsoft has a gesture layer on top of their consolidated pointer
 model. This makes sense as an approach to take. True, certain gestures
 only make sense for touch, and it's easy to distinguish the input type
 using the <code>event.pointerType</code> API. That said, with a unified model,
 there can be new gestures that span multiple input modalities, like
 <a href="/mouse-touch-pointer/#">this research</a> suggests.</p>
+
 <h2>Pointer.js - A solution to both problems</h2>
+
 <p>The solution to this problem is to write another library, tag on a <code>.js</code>
 to the end of the name, get everyone to use it, prove that it's very
 useful, and have browsers and spec implement it natively. Once this
 is spec'ed, approved, and widely implemented, it should just be a matter
 of removing the script tag!</p>
-<p><img alt="Pointer.js architecture." src="pointer.js-architecture.png" /></p>
+
+<p><img src="/mouse-touch-pointer/pointer.js-architecture.png" alt="Pointer.js architecture." /></p>
+
 <p>Pointer.js consolidates pointer-like input models across browsers and
 devices. It provides the following:</p>
+
 <ul>
 <li>Events: <code>pointerdown, pointermove, pointerup</code></li>
 <li>Event payload class: <code>originalEvent, pointerType, getPointerList()</code></li>
 <li>Pointer class: <code>x, y, type</code></li>
 </ul>
+
 <p>To use it, simply include <code>pointer.js</code> in your web page. This
 automatically rigs <code>addEventListener</code> with support for <code>pointer*</code> and
 <code>gesture*</code> events.</p>
+
 <p>Try some simple pointer.js demos:</p>
+
 <ul>
 <li><a href="http://borismus.github.com/pointer.js/demos/draw.html">Multi-touch drawing</a></li>
 <li><a href="http://borismus.github.com/pointer.js/demos/basic-pointers.html">Pointer event logger</a></li>
 <li><a href="http://borismus.github.com/pointer.js/demos/basic-gestures.html">Gesture event logger</a> (supports scale, longpress and doubletap)</li>
 </ul>
+
 <p>For more info about the library, check it out at
 <a href="https://github.com/borismus/pointer.js">https://github.com/borismus/pointer.js</a>. Contributions in the form of
 pull requests are most welcome: more demos using pointer events,
 unimplemented gesture recognizers for common gestures, like swipe and
 rotation, and tweaks to the system itself.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

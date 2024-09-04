@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!    So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
+  <meta name="description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!     So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/toddler-music-box/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Toddler’s First Music Box" />
-  <meta name="twitter:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!    So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
+  <meta name="twitter:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!     So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/toddler-music-box/" />
   <meta property="og:title" content="Toddler’s First Music Box" />
-  <meta property="og:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!    So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
+  <meta property="og:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!     So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,45 +60,77 @@
     <a href='/toddler-music-box'><h1 class='title'>Toddler’s First Music Box</h1></a>
     <div class='body'>
       <p>Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better! </p>
+
 <p>So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:</p>
-<p><a href="https://www.youtube.com/watch?v=nS879aGP6O0"><img alt="My daughter’s music box" src="final-box.jpg" /></a></p>
+
+<p><a href="https://www.youtube.com/watch?v=nS879aGP6O0"><img src="/toddler-music-box/final-box.jpg" alt="My daughter’s music box" /></a></p>
+
 <!--more-->
 
 <h1>Building a portable music player</h1>
+
 <p>My first instinct was to try to build this using a Raspberry Pi,  but turns out running Linux has a few major downsides:</p>
+
 <ol>
 <li>Eeking out reasonable battery life is really difficult.</li>
 <li>Boot times are very slow, in the 10s of seconds.</li>
 </ol>
+
 <p>An alternative to running embedded Linux is programming a prototyping board directly. So I dusted off an old Arduino Uno and discovered the <a href="https://www.adafruit.com/product/94">Adafruit Wave Shield</a>, which does exactly what I needed. It reads audio from an SD card, and plays it back through a speaker. When the Wave Shield kit arrived, I was somewhat shocked to see a bare PCB and all of the components in a little baggie. </p>
+
 <p>Luckily, there’s an incredible Makerspace at work, so I dropped by after my actual work was done, picked up a soldering iron, and got to work. I’ve soldered before, but not much since my favorite class of all time: Making Things Interact at CMU, taught by Mark Gross. Initially daunting, I knocked it out in no time thanks to some really detailed instructions. The results were amazing. Fuse a bunch of metal and silicon together, attach a battery and 1.5 seconds later (that’s the boot time), a song is playing through the speaker! Any sufficiently advanced technology is indistinguishable from magic.</p>
-<p><img alt="Soldering the Adafruit Wave Hat" src="solder.jpg" /></p>
+
+<p><img src="/toddler-music-box/solder.jpg" alt="Soldering the Adafruit Wave Hat" /></p>
+
 <h1>Randomly playing songs</h1>
+
 <p>The <a href="https://learn.adafruit.com/adafruit-wave-shield-audio-shield-for-arduino/play6-hc">sample software</a> for the Wave Shield plays all of the .wav files on the SD card in lexical order. I wanted something a bit more delightful than playing the same playlist in the same order. So I wrote a program that plays a random song instead. Easy peasy, here we go.</p>
+
 <p>I enumerated all of the wavs on the card and stored all of their filenames in a <code>char**</code> dynamically allocated on the heap. Oops! There’s barely enough space there to allocate a dozen file names, and I’d selected 60 songs. It appears that years of front-end UI engineering have dulled my low level embedded software development instincts. After fighting the C++ compiler about static 2D array allocation, I took a simpler and more memory efficient approach, first counting all of the songs, then picking a random song number to play. </p>
+
 <p>Even generating random numbers is non-trivial, since there’s no reliable absolute clock to use as a seed - the device cold-starts every time. Instead, I’m using a technique which reads in analog inputs for a pseudo random input. This may or may not be a good idea, but seems to provide some variation. Anyway, the <a href="https://github.com/borismus/toddler-music-box">Arduino sketch</a> is in the GitHub repo.</p>
+
 <h1>Prototyping in plastic</h1>
+
 <p>One of the great perks of my work’s Makerspace is access to all sorts of awesome prototype manufacturing equipment, including a <a href="https://www.inventables.com/technologies/carvey">Carvey</a>. So I went to Rockler and bought a 5”x5” maple block, thinking I’d hollow it out into a box with the CNC machine. Not so fast! It’d take a mere 15 hours of drilling. </p>
+
 <p>Rather than wait, I opted for a faster route: prototyping with 3D printing. So I began designing music boxes on paper, then in OnShape, then printing them using the <a href="https://www.prusa3d.com/">Prusa</a> printers. Seeing a design evolve from figment of imagination to tangible physical object is incredibly satisfying. However, once that satisfaction wore off, I can honestly say that the results were functional, but not at all aesthetically pleasing:</p>
-<p><img alt="Early 3D printed plastic box" src="plastic-box.jpg" /></p>
+
+<p><img src="/toddler-music-box/plastic-box.jpg" alt="Early 3D printed plastic box" /></p>
+
 <h1>That old time wooden aesthetic</h1>
+
 <p>So I went for a different strategy: buy a nice off-the-shelf box to house everything and just design its insides. This way, the 3D print is mostly hidden, and can be capped off with a laser cut or CNC milled wooden lid. I can learn about CNC joinery later.</p>
+
 <p>I found a <a href="https://www.amazon.com/gp/product/B071WFSRBD/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">nice hexagonal box</a> on Amazon and bought two, discarding both lids. The bottom half of the clam would house the Arduino, Shield and battery, while the top would house the speaker. They’d be connected with a speaker wire and joined by wood hinges.</p>
+
 <p>Designing the innards was a delight. <a href="https://www.onshape.com">OnShape’s</a> UI is excellent and responsive. The constraint system makes a lot of sense, sketching on arbitrary surfaces and then extruding them is amazingly powerful. The Assembly View and Edit-in-Context feature made aligning elements between upper and lower clamshells a cinch. This included the speaker wire port and holes for the microswitch. I experimented with a variety of designs for fastening lid to container. Initially, I opted for ambitious <a href="https://markforged.com/blog/embedding-nuts-3d-printing/">embedded nut</a> designs, but ultimately went with a self-tapping (into plastic) approach using <a href="https://www.homedepot.com/b/Hardware-Fasteners-Screws/Internal-Hex/Flat/N-5yc1vZc2b0Z1z0sfp4Z1z0sgtn">flat head screws</a>. For fastening electronics to the plastic, I printed offsets and used nuts.</p>
+
 <p>After a few iterations of fastener tweaking, design adjustments, and measurement corrections, I had a top insert for housing the speaker, and a speaker grille to protect the speaker’s membrane, a bottom insert for housing the electronic core, and a cover to hide them. The <a href="https://github.com/borismus/toddler-music-box">STL files</a> are all in the GitHub repo. Here’s the result:</p>
-<p><img alt="Finished wooden musical box" src="final-disassembly.jpg" /></p>
+
+<p><img src="/toddler-music-box/final-disassembly.jpg" alt="Finished wooden musical box" /></p>
+
 <p>If you’re curious, the <a href="https://cad.onshape.com/documents/786c5f0b153cdd48f9b0f2f8/w/b4275650dc7aac134e30275f/e/4a850077e5ce208659a14aab">OnShape project is public</a>, you just need to make an OnShape account.</p>
+
 <h1>Toddler user testing</h1>
+
 <p>Once everything was in place, it was time for toddler testing! Luckily I have a very cute and curious user on retainer for the next 18 years. I asked her to open the box, and when she did, she began wiggling along to Cat Stevens’ “la-la-la”s. I’ve since corrected the poor initial music choice – the music box now plays a healthy milieu of classics from Soviet cartoons.</p>
+
 <p>A few other things became immediately clear as a result of user testing:</p>
+
 <ol>
 <li>My daughter was completely fascinated by the small speaker wire running between the top and bottom lid. She kept pulling at it, and eventually the wire came out enough to prevent the lid from closing fully.</li>
 <li>Predictably, she loves abusing the box in creative ways. At one point she was dancing on top of the box. Then she used it as a step stool to climb onto the couch. Later, she smashed the box so hard the microswitch toggled and restarted the music.</li>
 </ol>
+
 <p>In the current version, I’ve concealed the speaker wire in nylon casing and affixed it on both ends using zipties. This solves the first issue where the wire would prevent the box from closing. I’ve also padded the battery pack so that the contents of the box rattles less, hopefully making it less satisfying to shake and smash.</p>
+
 <p>I’m not sure how much battery life I’ll get from this construction, but it’s been running off the same triple AAA pack for about a week of sporadic play with maybe a couple of hours of being actually on. The fact that the device is fully off when the lid is closed (and not secretly draining batteries) makes me happy.</p>
+
 <p>Finally, massive thanks to Matthew Wilson and Jon Ward for their sage advice and friendly encouragement with this project. How might we imbue other beautiful everyday objects with magical abilities?</p>
+
 <p>Until next time.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

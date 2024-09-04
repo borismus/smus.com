@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .       If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
+  <meta name="description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .         If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/spectrogram-and-oscillator/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Spectrogram and oscillator" />
-  <meta name="twitter:description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .       If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
+  <meta name="twitter:description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .         If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/spectrogram-and-oscillator/" />
   <meta property="og:title" content="Spectrogram and oscillator" />
-  <meta property="og:description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .       If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
+  <meta property="og:description" content="A live-input spectrogram written using  Polymer  using the  Web Audio API .         If you're running Chrome or Firefox,  see it in action . Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also click anywhere on the page to turn on the oscillator. For a mind-blowing effect,  load this  in a parallel tab." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -61,35 +61,46 @@
     <div class='body'>
       <p>A live-input spectrogram written using <a href="http://polymer-project.org">Polymer</a> using the <a href="http://webaudioapi.com">Web
 Audio API</a>.</p>
-<p><img alt="Screenshot of spectrogram" src="screenshot.png" /></p>
+
+<p><img src="/spectrogram-and-oscillator/screenshot.png" alt="Screenshot of spectrogram" /></p>
+
 <p>If you're running Chrome or Firefox, <a href="http://borismus.github.io/spectrogram">see it in action</a>. Once the
 spectrogram is running, see if you can make a pattern with your speech
 or by whistling. You can also click anywhere on the page to turn on the
 oscillator. For a mind-blowing effect, <a href="https://www.youtube.com/watch?v=M9xMuPWAZW8&amp;t=5m30s">load this</a> in a parallel
 tab.</p>
+
 <!--more-->
 
 <h2>Why?</h2>
+
 <p>Having a spectrogram is incredibly handy for a lot of the work I've been
 doing recently. So a while ago, I built one that satisfies my needs. It
 runs in a full-screen, using the microphone input as the source.</p>
+
 <p>It also includes an oscillator, which plays a sine wave at the frequency
 of your pointer. It also shows you the frequency that it plays back, and
 plots a short buffer of pointer positions. This is handy for measuring
 internal latency:</p>
-<p><img alt="Latency estimation" src="latency.png" /></p>
+
+<p><img src="/spectrogram-and-oscillator/latency.png" alt="Latency estimation" /></p>
+
 <p>Having the oscillator built-in is also pretty fun. You can <a href="/spectrogram-and-oscillator/sounds/morse.wav">send morse
 code</a> (short short short, long long, short short long, short
 short short), <a href="/spectrogram-and-oscillator/sounds/radio.wav">scan for radio stations</a>, make 8-bit character
 <a href="/spectrogram-and-oscillator/sounds/sfx.wav">dying sound effects</a>, simulate <a href="/spectrogram-and-oscillator/sounds/ghosts.wav">aliens, ghosts and
 theremins</a>, and annoy <a href="/spectrogram-and-oscillator/sounds/dogs.wav">small, annoying dogs</a>.</p>
+
 <p>I use the tool mostly in Chrome, but it also works in Firefox.
 Unfortunately no other browser currently has both <code>getUserMedia</code> and Web
 Audio API support.</p>
+
 <h2>Configuration parameters</h2>
+
 <p>The following are HTML attributes of the <code>g-spectrogram</code> component. Many
 of them are also configurable via the spectrogram controls component,
 which shows up if the <code>controls</code> attribute is set to true.</p>
+
 <ul>
 <li><code>controls</code> (boolean): shows a config UI component.</li>
 <li><code>log</code> (boolean): enables y-log scale (linear by default).</li>
@@ -98,26 +109,36 @@ which shows up if the <code>controls</code> attribute is set to true.</p>
 <li><code>ticks</code> (number): how many y labels to show.</li>
 <li><code>color</code> (boolean): turns on color mode (grayscale by default).</li>
 <li><code>oscillator</code> (boolean): enables an oscillator overlay component. When
-  you click anywhere in the spectrogram, a sine wave plays corresponding
-  to the frequency you click on.</li>
+you click anywhere in the spectrogram, a sine wave plays corresponding
+to the frequency you click on.</li>
 </ul>
+
 <h2>Using the Polymer component</h2>
+
 <p>If you are inclined to embed this component somewhere, you can,
 since it's implemented in Polymer, which, by the way, is an
 awesome framework. Once you've <a href="http://www.polymer-project.org/docs/start/getting-the-code.html">gotten started</a>, here's
 the simplest possible version:</p>
+
 <pre><code>&lt;g-spectrogram/&gt;
 </code></pre>
+
 <p>Enable controls:</p>
+
 <pre><code>&lt;g-spectrogram controls&gt;&lt;/g-spectrogram&gt;
 </code></pre>
+
 <p>Pass parameters to the component:</p>
+
 <pre><code>&lt;g-spectrogram log labels ticks="10"&gt;&lt;/g-spectrogram&gt;
 </code></pre>
+
 <h2>Future work ideas</h2>
+
 <p>It would be great to add a few things to this tool. If you're interested
 in helping, submit your changes as a pull request <a href="https://github.com/borismus/spectrogram">on github</a>.
 Some ideas for things that can be done:</p>
+
 <ul>
 <li>Improved axis labeling.</li>
 <li>Make it work in mobile browsers.</li>
@@ -125,8 +146,9 @@ Some ideas for things that can be done:</p>
 <li>Loading audio data from a file.</li>
 <li>Zoom support.</li>
 <li>Higher precision FFT results (would require writing a custom FFT
-  rather than using the one built into Web Audio API.)</li>
+rather than using the one built into Web Audio API.)</li>
 </ul>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

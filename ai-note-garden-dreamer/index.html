@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.   In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+  <meta name="description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/ai-note-garden-dreamer/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="AI note garden: Dreamer, note collider" />
-  <meta name="twitter:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.   In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+  <meta name="twitter:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/ai-note-garden-dreamer/" />
   <meta property="og:title" content="AI note garden: Dreamer, note collider" />
-  <meta property="og:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.   In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
+  <meta property="og:description" content="The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories.  Matt Walker  describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.    In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,14 +60,21 @@
     <a href='/ai-note-garden-dreamer'><h1 class='title'>AI note garden: Dreamer, note collider</h1></a>
     <div class='body'>
       <p>The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories. <a href="https://www.goodreads.com/book/show/34466963-why-we-sleep">Matt Walker</a> describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.</p>
+
 <p>In this post, I describe my early attempt use GPT-3 to emulate this nightly synthesis. A python script takes two randomly selected notes from my note corpus, and tries to divine a connection between them. The results are often nonsensical and surreal, and sometimes funny.</p>
+
 <!--more-->
 
 <h1>How can an AI dreamer synthesize new connections?</h1>
+
 <p>Let's take two random notes and see if the collective wisdom contained within a large language model can generate something interesting based on the text content of each. Picking two notes at random is easy enough, but the two need to be combined somehow to ultimately create a string of input for GPT-3.</p>
+
 <p>The simplest imaginable thing of concatenating the two random notes together and seeing what GPT-3 spits out is a non-starter for several reasons. Firstly, GPT-3 is constrained in its input length. Secondly, GPT-3 is pretty susceptible to the order in which these prompts are presented. Since it generates a string to continue the provided text, the closer a word is to the end of the input, the more weight it is effectively given.</p>
+
 <h2>Multiple doses of GPT-3</h2>
+
 <p>We have a note corpus, and <a href="/ai-note-garden-summarizer">the power of summarization</a>. Broadly speaking, each note consists of the following:</p>
+
 <ul>
 <li>Name (<code>note.name</code>)</li>
 <li>Note body (<code>note.body</code>)</li>
@@ -75,19 +82,32 @@
 <li>Summary (<code>summary</code>)</li>
 <li>Summarized summary (<code>sumsum</code>)</li>
 </ul>
+
 <p>The goal is to build a prompt string that encourages GPT-3 to synthesize something interesting related to both notes, ideally written in a writing style that mimics the originals.</p>
+
 <p>Here's the best I've come up with so far (prompt engineers, please @-me):</p>
-<p><code>f'''{note1.name}: {shortbody1}
+
+<p><code>
+ f'''{note1.name}: {shortbody1}
  {note2.name}: {shortbody2}
  In summary: {sumsum2} and {sumsum1}.
- The connection between "{note1.name}" and "{note2.name}" is the following.'''</code></p>
+ The connection between "{note1.name}" and "{note2.name}" is the following.'''
+</code></p>
+
 <p>This python f-string contains excerpts of my own writing (<code>shortbody</code>), the summarized summary (<code>sumsum</code>), as well as both note names at the very end, to remind GPT-3 what we are after as explicitly as possible. I try to mix up the order so as to not bias too much towards one of the two notes.</p>
+
 <p>By having the verbatim text of the original notes, I gently nudge GPT-3 to produce output in a similar style.</p>
+
 <p>One parameter of these LLMs is called temperature, which is a proxy for how wild the output should be. I've cranked it up to close to its maximum value for more spicy results.</p>
+
 <h1>Results from living with AI note collider</h1>
+
 <p>Dreamer is now part of my <a href="/file-systems-for-thought/">System for Thought</a> suite, running nightly alongside <a href="/ai-note-garden-dreamer/">other</a> <a href="">AI gardeners</a>. It's been operational since late 2021, so I have had about a hundred examples of its output to casually peruse.</p>
+
 <p>Just seeing two random notes from the garden can a good nudge to remove a note that was temporary, spark a new connection, or create a new note. Sometimes it's fascinating to revisit an old shower thought that I'd long forgotten about.</p>
+
 <p>Dreamer's results are usually nonsensical, but sometimes surprisingly funny and surreal. Here are some of <a href="https://photos.app.goo.gl/oRTnemu2EiwMewm1A">my favorites</a>:</p>
+
 <table>
     <thead>
         <tr>
@@ -129,27 +149,38 @@
 <li>I liked that cooking was poetically described as a mix of UX and engineering that resulted in an "edible meal". Edible meals are my favorite kind. The "edible book" gave me pause, and made me question the AI's taste.</li>
 <li>I enjoyed the border guard's description of Canada's broad variety of kayaks available for the day touring!</li>
 </ol>
+
 <h1>Failure modes and ideas for improvement</h1>
+
 <p>Most of Dreamer's results are bad in a variety of ways. Here are a few of them:</p>
+
 <ol>
 <li><strong>Errors accrue</strong>: My current approach relies on running GPT-3 several times for summarization. Each of these invocations blurs the idea a little bit, and then a little bit more. The resulting soup is then blurred again at collision time. If I was more diligent about <a class="wiki" href="https://z3.ca/Bottom_Line_Up_Front_(BLUF)_note_taking_style">Bottom Line Up Front (BLUF) note taking style</a> in my note corpus, summarization might not be necessary to fit within the token limits.</li>
 <li><strong>One of the notes is ignored</strong>: Despite my efforts, GPT-3 still often overindexes on one of the notes and completely ignores the other.</li>
 <li><strong>False information</strong>: There is no attempt at grounding output in truth. Generated results often include alternative facts, to put it mildly.</li>
 <li><strong>The notes are truly unrelated</strong>: This happens quite often, since my notes are written on a broad variety of topics in a variety of styles. Some are Evergreen notes, others are lists of quotes, others indices that link a certain topic together. Others are notes about my day-to-day life, dream logs, etc.</li>
 </ol>
+
 <p>One March night, Dreamer attempted to combine my aspirational lifestyle notes on building a camper van with historical research notes about the "high medieval power shift from lords to peasants and kings". This resulted in the following:</p>
+
 <blockquote>
-<p>One weekend when we’re all together in Idaho, we're going drive Nic’s Audi A4 FSi Quattro to Guernsey together and find avocados on an island called Herm. That’s southern France. It’s on the English Channel. Also where I started! Overall happy with the car and the weekend. Felt good to run an out of town car in the snow, and liked the road.</p>
+  <p>One weekend when we’re all together in Idaho, we're going drive Nic’s Audi A4 FSi Quattro to Guernsey together and find avocados on an island called Herm. That’s southern France. It’s on the English Channel. Also where I started! Overall happy with the car and the weekend. Felt good to run an out of town car in the snow, and liked the road.</p>
 </blockquote>
+
 <p>Drivel? Yes, let me count the ways:</p>
+
 <ul>
 <li>You can't drive to an island.</li>
 <li>The English Channel is not near southern France.</li>
 <li>Herm is not a very good place to find avocados.</li>
 </ul>
+
 <p>But this example is still illustrative because you can see how GPT-3 incorporated bits of both notes. A car is close enough to a camper van. Lords and kings and peasants sound like they are vaguely related to the Norman conquest, hence the English Channel, Herm, and France.</p>
+
 <p>Finding a meaningful connection in the above example is pretty difficult, even for human intelligence. Is it really fair to blame an AI for failing at this task?</p>
+
 <p>It often takes an oneirocritic to extract insight out of a cryptic dream. Cormac McCarthy <a href="https://nautil.us/the-kekul-problem-6082/">writes eloquently</a> about this subject. If we consider <a href="https://read.fluxcollective.org/p/64">LLMs as a muse</a>, perhaps this cryptic output is good enough?</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
