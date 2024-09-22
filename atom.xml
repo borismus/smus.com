@@ -5,8 +5,81 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-09-04T16:33:42-00:00</updated>
+  <updated>2024-09-22T09:33:39-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Neurobiology of We by Daniel Siegel</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/neurobiology-of-we-by-daniel-siegel"/>
+    
+    <updated>2024-09-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/neurobiology-of-we-by-daniel-siegel</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This book came to my attention because of S's interest in "The Developing Mind", Daniel J. Siegel's magnum opus. Some of the ideas related to memory integration and childhood attachment theory sounded interesting enough to delve into, but the book itself was too long. Luckily Siegel is a prolific writer, producing many popularizations of his research for a variety of audiences, from parents to mindfulness practitioners. I picked up "Neurobiology of We" because it was short and relatively highly rated.</p>
+
+<p>The book has many new-to-me ideas like the emphasis on "memory integration", as well as one way to distinguish between mind and brain. It also has plenty of things that are very speculative and don't seem especially well grounded in science. Let me be clear though; I'm familiar and interested in "dancing with woo" (Entangled Life, Every Life is on Fire. etc). In this case, however, the woo is enmeshed with a bunch of science: regions of the brain, studies which probably would not replicate, etc. I like my woo pure and unadulterated.</p>
+
+<h3>Integration of memories</h3>
+
+<ul>
+<li>Different kinds of memory:
+<ol>
+<li>Implicit memories, which you don’t really put into words. Anything before 18 months falls into this bucket, but new implicit memories can also be formed at any age.</li>
+<li>Explicit memories which are associated with symbolic understanding.</li>
+<li>Autobiographical memories of certain memorable events.</li>
+<li>Narratives where the subject synthesizes multiple autobiographical memories and then generalizes the pattern.</li>
+</ol></li>
+<li>Different kinds of memories (see above) get integrated in the hippocampus. (Also see <a class="wiki" href="https://z3.ca/Sleep_has_a_profound_effect_on_memory_and_learning">Sleep has a profound effect on memory and learning</a>)</li>
+<li>Under great stress, the hippocampus shuts down and so the connections between implicit and explicit memories are no longer clear. In extreme cases, people can confuse reality for memory, leading to PTSD-induced replays of traumatic events.</li>
+<li>Unintegrated implicit memories are potentially psychologically harmful.
+<ul>
+<li>A motivating example from the book: one of your kids is favoring your wife and not you. You don't realize it but it recalls in you an implicit memory of being favored by your mother over your sister as a young child. Whenever your kid calls for mama, you physically tighten and have a giant mood change, and you don't even know why. Since you haven’t integrated this memory and with something explicit and haven't thought about it and dealt with it then it’s just a free floating implicit memory. But if you’ve integrated then you can step back, find space, and realize what’s happening and perform a self intervention to avoid your extreme reaction.</li>
+<li>(My analogy: in chemistry, free radicals are highly reactive atoms, molecules, and ions containing unpaired electrons. They are often created as a byproduct of metabolism in the body, and their instability causes to them to spontaneously react with other entities in the body and cause health problems. Similarly, unintegrated implicit memories are formed as a result of living one's life with insufficient reflection. Their volatility can appear spontaneously if one encounters a situation triggering an unintegrated implicit memory, causing mental health problems.)</li>
+</ul></li>
+</ul>
+
+<h3>Distinction between mind and brain</h3>
+
+<ul>
+<li>I liked the hub-and-spoke model where the mind sits inside an inner hub and regulates the activity happening on the exterior ring. The two are connected by spokes. This is a useful mental model for the mind vs brain distinction, and lends itself to mindful awareness, where the calm and balanced interior mind watches the chaos of the exterior world as reflected to it by the nervous system.</li>
+<li>The brain here is broadly construed as the entire nervous system, including all parts of the brain as well as all neurons throughout the entire body.</li>
+</ul>
+
+<h3>Intriguing but woo leads</h3>
+
+<ul>
+<li>Fight, flight, and <strong>freeze as responses</strong>?
+<ul>
+<li>"Fight-or-flight" was originally formulated by Walter Bradford Cannon as a sympathetic nervous system response to threats preparing an animal for fighting or fleeing. Siegel applies this to humans and adds the "freeze" response, in which the subject becomes completely overwhelmed and begins to feel completely stuck.</li>
+</ul></li>
+<li>Intuition stems from neurons coming from the heart and from the stomach?
+<ul>
+<li>Could it be that gut feelings actually do stem from the gut?</li>
+<li>I read a paper on this called "Gut Signals and Gut Feelings: Science at the Interface of Data and Beliefs", and the current scientific answer is basically "no".</li>
+<li>That said, there is a gut-brain-gut connection and there are well documented studies that show that stress affects digestion, for example IBS is likely stress-related.</li>
+<li>The article does caution: "The gut-brain-gut communication network is part of the interoceptive circuits which enable the brain to sense and interpret the physiological condition in the body and regulate its autonomic and mental activity accordingly. While this relationship has become an important research area in neuroscience, it also provides an example where solid science is at risk going uncritical and fostering unproven conceptions and expectations."
+<ul>
+<li>For example, intestinal 5-HT (serotonin) is unlikely to contribute to the “feel-good” action of cerebral 5-HT because it does not pass the blood-brain barrier. To the contrary, an excess of 5-HT in the gut can elicit nausea.</li>
+</ul></li>
+</ul></li>
+<li>Integration of all the things?
+<ul>
+<li>At the start of the book, Siegel draws a triangle between mind, brain, and ...people. Hence the neurobiology of <strong>WE</strong>. He frames the whole endeavor as a series of information flows and claims to take an information theory perspective (ooh!)</li>
+<li>Unfortunately I was unable to any information theory concepts or analogies for any of the subsequent content. Although information is passed between mind and brain, and between brain and other people, I don't think this is enough to call it "information theory".</li>
+<li>It feels to be like brain and mind are a useful dyad, but bringing in "people" into the mix felt out of place. One specific critique of the triad is the murky connection between "mind" and "people". Doesn't that necessarily go through "brain"?</li>
+</ul></li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Entangled Life by Martin Sheldrake</title>
@@ -4086,40 +4159,6 @@ Go on a limb.
 <li>Check out Vassiliy Grossman. In my mind, at least, he seems to be in the same category as Arendt: bearing witness. Novels that might be worthwhile: Life and Fate, and Everything Flows.</li>
 <li>Read more Анна Ахматова poems.</li>
 </ul>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Parables by Franz Kafka</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/parables-by-franz-kafka"/>
-    
-    <updated>2022-07-07T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/parables-by-franz-kafka</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Many misses, for sure. But the hits I enjoyed were worthwhile:</p>
-
-<p><strong>Imperial message</strong>: a great image of an emperor so important and surrounded by such a large number of people that a messenger cannot possibly escape his orbit. A message delivered to the second person recipient will never be delivered. Bureaucracies. Perhaps solar systems. Your own mind. Sometimes there is no escape.</p>
-
-<p><strong>Tower of Babel and The City Coat of Arms</strong>: Cute vignette of the construction of the tower delayed because of peoples insistence that progress is imminent, and that if we just wait a bit the whole project will be done much faster. So why bother starting? As generations pass, the nations living in the city planning to build the tower begin squabbling. Towards the end, a prophecy emerges that the lord will crush the city with five successive blows from a divine fist. Hence the fist on the coat of arms of the city.</p>
-
-<p>A bizarre take on Tower of Babel, featuring bureaucratic dysfunction and learned helplessness.</p>
-
-<p><strong>Before the law</strong>: A man seeks entrance into The Law (I think the Torah version), but is prevented from entering by a guard because it is not time yet. The two exchange words and the man decides to wait until the time will come. He waits for many years, and the two have occasional conversations revealing that beyond this door lie more doors, with more guards. The man is undeterred and continues to wait. Near death, he gathers up the courage to ask his most pressing questions. After answering them, the guard announces he will be closing the door.</p>
-
-<p>This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free?</p>
-
-<p>A fascinating, self-referential, format. I see the man as a stand-in for K., and the priest as a stand-in for the guard. Where does the reader fit? What about the author? Reminds me a lot of Borges, and a little bit of Ted Chiang. (I’d love to do a group reading session around a story like this. I miss my Multiplayer Essay concept.)</p>
-
-<p><strong>Poseidon</strong>: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely.</p>
 
 
         
