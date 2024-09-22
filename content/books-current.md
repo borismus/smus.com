@@ -4,6 +4,47 @@ class: split
 type: book
 
 
+Neurobiology of We by Daniel Siegel
+===
+rating: no
+posted: Sep 22, 2024
+
+This book came to my attention because of S's interest in "The Developing Mind", Daniel J. Siegel's magnum opus. Some of the ideas related to memory integration and childhood attachment theory sounded interesting enough to delve into, but the book itself was too long. Luckily Siegel is a prolific writer, producing many popularizations of his research for a variety of audiences, from parents to mindfulness practitioners. I picked up "Neurobiology of We" because it was short and relatively highly rated.
+
+The book has many new-to-me ideas like the emphasis on "memory integration", as well as one way to distinguish between mind and brain. It also has plenty of things that are very speculative and don't seem especially well grounded in science. Let me be clear though; I'm familiar and interested in "dancing with woo" (Entangled Life, Every Life is on Fire. etc). In this case, however, the woo is enmeshed with a bunch of science: regions of the brain, studies which probably would not replicate, etc. I like my woo pure and unadulterated.
+
+### Integration of memories
+- Different kinds of memory:
+	1. Implicit memories, which you don’t really put into words. Anything before 18 months falls into this bucket, but new implicit memories can also be formed at any age.
+	2. Explicit memories which are associated with symbolic understanding.
+	3. Autobiographical memories of certain memorable events.
+	4. Narratives where the subject synthesizes multiple autobiographical memories and then generalizes the pattern.
+- Different kinds of memories (see above) get integrated in the hippocampus. (Also see [[Sleep has a profound effect on memory and learning]])
+- Under great stress, the hippocampus shuts down and so the connections between implicit and explicit memories are no longer clear. In extreme cases, people can confuse reality for memory, leading to PTSD-induced replays of traumatic events.
+- Unintegrated implicit memories are potentially psychologically harmful.
+	- A motivating example from the book: one of your kids is favoring your wife and not you. You don't realize it but it recalls in you an implicit memory of being favored by your mother over your sister as a young child. Whenever your kid calls for mama, you physically tighten and have a giant mood change, and you don't even know why. Since you haven’t integrated this memory and with something explicit and haven't thought about it and dealt with it then it’s just a free floating implicit memory. But if you’ve integrated then you can step back, find space, and realize what’s happening and perform a self intervention to avoid your extreme reaction.
+	- (My analogy: in chemistry, free radicals are highly reactive atoms, molecules, and ions containing unpaired electrons. They are often created as a byproduct of metabolism in the body, and their instability causes to them to spontaneously react with other entities in the body and cause health problems. Similarly, unintegrated implicit memories are formed as a result of living one's life with insufficient reflection. Their volatility can appear spontaneously if one encounters a situation triggering an unintegrated implicit memory, causing mental health problems.)
+
+### Distinction between mind and brain
+- I liked the hub-and-spoke model where the mind sits inside an inner hub and regulates the activity happening on the exterior ring. The two are connected by spokes. This is a useful mental model for the mind vs brain distinction, and lends itself to mindful awareness, where the calm and balanced interior mind watches the chaos of the exterior world as reflected to it by the nervous system.
+- The brain here is broadly construed as the entire nervous system, including all parts of the brain as well as all neurons throughout the entire body.
+
+### Intriguing but woo leads
+- Fight, flight, and **freeze as responses**?
+	- "Fight-or-flight" was originally formulated by Walter Bradford Cannon as a sympathetic nervous system response to threats preparing an animal for fighting or fleeing. Siegel applies this to humans and adds the "freeze" response, in which the subject becomes completely overwhelmed and begins to feel completely stuck.
+- Intuition stems from neurons coming from the heart and from the stomach?
+	- Could it be that gut feelings actually do stem from the gut?
+	- I read a paper on this called "Gut Signals and Gut Feelings: Science at the Interface of Data and Beliefs", and the current scientific answer is basically "no".
+	- That said, there is a gut-brain-gut connection and there are well documented studies that show that stress affects digestion, for example IBS is likely stress-related.
+	- The article does caution: "The gut-brain-gut communication network is part of the interoceptive circuits which enable the brain to sense and interpret the physiological condition in the body and regulate its autonomic and mental activity accordingly. While this relationship has become an important research area in neuroscience, it also provides an example where solid science is at risk going uncritical and fostering unproven conceptions and expectations."
+		- For example, intestinal 5-HT (serotonin) is unlikely to contribute to the “feel-good” action of cerebral 5-HT because it does not pass the blood-brain barrier. To the contrary, an excess of 5-HT in the gut can elicit nausea.
+- Integration of all the things?
+	- At the start of the book, Siegel draws a triangle between mind, brain, and ...people. Hence the neurobiology of **WE**. He frames the whole endeavor as a series of information flows and claims to take an information theory perspective (ooh!)
+	- Unfortunately I was unable to any information theory concepts or analogies for any of the subsequent content. Although information is passed between mind and brain, and between brain and other people, I don't think this is enough to call it "information theory".
+	- It feels to be like brain and mind are a useful dyad, but bringing in "people" into the mix felt out of place. One specific critique of the triad is the murky connection between "mind" and "people". Doesn't that necessarily go through "brain"?
+
+
+
 Entangled Life by Martin Sheldrake
 ===
 posted: Aug 28, 2024
