@@ -4,6 +4,43 @@ class: split
 type: book
 
 
+Absolutely On Music by Haruki Murakami
+===
+rating: yes
+posted: Oct 3, 2024
+cover: /assets/book-covers/absolutely-on-music.jpg
+
+This book situates the reader as a fly on the wall during multiple personal discussion between Haruki Murakami and his friend Seiji Ozawa. Ozawa was an accomplished classical conductor who was the music director of many world-class symphonies including SF, Toronto, and Boston. I didn't know much about Ozawa before reading the book, but after reading and listening, I liked his interpretations. Overall worth it for me, but mostly as a forcing function to listen to more music. Mahler's first Symphony, and Ozawa's rendition of it really grew on me.
+
+It is often said that “writing about music is like dancing about architecture.” My remedy to this critique was to listen to the music being discussed in parallel to reading the book. Murakami did provide time codes for the pieces being discussed so that the reader could follow along. But I would have benefitted from having the specific recordings they discussed up-front, rather than scouring for them online, and only realizing that the Murakami provided a website with the recordings under discussion at the end of the book.
+
+I found listening-while-reading clunky. Coordinating the two activities detracted from both. Perhaps a podcast would be a better medium to bring the consumer into the Ozawa-Murakami interview setting? Song Exploder is the only music podcast I've listened to, but now I've found a couple of others I'm curious about (not an endorsement, since I haven't listened yet):
+
+- Embrace Everything: The World of Gustav Mahler
+- Sticky Notes with Joshua Weilerstein
+
+I was slightly annoyed at Murakami for flexing that he’s got these rare recordings, but he rights himself by including an aside in which Ozawa mocks excessive record collectors. Also annoying was Murakami's performative redaction: “unfortunately can’t commit anecdotes to print”. Lastly, I found the dialog to be too much about famous musical personas rather than the music itself. One example is the idea of "Ma" — the silence between the notes which make the music. This promising concept made multiple appearances in discussing Gould's unorthodox timings as well as Uchida's style, but remained a shallow discussion focused on the performers.
+
+Ozawa's observations while living in Vienna resonated with my own trip. During that week, my mom and brother visited many art museums too. There I discovered Schiele's art, which left a huge impression on me, and I was surprised he made the cut. But it's true that seeing both the art and the music together really helped me synthesize. Quoting Ozawa now:
+
+> when I first saw the work of Klimt and Egon Schiele, they came as a real shock to me. Since then, I've made it a point to go to art museums. When you look at the art of the time, you understand something about the music. Take Mahler's music: it comes from the breakdown of traditional German music. You get a real sense of that breakdown from the art, and you can tell it was not some half-baked thing.
+
+It was fascinating to be a fly on the wall as two Japanese men discuss cultural legacies of Jewish musicians, especially Mahler. Discussing the klezmer part of Mahler's first symphony (3rd mvt), Ozawa says:
+
+> And on top of that, he [Mahler] was a Jew. But come to think of it, the city of Vienna gained a lot of its vitality by taking in culture from its surroundings. You can see this in the biographies of Rubinstein and Rudolf Serkin. Viewing it this way, it's easy to see why popular songs and Jewish klezmer melodies pop up in Mahler's music all of a sudden, mixing into his serious musicality and aesthetic melodies like intruders. This diverse quality is one of the real attractions of Mahler's music. If he had been born and raised in Vienna, I doubt that his music would have turned out that way.
+
+To which Murakami replies:
+
+> All the great creators of that period —Kafka, Mahler, Proust—were Jews. They were shaking up the established cultural structure from the periphery. In that sense, it was important that Mahler was a Jew from the countryside. I felt that strongly when I was traveling around Bohemia.
+
+Overall, I didn't find too many other deep insights in this book but I enjoyed the music quite a bit, especially the initial discussion of Beethoven's third piano concerto and Mahler first symphony. At some point in the conversation, Ozawa and Murakami discuss Japanese jazz musicians. Here are some names they dropped:
+
+- Junko Onishi
+- Toshiko Akiyoshi
+- Shin’ichi Mori
+- Keiko Fuji
+
+
 Neurobiology of We by Daniel Siegel
 ===
 rating: no
