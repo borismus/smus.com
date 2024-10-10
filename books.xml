@@ -5,8 +5,66 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2024-09-22T09:33:39-00:00</updated>
+  <updated>2024-10-09T18:07:09-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Absolutely On Music by Haruki Murakami</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/absolutely-on-music-by-haruki-murakami"/>
+    
+    <updated>2024-10-03T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/absolutely-on-music-by-haruki-murakami</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This book situates the reader as a fly on the wall during multiple personal discussion between Haruki Murakami and his friend Seiji Ozawa. Ozawa was an accomplished classical conductor who was the music director of many world-class symphonies including SF, Toronto, and Boston. I didn't know much about Ozawa before reading the book, but after reading and listening, I liked his interpretations. Overall worth it for me, but mostly as a forcing function to listen to more music. Mahler's first Symphony, and Ozawa's rendition of it really grew on me.</p>
+
+<p>It is often said that “writing about music is like dancing about architecture.” My remedy to this critique was to listen to the music being discussed in parallel to reading the book. Murakami did provide time codes for the pieces being discussed so that the reader could follow along. But I would have benefitted from having the specific recordings they discussed up-front, rather than scouring for them online, and only realizing that the Murakami provided a website with the recordings under discussion at the end of the book.</p>
+
+<p>I found listening-while-reading clunky. Coordinating the two activities detracted from both. Perhaps a podcast would be a better medium to bring the consumer into the Ozawa-Murakami interview setting? Song Exploder is the only music podcast I've listened to, but now I've found a couple of others I'm curious about (not an endorsement, since I haven't listened yet):</p>
+
+<ul>
+<li>Embrace Everything: The World of Gustav Mahler</li>
+<li>Sticky Notes with Joshua Weilerstein</li>
+</ul>
+
+<p>I was slightly annoyed at Murakami for flexing that he’s got these rare recordings, but he rights himself by including an aside in which Ozawa mocks excessive record collectors. Also annoying was Murakami's performative redaction: “unfortunately can’t commit anecdotes to print”. Lastly, I found the dialog to be too much about famous musical personas rather than the music itself. One example is the idea of "Ma" — the silence between the notes which make the music. This promising concept made multiple appearances in discussing Gould's unorthodox timings as well as Uchida's style, but remained a shallow discussion focused on the performers.</p>
+
+<p>Ozawa's observations while living in Vienna resonated with my own trip. During that week, my mom and brother visited many art museums too. There I discovered Schiele's art, which left a huge impression on me, and I was surprised he made the cut. But it's true that seeing both the art and the music together really helped me synthesize. Quoting Ozawa now:</p>
+
+<blockquote>
+  <p>when I first saw the work of Klimt and Egon Schiele, they came as a real shock to me. Since then, I've made it a point to go to art museums. When you look at the art of the time, you understand something about the music. Take Mahler's music: it comes from the breakdown of traditional German music. You get a real sense of that breakdown from the art, and you can tell it was not some half-baked thing.</p>
+</blockquote>
+
+<p>It was fascinating to be a fly on the wall as two Japanese men discuss cultural legacies of Jewish musicians, especially Mahler. Discussing the klezmer part of Mahler's first symphony (3rd mvt), Ozawa says:</p>
+
+<blockquote>
+  <p>And on top of that, he [Mahler] was a Jew. But come to think of it, the city of Vienna gained a lot of its vitality by taking in culture from its surroundings. You can see this in the biographies of Rubinstein and Rudolf Serkin. Viewing it this way, it's easy to see why popular songs and Jewish klezmer melodies pop up in Mahler's music all of a sudden, mixing into his serious musicality and aesthetic melodies like intruders. This diverse quality is one of the real attractions of Mahler's music. If he had been born and raised in Vienna, I doubt that his music would have turned out that way.</p>
+</blockquote>
+
+<p>To which Murakami replies:</p>
+
+<blockquote>
+  <p>All the great creators of that period —Kafka, Mahler, Proust—were Jews. They were shaking up the established cultural structure from the periphery. In that sense, it was important that Mahler was a Jew from the countryside. I felt that strongly when I was traveling around Bohemia.</p>
+</blockquote>
+
+<p>Overall, I didn't find too many other deep insights in this book but I enjoyed the music quite a bit, especially the initial discussion of Beethoven's third piano concerto and Mahler first symphony. At some point in the conversation, Ozawa and Murakami discuss Japanese jazz musicians. Here are some names they dropped:</p>
+
+<ul>
+<li>Junko Onishi</li>
+<li>Toshiko Akiyoshi</li>
+<li>Shin’ichi Mori</li>
+<li>Keiko Fuji</li>
+</ul>
+
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Neurobiology of We by Daniel Siegel</title>
@@ -82,13 +140,13 @@
   </entry>
   
   <entry>
-    <title>Entangled Life by Martin Sheldrake</title>
+    <title>Entangled Life by Merlin Sheldrake</title>
     <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/entangled-life-by-martin-sheldrake"/>
+    <link href="https://smus.com/books/entangled-life-by-merlin-sheldrake"/>
     
     <updated>2024-08-28T09:00:00-00:00</updated>
     
-    <id>https://smus.com/books/entangled-life-by-martin-sheldrake</id>
+    <id>https://smus.com/books/entangled-life-by-merlin-sheldrake</id>
     <content type="html">
       <![CDATA[
       <div>
@@ -4895,54 +4953,6 @@ have not yet read).</p>
 <li>They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses.</li>
 <li>They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”</li>
 </ol>
-
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Never Let Me Go by Kazuo Ishiguro</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/never-let-me-go-by-kazuo-ishiguro"/>
-    
-    <updated>2021-08-30T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/never-let-me-go-by-kazuo-ishiguro</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I really liked it. Author does a great job conveying little nuances of relationships. I feel similarly about past life and previous relationships that could have gone so differently.</p>
-
-<p>At any rate it’s great writing and vivid character development. The love triangle is extremely strong. But the world building is pretty weak. How can the world of the "students" and the world of the rest of the population be so hermetic? They have full freedom to go anywhere, yet there is no interaction. On this topic, I find myself actively suspending disbelief.</p>
-
-<p>As a teacher, I guess there are three possible scenarios:</p>
-
-<ol>
-<li>Hide the truth from clones, raise them like wolves, harvest their organs. (Ground truth universe)</li>
-<li>Hide the truth from clone-students, give them a decent human childhood, harvest their organs. (Hailsham's approach)</li>
-<li>Tell students the whole story which would deprive them of their childhood, but give them a chance to potentially empower them to change the system somehow. (Lucy's approach)</li>
-</ol>
-
-<p>I kept waiting for Tommy to attempt to change the system during his fourth donation. Ishiguro does some nice false foreshadowing, and when Tommy caves without a fight, the effect is one of resignation.</p>
-
-<p>Systemic change is hard to achieve.</p>
-
-<p>Everyone is born into some station and feels like they must do what it is they are born to do, rarely questioning or acting on their impulses. Tommy's river analogy comes to mind. People drift down this river of least resistance without much agency. If you were born as a student-clone, what would you do? Very likely, live the life allotted to you, in the best case that of a Hailsham student.</p>
-
-<h1>We are in Hailsham</h1>
-
-<p>The fact that the students can't have children of their own is the tragic part of this whole piece. In their lives, as in ours, death is guaranteed. In theirs, it becomes inevitable after the fourth donation, in ours after age 80 or 90. But the finality of death without children is such that all is lost. This is not really a well-developed theme in the book, more of a background take. Kathy makes it explicitly through the song.</p>
-
-<p>I thought that Kazuo Ishiguro invented "Never Let Me Go" the song, and but it turns out that <a href="https://www.youtube.com/watch?v=4UX6tzE7P44">the song is real</a>, the cover is real, and Judy Bridgewater is real. Honestly, this is disappointing. Previously, I wrote:</p>
-
-<blockquote>
-  <p>Nice use of the invented song, and vividly described. It serves as a really touching tearjerker.</p>
-</blockquote>
-
-<p>I found the ending to be a little bit drawn out. For example I thought that the book would end at the scene where Tommy and Kathy go and talk to Madame. A lot of the stuff after that was a little bit less clear and might have just been possible to cut.</p>
 
 
         
