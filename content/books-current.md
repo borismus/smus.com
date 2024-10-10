@@ -82,7 +82,7 @@ The book has many new-to-me ideas like the emphasis on "memory integration", as 
 
 
 
-Entangled Life by Martin Sheldrake
+Entangled Life by Merlin Sheldrake
 ===
 posted: Aug 28, 2024
 rating: yes
