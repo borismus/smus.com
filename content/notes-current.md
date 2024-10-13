@@ -4,6 +4,25 @@ type: note
 class: split
 
 
+Seattle Public Schools accountability problem
+===
+posted: Oct 12, 2024
+
+Imagine if Microsoft's company guidance was that it would make $100 billion this quarter. The end of the quarter rolls along and as it turns out, they only made $10 billion. This surprising result would lead to a market selloff frenzy. Microsoft's stock would take such a beating that surely their board would demand their CEO's resignation for gross mismanagement.
+
+In contrast, Seattle Public Schools (SPS) has missed their targets comparably. The school district has not been held accountable by the school board. In 2019, SPS declared their first [top-line goal](https://www.seattleschools.org/about/school-board/student-outcomes-focused-governance/) was as follows:
+
+> The percentage of Black boys who achieve English Language Arts proficiency or higher on the 3rd grade Smarter Balanced Assessment will increase from 28% in June 2019, to 70% in June 2024.
+
+June 2024 has come and gone, and this metric has moved from 28% to 32%. This is a mere 4% difference; a far cry from the 40% required to meet their self-determined goal. For this objectively terrible performance, the school board gave Mr. Jones a raise and lauded him for being “a strong leader for racial equity and educational justice.”
+
+The situation is even worse than this comparison to big tech reveals. When Microsoft misses its goals, the victims are also the most capable of having righted the ship. Also, the damage is limited: the CEO and former employees will find new jobs, and shareholders will make better investments next time. In the case of a school district, the victims are innocent children who had no hand in the matter, and the impact on their life is profound. In short, our children's education is being undermined by shortsighted, unaccountable adults.
+
+It's time for the school board to do their job and hold school district executives accountable for failing to meet expectations. It's time to set better, more realistic goals, and it's time to achieve them.
+
+> "And I'm sorry, Mr. Jones... It's time" — Ben Folds
+
+
 Nine Links for Fall 2023
 ===
 posted: Jan 8, 2024
