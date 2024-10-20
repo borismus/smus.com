@@ -4,6 +4,45 @@ class: split
 type: book
 
 
+When We Cease to Understand the World by Benjamín Labatut
+===
+rating: yes
+posted: Oct 20, 2024
+cover: /assets/book-covers/when-we-cease-to-understand-the-world.jpg
+
+Labatut's work is a collection of stories strike an unusual balance between fiction and non-fiction. More than historical fiction, these stories are well researched and deeply grounded in science, and the lives of famous scientists. But their lives are subtly embellished, biographical gaps filled, and their personalities augmented in a way that makes their stories more relatable and engaging. What these men have in common is that they stumble in the dark on the fringes of the known, and grapple with the second and third order effects of their work.
+
+While reading the book, I often could not believe the words on the page. What is true and what is not true? Did Fritz Haber's wife really commit suicide in protest of his invention and use of chlorine gas during World War 1? Was Schrödinger a creepy pedophile that fell in love with an ethereal Tuberculosis-infected 14 year old girl? Did Heisenberg really make his great discoveries after a terrible allergic reaction led him to a hotel in Heligoland, where he baffled the other guests by reciting Goethe poems on repeat?
+
+Whenever I fact checked Labatut's narratives, I was surprised to learn that broadly speaking, the facts of the matter were true. That said, I suspect the details of the stories, such as Heisenberg's reciting Hafiz inspired poems of Goethe from the West-Eastern Divan, disturbing the other guests, and the details of Schrödinger's Absinthe-fuelled hallucinations are unverifiable and may be fabricated to make the stories more compelling.
+
+My favorite was the first story "Prussian Blue", perhaps because of the surprising, broad-ranging, far-reaching connections made, from dyes to poisons, to chemical weapons to synthetic nitrogen, to dramatic victory celebrations and suicides. Imagine a narrative woven out of these loosely connected facts, masterfully crafted into one single braid:
+
+- Humans have long pursued beauty, and the wide variety of bright colors we have at our disposal today is a recent phenomenon.
+- In the 18th century, tailors turned to science to find a bright blue or a bright green, and there were very surprising second order effects of these efforts.
+	- [Scheele discovered](https://invention.cards/chlorine-oxygen) a beautiful bright green hue known as Scheele's Green, which became all the rage in high fashion. Napoleon loved the color, and when he was sent to exile on Saint Helena, he painted his quarters in it. Unfortunately it was an arsenic based paint, a cupric hydrogen arsenite which slowly killed him (stomach cancer).
+	- Cyanide was discovered by accident when Prussian blue was mixed with a silver spoon, and it reacted to create the poisonous substance.
+- Fritz Haber was a Chemist that built upon the second order color-related discoveries. He saved millions from hunger with his synthesis of ammonia while killing thousands with his poison gases.
+	- During World War 1, Fritz Haber first proposed the use of the heavier-than-air chlorine gas as a weapon to break the trench deadlock.
+	- This gave Germans a battlefield advantage and extended the war, leading to a prolonged war and extended draft — one that recruited the initially pacifistic Hitler into the ranks.
+	- It also horrified his wife, one of the first women in Germany to obtain a PhD in Chemistry. In fact, on the eve of celebrating Haber's battlefield victory, she committed suicide in protest of the atrocities done by her husband's invention, leaving behind a young son.
+- Haber was also involved in delousing efforts in the interwar years using a Cyanide-based gas.
+	- This work was later used (without his direct involvement) to develop the Cyanide-based Zyklon B pesticide used for the killing of more than 1 million Jews in the Holocaust.
+	- Haber was a German nationalist. He was born Jewish but converted to Christianity at age 25.
+- Nitrogen is required for fertilizer, but was historically hard to find.
+	- Bones had been a great source of nitrogen. Bones and guano. And also a good source of “bone black”, the darkest black pigment known at the time.
+	- Haber invented the [Haber Process](https://invention.cards/haber-process), a way to synthesize Nitrogen from the atmosphere, a process that was [later industrialized](https://invention.cards/coal-hydrogenation).
+	- This process is so instrumental to supporting modern population that more than half of the nitrogen atoms in our bodies come from it.
+
+This is just one of several stories found in the book. Schwartzchild and Grothendieck were also great vignettes. Honestly I found the titular story to be weakest, maybe because my understanding of quantum mechanics is so murky.
+
+It took me some time to come to terms with the format of the book. What connects these disparate stories? In all cases, you have flawed humans toying with science and technology beyond their grasp, with significant second order effects that nobody can predict, leading to a world that is harsh, unintuitive, and confusing.
+
+This was clarified with a concluding story, The Night Gardener, which I thought aimed to bring all the stories together under one overall thesis, but ultimately didn't quite work. I thought Labatut was going to integrate across a lot more of the short stories, but this extended synthesis didn't really happen.
+
+Still this book was well worth my time. It's highly original, only slightly reminding me of [Red Plenty by Francis Spufford](/books/red-plenty-by-francis-spufford) in the way it straddles fiction and non. Thanks for the recommendation, KO!
+
+
 Absolutely On Music by Haruki Murakami
 ===
 rating: yes
