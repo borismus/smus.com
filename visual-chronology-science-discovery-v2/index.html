@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:        And some major improvements vis-à-vis the original version:      Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.      In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
+  <meta name="description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:       And some major improvements vis-à-vis the original version:     Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.     In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/visual-chronology-science-discovery-v2/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Visual Chronology of Science & Discovery 2.0" />
-  <meta name="twitter:description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:        And some major improvements vis-à-vis the original version:      Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.      In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
+  <meta name="twitter:description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:       And some major improvements vis-à-vis the original version:     Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.     In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/visual-chronology-science-discovery-v2/" />
   <meta property="og:title" content="Visual Chronology of Science & Discovery 2.0" />
-  <meta property="og:description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:        And some major improvements vis-à-vis the original version:      Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.      In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
+  <meta property="og:description" content="I recently resumed my Visual Chronology of Science &amp; Discovery  project , a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's  book  with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:       And some major improvements vis-à-vis the original version:     Revised the visual design of the cards, each of which now features an illustration.   Improved the UI of the overall system including search and field filtering and a separate timeline component.   Addressed table-stakes like panning, zooming, and mobile web support.   Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.     In the remainder of this short post, I describe challenges I encountered along the way, and their solutions." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,112 +60,78 @@
     <a href='/visual-chronology-science-discovery-v2'><h1 class='title'>Visual Chronology of Science & Discovery 2.0</h1></a>
     <div class='body'>
       <p>I recently resumed my Visual Chronology of Science &amp; Discovery <a href="/visual-chronology-science-discovery/">project</a>, a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:</p>
-
 <iframe width="560" height="400" src="https://www.youtube.com/embed/THE4xSGTQzc?si=E-_y2GX2j2poPHkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>And some major improvements vis-à-vis the original version:</p>
-
 <ul>
 <li>Revised the visual design of the cards, each of which now features an illustration.</li>
 <li>Improved the UI of the overall system including search and field filtering and a separate timeline component.</li>
 <li>Addressed table-stakes like panning, zooming, and mobile web support.</li>
 <li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
 </ul>
-
 <p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
-
 <!--more-->
 
 <h1>Challenge 1: chronological graphs</h1>
-
 <p>I <a href="/visual-chronology-science-discovery/">previously</a> described the challenge of combining a chronological timeline with a dependency graph. I had originally incorporated both in a single visualization:</p>
-
 <blockquote>
-  <p>Technologies that enabled the focused card are shown to the left and technologies that the focused card enabled are shown to the right, along the x-axis. Chronologically previous and next entries are shown along the y-axis.
-  f
-  Overwhelmingly, people found this very confusing. Rather than attempt to wedge both dependencies and chronology into to the same view, I've split out the temporal bits into its own timeline component, which also allows search and filtering by field. This is much clearer!</p>
+<p>Technologies that enabled the focused card are shown to the left and technologies that the focused card enabled are shown to the right, along the x-axis. Chronologically previous and next entries are shown along the y-axis.
+f
+Overwhelmingly, people found this very confusing. Rather than attempt to wedge both dependencies and chronology into to the same view, I've split out the temporal bits into its own timeline component, which also allows search and filtering by field. This is much clearer!</p>
 </blockquote>
-
-<p><img src="/visual-chronology-science-discovery-v2/visual-chronology-timeline.png" alt="Timeline component screenshot" /></p>
-
+<p><img alt="Timeline component screenshot" src="visual-chronology-timeline.png" /></p>
 <h1>Challenge 2: location, location, location?</h1>
-
 <p>Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> is not particularly consistent with location names. England is often used interchangeably with Britain, Great Britain, the United Kingdom, etc. As I create a more structured version of his encyclopedia, I feel the need to rectify these inconsistencies.</p>
-
 <p>One option is to provide the temporally correct name of the originating place. For example, if an invention was created on the territory of modern day Crimea in the 7th century, perhaps it should be called a Greek invention. In the 13th century it ought to be labeled Mongolian. In the 18th century it ought to be labeled Russian. In 2000, it ought to be Ukrainian. Another option is to use the modern name for the territory, regardless of its historically accurate name.</p>
-
 <p>I think I've arrived at a compromise with an arbitrary dividing line between the ancient world and the modern world.</p>
-
 <p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://invention.cards/library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://invention.cards/arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
-
 <p>For inventions in the last half-millennium is to use the modern country's name for the place where the discovery or invention occurred. Attempting to provide a historically accurate place name is difficult and potentially confusing. Also, historically accurate place names would often change depending on political events irrelevant to the arc of invention and discovery, making it hard to trace golden ages to a meaningful place.</p>
-
 <p>Conveniently this approach allows for a distinction between English and Scottish inventors, so subsequent analysis should be able to pinpoint the Scottish Enlightenment, for example.</p>
-
 <h1>Challenge 3: improved design</h1>
-
 <p>I was originally inspired by a set of physical card games and technology trees from computer games (see <a href="https://www.are.na/boris-smus/tech-tree-cards">are.na</a>), and finally decided to bite the bullet and clone the original Magic the Gathering card design. I also managed to solve the problem of consistent imagery across whole collection.</p>
-
 <h1>Challenge 4: consistent imagery</h1>
-
 <p>One of the biggest limitations of the first version of this project was to create a consistent visual design for this set of cards.</p>
-
 <blockquote>
-  <p>While you can find reams of royalty free images, [...] finding a set that is visually consistent was tough.</p>
+<p>While you can find reams of royalty free images, [...] finding a set that is visually consistent was tough.</p>
 </blockquote>
-
 <p>Four years ago I speculated:</p>
-
 <blockquote>
-  <p>Theoretically a style transfer model might be able to convert them all to a consistent look.</p>
+<p>Theoretically a style transfer model might be able to convert them all to a consistent look.</p>
 </blockquote>
-
 <p>Modern AI models helped me solve this problem by generating a set of imagery using a textual prompt to guide the content and ensure a consistent style. I'm pleased with the results:</p>
-
-<p><img src="/visual-chronology-science-discovery-v2/visual-chronology-illustrations-v2.jpg" alt="New visual style" /></p>
-
+<p><img alt="New visual style" src="visual-chronology-illustrations-v2.jpg" /></p>
 <p>Compare to where I began several years ago:</p>
-
-<p><img src="/visual-chronology-science-discovery-v2/visual-chronology-illustrations-v1.jpg" alt="Old visual style" /></p>
-
+<p><img alt="Old visual style" src="visual-chronology-illustrations-v1.jpg" /></p>
 <h1>Challenge 5: data entry</h1>
-
 <p>It was difficult to fully digitize the original book because of its multi-columnar and sectional layout. As I wrote <a href="/visual-chronology-science-discovery/">before</a>:</p>
-
 <blockquote>
-  <p>optical character recognition (OCR) is not easy if your content is laid out like a newspaper [...] Cloud Vision and tesseract don’t do well on complex text flows, often failing to recognize section boundaries.</p>
+<p>optical character recognition (OCR) is not easy if your content is laid out like a newspaper [...] Cloud Vision and tesseract don’t do well on complex text flows, often failing to recognize section boundaries.</p>
 </blockquote>
-
 <p>With modern AI, I've been able to extract content from the pages of the book into a structured output. This has been a boon to my productivity, and although I still verify the output of the model, my speed of data entry has greatly accelerated.</p>
-
 <p>This project continues to be backed by a <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">spreadsheet</a> which has now grown to nearly 600 entries.</p>
-
 <h1>Open challenge: dependencies</h1>
-
 <p>One of my goals with the visual chronology of science &amp; discovery was to explore how science builds on itself and to articulate the way in which one invention sometimes serendipitously leads to the next.</p>
-
 <p>Asimov sometimes cites previous inventions in his encyclopedic entries, but truly connecting the dots is left as an exercise to the reader. To capture this relationship, each entry has a list of dependencies that led to its invention or discovery. This list of dependencies is quite subjective, and produced mostly by my judgement.</p>
-
 <p>There are a number of ways of interpreting this parent-child relationship between cards:</p>
-
 <ol>
 <li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://invention.cards/paved-road">Paved roads</a> were improved upon with <a href="https://invention.cards/macadamized-roads">Macadamized roads</a>.</li>
 <li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://invention.cards/improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://invention.cards/steamboat">Steamboat</a>. <a href="https://invention.cards/screw-propeller">Screw propeller</a> was necessary to build <a href="https://invention.cards/transatlantic-liner">Transatlantic liner</a>.</li>
 <li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://invention.cards/bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://invention.cards/ocean-navigation">Ocean navigation</a>.</li>
 </ol>
-
 <p>I think this is the shakiest part of the data that powers the visualization. If you are an expert in the history of science, let's talk. I'd love to discuss where to draw the line. Pun intended.</p>
-
 <h1>What's next for this project?</h1>
-
 <ol>
-<li><p>I've only digitized half of the book! Another 600 cards spanning from 1850 to 1993 have yet to be added. I'll continue chipping away at this.</p></li>
-<li><p>Much of my recent progress on this project is due to hot new AI models. I'll have more details to share about that in a future post.</p></li>
-<li><p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p></li>
+<li>
+<p>I've only digitized half of the book! Another 600 cards spanning from 1850 to 1993 have yet to be added. I'll continue chipping away at this.</p>
+</li>
+<li>
+<p>Much of my recent progress on this project is due to hot new AI models. I'll have more details to share about that in a future post.</p>
+</li>
+<li>
+<p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p>
+</li>
 </ol>
-
 <p>Please <a href="https://invention.cards">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

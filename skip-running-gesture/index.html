@@ -66,7 +66,6 @@ doing this: using the device itself, or using a headphone remote. My
 ubiquitous computing project from last Spring explores a third option:
 imagine if your shoes had built-in accelerometers that allowed you to
 skip mid-stride to change tracks. </p>
-
 <p>The most obvious way to change tracks is directly through the music
 player, but operating a touch screen while running is pretty annoying. A
 much better way of changing tracks is by using a button attached to a
@@ -78,23 +77,20 @@ detected by having an accelerometer in each shoe which tracks your
 running patterns and detects when you perform the skip gesture. In
 addition to being useful, this running gesture makes an otherwise
 monotonous activity more varied and enjoyable.</p>
-
 <p>I prototyped the skip-to-skip system with a wii remote attached to the
 runner's lower leg, as pictured above. A computer is paired to the
 wiimote, collecting accelerometer data (especially in the axis
 corresponding to the runner's vertical movement). This communication is
 established using a wii library from a <a href="/prototyping-wii-remote-python/">previous post</a>. The naive
 algorithm I use for detecting skips works as follows:</p>
-
 <ol>
 <li>Find peaks by looking at the 1st derivative (positive slope,
-negative slope pairs)</li>
+    negative slope pairs)</li>
 <li>Discard insignificant peak values (under a threshold)</li>
 <li>Compute distances between peaks</li>
 <li>Look at the last 5 distances, and compute the mode. That's the pace.</li>
 <li>Look for declinations from the pace characteristic of a skip.</li>
 </ol>
-
 <p>Once my gesture recognition code worked reasonably well, I ran a user
 study to see how people liked this method compared to the touch screen
 and headphone remote. After a few hitches (including getting kicked out
@@ -102,15 +98,12 @@ of the Madeira Tecnopolo), I managed to test the prototype with many of
 my Madeiran classmates (thanks guys!). Most people preferred the
 skip-to-skip method over both the direct smartphone and headphone remote
 methods, which is promising.</p>
-
 <p>For more details on this project, check out the <a href="/skip-running-gesture/running-gestures-paper.pdf">paper</a> that
 <a href="http://dme.uma.pt/people/faculty/vassilis.kostakos/">Vassilis Kostakos</a> and I will present at <a href="http://www.ubicomp2010.org/">Ubicomp 2010</a> in
 Copenhagen. If you're interested in the source code, it's located on
 <a href="http://github.com/borismus/Running-Gestures">github</a>.</p>
-
 <p><strong>Update:</strong> here's the <a href="/skip-running-gesture/running-gestures-poster.pdf">poster</a>. The font-size is scary huge
 on A0!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

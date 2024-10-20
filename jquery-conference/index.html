@@ -61,128 +61,116 @@
     <div class='body'>
       <p>A few weekends ago I went to the jQuery Conference held at the MS campus in
 Mountain View. And I took notes!</p>
-
 <p>Overall trends about the jQuery community:</p>
-
 <ul>
-<li><p>People are writing more complex apps on top of jQuery and there
+<li>
+<p>People are writing more complex apps on top of jQuery and there
 is a widely understood need for MVC frameworks, such as <a href="http://documentcloud.github.com/backbone/">Backbone.js</a>, 
-<a href="http://knockoutjs.com/">Knockout.js</a> and <a href="http://javascriptmvc.com/">JavaScript MVC</a>.</p></li>
-<li><p>Feature detection is important!</p>
-
+<a href="http://knockoutjs.com/">Knockout.js</a> and <a href="http://javascriptmvc.com/">JavaScript MVC</a>.</p>
+</li>
+<li>
+<p>Feature detection is important!</p>
 <ul>
 <li>Polyfill - replicates standard feature with a compatible API</li>
 <li>Shim - provides its own API for a future feature</li>
-</ul></li>
-<li><p>Serious need for templating systems. Boris Moore showed a very performant
-demo of jQuery Templates. Many other templating systems exist as well,
-like one built into <a href="http://documentcloud.github.com/underscore/">underscore.js</a> and <a href="http://mustache.github.com/">mustache.js</a>.</p></li>
-<li><p>Many new mobile performance tools: <a href="http://www.blaze.io/">blaze.io</a> -- a tool that gives a
-general overview of a site's performance, <a href="http://pcapperf.appspot.com/">pcapperf</a> -- a web performance
-analyzer that uses tcpdump output from mobile device activity, and <a href="http://jdrop.org/">jDrop</a>
--- a service that lets you capture large amounts of data on your mobile
-device and then analyze it on the desktop web browser.</p></li>
-<li><p>People are rallying around <a href="http://jshint.com/">JSHint</a>, a fork of Crockford's <a href="http://www.jslint.com/">JSLint</a>
-project, but with more configurable JavaScript sanitation rules.</p></li>
-<li><p>Haters gotta hate. Everybody seems to get a kick out of hating Douglas
-Crockford. Give the nice opinionated man a break and go write some
-JavaScript.</p></li>
 </ul>
-
+</li>
+<li>
+<p>Serious need for templating systems. Boris Moore showed a very performant
+  demo of jQuery Templates. Many other templating systems exist as well,
+  like one built into <a href="http://documentcloud.github.com/underscore/">underscore.js</a> and <a href="http://mustache.github.com/">mustache.js</a>.</p>
+</li>
+<li>
+<p>Many new mobile performance tools: <a href="http://www.blaze.io/">blaze.io</a> -- a tool that gives a
+  general overview of a site's performance, <a href="http://pcapperf.appspot.com/">pcapperf</a> -- a web performance
+  analyzer that uses tcpdump output from mobile device activity, and <a href="http://jdrop.org/">jDrop</a>
+  -- a service that lets you capture large amounts of data on your mobile
+  device and then analyze it on the desktop web browser.</p>
+</li>
+<li>
+<p>People are rallying around <a href="http://jshint.com/">JSHint</a>, a fork of Crockford's <a href="http://www.jslint.com/">JSLint</a>
+  project, but with more configurable JavaScript sanitation rules.</p>
+</li>
+<li>
+<p>Haters gotta hate. Everybody seems to get a kick out of hating Douglas
+  Crockford. Give the nice opinionated man a break and go write some
+  JavaScript.</p>
+</li>
+</ul>
 <p>I went to a bunch of talks, and I took the most notes for during this talk:</p>
-
 <h2>State of jQuery</h2>
-
 <p>John Resig talked about a bunch of changes to the project structure, largely
 irrelevant to jQuery library consumers. He also covered some of many jQuery 1.6
 improvements:</p>
-
 <ul>
 <li>Rewrite of <code>attr()</code> and <code>val()</code>. For example, <code>attr('val', false)</code> removes
 the attribute</li>
 <li>Separate <code>prop()</code> from <code>attr()</code>. Indeed!</li>
 <li><code>$('input:focus')</code> gets focused input box across platforms</li>
-<li>Significant performance boosts:
-<ul>
+<li>Significant performance boosts:<ul>
 <li><code>attr()</code> performance ~85% faster, <code>val()</code> ~150% faster, <code>data()</code> ~115%
 faster</li>
-</ul></li>
+</ul>
+</li>
 <li>Integration with requestAnimationFrame for animations</li>
 <li><code>$.map(Object, function)</code> now works (as it does for Arrays)</li>
 </ul>
-
 <p>Pro tip: jQuery automatically parses serialized JSON if it's included as the value 
 of a HTML5 data attribute. Example: <code>&lt;header data-array="[0,1,2]"&gt;</code> then 
 <code>$('header').data('array')[1] == 1</code></p>
-
 <h2>State of jQuery Mobile</h2>
-
 <p>Mobile matters. 5.3 billion mobile subscriptions (cf. global population of 6.8
 billion), 10 billion web-enabled mobile devices.</p>
-
 <p>John Resig also touched on jQuery Mobile, and then Scott Jehl and Todd Parker went 
 into a lot more detail.</p>
-
 <ul>
 <li>Navigation model now uses the <a href="https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history">history API</a> for hash-less URLs.</li>
 <li>jQM minified and packed is ~18kb!</li>
-<li>Nice gallery of goodness at <a href="http://www.jqmgallery.com/">jQuery Mobile Gallery</a>
-<ul>
+<li>Nice gallery of goodness at <a href="http://www.jqmgallery.com/">jQuery Mobile Gallery</a><ul>
 <li>Including <a href="http://www.barackobama.com/m/">Obama's mobile site</a>!</li>
-</ul></li>
-<li>Media queries
-<ul>
+</ul>
+</li>
+<li>Media queries<ul>
 <li>Useful as a browser support cutoff heuristic.</li>
 <li>CSS classes added based on media queries, facilitating simpler styles</li>
 <li>Uses <a href="https://github.com/scottjehl/Respond">Respond.js</a>, a polyfill for browsers that don't support media queries</li>
-</ul></li>
+</ul>
+</li>
 <li>Philosophy: easily brandable cross-device experience</li>
 <li>All builtin views are ARIA-enabled</li>
 </ul>
-
 <p>Pro tip: mouse events in some mobile browsers are on a <a href="http://cubiq.org/remove-onclick-delay-on-webkit-for-iphone">300ms delay</a> to allow
 the browser to interpret user's gestures. jQuery Mobile includes a fix for
 this!</p>
-
 <h2>Prototyping Tools in jQuery</h2>
-
 <p>Super useful and informative set of tools!</p>
-
 <p>MockJAX is a library that simulates a server.</p>
-
 <ul>
-<li>Intercepts and simulates AJAX calls
-<ul>
+<li>Intercepts and simulates AJAX calls<ul>
 <li>Define a URL structure and a response structure</li>
-</ul></li>
+</ul>
+</li>
 <li>Can define responses as a function.</li>
 <li>Can simulate error responses.</li>
 <li>Useful for unit testing as well!</li>
 </ul>
-
 <p>MockJSON: create fake JSON on demand</p>
-
 <ul>
 <li>A way to generate random-ish JSON</li>
 <li>For example, <code>{'age|0-99'}</code> outputs <code>{'age': randint_between_0_and_99}</code></li>
 </ul>
-
 <p>Amplify: abstraction layer for all data</p>
-
 <ul>
 <li>Abstracts away shifting server-side APIs</li>
 <li>amplify.request.define can define a data store. </li>
 </ul>
-
 <p>For example:</p>
-
 <pre><code>amplify.request.define("list", "ajax", {
   url: "/todo/",
   dataType: "json",
   type: "GET"
 });
 </code></pre>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

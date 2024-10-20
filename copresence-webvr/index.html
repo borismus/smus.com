@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!        Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
+  <meta name="description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!       Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/copresence-webvr/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Copresence in WebVR" />
-  <meta name="twitter:description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!        Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
+  <meta name="twitter:description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!       Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/copresence-webvr/" />
   <meta property="og:title" content="Copresence in WebVR" />
-  <meta property="og:description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!        Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
+  <meta property="og:description" content="The web platform is uniquely great for networked copresence. To demonstrate, I built a multi-user chat prototype that uses peer-to-peer audio and data connections to establish a virtual audio experience.  Voices are spatialized based on the position and orientation of each participant (using Web Audio). Also, you can shrink and grow, which, in addition to changing your avatar's size, pitch shifts your voice. Large avatars have deep, god-like voices, while smaller ones start to sound very mousey!       Check out the  demo for yourself . It works on desktop (mouse look and spacebar triggers movement), on mobile (magic window) and in VR (through the  WebVR API , via  the polyfill )." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -66,24 +66,20 @@ based on the position and orientation of each participant (using Web Audio).
 Also, you can shrink and grow, which, in addition to changing your avatar's
 size, pitch shifts your voice. Large avatars have deep, god-like voices, while
 smaller ones start to sound very mousey!</p>
-
 <iframe width="560" height="395" src="//www.youtube.com/embed/FPJDNQJt2DQ" frameborder="0" allowfullscreen></iframe>
 
 <p>Check out the <a href="https://borismus.github.io/copresence-vr/">demo for yourself</a>. It works on desktop (mouse look and
 spacebar triggers movement), on mobile (magic window) and in VR (through the
 <a href="https://webvr.info/">WebVR API</a>, via <a href="https://github.com/borismus/webvr-polyfill/">the polyfill</a>).</p>
-
 <!--more-->
 
 <h1>Better together: copresence is compelling</h1>
-
 <p>The best things in life are enjoyed in good company. Virtual experiences are no
 exception. My fondest gaming memories were from two decades ago with close
 friends huddled around a CRT, whether it was Morris the Moose and Blombo the
 Elephant <a href="https://3drealms.com/catalog/wacky-wheels_16/">racing around</a> the track, or co-strategizing in <a href="https://www.youtube.com/watch?v=hBrYtNTOTyE">Civ</a>. It
 wasn't so much about the games, more about the people, and the experience of
 being there together.</p>
-
 <p>Putting a computer on your face greatly increases your odds of having an
 isolating experience.  One of the biggest downsides of VR is that social
 experiences are much harder to produce. While physically copresent VR is
@@ -91,9 +87,7 @@ possible, it presents logistical challenges. And since you are fully immersed in
 a virtual world, the physical presence of your friends is nearly irrelevant.
 Given the constraints, perhaps the best remedy to loneliness is to provide
 networked friends. This can be fun too! <a href="https://en.wikipedia.org/wiki/Warcraft:_Orcs_%26_Humans">Orcs and Humans</a> over PBX, anyone?</p>
-
 <h1>WebAudio + WebRTC + WebVR = ❤</h1>
-
 <p>The web is the ideal platform for building copresent VR experiences. VR
 copresence requires low latency connections between peers. It also requires a
 real time audio channel, with a much smaller emphasis on remote video, since the
@@ -102,86 +96,86 @@ API has long been available on all modern browsers, and is well equipped for
 processing audio of all sorts: spatialization, effects. WebRTC is widely
 available too, with <a href="http://www.apple.com/safari/">one unfortunate exception</a>. And with the exception
 of Service Workers and company, if you're on the web, you have connectivity. </p>
-
 <p>Thanks to some <a href="http://crbug.com/121673">excellent bug squashing</a>, it's now possible to pipe
 remote WebRTC streams into a Web Audio context. This enables devs to spatialize
 and otherwise manipulate the remote stream to their heart's content.
 Specifically, the prototype I'm launching today has a few fun audio features:</p>
-
 <ul>
-<li><p>Each remote stream is spatialized based on the pose of the peer using the
-<code>PannerNode</code> (see <a href="/spatial-audio-web-vr/">my previous post</a> about this for more details).</p></li>
-<li><p>Remote streams are analyse for voice activity, using an <code>AnalyserNode</code> to
-inspect the frequency content between 300 Hz and 3400 Hz (the typical human
-vocal range), and doing a simple thresholding. This is then used to animate
-the Southpark-style avatar's mouth.</p></li>
-<li><p>Changing the size of your avatar also changes how you hear your peer's voice.
-I'm using the <a href="https://github.com/mmckegg/soundbank-pitch-shift">soundbank-pitch-shift</a> library to achieve this, courtesy of
-<a href="https://twitter.com/cwilso">Chris Wilson</a> and <a href="http://twitter.com/MattMcKegg">Matt McKegg</a>.</p></li>
+<li>
+<p>Each remote stream is spatialized based on the pose of the peer using the
+  <code>PannerNode</code> (see <a href="/spatial-audio-web-vr/">my previous post</a> about this for more details).</p>
+</li>
+<li>
+<p>Remote streams are analyse for voice activity, using an <code>AnalyserNode</code> to
+  inspect the frequency content between 300 Hz and 3400 Hz (the typical human
+  vocal range), and doing a simple thresholding. This is then used to animate
+  the Southpark-style avatar's mouth.</p>
+</li>
+<li>
+<p>Changing the size of your avatar also changes how you hear your peer's voice.
+  I'm using the <a href="https://github.com/mmckegg/soundbank-pitch-shift">soundbank-pitch-shift</a> library to achieve this, courtesy of
+  <a href="https://twitter.com/cwilso">Chris Wilson</a> and <a href="http://twitter.com/MattMcKegg">Matt McKegg</a>.</p>
+</li>
 </ul>
-
 <h1>Technical details: in the weeds with WebRTC</h1>
-
 <p>Hoping to avoid learning the intricacies of WebRTC, which is a fairly low level
 and intimidating API, I started exploring higher level abstractions around it.
 The most popular wrapper I found was <a href="http://peerjs.com/">peer.js</a>, but unfortunately the
 project doesn't seem to be actively maintained, and relies on a special Node.js
 WebSocket server which, in my experience, often drops clients.</p>
-
 <p>So I moved to Firebase which, in my implementation, performs the duty of
 signaling server, and also maintains a roster of all connected users and their
 current state. For each connected user, we store their display name (which
 clients can set), and the room ID (if the user is currently in a room).</p>
-
 <pre><code>{
   username: 'Your Name',
   roomId: 'A Random Room Identifier'
 }
 </code></pre>
-
 <h2>Bird's eye view of WebRTC</h2>
-
 <p>Having moved away from peer.js, I could no longer afford to let the intricacies
 of WebRTC be handled by some third party, and had to get into the weeds. It was
 especially important to understand how to handle multiple <code>RTCPeerConnections</code>
 necessary for the case with more than peer-to-peer. Although I found the docs to
 be quite obtuse, the core of the WebRTC API is fairly straight forward:</p>
-
 <ol>
-<li><p>The caller (A) gets its local stream and uses the signal server to send an
-"offer" message to the callee (B), which includes information about A's local
-stream.</p></li>
-<li><p>The callee (B) gets A's "offer" and registers A's local stream as its remote
-stream. It then gets its own local stream, and responds A's offer via the
-signal server, sending an "answer" message to the caller (A), which contains
-its own local information.</p></li>
-<li><p>The caller (A) gets B's "answer" and registers B's local stream as its remote
-stream. At this point, both A and B have basic information about one
-another's local and remote streams.</p></li>
-<li><p>At this point, A and B exchange ICE (Interactive Connectivity Establishment)
-Candidates to work out the details of how to establish a peer-to-peer stream.
-Eventually, when both sides are satisfied, we have contact.</p></li>
+<li>
+<p>The caller (A) gets its local stream and uses the signal server to send an
+   "offer" message to the callee (B), which includes information about A's local
+   stream.</p>
+</li>
+<li>
+<p>The callee (B) gets A's "offer" and registers A's local stream as its remote
+   stream. It then gets its own local stream, and responds A's offer via the
+   signal server, sending an "answer" message to the caller (A), which contains
+   its own local information.</p>
+</li>
+<li>
+<p>The caller (A) gets B's "answer" and registers B's local stream as its remote
+   stream. At this point, both A and B have basic information about one
+   another's local and remote streams.</p>
+</li>
+<li>
+<p>At this point, A and B exchange ICE (Interactive Connectivity Establishment)
+   Candidates to work out the details of how to establish a peer-to-peer stream.
+   Eventually, when both sides are satisfied, we have contact.</p>
+</li>
 </ol>
-
 <p>Hopefully the above serves as a useful summary. It certainly will be for me, as
 I found the existing WebRTC documentation confusing. Many of the samples connect
 to themselves, which does not give a great sense of what the protocol between
 clients should actually be.</p>
-
 <p>At the ICE stage, invoke more acronyms! STUN and TURN come into play in trickier
 network topologies (ie. those involving NAT servers).  Google already provides a
 STUN server by default, and I ended up using a <a href="http://xirsys.com/">free service</a> for TURN
 server support. Each <code>RTCPeerConnection</code> is initialized with the specific STUN
 and TURN servers that we use.</p>
-
 <h1>Copresence is essential for VR</h1>
-
 <p>Given the inherent isolation of virtual reality, copresence becomes an even more
 compelling ingredient than ever before. Copresence is essential for VR, and the
 web is a great place to make it happen. <a href="https://borismus.github.io/copresence-vr/">Try it out</a> with a friend, or
 using two of your own devices. Oh, and if you find bugs, please let me know via
 <a href="https://github.com/borismus/copresence-vr">github</a>.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

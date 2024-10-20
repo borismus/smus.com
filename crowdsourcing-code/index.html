@@ -66,28 +66,23 @@ strong selection bias was in this case, since surely not 50% of turkers
 know how to program! I then asked those turkers who know Java to
 complete the following trivial Java method. If they wrote it correctly,
 I paid them a 45 cent bonus.</p>
-
 <pre><code>public static String reverse(String source) {
   // your code here 
 }
 </code></pre>
-
 <p>Here are the results:</p>
-
 <ul>
 <li>4 turkers used <code>StringBuffer.reverse</code></li>
 <li>3 turkers created a new string by iterating through the original
-string in reverse</li>
+    string in reverse</li>
 <li>1 used recursion</li>
 <li>1 used <code>Collections.sort(l)</code>. I'm not sure what was intended</li>
 </ul>
-
 <p>I was hoping that people would fill in the empty reverse method with
 their code, but many of them implemented their own methods and helpers.
 One person implemented their own class with extensive comments. This
 data as a nice existence proof, indicating that turkers can be harnessed
 for programming-related crowdsourcing. </p>
-
 <p>I'd like to turn Mechanical Turkers into Mechanical Coders. Given a set
 of unit tests and a method to implement, their work could be
 automatically verified based on passing the unit tests. Furthermore,
@@ -95,7 +90,6 @@ some turkers could be tasked to write additional unit tests for this
 method. Through this technique, it's conceivable to harness the power of
 The Turk to implement whole classes. Code quality aside, what sort of
 software quality could be achieved by following this approach?</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

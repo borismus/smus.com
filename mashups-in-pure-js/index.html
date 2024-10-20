@@ -68,7 +68,6 @@ chords was painful though, since it involved hand-editing a plain text
 file and ensuring that the chords were properly aligned with the lyrics.
 My preferred solution to this problem is to write a web application to
 facilitate easy collaborative editing of simple folk/rock/pop songs. </p>
-
 <p>I started working on a proof-of-concept prototype. To begin with, I wanted
 an easy way of finding song lyrics, which provide the skeleton for most
 guitar pieces that I'm interested in. Later, I planned to work on
@@ -77,12 +76,11 @@ application to scrape lyrics sites, I realized that there may be a
 simpler way: if I found a friendly lyrics API, there would be no need to
 write any server side code. Could the entire service be written in
 Javascript? </p>
-
 <p>LyricWiki.org had exactly what I need: a simple way to
 access <a href="http:///mashups-in-pure-js/lyricwiki.org/api.php?artist=Slipknot&amp;song=Before_I_Forget&amp;fmt=json">lyrics in JSON</a> format. Of course, you can't just do an
 XmlHttpRequest to lyricswiki.org because of XSS security restrictions.
 Instead, you <em>can</em> work around this cross-domain scripting issue by
-writing out <script\&gt; tags, and specifying the script src dynamically.
+writing out &lt;script&gt; tags, and specifying the script src dynamically.
 Luckily, the LyricWiki JSON is wrapped (padded) in a variable named
 'song'. As I later discovered, this practice of wrapping JSON in a
 variable is well established, and called <a href="http://en.wikipedia.org/wiki/JSONP">JSONP</a>. This technique makes
@@ -90,11 +88,9 @@ it easy to simply evaluate the script tag, and wait for the song
 variable to change. Now If only there was a safe way of doing this sort
 of cross-domain scripting without introducing a <a href="http://personalized20.blogspot.com/2006/02/jsonp-service-and-security.html">host</a> of <a href="http://unclehulka.com/ryan/blog/archives/2005/12/12/jsonpyoure-joking-right/">XSS</a>
 <a href="http://www.west-wind.com/Weblog/posts/107136.aspx">vulnerabilities</a>, writing mashups would be a walk in the park! </p>
-
 <p>After only two hours of hacking around, including learning jQuery, I came up
 with a <a href="/mashups-in-pure-js/lyricwiki">little demo application</a>, written in pure Javascript. Hooray for
 jQuery, humanmsg, and the LyricsWiki API!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -63,29 +63,24 @@
 simple prototype for a mobile Guitar Unleashed client. It's more of a
 proof-of-concept for some cool new technologies that I've been meaning
 to play with. Two things led me down this path:</p>
-
 <ol>
 <li>Since I'm no longer bound by corporate affiliation, I feel compelled
-to finally develop an interesting application for iPhone.</li>
+    to finally develop an interesting application for iPhone.</li>
 <li>I'm very bad at remembering guitar chords and lyrics, but never
-bother making a cheat sheet to take to the campfire. I nearly always
-have my phone in my pocket, though.</li>
+    bother making a cheat sheet to take to the campfire. I nearly always
+    have my phone in my pocket, though.</li>
 </ol>
-
 <p>The GU mobile prototype is very simple. Users can manage a list of
 favorite songs, and view their lyrics with chords. At first, I set out
 to create a native iPhone application to do this, but several
 considerations made me change my mind:</p>
-
 <ol>
 <li>I don't want to deal with a potential App Store rejection, keeping
-in mind the dubious legality of lyrics</li>
+    in mind the dubious legality of lyrics</li>
 <li>The simplicity and data-centric nature of the app lends itself well
-to a web implementation.</li>
+    to a web implementation.</li>
 </ol>
-
 <p><img src="/offline-web-iphone/phone.png" class="left"></p>
-
 <p>There are a few interesting technical challenges to overcome in implementing
 this application. Firstly, the app needs to blend visually with the iPhone look
 and feel. I chose the <a href="http://code.google.com/p/iui/">iUI</a> web framework to develop my application. In
@@ -97,7 +92,6 @@ href="logo-touch-icon.png" /&gt;</code> allows to specify the icon that will app
 the iPhone springboard. Setting <code>&lt;meta name="apple-touch-fullscreen"
 content="YES" /&gt;</code> will remove the lower hud of MobileSafari. The full list of
 options is available <a href="http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html">from Apple</a>.</p>
-
 <p>The second broad challenge for mine and iPhone web applications in general is
 that they need to remain functional without an internet connection. For my
 mobile client, data would be provided by two calls returning JSON:
@@ -110,33 +104,28 @@ and a cookie for each song. This strategy worked quite well on WebKit and in
 the iPhone simulator. Unfortunately, cookie persistence works differently on
 the actual iPhone, likely for security reasons. Every time the phone reboots,
 MobileSafari's cookie jar is emptied. </p>
-
 <p>The alternative to this is a much more modern approach: <a href="http://webkit.org/blog/126/webkit-does-html5-client-side-database-storage/">HTML5 databases</a>.
 WebKit now allows you to store structured data locally in an SQLite database. I
 found this approach to work very well on iPhone. The database backend persists
 through reboots, as expected. I implemented both storage schemes in separate
 files, available for your scrutiny: the class SongJar for cookies in <a href="/offline-web-iphone/offline-mobile/jar.js">jar.js</a>
 and SongDatabase for HTML5 storage <a href="/offline-web-iphone/offline-mobile/database.js">database.js</a>.</p>
-
 <p>The last piece of the puzzle is how to force the web application's source files
 to get cached on the iPhone, so that the app remains accessible even when the
 phone is offline. This is done with a <a href="http://www.w3.org/TR/2009/WD-html5-20090212/offline.html">cache manifest</a>, also new in HTML5. I
 ran into several problems trying to set this up, and would have benefited from
 these tips:</p>
-
 <ol>
 <li>Reference the manifest from the HTML with
-<code>&lt;html manifest="cache-manifest"&gt;</code></li>
+    <code>&lt;html manifest="cache-manifest"&gt;</code></li>
 <li>Serve the manifest with the <code>text/cache-manifest</code> mime type</li>
 <li>Ensure that all paths in the manifest are accessible</li>
 </ol>
-
 <p>Though my app is a mere prototype, I'm quite happy with the result.
 After adding the application to the springboard, it <em>almost</em> feels like
 a first class iPhone application. You can try it out at
 <a href="http://www.guitarunleashed.com/m/">http://www.guitarunleashed.com/m/</a>, and please bear in mind that it's
 a proof of concept.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -62,9 +62,7 @@
       <p>I've been thinking a bit about native and web applications, and how they can
 (or can't) coexist in the future. This topic has been steeping in my head for
 months now, so here is a brain dump of some of my thoughts.<!--more--></p>
-
 <h2>On hybrid apps</h2>
-
 <p>Hybrid apps embed a browser, using a web view for part of their UI.
 This is a very flexible definition for a very flexible beast. At one
 extreme are native apps that embed a Web View to render a small widget
@@ -72,65 +70,52 @@ extreme are native apps that embed a Web View to render a small widget
 web application that provides just a native frame around the content
 which is entirely implemented as a web app. The hybrid app spectrum
 looks something like this:</p>
-
 <pre><code>native &lt;--------------- hybrid apps ---------------&gt; web
 Mail.app                GMail for iOS              GMail
 </code></pre>
-
 <p>Pieces of the web stack have long been useful as building blocks for
 applications, but lately there has been a bloom in features under the
 HTML5 moniker. As a result, many developers are gravitating towards the
 right end of the hybrid app spectrum.</p>
-
 <p>There are several frameworks which target this niche by providing thin native
 frames, such as <a href="http://phonegap.com/">PhoneGap</a> and <a href="http://fluidapp.com/">Fluid</a>. There are three benefits to these
 frameworks, helping developers to:</p>
-
 <ol>
 <li>Make money: capitalize on AppStore and Market earnings.</li>
 <li>Use more features: get access to features not available from the web.</li>
 <li>Provide good platform-specific native integration.</li>
 </ol>
-
 <p>The first two are relatively well understood, so for the purposes of this post,
 I'm more interested in the third. Android PhoneGap apps are launched from the
 home screen, Fluid Mac apps from spotlight or your dock, etc. Then you can
 switch between these apps as if they were regular OS X applications.</p>
-
 <p>Even though the browser is a single app, it runs tons of applications
 like GMail, twitter, etc. The browser allows people to do two
 fundamentally different things: view content on the web (sites), and <em>do
 things</em>, like listen to music, play games and create documents (apps).
 For a deeper discussion on the distinctions between web apps and web
 sites, check out James Pearce's article <a href="http://tripleodeon.com/2011/09/of-sites-and-apps/">Of Sites and Apps</a>.</p>
-
 <p>A pure web application does not rely on platform-specific native code
 and runs inside the browser, but still has to rely on a native frame
 solution to reap the native integration benefit frameworks like PhoneGap
 and Fluid provide.</p>
-
 <h2>Hybrid operating systems</h2>
-
 <p>Some browsers today have an explicit notion of apps. Without the proper OS
 integration, this is confusing. Now your device (laptop, tablet, phone, tv) has
 apps, one of which is a browser, and the browser has apps too. So to launch an
 app, users have to open the browser, and then launch what they want. This
 reinforces the distinction between web and native apps in people's heads and
 makes for a very inelegant solution.</p>
-
 <p>One approach is for the OS to make the browser special in the operating system,
 allowing it also to manage installed web applications. Another approach is for
 operating systems to implement their SDKs using HTML, CSS and JavaScript, but
 with non-standard APIs specific to the platform, such as WebOS. The extreme of
 this approach is Chrome OS, where browser and OS are indistinguishable.</p>
-
 <p>Like apps, operating systems vary in how much they embrace web applications.
 Here is an interesting spectrum to think about:</p>
-
 <pre><code>web agnostic &lt;------------ hybrid OS ------------&gt; apps are webapps
 iOS           Windows 8              Web OS               Chrome OS
 </code></pre>
-
 <p>Let me define what I mean by "hybrid OS". A hybrid OS is aware of the
 presence of not just native, but also web applications, and provides
 ways of managing web apps, possibly alongside native ones. Windows 8 is an
@@ -138,25 +123,20 @@ example of a hybrid OS, employing the new Metro UI, while also supporting
 Windows 7-style UI. Palm's Web OS, has no native mode at all (except via
 <a href="https://developer.palm.com/content/api/dev-guide/pdk/overview.html">PDK plugins</a>), and all apps are web apps (though they require the use of a
 special set of JavaScript libraries).</p>
-
 <p>Web apps today are actively used, in some cases, even <a href="http://www.readwriteweb.com/archives/financial_times_proves_html5_can_beat_native_mobil.php">surpassing</a> native
 apps in popularity. Unfortunately, users of web apps are stuck in their browser
 which is confusing and limiting, given the current landscape of native
 applications. Hybrid operating systems make explicit the idea that in the end,
 web apps are just apps.</p>
-
 <h2>Future</h2>
-
 <blockquote>
-  <p>The second goal of PhoneGap is for the project to cease to exist. This is not
-  a nihilistic sentiment... -- <a href="http://wiki.phonegap.com/w/page/46311152/apache-callback-proposal">Apache Callback Proposal</a></p>
+<p>The second goal of PhoneGap is for the project to cease to exist. This is not
+a nihilistic sentiment... -- <a href="http://wiki.phonegap.com/w/page/46311152/apache-callback-proposal">Apache Callback Proposal</a></p>
 </blockquote>
-
 <p>My goal is for web apps to become compelling enough to force OS creators to
 hybridize their platforms. In other words, I'd like to see rightward movement
 in both the app and OS spectrums. As more hybrid operating systems emerge, we
 get closer to PhoneGap's second goal.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

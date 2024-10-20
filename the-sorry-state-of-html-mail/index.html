@@ -67,31 +67,26 @@ crime, since most popular modern rendering engines (IE, Gecko and WebKit) are
 converging to some shared interpretation of web standards. Unlike layout
 engines on the web, though, rich mail interpreters have remained stagnant, and
 in some cases have regressed. <strike>Without pointing any fingers...</strike></p>
-
 <p>Much of the blame for this difference lies in Microsoft's decision to use the
 same engine for composing and viewing email in Outlook 2007. They wanted to
 make the life of email designers easier, or so the story goes. But since
 Internet Explorer doesn't have editing functionality, and Front Page is too
 heavy to embed, the remaining choice was Word '07. Unfortunately, Word's
 rendering engine is extremely limited, in the following notable ways:</p>
-
 <ol>
 <li>No positioning or floating elements, so CSS-based layouts are out</li>
 <li>No CSS backgrounds, combined with (1) means that there's no way to
-have an image background at all.</li>
+    have an image background at all.</li>
 </ol>
-
 <p>So, if you care a significant population of email readers (7% use Outlook '07),
 and want to deliver a rich media email, you are condemned to designing with
 table layouts, or to skip HTML altogether, and simply use images. </p>
-
 <p>For a long time, there was no good way of determining a
 breakdown of email client usage. Recently, the good people at
 fingerprint have come up with a solution, and now use a large sample of
 people to determine global <a href="http://fingerprintapp.com/email-client-stats">email client usage statistics</a>. According
 to them, Hotmail, Yahoo Mail and Gmail add up to roughly 50% of all
 usage. </p>
-
 <p>Since the UI of a web-based email client is written in HTML, so it is critical
 for webmail developers to ensure that the CSS and HTML found in the email does
 not interfere with the global look and feel. The canonical solutions are to
@@ -101,7 +96,6 @@ These white lists are usually quite long, but lack some important and oft-used
 properties. For example, CSS image backgrounds are disallowed, except on Yahoo.
 And of course, Microsoft had to leave its bizarre mark too: Hotmail strips the
 margin-top property, but not the margin-bottom property. </p>
-
 <p>Historically,
 webmail clients used to ignore anything outside of the <code>&lt;body\&gt;</code> tag,
 which meant that all CSS had to be written inline, leading to
@@ -112,7 +106,6 @@ is a positive trend as well. Microsoft Live Mail uses the IE7 rendering
 engine, Thunderbird uses Gecko and Mail.app uses WebKit. So it looks
 like there is light at the end of the tunnel for downtrodden HTML email
 designers. In the meantime though, I send them my deepest condolences.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

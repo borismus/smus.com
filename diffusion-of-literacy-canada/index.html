@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:         Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
+  <meta name="description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:       Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/diffusion-of-literacy-canada/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Diffusion of Literacy in 19th Century Canada" />
-  <meta name="twitter:description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:         Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
+  <meta name="twitter:description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:       Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/diffusion-of-literacy-canada/" />
   <meta property="og:title" content="Diffusion of Literacy in 19th Century Canada" />
-  <meta property="og:description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:         Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
+  <meta property="og:description" content="The ancient Sumerians invented writing sometime around 3500 BCE. But how did writing get refined? How did it spread outside of Sumer? In general, tracking diffusion of ancient technology is hard. For tracking the spread of literacy, however, here's an interesting idea. Innumerate people may fudge their self-reported age to round or auspicious numbers. Individually, this leads to  terrible earworms . In aggregate, this error is called age heaping and may be a decent proxy for literacy. In this post, I dig into the Province of Canada's 1852 census, scraped from automatedgenealogy.com. To whet your appetite, just look at these beautiful age heaps:       Splitting the census data by demographics and calculating the  ABCC Index  on each, what can we infer about literacy in 19th Century Canada?" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -68,85 +68,66 @@ self-reported age to round or auspicious numbers. Individually, this leads to
 and may be a decent proxy for literacy. In this post, I dig into the Province of
 Canada's 1852 census, scraped from automatedgenealogy.com. To whet your
 appetite, just look at these beautiful age heaps:</p>
-
-<p><img src="/diffusion-of-literacy-canada/ages_1852_census_heaps.png" alt="Age Heaps in Canada's 1852 census" /></p>
-
+<p><img alt="Age Heaps in Canada's 1852 census" src="ages_1852_census_heaps.png" /></p>
 <p>Splitting the census data by demographics and calculating the <a href="https://en.wikipedia.org/wiki/Whipple%27s_index">ABCC Index</a>
 on each, what can we infer about literacy in 19th Century Canada?</p>
-
 <!--more-->
 
 <h1>Timelines shminelines</h1>
-
 <p>It's easy to create a timeline of historical inventions. Steam Engine? No
 problem: 100 CE. Musical Notation? 2000 BCE. Bam! Land mines? 1277. There are
 <a href="https://en.wikipedia.org/wiki/Timeline_of_historic_inventions">many</a>
 <a href="https://smus.com/visual-chronology-science-discovery/">such</a>
 <a href="https://localhistories.org/a-timeline-of-science/">timelines</a>
-<a href="https://www.amazon.com/s?k=chronology+science&i=stripbooks&ref=nb_sb_noss">available</a>.
+<a href="https://www.amazon.com/s?k=chronology+science&amp;i=stripbooks&amp;ref=nb_sb_noss">available</a>.
 But the first known working date of an invention is usually a miniscule part of
 the whole story. More interesting is what led to the invention being practical.
 How was it refined? How did it spread? What was the impact? What cascade of
 other inventions did it lead to? What were the cultural implications, the second
 order effects?</p>
-
 <h1>Technological diffusion is hard to measure</h1>
-
 <p>William Gibson famously quipped, "the future is already here —  it's just not
 very evenly distributed." Well, how uneven is the distribution? What about over
 time? For ancient inventions, the archaeological record is often sparse.
 Historians of technology fall back to depictions in art and philolology, both
 often controversial sources.</p>
-
 <h1>Aside: psychology of numbers</h1>
-
 <p>I recently came across some finishing times for the 2019 Boston Marathon, which
 included very clear peaks at the qualifying time (~3h for that year) as well as
 round numbers:</p>
-
-<p><img src="/diffusion-of-literacy-canada/boston_marathon_2019.png" alt="Boston Marathon 2019 finishing times" /></p>
-
+<p><img alt="Boston Marathon 2019 finishing times" src="boston_marathon_2019.png" /></p>
 <p>It's inspiring to see people strive for and achieve goals. When I tweeted this,
 @MelancholyYuga introduced me to a phenomenon I'd not heard of called Age
 Heaping.</p>
-
 <h1>Literacy from self-reported age?</h1>
-
 <p>Here's the theory: people that struggle with numbers often don't know their own
 age precisely, instead producing a round or lucky number.  Perhaps because they
 can’t subtract to infer their current age from their birth year and the current
 year. Or perhaps because they don't know their birth year at all. In aggregate,
 these errors add up to create Age Heaps, clearly visible at decades, with
 smaller peaks at ages ending in 5.</p>
-
 <p>Given any survey with self-reported ages, one can calculate a metric that
 estimates the literacy of a population. <a href="https://en.wikipedia.org/wiki/Whipple%27s_index">Various indices</a> like Whipple's
 Index or ABCC Index quantify this.</p>
-
 <h1>Finding an early census is hard</h1>
-
 <p>Rather than read boring papers, I decided to try this idea on a raw dataset. I
 immediately thought of the Domesday book, a famous medieval English survey.
 Happily, it's been digitized and is available online in quite a nice form at
 <a href="https://opendomesday.org/">opendomesday.org</a>. Unfortunately, the survey was not
 granular enough to ask for self-reported ages, mostly focusing on the shire
 level.</p>
-
 <p>Newer historical census data is generally owned by the government, but then
 digitized and indexed by private companies usually focused on genealogy, such
 as <a href="https://familysearch.org">https://familysearch.org</a>. A fascinating wrinkle on early US censuses:
 before 1840, the US census only named the head of household and then bucketed
 dependents into seemingly arbitrary age categories: (0-10, 10-16, 16-26, 26-45,
 45+). This throws a wrench into finding any Age Heaps.</p>
-
 <p>Another source for data with self-reported ages are US passenger arrival
 records, for example this <a href="https://heritage.statueofliberty.org/">Ellis Island arrival
 database</a>. Once again, you can search the
 corpus via their website, but they do not provide the underlying dataset, even
 if you ask them nicely by email.</p>
-
 <h1>1852 Census of the Province of Canada</h1>
-
 <p>I was about to throw in the towel but then found
 <a href="https://automatedgenealogy.com">https://automatedgenealogy.com</a>, a crowdsourced effort to digitize old
 (pre-1920) Canadian censuses. Digitizing a census is tricky since the records
@@ -155,9 +136,7 @@ enough OCR to make a dent on this problem. So the process involves transcribers
 and verifiers working in tandem. I'm not entirely sure how well vetted the <a href="http://automatedgenealogy.com/census52/index.jsp?locale=en">data
 from the site</a> is,
 but I scraped it to do this analysis anyway. </p>
-
 <p>This census includes the following fields:</p>
-
 <ol>
 <li>Name</li>
 <li>Occupation</li>
@@ -166,15 +145,11 @@ but I scraped it to do this analysis anyway. </p>
 <li>Self-reported Age (YAY!)</li>
 <li>Sex</li>
 </ol>
-
 <p>The self-reported age field is key. But the other demographic information is
 also interesting. Looking at ABCC scores for sub-populations will be fun.</p>
-
 <h1>ABCC Indices by demographics</h1>
-
 <p>First off, I was pleasantly surprised to see very clear age heaping in this
 census.</p>
-
 <table>
   <tr><th></th><th>ABCC Score</th><th>Souls</th></tr>
   <tr><td>Overall</td><td>88%</td><td>1134930</td></tr>
@@ -215,67 +190,50 @@ census.</p>
 </table>
 
 <h1>Wait, what exactly are ABCC Indices measuring?</h1>
-
 <p>But is it really the case that if you don't know your age, you're likely to be
 innumerate? All signs <a href="https://www.youtube.com/watch?v=K7l5ZeVVoCA">point to yes</a>.</p>
-
 <p>More seriously, a <a href="https://onlinelibrary.wiley.com/doi/10.1111/ehr.13087?af=R">big caveat</a> applies here:</p>
-
 <blockquote>
-  <p>Though it can stand in as an acceptable proxy for literacy, our findings
-  suggest that age-heaping is most plausibly interpreted as a broad indicator of
-  cultural and institutional modernization rather than a measure of cognitive
-  skills.</p>
+<p>Though it can stand in as an acceptable proxy for literacy, our findings
+suggest that age-heaping is most plausibly interpreted as a broad indicator of
+cultural and institutional modernization rather than a measure of cognitive
+skills.</p>
 </blockquote>
-
 <h1>Mostly open questions around the edges</h1>
-
 <p>I suppose it makes sense that merchants (ABCC 92%) and skilled craftsmen
 (Blacksmith 90%, Tailor 91%) would be more advanced on a measure of "cultural
 and institutional modernization" as compared to servants (71%) and laborers
 (79%).</p>
-
 <p>It also makes sense that those born in Canada would remember their age better
 than immigrants. The simplest explanation is that those born in Canada are
 generally younger. Looking at the two age distributions side-by-side is
 revealing:</p>
-
 <p><img src="/diffusion-of-literacy-canada/born_in_canada.png" style="float: left; width: 50%;"/>
 <img src="/diffusion-of-literacy-canada/born_outside_canada.png" style="float: left; width: 50%;"/></p>
-
 <p>But why are residents of Canada East so much better at telling their own age
 than those of Canada West? </p>
-
 <p>And why do Methodists know their age so much better than Catholics? I've always
 found protestant denominations mysterious. The plot thickens!</p>
-
 <p><img src="/diffusion-of-literacy-canada/methodists.png" style="float: left; width: 50%;"/>
 <img src="/diffusion-of-literacy-canada/catholics.png" style="float: left; width: 50%;"/></p>
-
 <p>Speculating wildly, if your culture is really into birthdays, you would closely
 track your age and the age of close relatives. Knowing your own age would then
 have little bearing on your ability to write or do arithmetic, throwing shade on
 the whole premise.</p>
-
 <h1>Eyes on the prize</h1>
-
 <p>I'd originally hoped to find a way to measure diffusion of literacy
 over time. But the 1852 Census of Canada only gives a single snapshot in time,
 and other census data available on automatedgenealogy.com does not overlap
-geographically.  In search for more data, I found and purchased <a href="https://aad.archives.gov/aad/series-description.jsp?s=4434&col=1002">Russians to
+geographically.  In search for more data, I found and purchased <a href="https://aad.archives.gov/aad/series-description.jsp?s=4434&amp;col=1002">Russians to
 America Passenger
 Data</a>,
 covering 1834 - 1900.</p>
-
 <p>Quick pre-registration of hypotheses on that dataset:</p>
-
 <ul>
 <li>Subsequent waves of Russian immigrants exhibit increasing ABCC. </li>
 <li>Strong correlation between size of city of origin and ABCC.</li>
 </ul>
-
 <p>Stay tuned and find out.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

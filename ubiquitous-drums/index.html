@@ -66,13 +66,11 @@ isn’t only the typical rhythm loving bus rider, but also an amateur drummer.
 Drum kits are heavy and unwieldy, making them difficult to transport to a jam
 session. The proposed system can also act as a stand-in for a full drum-kit for
 quick, impromptu jamming.</p>
-
 <p>I took a pair of jeans and imbued them with two <a href="http://www.sparkfun.com/commerce/product_info.php?products_id=9376">force-sensitive resistors</a>,
 one on each knee. The left pocket houses a sparkfun box containing an arduino
 and a breadboard. Wires run through the pant legs to connect the pads to the
 box. Wiring the pants was surprisingly easy, since as I discovered, electric
 tape easily adheres to denim.</p>
-
 <iframe title="YouTube video player" width="600" height="368"
   src="//www.youtube.com/embed/HjWx9fp-8oU" frameborder="0"
   allowfullscreen></iframe>
@@ -82,7 +80,6 @@ of the Arduino. Every time a pad is hit, Arduino sends the pad
 ID and the force of the impact through the serial port. A python program running on my machine
 listens on the serial port and synthesizes sounds corresponding to the data
 using <a href="http://pyserial.sourceforge.net/">pyserial</a> and <a href="http://www.pygame.org/news.html">pygame</a> respectively.</p>
-
 <pre><code>import pygame, sys, serial
 
 # initialize the pygame mixer
@@ -107,14 +104,12 @@ while 1:
 if __name__ == '__main__':
     pass
 </code></pre>
-
 <p>This first prototype of Drum Pants is intentionally crude. Aside from
 increasing this system’s production value, there are a number of limitations
 that should be addressed. The current prototype requires a computer to
 synthesize sounds, which greatly hinders portability. By retrofitting the
 Arduino with a <a href="http://asynclabs.com/wiki/index.php?title=WiShield_1.0">wifi shield</a>, the system could communicate with any
 wifi-capable synthesizer, such as an Android phone.</p>
-
 <p>Another issue with this system is that it’s built entirely into a pair of
 pants. This makes putting drum pads into other items of clothing impossible. To
 address this problem, the pads could wirelessly communicate to the Arduino
@@ -122,12 +117,9 @@ device. In this case, the pads would be self-contained transmitters that could
 be placed anywhere. This opens up a wide variety of applications, such as
 placing the pad onto a pair of shoes to simulate a kick or hi-hat pedal. Do you
 like this idea? Please give me feedback below!</p>
-
 <p><strong>Update:</strong> Do you want to build your own drum pants? Check out this
 <a href="http://www.instructables.com/id/Drum-Wear-drums-in-your-clothing/">instructable</a>!</p>
-
 <p><strong>Update 2:</strong> Accepted as a CHI 2010 WIP. Many thanks to <a href="http://code.arc.cmu.edu/~mdg/">Mark Gross</a>!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

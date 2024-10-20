@@ -66,30 +66,25 @@ cycle. In particular, this post is about the set of frameworks that I found to
 be instrumental in developing my most recent project. I'll go over some of the
 most important framework types, each of which could be expanded into an article
 in its own right. This is not meant to be an extensive comparison of existing
-offerings, just a slice of technologies that I experimented with most recently.
-<!--more--></p>
+offerings, just a slice of technologies that I experimented with most recently.</p>
+<!--more-->
 
 <p>Although my focus is on mobile first, I think that this set of technologies can
 be applied to web apps in general. All of my decisions and data points were
 made with a few requirements in mind:</p>
-
 <ul>
 <li>JavaScript only (CoffeeScript, Dart, are definitely worth a serious look, but
-cause an explosion in choice which I wanted to avoid)</li>
+  cause an explosion in choice which I wanted to avoid)</li>
 <li>Must work well in modern browsers (iOS 5, Android 4)</li>
 </ul>
-
 <h2>Picking an MVC</h2>
-
 <p>The model view controller pattern has been in use in native UI app development
 for decades. The basic idea is to separate the data layer (storage,
 communication, data) from the presentation layer (UI, animation, input). There
 are other similar patterns such as MVVM (Model View ViewModel), but the main idea
 is to have well-defined separation between the presentation and data layers for
 cleaner code and ultimately long-term velocity:</p>
-
-<p><img src="/mobile-web-app-tech-stack/separation.jpg" alt="separation" /></p>
-
+<p><img alt="separation" src="separation.jpg" /></p>
 <p>There are tons of offerings of JavaScript model view controller frameworks.
 Some, such as <a href="http://backbonejs.org/">Backbone.js</a> and <a href="http://spinejs.com/">Spine.js</a> are written in pure
 code, while others like <a href="http://knockoutjs.com/">Knockout.js</a> and <a href="http://angularjs.org/#/">Angular</a> rely on
@@ -97,7 +92,6 @@ DOM data attribute binding. Relying on HTML5 data DOM attributes feels wrong
 for an MVC system, whose whole point is to separate view and data. This
 excludes the Knockout and Angular frameworks. Spine.js is easier with
 CoffeeScript, which we exclude based on my initial requirements.</p>
-
 <p>Backbone.js has been around for longer than most (except perhaps JavaScriptMVC,
 seems like a dead project), and also features a growing open source community.
 For my app stack, I went with Backbone.js. For more information about picking
@@ -106,9 +100,7 @@ application using different MVC frameworks. Also see this
 <a href="http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/">MVC framework comparison</a>, which strongly favors the
 <a href="http://emberjs.com/">Ember.js</a>, a relative newcomer to the scene. I haven’t yet had a chance
 to play with it, but it’s on my list.</p>
-
 <h2>Picking a templating engine</h2>
-
 <p>To build a serious application on the web, you inevitably build up large DOM
 trees. Rather than using JavaScript APIs to manipulate the DOM, it can be much
 simpler and more efficient to write HTML using a string-based template instead.
@@ -118,7 +110,6 @@ convention of embedding the template content inside script tags: <code>&lt;scrip
 pattern of use for all template engines is to load the template as a string,
 construct template parameters and then run the template and parameters through
 the templating engine.</p>
-
 <p>Backbone.js depends on <a href="http://documentcloud.github.com/underscore/">Underscore.js</a>, which ships with a somewhat
 limited templating engine with verbose syntax. There are other options
 available, including <a href="http://api.jquery.com/category/plugins/templates/">jQuery Templates</a>, <a href="http://handlebarsjs.com/">Handlebars.js</a>,
@@ -130,13 +121,10 @@ construct in Mustache is a way to iterate an array of objects. Handlebars.js
 builds heavily on Mustache, adding some nice features such as template
 precompilation and in-template expressions. For my purposes I didn’t need these
 extra features, and chose Mustache.js as my templating platform.</p>
-
 <p>In general, my impression is that the existing templating frameworks are quite
 minimal and comparable in features, so the decision is largely a matter of
 personal preference.</p>
-
 <h2>Picking a CSS Framework</h2>
-
 <p>CSS frameworks are essential tools that extend CSS’s feature set with
 conveniences such as variables, a way to create hierarchical CSS selectors, and
 some more advanced features. This essentially creates a new language: an
@@ -145,27 +133,22 @@ frameworks implement a JavaScript CSS++ interpreter in the browser, while other
 frameworks let you monitor a CSS++ file and compile it whenever there are any
 changes made. All CSS frameworks should provide command line tool to compile
 CSS++ down to CSS for deployment.</p>
-
 <p>As with templating languages, there are many choices all of which do very
 similar things. My choice was motivated by personal syntax preference, and I
 prefer <a href="http://sass-lang.com/">SCSS</a> because it avoids weird syntax like <code>@</code>. One drawback of SCSS is
 that it doesn’t ship with a JavaScript interpreter (there is an <a href="https://github.com/bmavity/scss-js">unofficial one</a>
 that I haven’t tried), but does come with a command line watcher. Other similar
 CSS frameworks include <a href="http://lesscss.org/">LESS</a> and <a href="http://learnboost.github.com/stylus/">Stylus</a>.</p>
-
 <h2>How to layout views</h2>
-
 <p>HTML5 provides a variety of ways to layout content, and MVC frameworks provide
 no opinion about which of these layout technologies to use, leaving the
 sometimes difficult decision to you, the developer.</p>
-
 <p>Generally speaking, relative positioning is appropriate for documents, but
 falls apart for apps. Absolute positioning should be avoided, as should tables,
 clearly. Many web developers have turned to the float property to align
 elements, but this is suboptimal for building application views, since it’s not
 optimized for app-like layouts, which results in many odd problems and <a href="http://stackoverflow.com/questions/8554043/what-actually-is-clearfix">infamous
 clearfix hacks</a>.</p>
-
 <p>After much experimentation with various web layout technologies over the years,
 I think that a combination of fixed positioning and flexbox model is ideal for
 mobile web applications. I use fixed positioning for UI elements that are fixed
@@ -175,25 +158,18 @@ only CSS box model explicitly optimized for interface design, quite similar to
 Android’s LinearLayout manager. For more information about the flexbox model,
 read <a href="http://www.html5rocks.com/en/tutorials/flexbox/quick/">Paul's article</a> and note that this spec is being replaced by a
 <a href="http://www.w3.org/TR/css3-flexbox/">new, non-backwards compatible version</a>.</p>
-
 <h3>Adaptive Web Apps</h3>
-
 <p>One final section on this matter: I’m a strong proponent of creating
 device-specific user interfaces. This means re-writing parts of your view code
 for different form factors. Luckily, the MVC pattern makes it relatively easy
 to reuse a single model for multiple views (eg. tablet and phone).</p>
-
 <p>Flipboard for iOS demonstrates this idea very well, giving tablet and phone
 users a highly tailored experience for each device form factor.</p>
-
-<p><img src="/mobile-web-app-tech-stack/flipboard-phone.jpg" alt="flipboard-phone" />
+<p><img alt="flipboard-phone" src="flipboard-phone.jpg" />
 The phone UI is optimized for vertical swipes, allowing single hand use.</p>
-
-<p><img src="/mobile-web-app-tech-stack/flipboard-tablet.jpg" alt="flipboard-tablet" />
+<p><img alt="flipboard-tablet" src="flipboard-tablet.jpg" />
 Tablet UI works well for two hands holding the device on opposite sides.</p>
-
 <h2>Input considerations</h2>
-
 <p>On mobile, the main way users interact with your application is by touching the
 screen with their fingers. This is quite different from mouse-based
 interaction, since there are 9 additional points to track on the screen, which
@@ -201,23 +177,18 @@ means developers need to move away from mouse events when writing mobile apps.
 In addition, mouse events on mobile have the problem of clicks being delayed by
 300ms (there is a well-known <a href="http://code.google.com/mobile/articles/fast_buttons.html">touch-based workaround</a>). For more information
 about using these events in mobile browsers, see <a href="http://www.html5rocks.com/en/mobile/touch.html">my touch events article</a>.</p>
-
 <p>It’s not enough to just <code>s/mousedown/touchstart/</code> all of your event handlers.
 There is a completely new set of gestures that users have come to expect on
 touch devices, such as swipes to, for example, navigate through lists of
 images. Though Apple has a little-known <a href="http://developer.apple.com/library/safari/#documentation/UserExperience/Reference/GestureEventClassReference/GestureEvent/GestureEvent.html#//apple_ref/doc/uid/TP40009353">gestures API</a>, there is no open spec for
 doing gesture detection on the web. We really need a JavaScript library to do
 gesture detection, for some of the <a href="http://www.lukew.com/touch/TouchGestureGuide.pdf">more common gestures</a>.</p>
-
 <h2>How to make it work offline</h2>
-
 <p>For an app to work offline, you need two things to be true:</p>
-
 <ol>
 <li>Assets are available (via AppCache, Filesystem API, etc)</li>
 <li>Data is available (via LocalStorage, WebSQL, IndexedDB, etc)</li>
 </ol>
-
 <p>In practice, building offline apps on the web is a difficult problem. Generally
 speaking offline functionality should be built into your app from the
 beginning. It’s especially difficult to offline-ify an existing web application
@@ -226,22 +197,17 @@ storage limits for various offline technologies, and undefined behavior for
 what happens when those limits are exceeded. Finally, there are problems with
 technologies in the offline technology stack, most notably AppCache, as I
 outlined in a <a href="http://smus.com/game-asset-loader">previous post</a>.</p>
-
 <p>A very interesting approach to write truly offline-capable apps is to go
 “offline first”. In other words, write everything as if you have no internet
 connection, and implement a syncing layer that synchronizes data when an
 internet connection exists. In the Backbone.js MVC model, this can fit nicely
 as a custom <code>Backbone.sync</code> adapter.</p>
-
 <h2>Unit testing</h2>
-
 <p>It’s hard to unit test your UI. However, since you’re using an MVC, the model
 is completely isolated from the UI and as a result, easy to test. <a href="http://docs.jquery.com/QUnit">QUnit</a> is
 quite a nice option, especially because it allows to unit test asynchronous
 code using it’s <a href="http://docs.jquery.com/QUnit/start#decrement">start() and stop()</a> methods.</p>
-
 <h2>Signing off</h2>
-
 <p>To summarize, I used Backbone.js for MVC, Mustache.js for templating, SCSS for
 a CSS framework, CSS Flexbox to render views, custom touch events and QUnit for
 unit testing to write my mobile web application. For offline support, I’m still
@@ -250,15 +216,12 @@ information a future post. While I strongly believe in the need for each class
 of tool (eg. MVC) outlined here, I also believe that many of the specific
 technologies I described here are interchangeable (eg. Handlebars and
 Mustache).</p>
-
 <p><strong>One more thing</strong>: yesterday (on January 17th, 2012), <a href="http://walmartlabs.github.com/thorax/">Thorax</a> was
 announced. This is a Backbone-based set of libraries very similar in spirit to
 what I describe in this post. I've yet to investigate it in any depth, but the
 name is great :)</p>
-
 <p>Use a similar set of frameworks? Have a personal favorite? Think I’m missing an
 important type of framework? Let me know!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
