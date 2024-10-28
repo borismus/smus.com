@@ -4,6 +4,30 @@ type: note
 class: split
 
 
+Unintended Consequences of False Equity
+===
+posted: Oct 28, 2024
+
+What if our pursuit of educational equity is perpetuating inequality? Just as a rising tide lifts all boats, true educational equity must lift all students, regardless of background or ability.
+
+In a school setting, equity refers not to the equality of outcomes, but to the equality of opportunities for all students to succeed. In recent years, Seattle Public Schools (SPS) has prioritized supporting students furthest from educational justice (FFEJ), a laudable goal that aims to address historical inequities. However, this narrow focus has unintended consequences. While healthy adults may not need medicine, children — even the brightest — require external stimulation to reach their full academic potential. Here are three negative secondary effects of an overemphasis on FFEJ students.
+
+<!--more-->
+
+First is **reduced enrollment and funding to the district**. As high-end academics stagnate, displeased parents of capable children pull their children out of public school. This exodus is prominently displayed in Seattle, where a quarter of school-age children have now withdrawn from public school (up from one-sixth in 2022). Since Washington schools are funded per capita, less enrollment means less money funneling into the school district. From this purely self-interested financial perspective, neglecting capable students is like sawing off the branch you are sitting on.
+Furthermore, prioritizing FFEJ students also leads to **less equity for highly capable students from poorer families**. Private school is not cheap, and homeschooling is a luxury that only some families can afford, with at least one parent no longer able to work full-time. Thus, many families dissatisfied with public academics will not have the luxury of leaving the system. With the richest opting out of the public system, there are also less donations flowing to the Parent Teacher Student Associations (PTSA). With fewer capable students in the system and fewer exemplars of excellence for other students to follow, we will see a stronger correlation between socioeconomic status and academics. As a result, highly capable students forced to remain in the public system have reduced upward mobility.
+
+A related side effect of this policy is an **academic inversion in affluent neighborhoods**, whose public schools become worse than those in poorer neighborhoods. When an upper-class neighborhood predominantly enrolls its children in private schools, the public school in the area will stagnate and cater to a smaller audience on the outer rim of the catchment area. In Seattle, this effect is on display in Laurelhurst.
+
+Quoting [Charlotte Howard](https://mediadirectory.economist.com/people/charlotte-howard/), The Economist’s executive editor:
+
+> There’s a real opportunity for leaders to talk not about coddling specific subgroups, but passing broad policies to help Americans writ large, regardless of their particular group to advance.
+
+What needs to happen is pretty simple: give each student what they need to thrive; actual equity. In SPS, this would mean bringing back programs for highly capable students. This does not need to be done in a separate school as in the recently terminated Highly Capable Cohort (HCC) program. But it should probably not be done in the same classrooms as the other students, with no additional resources for already overloaded teachers. Enriched and remedial classes within neighborhood schools are a tested and true solution to this problem. These new programs need measurable goals so that the district can begin [to be accountable](/notes/2024/seattle-public-schools-accountability-problem/) in their pursuits of high-end excellence.
+
+In conclusion, our current educational system's emphasis on minimal standards directly impacts highly capable students and ultimately has an indirect negative impact on all students. It's time for Seattle and other progressive school districts to reclaim "equity", unlock the full potential of our children, and empower them to shape a brighter future for humanity.
+
+
 Seattle Public Schools accountability problem
 ===
 posted: Oct 12, 2024
