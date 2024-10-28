@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .       However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
+  <meta name="description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .        However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/web-sensor-api/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Web Sensor API: raw and uncut" />
-  <meta name="twitter:description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .       However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
+  <meta name="twitter:description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .        However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/web-sensor-api/" />
   <meta property="og:title" content="Web Sensor API: raw and uncut" />
-  <meta property="og:description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .       However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
+  <meta property="og:description" content="Sensors found in smartphones define the mobile experience. GPS and the magnetometer enable the fluid experience of maps; motion sensing enables activity recognition and games, and of course the camera and microphone allow whole categories of rich media applications. Beyond these now obvious examples, sensors can also enable clever inventions, such as  Cycloramic , which used the vibrator motor in iPhones (4 and 5) to rotate the phone and take a panorama,  pushup counters  which use the proximity sensor to count repetitions, and  Send Me To Heaven , which uses the accelerometer to determine flight time of a phone thrown vertically as high as possible. I've had some experience using and abusing sensors too, most recently for the  Cardboard magnet button .        However, over the last couple of years, I've had to step away from the web as a development platform, in part because of the poor state of sensor APIs.  In this post, I will describe some of the problems, take a look at sensor APIs on iOS and Android, and suggest a solution in the spirit of the  extensible web manifesto ." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -71,6 +71,7 @@ Heaven</a>, which uses the accelerometer to determine flight time of
 a phone thrown vertically as high as possible. I've had some experience
 using and abusing sensors too, most recently for the <a href="http://smus.com/talk/2014/io14/">Cardboard magnet
 button</a>.</p>
+
 <iframe width="640" height="360" src="//www.youtube.com/embed/l5775qwORk4" frameborder="0" allowfullscreen></iframe>
 
 <p>However, over the last couple of years, I've had to step away from the
@@ -78,33 +79,39 @@ web as a development platform, in part because of the poor state of
 sensor APIs.  In this post, I will describe some of the problems, take a
 look at sensor APIs on iOS and Android, and suggest a solution in the
 spirit of the <a href="https://extensiblewebmanifesto.org/">extensible web manifesto</a>.</p>
+
 <!--more-->
 
 <h2>Existing sensor APIs are underspecified</h2>
+
 <p>One of the most popular sensor APIs on the web is the <a href="http://w3c.github.io/deviceorientation/spec-source-orientation.html#devicemotion">DeviceMotion event
 API</a>, which is basically always just an opaque abstraction around the
 accelerometer. The web, as always, tries to solve the problem in the
 most general way possible:</p>
+
 <blockquote>
-<p>This specification provides several new DOM events for obtaining
-information about the physical orientation and movement of the hosting
-device. The information provided by the events is not raw sensor data,
-but rather high-level data which is agnostic to the underlying source
-of information. Common sources of information include gyroscopes,
-compasses and accelerometers.</p>
+  <p>This specification provides several new DOM events for obtaining
+  information about the physical orientation and movement of the hosting
+  device. The information provided by the events is not raw sensor data,
+  but rather high-level data which is agnostic to the underlying source
+  of information. Common sources of information include gyroscopes,
+  compasses and accelerometers.</p>
 </blockquote>
+
 <p>This could be fine in theory, except the specs end up being so vague in
 their attempt to please everybody, that they under-specify the behavior
 of events such as <code>DeviceOrientation</code>. Throw in some rogue implementers,
 and you end up with huge discrepancies in browsers, as <a href="http://www.html5rocks.com/en/tutorials/device/orientation/">Pete found back
 in 2011</a>:</p>
+
 <blockquote>
-<p>For most browsers, alpha returns the compass heading, so when the
-device is pointed north, alpha is zero. With Mobile Safari, alpha is
-based on the direction the device was pointing when device orientation
-was first requested. The compass heading is available in the
-webkitCompassHeading parameter.</p>
+  <p>For most browsers, alpha returns the compass heading, so when the
+  device is pointed north, alpha is zero. With Mobile Safari, alpha is
+  based on the direction the device was pointing when device orientation
+  was first requested. The compass heading is available in the
+  webkitCompassHeading parameter.</p>
 </blockquote>
+
 <p>A useful sensor abstraction would be to build a compass on top of the
 magnetometer (and maybe gyro) sensors, and then expose that as a high
 level Compass API. Unfortunately many web sensor APIs give us a
@@ -113,36 +120,45 @@ sensors, nor do they provide much use. Sensors allow many applications
 that were not originally envisioned by the spec writers. By choosing
 poorly specified ivory-tower abstractions, the web limits what can be
 done on the platform.</p>
+
 <h2>Low level sensor APIs don't exist</h2>
+
 <p>While you can work around the insanity of <code>Device*</code> style events on the
 web with platform-specific shims, you cannot work around missing sensor
 APIs. Magnetometers, pressure sensors, proximity, light, temperature,
 battery, etc. These are mostly missing, and the ones that are specified
 are specified in a very narrow way that does not generalize across to
 other types of sensors (eg. <a href="http://www.w3.org/TR/2013/CR-ambient-light-20131001/">DeviceLightEvent</a>).</p>
+
 <p>Unfortunately it seems that previous attempts to push for a general low
 level sensor API <a href="http://lists.w3.org/Archives/Public/public-geolocation/2011Oct/0000.html">haven't really gotten much traction</a>. In
 fact, it's a bit unclear whether or not the <a href="http://www.w3.org/2009/dap/">Device API working
 group</a>, is even the right place for sensor APIs, since their
 mandate is supposedly more about services than sensors:</p>
+
 <blockquote>
-<p>[To] enable the development of Web Applications and Web Widgets that
-interact with devices services such as Calendar, Contacts, Camera,
-etc.</p>
+  <p>[To] enable the development of Web Applications and Web Widgets that
+  interact with devices services such as Calendar, Contacts, Camera,
+  etc.</p>
 </blockquote>
+
 <p>Except <a href="https://dvcs.w3.org/hg/dap/raw-file/default/sensor-api/Overview.html">here's a sensor API</a> from the same group, which
 seems to be abandoned... I don't even</p>
+
 <p>There are more recent voices (circa 2014) that seem to be pushing in a
 generic sensor API direction, from folks like <a href="https://github.com/rwaldron/sensors">Rick Waldron</a>
 and <a href="http://lists.w3.org/Archives/Public/public-device-apis/2014Sep/0024.html">Tim Volodine</a>. Many of these ideas are still working within
 the confines of a sensor API for each type of sensor. This does not
 scale well for the web, which tends to take a long time for any new web
 standard, but this renewed interest is very exciting and promising!</p>
+
 <h2>Sensors on other platforms</h2>
+
 <p>The web is woefully behind native platforms in almost every regard (with
 possibly the exception of audio). Sensors on iOS and Android have a rich
 history, and ended up in a pretty similar place as the two platforms
 have scrambled to converge. Let's take a look.</p>
+
 <p>iOS started off with a <a href="https://developer.apple.com/LIBRARY/ios/documentation/UIKit/Reference/UIAccelerometer_Class/index.html">UIAccelerometer API</a>, which was
 replaced by <a href="https://developer.apple.com/LIBRARY/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/index.html">CoreMotion</a> in iOS 5. Rather than providing a
 series of specific APIs for each type of sensor API as it had before,
@@ -154,6 +170,7 @@ generic, which makes it super easy to add new types of sensor data. That
 said, the API is generic only for motion sensors, which excludes a bunch
 of sensors not directly related to motion like temperature, humidity,
 etc.</p>
+
 <p>Android started off right, and hasn't had to change much, providing a
 <a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">generic API for sensors</a> since API level 3. Android's API
 is accessed through a SensorManager, which provides a somewhat overly
@@ -164,6 +181,7 @@ type)so the hardware/firmware vendor knows what data format their sensor
 should stream. Of course there are still rogue implementations that
 don't follow the spec, but that is a perennial problem for any open-ish
 ecosystem.</p>
+
 <p>Android also has a <a href="http://developer.android.com/guide/topics/sensors/sensors_overview.html">distinction</a> between software-based sensors and
 hardware-based ones. The idea is that the same framework can provide
 both the low level data coming directly from the hardware, as well as
@@ -171,6 +189,7 @@ useful higher level data obtained through <a href="http://en.wikipedia.org/wiki/
 API level 19, Android also provides <a href="http://developer.android.com/reference/android/hardware/SensorManager.html#flush(android.hardware.SensorEventListener)">batch mode</a> for sensor data, which
 is very useful for conserving battery and CPU for applications where
 some delay is acceptable.</p>
+
 <p>One nice advantage of an iOS style API is that each sensor type has its
 own structure (rather than just an amorphous array of floats, as in
 Android), which is quite a bit easier to parse. The downside is that
@@ -178,37 +197,46 @@ adding new sensor types introduces more overhead, since each one
 requires a new structure to be defined and agreed upon. Since we are
 talking about web standards, which evolve at a glacial pace, we should
 err on a simple API that works well without spec modifications.</p>
+
 <h2>Great artists steal</h2>
+
 <p>There is no need for the web to reinvent the wheel. The wheel has
 already been invented by iOS and Android. All we need to do is take the
 good parts from these successful sensor platforms, and integrate them
 into the web in a way that makes sense. The web is not the place for
 innovation, but for standardization.</p>
+
 <p>Conceptually, a sensor provides a stream of data. The developer should
 be able to configure the rate at which new data comes in, as well as
 batching the data in windows of sensor data (as is customarily done with
 audio data, for example). In Android, because of a plurality of devices,
 it's important to be able to check if a particular sensor is available.
 The same concept maps well to the web.</p>
+
 <h2>Toward A Web Sensor API</h2>
+
 <p>In general, here are the requirements for a Web Sensor API that works:</p>
+
 <ul>
 <li>A specification defining the format of the data, similar to
-  <a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">Android</a>.</li>
+<a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">Android</a>.</li>
 <li>A way to feature detect for the existence of a particular sensor.</li>
 <li>A way to request (and revoke) a stream of sensor data.</li>
 <li>A way to specify how often to poll the sensor.</li>
 <li>Bonus: A way to request sensor data in batch form.</li>
 </ul>
+
 <p>While bringing an API like this to the web is a huge undertaking, there
 is a silver lining. The sensors we're talking about are all considered
 (at least for now) low-security, in the sense that on native platforms,
 there is no extra permission required to access them. This makes it
 possible to simply propose an API, convince everybody of it's worth, and
 then have it implemented across the web!</p>
+
 <p>I don't have a strong opinion about how the API itself looks like as
 long as it fulfils the above requirements. Here's a simple strawman
 which should satisfy them:</p>
+
 <pre><code>// Check for magnetometer support.
 if (sensors.Magnetometer === undefined) {
   console.error('No magnetometer found');
@@ -237,7 +265,9 @@ function onMagnetometer(event) {
 // Stop listening.
 magnetometer.removeEventListener('changed', onMagnetometer);
 </code></pre>
+
 <h2>Conclusion</h2>
+
 <p>If you aren't yet convinced that we need access to low level sensors on
 the web, recall web developers scoffing at device pixel ratio (DPR),
 really questioning the need for to ever go above 2x. Now that <a href="https://developers.google.com/cardboard/">some
@@ -245,6 +275,7 @@ screens</a> are ending up 5cm from your face, the current
 generation of 4x displays isn't enough. The same exact thing applies to
 sensors. The need is there, but it is not seen as enough of a priority
 by the web community.</p>
+
 <p>By enabling low level sensor access, we can allow new experiences never
 before possible on the web. <a href="https://play.google.com/store/apps/details?id=com.runtastic.android.pushup.pro">Pushup rep counters</a>, the <a href="http://smus.com/talk/2014/io14/">magnet
 button</a> in Cardboard, and myriads more applications
@@ -252,9 +283,11 @@ yet to be concieved could all be built on the web platform, eliminating
 a big reason why the web is increasingly losing its relevance on mobile
 devices. Providing low level sensor access is critical and aligns
 perfectly with the <a href="https://extensiblewebmanifesto.org/">extensible web vision</a>.</p>
+
 <p><em>Update (Nov 14, 2014): There was a <a href="http://lists.w3.org/Archives/Public/public-device-apis/2014Nov/0018.html">W3C call</a> about this very
 topic yesterday! Kicking off efforts in <a href="https://github.com/w3c/sensors">this github repo</a>.
 Join us!</em></p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

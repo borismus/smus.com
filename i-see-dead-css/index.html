@@ -63,6 +63,7 @@
 CSS selectors and IDs are dead. By dead, I mean one of two things --
 either the ID or selector is referenced from the HTML and undefined in
 the CSS or it is defined in the CSS but never referenced in the HTML.</p>
+
 <p>A search for some CSS finding utilities proved somewhat fruitful. I
 found a brief <a href="http://www.aggiorno.com/blogs/aggiornings/post/Detecting-unused-CSS-selectors-.aspx">survey of related utilities</a> for this finding or
 cleaning dead CSS, the most promising of which was a Firefox plug-in
@@ -70,14 +71,17 @@ called <a href="http://www.sitepoint.com/dustmeselectors/">Dust-Me Selectors</a>
 integrated into an automatic build process, easily invokable from the
 command line without requiring a browser, so I started thinking about a
 custom solution.</p>
+
 <p>The problem can be solved as follows:</p>
+
 <ol>
 <li>Find all referenced IDs and classes, called R</li>
 <li>Find all defined IDs and classes, called D</li>
 <li>Take a difference between the sets so that the list of undefined IDs
-    and classes is (R - D), and the list of unreferenced IDs and classes
-    is (D - R)</li>
+and classes is (R - D), and the list of unreferenced IDs and classes
+is (D - R)</li>
 </ol>
+
 <p>I've already had the pleasure of using <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> python library
 to parse all sorts of HTML documents, and I quickly found <a href="http://cthedot.de/cssutils/">cssutils</a>
 to be a very handy CSS parser. In a matter of hours I was able to whip
@@ -87,24 +91,28 @@ invoke <code>./7sense.py &lt;list of files and directories&gt;</code> and the sp
 files will be parsed as if they were all part of the same webpage.
 Directories will be walked recursively, with all encountered CSS and
 HTML files assumed to be part of the web page.</p>
+
 <p>But things are not as simple as I had hoped, and my program has several
 notable limitations.</p>
+
 <ol>
 <li>Due to lack of time, 7sense does not look at what stylesheets are
-    referenced by an HTML page. Instead, you have to tell it explicitly
-    what stylesheets are used by passing them as arguments.</li>
+referenced by an HTML page. Instead, you have to tell it explicitly
+what stylesheets are used by passing them as arguments.</li>
 <li>7sense does not properly decipher heirarchical CSS selectors like
-    '#myContainer .aboutBox'. Instead, it splits the selector into
-    whitespace separated tokens, ignoring their structure. I skimped on
-    this feature also due to lack of time.</li>
+'#myContainer .aboutBox'. Instead, it splits the selector into
+whitespace separated tokens, ignoring their structure. I skimped on
+this feature also due to lack of time.</li>
 <li>More fundamentally, 7sense is not aware of any Javascript
-    modifications to the DOM. This could be remedied on a case-by-case
-    basis. For example, one could write a parser to seek jQuery.setClass
-    invocations, and extract additional classes from there.</li>
+modifications to the DOM. This could be remedied on a case-by-case
+basis. For example, one could write a parser to seek jQuery.setClass
+invocations, and extract additional classes from there.</li>
 </ol>
+
 <p>At any rate, here's <a href="http://www.borismus.com/wp-content/uploads/2008/12/7sense.py">7sense so far</a>. Though flawed, it's a useful
 start. Ideas and code improvements, especially addressing the above
 limitations are very much appreciated!</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

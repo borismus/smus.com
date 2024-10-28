@@ -64,13 +64,17 @@ orchestra, and music fades in out of thin air, matching your tempo and time
 signature. Your nuanced gestures can indicate changes in intensity, and of
 course affect the speed of the piece. You'd first need to learn some
 basic conducting patterns, like these:</p>
-<p><img alt="Conducting patterns for various time signatures" src="conduct-time-signatures.png" /></p>
+
+<p><img src="/gestural-music-direction/conduct-time-signatures.png" alt="Conducting patterns for various time signatures" /></p>
+
 <!--more-->
 
 <p>You would also have to wait for me to finish this project, which uses a LEAP
 motion device (or your trackpad), the Web Audio API, and some signal processing
 to achieve a scaled back version of the idea described above.</p>
+
 <h2>Prototype</h2>
+
 <p>The current prototype lets you control the tempo of a song called "Phantom"
 from the excellent <a href="http://www.parovstelar.com/">Parov Stelar</a>. You can do this by making simple
 conducting patterns, similar to the 2/4 pattern above. In practice, you can use
@@ -78,62 +82,65 @@ any pattern in which your hand oscillates between two points in space to play
 with this prototype. You can even use your mouse instead of a LEAP motion
 device. Just click in to enable pointer lock. This will ensure that your mouse
 will always be focused inside your browser.</p>
+
 <p>I built a visualizer which is an 8-bit inspired frequency graph which
 also shows directional changes as pulsating red dots, and clusters which
 flash to the beat.</p>
-<p><a href="http://borismus.github.io/gestural-music-direction/"><img alt="Screenshot of leap conductor" src="screenshot.png" /></a></p>
+
+<p><a href="http://borismus.github.io/gestural-music-direction/"><img src="/gestural-music-direction/screenshot.png" alt="Screenshot of leap conductor" /></a></p>
+
 <p>If you'd like to try it live, the <a href="http://borismus.github.io/gestural-music-direction/">demo lives here</a>.</p>
+
 <h2>Handling input</h2>
+
 <p>With a LEAP device plugged in, the prototype maps the palm's 3D center
 to 2D. It works just as well with just a trackpad or mouse attached to
 your computer, which directly outputs 2D coordinates. The input handling
 algorithm then uses the resulting (x, y) pairs to do roughly the
 following:</p>
+
 <ul>
-<li>
-<p>First, track positions and first (velocity) and second (acceleration)
-  order history, including times. Store in a ring buffer, which is
-  implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/ring-buffer.js">ring-buffer.js</a>.</p>
-</li>
-<li>
-<p>Extract sudden changes of direction based on heuristics related to
-  velocity and acceleration history.</p>
-</li>
-<li>
-<p>Cluster directional changes using K-means or similar clustering
-  algorithm which is implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/clusterizer.js">clusterizer.js</a>. I run this
-  K-means implementation with 3 values of k in [2, 3, 4] and pick the
-  one with the lowest error. I've also build a standalone
-  <a href="http://borismus.github.io/gestural-music-direction/cluster.html">clustering test page</a> with the following output:</p>
-</li>
+<li><p>First, track positions and first (velocity) and second (acceleration)
+order history, including times. Store in a ring buffer, which is
+implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/ring-buffer.js">ring-buffer.js</a>.</p></li>
+<li><p>Extract sudden changes of direction based on heuristics related to
+velocity and acceleration history.</p></li>
+<li><p>Cluster directional changes using K-means or similar clustering
+algorithm which is implemented in <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/clusterizer.js">clusterizer.js</a>. I run this
+K-means implementation with 3 values of k in [2, 3, 4] and pick the
+one with the lowest error. I've also build a standalone
+<a href="http://borismus.github.io/gestural-music-direction/cluster.html">clustering test page</a> with the following output:</p></li>
 </ul>
-<p><img alt="Clustering algorithm visualization" src="cluster.png" /></p>
+
+<p><img src="/gestural-music-direction/cluster.png" alt="Clustering algorithm visualization" /></p>
+
 <ul>
-<li>
-<p>To calculate tempo, pick a cluster and calculate mode of the deltas
-  between adjacent points.</p>
-</li>
-<li>
-<p>The time signature is just the number of clusters over 4 (for the
-  simple 2/4, 3/4 and 4/4 patterns).</p>
-</li>
+<li><p>To calculate tempo, pick a cluster and calculate mode of the deltas
+between adjacent points.</p></li>
+<li><p>The time signature is just the number of clusters over 4 (for the
+simple 2/4, 3/4 and 4/4 patterns).</p></li>
 </ul>
+
 <h2>Changing tempo in real-time</h2>
+
 <p>Once we have an idea of what pattern the user is creating with their hands, we
 need to match up the song to the pattern, and continuously adapt the song's
 playback rate to the user's motions.</p>
+
 <p>The Web Audio API makes it dead simple to change the playback rate of an audio
 buffer for a source node'ss entire duration. However, things get a bit
 trickier if this rate changes continuously over time. Chris Wilson
 describes a scheduling technique which addresses this exact problem in
 his <a href="http://www.html5rocks.com/en/tutorials/audio/scheduling/">"Tale of Two Clocks" HTML5Rocks article</a>. You can also see
 a simple version of it inaction in his <a href="http://www.html5rocks.com/en/tutorials/audio/scheduling/goodmetronome.html">metronome demo</a>.</p>
+
 <p>I used this idea to do a bit of granular synthesis on an audio buffer. I
 schedule a bit of the buffer into the future, at the current tempo. As the
 tempo changes, new bits of the buffer are scheduled at a different
 playbackRate. I keep track of how far into the buffer we've gone and use that
 as the grainOffset. Here's some code that illustrates this (but see the
 <a href="https://github.com/borismus/gestural-music-direction/blob/master/js/music-player.js">variable rate music player</a> for the full code):</p>
+
 <pre><code>MusicPlayer.prototype.loop_ = function() {
   // Schedule the next bar if it's not yet scheduled.
   while (this.nextNoteTime &lt; audioContext.currentTime + this.scheduleAheadTime) {
@@ -165,27 +172,34 @@ MusicPlayer.prototype.nextNote_ = function() {
   this.grainOffset += secondsPerBeat * rate;
 }
 </code></pre>
+
 <p>In practice, I'm unfortunately hitting some rounding errors, so the
 grains aren't stitched together as seamlessly as I wanted. You can
 sometimes hear artifacts if you slow the tempo way down.</p>
+
 <h2>A work in progress</h2>
+
 <p>My initial idea was to use <a href="http://developer.echonest.com/">The Echo Nest</a> to pick the right song
 (based on time signature and tempo), and then stream that song from some
 streaming music service. Unfortunately it's quite hard to get at PCM versions
 of tracks from Rdio and Spotify. That said, it can be <a href="https://github.com/oampo/AmbientCloud">done with
 Soundcloud</a>. Long story short, the prototype currently only
 supports one song.</p>
+
 <p>A time signature recognizer is mainly useful for classical music, since so much
 of popular music is in common time (with <a href="http://twentytwowords.com/2011/05/18/6-pop-songs-in-unusual-time-signatures/">rare exceptions of popular music with
 complex time signatures</a>). But applying simple transformations
 like changing the tempo just feels wrong for complex music without a very
 obvious rhythmic structure.</p>
+
 <p>Lastly, LEAP's palm tracking is still quite noisy (even after drastic
 improvements to palm tracking as of <a href="https://developer.leapmotion.com/blog/sdk-0-7-7-released-new-palm-tracking-and-gesture-settings">SDK 0.7.7</a>). Also, the
 bay windows in my living room lets in tons of infrared light which often puts
 the device into a low fidelity tracking mode.</p>
+
 <p>As always, let me know what you think, and of course, feel free to fork
 and evolve on <a href="https://github.com/borismus/gestural-music-direction">github</a>.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

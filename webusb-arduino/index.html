@@ -60,19 +60,31 @@
     <a href='/webusb-arduino'><h1 class='title'>WebUSB, Arduino, and Nunchucks!</h1></a>
     <div class='body'>
       <p>WebUSB bridges two amazing universes: the open web and the maker movement. Web pages can now talk directly to external hardware over USB, and it works on both mobile and desktop (at least in Chrome). There are a <a href="https://github.com/webusb/arduino">few basic samples</a> out there, but for my own edification, I wanted to get my hands dirty. I hooked up a Wii Nunchuck to an Arduino, and built a webpage to plot sensor readings in real-time. Here’s the resulting <a href="https://www.youtube.com/watch?v=mqmtltjk66w">video</a> and <a href="/webusb-arduino/#" title="https://github.com/borismus/sensor-streamer">code</a>.</p>
+
 <!--more-->
 
 <p>I used this handy <a href="https://www.adafruit.com/product/345">breakout board</a> to hook up the Nunchuck to an Arduino Leonardo without having to cut cables and solder. The Arduino runs a sketch which reads sensor values over I2C and sends them to the host webpage over WebUSB. In this case, the host plots the sensor data as it streams in.</p>
+
 <h1>The UX is a mixed bag</h1>
+
 <p>Conveniently, any WebUSB device can be configured to broadcast a specific URL. As soon as you plug it in, Chrome displays a notification telling you that a new device was detected. Clicking the notification will take you directly to the advertised URL. Great!</p>
-<p><img alt="Notification to go to a URL" src="notification.png" /></p>
+
+<p><img src="/webusb-arduino/notification.png" alt="Notification to go to a URL" /></p>
+
 <p>To actually connect to the device, you need a user gesture (button press) to open up a native “Connect to USB device” dialog. You then pick the device from a list, and press the Connect button. Far from frictionless, but it makes sense given the web’s security model.</p>
-<p><img alt="Webpage wants to connect to device" src="dialog.png" /></p>
+
+<p><img src="/webusb-arduino/dialog.png" alt="Webpage wants to connect to device" /></p>
+
 <p>Despite the inconvenience, this is still super interesting, especially for doing one-time setup for a new hardware device. Certainly preferable to requiring the user to install a junky app on their phone!</p>
+
 <h1>Some minor caveats</h1>
+
 <p>WebUSB won’t work with all Arduinos, only those that support a low level USB profile (eg. Emulating a mouse or keyboard). Specifically, the Leonardo is supported, but the Uno is not.</p>
+
 <p>Arduino setup requires installing the <a href="https://github.com/webusb/arduino">WebUSB library</a> manually, and even changing some Arduino header files. This could definitely be streamlined. Also, beware the large number of Wii Nunchuck-related Arduino libraries, all of which seem subtly broken.</p>
+
 <p>Looking forward to using WebUSB in upcoming hardware projects! Stay tuned, and hopefully I’ll have something to share soon.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

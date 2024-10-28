@@ -66,6 +66,7 @@ enough to capture my attention. Generating sound effects seemed to fit
 the bill. Creating sounds through imitation or collecting is creative,
 fun and (ahem, quality aside) easy due to the ubiquity of microphones.
 Enter experimental service <a href="http://soundsourcing.com">soundsourcing.com</a>. </p>
+
 <p>First I had to verify some basic questions: Would turkers be willing to
 create and submit sound effects? Would their output be sufficiently good
 for someone to use in practice? Would it be possible to have some
@@ -73,12 +74,13 @@ quality control process to weed out the blatantly bad submissions?
 Jumping into experimentation, I asked workers to imitate or record a cow
 mooing, paying ten cents for their efforts. After 3 days I had a set of
 moos:</p>
-<object height="285" width="100%"><param name="movie"
+
+<p><object height="285" width="100%"><param name="movie"
   value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F527826&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=true&amp;show_artwork=true&amp;color=ff7700"></param><param
   name="allowscriptaccess" value="always"></param> <embed
   allowscriptaccess="always" height="285"
   src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F527826&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=true&amp;show_artwork=true&amp;color=ff7700"
-  type="application/x-shockwave-flash" width="100%"></embed></object>
+  type="application/x-shockwave-flash" width="100%"></embed></object></p>
 
 <p>Taking it up a notch, I requested the more obscure sound of a 
 <a href="http://soundcloud.com/borismus/sets/turkish-trains-leaving-the-station/">train leaving the station</a>. There were many excellent submissions in
@@ -86,7 +88,8 @@ the mix, although I suspect that many of them were not created by the
 workers but found online despite my empty threat to verify their
 originality and reject. My favorite is probably this train, improvised
 on harmonica: </p>
-<object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151"></param><param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151" type="application/x-shockwave-flash" width="100%"></embed></object>
+
+<p><object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151"></param><param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9563151" type="application/x-shockwave-flash" width="100%"></embed></object></p>
 
 <p>As usual, the hard problem with crowdsourcing is quality control. I
 approach this problem with a rating step after the sound samples have
@@ -96,7 +99,9 @@ instance of such a task can be done cheaply (I tried $0.05), so ordering
 the whole set in quality becomes easy. In the future I'd like to write
 some JS to verify that the turker in fact listened to all of the
 samples. Below is the rating form presented to MTurk users:</p>
-<p><img alt="image" src="turk-rate.png" /> </p>
+
+<p><img src="/crowdsourcing-sound/turk-rate.png" alt="image" /> </p>
+
 <p>When all of the pieces came together and some time remained, I built
 <a href="http://soundsourcing.com">soundsourcing.com</a> around this concept. I implemented the service
 using <a href="http://www.djangoproject.com/">Django</a> and <a href="http://code.google.com/p/boto/">Boto</a>, reusing many concepts from the
@@ -104,12 +109,15 @@ using <a href="http://www.djangoproject.com/">Django</a> and <a href="http://cod
 seeking very specific sound effects that they cannot find on existing
 sound effects sites can use soundsourcing to get their custom sounds
 built to order. The basic flow of HITs on MTurk looks like this:</p>
-<p><img alt="image" src="soundsourcing.jpg" /> </p>
+
+<p><img src="/crowdsourcing-sound/soundsourcing.jpg" alt="image" /> </p>
+
 <p>Since the cow and train experiments, I have collected <a href="http://soundsourcing.com/set/a-lion-roaring/">lion roars</a> and
 sword slashes (submissions are in progress at the time of writing).
 Please check out <a href="http://soundsourcing.com">the site</a>, request a sound sample
 and submit some feedback below. Mechanical Turkers, let's make some
 noise!!</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

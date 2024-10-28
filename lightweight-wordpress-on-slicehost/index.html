@@ -65,7 +65,9 @@ ran into memory trouble right away. After endlessly struggling with
 Apache and mod_php configuration, I was ready to give up. Then on a
 whim, I switched to nginx/fastcgi to see the average response time drop
 from 1500ms to 300ms: </p>
-<p><img alt="image" src="performance.png" /> </p>
+
+<p><img src="/lightweight-wordpress-on-slicehost/performance.png" alt="image" /> </p>
+
 <p><a href="http://www.webfaction.com">WebFaction</a> is a great shared hosting environment, providing tons of
 functionality and impeccable customer support. However, shared hosting
 means that multiple users share resources on a single physical machine,
@@ -74,28 +76,34 @@ whim of other clients. Also, I prefer to do system administration from
 the command line, but WebFaction provides a powerful but clunky
 web-based administrative interface. All in all, despite my respect for
 WebFaction, I said goodbye and switched to <a href="http://www.slicehost.com">Slicehost</a>. </p>
+
 <p>I ordered my shiny new slice and plunged into configuration. I migrated
-wordpress databases and set up Apache with mod_php. Everything seemed
+wordpress databases and set up Apache with mod<em>php. Everything seemed
 to work reasonably well until Apache ran for a few hours and began
 consuming my memory allowance. The slice started thrashing and
 performance fell to a crawl.  I found the culprit to be in my
-mpm_prefork_module MaxClients and MaxRequestsPerChild configuration,
+mpm</em>prefork_module MaxClients and MaxRequestsPerChild configuration,
 but even after tweaking those, my slice was hitting the wall pretty
 quickly. I nearly returned to cushy WebFaction, where I had marginal
 performance without the headache, but decided to experiment more. </p>
+
 <p>Nginx is a minimalist HTTP server written by <a href="http://sysoev.ru/en/">Igor Sysoev</a> for
 <a href="http://www.rambler.ru/">Rambler</a>. It's now being used by <a href="http://www.wordpress.com">Wordpress</a> and other high profile
 sites. Seeking help from the internet, I eventually came across Thomasz
 Sterna's <a href="http://tomasz.sterna.tv/2009/04/php-fastcgi-with-nginx-on-ubuntu/">php-fastcgi init script</a> and adapted it for my slice,
 using</p>
+
 <pre><code>PHP_FCGI_CHILDREN=5
 PHP_FCGI_MAX_REQUESTS=100
 </code></pre>
+
 <p>for the low-memory environment. In addition, I installed the 
 <a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache</a> plugin.</p>
+
 <p>For my <a href="http://www.guitarunleashed.com">django site</a>, I wrote an init script for 
 launching the django fcgi server via django's manage.py. Here's the
 important part:</p>
+
 <pre><code>MAXCHILDREN=5
 MAXSPARE=5
 MINSPARE=2 
@@ -107,12 +115,15 @@ start-stop-daemon --quiet --start \
   host=$HOST port=$PORT pidfile=$PIDFILE \
   maxchildren=$MAXCHILDREN maxspare=$MAXSPARE minspare=$MINSPARE
 </code></pre>
+
 <p>I'm happy with the performance both for django and php-powered sites.
 However, I'm just guessing when it comes to values of <code>MAXCHILDREN</code>,
 <code>MAXSPARE</code> and <code>MINSPARE</code>, <code>PHP_FCGI_CHILDREN</code> and
 <code>PHP_FCGI_MAX_REQUESTS</code>.</p>
+
 <p>Do you have insight on how to tweak these parameters? Is your VPS
 hosting configuration better?</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

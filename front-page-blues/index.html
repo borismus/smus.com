@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="According to the  American Press Institute ,     News is that part of communication that keeps us informed of the changing events, issues, and characters in the world outside.     There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.   This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
+  <meta name="description" content="According to the  American Press Institute ,        News is that part of communication that keeps us informed of the changing   events, issues, and characters in the world outside.      There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.    This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/front-page-blues/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Front page blues" />
-  <meta name="twitter:description" content="According to the  American Press Institute ,     News is that part of communication that keeps us informed of the changing events, issues, and characters in the world outside.     There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.   This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
+  <meta name="twitter:description" content="According to the  American Press Institute ,        News is that part of communication that keeps us informed of the changing   events, issues, and characters in the world outside.      There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.    This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/front-page-blues/" />
   <meta property="og:title" content="Front page blues" />
-  <meta property="og:description" content="According to the  American Press Institute ,     News is that part of communication that keeps us informed of the changing events, issues, and characters in the world outside.     There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.   This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
+  <meta property="og:description" content="According to the  American Press Institute ,        News is that part of communication that keeps us informed of the changing   events, issues, and characters in the world outside.      There are many ways for news to be uninformative or even outright misleading. Two trends in particular have received a lot of attention recently. The first is social recommendation systems and selective unfollowing, which creates a reality-distorting echo chamber. The second is fake news, which sure is in vogue these days, and is obviously a problem that we should tackle.    This post is about a different trend:  real news presented with misleading frequency . The issue at stake is the media's ability to inform its readers and serve the public interest." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,31 +60,38 @@
     <a href='/front-page-blues'><h1 class='title'>Front page blues</h1></a>
     <div class='body'>
       <p>According to the <a href="https://www.americanpressinstitute.org/journalism-essentials/what-is-journalism/purpose-journalism/">American Press Institute</a>,</p>
+
 <blockquote>
-<p>News is that part of communication that keeps us informed of the changing
-events, issues, and characters in the world outside.</p>
+  <p>News is that part of communication that keeps us informed of the changing
+  events, issues, and characters in the world outside.</p>
 </blockquote>
+
 <p>There are many ways for news to be uninformative or even outright misleading.
 Two trends in particular have received a lot of attention recently. The first is
 social recommendation systems and selective unfollowing, which creates a
 reality-distorting echo chamber. The second is fake news, which sure is in vogue
 these days, and is obviously a problem that we should tackle.</p>
+
 <p>This post is about a different trend: <a href="https://twitter.com/hamandcheese/status/801893793540796416">real news presented with misleading
 frequency</a>. The issue at stake is the media's ability to inform its readers
 and serve the public interest.</p>
+
 <!--more-->
 
 <h1>Real news, dubious frequency</h1>
+
 <p>If you are a New York Times reader, you may have noticed a certain individual
 prominently mentioned in the newspaper over the last several months. I wanted to
 know just how much, and started daily screenshots on August 3rd, 2016. To my
 great surprise, this was exactly one hundred days before the announcement of the
 45th president-elect. My analysis was very simple.</p>
+
 <ol>
 <li>Does the lead story (that is, top-left corner article) include "Trump" in the
-   title? <strong>(50 / 100 days)</strong></li>
+title? <strong>(50 / 100 days)</strong></li>
 <li>Does the "Trump" appear in any headline above the fold? <strong>(86 / 100 days)</strong>.</li>
 </ol>
+
 <p>I should note some limitations of this approach. This process itself was more
 manual than I would have liked. My script took screenshots only, so I did not
 have access to the markup of the page. I tried auto-reconstructing the images using
@@ -96,12 +103,15 @@ York Times is updated on a more frequent than daily basis, so my screenshots
 missed some versions. Also, notions of "lead story" and "above the fold" don't
 really make sense online. I arbitrarily defined "the fold" to be 1280 px, as in
 this example:</p>
-<p><img alt="Example NYT screenshot from September 16th" src="nytimes.png" /></p>
+
+<p><img src="/front-page-blues/nytimes.png" alt="Example NYT screenshot from September 16th" /></p>
+
 <p>As for the results? Half of the NYT's headlines had "Trump" in the name, and the
 frequency matched my intuition. It sure did feel like this dude was getting a
 whole lot of coverage. In fact, he got far more coverage than my method reveals,
 since many lead articles without explicit mention of his name in the title were
 still mostly about him.</p>
+
 <p>I was amused to see long runs of adjacent days of headlines about the
 president-elect-to-be followed by many days of respite. For example, from August
 9th to 17th, "Trump" was featured consecutively, only to be broken by the
@@ -109,103 +119,105 @@ news of Zika having spread to Florida.  The longest respite took place between
 September 19th and 27th, when the nation's focus switched to the Manhattan bomb
 scare. Things heated back up on October 8th, and stayed hot until the 18th, when
 his boasts about groping women were released to the public.</p>
+
 <p>Just for fun, I looked through some <a href="https://en.wikipedia.org/wiki/Portal:Current_events">other news</a> that lost the
 contest for most important story of the day. Here are three randomly chosen
 examples:</p>
+
 <ul>
-<li>
-<p>On August 14th, the NYT focused on G.O.P. politics rather than the Russian and
-  Syrian jets which conducted 26 airstrikes across the Idlib province, killing
-  122 civilians.</p>
-</li>
-<li>
-<p>On September 8th, the NYT decided that the future potential president's vows
-  to bolster military capacity and raise spending were more important than Wells
-  Fargo's agreement to pay $190 million to settle a case involving deceptive
-  sales that pushed customers into fee-generating accounts they never requested.</p>
-</li>
-<li>
-<p>On October 21st, the NYT featured a story about a presidential candidate
-  threatening to reject the election result rather than the Watts Bar Nuclear
-  Plant, which was the first U.S. nuclear reactor to enter commercial operation
-  in 20 years.</p>
-</li>
+<li><p>On August 14th, the NYT focused on G.O.P. politics rather than the Russian and
+Syrian jets which conducted 26 airstrikes across the Idlib province, killing
+122 civilians.</p></li>
+<li><p>On September 8th, the NYT decided that the future potential president's vows
+to bolster military capacity and raise spending were more important than Wells
+Fargo's agreement to pay $190 million to settle a case involving deceptive
+sales that pushed customers into fee-generating accounts they never requested.</p></li>
+<li><p>On October 21st, the NYT featured a story about a presidential candidate
+threatening to reject the election result rather than the Watts Bar Nuclear
+Plant, which was the first U.S. nuclear reactor to enter commercial operation
+in 20 years.</p></li>
 </ul>
+
 <p>I claim that the distribution of coverage in the days running up to the election
 did a bad job of keeping us informed of significant events, and went against the
 public interest.</p>
+
 <h3>On not being well informed</h3>
+
 <p>Only 15 reporters were present when Harry Truman announced the use of nuclear
 weapons against Japan. <a href="https://www.amazon.com/Six-OClock-Presidency-Presidential-Television/dp/0275935981">By 1990</a>, nearly 2000 reporters held
 passes to the White House pressroom. The presidency has become an increasingly
 important focal point for the media. But as I write here in 2016, the coverage
 of a mere presidential candidate has come to eclipse absolutely everything else.
 Reasons why this is bad:</p>
+
 <ul>
-<li>
-<p><strong>Opportunity cost</strong>: People have limited attention. By devoting half of the
-  headlines to one issue, we are inevitably less well informed about other
-  things.</p>
-</li>
-<li>
-<p><strong>Reporting on outrage</strong>: The majority of the headlines were about his
-  Rump's outrageous statements: "twitter barage taunts Ryan as weak and ineffective",
-  "clung to birther lie for years, and still isn't apologetic", "assails his
-  accusers as liars and unattractive", "failing efforts to tame his tongue". Is
-  that truly newsworthy?</p>
-</li>
+<li><p><strong>Opportunity cost</strong>: People have limited attention. By devoting half of the
+headlines to one issue, we are inevitably less well informed about other
+things.</p></li>
+<li><p><strong>Reporting on outrage</strong>: The majority of the headlines were about his
+Rump's outrageous statements: "twitter barage taunts Ryan as weak and ineffective",
+"clung to birther lie for years, and still isn't apologetic", "assails his
+accusers as liars and unattractive", "failing efforts to tame his tongue". Is
+that truly newsworthy?</p></li>
 </ul>
+
 <h3>On not serving the public interest</h3>
+
 <p>In one interpretation, "public interest" taken literally means providing the
 public with what they are interested in. And if the object of interest is a
 particular individual, so be it! That's how YouTube works: you watch a lot of
 cat videos, YouTube learns you are into cat videos and gives you more cat
 videos. This is problematic <a href="http://www.timewellspent.io/">in and of itself</a>. But capital-J journalism
 that the New York Times is associated with is held to a different standard.</p>
+
 <p>The literal definition leaves a lot to be desired. My view of public interest is
 more paternalistic and centers on that which is beneficial for a <a href="http://reutersinstitute.politics.ox.ac.uk/publication/journalism-democracy-and-public-interest">well
 functioning democracy</a>. In that view, here are a few reasons why focusing
 so heavily on Cheeto Jesus is counterproductive:</p>
+
 <ul>
-<li>
-<p><strong>General fairness</strong>: No individual is important enough to have half of
-  all stories in a newspaper be about them.</p>
-</li>
-<li>
-<p><strong>Playing into his little hands</strong>: The NYT gave a person widely regarded as
-  "remarkably narcissistic" fifty percent of all headlines. Thanks guys!</p>
-</li>
-<li>
-<p><strong>Conditioning effects</strong>: By reporting so heavily on a single topic,
-  people become morbidly obsessed with it. People wonder, "What's going to
-  happen next?" instead of moving on to more important stories.</p>
-</li>
+<li><p><strong>General fairness</strong>: No individual is important enough to have half of
+all stories in a newspaper be about them.</p></li>
+<li><p><strong>Playing into his little hands</strong>: The NYT gave a person widely regarded as
+"remarkably narcissistic" fifty percent of all headlines. Thanks guys!</p></li>
+<li><p><strong>Conditioning effects</strong>: By reporting so heavily on a single topic,
+people become morbidly obsessed with it. People wonder, "What's going to
+happen next?" instead of moving on to more important stories.</p></li>
 </ul>
+
 <p>Events have a timeline, but if the object of obsession is an individual, it's
 the gift that keeps on giving.</p>
+
 <h1>Engagement, clicks, and the bottom line</h1>
+
 <p>Why did the New York Times cover that despicable man to the extent that they
 did? I venture a couple of guesses:</p>
+
 <ol>
 <li>Genuine fear of him being elected, and thus a desire to warn the people of
-   his evil ways.</li>
+his evil ways.</li>
 <li>A desire to increase views, catering in part to the morbid fascination
-   of their readers.</li>
+of their readers.</li>
 </ol>
+
 <p>All things considered, I lean more towards the second possibility. While I can't
 rule out the first guess completely, it seems to be contradicted by the
 <a href="http://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html">explicit confidence</a> the NYT had in a Democratic win. Back in March,
 Vox <a href="http://www.vox.com/2016/3/3/11148296/donald-trump-media">asked the same question</a> and answered it simply:</p>
+
 <blockquote>
-<p>The media covers him a lot because his campaign is fascinating and people are
-interested in it.</p>
+  <p>The media covers him a lot because his campaign is fascinating and people are
+  interested in it.</p>
 </blockquote>
+
 <p>Notably, at the time, 13 percent of Vox stories were about the short fingered
 vulgarian, but generated 26 percent of their readership. With statistics like
 that, guess what topic gets covered more? As for public interest, the author of
 the piece doubted that his attention-getting tactics would continue to work in
 the candidate's favor. Carte blanche justifying continued coverage? How
 convenient!</p>
+
 <p>The internet has changed the media in a fundamental way. Even great publications
 like the New York Times haven't quite figured out how to balance their
 (understandable) corporate need for profit with their journalistic
@@ -213,22 +225,29 @@ responsibility to the public's interests. Our culture of not paying for news
 content leads to media companies to seek other sources of income, mostly in the
 form of ads. But you get what you pay for! Rather than covering the world in a
 balanced way, the world is covered in a way that more people will want to read.</p>
+
 <p>The result is a killer combination of consumer driven demand (oh my god, what is
 he going to say next?), and a desire for publications to maximize ad revenue.
 The term is "engagement", and <a href="https://medium.com/@edelwax/is-anything-worth-maximizing-d11e648eb56f#.bt1ua0z6g">Joe Edelman</a> does a great job of explaining
 why this is a dangerous thing to maximize.</p>
+
 <p>If newspapers did not need to maximize engagement to be profitable, there would
 be room to make decision that are aligned with actual public interest.</p>
+
 <h1>Problems of novelty</h1>
+
 <p>What makes a story newsworthy? Two ingredients at the very least,</p>
+
 <ol>
 <li>It must have happened recently, and</li>
 <li>it must be of sufficient interest to the public.</li>
 </ol>
+
 <p>The thing is, it takes time and effort to decide whether something is of
 sufficient interest to the public. So there is an inverse tradeoff between the
 ability to deliver both. The faster you deliver news, the more shortcuts must be
 taken to measure public interestingness.</p>
+
 <p>The general trend in the media is one of spacetime compression. Before the
 telegraph, it would take months for transatlantic news to travel. The fastest
 way to get information across was a slow moving frigate. Before Gutenberg, it
@@ -237,6 +256,7 @@ three centuries, the news cycle shrunk down to a daily basis. Today, since
 everyone has a mini-printing press in their pocket, the news period is
 arbitrarily small. According to <a href="http://www.tristanharris.com/2016/05/how-technology-hijacks-peoples-minds%E2%80%8A-%E2%80%8Afrom-a-magician-and-googles-design-ethicist/">Tristan Harris</a>, the average
 person checks their phone 150 times a day.</p>
+
 <p>With people checking the news every 10 minutes, there is a lot of pressure for
 journalists to produce more content, more often. And indeed, there's a
 lot of content online. But more does not mean better. Increasingly, news is
@@ -244,61 +264,61 @@ re-aggregated and re-published. Commentary is cheap and can be attached to a
 brand or personality, which means more clicks. Investigative journalism takes
 time. Unfortunately, by the time your investigation is finished... oh look a
 squirrel!</p>
+
 <p>It's tempting to blame the media for this, but the media is a reflection of our
 collective psyche magnified by modern technology. We need to value novelty less
 and learn how to delay gratification. Take a lesson from wine tasting and
 meditation. Accept that news happens and let it breathe undisturbed for a period
 of time. After all, hindsight is 20/20.</p>
+
 <h1>Any publicity is good publicity</h1>
+
 <p>Systematic flaws with today's media (see above) make it easy for cynical
 operators to exploit. Fake news happens when the media-savvy operator runs a
 news website. Stories are completely fictional, but negatively resonate with the
 public, creating pure click bait. <em>Oh my god, <a href="https://www.buzzfeed.com/craigsilverman/viral-fake-election-news-outperformed-real-news-on-facebook?utm_term=.rwlPqdb6Po#.ds5Yo0mwYE">Hillary sold weapons to
 ISIS</a>!</em></p>
+
 <p>In another, even more cynical and dangerous variant, the media-savvy operator
 mostly says and does outrageous things that may or not be true, purely for
 attention. <em>Oh my god, he said he would date his daughter</em>! Minor celebrities
 like <a href="https://swagbymilo.com/">M</a> have perfected this technique, but the Orange One is a true
 master. Sometime in July, his wife gave a speech which was <a href="http://www.politico.com/magazine/story/2016/07/donald-trump-2016-convention-melania-trump-speech-dark-art-of-pr-214083">blatantly
 plagiarized</a>. His response to the controversy?</p>
+
 <blockquote>
-<p>“Good news is Melania’s speech got more publicity than any in the history of
-politics,” he said, “especially if you believe that all press is good press!”</p>
+  <p>“Good news is Melania’s speech got more publicity than any in the history of
+  politics,” he said, “especially if you believe that all press is good press!”</p>
 </blockquote>
+
 <p>Straight from the horse's mouth. On the internet, we have an expression: <a href="http://rationalwiki.org/wiki/Don't_feed_the_Troll">"don't
 feed the troll"</a>. I guess the New York Times didn't get the memo?
 Whatever the case may be, the news media just helped feed the United States of
 America to the biggest troll ever.</p>
+
 <h1>This is bad, what do we do?</h1>
+
 <p>Here are some possible things to try:</p>
+
 <ol>
-<li>
-<p>Switch to a weekly news digest. At least this way events that happened early
-   in the week will have had time to settle. The Guardian has a <a href="https://www.theguardian.com/weekly">weekly
-   version</a>, but I struggled to find a subscribable <a href="http://www.nytimes.com/newsletters">weekly news
-   digest for the New York Times</a>.</p>
-</li>
-<li>
-<p>Read a more balanced news source that is not driven by engagement. My new
-   favorite source for daily news is <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Wikipedia's Current Events</a>. News
-   via Wikipedia has a nice side benefit: context for the story is readily
-   available in the form of other Wikipedia articles!</p>
-</li>
-<li>
-<p>Focus on more international content. The US is a special snowflake, but it's
-   not <em>that</em> special. The world is increasingly global, but papers like the NYT
-   tend to weigh US politics very heavily. <a href="http://www.bbc.co.uk/worldserviceradio">BBC World Service</a> may be a
-   remedy.</p>
-</li>
-<li>
-<p>Support your favorite news source through a subscription. This will reduce
-   their dependency on ads, which hopefully means less click-bait.</p>
-</li>
-<li>
-<p>Don't give Demagogues a platform. In this post, I have taken the Voldemort
-   tactic: avoid mentioning their name.</p>
-</li>
+<li><p>Switch to a weekly news digest. At least this way events that happened early
+in the week will have had time to settle. The Guardian has a <a href="https://www.theguardian.com/weekly">weekly
+version</a>, but I struggled to find a subscribable <a href="http://www.nytimes.com/newsletters">weekly news
+digest for the New York Times</a>.</p></li>
+<li><p>Read a more balanced news source that is not driven by engagement. My new
+favorite source for daily news is <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Wikipedia's Current Events</a>. News
+via Wikipedia has a nice side benefit: context for the story is readily
+available in the form of other Wikipedia articles!</p></li>
+<li><p>Focus on more international content. The US is a special snowflake, but it's
+not <em>that</em> special. The world is increasingly global, but papers like the NYT
+tend to weigh US politics very heavily. <a href="http://www.bbc.co.uk/worldserviceradio">BBC World Service</a> may be a
+remedy.</p></li>
+<li><p>Support your favorite news source through a subscription. This will reduce
+their dependency on ads, which hopefully means less click-bait.</p></li>
+<li><p>Don't give Demagogues a platform. In this post, I have taken the Voldemort
+tactic: avoid mentioning their name.</p></li>
 </ol>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

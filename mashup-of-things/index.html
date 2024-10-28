@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.   If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
+  <meta name="description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.    If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/mashup-of-things/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Internet mashup of things" />
-  <meta name="twitter:description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.   If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
+  <meta name="twitter:description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.    If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/mashup-of-things/" />
   <meta property="og:title" content="Internet mashup of things" />
-  <meta property="og:description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.   If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
+  <meta property="og:description" content="Many new devices come with unexpected connectivity - often a WiFi connection that enables them to connect to a hotspot and the larger internet.  Nest , a smart thermostat, was one of the first commercial products to do this. Many more indie projects are following suit, with an explosion of kickstarters like this  teleoperated light ,  connected scale  or this  general purpose connected sensor . The idea of an Internet of Things, in which every appliance and object is somehow connected, has long been popular in academic circles, and this time around it feels like we're actually close.    If we think of these physical devices/appliances as web services with APIs, we can mash them up just like we did in the early days of the web, creating applications that are more useful than the sum of their parts. In this post I argue for using the web as the medium to tie everything together, describe a simple architecture for building networked physical devices and build a web lamp controlled by an arduino." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -69,31 +69,39 @@ connected sensor</a>. The idea of an Internet of Things, in which
 every appliance and object is somehow connected, has long been popular
 in academic circles, and this time around it feels like we're actually
 close.</p>
+
 <p>If we think of these physical devices/appliances as web services with
 APIs, we can mash them up just like we did in the early days of the web,
 creating applications that are more useful than the sum of their parts.
 In this post I argue for using the web as the medium to tie everything
 together, describe a simple architecture for building networked physical
 devices and build a web lamp controlled by an arduino.</p>
+
 <!--more-->
 
 <h2>Web meets ubiquitous computing</h2>
+
 <p>The projects I mentioned above don't use proprietary home automation
 protocols like X10.  Instead, they establish connections via the
 internet. Nest registers itself with a central server (operated by Nest
 inc) over WiFi. You can then control your thermostat by logging into
 their website at nest.com.</p>
+
 <p>There's no need for heavyweight ISO666 standardization efforts. This is
 a very good thing, because it's really hard for anyone (including our
 industry) to agree on something new. Instead, we reuse a proven protocol
 that everyone's already agreed on: HTTP.</p>
+
 <h2>An Internet of too many things</h2>
+
 <p>Nest also provides Android and iOS apps to control your thermostat. But
 what happens when you have your thermostat, light bulbs, and home
 theater, scanner and <a href="http://www.google.com/cloudprint/learn/">printer</a> all connected up to the internet in
 this fashion? Too many apps! Imagine you have all of these different
 devices, perhaps multiple of each in some cases:</p>
-<p><img alt="Many smart things" src="many-smart-things.png" /></p>
+
+<p><img src="/mashup-of-things/many-smart-things.png" alt="Many smart things" /></p>
+
 <p>It pains me to imagine an app for each of these different services -
 there are simply too many things to juggle. I would not want to install
 apps for each of these devices for reasons similar to why I would never
@@ -101,12 +109,15 @@ install the United app: there is significant overhead to managing apps
 on your smart phone. They take up space on your home screens, you need
 to keep them up to date. <a href="http://jenson.org/">Scott Jenson</a> writes eloquently about
 this problem on his blog.</p>
+
 <p>If each hardware manufacturer releases their device with a central
 registry and public API, however, third parties might be able to build
 on top of the services that these devices provide, and certainly some
 interesting and pleasant user experiences will arise in this nascent
 area.</p>
+
 <h2>A minimum viable physical web architecture</h2>
+
 <p>There are many discovery protocols (eg. UPnP, zeroconf, ...), and many
 messaging protocols (eg. TCP, HTTP, ...), and I won't argue for one over
 another. The technical tradeoffs of each of these is outside of the
@@ -116,43 +127,58 @@ using widely available features available on the web, to enable a
 platform for prototyping, the goal being to establish useful and
 interesting interactions first, and implement the underlying technology
 later.</p>
+
 <p>In general, we want to be able to interact with devices that are nearby
 and also with devices that are far away. With this constraint, even the
 simplest approach requires a server component. Here's a sketch:</p>
-<p><img alt="A simple WiFi lamp" src="lamp-arch.png" /></p>
+
+<p><img src="/mashup-of-things/lamp-arch.png" alt="A simple WiFi lamp" /></p>
+
 <p>In this setup, the controller listens to the server for what it should
 do. At the same time, the remote sends commands to the server based on
 user interaction. The server keeps track of the state of all of the
 devices it manages.</p>
+
 <h2>Example: cloud lamp</h2>
+
 <p>The above approach is to simply have a RESTful server. The remote can
 send commands to via POST requests, and the controller can poll for its
 new state periodically with GET requests. A simple API for a lamp might
 look like this:</p>
+
 <ul>
 <li><code>GET /</code>: Returns 1 if the lamp is on. Otherwise returns 0.</li>
 <li><code>POST /on</code>: Turns the lamp on.</li>
 <li><code>POST /off</code>: Turns the lamp off.</li>
 </ul>
+
 <p>This API and the three components (server, client and device) above are
 enough to get a prototype off the ground. A simple implementation of all
 three pieces can be found in the <a href="http://github.com/borismus/hello-lamp">Hello Lamp on github</a>.</p>
+
 <p>The server-side is written on AppEngine, and simply tracks state. The
 handlers all use <a href="http://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>, which lifts the cross-domain security policy
 of the web, making it possible to POST to the lamp from any web page. </p>
+
 <p>The client is a really simple web page with two ways of controlling the
 lamp: the toggle switch and <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">speech recognition</a> (available
 behind a flag in Chrome), which enables simple "lamp, turn off" and "on"
 commands.</p>
-<p><img alt="Simple client" src="client.png" /></p>
+
+<p><img src="/mashup-of-things/client.png" alt="Simple client" /></p>
+
 <p>Finally, the device itself is an Arduino Uno with a <a href="http://arduino.cc/blog/2012/08/16/the-arduino-wifi-shield-is-now-available/">WiFi
 shield</a>. One of the pins is connected to a relay which controls
 a power socket with the plugged in lamp. The program itself is nearly
 identical to the existing sample apps available for the WiFi shield.</p>
-<p><img alt="Arduino WiFi shield" src="arduino.png" /></p>
+
+<p><img src="/mashup-of-things/arduino.png" alt="Arduino WiFi shield" /></p>
+
 <h2>Practical considerations</h2>
+
 <p>The solution described here is definitely not one to use in production
 for many reasons, including robustness, performance and security.</p>
+
 <p>In practice, we'd probably want a server to control multiple devices, so
 each request should specify an ID representing the device. Also,
 continuous polling is a very inefficient approach, since every HTTP
@@ -160,6 +186,7 @@ request has a lot of overhead. It's better to maintain open connection
 server-controller and server-remote connections to enable pushing of
 data directly. This connection should be bidirectional to let the device
 feed back to the remote as well as enabling control.</p>
+
 <p>A promising startup working in the direction of making vision more real
 is <a href="http://electricimp.com">electricimp</a>. These guys provide
 connectivity through a SD card form factor they call an "imp". Though
@@ -167,13 +194,16 @@ they have a proprietary communication protocol between their imps and
 their cloud (mainly for performance), they ultimately provide a RESTful
 web API to control each imp. Definitely looking forward to playing with
 their offerings.</p>
+
 <h2>Mash it up</h2>
+
 <p>Now we have a device registering with a public web server. The server
 provides an API for developers to access that device. Developers can
 then build applications around that API which interact with the device.
 This is no different from a regular web API, and at this point, all we
 have built is a glorified remote control that uses the web instead of IR
 for transmitting messages.</p>
+
 <p>However! One of the great things about web APIs is that they can easily
 be mixed with one another to create something greater than the sum of
 the parts. This is known on the internet as a "mashup". The first
@@ -184,6 +214,7 @@ craigslist. Mashup making services like <a href="http://pipes.yahoo.com/pipes/">
 <a href="https://ifttt.com/">IFTTT</a> have existed for a while. Notably, IFTTT includes support
 for some of the "smart" physical devices I mentioned in the beginning of
 this post.</p>
+
 <p>To me, the truly interesting question around this physical web is the
 user's experience. Each of the various promises of
 device/appliance/thing control or automation is not terribly compelling.
@@ -192,10 +223,13 @@ right fixture? The alternative of walking up to the light switch and
 flipping it seems much more lucrative. That said, I'm optimistic that
 there are compelling user interfaces to be discovered, but they will
 only emerge on top of this physical web framework.</p>
+
 <h2>A plea for physical APIs</h2>
+
 <p>As we move into a world connected devices, we need to have a solid,
 widely available platform for communication between these devices. This
 infrastructure can and should ultimately be the web.</p>
+
 <p>This opinion of mine is not zealotry, but completely practical: I do not
 want every device in my home to be stuck in an networked ecosystem
 provided by some single company. Whether it's an Android app, an iOS
@@ -203,6 +237,7 @@ app, a web app, a universal dashboard on a smart phone, a voice
 controlled system in the living room, or (more likely) something
 completely different, any of these systems should be able to easily
 interface with any device in the world.</p>
+
 <p>The recent stink around <a href="http://www.technologyreview.com/view/508666/twitter-instagram-and-the-internet-of-disconnected-things/">twitter no longer embedding instagram
 photos</a> is just one example of important chunks of the
 internet become segregated from one another. This wall-building trend is
@@ -211,6 +246,7 @@ based on interoperability: cross-linking, cross-embedding, and API
 mashups. While this new web of things is still in its infancy, it's
 especially important that we nurture the same principles that made the
 early web so great.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

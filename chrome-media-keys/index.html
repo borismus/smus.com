@@ -70,12 +70,15 @@ but these are useless if you use a web-based music player. This post
 addresses this inconvenience with <a href="https://chrome.google.com/extensions/detail/cpgegiegacijlefhjkfodppcefjhgdeo/">Media Keys</a>, a Chrome extension
 that lets you assign keyboard shortcuts in Chrome control web-based
 music players (currently thesixtyone only).</p>
+
 <h2>How it works</h2>
+
 <p>The extension relies on two injected <a href="http://code.google.com/chrome/extensions/content_scripts.html">content scripts</a>: <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/key.js">key.js</a>, a
 keyboard event listener injected into all pages and <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/t61.js">player.js</a>, a
 music player controller, injected into the player page. </p>
+
 <p>Key.js intercepts keyboard commands (ex. the next song key), and if they
-match bound music player keyboard shortcuts (ex. next song key =&gt;
+match bound music player keyboard shortcuts (ex. next song key =>
 change to the next song), it sends a message to player.js, which then
 does the right thing (ex. changes to the next song) by simulating mouse
 clicks.  Sounds good on paper, but the snag here is that you can't
@@ -83,18 +86,22 @@ easily do direct tab-to-tab communication in Chrome extensions, except
 possibly through a long-lived port connection. However using long lived
 connections doesn't make conceptual sense, since the lifespan of a tab
 is relatively short. </p>
+
 <p>So we go the long way with the help of a <a href="http://code.google.com/chrome/extensions/background_pages.html">background page</a>.</p>
+
 <ol>
 <li>On tab load, injected key.js messages the background page to
-    retrieve media key bindings</li>
+retrieve media key bindings</li>
 <li>On music player load, injected player.js messages the background
-    page, reporting its tab ID. The background page <a href="http://code.google.com/chrome/extensions/messaging.html#connect">opens a Port</a>
-    through which to communicate with the player page</li>
+page, reporting its tab ID. The background page <a href="http://code.google.com/chrome/extensions/messaging.html#connect">opens a Port</a>
+through which to communicate with the player page</li>
 <li>Matching keyboard events on all tabs send messages to the background
-    page. The background page then relays those messages through the
-    port to the music player</li>
+page. The background page then relays those messages through the
+port to the music player</li>
 </ol>
+
 <p>Here's an abridged code sample from the <a href="https://github.com/borismus/Chrome-Media-Keys/blob/master/dispatch.html">background page</a>: </p>
+
 <pre><code>chrome.extension.onRequest.addListener(
   function(request, sender, sendResponse) {
     switch(request.type) {
@@ -118,45 +125,57 @@ is relatively short. </p>
   }
 );
 </code></pre>
+
 <p>To summarize, this approach enables a client-side remote control for a
 specific web application from any other page. This is potent stuff!</p>
+
 <h2>Try it out</h2>
+
 <p>Want to try it out? Media Keys works across all Chrome platforms.</p>
+
 <ol>
 <li>Install <a href="http://kevingessner.com/software/functionflip/">Function Flip</a> <em>(Mac only)</em></li>
 <li>Check previous, pause/play and next buttons (F6, F7, F8 here) <em>(Mac
-    only)</em></li>
+only)</em></li>
 <li>Install the <a href="https://chrome.google.com/extensions/detail/cpgegiegacijlefhjkfodppcefjhgdeo">Media Keys</a> extension</li>
 <li>Open up the extension options, bind the keys and save</li>
 <li>Open up a new page and press the key bound to play</li>
 </ol>
+
 <p>I made a short screencast showing how to install configure and use the
 extension.</p>
+
 <iframe title="YouTube video player" width="600" height="368"
   src="http://www.youtube.com/embed/SrfsnU2gSyI" frameborder="0"
   allowfullscreen></iframe>
 
 <h2>Wish list</h2>
+
 <p>Just to recap, the keyboard shortcut binding pattern described above
 injects a script into all tabs, which essentially listens to all key
 events. A malicious developer could write a key logger watches username
 and password fields, correlates to the current domain and sends
 harvested data to some private server. </p>
+
 <p>There are also several limitations to this keyboard shortcut binding
 pattern. It simply won't work in the following cases:</p>
+
 <ol>
 <li>Chrome is in the background</li>
 <li>Focus inside chrome is not on the page (ex. location bar)</li>
 <li>Chrome is on a special page (ex. new tab page) where content scripts
-    don't get injected</li>
+don't get injected</li>
 <li>The current page intercepts keyboard events and stops propagation
-    (ex. Google Docs)</li>
+(ex. Google Docs)</li>
 </ol>
+
 <p>Keyboard shortcuts are super important to power users, and Chrome (OS)
 surely won't leave us in the dust, so I'm looking forward to helping
 address the security risks and practical limitations this approach as a
 Chromium project contributor.</p>
+
 <h2>Share and enjoy</h2>
+
 <p>One last thing. If you've read my <a href="/chrome-extension-mashups/">previous post</a>, you know that I'm a
 big fan of <a href="http://thesixtyone.com">thesixtyone.com</a> so my initial implementation
 works for this service only. Making it work for other music streaming
@@ -164,6 +183,7 @@ services is just a matter of creating a customized player.js file for
 your favorite music app, and tweaking the manifest to inject the new
 player.js into the correct domain. Feel free to fork the 
 <a href="https://github.com/borismus/Chrome-Media-Keys">project on github</a>.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.        WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
+  <meta name="description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.          WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/responsive-vr/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Responsive WebVR, headset optional" />
-  <meta name="twitter:description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.        WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
+  <meta name="twitter:description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.          WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/responsive-vr/" />
   <meta property="og:title" content="Responsive WebVR, headset optional" />
-  <meta property="og:description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.        WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
+  <meta property="og:description" content="VR on the web threatens to cleave the web platform in twain, like mobile did before it. The solution then and the solution now is  Responsive Web Design , which websites to scale well for all form factors. Similarly, for VR to succeed on the web, we need to figure out how to make VR experiences that work both in any VR headset, and also without a VR headset at all.          WebVR boilerplate  is a new starting point for building responsive web VR experiences that work on popular VR headsets and degrace gracefully on other platforms. Check out a couple of demos,  a simple one  and one  ported from MozVR ." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -65,31 +65,38 @@ Design</a>, which websites to scale well for all form factors.
 Similarly, for VR to succeed on the web, we need to figure out how to
 make VR experiences that work both in any VR headset, and also without a
 VR headset at all.</p>
-<p><img alt="Various head mounted displays." src="hmds.png" /></p>
+
+<p><img src="/responsive-vr/hmds.png" alt="Various head mounted displays." /></p>
+
 <p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building
 responsive web VR experiences that work on popular VR headsets and
 degrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a
 simple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>
+
 <!--more-->
 
 <h2>Preview the VR experience for everyone</h2>
+
 <p>Say you visit a webpage, and it opens up in split-screen mode barrel
 distortion, chromatic aberration correction, personalized interpupillary
 distance, and provides 6 DOF tracking. <a href="https://www.youtube.com/watch?v=PkFyGNjaQ8k">Whoa</a>. You reach for your
 VR headset only to find that you forgot it at work! How disappointing!
 The vast majority of normal people with no head mounted display lying
 around will surely be even more disappointed.</p>
+
 <p>Responsive web design promises content which automatically adapts to
 your viewing environment by using fluid layouts, flexible images,
 proportional grids; a cocktail of modern web technologies. Similarly,
 WebVR experiences need to work even without VR hardware. This has two
 obvious advantages:</p>
+
 <ol>
 <li>The vast majority of people that don't have VR hardware can still get
-   a feeling for the experience.</li>
+a feeling for the experience.</li>
 <li>Even if you have VR gear, donning it is a pain. This preview lets you
-   quickly evaluate whether or not wearing is worth the hassle.</li>
+quickly evaluate whether or not wearing is worth the hassle.</li>
 </ol>
+
 <p>What are some reasonable fallbacks to the in-helmet VR experience? The
 main question boils down to emulating head tracking without wearing
 anything on your head. On mobile phones, the obvious answer is to use
@@ -99,7 +106,9 @@ the arrow keys. This covers enough of the 3DOF orientation that all HMDs
 provide. Clearly missing are the three translational degrees of freedom,
 but these are provided only by some VR headsets, and we can imagine some
 <a href="http://topheman.github.io/parallax/">interesting fallbacks</a> for those too.</p>
+
 <h2>Write once, run in any VR headset</h2>
+
 <p>Remember the old "write once, run anywhere" promise? The web is the
 closest thing we have to fulfilling it, but what it actually delivers is
 often far from this ideal. The latest VR wave has barely begun and
@@ -111,30 +120,36 @@ means that we need to wait for WebVR to become fully baked. In other
 words, we are blocked on the valiant efforts of our dear <a href="https://twitter.com/vvuk">WebVR</a>
 <a href="https://twitter.com/Tojiro">implementers</a> (as well as the heavyweight browser development
 process consisting of spec authors, security reviews, binary size, etc).</p>
+
 <p>To speed up the process, we need a polyfill for WebVR which uses web
 APIs to provide functionality to the WebVR specification (currently, in
 <a href="https://github.com/vvuk/gecko-dev/blob/oculus/dom/webidl/VRDevice.webidl">IDL form</a>). In the absence of a WebVR implementation, the polyfill
 kicks in and supports mobile VR headsets like Cardboard and Durovis
 Dive, which are passive contraptions that just piggyback on the
 smartness found in your smartphone.</p>
+
 <h2>Introducing: WebVR Boilerplate</h2>
+
 <p>The <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> is on github, and consists of
 two parts. Firstly, the <a href="https://github.com/borismus/webvr-polyfill">WebVR polyfill</a> provides WebVR
 support for Cardboard-compatible devices, and orientation tracking
 fallbacks where no headset is available. The WebVR polyfill can also be
 installed from npm (available via <code>npm install webvr-polyfill</code>).</p>
+
 <ol>
 <li>A <code>CardboardHMDDevice</code>, provides a reasonable default for
-   interpupillary distance and field of view for cardboard-like devices.</li>
+interpupillary distance and field of view for cardboard-like devices.</li>
 <li>On mobile devices, a <code>GyroPositionSensorVRDevice</code>, which provides
-   orientation through the <code>DeviceOrientationEvent</code>.</li>
+orientation through the <code>DeviceOrientationEvent</code>.</li>
 <li>On PCs, a <code>MouseKeyboardPositionSensorVRDevice</code>, which provides
-   orientation through keyboard and mouse events.</li>
+orientation through keyboard and mouse events.</li>
 </ol>
+
 <p>It is designed to be used with <a href="http://threejs.org/">THREE.js</a> plugins that are built
 for the WebVR API: <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js">VRControls.js</a> and
 <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/effects/VREffect.js">VREffect.js</a>, but of course any valid usage of the WebVR API
 should work (modulo bugs).</p>
+
 <p>Secondly, the <a href="https://github.com/borismus/webvr-boilerplate/blob/master/js/webvr-manager.js">WebVR manager</a> surfaces VR compatibility
 using consistent iconography and simplifies transitioning in and out of
 full VR mode. It also contains some of the best practices for making VR
@@ -142,12 +157,16 @@ work on the web, for example, using orientation lock to keep the phone
 in landscape orientation, and a means of keeping the phone screen on. If
 you're ready to dive in, the <a href="https://github.com/borismus/webvr-boilerplate">github has all of the technical
 information</a> available.</p>
+
 <p>WebVR boilerplate is meant to make it easy to develop immersive
 experiences that run on all VR hardware, including Oculus and Cardboard,
 and also provide reasonable fallbacks when no specialized viewer is
 available.</p>
+
 <h2>WebVR boilerplate in action</h2>
-<p><img alt="Screenshot of the mozvr.com Sechelt demo." src="sechelt.png" /></p>
+
+<p><img src="/responsive-vr/sechelt.png" alt="Screenshot of the mozvr.com Sechelt demo." /></p>
+
 <p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the
 eponymous town on British Columbia's beautiful Sunshine Coast. I've
 <a href="http://borismus.github.io/sechelt">ported it</a> to WebVR Boilerplate. The result is the same
@@ -158,8 +177,10 @@ boilerplate code and a <a href="https://github.com/borismus/sechelt/commit/671cf
 there is no longer need for an unweildy conditional to determine whether
 to use <code>DeviceOrientationControls</code>, <code>OrbitControls</code>, or <code>VRControls</code>,
 and decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>
+
 <p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point
 out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

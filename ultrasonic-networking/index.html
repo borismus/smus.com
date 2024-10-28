@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:     Device works: feature completeness and stability   Device flows: good user experience   Many devices work together     But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
+  <meta name="description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:      Device works: feature completeness and stability   Device flows: good user experience   Many devices work together      But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/ultrasonic-networking/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Ultrasonic networking on the web" />
-  <meta name="twitter:description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:     Device works: feature completeness and stability   Device flows: good user experience   Many devices work together     But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
+  <meta name="twitter:description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:      Device works: feature completeness and stability   Device flows: good user experience   Many devices work together      But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/ultrasonic-networking/" />
   <meta property="og:title" content="Ultrasonic networking on the web" />
-  <meta property="og:description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:     Device works: feature completeness and stability   Device flows: good user experience   Many devices work together     But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
+  <meta property="og:description" content="The phone in your pocket is an amazing, fluid, multi-functional tool. When it comes to talking to other devices, such as your TV or laptop, the user experience drops off sharply. Bill Buxton  speaks eloquently  on the subject, describing three stages of high tech evolution:      Device works: feature completeness and stability   Device flows: good user experience   Many devices work together      But connecting devices is a pain and we have been squarely at stage 2 since the release of the iPhone. There are many competing approaches to do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same local WiFi network, and many many others. This post is dedicated to attacking this problem from an unexpected angle: using ultrasound to broadcast and receive data between nearby devices. Best of all, the approach uses the Web Audio API, making it viable for pure web applications:" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -64,11 +64,13 @@ When it comes to talking to other devices, such as your TV or laptop,
 the user experience drops off sharply. Bill Buxton <a href="http://www.youtube.com/watch?v=ZQJIwjlaPCQ&amp;feature=youtu.be&amp;t=21m00">speaks
 eloquently</a> on the subject, describing three stages of
 high tech evolution:</p>
+
 <ol>
 <li>Device works: feature completeness and stability</li>
 <li>Device flows: good user experience</li>
 <li>Many devices work together</li>
 </ol>
+
 <p>But connecting devices is a pain and we have been squarely at stage 2
 since the release of the iPhone. There are many competing approaches to
 do this: Bluetooth, Bluetooth LE, WiFi direct, discovery over the same
@@ -77,14 +79,17 @@ attacking this problem from an unexpected angle: using ultrasound to
 broadcast and receive data between nearby devices. Best of all, the
 approach uses the Web Audio API, making it viable for pure web
 applications:</p>
+
 <iframe width="640" height="360" src="//www.youtube.com/embed/w6lRq5spQmc" frameborder="0" allowfullscreen="true"></iframe>
 
 <!--more-->
 
 <h2>A device tower of babel</h2>
+
 <p><a href="http://www.apple.com/airplay/">Airplay</a> and <a href="http://www.google.com/chromecast">Chromecast</a> are great approaches to a subset of the
 problem for devices within the same ecosystem (eg. Apple, or Google),
 but the general problem remains hard to solve.</p>
+
 <p>Because there are so many possible technical approaches, chances are
 that the pair of devices that you happen to be using don't have a common
 language to speak. Even if both devices have Bluetooth, one of them may
@@ -93,15 +98,19 @@ version of the standard. This is especially common with Bluetooth today,
 where many devices have the hardware to support Bluetooth 4.0 (aka
 BTLE), but many devices don't currently support the new protocol for
 various reasons.</p>
+
 <p>On the web, the problem is even worse, since low level device connection
 APIs aren't exposed for <a href="http://smus.com/installable-webapps/">security sandbox reasons</a>. Because of
 how slowly the web evolves, it's hard to imagine this changing any time
 soon.</p>
+
 <h2>Transmitting data in interesting ways</h2>
+
 <p><a href="http://www.youtube.com/watch?v=sVWlQNzU4Ak">Blinkup from Electric Imp</a> is an interesting approach to
 cross-device communication. It uses a series of blinks to transfer
 configuration data between a smart phone and an Imp, a small SD-card
 shaped device with a light sensor.</p>
+
 <p>Dial-up modems did a similar thing. They encoded and decoded digital
 data onto an analog phone line. Remember those annoying connection
 noises? Dial-up modems would turn on their speaker to give the user an
@@ -110,22 +119,27 @@ a <a href="http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html">re
 when pressing numbers on a dialer correspond to the frequencies the
 phone system uses for analog-to-digital conversion. The conversion
 happens using <a href="http://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling">Dual-tone multi-frequency signaling (DTMF)</a>.</p>
+
 <p>Your phone and a lot of other devices around you has a speaker and a
 microphone. These two pieces of hardware can be used for sending and
 receiving data using sounds, similar to how modems did it over phone
 lines. Better yet, if the OS supports high enough frequency sending and
 receiving, we can create an inaudible data channel.</p>
+
 <h2>Transmitting data using sound</h2>
+
 <p>I should note that encoding data in sound is not new. The idea of <a href="http://en.wikipedia.org/wiki/Audio_watermark">audio
 watermarking</a> is to encode a signature into music that is not
 discernable by the listener (due to the way humans hear), but can be
 picked up by a machine. This is used as a clever piracy detection
 scheme. </p>
+
 <p>Most commodity speakers are capable of producing sound with a 44.1KHz
 sample rate (resulting in a maximum frequency of about 22KHz by the
 <a href="http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem">Nyquist-Shannon sampling theorem</a>). This lets us encode data
 not just as sound, but as sound that adults can't hear. Children and
 non-human animals are still susceptible, though :)</p>
+
 <p>One technical caveat is that microphones are sometimes not as capable as
 speakers, especially in phones, since they are often optimized for human
 speech, which sounds fine with a lower sample rate. In other cases,
@@ -133,7 +147,9 @@ even though the hardware is capable, the firmware runs at a lower sample
 rate for energy efficiency. If this is the case, one of the devices will
 not be able to receive the wave and the sound-based connection will be
 one-way only.</p>
+
 <h2>Sonicnet.js, a web audio implementation</h2>
+
 <p>To illustrate these concepts, I built a <a href="https://github.com/borismus/sonicnet.js">JavaScript library</a>
 that can send and receive data as sounds. My approach is and not nearly
 as sophisticated as the audio watermarking technique, and even simpler
@@ -142,6 +158,7 @@ frequencies to use, and an alphabet of characters that can be
 transmitted. The frequency spectrum is split into ranges corresponding
 to the specified alphabet and start/end codes, with each character/code
 corresponding to a part of the full frequency range.</p>
+
 <p>The sending side converts each character of the word to be sent into the
 center of the corresponding frequency range, and transmits that
 frequency for a certain duration. The receiving side does a continuous
@@ -149,18 +166,23 @@ fourier transform of the signal and looks for peaks in the specified
 frequency range. Upon finding a peak for a significant duration, it does
 the conversion back from frequency to character. This is essentially
 a <a href="http://en.wikipedia.org/wiki/Selective_calling#Tone_burst_or_single_tone">single-tone multi-frequency signaling (STMF)</a> scheme.</p>
+
 <p>There is a timing issue: on the sending side, how long should each
 character be transmitted for, and on the receiving side, how long should
 the listened for? An easy workaround for this is to disallow adjacently
 repeated characters.</p>
+
 <p>I built a socket-like API for sonic networking. Client code
 looks like this:</p>
+
 <pre><code>ssocket = new SonicSocket({alphabet: '0123456789'});
 function onButton() {
   ssocket.send('31415');
 }
 </code></pre>
+
 <p>And the server can look like this:</p>
+
 <pre><code>sserver = new SonicServer({alphabet: '0123456789'});
 sserver.on('message', function(message) {
   // Expect message to be '31415'.
@@ -168,18 +190,22 @@ sserver.on('message', function(message) {
 });
 sserver.start();
 </code></pre>
+
 <p>The library is available for use on <a href="https://github.com/borismus/sonicnet.js/tree/master/lib">github</a>.</p>
+
 <p>Of course, using it requires a Web Audio implementation (mostly
 <code>OscillatorNode</code> on the sending side, and <code>AnalyserNode</code> on the
 receiving side) and good enough hardware. I have experimented with
 Chrome-to-Chrome transmission on Mac Books, as well as between Chrome
 for Android (beta) and Chrome for Mac.</p>
+
 <p>I wrote a couple of demos to illustrate the idea. These appear in the
 <a href="http://www.youtube.com/watch?v=w6lRq5spQmc">video I embedded at the top of the post</a>. The first demo lets
 you <a href="http://borismus.github.io/sonicnet.js/emoticons">send emoticons</a> from one device to the other. It uses a
 small alphabet of just 6 characters - one for each emoticon. You pick
 one of 6 emoticons, and the corresponding character is sent over the
 sonic network, received and shown prominently on the other end.</p>
+
 <p>A more realistic use for sonicnet.js is this <a href="http://borismus.github.io/sonicnet.js/chat-pair">chat
 application</a>, which generates a non-repeating 5-digit token
 and uses it to create connections between two devices. This is done with
@@ -187,7 +213,9 @@ the help of a pairing server, which helps establish a proxied connection
 between the two devices, over a websocket. Once the connection is
 established, the chats themselves are sent through the websocket. The
 <a href="https://github.com/borismus/sonicnet.js/tree/master/server">server code</a> is hosted on <a href="https://www.nodejitsu.com/">nodejitsu</a>.</p>
+
 <h2>Conclusions and a request</h2>
+
 <p>It's great to see that the Web Audio API has come far enough that
 applications like these are possible. I'm fascinated by the implications
 of sonicnet.js for the Web of Things. It is a pure web technology that
@@ -196,6 +224,7 @@ browsers and audio hardware, the combination can be a huge win, even
 among commodity hardware, without having to wait for Bluetooth and other
 close-range connectivity technology to become available to the web
 platform.</p>
+
 <p>If this post has piqued your interest and you are interested in helping,
 try writing an app using sonicnet.js. As I mentioned earlier, receiving
 high frequency sounds does not work on all devices because of
@@ -206,6 +235,7 @@ receive. Please fill out <a href="https://docs.google.com/forms/d/1dAgNdVdhss-QR
 demo</a> on your own hardware. At the time of writing, <a href="http://crbug.com/242894">live
 input is not supported</a> in Chrome for Android Beta, so sending
 data from mobile device to laptop is the only possible configuration.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

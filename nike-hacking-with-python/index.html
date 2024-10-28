@@ -67,16 +67,19 @@ which measures how long the foot exerted pressure on the ground.
 According to <a href="http://support.apple.com/kb/HT2293?viewlocale=en_US">Apple's FAQ</a>, this contact time is directly related to
 your pace. In this post I provide a snippet of python code for
 collecting data through Sparkfun's adapter. </p>
+
 <p>Sparkfun <a href="http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=41">dissected</a> the transmitter and receiver and currently sell a
 <a href="http://www.sparkfun.com/commerce/product_info.php?products_id=8245">Nike+ Serial to USB adapter</a>. There's been a number of <a href="http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=135">notable</a>
 <a href="http://dub.washington.edu/pubs/46%0A">projects</a> since, and quite a lot of interest in the system for
 general hackery.</p>
+
 <p>I wanted to
 use Nike+ for my own project (a running bib that would automatically
 display the runner's speed on the back). Unfortunately, the only
 available implementations were in <a href="http://www.sparkfun.com/datasheets/DevTools/iPod/Nike_iPod_Serial.zip">Visual Basic</a> and <a href="http://rtadlock.blogspot.com/2009/06/some-perl-code-for-nikeipod-serial.html">perl</a>, neither
 of which work on Mac. Here's a small script for Python on Mac OS X to
 collect Nike+ data using SparkFun's adapter. </p>
+
 <pre><code>#!/usr/bin/env python
 import serial
 from hexbyte import *
@@ -125,15 +128,19 @@ while True:
         }
         print data
 </code></pre>
+
 <p>You'll also need <a href="https://github.com/borismus/Running-Gestures/blob/master/hexbyte.py">hexbyte.py</a>, which contains convenience conversion
 methods between binary and hex.</p>
+
 <p>I'm still unable to fully make sense of this data.  Firstly, each step
 seems to inexplicably generate 8 packets instead of one. Second, there
 are 22 bytes in the Nike+ data <a href="http://ipodlinux.org/wiki/Apple_Accessory_Protocol#Nike.2B_.28Mode_9.29">with an unknown structure</a>, probably
 containing pressure duration data. If someone figures out how to make
 sense of this please let me know!</p>
+
 <p><strong>Update (June 2013)</strong>: Dmitry Grinberg has published a <a href="http://dmitry.gr/index.php?r=05.Projects&amp;proj=05.%20Nike%20plus%20iPod">much more
 thorough reverse engineering</a> blog post.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

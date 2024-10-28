@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.   The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
+  <meta name="description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.    The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/how-the-web-should-work/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="How the web should work" />
-  <meta name="twitter:description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.   The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
+  <meta name="twitter:description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.    The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/how-the-web-should-work/" />
   <meta property="og:title" content="How the web should work" />
-  <meta property="og:description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.   The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
+  <meta property="og:description" content="When developing in a particular environment, say Android or Cocoa, we are subconsciously aware that the APIs are essentially fixed and beyond our control. There is no effective mechanism to go and tell Apple that some method is poorly named, or tell the Android team how much you wish the Audio APIs were nicer to use.    The web, however, is built by many different companies and individuals, giving consumers of the platform (web developers) a unique chance to also become contributors to its evolution. Rather than griping about how broken something on the web is, remember that you can play a part in fixing it!" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -64,30 +64,36 @@ are subconsciously aware that the APIs are essentially fixed and beyond
 our control. There is no effective mechanism to go and tell Apple that
 some method is poorly named, or tell the Android team how much you wish
 the Audio APIs were nicer to use.</p>
+
 <p>The web, however, is built by many different companies and individuals,
 giving consumers of the platform (web developers) a unique chance to
 also become contributors to its evolution. Rather than griping about how
 broken something on the web is, remember that you can play a part in
 fixing it!</p>
+
 <!--more-->
 
 <h2>Current flow: "top down"</h2>
+
 <p>Today, features get added to the web platform as a result of competition
 between browsers and some standardization work. The web developer has
 little say in the process until perhaps the very end. Worse, many spec
 authors and browser engineers are not web developers, so they have no
 intuition or experience as to what the web platform actually needs.
 Here's how it works today:</p>
+
 <ol>
 <li>Browser vendor proposes way for solving a problem and implements it
-   in their browser. (browser vendor)</li>
+in their browser. (browser vendor)</li>
 <li>In some cases it's concurrently introduced as a W3C specification.
-   (spec author)</li>
+(spec author)</li>
 <li>Other browser vendors implement the feature. (browser vendor)</li>
 <li>Much later, someone implements a JS wrapper on top of feature to make
-   the feature practical for web developers to use. (web developer)</li>
+the feature practical for web developers to use. (web developer)</li>
 </ol>
+
 <p>Some of the negative features of this flow are:</p>
+
 <ul>
 <li>Takes a long time before any developer feedback is received.</li>
 <li>New features have partial support for a very long time.</li>
@@ -95,67 +101,87 @@ Here's how it works today:</p>
 <li>Very slow cycle overall.</li>
 <li>Little room for incremental improvements.</li>
 </ul>
+
 <h2>Ideal flow "forward polyfills"</h2>
+
 <p>Rather than sticking to the top down flow, web developers can be
 included in the loop. While forming organizations like
 <a href="http://www.w3.org/community/coremob/">CoreMob</a> might be a good first step, we can have a more direct
 impact as well. The following alternative flow can work pretty well in
 conjunction with the status quo, described above.</p>
+
 <p>The basic idea is to hit the ground running with a prototype developed
 in JavaScript, get early feedback and then propose to W3C when you are
 ready.</p>
+
 <ol>
 <li>Propose a sane API that developers can use &amp; implement it on top of
-   existing API(s). (web developer)</li>
+existing API(s). (web developer)</li>
 <li>Solicit adoption and iterate on feedback. (web developer)</li>
 <li>Push through standardization. (spec author)</li>
 <li>Implement natively in browsers. (browser vendor)</li>
 </ol>
+
 <p>This flow has many benefits over the first one.</p>
+
 <h3>Prototypes have a tighter feedback loop</h3>
+
 <p>By releasing a JavaScript library quickly, you immediately get feedback
 from developers. As you tweak your API, you can incorporate real world
 feedback. This can be a very short cycle, especially with the help of
 tools like github, where consumers of your library can give you
 suggestions and fix your bugs!</p>
+
 <h3>Useful out of the gate</h3>
+
 <p>By the time you are ready to propose your library to be standardized as
 a core web specification, you already have a reference implementation
 with unit tests. These can then be used by browser vendors as they
 implement the specification. This is much more useful to have than
 the abstract pseudocode that the W3C specs currently provide, and should
 lead to a more consistent set of browser implementations.</p>
+
 <p>Even more importantly, you know that what you are proposing is something
 useful because that real web developers have already used it! This is
 already better than many APIs currently offered by the web platform,
 some of which has seen little developer uptake.</p>
+
 <h3>A polyfill at launch</h3>
+
 <p>By the time the first browsers start implementing the spec, you already
 have a polyfill for developers to use &mdash; the library you wrote in
 step 1. This polyfill should feature detect for the presence of the API,
 and if not present, load the functionality via the JavaScript library.</p>
+
 <h2>Limitation: some things need more than JavaScript</h2>
+
 <p>Not all features can be implemented in JavaScript. In fact, some of the
 most exciting ones require browser-level innovation because JavaScript
 is heavily sandboxed (eg. contacts API, access to new sensors). Still,
 many new features <strong>can</strong> be implemented, such as new layout models (eg.
 flexbox, new storage APIs, responsive image solutions).</p>
+
 <p>Even if you can't provide a JavaScript implementation, there are ways to
 prototype these features to see if they are useful or not, giving
 some of the benefits describe above. PhoneGap and other WebView wrappers
 can be easily instrumented with plugins that bring native functionality
 to the web. More ambitiously, if you can stomach the learning curve,
 contribute to open source browsers like WebKit/Chromium and Firefox!</p>
+
 <h2>Limitation: JS library to spec is uncharted territory</h2>
+
 <p>One of the missing pieces in the "forward polyfill" approach I advocate
 for in this post is that it can still be very difficult to get your
 voice heard without being a browser vendor or spec author.</p>
+
 <p>Anecdotally I've sent a few messages to the [www-style@
 list]<a href="http://goo.gl/hrBvS">www-style</a>, without many tangible results. Other web developers
 such as, roughly following the tactic I described earlier, have
 experienced similar frustrations in the recent discussions [regarding
 high DPI images]<a href="https://www.wired.com/2012/05/browsers-at-odds-with-web-developers-over-adaptive-images/">images</a>.</p>
+
 <h2>Conclusion</h2>
+
 <p>This post is a summary of my thinking around most of my recent web
 development work: projects like <a href="https://github.com/borismus/pointer.js">pointer.js</a>, <a href="https://github.com/borismus/physical-units">physical units</a>
 and the <a href="https://github.com/borismus/srcset-polyfill/">srcset-polyfill</a> all have the same mission in mind: to
@@ -163,18 +189,22 @@ cease to exist by having their functionality replaced by the web
 platform itself. The most notable example of such a project is PhoneGap,
 which explicitly states self destruction as its now famous [second
 goal]<a href="http://phonegap.com/2012/05/09/phonegap-beliefs-goals-and-philosophy/">phonegap-goal</a>.</p>
+
 <p>It may seem strange to develop projects with such a nihilistic purpose.
 But keep in mind, that in this case it's not just the code that counts,
 but the ideas behind it. We would be better off with many of these
 things in the web platform: an implementation of pointer events,
 physical units, and a good set of device APIs.</p>
+
 <p>I'm not arguing that the current spec-and-browser-first flow should be
 replaced. I'm merely suggesting that there is an alternative out
 there that involves web developers; one worthy of exploration by
 those of us that aren't in the business of writing browsers but
 care enough about the web platform to try to make a change.</p>
+
 <p><strong><em>UPDATE</em></strong>: At Paul Irish's great suggestion, please post your
 comments in <a href="https://plus.google.com/115694705577863745195/posts/fMyCkBYvHRi">this Google+ thread</a>.</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

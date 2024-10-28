@@ -67,8 +67,11 @@ quite a bit over the last week. jQM is still in Alpha 2, so to get my
 feet wet, I decided to write a demo app before starting the final
 project. After stumbling over a few kinks and rough edges, a weekend of
 coding yielded a <a href="/x/hackernews/">mobile Hacker News client</a>.</p>
-<p><img alt="image" src="hackernews.png" /></p>
+
+<p><img src="/jquery-mobile-hacker-news/hackernews.png" alt="image" /></p>
+
 <h2>Loading JavaScript</h2>
+
 <p>jQuery Mobile is firmly rooted in the progressive enhancement philosophy
 of web application development. In practice, this means that the simple
 markup that you write in it is processed by the framework's JavaScript
@@ -76,6 +79,7 @@ and transformed into much more complex and JS-enhanced markup. In
 particular, jQM rewrites <code>&lt;a href="page.html"&gt;&lt;/a&gt;</code> into an element that
 loads the contents of the page via an AJAX request. Unfortunately, CSS
 and JavaScript referenced by <code>page.html</code> is not loaded. </p>
+
 <p>To work around this, I've been using a makeshift JS loader which latches
 on to the jQM pageshow event so that whenever an HTML page loads, the
 corresponding JavaScript file also loads. To prevent the JS loader from
@@ -83,6 +87,7 @@ loading already-loaded JavaScript whenever a page is reloaded, it
 employs a cache. Still, the JS needs to be triggered when the page is
 loaded, so there's a way to bind a page load to a function. Here's some
 sample usage of the ScriptCache:</p>
+
 <pre><code>// Create a new ScriptCache in the global scope
 var scriptCache = new ScriptCache();
 // Now when page.html loads, page.js will load
@@ -100,10 +105,13 @@ scriptCache.onPageLoad('page.html', pageInitFunction);
   init();
 })();
 </code></pre>
+
 <p>This approach was inspired by a discussion on the <a href="http://forum.jquery.com/topic/links-don-t-load-scripts">jQuery Forum</a>, and
 I really hope that there will be a better answer from readers or the jQM
 developers. The <a href="https://github.com/borismus/jQuery-Mobile-Hacker-News/blob/master/assets/www/scriptcache.js">ScriptCache loader is on github</a>.</p>
+
 <h2>Passing Parameters</h2>
+
 <p>Another issue I came across was parameter passing between pages. The jQM
 Hacker News client needs to pass item IDs from the main page listing to
 item pages. Unfortunately jQuery Mobile seems to have no provision for
@@ -116,12 +124,15 @@ However, the pageshow event fires <em>just slightly</em> before the
 window.location is updated with the requested URL. I'm currently working
 around this with a <code>setTimeout</code>, but this is clearly unacceptable. This
 issue is being <a href="https://github.com/jquery/jquery-mobile/issues#issue/450/comment/543394">discussed on github</a>. </p>
+
 <p>There's also an issue passing parameters via the jQM changePage call:
 <code>$.mobile.changePage('page.html?key=value');</code>. The parameters are simply
 ignored. Thus I was forced to use <code>window.location.href +=
 '#page.html?key=value';</code>, which only works if your window.location.href
 is the main application page.</p>
+
 <h2>Hacker News</h2>
+
 <p>Using the workarounds outlined above, I wrote an application that lets
 you read and post to <a href="http://news.ycombinator.com">Hacker News</a>, a startup-oriented online
 community run by <a href="http://ycombinator.com">Y Combinator</a>. It uses the <a href="http://api.ihackernews.com">third party HN API</a>
@@ -129,6 +140,7 @@ provided by <a href="http://twitter.com/ronnieroller">@ronnieroller</a>, who has
 (thanks!). For fetching posts and comments, the application relies on
 the JSONP methods of this API. It doesn't currently permit authenticated
 posting and voting on HN. </p>
+
 <p>For commenting and submitting links, I embed actual Hacker News post
 pages in an iframe, working around the lack of support and avoiding
 trust issues. Unfortunately the <a href="http://code.google.com/p/android/issues/detail?id=12558">Android browser has a bug</a> which
@@ -136,14 +148,17 @@ forces iframes to resize to the width of their contained textarea if one
 exists in the embedded page. This causes the width of the page to grow
 which forces jQuery Mobile to relayout. The reference implementation
 (iOS) does not suffer from this issue. </p>
+
 <p>I'd be glad to get your feedback on this app. If you want to read the
 code or fork the project, it's available <a href="https://github.com/borismus/jQuery-Mobile-Hacker-News/tree/master/assets/www/">on github</a>. </p>
+
 <p>I've packed this application with PhoneGap, and currently use it as the
 HN reader on my phone. Existing HN applications on Android don't provide
 share intent handlers (to share from the browser or your RSS reader).
 This app provides share intent handling through WebIntents, an Android
 PhoneGap plugin that I've been working on. More on that next post, so
 stay tuned!</p>
+
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
