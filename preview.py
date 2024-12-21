@@ -6,7 +6,7 @@ import formic
 ROOT = '/tmp/smus.com-preview'
 LIGHTNING = os.path.expanduser('~/Projects/lightning/lightning')
 
-BUILD_COMMAND = shell('%s -o %s' % (LIGHTNING, ROOT))
+BUILD_COMMAND = shell('uv run %s -o %s' % (LIGHTNING, ROOT))
 
 server = Server()
 
