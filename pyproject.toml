@@ -1,0 +1,8 @@
+[project]
+name = "smus.com"
+version = "0.0.1"
+
+dependencies = ["formic2", "pyyaml", "markdown2", "jinja2", "python-dateutil", "livereload"]
+
+[tool.ruff]
+indent-width = 2
