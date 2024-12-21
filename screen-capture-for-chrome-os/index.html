@@ -62,7 +62,6 @@
       <p>This post is about video capture in Chrome that doesn't rely on any
 external dependencies like Flash (no fun), NPAPI (not supported on
 Chrome OS) and Native Client (not <em>yet</em> supported on Chrome OS).</p>
-
 <p>I take screenshots all the time for bug reporting, image editing, etc.
 On OS X, this functionality is conveniently built in, and available
 through <code>Command</code> - <code>Shift</code> - <code>4</code>. As a web denizen, I find it very
@@ -70,13 +69,11 @@ useful to auto-upload these captures to a remote server, so I wrote this
 <a href="https://github.com/borismus/screencapture-www">minimal image uploader</a> which replaces the default behavior
 on OS X to capture the screenshot, and also uploads it to a picture
 hosting service.</p>
-
 <p>Taking video capture of various UIs is also immensely useful for showing
 demonstrations, complex interactions, and subtle bugs. I recently
 re-discovered that QuickTime on OS X comes with this functionality built
 in. Prior to that I used (paid) ScreenFlow, which also has very nice
 dimension cropping and time dilation features.</p>
-
 <p>What if we're on a web-only device, such as a Chromebook running Chrome
 OS? There is a still screenshotting API, but capturing video is less
 trivial. I've released an extension that captures and play backs video
@@ -84,21 +81,17 @@ captures inside Chrome, and also lets you share stills to Picasa (using
 the OAuth 2 <a href="http://smus.com/oauth2-chrome-extensions">extension library</a>). It's available on the
 <a href="https://chrome.google.com/webstore/detail/omahgjnmfgeeeoekegajhndkncocoofd">webstore</a>, and the source is on <a href="https://github.com/borismus/chrome-screencast">github</a>. Read on to
 learn how it works, and see how you can help.</p>
-
 <h1>Screenshots in Chrome</h1>
-
 <p>Chrome provides the <a href="http://code.google.com/chrome/extensions/tabs.html#method-captureVisibleTab"><code>captureVisibleTab</code></a> extension API for taking
 a screenshot of a tab. It requires host permissions on the page, but as
 usual the <all_urls> permission will enable the API across all pages
 (with some exceptions). A few successful extensions, such as
 <a href="http://awesomescreenshot.com/">Awesome Screenshot</a>, use this API and allow
 cropping, annotation and sharing of screen grabs.</p>
-
 <p>What if you want to capture video of a tab? Chrome provides no
 pre-existing API for this purpose, however, we can piggyback on the
 still screenshot API, executing it repeatedly from the background page
 for every frame we want to capture:</p>
-
 <pre><code>var images = [];
 var FPS = 30;
 var QUALITY = 50;
@@ -109,11 +102,9 @@ timer = setInterval(function() {
     });
 }, 1000 / FPS);
 </code></pre>
-
 <p>As we capture, we store the base64-encoded strings representing video
 frames in an array. Once we're done capturing, we can simulate video
 playback by rapidly swapping the images in and out:</p>
-
 <pre><code>var background = chrome.extension.getBackgroundPage();
 timer = setInterval(function() {
   if (currentIndex &gt;= images.length - 1) {
@@ -124,17 +115,14 @@ timer = setInterval(function() {
   updateSliderPosition();
 }, 1000 / background.FPS);
 </code></pre>
-
 <p>This approach turns out to be surprisingly efficient, with the extension
 being able to capture at 30 FPS on a MacBook Air, and 10 FPS on a
 Chromebook without too much noticeable slowdown.</p>
-
 <p>Note that we rely on a fixed FPS for ease of implementation, however one
 could imagine using <code>requestAnimationFrame</code> and tracking the variable
 frame rate so that the playback speed is reasonable. However, there are
 definitely precision issues with JavaScript's timers, so this is a much
 more challenging approach.</p>
-
 <p>So we can capture and playback videos inside the browser, but getting it
 out of the browser is another matter entirely. As a temporary measure,
 my colleague <a href="http://greenido.wordpress.com">Ido Green</a> built a screen stitching service which
@@ -143,39 +131,42 @@ we would encode in the browser. Perhaps a JavaScript video encoder could
 be implemented, though the performance may be too poor for practical
 use. Alternatively, a ffmpeg Native Client-based approach might be
 suitable, especially given that ffmpeg has <a href="http://code.google.com/p/naclports/source/browse/trunk/src/libraries/ffmpeg-0.5/">already been ported</a>.</p>
-
 <h1>Free ideas</h1>
-
 <p>There are a few logical next steps for this sample. As already
 mentioned, encoding video in the browser is a top priority, but there
 are a slew of other interesting directions, some of which can be seen as
 features, and others as separate products.</p>
-
 <ul>
-<li><p>The <code>captureVisibleTab</code> API doesn't track the mouse cursor. This could
-be done by injecting an overlay onto the current page and tracking
-mousemove and click events. This data could then either be drawn onto
-a canvas context, or encoded separately as <code>mouseData</code>, and then drawn
-with JavaScript at playback time.</p></li>
-<li><p>Cropping the video dimensions, modifying the video time schedule
-(speedup, slowdown, truncation) and annotation are all desired
-video-editing class features that could be implemented by treating
-images as canvases.</p></li>
-<li><p>A compelling use case for this technology is creating screen sharing
-sessions for demos and presentations. Thus, it would be very useful to
-stream the video to a server, and broadcast it to multiple clients in
-real time. <a href="http://updates.html5rocks.com/2011/08/What-s-different-in-the-new-WebSocket-protocol">Binary websockets</a> are now available in Chrome,
-and this could be a great application.</p></li>
-<li><p>Audio annotations on screen captures make perfect sense, and are
-widely supported by desktop applications. APIs for sound capture have
-been a <a href="http://www.w3.org/2009/dap/">long time coming</a>, but finally we may have an answer
-via the <a href="http://www.webrtc.org/">WebRTC</a> ecosystem, and the <code>getUserMedia</code> call.</p></li>
+<li>
+<p>The <code>captureVisibleTab</code> API doesn't track the mouse cursor. This could
+  be done by injecting an overlay onto the current page and tracking
+  mousemove and click events. This data could then either be drawn onto
+  a canvas context, or encoded separately as <code>mouseData</code>, and then drawn
+  with JavaScript at playback time.</p>
+</li>
+<li>
+<p>Cropping the video dimensions, modifying the video time schedule
+  (speedup, slowdown, truncation) and annotation are all desired
+  video-editing class features that could be implemented by treating
+  images as canvases.</p>
+</li>
+<li>
+<p>A compelling use case for this technology is creating screen sharing
+  sessions for demos and presentations. Thus, it would be very useful to
+  stream the video to a server, and broadcast it to multiple clients in
+  real time. <a href="http://updates.html5rocks.com/2011/08/What-s-different-in-the-new-WebSocket-protocol">Binary websockets</a> are now available in Chrome,
+  and this could be a great application.</p>
+</li>
+<li>
+<p>Audio annotations on screen captures make perfect sense, and are
+  widely supported by desktop applications. APIs for sound capture have
+  been a <a href="http://www.w3.org/2009/dap/">long time coming</a>, but finally we may have an answer
+  via the <a href="http://www.webrtc.org/">WebRTC</a> ecosystem, and the <code>getUserMedia</code> call.</p>
+</li>
 </ul>
-
 <p>By the way, I've switched to exclusively using Markdown for all of my
 published writing, and wrote an <a href="https://github.com/borismus/markdown-preview">markdown preview</a> for Chrome
 to make my life a bit easier.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

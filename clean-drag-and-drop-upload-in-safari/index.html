@@ -65,12 +65,10 @@ discussions, the issue of interoperability with the desktop arises.
 Someone will astutely observe that they <strong>can't even drag and drop</strong>
 from their OS file manager into their browser, and all hell will break
 loose. </p>
-
 <p>Happily, this is changing! Since version 3, Safari on Mac OS X
 has had support for <a href="http://www.jakeri.net/2008/04/drag-and-drop-into-file-upload-in-safari/">dragging and dropping files</a> from the finder into
 file input boxes. In various kludgy ways, <a href="https://addons.mozilla.org/en-US/firefox/addon/2190">Firefox</a> and <a href="http://www.download.com/HTTP-File-Upload-ActiveX-Control/3000-2206_4-10451672.html">IE</a> are now
 following suite. </p>
-
 <p>Unfortunately, even in Safari, the default look of the
 <code>&lt;input type="file"&gt;</code> box is quite ugly and the element itself is
 <a href="http://www.quirksmode.org/dom/inputfile.html">difficult to style</a>. In addition, clicking anywhere in the file input
@@ -80,7 +78,6 @@ The solution I came up with involves hiding the file upload box entirely
 by setting its opacity to 0, and then preventing the default action on
 click via <code>event.preventDefault()</code>. Here's a sample of what I mean, with
 the entire browser window <a href="/clean-drag-and-drop-upload-in-safari/drag-drop-upload.html">converted into a drag area</a>. </p>
-
 <p>Note that the drag area must be the first DOM element to receive the drop event
 for this approach to work. Unfortunately I ran into a bug where the file dialog
 refuses to bubble click events to other elements below it. This is baffling to
@@ -89,10 +86,8 @@ prevent the default browser handler from being called. You can see what I mean
 by trying to click the link in the <a href="/clean-drag-and-drop-upload-in-safari/drag-drop-upload.html">sample HTML</a>
 file. If this is not a bug, and someone has an answer, I would really
 appreciate it.</p>
-
 <p>Note also that there are <a href="http://www.radinks.com/upload/">java applet</a>-based drag and drop solutions, but
 they are reserved for developers who have nothing but disdain for their users.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.    The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:         This system has two key advantages:        Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
+  <meta name="description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.   The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:       This system has two key advantages:       Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/file-systems-for-thought/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="File Systems for Thought" />
-  <meta name="twitter:description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.    The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:         This system has two key advantages:        Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
+  <meta name="twitter:description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.   The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:       This system has two key advantages:       Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/file-systems-for-thought/" />
   <meta property="og:title" content="File Systems for Thought" />
-  <meta property="og:description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.    The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:         This system has two key advantages:        Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
+  <meta property="og:description" content="Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is  very poor . At the same time, it's pretty clear to me that no single app can serve as my  second brain . What I need instead is a  System for Thought  that supports many different tools working seamlessly together.   The solution I have arrived at is a cloud-synchronized directory of plaintext  files  and images. Here's a visual summary of what's going on in my system for thought today:       This system has two key advantages:       Tool choice : I can choose my favorite among multiple existing tools    Hackability : I can build my own tools to support specific needs" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -60,36 +60,23 @@
     <a href='/file-systems-for-thought'><h1 class='title'>File Systems for Thought</h1></a>
     <div class='body'>
       <p>Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is <a href="https://subconscious.substack.com/p/composability-with-other-tools">very poor</a>. At the same time, it's pretty clear to me that no single app can serve as my <a href="https://thesephist.com/posts/browser/">second brain</a>. What I need instead is a <a href="https://speakerdeck.com/adewale/tools-for-thought-from-the-memex-to-index-cards?slide=13">System for Thought</a> that supports many different tools working seamlessly together.</p>
-
 <p>The solution I have arrived at is a cloud-synchronized directory of plaintext <a href="https://jenson.org/files">files</a> and images. Here's a visual summary of what's going on in my system for thought today:</p>
-
-<p><img src="/file-systems-for-thought/fs-for-thought.jpg" alt="File Systems for Thought 2021" /></p>
-
+<p><img alt="File Systems for Thought 2021" src="fs-for-thought.jpg" /></p>
 <p>This system has two key advantages: </p>
-
 <ol>
 <li><strong>Tool choice</strong>: I can choose my favorite among multiple existing tools</li>
 <li><strong>Hackability</strong>: I can build my own tools to support specific needs</li>
 </ol>
-
 <!--more-->
 
 <h1>Advantages: tool choice &amp; hackability</h1>
-
 <p>One advantage of this approach is that I can pick and choose which editors to use across multiple platforms. On desktop, I tend to the corpus using Obsidian. On mobile, even though Obsidian recently launched an iOS app, I prefer to continue using iA Writer. Additionally, I can quickly jot notes using a Siri shortcut from an iPhone.</p>
-
 <p>Another advantage is that as a programmer, I have full control to build solutions that work well for my needs. I've built my own scripts to synchronize reading highlights from Instapaper. I have multiple tools do automatically scheduled cleanup tasks, auto-deploy a subset of my corpus to the web. Below, I'll describe these components in more detail.</p>
-
 <h1>Note corpus storage</h1>
-
 <p>My notes are stored in a directory of plaintext markdown files. These are also interlinked with Wiki-style markup. They are currently synchronized to iCloud Drive to make interoperability with iOS easier, while still allowing the notes to be accessed across multiple devices.</p>
-
 <p>In theory, I aim for terse, evergreen notes that use the <a class="wiki" href="https://z3.ca/BLUF_TLDR_note_taking_style">BLUF TLDR note taking style</a>. But in practice, I keep many kinds of notes in the same corpus, and rely extensively on title- and full-text search.</p>
-
 <h2>Small ideas</h2>
-
 <p>I use my note corpus for a lot of unimportant, practical things pretty far from any sort of intellectual pursuit. These include: </p>
-
 <ul>
 <li>temporary shopping lists</li>
 <li>household notes, like car repair and nanny payments</li>
@@ -99,81 +86,47 @@
 <li>notes for new project ideas</li>
 <li>running notes for ongoing projects, like <a class="wiki" href="https://z3.ca/eFoil_project_notes">eFoil project notes</a></li>
 </ul>
-
 <h2>Bigger ideas</h2>
-
 <p>I like to read actively and synthesize what I read to try to create a deeper understanding. Some of these notes are half-formed ideas at best, others are taken in a hurry when I am away from a computer. Others aspire to <a href="https://notes.andymatuschak.org/Evergreen_notes">evergreen status</a>. </p>
-
 <p>Anyway, let me describe more of the system in three steps:</p>
-
 <ol>
 <li>Inputs: How do notes begin?</li>
 <li>Synthesis: How are notes refined and intertwingled?</li>
 <li>Output: What do notes turn into?</li>
 </ol>
-
 <h1>1. Inputs: how do notes begin?</h1>
-
 <h2>On a computer</h2>
-
 <p>On Desktop, I tend to have some time and can create a new note start-to-finish. I typically do this with Obsidian, which affords a nice editor and native support for traversal of wiki-style links.</p>
-
 <p>I take meeting notes using Obsidian and store them separately (in <code>Meeting notes/</code>), and make random daily notes which get stored in a daily file such as <code>Inbox/2021-09-08.md</code>.</p>
-
 <h2>On a mobile phone</h2>
-
 <p>iA Writer supports iCloud Drive well and supports fast indexed, full-text search. Although it doesn't understand wiki-style links, it's a great way of quickly looking up a note, or appending to a specific list. For example, I'll often add a new word to my <a class="wiki" href="https://z3.ca/Words_I_didn’t_know_well">Words I didn’t know well</a> when I encounter it for the first time.</p>
-
 <h2>On the go</h2>
-
 <p>Inspiration strikes at the most inconvenient times, often when I'm walking somewhere in nature. On iOS, I use a Siri Shortcut that I built to quickly dictate or type a semi-formed idea that may emerge on the go. Two slightly different shortcuts support both typing and dictation, and the result of either is to append the note text to the daily note (<code>Inbox/2021-09-08.md</code>). The <a href="https://support.apple.com/en-us/HT211781">Back Tap accessibility gesture</a> is quite a handy way of triggering this shortcut.</p>
-
 <p>Siri Shortcuts are a bit more awkward on the Apple Watch, since it takes a surprising amount tapping to invoke. I've also attempted to take notes completely hands free using AirPods by saying "hey siri note" which invokes my awesome shortcut. However this is quite frustrating in practice. Dictating notes, I often take a short pause to gather my thoughts, which triggers the silence detector in this dictation mode, and truncates my input. I'd love to be able to explicitly to trigger the end of dictation while hands free. My preferred solution would be a "safe word". Hufflepuff!</p>
-
 <h2>Reading articles</h2>
-
 <p>My current article reading workflow is to funnel everything into Instapaper. I filter articles from friends, private groups on Discord, twitter, and general web browsing. If from a quick skim the article seems worthwhile, I'll cue up in Instapaper to calmly read at a later point.</p>
-
 <p>I aspire to read actively, making heavy use of Instapaper's annotation features. These are synced up with <a href="https://readwise.io">https://readwise.io</a>. From there, a <a class="wiki" href="https://z3.ca/Readwise_to_markdown_script">Readwise to markdown script</a> runs daily, importing annotations into my note collection for easy referencing.</p>
-
 <h2>While reading/listening to books</h2>
-
 <p>Books feel more wholesome than articles, and afford me the luxury of delving more deeply into an area. Part of it is just that I can spend more time thinking about a single thing. This is both intrinsically pleasing, and can hopefully yield a more insightful synthesis. I typically keep a note for each book review, and append to it roughly while reading or listening to a book.</p>
-
 <h1>2. Synthesis: how are notes refined?</h1>
-
 <p>By synthesis I mean the collision of multiple concepts inside my note corpus into a new idea or insight. This process occurs naturally as I write and am reminded of something I have previously written. This is an iterative process, often done in multiple sittings. It resembles having a conversation with my past self, as ideas are clarified, integrated, and interlinked. </p>
-
 <p>This is the core loop of note taking, and I'm still learning this skill. Most of what I know is from <a class="wiki" href="https://z3.ca/How_to_Take_Smart_Notes_by_Sonke_Ahrens">How to Take Smart Notes by Sonke Ahrens</a>.</p>
-
 <p>Tools can also catalyze synthesis. For example, in Obsidian, when typing a new internal link using the double bracket syntax, you are presented with a list of suggested notes based on title. This can sometimes remind me that I have another note that is relevant. Perhaps it should be linked, transcluded, or merged into this one. Notational Velocity was guite good at this, and Obsidian could do much more on this front.</p>
-
 <p>Synthesis also happens when I triage rough daily notes taken on the go, and review highlights from articles. Reading through these half formed thoughts, I sometimes create a new note, or find an old note and append an elaboration.</p>
-
 <p>I've also been experimenting with large language models for synthesis. Specifically, what happens if we take two randomly chosen notes, and then collide them using GPT3? I have a script that technically works but does not produce especially compelling results yet. Stay tuned.</p>
-
 <h1>3. Outputs: what do notes turn into?</h1>
-
 <h2>Manual book reviews</h2>
-
 <p>Once I finish reading a book, I read through the notes I took, organize them lightly, and cross-link to existing notes. Then I store the completed book note in the <code>Book notes/</code> directory, and post it manually on smus.com/books.</p>
-
 <h2>Automatic publishing</h2>
-
 <p>I've started designating some notes as public by placing them in the <code>Public/</code> directory. A daily cron script automatically posts these notes to my new public note host, <a href="https://z3.ca">z3.ca</a>. </p>
-
 <h2>Integration with spaced repetition</h2>
-
 <p>I've made several attempts at trying to use spaced repetition for self-improvement purposes, and many have failed. However, one thing I'm still keen on is to use spaced repetition for improving my English vocabulary. I keep a list of new words I've encountered in a special note, and have tried using some spaced repetition apps to try to cram these. So far the habit has not stuck.</p>
-
 <hr />
-
 <p>I'm excited to see a rennaisance in the Tools for Thought space. Hopefully new
 entrants embrace a more interoperable approach, while still building sustainable
 businesses. But for now, I have kludged together various pieces that together
 feel more like a coherent System for Thought, address my specific needs, and
 allow for interesting experiments in the future.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :          Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
+  <meta name="description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :        Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/easier-link-blogging/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Easier link blogging" />
-  <meta name="twitter:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :          Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
+  <meta name="twitter:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :        Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/easier-link-blogging/" />
   <meta property="og:title" content="Easier link blogging" />
-  <meta property="og:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :          Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
+  <meta property="og:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :        Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -63,14 +63,11 @@
 content I write, and control how it is authored. My weapon of choice is
 MacVim and <a href="https://github.com/borismus/lightning">Lightning</a>, a static blog engine I wrote to
 address my <a href="http://smus.com/site/">very specific requirements</a>: </p>
-
-<p><img src="/easier-link-blogging/composing-long-post.png" alt="Composing a blog post with Lightning" /></p>
-
+<p><img alt="Composing a blog post with Lightning" src="composing-long-post.png" /></p>
 <p>Secondly, I want people to read the things I write and follow the
 stories that I link to, since it feels good, and sometimes generates
 interesting discussions. I wrote a Mac GUI that automates link blogging
 and <a href="http://indiewebcamp.com/POSSE">POSSE style</a> cross-posting to social networks.</p>
-
 <!--more-->
 
 <p>Before I carry on, let me take you back to a simpler time. A time before
@@ -81,27 +78,22 @@ link blogs that were kind of like twitter -- short updates discussing a
 link. It's was a very clean, federated model. Unfortunately that's not
 how things work today. I have already lamented this fact in a <a href="http://smus.com/really-simple-social-syndication/">previous
 blog post</a>.</p>
-
 <p>For this site, RSS feed readership is a tiny fraction of the inbound
 traffic for new posts. Most of non-search traffic comes from social
 networks. As it turns out, the value of these networks is (wait for it)
 in their network effect! It only takes a few prominent reshares to have
 a post become relatively widely read. By not seeding your content to
 social networks, you lose that benefit.</p>
-
 <h2>Cross-posting to social networks is hard</h2>
-
 <p>To seed content to social networks, we look to POSSE. From the
 <a href="http://indiewebcamp.com/POSSE">indiewebcamp.com</a> definition:</p>
-
 <blockquote>
-  <p>POSSE is an acronym/abbreviation for Publish (on your) Own Site,
-  Syndicate Elsewhere. It's a Syndication Model where the flow involves
-  posting your content on your own domain first, then syndicating out
-  copies to 3rd party services with perma(short)links back to the
-  original version.</p>
+<p>POSSE is an acronym/abbreviation for Publish (on your) Own Site,
+Syndicate Elsewhere. It's a Syndication Model where the flow involves
+posting your content on your own domain first, then syndicating out
+copies to 3rd party services with perma(short)links back to the
+original version.</p>
 </blockquote>
-
 <p>The problem is that posting to social networks is a pain in the rear.
 Each network has its own limitations (eg. 140 characters on Twitter,
 network-specific markup on G+). There are services which cross-post to
@@ -111,28 +103,22 @@ the networks under the carpet. For example, services like
 Twitter, but if the post is too long to fit in 140 chars, they include a
 link back to the original G+ post. I find cross-linking between social
 networks to be questionable, so I have stopped using such tools.</p>
-
 <h2>Making link-style updates easier</h2>
-
 <p>A while ago, I realized that my use of social networks is remarkably
 close to a link blog. While I'll sometimes @reply/comment and +1/star
 things, I hardly ever post broadcast-style updates without a URL.</p>
-
 <p>About a year ago, I added a special "link" type of content on this blog,
 specially for this purpose. This type of content is just like a post,
 except one link is prominently shown as the title of the post, and the
 post itself is focused on commentary about the link. My plan is to use
 this type of content more, whenever I want to broadcast a URL and have
 something to say about it.</p>
-
 <p>So to scratch my itch, I made a little GUI that automates creating a
 link entry on the local static blog (with commentary). After the link is
 posted and deployed publicly, it also broadcasts the content to
 supported social networks, sometimes linking back to the link page on
 this site.</p>
-
-<p><img src="/easier-link-blogging/lightning-link.png" alt="Lightning linker Mac GUI" /></p>
-
+<p><img alt="Lightning linker Mac GUI" src="lightning-link.png" /></p>
 <p>As you can see, there are three fields: the URL, a title (pre-populated
 from the <code>&lt;body&gt;&lt;title&gt;</code> of the URL), and the body of the post (in
 Markdown), all of which are clearly visible in the link page.
@@ -140,50 +126,39 @@ Technically, posting to social networks is easy enough. If they provide
 a write API, it's just a matter of doing the OAuth dance and hanging on
 to an access token to authorize requests. A more interesting question is
 how to re-arrange the above three fields to form social network updates.</p>
-
 <h2>Posting to other networks</h2>
-
 <p>Once the link is posted on the site, Lightning Link has a set of
 heuristics to decide what to post to each supported social network. This
 can be quite challenging if you are faced with a strict character limit.</p>
-
 <p>Here are some options I considered for Twitter:</p>
-
 <ol>
 <li>Truncated plaintext body, followed by the URL</li>
 <li>Title colon space, the truncated plaintext body, and then the URL</li>
 <li>Title and URL</li>
 </ol>
-
 <p>With Option 1, the truncated plaintext body doesn't necessarily reflect
 the main idea of the commentary on the link, since the body can be much
 longer than 140 chars, and I might just be warming up :) Option 2 leaves
 very little room for the body at all, except for about half of a
 sentence. I went with Option 3, which lends itself well to short,
 Twitter-style updates.</p>
-
 <p>Posting to G+ is relatively easy: take the title and slap on the
 plaintextified (from markdown) body, while attaching the URL. </p>
-
 <p>The other question is about URLs. There are two URLs of relevance in
 each link blog post:</p>
-
 <ol>
 <li>The one on the link blog (eg. <a href="http://smus.com/link/2013/not-terrible-javascript-modules/">http://smus.com/link/2013/not-terrible-javascript-modules/</a>), and</li>
 <li>The linked material (eg. <a href="http://github.com/substack/node-browserify">http://github.com/substack/node-browserify</a>).</li>
 </ol>
-
 <p>My approach is to use the linked material directly (2) if the comments
 can fit entirely into the space alotted by the social network, falling
 back to the link blog URL (1).</p>
-
 <p>The Lightning Link app isn't general enough for me to recommend unless
 you either like pain, use lightning already, or have a static blog very
 setup similar to mine, with a "link" type of post. If you'd still like
 to try it, the <a href="https://github.com/borismus/lightning/tree/master/link">code is on github</a>. If you have a similar
 link-blogging approach with automatic syndication to social networks,
 tell me about it!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

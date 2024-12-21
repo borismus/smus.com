@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).     I manually create the  index.md  file and then specify the redundant human-readable title and the posted date within it:      How to Fix the World  ===  posted: May 28, 2017   Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.    I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.    Split markdown pages    My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .    Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
+  <meta name="description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on    the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).       I manually create the  index.md  file and then specify the redundant    human-readable title and the posted date within it:    How to Fix the World === posted: May 28, 2017  Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.   I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.   Split markdown pages   My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .   Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/notes/2017/short-posts-using-split-markdown/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Short posts using split Markdown" />
-  <meta name="twitter:description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).     I manually create the  index.md  file and then specify the redundant human-readable title and the posted date within it:      How to Fix the World  ===  posted: May 28, 2017   Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.    I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.    Split markdown pages    My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .    Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
+  <meta name="twitter:description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on    the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).       I manually create the  index.md  file and then specify the redundant    human-readable title and the posted date within it:    How to Fix the World === posted: May 28, 2017  Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.   I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.   Split markdown pages   My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .   Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/notes/2017/short-posts-using-split-markdown/" />
   <meta property="og:title" content="Short posts using split Markdown" />
-  <meta property="og:description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).     I manually create the  index.md  file and then specify the redundant human-readable title and the posted date within it:      How to Fix the World  ===  posted: May 28, 2017   Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.    I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.    Split markdown pages    My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .    Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
+  <meta property="og:description" content="Lightning , the static blog generator that powers this site, is awesome for long form content. But it does not work well for short form content, since creating each post requires a bunch of up-front effort:       I navigate to the right place, recalling the current year (!) and deciding on    the slug for the post (eg.  content/posts/2017/how-to-fix-the-world ).       I manually create the  index.md  file and then specify the redundant    human-readable title and the posted date within it:    How to Fix the World === posted: May 28, 2017  Listen to me, I have the answers.         After writing the post, the title will inevitably have changed, so I rename the slug to match:  mv how-to-fix-the-world how-to-slightly-improve-the-world . Finally I publish and tweet, and hopefully the world becomes infinitesimally better.   I once tried to  make it easier to keep a lightning-style link blog , but ended up scrapping the solution because it was buggy and required a Mac.   Split markdown pages   My aim was to remove the up-front costs I described above. Appending to the top of an existing file and having the engine automatically generate a slug based on the title seemed like the right approach. This means that one markdown file results in multiple HTML pages. The latest  Lightning  has been updated with split markdown files, and refactored into classes, making it easier to add features in the future. To give a sense of what these split markdown files look like, take a look at  this file .   Split markdown files power two new sections on this site: a [book reviews section] books , and a  notes section . I'm hoping that this added convenience will encourage me to write shorter, more focused posts with increasing frequency." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -62,31 +62,29 @@
       <p><a href="https://github.com/borismus/lightning">Lightning</a>, the static blog generator that powers this site, is
 awesome for long form content. But it does not work well for short form content,
 since creating each post requires a bunch of up-front effort:</p>
-
 <ol>
-<li><p>I navigate to the right place, recalling the current year (!) and deciding on
-the slug for the post (eg. <code>content/posts/2017/how-to-fix-the-world</code>).</p></li>
-<li><p>I manually create the <code>index.md</code> file and then specify the redundant
-human-readable title and the posted date within it:</p>
+<li>
+<p>I navigate to the right place, recalling the current year (!) and deciding on
+   the slug for the post (eg. <code>content/posts/2017/how-to-fix-the-world</code>).</p>
+</li>
+<li>
+<p>I manually create the <code>index.md</code> file and then specify the redundant
+   human-readable title and the posted date within it:</p>
+<pre><code>How to Fix the World
+===
+posted: May 28, 2017
 
-<pre><code> How to Fix the World
- ===
- posted: May 28, 2017
-
- Listen to me, I have the answers.
-</code></pre></li>
+Listen to me, I have the answers.
+</code></pre>
+</li>
 </ol>
-
 <p>After writing the post, the title will inevitably have changed, so I rename the
 slug to match: <code>mv how-to-fix-the-world how-to-slightly-improve-the-world</code>.
 Finally I publish and tweet, and hopefully the world becomes infinitesimally
 better.</p>
-
 <p>I once tried to <a href="/easier-link-blogging/">make it easier to keep a lightning-style link blog</a>, but
 ended up scrapping the solution because it was buggy and required a Mac.</p>
-
 <h2>Split markdown pages</h2>
-
 <p>My aim was to remove the up-front costs I described above. Appending to the top
 of an existing file and having the engine automatically generate a slug based on
 the title seemed like the right approach. This means that one markdown file
@@ -94,12 +92,10 @@ results in multiple HTML pages. The latest <a href="https://github.com/borismus/
 updated with split markdown files, and refactored into classes, making it easier
 to add features in the future. To give a sense of what these split markdown
 files look like, take a look at <a href="https://github.com/borismus/smus.com/blob/master/notes_all.md">this file</a>.</p>
-
 <p>Split markdown files power two new sections on this site: a [book
 reviews section]<a href="/books">books</a>, and a <a href="/notes">notes section</a>. I'm hoping that this
 added convenience will encourage me to write shorter, more focused posts with
 increasing frequency.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.    These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.    In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
+  <meta name="description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.   These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.   In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/headlines-meet-sparklines-news-in-context/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Headlines, meet sparklines: news in context" />
-  <meta name="twitter:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.    These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.    In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
+  <meta name="twitter:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.   These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.   In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/headlines-meet-sparklines-news-in-context/" />
   <meta property="og:title" content="Headlines, meet sparklines: news in context" />
-  <meta property="og:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.    These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.    In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
+  <meta property="og:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.   These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.   In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -62,7 +62,6 @@
       <p>News reporting suffers from two major issues I'd like to tackle. The first is a
 bias towards negative, emotionally laden events. The second is the difficulty of
 capturing information about gradual changes.</p>
-
 <p>These two deficiencies distort our perception. They make it easy for demagogues
 to claim that the world has gone to shit. The data tells a different story, as
 the late <a href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">Hans Rosling</a> was fond of reminding us. My hypothesis is that
@@ -70,38 +69,34 @@ if base rates were provided in a compelling way alongside news stories (or even
 headlines), the public would be better informed. The challenges are many: first,
 getting and analyzing the data, but even more important, presenting it in a
 reasonable way.</p>
-
 <p>In this post, let's explore what that would entail, from data collection, to
 analysis, to visualization. We'll go through a couple of examples.</p>
-
 <!--more-->
 
 <h2>The problems with news</h2>
-
 <p>I've already complained about the news in a <a href="/front-page-blues">previous blog post</a>, but
 this time around, I'd like to hone in on two specific issues: negativity and
 gradual changes:</p>
-
 <ul>
-<li><p>News is generally biased toward negative, emotionally laden events. A
-terrorist rampage that claims five victims is practically guaranteed to make the
-front page, while a cure that saves five hundred certainly wouldn't.</p></li>
-<li><p>News does not inform about gradual changes. Many important
-processes, such as climate change, are gradual. Like boiling a frog, there are
-no specific events to report on, so they get no coverage in the news (until the
-frog dies).</p></li>
+<li>
+<p>News is generally biased toward negative, emotionally laden events. A
+  terrorist rampage that claims five victims is practically guaranteed to make the
+  front page, while a cure that saves five hundred certainly wouldn't.</p>
+</li>
+<li>
+<p>News does not inform about gradual changes. Many important
+  processes, such as climate change, are gradual. Like boiling a frog, there are
+  no specific events to report on, so they get no coverage in the news (until the
+  frog dies).</p>
+</li>
 </ul>
-
 <p>The goal here is for perception to approach reality. I will assume that you
 agree with me that this is a worthy goal to pursue. Otherwise, we now return you
 to your regularly <a href="https://www.socialistalternative.org/">scheduled</a>
 <a href="http://www.breitbart.com/">program</a>.</p>
-
 <h2>Headlines invite questions</h2>
-
 <p>I went through some recent news stories (on <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Wikipedia</a>), asking some simple
 questions. For example:</p>
-
 <style>
 table#headline-question {
   font-size: 70%;
@@ -138,33 +133,25 @@ many for treason? How about the US government?</td>
 finding the data requires time and research. Lastly, presenting the data in a
 compelling way takes some thought and creativity. Keeping in mind that I make no
 claims to any of the above, let's give it a shot.</p>
-
 <h2>Why are base rates important?</h2>
-
 <p>The questions above attempt to get at the <a href="https://en.wikipedia.org/wiki/Base_rate">base rates</a> relevant to the
 news stories, which is important context to get a better understanding:</p>
-
 <blockquote>
-  <p>It may at first seem impressive that 1000 people beat their winter cold while
-  using 'Treatment X', until we look at the entire 'Treatment X' population and
-  find that the base rate of success is actually only 1/100.</p>
+<p>It may at first seem impressive that 1000 people beat their winter cold while
+using 'Treatment X', until we look at the entire 'Treatment X' population and
+find that the base rate of success is actually only 1/100.</p>
 </blockquote>
-
 <p>It is also well known from a large number of psych studies that people are
 <a href="https://en.wikipedia.org/wiki/Base_rate_fallacy">really bad at integrating base rates</a> into their thinking. Maybe
 this is why they are so rarely featured in the news? My hope is that by
 pairing each headline with a bit of base rate information, we can become better
 informed and address both negativity and get a better sense for trends over time.</p>
-
 <h2>Exhibit A: avalanche deaths (time series data)</h2>
-
 <p>Let's start with a simple quantitative (if morbid) example: Avalanche deaths.
 We can better understand just how extreme the Rigopiano avalanche was if we put
 it into context. But what sort of context makes sense? If we consider geography,
 we can imagine concentric circles around Rigopiano.</p>
-
-<p><img src="/headlines-meet-sparklines-news-in-context/rigopiano.png" alt="Possible geographic context for the Rigopiano avalanche" /></p>
-
+<p><img alt="Possible geographic context for the Rigopiano avalanche" src="rigopiano.png" /></p>
 <p>On one extreme, we could consider other avalanches at Rigopiano specifically.
 But for most people, especially outside of Italy, this is too specific.
 Expanding our search, we could consider all of the Apennines (the mountain range
@@ -172,13 +159,11 @@ containing Rigopiano), but I found that getting data for avalanche fatalities in
 this region was challenging. The outermost circle of the map above represents
 the European Alps, which does not include the Apennines. But it is the
 geographically closest region with readily available data.</p>
-
 <p><a href="https://docs.google.com/spreadsheets/d/1PyX0vav_NPziiaL9LWKhPOhTQLY-mcMYqYBl_VjUSmg/edit#gid=1197783313">This spreadsheet</a> contains data that I extracted from <a href="http://www.geogr-helv.net/71/147/2016/gh-71-147-2016.pdf">Avalanche
 fatalities in the European Alps: long-term trends and statistics</a>,
 which includes contiguous coverage from 1970 to 2015. Naturally, the paper
 didn't link to a data set, so I had to create the spreadsheet by visually
 inspecting the graph (ouch).</p>
-
 <p>The paper contains some interesting findings. For example, the number of
 avalanche deaths in controlled terrain (eg. ski resorts, where ski patrol
 engages in <a href="https://en.wikipedia.org/wiki/Avalanche_control">avalanche control tactics</a>) has decreased
@@ -186,31 +171,25 @@ significantly, but that the number of avalanche deaths in uncontrolled terrain
 remains significant (in the Alps, 100 yearly) and stable. Note that the numbers are
 not adjusted for the increasing global population, or for the increasing numbers
 of back country tourists.</p>
-
-<p><img src="/headlines-meet-sparklines-news-in-context/alps-graph.png" alt="Avalanche deaths in the European Alps between 1970 and 2015" /></p>
-
+<p><img alt="Avalanche deaths in the European Alps between 1970 and 2015" src="alps-graph.png" /></p>
 <p>One of the things that becomes clear is the important distinction between
 controlled and uncontrolled accidents. We now have context for better
 understanding the tragedy at Rigopiano: it was a controlled accident that will
 send the statistics for 2017 through the roof. Let's see it in the context of
 other significant avalanches (controlled and not) over the years. The following
 claimed more than 20 people since 1970, according to Wikipedia:</p>
-
-<p><img src="/headlines-meet-sparklines-news-in-context/avalanches-since-1970.png" alt="Significant global avalanches since 1970" /></p>
-
+<p><img alt="Significant global avalanches since 1970" src="avalanches-since-1970.png" /></p>
 <p>Now we are armed to the teeth with data, but how do we present inline in the
 news? There are <a href="http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/">tons of ways</a> of visualizing data in a compelling
 way, but in this case we want it to appear in-situ in a digital newspaper. Why
 not start with <a href="https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR">Tufte</a>-inspired sparklines, since they are compact and
 can be placed adjacent to a headline.</p>
-
 <style>
 iframe#avalanche {
   border: 0;
   height: 200px;
 }
 </style>
-
 <iframe id="avalanche" src="avalanche-example.html"></iframe>
 
 <p>From the first graph, we can immediately see that significant avalanches are
@@ -221,30 +200,24 @@ Rigopiano even more significant. Then, to satisfy our curiosity, the third
 sparkline shows annual avalanche fatalities on uncontrolled terrain is
 persistently high (c. 100 yearly). We now have some context to better understand
 this story.</p>
-
 <p>A quick note on technology. The above is a slightly modified version of <a href="https://github.com/phuu/sparksvg.git">Spark
 SVG</a>. I added a few things to the basic <code>bar.svg</code>:</p>
-
 <ul>
 <li>Set y-axis scale for fair comparisons across different graphs.</li>
 <li>Labels (x, y) values on hover.</li>
 <li>Ability to transpose the graph.</li>
 </ul>
-
 <p>As an aside, I was amused to discover the <a href="http://caaml.org/">Canadian Avalanche Association Markup
 Language (CAAML)</a>, which is a "standard for the electronic representation
 of information pertinent to avalanche safety operations". I had naively hoped to
 one day escape XML by becoming a ski bum. Not so fast!</p>
-
 <h2>Exhibit B: cabinet composition</h2>
-
 <p>Let us now turn our attention to Ken Wyatt, the newly appointed member of the
 Australian cabinet. How ethnically diverse is the Australian cabinet? At
 minimum, we can look at base rates for ethnicity in the Australian cabinet. In
 1997, the cabinet was 100% white, but now with Wyatt's joining, the cabinet is
 96% white (he is the only non-white member). Not much to visualize yet, so let's
 expand our scope.</p>
-
 <p>Consider three metrics: % female, % non-white and % non-christian for each
 cabinet, and compare them across three cabinets: US, Australian and Canadian,
 between two years: 1997 and 2017. I've collected this data <a href="https://docs.google.com/spreadsheets/d/1r6e92Xf4h8e7T83lrex-BghQilswGh_Hj-xmOaZCasc/edit?usp=sharing">in a
@@ -255,23 +228,19 @@ spreadsheet (please <a href="/about">email me</a> if you find one), it should be
 enough for broad strokes. My own position would favor a qualified cabinet over a
 diverse one, but all things being equal, a cabinet that is representative of the
 general population is a good thing. Here's the headline with data alongside:</p>
-
 <style>
 iframe#cabinet {
   border: 0;
   height: 200px;
 }
 </style>
-
 <iframe id="cabinet" src="cabinet-example.html"></iframe>
 
 <p>To summarize, <a href="/headlines-meet-sparklines-news-in-context/cabinet-sign.jpg">I've seen stronger cabinets at IKEA</a>!</p>
-
 <p>One thing that is clear from the above is that indeed, Australia has a very
 white cabinet. Of course, in the spirit of representation, we should be
 comparing ethnicity numbers to the general population, but I'll leave that out
 for now (for reference, 3% is indigenous, and ~10% is non-white).</p>
-
 <p>Another thing the chart above shows are trends over the 20 year period.
 Australia's cabinet is becoming more female, while staying roughly as white and
 as Christian. Canada's cabinet has become vastly more representative in gender,
@@ -280,7 +249,6 @@ regressed in diversity on all fronts. Over the last 20 years, its has become
 more male dominated, more Christian, and more white. The last is especially
 disappointing since the US is far more ethnically diverse than Canada and
 Australia put together (at "just" 72% white).</p>
-
 <p>I should mention a couple caveats. First, I really fudged the % Christian
 calculations, since it was so difficult to accurately determine religion for
 many cabinet members. Also, this analysis would greatly benefit from more data
@@ -292,15 +260,12 @@ change roles inside them, and sometimes even hold multiple offices. Lastly
 thanks to the <a href="https://twitter.com/borismus/status/831641415604064256">good people on Twitter</a>, who sent me many constructive
 suggestions for improvement. I still think it's a bit too information dense,
 but it has come a long way.</p>
-
 <h2>Summing up</h2>
-
 <p>We looked at two headlines: one clearly well suited for contextualizing through
 data visualization (longitudinal time series), and another somewhat less so,
 regarding the composition of the Australian cabinet. In both cases, my
 understanding of the world has been enriched by the context that data
 surrounding it provided.</p>
-
 <p>Of course, there are many ways to <a href="https://en.wikipedia.org/wiki/Misleading_graph">mislead with graphs</a>, and sparklines
 can succumb to some of them. The axes are unlabeled, so the time scale is
 unknown unless specified. Nor is it clear whether or not the y-axis has been
@@ -308,21 +273,18 @@ deliberately truncated. As a result, it can also be unclear whether or not
 graphs can be cross-compared. In the cabinet example, I had to explicitly
 specify that all of the cabinet sparklines have a maximum value of 50% to
 facilitate this visual comparison, and exposed raw data on mouse hover.</p>
-
 <p>Imagine headlines from <a href="https://en.wikipedia.org/wiki/Portal:Current_events">your favorite news source</a> enhanced with a bit of
 longitudinal base rate for context. This would bring more clarity to the news,
 giving readers a better sense for general trends, as well as putting the event
 in a broader context. In many cases, the broader context is actually pretty
 positive: avalanche deaths in controlled areas have gone down drastically,
 cabinets in many developed nations are becoming more representative.</p>
-
 <p>Some headlines may not fit the mold I'm proposing. Many of them are
 anecdotal in nature, like gossip stories, where You Won't Believe What Happened,
 because it's such a unique situation. A certain president doing certain crazy
 shit comes to mind.  For other stories it can be very challenging to acquire the
 data required, like the Kremlin FSB arrest story. (I may or may not be privy to
 that sort of information. If I told you, I'd have to kill you.)</p>
-
 <p>One downside to this whole thing is that it requires a journalist to do more
 work: data sleuthing, careful thought about presentation, possibly even
 implementing a new visualization. This work has intrinsic value, since it forces
@@ -332,7 +294,6 @@ I really enjoy <a href="http://www.pewsocialtrends.org/interactives/what-do-poli
 with visualizations of relevant base rates would make for a much more
 informative and interesting read, and ultimately make us better informed
 citizens. What do you think?</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

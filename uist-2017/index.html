@@ -62,7 +62,6 @@
       <p>Picking up where I left off <a href="/uist-2014">3 years ago</a> with this year's UIST
 highlight reel. As expected, the research creatively applied interesting
 principles, but many applications were adorably contrived. Also, I miss academia!</p>
-
 <!--more-->
 
 <style>
@@ -82,12 +81,10 @@ principles, but many applications were adorably contrived. Also, I miss academia
 </style>
 
 <h2>WhichFingers / characterizing end-to-end latency</h2>
-
 <p>Both papers used a finger-mounted vibration sensor made from a piezoelectric
 polymer, and implemented simple finger tap detection.  One showed how this
 method could be used for measuring latency using a blinking screen. They did a
 great job of measuring latency at every stage.</p>
-
 <div class="container">
 <iframe src="//www.youtube.com/embed/s2iUJsm7JcI" 
 frameborder="0" allowfullscreen class="video"></iframe>
@@ -99,9 +96,7 @@ within which you had to fall to have unambiguous classification.  Interesting:
 they also moved their vibration sensors up to the ring position (third phalanx),
 and seemed to also get pretty good results. Also nice is that they <a href="http://cristal.univ-lille.fr/~casiez/whichfingers/">open sourced
 everything</a>, and that the whole system is cheaper than $35.</p>
-
 <h2>Carpacio: unobtrusive passenger &amp; driver ID</h2>
-
 <p>The cheesily named project served to repurpose capacitative screens to
 differentiate between drivers and passengers. Motivated by driver distraction,
 cars are now shipping with on-screen UIs that are locked until you answer an
@@ -112,20 +107,15 @@ transmitters, transmitting a unique signal through each of the sitting people,
 and the screen is instrumented with a receiver. The rest is signal correlation.
 Then they did validation and got really good results (for research): &gt; 99%
 accuracy.</p>
-
 <p>Zooming out for a second, I really wish that this wasn't a problem that needed
 to be solved. Physical controls work better in a car, and allow the driver to
 interact with them more easily.</p>
-
 <h2>Grabity: ungrounded haptics for grasping</h2>
-
 <p>This project is an end-to-end look at an ungrounded device that provided haptic
 feedback for grasping an object with your hand. They detailed each stage:
 grabbing it, picking it up, feeling its weight, then moving it around and
 feeling its inertia.</p>
-
-<p><img src="/uist-2017/grabity.jpg" alt="Grabity steps in action" /></p>
-
+<p><img alt="Grabity steps in action" src="grabity.jpg" /></p>
 <p>Weight is perceived by multiple senses in the human body: muscle spindles (eg.
 in biceps), golgi tendons (eg. in elbow), mechanoreceptors sensing shear (eg. in
 palm and fingers). Their idea: only use mechanoreceptors in hand, which lets you
@@ -134,13 +124,10 @@ the sensation to an actual weight with real users. I've seen prior work which
 relies on asymmetric vibration to create virtual forces through skin
 displacement. A few limitations: it looks pretty wacky, and users thought that
 the constant vibration was annoying, but pretty cool tech demo.</p>
-
 <h2>Dodecapen: 6DOF Pose Tracking System</h2>
-
 <p>This project puts a dodecahedron-shaped AR marker on the end of a regular pen. A
 cube didn’t work because of pose ambiguity, and other Platonic solids have
 triangular faces that are relatively small in area.</p>
-
 <div class="container">
 <iframe src="//www.youtube.com/embed/7Xczpq4VkHM" 
 frameborder="0" allowfullscreen class="video"></iframe>
@@ -152,14 +139,11 @@ shape. Also the paper surface itself had to be calibrated. That's a lot of
 calibrations! They used a mocap system with 8 markers to create ground truth.
 Looked at the mean shortest distance and saw mm-level precision. They claim that
 precision is comparable to a mocap system with 10 active cameras.</p>
-
 <p>I also tried the demo, which worked very well. One caveat is that it relies on a
 global shutter camera, so not sure how well it generalizes to smartphones yet.
 Another big limitation here is that the dodecahedron needs to be in the camera’s
 FOV.</p>
-
 <h2>Inviso: 3D design environment to create sonic VR</h2>
-
 <p>Anil Camci showed a web-based GUI to define point sources as well as regions for
 playing back ambisonic soundscapes. Point sources could have multiple cones that
 you could attach with a graphical tool, and also adjust their direction, angles,
@@ -168,25 +152,19 @@ trajectory. You could then play it back through the Web Audio API. Most of the
 design is done from a top-down view, since this is a good match to human
 auditory perception, which is much better at lateral than vertical
 source differentiation.</p>
-
-<p><img src="/uist-2017/inviso.jpg" alt="Inviso screenshot" /></p>
-
+<p><img alt="Inviso screenshot" src="inviso.jpg" /></p>
 <p>In the end he showed multiple examples of people using the system and creating
 complex auditory scenes, including overlapping zones, and animated, multi-coned
 point sources. Seems to be quite efficient for building up immersive auditory
 environments.</p>
-
 <p>I encouraged them to recreate classic spatial audio demos, like my favorite
 barbershop example. The editor is <a href="http://inviso.cc/">available online</a>, and
 just recently <a href="https://github.com/CreativeCodingLab/Inviso">open sourced</a>.</p>
-
 <h2>SoundCraft: smart watch interaction using hand generated acoustics</h2>
-
 <p>This project features a microphone array that fits onto a watch form factor.
 They can localize sounds made by the other hand against itself (what is the
 sound of one hand clapping?) or against another surface. Localization gives you
 angles relative to the watch (angular resolution ~15 deg).</p>
-
 <div class="container">
 <iframe src="//www.youtube.com/embed/O1G-j1EBQh0" 
 frameborder="0" allowfullscreen class="video"></iframe>
@@ -196,9 +174,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
 between microphones) and wearable form factor was an interesting idea. They also
 showed tracking the lateral position of a finger on the same hand as the watch,
 and using the watch as an audio marker for an AR application.</p>
-
 <h2>Data storage &amp; interaction using magnetized fabric</h2>
-
 <p>Justin Chan from UW showed what can be achieved when conductive fabric (woven
 out of conductive thread) is magnetized using a permanent magnet. First they
 explored various properties of the medium, like how long it stays magnetized
@@ -208,23 +184,18 @@ magnetization decreases from washing (not very much). The basic idea is that you
 can encode data onto a conductive thread by having conductive segments that can
 be magnetized interleaved with insulated segments. A binary string is then
 encoded by mapping 0 to one polarity and 1 to the other.</p>
-
-<p><img src="/uist-2017/magnetized-fabric.jpg" alt="Magnetized fabric" /></p>
-
+<p><img alt="Magnetized fabric" src="magnetized-fabric.jpg" /></p>
 <p>They also showed use cases, such as writing and reading data from the clothing,
 or even engraving data images (smallest pixel using a regular loom was 1.8cm^2)
 onto clothing. They also showed some interactive examples where the clothing can
 be read by a magnetometer on a phone or watch. This is interesting especially
 because it doesn't require any batteries, and can be achieved using
 off-the-shelf embroidery machines. </p>
-
 <h2>iSoft: soft touch and stretch sensor</h2>
-
 <p>This project uses electrical impedance tomography (EIT, which I know nothing
 about, and wasn't explained) to detect touch and stretch in (1D) in a special
 elastomer which is designed to be affordable. Discrete contact accuracy was
 really good: 96%, using a small dataset. Distance error was ~10% of sensor size.</p>
-
 <div class="container">
 <iframe src="//www.youtube.com/embed/JVaYEl9nbME" 
 frameborder="0" allowfullscreen class="video"></iframe>
@@ -233,9 +204,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
 <p>Applications (as usual, weak): a bunch of instrumented objects (lamp, cup,
 clothing, travel pillow, etc). Limitations: hard to make it big, hard to make it
 arbitrarily shaped, doesn’t support multidimensional stretching.</p>
-
 <h2>Mutual human actuation</h2>
-
 <p>I missed most of the VR sessions because parallel tracks were more interesting,
 but caught this one because it was super clever. Previously, Haptic Turk used
 support people to lift and lower the player immersed in VR. TurkDeck was an
@@ -244,7 +213,6 @@ However, previous research found that players enjoyed the experience more than
 the support people, so Mutual Turk (presented here) made all participants into
 players. Two people are in VR, but they are playing different games that are
 complimentary in force (eg. A is fishing, B is flying a kite.)</p>
-
 <div class="container">
 <iframe src="//www.youtube.com/embed/JKGdQjx-_BI" 
 frameborder="0" allowfullscreen class="video"></iframe>
@@ -256,74 +224,57 @@ few other examples, like having one player fan a campfire, which created wind
 for the other player in the middle of a storm. As far as practicality, obviously
 this requires multiple people to be co-present, and also requires multiple
 players to synchronize up to the action sequence.</p>
-
 <h2>Demos, Posters, Contests</h2>
-
 <p>Apparently you can print piezoelectric elements. I tried a set that emits low
 frequency vibrations for haptic feedback. But you need a special print process
 (won’t work on an inkjet).</p>
-
 <p>Artem Dementyev built a robot that walks along human skin using pneumatics.
 Supposed applications in health care.</p>
-
 <p>Pepper’s cone was a great illusion from Steve Seitz’s student. Nice improvement
 over the usual ghost setup, which has four discrete viewing points, where here
 you can pick any point in a circle.</p>
-
 <p>Gierad showed a poster about a multimodal sensing platform that plugs right into
 the wall and which can track all sorts of activity in the house, using high
 frequency accelerometers, microphones, and other sensors.</p>
-
 <p>Hanchuan Li from UW showed a poster summarizing some of his PhD projects,
 including passive sensing, IR based user localization, and various power
 harvesting techniques.</p>
-
 <p>Jihyeon Janel Lee showed her poster which automatically created accompanying
 visualizations for travel podcasts via geographic entity extraction.</p>
-
 <p>The good folks at i.am showed a way of making TTS sound better by extracting
 contours from speech spoken by a person onto a TTS-synthesized example.</p>
-
 <p>The student design contest featured creative ideas implemented with the help of
 an Arduino Braccio robot arm. One project required multiple people to operate
 one arm. Each person had to do a gesture to operate one degree of freedom of the
 arm. Another project involved two front body-mounted robot arms that fed the
 other person. Yet another featured an improv show where an actor operated a sock
 puppet, and a robot arm spoke lines that were crowdsourced by the audience.</p>
-
 <h2>Keynotes...</h2>
-
 <p><strong>Gabriella Coleman</strong> kicked off UIST 2017 with a slightly off-topic, but
 nevertheless interesting (and timely) keynote, summarizing hacker culture from a
 historical and anthropological perspective. Much of it was review for me, but I
 also learned a fair amount:</p>
-
 <ul>
 <li>The origin of "hacker" comes from the Tech Model Railroad Club from MIT. Now
-James' fascination with model railroads is crystallizing.</li>
+  James' fascination with model railroads is crystallizing.</li>
 <li>Some of the earlier phreakers were blind, and phreaking was empowering. Some
-were (sometimes additionally) gifted with perfect pitch, and could whistle the
-correct frequency to emulate phone network signals.</li>
+  were (sometimes additionally) gifted with perfect pitch, and could whistle the
+  correct frequency to emulate phone network signals.</li>
 <li>The speaker's personal beliefs were very anti-US, and she was very aligned
-with the hackers. Perhaps it is not coincidental that she is at McGill now.</li>
+  with the hackers. Perhaps it is not coincidental that she is at McGill now.</li>
 </ul>
-
 <p><strong>Upon receiving a lasting impact award</strong>, Ivan Popyrev gave a short summary of his
 storied career. I liked his frankness on the topic of VR: "With every VR fad,
 the next fad is the AR fad". At one point he also suggested that we need to
 break away from “heavy reliance on rich visual feedback and undivided attention
 from the user" that are common in today’s UIs. I completely agree. </p>
-
 <p>I liked his succinct vision: "How can we make the whole world augmented and
 interactive?", which he then elaborates on as having two parts: </p>
-
 <ol>
 <li>Augment physical, tactile &amp; proprioceptive channels of human augmentation &amp; actuation.</li>
 <li>Deliver novel UI at scale by integrating them into everyday physical objects.</li>
 </ol>
-
 <p>I should come up with one for my HCI work. </p>
-
 <p><strong>Niki Kittur</strong> closed off the conference with a summary of his crowdsourcing work,
 and I was quite glad to see CrowdForge prominently mentioned in the beginning.
 He did a good job weaving a coherent narrative throughout the last five years of
@@ -333,13 +284,11 @@ premeditated, and how much of it is done post-hoc. He showed off some neat
 projects, including Alloy (name perhaps forge-related?) and KA, as well as
 <a href="https://iotabrowser.com">Iota, a task-oriented browser</a> inspired by V. Bush's vision of people
 leaving trails of knowledge for one another.</p>
-
 <p>I skipped the last few UISTs, and it was nice to say hi to some familiar faces,
 especially from CMU. I also met some great people, including Danny Fan from an
 <a href="http://i.am">audio startup</a> in LA, some talented grad students and fortuitously
 re-connected with old acquaintances (Hi Trevor) who are apparently also based in
 Seattle. </p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

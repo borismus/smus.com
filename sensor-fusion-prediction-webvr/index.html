@@ -6,20 +6,20 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-  <meta name="description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.         The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.    I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
+  <meta name="description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/sensor-fusion-prediction-webvr/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Sensor fusion and motion prediction" />
-  <meta name="twitter:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.         The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.    I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
+  <meta name="twitter:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/sensor-fusion-prediction-webvr/" />
   <meta property="og:title" content="Sensor fusion and motion prediction" />
-  <meta property="og:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.         The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.    I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
+  <meta property="og:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -63,25 +63,20 @@
 The metric that matters is called <strong>motion-to-photon latency</strong>. For mobile VR
 purposes, this is the time that it takes for a user's head rotation to be fully
 reflected in the rendered content.</p>
-
-<p><img src="/sensor-fusion-prediction-webvr/latency-chain.jpg" alt="Motion to photon pipeline" /></p>
-
+<p><img alt="Motion to photon pipeline" src="latency-chain.jpg" /></p>
 <p>The simplest way to get up-and-running with head tracking on the web today is
 to use the <code>deviceorientation</code> events, which are generally well supported across
 most browsers. However, this approach suffers from several drawbacks which can
 be remedied by implementing our own sensor fusion. We can do even better by
 predicting head orientation from the gyroscope.</p>
-
 <p>I'll dig into these techniques and their open web implementations.  Everything
 discussed in this post is implemented and available open source as part of the
 <a href="https://github.com/borismus/webvr-polyfill">WebVR Polyfill</a> project. If you want to skip ahead, check out
 the <a href="http://borismus.github.io/webvr-boilerplate/">latest head tracker</a> in action, and play around with this <a href="http://borismus.github.io/sensor-fusion/">motion
 sensor visualizer</a>.</p>
-
 <!--more-->
 
 <h2>The trouble with device orientation</h2>
-
 <p>The web provides an easy solution for head tracking through the
 <code>deviceorientation</code> event, which gives Euler angles corresponding to your
 phone's 3-DOF orientation in space. This orientation is calculated through an
@@ -90,7 +85,6 @@ even specify whether or not these events should give your phone's orientation in
 relation to north or not. However, recently <a href="https://github.com/w3c/deviceorientation/pull/22">accepted spec
 changes</a> make this behavior more standard across
 browsers.</p>
-
 <p>In Android, the JavaScript <code>deviceorientation</code> event was implemented using
 <code>Sensor.TYPE_ORIENTATION</code> in Android, which fuses accelerometer, gyroscope and
 magnetometer sensors together to give a North-aligned orientation. The trouble
@@ -98,41 +92,31 @@ is that the magnetometer's estimate of magnetic North is easily affected by
 external metallic objects. On many devices, the North estimate continually
 changes, even when you are not looking around. This breaks the correspondence
 between motion and display, a recipe for disaster.</p>
-
 <p>Another issue in some implementations is that the <code>deviceorientation</code> sensor
 ramps up and down in firing rate depending on the speed of the phone's rotation.
 Try opening up <a href="http://jsbin.com/device-inertial-sensor-diagnostics">this diagnostic page</a> on Android. This variation in
 sensor update rate is not good for maintaining a reliable head track.</p>
-
 <p>To top it off, a <a href="http://crbug.com/540629">recent regression in Android M</a> broke
 <code>deviceorientation</code> for Nexus 5s. Why do bad bugs happen to good people?</p>
-
 <h3>What is to be done?</h3>
-
 <p>We implement our own sensor fusion with <code>devicemotion</code>, which provides lower
 level accelerometer &amp; gyroscope events. These fire at a regular rate. When you
 search for "sensor fusion", jumping into the rabbit hole will quickly take you
 into the realm of Kalman Filters. This is a bit more firepower than we will need
 for the moment, although I did finally get a better sense of the concept with
 the help of a <a href="https://www.youtube.com/watch?v=18TKA-YWhX0">boring but understandable explanation</a>.</p>
-
 <p>Luckily, there are simpler alternatives such as the Complementary Filter, which
 is what we'll talk about next.</p>
-
 <h2>Your sensing smartphone</h2>
-
 <p>Let us start with the basics: sensors. There are three fundamental motion
 tracking sensors in your smartphone. </p>
-
 <p>Accelerometers measure any acceleration, returning a vector in the phone's
 reference frame. Usually this vector points down, towards the center of the
 earth, but other accelerations (eg. linear ones as you move your phone) are also
 captured. The output from an accelerometer is quite noisy by virtue of how the
 sensor works. Here's a plot of the rotation around the X-axis according to an
 accelerometer:</p>
-
-<p><img src="/sensor-fusion-prediction-webvr/accel.gif" alt="Animation of X-axis accelerometer output with a phone turning around the X axis" /></p>
-
+<p><img alt="Animation of X-axis accelerometer output with a phone turning around the X axis" src="accel.gif" /></p>
 <p>Gyroscopes measure rotations, returning an angular rotation vector also in the
 phone's reference frame. Output from the gyro is quite smooth, and very
 responsive to small rotations. The gyro can be used to estimate pose by keeping
@@ -142,9 +126,7 @@ place your phone flat and capture it's gyro-based position, then pick it up,
 rotate it a bunch, and place it flat again, its integrated gyro position might
 be quite different from what it was before due to the accumulation of errors
 from the sensor. Rotation around the X-axis according to a gyroscope:</p>
-
-<p><img src="/sensor-fusion-prediction-webvr/gyro.gif" alt="Animation of X-axis gyroscope output with a phone turning around the X axis" /></p>
-
+<p><img alt="Animation of X-axis gyroscope output with a phone turning around the X axis" src="gyro.gif" /></p>
 <p>Magnetometers measure magnetic fields, returning a vector corresponding to the
 cumulative magnetic field due to any nearby magnets (including the Earth). This
 sensor acts like a compass, giving an orientation estimate of the phone. This is
@@ -153,22 +135,18 @@ about the phone's yaw. Magnetometers are affected not by the Earth, but by
 anything with a magnetic field, including <a href="http://smus.com/magnetic-input-mobile-vr/">strategically placed permanent
 magnets</a> and also ferromagnetic metals which are often found in substantial
 quantities in certain environments.</p>
-
 <h2>Intuition: why do we need sensor fusion?</h2>
-
 <p>Each sensor has its own strengths and weaknesses. Gyroscopes have no idea where
 they are in relation to the world, while accelerometers are very noisy and can
 never provide a yaw estimate. The idea of sensor fusion is to take readings from
 each sensor and provide a more useful result which combines the strengths of
 each. The resulting fused stream is greater than the sum of its parts. </p>
-
 <p>There are many ways of fusing sensors into one stream. Which sensors you fuse,
 and which algorithmic approach you choose should depend on the usecase.
 The accelerometer-gyroscope-magnetometer sensor fusion provided by the
 system tries really hard to generate something useful. But as it turns out, it
 is not great for VR head tracking. The selected sensors are the wrong ones, and
 the output is not sensitive enough to small head movements.</p>
-
 <p>In VR, drifting away from true north is often fine since you aren't looking at
 the real world anyway. So there's no need to fuse with magnetometer. Reducing
 absolute drift is, of course, still desirable in some cases. If you are sitting
@@ -176,21 +154,16 @@ in an armchair, maintaining alignment with the front of your chair is critical,
 otherwise you will find yourself having to crank your neck too much just to
 continue looking forward in the virtual world. For the time being, we ignore
 this problem.</p>
-
 <h2>Building a complementary filter</h2>
-
 <p>The complementary filter takes advantage of the long term accuracy of the
 accelerometer, while mitigating the noise in the sensor by relying on the
 gyroscope in the short term. The filter is called complementary because
 mathematically, it can be expressed as a weighted sum of the two sensor streams:</p>
-
 <p><img src="/sensor-fusion-prediction-webvr/filter-equation.png" class="center" 
     title="Filter equation" /></p>
-
 <p>This approach relies on the gyroscope for angular updates to head orientation,
 but corrects for gyro drift by taking into account where measured gravity is
 according to the accelerometer.</p>
-
 <p>Initially inspired by <a href="http://www.pieter-jan.com/node/11">Pieter's explanation</a>, I built this filter by
 calculating roll and pitch from the accelerometer and gyroscope, but quickly ran
 into issues with <a href="https://en.wikipedia.org/wiki/Gimbal_lock">gimbal lock</a>. A better approach is to use quaternions
@@ -200,61 +173,45 @@ into much detail here beyond linking to a <a href="http://www.3dgep.com/understa
 topic. Happily, quaternions are a useful tool even without fully understanding
 the theory, and many implementations exist. For this filter, I used <a href="http://threejs.org/docs/#Reference/Math/Quaternion">the
 one</a> found in THREE.js.</p>
-
 <p>The first task is to express the accelerometer vector as a quaternion rotation,
 which we use to initialize the orientation estimate (see
 <a href="https://github.com/borismus/webvr-polyfill/blob/master/src/complementary-filter.js"><code>ComplementaryFilter.accelToQuaternion_</code></a>).</p>
-
 <pre><code>quat.setFromUnitVectors(new THREE.Vector3(0, 0, -1), normAccel);
 </code></pre>
-
 <p>Every time we get new sensor data, calculate the instantaneous change in
 orientation from the gyroscope. Again, we convert to a quaternion, as follows
 (see: <a href="https://github.com/borismus/webvr-polyfill/blob/master/src/complementary-filter.js"><code>ComplementaryFilter.gyroToQuaternionDelta_</code></a>):</p>
-
 <pre><code>quat.setFromAxisAngle(gyroNorm, gyro.length() * dt);
 </code></pre>
-
 <p>Now we update the orientation estimate with the quaternion delta. This is a
 quaternion multiplication:</p>
-
 <pre><code>this.filterQ.copy(this.previousFilterQ);
 this.filterQ.multiply(gyroDeltaQ);
 </code></pre>
-
 <p>Next, calculate the estimated gravity from the current orientation and compare
 it to the gravity from the accelerometer, getting the quaternion delta.</p>
-
 <p><img src="/sensor-fusion-prediction-webvr/complementary-filter.png" class="center" 
     title="Complementary filter visual illustration" /></p>
-
 <pre><code>deltaQ.setFromUnitVectors(this.estimatedGravity, this.measuredGravity);
 </code></pre>
-
 <p>Now we can calculate the target orientation based on the measured gravity, and
 then perform a <a href="https://en.wikipedia.org/wiki/Slerp">spherical linear interpolation (SLERP)</a>. How much to
 slerp depends on that constant I mentioned before. If we don't slerp at all, we
 will end up only using the gyroscope. If we slerp all the way to the target, we
 will end up ignoring the gyroscope completely and only using the accelerometer.
 In THREE parlance:</p>
-
 <pre><code>this.filterQ.slerp(targetQ, 1 - this.kFilter);
 </code></pre>
-
 <p>Sanity checking the result, we expect the filter output to be roughly parallel
 to the gyroscope readings, but to align with the accelerometer reading over the
 long term. Below, you can see the accelerometer and gyroscope (green and blue)
 and compare them to the fused output (orange):</p>
-
-<p><img src="/sensor-fusion-prediction-webvr/fusion.gif" alt="Complementary filter output" /></p>
-
+<p><img alt="Complementary filter output" src="fusion.gif" /></p>
 <h2>Predicting the future</h2>
-
 <p>As your program draws each frame of rendered content, there is delay between
 the time you move your head and the time the content actually appears on the
 screen. It takes time for the sensors to fire, for firmware and software to
 process sensor data, and for a scene to be generated based on that sensor data.</p>
-
 <p>In Android, this latency is often on the order of 50-100 ms with sensors firing
 on all cylinders (the technical term for 200 Hz) and some nice graphics
 optimizations. The web suffers a strictly worse fate since sensors often fire
@@ -262,7 +219,6 @@ slower (60 Hz in Safari and Firefox), and there are more hoops of abstraction to
 jump through. Reducing motion-to-photon latency can be done by actually reducing
 each step in the process, with faster sensor processing, graphics optimizations,
 and better algorithms. It can also be reduced by cheating!</p>
-
 <p>We can rely on a <a href="https://en.wikipedia.org/wiki/Dead_reckoning#Directional_dead_reckoning">dead reckoning</a> inspired approach, but rather
 than predicting position based on velocity, we predict in the angular domain.
 Once we predict the orientation of the head in the (near) future, use that
@@ -271,42 +227,32 @@ that your head will keep rotating at the same rate. More complex schemes are
 possible to imagine too, using acceleration (2nd order) or Nth order prediction,
 but these are more complex, and so more expensive to calculate, and don't
 necessarily yield better results.</p>
-
 <pre><code>var deltaT = timestampS - this.previousTimestampS;
 var predictAngle = angularSpeed * this.predictionTimeS;
 </code></pre>
-
 <p>The way this works is pretty straight forward, using angular speed from the
 gyroscope, we can predict a little bit into the future to yield results like
 this:</p>
-
-<p><img src="/sensor-fusion-prediction-webvr/prediction.gif" alt="Predicted vs. sensor fusion." /></p>
-
+<p><img alt="Predicted vs. sensor fusion." src="prediction.gif" /></p>
 <p>Notice that the predicted signal (in red) is somewhat ahead of the fused one (in
 orange). This is what we'd expect based on the motion prediction approach taken.
 The downside of this is that there is noticeable noise, since sometimes we
 over-predict, and are forced to return back to the original heading.</p>
-
 <h2>Plotting graphs</h2>
-
 <p>Although still in very active development, <a href="https://gitgud.io/unconed/mathbox/">Mathbox2</a> is already a
 formidable visualization toolkit. It is especially well suited to output in 3D,
 which I used actively to debug and visualize the filter.</p>
-
 <p>I also used Mathbox2 to generate plots featured earlier in this blog post. I
 wrote a live-plotting tool that can compare gyroscope, accelerometer, fused and
 predicted streams on each axis, and also let you tweak the filter coefficient
 and how far into the future to predict.</p>
-
 <p><img src="/sensor-fusion-prediction-webvr/plot-options.png" class="center"
     title="Preview of the options available in the plot"/></p>
-
 <p>You too can <a href="http://borismus.github.io/sensor-fusion/">try the plots live on your phone</a>. After all, it's just a
 mobile webpage! Many thanks to <a href="https://twitter.com/pierregeorgel">Pierre
 Fite-Georgel</a> and <a href="https://github.com/jkammerl">Julius
 Kammerl</a> for lending their incredible
 filter-building skills to this project.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

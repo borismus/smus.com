@@ -65,9 +65,7 @@ they are shown a diagram representing the guitar fret with overlaid
 finger positions required to produce this chord. Many of the most
 popular sites do this by showing a crude, plain-text representation of
 the chord.</p>
-
 <p>For example, a C chord is shown as follows:</p>
-
 <pre><code>e ---|---|---|---|---|
 B -x-|---|---|---|---|
 G ---|---|---|---|---|
@@ -75,32 +73,26 @@ D ---|-x-|---|---|---|
 A ---|---|-x-|---|---|
 E ---|---|-o-|---|---|
 </code></pre>
-
 <p>Typeset guitar chord representation looks very different. Two most
 popular variants of the C chord would appear above the staff with small
 symbols that look something like this: </p>
-
-<p><img src="/generating-guitar-chord-diagrams/C.png" alt="C" title="C" />
-<img src="/generating-guitar-chord-diagrams/C_1.png" alt="C_1" title="C_1" /> </p>
-
+<p><img alt="C" src="C.png" title="C" />
+<img alt="C_1" src="C_1.png" title="C_1" /> </p>
 <p>Such images have many benefits as compared to the plain text version:</p>
-
 <ul>
 <li>Convention: many guitar players are used to learning from sheet
-music, so this chord notation is familiar to them.</li>
+    music, so this chord notation is familiar to them.</li>
 <li>Readability: the image representation is more compact and more
-pleasant to read.</li>
+    pleasant to read.</li>
 <li>Completeness: the image version has an easy way to display barre
-chords and specify fingerings (not pictured)</li>
+    chords and specify fingerings (not pictured)</li>
 </ul>
-
 <p>True to Guitar Unleashed's mission of being a truly usable guitar chords
 site, I decided to display typeset fret diagrams. For the
 implementation, a program would pre-generate images on the server based
 on the encoded chord shape and then serve these images dynamically via
 JavaScript. Unfortunately, I found no software to generate such images
 for all popular chords, so I ended up developing my own. </p>
-
 <p>From some brief
 research, I decided that <a href="http://lilypond.org/doc/v2.9/Documentation/user/lilypond/Fret-diagrams">lilypond fret diagrams</a> are the most elegant
 way of creating such images. The alternative was to use <a href="http://www.aei.mpg.de/~peekas/gchords/">GCHORDS</a>
@@ -110,25 +102,21 @@ with clefs, key signatures, etc. After discovering a really great
 <a href="http://netcetera.org/cgi-bin/tmbundles.cgi#Lilypond">lilypond bundle for textmate</a>, I managed to get rid of these
 unnecessary features and display just a fret diagram. The following
 python-parametrized lilypond template does the trick:</p>
-
 <pre><code>\include "lilypond-book-preamble.ly"
 \version "2.10.0"
 \markup
 \fret-diagram-terse #"%(chord_markup)s"
 </code></pre>
-
 <p>Then, using lilypond's fret diagram encoding, a python script replaces
 <code>%(chord_markup)s</code> with the desired markup. Lilypond's markup is very
 terse but mostly manageable. Sample markup for a C chord looks like
 this: <code>x;3;2;o;1;o;</code>, while the barre version looks a little bit more
 bizarre, like this: <code>3-(;3;5;5;5;3-);</code>. </p>
-
 <p>My python program contains a list of chord shapes for the most popular chords,
 encoded in the manner above, then outputs images for each chord and variant
 into a directory.  I've made it <a href="/generating-guitar-chord-diagrams/chord-image-generator.zip">available for download</a>, in case your next
 project needs generated fret diagrams with a highly customizable look. You can
 also see the diagrams live at <a href="http://www.guitarunleashed.com">guitarunleashed.com</a>.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

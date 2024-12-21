@@ -67,7 +67,6 @@ on the other, it satisfies this blogger's curiosity to learn who reads
 and enjoys my posts enough to tweet about them. In this experiment, I've
 exposed tweetbacks directly on this blog using topsy's convenient 
 <a href="http://otter.topsy.com">JSONP API</a>.</p>
-
 <p>The implementation is entirely in JavaScript, consisting of two
 scripts. The first is on the main post listing, showing the number of
 tweets for each post using <code>http://otter.topsy.com/stats.js</code>. The second
@@ -75,16 +74,13 @@ is on the post page itself, showing the tweets posted in response to the
 post using <code>http://otter.topsy.com/trackbacks.js</code>. Both scripts execute
 after the page loads, so the only impact on page load time is the extra
 kilobyte of JavaScript code. </p>
-
 <p>There are good reasons to use topsy over <a href="http://search.twitter.com">twitter search</a>, even though
 at first glance, they both provide similar information:</p>
-
 <ul>
 <li>Twitter search doesn't index old tweets</li>
 <li>Topsy distinguishes influential tweets (more on this later)</li>
 <li>JSONP API support</li>
 </ul>
-
 <p>It's important not to overwhelm readers by showing too many tweets.
 Popular blog posts can have hundreds or even thousands of tweets, and
 showing all of them at once is a bad idea. Topsy associates an influence
@@ -92,7 +88,6 @@ value with each twitter user, giving them a certain weight, making it
 easier to decide which tweets to show, and which to hide. My
 implementation shows at most N tweets; if there are over N total tweets,
 it shows at most N 'influential' tweets, as per topsy's definition.</p>
-
 <pre><code>var MAX_TWEETS = 10;
 var BASE = 'http://otter.topsy.com/trackbacks.js?callback=?&amp;perpage=' + 
   MAX_TWEETS;
@@ -115,12 +110,10 @@ function getTweets(url) {
   });
 }
 </code></pre>
-
 <p>I also urlify the
-tweet, converting all of the URLs and @mentions into <a\&gt; elements using
+tweet, converting all of the URLs and @mentions into &lt;a&gt; elements using
 this function, I found the first regular expression somewhere on the
 internet – I'd never write such a beast. </p>
-
 <pre><code>var URL_RE = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&amp;@#\/%?=~_|!:,.;]*[-A-Z0-9+&amp;@#\/%=~_|])/ig;
 var TWEET_RE = /@([A-Za-z0-9_]+)/g;
 
@@ -128,34 +121,28 @@ function urlify(text) {
   return text.replace(URL_RE,"&lt;a href='$1'&gt;$1&lt;/a&gt;").
               replace(TWEET_RE, "&lt;a href='http://twitter.com/$1'&gt;@$1&lt;/a&gt;");
 </code></pre>
-
 <p>The approach I took has some major advantages to over the <a href="http://yoast.com/wordpress/tweetbacks/">tweetback plugin</a> 
 for wordpress:</p>
-
 <ul>
 <li>It works... the wordpress plugin doesn't</li>
 <li>No wordpress comment pollution since no wordpress comments are
-created</li>
+    created</li>
 <li>No server-side load since all comments are fetched in JS</li>
 <li>No wordpress required. Other blog engines or static sites work just
-as well</li>
+    as well</li>
 </ul>
-
 <p>A drawback of this approach is that it takes some time to run the JS,
 which changes the DOM after the initial page load, resulting in a
 jarring experience. By using a fade effect to make twitter information
 appear gradually, I try to mitigate this problem. </p>
-
 <p>I conclude with a shameless plug: tweetbacks.js is running on this blog,
 so try it out by posting a tweet referring to this post's URL, and it
 should appear in the list below, or if there are more than 10 tweets, at
 least increment the count. If you find this concept interesting and
 would like to run it on your site, let me know and I'll pack
 tweetbacks.js up into a jQuery plugin or something. Thanks for reading! </p>
-
 <p><strong>Update:</strong> I no longer use this code, in favor of the official twitter
 button.</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>

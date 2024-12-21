@@ -68,7 +68,6 @@ help you synthesize across your own thinking over many years. You might want to
 link to the semantically related note, or to merge with it entirely. Building on
 <a href="/ai-note-garden-linker">a previous technique</a>, I implemented this idea as an
 Obsidian plugin:</p>
-
 <iframe width="560" height="360" loading="lazy" src="https://www.youtube.com/embed/kZkDCjr8ZqU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--more-->
@@ -77,41 +76,33 @@ Obsidian plugin:</p>
 actively trying to help me reconnect with past selves. Whether this ultimately
 proves to be useful remains to be seen, but it works well enough that I plan to
 run this as a self-experiment over the next few months.</p>
-
 <p>My <a href="/ai-note-garden-linker">first stab</a> at this problem generated a list of
 related notes across the whole corpus using semantic similarity. But my
 implementation had two fundamental limitations:</p>
-
 <ol>
 <li><strong>Time</strong>: My script ran at night, so that there was long delay between
-repeating myself and learning about this fact.</li>
+   repeating myself and learning about this fact.</li>
 <li><strong>Space</strong>: It generated a list of similar notes in a separate text file which
-I would rarely consult.</li>
+   I would rarely consult.</li>
 </ol>
-
 <p>By building this as an Obsidian plugin, I addressed both fundamental problems in
 the time and the space continuum!</p>
-
 <ol>
 <li>The current paragraph is continuously fed into a semantic similarity model,
-so that movement of the cursor or textual edits trigger updates in
-real-time.</li>
+   so that movement of the cursor or textual edits trigger updates in
+   real-time.</li>
 <li>Similar excerpts are presented in a dedicated sidebar, allowing you to
-see related notes and excerpts right away.</li>
+   see related notes and excerpts right away.</li>
 </ol>
-
 <h1>How is this implemented?</h1>
-
 <p>The current implementation has two parts:</p>
-
 <ol>
 <li><strong>Indexer</strong> is a script that runs nightly, generating per-paragraph
-embeddings for each note in the corpus. These embeddings and other metadata
-are then saved as JSON.</li>
+  embeddings for each note in the corpus. These embeddings and other metadata
+  are then saved as JSON.</li>
 <li><strong>Obsidian plugin</strong> generates embeddings for any text within Obsidian, and
-then compares the result to the pre-generated embeddings.</li>
+   then compares the result to the pre-generated embeddings.</li>
 </ol>
-
 <p>Both plugins use exactly the same embedding model to guarantee that the
 embedding mappings are identical. The one running inside Obsidian must use
 JavaScript, and I've already been using <a href="https://github.com/tensorflow/tfjs-models/tree/master/universal-sentence-encoder">Universal Sentence Encoder
@@ -121,25 +112,21 @@ and to guarantee identical outputs, I built the indexer using the same exact
 model, running in node.js using tfjs-node. My previous python implementation of
 this used a <a href="https://tfhub.dev/google/universal-sentence-encoder-large/">slightly larger model of
 USE</a>.</p>
-
 <p>The plugin works as follows:</p>
-
 <ol>
 <li>Find the currently active text: if there's an active editor, find the
-paragraph at the current cursor position. If there's a selection, use the
-selected text.</li>
+   paragraph at the current cursor position. If there's a selection, use the
+   selected text.</li>
 <li>Extract its semantic similarity embedding, which in the case of USE is a
-512-dimensional vector.</li>
+   512-dimensional vector.</li>
 <li>Compare its embedding to the rest of the embeddings for every other excerpt
-in the corpus, which is saved as an Nx512 matrix. Comparison here is a matrix
-multiplication, the result of which is a vector of scores corresponding to
-the similarity of the source excerpt with each of the N excerpt.</li>
+   in the corpus, which is saved as an Nx512 matrix. Comparison here is a matrix
+   multiplication, the result of which is a vector of scores corresponding to
+   the similarity of the source excerpt with each of the N excerpt.</li>
 <li>Find the top K scores and their corresponding excerpt.</li>
 <li>Display the resulting notes and excerpts.</li>
 </ol>
-
 <h1>Running this in a web worker</h1>
-
 <p>Doing the above steps takes time. On my laptop it takes a second to generate
 embeddings, and another half second to do the multiplication and ranking. This
 will of course vary depending on your hardware and note corpus size. But even in
@@ -150,22 +137,17 @@ sought and found a workaround, which is to run <a href="https://erdem.pl/2020/02
 worker</a>,
 in CPU mode. This slows execution by about 50%, but is totally worth it to make
 the plugin usable in real life.</p>
-
 <h1>Toward standalone indexing</h1>
-
 <p>I'd love for the plugin to run standalone without the need for a separate
 indexer. This would allow others to use it far more easily without requiring
 them to setup a whole indexing <a href="/file-systems-for-thought/">system</a>.</p>
-
 <p>Implementing indexing within the plugin, I ran into memory issues computing
 embeddings for my whole corpus. I haven't yet found the time to dig in to why
 this was not a problem for the tfjs-node implementation of the indexer.</p>
-
 <p>Before I seek workarounds, I want to live with the experience first. Is the
 plugin useful for navigating my note corpus? Do the excerpts it surfaces make
 sense as I'm writing a new note? Is the constantly changing semantic sidebar too
 distracting? Let's find out; ƒor science!</p>
-
     </div>
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
