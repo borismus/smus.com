@@ -4,6 +4,58 @@ class: split
 type: book
 
 
+Use of Weapons by Iain Banks
+===
+rating: yes
+posted: Dec 20, 2024
+cover: /assets/book-covers/use-of-weapons.jpg
+
+This book meanders and takes its time building up to a double twist of a conclusion, leaving the reader winded. Its unusual structure is disorienting and leads to moments of annoyance, but it's ultimately worth it. I found the twist surprising despite there being plenty of foreshadowing, but these tells were only visible in retrospect. Recency bias may be deluding me here, but I think Use of Weapons all told was the most compelling installment of The Culture Series I've read, followed by Player of Games, then Consider Phlebas. That said, I wouldn't recommend it as an introduction to The Culture because of the slow build. It's impossible to write in any more detail without spoilers, so consider yourself warned henceforth.
+
+In retrospect, the hook of the novel is well summarized in Iain Banks' own words from Chapter VIII:
+
+> And it had two shadows, it was two things; it was the need and it was the method. The need was obvious; to defeat what opposed its life. The method was that taking and bending of materials and people to one purpose, the outlook that every­thing could be used in the fight; that nothing could be excluded, that everything was a weapon, and the ability to handle those weapons, to find them and choose which one to aim and fire; that talent, that ability, that use of weapons...
+
+These dual strands are woven in everywhere in the book, from the narrative structure, to the protagonist's identity, to the comparison of the Culture to other civilizations.
+
+### Two interwoven story strands
+The main narrative moves chronologically forward through latin-numbered chapters, while a reverse narrative counts backwards from the same point in roman numerals. The actual order of events is as you'd find in a book with a prologue: i, ii, ... xiii, 1, 2, ... 13. These two accounts interweave sequentially in a confusing way: XIII, 1, XII, 2, ..., 13, I. This format did add to the mystery, but it felt artificial before the big revelation at the end. In retrospect, it was necessary in order to make the reader buy into Zakalwe's plot, so that Banks could twist the narrative like a dagger into the reader's heart.
+
+Further complicating matters are flashbacks within the narratives, such as the one to Zakalwe's childhood home in Chapter VII.
+
+I myself had a weird flashback reading the introduction to the story, which really reminded me of another book, I think the introduction to [Quicksilver by Neal Stephenson](/books/quicksilver-by-neal-stephenson/), in which Daniel Waterhouse is working in a musty room filled with curiosities, inventions, and weapons from past eras, and is then interrupted by war.
+
+### Two faces of the protagonist
+As the story slowly meanders, the reader feels unmoored and directionless until everything seems to fall into place more than half way through the novel. The protagonist is traumatized by his sister's rape (on a white chair) at the hands of his psychopathic cousin. This makes him ridiculously afraid of all chairs, which at times is comical. Certainly unpleasant, but chairs are so commonplace, wouldn't you be desensitized by their constant occurrence? A tell...
+
+The pace of the core narrative continues to accelerate, and it's only in Chapter I (the chronological beginning of the reverse narrative) that the truly traumatizing event is revealed: the bone chair. I will spare you the details here, but it's only then that the demented and psychopathic nature of Elethiomel is revealed to the reader.
+
+Just as the reader is reeling in disgust and shock, Banks drops another bomb. Refusing the life saving technology of The Culture, the dying protagonist seeks out his sister Livueta. By now the reader is rooting for this gruff and backwards Cheradenine (C), and is miffed at his sister's cold reception. And now, twisting the dagger already present in the reader's heart, the protagonist is revealed to in fact be the chair maker, Elethiomel (E).
+
+This is quite the emotional roller coaster, first eliciting a sense of trauma and grief as the reader sympathizes with C receiving the bone chair and being driven to suicide, but then a feeling of betrayal directed at Mr. Banks himself. You've been rooting for a complete psychopath this whole time! Now the protagonist's actions, despite being condoned by the culture, are seen in a completely different, ominous light.
+
+E never claims to be C, and the protagonist's identity is never specified clearly. It's a well executed double twist. Although in retrospect, many small things foreshadowed it, I was still surprised.
+
+### Two uses of weapons
+Use of Weapons is a military book in many ways, with many wars prominently featured and well described. I especially liked the protagonist's leadership leading the Hegemonarchy, in which he does a Gemba walk (see [[Management by wandering around and Gemba Walks are impossible remotely|note]]) to understand the ground truth of the army he newly commands. He doesn't care about their religion or the ranks or the insignia, and is therefore doubly effective.
+
+Fundamentally, tanks and battleships are just incidental to this story. The protagonist's real weapons are not military units, but ambition and cunning and a psychopathic desire to achieve victory by any means necessary. The Culture's real weapon is the protagonist himself. Did his handler Diziet Sma know about his (Elethiomel's) terrible misdeeds before hiring him? Probably. But he was the right tool for the job, the correct weapon to use.
+
+### The Culture and other civilizations
+The Culture universe contains many civilizations which exist in their own timeline, often completely oblivious to The Culture's existence. These civilizations deal with real wars, conflicts, intrigues. Civilizations rise and fall; each has its own history.
+
+The Culture stands alone above the rest, a civilizational superpower. Technologically it's miles ahead of the rest of the pack. The Culture often intervenes in their affairs, mostly in a way that is supposed to reduce conflict and violence. In contrast to most of the civilizations it interacts with though, The Culture arrived at it's end of history moment long ago (see [[Fukuyama End of History notes]]). Now it is comfortably living through an AI-powered post-scarcity world.
+
+One of the reasons I like The Culture series so much is that it reminds me of my childhood. It evokes the cozy feeling of being back in the 1990s, when history was supposedly over. Yet despite existing in this stratified layer of technology, The Culture's morality is less certain, and Banks meditates on moral progress, implicitly asking the reader whether such a thing is truly possible (see [[Moral progress is a cycle, technological progress is an arrow]]). For even a civilization as technologically advances as The Culture must rely on morally dubious materiel such as Elethiomel...
+
+### Miscellaneous bits
+The protagonist is decapitated, but remains conscious after he is disembodied. I don't think I've read an account from this literally out-of-body experience before.
+
+In manned spaceship design, is it ever reasonable to have actual windows made of glass? Banks argues that instead, you ought to have an external camera and an internal screen. I wonder if that's true for the future of human spaceflight.
+
+Great made-up words: "Hegemonarchy" and also "Ethnark".
+
+
 When We Cease to Understand the World by Benjamín Labatut
 ===
 rating: yes
