@@ -1894,7 +1894,7 @@ Torture by this point was common in Medieval justice. Inquisitors were allowed t
 
 # Jews of the High Middle ages
 
-As mentioned ad nauseam in [[The Thirteenth Tribe by Arthur Koestler]], Jews were often expelled from kingdoms. I even made a list of [[History of Jewish Expulsions]].
+As mentioned ad nauseam in [The Thirteenth Tribe by Arthur Koestler](/books/thirteenth-tribe/), Jews were often expelled from kingdoms. I even made a list of [[History of Jewish Expulsions]].
 
 Why? It was an easy way for kings to make quick money. They would seize Jewish assets and take ownership of all outstanding loans. But this would disrupt the economy, so these measures were often reverted quickly.
 
@@ -2048,7 +2048,7 @@ posted: 2021-04-30
 rating: no
 cover: /assets/book-covers/thirteenth-tribe.jpg
 
-When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished [[Early Middle Ages]] and really enjoyed [[Darkness at Noon by Arthur Koestler]] by Arthur Koestler.
+When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished [Early Middle Ages](/books/early-middle-ages/) and really enjoyed [Darkness at Noon](/books/darkness-at-noon-by-arthur-koestler-audio/) by Arthur Koestler.
 
 The first half of the book focuses on the facts. Who were the Khazars? Who were the Rus? Where did these people come from? How did they interact with dominant Byzantines, Ummayads, Abassids? It's super readable and more engaging than prior lectures on the subject matter. That said, I feel that having listened to [[Early Middle Ages]] was a bit of a prerequisite. It would have been too hard to keep track of the major players otherwise.
 
@@ -2115,7 +2115,7 @@ During the crusades, many Jews were forced to convert and many communities chose
 
 > Many Jews of Maeonce, Strasbourg, Spires, ... escaped from centers and left their posessesions to kindly Burgers.
 
-![[History of Jewish Expulsions]]
+[[History of Jewish Expulsions]]
 
 # Controversial conclusions
 
@@ -2248,9 +2248,9 @@ By this point, the King is effectively elected official, selected by Counts that
 
 # Teutonicum / Germany
 
-TODO
-OTTO
-Holy Roman Empire
+- TODO
+- OTTO
+- Holy Roman Empire
 
 # Meanwhile in Spain/Al-Andalus
 
