@@ -39,18 +39,25 @@ St. Paul was one of very many contingent links for Jesus Christ to reach the pro
 Louv does a good job of providing context for the pre-enlightenment world Dee was born into. The canonical classification of divine and profane beings comes to us from the sixth century Christian Pseudo-Dionysius. He scaffolded the order of the world as follows:
 
 Angels of presence, praising God:
+
 - Seraphim speculate on the order and providence of God.
 - Cherubim speculate on the essence and form of God.
 - Thrones also speculate, though some descend to works.
+
 Angels of government, spreading light:
+
 - Dominions, like architects, design what the rest execute.
 - Virtues execute, and move the heavens, and concur for the working of miracles as God’s instruments.
 - Powers watch that the order of divine governance is not interrupted and some of them descend to human things.
+
 Angels of revelation, able to communicate with humans:
+
 - Principalities care for public affairs, nations, princes, magistrates.
 - Archangels direct the divine cult and look after sacred things.
 - Angels look after smaller affairs, and take charge of individuals as their guardian angels.
-Non-divine
+
+The Profane:
+
 - Humans are in the unfortunate position of being able to commit both spiritual and physical sins—unlike angels and animals, who are either fully spiritual or fully physical.
 - Animals, ranked within various orders—mammals, avians, fish, reptiles, amphibians, insects.
 - Plants, ranked in order from trees to fungus.
@@ -121,7 +128,9 @@ Louv writes that during World War II,
 
 > many Christian Zionists saw Hitler’s persecution of the Jews as a part of the divine plan to push Jews toward returning to Palestine and converting to Christianity. They therefore saw little need for America to intervene to prevent the Holocaust from occurring.
 
-![[Quotes I like#^59adb2]]
+Louv includes a telling quote from Ronald Reagan:
+
+> “For the first time ever, everything is in place for the battle of Armageddon and the Second Coming of Christ."
 
 I'm intrigued by the ideology of Christian Zionism. Although they are some of the strongest defenders of Jews in the US, there is also a dark anti-semitic undercurrent, in that their concern is less about the well-being of the Jewish people as much as their use in bringing forth the apocalypse to ultimately "de-Judaize" them.
 
@@ -185,6 +194,7 @@ The scrying sessions continued in exile in Poland and the Czech Republic with mo
 > Uriel transformed into a great spinning wheel of fire; after thrusting out his hands, the wheel appeared full of men’s eyes, with flames shooting out of it in four places. A great white eagle with monstrous red eyes, one the color of fire and one of crystal, now came and perched upon the wheel, carrying a scroll of parchment in its beak. Beneath this eagle appeared a great valley, within which was a great city six times the size of Krakow, full of ruined houses, with a river running by it.
 
 (I want to feed this into a gen AI video maker...)
+
 ## Wife swapping
 At some point in the scrying sessions Kelly was implored to marry. He indeed soon married, though he came to greatly resent his wife.
 
