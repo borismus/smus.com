@@ -15,6 +15,8 @@ And some major improvements vis-à-vis the original version:
 
 In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.
 
+**Update 2025**: See <https://invention.cards> for the latest version of this project.
+
 [book]: /books/asimovs-chronology-of-science-and-discovery/
 [blog]: /visual-chronology-science-discovery/
 

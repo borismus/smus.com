@@ -8,6 +8,8 @@ Last year, I got my hands on a remarkable book, [Asimov’s Chronology of Scienc
 
 [![Screenshot of the visual chronology centered at Steel.](screenshot-steel.jpg)](https://invention.cards/steel)
 
+**Update 2025**: See <https://invention.cards> for the latest version of this project.
+
 <!--more-->
 
 One of the unnerving things about Isaac Asimov’s book was the visual table of contents for the first edition:
