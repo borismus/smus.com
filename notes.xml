@@ -5,8 +5,68 @@
   <title>Boris Smus (Notes)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-01-21T21:28:40-00:00</updated>
+  <updated>2025-01-24T23:20:13-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Invention &amp; Discovery Cards work complete</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2025/invention-discovery-cards-work-complete"/>
+    
+    <updated>2025-01-24T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2025/invention-discovery-cards-work-complete</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I'm pleased to have completed transforming <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov's Chronology of Science and Discovery</a> into a deck of Magic Cards. Over five years later, all 1477 entries from
+Asimov's encyclopedia are now represented as illustrated cards on <a href="https://invention.cards">https://invention.cards</a>. The
+website is rendered based on <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit?gid=0#gid=0">this master spreadsheet</a> which I compiled with the help of AI
+and manually vetted. Since AI hallucinations can safely be ignored, and I am infallible, I declare victory!</p>
+<!--more-->
+
+<h1>Just kidding...</h1>
+<p>A project like this is never over, but I did make some revisions to <a href="https://invention.cards">https://invention.cards</a> to celebrate
+the data milestone.</p>
+<ul>
+<li>The site now has a title.</li>
+<li>The list of all cards is now fully scrollable.</li>
+<li>Rendering is capped to 100 cards to maintain performance.</li>
+<li>No limit to the depth of the ancestor or successor trees.</li>
+<li>Added random card button.</li>
+</ul>
+<p>In 2019, when I <a href="/books/asimovs-chronology-of-science-and-discovery/">first cracked Asimov's encyclopedia</a>, I immediately wanted to turn it into a visual chronology:</p>
+<blockquote>
+<p>My goal is to ultimately generate a visual, Civilization-style technology tree for this whole book.</p>
+</blockquote>
+<p>Mission accomplished, amirite? Permit me a quick walk down memory lane:</p>
+<ul>
+<li>2020: My <a href="/visual-chronology-science-discovery">initial visualization</a> was inspired by the then newly coined <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/">Progress Studies</a>.</li>
+<li>2021 brought headwinds which stymied my progress studies. We now had two young children to raise and a pandemic to survive.</li>
+<li>2022 brought tailwinds in the form of hawt new AI models. By early 2024 I posted an <a href="/visual-chronology-science-discovery-v2/">illustrated revision</a> and extended the chronology to the year 1850. Data-wise, this was just the half-way point.</li>
+<li>2024: I <a href="/invention-cards-ai/">used AI to accelerate the process</a> and by the end of the year, I'd advanced up to 1945.</li>
+<li>2025 brings us to today!</li>
+</ul>
+<h1>That's funny...</h1>
+<blockquote>
+<p>The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..." - Isaac Asimov</p>
+</blockquote>
+<p>Throughout the process of reading and summarizing, I kept an "Asimov surprise log", capturing the head scratchers that made me pause and say "That's funny...":</p>
+<ol>
+<li>Specific surprising inventions and discoveries (e.g. Why is it that <a href="https://invention.cards/dendrochronology">Dendrochronology</a> was only conceived of in 1920?)</li>
+<li>Multiple inventions and discoveries (e.g. How is it that we made space-related discoveries before inventing <a href="https://invention.cards/telescope">telescopes</a>?)</li>
+<li>Groups of cards that tell a compelling story (e.g. Why did it take fifteen centuries to invent the practical steam engine after the <a href="https://invention.cards/basic-steam-engine">Greeks harnessed steam for motion</a>?)</li>
+<li>Broad patterns across inventions and discoveries (e.g. Which general purpose inventions unlocked the most compelling discoveries?)</li>
+<li>Meta-observations about what the source material (e.g. Asimov's background in Chemistry and golden age sci-fi explains disproportional energy spend on biology, chemistry, and astronomy. In 2025, what are our collective blinders?)</li>
+</ol>
+<p>Now that this project is in some sense complete, I hope to spend some energy elaborating on these and other
+questions in the near future. Stay tuned!</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Unintended Consequences of False Equity</title>

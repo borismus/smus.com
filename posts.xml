@@ -5,7 +5,7 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-01-21T21:28:40-00:00</updated>
+  <updated>2025-01-24T23:20:13-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -141,6 +141,7 @@
 <li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
 </ul>
 <p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
+<p><strong>Update 2025</strong>: See <a href="https://invention.cards">https://invention.cards</a> for the latest version of this project.</p>
 <!--more-->
 
 <h1>Challenge 1: chronological graphs</h1>
@@ -1513,6 +1514,7 @@ world? 🗅</p>
         <p>As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.</p>
 <p>Last year, I got my hands on a remarkable book, <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov’s Chronology of Science and Discovery</a>. It inspired me to produce a visual summary of human ingenuity, to see what one giant saw from the shoulders of another. After some experimentation, I turned it into an interactive visualization. You can play with it <a href="https://invention.cards/steel">here</a>:</p>
 <p><a href="https://invention.cards/steel"><img alt="Screenshot of the visual chronology centered at Steel." src="screenshot-steel.jpg" /></a></p>
+<p><strong>Update 2025</strong>: See <a href="https://invention.cards">https://invention.cards</a> for the latest version of this project.</p>
 <!--more-->
 
 <p>One of the unnerving things about Isaac Asimov’s book was the visual table of contents for the first edition:</p>

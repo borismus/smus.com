@@ -5,8 +5,68 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-01-21T21:28:40-00:00</updated>
+  <updated>2025-01-24T23:20:13-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Invention &amp; Discovery Cards work complete</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2025/invention-discovery-cards-work-complete"/>
+    
+    <updated>2025-01-24T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2025/invention-discovery-cards-work-complete</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I'm pleased to have completed transforming <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov's Chronology of Science and Discovery</a> into a deck of Magic Cards. Over five years later, all 1477 entries from
+Asimov's encyclopedia are now represented as illustrated cards on <a href="https://invention.cards">https://invention.cards</a>. The
+website is rendered based on <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit?gid=0#gid=0">this master spreadsheet</a> which I compiled with the help of AI
+and manually vetted. Since AI hallucinations can safely be ignored, and I am infallible, I declare victory!</p>
+<!--more-->
+
+<h1>Just kidding...</h1>
+<p>A project like this is never over, but I did make some revisions to <a href="https://invention.cards">https://invention.cards</a> to celebrate
+the data milestone.</p>
+<ul>
+<li>The site now has a title.</li>
+<li>The list of all cards is now fully scrollable.</li>
+<li>Rendering is capped to 100 cards to maintain performance.</li>
+<li>No limit to the depth of the ancestor or successor trees.</li>
+<li>Added random card button.</li>
+</ul>
+<p>In 2019, when I <a href="/books/asimovs-chronology-of-science-and-discovery/">first cracked Asimov's encyclopedia</a>, I immediately wanted to turn it into a visual chronology:</p>
+<blockquote>
+<p>My goal is to ultimately generate a visual, Civilization-style technology tree for this whole book.</p>
+</blockquote>
+<p>Mission accomplished, amirite? Permit me a quick walk down memory lane:</p>
+<ul>
+<li>2020: My <a href="/visual-chronology-science-discovery">initial visualization</a> was inspired by the then newly coined <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/">Progress Studies</a>.</li>
+<li>2021 brought headwinds which stymied my progress studies. We now had two young children to raise and a pandemic to survive.</li>
+<li>2022 brought tailwinds in the form of hawt new AI models. By early 2024 I posted an <a href="/visual-chronology-science-discovery-v2/">illustrated revision</a> and extended the chronology to the year 1850. Data-wise, this was just the half-way point.</li>
+<li>2024: I <a href="/invention-cards-ai/">used AI to accelerate the process</a> and by the end of the year, I'd advanced up to 1945.</li>
+<li>2025 brings us to today!</li>
+</ul>
+<h1>That's funny...</h1>
+<blockquote>
+<p>The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..." - Isaac Asimov</p>
+</blockquote>
+<p>Throughout the process of reading and summarizing, I kept an "Asimov surprise log", capturing the head scratchers that made me pause and say "That's funny...":</p>
+<ol>
+<li>Specific surprising inventions and discoveries (e.g. Why is it that <a href="https://invention.cards/dendrochronology">Dendrochronology</a> was only conceived of in 1920?)</li>
+<li>Multiple inventions and discoveries (e.g. How is it that we made space-related discoveries before inventing <a href="https://invention.cards/telescope">telescopes</a>?)</li>
+<li>Groups of cards that tell a compelling story (e.g. Why did it take fifteen centuries to invent the practical steam engine after the <a href="https://invention.cards/basic-steam-engine">Greeks harnessed steam for motion</a>?)</li>
+<li>Broad patterns across inventions and discoveries (e.g. Which general purpose inventions unlocked the most compelling discoveries?)</li>
+<li>Meta-observations about what the source material (e.g. Asimov's background in Chemistry and golden age sci-fi explains disproportional energy spend on biology, chemistry, and astronomy. In 2025, what are our collective blinders?)</li>
+</ol>
+<p>Now that this project is in some sense complete, I hope to spend some energy elaborating on these and other
+questions in the near future. Stay tuned!</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>John Dee and the Empire of Angels by Jason Louv</title>
@@ -66,7 +126,7 @@
 <li>Minerals, ranked by gems, metals, stones, and so on.</li>
 </ul>
 <h2>Scientists on the woo spectrum</h2>
-<p>Many great scientists work on the frontier of the known. Thus they encounter plenty of ideas which are not tested and confirmed by the scientific community.  As a forward thinking explorer of the unknown, some of your swings may end up as mega-hits, while others might be complete misses. As you do the work, they all look promising. It is only in retrospect that you can separate the scientific contributions from the occult tendencies:</p>
+<p>Many great scientists work on the frontier of the known. Thus they encounter plenty of ideas which are not tested and confirmed by the scientific community. As a forward thinking explorer of the unknown, some of your swings may end up as mega-hits, while others might be complete misses. As you do the work, they all look promising. It is only in retrospect that you can separate the scientific contributions from the occult tendencies:</p>
 <table>
 <thead>
 <tr>
@@ -77,24 +137,24 @@
 </thead>
 <tbody>
 <tr>
-<td>Isaac Newton (1643 — 1727)</td>
+<td>Isaac Newton (b. 1643)</td>
 <td>Calculus, light waves, laws of motion.</td>
 <td>Alchemy and Rosicrucianism</td>
 </tr>
 <tr>
-<td>John Nash</td>
-<td>Game Theory contributions</td>
-<td>Aliens</td>
-</tr>
-<tr>
-<td>Srinivasa Ramanujan</td>
+<td>Srinivasa Ramanujan (b. 1887)</td>
 <td>Number Theory contributions</td>
 <td>The goddess Mahalakshmi</td>
 </tr>
 <tr>
-<td>John Whiteside Parsons</td>
+<td>John Whiteside Parsons (b. 1914)</td>
 <td>Solid-fuel rockets</td>
 <td>Thelemite occultism</td>
+</tr>
+<tr>
+<td>John Nash (b. 1928)</td>
+<td>Game Theory contributions</td>
+<td>Aliens</td>
 </tr>
 </tbody>
 </table>
@@ -213,7 +273,7 @@
 <p>And Francis Bacon is the guiding spirit of the Royal Society. Again I find this to be a pretty tenuous link, but as I read this book, I mentally replaced Dee with the <em>je ne sais quoi</em> spirit of the Elizabethan age Dee represented.</p>
 <h2>Dee's occult descendents</h2>
 <p>Edward Alexander Crowley founded a modern Magick order called Thelema. His books like "The vision and the Voice" reveals a complex cosmology that sounds intriguing, at least in Louv's retelling, especially as it relates to <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa">Negative theology and via negativa</a>.</p>
-<p>However the historical details are grim. Crowley appears to be a terrible person individually, while also promulgating a variety of questionable practices:  perverse sex, hard drugs, mind control. He is also a self-declared antichrist. In summary, a rather unattractive package, for example:</p>
+<p>However the historical details are grim. Crowley appears to be a terrible person individually, while also promulgating a variety of questionable practices: perverse sex, hard drugs, mind control. He is also a self-declared antichrist. In summary, a rather unattractive package, for example:</p>
 <blockquote>
 <p>Crowley’s rather cowardly refusal to help several men trapped by an avalanche during his Kanchenjunga expedition; his decades of cocaine, ether, and heroin addiction and the resultant ugly interpersonal behaviors these drugs engender; his often sociopathic treatment of women, students, and hired help; his extreme racism and anti-Semitism (including a line in his Magical and Philosophical Commentaries, III:11, in which he calls Jews “the parasites of man,” which has been deleted from later editions), and so on . . . and so on . . . and so on</p>
 </blockquote>
@@ -802,6 +862,7 @@ Furthermore, prioritizing FFEJ students also leads to <strong>less equity for hi
 <li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
 </ul>
 <p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
+<p><strong>Update 2025</strong>: See <a href="https://invention.cards">https://invention.cards</a> for the latest version of this project.</p>
 <!--more-->
 
 <h1>Challenge 1: chronological graphs</h1>
@@ -3112,107 +3173,6 @@ Go on a limb.
 <ul>
 <li>The Agency of Becoming by Agnes Callard</li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Forever Flowing by Vasily Grossman</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/forever-flowing-by-vasily-grossman"/>
-    
-    <updated>2022-09-03T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/forever-flowing-by-vasily-grossman</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>This unfinished work begins as a novel, and ends as a scathing critique of the Soviet Union under Stalin.</p>
-<p>Viewing the work from the perspective of a novel is slightly disappointing. Although the characters are compelling, the narrative arc is stunted, leaving a lot to be desired. Briefly, the emaciated Ivan returns from a 30 year stint at a gulag, only to meet his pudgy, talentless cousin Nikolai, who has made a great career for himself by being unprincipled. Ivan's wife found a new lover, and most of his friends have died in the camps. Ivan begins anew, finds a job and falls in love with a woman who eventually succumbs to cancer.</p>
-<p>The narrative in this book is shadowed by Grossman's critical agenda. This work is listed as an inspiration for <a class="wiki" href="https://z3.ca/Bloodlands_by_Timothy_Snyder">Bloodlands by Timothy Snyder</a>, but adds extra color to the history described there. The strength of Grossman's work incorporates some interesting historical ideas:</p>
-<ul>
-<li>Arendtian "Banality of Evil" was alive and well in Soviet Russia.</li>
-<li>The strong Soviet state became an end in itself, to the detriment of the people.</li>
-<li>The culture of informing on your neighbors was even more terrible than I thought.</li>
-<li>The situation on the ground was in some ways even worse than what was described in Snyder.</li>
-<li>Stalin was Lenin's true spiritual successor because Lenin's essence was thirst for power.</li>
-<li>Russia's default state over the last millenium is totalitarian unfreedom.</li>
-<li>The truly radical Russian Revolution was the end of Feudalism in 1861.</li>
-<li>Lenin's legacy was as a totalitarian innovator, emulated by the Mussolini, Hitler, Mao, and other less-then-lovely humans.</li>
-</ul>
-<p>I elaborate on each idea in what follows.</p>
-<h1>Banality of Evil in Soviet Russia</h1>
-<p>Ivan's cousin Nikolai Andreyevich is very good at blending in to the (terrible) times. An adaptive chameleon without serious principles, but a self-described decent man, and truly well meaning. Sure, sometimes he agrees to sign an order to punish an enemy of the people, or condemn a Jew for his treasonous poisoning of a respected party member. But these people are certainly guilty, and deserve to be punished. All in a day's work for a well respected member of society. At any rate, it's a comfortable life.</p>
-<p>Yet even for Nikolai, uncertainty lingers in the background. He knows really decent Jewish doctors personally. What if some of accused are innocent? Could it be that Stalin and the party are wrong? No — unthinkable. When, upon his death, Stalin turned out to be not such an infallible leader, things got uncomfortable really quickly.</p>
-<p>The pudgy wine-drinking Nikolai, with his jowls and heavyset build, contrasts starkly to his principled, emaciated cousin. Sometimes Nikolai wished he could take Ivan's place in principled opposition, even if it meant thirty years in a gulag.</p>
-<p>Grossman does an impressive job of explaining and understanding various kinds of traitors against humanity. He is able to apologize on their behalf and explain their behavior from their own perspective. Judas I, II, III and IV are all good men at their core. Some are erudite scholars, some have great respect for their parents, and love their children. All of these various flavors of everyman busy informing on one another. It's just what you do.</p>
-<p>Yet even towards this scum, Grossman calls for moderation lest we become Stalinists ourselves.</p>
-<blockquote>
-<p>Подумаем. Не подумавший не казни. Подумаем не торопясь, потом уж, приговор.
-Think. Think before executing. Think, don't rush. Then later, we'll impose a sentence.</p>
-</blockquote>
-<h1>Butchers and hairdressers: Moscow in the 50s</h1>
-<blockquote>
-<p>Повсюду на домах имелись одни и те же вывески: «Мясо» и «Парикмахерская». В сумерках вертикальные вывески «Мясо» горели красным огнем, вывески «Парикмахерская» светились пронзительной зеленью. Эти вывески, возникшие вместе с первыми жильцами, как бы раскрывали плотоядную суть человека. Мясо, мясо, мясо… Человек жрал мясо. Без мяса человек не мог. Здесь не было еще библиотек, театров, кино, пошивочных, не было даже больниц, аптек, школ, но сразу, тотчас же, среди камня красным огнем светилось: мясо, мясо, мясо… И тут же изумруд парикмахерских вывесок. <strong>Человек ел мясо и обрастал шерстью</strong>.</p>
-</blockquote>
-<h1>Fifty words for "informant"</h1>
-<blockquote>
-<p>Да. Все течёт. Все изменяетесь. Нельзя дважды вступить в один и тот же эшелон.
-Everything flows. Everything changes. You cannot board the same gulag train twice.</p>
-</blockquote>
-<p>The Inuit have many words for snow. The Russians, for informing on your neighbors: клевета, стукачи, сексоты, доносчики, информаторы.</p>
-<p>The greatest and most disgusting defence of this behavior was to deflect blame from the government, and attribute it to human nature itself. The baby grows into an informant organically through mothers milk. Humanity is naturally corrupt and people are either deserve to be informed on, or inform on others for personal gain. This deeply insidious position is still espoused by Russians today: a nihilism and fundamental pessimism about human nature. <a class="wiki" href="https://z3.ca/Russia's_strategy_is_sowing_cynicism">Russia's strategy is sowing cynicism</a>.</p>
-<p>This deflection was effective. Many gulag denizens believed in their own innocence (a clerical error) while insisting that the system was working as intended. Surely de-kulakification doesn’t just happen to hard working peasants. Those slackers deserved it!</p>
-<p>In fact, the government was directly to blame. Not informing was potentially punishable by jail time. You could get ten years for NOT reporting on your friends. Women were often the main victims here, as wives would get ten year sentences for not reporting on their husbands. The more prominent the man taken to the gulag, the more women in his sphere would get taken away to women's camps: his mother, his wife, his sisters, his daughters.</p>
-<p>Woman’s camps totally terrifying. Women would get ten year sentences for not reporting on their husbands. Prominent husbands would cause more women around them to get sent away to camps.</p>
-<p>Stalin's system pre-emptively punished potential criminals. Those that were jailed and sent away weren’t usually guilty of any real opposition, merely belonged to some group that might tend, in the right circumstances, to have a higher probability to oppose the government. A terrifyingly high modernist stance, straight from Minority Report.</p>
-<p>After Nikita Khrushchev dismantled Stalin's cult of personality, there were no consequences for those informants that did it for personal gain. All of the blame was attributed instead on Stalin personally, not on the system underlying the brutal famines and repressions.</p>
-<h1>Atrocities beyond "Bloodlands"</h1>
-<p>During the famines of 1932-33, NKVD checkpoints on roads prevented Kulaks starving in the villages from leaving. Many desperate enough to try to flee through the swamps met their deaths in the wilderness.</p>
-<p>A PR campaign raged to try to conceal the famine from the population at large, but many city dwellers knew anyway and passengers on the Kiev-Odessa express would throw food out of their windows when traveling through famished Bloodlands so that villagers could scavenge for scraps near the train tracks after the train passed. Again, the authorities intervened and installed guards to lock car windows when passing through starving regions.</p>
-<p>As the famine eased and villagers were able to claw their way back into the cities, Grossman vividly describes bread lines were unlike any other. A line of people, each hugging the person in front to ensure their place oscillated like a wave. Every hungry stumble created a ripple through the line, but it stood firm. I found this image of emaciated people, clinging on for dear life and howling from hunger visceral and terrifying.</p>
-<h1>The strong state, an end in itself</h1>
-<p>Those faithful to the original bolshevik vision of international communism became unnecessary ideologues for Stalin. When the tides shifted and the idea of the Comintern fell out of favor, the old internationalist dogs needed to be put down. How to best do this? Declare them enemies. Hence the Stalinist repressions of 1937-39. Stalin was tired of this entourage of useless old dogs following him around, so he simply murdered them, at scale.</p>
-<p>The soviet state was purportedly created for the benefit of the people: the workers, the farmers. A strong state was established as a means to achieve this end, but sometime in the early decades of the Soviet Union, the original goal was forgotten. Over time, the means became the end. For Stalin, crushing a few million people became the new means to the real end: a strong state.</p>
-<h1>Stalin as Lenin's true spiritual successor</h1>
-<p>Grossman quotes a <a href="http://esenin-lit.ru/esenin/text/lenin-2.htm">Yesenin's "Lenin"</a>, evoking the dark image of encasing Lenin's legacy in concrete:</p>
-<blockquote>
-<p>Его уж нет!
-А те, кто вживе,
-А те, кого оставил он,
-Страну в бушующем разливе
-Должны заковывать в бетон.
-Для них не скажешь:
-"Ленин умер!"
-Их смерть к тоске не привела...
-Еще суровей и угрюмей
-Они творят его дела.</p>
-</blockquote>
-<p>Who, asks Grossman rhetorically, should be Lenin's successor? Would it be the brilliant, turbulent, magnificent Trostky? The charming, gifted political theorist Bukharin? Perhaps the one closest to the workers Rykov? Maybe the well educated, confident, and sophisticated governor Kamenev? Last but not least, the one best versed in international labor, Zinovyev?</p>
-<p>All of these men embodied aspects of Lenin's multifaceted personality, but none of them captured the essence of his soul: thirst for power. Stalin executed all of them, eliminating these subsidiary aspects of early Soviet rule which were merely getting in the way. The real goal was to raise and strengthen Lenin's banner over Russia, consolidate power, and build a powerful state.</p>
-<p>To Grossman, Lenin’s intolerance, his firmness, his fanaticism all stem from the centuries of Russian unfreedom and intolerance. Grossman sees Stalin not as a huge departure from Lenin's tenure, but as a logical continuation of former events, and a cementing (as per Yesenin) of the existing path.</p>
-<h1>Russia's default state: totalitarian unfreedom</h1>
-<blockquote>
-<p>Лишь одного не видела Россия за тысячу лет: свободы
-The one thing Russia has not seen in a thousand years: freedom.</p>
-<p>Особенности русской души рождены несвободой. Русская душа тысячелетния раба.
-Particularities of Russian spirit emerge from unfreedom. One thousand years a slave.</p>
-</blockquote>
-<p>Freedom had almost no grounding in Russian history at all. Any notions of liberalism are entirely imported from western thought. The government was only democratic for two brief moments: the period of 1905-1917, then again roughly 1991-2000.  Other than that, the default state of Russia for the last millennium has been unfreedom.</p>
-<p>Grossman writes almost from a Eurasianist perspective, emphasizing Stalin's veneer of culture on top of a Mongol yoke core. Stalin's Russia was certainly the successor of the Tatar-Mongol empire. See <a class="wiki" href="https://z3.ca/The_Legacy_of_Genghis_Khan_-_The_Mongol_Impact_on_Russian_History,_Politics,_Economy,_and_Culture_notes">The Legacy of Genghis Khan - The Mongol Impact on Russian History, Politics, Economy, and Culture notes</a>.</p>
-<p>There are a surprisingly large number of words for serf in Russian: крепостной, холоп, ишак.</p>
-<blockquote>
-<p>Этот  азиат  в  шевровых  сапожках,  цитирующий Щедрина, живущий законами кровной мести и одновременно пользующийся словарем революции, внес ясность в послеоктябрьский   хаос,  осуществил,  выразил  свой  характер  в  характере государства.
-This khan in velvet boots, citing Schedrin and living by the law of the jungle, used the language of revolution to bring clarity to the post-October chaos and projected his own character into that of the state.</p>
-</blockquote>
-<h1>The Real Russian Revolution: Ending Feudalism</h1>
-<p>For Grossman, the real revolution in Russian history was the prohibition of serfdom in the 1861. The Revolution of 1917 and the rise of Lenin and Stalin is a reversion to Russia default state of unfreedom.</p>
-<h1>Lenin: totalitarian innovator</h1>
-<p>Glimpses of Russian influence were imagined during the height of Russia's monarchic peak a century before the revolution of 1917, but never like this.</p>
-<p>Rather than shining as a beacon for those dreaming of a communist utopia, Lenin's Soviet Russia rose up as an example of a simpler totalitarian society for the west to emulate. First Italy, then Nazi Germany followed suite. Leninism inspired authoritarian regimes in Asia too, including Communist China. Its legacy continues, with menacing echoes into the present day.</p>
 
         
       </div>
