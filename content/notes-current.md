@@ -4,6 +4,56 @@ type: note
 class: split
 
 
+Invention & Discovery Cards work complete
+===
+posted: Jan 24, 2025
+
+I'm pleased to have completed transforming [Asimov's Chronology of Science and Discovery](/books/asimovs-chronology-of-science-and-discovery/) into a deck of Magic Cards. Over five years later, all 1477 entries from
+Asimov's encyclopedia are now represented as illustrated cards on <https://invention.cards>. The
+website is rendered based on [this master spreadsheet](https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit?gid=0#gid=0) which I compiled with the help of AI
+and manually vetted. Since AI hallucinations can safely be ignored, and I am infallible, I declare victory!
+
+<!--more-->
+
+# Just kidding...
+
+A project like this is never over, but I did make some revisions to <https://invention.cards> to celebrate
+the data milestone.
+
+- The site now has a title.
+- The list of all cards is now fully scrollable.
+- Rendering is capped to 100 cards to maintain performance.
+- No limit to the depth of the ancestor or successor trees.
+- Added random card button.
+
+In 2019, when I [first cracked Asimov's encyclopedia](/books/asimovs-chronology-of-science-and-discovery/), I immediately wanted to turn it into a visual chronology:
+
+> My goal is to ultimately generate a visual, Civilization-style technology tree for this whole book.
+
+Mission accomplished, amirite? Permit me a quick walk down memory lane:
+
+- 2020: My [initial visualization](/visual-chronology-science-discovery) was inspired by the then newly coined [Progress Studies](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/).
+- 2021 brought headwinds which stymied my progress studies. We now had two young children to raise and a pandemic to survive.
+- 2022 brought tailwinds in the form of hawt new AI models. By early 2024 I posted an [illustrated revision](/visual-chronology-science-discovery-v2/) and extended the chronology to the year 1850. Data-wise, this was just the half-way point.
+- 2024: I [used AI to accelerate the process](/invention-cards-ai/) and by the end of the year, I'd advanced up to 1945.
+- 2025 brings us to today!
+
+# That's funny...
+
+> The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..." - Isaac Asimov
+
+Throughout the process of reading and summarizing, I kept an "Asimov surprise log", capturing the head scratchers that made me pause and say "That's funny...":
+
+1. Specific surprising inventions and discoveries (e.g. Why is it that [Dendrochronology](https://invention.cards/dendrochronology) was only conceived of in 1920?)
+2. Multiple inventions and discoveries (e.g. How is it that we made space-related discoveries before inventing [telescopes](https://invention.cards/telescope)?)
+3. Groups of cards that tell a compelling story (e.g. Why did it take fifteen centuries to invent the practical steam engine after the [Greeks harnessed steam for motion](https://invention.cards/basic-steam-engine)?)
+4. Broad patterns across inventions and discoveries (e.g. Which general purpose inventions unlocked the most compelling discoveries?)
+5. Meta-observations about what the source material (e.g. Asimov's background in Chemistry and golden age sci-fi explains disproportional energy spend on biology, chemistry, and astronomy. In 2025, what are our collective blinders?)
+
+Now that this project is in some sense complete, I hope to spend some energy elaborating on these and other
+questions in the near future. Stay tuned!
+
+
 Unintended Consequences of False Equity
 ===
 posted: Oct 28, 2024
