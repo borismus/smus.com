@@ -1,5 +1,5 @@
 Book list
-=========
+===
 class: split
 type: book
 
@@ -25,6 +25,7 @@ Dee used Copernicus' calculations to determine that eleven days and fifty three 
 Eventually Dee moved on from science and cast himself as an adept rather than just a math professor, in hopes of finding a monarch that would shelter him. However the thing Monarchs actually wanted was the same thing as usual... money and power. And so Elizabeth was busy with her own alchemical experiments, and Dee repackaged his book Monas to portray himself as an alchemist, including critiques of sham alchemists of the day, with intimations that Dee might know how to produce the philosopher's stone. Simultaneously he was writing the the “Mathematicall Praeface” to Henry Billingsley’s massively successful and influential first English translation of Euclid’s Elements of Geometry.
 
 ## Critique: overly bombastic
+
 Following Dame Francis Yates' "The Occult Philosophy in the Elizabethan Age", Louv makes bombastic claims that Dee and Kelly's influence on the western world was central to European, English, and American spirituality, geopolitics, and empire.
 
 > The influence of Dee and the angelic system he and Kelly delivered to the world can be found in an astonishing number of the major turning points of Western history since Dee’s death—in the birth of modern science, in the creation of the secret societies that liberalized Europe and gave America its spiritual calling, in the creation of the state of Israel and its subsequent centrality to American foreign policy, and even in the genesis of the United States space program.
@@ -36,6 +37,7 @@ These statements are highly specious and reductive. Louv writes:
 St. Paul was one of very many contingent links for Jesus Christ to reach the prominence required to have Constantine convert the Holy Roman Empire. I don't think Louv's simplistic causal characterization is at all fair.
 
 ## The Great Chain of Being
+
 Louv does a good job of providing context for the pre-enlightenment world Dee was born into. The canonical classification of divine and profane beings comes to us from the sixth century Christian Pseudo-Dionysius. He scaffolded the order of the world as follows:
 
 Angels of presence, praising God:
@@ -63,23 +65,25 @@ The Profane:
 - Plants, ranked in order from trees to fungus.
 - Minerals, ranked by gems, metals, stones, and so on.
 
-
 ## Scientists on the woo spectrum
-Many great scientists work on the frontier of the known. Thus they encounter plenty of ideas which are not tested and confirmed by the scientific community.  As a forward thinking explorer of the unknown, some of your swings may end up as mega-hits, while others might be complete misses. As you do the work, they all look promising. It is only in retrospect that you can separate the scientific contributions from the occult tendencies:
 
-| Person                     | Scientific contribution                | Occult tendency            |
-| -------------------------- | -------------------------------------- | -------------------------- |
-| Isaac Newton (1643 — 1727) | Calculus, light waves, laws of motion. | Alchemy and Rosicrucianism |
-| John Nash                  | Game Theory contributions              | Aliens                     |
-| Srinivasa Ramanujan        | Number Theory contributions            | The goddess Mahalakshmi    |
-| John Whiteside Parsons     | Solid-fuel rockets                     | Thelemite occultism        |
+Many great scientists work on the frontier of the known. Thus they encounter plenty of ideas which are not tested and confirmed by the scientific community. As a forward thinking explorer of the unknown, some of your swings may end up as mega-hits, while others might be complete misses. As you do the work, they all look promising. It is only in retrospect that you can separate the scientific contributions from the occult tendencies:
+
+| Person                           | Scientific contribution                | Occult tendency            |
+| -------------------------------- | -------------------------------------- | -------------------------- |
+| Isaac Newton (b. 1643)           | Calculus, light waves, laws of motion. | Alchemy and Rosicrucianism |
+| Srinivasa Ramanujan (b. 1887)    | Number Theory contributions            | The goddess Mahalakshmi    |
+| John Whiteside Parsons (b. 1914) | Solid-fuel rockets                     | Thelemite occultism        |
+| John Nash (b. 1928)              | Game Theory contributions              | Aliens                     |
 
 Louv writes eloquently about the occult's relation to science and religion:
 
 > The occult occupies a treacherous liminal zone between the competing discourses of science and religion, both of which reject it. It is tiny, decentralized, largely overlooked by modern culture, unpoliced by the processes of licensing or peer review, and concerned with entirely subjective aspects of the human experience, making it a no-man’s land where scientists, if not angels, fear to tread.
 
 Related to [[Science and religion are deeply compatible]].
+
 ## Dee's Mortlake library was extensive and frequented by Queen Elizabeth
+
 Dee pitched the concept for a national library to Queen Mary but it was rejected. Instead he expanded his personal library at Mortlake, which grew to be the greatest in England and attracted many scholars.
 
 During Dee’s life, Cambridge possessed only 451 books and manuscripts; Oxford, 379. Dee probably had about 2,000 books and 198 manuscripts at Mortlake.
@@ -89,6 +93,7 @@ During Dee’s life, Cambridge possessed only 451 books and manuscripts; Oxford,
 Upon his return from Eastern Europe, Dee found his collection ransacked and destroyed.
 
 ## Catholics vs protestants
+
 Queen Mary (ruled 1553 - 1558), a devout catholic was named Bloody Mary by her protestant opponents. She attempted to reverse the English reformation and was not an intellectual.
 
 Mary's successor Elizabeth I (ruled 1558 — 1603), nominally a Protestant, had a "coldly realpolitik view of faith". She was a child prodigy who grew up to be one of the greatest monarchs in English history. Dee became her astrological and scientific advisor, advocating for England's voyages of discovery and colonization, and coining the term "British Empire". Dee signed his letters to Elizabeth "007". The two circles symbolized the eyes of Queen Elizabeth (for your eyes only) and seven was the alchemist’s lucky number.
@@ -99,8 +104,8 @@ Dee himself vacillated between Protestantism and Catholicism depending on the po
 
 Dee often found himself in trouble over his religious beliefs, found by the French inquisition to be "not evil, but mad" and imprisoned briefly in 1564.
 
-
 ## What is Hermeticism
+
 I once attempted a lecture about Gnosticism. I quickly abandoned it. Yet here I managed to glean some details about what Hermeticism was all about:
 
 > Protestantism was only one of the belief structures challenging or running parallel to Catholicism. The others were Hermeticism, Neoplatonism, and operative magic—three distinct yet intertwining schools of thought that informed the literate elite’s direct quest for divine knowledge, beyond the rote teachings of the Church.
@@ -114,6 +119,7 @@ I once attempted a lecture about Gnosticism. I quickly abandoned it. Yet here I 
 > To use a modern metaphor, if the universe is a computer with its own finely ordered operating system, file structure, and languages, Hermeticism and Neoplatonism sought to understand the workings of the computer, while operative magic sought to program it.
 
 ## Christian Zionism and specious claims
+
 Louv draws a direct causal link from modern American Christian Zionism to Dee's occult beliefs and practices. It feels to me like Dee's role here is exaggerated, but I think the ideological causality is right.
 
 According to [a Pew poll](https://www.pewresearch.org/short-reads/2007/01/11/the-promised-land-and-the-second-coming/), one in three Americans believes that the state of Israel is a fulfillment of biblical prophecy of Christ's return.
@@ -141,6 +147,7 @@ I found nothing to confirm Louv's claim that:
 Having said that, Newton did predict the end of the world in 2060. Hopefully I'll live to see it. Wait I mean...
 
 ### The "British" Empire
+
 At the time, Spain was the dominant Empire, extracting massive amounts of silver from its New World colonies. This in part led to the obsession about alchemy: to tip the balance of economic power.
 
 The only credible challenger to Spain at the moment was Portugal, who had split the New World along the line determined by the Treaty of Tordesillas (see [Late Middle Ages](/books/late-middle-ages/)). Dee suggested the Queen make some changes:
@@ -156,6 +163,7 @@ In November 1577, Dee presented a new imperial plan to Elizabeth, suggesting tha
 Dee wrote explicitly that the Petty Navy Royal should have sixty 120-200 ton "tall ships", and twenty small warships staffed by thousands of men funded by taxation. Dee argued that this would pay for itself, as the wealth gained by taxation would trickle down to the English people.
 
 ## Arthurian New World?
+
 Dee held the bizarre belief that America had been colonized by King Arthur and that his still-existing Arthurian colonies might be found in the Northwest Passage. Dee drew up maps on the foundation of the Arthurian claim to the New World sprawled from Florida to Novaya Zemlya in the Arctic Ocean.
 
 > Mercator himself had written to Dee that King Arthur had sent an expedition of four thousand men into the seas near the North Pole, and that some of the members of the team had survived, with their descendants appearing at court in Norway in 1364. Also of interest was the Welsh legend of Madoc, a prince who supposedly explored the New World in 1170;
@@ -165,15 +173,17 @@ Dee’s use of the term "British" Empire long predated the use of the word Briti
 Of course, voyages to the New World would fail to turn up any evidence of Arthurian settlements, undermining Dee’s claims.
 
 ## Hebrew and Enochian
+
 Like Postel and Bacon, Dee thought the forces of creation were encoded into Hebrew, although even Hebrew would be an echo of the hypothesized primal language.
 
 > The angelic language, Sledge argues, “begins to exist somewhere between being created and being discovered by Kelly under a state of increasingly pronounced epistemological inclusivity between the angelic revelation, his own thoughts, and the dizzying array of alterations in his consciousness brought on by the effects of the sessions themselves and/or mental illness.”
 
 > As part of the process of transmitting the forty-nine calls, and elsewhere in the diaries, the angels delivered fragments of the angelic language itself—often referred to as Enochian (this is a later conceit, not contained in the original spirit diaries). This was the language spoken in the Garden of Eden; when Adam was corrupted by the demon Coronzom in the form of the serpent and exiled east of Eden, he had to invent the Hebrew language instead, which contained an echo of the angelic language—though without the true forms or pronunciation.
 
-[Dee's Enochian alphabet](https://en.wikipedia.org/wiki/Enochian#/media/File:Enochian_letters_(1583_manuscript).png)
+[Dee's Enochian alphabet](<https://en.wikipedia.org/wiki/Enochian#/media/File:Enochian_letters_(1583_manuscript).png>)
 
 ## Dee and Kelly's scrying sessions
+
 Dee and Kelly's scrying sessions were bizarre. They often featured angels and archangels appearing in their midst and providing divine prophecy. The archangel Gabriel spoke to them on June 2, 1584. The archangel Uriel manifested a crystal out of thin air, to be used by Kelly as his scrying device. Through this medium, Dee and Kelly were given complex instructions for building temple furniture and other very detailed rituals:
 
 > A gold ring upon which is written the name “PELE” that is to be worn by the working magician and corresponds to the Seal of Solomon, the ring said to be worn by King Solomon, who appears in 1 Kings, and used to command the demons with which he built his temple.
@@ -188,7 +198,6 @@ To completely psychedelic:
 
 > Now the birds lifted the corpses of four men from the ground, each of them wearing crowns, one of which was a child. Upon being raised into the air they parted into the four cardinal directions. Coming now to a great hill, the birds squeezed metals from the ground and threw them out; next tossing the withered head of an old man between their feet until it cracked open, revealing a stone the size of a tennis ball colored white, black, red, and green—the colors of the Watchtowers that would be later transmitted, and of the four horsemen of the Apocalypse. Upon eating the stone, the birds became two men with bright white paper crowns, with gold teeth, hands, feet, tongues, eyes, and ears. On each were twenty-six gold crowns, and they carried bags of gold that they sowed upon the earth like seeds.
 
-
 The scrying sessions continued in exile in Poland and the Czech Republic with more intense visions:
 
 > Uriel transformed into a great spinning wheel of fire; after thrusting out his hands, the wheel appeared full of men’s eyes, with flames shooting out of it in four places. A great white eagle with monstrous red eyes, one the color of fire and one of crystal, now came and perched upon the wheel, carrying a scroll of parchment in its beak. Beneath this eagle appeared a great valley, within which was a great city six times the size of Krakow, full of ruined houses, with a river running by it.
@@ -196,6 +205,7 @@ The scrying sessions continued in exile in Poland and the Czech Republic with mo
 (I want to feed this into a gen AI video maker...)
 
 ## Wife swapping
+
 At some point in the scrying sessions Kelly was implored to marry. He indeed soon married, though he came to greatly resent his wife.
 
 Later, while in Třeboň, Dee and Kelly were told by Madimi, an angel from their vision, that they must share everything they had, including their wives, in order to complete the first phase of the Apocapylse.
@@ -205,6 +215,7 @@ Understandably, their wives were appalled. Dee told Jane Dee that "the wife shar
 > Dee, who had already given everything for his cause, and sacrificed all that he had gained for the promise of angelic insight, had now been taken by his partner—for his contacts, his status, his knowledge, his alchemical equipment, and even his wife’s favors, leaving Dee destitute and possibly with a son not of his own parentage.
 
 ## Dee in literature and legacy
+
 Christopher Marlowe’s Doctor Faustus is an example of anti-occult sentiment of the late 16th century. Its titular character is likely based in part on Dee himself. Ben Jonson’s The Alchemist (1610) was also inspired by Dee’s legend, with both plays casting their respective sorcerers as tragic victims of their own ambitions. Prospero of Shakespeare's The Tempest is also likely to be inspired by John Dee.
 
 > Instead of facing a martyr’s death, Dee had been pushed out of polite society and forced to bear the constant humiliation of dashed hopes. Even his neighbors soon refused to offer him loans.
@@ -213,12 +224,13 @@ Louv also argues that Dee deeply inspired Francis Bacon, although Dee became unt
 
 > Bacon nowhere mentions Dee in his two works, though he surely stood on the great educator’s shoulders. He also makes no mention of mathematics, still inseparably connected to Dee in the English mind. These omissions, Yates argues, were not from oversight or lack of debt, but because Bacon feared repeating Dee’s treatment by James I.
 
-And Francis Bacon is the guiding spirit of the Royal Society. Again I find this to be a pretty tenuous link, but as I read this book, I mentally replaced Dee with the *je ne sais quoi* spirit of the Elizabethan age Dee represented.
+And Francis Bacon is the guiding spirit of the Royal Society. Again I find this to be a pretty tenuous link, but as I read this book, I mentally replaced Dee with the _je ne sais quoi_ spirit of the Elizabethan age Dee represented.
 
 ## Dee's occult descendents
+
 Edward Alexander Crowley founded a modern Magick order called Thelema. His books like "The vision and the Voice" reveals a complex cosmology that sounds intriguing, at least in Louv's retelling, especially as it relates to [[Negative theology and via negativa]].
 
-However the historical details are grim. Crowley appears to be a terrible person individually, while also promulgating a variety of questionable practices:  perverse sex, hard drugs, mind control. He is also a self-declared antichrist. In summary, a rather unattractive package, for example:
+However the historical details are grim. Crowley appears to be a terrible person individually, while also promulgating a variety of questionable practices: perverse sex, hard drugs, mind control. He is also a self-declared antichrist. In summary, a rather unattractive package, for example:
 
 > Crowley’s rather cowardly refusal to help several men trapped by an avalanche during his Kanchenjunga expedition; his decades of cocaine, ether, and heroin addiction and the resultant ugly interpersonal behaviors these drugs engender; his often sociopathic treatment of women, students, and hired help; his extreme racism and anti-Semitism (including a line in his Magical and Philosophical Commentaries, III:11, in which he calls Jews “the parasites of man,” which has been deleted from later editions), and so on . . . and so on . . . and so on
 
