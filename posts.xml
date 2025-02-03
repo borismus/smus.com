@@ -5,8 +5,41 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-01-24T23:20:13-00:00</updated>
+  <updated>2025-02-02T22:14:46-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Horsing around with invention.cards</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/horse-invention-cards"/>
+    
+    <updated>2025-02-02T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/horse-invention-cards</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This is the first in a series of vignettes based on observations I captured while creating <a href="https://invention.cards">invention.cards</a>, a visual chronology of science and discovery. In this series I hope to explore bits of the history of science and technology I found fascinating ("that's funny...") while reading and digesting <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov's chronology</a> and also examine the limitations of source material. First, let's take a really thin slice of human ingenuity: horse-related inventions and discoveries.</p>
+<!--more-->
+
+<p><img alt="The Cyborg Horse" src="cyborg-horse.png" /></p>
+<h3>Horses according to invention.cards</h3>
+<p>The horse, first domesticated a 3500-<a href="https://invention.cards/horse">2000 BCE</a> was initially only used to drive chariots. With the invention of saddles and <a href="https://invention.cards/metal-stirrup">metal stirrups</a> in 300 CE, riders could mount the horse, enabling mounted archers as a new form of warfare. As they grew in strength and size, horses were incorporated in agriculture. By <a href="https://invention.cards/iron-horseshoes">770, horseshoes</a> were coming into common use in Europe. Despite this, horses were still weak pullers compared to other beasts of burden. By 900 however, a brilliant observer found that horse anatomy was different from the ox and devised the <a href="https://invention.cards/horse-collar">horse collar</a>. This let horses pull by their shoulders instead of their trachea, increasing their effective strength by an order of magnitude. This marked a shift in global power from the Mediterranean to Northern Europe.</p>
+<p>I placed the above-mentioned horse-related invention.cards in a timeline:</p>
+<p><img alt="Invention Card Vignette 1 — Horse tech" src="horse-tech.png" /></p>
+<h3>Horse-shaped gaps in invention.cards</h3>
+<p>Underneath the timeline above are some important gaps that don't have an invention card associated with them. These came to mind as I was recalling from the long and engaging lecture series about the middle ages by Philip Daileader (<a href="/books/early-middle-ages/">early</a>, <a href="/books/high-middle-ages/">high</a>, <a href="/books/late-middle-ages/">late</a>). When I first listened to these lectures, I modified an existing sketch to create "The Cyborg Horse" at the start of this post. The gaps are indicated in dashed boxes, and are nowhere mentioned in Asimov's encyclopedia.</p>
+<p>By prioritizing breadth, Asimov's encyclopedia inevitably sacrifices depth. Even the niche microcosm of horse-related technology can be deep and complex, and scholars of the Middle Ages have spilled much ink debating and discussing medieval technology (see <a href="/books/medieval-technology-and-social-change/">Medieval Technology and Social Change</a>).</p>
+<p><strong>On the farming front</strong>. There is no mention of four-wheeled wagons in invention.cards, so in the visualization, <a href="https://invention.cards/cart">wheeled carts (3500 BCE)</a> are the predecessor to <a href="https://invention.cards/rubber-tire">rubber tires (1887)</a> with apparently no intervening improvements for almost five millennia. In fact, there were tons of stepping stones between these technologies. Firstly, I was surprised to learn that four-wheeled wagon technology emerged and diffused long after two-wheeled carts were in broad use. Then it took centuries to refine. Pivoted front axles allowed wagons to turn much better. Whiffletrees allowed multiple horses to pull a single heavy load. This all enabled the autonomy of the people, who could now use their horses for multiple purposes: as beasts of burden, for transportation, and as weapons of war.</p>
+<p><strong>Horses for war</strong>. Horses themselves changed significantly over the last few millennia. Saddles and stirrups enabled men to ride horseback. This required stronger horses to carry the weight of a man directly on their back. As the Middle Ages progressed, warriors wore increasingly heavy armor, requiring powerful warhorses called destriers specially bred for the purpose. The newly invented three field system meant a lot more oat production for feeding armies of large and hungry horses. New fighting technology like lances, firmly "couched" in a man's armpit, and high backed saddles provided additional stability. They transformed mounted warriors into knights, the shock troopers of the 13th and 14th centuries, whose devastating charge unleashed the full weight of horse, rider, and armor at the tip of his lance. These overpowered knights gained huge amounts of influence with the elites of the time and fundamentally changed the structure of feudal society.</p>
+<p>As you can tell, I'm fascinated by horses as technology and their significant role in human history. By examining everything from horse collars to wagons to high couched lances, we see how incremental innovations transformed a domesticated animal into an engine of societal change. But as I've been compiling invention.cards, I have deliberately constrained myself to the content found in Asimov's encyclopedia to reduce scope. For now I must resist the temptation to drop this constraint and fill in the dotted gaps with newly minted invention.cards.</p>
+<p>Did this topics spark your curiosity, or was it all too obscure? Let me know either way and stay tuned for the next vignette, where we’ll use invention.cards to examine the invention and adoption of the steam engine, whose strength was measured in horsepower, and how it gradually replaced actual horses.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Invention Cards enhanced by AI</title>
@@ -6388,162 +6421,6 @@ Some ideas for things that can be done:</p>
 <li>Higher precision FFT results (would require writing a custom FFT
   rather than using the one built into Web Audio API.)</li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Addressable apps</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/addressable-apps"/>
-    
-    <updated>2014-05-21T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/addressable-apps</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>It is human nature to create taxonomies for everything: people, places,
-and things.  Without such a system of reference, we become lost and
-disoriented.  Imagine your city with street names and addresses blanked
-out. Finding your favorite cafe, meeting up with your friend on the
-weekend, even locating your own parked car would become incredibly
-difficult. Travel outside your city would become far more
-challenging.</p>
-<p>The web's defining property is addressability. URLs on the web are like
-street names and addresses in the physical world. This makes sharing
-and cross-linking easy. Non-web platforms are a little bit like our
-city with blanked out street names and addresses. There's no good
-way of talking about where you currently are, or how to get somewhere
-else. These platforms typically give users a crutch to help with the
-issue, such as a share button or dialog. But these create an
-inherently inferior experience, since addressability is no longer
-built-in. Addressability becomes a burden on the app developer, and
-as a result, the platform is no longer navigable.</p>
-<p>In light of the success of Android and iOS, and given a potential
-explosion in new types of lower power computing (wearables, IoT, etc),
-it's unclear if <a href="http://smus.com/ebb-of-the-web/">browsers will be as ubiquitous</a> as they are
-today (at least in the near term). I'm very interested in seeing if and
-how non-web platforms can embrace URLs.  How closely coupled are URLs to
-HTML, and do they make sense without a presentation layer?</p>
-<!--more-->
-
-<h2>Not all URLs are created equal</h2>
-<p>The modern URL can host several very different kinds of entities:</p>
-<ol>
-<li><strong>Data</strong>: text files, images, audio, movies, JSON, etc.</li>
-<li><strong>Hypertext</strong> (content-program hybrid): HTML that can reference
-   content.</li>
-<li><strong>Program</strong>: webapps designed to deliver a bundle of JavaScript that
-   then constructs the HTML dynamically from other URLs.</li>
-</ol>
-<p><img alt="Program vs. data: evolution of web" src="data-vs-program.png" /></p>
-<p>Without an HTML renderer, hypertext and program URLs cannot be
-interpreted. Only one of these types of entities makes sense: data. Data
-URLs are seen everywhere on the web: whenever you include an <code>&lt;img&gt;</code> tag
-on your page, or embed a <code>&lt;video&gt;</code>, reference some CSS, or make an XHR
-to fetch some JSON, you are using a data URL.</p>
-<p>Apps on other platforms use data URLs too, though not as much. Images
-are typically included as part of the app itself, but all API access is
-done in exactly the same fashion as on the web: using HTTP requests to
-text or binary data.</p>
-<p>The similarity isn't entirely superficial. Any sort of web-connected app
-can be seen as just a view on top of a series of data URLs (APIs).
-However, data URLs are typically hidden from the user. The only types of
-URLs that users see are hypertext and program URLs. These are the ones
-that are being shared around. But both of these types of URLs ultimately
-map to HTML, sometimes via JavaScript. The underlying data URLs  are
-concealed inside the page, and aren't exposed to the user.</p>
-<h2>The "URL in, URL out" principle</h2>
-<p>A user need not understand schemes, domain names, DNS, HTTP or GET
-requests. They don't need to think about conceptual distinctions
-between URL types to know that a URL is an address that gets you to the
-same thing you're looking at right now. Whether it's Android/Java,
-Polymer/JS or <em>InsertPlatform/InsertLanguage</em> underneath, the only thing
-they want to be able to do is to continue reading their book on whatever
-device they happen to be transitioning to. They want to share it with
-their friend too, and have them enjoy a good read.</p>
-<p>To make a platform URL-friendly, it should satisfy two simple
-requirements:</p>
-<ol>
-<li>The platform should provide a way for apps to reveal the underlying
-   URL for the view.</li>
-<li>Given a URL, the platform should open it in a way that yields the
-   best available user experience.</li>
-</ol>
-<p><img alt="Platforms handle content URLs and provide them on demand." src="url-in-url-out.png" /></p>
-<p>However, to bring URL friendliness to a platform retroactively takes a
-lot of effort. Taking a quick look at today's trending web-alternatives,
-it's plain to see that Android has some form of URL in (via intent
-filters), but no URL out. iOS has neither in, nor out (you're stuck). To
-address this lack of URL out in Android, you can imagine all Android
-activities having to implement a <code>URLReporter</code> interface like this:</p>
-<pre><code>class TwitterProfileViewer extends Activity implements URLReporter {
-  @Override
-  String reportURL() {
-    return String.format("http://twitter.com/%s", username);
-  }
-}
-</code></pre>
-<p>Of course, there is the not-unimportant UX question of how to then
-reveal the URL and transfer it to other devices and people. But this
-question will for now be left unanswered. With this API, a very
-tasty carrot, and a very painful stick to force developers to implement
-it (and a bit more UX thinking), we can make Android URL-friendly. </p>
-<h2>But URLs aren't just identifiers</h2>
-<p>You can look at URLs in one of two ways:</p>
-<ol>
-<li>As a <strong>universal identifier</strong>. The same URL is also the universal and
-   canonical way of getting to content that you are reading now.</li>
-<li>As a <strong>web address</strong>. A URL like <code>http://smus.com/addressable-apps</code>
-   can be viewed as instructions for getting to a certiain place:
-   resolve the <code>smus.com</code> to <code>205.251.243.108</code>, connect to port 80 over
-   TCP, perform a <code>GET /addressable-apps</code> request.</li>
-</ol>
-<p>The real power of URLs is in both aspects combined. When only one facet
-is used, the system is broken. I can't quite put my finger on it, but
-something feels wrong in the cases, where the addressability aspect (2)
-of URLs are not taken into account:</p>
-<ul>
-<li>AppLinks: these aren't universal identifiers, but fragile shortcuts to
-  the platform-specific apps. (violates 1)</li>
-<li>Android intent filters: when you register an URL indent filter for
-  your activity, you aren't actually hosting anything at that URL.
-  (violates 2)</li>
-<li>History API: a hack allowing developers to set the path of the URL to
-  anything they want. (violates 2)</li>
-</ul>
-<p>The History API emerged from a trend on the web: highly imperative
-applications. These apps have grown so far from being a collection of
-hyperlinked markup that they no longer have a natural URL-to-HTML-page
-mapping. Because they are so script heavy, they need to be able to
-pretend to respond to URLs. The History API is the webapp's hack for
-URL-out.</p>
-<h2>Mixed feelings</h2>
-<p>This is my umpteenth attempt at finishing a post on the complicated
-subject of URLs in non-web apps. And you have had the pleasure of
-reading it not because the ideas in my head have crystallized into a
-something coherent, but because I feel that the topic is difficult and
-fundamentally unresolvable. In light of that, this post contains more
-questions than answers. Sorry to disappoint :)</p>
-<p>I'm still torn between maintaining the ideological and benefits of the
-<a href="http://www.polymer-project.org/">mostly-declarative web</a> and the practicality of <a href="http://smus.com/installable-webapps/">jumping out
-of the web's sandbox</a>. While I would be happy to see more
-native platforms embrace URL in URL out, I don't think that the solution
-is a clean one, nor do I think that first-class URLs are likely to
-emerge in any platform after-the-fact. Unfortunately I don't think that
-there is a clean solution.</p>
-<p>However, as an optimist, I must believe in the long-term victory of the
-web, though not in the sense that the web will rule over all other
-user-facing platforms unopposed. Instead, platforms will continue to
-rise and fall; the web's influence will ebb and flow as well. But the
-web must be the one that wins out the most, keeping the idea of
-addressability alive.</p>
-<p>That URLs become a universal address that works across all platforms,
-and not just the web, is a proposition worth considering.</p>
 
         
       </div>

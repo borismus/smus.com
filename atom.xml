@@ -5,8 +5,41 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-01-24T23:20:13-00:00</updated>
+  <updated>2025-02-02T22:14:46-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Horsing around with invention.cards</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/horse-invention-cards"/>
+    
+    <updated>2025-02-02T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/horse-invention-cards</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This is the first in a series of vignettes based on observations I captured while creating <a href="https://invention.cards">invention.cards</a>, a visual chronology of science and discovery. In this series I hope to explore bits of the history of science and technology I found fascinating ("that's funny...") while reading and digesting <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov's chronology</a> and also examine the limitations of source material. First, let's take a really thin slice of human ingenuity: horse-related inventions and discoveries.</p>
+<!--more-->
+
+<p><img alt="The Cyborg Horse" src="cyborg-horse.png" /></p>
+<h3>Horses according to invention.cards</h3>
+<p>The horse, first domesticated a 3500-<a href="https://invention.cards/horse">2000 BCE</a> was initially only used to drive chariots. With the invention of saddles and <a href="https://invention.cards/metal-stirrup">metal stirrups</a> in 300 CE, riders could mount the horse, enabling mounted archers as a new form of warfare. As they grew in strength and size, horses were incorporated in agriculture. By <a href="https://invention.cards/iron-horseshoes">770, horseshoes</a> were coming into common use in Europe. Despite this, horses were still weak pullers compared to other beasts of burden. By 900 however, a brilliant observer found that horse anatomy was different from the ox and devised the <a href="https://invention.cards/horse-collar">horse collar</a>. This let horses pull by their shoulders instead of their trachea, increasing their effective strength by an order of magnitude. This marked a shift in global power from the Mediterranean to Northern Europe.</p>
+<p>I placed the above-mentioned horse-related invention.cards in a timeline:</p>
+<p><img alt="Invention Card Vignette 1 — Horse tech" src="horse-tech.png" /></p>
+<h3>Horse-shaped gaps in invention.cards</h3>
+<p>Underneath the timeline above are some important gaps that don't have an invention card associated with them. These came to mind as I was recalling from the long and engaging lecture series about the middle ages by Philip Daileader (<a href="/books/early-middle-ages/">early</a>, <a href="/books/high-middle-ages/">high</a>, <a href="/books/late-middle-ages/">late</a>). When I first listened to these lectures, I modified an existing sketch to create "The Cyborg Horse" at the start of this post. The gaps are indicated in dashed boxes, and are nowhere mentioned in Asimov's encyclopedia.</p>
+<p>By prioritizing breadth, Asimov's encyclopedia inevitably sacrifices depth. Even the niche microcosm of horse-related technology can be deep and complex, and scholars of the Middle Ages have spilled much ink debating and discussing medieval technology (see <a href="/books/medieval-technology-and-social-change/">Medieval Technology and Social Change</a>).</p>
+<p><strong>On the farming front</strong>. There is no mention of four-wheeled wagons in invention.cards, so in the visualization, <a href="https://invention.cards/cart">wheeled carts (3500 BCE)</a> are the predecessor to <a href="https://invention.cards/rubber-tire">rubber tires (1887)</a> with apparently no intervening improvements for almost five millennia. In fact, there were tons of stepping stones between these technologies. Firstly, I was surprised to learn that four-wheeled wagon technology emerged and diffused long after two-wheeled carts were in broad use. Then it took centuries to refine. Pivoted front axles allowed wagons to turn much better. Whiffletrees allowed multiple horses to pull a single heavy load. This all enabled the autonomy of the people, who could now use their horses for multiple purposes: as beasts of burden, for transportation, and as weapons of war.</p>
+<p><strong>Horses for war</strong>. Horses themselves changed significantly over the last few millennia. Saddles and stirrups enabled men to ride horseback. This required stronger horses to carry the weight of a man directly on their back. As the Middle Ages progressed, warriors wore increasingly heavy armor, requiring powerful warhorses called destriers specially bred for the purpose. The newly invented three field system meant a lot more oat production for feeding armies of large and hungry horses. New fighting technology like lances, firmly "couched" in a man's armpit, and high backed saddles provided additional stability. They transformed mounted warriors into knights, the shock troopers of the 13th and 14th centuries, whose devastating charge unleashed the full weight of horse, rider, and armor at the tip of his lance. These overpowered knights gained huge amounts of influence with the elites of the time and fundamentally changed the structure of feudal society.</p>
+<p>As you can tell, I'm fascinated by horses as technology and their significant role in human history. By examining everything from horse collars to wagons to high couched lances, we see how incremental innovations transformed a domesticated animal into an engine of societal change. But as I've been compiling invention.cards, I have deliberately constrained myself to the content found in Asimov's encyclopedia to reduce scope. For now I must resist the temptation to drop this constraint and fill in the dotted gaps with newly minted invention.cards.</p>
+<p>Did this topics spark your curiosity, or was it all too obscure? Let me know either way and stay tuned for the next vignette, where we’ll use invention.cards to examine the invention and adoption of the steam engine, whose strength was measured in horsepower, and how it gradually replaced actual horses.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Invention &amp; Discovery Cards work complete</title>
@@ -3111,67 +3144,6 @@ distracting? Let's find out; ƒor science!</p>
 <li><a href="https://mysticalsilicon.substack.com/p/on-extending-human-understanding">On Extending Human Understanding of Animal Sensory Worlds Through AI</a> (<em>David Gasca</em>) — Inspired by Ed Yong's latest book, Gasca observes that just like animals experience the world in a way that we cannot, AIs might do the same. An engaging summary of "An Immense World", which seems like a worthy read.</li>
 <li><a href="https://stratechery.com/2022/instagram-tiktok-and-the-three-trends/">Instagram, TikTok, and the Three Trends</a> (<em>Stratechery</em>) — Ben Thompson describes the current transition from social media where you consume content from your friends (Instagram), to algorithmic media, where you consume extremely engaging content created by others (TikTok) to a speculative near future where AI generated content is the most engaging.</li>
 <li><a href="https://www.gawker.com/culture/failure-to-cope-under-capitalism">Failure to Cope "Under Capitalism"</a> (<em>Gawker</em>) — Clare Coffey criticizes the quickness with which we are prone to blaming the system rather than looking inward. Then again, I am a sucker for any call to think seriously about the good life and pursue it wholeheartedly, despite the struggles and inevitable failures along the way.</li>
-</ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Wild Problems by Russ Roberts</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/wild-problems-by-russ-roberts"/>
-    
-    <updated>2022-09-22T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/wild-problems-by-russ-roberts</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise.</p>
-<p>Much of the book is spent on dismantling Subjective Expected Utility (SEU), and reifying Herb Simon's <a class="wiki" href="https://z3.ca/Bounded_rationality">Bounded rationality</a> observations. Examples familiar to me included Darwin’s famous marry/don’t marry note and Franklins “moral algebra” where pros and cons for making a tough decision are weighed against one another and crossed out until one column is longer than the other and you have an answer. Of course, this sort of moral algebra doesn't work. Firstly, it's very hard to quantify things that matter to us. Secondly, <a class="wiki" href="https://z3.ca/Values_are_incommensurable">Values are incommensurable</a>.</p>
-<p><strong>Persi Diaconis</strong> was agonizing about a decision whether or not to move to Harvard from Stanford. He had bored his friends silly with endless discussion. Finally, one of them said, “You’re one of our leading decision theorists. Maybe you should make a list of the costs and benefits and try to roughly calculate your expected utility.” Without thinking, Persi blurted out, “Come on, Sandy, this is serious.”</p>
-<p><strong>The Vampire Problem</strong> I really enjoyed a new-to-me thought experiment Roberts introduces, attributing L. A. Paul, of a man deciding whether to become a vampire. A human cannot imagine what it would be like to be a vampire because they have never been a vampire. In the same way, a woman cannot imagine what it would be like to become a mother until she has become one. Becoming a mother will fundamentally change you, your priorities, your tastes. Becoming a vampire too, will make you much more interested in drinking other people's blood and avoiding the sun. Such transformations involve a leap of faith. Whether to take it is not a decision that can be made using a decision matrix or rational deliberation.</p>
-<p>So even bounded rationality is of little help in such transformative situations. On paper, having children is a terrible decision. Here, Roberts appeals to novelty. Becoming a parent is like getting tickets to Shakespeare's brand new play. You get to watch it with someone you love (hopefully), and you don’t know if it’s a tragedy or a comedy. Just do it and see. It’s part of being human and living a complete life.</p>
-<p><strong>Flourishing over pleasure</strong> The problem with Benjamin Franklin's moral algebra is that values are incommensurable with one another. Furthermore, comparing things from the realm of economics (eg. money, things) with values, ideals, and principles is impossible. They are in distinct categories:</p>
-<ol>
-<li>Things pertaining to <strong>flourishing</strong>, which tend to provide a backdrop for life spanning a long term. They form your identity.</li>
-<li>Short term <strong>pleasures and pains</strong>: a nice meal, a flat tire. These are fleeting and have no long term bearing on life.</li>
-</ol>
-<p><strong>Prioritize your principles</strong>. From this flourishing perspective, becoming a vampire is a bad idea. Your core values will not be satisfied even though the vampire you will become will get a lot of Hedons from drinking all that delicious human blood. 🧛</p>
-<p>Roberts even combines this with <a class="wiki" href="https://z3.ca/Two_types_of_fun,_type_1_and_type_2">Two types of fun, type 1 and type 2</a>. You flourish from Type 2 fun, even though it may be less pleasurable in the moment.</p>
-<p><strong>Aside: picking a religion</strong>: This reminds me of the Khazar decision to pick Judaism based on a utilitarian argument: choosing Christianity or Islam would put them under the authority of either Baghdad or Constantinople. Later, when Vladimir converted the Rus to Christianity, he did it on similar utilitarian grounds:
-- Of the <strong>Muslim</strong> Bulgarians of the Volga the envoys reported there is no gladness among them, only sorrow and a great stench. He also reported that Islam was undesirable due to its taboo against alcoholic beverages and pork. Vladimir remarked on the occasion: "Drinking is the joy of all Rus'. We cannot exist without that pleasure."
-- Ukrainian and Russian sources also describe Vladimir consulting with <strong>Jewish</strong> envoys and questioning them about their religion, but ultimately rejecting it as well, saying that their loss of Jerusalem was evidence that they had been abandoned by God.</p>
-<p><strong>The Penelope problem</strong>. The secretary problem is cleverly reframed as the “Penelope problem” from the perspective of Odysseus' wife who is besieged by 108 suitors. A very PC move, Roberts. Well played! Also, it's a good reminder that the correct percentage of houses to view first is 1/e or about 38% to establish a baseline to compare the rest against.</p>
-<p>“The happy hypocrite” story is ridiculous.</p>
-<p>Three kinds of people:</p>
-<ol>
-<li>No conscience. You get a kick from hedonism.</li>
-<li>Conscience and you get a kick from doing the right thing</li>
-<li>No conscience. But aspiring to find one.</li>
-</ol>
-<h1>Things I liked less</h1>
-<p>It's unclear why Roberts adopts the new terminology "wild" versus "tame" problems? It seems neatly analogous to the preexisting terminology I first saw in <a href="/books/gardener-carpenter-by-alison-gopnik/">The Gardener and The Carpenter by Alison Gopnik</a> and <a href="/books/range-by-david-epstein-audio/">Range - Why Generalists Triumph in a Specialized World by David Epstein</a>: <a class="wiki" href="https://z3.ca/Kind_and_wicked_problems">Kind and wicked problems</a>.</p>
-<p>Roberts argues also that to become a vampire is unethical, which is fair enough. But then this vaguely is also mapped to being a non-parent, with an implied equivalence between vampires and non-parents, which is too extreme for my tastes.</p>
-<p>In general, and I'm not sure this is avoidable, Roberts soapboxes a lot, imploring the reader to stick to his principles, fully trumping any utilitarian considerations. Ones values should always stand above the domain of economic utility. No amount of money should be enough to sway this. Reality is clearly more complex than this, and ultimately the difficult questions remain difficult.</p>
-<p>Roberts' book concludes with some Vogon Poetry which seems slightly embarrassing to publish. Overall, I like the advice, but the whole thing just comes off as a little bit too much of like something that your highly intelligent but a little bit tipsy uncle would give you during a long heart-to-heart:</p>
-<pre><code>Beware the urge for certainty.
-The mortal lock.
-The sure thing.
-The lure of the bird in the hand.
-
-Maybe once or twice, put all your eggs in one basket.
-Take a chance
-On romance. Ask her out. Or him.
-Embrace doubt.
-Go on a limb.
-</code></pre>
-<p>Pointers for later:</p>
-<ul>
-<li>The Agency of Becoming by Agnes Callard</li>
 </ul>
 
         
