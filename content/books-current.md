@@ -4,6 +4,102 @@ class: split
 type: book
 
 
+A Peace to End All Peace by David Fromkin
+===
+rating: yes
+posted: Feb 24, 2025
+cover: /assets/book-covers/peace-to-end-all-peace.jpg
+
+Worth it for the name alone, this is a comprehensive presentation of what happened when the sick man of Europe finally died. It gives excellent background on the complexity of the Ottoman Empire's demographics, enmities between Turk and Arab, Sunni and Sunni-Wahhabi. It paints a vivid picture of the Three Pasha triumvirate, their unforgivable warcrimes, blunders and colorful deaths. It documents the victorious Allies scramble to divide up the spoils of war through shifting alliances, how they backstabbed each other, misunderstood the people they sought to govern, and mismanaged their own bureaucracies.
+
+Great context for trying to understand what the fuck is happening in the Middle East today.
+
+### The Ottoman Empire was heterogeneous and diverse, with few unifying aspects other than a shared faith in Islam
+
+- **One-quarter of the Empire’s population was not Muslim**, meaning Christians (various sects) and Jews were common in many parts of the Empire.
+- Only about **5% of subjects paid direct taxes to the central administration**, reflecting how real power resided in local strongmen, religious authorities, or tribal chieftains.
+- The old Ottoman Empire contained Turks, Arabs, Kurds, Armenians, Greeks, Jews, and many others but the Empire was formally governed according to **Sharia (Islamic law)**
+- There is **no separation between Church and State**. The Caliph is both the Pope and the President.
+- Known as the "sick man of Europe", the **Ottoman Empire was slowly disintegrating**. Officially, it still held on to the notion that Egypt was part of it despite British having unofficial control since 1882. Similarly, Bulgaria was officially an Ottoman province but became functionally independent in 1885 after the Russo-Turkish War ended in Russian victory.
+
+### The Muslim middle east was complex in ways the colonizing British and French misunderstood
+
+- Many branches of Islam haven’t recognized a central Caliph for a millennium.
+- **Turks against Arabs**: Ottoman leadership was Turkish, especially after the rise of the Young Turks / CUP, and Arabs in the Levant, Mesopotamia, and the Arabian Peninsula felt discriminated against.
+- The **Arabs were not internally unified**. It was often observed that many Arab chieftains together would soon develop internal disagreements.
+- The Ottoman state was **officially Sunni; however, large Shia** populations existed in places like Iraq and parts of eastern Anatolia.
+- **Hashemites against Saudis** conflict pitted Hussein bin Ali (Hashemites) against Abdulaziz bin Abdul Rahman Al Saud (Saudis). The Saudis were **Wahhabis**, practicing a more puritanical version of the **same Sunni faith**. Additionally they fought over control of the oasis cities of Kurma and Turaba.
+
+### Russia played a major role in the Middle East during WW1
+
+- For the British, the Ottoman empire was a convenient buffer zone that protected its interests from Russia.
+- **As the Ottoman Empire weakened, Russia eyed Constantinople**, trying to push southward to gain direct access to warm-water ports and potentially secure a route to the Mediterranean. Largely in response to this threat, the British and French felt like they had to enter the fray and get a slice of the pie.
+- Conversely, The Young Turks (particularly leaders in the Committee of Union and Progress, or **CUP) nursed a pan-Turkic dream that extended into Russian Central Asia**, including the territory of today’s Turkmenistan.
+- Around the time of the Sykes-Picot agreement during WW1, the British and French promised Russia a share of Constantinople once the Ottomans were defeated.
+- **Germany helped smuggle Lenin back to Russia (the “sealed train”),** hoping a Bolshevik takeover would knock Russia out of the war (see [[Defeatist vs Defensivist camps in early 20th century]]).
+- This maneuver drastically affected the Middle East because the Bolsheviks, once in power, abandoned many Tsarist territorial ambitions, though they still harbored ideological goals.
+- The new Soviet regime sought to reconquer or reassert influence over territories the Tsarist Empire had formerly taken, including parts of the Caucasus and Central Asia. The Soviets took Anzali and the created a short-lived “**Persian Socialist Republic**” demonstrated Russia’s direct meddling south of the Caucasus.
+
+### Greek and Turkish war was vicious and led to massive population shifts
+
+- Fascinating histories of **Salonica** (historically very Jewish) which ended up the Greek Thessaloniki and **Smyrna** (historically Greek) which ended up the Turkish Izmir.
+- After World War I, Greece, supported by Britain, occupied parts of western Anatolia (including Smyrna) with hopes of reclaiming historic Greek lands.
+- Under Prime Minister Eleftherios Venizelos, Greek forces advanced deep into Anatolia, but Turkish nationalists, led by Mustafa Kemal (Atatürk), employed a strategic retreat.
+- Once reorganized, Kemal’s forces counterattacked and pushed the Greeks back west. **Smyrna was deliberately set on fire**, resulting in large-scale destruction and death in the tens to hundreds of thousands. By the end of 1922, **over a million Greek refugees** had been driven out of what is now Turkey.
+
+### The British perspective on Jews was prejudiced and consequential to the shape of the modern Middle East
+
+- Antisemitic:
+	- **Ottoman CUP Conspiracies:** Some British diplomats believed the Committee of Union and Progress (CUP) was secretly under Jewish or “crypto-Jewish” control, seeing Freemasonry as a Jewish front to subvert the Ottoman Empire.
+	- **Bolshevik Connection:** Similarly, after the Russian Revolution, British officials promoted the idea that the Bolsheviks were dominated by Jews—tying together Germany’s wartime maneuvers (Lenin’s “sealed train” operation was masterminded by Alexander Lvovich Parvus, born Israel Lazarevich Gelfand) with a broader fear of a “Jewish Peril”, the English translation of the Russian authored "Protocols of the Elders of Zion".
+	- **Colonial Administrators’ Biases:** In Palestine, British officials on the ground sometimes held antisemitic or “Arabist” leanings, believing that Zionism complicated local governance and risking friction with Muslim communities.
+- Pro-Jewish:
+	- **Christian Zionism:** Some British leaders—e.g., David Lloyd George and Arthur Balfour—were deeply influenced by Christian religious convictions. They felt sympathy for the establishment of a Jewish national home in Palestine.
+	- **Strategic Interests:** Others saw Zionism as a way to secure a loyal population in a key location near the Suez Canal route and to prevent other European powers (notably France) from dominating the Holy Land.
+- Divisions among Britain's Jews:
+	- **Edwin Samuel Montagu:** The first British cabinet minister who was Jewish, Montagu strongly opposed Zionism. He argued that equating “Jewishness” with a separate national identity undermined the status of British Jews who considered Britain their homeland.
+	- **Herbert Samuel:** Another prominent Jewish politician who did favor some form of British-backed Jewish settlement in Palestine; he saw it partly in spiritual/religious terms and partly in strategic terms for the British Empire.
+- In his 1920 article **Zionism Versus Bolshevism**, Churchill created a taxonomy of politically active Jews, noting that it was a critical time for Jews to decide between good (Zionism or Nationalism) and evil (Bolshevism).
+
+### The Enver, Djemal and Talaat Pasha triumvirate of the dying days of the Ottoman empire was both colorful and extremely terrible
+
+- **CUP Dominance:** The Committee of Union and Progress effectively took over the Ottoman government after the 1908 Young Turk Revolution and a subsequent coup. By 1913, these "Three Pashas" held near-dictatorial power in the Ottoman empire.
+- They were **Turkish supremacists**, sidelining non-Turkish Muslim groups (e.g., Arabs, Kurds) and clamped down on Christian minorities (e.g., Armenians, Greeks), and **allied with Germany** to modernize Ottoman military power and reassert control by partnering with the Central Powers.
+- **Armenian Genocide:** Talaat, Enver, and Djemal bear central responsibility for orchestrating the mass deportations and killings of Armenians in 1915–1916. Djemal’s brutality in particular extended to Armenian populations in Syria. **Djemal threatened the Jewish population in similar terms**, and was only [stopped by Erich von Falkenhayn](https://jcpa.org/the-german-officers-who-prevented-the-massacre-of-the-jews-of-palestine-in-world-war-i/), a German General.
+- Enver Pasha initiated disastrous military campaigns, such as the **Sarikamish** operation against Russia, in which around 70,000 of his 100,000 Ottoman troops died—mostly due to freezing conditions and logistic failures.
+- **Colorful exits:** Enver’s quixotic journey to Central Asia—trying to spark an anti-Bolshevik, pan-Turkic revolt—ended with his defeat and death. Djemal and Talaat also met violent ends, assassinated by Armenians avenging the genocide.
+
+### The British empire was internally divided, with regional offices in direct conflict with the central government
+
+- **Too much bureaucracy:** a hodgepodge of agencies—India Office, Foreign Office, War Office, Colonial Office—each with overlapping authority over Middle Eastern affairs
+- **Regional HQ rivalries:** Britain had a critical base in **Cairo (Egypt)**, another in **Delhi (for Indian affairs)**, and separate outposts in the Gulf, Iraq, and Palestine. Administrators on the ground often pursued their own agendas, contradicting broader British policy.
+- **Sir Mark Sykes’s Attempt:** In 1916, Sykes envisioned a central “Middle Eastern Department” to coordinate policy. However, **Lord Kitchener** folded it back under the Egyptian administration, effectively **keeping power with Cairo** rather than with a single London-based entity.
+- **Case of Palestine:** On the ground, many British administrators (the “Arabists”) sympathized with local Arab leaders and resisted London’s pro-Zionist Balfour Declaration. This tension caused repeated clashes between **local governance** and **official policy** set by the Foreign Office in London.
+
+### The Allied alliance was very fragile and ever-shifting. This was the "Great Game"
+
+- **Britain vs. France in the Middle East:** Despite being wartime allies, they had conflicting goals. Britain often sought to dominate strategic zones (e.g., Palestine, Mesopotamia) while France insisted on securing Syria and Lebanon, leading to ongoing tension over carving up Ottoman lands.
+- **Italy’s Unfulfilled Claims:** Italy entered the war expecting significant territorial gains (including parts of the Ottoman Empire), but was ultimately shortchanged at the peace negotiations. This fueled resentment within the alliance.
+- **Greek vs. Italian Friction:** While Italy vied for areas of southwestern Anatolia, Britain and France supported Greek claims to Smyrna (Izmir). This stoked immediate discord between Allies who were ostensibly on the same side
+- **Collapse of Tsarist Russia:** Initially integral to Allied strategy, Russia abruptly exited WWI after the 1917 Bolshevik Revolution, which was facilitated by the Germans. The Treaty of Brest-Litovsk upended Allied plans in the Middle East.
+- **Betrayed Secret Deals:** Russia had been promised a share of Constantinople, but its new Bolshevik government published and then repudiated many of the Allies’ secret wartime agreements including the Sykes-Picot agreement, exposing fault lines between Britain, France, and others.
+- **Separate Deals and Double-Crosses**: exhausted by war and its own internal turmoil, **France made an independent deal with the Turkish nationalists**, irritating Britain, which still backed Greek military ventures in Anatolia. **Britain cut side deals** with local Arab leaders, Zionists, and others, sometimes neglecting to inform its French or Italian allies, further undermining Allied coherence.
+- **Paris Peace Conference (1919):** Britain, France, and the U.S. focused on European settlements, but each had a different vision for the postwar Middle East. Britain sought strategic control from Egypt to India; France clung to colonial ambitions in the Levant; the U.S. under Wilson was wary of old-style imperialism.
+- The great powers involved in World War I, even while the war was raging, anticipated a continuation of the Great Game past the end of the war. This created fertile ground for the great game to continue into the 1920s and 1930s and from there to World War II. **It wasn't until the players were completely destroyed that the Great Game ended**. But now that the hegemony is over, they are beginning again.
+
+### Churchill had an outsized influence in WW1 too
+
+- **Pre-WWI Government Roles:** Churchill was elected to Parliament as early as 1900. By the 1910s, he rose to First Lord of the Admiralty (in charge of the Royal Navy).
+- **Dreadnought Race:** Churchill focused on **modernizing Britain’s navy** and preserving its lead over Germany’s growing fleet. He felt compelled, for instance, to **seize two Ottoman battleships** under construction in British shipyards to bolster the Royal Navy.
+- **Gallipoli Campaign:** Churchill vigorously supported an attack on the Dardanelles, aiming to knock the Ottoman Empire out of the war by capturing Constantinople. This **naval assault followed by a land invasion** at Gallipoli proved a massive Allied failure, costing hundreds of thousands of casualties.
+- **Reappearance in Government:** Despite the Gallipoli debacle, Churchill soon returned to high office. By 1921–1922, he served as **Colonial Secretary**, overseeing Britain’s new Middle Eastern mandates (Iraq, Transjordan, Palestine) that emerged from the Ottoman collapse.
+
+### Random bits
+
+- Uncle Sam Wants You is in fact a rip-off of [[Lord Kitchener Wants You]].
+- Pan-Arabism is largely a British invention imposed on the Arab world. This includes the Pan-Arabic flag, an initially British designed and British produced item.
+
+
 John Dee and the Empire of Angels by Jason Louv
 ===
 rating: yes
