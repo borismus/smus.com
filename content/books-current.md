@@ -4,6 +4,166 @@ class: split
 type: book
 
 
+VALIS by Phillip K. Dick
+===
+rating: yes
+posted: April 9, 2025
+cover: /assets/book-covers/valis.jpg
+
+VALIS stands for _Vast Active Living Intelligence System_, a critical piece in Horselover Fat's vision of God. This revelation comes at a turbulent time in Fat's life, shortly after his wife's suicide and the subsequent suicide of multiple girlfriends in the Bay Area of the 1960s.
+
+> No one could discern how much was due to drugs. This time in America—1960 to 1970—and this place, the Bay Area of Northern California, was totally fucked.
+
+This is not a plot driven book, but just as a reminder to myself, here it is.
+
+Fat, completely obsessed with his religious experience, sets out to document it in his Exegesis and shares it with a small group of friends, including Philip K. Dick, who turns out to be Fat himself — in a schizophrenic way. Another of Fat's friends Kevin introduces Fat to a film called Valis which contains obvious references to events and prophecies identical to those that in Horselover Fat's revelations. This is intriguing to Fat/Phil, Kevin and their other friend David, and they all seek out the films makers. One of them turns out to be Eric Lampton, who appears to be some superposition of David Bowie and Eric Clapton. Through Eric and his wife, the friends, now calling themselves the Rhipidon Society ("fish cannot carry guns"), meet their daughter. She is a two-year-old girl named Sophia who is the incarnation of the Messiah, as prophesized. She cures Phil's schizophrenic personality split, confirms VALIS' existence and preaches that we should worship humanity, not gods. She dies days later in an unfortunate accident, which Phil forsees in a dream. This shock which eventually brings Fat back into existence and sends him on a global quest to find the next Messiah.
+
+This was not an easy book to get through but I found it theologically intriguing.
+
+# Deep references everywhere
+VALIS features a wild mishmash of cultural references, from highbrow to lowbrow and back. I was familiar with most, but post-VALIS they will be tinged with a psychotic valence when I revisit them. Time to listen.
+
+- "Tis this that racks my brain, And pours into my breast a thousand pangs, That lash me into madness..." from an aria in **Handel's Messiah**. "Fat and I used to listen to my Seraphim LP of Richard Lewis singing it"
+- **“Total Eclipse” from Handel’s “Samson”**
+- “My favorite Dead album is **Workingman’s Dead**,” Gloria said at one point.
+- "Remind him of the night he and Bob had seen **the movie Patton** before attending Gloria’s graveside service"
+- Fat could not write poetry worth shit, despite his best efforts. He loved **Wordsworth’s “Ode,”** and wished he could come up with its equal. He never did
+- “You see, son, here time becomes space.” **Wagner, Parsifal**, Act 1 (1882).  (Surprisingly, Parsifal seems to have been [banned in Nazi Germany](https://en.wikipedia.org/wiki/Parsifal#Racism_debate))
+- (VALIS was also turned into an Opera by MIT Media Lab's Tod Machover, [re-produced in 2023](https://www.media.mit.edu/events/valis-an-opera-by-tod-machover/))
+
+I loved PKD's linguistic play, for example:
+
+- Take this English instance: GOD IS NO WHERE / GOD IS NOW HERE, which is pretty relevant because of the all-caps, no-spaces style of [[Carolingian minuscule]] in the [[High Middle Ages]].
+- The main protagonist is Horselover Fat, a schizophrenic persona of PKD. Philip in Greek means "fond of horses"; dick is German for "fat".
+
+
+# On Parsifal and confusion
+Dick writes:
+
+> Parsifal is one of those corkscrew artifacts of culture in which you get the subjective sense that you’ve learned something from it, something valuable or even priceless; but on closer inspection you suddenly begin to scratch your head and say, “Wait a minute. This makes no sense.” I can see Richard Wagner standing at the gates of heaven. “You have to let me in,” he says. “I wrote Parsifal. It has to do with the Grail, Christ, suffering, pity and healing. Right?” And they answer, “Well, we read it and it makes no sense.” SLAM. Wagner is right and so are they.
+
+VALIS belongs in the same bucket of "corkscrew artifacts of culture". I can see Philip K. Dick standing at the same gates.
+
+# Maurice and Fat's parallel versions of religion
+Fat's therapist is Maurice, a former IDF paratrooper with bulging muscles. He is hilariously depicted in a series of theological dialogs exhibiting their two very different takes on God. Maurice's straightforward and pragmatic, PKD's esoteric and hand-ringingly intellectual:
+
+> Staring at him, Maurice said, “Who made up this stuff? You?”
+>
+> “Basically,” Fat said, “my doctrine is Valentinian, second century C.E.”
+>
+> “What’s ‘C.E.’?” “Common Era. The designation replaces A.D. Valentinus’s Gnosticism is the more subtle branch as opposed to the Iranian, which of course was strongly influenced by Zoroastrianism dualism. Valentinus perceived the ontological salvific value of the gnosis, since it reversed the original, primal condition of ignorance, which represents the state of the fall, the impairment of the Godhead which resulted in the botched creation of the phenomenal or material world.
+
+Maurice reminds Fat of the scriptures, but Fat brings in his own Gnostic takes. It's pretty funny.
+
+> Let me tell you what it says in _Genesis_, in case you've forgotten. Then God said, Let us make man in our image and likeness to rule the fish in the sea, the birds of heaven, the cattle, all--”
+>
+> “Okay,” Fat breaks in, “but that's the creator deity, not the true God.”
+>
+>“What?” Maurice says.
+>
+> Fat says, “That's Yaldaboath. Sometimes called Samael, the blind God. He's deranged.”
+>
+> “What the hell are you talking about?” Maurice said.
+>
+> “Yaldaboath is a monster spawned by Sophia who fell from the Pleroma...”
+
+And my favorite exchange:
+
+> “Let me just say one thing,” Fat said.
+>
+> Irritably, Maurice nodded.
+>
+> “The creator deity,” Fat said, “may be insane and therefore the universe is insane. What we experience as chaos is actually irrationality. There is a difference.”
+>
+> He was silent, then. “The universe is what you make of it,” Maurice said. “It’s what you do with it that counts. It’s your responsibility to do something life-promoting with it, not life-destructive.”
+>
+> “That’s the existential position,” Fat said. “Based on the concept that We are what we do, rather than, We are what we think. It finds its first expression in Goethe’s Faust, Part One, where Faust says, ‘Im Anfang war das Wort.’ He’s quoting the opening of the Fourth Gospel; ‘In the beginning was the Word.’ Faust says, ‘Nein, Im Anfang war die Tat.’ ‘In the beginning was the deed.’ From this, all existentialism comes.” Maurice stared at him as if he were a bug.
+
+# The Exegesis
+PKD began a journal capturing his visionary experiences in 1974, which I would guess served as the basis for many of his works, certainly including VALIS. Interestingly, twenty years after publishing VALIS, fragments of this journal were compiled into [his Exegesis](https://en.wikipedia.org/wiki/The_Exegesis_of_Philip_K._Dick). This book may have helped PKD get some of these ideas into the world in a less serious way.
+
+Horselover Fat (aka PKD) experienced divine revelation. Sites of his brain were being selectively stimulated by tight energy beams emanating from far off, perhaps millions of miles away. He was in fact seeing and hearing words, pictures, figures of people, printed pages, in short God and God’s Message, or, as Fat liked to call it, the Logos.
+
+Much of the references found in the Exegesis is well beyond my ken, referencing Gnostic ideas and works such as [On the Origin of the World](https://en.wikipedia.org/wiki/On_the_Origin_of_the_World), featuring obscure personae like the fallen archangel Samael, and Pistis Sophia, a figure representing "Wisdom in Faith":
+
+> He said, ‘I am god and no other one exists except me.’ But when he said these things, he sinned against all of the immortal (imperishable) ones, and they protected him. Moreover, when Pistis saw the impiety of the chief ruler, she was angry. Without being seen, she said, ‘You err, Samael,’ i.e., ‘the blind god.’ ‘An enlightened, immortal man exists before you. This will appear within your molded bodies. He will trample upon you like potter’s clay, (which) is trampled. And you will go with those who are yours down to your mother, the abyss.’
+
+Horselover Fat's Gnostic speculations remind me of [John Dee and the Empire of Angels](/books/john-dee-and-the-empire-of-angels-by-jason-louv/), and his exegesis closely mirrors Dee's and Kelly's scrying sessions.
+
+# An Irrational God?
+Since the universe appears to be irrational, and created in God's image, it must be the case that God is irrational:
+
+> Fat believed that a streak of the irrational permeated the entire universe, all the way up to God or the Ultimate Mind, which lay behind it. [...] In other words, the universe itself—and the Mind behind it—is insane. Therefore, someone in touch with reality is, by definition, in touch with the insane: infused by the irrational.
+
+When Fat is admitted into a mental asylum, Dr. Stone sees him and understands him and appears versed in the same Gnostic tradition. He guides Fat to seek a higher god, above the veneer of irrationality:
+
+> The answer to Fat’s question, “Is the universe irrational, and is it irrational because an irrational mind governs it?” receives this answer, via Dr. Stone: “Yes it is, the universe is irrational; the mind governing it is irrational; but above them lies another God, the true God, and he is not irrational; in addition that true God has outwitted the powers of this world, ventured here to help us, and we know him as the Logos,”
+
+> "The mentally disturbed do not employ the Principle of Scientific Parsimony: the most simple theory to explain a given set of facts. They shoot for the baroque." — PKD, VALIS
+
+# Time and remembering the past and future
+PKD continuously explores the subject of the fungibility of time, and whether you can "remember future lives":
+
+> Siddhartha, the Buddha, remembered all his past lives; this is why he was given the title of buddha which means “the Enlightened One.” [...] Empedocles, too, like the Buddha and Pythagoras, could remember his past lives. What they did not talk about was their ability to “remember” future lives.
+
+Can you have a collective memory?
+
+> Phylogenic memory, memory of the species. Not my own memory, ontogenic memory. “Phylogeny is recapitulated in ontogeny,” as it is put. The individual contains the history of his entire race, back to its origins. Back to ancient Rome, to Minos at Crete, back to the stars.
+
+PKD elaborates on the concept of the abolition of time, described as a "loss of amnesia" with ample references and impressive erudition:
+
+> The great mystery of Eleusis, of the Orphies, of the early Christians, of Sarapis, of the Greco-Roman mystery religions, of Hermes Trismegistos, of the Renaissance Hermetic alchemists, of the Rose Cross Brotherhood, of Apollonius of Tyana, of Simon Magus, of Asklepios, of Paracelsus, of Bruno, consists of the abolition of time. The techniques are there. Dante discusses them in the Comedy. It has to do with the loss of amnesia; when forgetfulness is lost, true memory spreads out backward and forward, into the past and into the future, and also, oddly, into alternate universes; it is orthogonal as well as linear.
+
+All of this time business reminds me of the idea of a sacred time in [[The Sabbath by Heschel]].
+
+# Multiple entities fill the same niche over time
+
+[Mystery Teachings from the Living Earth](/books/mystery-teachings-by-j-m-greer/) introduced me to this idea of filling a placeholder, where the organism may die, but another will take its place:
+
+> **Placeholders in ecosystems**: I found powerful the idea that individuals in an ecosystem can be seen as fitting into a placeholder. The organism may die, but its immediate life wasn't that important for the whole system. The individual was playing a role that many had played in the past, and many will play in the future.
+
+Greer provides examples of this niche that is filled by a sequence of organisms. This is echoed by PKD in a little vignette of a playing cat:
+
+> Somewhere, Schopenhauer says that the cat which you see playing in the yard is the cat which played three hundred years ago.
+
+PKD speculates wildly that the same soul is transferring through multiple bodies.
+
+> We are talking about Christ. He is an extra-terrestrial life form which came to this planet thousands of years ago, and, as living information, passed into the brains of human beings already living here, the native population. We are talking about interspecies symbiosis. Before being Christ he was Elijah. The Jews know all about Elijah and his immortality—and his ability to extend immortality to others by “dividing up his spirit.” The Qumran people knew this. They sought to receive part of Elijah’s spirit. “You see, my son, here time changes into space.”
+
+This can also apply to empires. Dick's refrain "the empire never ended" is a core part of PKD's gnostic worldview and points to the notion that the oppressive power structures of ancient Rome—or “the Empire”—persist throughout time, concealed behind ever-shifting forms of government, technology, and society:
+
+> ...During the interval in which he had experienced the two-world superimposition, he had seen not only California, USA, of the year 1974 but also ancient Rome, he had discerned within the superimposition a Gestalt shared by both space-time continua, their common element: a Black Iron Prison. This is what the dream referred to as “the Empire.” He knew it because, upon seeing the Black Iron Prison, he had recognized it. Everyone dwelt in it without realizing it. The Black Iron Prison was their world.
+
+
+The Maniac by Benjamín Labatut
+===
+rating: yes
+posted: March 31, 2025
+cover: /assets/book-covers/the-maniac.jpg
+
+I recently watched a movie called "The Bit Player" bankrolled by IEEE, about Claude Shannon and his contributions. The film was informative something was a bit off. In what could be described as a fauxcumentary or docudrama, Shannon was portrayed relatively convincingly by an actor, but rather than creating a narrative arc of his life and work, this fake Shannon was portrayed in a sequence of reenacted interviews. Some of them were informative and entertaining, others cringeworthy and irrelevant, almost bordering on mockumentary.
+
+Upon reflection, I found "The Maniac" a little bit like "The Bit Player", which surprised me since like its [[When We Cease to Understand the World by Benjamín Labatut|predecessor]] it straddles this same fact-and-fiction line. Either under the influence of the Shannon documentary or because it is simply worse I enjoyed this book far less. Another contributing factor was perhaps that I listened to it as an audiobook and the narration, especially the female narrator who played Von Neumann's wife and daughter had a distracting accent, serving only to fortify the idea I just couldn't shake that these historical figures were just pantomiming actors.
+
+---
+
+**Parallels to the 1920s**: The anxious, tumultuous interwar vibe of the 1920s (“we knew that the wonderful world that was built for us was coming to an end”) reminded me of present-day feelings of precariousness. Both eras are shaped by major innovations (whether quantum theory or AI) combined with rapid political shifts to produce a collective sense of uneasy acceleration.
+
+**Von Neumann’s Intellectual Legacy** touched many pivotal 20th-century developments: designing the first fully programmable computer (the “MANIAC”), formulating the principle of Mutual Assured Destruction (MAD), and conceiving of self-replicating machines well before the structure of DNA was even understood, as well as “von Neumann probes”, self-replicating spacecraft that could travel to the far reaches of the galaxy. This was simply interesting.
+
+**His frenetic personal life** is a stark contrast with his boundless intellectual curiosity and comedic playfulness. The most disturbing were his late-in-life dabbling with religion: frenetic forays into his native Judaism, and a last-ditch conversion to Catholicism.
+
+**Computing and the Hydrogen Bomb** the development of the hydrogen bomb required massive computational power. Human “calculators” could no longer handle the complexity; thus, machines like the MANIAC were indispensable. This foreshadows how computing became the central engine driving modern science and technology. [[Getting to many destinations requires tacking (zig-zagging)]]
+
+**Creativity, Play, and AI** John von Neumann and Richard Feynman valued playfulness and curiosity in serious scientific inquiry. That said Labatut also did a good job of showing the perils of excessive playfulness: a certain nihilism and psychopathology. AI has taken a narrow path to mastery (AlphaZero’s pure self-play in Go), but still lacks the open-ended, playful immersion children show when learning. Can advanced AI develop a truly exploratory, flexible sense of “play” in the real world, rather than in highly constrained settings like Chess, Go? LLM advances for "play" in LLMs is very impressive, but the real world is more complex still. See [[Physical and embodied intelligence]].
+
+**AI’s Impact on “Art”** is so far quite destructive. Lee Sedol lamented that Go used to be an art form but has changed now that AI dominates the game. A similar thing is happening with "Ghiblification", in which a beloved aesthetic that once took years of human effort can be conjured in seconds. This touches on a broader debate: Does AI’s involvement in creative or aesthetic fields reduce them to mechanical processes, or does it expand the boundaries of creativity?
+
+**Extended Phenotype and Technology**: A spider’s web or a beaver’s dam are examples of the extended phenotype of their respective creators. Can we view technology as extended phenotype of the human? See [[Extended phenotype — technology as human secretion]].
+
+**The Legends of Go** are really awesome. This was probably my favorite part of the book. Labatut evocatively describes the legendary Emperor Yao who invented the game of Go to challenge his wayward, evil son Danzhu. The victor would rule the universe. It seems like Labatut greatly embellishes the traditional tale, but it's worth it. Another memorable Go story retold in the second part of the book was that of the blood-vomiting game of 1835 which lasted four consecutive days after which the loser Akaboshi coughed or vomited blood all over the board, dying within a few months.
+
+
 A Peace to End All Peace by David Fromkin
 ===
 rating: yes
