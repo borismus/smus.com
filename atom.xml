@@ -5,8 +5,62 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-05-04T21:24:31-00:00</updated>
+  <updated>2025-06-08T23:17:20-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Math from Three to Seven by A. K. Zvonkin</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/math-from-three-to-seven-by-a-k-zvonkin"/>
+    
+    <updated>2025-06-08T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/math-from-three-to-seven-by-a-k-zvonkin</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>More a journal than an educational treatise, Math from Three to Seven chronicles the uniquely soviet phenomenon known as Математические Кружки (Math Circles), applied specifically to young kids. I personally experienced a version of this growing up in Vancouver courtesy of my parent's Компания (a tight-knit friend-group) where various uncles and aunts DP, AL, GJ, YX, MS, and others took to supplementing the education of the next generation. DP led the math circle, and I, having had the least soviet schooling, really struggled compared to my peers. It was revealing and humbling and formative. DP's circle was more formal and rigorous since we were older, but Zvonkin's circles remind me a lot of that experience.</p>
+<p>Reflecting on the concept of Subject Circles, it strikes me as a rare and great example of civic society in Russian culture. In fact, these band-scale groups of ~10 families are very strong in Russian culture. Could it be that civic society there is set up for much smaller groups than in the west?</p>
+<p>Ok philosophical musings aside, this book is quite tactical and stays close to the straight and narrow. Most of his energies are spent on chronicling his successes and failures teaching mathematics to groups of young children, with an emphasis not on getting to the answer, but on asking interesting questions:</p>
+<blockquote>
+<p>It is not the puzzles, nor their solutions, that are interesting, but the process, the path that connects them. [...] What is the point of my lessons? It’s fun to ask questions and look for answers. It’s a way of life.</p>
+</blockquote>
+<p>Rarely does Zvonkin digress into philosophy or development psychology, and when he does he cites awesome stuff, some of which is heartwarmingly familiar, such as <a href="/books/mindstorms-by-seymour-papert/">Mindstorms by Seymour Papert</a>. Like language, mathematics is acquired naturally, not through rigorous and systematic approaches.</p>
+<blockquote>
+<p>The best way to learn french is to grow up in France. The best way to learn math is to grow up in Mathland. - Seymour Papert</p>
+</blockquote>
+<p>My main takeaway from the book is a list of inspiring “problems” to show my own kids aged four and seven, to cultivate their mathematical curiosity.</p>
+<h3>Problems to cultivate curiosity</h3>
+<p>Explore a <strong>Möbius strip</strong>. Make one regular ring, and one as a Möbius strip. See how drawing a line down the middle works in both cases. See what cutting down that line does in both cases.</p>
+<p>Draw and define <strong>quadrilaterals</strong> and sneak in some basic set ideas. Maybe a Venn diagram too. Explain squares, rectangles, trapezoids, parallelograms. How many of which are there? What can we say about rules here?</p>
+<p>Talk about fantastical situations and discuss <strong>transitivity</strong>. For example imagine an ant is bigger than a dog and a dog is bigger than an elephant. Then what do we know about ants and elephants? This relies on Smedslund's work on idea conflict: when individuals encounter contradictory ideas, particularly in social contexts, they are more likely to engage in reflection and actively seek to resolve the conflict, leading to cognitive growth.</p>
+<p><strong>Partial ordering</strong> of clothes. In what order do you put on clothes? What order do you take them off? Note you can put on your hat first, or your socks first, but there are dependencies when it comes to shoes.</p>
+<p>In the same vein as clothes, a structure made out of blocks also has a partial ordering. Can kids create a dependency graph for constructing the structure? I found this PERT graph idea really neat:</p>
+<p><img alt="PERT Graph from toy towers" src="/assets/book-reviews/pert.jpg" /></p>
+<p><strong>Five choose two</strong>: Zvonkin spent quite a bit of time with his circles trying to approach the same combinatoric problem from many different perspectives, all isomorphic to one another. But let the kids figure out that all of these problems are the same organically.
+1. Color in chains of length five made out of red and blue links. How many chains are there?
+2. Get five bins and two balls. How many ways are there to place the balls in these bins?
+3. How many paths are there from one corner of a 5x2 rectangle to the other? Do this on graph paper. Encode each path as a sequence of Right (R) and Up (U) steps.</p>
+<p><strong>Rectangle counting</strong>: how many rectangles are there in a rectangle with a split in the middle? In a grid of 2x2 squares.</p>
+<p><strong>Frequency analysis</strong> for which sum of two dice rolls is the most common?  Try it out. Make a table ourselves, then count how frequent each roll is. See if we can make bets!</p>
+<p><strong>Prime numbers</strong> through geometry. Try to make a rectangle out of N cubes. Can you do it with 9? Can you do it with 12? In how many ways? Try with 19. Do it systematically for all numbers up to say 28, making a table of primes and composites.</p>
+<p><strong>Patronymics</strong> is a fun puzzle. But less relevant in an Anglo setting. Still a cool formula: write out an empty family tree and then provide a set of names and patronyms. Arrange the people into the family tree.</p>
+<p><strong>Graph paper</strong> games for nerds. I draw something on a graph paper, and then get the kids copy it. Then have them rotate it by 90 degrees. Flip it. Scale it up. In another variant, I draw a pattern on a graph paper and get the kids to continue the pattern.</p>
+<p><a href="https://en.wikipedia.org/wiki/Three_utilities_problem">Three utilities problem</a>: A little bit of graph theory with 3 houses and 3 wells. Can you make a path from each house to each well without having any paths cross?</p>
+<p><strong>Homeomorphic letters</strong>: imagine letters made out of bendable wire which can be compressed squished etc. Classify them into categories of homeomorphisms. Here's <a href="https://arxiv.org/abs/1410.3364">a paper</a> with more detail.</p>
+<p><strong>Gauss Summation</strong>: see if I can tease the idea for getting a closed form solution for adding the first N numbers! This is a problem that Gauss solved as a child with the doubling backwards trick. What a great clean proof, still can't get over it decades later.</p>
+<p><strong>Draw water levels</strong>: Try the water level game with Eliana and Zyam. See if they can draw the water line on a drawing of a tilted water bottle.</p>
+<p>Books and pointers to check out:</p>
+<ul>
+<li>Hailstone numbers: $U_{n+1} = u_n/2$ if $U_n$ is even and $U_{n+1} = 3 U_n$ otherwise. The <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a> says this sequence converges to 1 but remains unproven.</li>
+<li>Frames Of Mind: The Theory Of Multiple Intelligences by Howard Gardner</li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Abundance by Ezra Klein and Derek Thompson</title>
@@ -3303,64 +3357,6 @@ me:</p>
 <li><a href="https://baheyeldin.com/literature/arabic-and-islamic-themes-in-frank-herberts-dune.html">Arabic and Islamic Themes in Frank Herbert's "Dune"</a> (<em>The Baheyeldin Dynasty</em>) — From the transparent analogy between spice and crude oil, and the stylings of the Fremen, Herbert's masterpiece was prima facie inspired by Middle Eastern themes. Khalid digs deeper into an etymological tour of the series revealing more Arabic influences than a typical westerner could glean.</li>
 <li><a href="https://lithub.com/simone-weils-radical-conception-of-attention/">Simone Weil’s Radical Conception of Attention</a> (<em>Literary Hub</em>) — Weil drew a distinction between two kinds of attention: the first involving "muscular effort", where we perform for our interlocutor, demonstrating that we are heeding them through social cues, and the second which she dubs "negative attention", where we blot out all distractions, dilate our minds, and wait selflessly for insights to come to us.</li>
 <li><a href="https://www.economist.com/1843/2022/11/15/the-good-delusion-has-effective-altruism-broken-bad">The Good Delusion: Has Effective Altruism Broken Bad?</a> (<em>The Economist</em>) — As Sam Bankman-Fried's crypto empire collapses, the public eye turns critically towards the earning to give and existential risk strains of the Effective Altruism movement which inspired his activity and nudged him to use destructive means to achieve questionable ends.</li>
-</ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Timeless Way of Building</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-timeless-way-of-building"/>
-    
-    <updated>2022-11-28T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-timeless-way-of-building</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>The built world is defined by a small number of patterns, which keep repeating over and over and over again. The patterns are deep and mostly relational. This applies at all scales in human construction: to American cities, Gothic cathedrals, Paris, Chinese kitchens, doors, and so on.</p>
-<p>These patterns can be codified into a pattern language. And just like a great writer or orator has an intuitive grasp of human language, a great builder can and should strive to attain an intuitive grasp of his pattern language.</p>
-<p>But just because you have a pattern language does not make it good. A concrete jungle is also governed by a pattern language. Alexander strives to capture a collection of patterns that create a microcosm that has "The Quality Without a Name", which he defines via negativa (see <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa">Negative theology and via negativa</a>). Here's a quick summary:</p>
-<p><img alt="The Quality Without a Name" src="/assets/qwan.jpg" /></p>
-<p>Subsequent books in the series present lists of specific patterns at various scale levels (eg. town, building, substructure) that Alexander wholeheartedly endorses.</p>
-<h2>Tired: things I didn't love 😫</h2>
-<ul>
-<li>Stuffy tone</li>
-<li>Exacerbated by the narrator's proper English accent in the audio book.</li>
-<li>Dry prose. If I had a nickel for every "pattern of events" in some of those middle chapters...!</li>
-<li>Overly universalist</li>
-<li>The Quality Without A Name is supposed to span time and space. It's timeless, as per the title of the book, but this pomposity is the opposite of the egoless ideal.</li>
-<li>Alexander makes sweeping claims like whether a pattern language is alive or dead is necessarily objective.</li>
-<li>QWAN has a strong “you’ll know it when you see it” vibe. Alexander is really appealing to some imagined sense of universal taste.</li>
-<li>Opinionated and tending negative</li>
-<li>About architecture, including modern star architects, nature-inspired architects like Frank Lloyd Wright.</li>
-<li>About specialization in general</li>
-<li>About materials that tend to last forever like concrete and metal. They are inherently not alive.</li>
-</ul>
-<h2>Wired: things I loved 💗💗💗</h2>
-<ul>
-<li>The specific patterns found in the second volume "A Pattern Language", especially pertaining to buildings. I'd never thought of many of them, and now find myself viewing buildings through this patterned lens.</li>
-<li>Every living thing is the product of a process. There is no way to creates a living thing by some direct process.</li>
-<li>Trying to define QWAN as an overlap of many attributes, where none of the attributes on its own adequately describe it. Reminds me of <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa">Negative theology and via negativa</a></li>
-<li>One of the attributes of QWAN is "Being Alive", which although vague is evocative. Design must be done with the idea of death. Nothing can be alive unless it can become dead (see <a class="wiki" href="https://z3.ca/Momento_mori">Momento mori</a>).</li>
-<li>Only about 5% of buildings are designed by architects. The vast majority are constructed by following relatively simple patterns and rules.</li>
-</ul>
-<h2>Inspired: threads to pull on ✨🧵✨</h2>
-<ul>
-<li>It's difficult to describe what constitutes a rough circle. A precise circle is easy to quantify. It is the locus of points that are equidistant from a center. But naively defining a rough circle as some locus of connected points 5 to 6 cm away from a certain point might include zigzags, polygons, or other shapes that are totally not circle-like.</li>
-<li>How would I algorithmically generate a rough circle? Sounds like a fun side project or interview question.</li>
-<li>Alexander leans heavily on the environment as something that is critical for happiness. It does not come from within. I liked that he acknowledges that this is an untrendy claim to make, and explicitly defends his position. How much happiness comes from the self, and how much from the environment?</li>
-<li>What are the pattern languages for 1940-59 builds in Seattle? What about the 1910 eta craftsmen? How about new modern builds going up now?</li>
-<li>Can these design patterns be used to consider whether existing buildings are good? I am judging my house and my parents house from this vantage point.</li>
-<li>What are the buildings and building patterns I like most?</li>
-<li>In PYNY's house: great benches integrated into windowsills.</li>
-<li>I took notes on this too, see <a class="wiki" href="https://z3.ca/Design_Pattern_Languages_for_Single_Family_Homes">Design Pattern Languages for Single Family Homes</a>.</li>
-<li>Can this be somehow adapted when considering what to look for in a new house? It's a bit like Marie Kondo's "do these underwear spark joy" question. Evocative but also silly.</li>
-<li>Alexander implores us to design without drawing plans. Keep the whole project plan in the mind as you conceive it to be maximally flexible. As you add new patterns to the design, the whole system may need to morph, so any representation other than that of the mind's eye is too inflexible. This seems too extreme, but also somehow appealing.</li>
 </ul>
 
         
