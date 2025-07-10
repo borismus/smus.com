@@ -4,6 +4,263 @@ class: split
 type: book
 
 
+Secret of our Success by Joseph Henrich
+===
+rating: yes
+posted: July 9, 2025
+cover: /assets/book-covers/soos.jpg
+
+Humans are remarkably successful as a species. Why? Many would say it's because we're just so darn smart compared to other animals, but Henrich suggests that individual intelligence plays a small role. Our collective culture is what gives our species superpowers. Henrich's thesis is that human success is due to our adaptability, which we owe not to individual intelligence but due to collective culture built over generations. Culture is so central to our species that over a long enough time horizon, cultural evolution even feeds back into our genetic evolution.
+
+I found this thesis appealing because it speaks to my inner communitarian and makes me feel better about not always being the sharpest tool in the shed. I also found a lot of great insights throughout the book, from new takes on ancient technology, to implications about artificial superintelligence. One recurring theme that fascinated me was ways in which "first principles thinking" can lead to pitfalls.
+
+### European explorers don't often survive in foreign conditions without indigenous help
+A great example where human culture trumps traditional intelligence for survival in the story of Franklin's disastrous 105-person expedition to King William island. The entire crew died in the freezing ice. Other explorer crews survived there before but only through their collaboration with indigenous locals. It was only through them, and not through first principles thinking that they could learn how to survive in such a challenging and unfamiliar environment. 
+
+### Cultural and technological progress can be lost
+Some civilizations have lost their ability to make fire. And in these cases what they do is they try to preserve a fire that's already burning for as long as possible. If it goes out because of a storm, they have to go to their neighbors in order to light it again. 
+
+This seems like a cautionary tale that progress is far from guaranteed, and requires constant effort to maintain. Even technological progress is not necessarily an arrow (see [[Moral progress is a cycle, technological progress is an arrow]]).
+
+### Human digestion coevolved with cooking
+There is a feedback loop between human digestion and cooking. People evolved to rely on cooking to unlock more energy from the same sources of food. As a result, most of the human digestion organs have atrophied compared to other animals, except the small intestine which remains essential for extracting nutrients from the digested extracts, whether or not they have been processed by internal organs or the process of cooking.
+
+As a result of this degenerative feedback loop, humans have smaller, weaker teeth and jaws and just generally require far less digestive instrumentation than their animal siblings. Gut tissue is really expensive to maintain compared to most other kinds of tissues in the human body. All of these savings could then be channeled into really big brains. 
+
+### Brains require continuous energy → humans are fat
+Unlike muscles or digestive tissue, the brain works full-time. There’s no resting at all, even at night. So it requires a source of base load energy, similar to the renewable energy challenge of producing electrical energy at night (see [[Whole Earth Discipline by Stewart Brand]]).
+
+This explains why humans are so fat relative to other mammals: this fat can be metabolized as needed, to keep the brain going when there is not enough food around.
+
+### We culturally evolved to run, efficiently cool, and carry water
+(Maybe this is covered in Murakami's "Born To Run", but I never took detailed notes when I read it long ago.)
+
+Henrich enumerates tons of adaptations for making humans superb long distance runners:
+
+- Big gluteus maximus
+- Springy arch in the foot
+- Longer legs
+- Tendency to slow twitch muscles
+- Relative lack of hair
+- Sweat glands
+- Veins that cool the head
+
+Shockingly, the main bottleneck for other mammals long distance running ability is thermal regulation. All mammals have a very narrow operating range 36-40C. Without human-grade cooling systems, other animals just can’t sustain long term exertion. They overheat. ^facc19
+
+(Fascinating: I'm used to thermals being a limiting factor in electronics, and have never thought about it in a biological context. Also see [[Thermal limits are a fundamental constraint to biology and electronics]]) 
+
+Humans are the sweatiest animal. A big part of the human cooling system relies on sweat. We can sweat 1-2 liters per hour while running. This is way more than most other animals. This is what enables humans to be such effective endurance hunters.
+
+This is a great adaptation, but one problem with it is that we have very small amount of water storage. Donkeys can drink twenty liters of water in three minutes. Camels can drink a hundred liters of water at a time! Humans can drink at most two liters over ten minutes. This itself is not a pleasant experience, nor is the subsequent belly lurching run.
+
+We might not be able to store much water internally, but we learned to carry water externally. Hands that initially evolved to climb trees became exapted for holding, crafting, and manipulating (see [[Examples of exaptation]]). We have hands that can carry, and brains that invented water containers and ways of finding water. Gourds, ostrich eggs, gazelle stomachs are all ancient non-obvious ways of carrying water. These all had to be discovered by a rare stroke of genius and culturally transfered from generation to generation. ("L'Dor V'Dor")
+
+Other cultural techniques related to persistence hunting included:
+ 
+- Knowledge of animal tracking to be able to determine where the animal went.
+- Knowledge of animal gaits, which tend to be discrete (e.g. horses walk, trot, canter, and gallop) and map to natural paces. Equipped with this knowledge, human endurance hunters could force their prey into unnatural speeds to tire them out faster.
+- Learning to find underground water via surface clues.
+
+### Lactose persistence and co-evolution
+Lactose persistence is another example of culture-gene coevolution. After domesticating livestock, humans began to rely on milk for sustenance, and many humans adopted tolerance to lactose. This has evolved very quickly for a biological scale, since we only domesticated animals about 12,000 years ago. 
+
+### Ritualized cooking and the perils of first principles
+Cassava is a key source of nutrition in the tropics, and the fourth staple crop globally (after corn, rice, wheat), but there's one problem: it's poisonous. Henrich dives deeply into the cultural evolution around the process of cassava preparation, making it safe to eat. The indigenous method for doing this is very elaborate; far more elaborate than just boiling.
+
+Someone with a "first principles" mindset might just decide to make the process more efficient and forego the seemingly excessive parts of the complex indigenous ritual. Indeed, boiling improves the taste significantly. But it does not eliminate the cyanide that will damage the human nervous system. Perniciously, symptoms take years to develop, making for a highly unintuitive feedback loop. Relying on custom (read cultural evolution) in this case is the right move.
+
+A corn-only diet is lacking in vitamin B3 and will cause pellagra over time. This explains some seemingly irrational traditions seen in Latin America, like adding ash to corn, or mixing it with seashell crunch. These interventions react and release the B3 from the corn.
+
+[[First principles thinking sometimes fails]]
+
+### Divination as a path to true randomness
+Henrich offers a fascinating interpretation of divination as a way to enforce true randomness in a situation where human biases tend to certain fallacies. 
+
+For example if a river just flooded people tend to think it won’t flood again for a while. This intuition is dead wrong. In fact the opposite. A river that recently flooded is likely to flood again — get out of the flood plane!
+
+### High status can be achieved through dominance or prestige
+Ever since reading [[Impro by Keith Johnstone]], I've been "status-pilled". "Impro" dives deeply into status in the context of improvisational theater.
+
+Here Henrich describes two kinds of status: dominance and prestige. High status people come in at least two flavors: dominant and prestigious. Sometimes they overlap, often not.
+
+Animals have a notion of status via the dominance hierarchy. Wolves, dogs, and other pack animals know this intuitively.
+
+But humans culturally evolved a powerful new idea called prestige. This helps accelerate cultural learning because you identify people that are prestigious and focus attention on them. How do you know who is prestigious? 
+
+1. Intrinsically: you find them effective, smart, etc. 
+2. By social cues: other people find them worthy of emulation.
+
+We tend to gravitate towards prestigious people. We curry favor with them. We emulate them.
+
+| Dominance               | Prestige                     |
+| ----------------------- | ---------------------------- |
+| Act in overbearing ways | Self-deprecating             |
+| Credit themselves       | Attributes success to others |
+| Tease others            | Tell jokes                   |
+| Manipulate              |                              |
+
+Humans are adaptive cultural learners who adapt from others in their community. Use cues of prestige to pick who to learn from. Attend to particular domains in food sex danger and norm violations. 
+
+But prestige is very malleable and culturally specific. In some context, great warriors are prestigious. In others, gentle nuns. In the late Roman Empire, St. Ambrose convinced rich Roman to give a lot of money to the poor as a sign of prestige. The saint gave away his wealth own wealth as a CRED.
+
+
+### Prestige psychology can be weilded to change preferences: James Cook's scurvy story
+People's preferences are not fixed. A well-designed program can move them in desirable ways.
+
+Henrich retells a wild little story about captain James Cook and his solution to scurvy. By the time he was undertaking his voyage, Cook knew that to prevent curvy people needed vitamin C. Lemons would go bad at sea, but sauerkraut was preserved and so could last far longer, and had enough vitamin C. The problem was that sauerkraut was not very well-liked food. Cook knew that forcing his crew to eat it would cause resistance. Instead, he served it in the officers quarters. Then, when word came around to the rank-and-file that the officers were having sauerkraut, the men started to ask for it. This gave the meal prestige, everybody ate sauerkraut, got their daily dose of vitamin C, and nobody died of scurvy.
+
+A similar thing happens at a smaller and less high-stakes scale. This is what acquired taste is all about: you imitate the tastes of those you perceive to be prestigious. 
+
+(A modern and specific example of this is gamification. It is prestigious to be on top in a legible way, so scoreboards are a way to encourage people to participate in things they might normally not want to do. I've seen this in engineering teams, where people are awarded for fixing bugs in fixathons, or for dogfooding products.)
+
+### Why animals and short-sighted modern humans don't care about their elders
+Cultural learning involves learning from prestigious people. In a world that doesn't change very quickly, one life resembles the other from generation to generation. Thus there is massive value in learning from your elders, since they have experienced much of what you eventually will.
+
+This is why age is often a good proxy for prestige. And also why wisdom is correlated to both. The reason people live long after reproductive age is to help spread cultural evolution to their children. This gives an evolutionary explanation for why humans live far beyond their reproductive age. And it seems to generalize across species: killer whales seem to have culture and menopause.
+
+Animals that are biologically evolved to a particular niche do not need culture since they are pre-programmed by genetics to thrive in their niche. Thus animals mostly don't have cultural learning and so have no need to respect their elders. Few individuals survive into their post-reproductive years.
+
+In a quickly changing world, it may be tempting to think that your life will be drastically different from the life of your parents. Thus the experience of our ancestors is no longer applicable. Is this why today it feels that fewer people tend to focus on respecting their elders?
+
+My take is that although it appears on its face that our world is moving quickly, much of this change is happening at the highest pace layers. There are many ways in which life is not fundamentally different today compared to previous generations. Respect your elders! (See [[Moral progress is a cycle, technological progress is an arrow]])
+
+### Asking the most junior opinion first improves our collective brain
+Cultures invent epistemic hacks that tame status bias and let the group’s collective brain work. The Japanese tradition of letting the most junior speak gives them a voice and encourages independent thought. (see [[Japanese meetings ask junior people for input first]])
+
+The same idea of letting the most junior speak first was also codified in capital cases in the Jewish Sanhedrin. To be extra sure every possible leniency is considered before executing someone, all voices of the court had to be heard, starting "from the side, where the least significant judges sit" (see [Sefaria](https://www.sefaria.org/Mishnah_Sanhedrin.4.2?lang=bi&with=Commentary&lang2=en)).
+
+The rule about most junior person speaking at first is apparently also held by the Canadian Supreme Court. But this rule does not hold up in the US Supreme Court. It certainly does not hold at Meta, nor did it really hold at Google.
+
+### Marriage formalizes the pair bonding instinct
+Most powerful social norms are aligned with innate psychology. For example, tolerance of foreigners is much harder to spread than maternal care. Other instincts include aversion to sibling incest and desire for pair bonding.
+
+Most societies have reified the natural pair bonding instinct, but some societies did not. On one extreme, some societies have no notion of fatherhood, and children are conceived in secret visits by a man to a woman. Then the men of that society will contribute to the raising of their sister's children.
+
+On the other shocking extreme, some societies believe that inseminating a woman only once is insufficient for a successful pregnancy, and that in fact you need multiple inseminations, ideally from multiple males. This leads to multiple men claiming fatherhood status over the progeny. This sounds insane but appears to work for societies where such norms have proven to be internally consistent. In such cases, studies show the best number of fathers to have is two.
+
+In societies that allow polygyny (multiple wives for one husband) most prominent men tend to have more wives. Thus a large percentage of less successful men remain unmarried which increases conflict and has other negative effects. This is a sort of inequality that is resolved pretty easily by enforcing pair bonding norms. If you enforce monogamy, you also encourage more fathers, more men that are "domesticated", and a more harmonious civilization.
+
+### How pair bonding evolved
+Henrich describes how pair bonding may have evolved from the primate default: mothers alone are responsible for raising the next generation. Great apes never know who their father is, thus the adolescent males have no male model to emulate. Unless he had siblings from the same brood, the mother would be the only kin that he would know. Without pair bonding, male generation-to-generation cultural learning is stymied.
+
+Concealed ovulation is another trick to encourage more pair bonding. If you don’t know when your partner is ovulating, the male is incentivized to be with her all the time, both to ensure that he is the rightful sire to any progeny, and to prevent any unwelcome approaches of other males. (See [[Menstrual vs estrous cycles]]).
+
+### Meat taboos encouraged collective meal sharing
+Many tribes have very specific meat taboos. Sometimes young men have to eat specifically the stomach lining and genitals of the game, while the hunter may only be given the ribs and the left shoulder, for example.
+
+The meat taboos were enforced by people being told that disobeying them would lead to a bad hunt in the future. This was very effective in behavior change. Confirmation bias helped: if violation of the taboo did lead to a bad hunt the story would be remembered and retold. But otherwise the data point would be soon forgotten since nobody kept detailed records. 
+
+### North America shows transitions from one dominant group to another
+Henrich recounts the typical situation of one dominant group displacing and ultimately replacing another. The same thing happened even pre-European conquest in America. 
+
+The Numic peoples, including Shoshone, Paiute, and Utes spread into the Great Basin (most of Nevada but also some Utah and California) around the 12th century, displacing [Fremont-style farmers](https://en.wikipedia.org/wiki/Fremont_culture). Their edge came from hunting small game and foraging seeds, storing caches of nuts, knitting water-tight baskets, and being nomadic, and thus able to regroup fast when resources thinned.
+
+After around 1700, European horses diffused into the Shoshone culture. A small breakaway group called the Comanche adopted horses fully and expanded dramatically. They pushed back the Spanish and the other Numic groups. The comanche dominated the continent until the United States came together and conquered the Comanche.
+
+### In-lab behavior shows that people's pro-social preferences are biased by cultural norms
+**The ultimatum game**: two participants. One is given the task of proposing how to split $100 between self and other. 
+
+The other has the choice whether to reject or accept. If reject nobody gets anything. Otherwise people get paid the proposed amount. 
+
+Rationally you should always accept for a nonzero amount. But the western adult norm is 50-50.
+
+Another lab game is **the free rider game**. A group of people has to decide how much to give to a pot which is divided evenly. The pot initially has 4 per person and people can give up to 4 dollars. 
+
+The “rational” solution is to give nothing and be a free rider.
+
+Internalized social norms help people easily navigate social environments. Helps them comply with local normals without much thinking. 
+
+**Public goods game**: group does best if everyone cooperates but individual does best if everyone ELSE cooperates.
+
+Group of 4 in a single interaction. Each person is given 4 dollars. Whatever enters the project is doubled and equally distributed.
+
+If all contribute, 16 in the pot is doubled to 32, then split four ways. They all come back with $8.
+
+Otherwise, if one person doesn’t contribute while the rest do, the pot of \$12 doubles to \$24, split four ways. This gives the defector 6$ plus his original 4$, $2 more than his conformist outcome. Thus there is an incentive to defect. 
+
+And yet, people do tend to add something into the pot.
+
+### Simple agent-based simulations suggest being dumb but social is far better than being a smart loner
+Very clear example of **genius vs butterfly**: two groups are very different. Describes an agent based simulation. 
+
+Geniuses are 100x more likely to invent something. Butterfly are 10x more interconnected.  By being connected to someone that invents something you have some chance of learning it. 
+
+Imagine this for one invention. Over time the invention will either be invented by the individual or passed on to them. 
+
+But the butterfly group is far faster at this diffusion process. So it pays to be social rather than smart
+
+Also having a **large group is better than a small one** because it increases the size of the collective brain. This is why cities are so powerful: many people, densely interconnected.
+
+Also see this [Genius-butterfly simulation](https://claude.ai/chat/1684f614-de53-4d39-84a3-a6f81de9b7a8?artifactId=genius-butterfly-simulation) (thx claude).
+
+### Sign language and whistle languages as cultural adaptation
+I had no idea that there were sign languages in indigenous North American culture. Apparently, Plains Indian Sign Language ([PISL]( https://en.wikipedia.org/wiki/Plains_Indian_Sign_Language)) was a sort of lingua franca for many tribes that did not share a spoken tongue. [video](https://www.youtube.com/watch?v=s1-StAlw3aE)
+
+Whistle languages are expressive and used by mountainous tribes, where multiple adjacent villages are close in distance as the crow flies but good but take a long time to get from one to the other because of the challenging terrain. Especially in [Turkey](https://en.wikipedia.org/wiki/Turkish_bird_language), confusingly called "Turkish bird languages". [Written in the Wind](https://www.francescaphillips.com/written-in-the-wind/) is a film about the whistle languages spoken (whistled?) on the Canary Islands.
+
+### Sonority and color in language-culture
+Fascinatingly, language sonority (depth and fullness) basically varies with the temperature of the areas in which the language is spoken. The warmer the climate, the more sonorous the tone of the language. Henrich explains that this is because in warmer climates, more of the conversations happen outdoors, so acoustics are worse, and higher sonority means that others can hear you better. In cold countries where people spend more time indoors, it's easier to hear people are more prone to mumbling. This eventually gets culturally encoded in the way the language is spoken.
+
+In some primitive languages, there are only words for light and dark. If you have three color words, you typically have white, black, and red. At the next level of complexity is white, black, red, blue, green, and yellow. Henrich claims that black, white and red are the only colors mentioned in a bunch of Greek literature. That seems specious to me — doesn't Homer famously describe the sunrise as a "rosy-fingered Dawn" and "Dawn on her golden throne"? (see [The Odyssey transated by Emily Wilson](/books/the-odyssey-translated-by-emily-wilson-audio/))
+
+### Fine motor skills are required for both speech and complex tool use, and may be linked in an amplifying feedback loop
+Henrich opened my mind to the connection between spoken language and dexterity: fine motor skills. Whether it is fine motor control of your digits or your tongue, the same part of the brain is responsible for the human level of control required. Language and tool use seems to be common across the cerebellum and the motor cortex brain regions. **FOXP2** on Chromosome 7 might be the genetic ticket to making this happen.
+
+It's unclear how the arrow of causality flies. Did humans first learn to speak, enhancing their motor control abilities which led them to increased dexterity, or was it the other way around? Language was probably not the main cause of cultural evolution, but probably accelerated it. Whatever the origins, there is a clear feedback loop between dexterity, speech, and the fine motor control centers of the brain.
+
+You can see it is interrelated anecdotally. When performing fine finger motions  or learning a dance move people often stick out their tongue.
+
+(Aside: totally surprising that the same area of one's brain that is responsible for a face recognition is also used in helping to read. The brain does letter boxing where uppercase 'R' and lowercase 'r', trigger the same area of the brain despite being completely different symbols.)
+
+### Culture affects biology in the short term and genetics in the long term
+SooS reified an important distinction between biology and genetics. Culture can certainly affect your biology IN THE SAME GENERATION. Different cultures are truly different, and emphasize different things. This results in significant biological differences. Some are more fit, others are more intelligent, others are more musical.
+
+Fascinating and starkly put: you cannot infer a species' level of intellect based on its tools. This is all downstream of their social complexity. One of the main pieces of this book is that **cultural evolution can do what genetic evolution can do, except faster, and without speciation**.
+
+### Example of culture → biology: traditional beliefs affecting lifespan
+Heinrich offers a fascinating study about Chinese Americans and their horoscope induced beliefs. In traditional Chinese culture you can be born in one of five elements: metal, water, wood, fire, and earth. Each of these is associated with a particular part of the body (from [[Chinese horoscope and calendar is actually a sixty year system]]):
+
+| Element | Birth year ending in | Body part |
+| ------- | -------------------- | --------- |
+| Metal   | 0 or 1               | Lung      |
+| Water   | 2 or 3               | Kidney    |
+| Wood    | 4 or 5               | Liver     |
+| Fire    | 6 or 7               | Heart     |
+| Earth   | 8 or 9               | Pancreas  |
+
+The study looked at the correlation of diseases that cause symptoms to these parts of the body for people that were born under the corresponding element. The control group were non-traditional Chinese Americans that didn't even knew about this system. The study showed that believing in the system took five years off of their life on average.
+
+### Two big feedback loops: generational and genetic
+One powerful idea from SooS is that there are two cultural feedback loops operating at vastly different timescales:
+
+1. **Culture → biology**: Culture which is passed from generation to generation and from one individual to the next. This is a relatively fast loop and is not especially durable. Successful transfer is not guaranteed, and knowhow can easily be lost.
+	- For example, your father may teach you how to create a bow and arrow, and you can pass that knowledge onto your children and others of the same tribe.
+2. **Culture → genetics**: And then there is a much much longer loop where culture affects the DNA. This happens over many many generations, in which a natural selection process occurs across populations where all groups are selected for being good at certain cultural practices.
+	- For example, your ancestral line got really good at bow making, which turned out to be a significant advantage. People that had more dexterous hands were better bowyers. Better bows meant people could more effectively hunt prey, provide for their families, and ensure their offspring survival. Bow making depends on having extremely dexterous fingers, which also required the evolution of finegrained neural control (e.g. FOXP2?)
+
+
+### Hominids took a while to start the cultural learning flywheel because of the cold start problem
+Why is it the case that only humans (and very few other animals) have adopted cultural learning? Henrich describes this as "Crossing the Rubicon", and it sounds like it was a pretty rough crossing.
+
+Firstly, it probably took a while. And gains can easily be offset by losses. Many civilizations lost the ability to create fire (see [[Cultural and technological progress can be lost]]).
+
+Henrich suggests that there's a cold start problem here. For cultural learning to happen, there needs to be culture that is worth adopting. If there is nothing to learn, why bother? You can rely on yourself and just start from first principles instead. And so it took a while to build up this initial corpus of useful culture to kick off the virtuous feedback loops.
+
+### Human cultures are diverse and hard to design; let a thousand flowers bloom
+Different societies vary in their social norms, institutions, languages and technologies. They have different heuristics, way of thinking, and emotional reactions to the same events. Imposition of imported institutions is often unsuccessful.
+
+Henrich takes a libertarian approach to this. Humans suck at designing effective institutions so let a thousand institutions bloom. At a meta-level, we should design a variation-and-selection system that allow alternative institutions to be tried. 
+
+(Although he never calls it out, I was reminded of the promise of charter schools and more speculatively, charter cities.)
+
+### Understanding that traditions are a result of cultural evolution is an infohazard
+Most individuals are deeply ingrained into a culture. We do not understand how much of us is a product of their environment. Reminds me of [[I am I in my circumstances (Ortega)]] and the famous DFW essay "This is Water".
+
+Most members of traditional societies, when asked for the reason they respect a taboo or practice a ritual, answer "because this is how it is done". At scale, ignorance of the deeper reason for their practice may be a self-preserving feature.
+
+Modernity makes people see their traditional background from the outside. They begin think from first principles whether they want it in their life. Many balk at the primitive and superstitious ways of their ancestors and abandon their ancestral traditions. But doing this wholesale they may be throwing out the baby with the bathwater. By discarding tradition, we drop constraints but also lose the benefits associated with them. (See [[Infohazards - some true information can harm]]).
+
+
 Math from Three to Seven by A. K. Zvonkin
 ===
 rating: yes
