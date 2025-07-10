@@ -5,8 +5,236 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-06-08T23:17:20-00:00</updated>
+  <updated>2025-07-09T17:59:56-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Secret of our Success by Joseph Henrich</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/secret-of-our-success-by-joseph-henrich"/>
+    
+    <updated>2025-07-09T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/secret-of-our-success-by-joseph-henrich</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Humans are remarkably successful as a species. Why? Many would say it's because we're just so darn smart compared to other animals, but Henrich suggests that individual intelligence plays a small role. Our collective culture is what gives our species superpowers. Henrich's thesis is that human success is due to our adaptability, which we owe not to individual intelligence but due to collective culture built over generations. Culture is so central to our species that over a long enough time horizon, cultural evolution even feeds back into our genetic evolution.</p>
+<p>I found this thesis appealing because it speaks to my inner communitarian and makes me feel better about not always being the sharpest tool in the shed. I also found a lot of great insights throughout the book, from new takes on ancient technology, to implications about artificial superintelligence. One recurring theme that fascinated me was ways in which "first principles thinking" can lead to pitfalls.</p>
+<h3>European explorers don't often survive in foreign conditions without indigenous help</h3>
+<p>A great example where human culture trumps traditional intelligence for survival in the story of Franklin's disastrous 105-person expedition to King William island. The entire crew died in the freezing ice. Other explorer crews survived there before but only through their collaboration with indigenous locals. It was only through them, and not through first principles thinking that they could learn how to survive in such a challenging and unfamiliar environment. </p>
+<h3>Cultural and technological progress can be lost</h3>
+<p>Some civilizations have lost their ability to make fire. And in these cases what they do is they try to preserve a fire that's already burning for as long as possible. If it goes out because of a storm, they have to go to their neighbors in order to light it again. </p>
+<p>This seems like a cautionary tale that progress is far from guaranteed, and requires constant effort to maintain. Even technological progress is not necessarily an arrow (see <a class="wiki" href="https://z3.ca/Moral_progress_is_a_cycle,_technological_progress_is_an_arrow">Moral progress is a cycle, technological progress is an arrow</a>).</p>
+<h3>Human digestion coevolved with cooking</h3>
+<p>There is a feedback loop between human digestion and cooking. People evolved to rely on cooking to unlock more energy from the same sources of food. As a result, most of the human digestion organs have atrophied compared to other animals, except the small intestine which remains essential for extracting nutrients from the digested extracts, whether or not they have been processed by internal organs or the process of cooking.</p>
+<p>As a result of this degenerative feedback loop, humans have smaller, weaker teeth and jaws and just generally require far less digestive instrumentation than their animal siblings. Gut tissue is really expensive to maintain compared to most other kinds of tissues in the human body. All of these savings could then be channeled into really big brains. </p>
+<h3>Brains require continuous energy → humans are fat</h3>
+<p>Unlike muscles or digestive tissue, the brain works full-time. There’s no resting at all, even at night. So it requires a source of base load energy, similar to the renewable energy challenge of producing electrical energy at night (see <a class="wiki" href="https://z3.ca/Whole_Earth_Discipline_by_Stewart_Brand">Whole Earth Discipline by Stewart Brand</a>).</p>
+<p>This explains why humans are so fat relative to other mammals: this fat can be metabolized as needed, to keep the brain going when there is not enough food around.</p>
+<h3>We culturally evolved to run, efficiently cool, and carry water</h3>
+<p>(Maybe this is covered in Murakami's "Born To Run", but I never took detailed notes when I read it long ago.)</p>
+<p>Henrich enumerates tons of adaptations for making humans superb long distance runners:</p>
+<ul>
+<li>Big gluteus maximus</li>
+<li>Springy arch in the foot</li>
+<li>Longer legs</li>
+<li>Tendency to slow twitch muscles</li>
+<li>Relative lack of hair</li>
+<li>Sweat glands</li>
+<li>Veins that cool the head</li>
+</ul>
+<p>Shockingly, the main bottleneck for other mammals long distance running ability is thermal regulation. All mammals have a very narrow operating range 36-40C. Without human-grade cooling systems, other animals just can’t sustain long term exertion. They overheat. ^facc19</p>
+<p>(Fascinating: I'm used to thermals being a limiting factor in electronics, and have never thought about it in a biological context. Also see <a class="wiki" href="https://z3.ca/Thermal_limits_are_a_fundamental_constraint_to_biology_and_electronics">Thermal limits are a fundamental constraint to biology and electronics</a>) </p>
+<p>Humans are the sweatiest animal. A big part of the human cooling system relies on sweat. We can sweat 1-2 liters per hour while running. This is way more than most other animals. This is what enables humans to be such effective endurance hunters.</p>
+<p>This is a great adaptation, but one problem with it is that we have very small amount of water storage. Donkeys can drink twenty liters of water in three minutes. Camels can drink a hundred liters of water at a time! Humans can drink at most two liters over ten minutes. This itself is not a pleasant experience, nor is the subsequent belly lurching run.</p>
+<p>We might not be able to store much water internally, but we learned to carry water externally. Hands that initially evolved to climb trees became exapted for holding, crafting, and manipulating (see <a class="wiki" href="https://z3.ca/Examples_of_exaptation">Examples of exaptation</a>). We have hands that can carry, and brains that invented water containers and ways of finding water. Gourds, ostrich eggs, gazelle stomachs are all ancient non-obvious ways of carrying water. These all had to be discovered by a rare stroke of genius and culturally transfered from generation to generation. ("L'Dor V'Dor")</p>
+<p>Other cultural techniques related to persistence hunting included:</p>
+<ul>
+<li>Knowledge of animal tracking to be able to determine where the animal went.</li>
+<li>Knowledge of animal gaits, which tend to be discrete (e.g. horses walk, trot, canter, and gallop) and map to natural paces. Equipped with this knowledge, human endurance hunters could force their prey into unnatural speeds to tire them out faster.</li>
+<li>Learning to find underground water via surface clues.</li>
+</ul>
+<h3>Lactose persistence and co-evolution</h3>
+<p>Lactose persistence is another example of culture-gene coevolution. After domesticating livestock, humans began to rely on milk for sustenance, and many humans adopted tolerance to lactose. This has evolved very quickly for a biological scale, since we only domesticated animals about 12,000 years ago. </p>
+<h3>Ritualized cooking and the perils of first principles</h3>
+<p>Cassava is a key source of nutrition in the tropics, and the fourth staple crop globally (after corn, rice, wheat), but there's one problem: it's poisonous. Henrich dives deeply into the cultural evolution around the process of cassava preparation, making it safe to eat. The indigenous method for doing this is very elaborate; far more elaborate than just boiling.</p>
+<p>Someone with a "first principles" mindset might just decide to make the process more efficient and forego the seemingly excessive parts of the complex indigenous ritual. Indeed, boiling improves the taste significantly. But it does not eliminate the cyanide that will damage the human nervous system. Perniciously, symptoms take years to develop, making for a highly unintuitive feedback loop. Relying on custom (read cultural evolution) in this case is the right move.</p>
+<p>A corn-only diet is lacking in vitamin B3 and will cause pellagra over time. This explains some seemingly irrational traditions seen in Latin America, like adding ash to corn, or mixing it with seashell crunch. These interventions react and release the B3 from the corn.</p>
+<p><a class="wiki" href="https://z3.ca/First_principles_thinking_sometimes_fails">First principles thinking sometimes fails</a></p>
+<h3>Divination as a path to true randomness</h3>
+<p>Henrich offers a fascinating interpretation of divination as a way to enforce true randomness in a situation where human biases tend to certain fallacies. </p>
+<p>For example if a river just flooded people tend to think it won’t flood again for a while. This intuition is dead wrong. In fact the opposite. A river that recently flooded is likely to flood again — get out of the flood plane!</p>
+<h3>High status can be achieved through dominance or prestige</h3>
+<p>Ever since reading <a class="wiki" href="https://z3.ca/Impro_by_Keith_Johnstone">Impro by Keith Johnstone</a>, I've been "status-pilled". "Impro" dives deeply into status in the context of improvisational theater.</p>
+<p>Here Henrich describes two kinds of status: dominance and prestige. High status people come in at least two flavors: dominant and prestigious. Sometimes they overlap, often not.</p>
+<p>Animals have a notion of status via the dominance hierarchy. Wolves, dogs, and other pack animals know this intuitively.</p>
+<p>But humans culturally evolved a powerful new idea called prestige. This helps accelerate cultural learning because you identify people that are prestigious and focus attention on them. How do you know who is prestigious? </p>
+<ol>
+<li>Intrinsically: you find them effective, smart, etc. </li>
+<li>By social cues: other people find them worthy of emulation.</li>
+</ol>
+<p>We tend to gravitate towards prestigious people. We curry favor with them. We emulate them.</p>
+<table>
+<thead>
+<tr>
+<th>Dominance</th>
+<th>Prestige</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Act in overbearing ways</td>
+<td>Self-deprecating</td>
+</tr>
+<tr>
+<td>Credit themselves</td>
+<td>Attributes success to others</td>
+</tr>
+<tr>
+<td>Tease others</td>
+<td>Tell jokes</td>
+</tr>
+<tr>
+<td>Manipulate</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Humans are adaptive cultural learners who adapt from others in their community. Use cues of prestige to pick who to learn from. Attend to particular domains in food sex danger and norm violations. </p>
+<p>But prestige is very malleable and culturally specific. In some context, great warriors are prestigious. In others, gentle nuns. In the late Roman Empire, St. Ambrose convinced rich Roman to give a lot of money to the poor as a sign of prestige. The saint gave away his wealth own wealth as a CRED.</p>
+<h3>Prestige psychology can be weilded to change preferences: James Cook's scurvy story</h3>
+<p>People's preferences are not fixed. A well-designed program can move them in desirable ways.</p>
+<p>Henrich retells a wild little story about captain James Cook and his solution to scurvy. By the time he was undertaking his voyage, Cook knew that to prevent curvy people needed vitamin C. Lemons would go bad at sea, but sauerkraut was preserved and so could last far longer, and had enough vitamin C. The problem was that sauerkraut was not very well-liked food. Cook knew that forcing his crew to eat it would cause resistance. Instead, he served it in the officers quarters. Then, when word came around to the rank-and-file that the officers were having sauerkraut, the men started to ask for it. This gave the meal prestige, everybody ate sauerkraut, got their daily dose of vitamin C, and nobody died of scurvy.</p>
+<p>A similar thing happens at a smaller and less high-stakes scale. This is what acquired taste is all about: you imitate the tastes of those you perceive to be prestigious. </p>
+<p>(A modern and specific example of this is gamification. It is prestigious to be on top in a legible way, so scoreboards are a way to encourage people to participate in things they might normally not want to do. I've seen this in engineering teams, where people are awarded for fixing bugs in fixathons, or for dogfooding products.)</p>
+<h3>Why animals and short-sighted modern humans don't care about their elders</h3>
+<p>Cultural learning involves learning from prestigious people. In a world that doesn't change very quickly, one life resembles the other from generation to generation. Thus there is massive value in learning from your elders, since they have experienced much of what you eventually will.</p>
+<p>This is why age is often a good proxy for prestige. And also why wisdom is correlated to both. The reason people live long after reproductive age is to help spread cultural evolution to their children. This gives an evolutionary explanation for why humans live far beyond their reproductive age. And it seems to generalize across species: killer whales seem to have culture and menopause.</p>
+<p>Animals that are biologically evolved to a particular niche do not need culture since they are pre-programmed by genetics to thrive in their niche. Thus animals mostly don't have cultural learning and so have no need to respect their elders. Few individuals survive into their post-reproductive years.</p>
+<p>In a quickly changing world, it may be tempting to think that your life will be drastically different from the life of your parents. Thus the experience of our ancestors is no longer applicable. Is this why today it feels that fewer people tend to focus on respecting their elders?</p>
+<p>My take is that although it appears on its face that our world is moving quickly, much of this change is happening at the highest pace layers. There are many ways in which life is not fundamentally different today compared to previous generations. Respect your elders! (See <a class="wiki" href="https://z3.ca/Moral_progress_is_a_cycle,_technological_progress_is_an_arrow">Moral progress is a cycle, technological progress is an arrow</a>)</p>
+<h3>Asking the most junior opinion first improves our collective brain</h3>
+<p>Cultures invent epistemic hacks that tame status bias and let the group’s collective brain work. The Japanese tradition of letting the most junior speak gives them a voice and encourages independent thought. (see <a class="wiki" href="https://z3.ca/Japanese_meetings_ask_junior_people_for_input_first">Japanese meetings ask junior people for input first</a>)</p>
+<p>The same idea of letting the most junior speak first was also codified in capital cases in the Jewish Sanhedrin. To be extra sure every possible leniency is considered before executing someone, all voices of the court had to be heard, starting "from the side, where the least significant judges sit" (see <a href="https://www.sefaria.org/Mishnah_Sanhedrin.4.2?lang=bi&amp;with=Commentary&amp;lang2=en">Sefaria</a>).</p>
+<p>The rule about most junior person speaking at first is apparently also held by the Canadian Supreme Court. But this rule does not hold up in the US Supreme Court. It certainly does not hold at Meta, nor did it really hold at Google.</p>
+<h3>Marriage formalizes the pair bonding instinct</h3>
+<p>Most powerful social norms are aligned with innate psychology. For example, tolerance of foreigners is much harder to spread than maternal care. Other instincts include aversion to sibling incest and desire for pair bonding.</p>
+<p>Most societies have reified the natural pair bonding instinct, but some societies did not. On one extreme, some societies have no notion of fatherhood, and children are conceived in secret visits by a man to a woman. Then the men of that society will contribute to the raising of their sister's children.</p>
+<p>On the other shocking extreme, some societies believe that inseminating a woman only once is insufficient for a successful pregnancy, and that in fact you need multiple inseminations, ideally from multiple males. This leads to multiple men claiming fatherhood status over the progeny. This sounds insane but appears to work for societies where such norms have proven to be internally consistent. In such cases, studies show the best number of fathers to have is two.</p>
+<p>In societies that allow polygyny (multiple wives for one husband) most prominent men tend to have more wives. Thus a large percentage of less successful men remain unmarried which increases conflict and has other negative effects. This is a sort of inequality that is resolved pretty easily by enforcing pair bonding norms. If you enforce monogamy, you also encourage more fathers, more men that are "domesticated", and a more harmonious civilization.</p>
+<h3>How pair bonding evolved</h3>
+<p>Henrich describes how pair bonding may have evolved from the primate default: mothers alone are responsible for raising the next generation. Great apes never know who their father is, thus the adolescent males have no male model to emulate. Unless he had siblings from the same brood, the mother would be the only kin that he would know. Without pair bonding, male generation-to-generation cultural learning is stymied.</p>
+<p>Concealed ovulation is another trick to encourage more pair bonding. If you don’t know when your partner is ovulating, the male is incentivized to be with her all the time, both to ensure that he is the rightful sire to any progeny, and to prevent any unwelcome approaches of other males. (See <a class="wiki" href="https://z3.ca/Menstrual_vs_estrous_cycles">Menstrual vs estrous cycles</a>).</p>
+<h3>Meat taboos encouraged collective meal sharing</h3>
+<p>Many tribes have very specific meat taboos. Sometimes young men have to eat specifically the stomach lining and genitals of the game, while the hunter may only be given the ribs and the left shoulder, for example.</p>
+<p>The meat taboos were enforced by people being told that disobeying them would lead to a bad hunt in the future. This was very effective in behavior change. Confirmation bias helped: if violation of the taboo did lead to a bad hunt the story would be remembered and retold. But otherwise the data point would be soon forgotten since nobody kept detailed records. </p>
+<h3>North America shows transitions from one dominant group to another</h3>
+<p>Henrich recounts the typical situation of one dominant group displacing and ultimately replacing another. The same thing happened even pre-European conquest in America. </p>
+<p>The Numic peoples, including Shoshone, Paiute, and Utes spread into the Great Basin (most of Nevada but also some Utah and California) around the 12th century, displacing <a href="https://en.wikipedia.org/wiki/Fremont_culture">Fremont-style farmers</a>. Their edge came from hunting small game and foraging seeds, storing caches of nuts, knitting water-tight baskets, and being nomadic, and thus able to regroup fast when resources thinned.</p>
+<p>After around 1700, European horses diffused into the Shoshone culture. A small breakaway group called the Comanche adopted horses fully and expanded dramatically. They pushed back the Spanish and the other Numic groups. The comanche dominated the continent until the United States came together and conquered the Comanche.</p>
+<h3>In-lab behavior shows that people's pro-social preferences are biased by cultural norms</h3>
+<p><strong>The ultimatum game</strong>: two participants. One is given the task of proposing how to split $100 between self and other. </p>
+<p>The other has the choice whether to reject or accept. If reject nobody gets anything. Otherwise people get paid the proposed amount. </p>
+<p>Rationally you should always accept for a nonzero amount. But the western adult norm is 50-50.</p>
+<p>Another lab game is <strong>the free rider game</strong>. A group of people has to decide how much to give to a pot which is divided evenly. The pot initially has 4 per person and people can give up to 4 dollars. </p>
+<p>The “rational” solution is to give nothing and be a free rider.</p>
+<p>Internalized social norms help people easily navigate social environments. Helps them comply with local normals without much thinking. </p>
+<p><strong>Public goods game</strong>: group does best if everyone cooperates but individual does best if everyone ELSE cooperates.</p>
+<p>Group of 4 in a single interaction. Each person is given 4 dollars. Whatever enters the project is doubled and equally distributed.</p>
+<p>If all contribute, 16 in the pot is doubled to 32, then split four ways. They all come back with $8.</p>
+<p>Otherwise, if one person doesn’t contribute while the rest do, the pot of \$12 doubles to \$24, split four ways. This gives the defector 6$ plus his original 4$, $2 more than his conformist outcome. Thus there is an incentive to defect. </p>
+<p>And yet, people do tend to add something into the pot.</p>
+<h3>Simple agent-based simulations suggest being dumb but social is far better than being a smart loner</h3>
+<p>Very clear example of <strong>genius vs butterfly</strong>: two groups are very different. Describes an agent based simulation. </p>
+<p>Geniuses are 100x more likely to invent something. Butterfly are 10x more interconnected.  By being connected to someone that invents something you have some chance of learning it. </p>
+<p>Imagine this for one invention. Over time the invention will either be invented by the individual or passed on to them. </p>
+<p>But the butterfly group is far faster at this diffusion process. So it pays to be social rather than smart</p>
+<p>Also having a <strong>large group is better than a small one</strong> because it increases the size of the collective brain. This is why cities are so powerful: many people, densely interconnected.</p>
+<p>Also see this <a href="https://claude.ai/chat/1684f614-de53-4d39-84a3-a6f81de9b7a8?artifactId=genius-butterfly-simulation">Genius-butterfly simulation</a> (thx claude).</p>
+<h3>Sign language and whistle languages as cultural adaptation</h3>
+<p>I had no idea that there were sign languages in indigenous North American culture. Apparently, Plains Indian Sign Language (<a href="https://en.wikipedia.org/wiki/Plains_Indian_Sign_Language">PISL</a>) was a sort of lingua franca for many tribes that did not share a spoken tongue. <a href="https://www.youtube.com/watch?v=s1-StAlw3aE">video</a></p>
+<p>Whistle languages are expressive and used by mountainous tribes, where multiple adjacent villages are close in distance as the crow flies but good but take a long time to get from one to the other because of the challenging terrain. Especially in <a href="https://en.wikipedia.org/wiki/Turkish_bird_language">Turkey</a>, confusingly called "Turkish bird languages". <a href="https://www.francescaphillips.com/written-in-the-wind/">Written in the Wind</a> is a film about the whistle languages spoken (whistled?) on the Canary Islands.</p>
+<h3>Sonority and color in language-culture</h3>
+<p>Fascinatingly, language sonority (depth and fullness) basically varies with the temperature of the areas in which the language is spoken. The warmer the climate, the more sonorous the tone of the language. Henrich explains that this is because in warmer climates, more of the conversations happen outdoors, so acoustics are worse, and higher sonority means that others can hear you better. In cold countries where people spend more time indoors, it's easier to hear people are more prone to mumbling. This eventually gets culturally encoded in the way the language is spoken.</p>
+<p>In some primitive languages, there are only words for light and dark. If you have three color words, you typically have white, black, and red. At the next level of complexity is white, black, red, blue, green, and yellow. Henrich claims that black, white and red are the only colors mentioned in a bunch of Greek literature. That seems specious to me — doesn't Homer famously describe the sunrise as a "rosy-fingered Dawn" and "Dawn on her golden throne"? (see <a href="/books/the-odyssey-translated-by-emily-wilson-audio/">The Odyssey transated by Emily Wilson</a>)</p>
+<h3>Fine motor skills are required for both speech and complex tool use, and may be linked in an amplifying feedback loop</h3>
+<p>Henrich opened my mind to the connection between spoken language and dexterity: fine motor skills. Whether it is fine motor control of your digits or your tongue, the same part of the brain is responsible for the human level of control required. Language and tool use seems to be common across the cerebellum and the motor cortex brain regions. <strong>FOXP2</strong> on Chromosome 7 might be the genetic ticket to making this happen.</p>
+<p>It's unclear how the arrow of causality flies. Did humans first learn to speak, enhancing their motor control abilities which led them to increased dexterity, or was it the other way around? Language was probably not the main cause of cultural evolution, but probably accelerated it. Whatever the origins, there is a clear feedback loop between dexterity, speech, and the fine motor control centers of the brain.</p>
+<p>You can see it is interrelated anecdotally. When performing fine finger motions  or learning a dance move people often stick out their tongue.</p>
+<p>(Aside: totally surprising that the same area of one's brain that is responsible for a face recognition is also used in helping to read. The brain does letter boxing where uppercase 'R' and lowercase 'r', trigger the same area of the brain despite being completely different symbols.)</p>
+<h3>Culture affects biology in the short term and genetics in the long term</h3>
+<p>SooS reified an important distinction between biology and genetics. Culture can certainly affect your biology IN THE SAME GENERATION. Different cultures are truly different, and emphasize different things. This results in significant biological differences. Some are more fit, others are more intelligent, others are more musical.</p>
+<p>Fascinating and starkly put: you cannot infer a species' level of intellect based on its tools. This is all downstream of their social complexity. One of the main pieces of this book is that <strong>cultural evolution can do what genetic evolution can do, except faster, and without speciation</strong>.</p>
+<h3>Example of culture → biology: traditional beliefs affecting lifespan</h3>
+<p>Heinrich offers a fascinating study about Chinese Americans and their horoscope induced beliefs. In traditional Chinese culture you can be born in one of five elements: metal, water, wood, fire, and earth. Each of these is associated with a particular part of the body (from <a class="wiki" href="https://z3.ca/Chinese_horoscope_and_calendar_is_actually_a_sixty_year_system">Chinese horoscope and calendar is actually a sixty year system</a>):</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Birth year ending in</th>
+<th>Body part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metal</td>
+<td>0 or 1</td>
+<td>Lung</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>2 or 3</td>
+<td>Kidney</td>
+</tr>
+<tr>
+<td>Wood</td>
+<td>4 or 5</td>
+<td>Liver</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>6 or 7</td>
+<td>Heart</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>8 or 9</td>
+<td>Pancreas</td>
+</tr>
+</tbody>
+</table>
+<p>The study looked at the correlation of diseases that cause symptoms to these parts of the body for people that were born under the corresponding element. The control group were non-traditional Chinese Americans that didn't even knew about this system. The study showed that believing in the system took five years off of their life on average.</p>
+<h3>Two big feedback loops: generational and genetic</h3>
+<p>One powerful idea from SooS is that there are two cultural feedback loops operating at vastly different timescales:</p>
+<ol>
+<li><strong>Culture → biology</strong>: Culture which is passed from generation to generation and from one individual to the next. This is a relatively fast loop and is not especially durable. Successful transfer is not guaranteed, and knowhow can easily be lost.<ul>
+<li>For example, your father may teach you how to create a bow and arrow, and you can pass that knowledge onto your children and others of the same tribe.</li>
+</ul>
+</li>
+<li><strong>Culture → genetics</strong>: And then there is a much much longer loop where culture affects the DNA. This happens over many many generations, in which a natural selection process occurs across populations where all groups are selected for being good at certain cultural practices.<ul>
+<li>For example, your ancestral line got really good at bow making, which turned out to be a significant advantage. People that had more dexterous hands were better bowyers. Better bows meant people could more effectively hunt prey, provide for their families, and ensure their offspring survival. Bow making depends on having extremely dexterous fingers, which also required the evolution of finegrained neural control (e.g. FOXP2?)</li>
+</ul>
+</li>
+</ol>
+<h3>Hominids took a while to start the cultural learning flywheel because of the cold start problem</h3>
+<p>Why is it the case that only humans (and very few other animals) have adopted cultural learning? Henrich describes this as "Crossing the Rubicon", and it sounds like it was a pretty rough crossing.</p>
+<p>Firstly, it probably took a while. And gains can easily be offset by losses. Many civilizations lost the ability to create fire (see <a class="wiki" href="https://z3.ca/Cultural_and_technological_progress_can_be_lost">Cultural and technological progress can be lost</a>).</p>
+<p>Henrich suggests that there's a cold start problem here. For cultural learning to happen, there needs to be culture that is worth adopting. If there is nothing to learn, why bother? You can rely on yourself and just start from first principles instead. And so it took a while to build up this initial corpus of useful culture to kick off the virtuous feedback loops.</p>
+<h3>Human cultures are diverse and hard to design; let a thousand flowers bloom</h3>
+<p>Different societies vary in their social norms, institutions, languages and technologies. They have different heuristics, way of thinking, and emotional reactions to the same events. Imposition of imported institutions is often unsuccessful.</p>
+<p>Henrich takes a libertarian approach to this. Humans suck at designing effective institutions so let a thousand institutions bloom. At a meta-level, we should design a variation-and-selection system that allow alternative institutions to be tried. </p>
+<p>(Although he never calls it out, I was reminded of the promise of charter schools and more speculatively, charter cities.)</p>
+<h3>Understanding that traditions are a result of cultural evolution is an infohazard</h3>
+<p>Most individuals are deeply ingrained into a culture. We do not understand how much of us is a product of their environment. Reminds me of <a class="wiki" href="https://z3.ca/I_am_I_in_my_circumstances_(Ortega)">I am I in my circumstances (Ortega)</a> and the famous DFW essay "This is Water".</p>
+<p>Most members of traditional societies, when asked for the reason they respect a taboo or practice a ritual, answer "because this is how it is done". At scale, ignorance of the deeper reason for their practice may be a self-preserving feature.</p>
+<p>Modernity makes people see their traditional background from the outside. They begin think from first principles whether they want it in their life. Many balk at the primitive and superstitious ways of their ancestors and abandon their ancestral traditions. But doing this wholesale they may be throwing out the baby with the bathwater. By discarding tradition, we drop constraints but also lose the benefits associated with them. (See <a class="wiki" href="https://z3.ca/Infohazards_-_some_true_information_can_harm">Infohazards - some true information can harm</a>).</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Math from Three to Seven by A. K. Zvonkin</title>
@@ -3286,159 +3514,6 @@ provides...</p>
         <p>The Ministry for the Future opens with an emotional and memorable vignette. Frank, an American doctor on a mission to Rajasthan, finds himself in the middle of a monstrous heatwave. Wet bulb temperatures reach a point that is no longer survivable by humans. He and many others try to seek shelter in a lake, but it is warmer than the air. Thousands die, but he miraculously survives. Frank is emotionally scarred for the rest of his life.</p>
 <p>After the strong opening, Ministry veers away from its narrative roots. A nominal plot remains, but is secondary to the author’s intent. Instead KSR takes the reader on a tour of various contemporary considerations to do with climate change. He talks about high wet bulb temperatures leading to hyperthermia, discusses the limitations of the GDP as a metric for measuring progress, accuses the unwashed masses of voting against their self interests (a pet peeve of mine, see <a class="wiki" href="https://z3.ca/Voting_against_narrow_self-interests_in_post-scarcity">Voting against narrow self-interests in post-scarcity</a>). KSR reminds us about Jevon’s paradox, and posits that wealthier people are less happy than their poorer peers. He even goes on weird tangents that never get resolved, like the one about <a class="wiki" href="https://z3.ca/Lamed-Vav_Tzadikim">Lamed-Vav Tzadikim</a>.</p>
 <p>Ministry is a fine introduction to climate adjacent issues in a more digestible form. But I found the bait-and-switch aspect downright annoying. I sought a novel (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>), but instead found a series of didactic asides.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Grand Transitions by Vaclav Smil</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/grand-transitions-by-vaclav-smil"/>
-    
-    <updated>2022-04-08T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/grand-transitions-by-vaclav-smil</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Up front approach is interesting. Having worked with Jay Forester at MIT on early modeling, Smil is not a big believer in models.</p>
-<p>Instead of simple models Smil takes a more contingent, event based approach to the topic. Some things progress in an evolutionary way. But others are dependent on human action and sudden unexpected discontinuities. Even the title “Grand Transitions” harkens to a punctuated equilibrium view of progress.</p>
-<p>Smil alludes to the <a class="wiki" href="https://z3.ca/Expected_vs_unexpected_inventions">Expected vs unexpected inventions</a> framing I first heard from Clarke (see <a class="wiki" href="https://z3.ca/Profiles_of_the_Future_by_Arthur_Clarke">Profiles of the Future by Arthur Clarke</a>). He thinks that information scaling inventions like the printing press and the internet tend are especially likely to have unexpected consequences and break existing models.</p>
-<h1>S curves everywhere</h1>
-<p>Reminiscent of Perez in her <a class="wiki" href="https://z3.ca/Installation_vs_deployment_phases_of_innovation_(Carlotta_Perez)">Installation vs deployment phases of innovation (Carlotta Perez)</a>, Smil sees S-curves everywhere and warns about over-extrapolating exponential growth. Reminds me that <a class="wiki" href="https://z3.ca/Forecasting_s-curves_is hard">Forecasting s-curves is hard</a>.</p>
-<p><strong>Human ➡ animal ➡ machine power</strong>: draft horses peak in 1910 at 20 million draft horses in the US and are then obsoleted by mechanical tractors, but this transition takes decades. As they grow, populations of draft horses and tractors form S curves:</p>
-<p><strong>Transatlantic travel</strong> only became possible in the 15th century. Then sailing frigates took about a month to cross. Steam powered ships that would eventually take an order of magnitude less time (Lucitania in 4 days). This transition took a century around 1830-1930. Then the transition to jet air travel, yielded a further reduction of 1.5 orders of magnitude (5h). This was a much faster transition of just a decade or so in the 1950s.</p>
-<p>But not all “epochal transitions” pan out as S-curves. Some exponential growth turns out to be a false start in retrospect.</p>
-<p><strong>Early electric cars</strong> were the first and most promising ground transport in the late 19th century. The first car to reach 100 km/h was electric. Edison bet big on them but gas internal combustion won instead. Smil doesn’t elaborate as to why but I suspect energy density has a big role to play (more on this later). It isn’t until now that the epochal transition to EVs is underway. But predictions are such that we won’t have majority electric on the roads until at least 2040.</p>
-<p><strong>Nuclear energy generation</strong> is another example of a false start that looks even more bleak. Peaking at 17% of global energy output, current projections are just 4% of global energy by 2040. Culprits appear to be going over budget and safety. Also see <a class="wiki" href="https://z3.ca/Nuclear_power_is_hampered_by_regulation_(ALARA)">Nuclear power is hampered by regulation (ALARA)</a>.</p>
-<h1>Demographic transitions</h1>
-<p>The developed world is characterized by a shift in equilibrium from high fertility and high mortality to a new one, balancing low fertility and low mortality.</p>
-<p><strong>Demographic dividend</strong> refers to the benefit a polity experiences when the majority of its citizens are of working age. The ratio of working population (20-65) to their dependents (young and old) is an interesting metric to track. A society with high mortality and high fertility has an young average age, and many young dependents. As mortality and fertility decrease, the average citizen is of working age and the society reaches a stage of development that pays a high demographic dividend because many workers support few dependents. In next equilibrium, the average population becomes old and once again there are many dependents.</p>
-<p><strong>Median ages vary hugely per country</strong>. The Japanese median age is 47.3, while the Guatemalan median age is 22.1. The demographic dividend will be greatly advantageous to young countries (see <a href="https://en.wikipedia.org/wiki/List_of_countries_by_median_age">chart</a>).</p>
-<p>Smil is pretty pessimistic about lifespan extension because he sees it as an S-curve that tapers out at around 80 years old. Increased societal longevity should definitely come with an older retirement age!</p>
-<p>Japan leads the way here and is projected to be depopulating at a huge rate. 120 M now. 100 M by 2050. 88 M stable state. Villages are shrinking.</p>
-<p><strong>Urban vs rural footprints</strong>: Smil criticizes cities for being terrible polluters. This directly contradicts the common wisdom that cities and dense living is far more efficient per-capita. Isn’t it actually quite good to be in a city because of the benefits of proximity?</p>
-<p>Smil's argument is that cities are actually worse per capita from an environment perspective. A villager that moves to town may have been used to one light per room but now has a bigger TV. Another urban downside is that heat islands are 3-8 degrees higher in cities.</p>
-<p>Which one is right?</p>
-<p><strong>Humans win mammal population density</strong>: 50k humans / square km density in parts of Manila is equivalent to 2kg of human biomass per square m. This is than for any mammal.</p>
-<h1>Economic transitions</h1>
-<p>Although agriculture is only 0.7% of the GDP, it is underrated: “Let those economists live off the main sector of GDP: financial services,” quips Smil.</p>
-<p><strong>Agriculture improvements</strong>: Huge yield gains. Lots of automation in food production, clear when you consider output in terms of time per weight of output. (Interesting idea: use agriculture as a terminus for <a class="wiki" href="https://z3.ca/Asimov's_Tech_Tree">Asimov's Tech Tree</a>)</p>
-<ul>
-<li>1800: 7 minutes per kilogram of wheat. Tools: two oxen, a wood plow, brush harrows, sickles to cut, flails to thresh.</li>
-<li>1900: 25 seconds per kilogram of wheat, an 18x improvement. heavy horses, a steel gang plow led by a team, iron tooth harrows, seed drill, horse drawn combine for harvesting and threshing.</li>
-<li>2000: 6 seconds per kilogram, a 4x improvement. Large tractors are equivalent to 500 horses, high capacity combines.</li>
-</ul>
-<p>Farming trends:</p>
-<ul>
-<li>Specialization: 5 crops per farm in 1900 -&gt; 1.1 crops per farm in 2000.</li>
-<li>Centralization: fewer but larger farms.</li>
-</ul>
-<p><strong>Energy subsidies</strong>: Modern agriculture requires a lot of additional energy beyond just the natural sunlight, in the form of fertilizer, irrigation, fuel for farm equipment. 4% of global energy goes to these energy subsidies. Without them, we couldn’t feed the current population of 7.5B.</p>
-<p><strong>Animals are especially energy-intensive</strong>: Based on this line of thinking, animals cost a lot more based on just the energy required to produce the feed. Animals also require structures and maintenance of those structures. And there are additional costs around transportation.</p>
-<p><a class="wiki" href="https://z3.ca/History_of_crop_rotation_technology">History of crop rotation technology</a></p>
-<p><strong>Fertilizers and side effects</strong>: Guano was used as early fertilizer. By 1824, there was an active Peruvian import business. Nitrate was the first inorganic fertilizer. Use of Fertilizers meant crops grow better and are more attractive to pests. Thus, insecticides.</p>
-<p><strong>Feeding draft animals</strong>: There is a complex relationship between draft animals, and the feed they require which detracts from crop yields. More than half of all food production is animal feed (!). Smil suggests that animals could be far more sustainable if they were allowed to graze naturally.</p>
-<p>(There's a nice opportunity to explain these things using feedback loops, along the lines of <a class="wiki" href="https://z3.ca/Horses,_peasant_mobility_and_urbanization">Horses, peasant mobility and urbanization</a>. Just like in the middle ages, draft animals and farm mobility in general cuts across all these aspects: planting, harvesting with combines, and transportation.</p>
-<p><strong>Animal mass to feed ratios</strong>: A metric to measure the efficiency of animal protein production. Input is weight of feed, output is the animal weight that can be consumed.</p>
-<ul>
-<li>Chickens: 3:1 (3 kg and feed produces 1 kg of chicken)</li>
-<li>Pork: 9:1</li>
-<li>Beef: 25:1</li>
-</ul>
-<p>For aquaculture it’s 3:1 but varies with species. For example, it's 1.8 for farmed Atlantic Salmon.</p>
-<p><strong>Dietary patterns</strong>: Two major attractors for dietary patterns as societies become more affluent.</p>
-<ol>
-<li>Western-style 3200 kcal per day and 30% of calories from animal products.</li>
-<li>Mediterranean/Asian style has fewer calories per day (2400 kcal) and less reliance on animal products.</li>
-</ol>
-<p>Remarkable stats in Japan. Rice intake (by weight) went from 60-70 percent in 1950 to just 20% today. Now the Japanese diet is more dairy than rice (by calories) and this shift in just 50 years post WW2.</p>
-<p>Smil is genuinely impressed with the long way we’ve come on ending malnutrition and famines, though a combination of increased farming efficiency and science (see <a class="wiki" href="https://z3.ca/List_of_micronutrients_and_deficiencies_in_humans">List of micronutrients and deficiencies in humans</a>). But he's miffed that this truly amazing story gets so little airtime in terms of “great innovations to celebrate” compared to smartphones and Steve Jobs and as he disparagingly puts it “putting new cardboard on electronics manufactured in China”.</p>
-<p>This reminds me a lot of this idea from <a class="wiki" href="https://z3.ca/What_can_a_technologist_do_to_accelerate_electrification">What can a technologist do to accelerate electrification</a>:</p>
-<blockquote>
-<p>The inconveniences of daily life are not the significant problems. The world that scrolls past you on Twitter is not the real world.</p>
-</blockquote>
-<h1>Energy transitions</h1>
-<p>The usual energy progression is this:</p>
-<ol>
-<li>Wood</li>
-<li>Coal</li>
-<li>Oil</li>
-<li>Gas</li>
-</ol>
-<p>Smil tracks the dates at which each country transitioned from mostly X to mostly Y. Transition years vary widely by country. England moved to coal very early and this catalyzed the Industrial Revolution.</p>
-<p>Some countries and regions skipped whole steps, for example going straight from wood burning to oil and never ramping up and coal industry, or jumping directly to hydroelectricity.</p>
-<p><strong>Transportation</strong>: There's an impressive increase in shipping container payload: from 100 twenty foot equivalent unit (TEU) in 1950 to 23,000 TEU in 2020.</p>
-<p><strong>Kerosene vs. diesel vs. gasoline, etc</strong>: Oil (aka Petroleum) is generally found as a yellowish-brown liquid in geological formations. It can then be refined into a variety of fuels. Kerosene (aka paraffin) is the basis for airplane fuel. Diesel fuel has many applications from small engines powering a private car to large marine engines. There are many other kinds of petroleum based fuel types, including Heavy Fuel Oil (HFO) which powers some of the largest container ships.</p>
-<p><strong>Air travel</strong>: Kilometers traveled per passenger is a useful metric for quantifying air travel. It's hard to predict where this S-curve will level out.</p>
-<p><strong>Horses vs oxen</strong>: Smil estimate of horse power vs ox power is surprising. 7x human for horse and only 2.5x human for ox?! This is surprising, since I read elsewhere (<a class="wiki" href="https://z3.ca/Medieval_Technology_and_Social_Change_by_Lynn_White">Medieval Technology and Social Change by Lynn White</a>) that horses were quite weak compared to oxen, although this was before selective breeding made them stronger, and before horse collars.</p>
-<p><strong>Power-to-weight ratios</strong>: Turbofans have the highest watts per kg density of any machine. (How does my e-foil motor compare? Back of napkin calculation the 65161 has max output 6 kW and weight 3 kg.)</p>
-<p><strong>Electricity is amazing</strong>: Smil writes a real ode to electricity. It's a marvel that powers all of modernity: lossless to deliver from station to home. Completely silent and non polluting at conversion point. Safe. Easy to convert to motion heat and light. The world saw extremely rapid electrification of urban and rural households. From start to finish, the S-curve took only 75 years. Energy transitions take decades, even if highly desirable.</p>
-<p><strong>Lumens per watt</strong>: A metric for measuring light efficiency. Incandescent to CFL to LED. It's plummeted over the last two centuries.</p>
-<p><strong>Cooking range transitions</strong>: early ranges were electric, then switched to gas and are now returning to electric induction stoves. Has this transition happened?</p>
-<p><strong>So many air conditioners</strong>: Wild that us a conditioner penetration is 95% in the US. I double checked this, Google says 90%.</p>
-<p><strong>Efficiency in transport</strong>: Not covered directly but I wondered how to compare various modes of transportation. The result is my note on <a class="wiki" href="https://z3.ca/Efficiency_of_transportation_modes">Efficiency of transportation modes</a>.</p>
-<p><strong>Efficiency gains without drastic changes</strong>: We tend to underrate  and under report incremental improvements as key components of an invention. The first steam engine in the 18th century had a 1% efficiency. Watt's improvements doubled it to just 2%. But then subsequent unnamed inventions made efficiency rise to 8%.</p>
-<p>Modern gasoline engines are substantially more efficient (usually 30-35% efficiency). Diesel is a bit better, around 45% efficient.</p>
-<h1>Economic transitions</h1>
-<p>There is no clear marker for completed economic transition. For demographics, the transition happens when the birth rate plummeted below replacement. For energy, a transition happened when a country fully switches from plant based fuels.</p>
-<p><strong>Growth is slowing</strong>: Also, GDP over time curves appear as S curves with inflection points in the recent past for most developed countries. This means growth is slowing. However, it's unclear if this GDP stat can be trusted.</p>
-<p>One economic transition model:</p>
-<ol>
-<li>Primary markets: focus on raw materials.</li>
-<li>Secondary markets: focus on refining the materials, creating goods from them.</li>
-<li>Tertiary markets: everything else that meets consumer demands. Includes services.</li>
-</ol>
-<p>Primitive societies are heavily skewed towards primary markets. As societies progress, they tend to shift to tertiary markets, focusing on services. Here's the graph for the US:</p>
-<p>Another economic transition involves more people traveling further. This includes for work commutes as well as travel for leisure. Since 1800, people travel an order of magnitudes more for work than before.</p>
-<p><strong>Electronics are surprisingly energy intensive</strong>: Total energy costs to manufacture all electronics (computers, phones etc) was 1 exajoule (EJ). Compared to all cars at 7EJ. This despite the fact that all cars manufactured weigh 100x as much. Why? Partly due to planned obsolescence and rapid improvement of electronics. (I really should strive to <a class="wiki" href="https://z3.ca/Buy_it_for_life">Buy it for life</a> with these electronics devices as much as possible. Optimize for longevity. Including my current iPhone. It’s just wasteful otherwise.)</p>
-<h1>Climate transitions</h1>
-<p>Interesting foray into anthropogenic climate change from pre-modern humans:</p>
-<ol>
-<li>Impact of runaway fires from cooking accidents</li>
-<li>Extinction of mega fauna due to migrating hunters (and climate changes)</li>
-<li>Impact of early farming on soil PH and other indicators</li>
-<li>Deforestation</li>
-</ol>
-<p><strong>Forest density on ice-free land</strong>: In terms of tree cover, the metric is mainly forests as measured by sufficient tree density on ice free land. So that means you can take a country and divide its total land by total ice-free land by the percentage of that ice-free land that has forest on it. By this metric most developed world countries have increasing tree cover. And furthermore as climate reduces the amount of ice covered land because of warming, this metric will increase further.</p>
-<p>Anyway things are looking pretty dicey.</p>
-<p>And we have to reduce CO2 impacts pronto:</p>
-<blockquote>
-<p>According to the latest available science, achieving the long-term temperature goal would require global greenhouse gas emissions to peak by 2020 and subsequently be reduced to zero before the end of the century. To limit warming to 1.5°C, this reduction to zero must take place around 2050</p>
-</blockquote>
-<p>But Smil doesn't think this future is likely, because there's really no reason to imagine it would be so. We're still increasing the absolute amount of CO2 emissions. The relative ratio of fossil fuels is declining, but the absolute amount of energy generated is increasing. The population is still projected to keep growing to 9 B by 2050. And as countries in Asia and Africa become more prosperous (hopefully), the energy footprints will increase. Per capita, the middle class in America take 500 GJ per year, compared to per capita in the developing world at 20 GJ per year, an order of magnitude less.</p>
-<p>(Kinda bored of the environment section, moving on)</p>
-<h1>Conclusion</h1>
-<p>Smil is highly critical of singularity believers like Ray Kurzweil. He’s also critical of “endless progress” narratives like those of Steven Pinker. And those that try to thread the needle between the two like Noah Yuval Harari (see <a class="wiki" href="https://z3.ca/Homo_Deus_by_Yuval_Noah_Harari">Homo Deus by Yuval Noah Harari</a>).</p>
-<p>Instead Smil aligns himself in between techno optimists and systems thinkers with an understanding of natural limits like Meadows (see <a class="wiki" href="https://z3.ca/Thinking_in_Systems_by_Donella_Meadows">Thinking in Systems by Donella Meadows</a>).</p>
-<p>Rather than make predictions, Smil attempts to give a lower bound on the fastest possible time to make future transitions.</p>
-<p>Projections of population are still like 9+ billion for 2050. These projections may be conservative but still likely to be wrong. Even though they are on S curves and not naive projections, S curves are hard to predict (see <a class="wiki" href="https://z3.ca/Forecasting_s-curves_is_hard">Forecasting s-curves is hard</a>). And also, this does not take into account any discontinuous events and black swans.</p>
-<p>Random things to look into:</p>
-<ul>
-<li><strong>Pumping water up-hill as giant battery</strong>: Apparently the efficiency of storage of a large water reservoir that is artificially pumped up is extremely good, an only 25% loss from this, and stores energy extremely well. Far better than any chemical battery could.</li>
-<li>Look for energy density comparison (in watts per kg) of batteries versus kerosene for air travel and diesel for large naval engines.</li>
-<li>Apparently the energy footprint of wood vs plastic is heavily in favor of wood. What are the implications of that?</li>
-</ul>
-<p><strong>Collective action problems</strong>: The global dysfunction in the back of global wisdom Homosapien sapiens is a major barrier to reducing climate impact. In general the collective action problem is basically unsolved as we can see in the 21st-century. Related to <a class="wiki" href="https://z3.ca/Collective_action_problems_aka_social_dilemmas">Collective action problems aka social dilemmas</a>.</p>
-<p>Smil ends with a #2x2:</p>
-<pre><code>|            | Simplicity     | Complexity          |
-| ---------- | -------------- | ------------------- |
-| Minimalism |                | Smil's prescription |
-| Maximalism | High modernism |                     |
-</code></pre>
-<p>Complexity:</p>
-<ul>
-<li>Favor a multitude of approaches rather than relying on a single perfect solution (eg. No magic geo engineering bullet)</li>
-<li>No place for a priori ideological purity. No insistence on what is best. Pragmatism (eg. Open to nuclear)</li>
-<li>A hyper-focus on electrification may be over doing it (ahem <a class="wiki" href="https://z3.ca/Rewiring_America_by_Saul_Griffith">Rewiring America by Saul Griffith</a>). Avoid killing hydrogen vehicles by overtly favoring EVs with excessive rebates and ownership targets.</li>
-</ul>
-<p>Minimalism:</p>
-<ul>
-<li>Systemic small changes can help a lot. Not all fruits need to be available year round. Not all cars need to be SUVs.</li>
-</ul>
 
         
       </div>
