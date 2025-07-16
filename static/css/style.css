@@ -1,3 +1,7 @@
+@view-transition {
+  navigation: auto;
+}
+
 * {
   box-sizing: border-box;
   text-rendering: optimizelegibility;
