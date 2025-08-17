@@ -4,6 +4,58 @@ class: split
 type: book
 
 
+Battle of Maldon & Homecoming of Beorhtnoth
+===
+rating: no
+posted: Aug 11, 2025
+
+I learned about the Old English Poem "Battle of Maldon" from a David Chapman in a [recent podcast](https://jimruttshow.blubrry.net/david-chapman/) with Jim Rutt, which I found really insightful. I haven't read meaningness for a long time. But Chapman seems to have reemerged onto my radar recently in a series of compelling articles on his (new?) [substack](https://meaningness.substack.com/).
+
+And so I picked up this lauded Tolkien book in anticipation of something extra amazing, but found it to be too dry and academic for my simple tastes. That said I was intrigued by Old English and inspired by read Beowulf in a recent translation someday soon.
+
+The poem Battle of Maldon covers the eponymous event, in which an Earl named Byrhtnōð and his Anglo-Saxon forces were defeated by marauding Vikings in 991. The poem and Tolkien's analysis revolves mainly around Byrhtnōð's hubris. He decided not to pay the Danegeld (Viking tribute) and instead confronted the Vikings on unfavorable terms. Rather than fighting the invaders at their strategically disadvantageous position across a narrow land bridge, he honored their request to do battle on equal terms. This led to the overwhelming defeat of his army and his own death.
+
+Was Byrhtnōð honorable for giving the invading Viking army a fair fight? Or was he dishonorable because his overconfidence (ofermōd) led to the massacre of his own men? Tolkien is clearly in the latter camp, critical of Byrhtnōð's actions, summarized in his quote from Beowulf: "by one man’s will many must woe endure", which also sounds pretty dope in OE: "oft sceall eorl monig ānes willan wræc ādreogan".
+
+Much of this book is devoted to quite academic essays but I did enjoy The Homecoming of Beorhtnoth, which is essentially Tolkien's fanfic sequel to the Battle of Maldon, in which two men come to collect Byrhtnōð's corpse. In one section Torthelm speaks memorably in the "voice of one speaking in a dream":
+
+> There are candles in the dark and cold voices.
+> I hear mass chanted for master’s soul
+> in Ely isle. Thus ages pass,
+> and men after men. Mourning voices
+> of women weeping. So the world passes;
+> day follows day, and the dust gathers,
+> his tomb crumbles, as time gnaws it,
+> and his kith and kindred out of ken dwindle.
+> So men flicker and in the mirk go out.
+> The world withers and the wind rises;
+> the candles are quenched. Cold falls the night.
+
+[[Old English pronounciation cheatsheet]]
+
+Piranesi by Susanne Clark
+===
+rating: yes
+posted: July 25, 2025
+cover: /assets/book-covers/piranesi.jpg
+
+I enjoyed this book so much that I bought a copy for S. It's a slow build, but I found it compelling from the start. Although the overall mystery of the novel is revealed by the end, the explanation the Clark offers is a bit disappointing. Not to brag, but I found it less compelling than some of the alternative theories I imagined while reading the book. As the book unfolded, I enjoyed the variety of possible explanations Clark's writing evoked in my mind. 
+
+**The LLM/robot theory**. I took notes as I listened and my understanding of the protagonist evolved. The connection between Piranesi's fixation on minutiae struck me as familiar. It reminded me of  pattern-matching behavior of savants as well as large language models so I first thought Piranesi must be an LLM. Then as the world revealed itself to be compellingly physical, I thought that Piranesi was a sentient robot. (This is perhaps more a reflection of where my mind is at these days.) Eventually when Piranesi's corporeal aspects were revealed, it seemed inevitable that he must be human, or at least physically so. 
+
+Perhaps an LLM is all that remains once you strip a human of all of his embodied experiences...?
+
+**The simulation theory**. Perhaps the house itself has a life of its own. At least in Piranesi's understanding, the house provides for him. Perhaps this is a simulated house? Or are the statues symbols inside Matthew’s head, like a memory palace?
+
+**The Other vs. Piranesi**. The contrast between Piranesi's pure pursuit of understanding and The Other's transactional stance is starkly described. Piranesi is a purist, interested in knowledge for knowledge’s sake. He's in it because he believes and enjoys the process, period. The other, in contrast, is deeply incurious, interested only in power.
+
+**Named years**. Because Piranesi has a distorted sense of time, rather than numbering years, he gives them names. One was named the "year the albatross came to the south-western halls". This is such a poetic way to mark the passage of time, I found it very inspiring. Relatedly, it reminded me that I am [[In favor of more cyclic celebrations with period longer than a year]].
+
+**Dancing with the occult**. Is Lawrence Sales based on Timothy Leary or William Burroughs? The final reveal sheds light (in a [[Power of Fiction]] way) the sort of occult activities that are described in [John Dee and the Empire of Angels by Jason Louv](/books/john-dee-and-the-empire-of-angels-by-jason-louv/). The recurring "Addy Domarus" theme is a good touch that adds to the occult feeling, especially because of how it evokes "Dei" and "Dominus".
+
+Anyway, I really liked this one — well worth your time!
+
+
 Secret of our Success by Joseph Henrich
 ===
 rating: yes
