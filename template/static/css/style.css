@@ -153,6 +153,7 @@ article h3 {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
+  text-wrap: pretty;
 }
 
 article h3 {
@@ -162,6 +163,7 @@ article h3 {
 article p {
   letter-spacing: 0.15px;
   margin: 1rem 0;
+  text-wrap: pretty;
 }
 
 article strong {
@@ -374,6 +376,7 @@ section#archives a {
 
 section#archives .title {
   display: inline-block;
+  text-wrap: pretty;
   line-height: 1.2;
   margin-right: 6rem;
 }
