@@ -4,6 +4,74 @@ type: note
 class: split
 
 
+The pursuit of frictionless capture
+===
+posted: Sep 29, 2025
+
+The most fruitful moments for contemplation are often the least conducive to capture. I've been working on reducing friction in capturing thoughts, feelings, and ideas wherever I may be and whatever I may be doing. At the same time, I want to stay in the moment and not get distracted by the act of capturing itself. 
+
+In addition, I want to retain control over all of this data. It should be stored in human-friendly plaintext format. It should touch as few servers as possible and come to rest on a surface that I control.
+
+I am excited about all three of the capture methods I'm about to share with you. Three questions to whet your appetite:
+
+1. What if you could freewrite with pen on paper and have the salient bits magically show up in my digital note corpus?
+2. What if you could use your locked smartphone to type a note without ever being distracted by its contents?
+3. What if you could dictate notes while walking, running, or riding a bike *without even requiring a smartphone*?
+
+To motivate this, watch this quick summary of the scenarios above, and read on for some tech details for how it all works.
+
+<iframe width="600" height="394" src="https://www.youtube-nocookie.com/embed/7B-42UeuIps?si=dNDpceiSLafEifhh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<!--more-->
+
+# Capture fragments from e-ink notebook
+
+**Vision: Freewrite with pen on paper and have the salient bits magically show up in my digital note corpus.**
+
+I've been using an e-ink writer called the Supernote Nomad for the last half year. It's light, portable, and almost feels like a reasonable replacement for paper. Additionally, the [Staedtler Digital pencil][pencil] feels nice in the hand and has a soft digital eraser which feels great. Most of my use is in meetings or at appointments where I want to be fully present.
+
+Supernote has a cloud sync service with [unofficial but stable APIs][supernote-api]. Notes are saved in a proprietary but reverse-engineered `.note` file, see [unofficial python library][supernote-python]. Supernote's built-in on-device transcription does a good job transforming sketches of symbols into unicode characters. For example, a hand drawn rightward arrow is reliably transcribed into "→" and a square box is reliably transcribed as "☐". Relying on this, my conversion script scours the transcript for lines that begin with special characters. "→" is an indication that the following line should be captured in a note. "☐" indicates that what follows should be captured as a TODO item. These items are then saved in the daily inbox `YYYY-MM-DD.md` file along with a link to the note itself, which can be rendered by an [Obsidian plugin][supernote-plugin].
+
+[supernote-api]: https://github.com/bwhitman/supernote-cloud-python
+[supernote-python]: https://github.com/jya-dev/supernote-tool
+[supernote-plugin]: https://github.com/philips/supernote-obsidian-plugin
+[pencil]: https://www.staedtler.com/us/en/discover/noris-digital/
+
+# Capture from phone
+
+**Vision: Press a locked iPhone's action button and type a note without ever being distracted by your phone's contents.**
+
+My Apple Shortcut [Type Note](https://www.icloud.com/shortcuts/a0046291c36e4ff9b1e9e508a50af1be) appends typed text to a `YYYY-MM-DD.md` file saved to a directory stored on iCloud Drive. This directory is then symlinked into my Obsidian vault. This works quite well in practice, with Obsidian Sync seeming to have no issues integrating this into the rest of the vault. Another Shortcut [Dictate Note][dictate-note], does the same thing but with voice input. A third shortcut I call "Magic Mode" runs when the iPhone's action button is pressed, and decides which of the two to call depending on context.
+
+This works super well. I'm pleased that Apple has fixed longstanding issues with the "Ask for text" action in Shortcuts, which, when activated from a lock screen, used to dismiss far too quickly despite the user actively typing on the onscreen keyboard.
+
+[dictate-note]: https://www.icloud.com/shortcuts/590b74fe358b42eaa919755a9783af34
+
+
+# Dictation from watch
+
+**Vision: Dictate notes while walking, running, or riding a bike *without requiring a smartphone*. You are *never cut off* and the result is a high quality, timestamped transcript.**
+
+My current solution is to use my custom [Record Note](https://www.icloud.com/shortcuts/6668b84b335949cd8ad82c5f86cbea79) shortcut which records audio and saves it to an iCloud drive directory. An hourly script running on my trusty MacMini looks for new recordings and transcribes them with [whisper][]. This approach is more reliable than other alternatives I have experimented with. Here are some failure modes I am now avoiding:
+
+- **Dictation failures**: sometimes using [Dictate Note][dictate-note] shortcut, dictation inexplicably fails, simply stating "dictation failed" with no ability to recover. This never happens with a recording.
+- **Minute limit**: [Dictate Note][dictate-note] only works if the recording is under a minute. Beyond that, all transcription stops, and the result of dictation is an empty transcript.
+- **Location failures**: [Dictate Note][dictate-note] does a location lookup. This often fails on the watch and is not critical for capturing the note itself. Record Note does not request location to increase reliability.
+- **Built-in mic**: [Just Press Record][jpr] is a well known Apple Watch compatible app that provides a dead simple recorder UI. It even works fully offline! But it has one major flaw, which is that it uses the default microphone attached to the watch, with no ability to override. This is a major problem while running or biking, where wind noise in the AirPods is overwhelmingly loud and ruins the quality of the recording. Meanwhile, the Record Note shortcut always uses the built-in microphone whether or not the AirPods are attached, producing far cleaner transcripts.
+
+Dictation failure is a catastrophic scenario. It's also awkward as hell since as it turns out, you were just a crazy person talking to yourself all along. Rather than dictating in real-time, it's totally fine to sacrifice latency in favor of reliability.
+
+[whisper]: https://github.com/openai/whisper
+[jpr]: https://www.openplanetsoftware.com/just-press-record/
+
+---
+
+As you have seen, I currently have three note inboxes which originate from various devices. Obsidian itself also has an inbox which I tend to use if I am note taking while at the computer. The result is at least four inboxes all of which need to be consolidated. I'll focus on this in the next post, as we'll dive into my Friday afternoon note detangling ritual. This has become something I really look forward to as the week winds down.
+
+This post serves as a snapshot-in-time of my current daily note taking rituals as of September 2025. My current setup is highly customized to my specific needs, but in the spirit of working "with the garage door up", I thought it would be fun to share with you. Code available on request, email me.
+
+
 Invention & Discovery Cards work complete
 ===
 posted: Jan 24, 2025
