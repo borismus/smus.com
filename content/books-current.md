@@ -4,6 +4,87 @@ class: split
 type: book
 
 
+Monkey by Arthur Waley
+===
+rating: yes
+posted: Oct 17, 2025
+cover: /assets/book-covers/monkey.jpg
+
+I recently sat down with B^2 and we decided to watch a Chinese film. We considered Wolf Warrior, but Ne Zha 2 had just blown up to become China's most popular film ever made, and currently stands as the #5 top grossing worldwide film in history, so we set out to watch it. I didn't last long. While I did not love the video game rendering style, I felt like I was missing cultural prerequisites to understand what was actually happening.
+
+Later summarizing [Steve Mintz article](https://substack.com/inbox/post/172251492?r=2tyal&utm_medium=ios&triedRedirect=true) which explains why the world's biggest film bombed in America, I wrote:
+
+> Ne Zha 2's massive success in China ($2.2 billion worldwide) but failure in America exemplifies the clash between Chinese epic storytelling and American narrative expectations of the linear individual triumph of a hero's journey. The film's rejection arguably reflects Hollywood's declining ability to absorb and transform foreign cinematic traditions, a strength it once wielded to incorporate German Expressionism, Italian Neorealism, and Japanese samurai epics into its own idiom.
+
+Events did not really cohere. Things just seemed to randomly happen. Anyway, after dinner with B^2 and IM, I got some good suggestions for what to read to fill some cultural gaps, and "Monkey" seemed like the most accessible choice. 
+
+# Plot
+"Monkey" (1942) is a western-oriented abridged translation of "Journey to the West", compiled around the 16th century. Journey to the West is often considered the most popular literary work of East Asia. As I understand it, its footprints are all over Chinese culture.
+
+The first half chronicles the adventures of a magical monkey born of a stone egg that through great determination becomes a heavenly deity. However he is still a monkey, and as such, he is a bit too rambunctious and uncultured and is ultimately imprisoned back into a mountain for 500 years for his mischief. The second half begins with Quan Yin setting up a religious pilgrimage to fetch Buddhist scriptures from India. She previews the path of the pilgrim, setting the scene for a successful journey and foreshadowing much of the trip to come. Eventually a monk named Tripitaka volunteers to make this journey and gathers a small troupe of powerful disciples to take the trip together, including Monkey, Pigsy, Sandy, and a white mare-dragon (long story). 
+
+While the first half of the story is completely fantastical and adventurous, with Monkey's powers on full display, the second half is relatively subdued. Tripitaka has full control over monkey through a magical golden headband which can give monkey a terrible headache if he misbehaves. Further, Monkey's powers seem diminished in unpredictable ways. This book is full of memorable characters and stories, but I must say that I was far more enthralled with the first half than with the second, which seemed to drag on.
+
+The adventure book features many memorable moments:
+
+- Tripitaka's origin story is quite good. Chen Guangrui aces the imperial exam and saves a golden carp (secretly the Dragon King's son) on his way to his new post. A bandit murders him, assumes his identity, and marries his already-pregnant wife. She gives birth, bites off the baby's toe as a marker, and sends him down the river in a basket where Buddhist monks rescue and raise him. Eighteen years later, the grown monk (Tripitaka) discovers the truth through his mother's identification of his missing toe. The Dragon King resurrects his father from the riverbed as repayment for saving the carp, justice is served, and Tripitaka - proven both pure and destined - is chosen for the Journey to the West.
+- When an evil dragon eats Tripitaka's horse, it turns out this was preordained by Quan Yin. And so the dragon turns into the horse it just ate, and becomes Tripitaka's new mount for the Journey to the West. But oddly, doesn't really do anything until everyone ascends into the Buddhist pantheon. Just a regular horse.
+- Pretty spectacular episode with Tripitaka and the three disciples crossing over this river on a giant 40-foot white turtle that somehow feels obliged to help them out after they defeated the monster that entrapped them under ice. 
+
+
+First I should say that these are "tourist notes". I have never read anything Chinese before. This is an abridged translation, which is doubly dubious. In summary, I have no idea what I'm talking about and this is mainly for me documenting my own reactions in the moment. I would love to be corrected about everything. Send mail.
+
+# My reaction, in brief
+
+When Quan Yin foreshadows the journey, the author is setting expectations then and then delivering on them. I am reminded of the formula from Grimm's fairytales, that [[Good Storytelling is about setting expectations and then fulfilling or thwarting them]]. I loved an article about this, [Ogres Are Cool](https://www.lrb.co.uk/the-paper/v47/n05/colin-burrow/ogres-are-cool) by Ann Schmiesing, which I summarized as follows:
+
+> A meandering and misleadingly named look at the rhythm of storytelling in Grimm's fairytales, where part of the joy is more or less knowing what’s going to happen in advance while still being delighted as the storyteller fulfils or thwarts the reader's expectations. A very fat man with insatiable appetite may have to eat an entire mountain of bread or drink a lake, rather than just chewing through a feast. A hare can be a prince. Or a hare can be a hare.
+
+And the book chapters flow with little transition teasers/cliffhangers which remind me of my Russian childhood ("if you want to know what happened next..."), in particular this one story by Даниил Хармс:
+
+> Выехали мы из города и поехали, а куда приехали и что с нами там приключилось, об этом мы вам в следующий раз расскажем.
+
+Like Ne Zha 2, I felt the same "one damn thing after the next" vibe. "Things just happen" without systematic explanation. Monkey alternates between all-powerful and helpless. Tripitaka is pathetically useless despite controlling omnipotent disciple. At one moment the party is concerned with falling through the ice, so must carry long objects across their body in case they fall in. But this is ridiculous in a world with so much magic: flying, transformations, immortal peaches. A mundane physics-based safety measure feels hilariously out of place. Like why worry about ice when Monkey can cloud-somersault 54,000 miles? (Clearly my Western narrative standard bias is showing, eh?)
+
+Also, like Ne Zha 2, I was surprised by the crassness of the humor at times. Around the time I stopped watching, the film's protagonist accidentally urinates into a sacred vessel. Later the high priest unwittingly drinks it. I was surprised to find that this episode is lifted directly from the Taoist temple episode from Monkey, where an evil king worships false Gods (actually animal spirits). Monkey, Pigsy, and Sandy drink the actual elixir, then urinate in the vessels to replace it. The Taoist priests later consume it reverently, believing it's holy.
+
+I listened to the book via Audible. The narrator's voice was quite impressive, mainly in the diversity of voices he can take on, but not enjoyable exactly. I think it's a great voice for Monkey, just the sort of polite but very mischievous tone is perfect.
+
+# What I think I learned about Chinese culture
+
+**Two Parallel Pantheons**. Initially I was confused about the various deities involved in the book and had this mental model: Buddha > Jade Emperor > Bodhisattvas (like Quan Yin) > Immortals. But it turns out there are two parallel religious systems at play: Buddhism and Taoism.
+
+- Buddhism: the Buddhas are the highest state and there are Bodhisattvas like Quan Yin which are enlightened but remain earthbound to help others.
+- Taoism: the Jade Emperor is the supreme diety of heaven's bureaucracy with various immortals, gods and spirits reporting to him.
+
+This duality is key to understand the Buddhism vs. Taoism dynamic throughout the second half of the book, where much ink is spilled on explaining how Buddhism good, Taoism bad. In the Taoist temple episode, the adventurers have  ridiculous contests (head-chopping, disemboweling, surviving boiling oil) with the Taoist immortals and eventually expose the "immortals" as a tiger, deer, and ram spirit. The whole sequence is basically Buddhist propaganda showing Taoists as gullible fools worshiping demons.
+
+My simplified mental model of Taoism is that it's a sort of Chinese folk culture which predates Buddhism's arrival. Like Shintoism in Japan, it coexists with Buddhism, involves nature spirits and ancestor worship. But Taoism seems to be more systematized religion than Shintoism, with its own philosophical texts, organized pantheon, and priestly class.
+
+**Symbolism of Nine**. Nine skulls, nine rings, nine orifices, nine times distilled elixir. 81 calamities needed (9×9) for completion of the Journey. Apparently nine is a big deal and also represents the imperial number. 
+
+**Time system**. the traditional Chinese system divided night into five named periods of about 2 hours each. Also there is such a thing as Chinese zodiac hours. Hour of dragon, hour of sheep = 12-hour cycle where each is named after an animal.
+
+**Bureaucracy** Gods know exactly who dies when, and what the weather will be. Everything is kept in order. When they arrive back and the celestial accountants tally up the calamities, they realize that they were one short. They _need_ 81 (9×9 perfection). So they retroactively declare the turtle incident the 81st calamity to complete the set. It's hilariously bureaucratic - heaven literally fudges the numbers to hit the mystical target. The world is a machine and only the Jade Emperor has the manual.
+
+Tropes that might be universals?
+
+- **Save a goldfish** If you save a special fish, it will come back and grant you wishes. In the Chinese version, Tripitaka's father saves a magical goldfish after he sees its eyes flutter tellingly. He releases it and as it turns out, it was a dragon and the dragon later repays his savior in kind, saving his life. (Russian: Сказка о рыбаке и рыбке)
+- **Baby on river** Tripitaka's mother, in a desperate attempt to save him from his father's murderer, brings her baby to the river. She ties baby Tripitaka to a plank and of course the baby is going to be rescued by someone and raised in their care (Moses)
+- **Magic-granting clothing**: a magic cassock is apparently able to grant invulnerability to drowning and such.
+- **Comic relief** through a contrast between solemnity and unseriousness. Monkey and Pigsy and are over-the-top ridiculous, mischievous, and uncultured. But Tripitaka is extremely sanctimonious and prone to bouts of to crying. Similar contrasts are very much visible in Ne Zha 2.
+- **Child sacrifice**: an episode which almost directly mirrors the Minotaur also demanding child sacrifice from the people of Minos.
+
+Tropes that might be East Asian specific?
+
+- **Pig transformation**: Pigsy was originally a man but turned increasingly pig-like. A loss of humanity through indulgence. Is this where the Spirited Away scene comes from?
+- **Hair transformation**: Single hairs of Monkey and other sages can be transformed into complete creatures or arbitrary objects. Or tens of thousands of hairs can turn into an army.
+- **Reincarnation**: Reincarnation, a prominently Buddhist idea, is featured all over the place. Tripitaka's father ends up dead for 17 years, buried at the bottom of the river, only to be resuscitated for saving the golden carp. Other cases abound.
+- **Underwater royal courts** consisting of dragon kings, fish generals, crab chancellors was part of some really vivid worldbuilding.
+
+I'll be re-watching Ne Zha 2 soon. However I will probably hold off on reading the full Journey to the West in Anthony C. Yu's acclaimed four-volume translation for a while.
+
+
 Hard to Be a God by The Strugatskys
 ===
 rating: yes
