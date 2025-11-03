@@ -5,8 +5,60 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-10-17T21:43:09-00:00</updated>
+  <updated>2025-11-02T16:33:30-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Livewired by David Eagleman</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/livewired-by-david-eagleman"/>
+    
+    <updated>2025-11-02T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/livewired-by-david-eagleman</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Eagleman's book is an easy read given the complexity of the topic. I have a feeling that he is simplifying a lot for dramatic effect. Here are a few big ideas I took away from it:</p>
+<h2>Background: the brain is extremely malleable</h2>
+<p>Eagleman's "Potato Head Model" suggests you can plug any input anywhere and the brain adapts. This was dramatically demonstrated when scientists grafted a third eye onto tadpoles and watched their brains reorganize to accommodate it. Unlike other organs with specialized structures, all cortex is fundamentally the same neural matter that becomes specialized through its inputs, not inherent differences. The "visual cortex" is only visual because eye data flows there; reroute sound there instead (as with blind people), and it becomes auditory. This is a fundamental principle of how brains self-organize around whatever inputs they receive.</p>
+<h4>The homunculus body to brain mapping</h4>
+<p>The body's various sensors can be mapped onto the brain's somatosensory cortex, which forms a sort of "unfolded" version of the human body. The mapping is not arbitrary: adjacent body parts tend to also be adjacent in the brain. Similarly, the motor cortex is structured similarly. </p>
+<p>The amount of cortex dedicated to each body part is reflective of the importance of the body part in terms of neural resources. Over half of the brain seems to be dedicated to the hands and face, both in input and output domains.</p>
+<p><img alt="Homunculus: body mapped onto brain.png" src="/assets/book-reviews/homunculus.jpg" /></p>
+<p>In additional, Eagleman presents a hypothesis is that the most flexible circuits of the brain mirror the most variable parts of the environment. </p>
+<h4>Neurons like drug dealers fighting for territory</h4>
+<p>The brain's organization emerges from constant neural warfare. Eagleman's provocative metaphor casts neurons as drug dealers fighting for territory - they compete for neurotrophins (their "currency") and die without connections. This creates a Cold War-like equilibrium of constant tension without visible conflict, similar to tensegrity structures that achieve stability through opposing forces (see <a class="wiki" href="https://z3.ca/Tensegrity_is_stability_under_tension_from_multiple_forces">Tensegrity is stability under tension from multiple forces</a>). Dreams suddenly make sense in this framework: they're the visual cortex's nightly defense against colonization. Without regular activity during sleep's darkness, neighboring regions would invade that valuable neural real estate. Every night, your visual system fights to maintain its territory through the strange theater of dreams. </p>
+<p>I'm also reminded of the brain necessarily being always-on, as described in <a href="/books/secret-of-our-success-by-joseph-henrich/">Secret of our Success (SooS) by Joseph Henrich</a>.</p>
+<h2>The older the brain, the less flexible it is</h2>
+<p>The brain's flexibility follows a strategic timeline, with different systems locking down at different ages based on environmental predictability. Quick recalibrations happen constantly:</p>
+<ul>
+<li>Waterfall aftereffect - static appears to move</li>
+<li>Sea legs - anti-rocking sensation on land</li>
+<li>IBM display - after watching a black and red CRT monitor, everything becomes red-tinged</li>
+</ul>
+<p>But deeper changes have critical periods. Children can learn a new language perfectly fluently, and have no accent before age 8.</p>
+<p>Eagleman's key insight is that flexible brain circuits mirror variable environments. Vision and audition lock down early (light and sound physics don't change), while motor control and face recognition stay plastic (you'll use new tools and meet new people throughout life). By adulthood, changes become incremental rather than revolutionary:</p>
+<blockquote>
+<p>Through years of border disputes, neural maps become increasingly solidified. An older brain cannot easily reassign settled territories for new tasks</p>
+</blockquote>
+<p>This isn't a bug! Complete malleability would mean losing your identity and skills. Phantom limbs are the price of being able to remember who you are.</p>
+<h2>Neural memory architecture as pace layers</h2>
+<p>I was intrigued by the brain's pace layers. The hippocampus acts as a fast learning system for immediate experiences, while the cortex slowly consolidates patterns over years. This architecture solves the stability-plasticity dilemma: how to learn new things while preserving identity. It also helps to explain dementia, which doesn't "reveal" childhood memories so much as strip away the layers that normally compete with them.</p>
+<h2>Brains are far more advanced than today's LLMs</h2>
+<p>It's tempting to regard our brain as just a complex computer (see <a href="https://aeon.co/essays/your-brain-does-not-process-information-and-it-is-not-a-computer#:~:text=six%20different%20metaphors%20people%20have%20employed%20over%20the%20past%202%2C000%20years%20to%20try%20to%20explain%20human%20intelligence">Six metaphors for human intelligence</a>), but this would be a mistake. Even with 2025's state of AI, there are still major differences:</p>
+<ul>
+<li>Continuous learning: No separate training phase</li>
+<li>Balanced retention: Preserves abilities while gaining new ones</li>
+<li>Neurogenesis: Brains grow new neurons, artificial neural nets don't</li>
+<li>Relevance detection: Brains have interests, AI doesn't</li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Monkey by Arthur Waley</title>
@@ -3403,37 +3455,6 @@ This khan in velvet boots, citing Schedrin and living by the law of the jungle, 
 <p>This short parable is told by a Priest, and the bulk of the story involves K. (Kafka?), the receiver of the story in conversation with the priest about various interpretation of the story. Is the man deluded? Is the guard? Who is more free?</p>
 <p>A fascinating, self-referential, format. I see the man as a stand-in for K., and the priest as a stand-in for the guard. Where does the reader fit? What about the author? Reminds me a lot of Borges, and a little bit of Ted Chiang. (I’d love to do a group reading session around a story like this. I miss my Multiplayer Essay concept.)</p>
 <p><strong>Poseidon</strong>: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Arcadia by Tom Stoppard</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/arcadia-by-tom-stoppard"/>
-    
-    <updated>2022-06-11T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/arcadia-by-tom-stoppard</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>It's pretty funny but in a very high falutin’ way, which detracts from the
-comedy.</p>
-<p>Isn’t that conjecture just Laplace’s Demon? From WP:</p>
-<blockquote>
-<p>Laplace's demon is a hypothetical all-knowing being who knows the precise location and momentum of every atom in the universe, and therefore could use Newton's laws to reveal the entire course of cosmic events, past and future. Based upon the philosophical proposition of causal determinism.</p>
-</blockquote>
-<p>Septimus &amp; Chater demanding satisfaction exchange is hilarious!</p>
-<p>Overall I’m struggling to follow the arc. Lots of wit but just very much a
-comedy of errors. I might try again when I'm in a more frivolous headspace.</p>
-<p>A stray thought: I haven't tended to really enjoy plays much. Is this a lack of
-imagination on my part? Perhaps it takes more work to truly imagine each
-character delivering their lines without any of the scaffolding a narrator
-provides...</p>
 
         
       </div>
