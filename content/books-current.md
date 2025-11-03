@@ -4,6 +4,59 @@ class: split
 type: book
 
 
+Livewired by David Eagleman
+===
+rating: yes
+posted: Nov 2, 2025
+cover: /assets/book-covers/livewired.jpg
+
+Eagleman's book is an easy read given the complexity of the topic. I have a feeling that he is simplifying a lot for dramatic effect. Here are a few big ideas I took away from it:
+
+## Background: the brain is extremely malleable
+
+Eagleman's "Potato Head Model" suggests you can plug any input anywhere and the brain adapts. This was dramatically demonstrated when scientists grafted a third eye onto tadpoles and watched their brains reorganize to accommodate it. Unlike other organs with specialized structures, all cortex is fundamentally the same neural matter that becomes specialized through its inputs, not inherent differences. The "visual cortex" is only visual because eye data flows there; reroute sound there instead (as with blind people), and it becomes auditory. This is a fundamental principle of how brains self-organize around whatever inputs they receive.
+
+#### The homunculus body to brain mapping
+The body's various sensors can be mapped onto the brain's somatosensory cortex, which forms a sort of "unfolded" version of the human body. The mapping is not arbitrary: adjacent body parts tend to also be adjacent in the brain. Similarly, the motor cortex is structured similarly. 
+
+The amount of cortex dedicated to each body part is reflective of the importance of the body part in terms of neural resources. Over half of the brain seems to be dedicated to the hands and face, both in input and output domains.
+
+![Homunculus: body mapped onto brain.png](/assets/book-reviews/homunculus.jpg)
+
+In additional, Eagleman presents a hypothesis is that the most flexible circuits of the brain mirror the most variable parts of the environment. 
+
+#### Neurons like drug dealers fighting for territory
+The brain's organization emerges from constant neural warfare. Eagleman's provocative metaphor casts neurons as drug dealers fighting for territory - they compete for neurotrophins (their "currency") and die without connections. This creates a Cold War-like equilibrium of constant tension without visible conflict, similar to tensegrity structures that achieve stability through opposing forces (see [[Tensegrity is stability under tension from multiple forces]]). Dreams suddenly make sense in this framework: they're the visual cortex's nightly defense against colonization. Without regular activity during sleep's darkness, neighboring regions would invade that valuable neural real estate. Every night, your visual system fights to maintain its territory through the strange theater of dreams. 
+
+I'm also reminded of the brain necessarily being always-on, as described in [Secret of our Success (SooS) by Joseph Henrich](/books/secret-of-our-success-by-joseph-henrich/).
+
+## The older the brain, the less flexible it is
+The brain's flexibility follows a strategic timeline, with different systems locking down at different ages based on environmental predictability. Quick recalibrations happen constantly:
+
+- Waterfall aftereffect - static appears to move
+- Sea legs - anti-rocking sensation on land
+- IBM display - after watching a black and red CRT monitor, everything becomes red-tinged
+
+But deeper changes have critical periods. Children can learn a new language perfectly fluently, and have no accent before age 8.
+
+Eagleman's key insight is that flexible brain circuits mirror variable environments. Vision and audition lock down early (light and sound physics don't change), while motor control and face recognition stay plastic (you'll use new tools and meet new people throughout life). By adulthood, changes become incremental rather than revolutionary:
+
+> Through years of border disputes, neural maps become increasingly solidified. An older brain cannot easily reassign settled territories for new tasks
+
+This isn't a bug! Complete malleability would mean losing your identity and skills. Phantom limbs are the price of being able to remember who you are.
+
+## Neural memory architecture as pace layers
+I was intrigued by the brain's pace layers. The hippocampus acts as a fast learning system for immediate experiences, while the cortex slowly consolidates patterns over years. This architecture solves the stability-plasticity dilemma: how to learn new things while preserving identity. It also helps to explain dementia, which doesn't "reveal" childhood memories so much as strip away the layers that normally compete with them.
+
+## Brains are far more advanced than today's LLMs
+It's tempting to regard our brain as just a complex computer (see [Six metaphors for human intelligence](https://aeon.co/essays/your-brain-does-not-process-information-and-it-is-not-a-computer#:~:text=six%20different%20metaphors%20people%20have%20employed%20over%20the%20past%202%2C000%20years%20to%20try%20to%20explain%20human%20intelligence)), but this would be a mistake. Even with 2025's state of AI, there are still major differences:
+
+- Continuous learning: No separate training phase
+- Balanced retention: Preserves abilities while gaining new ones
+- Neurogenesis: Brains grow new neurons, artificial neural nets don't
+- Relevance detection: Brains have interests, AI doesn't
+
+
 Monkey by Arthur Waley
 ===
 rating: yes
