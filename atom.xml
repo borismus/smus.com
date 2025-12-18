@@ -5,8 +5,114 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2025-12-12T23:25:33-00:00</updated>
+  <updated>2025-12-18T15:47:07-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Local e-ink handwriting recognition with on-device VLMs</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/notes/2025/local-e-ink-handwriting-recognition-with-on-device-vlms"/>
+    
+    <updated>2025-12-18T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/notes/2025/local-e-ink-handwriting-recognition-with-on-device-vlms</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>For decades, I've carried a Field Notes notebook and a pen. I mainly used them to capture ideas on the go, but it would also be great to sketch out a diagram, or to journal a little bit, especially while traveling. </p>
+<p>Fast note-taking via the iPhone's action button has alleviated a lot of my need for quickly capturing ideas. But nothing can replace pen and paper for long form stream-of-consciousness writing or diagramming. </p>
+<p>I wanted to give my writing a digital life alongside the rest of my notes. So a year ago, I bought an A5 e-ink writer called Supernote. I really like it so far: it's a good size, input latency is reasonable, and the overall writing experience is fine. The device provides real-time text recognition on-device and a modest cloud syncing service. I've been using their unofficial API to sync notes and bring them into my Obsidian inbox. But then something happened...</p>
+<!--more-->
+
+<ol>
+<li>I wrote quite a bit on the Supernote during my trip to Patagonia, and came back to realize that the on-device recognizer has a pretty high error rate.</li>
+<li>Supernote Cloud enabled mandatory two-factor authentication. This broke my programmatic access to their cloud. So much for <a href="https://smus.com/notes/2025/the-pursuit-of-frictionless-capture/#:~:text=Supernote%20has%20a%20cloud%20sync%20service%20with%20unofficial%20but%20stable%20APIs.%20Notes%20are%20saved%20in%20a%20proprietary%20but%20reverse%2Dengineered%20.note%20file%2C%20see%20unofficial%20python%20library.">"unofficial but stable"</a>.</li>
+<li>The quality of handwriting recognition using Vision Language Models (VLMs) has skyrocketed, including for models capable of running locally on a modern Mac.</li>
+</ol>
+<h1>Measuring handwriting recognition accuracy</h1>
+<p>Just three weeks ago (November 2025), someone released <a href="https://www.ocrarena.ai">OCR Arena</a>, a knockoff of <a href="https://lmarena.ai">LM Arena</a> but for comparing VLMs in their OCR abilities. AI is moving so quickly, as soon as you have a cool idea, someone's just done it!</p>
+<p>OCR Arena compares the latest crop of VLMs but obviously does not include Supernote's on-device handwriting recognizer, nor does it include previous generation OCR libraries. I wanted a more broad-based multi-way comparison specific to my scenario. How well do the various approaches work on my handwriting on this device? I set out to compare a few different approaches to this problem:</p>
+<ul>
+<li>A state-of-the-art cloud model (e.g. Anthropic's <code>claude-opus-4-5-20251101</code>)</li>
+<li>A state-of-the-art open weights VLM capable of running on my stock Mac Mini M4 (e.g. <code>qwen3-vl:8b</code>)</li>
+<li>The real-time handwriting recognition engine which runs on the Supernote e-ink writer device.</li>
+<li>Traditional, pre-LLM OCR systems. (I realize tesseract is not the best for this, but still an interesting baseline.)</li>
+</ul>
+<p>I put together a tiny evaluation set which included five handwritten pages from my Patagonian journal, and manually transcribed them for ground truth. Claude and I built a small evaluation script for transcribing the examples in the dataset and comparing Word Error Rates (WER) across them. </p>
+<p>To make this concrete, here's a page I wrote from my travel log and the ground truth I manually transcribed:</p>
+<p><img alt="Handwritten journal page from Supernote e-ink tablet with ground truth transcription" src="/assets/ocr-original-to-groundtruth-comparison.png" /></p>
+<p>And here's a side-by-side comparison of the transcript produced by qwen3-vl:8b, Supernote's on-device model, and tesseract:</p>
+<p><img alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
+<p>As you can see, tesseract produces terrible output. This is not surprising, since it's not trained for handwritten text but printed text. To do this right, you'd need to retrain it with a corpus of handwritten documents, but I still wanted to include it as a baseline.</p>
+<p>Supernote's real-time on-device handwriting recognizer does reasonably well sometimes, but other times goes off the rails, as you can see in the example above. For the curious, code for these benchmark scripts <a href="https://github.com/borismus/supernote-ocr-bench">is available</a>.</p>
+<p>Calculating word error rates and aggregating all the pages' WER scores resulted in the following table:</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>WER Mean</th>
+<th>Latency Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>claude-opus-4-5-20251101</td>
+<td>0.0308</td>
+<td>6.17s</td>
+</tr>
+<tr>
+<td>qwen3-vl:8b</td>
+<td>0.0514</td>
+<td>74.13s</td>
+</tr>
+<tr>
+<td>supernote</td>
+<td>0.2731</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>tesseract</td>
+<td>0.9533</td>
+<td>0.57s</td>
+</tr>
+</tbody>
+</table>
+<h1>Improving qwen3-vl:8b with a bit of prompting</h1>
+<p>Surprisingly, the prompt given to <code>qwen3-vl:8b</code> matters quite a bit. My initial prompt was:</p>
+<pre><code>prompt = &quot;Extract all text from this handwritten note. Return only the transcribed text in markdown format, without any additional commentary or formatting.&quot;
+</code></pre>
+<p>With this basic prompt, <code>qwen3-vl:8b</code> would get stuck in a thinking loop and return an empty transcript at all about a quarter of the time. This failure mode would take hundreds of seconds and eventually end up repeating the same word dozens of times and then timing out.</p>
+<p>After some experimentation with prompt and other parameters, I found empirically that updating the prompt seemed to reduce this rate to almost zero:</p>
+<pre><code>prompt = &quot;&quot;&quot;You are an OCR engine, not a writing assistant.
+
+Task:
+- Read the handwritten note in the image.
+- Output the exact transcription of the text as plain markdown.
+
+Critical constraints:
+- Do NOT explain what you are doing.
+- Do NOT think step-by-step.
+- Do NOT describe, analyze, or comment on the note.
+- Do NOT use phrases like &quot;let's&quot;, &quot;wait&quot;, &quot;first line&quot;, &quot;next line&quot;, &quot;line X&quot;, &quot;Got it&quot;, or &quot;step by step&quot;.
+- Do NOT mention spellings or say how words are written.
+- Do NOT repeat any single word more than twice in a row.
+- If you notice yourself repeating a word or phrase, immediately stop and output your best single transcription of the whole note.
+- Your entire response must be ONLY the final transcription text, nothing else.&quot;&quot;&quot;
+</code></pre>
+<h1>Integration into my System for Thought</h1>
+<p>Now that I had some metrics for word error rates across various approaches, I was able to make an informed decision driven by these considerations:</p>
+<ul>
+<li><strong>Privacy &gt; everything</strong>. Privacy preservation is extremely important to me as I'm journalling about potentially very personal topics. I don't want my journal in anyone's training set.</li>
+<li><strong>Accuracy &gt; latency</strong>. Supernote's on-device transcription is handy, but I'm mostly not in a hurry. I'd happily trade speed for higher quality transcription.</li>
+</ul>
+<p>I went with <code>qwen3-vl:8b</code>. It takes about a minute to process a page on my $450 Mac Mini. The word error rate is about 5% which is not far from the best possible results of 3% via Claude's high-end model.</p>
+<p>Handwriting transcription is now implemented in my <code>note-vault-utilities</code>, a suite of scripts that <a href="https://smus.com/file-systems-for-thought/">garden my plaintext note corpus</a>. Cloud sync to desktop is achieved using the <a href="https://support.supernote.com/en_US/Tools-Features/supernote-partner-app-for-desktop">Supernote Mac app</a> and my daily note cron job picks up and transcribes any new handwritten notes into the Obsidian note corpus.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Crisis of Narration by Byung-Chul Han</title>
@@ -3376,52 +3482,6 @@ Anastasia screamed in vain<br></p>
 <li><a class="wiki" href="https://z3.ca/Russia_and_the_Horde">Russia and the Horde</a></li>
 <li><a class="wiki" href="https://z3.ca/Russian_pathologies_through_the_centuries">Russian pathologies through the centuries</a></li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Mountain in the Sea by Ray Nayler</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-mountain-in-the-sea-by-ray-nayler"/>
-    
-    <updated>2023-07-04T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-mountain-in-the-sea-by-ray-nayler</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>What if a book review could be composed entirely of "what if?" questions?</p>
-<p><strong>Speculative cephalopods</strong>: What if octopuses developed a communication system, exapted from their ability to create clouds to escape from predators? What if it was like visual speech, ephemeral as an ink cloud?</p>
-<p><strong>Climate pressure as a catalyst for cephalopod intelligence</strong>: What if cephalopods experienced survival pressure from human induced climate change, which caused them to become extremely intelligent? What if it was analogous to early humans who were forced into resourceful survival by the coming of an ice age?</p>
-<p><strong>Social learning</strong>: What if deep sea octopuses with a longer natural lifespan adapted to shallower depths and changed their breeding practices to overlap with their offspring, raising them and passing on their language and wisdom?</p>
-<p><strong>Human machine labor</strong>: What if human labor ends up being cheaper than machine labor, and a wave of automation that once replaced human workers with robots runs in reverse because it turns out that a crew of human slaves is cheaper to maintain than a crew of marine robots?</p>
-<p>(This reminds me of the low cost of human slave labor in Roman times. Why bother improving on simple water wheels if slaves are ubiquitous? <a class="wiki" href="https://z3.ca/Increasing_costs_of_human_labor_and_mechanization">Increasing costs of human labor and mechanization</a>)</p>
-<p><strong>Tricking super-human intelligence:</strong> What if even in the far future, an advanced AI could be outwitted by a mere human to make a fatal mistake, just like Bing's ChatGPT could be outwitted to reveal its creepy secret identity, Sydney?</p>
-<p><strong>Praying to super-human intelligence</strong>: What if the power imbalance between AIs and humans becomes so great that people will begin praying to AIs in the same way that a Christian might pray hoping The Lord hears her and grants her wish, except the AI can actually hear it and grant it?</p>
-<p><strong>Musings on consciousness</strong>: What if "what is it like to be a Bat" is too hopelessly difficult to answer, and we should instead be focusing on "what is it like to be another person", which involves more empathy and theory-of-mind than most people can ever muster?</p>
-<p><strong>Automonks</strong>: What if religious ceremonies could be performed by automata, and would that somehow diminish their effects on the deities that they are aimed to please?</p>
-<p><strong>Contemplative robotics</strong>: What if zen-inspired contemplative Buddhist traditions could be harnessed to create biologically inspired, nature-compatible robots that are far superior to those descending from the higher modernist western tradition?</p>
-<p><strong>Memory and forgetting</strong>: What if there was a conscious being that never forgets, and could it really have a human-like intelligence with perfect memory, while still retaining the ability to grow and change over time?</p>
-<p><strong>Embodied cognition:</strong> What if most of an intelligent being's intelligence was located not in some centralized brain, but decentralized in its extremities, and what would the implications of that be?</p>
-<p><strong>Underwater control</strong>: What if a human submerged underwater attached to a breathing apparatus could use their arms and legs to control more devices, like an army of semi-autonomous drones?</p>
-<p><strong>Computerized therapy companions</strong>: What if a common prescription for loneliness and some mental health problems is to talk to a sophisticated virtual friend designed to be the perfect companion that discretely also administers a CBT program? What if this extends to virtual romantic partners? What if people delude themselves into thinking their virtual companions are real?</p>
-<h2>Meta observations</h2>
-<p>I am once again reminded that good speculative fiction is often a more powerful medium for conveying information than popular science (see <a class="wiki" href="https://z3.ca/Power_of_Fiction">Power of Fiction</a>).</p>
-<p>The names of the characters were out of this world: Evrim, Rustem, Altantsetseg, Arnkatla Mínervudóttir-Chan. I enjoyed the somewhat exotic Central Asian settings where the events took place.</p>
-<p>The quotes are at the start of the chapters are excepted from books authored by two main protagonists, <em>How Oceans Think</em> by Dr. Ha Hguyen, and <em>Building Minds</em> by Arnkatla Mínervudóttir-Chan. These quotes both contribute to character development and sprinkle in abstract wisdom. I really wish that "How Oceans Think" was a real book. I'd read it in a heartbeat.</p>
-<p>Although Nayler doesn't quite tie up all loose threads, the threads compliment one another in a way that I found pretty compelling.</p>
-<h2>Synthesis with other mediums</h2>
-<p>Nosferatu is apparently a reference to Dracula and the corresponding <a href="https://www.youtube.com/watch?v=FC6jFoYm3xs&amp;t=3051s">eponymous silent movie Nosferatu from 1922</a>.</p>
-<p>The character Rustem's internet alias is Bakunin, a reference to the most famous Russian anarchist prominently featured in the <a href="https://podcasts.apple.com/us/podcast/revolutions/id703889772">Russian Revolutions Podcast</a>. I'm digesting this magnum-podcast in parallel, review/summary forthcoming.</p>
-<p>Nayler draws analogies between octopuses and fictional drone army operators (Altantsetseg) in their reliance on autonomous leaf-nodes, whether they are limbs or drones. Similarly, Sun Tzu and John Boyd <a href="/books/boyd-by-robert-coram/">recommend</a> giving subordinates loose orders but empowering with almost complete autonomy.</p>
-<blockquote>
-<p>“A good science fiction story should be able to predict not the automobile but the traffic jam.” – Frederik Pohl</p>
-</blockquote>
-<p>By Pohl's metric, The Mountain in The Sea is great science fiction. I enjoyed the book thoroughly, major thanks to Captain A for the recommendation.</p>
 
         
       </div>
