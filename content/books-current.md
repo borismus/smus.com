@@ -4,6 +4,20 @@ class: split
 type: book
 
 
+In Patagonia by Bruce Chatwin
+===
+rating: yes
+posted: Jan 22, 2026
+cover: /assets/book-covers/in-patagonia.jpg
+
+Oral history in written form.
+
+**Style**: Laconic, vivid prose. Chatwin learned to compress by cataloguing objects at Sotheby's for years. The book is 97 short vignettes he called Cubist: small pictures tilting toward each other to form a portrait of place. Reminds me of [Red Plenty](/books/red-plenty-by-francis-spufford/) in structure, Hemingway in terseness.
+
+**Theme**: Restless wandering. Chatwin asks whether we have "journeys mapped out in our central nervous systems" — the only explanation for our insane restlessness. He identifies with blighted wanderers: Cain, the Wandering Jew, Coleridge ("a stranger at his own birthplace, unable to sink roots anywhere"). I should read The Rime of the Ancient Mariner sometime.
+
+**Verdict**: I came looking for a preview of Patagonian nature and got "quick snapshots of ordinary people" instead. Still worth it for the prose.
+
 Children of Time by Adrian Tchaikovsky
 ===
 rating: yes
