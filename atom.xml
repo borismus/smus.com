@@ -5,8 +5,30 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-01-11T22:02:28-00:00</updated>
+  <updated>2026-01-22T22:55:01-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>In Patagonia by Bruce Chatwin</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/in-patagonia-by-bruce-chatwin"/>
+    
+    <updated>2026-01-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/in-patagonia-by-bruce-chatwin</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Oral history in written form.</p>
+<p><strong>Style</strong>: Laconic, vivid prose. Chatwin learned to compress by cataloguing objects at Sotheby's for years. The book is 97 short vignettes he called Cubist: small pictures tilting toward each other to form a portrait of place. Reminds me of <a href="/books/red-plenty-by-francis-spufford/">Red Plenty</a> in structure, Hemingway in terseness.</p>
+<p><strong>Theme</strong>: Restless wandering. Chatwin asks whether we have "journeys mapped out in our central nervous systems" — the only explanation for our insane restlessness. He identifies with blighted wanderers: Cain, the Wandering Jew, Coleridge ("a stranger at his own birthplace, unable to sink roots anywhere"). I should read The Rime of the Ancient Mariner sometime.</p>
+<p><strong>Verdict</strong>: I came looking for a preview of Patagonian nature and got "quick snapshots of ordinary people" instead. Still worth it for the prose.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Children of Time by Adrian Tchaikovsky</title>
@@ -3312,52 +3334,6 @@ Anastasia screamed in vain<br></p>
 <li><a href="https://www.theatlantic.com/magazine/archive/1886/12/the-dream-of-russia/522855/">The Dream of Russia</a> (<em>The Atlantic, 1886</em>) — In this Atlantic article written nearly 150 years ago, Cyrus Hamlin describes Russia's deeply held imperial ambitions, focusing on their desire to control Constantinople.</li>
 <li><a href="https://collabfund.com/blog/everything-is-cyclical/">Everything is Cyclical</a> (<em>Morgan Housel</em>) — Mountains grow from tectonic activity and then collapse under their own weight, victory has always sown the seeds of a fresh war, revolution brings with it counter-revolution, and so on.</li>
 <li><a href="https://www.invisibleoranges.com/death-metal-english/">Death Metal English</a> (<em>Invisible Oranges</em>) — A concise playbook for converting regular English into DEATH METAL ENGLISH. For example, "commuting to work" gets translated into TRANSPORTATION OF THE WAGEBOUND UNTO THE NEXUS OF PERPETUAL QUOTIDIAN ENSLAVEMENT.</li>
-</ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Empowered by Cagan &amp; Jones</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/empowered-by-cagan-jones"/>
-    
-    <updated>2023-09-17T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/empowered-by-cagan-jones</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>My skip-skip-skip level manager at work recommended it to all of his manager reports, and so I decided to read this book to get closer to the top brass. Overall it was a sobering read, actively reminding me how far my organization is from being customer-centric. The book mostly addresses product managers, but tries to also apply to leaders in general, and "product people" in particular. It's a bit unclear who these people are, but I suspect they include product-minded engineers and designers.</p>
-<p>Things I liked:</p>
-<ul>
-<li><strong>Coach-as-manager</strong>: Emphasis on coach-as-manager was interesting. "You can no longer be a good manager without being a good coach."</li>
-<li><strong>Build Right Thing</strong>: The goal of a product manager is to ensure that the features being built by the product engineering team are the right features to be building.</li>
-<li><strong>Product Discovery</strong>: The product development process is a process of discovery. It's like the product is already there, you just need to discover it, as opposed to inventing it from whole cloth.</li>
-<li><strong>PM's fault</strong>: for a product to be successful, all cross-functional stakeholders have to have been successful. But if a product is not successful, it's the fault of the product manager.</li>
-<li><strong>Platform vs. experience</strong>: Platform teams are not the same as experience teams and I strongly gravitate towards experience teams. The worst is when your experience team gets reorged to become a platform team.</li>
-<li><strong>Against the agency model</strong>: The authors advocate strongly against the agency model, which encourages employees to behave like mercenaries rather than like missionaries.</li>
-<li><strong>Strategy means focus</strong>:</li>
-<li><strong>Four big product risks</strong>: (<a class="wiki" href="https://z3.ca/Four_Big_Product_Risks">Four Big Product Risks</a>)<ol>
-<li>Value: will they buy it?</li>
-<li>Usability: will they figure out how to use it?</li>
-<li>Feasibility: can we build it?</li>
-<li>Business viability: will it work for the business?</li>
-</ol>
-</li>
-</ul>
-<p>Things I did not like:</p>
-<ul>
-<li>Perpetuating Silicon Valley tropes:<ul>
-<li>Bill Campbell cult (reminds me of CB)</li>
-<li>Favorite essay is "Software is Eating the World". How trite!</li>
-</ul>
-</li>
-<li>Unclear how lessons from this book apply to completely new products like Smart Glasses. How we be customer-centric in a world where we have no customers?</li>
-<li>Authors seem overly optimistic about equity based compensation as a way to perfectly align incentives. At a company the size of Google, I don't think that sufficiently aligns individual actions. Might work better at a smaller company though!</li>
 </ul>
 
         
