@@ -5,8 +5,76 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-02-15T16:43:48-00:00</updated>
+  <updated>2026-02-24T12:41:29-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Alloy: a local-first AI workbench</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/alloy-local-first-ai-workbench"/>
+    
+    <updated>2026-02-24T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/alloy-local-first-ai-workbench</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>AI model vendors usually ship their own desktop apps, and aside from coding agents, these tend to be the ways in which I interface with AIs the most. But these apps are sticky by design: each vendor wants you to stay with them and continue to use them. As a result, I tend to have very lumpy usage patterns, focusing on one model at a time to the detriment of the others. This leads to an incomplete understanding of the ever-shifting AI landscape, with models constantly leapfrogging one another on the leaderboards.</p>
+<p>To remedy this, I built my own web-based desktop app which is model agnostic. Beyond easy access to Gemini, Grok, Claude, and GPT, I had a few additional goals in mind:</p>
+<ol>
+<li>Local-first: all conversations are stored as plaintext</li>
+<li>Build an orchestrator to gain intuition around agents, tools, skills, etc,</li>
+<li>Play around with new interaction patterns beyond the usual chat-and-wait</li>
+</ol>
+<p>The result of this is Alloy, which I began in December and have used daily since then. With it, I've been able to more easily see how good each model is at using tools, agent skills, etc. Alloy also serves as a personal playground for experimenting with new interaction patterns: freewriting with a quiet AI collaborator, delegating to sub-agents mid-conversation, and setting up triggers that monitor the world on your behalf.</p>
+<p><img alt="Alloy simple screenshot" src="/alloy-local-first-ai-workbench/alloy-simple-screenshot.png" /></p>
+<!--more-->
+
+<h1>How it works</h1>
+<p>When you start a chat, Alloy picks one of your favorite models from a list you configure. As you talk with a model, the exchange is appended to the file that backs it. Files have the benefit of being local, permanent, and searchable with any tool you already use. You can always switch models even mid-conversation.</p>
+<p>The orchestrator has access to built-in tools and any custom skills you've added to your vault. For example:</p>
+<p><img alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
+<p>Here I asked Alloy to "critique this writing using 3 top-tier AI models from different providers." It loaded the <code>writing-critique</code> skill, spawned Anthropic Opus, OpenAI o3, and Google Gemini 2.5 Pro as parallel sub-agents, each critiquing an early draft of this post independently. The orchestrating agent then synthesized their responses into a single structured critique.</p>
+<h1>Design philosophy</h1>
+<p><strong>File over app</strong>: conversations, notes, triggers, and memory are all stored locally as plain text files. Everything is inspectable, searchable, and portable. The app still feels like ChatGPT or Claude Desktop though. Sync these files however you want: iCloud Drive, Google Drive, or whatever. Since I'm a heavy Obsidian user, I personally keep my Alloy directory as a subdirectory of my Obsidian vault and rely on Obsidian Sync.</p>
+<p><strong>Transparent memory</strong>: Alloy eschews hidden memory vectors for a simple, explicit approach: <code>memory.md</code>. This markdown file is a small, curated, always-on prompt piece injected into the system prompt. There you might include relevant bits about your identity and preferences. You have full and transparent control over what information is sent, not a mercurial UI buried in settings that the lab's apps provide.</p>
+<pre><code># Preferences
+- Offer multiple viewpoints or solutions.
+- Leave sycophancy at the door.
+
+# Personal
+- Use Seattle for local context.
+- Personal website/blog: https://smus.com
+</code></pre>
+<p><strong>Deliberately constrained</strong>: Alloy can only read from and write to its own vault. It cannot run arbitrary code or scripts. Destructive writes require your confirmation. This is a design choice, not a limitation — the goal is a tool where it's safe to let AI manage your notes, memory, and triggers without worrying about the blast radius (looking at you, <a href="https://openclaw.ai/">OpenClaw</a>).</p>
+<p><strong>Still mostly online</strong>: Ultimately Alloy is about reclaiming control over AI conversations to the extent possible. It does support calling local LLMs via ollama, but so far they are too slow on my M4 Mac Mini and too limited in tool use to be practical. So despite all conversations being stored locally, the bulk of the actual AI interactions continues to be through APIs to the cloud hosted models. </p>
+<h1>UX experiments within Alloy</h1>
+<p>Beyond standard chatting, Alloy has become my test bed for some practical AI experiments. Here are a few directions I've been excited about.</p>
+<h3>Living memory via a note corpus</h3>
+<p>I've noticed in my own usage of ChatGPT style assistants that there can be many threads about the same project. Manually grouping these conversations has always felt unsatisfying to me. </p>
+<p>Rather than ask users to group conversations manually or even re-group them with the help of AI, I am trying something new. Alloy also includes an AI note corpus. The idea here is that the agent can read and write this corpus as you have conversations. Each note links back to the conversations that shaped it, so you always have provenance. This is still early, but I'm excited about the feedback loop that could result:</p>
+<ol>
+<li><strong>Extraction</strong>: Talk about a project or topic in any thread</li>
+<li><strong>Consolidation</strong>: AI builds up a robust note on that topic</li>
+<li><strong>Recall</strong>: Subsequent conversations about related projects become better</li>
+</ol>
+<h3>The home thread</h3>
+<p>Most AI chat apps create a new conversation for every topic. Alloy has that too, but it also has a single persistent thread that's always open — think of it as a command line for your AI.</p>
+<p>Standard chat forces you to wait. While the response streams, you're blocked from sending new messages. In the home thread, you can always send a new message. Responses are brief, direct, and conversational. But when something substantial needs to get done, the orchestrating agent delegates to a sub-agent. This interaction feels right for quick back-and-forth or rapid braindumping when thoughts aren't quite fully formed yet.</p>
+<h3>Riff mode for freewriting and dictation</h3>
+<p>Sometimes you might not want to chat at all, but just capture semi-formed thoughts. Riff mode is more like thinking with a quiet collaborator sitting next to you, organizing your whiteboard while you keep talking.</p>
+<p>You open a blank riff and just start typing or speaking — whatever comes to mind. As you pause, the AI quietly crystallizes your raw input into an organized draft. It weaves your scattered thoughts into something coherent, fills in gaps when you trail off ("something like..." or "I can't remember the name of..."), and answers questions you pose mid-thought. It marks its contributions in <em>italics</em> so you always know what's yours.</p>
+<h3>Conditional triggers for monitoring topics of interest</h3>
+<p>Most AI interactions require you to initiate, but some tasks require vigilance, not just intelligence. Conditional triggers turn the AI into a proactive sentry that only speaks when it has something to say.</p>
+<p>You set up a "trigger" with a natural language condition like "Check prediction markets daily and notify me if the odds of regime collapse in Iran change by more than 5%." The system runs silently, monitoring the probabilities without your input. It saves you from constantly refreshing charts or doom-scrolling, acting instead as a dedicated analyst who only interrupts you when the signal becomes significant.</p>
+<hr />
+<p>I’ve been using Alloy daily for a couple of months. It’s early and rough, but I think it’s ready for you to kick the tires. It’s a "bring your own API keys" tool — if you’re comfortable with that and care about owning your AI conversations, <a href="https://github.com/borismus/alloy/releases">give it a try</a>. The <a href="http://github.com/borismus/alloy">source is on GitHub</a>, and I’d love to <a href="mailto:boris@smus.com">hear what you think</a>.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Score by C. Thi Nguyen</title>
@@ -3482,67 +3550,6 @@ The text above suggests that more ${entity1} causes ${adverb} ${entity2}. Explai
 </li>
 </ol>
 </div>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>This is How You Lose the Time War</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/this-is-how-you-lose-the-time-war"/>
-    
-    <updated>2023-10-05T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/this-is-how-you-lose-the-time-war</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>A stylistically beautiful novella reminiscent of <a href="/books/invisible-cities-by-italo-calvino/">Invisible cities by Italo Calvino</a>. Written in an innovative format, this is more poetry than prose. "Time War" was certainly worth my time, but I could see how it may be annoying to some. At least it is mercifully short!</p>
-<h3>Observations</h3>
-<ul>
-<li>Well executed slow reveal (Burn Before Reading)<ul>
-<li>Multiverse composed of multiple forking strands and threads. They have names and numbers. Going "upthread" means back in time, "downthread" into the future.</li>
-</ul>
-</li>
-<li>Beautiful quips like:<ul>
-<li>“adventure works in any strand. It calls to those who care more for living than for their lives”</li>
-<li>"She climbs up thread and down. She braids and unbraids history’s hair"</li>
-</ul>
-</li>
-<li>Ridiculously creative way of corresponding with one another. Letters are cleverly encoded in owl pellets (ha gross), seed sacks etc.</li>
-<li>Maybe this is deliberate, but who The Seeker is remains unclear. Is it the other agent? Or is it something else, planted by capital-C Chaos?</li>
-<li>If the world is a game, Blue and Red play a meta-game. But it feels like there is also a meta-meta game being played, which Blue and Red are only faintly aware of.</li>
-</ul>
-<h3>Complaints</h3>
-<ul>
-<li>Blue and Red are agents for two opposing "shifts", led by Garden and Commandant respectively, and representing broadly speaking Nature versus Technology.<ul>
-<li>Maybe this is somehow the point, but the two narrators/voices of the letters were indistinguishable.</li>
-</ul>
-</li>
-<li>At some point the agents discover that they are madly in love with one another. But the letters are more clever than revelatory, and neither character arc well-defined.<ul>
-<li>Why did the agents actually fall in love? Pretty unclear.</li>
-</ul>
-</li>
-<li>(On the other hand, the same kinds of complaints can be leveled at Calvino, and that would not be fair.)</li>
-</ul>
-<h3>Associations</h3>
-<ul>
-<li>Travel Light by Naomi Mitchison is lauded as "it's the same in all strands in which it exists"</li>
-<li>The classic Rolling Stones song <a href="https://www.youtube.com/watch?v=Jwtyn-L-2gQ">Sympathy for the Devil</a> came up for me multiple times while reading.</li>
-</ul>
-<blockquote>
-<p>And I was 'round when Jesus Christ<br>
-Had his moment of doubt and pain<br>
-Made damn sure that Pilate<br>
-Washed his hands and sealed his fate<br></p>
-<p>Stuck around St. Petersburg<br>
-When I saw it was a time for a change<br>
-Killed Tsar and his ministers<br>
-Anastasia screamed in vain<br></p>
-</blockquote>
 
         
       </div>

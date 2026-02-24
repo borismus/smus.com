@@ -5,8 +5,76 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-02-15T16:43:48-00:00</updated>
+  <updated>2026-02-24T12:41:29-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Alloy: a local-first AI workbench</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/alloy-local-first-ai-workbench"/>
+    
+    <updated>2026-02-24T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/alloy-local-first-ai-workbench</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>AI model vendors usually ship their own desktop apps, and aside from coding agents, these tend to be the ways in which I interface with AIs the most. But these apps are sticky by design: each vendor wants you to stay with them and continue to use them. As a result, I tend to have very lumpy usage patterns, focusing on one model at a time to the detriment of the others. This leads to an incomplete understanding of the ever-shifting AI landscape, with models constantly leapfrogging one another on the leaderboards.</p>
+<p>To remedy this, I built my own web-based desktop app which is model agnostic. Beyond easy access to Gemini, Grok, Claude, and GPT, I had a few additional goals in mind:</p>
+<ol>
+<li>Local-first: all conversations are stored as plaintext</li>
+<li>Build an orchestrator to gain intuition around agents, tools, skills, etc,</li>
+<li>Play around with new interaction patterns beyond the usual chat-and-wait</li>
+</ol>
+<p>The result of this is Alloy, which I began in December and have used daily since then. With it, I've been able to more easily see how good each model is at using tools, agent skills, etc. Alloy also serves as a personal playground for experimenting with new interaction patterns: freewriting with a quiet AI collaborator, delegating to sub-agents mid-conversation, and setting up triggers that monitor the world on your behalf.</p>
+<p><img alt="Alloy simple screenshot" src="/alloy-local-first-ai-workbench/alloy-simple-screenshot.png" /></p>
+<!--more-->
+
+<h1>How it works</h1>
+<p>When you start a chat, Alloy picks one of your favorite models from a list you configure. As you talk with a model, the exchange is appended to the file that backs it. Files have the benefit of being local, permanent, and searchable with any tool you already use. You can always switch models even mid-conversation.</p>
+<p>The orchestrator has access to built-in tools and any custom skills you've added to your vault. For example:</p>
+<p><img alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
+<p>Here I asked Alloy to "critique this writing using 3 top-tier AI models from different providers." It loaded the <code>writing-critique</code> skill, spawned Anthropic Opus, OpenAI o3, and Google Gemini 2.5 Pro as parallel sub-agents, each critiquing an early draft of this post independently. The orchestrating agent then synthesized their responses into a single structured critique.</p>
+<h1>Design philosophy</h1>
+<p><strong>File over app</strong>: conversations, notes, triggers, and memory are all stored locally as plain text files. Everything is inspectable, searchable, and portable. The app still feels like ChatGPT or Claude Desktop though. Sync these files however you want: iCloud Drive, Google Drive, or whatever. Since I'm a heavy Obsidian user, I personally keep my Alloy directory as a subdirectory of my Obsidian vault and rely on Obsidian Sync.</p>
+<p><strong>Transparent memory</strong>: Alloy eschews hidden memory vectors for a simple, explicit approach: <code>memory.md</code>. This markdown file is a small, curated, always-on prompt piece injected into the system prompt. There you might include relevant bits about your identity and preferences. You have full and transparent control over what information is sent, not a mercurial UI buried in settings that the lab's apps provide.</p>
+<pre><code># Preferences
+- Offer multiple viewpoints or solutions.
+- Leave sycophancy at the door.
+
+# Personal
+- Use Seattle for local context.
+- Personal website/blog: https://smus.com
+</code></pre>
+<p><strong>Deliberately constrained</strong>: Alloy can only read from and write to its own vault. It cannot run arbitrary code or scripts. Destructive writes require your confirmation. This is a design choice, not a limitation — the goal is a tool where it's safe to let AI manage your notes, memory, and triggers without worrying about the blast radius (looking at you, <a href="https://openclaw.ai/">OpenClaw</a>).</p>
+<p><strong>Still mostly online</strong>: Ultimately Alloy is about reclaiming control over AI conversations to the extent possible. It does support calling local LLMs via ollama, but so far they are too slow on my M4 Mac Mini and too limited in tool use to be practical. So despite all conversations being stored locally, the bulk of the actual AI interactions continues to be through APIs to the cloud hosted models. </p>
+<h1>UX experiments within Alloy</h1>
+<p>Beyond standard chatting, Alloy has become my test bed for some practical AI experiments. Here are a few directions I've been excited about.</p>
+<h3>Living memory via a note corpus</h3>
+<p>I've noticed in my own usage of ChatGPT style assistants that there can be many threads about the same project. Manually grouping these conversations has always felt unsatisfying to me. </p>
+<p>Rather than ask users to group conversations manually or even re-group them with the help of AI, I am trying something new. Alloy also includes an AI note corpus. The idea here is that the agent can read and write this corpus as you have conversations. Each note links back to the conversations that shaped it, so you always have provenance. This is still early, but I'm excited about the feedback loop that could result:</p>
+<ol>
+<li><strong>Extraction</strong>: Talk about a project or topic in any thread</li>
+<li><strong>Consolidation</strong>: AI builds up a robust note on that topic</li>
+<li><strong>Recall</strong>: Subsequent conversations about related projects become better</li>
+</ol>
+<h3>The home thread</h3>
+<p>Most AI chat apps create a new conversation for every topic. Alloy has that too, but it also has a single persistent thread that's always open — think of it as a command line for your AI.</p>
+<p>Standard chat forces you to wait. While the response streams, you're blocked from sending new messages. In the home thread, you can always send a new message. Responses are brief, direct, and conversational. But when something substantial needs to get done, the orchestrating agent delegates to a sub-agent. This interaction feels right for quick back-and-forth or rapid braindumping when thoughts aren't quite fully formed yet.</p>
+<h3>Riff mode for freewriting and dictation</h3>
+<p>Sometimes you might not want to chat at all, but just capture semi-formed thoughts. Riff mode is more like thinking with a quiet collaborator sitting next to you, organizing your whiteboard while you keep talking.</p>
+<p>You open a blank riff and just start typing or speaking — whatever comes to mind. As you pause, the AI quietly crystallizes your raw input into an organized draft. It weaves your scattered thoughts into something coherent, fills in gaps when you trail off ("something like..." or "I can't remember the name of..."), and answers questions you pose mid-thought. It marks its contributions in <em>italics</em> so you always know what's yours.</p>
+<h3>Conditional triggers for monitoring topics of interest</h3>
+<p>Most AI interactions require you to initiate, but some tasks require vigilance, not just intelligence. Conditional triggers turn the AI into a proactive sentry that only speaks when it has something to say.</p>
+<p>You set up a "trigger" with a natural language condition like "Check prediction markets daily and notify me if the odds of regime collapse in Iran change by more than 5%." The system runs silently, monitoring the probabilities without your input. It saves you from constantly refreshing charts or doom-scrolling, acting instead as a dedicated analyst who only interrupts you when the signal becomes significant.</p>
+<hr />
+<p>I’ve been using Alloy daily for a couple of months. It’s early and rough, but I think it’s ready for you to kick the tires. It’s a "bring your own API keys" tool — if you’re comfortable with that and care about owning your AI conversations, <a href="https://github.com/borismus/alloy/releases">give it a try</a>. The <a href="http://github.com/borismus/alloy">source is on GitHub</a>, and I’d love to <a href="mailto:boris@smus.com">hear what you think</a>.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Large and sometimes Oppressive Language Models (LOLs)</title>
@@ -6355,170 +6423,6 @@ perfectly with the <a href="https://extensiblewebmanifesto.org/">extensible web 
 <p><em>Update (Nov 14, 2014): There was a <a href="http://lists.w3.org/Archives/Public/public-device-apis/2014Nov/0018.html">W3C call</a> about this very
 topic yesterday! Kicking off efforts in <a href="https://github.com/w3c/sensors">this github repo</a>.
 Join us!</em></p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>UIST 2014 highlights</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/uist-2014"/>
-    
-    <updated>2014-10-14T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/uist-2014</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>This year's <a href="http://www.acm.org/uist/uist2014/">UIST</a> was held in Waikiki, Honolulu, the undisputed
-tourist capital of Hawaii. I've stuck to my now three year old habit of
-taking notes and <a href="http://smus.com/uist-2013">posting my favorite work</a>. Since last year,
-the conference has grown an extra track. The split was generally OK for
-me, with my track mostly dedicated to user interface innovation
-(sensors, etc) and another more concerned with crowdsourcing,
-visualization, and more traditional UIs.</p>
-<p>My overall feeling was that the research was mostly interesting from a
-tech perspective, but focused on solving the wrong problem. For example,
-at least 5 papers/posters/demos were focused on typing on smartwatches.
-The keynotes were very thought provoking, especially when juxtaposed
-with one another.</p>
-<!--more-->
-
-<h2>Focused Ultrasonic Arrays</h2>
-<p>I got to play with a holographic display with touch-feedback. Sounds
-crazy, and it is. HaptoMime uses an array of ultrasonic transducers to
-beam-form focused ultrasound to a specific target. The touch feedback
-feels like a little electric shock, but it's incredible that it works.
-The field of view of the holographic screen is a bit limited:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/uARGRlpCWg8" frameborder="0" allowfullscreen></iframe>
-
-<p>As a kid, I loved drawing patterns on my grandma's rug with my finger.
-This research team was clearly inspired by the same activity, and they
-created several ways of automating the process: using a roller device, a
-pen, and an focused ultrasonic array:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/L0hrETGddLQ" frameborder="0" allowfullscreen></iframe>
-
-<h2>Multi-device interactions</h2>
-<p>GaussStones built on a bunch of other "Gauss"-prefixed previous work
-from the same lab, showing an array of hall sensors used to sense a
-variety of shielded magnetic tokens, which can encode an ID using field
-strength. You could play physical chess, or even combine magnetic tokens
-to create more complex interactions, like a slider or button unit:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/qlr-15Oto6s" frameborder="0" allowfullscreen></iframe>
-
-<p>Another nice example of multi-device interaction came from MIT, where
-a group used this extremely clever way of tracking the phone's position
-relative to a laptop, using a 2D gradient, where the color of each pixel
-maps to a position in space:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/hFH6hJLDoLE" frameborder="0" allowfullscreen></iframe>
-
-<p>The awkwardly named Vibkinesis shows a smartphone case which is
-equipped with two vibrator motors which give a phone the ability to
-translate and rotate on a flat surface. In one example,
-notifications caused the phone to rotate by 90 degrees, which had the added benefit of
-notifying the user of a notification even if the battery runs out of
-juice. This is apparently funny from a Japanese culture perspective,
-where characters often die under strange circumstances, leaving no clue
-but a "dying message" on or around their person. Another example
-involved a fish-eye lens on the front-facing camera to detect the
-position of the user's hand (based on skin color), and then physically
-nudging the user to get their attention:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/UlFwVUHotrU" frameborder="0" allowfullscreen></iframe>
-
-<h2>Awesome fabrication techniques</h2>
-<p>I'm a huge fan of subtractive techniques (eg. laser cutting) rather than
-additive ones (eg. 3D printing). FlatFitFab is a CAD tool for easily
-creating balsa dinosaur-style models, and evaluating their stability and
-feasibility. Super cool work:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/HeFQw0chSJY" frameborder="0" allowfullscreen></iframe>
-
-<p>Rather than creating PCBs in something like Eagle, why not just sketch
-them with a conductive pen instead? ShrinkyCircuits does just this,
-following the principles of Shrinky Dinks, which shrinks when heated.
-Because the whole board shrinks, it improves conductivity of the
-conductive ink, and the contact points with electronics components.</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/4p-l374rb8M" frameborder="0" allowfullscreen></iframe>
-
-<h2>Spatial AR</h2>
-<p>Research from Microsoft showed rooms instrumented with multiple
-Projector+Depth Camera rigs, which allowed for some interesting
-multi-user interactions:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/ILb5ExBzHqw" frameborder="0" allowfullscreen></iframe>
-
-<p>Of course, the setup above doesn't allow perspective-corrected scenes.
-To remedy this, they had a companion project which split the room in
-two, creating head-tracked scenes for two participants. Pretty cool,
-though it does not generalize to more than two people, nor does it
-support stereo:</p>
-<iframe width="600" height="339" src="//www.youtube.com/embed/Df7fZAYVAIE" frameborder="0" allowfullscreen></iframe>
-
-<p>Still, entering either of these VR rooms feels a lot less dorky than
-having to don a VR headset.</p>
-<h2>Keynotes</h2>
-<p>UIST was punctuated by three keynotes, from Ken Perlin, Mark
-Bolas and Bret Victor, all of which were thought provoking and sometimes
-frightening, but unfortunately not recorded. When I used to be in
-Developer Relations, we would be hardpressed to show up at a conference
-if the talk was not recorded because so much of the engagement happened
-after the fact online. <strong>Academia needs the same culture</strong>.</p>
-<p>Ken Perlin kicked off the co-located conference, SUI (Symposium for Spatial
-Interaction), off with a nice talk about making computer use more like
-performing a music, and less like writing a musical composition. As he
-gave the talk, he very effectively used a tool he created called Chalk
-Talk, which lets you sketch objects with behaviors in short hand - very
-meta. Unfortunately I've been unable to find anything published about
-the tool, as it would be interesting to play with. Ken envisioned a
-world where you could do something conceptually similar to Chalk Talk
-without a computer in the way. If this "virtual chalk" capability was
-available to all humans, it would transform the way we communicate. I
-wasn't completely convinced. When I'm discussing something with
-colleagues, we only use a whiteboard for only very specialized things
-like drawing a diagram of multiple objects. So there are two things that
-need to happen:</p>
-<ol>
-<li>This virtual chalk needs to be <strong>easier to access</strong> than a whiteboard
-   while in a meeting room.</li>
-<li><strong>Expand the set of concepts</strong> that can be expressed with virtual chalk.
-   Text and speech is <a href="http://graydon.livejournal.com/196162.html">pretty powerful</a>.</li>
-</ol>
-<p>Mark Bolas started UIST with a pretty terrifying keynote on virtual
-reality. His premise was that "we are headed into a virtual future,
-whether we want it or not". Terrifyingly, Mark seemed to be okay with
-this inevitability, even going as far as discounting augmented reality,
-since by the time we've built VR, we'll just want to stay in our
-helmets. The real world isn't that great anyway. One thing I liked was
-his call for creating more <strong>surreal experiences</strong> in VR rather than
-trying to emulate the real world. These types of simulations are
-conspicuously missing from <a href="https://share.oculusvr.com/category/all">existing VR demos</a>.</p>
-<p>Bret Victor ended the conference with a much needed humanist
-counterpoint to Mark' vision. I cannot do the talk justice, and eagerly
-await a recording of it to try to understand all of the nuances. The big
-idea of the talk was that "knowledge work" which started with the
-printing press is tyrannical, reducing all of our senses and abilities
-to manipulating symbols on a sheet of paper. So many other things that
-evolution has designed for us, like hearing, smell, sense of space,
-touch, etc, are all thrown out of the window. This problem only gets
-compounded as we move to virtualize everything with touch screens. Bret
-thinks we're poised to design the next great "dynamic" medium after the
-printing press, something that is always interactive and multimodal, and
-takes advantage of a wide array of human capabilities.</p>
-<p>According to Mark Bolas, the real world is flawed, and we should build a
-better virtual one. Bret Victor's vision is that humans are perfect,
-having evolved over thousands of years. Rather than changing what it
-means to be human, we should build a new medium that adapts to our
-inherent strengths and weaknesses. Ken Perlin's "virtual chalk" is a
-great example application for this dynamic medium.</p>
-<h2>Tracks I missed</h2>
-<p>Because UIST has become a multi-track conference, I inevitably missed
-interesting parts. In particular, the collaboration track had some
-<a href="https://www.youtube.com/watch?v=QtyO-oFlzGg">awesome</a> <a href="https://www.youtube.com/watch?v=jMH_qQF0vKg">work</a>, and there was one <a href="https://www.youtube.com/watch?v=YMfzAstvij0">music-related paper</a>
-paper. It was great to have had a good excuse to go this year, showing
-Cardboard to the academic community. Looking forward to next year,
-although it is to be held in a somewhat <a href="http://uist.acm.org/about">less glamorous location</a>.</p>
-<p><img alt="Hawaii sunset." src="sunset.jpg" /></p>
 
         
       </div>
