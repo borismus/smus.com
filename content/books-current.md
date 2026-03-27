@@ -4,6 +4,40 @@ class: split
 type: book
 
 
+Ancillary Justice by Ann Leckie
+===
+rating: yes
+posted: Mar 27, 2026
+cover: /assets/book-covers/ancillary-justice.jpg
+
+Ancillary Justice is a well-crafted book with nice, slow reveals. I was satisfied by how Leckie merged two initially confusing storylines towards the second half of the book. Some scenes especially stuck with me, like Awn's interactions with the Lord of the Radch, throwing emotional fuel onto my pre-existing distaste for military/corporate hierarchies. I especially liked how she handled the mechanics of ancillaries interacting with themselves. For example:
+
+> My bodies sweated under my uniform jackets. And bored, I opened three of my mouths in close proximity of the temple plaza and sang with those three voices.
+
+By framing the story through an alien lens, Leckie bypasses typical moralizing. She instead uses the mechanics of ancillaries to build a brilliant thought experiment on control and fragmentation at different scales.
+
+<!--more-->
+# Ancillary thought experiments
+As in Iain Banks' Culture Series (e.g. [Player of Games](/books/player-of-games-by-iain-m-banks/) and [Consider Phlebas](/books/consider-phlebas-by-iain-m-banks/) and [Use of Weapons](/books/use-of-weapons-by-iain-banks/)), superintelligent spaceships figure prominently. In Leckie's universe, however, these ships are major characters, commanding armies of ancillaries, human bodies that are directly controlled by these powerful AIs. A single AI ship mind typically runs both the vessel and all of its ancillary crew. 
+
+Ancillaries are ostensibly controlled by a single central superintelligence, but much of the drama in this universe happens when this assumption is violated. What happens when ancillary systems are jammed, forcing each individual back into autonomous mode? What happens when an individual in an ancillary system begins to diverge from the rest? What happens if there's a rift within an ancillary system? And, critically, do ancillaries still retain some of the individuality that was present in their original human owner?
+
+Leckie uses this ancillary system architecture to make broader observations about our world from the vantage point of a very exotic environment. Ancillary systems sit at an interesting scale, containing tens to thousands of different individual ancillaries; straddling the gap between a single individual and a country. The same mechanics of control, fragmentation, and growth can happen at many scales: the micro scale (one human mind), the meso scale (the ship and its ancillaries), and the macro scale (the empire).
+
+The Lord of the Radch is herself an ancillary system. Because a single mind controls thousands of her bodies, she can personally micromanage the empire. She is simultaneously the absolute monarch and the entire upper echelon of elites.
+
+Yet The Lord of the Radch is an ancillary system literally at war with herself. This physical and mental division between her expansionist, imperialist half and her reformist, "degrowth" half is a macro-level reflection of the divided self. It serves as a parable for extreme political polarization where a single entity (a nation) turns against its own survival. Or, on an individual scale, it resembles a person experiencing conflicting desires. A lot of these themes remind me of [Blindsight by Peter Watts](/books/blindsight-by-peter-watts/), especially "The Gang" which is one physical body controlled by four different persons in sequence.
+
+| Phenomenon                 | Individual (micro)                                                           | Ship system (meso)                                                                                         | Empire (macro)                                                                                       |
+| -------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Division**               | Cognitive dissonance; conflicting desires; being "of two minds" on an issue. | A ship's network being jammed; ancillaries breaking from the core AI's control.                            | Civil war; political polarization; the Lord of the Radch literally split into two opposing factions. |
+| **Internal Communication** | Internal monologue; talking to oneself; wrestling with a decision.           | Ancillaries fencing or playing board games with one another; multiple bodies singing in unison.            | State propaganda; inter-agency memos; the ruling class negotiating with itself.                      |
+| **Growth & Assimilation**  | Learning; adopting new habits or beliefs; neuroplasticity.                   | Capturing humans, wiping their minds, and converting their bodies into physical extensions of the ship AI. | Annexation; conquering planets, crushing dissent, and installing a feudal Radchaai culture.          |
+| **Hierarchy & Control**    | Executive function overriding base impulses                                  | The Ship AI puppet-mastering its ancillaries                                                               | The rigid command-and-control military structure                                                     |
+
+Thanks to BS and KD for their recommendations. Excited to discuss this book in the Campania book club reboot!
+
+
 The Score by C. Thi Nguyen
 ===
 rating: yes
@@ -78,14 +112,14 @@ With real metrics, the game is your livelihood, your identity, your social stand
 
 **Rules** uses an objective proxy for something. **Standards** use subjective discretion. For example:
 
-| Domain              | Objective Rules                                                                                            | Subjective Standards |
-| ------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------- |
-| Adulthood           | Older than age 18                                                                                          | Maturity             |
-| Hurricane Insurance | Winds > 150 mph (see [[Parametric insurance is a mechanical approach to insurance\|parametric insurance]]) | Significant damage   |
-| Credit              | FICO Score > 700                                                                                           | Creditworthy         |
-| Work                | 60 hours per week                                                                                          | High productivity    |
-| Fire capacity       | < 50 people                                                                                                | Not overcrowded      |
-| Intoxication        | BAC < 0.08                                                                                                 | Not visibly drunk    |
+| Domain | Objective Rules | Subjective Standards |
+| --- | --- | --- |
+| Adulthood | Older than age 18 | Maturity |
+| Hurricane Insurance | Winds > 150 mph (see [[Parametric insurance is a mechanical approach to insurance\|parametric insurance]]) | Significant damage |
+| Credit | FICO Score > 700 | Creditworthy |
+| Work | 60 hours per week | High productivity |
+| Fire capacity | < 50 people | Not overcrowded |
+| Intoxication | BAC < 0.08 | Not visibly drunk |
 
 With subjective standards, we incur high transaction costs and human errors of standards. Rules often have to draw a line somewhere. Both can be unjust.
 
@@ -107,12 +141,12 @@ I didn't especially like C. Thy Nguyen's framing of "Four Horsemen of Bureaucrac
 
 First, they are mutually overlapping, and it felt like the number four was chosen exclusively to match the catchy moniker. Second, the horsemen of the apocalypse all symbolize catastrophe. In contrast, these bureaucratic horsemen present a series of tradeoffs that we have made as our society and institutions scale to their current size.
 
-| No  | Tradeoff            | What it is                                                                          | Gain                                                   | Lose                                             |
-| --- | ------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------ |
-| 1   | Mechanical Rules    | Clear procedures everyone can follow in the same way                                | Things work in a context-free way, scales civilization | Loss of nuance, few exceptions or discretion     |
-| 2   | Replaceable Parts   | Everything is interchangeable, from screws to workers                               | Consistent results, commodified parts                  | Misapplied to people who are not fungible        |
-| 3   | Centralized Control | Decisions are made in a centralized way, compressing information into legible forms | Coordinate people into a coherent direction            | Less autonomy for the people involved            |
-| 4   | Scale               | Doing the first three items gives you power to coordinate vast numbers of people    | Run nations, corporations, and run large projects      | Lose the ability to handle small things suitably |
+| No | Tradeoff | What it is | Gain | Lose |
+| --- | --- | --- | --- | --- |
+| 1 | Mechanical Rules | Clear procedures everyone can follow in the same way | Things work in a context-free way, scales civilization | Loss of nuance, few exceptions or discretion |
+| 2 | Replaceable Parts | Everything is interchangeable, from screws to workers | Consistent results, commodified parts | Misapplied to people who are not fungible |
+| 3 | Centralized Control | Decisions are made in a centralized way, compressing information into legible forms | Coordinate people into a coherent direction | Less autonomy for the people involved |
+| 4 | Scale | Doing the first three items gives you power to coordinate vast numbers of people | Run nations, corporations, and run large projects | Lose the ability to handle small things suitably |
 
 Completely related to [[The Authoritarian High-Modernist Recipe for Failure]] and [Seeing Like a State by James Scott](/books/seeing-like-a-state-by-james-scott/). Unlike Scott though, Nguyen seems comfortable with the tradeoffs we have made ushering in these "horsemen" into our civilizations.
 
