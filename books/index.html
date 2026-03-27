@@ -37,7 +37,7 @@
   <link
   href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' href='/static/css/style.css'>
-  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+  <link rel='stylesheet' href='/static/css/prism.css'>
 
   <!-- Feed -->
   <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
@@ -64,6 +64,21 @@ more active reader and listener.</p>
 
 <section id='archives'>
   <ol>
+    
+    <li>
+
+      <a href="/books/ancillary-justice-by-ann-leckie">
+        
+        <div class='rating'>
+          ☆
+        </div>
+        
+        <div class='title'>Ancillary Justice by Ann Leckie</div>
+        <time>
+          Mar 2026
+        </time>
+      </a>
+    </li>
     
     <li>
 
@@ -2927,13 +2942,8 @@ more active reader and listener.</p>
   </nav>
 </footer>
 
-<!-- Misc scripts: syntax highlighting, analytics, stats. -->
-<script src="/static/js/highlight.pack.js"></script>
-<!-- Syntax highlighting for code. -->
-<script>
-  hljs.tabReplace = '  ';
-  hljs.initHighlightingOnLoad();
-</script>
+<!-- Syntax highlighting for code (only for tagged code blocks). -->
+<script src="/static/js/prism.js"></script>
 <!-- Lightning builder error check. -->
 <script src="/lightning_error.js"></script>
 <!-- Google tag (gtag.js) -->

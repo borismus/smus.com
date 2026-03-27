@@ -37,7 +37,7 @@
   <link
   href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' href='/static/css/style.css'>
-  <link rel='stylesheet' href='/static/css/syntax-highlight.css'>
+  <link rel='stylesheet' href='/static/css/prism.css'>
 
   <!-- Feed -->
   <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
@@ -56,6 +56,30 @@
 </header>
 
 <section id='main'>
+
+
+
+
+
+<article class="type-book">
+  <a href='/books/ancillary-justice-by-ann-leckie'>
+    <h1 class='title'>Book: Ancillary Justice by Ann Leckie</h1>
+  </a>
+  
+  <a href='/books/ancillary-justice-by-ann-leckie'>
+    <img class="book-cover" loading="lazy" src="/assets/book-covers/ancillary-justice.jpg"/>
+  </a>
+  
+  <div class='subfooter'>
+    <a href="/books/ancillary-justice-by-ann-leckie" class="readmore">
+      Notes &rarr;
+    </a>
+    <time class='published'>March 27, 2026</time>
+  </div>
+</article>
+
+
+
 
 
 
@@ -504,27 +528,6 @@
 
 
 
-
-
-<article class="type-post">
-  <a href='/horse-invention-cards'><h1 class='title'>Horsing around with invention.cards</h1></a>
-  <div class='body'>
-    <p>This is the first in a series of vignettes based on observations I captured while creating <a href="https://invention.cards">invention.cards</a>, a visual chronology of science and discovery. In this series I hope to explore bits of the history of science and technology I found fascinating ("that's funny...") while reading and digesting <a href="/books/asimovs-chronology-of-science-and-discovery/">Asimov's chronology</a> and also examine the limitations of source material. First, let's take a really thin slice of human ingenuity: horse-related inventions and discoveries.</p>
-
-  </div>
-  
-  <a href="/horse-invention-cards" class="readmore" title="Continue reading...">
-    Continued &rarr;
-  </a>
-  
-  
-</article>
-
-
-
-
-
-
 </section>
 
 <footer>
@@ -537,13 +540,8 @@
   </nav>
 </footer>
 
-<!-- Misc scripts: syntax highlighting, analytics, stats. -->
-<script src="/static/js/highlight.pack.js"></script>
-<!-- Syntax highlighting for code. -->
-<script>
-  hljs.tabReplace = '  ';
-  hljs.initHighlightingOnLoad();
-</script>
+<!-- Syntax highlighting for code (only for tagged code blocks). -->
+<script src="/static/js/prism.js"></script>
 <!-- Lightning builder error check. -->
 <script src="/lightning_error.js"></script>
 <!-- Google tag (gtag.js) -->
