@@ -1,0 +1,84 @@
+/*
+ * Prism.js theme — GitHub-style, matching prior syntax-highlight.css
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #000;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  tab-size: 2;
+  hyphens: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #998;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #000;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #d14;
+}
+
+.token.boolean,
+.token.number {
+  color: #40a070;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #d14;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string {
+  color: #000;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #000;
+  font-weight: bold;
+}
+
+.token.function,
+.token.class-name {
+  color: #900;
+  font-weight: bold;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #008080;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
