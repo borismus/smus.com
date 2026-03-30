@@ -4,6 +4,73 @@ class: split
 type: book
 
 
+The Way of Man by Martin Buber
+===
+rating: yes
+posted: March 29, 2026
+cover: /assets/book-covers/way-of-man.jpg
+
+As it turns out, Buber is surprisingly accessible. This classic reads like a self-help book grounded in Hasidic tradition. The book is fundamentally an exegesis of 18th-century folklore—a sharp contrast to [PKD's manic exegesis](/books/valis-by-phillip-k-dick/). My summary of Buber's take:
+
+1. **Awaken**: Take stock of your situation. How are you spending your life? “Where art thou, man”? Or as my father said in my childhood: окстись!
+2. **Orient**: Don't imitate others. Find your unique calling ("particular way") and pursue it holistically and energetically. 
+3. **Straighten**: You can solve most of your problems via self-improvement. Even relationship problems can be fixed by changing your own stance.
+4. **Ground**: Everything you need is probably near. Focus on the present.
+5. **Repair**: Remember the ultimate goal: your self-improvement is strictly a mechanism to improve the world.
+
+# 1. Awaken: search your heart
+When God asks Adam "where art thou", it is the Hasidic equivalent of Socrates declaring that the unexamined life is not worth living. It’s not that God does not know where Adam is. God is omniscient. It’s because he wants to produce an effect in man which can only be produced by asking such a question. It is asked not just of Adam, but of every man. Окстись, dad said to me as a child. Wake up. What are you doing with your life? Buber writes:
+ 
+> It's as if man is hiding from the face of God. He cannot hide from God or hide from himself. 
+
+# 2. Orient: your Particular Way
+Your calling is uniquely tailored to your disposition. This is well illustrated in the following two Hasidic stories:
+
+> Rabbi Baer of Radoshitz once said to his teacher, the Seer of Lublin: "Show me one general way to the service of God." The wise man replied: 'It is impossible to tell men what way they should take. For one way to serve God is through learning, another through prayer, another through fasting, and still another through eating. Everyone should carefully observe what way his heart draws him to, and then choose this way with all his strength.
+
+Once you find the path your heart draws you to, pursue it entirely. Do not try to be someone else:
+
+> Rabbi Zusya said, a short while before his death: In the world to come I shall not be asked: "Why were you not Moses?" I shall be asked: "Why were you not Zusya?" 
+
+# 3. Straighten up and fly right
+Interpersonal conflict is downstream of your internal state. This is a profoundly Stoic notion: you can fix relationships through self-intervention. Buber paraphrases his teacher quoting the Baal-Shem, mapping internal faculties to external circles of intimacy:
+
+> "There is thought, speech and action. Thought corresponds to one's wife, speech to one's children, and action to one's servants. Whoever straightens himself out in regard to all three will find that everything prospers at his hands." Then I understood what my teacher had meant: everything depended on myself.
+
+# 4. Ground: dig where you stand
+We are conditioned to believe that meaning requires a drastic geographical or spiritual escape. We assume the answer is always somewhere else. Buber counters this with the story of Rabbi Eizik, who traveled from Cracow to Prague in search of a dream's treasure:
+
+> Rabbi Bunam used to tell young men who came to him for the first time the story of Rabbi Eizik, son of Rabbi Yekel of Cracow: After many years of great poverty which had never shaken his faith in God, he dreamed someone bade him look for a treasure in Prague, under the bridge which leads to the king's palace. When the dream recurred a third time, Rabbi Eizik prepared for the journey and set out for Prague. But the bridge was guarded day and night and he did not dare to start digging. Nevertheless, he went to the bridge every morning and kept walking around it until evening. 
+> 
+> Finally, the captain of the guards, who had been watching him, asked in a kindly way whether he was looking for something or waiting for somebody. Rabbi Eizik told him of the dream which had brought him here from a faraway country. The captain laughed: "And so to please the dream, you poor fellow wore out your shoes to come here! As for having faith in dreams, if I had had it, I should have had to get going when a dream once told me to go to Cracow and dig for treasure under the stove in the room of a Jew — Eizik, son of Yekel, that was the name! Eizik, son of Yekel! I can just imagine what it would be like, how I should have to try every house over there, where one half of the Jews are named Eizik and the other Yekel!" And he laughed again. Rabbi Eizik bowed, travelled home, dug up the treasure from under the stove, and built the House of Prayer which is called "Reb Eizik Reb Yekel's Shul".
+
+There is something of value to be found right where you are. Make the best of your immediate situation, because everything you need is probably not too far away.
+
+Why are we so quick to look elsewhere? Buber's answer is that it's a trope from other religions:
+
+> Some religions do not regard our sojourn on earth as true life. They either teach that everything appearing to us here is mere appearance, behind which we should penetrate, or that it is only a forecourt of the true world, a forecourt which we should cross without paying much attention to it. **Judaism, on the contrary, teaches that what a man does now and here with holy intent is no less important, no less true—being a terrestrial indeed, but nonetheless factual**, link with divine being—than the life in the world to come.
+
+Judaism then reveals an even deeper monotheism than my previous conception, unifying the terrestrial and heavenly worlds.
+
+# 5. Repair: aim outward
+If you successfully wake up, find your path, and straighten yourself out, you face a new danger: stopping there. In Jewish tradition, the biblical figure of Korah represents the archetype of a man entirely "preoccupied with himself." If you optimize your life strictly for your own benefit, you fall into the Korah trap.
+
+Self-improvement should only ever be a means to an end. You are only improving yourself to ultimately make the world better. Though Buber does not mention it, this sounds a lot like the contemporary Jewish virtue of _Tikkun Olam_, the active repair of the world.
+
+> "What am I to unify my being for?" The reply is: Not for my own sake. This is why the previous injunction was: to begin with oneself. To begin with one-self, but not to end with oneself; to start from oneself, but not to aim at oneself; to comprehend oneself, but not to be preoccupied with oneself.
+
+Buber underscores this point as a contrast with Christianity.
+
+> One of the main points in which Christianity differs from Judaism is that it makes each man's salvation his highest aim. Judaism regards each man's soul as a serving member of God's Creation which, by man's work, is to become the Kingdom of God; thus no soul has its object in itself, in its own salvation.
+
+But how do we actually fix the world? The Rabbi of Kotzk answers in a mystical way. I don't think of myself as deeply religious, but this final Hasidic story broke through all my defenses:
+
+> God wants to come to his world, but he wants to come to it through man. This is the mystery of our existence, the superhuman chance of mankind. "Where is the dwelling of God?" This is the question with which the Rabbi of Kotzk surprised a number of learned men who happened to be visiting him. They laughed at him: "What a thing to ask! Isn't the whole world full of his glory?" Then he answered his own question: "**God dwells wherever man lets him in**." 
+
+Buber gets the last word:
+
+> This is the ultimate purpose: to let God in. But **we can let him in only where we really stand, where we live, where we live a true life**.
+
 Ancillary Justice by Ann Leckie
 ===
 rating: yes
