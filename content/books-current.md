@@ -4,6 +4,63 @@ class: split
 type: book
 
 
+Definitely Maybe by The Strugatskys
+===
+rating: yes
+posted: April 17, 2026
+cover: /assets/book-covers/a-billion-years-before-the-end-of-the-world.jpg
+
+*Note: I listened to the audio version of this book in Russian. The original title (1977) is directly translated as "A Billion Years Before the End of the World", which I prefer to the English translation "Definitely Maybe", which has nothing to do with the Oasis Album (1994) or the romcom (2008).*
+
+Malyanov and his small circle of Leningrad scientist friends are on the brink of paradigm-shifting discoveries. Suddenly they are besieged by absurd, escalating interruptions: unbearable heat, unexpected deliveries, mysterious and extremely attractive women, and fake murder investigations. The antagonist could be the secret Council of the Nine, or extraterrestrials, or perhaps a "Homeostatic Universe". Whatever the case, it identifies and applies pressure to the scientists' greatest vulnerabilities.
+
+Presented as the protagonist's fragmentary journal, the book is full of abrupt transitions. "Suddenly the door opened and from there... part 6." "Stepped over the threshold and... chapter 10." These abrupt breaks simulate the disorientation and bending of probability that Malyanov and his friends experience when the Universe interrupts their work.
+
+The endless stream of Russian tea drinking, alcohol consumption, and references to Vysotsky and Okudzhava ground the novel in a familiar, 1970s Soviet era kitchen-table culture.
+
+### Surface reading: personal failure or a hostile universe
+Was Malyanov's predicament simply due to some sort of writer's block? Was it perhaps the psychological terror of actually completing a paradigm-shifting work? Seemingly not, since Zakhar and Weingarten observe similarly paranormal activities.
+
+In Vecherovsky's detached, almost alien interpretation, Nature balances the increase of entropy with the increase of localized order due to intelligence. If scientific discovery accelerates too fast, it threatens the structural equilibrium of the universe. The universe automatically generates pushback. This is a grimly elegant answer to the Fermi Paradox: civilizations don't destroy each other, and they don't hit physical limits. The universe simply turns up the resistance every time a mind gets close enough to matter. Vecherovsky frames this as a law of physics, not malice. 
+
+The Universe (read: the Soviet state) has invaded Malyanov's private life, destroying the quiet space required to do great work, and threatening the things he loves the most.
+
+### The political layer and the totalitarian allegory
+Two years before this book was written, Boris Strugatsky was a witness in a KGB case called the Kheifetz affair, in which a poet was prosecuted for "anti-Soviet literature." Given this fact, and the desire to circumvent the censors, the Strugatskys' Homeostatic Universe points at the Soviet machine.
+
+Towards the climax of the book, Malyanov, in a fever of exhaustion and dread, imagines Vecherovsky's voice reciting Bulat Okudzhava's poem [Счастливчик](https://ls.pushkininstitute.ru/lsslovar/?title=%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D1%82%D0%B5%D0%BA%D0%B0:%D0%9E%D0%BA%D1%83%D0%B4%D0%B6%D0%B0%D0%B2%D0%B0_%D0%91.%D0%A8._%D0%A1%D1%82%D0%B8%D1%85%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%C2%AB%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%C2%BB) ("The Lucky One"), about Pushkin: 
+
+> He knew how to scrawl on paper by candlelight
+> He had something worth dying for at the Black Stream
+
+Pushkin lived in Tsarist Russia, was exiled, and was fatally shot in a duel at 37. Yet, the 1970s Soviet intellectual views him as lucky since he was free to write without the rulers of the "Homeostatic Universe" breathing down his neck.
+
+The Homeostatic Universe has an interpretation beyond the narrowly Soviet context. "Tonton Macoute" is used metaphorically by the characters to describe an irrational, terrifying, and oppressive force acting against them, a reference to the [Haitian paramilitary secret police](https://en.wikipedia.org/wiki/Tonton_Macoute). The reference makes the mechanism global — same force, different flag. 
+
+### The double bind
+Ultimately, the Strugatskys refuse to resolve what the Homeostatic Universe actually is. What's clear is that the characters in "A Billion Years Before the End of the World" are fundamentally stuck in a double bind.
+
+**Option A: Surrender**. Malyanov (Малянов = маленький = small), Gluhov (Глухов = глухой = deaf), and Weingarten (wine) all chose to surrender. In Russian, the character's names speak for themselves; they became small, deaf, and succumbed to alcohol. They saved their families and returned to a normal life. But it came at a cost: intellectual death and living with cowardice.
+
+> They told me that the road I took  
+> would lead me to the Ocean of Death;
+> and from halfway along I turned back. 
+> And ever since, all the paths I have roamed  
+> were entangled, and crooked, and forsaken. — Yosano Akiko
+
+The book quotes only the second half of the poem above, without attribution.
+ 
+**Option B: Fight**. Vecherovsky chooses another path. He faces off, standing at the edge of darkness (Вечер = evening). This path lets him embrace the continuation of human progress and retain intellectual integrity. But it comes with a heavy cost: absolute isolation. Vecherovsky can only fight because he is already entirely detached from human warmth. He has no wife, no son, nothing the Universe or The State can hold hostage, so he can climb the highest mountains, freely pushing the frontier of scientific knowledge:
+
+> Лучше гор могут быть только горы
+> На которых еще не бывал
+> (Only mountains can be better than mountains 
+> Those that you have not yet visited)
+
+A Billion Years Before the End of the World offers no satisfying exit. Vecherovsky's freedom is real but purchased at the cost of everything that makes freedom worth having. Malyanov keeps his family and his ordinary life, but his intellectual path becomes crooked and forsaken. Whether the universe is cosmic, Soviet, or otherwise, it doesn't care which path you take. It only cares that you stop.
+
+
+
 The Way of Man by Martin Buber
 ===
 rating: yes
