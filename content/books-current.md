@@ -4,6 +4,91 @@ class: split
 type: book
 
 
+Breath by James Nestor
+===
+rating: yes
+posted: April 23, 2026
+cover: /assets/book-covers/breath.jpg
+
+After falling down a rabbit hole on interoception, the vagus nerve, and cortical overrides, reading Breath was the logical next step. Overall I found it a good pop-sci overview that filled some gaps in my reading, but I wish it was more rigorously written. There are some issues with structure and Nestor takes too many liberties for my taste. The result is that separating the wheat from the chaff is left to the reader.
+
+Despite the inaccuracies, I really liked Nestor's willingness to jump in and try many of the breathing experiments on himself. He entertainingly recounts the effect of various breathing exercises and, importantly, calls out the ones that didn't work too. He begins the book with his feelings after clogging up his nose for weeks as part of a study. Towards the end he breathes in a nasty 30% CO2 mixture that is known to cause complete panic. He reliably panics, yet does it repeatedly. The things we do for science... Or at least to make a pop-science book more compelling!
+
+## CO2 and breathing
+The physical urge to breathe is not primarily driven by a lack of oxygen, but by the accumulation of carbon dioxide:
+
+> The nagging need to breathe is activated from a cluster of neurons called the central chemoreceptors, located at the base of the brain stem. When we’re breathing too slowly and carbon dioxide levels rise, the central chemoreceptors monitor these changes and send alarm signals to the brain, telling our lungs to breathe faster and more deeply. When we’re breathing too quickly, these chemoreceptors direct the body to breathe more slowly
+
+Nestor recounts a story about a certain S. M., who had been completely fearless because of damage to her amygdala. It turns out the anti-asphyxiation mechanism lives in the brainstem, predating emotional fear.
+
+> A single puff of carbon dioxide did to S. M. what no snakes, horror movies, or thunderstorms could. For the first time in 30 years, she’d felt fear, a full-fledged panic attack.
+
+Panic attacks and anxiety are often driven by hypersensitivity to internal bodily sensations (see [[Interoception is perception of internal signals from the body]]), and this hypersensitivity can be tuned with exposure therapy.
+
+# A brief history
+The earliest mentions of breathing trace back to India and China 3000 years ago, where the concept of prana and chi (roughly life force) was associated with breathing. The earliest examples of breathing exercises date back to the Indus Valley show seals depicting a seated man, "his belly is filled with air, as he consciously inhales." These techniques eventually diffused to India, though Nestor takes some liberties with dates and the specifics of the techniques here:
+
+> By around 500 BCE, the techniques would be filtered and synthesized into the Yoga Sutras of Patanjali. Slow breathing, breathholding, deep breathing into the diaphragm, and extending exhalations all first appear in this ancient text.
+
+At this time, “Yôga” (pronounced yo-o-o-o-oga) was almost completely unrecognizable compared to the modern version. Poses were done once and held for an excruciatingly long time, emphasizing a focus entirely on breathing. 
+
+# Healthy breathing posture
+- Breathe through your nose
+	- Periodically self-check during the day: was my mouth closed?
+	- Mouth taping at night
+- Breathe less frequently
+	- The ideal resting breathing rate is much slower and lighter than the modern default: about 5-6 seconds inhale, and 5-6 seconds exhale
+- Breathe more fully
+	- Full exhalations are seldom practiced. Most of us engage only a small fraction of our total lung capacity with each breath
+- Breathe regularly
+	- People checking their email freeze and don't breathe. It's like sleep apnea while awake, also called "screen apnea".
+
+
+# Why bother doing breathing exercises?
+Breathing is a rare bodily function which is autonomous but can be overridden consciously. Modern life keeps us trapped in a state of continuous, low-grade sympathetic stress. This is a "half-anxiety" where the vagus nerve is neither fully resting nor fully reacting. 
+
+The breathholding that occurs in sleep and constant partial attention is unconscious—it’s something that happens to our bodies, something that’s out of our control. The breathholding practiced by the ancients and revivalists is conscious. Consciously engaging in heavy breathing exercises (like Tummo or the Wim Hof Method) forces the body into an acute, extreme state of sympathetic panic on command.
+
+My mental model is that by intentionally redlining your nervous system through exercises that flood the body with oxygen, crash CO2, spike CO2 and induce hypoxia, you train the vagal network to better handle extremes. (See [[Manufactured suffering for resilience, antifragility and happiness]]):
+
+>  It forces the body into high stress one minute, a state of extreme relaxation the next. Carbon dioxide levels in the blood crash, then they build back up. Tissues become oxygen deficient and then flooded again. The body becomes more adaptable and flexible and learns that all these physiological responses can come under our control. Conscious heavy breathing, McGee told me, allows us to bend so that we don’t get broken. [...] They stress the body on purpose, snapping it out of its funk so that it can properly function during the other 23½ hours a day. Conscious heavy breathing teaches us to be the pilots of our autonomic nervous systems and our bodies, not the passengers.
+
+# Bullshit filtering
+### "Mewing"?
+Chewing... mewing... I mostly ignored this part of the book. It's already controversial and closely associated with looksmaxxing, which puts it on very shaky ground. Additionally, Nestor writes:
+
+> Stanford University Press published a 216-page monograph by famed evolutionary biologist **Paul R. Ehrlich** (!) and Dr. Sandra Kahn, an orthodontist, detailing hundreds of scientific references that supported Mew’s research.
+
+Ehrlich was a famously terrible forecaster, known for motivated reasoning toward catastrophism. His endorsement makes me even more skeptical of Mewing.
+
+On the other hand, I'm less skeptical about palate expanders for children because they are growing and have much higher bone plasticity than adults. It's also mainstreamed by dentists and more palatable (pun intended) compared to chewing gum all the time. 
+
+### Roman baths?
+> Breathholding hacks, or, as Feinstein would call them, carbon dioxide therapies, have been around for thousands of years. The ancient Romans prescribed soaking in thermal baths (which contained high levels of carbon dioxide that was absorbed through the skin) as a cure for anything from gout to war wounds.
+
+Hydrostatic pressure, mineral content, the heat, and the parasympathetic shift of resting in warm water probably contribute much more to healing than the marginal increase in carbon dioxide.
+
+### Diseases of civilization?
+> Nine out of ten of the top killers, such as diabetes, heart disease, and stroke are caused by the food we eat, water we drink, houses we live in, and offices we work in. They are diseases humanity created.
+
+This is a very shallow reading of the fact pattern. We didn't necessarily create these diseases; we just stopped dying of cholera at age 30. Abundance in one dimension breeds scarcity in others.
+
+### The single cause fallacy
+Hypoventilation (underbreathing) exercises can simulate altitude training at 6,500 ft. Nestor recounts several notable athletes that achieved great results using these methods, though both examples he uses are over a half-century old now. 
+
+Emil Zátopek used hypoventilation exercises to win the 5k, 10k and marathon at the 1952 olympics. Nestor omits that Zátopek is more famous for popularizing interval training. 
+
+James Councilman trained his swim team using hypoventilation techniques for similarly spectacular results in races (1970s). Nestor omits that Councilman was also famous for pioneering underwater filming.
+
+# Personal interventions
+To avoid scaring S, I tried mouth taping during a recent work trip. The tape stayed on, and Snore Lab also confirmed that I'm not much of a snorer.
+
+That said, I'm pretty sure I've experienced screen apnea, and maintaining correct breathing posture continuously seems really hard to me. There are too many things to track: nose breathing, breathing frequency, regularity, and amplitude. As an experiment I'm trying a random timer (found the Lotus Bud app) to periodically check for mouth breathing, and remind me to take some heartbeat-synced box breaths on occasion.
+
+I found that [4-7-8 breaths](https://www.youtube.com/watch?v=gz4G31LGyog) seem to help get to a faster bedtime than my symmetric 4-4-4-4 box approach. The long hold builds carbon dioxide and dilates blood vessels, and the even longer exhale slows the heart rate. Going to sleep, rather than counting seconds, I prefer to use my heartbeat as a reference. While walking, count steps instead.
+
+I've also started to incorporate Wim Hof-style pre-shower breathing (a few rounds of: 30–40 deep, rhythmic breaths, followed by a long exhale and breath-hold), then a shower that ends with 30s of cold exposure. The huffing and puffing is odd, but definitely helps to withstand the brutally cold shower.
+
 Definitely Maybe by The Strugatskys
 ===
 rating: yes
