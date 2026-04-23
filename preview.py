@@ -10,7 +10,8 @@ BUILD_COMMAND = shell('uv run %s -o %s' % (LIGHTNING, ROOT))
 
 server = Server()
 
-for filepath in formic.FileSet(include="**.md"):
-  server.watch(filepath, BUILD_COMMAND)
+for pattern in ("**.md", "template/**.html", "template/**.xml", "template/static/**"):
+  for filepath in formic.FileSet(include=pattern):
+    server.watch(filepath, BUILD_COMMAND)
 
 server.serve(root=ROOT)
