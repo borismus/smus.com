@@ -5,8 +5,98 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-04-17T19:31:03-00:00</updated>
+  <updated>2026-04-23T11:34:30-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Breath by James Nestor</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/breath-by-james-nestor"/>
+    
+    <updated>2026-04-23T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/breath-by-james-nestor</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>After falling down a rabbit hole on interoception, the vagus nerve, and cortical overrides, reading Breath was the logical next step. Overall I found it a good pop-sci overview that filled some gaps in my reading, but I wish it was more rigorously written. There are some issues with structure and Nestor takes too many liberties for my taste. The result is that separating the wheat from the chaff is left to the reader.</p>
+<p>Despite the inaccuracies, I really liked Nestor's willingness to jump in and try many of the breathing experiments on himself. He entertainingly recounts the effect of various breathing exercises and, importantly, calls out the ones that didn't work too. He begins the book with his feelings after clogging up his nose for weeks as part of a study. Towards the end he breathes in a nasty 30% CO2 mixture that is known to cause complete panic. He reliably panics, yet does it repeatedly. The things we do for science... Or at least to make a pop-science book more compelling!</p>
+<h2>CO2 and breathing</h2>
+<p>The physical urge to breathe is not primarily driven by a lack of oxygen, but by the accumulation of carbon dioxide:</p>
+<blockquote>
+<p>The nagging need to breathe is activated from a cluster of neurons called the central chemoreceptors, located at the base of the brain stem. When we’re breathing too slowly and carbon dioxide levels rise, the central chemoreceptors monitor these changes and send alarm signals to the brain, telling our lungs to breathe faster and more deeply. When we’re breathing too quickly, these chemoreceptors direct the body to breathe more slowly</p>
+</blockquote>
+<p>Nestor recounts a story about a certain S. M., who had been completely fearless because of damage to her amygdala. It turns out the anti-asphyxiation mechanism lives in the brainstem, predating emotional fear.</p>
+<blockquote>
+<p>A single puff of carbon dioxide did to S. M. what no snakes, horror movies, or thunderstorms could. For the first time in 30 years, she’d felt fear, a full-fledged panic attack.</p>
+</blockquote>
+<p>Panic attacks and anxiety are often driven by hypersensitivity to internal bodily sensations (see <a class="wiki" href="https://z3.ca/Interoception_is_perception_of_internal_signals_from_the_body">Interoception is perception of internal signals from the body</a>), and this hypersensitivity can be tuned with exposure therapy.</p>
+<h1>A brief history</h1>
+<p>The earliest mentions of breathing trace back to India and China 3000 years ago, where the concept of prana and chi (roughly life force) was associated with breathing. The earliest examples of breathing exercises date back to the Indus Valley show seals depicting a seated man, "his belly is filled with air, as he consciously inhales." These techniques eventually diffused to India, though Nestor takes some liberties with dates and the specifics of the techniques here:</p>
+<blockquote>
+<p>By around 500 BCE, the techniques would be filtered and synthesized into the Yoga Sutras of Patanjali. Slow breathing, breathholding, deep breathing into the diaphragm, and extending exhalations all first appear in this ancient text.</p>
+</blockquote>
+<p>At this time, “Yôga” (pronounced yo-o-o-o-oga) was almost completely unrecognizable compared to the modern version. Poses were done once and held for an excruciatingly long time, emphasizing a focus entirely on breathing. </p>
+<h1>Healthy breathing posture</h1>
+<ul>
+<li>Breathe through your nose<ul>
+<li>Periodically self-check during the day: was my mouth closed?</li>
+<li>Mouth taping at night</li>
+</ul>
+</li>
+<li>Breathe less frequently<ul>
+<li>The ideal resting breathing rate is much slower and lighter than the modern default: about 5-6 seconds inhale, and 5-6 seconds exhale</li>
+</ul>
+</li>
+<li>Breathe more fully<ul>
+<li>Full exhalations are seldom practiced. Most of us engage only a small fraction of our total lung capacity with each breath</li>
+</ul>
+</li>
+<li>Breathe regularly<ul>
+<li>People checking their email freeze and don't breathe. It's like sleep apnea while awake, also called "screen apnea".</li>
+</ul>
+</li>
+</ul>
+<h1>Why bother doing breathing exercises?</h1>
+<p>Breathing is a rare bodily function which is autonomous but can be overridden consciously. Modern life keeps us trapped in a state of continuous, low-grade sympathetic stress. This is a "half-anxiety" where the vagus nerve is neither fully resting nor fully reacting. </p>
+<p>The breathholding that occurs in sleep and constant partial attention is unconscious—it’s something that happens to our bodies, something that’s out of our control. The breathholding practiced by the ancients and revivalists is conscious. Consciously engaging in heavy breathing exercises (like Tummo or the Wim Hof Method) forces the body into an acute, extreme state of sympathetic panic on command.</p>
+<p>My mental model is that by intentionally redlining your nervous system through exercises that flood the body with oxygen, crash CO2, spike CO2 and induce hypoxia, you train the vagal network to better handle extremes. (See <a class="wiki" href="https://z3.ca/Manufactured_suffering_for_resilience,_antifragility_and_happiness">Manufactured suffering for resilience, antifragility and happiness</a>):</p>
+<blockquote>
+<p>It forces the body into high stress one minute, a state of extreme relaxation the next. Carbon dioxide levels in the blood crash, then they build back up. Tissues become oxygen deficient and then flooded again. The body becomes more adaptable and flexible and learns that all these physiological responses can come under our control. Conscious heavy breathing, McGee told me, allows us to bend so that we don’t get broken. [...] They stress the body on purpose, snapping it out of its funk so that it can properly function during the other 23½ hours a day. Conscious heavy breathing teaches us to be the pilots of our autonomic nervous systems and our bodies, not the passengers.</p>
+</blockquote>
+<h1>Bullshit filtering</h1>
+<h3>"Mewing"?</h3>
+<p>Chewing... mewing... I mostly ignored this part of the book. It's already controversial and closely associated with looksmaxxing, which puts it on very shaky ground. Additionally, Nestor writes:</p>
+<blockquote>
+<p>Stanford University Press published a 216-page monograph by famed evolutionary biologist <strong>Paul R. Ehrlich</strong> (!) and Dr. Sandra Kahn, an orthodontist, detailing hundreds of scientific references that supported Mew’s research.</p>
+</blockquote>
+<p>Ehrlich was a famously terrible forecaster, known for motivated reasoning toward catastrophism. His endorsement makes me even more skeptical of Mewing.</p>
+<p>On the other hand, I'm less skeptical about palate expanders for children because they are growing and have much higher bone plasticity than adults. It's also mainstreamed by dentists and more palatable (pun intended) compared to chewing gum all the time. </p>
+<h3>Roman baths?</h3>
+<blockquote>
+<p>Breathholding hacks, or, as Feinstein would call them, carbon dioxide therapies, have been around for thousands of years. The ancient Romans prescribed soaking in thermal baths (which contained high levels of carbon dioxide that was absorbed through the skin) as a cure for anything from gout to war wounds.</p>
+</blockquote>
+<p>Hydrostatic pressure, mineral content, the heat, and the parasympathetic shift of resting in warm water probably contribute much more to healing than the marginal increase in carbon dioxide.</p>
+<h3>Diseases of civilization?</h3>
+<blockquote>
+<p>Nine out of ten of the top killers, such as diabetes, heart disease, and stroke are caused by the food we eat, water we drink, houses we live in, and offices we work in. They are diseases humanity created.</p>
+</blockquote>
+<p>This is a very shallow reading of the fact pattern. We didn't necessarily create these diseases; we just stopped dying of cholera at age 30. Abundance in one dimension breeds scarcity in others.</p>
+<h3>The single cause fallacy</h3>
+<p>Hypoventilation (underbreathing) exercises can simulate altitude training at 6,500 ft. Nestor recounts several notable athletes that achieved great results using these methods, though both examples he uses are over a half-century old now. </p>
+<p>Emil Zátopek used hypoventilation exercises to win the 5k, 10k and marathon at the 1952 olympics. Nestor omits that Zátopek is more famous for popularizing interval training. </p>
+<p>James Councilman trained his swim team using hypoventilation techniques for similarly spectacular results in races (1970s). Nestor omits that Councilman was also famous for pioneering underwater filming.</p>
+<h1>Personal interventions</h1>
+<p>To avoid scaring S, I tried mouth taping during a recent work trip. The tape stayed on, and Snore Lab also confirmed that I'm not much of a snorer.</p>
+<p>That said, I'm pretty sure I've experienced screen apnea, and maintaining correct breathing posture continuously seems really hard to me. There are too many things to track: nose breathing, breathing frequency, regularity, and amplitude. As an experiment I'm trying a random timer (found the Lotus Bud app) to periodically check for mouth breathing, and remind me to take some heartbeat-synced box breaths on occasion.</p>
+<p>I found that <a href="https://www.youtube.com/watch?v=gz4G31LGyog">4-7-8 breaths</a> seem to help get to a faster bedtime than my symmetric 4-4-4-4 box approach. The long hold builds carbon dioxide and dilates blood vessels, and the even longer exhale slows the heart rate. Going to sleep, rather than counting seconds, I prefer to use my heartbeat as a reference. While walking, count steps instead.</p>
+<p>I've also started to incorporate Wim Hof-style pre-shower breathing (a few rounds of: 30–40 deep, rhythmic breaths, followed by a long exhale and breath-hold), then a shower that ends with 30s of cold exposure. The huffing and puffing is odd, but definitely helps to withstand the brutally cold shower.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Definitely Maybe by The Strugatskys</title>
@@ -3543,74 +3633,6 @@ Anastasia screamed in vain<br></p>
 <li>I took notes on this too, see <a class="wiki" href="https://z3.ca/Design_Pattern_Languages_for_Single_Family_Homes">Design Pattern Languages for Single Family Homes</a>.</li>
 <li>Can this be somehow adapted when considering what to look for in a new house? It's a bit like Marie Kondo's "do these underwear spark joy" question. Evocative but also silly.</li>
 <li>Alexander implores us to design without drawing plans. Keep the whole project plan in the mind as you conceive it to be maximally flexible. As you add new patterns to the design, the whole system may need to morph, so any representation other than that of the mind's eye is too inflexible. This seems too extreme, but also somehow appealing.</li>
-</ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Power of Ritual by Casper ter Kuile</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-power-of-ritual-by-casper-ter-kuile"/>
-    
-    <updated>2022-10-30T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-power-of-ritual-by-casper-ter-kuile</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Ritual is closely associated with an ancient monolithic tradition, but Casper ter Kuile encourages us to cherry-pick the good parts from many traditions, and reconstruct your own rituals. At times, the book gives off obnoxious self-help vibes, other times it came off as overly woke. Overall, I'm pretty sure it was ghost written by a slightly flamboyant gay alien who just landed on Earth.</p>
-<p>I am thankful that I personally don't need to reinvent rituals rom scratch, as I find myself firmly rooted in the Jewish tradition. In this tradition, rituals are glorified as an end in themselves (see <a class="wiki" href="https://z3.ca/Jewish_tradition_of_doing_first_and_understanding_later_-_na'aseh_v'nishma">Jewish tradition of doing first and understanding later - na'aseh v'nishma</a>). But I'm way too skeptical to embrace the whole canon wholesale.
-That said, I'm much more inclined to ground myself in some traditional basis and make modifications, rather than start from "first principles". In Rationalist circles, unmoored by any traditional or religious foundation, solstice celebrations are fully made up. The result is inspiring in some ways, but also feel cringeworthy and a little bit fraudulent.</p>
-<p>This book inspired me to start a journalling practice, and incorporate aspects of "prayer" into it. Also, I've implemented tech sabbath, which kicks in automatically on my devices from Friday 6pm to Saturday 6pm.</p>
-<p>Here are my (slightly sanitized) notes on the book:</p>
-<h1>Sacred reading and Lectio Divina</h1>
-<p>I found value in the sacred reading idea that ter Kuile outlines, and appreciated his breakdown of various kinds of reading. The crux of the sacred practice is to read a text but then address questions that are far more broad ranging than the text as written. As an example of how far this practice can be stretched, ter Kuile points to his <a href="https://www.harrypottersacredtext.com/">Harry Potter and the Sacred Text</a> podcast.</p>
-<p>Adapted from Lectio Divina, here are four levels of analysis of a sacred text:</p>
-<ol>
-<li>Literal content: what is happening?</li>
-<li>Allegorical content: what is this alluding to, what is the bigger meaning?</li>
-<li>Personal reflection: what does this evoke in your personal experience?</li>
-<li>Action: what do you want to do about it?</li>
-</ol>
-<p>Lectio Divina comes from Christian tradition, but there are similar traditions in other cultures. In the Jewish tradition, ḥavruta is a study group structure often practiced in Yeshivas.</p>
-<h1>A modern dearth of celebrations</h1>
-<p>The author suggests insightfully that the reason that weddings are so overblown is to compensate for a dearth of rituals in our daily lives. In the mainstream west, there are no more harvest festivals, no real Easter celebrations, and not much for Christmas either.</p>
-<p>The religious and spiritual calendar tends to follow a yearly cycle. Casper thinks we should embrace that more. There is something comforting about this cyclical nature, although it’s not a strict repetition of prior celebrations. The world changes, and you yourself change in some direction, leading to a spiral-like progression.</p>
-<p>I am reminded of Rabbi Heschel's take on "Jewish time" and its emphasis on celebrating historical events as part of the yearly cadence. This, by the way, is from <a class="wiki" href="https://z3.ca/Notes_on_The_Sabbath_by_Heschel">Notes on The Sabbath by Heschel</a> which I am reading next.</p>
-<h1>Connecting with nature</h1>
-<p>A few lenses when connecting with nature:</p>
-<ol>
-<li>Nature is a resource for humans to exploit for our own purposes.</li>
-<li>Nature is to be avoided. We should get away from it as far as possible.</li>
-<li>Nature is like a lover.</li>
-<li>We are part of nature not distinct from it.</li>
-</ol>
-<p>Perspectives one and two are dominant in our culture. Three I didn't quite understand, but I resonate with four.</p>
-<p>A common worldview sees animals and plants as "individual sacks". In fact, the skin of a thing ecologically speaking much more like a pond surface than a sack or a shell. The author describes this as "delicate interpenetration", which is evocative if a bit disgusting. I strongly resonate with the idea of mutual interdependence, and the elation and suffering which is to be found in nature. Shared laughter and shared suffering is critical for community. Also see <a class="wiki" href="https://z3.ca/Two_types_of_fun,_type_1_and_type_2">Two types of fun, type 1 and type 2</a>.</p>
-<p>A technique: verbalize the landscape from its perspective. “I am the pond and the pond is me”</p>
-<h1>A modern take on prayer</h1>
-<p>Prayer can be viewed as way to getting yourself to verbalize how you truly feel. It feels reductive to use prayer as a journaling technique, but also really intriguing.</p>
-<p>Four steps prayer framework:</p>
-<ol>
-<li><strong>Decentering</strong>: stop thinking about your individual experience, and refocus on the profound.</li>
-<li><strong>Contrition</strong>: what have I done that I shouldn’t have? Where have I gone astray? Incidentally this is all of Yom Kippur.</li>
-<li><strong>Thanksgiving</strong>: give thanks for being alive. For the body, for health and people and meaning and joy. Recognize that the goodness comes from without, outside ourselves.</li>
-<li><strong>Supplication</strong>: what one thinks about when one thinks of prayer: making requests. One approach is to sequence it, repeating three intentions. (1) Self, (2) someone we love or a stranger, (3) someone with whom you’re struggling (from Jack Kornfield)</li>
-</ol>
-<p>Unless a pretty literal god exists, this sort of prayer will not work directly to change the world. But it can change you. Why Journal?</p>
-<blockquote>
-<p>Talk about who you are, and who you wish to become. Talk about what matters most. Unless we speak the truth, we will forget what we want to stay loyal to.</p>
-</blockquote>
-<p>Rhymes so much with the C. S. Lewis' Inner Circle and John Boyd's "To be somebody or to do something".</p>
-<h1>Random</h1>
-<ul>
-<li>Spiritual music I should revisit: Arvo Pärt - <a href="https://www.youtube.com/watch?v=TJ6Mzvh3XCc">Spiegel im Spiegel</a></li>
-<li>Beyond Monteverdi: Jacobus Clemens non Papa wrote some dope choral music, including a <a href="https://www.youtube.com/watch?v=yLRgLM0HHek">bunch of motets</a>.</li>
-<li>Simone Weil wrote that god and prayer can be found in the most surprising places, like in a <a href="https://www.wabashcenter.wabash.edu/2018/08/simone-weil-on-study-prayer-and-love/">geometry problem</a>.</li>
 </ul>
 
         

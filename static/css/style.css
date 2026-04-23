@@ -9,6 +9,12 @@
   margin: 0;
 }
 
+a,
+header #title h1,
+article h1.title {
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
 body {
   background: white;
   -webkit-font-smoothing: antialiased;
@@ -150,14 +156,22 @@ article h2,
 article h3 {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 2rem;
-  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
+  line-height: 1.2;
   text-wrap: pretty;
 }
 
-article h3 {
+article h1 {
+  font-size: 2rem;
+}
+
+article h2 {
   font-size: 1.7rem;
+}
+
+article h3 {
+  font-size: 1.4rem;
 }
 
 article p {
@@ -174,15 +188,26 @@ article pre {
   font-family: "Inconsolata", monospace;
   font-size: 1.1rem;
   margin: 1rem 0;
-  padding: 0.5rem;
+  padding: 0.75rem 1rem;
   overflow: auto;
-  border: solid 1px #ddd;
-  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
   background: #f7f7f7;
 }
 
 article code {
   font-family: "Inconsolata", monospace;
+  font-size: 0.95em;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+article pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  border-radius: 0;
 }
 
 article ul,
@@ -218,9 +243,10 @@ article .readmore:hover {
 }
 
 article blockquote {
-  margin: 2rem;
-  font-size: 1.5rem;
-  opacity: 0.7;
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.45);
   font-style: italic;
 }
 
@@ -401,7 +427,8 @@ section#archives .rating {
 }
 
 hr {
-  border: 1px solid #ddd;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 2em 0.5em;
 }
 
@@ -455,7 +482,7 @@ video {
   max-width: 100%;
   width: auto;
   margin: 1em auto;
-  box-shadow: 3px 3px 5px #999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 /* Media queries to make the page responsive */
@@ -514,6 +541,28 @@ video {
     color: rgba(255, 255, 255, 0.6);
   }
 
+  article blockquote {
+    border-left-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  article pre {
+    background: #1e1e1e;
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  article code {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  article pre code {
+    background: none;
+  }
+
+  hr {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
   body a {
     color: #80ff80bd;
   }
@@ -547,7 +596,7 @@ video {
   }
 
   .book-cover {
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.7);
   }
 
   ::selection {
