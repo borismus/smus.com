@@ -150,14 +150,22 @@ article h2,
 article h3 {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 2rem;
-  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
+  line-height: 1.2;
   text-wrap: pretty;
 }
 
-article h3 {
+article h1 {
+  font-size: 2rem;
+}
+
+article h2 {
   font-size: 1.7rem;
+}
+
+article h3 {
+  font-size: 1.4rem;
 }
 
 article p {
