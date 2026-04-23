@@ -9,6 +9,12 @@
   margin: 0;
 }
 
+a,
+header #title h1,
+article h1.title {
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
 body {
   background: white;
   -webkit-font-smoothing: antialiased;
