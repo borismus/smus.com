@@ -218,9 +218,10 @@ article .readmore:hover {
 }
 
 article blockquote {
-  margin: 2rem;
-  font-size: 1.5rem;
-  opacity: 0.7;
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.45);
   font-style: italic;
 }
 
@@ -512,6 +513,11 @@ video {
   article,
   p {
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  article blockquote {
+    border-left-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.45);
   }
 
   body a {
