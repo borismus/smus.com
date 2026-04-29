@@ -5,8 +5,86 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-04-23T11:34:30-00:00</updated>
+  <updated>2026-04-28T22:43:07-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Courage to Be by Paul Tillich</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-courage-to-be-by-paul-tillich"/>
+    
+    <updated>2026-04-28T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-courage-to-be-by-paul-tillich</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Paul Tillich’s The Courage to Be is a dense, philosophical manual for meaning masquerading as theology. Born from the ashes of post-war Europe, Tillich rails against collectivism with an almost Randian fervor. Beneath this mid-century veneer lies a deeply resonant, borderline heretical framework proposing a "God above God" that feels acutely relevant to our modern crises and reminded me of the abstractions of the Rambam (see <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa_(Maimonedes)">Negative theology and via negativa (Maimonedes)</a>).</p>
+<p>The overall thrust of the book seems to be that throughout history, there are periods when we are engulfed in a crisis of meaning, an onset of anxiety and existential dread, in which we must assert our existence without relying on dangerous shortcuts to escape the void. Tillich prescribes "active negativity", facing the void and asserting your existence in a stoic way. </p>
+<p>At the outset of the book Tillich asks a provocative question: in this time of modernity, does the Reformation need a Second Reformation? He writes as if he were a Second Luther hoping that "The Courage to Be" could be his ninety-five theses, saving Christianity for the postwar modern intellectual. But his ideas proved too abstract for a mass awakening. Instead, I read this book as a sort of manual for meaning, like a self-help book with a narrow audience. </p>
+<p>Tillich proposes three kinds of anxieties, each dominant at the end of an epoch:</p>
+<table>
+<thead>
+<tr>
+<th>Epoch end</th>
+<th>Dominant anxiety</th>
+<th>Civilizational symptom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Late antiquity</td>
+<td>Ontic (death, fate)</td>
+<td>Mystery cults, Stoicism, early Christianity</td>
+</tr>
+<tr>
+<td>Late Middle Ages</td>
+<td>Moral (guilt, damnation)</td>
+<td>Indulgences, Reformation, self-flaggelation</td>
+</tr>
+<tr>
+<td>Late Modernity</td>
+<td>Spiritual (meaninglessness)</td>
+<td>Depression epidemic, nihilism, AI disruption</td>
+</tr>
+</tbody>
+</table>
+<p>In Tillich's time after the World Wars, the Holocaust, the dropping of the atom bomb, humanity was plagued by the anxiety of annihilation. This was compounded by a disillusionment with The Enlightenment. The idea of progress culminating in a utopian society was shattered by WWII. Science didn't bring utopia; it brought industrialized slaughter and the Cold War.</p>
+<p>This threat of annihilation and disillusionment with progress has lingered in the background since then, and now eighty years later we face a compounding anxiety of obsolescence. The collective utopian dream died in the late 20th century, and was replaced by hyper-individualism. Our worth became tied to intellect, creativity, and career. AI directly attacks this the work-as-identity paradigm, threatening the bedrock of our modern sense of self-worth.</p>
+<p>When an era's meaning-structure collapses, humans panic and seek shelter. Tillich frames Fascism, Nazism, and Communism as pathological extremes of the Courage to Be as a Part. Individuals surrender their selfhood to escape the anxiety of freedom and meaninglessness. They gain a sense of belonging, but at the cost of total conformity and the annihilation of the individual soul. (Tillich’s framework is deeply anchored in his direct experience with 20th-century totalitarianism. He was one of the first non-Jewish professors fired by the Nazi regime in 1933 before fleeing to the US.)</p>
+<p>Tillich exalts Dürer’s Knight as a hero. He faces the Devil and Death, but carries on. He is "alone but not lonely".</p>
+<p><img alt="Dürer’s Knight" src="/assets/durer-knight.jpg" /></p>
+<p>Tillich’s whole point is that you cannot have the "Courage to Be" unless you can both live fully and face the void.</p>
+<p>Tillich emphasizes never falling into the collectivist trap, and finding the "Courage to Be yourself", but as usual, we may have overcorrected. Now this virtue of Stoic aloneness itself has become a vice. In <a href="https://www.derekthompson.org/p/the-monks-in-the-casino">The Monks in the Casino</a>, Thompson writes about young men who are increasingly retreating into a toxic asceticism, trading pro-social milestones for porn, posting, and pervasive sports betting.</p>
+<p>Tillich's "Courage to Be as Oneself" requires what he calls active negativity: facing the void AND living fully. A 2x2 emerges as a result.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Lives Fully</th>
+<th>Withdraws</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Faces the Void</strong></td>
+<td><strong>Dürer's Knight</strong><br>Sees the abyss, knows nothing is guaranteed, rides forward anyway.</td>
+<td><strong>The Doomer</strong><br>Sees the abyss and since nothing matters why bother?</td>
+</tr>
+<tr>
+<td><strong>Fears the Void</strong></td>
+<td><strong>The Hedonist</strong><br>Lives large, consumes endlessly, hustles, and hides from the void.</td>
+<td><strong>The Casino Monk</strong><br>Runs from the void by shrinking into a screen.</td>
+</tr>
+</tbody>
+</table>
+<p>Our challenge is not just that we face the void, but that our predominant coping mechanisms are tribalism, mindless hedonism, and digital withdrawal, ensuring we never live fully. Tillich’s Second Reformation may not have materialized, but his prescription remains vital: true courage requires riding forward into an uncertain future, looking the Devil in the eye.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Breath by James Nestor</title>
@@ -3576,64 +3654,6 @@ Anastasia screamed in vain<br></p>
  From the big, dizzy mountains that screen it
    To the deep, deathlike valleys below.</p>
 </blockquote>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>The Timeless Way of Building</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/the-timeless-way-of-building"/>
-    
-    <updated>2022-11-28T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/the-timeless-way-of-building</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>The built world is defined by a small number of patterns, which keep repeating over and over and over again. The patterns are deep and mostly relational. This applies at all scales in human construction: to American cities, Gothic cathedrals, Paris, Chinese kitchens, doors, and so on.</p>
-<p>These patterns can be codified into a pattern language. And just like a great writer or orator has an intuitive grasp of human language, a great builder can and should strive to attain an intuitive grasp of his pattern language.</p>
-<p>But just because you have a pattern language does not make it good. A concrete jungle is also governed by a pattern language. Alexander strives to capture a collection of patterns that create a microcosm that has "The Quality Without a Name", which he defines via negativa (see <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa">Negative theology and via negativa</a>). Here's a quick summary:</p>
-<p><img alt="The Quality Without a Name" src="/assets/qwan.jpg" /></p>
-<p>Subsequent books in the series present lists of specific patterns at various scale levels (eg. town, building, substructure) that Alexander wholeheartedly endorses.</p>
-<h2>Tired: things I didn't love 😫</h2>
-<ul>
-<li>Stuffy tone</li>
-<li>Exacerbated by the narrator's proper English accent in the audio book.</li>
-<li>Dry prose. If I had a nickel for every "pattern of events" in some of those middle chapters...!</li>
-<li>Overly universalist</li>
-<li>The Quality Without A Name is supposed to span time and space. It's timeless, as per the title of the book, but this pomposity is the opposite of the egoless ideal.</li>
-<li>Alexander makes sweeping claims like whether a pattern language is alive or dead is necessarily objective.</li>
-<li>QWAN has a strong “you’ll know it when you see it” vibe. Alexander is really appealing to some imagined sense of universal taste.</li>
-<li>Opinionated and tending negative</li>
-<li>About architecture, including modern star architects, nature-inspired architects like Frank Lloyd Wright.</li>
-<li>About specialization in general</li>
-<li>About materials that tend to last forever like concrete and metal. They are inherently not alive.</li>
-</ul>
-<h2>Wired: things I loved 💗💗💗</h2>
-<ul>
-<li>The specific patterns found in the second volume "A Pattern Language", especially pertaining to buildings. I'd never thought of many of them, and now find myself viewing buildings through this patterned lens.</li>
-<li>Every living thing is the product of a process. There is no way to creates a living thing by some direct process.</li>
-<li>Trying to define QWAN as an overlap of many attributes, where none of the attributes on its own adequately describe it. Reminds me of <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa">Negative theology and via negativa</a></li>
-<li>One of the attributes of QWAN is "Being Alive", which although vague is evocative. Design must be done with the idea of death. Nothing can be alive unless it can become dead (see <a class="wiki" href="https://z3.ca/Momento_mori">Momento mori</a>).</li>
-<li>Only about 5% of buildings are designed by architects. The vast majority are constructed by following relatively simple patterns and rules.</li>
-</ul>
-<h2>Inspired: threads to pull on ✨🧵✨</h2>
-<ul>
-<li>It's difficult to describe what constitutes a rough circle. A precise circle is easy to quantify. It is the locus of points that are equidistant from a center. But naively defining a rough circle as some locus of connected points 5 to 6 cm away from a certain point might include zigzags, polygons, or other shapes that are totally not circle-like.</li>
-<li>How would I algorithmically generate a rough circle? Sounds like a fun side project or interview question.</li>
-<li>Alexander leans heavily on the environment as something that is critical for happiness. It does not come from within. I liked that he acknowledges that this is an untrendy claim to make, and explicitly defends his position. How much happiness comes from the self, and how much from the environment?</li>
-<li>What are the pattern languages for 1940-59 builds in Seattle? What about the 1910 eta craftsmen? How about new modern builds going up now?</li>
-<li>Can these design patterns be used to consider whether existing buildings are good? I am judging my house and my parents house from this vantage point.</li>
-<li>What are the buildings and building patterns I like most?</li>
-<li>In PYNY's house: great benches integrated into windowsills.</li>
-<li>I took notes on this too, see <a class="wiki" href="https://z3.ca/Design_Pattern_Languages_for_Single_Family_Homes">Design Pattern Languages for Single Family Homes</a>.</li>
-<li>Can this be somehow adapted when considering what to look for in a new house? It's a bit like Marie Kondo's "do these underwear spark joy" question. Evocative but also silly.</li>
-<li>Alexander implores us to design without drawing plans. Keep the whole project plan in the mind as you conceive it to be maximally flexible. As you add new patterns to the design, the whole system may need to morph, so any representation other than that of the mind's eye is too inflexible. This seems too extreme, but also somehow appealing.</li>
-</ul>
 
         
       </div>

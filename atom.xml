@@ -5,8 +5,86 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-04-23T11:34:30-00:00</updated>
+  <updated>2026-04-28T22:43:07-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>The Courage to Be by Paul Tillich</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-courage-to-be-by-paul-tillich"/>
+    
+    <updated>2026-04-28T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-courage-to-be-by-paul-tillich</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Paul Tillich’s The Courage to Be is a dense, philosophical manual for meaning masquerading as theology. Born from the ashes of post-war Europe, Tillich rails against collectivism with an almost Randian fervor. Beneath this mid-century veneer lies a deeply resonant, borderline heretical framework proposing a "God above God" that feels acutely relevant to our modern crises and reminded me of the abstractions of the Rambam (see <a class="wiki" href="https://z3.ca/Negative_theology_and_via_negativa_(Maimonedes)">Negative theology and via negativa (Maimonedes)</a>).</p>
+<p>The overall thrust of the book seems to be that throughout history, there are periods when we are engulfed in a crisis of meaning, an onset of anxiety and existential dread, in which we must assert our existence without relying on dangerous shortcuts to escape the void. Tillich prescribes "active negativity", facing the void and asserting your existence in a stoic way. </p>
+<p>At the outset of the book Tillich asks a provocative question: in this time of modernity, does the Reformation need a Second Reformation? He writes as if he were a Second Luther hoping that "The Courage to Be" could be his ninety-five theses, saving Christianity for the postwar modern intellectual. But his ideas proved too abstract for a mass awakening. Instead, I read this book as a sort of manual for meaning, like a self-help book with a narrow audience. </p>
+<p>Tillich proposes three kinds of anxieties, each dominant at the end of an epoch:</p>
+<table>
+<thead>
+<tr>
+<th>Epoch end</th>
+<th>Dominant anxiety</th>
+<th>Civilizational symptom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Late antiquity</td>
+<td>Ontic (death, fate)</td>
+<td>Mystery cults, Stoicism, early Christianity</td>
+</tr>
+<tr>
+<td>Late Middle Ages</td>
+<td>Moral (guilt, damnation)</td>
+<td>Indulgences, Reformation, self-flaggelation</td>
+</tr>
+<tr>
+<td>Late Modernity</td>
+<td>Spiritual (meaninglessness)</td>
+<td>Depression epidemic, nihilism, AI disruption</td>
+</tr>
+</tbody>
+</table>
+<p>In Tillich's time after the World Wars, the Holocaust, the dropping of the atom bomb, humanity was plagued by the anxiety of annihilation. This was compounded by a disillusionment with The Enlightenment. The idea of progress culminating in a utopian society was shattered by WWII. Science didn't bring utopia; it brought industrialized slaughter and the Cold War.</p>
+<p>This threat of annihilation and disillusionment with progress has lingered in the background since then, and now eighty years later we face a compounding anxiety of obsolescence. The collective utopian dream died in the late 20th century, and was replaced by hyper-individualism. Our worth became tied to intellect, creativity, and career. AI directly attacks this the work-as-identity paradigm, threatening the bedrock of our modern sense of self-worth.</p>
+<p>When an era's meaning-structure collapses, humans panic and seek shelter. Tillich frames Fascism, Nazism, and Communism as pathological extremes of the Courage to Be as a Part. Individuals surrender their selfhood to escape the anxiety of freedom and meaninglessness. They gain a sense of belonging, but at the cost of total conformity and the annihilation of the individual soul. (Tillich’s framework is deeply anchored in his direct experience with 20th-century totalitarianism. He was one of the first non-Jewish professors fired by the Nazi regime in 1933 before fleeing to the US.)</p>
+<p>Tillich exalts Dürer’s Knight as a hero. He faces the Devil and Death, but carries on. He is "alone but not lonely".</p>
+<p><img alt="Dürer’s Knight" src="/assets/durer-knight.jpg" /></p>
+<p>Tillich’s whole point is that you cannot have the "Courage to Be" unless you can both live fully and face the void.</p>
+<p>Tillich emphasizes never falling into the collectivist trap, and finding the "Courage to Be yourself", but as usual, we may have overcorrected. Now this virtue of Stoic aloneness itself has become a vice. In <a href="https://www.derekthompson.org/p/the-monks-in-the-casino">The Monks in the Casino</a>, Thompson writes about young men who are increasingly retreating into a toxic asceticism, trading pro-social milestones for porn, posting, and pervasive sports betting.</p>
+<p>Tillich's "Courage to Be as Oneself" requires what he calls active negativity: facing the void AND living fully. A 2x2 emerges as a result.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Lives Fully</th>
+<th>Withdraws</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Faces the Void</strong></td>
+<td><strong>Dürer's Knight</strong><br>Sees the abyss, knows nothing is guaranteed, rides forward anyway.</td>
+<td><strong>The Doomer</strong><br>Sees the abyss and since nothing matters why bother?</td>
+</tr>
+<tr>
+<td><strong>Fears the Void</strong></td>
+<td><strong>The Hedonist</strong><br>Lives large, consumes endlessly, hustles, and hides from the void.</td>
+<td><strong>The Casino Monk</strong><br>Runs from the void by shrinking into a screen.</td>
+</tr>
+</tbody>
+</table>
+<p>Our challenge is not just that we face the void, but that our predominant coping mechanisms are tribalism, mindless hedonism, and digital withdrawal, ensuring we never live fully. Tillich’s Second Reformation may not have materialized, but his prescription remains vital: true courage requires riding forward into an uncertain future, looking the Devil in the eye.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Breath by James Nestor</title>
@@ -3423,41 +3501,6 @@ Was how to shoot somebody who outdrew you.</p>
 <li><a href="https://www.theatlantic.com/technology/archive/2023/10/ai-image-generation-human-creativity-imagination/675840/">A Tool to Supercharge Your Imagination</a> (<em>Ian Bogost</em>) — In an uncharacteristically optimistic article, Bogost lauds modern image generation models for their ability to quickly "shape unfiltered thoughts" and give them "shape outside your mind", but ignores the downsides. It's a bit like reading a book and then watching the movie: all of the fuzzy but vivid mental imagery in your mind's eye collapses into the images on the screen. Gandalf will never again be an abstract wizard, only the one depicted by Ian McKellen.</li>
 </ul>
 <p>Happy New Year to you all!</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Great Work Of Time by John Crowley</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/great-work-of-time-by-john-crowley"/>
-    
-    <updated>2023-12-19T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/great-work-of-time-by-john-crowley</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Thanks to AK for the suggestion, I found this to be a more historical and literary take on a concept similar to <a href="/books/the-end-of-eternity-by-isaac-asimov/">End of Eternity by Isaac Asimov</a>. It's also a short novella, which I think is part of why a lot of the details feel like they are left as an exercise to the reader.</p>
-<p>Crowley's secret cabal of time traveling elites, takes after Asimov's Allwhen Council of Eternals. Except is founded by Cecil Rhodes and called the Otherhood. Just like Asimov's Eternals seek to intervene in time by making Minimal Necessary Changes for the Maximal Desired Response, the Otherhood seeks “the smallest possible intrusion that would have the proper effect”.</p>
-<p>But unlike the Allwhen Council interested in preventing societal collapse, the Otherhood are Tories whose main goal is to keep the British empire going for as long as possible. In one future explored by Crowley, the Otherhood succeeds in this, preventing the calamities of the 20th century. A glimpse into the far future, however, reveals a dark and bizarre world with Hominids, Angels, and "Draconics". (Connecting the dots, this is supposed to be a terrible turn of events, but its apparent awfulness doesn’t really come through in the prose. What’s bad about it?)</p>
-<p>Crowley goes beyond Asimov in describing the geometry of the multiverse which time travelers ("orthogonists") can traverse. Time marches on inexorably:</p>
-<blockquote>
-<p>The universe proceeds out of what has been and into what it will be, inexorably, unstoppably, at the rate of one second per second, one year per year, forever.</p>
-</blockquote>
-<p>But as I understand it, any forward progress breeds a new universe that is literally orthogonal to the arrow of time:</p>
-<blockquote>
-<p>At right angles to its forward progress lie the past and the future. The future, that is to say, does not lie "ahead" of the present in the stream of time, but at a right angle to it</p>
-</blockquote>
-<p>You can never enter the same present twice.</p>
-<blockquote>
-<p>The past he had passed through on his way back was not 'behind' his present at all, but at a right angle to it; the future of that past, which he had to traverse in order to get back again, was not the same road, and 'back' was not where he got.</p>
-</blockquote>
-<p>(I think this is similar to the <a href="https://en.wikipedia.org/wiki/Many-worlds_interpretation">many-worlds interpretation</a> that quantum mechanics applies everywhere and at all times and so describes the whole universe. In particular, there is no wave function collapse. Schrödinger's cat is both alive and dead, even before the box is opened, but the "alive" and "dead" cats are in different branches of the multiverse, both of which are equally real, but which do not interact with each other.)</p>
-<p>But how does time travel work in such a world? Well, I guess one possibility is that in the next time step, you move into a world that is a lot like the one before. With the many-worlds interpretation, it's possible that anything happens. So there's a non-zero probability of having a time machine and using it to time travel to a world that looks just like 1893. There is also a non-zero probability that you will use a chicken to time travel to a magical rainbow under the surface of Jupiter's smallest monkey. The only difference between these two scenarios is their respective probabilities.</p>
 
         
       </div>
