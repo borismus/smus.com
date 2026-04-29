@@ -436,11 +436,11 @@ table {
   border-collapse: collapse;
 }
 table th {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-weight: bold;
-  font-size: 1.4rem;
-  padding: 1rem;
-  line-height: 1.05;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+  line-height: 1.2;
   border: 1px solid #ccc;
 }
 table td {
