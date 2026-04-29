@@ -4,6 +4,50 @@ class: split
 type: book
 
 
+The Courage to Be by Paul Tillich
+===
+rating: yes
+posted: April 28, 2026
+cover: /assets/book-covers/courage-to-be.jpg
+
+Paul Tillich’s The Courage to Be is a dense, philosophical manual for meaning masquerading as theology. Born from the ashes of post-war Europe, Tillich rails against collectivism with an almost Randian fervor. Beneath this mid-century veneer lies a deeply resonant, borderline heretical framework proposing a "God above God" that feels acutely relevant to our modern crises and reminded me of the abstractions of the Rambam (see [[Negative theology and via negativa (Maimonedes)]]).
+
+The overall thrust of the book seems to be that throughout history, there are periods when we are engulfed in a crisis of meaning, an onset of anxiety and existential dread, in which we must assert our existence without relying on dangerous shortcuts to escape the void. Tillich prescribes "active negativity", facing the void and asserting your existence in a stoic way. 
+
+At the outset of the book Tillich asks a provocative question: in this time of modernity, does the Reformation need a Second Reformation? He writes as if he were a Second Luther hoping that "The Courage to Be" could be his ninety-five theses, saving Christianity for the postwar modern intellectual. But his ideas proved too abstract for a mass awakening. Instead, I read this book as a sort of manual for meaning, like a self-help book with a narrow audience. 
+
+Tillich proposes three kinds of anxieties, each dominant at the end of an epoch:
+
+| Epoch end        | Dominant anxiety            | Civilizational symptom                       |
+| ---------------- | --------------------------- | -------------------------------------------- |
+| Late antiquity   | Ontic (death, fate)         | Mystery cults, Stoicism, early Christianity  |
+| Late Middle Ages | Moral (guilt, damnation)    | Indulgences, Reformation, self-flaggelation  |
+| Late Modernity   | Spiritual (meaninglessness) | Depression epidemic, nihilism, AI disruption |
+
+In Tillich's time after the World Wars, the Holocaust, the dropping of the atom bomb, humanity was plagued by the anxiety of annihilation. This was compounded by a disillusionment with The Enlightenment. The idea of progress culminating in a utopian society was shattered by WWII. Science didn't bring utopia; it brought industrialized slaughter and the Cold War.
+
+This threat of annihilation and disillusionment with progress has lingered in the background since then, and now eighty years later we face a compounding anxiety of obsolescence. The collective utopian dream died in the late 20th century, and was replaced by hyper-individualism. Our worth became tied to intellect, creativity, and career. AI directly attacks this the work-as-identity paradigm, threatening the bedrock of our modern sense of self-worth.
+
+When an era's meaning-structure collapses, humans panic and seek shelter. Tillich frames Fascism, Nazism, and Communism as pathological extremes of the Courage to Be as a Part. Individuals surrender their selfhood to escape the anxiety of freedom and meaninglessness. They gain a sense of belonging, but at the cost of total conformity and the annihilation of the individual soul. (Tillich’s framework is deeply anchored in his direct experience with 20th-century totalitarianism. He was one of the first non-Jewish professors fired by the Nazi regime in 1933 before fleeing to the US.)
+
+Tillich exalts Dürer’s Knight as a hero. He faces the Devil and Death, but carries on. He is "alone but not lonely".
+
+![Dürer’s Knight](/assets/durer-knight.jpg)
+
+Tillich’s whole point is that you cannot have the "Courage to Be" unless you can both live fully and face the void.
+
+Tillich emphasizes never falling into the collectivist trap, and finding the "Courage to Be yourself", but as usual, we may have overcorrected. Now this virtue of Stoic aloneness itself has become a vice. In [The Monks in the Casino](https://www.derekthompson.org/p/the-monks-in-the-casino), Thompson writes about young men who are increasingly retreating into a toxic asceticism, trading pro-social milestones for porn, posting, and pervasive sports betting.
+
+Tillich's "Courage to Be as Oneself" requires what he calls active negativity: facing the void AND living fully. A 2x2 emerges as a result.
+
+| | Lives Fully|Withdraws|
+| ------------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Faces the Void** | **Dürer's Knight**<br>Sees the abyss, knows nothing is guaranteed, rides forward anyway. | **The Doomer**<br>Sees the abyss and since nothing matters why bother? |
+| **Fears the Void** | **The Hedonist**<br>Lives large, consumes endlessly, hustles, and hides from the void.   | **The Casino Monk**<br>Runs from the void by shrinking into a screen.  |
+
+Our challenge is not just that we face the void, but that our predominant coping mechanisms are tribalism, mindless hedonism, and digital withdrawal, ensuring we never live fully. Tillich’s Second Reformation may not have materialized, but his prescription remains vital: true courage requires riding forward into an uncertain future, looking the Devil in the eye.
+
+
 Breath by James Nestor
 ===
 rating: yes
