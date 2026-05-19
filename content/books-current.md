@@ -4,6 +4,19 @@ class: split
 type: book
 
 
+Dungeon Crawler Carl by Matt Dinniman
+===
+rating: yes
+posted: May 18, 2026
+cover: /assets/book-covers/dungeon-crawler-carl.jpg
+
+It’s definitely pulp, but is it fiction? McLuhan would have a heart attack. Am I listening to a game? Am I playing a book? Dinniman bizarrely splices a traditional narrative with literal video game interfaces. While entertaining, it feels like cheating because it borrows the dopamine loops of a different medium rather than offering literary depth.
+
+But underneath the veneer of juvenile humor, the crawler's world is bleak. The tiny fraction of surviving humans are enslaved in an AI dungeon and subjected to a panopticon. Its follows, favorites, and patronage system are depressing and nihilistic, especially against the backdrop of naked profit-seeking corporations and a sprinkling of bigotry (Did you really have to name the NPC rat Mordecai? Do your research, man)
+
+Despite everything, it's a genuinely fun ten hour joke. And Jeff Hays' narration is excellent.
+
+
 The Courage to Be by Paul Tillich
 ===
 rating: yes
