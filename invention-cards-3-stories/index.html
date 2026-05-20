@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invention Cards 3.0: Stories | Boris Smus</title>
+
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+
+  <meta name="description" content="Last month, after a long hiatus, I showed  invention.cards  to a friend in SF and came away unsatisfied. Indeed, the work was  not yet done . Three things drove this revision:     It felt incomplete. The experience was built around T-shaped navigation, focusing on a specific card and showing only their ancestors and descendants. It was hard to see where you were in time, hard to feel the shape of history, and ultimately was far removed from the way a tech tree should  feel .   The connections matter more than the nodes. What's most interesting to me was not "ooh metal stirrup" in isolation, but how stirrups, saddles, and lances chained into something nobody planned.    The images weren't doing their job. The cards were pretty, but felt to me like decorative slop with little educational or descriptive value.      I've revised the project with a new visualizer, a story feature, and new images." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/invention-cards-3-stories/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Invention Cards 3.0: Stories" />
+  <meta name="twitter:description" content="Last month, after a long hiatus, I showed  invention.cards  to a friend in SF and came away unsatisfied. Indeed, the work was  not yet done . Three things drove this revision:     It felt incomplete. The experience was built around T-shaped navigation, focusing on a specific card and showing only their ancestors and descendants. It was hard to see where you were in time, hard to feel the shape of history, and ultimately was far removed from the way a tech tree should  feel .   The connections matter more than the nodes. What's most interesting to me was not "ooh metal stirrup" in isolation, but how stirrups, saddles, and lances chained into something nobody planned.    The images weren't doing their job. The cards were pretty, but felt to me like decorative slop with little educational or descriptive value.      I've revised the project with a new visualizer, a story feature, and new images." />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/invention-cards-3-stories/" />
+  <meta property="og:title" content="Invention Cards 3.0: Stories" />
+  <meta property="og:description" content="Last month, after a long hiatus, I showed  invention.cards  to a friend in SF and came away unsatisfied. Indeed, the work was  not yet done . Three things drove this revision:     It felt incomplete. The experience was built around T-shaped navigation, focusing on a specific card and showing only their ancestors and descendants. It was hard to see where you were in time, hard to feel the shape of history, and ultimately was far removed from the way a tech tree should  feel .   The connections matter more than the nodes. What's most interesting to me was not "ooh metal stirrup" in isolation, but how stirrups, saddles, and lances chained into something nobody planned.    The images weren't doing their job. The cards were pretty, but felt to me like decorative slop with little educational or descriptive value.      I've revised the project with a new visualizer, a story feature, and new images." />
+
+  <!-- Mastodon -->
+  <link rel="me" href="https://mastodon.social/@borismus">
+
+  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
+  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/icons/site.webmanifest">
+
+  <!-- Styles -->
+  <link
+  href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/style.css'>
+  <link rel='stylesheet' href='/static/css/prism.css'>
+
+  <!-- Feed -->
+  <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/projects/' >Projects</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/invention-cards-3-stories'><h1 class='title'>Invention Cards 3.0: Stories</h1></a>
+    <div class='body'>
+      <p>Last month, after a long hiatus, I showed <a href="/visual-chronology-science-discovery-v2/">invention.cards</a> to a friend in SF and came away unsatisfied. Indeed, the work was <a href="/notes/2025/invention-discovery-cards-work-complete/">not yet done</a>. Three things drove this revision:</p>
+<ol>
+<li>It felt incomplete. The experience was built around T-shaped navigation, focusing on a specific card and showing only their ancestors and descendants. It was hard to see where you were in time, hard to feel the shape of history, and ultimately was far removed from the way a tech tree should <em>feel</em>.</li>
+<li>The connections matter more than the nodes. What's most interesting to me was not "ooh metal stirrup" in isolation, but how stirrups, saddles, and lances chained into something nobody planned. </li>
+<li>The images weren't doing their job. The cards were pretty, but felt to me like decorative slop with little educational or descriptive value. </li>
+</ol>
+<p>I've revised the project with a new visualizer, a story feature, and new images.</p>
+<!--more-->
+
+<h1>Everything everywhere all at once</h1>
+<p>In the old UI, you'd land on a card, then branch up and down the dependency tree. In practice that was confusing. The main experience is now a zoomable tech tree of all inventions and discoveries. There are four zoom tiers as you move in:</p>
+<ol>
+<li>Dots — far out are colored dots on the timeline with dependency arrows only.</li>
+<li>Labels — density-controlled title pills which automatically expand as you zoom further in:
+   <img alt="" src="invention-cards-v3-dots-labels.png" /></li>
+<li>
+<p>Half-cards — folded cards with only artwork and title. It helps to have evocative artwork that can stand on its own:
+   <img alt="" src="invention-cards-v3-half-cards.png" /></p>
+</li>
+<li>
+<p>Full-cards — unfolded cards with image, description, inventor, and footer. This design is largely unchanged:
+   <img alt="" src="invention-cards-v3-full-cards.png" /></p>
+</li>
+</ol>
+<h1>Stories: highlighting connections</h1>
+<p>I tried telling the rise and fall of knights arc in a blog post, chronicling <a href="/horse-invention-cards/">saddles, stirrups, collars, lances, the whole chain</a>. It worked ok as an essay, but the timeline disappeared. To follow the argument properly you had to abandon the graph and read linearly, losing the spatial sense of when things happened and what else was going on at the same time.</p>
+<p>That's the problem Stories solve. A story is still a curated path with authored prose, but the path stays on the graph situated in the bigger tech tree. You see the ribbon, the years, and the neighbors. Because the story sits inside the larger tech tree, you can look up and notice "wait, that was happening at the same time as that?"</p>
+<p>I've authored three stories so far:</p>
+<ol>
+<li>
+<p><a href="https://invention.cards/story/knights">Gone are the days of the knights</a> — From a tame horse pulling a chariot to the salaried musketeer that retired the knight
+  <img alt="" src="invention-cards-v3-stories-knights.png" /></p>
+</li>
+<li>
+<p><a href="https://invention.cards/story/steam-diffusion">Steam diffusion over seventeen centuries</a> — Hero’s toy → Watt’s engines: a two-millennia ping-pong match between the laboratory and the coal mine
+  <img alt="" src="invention-cards-v3-stories-steam.png" /></p>
+</li>
+<li>
+<p><a href="https://invention.cards/story/republic-of-letters">Toward a Republic of Letters</a> — Sumerian ledgers → the printing press and scientific societies
+  <img alt="" src="invention-cards-v3-stories-letters.png" /></p>
+</li>
+</ol>
+<h1>Fit and finish</h1>
+<p>Card art is now backed by ~1,500 era-styled 3:2 JPGs generated by OpenAI's <code>gpt-image-2</code>. This results in images that are far less abstract, more accurate, and in era-appropriate styles.</p>
+<p>The universe view swaps to a dedicated mobile bundle for narrow devices. Instead of a large spread, you are given a card deck with live drag. Cards rise, scale, and dim as you pull; backward swipes bring the previous card back from the left.</p>
+<p><center></p>
+<video autoplay muted loop src="invention-cards-v3-mobile-r4.mp4"></video>
+<p></center></p>
+<p>Explore the full graph and new stories at <a href="https://invention.cards/">invention.cards</a>.</p>
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>May 20, 2026</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2005–2026 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='https://smus.com/atom.xml'>RSS</a>
+    <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
+  </nav>
+</footer>
+
+<!-- Syntax highlighting for code (only for tagged code blocks). -->
+<script src="/static/js/prism.js"></script>
+<!-- Lightning builder error check. -->
+<script src="/lightning_error.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38Y45XD5VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38Y45XD5VQ');
+</script>
+
+
+</body>
+</html>
