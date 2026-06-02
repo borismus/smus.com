@@ -46,11 +46,11 @@ Breath_The_New_Science_of_a_Lost_Art_James_Nestor.pdf
  833859955948781568  Apr 18 17:45  TUMMO There are two forms of Tummo—one t (A)
  833859956464680960  Apr 18 17:49  Breathhold Walking Anders Olsson uses th
  833859957852995584  Apr 18 18:00  Close the mouth and inhale quietly throu (A)
- 
+
 $ supernote an 833859955948781568
 > Any gum chewing can strengthen the jaw and stimulate stem cell growth, but harder textured varieties offer a more vigorous workout.
 
-seems ridiculous — so do night guards do the same?  
+seems ridiculous — so do night guards do the same?
 ```
 
 **Extract inbox highlights** from notes using a custom VLM prompt:

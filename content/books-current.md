@@ -4,6 +4,122 @@ class: split
 type: book
 
 
+The Immense Journey by Loren Eiseley
+===
+rating: yes
+posted: June 2, 2026
+cover: /assets/book-covers/immense-journey.jpg
+
+Loren Eiseley's *The Immense Journey* is a collection of personal naturalist story-essays from the 1940s and 1950s. It's hard to classify, but I would describe it as a highly imaginative intersection of natural history, poetic memoir, and evolutionary philosophy. I especially loved "The Slit", "The Flow of the River", "The Deeps", "How Flowers Changed the World", and "The Bird and the Machine". Best read in nature to match the slow and contemplative pace.
+
+What follows is less of a review, and more of an excuse to pull on a few of the many compelling threads Eiseley weaves together throughout the book.
+
+### Understanding time through space
+In "The Slit", as Eiseley climbs carefully down a slot canyon, his downward movement traces a journey back in time. This literary device reminded me of one of my favorite stories from Aldo Leopold called "Good Oak" where the author recalls a crew of lumberjacks felling a dead oak, and peeling back the layers of time as their saw cuts through each annual circle in the cross-section of the tree. As he does this, Leopold retells the history of his 80 acre Sand County farm from the oak's perspective.
+
+Later, in "The Deeps", Eiseley follows Sir Charles Thompson on a virtual descent to the bottom of the ocean. Once again, going deeper corresponds to a move back in time:
+
+> To Sir Charles Thompson, however, the abyss was more than haunted. It was the world of the past.
+
+Thompson was involved in the laying of the first transatlantic cable, and hoped to find an ancient world in the depths, but was ultimately disappointed.
+
+I'm obsessed with time becoming space and I see it everywhere now. I'm not normally a Wagner fan; four hours is too long for an opera, and the associatiation with Nazis is a challenge, but I made an exception for Parsifal. In Wagner's mythic realm, Parsifal remarks that he feels he has barely walked, yet has traveled vast distances. You see, my son, here time becomes space:
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/Ysm44rqhLss?si=_zzqon9Xibg2ObeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Despite having conquered terrestrial space, we are fundamentally limited in time. We have our ~80 year lifespan to experience the world directly. Other than that, we can time travel only through geological strata and great books like these (see [[Temporal range hasn't expanded like spatial range]]). Eiseley describes it well:
+
+> We have joined the caravan, you might say, at a certain point. We will travel as far as we can, but we cannot in one lifetime see all that we would like to see and learn all that we would hunger to know.
+
+## Ancient sea within us
+I read recently that the interior of a cell mirror the chemical environment of a carefully maintained Precambrian tide pool. Eiseley describes it more poetically:
+
+> All of the tremendous differences between living forms have been achieved only by the elaboration of devices for the maintenance of that inner nourishing liquidity in which cells can live and grow within a certain range, certain narrow range of tolerance. Not for nothing has the composition of mammalian blood led to our description as, 'walking sacks of seawater'. Not for nothing did the great French physiologist Bernard comment that, 'the stability of the interior environment is the condition of free life'
+
+Time is not our only constraint, though. Most mammals must maintain their internal temperature at 36 - 40 °C. Stray away from that and you're dead.
+
+Even in the realm of space, we exist within a highly fragile coordinate system. As you climb into the mountains, you end up in temperature extremes: too hot in the sun, too cold in the shade. As you descend into the ocean depths, the pressure becomes oppressive, it's too dark and damn cold.
+
+## Evolution without a plan
+It's easy to think of ourselves as the pinnacle of some kind of divine plan.
+
+> Men have been men for so long that they tend not to question the fact. All their experience tells them that their children will precisely resemble themselves; that kittens will become cats and cats will have kittens, and that even caterpillars, though the pattern seems a little odd, will become butterflies, and butterflies will produce caterpillars. It is so habitual an event that we do not stop to ask why this happens...
+
+This is true even for close observers of nature:
+
+> "Geology," said one writer, "un-rolls a prophetic scroll, in which the earlier animated creation points on to the later."
+
+Louis Agassiz, a famous 19th century naturalist and part of the broader [Agassiz family](https://en.wikipedia.org/wiki/Agassiz_family) that founded the [eponymous city in BC](https://en.wikipedia.org/wiki/Agassiz,_British_Columbia) imagined the world as an implementation of greatness planned by a divine entity:
+
+> This plan of creation has not grown out of the necessary action of Physical laws, but was the free conception of the Almighty Intellect, matured in his thought before it was manifested in tangible external forms
+
+But this is not how evolution works! We are very much just jumping from stepping stone to stepping stone. This is described well in "The Snout", describing the awkward desperate flailing of the mudskipper as it transitioned to land. It was not a smooth transition and we have no idea where things are going. Eiseley sees this clearly, again evoking the downward in space → backward in time idea.
+
+> I read a book in which a prominent scientist spoke cheerfully of some ten billion years of future time remaining to us. He pointed out happily the things that man might do throughout that period. Fish in the sea, I thought again, birds in the air. **The climb all far behind us, the species fixed and sure.**
+
+Like the mudskipper, we are not immune from change. Eiseley thinks we are still in a "Ptolemaic" world view, despite the Copernican revolution. This rhymes a lot with [Why Greatness Cannot Be Planned by Kenneth O. Stanley](/books/why-greatness-cannot-be-planned/).
+
+## How Flowers Changed the World
+[Entangled Life by Merlin Sheldrake](/books/entangled-life-by-merlin-sheldrake/) turned me on to the history of trees. Trees emerged in the Devonian period 350 million years ago, creating a huge stockpile of wood for the next 60 million years. Then fungi evolved to decompose wood, leaving a huge layer of tree mass in the layers of the earth (see [[Evolution of fungi and plants from 1500 ma to 290 ma]])
+
+In "How Flowers Changed the World", Eiseley opened my eyes to an even more pivotal role of flowers in the coevolution of mammals.
+
+Flowers didn't exist until late dinosaur age. This is surprising, but at first I didn't get it: who cares about pretty petals and such? Here I found Eiseley's prose to be more poetic than explanatory, so I had to do a bit of external reading to piece things together.
+
+Flowers aren't just pretty little things, but the reproductive organ of angiosperms. Angiosperms (literally "enclosed seeds") emerged around 130 Ma during the Cretaceous period and are distinct from their earlier and simpler cousins the gymnosperms circa 300 Ma slightly after the evolution of trees.
+
+The critical thing to understand about angiosperms is that they are a very varied category of plants. Less roses and decorative flowers, more fruit trees, like a cherry blossom that gets fertilized and turned into a delicious and ripe cherry fruit. Maple and oak trees are angiosperms too, despite not having traditional looking flowers and fruits.
+
+Most critically, grass is an angiosperm. It just has tiny flowers and no petals. But its energy density helped produce the largest land mammals that have ever lived, including the gigantic herbivorous beasts which fed the charismatic meat eaters of the dinosaur age and onward.
+
+> Flesh eaters though these creatures were, they were being sustained on nutritious grasses one step removed. Their fierce energy was being maintained on a high, effective level, through hot days and frosty nights, by the concentrated energy of the angiosperms. That energy, thirty per cent or more of the weight of the entire plant among some of the cereal grasses, was being accumulated and concentrated in the rich proteins and fats of the enormous game herds of the grasslands.
+
+Eiseley makes an argument that angiosperms ultimately provided the energy density necessary for advanced, warm blooded animals. I kept thinking of the humming bird's dependency on highly energy dense nectar for its sustenance. But compared to lumbering dinosaurs, we are a sort of humming bird.
+
+Wheat, cereal and other grains are also angiosperms, and critical to the development of human civilization.
+
+## Angiosperms and animal eggs and r-K selection
+There's a fascinating parallel between the development of angiosperms and amniotic eggs.
+
+Gymnosperms and their more ancient spore bearing cousins often produce millions of unprotected seeds that are distributed across the world by the wind. Similarly, female fish lay their eggs in the water and rely on male fish for fertilization ex-utero. Both the pre-angiosperm and fish egg strategies aim for quantity over quality. In terms of [[r-K selection theory]], they are r-selected.
+
+The (amniotic) egg is a reptile innovation (~312 Ma). The egg became self-contained, internally fertilized and highly protected by the mother. Mammals reuse this idea, retaining the egg inside the body rather than laying it, and pushing toward fewer offspring with far higher value. In terms of r-K selection theory, both mammals and angiosperms push towards K-selection relative to their predecessors.
+
+## Memorable encounters with animals
+In "The Slit", Eiseley climbs through a narrow canyon and finds a Paleocene rodent skull staring at him. Surprised, he senses his own mortality: what if I get stuck down here? As he considers his own ancestry, he can't help but imagine his own inevitable future as a fossil. It’s so cute that Eiseley constantly sees proto humanity in little rodents.
+
+Eiseley recounts how he had to capture an exotic animal for his work — a disturbing departure from the usually romantic life of a naturalist. He found a male hawk perched in an abandoned cabin in the woods. After a bloody scuffle, he captured the bird in a box, separating him from his mate. After a sleepless night, the naturalist's conscience could no longer bear it, and he freed the bird the next day:
+
+> I saw them both now. He was rising fast to meet her. They met in a great soaring gyre that turned into a whirling circle and a dance of wings. Once more, just once, their two voices, joined in a harsh wild medley of question and response, struck and echoed against the pinnacles of the valley. Then they were gone forever somewhere into those upper regions beyond the eyes of men.
+
+This story, "The Bird and the Machine" is framed as a rebuttal to an NYT article claiming that science would soon replicate life in machines. Eiseley knows where he stands:
+
+> The machine does not bleed, ache, hang for hours in the empty sky in a torment of hope to learn the fate of another machine, nor does it cry out with joy nor dance in the air with the fierce passion of a bird.
+
+Lastly, in "The Flow of the River", Eiseley encounters a fish frozen in ice. He cuts out the ice block and brings it home to thaw in a fish tank. In a tender geological joke, he speaks to the fish:
+
+> "Some of your close relatives have been experimenting with air breathing," I remarked, apropos of nothing, as I gathered him up. "Suppose we meet again up the in the cottonwoods in a million years or so."
+
+Later the fish jumps out of the tank and suffocates. Eiseley reflects on their shared "water brotherhood" in a famous quote:
+
+> In many a fin and reptile foot I have seen myself passing by—some part of myself, that is, some part that lies unrealized in the momentary shape I inhabit.
+
+## What aged poorly
+A few of the chapters towards the middle of the book seem to have aged poorly. Much of it has to do with human evolution and a search for the missing link. He spends a lot of time on the then-recently debunked Piltdown Man Hoax from the 1950s, and speculating about [the Boskops](https://www.johnhawks.net/p/the-amazing-boskops).
+
+The state of the science has changed quite a bit since then with the discovery of Lucy (1974) and the Denisovans (2010). The physical anthropology in these chapters feels dated, in sharp contrast with the timelessness of Eiseley's existential wonder.
+
+In other words, topicality ages but geology doesn't. Adding to this feeling are interjections like "the reader may remember in 1956", or framing a story to debunk a contemporary New York Times article, which is anything but timeless.
+
+Despite my less preferred sections, some random facts I picked up include that the human brain triples in size over the first 3 years of life and that human brain volume has been shrinking for 10,000 years.
+
+## Concluding thoughts
+Sometimes Eiseley veers into contemplative, almost theological awe a bit like Entangled Life. Other times it is more scientific and biographical and more like [When We Cease to Understand the World by Benjamín Labatut](/books/when-we-cease-to-understand-the-world-by-benjamín-labatut/). Every time though, Eiseley is deeply humanistic, always elevating human kindness above intelligent machines. I'll give him the last word:
+
+> The need is not really for more brains, the need is now for a gentler, a more tolerant people than those who won for us against the ice, the tiger, and the bear. The hand that hefted the ax, out of some old blind allegiance to the past fondles the machine gun as lovingly. It is a habit man will have to break to survive, but the roots go very deep.
+
+
+
 Dungeon Crawler Carl by Matt Dinniman
 ===
 rating: yes
@@ -25,9 +141,9 @@ cover: /assets/book-covers/courage-to-be.jpg
 
 Paul Tillich’s The Courage to Be is a dense, philosophical manual for meaning masquerading as theology. Born from the ashes of post-war Europe, Tillich rails against collectivism with an almost Randian fervor. Beneath this mid-century veneer lies a deeply resonant, borderline heretical framework proposing a "God above God" that feels acutely relevant to our modern crises and reminded me of the abstractions of the Rambam (see [[Negative theology and via negativa (Maimonedes)]]).
 
-The overall thrust of the book seems to be that throughout history, there are periods when we are engulfed in a crisis of meaning, an onset of anxiety and existential dread, in which we must assert our existence without relying on dangerous shortcuts to escape the void. Tillich prescribes "active negativity", facing the void and asserting your existence in a stoic way. 
+The overall thrust of the book seems to be that throughout history, there are periods when we are engulfed in a crisis of meaning, an onset of anxiety and existential dread, in which we must assert our existence without relying on dangerous shortcuts to escape the void. Tillich prescribes "active negativity", facing the void and asserting your existence in a stoic way.
 
-At the outset of the book Tillich asks a provocative question: in this time of modernity, does the Reformation need a Second Reformation? He writes as if he were a Second Luther hoping that "The Courage to Be" could be his ninety-five theses, saving Christianity for the postwar modern intellectual. But his ideas proved too abstract for a mass awakening. Instead, I read this book as a sort of manual for meaning, like a self-help book with a narrow audience. 
+At the outset of the book Tillich asks a provocative question: in this time of modernity, does the Reformation need a Second Reformation? He writes as if he were a Second Luther hoping that "The Courage to Be" could be his ninety-five theses, saving Christianity for the postwar modern intellectual. But his ideas proved too abstract for a mass awakening. Instead, I read this book as a sort of manual for meaning, like a self-help book with a narrow audience.
 
 Tillich proposes three kinds of anxieties, each dominant at the end of an epoch:
 
@@ -87,7 +203,7 @@ The earliest mentions of breathing trace back to India and China 3000 years ago,
 
 > By around 500 BCE, the techniques would be filtered and synthesized into the Yoga Sutras of Patanjali. Slow breathing, breathholding, deep breathing into the diaphragm, and extending exhalations all first appear in this ancient text.
 
-At this time, “Yôga” (pronounced yo-o-o-o-oga) was almost completely unrecognizable compared to the modern version. Poses were done once and held for an excruciatingly long time, emphasizing a focus entirely on breathing. 
+At this time, “Yôga” (pronounced yo-o-o-o-oga) was almost completely unrecognizable compared to the modern version. Poses were done once and held for an excruciatingly long time, emphasizing a focus entirely on breathing.
 
 # Healthy breathing posture
 - Breathe through your nose
@@ -102,7 +218,7 @@ At this time, “Yôga” (pronounced yo-o-o-o-oga) was almost completely unreco
 
 
 # Why bother doing breathing exercises?
-Breathing is a rare bodily function which is autonomous but can be overridden consciously. Modern life keeps us trapped in a state of continuous, low-grade sympathetic stress. This is a "half-anxiety" where the vagus nerve is neither fully resting nor fully reacting. 
+Breathing is a rare bodily function which is autonomous but can be overridden consciously. Modern life keeps us trapped in a state of continuous, low-grade sympathetic stress. This is a "half-anxiety" where the vagus nerve is neither fully resting nor fully reacting.
 
 The breathholding that occurs in sleep and constant partial attention is unconscious—it’s something that happens to our bodies, something that’s out of our control. The breathholding practiced by the ancients and revivalists is conscious. Consciously engaging in heavy breathing exercises (like Tummo or the Wim Hof Method) forces the body into an acute, extreme state of sympathetic panic on command.
 
@@ -118,7 +234,7 @@ Chewing... mewing... I mostly ignored this part of the book. It's already contro
 
 Ehrlich was a famously terrible forecaster, known for motivated reasoning toward catastrophism. His endorsement makes me even more skeptical of Mewing.
 
-On the other hand, I'm less skeptical about palate expanders for children because they are growing and have much higher bone plasticity than adults. It's also mainstreamed by dentists and more palatable (pun intended) compared to chewing gum all the time. 
+On the other hand, I'm less skeptical about palate expanders for children because they are growing and have much higher bone plasticity than adults. It's also mainstreamed by dentists and more palatable (pun intended) compared to chewing gum all the time.
 
 ### Roman baths?
 > Breathholding hacks, or, as Feinstein would call them, carbon dioxide therapies, have been around for thousands of years. The ancient Romans prescribed soaking in thermal baths (which contained high levels of carbon dioxide that was absorbed through the skin) as a cure for anything from gout to war wounds.
@@ -131,9 +247,9 @@ Hydrostatic pressure, mineral content, the heat, and the parasympathetic shift o
 This is a very shallow reading of the fact pattern. We didn't necessarily create these diseases; we just stopped dying of cholera at age 30. Abundance in one dimension breeds scarcity in others.
 
 ### The single cause fallacy
-Hypoventilation (underbreathing) exercises can simulate altitude training at 6,500 ft. Nestor recounts several notable athletes that achieved great results using these methods, though both examples he uses are over a half-century old now. 
+Hypoventilation (underbreathing) exercises can simulate altitude training at 6,500 ft. Nestor recounts several notable athletes that achieved great results using these methods, though both examples he uses are over a half-century old now.
 
-Emil Zátopek used hypoventilation exercises to win the 5k, 10k and marathon at the 1952 olympics. Nestor omits that Zátopek is more famous for popularizing interval training. 
+Emil Zátopek used hypoventilation exercises to win the 5k, 10k and marathon at the 1952 olympics. Nestor omits that Zátopek is more famous for popularizing interval training.
 
 James Councilman trained his swim team using hypoventilation techniques for similarly spectacular results in races (1970s). Nestor omits that Councilman was also famous for pioneering underwater filming.
 
@@ -163,40 +279,40 @@ The endless stream of Russian tea drinking, alcohol consumption, and references 
 ### Surface reading: personal failure or a hostile universe
 Was Malyanov's predicament simply due to some sort of writer's block? Was it perhaps the psychological terror of actually completing a paradigm-shifting work? Seemingly not, since Zakhar and Weingarten observe similarly paranormal activities.
 
-In Vecherovsky's detached, almost alien interpretation, Nature balances the increase of entropy with the increase of localized order due to intelligence. If scientific discovery accelerates too fast, it threatens the structural equilibrium of the universe. The universe automatically generates pushback. This is a grimly elegant answer to the Fermi Paradox: civilizations don't destroy each other, and they don't hit physical limits. The universe simply turns up the resistance every time a mind gets close enough to matter. Vecherovsky frames this as a law of physics, not malice. 
+In Vecherovsky's detached, almost alien interpretation, Nature balances the increase of entropy with the increase of localized order due to intelligence. If scientific discovery accelerates too fast, it threatens the structural equilibrium of the universe. The universe automatically generates pushback. This is a grimly elegant answer to the Fermi Paradox: civilizations don't destroy each other, and they don't hit physical limits. The universe simply turns up the resistance every time a mind gets close enough to matter. Vecherovsky frames this as a law of physics, not malice.
 
 The Universe (read: the Soviet state) has invaded Malyanov's private life, destroying the quiet space required to do great work, and threatening the things he loves the most.
 
 ### The political layer and the totalitarian allegory
 Two years before this book was written, Boris Strugatsky was a witness in a KGB case called the Kheifetz affair, in which a poet was prosecuted for "anti-Soviet literature." Given this fact, and the desire to circumvent the censors, the Strugatskys' Homeostatic Universe points at the Soviet machine.
 
-Towards the climax of the book, Malyanov, in a fever of exhaustion and dread, imagines Vecherovsky's voice reciting Bulat Okudzhava's poem [Счастливчик](https://ls.pushkininstitute.ru/lsslovar/?title=%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D1%82%D0%B5%D0%BA%D0%B0:%D0%9E%D0%BA%D1%83%D0%B4%D0%B6%D0%B0%D0%B2%D0%B0_%D0%91.%D0%A8._%D0%A1%D1%82%D0%B8%D1%85%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%C2%AB%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%C2%BB) ("The Lucky One"), about Pushkin: 
+Towards the climax of the book, Malyanov, in a fever of exhaustion and dread, imagines Vecherovsky's voice reciting Bulat Okudzhava's poem [Счастливчик](https://ls.pushkininstitute.ru/lsslovar/?title=%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D1%82%D0%B5%D0%BA%D0%B0:%D0%9E%D0%BA%D1%83%D0%B4%D0%B6%D0%B0%D0%B2%D0%B0_%D0%91.%D0%A8._%D0%A1%D1%82%D0%B8%D1%85%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%C2%AB%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%C2%BB) ("The Lucky One"), about Pushkin:
 
 > He knew how to scrawl on paper by candlelight
 > He had something worth dying for at the Black Stream
 
 Pushkin lived in Tsarist Russia, was exiled, and was fatally shot in a duel at 37. Yet, the 1970s Soviet intellectual views him as lucky since he was free to write without the rulers of the "Homeostatic Universe" breathing down his neck.
 
-The Homeostatic Universe has an interpretation beyond the narrowly Soviet context. "Tonton Macoute" is used metaphorically by the characters to describe an irrational, terrifying, and oppressive force acting against them, a reference to the [Haitian paramilitary secret police](https://en.wikipedia.org/wiki/Tonton_Macoute). The reference makes the mechanism global — same force, different flag. 
+The Homeostatic Universe has an interpretation beyond the narrowly Soviet context. "Tonton Macoute" is used metaphorically by the characters to describe an irrational, terrifying, and oppressive force acting against them, a reference to the [Haitian paramilitary secret police](https://en.wikipedia.org/wiki/Tonton_Macoute). The reference makes the mechanism global — same force, different flag.
 
 ### The double bind
 Ultimately, the Strugatskys refuse to resolve what the Homeostatic Universe actually is. What's clear is that the characters in "A Billion Years Before the End of the World" are fundamentally stuck in a double bind.
 
 **Option A: Surrender**. Malyanov (Малянов = маленький = small), Gluhov (Глухов = глухой = deaf), and Weingarten (wine) all chose to surrender. In Russian, the character's names speak for themselves; they became small, deaf, and succumbed to alcohol. They saved their families and returned to a normal life. But it came at a cost: intellectual death and living with cowardice.
 
-> They told me that the road I took  
+> They told me that the road I took
 > would lead me to the Ocean of Death;
-> and from halfway along I turned back. 
-> And ever since, all the paths I have roamed  
+> and from halfway along I turned back.
+> And ever since, all the paths I have roamed
 > were entangled, and crooked, and forsaken. — Yosano Akiko
 
 The book quotes only the second half of the poem above, without attribution.
- 
+
 **Option B: Fight**. Vecherovsky chooses another path. He faces off, standing at the edge of darkness (Вечер = evening). This path lets him embrace the continuation of human progress and retain intellectual integrity. But it comes with a heavy cost: absolute isolation. Vecherovsky can only fight because he is already entirely detached from human warmth. He has no wife, no son, nothing the Universe or The State can hold hostage, so he can climb the highest mountains, freely pushing the frontier of scientific knowledge:
 
 > Лучше гор могут быть только горы
 > На которых еще не бывал
-> (Only mountains can be better than mountains 
+> (Only mountains can be better than mountains
 > Those that you have not yet visited)
 
 A Billion Years Before the End of the World offers no satisfying exit. Vecherovsky's freedom is real but purchased at the cost of everything that makes freedom worth having. Malyanov keeps his family and his ordinary life, but his intellectual path becomes crooked and forsaken. Whether the universe is cosmic, Soviet, or otherwise, it doesn't care which path you take. It only cares that you stop.
@@ -212,15 +328,15 @@ cover: /assets/book-covers/way-of-man.jpg
 As it turns out, Buber is surprisingly accessible. This classic reads like a self-help book grounded in Hasidic tradition. The book is fundamentally an exegesis of 18th-century folklore—a sharp contrast to [PKD's manic exegesis](/books/valis-by-phillip-k-dick/). My summary of Buber's take:
 
 1. **Awaken**: Take stock of your situation. How are you spending your life? “Where art thou, man”? Or as my father said in my childhood: окстись!
-2. **Orient**: Don't imitate others. Find your unique calling ("particular way") and pursue it holistically and energetically. 
+2. **Orient**: Don't imitate others. Find your unique calling ("particular way") and pursue it holistically and energetically.
 3. **Straighten**: You can solve most of your problems via self-improvement. Even relationship problems can be fixed by changing your own stance.
 4. **Ground**: Everything you need is probably near. Focus on the present.
 5. **Repair**: Remember the ultimate goal: your self-improvement is strictly a mechanism to improve the world.
 
 # 1. Awaken: search your heart
 When God asks Adam "where art thou", it is the Hasidic equivalent of Socrates declaring that the unexamined life is not worth living. It’s not that God does not know where Adam is. God is omniscient. It’s because he wants to produce an effect in man which can only be produced by asking such a question. It is asked not just of Adam, but of every man. Окстись, dad said to me as a child. Wake up. What are you doing with your life? Buber writes:
- 
-> It's as if man is hiding from the face of God. He cannot hide from God or hide from himself. 
+
+> It's as if man is hiding from the face of God. He cannot hide from God or hide from himself.
 
 # 2. Orient: your Particular Way
 Your calling is uniquely tailored to your disposition. This is well illustrated in the following two Hasidic stories:
@@ -229,7 +345,7 @@ Your calling is uniquely tailored to your disposition. This is well illustrated 
 
 Once you find the path your heart draws you to, pursue it entirely. Do not try to be someone else:
 
-> Rabbi Zusya said, a short while before his death: In the world to come I shall not be asked: "Why were you not Moses?" I shall be asked: "Why were you not Zusya?" 
+> Rabbi Zusya said, a short while before his death: In the world to come I shall not be asked: "Why were you not Moses?" I shall be asked: "Why were you not Zusya?"
 
 # 3. Straighten up and fly right
 Interpersonal conflict is downstream of your internal state. This is a profoundly Stoic notion: you can fix relationships through self-intervention. Buber paraphrases his teacher quoting the Baal-Shem, mapping internal faculties to external circles of intimacy:
@@ -239,8 +355,8 @@ Interpersonal conflict is downstream of your internal state. This is a profoundl
 # 4. Ground: dig where you stand
 We are conditioned to believe that meaning requires a drastic geographical or spiritual escape. We assume the answer is always somewhere else. Buber counters this with the story of Rabbi Eizik, who traveled from Cracow to Prague in search of a dream's treasure:
 
-> Rabbi Bunam used to tell young men who came to him for the first time the story of Rabbi Eizik, son of Rabbi Yekel of Cracow: After many years of great poverty which had never shaken his faith in God, he dreamed someone bade him look for a treasure in Prague, under the bridge which leads to the king's palace. When the dream recurred a third time, Rabbi Eizik prepared for the journey and set out for Prague. But the bridge was guarded day and night and he did not dare to start digging. Nevertheless, he went to the bridge every morning and kept walking around it until evening. 
-> 
+> Rabbi Bunam used to tell young men who came to him for the first time the story of Rabbi Eizik, son of Rabbi Yekel of Cracow: After many years of great poverty which had never shaken his faith in God, he dreamed someone bade him look for a treasure in Prague, under the bridge which leads to the king's palace. When the dream recurred a third time, Rabbi Eizik prepared for the journey and set out for Prague. But the bridge was guarded day and night and he did not dare to start digging. Nevertheless, he went to the bridge every morning and kept walking around it until evening.
+>
 > Finally, the captain of the guards, who had been watching him, asked in a kindly way whether he was looking for something or waiting for somebody. Rabbi Eizik told him of the dream which had brought him here from a faraway country. The captain laughed: "And so to please the dream, you poor fellow wore out your shoes to come here! As for having faith in dreams, if I had had it, I should have had to get going when a dream once told me to go to Cracow and dig for treasure under the stove in the room of a Jew — Eizik, son of Yekel, that was the name! Eizik, son of Yekel! I can just imagine what it would be like, how I should have to try every house over there, where one half of the Jews are named Eizik and the other Yekel!" And he laughed again. Rabbi Eizik bowed, travelled home, dug up the treasure from under the stove, and built the House of Prayer which is called "Reb Eizik Reb Yekel's Shul".
 
 There is something of value to be found right where you are. Make the best of your immediate situation, because everything you need is probably not too far away.
@@ -264,7 +380,7 @@ Buber underscores this point as a contrast with Christianity.
 
 But how do we actually fix the world? The Rabbi of Kotzk answers in a mystical way. I don't think of myself as deeply religious, but this final Hasidic story broke through all my defenses:
 
-> God wants to come to his world, but he wants to come to it through man. This is the mystery of our existence, the superhuman chance of mankind. "Where is the dwelling of God?" This is the question with which the Rabbi of Kotzk surprised a number of learned men who happened to be visiting him. They laughed at him: "What a thing to ask! Isn't the whole world full of his glory?" Then he answered his own question: "**God dwells wherever man lets him in**." 
+> God wants to come to his world, but he wants to come to it through man. This is the mystery of our existence, the superhuman chance of mankind. "Where is the dwelling of God?" This is the question with which the Rabbi of Kotzk surprised a number of learned men who happened to be visiting him. They laughed at him: "What a thing to ask! Isn't the whole world full of his glory?" Then he answered his own question: "**God dwells wherever man lets him in**."
 
 Buber gets the last word:
 
@@ -310,7 +426,7 @@ rating: yes
 posted: Feb 15, 2026
 cover: /assets/book-covers/the-score.jpg
 
-C. Thi Nguyen frames the book with a provocative question. Why is it that mechanical rules, constraints, and scoring systems lead to such great pleasure in games, but such misery in real world domains where metrics dominate? 
+C. Thi Nguyen frames the book with a provocative question. Why is it that mechanical rules, constraints, and scoring systems lead to such great pleasure in games, but such misery in real world domains where metrics dominate?
 
 The answer lies in the tendency to favor achievement play over striving play. In life, unlike games, we cannot easily opt out; the "magic circle" vanishes, leaving us exposed to the tyranny of metrics. Nguyen explores this through a survey of domains ranging from cooking and fly-fishing to corporate bureaucracy and board game design.
 
@@ -340,7 +456,7 @@ In a well-designed game, the goal is merely a tool that serves the purpose. Th
 
 # Striving players favor process, achievement players play to win
 
-- Achievement player: Playing to win. The outcome is the point. 
+- Achievement player: Playing to win. The outcome is the point.
 - Striving player: Doesn't actually care about winning. Wants to have a good time. The process is the point.
 
 This is basically the Y-axis of [Bartle's taxonomy of player types](https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types). Achievement play breaks the magic circle of games.
@@ -372,7 +488,7 @@ Gamification is what happens when someone takes game mechanics and removes the m
 
 GPA follows you forever. Your Quake Kill/Death ratio doesn't.
 
-With real metrics, the game is your livelihood, your identity, your social standing. You are forced into achievement play. 
+With real metrics, the game is your livelihood, your identity, your social standing. You are forced into achievement play.
 
 # Mechanical rules and subjective judgment are both arbitrary in different ways
 
@@ -426,13 +542,13 @@ Completely related to [[The Authoritarian High-Modernist Recipe for Failure]] an
 
 **Overhead ratio** is a flawed metric for charities. Charity Navigator used it exclusively until recent reforms. But this metric is simply the ratio of money spent on the cause divided by the amount of money spent on administrative staff. It says nothing about effectiveness of the cause.
 
-**Weight loss** often becomes a proxy for health. This is a textbook case of a flawed proxy. Scale weight is easy to measure but blind to what actually matters: metabolic markers, strength, cardiovascular fitness, body composition, mental health. Worse, optimizing for the number actively encourages harmful behaviors that move health in the wrong direction. 
+**Weight loss** often becomes a proxy for health. This is a textbook case of a flawed proxy. Scale weight is easy to measure but blind to what actually matters: metabolic markers, strength, cardiovascular fitness, body composition, mental health. Worse, optimizing for the number actively encourages harmful behaviors that move health in the wrong direction.
 
 # Value capture and collapse involves complex values being simplified and replaced by institutional metrics
 
 Suppose you begin with complex, nuanced, hard-to-articulate values.
 
-An organization you join may roughly align with those values. But since it's an organization it needs to find the lowest common denominator that will be acceptable for all parties involved. This is inevitably a simplified, flattened, measurable version of those values. 
+An organization you join may roughly align with those values. But since it's an organization it needs to find the lowest common denominator that will be acceptable for all parties involved. This is inevitably a simplified, flattened, measurable version of those values.
 
 [[Against design by committee and too many cooks in the kitchen]]
 
@@ -473,7 +589,7 @@ A conspiracy theory provides a clean, singular narrative—a "metric" for realit
 
 Here are some of Nguyen's pointers to games to check out and play. These are sprinkled throughout the book as examples of process beauty:
 
-- **Sign** is a live-action role-playing game about inventing a shared language under constraints, inspired by the emergence of Nicaraguan Sign Language. 
+- **Sign** is a live-action role-playing game about inventing a shared language under constraints, inspired by the emergence of Nicaraguan Sign Language.
 - **Spyfall** is a hidden-role social deduction game: everyone shares a location except the spy, who must infer it via Q&A and bluffing.
 - **Lady Blackbird** is an indie RPG that incentivizes narrative over experience point maximization. Each character has personal motives called keys that earn points when played. Energy refresh mechanics reward rest and deep character conversation including backstory reveals. (That structure seems well-suited to an LLM-as-GM model that can track Keys and allocate rewards, and also doubles as a useful framework for writers to keep characters aligned with their motivations.)
 
@@ -503,7 +619,7 @@ cover: /assets/book-covers/children-of-time.jpg
 A compelling first contact story with many twists. Spiders, Ants, Monkeys, AI, Spaceships, Cryogenics, oh my! Tchaikovsky really crams a lot into this work. Definitely worth a read in and of itself, but also a good example of exploring ideas through fiction (see [[Power of Fiction]]). As usual, some of my highlights follow.
 
 ### Dipping in and out of time
-One key device in Children of Time are the cryogenic pods which have been perfected. Usually this is a one-and-done affair to take into account the long times involved in traveling interstellar distances. Fall asleep, travel for hundreds of years, wake up refreshed at your destination. Here, sleep pods enable the human protagonists to dip in and out of the timeline. Thus, the human story narrated by Mason the classicist features key crew like engineer Lain and commander Nguyen interacting with the Arcship Gilgamesh over generations. 
+One key device in Children of Time are the cryogenic pods which have been perfected. Usually this is a one-and-done affair to take into account the long times involved in traveling interstellar distances. Fall asleep, travel for hundreds of years, wake up refreshed at your destination. Here, sleep pods enable the human protagonists to dip in and out of the timeline. Thus, the human story narrated by Mason the classicist features key crew like engineer Lain and commander Nguyen interacting with the Arcship Gilgamesh over generations.
 
 Tchaikovsky's Cryogenics mechanic makes deep time feel personal. I found this to be a refreshingly different angle on the same sleep pods, and it made me wonder what the implications of just this technology might be on our world today. Frederik Pohl said a good SF story should predict not the automobile but the traffic jam. Tchaikovsky's cryogenics deliver: the interesting part isn't the sleep pods themselves, but what happens when a few crew members persist across generations while civilizations rise and fall around them. Imagine having an ancient Egyptian, a Roman, and a Babylonian still on deck.
 
@@ -516,7 +632,7 @@ Tchaikovsky uses spider biology as a defamiliarization engine. Grounding alien s
 
 **Speed running evolutionary intelligence**. Thanks to the Nanovirus, spiders became sentient and proceeded to speed run down an evolutionary path similar to humanity. Like humans, they had their own invention of projectiles, which were extremely effective. They had their own David and Goliath moment, where a clever little Portia spider emerged as the victor. They had their own bubonic plague and an unenlightened Middle Ages. This is a fun mechanic which gives Tchaikovsky an excuse to sneakily explain parts of human evolutionary history he was most interested in.
 
-**Spider Sex, Slavery, and Suffrage**. In addition to technological progress, spider sexual relations are a window into their cultural evolution. After spider copulation, the female often consumes the male, and this instinct is deeply ingrained in spiders from birth. The male variety of spider is physically inferior, and subservient in every way. Matriarchal spider society mirrors an amped patriarchal human history, with males as "useless engines of reproduction". This is another clever technique to explore the contingency of male dominance over females. 
+**Spider Sex, Slavery, and Suffrage**. In addition to technological progress, spider sexual relations are a window into their cultural evolution. After spider copulation, the female often consumes the male, and this instinct is deeply ingrained in spiders from birth. The male variety of spider is physically inferior, and subservient in every way. Matriarchal spider society mirrors an amped patriarchal human history, with males as "useless engines of reproduction". This is another clever technique to explore the contingency of male dominance over females.
 
 Fabian the male revolutionary acts as primary emancipator for his sex. He trades his genius discoveries for more equality with the females. This narrative is an interesting blend of our own abolition and suffrage movements. It's a bit heavy-handed, but useful to illustrate arbitrariness by swapping genders onto different species, and well crafted with solidly researched facts about spiders.
 
@@ -537,6 +653,6 @@ I predicted coexistence, armed with the knowledge this book is part of a series
 - Spiders keep frozen human fetuses alive, teach them spider ways
 - Spiders figure out how to pass understandings to humans
 
-In the actual ending, spiders contaminate humans with a limited version of the Nanovirus, containing an understanding that spiders are their proverbial children. This virus also removed the natural disgust humans have of spiders more generally. 
+In the actual ending, spiders contaminate humans with a limited version of the Nanovirus, containing an understanding that spiders are their proverbial children. This virus also removed the natural disgust humans have of spiders more generally.
 
 I'd have preferred my first outcome, just because it felt more logically coherent. I thought the Nanovirus was all about passing down understandings from one generation to the next, but here the wise and omnipotent spiders have surprisingly created a completely different virus, transmitted through inhalation. Both the technology and method of transmission felt bolted on, having hardly been alluded to earlier in the book.
