@@ -4,6 +4,79 @@ class: split
 type: book
 
 
+Good Inside by Becky Kennedy
+===
+rating: no
+posted: June 17, 2026
+
+I’m not actually going to recommend this book, but I figured I might as well post a quick review anyway.
+
+Becky's pitch of the book is highly attractive: _I don't believe in trade-offs. You can have it all, and everyone is good inside._ Of course this is a bestseller. It tells highly anxious, guilt-ridden, burnt-out parents exactly what they want to hear, interspersed with heavy-handed cheerleading: "It's not too late," "You're doing great". I was left waiting for the hard truth, and though I found anything but that, the book was definitely a catalyst to get me thinking about parenting.
+
+Because to me, "good inside" is insufficient. Of course our kids are good inside! But my job as a parent is to raise kids that are also _good outside_.
+
+![Why not good outside?](/assets/book-reviews/good-outside.jpg)
+
+---
+
+When S initially pitched this book to me, it sounded like Becky was aiming for a synthesis between old and new school parenting:
+
+1. Thesis (old school): Punish them and tell them off and send them to their room
+2. Antithesis (new school): Do nothing and just say “ok I hear what you’re saying, that must be hard”
+3. Synthesis. Somehow acknowledge their behavior is unacceptable while reaffirming that they are fundamentally good.
+
+But as far as I can tell Becky lands right back at new school parenting. Under her system, there are no consequences, no loss of privileges, no friction afterward. The only remedy is to build more connection capital with the misbehaving kid and hope that eventually their behavior will change.
+
+But here's what I'm most confused about. Why not ALSO let the kid sit with the tension that "I am good inside" and "I just did something bad outside?" That tension is supposed to feel uncomfortable. It’s called having a conscience.
+
+# What I liked
+
+- Most Generous Interpretation (MGI), rhymes with 'do not attribute to malice what can be adequately explained by incompetence' and 'reasonable person principle'. These concepts are close to my heart.
+- Connection capital and "emotional bank account"
+	- When things get tough between me and the kids, it really helps to have this blanket of good times and happy and sweet moments between us to fall back on and paper over some of the fissures as they may disagree with me or misbehave. And as they get older, I'm going to be able to control them less and sticker charts and such. So we need to come to a good place now.
+	- Why is it that my youngest kid keeps asking to go to the toy store and I keep saying no? Maybe I should initiate sometime. Like, hey, let's do something fun and get you a treat that you really want!
+- Becky proposes what could almost be described as an OODA loop, except it never really closes
+	- Observe: There's a misbehavior.
+	- Orient: Take a breath. Understand what is the most generous interpretation of what the kid is thinking inside. Use a few of her questions, like, what do you think is happening in their head right now? What is a similar example from your own life that you can think of?
+	- Decide: is anyone in danger? Action A, otherwise Action B.
+	- Action A: get them out of the situation immediately.
+	- Action B: have a non-punitive conversation with them. Just kind of echoing to them what you think is happening in their head. Build more connection capital and they will eventually stop misbehaving.
+
+# What I didn't like
+
+Becky is imprecise about guilt and shame.
+
+- She collapses all negative self-evaluation in children under the umbrella of toxic shame, and then claims that shame is always bad.
+- But feeling guilty about misdeeds can be quite good! Reiterating: it's not that the kid is bad. It's that their action was bad. Differentiate actions from identity.
+- If we define guilt as 'what you did was bad' and shame as 'you are bad,' we find a distinction that Becky fails to discuss properly.
+- This is a framework I like:
+
+|| Target: Behavior/Action| Target: Identity/Self|
+| --- | --- | --- |
+| **Source: Internal** <br>_(Private / Conscience)_ | ✅ **1. GUILT**: "I did a bad thing." <br>• Function: **Self-Correction.** Signals that your actions violated your own moral compass. Drives repair.           | 🚫 **2. CORE SHAME**: "I am bad/defective." <br>• _Function:_ **None**. Self-loathing that leads to hiding, depression, or defensive rage.                        |
+| **Source: External** <br>_(Public / Social)_      | ✅  **3. ACCOUNTABILITY**: "The group says my action was wrong." <br>• Function: **Pro-Social Alignment.** Teaches kids the cost of breaking social contracts. | 🚫 **4. HUMILIATION**: "The group sees me as worthless." <br>• _Function:_ **Tribal Policing.** Historically kept individuals in line under threat of banishment. |
+
+- We want to avoid targeting the self (second column) because I agree that of course the kid is "good inside", but the first column is fair game.
+- It aligns with [[Kegan's adult development theory (ADT)]] too. A Kegan 3 child is entirely governed by external social forces (demanding external accountability), whereas a Kegan 4 child has internalized those boundaries to form a self-governed conscience (which experiences internal guilt when failing its own standards)
+- “Connection is the opposite of shame”
+- No. This is just outright confusing. Yes connection is good, and right shame is not good. But how are they opposites?!
+
+No feeling should ever be suppressed. She doesn't even state it explicitly, but it is implied everywhere.
+
+- Modern therapeutic parenting (Dr. Becky) has imported IFS, a psychoanalytic model designed for severe trauma and applied it to everyday childhood tantrums. The result is an ideology that treats basic self-discipline and emotional containment as if they are forms of violence.
+- Not all human impulses are equally benign! Some human impulses are genuinely destructive and antisocial. Sitting with the discomfort of having done something bad (and feeling the sharp sting of internal judgment) is how moral character is forged. If you treat every antisocial behavior as a delicate "part of the self" that needs gentle dialogue, you rob the child of the adaptive training data they need to survive in a world that will judge them on their behavior, not their internal intent.
+
+Anyway now that I've processed this book, I think I'm somewhat in agreement but would augment the OODA loop:
+
+- Observe: There's a misbehavior.
+- Orient: Take a breath. MGI: what's happening in their head right now? What is a similar example from your own life that you can think of?
+- Decide: is anyone in danger? Action A, otherwise Action B.
+- Action A: get them out of the situation immediately.
+- Action B: Be firm but kind, and don't be afraid to articulate that "I know you're a good kid" but "this behavior is totally unacceptable". Echo what you think is happening in their head. Build more connection capital and they will eventually stop misbehaving. But also, lean on natural consequences.
+
+I want my child to sit in the uncomfortable gap between their identity (good) and their action (bad) so they develop a self-correcting conscience (Kegan 4). But I think Becky wants to eliminate that discomfort immediately.
+
+
 The Immense Journey by Loren Eiseley
 ===
 rating: yes
