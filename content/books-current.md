@@ -4,6 +4,129 @@ class: split
 type: book
 
 
+Moral Ambition by Rutger Bregman
+===
+rating: yes
+posted: June 22, 2026
+cover: /assets/book-covers/moral-ambition.jpg
+
+Without moral ambition, argues Bregman, you just end up as a money maximizing consultant. Or working for big tech on the trend du jour. Overall I found this book to be not especially groundbreaking, perhaps in part because I've been stewing in EA adjacent circles for over a decade. That said it's a good reminder for me as I think about what's next and there were plenty of interesting stories that I hadn't heard of before.
+
+I'll evaluate the book through three distinct lenses: its tactical playbook for change, its framework for identifying future moral domains, and the critical blind spots where Bregman’s romanticism gets the better of him.
+
+# A playbook for change
+My last encounter with Ralph Nader was in [[Abundance book by Klein and Thompson#^eb451d]]. Rather than emphasizing his pioneering of righteous crusades against the government, Klein and Thompson focus on the pandora's box that his methods unlocked. Nader's Raiders saw the government as an enemy and used lawfare to stop its bad actions. The same standing-to-sue and procedural-veto architecture that blocked a polluting highway now blocks a solar farm, a transmission line, or dense housing.
+
+Despite this, I liked Bregman's synthesis of Nader's wisdom in 5 points (emphasis mine):
+
+1. Most **reporters are lazy** and don't investigate things for themselves. You get press coverage by handing them ready-made scoops, preferably along with telephone numbers for your sources.
+	- (I've definitely observed this from the Big Tech perspective. Especially for launches circa 2010-12, Google PR would draft press releases which would be published almost verbatim in the tech press.)
+2. Don't bother contacting members of Congress directly because politicians are chronically short on time. You'd do better **lobbying their staffers**. They're younger, more idealistic, and better prepared.
+3. The best **whistleblowers** are found from middle management on down. **Folks lower on the company ladder** know more about how things really work than the big bosses in the boardroom. They'll generally also have a stronger moral compass.
+	- (Points 2 and 3 suggest that young and junior staff is more malleable. This is good to keep in mind.)
+4. **The drier** something seems, **the more exciting** it is. If your eyes glaze over while reading policy, then you know: here's where the money is.
+	- (This is definitely an angle to focus on — so much of my career has been spent bouncing from one trend to the next, but there is much alpha in the obscure.)
+5. The less praise you need, the stronger your position. "If you want to be effective in Washington, put your own ego aside," Nader said. "Feed other people's egos”
+
+# Cultivating moral imagination
+I’m pleased that the book walks back the breathless enthusiasm about Effective Altruism (EA) often present in 80k hour circles. I think the movement has major problems mostly stemming from the limitations of utilitarianism. Like where is the arts and music in all this?
+
+A seasoned EA will agree that the movement is explicitly designed to be non-universalizable. It only works when treated as a marginal correction to an otherwise "normal" world. Morality is just one axis of many that I would like to embrace. On its own it is too narrow, and needn't be the only avenue for impact.
+
+With this in mind, I am especially inspired by Bregman's discussion around the second order impact of scientific and technological impact. One example from the book are bicycles. This technology had profound implications for women's physical (and more importantly societal) mobility. Helping advance other technological and scientific discoveries can in this way be seen as an indirect moral contribution.
+
+A more recent case is the story of German politician Hans-Josef Fell and Chinese entrepreneur Shi Zhengrong, the "Solar King." In 2000, Fell co-drafted a dry piece of German policy that heavily subsidized solar power. Sensing the massive German demand, Shi founded Suntech and scaled manufacturing at a blistering pace. Suntech flooded the market with product, and although it failed commercially, helped drive the cost curve of solar down at unprecedented speed. (See [[Solar and Wind power has become cheap faster than expected]])
+
+Helping advance these technological leaps can, in this way, be seen as a powerful, indirect moral contribution. Catalyzing discovery is a deep, abiding interest of mine, and it is exactly where the promise of frontier AI has the potential to shine.
+
+Bicycles and solar panels were a singularly positive invention for the world, but technology in general can have varied, sometimes directly negative moral outcomes. The influential ["Do Artifacts Have Politics" essay from Langdon Winner](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf) is worth a read. Technological leaps often outpace our ethical frameworks, setting the stage for new moral crises. But how do we identify these moral gaps?
+
+Bregman implores us to cultivate our moral imagination. Slavery was normalized in the 18th century, with very few dissenting voices. His narrative spends a lot of time following anti-slavery activist Thomas Clarkson, one of the rare few that could see the moral abhorrence of slavery decades before that idea became mainstream. What modern practices will we see as barbaric in the decades and centuries to come?
+
+Six signs a common practice may be wrong (borrowed from Kwame Anthony Appiah):
+
+1. We've long heard what's wrong with it.
+2. We say, 'That's just the way it is!
+3. We avoid uncomfortable facts about the practice.
+4. We ridicule its opponents.
+5. We find it hard to justify it to our children.
+6. We suspect future generations will see it as barbaric.
+
+One obvious cause that is well represented in EA / moral ambition circles are animal rights. Indeed, the business model of industrial animal agriculture ("Big Poultry") is truly shocking.
+
+In this world, farmers get a shipment of just hatched chicks from a "meat integrator". These companies like Perdue or Tyson own the chicks and the feed, and rely on "contract farmers" to grow them as quickly as possible, then slaughter and package the meat. Most U.S. chicken farmers today lie under the poverty line and are deep in debt. They can't break free without selling their farmland, which has sometimes been in the family for generations.
+
+A couple of other candidate causes come to my mind that were not mentioned in the book:
+
+**Commercial mining of human attention**: allowing corporate algorithms to systematically hijack human pathways seems highly problematic.
+
+Using a few points from Bregman/Appiah's framework we can see how this cause plays out:
+
+- Known wrong: young women's depression, blaming "lack of discipline."
+- Ridicule opponents: critics are called Luddites, technophobes, or alarmists.
+- Future generations: it's like 19th century cocaine-and-opium teething syrups.
+
+**Cheapened care for the elderly**: outsourcing the care of aging parents to corporations being juiced by Private Equity interests and eventually robots seems morally wrong. Applying the same Bregman/Appiah framework:
+
+- Known wrong: nursing homes are depressing, lonely places with low quality care.
+- Avoid uncomfortable facts: adult children rarely visit, and tend to change the subject.
+- Child justification: why does their loving grandparent have to live in a clinical box with strangers?
+
+
+# Things that did not pass the sniff test
+
+## Negative externalities are hard to quantify
+> A corporate lawyer, for instance, does some $30,000 of damage to society each year, a commercial banker more than $100,000.'
+
+I'll admit this sounds directionally correct, but these numbers are very fishy and involve a ton of assumptions. I'd love to be able to quantify such externalities, but I just don't trust that we can do that yet.
+
+## Activist subcultures are not behind every civilizational milestone
+Bregman asserts:
+
+> Every milestone of civilization was first seen as a crazy idea of some subculture or another
+
+Many examples he cites in the book do fit the bill, specifically the Abolition of Slavery and Women’s Suffrage. But are these the exception to the rule?
+
+Certainly this is NOT true for technological revolutions which underpin many massive civilizational milestones. The green revolution or the eradication of smallpox weren't driven by "fringe activist subcultures," but by technocratic state-backed scientific initiatives. Rutger seems to elevate charismatic moral campaigns while ignoring the quiet, institutional, and technological grinding that actually scales human welfare.
+
+Even in the realm of moral revolutions this reads like romantic hyperbole. The Magna Carta, for example, did not emerge because of some fringe peasant groups, but because it was forced upon the King by the richest, most powerful, and highest-status military elites in the country. The Barons were driven by self-interest and tax protection, not human rights and altruism.
+
+International humanitarian law similarly did not come from activist pacifists, but as a pragmatic reaction to the shocking, systemic slaughter of World Wars I and II. They were drafted and signed by mainstream career diplomats and military generals.
+
+## Monastic fallacy of ignoring passion
+Rutger's ideal is monastic. Don’t start out by asking “what’s my passion”, but ask instead “how can I contribute most?” You, dear reader, should become an optimization engine for worldly utility. Your personal preferences are treated as noise to be minimized.
+
+> To earn a spot, you must first of all be radically open-minded. Forget your passions. Abandon your pet causes. Odds are you'll soon be setting up an organization to do something you'd never ever considered. "I think the cause I'm now working on would have ranked lowest on my list going in," one graduate tells me.
+
+Some people don't care what they work on. But if I am not intellectually stimulated, I struggle to be excited about the project. Perhaps it's a character flaw, or being overly spoiled in my career. But I think ignoring passion is the wrong call.
+
+## Sizable problems are rarely overlooked
+Rutger proposes the 3S framework for selecting a problem. Ensure that it is:
+
+1. Sizable
+2. Solvable
+3. Sorely overlooked
+
+I would like to take issue with 1. Truly overlooked problems are almost never sizable at inception. If you only look at things that are already pre-quantified as "sizable," you will end up working on the same consensus issues as everyone else.
+
+I really like the idea of solving niche problems that affect a few people, but profoundly. Maybe the total addressible market is bigger than you think!
+
+One example of this is accessibility. The markets for blind and deaf people are far smaller than the general public, hard to monetize, and largely done as a PR play. But if we allow ourselves to start there, the ultimate product experience will be better for everyone. In a loud environment, we are all hard of hearing.
+
+Small is beautiful.
+
+---
+
+Moral Ambition is a useful lens through which to consider what's important in a life, but it's not the only one. Rutger agrees, and his quote buttresses the argument:
+
+> Your legacy is never one thing. Your legacy is every life you've touched, every person whose life was either moved or not. It's every person you've harmed or helped. That's your legacy. — Maya Angelou
+
+Despite my criticisms, this book succeeded in doing exactly what a good book should do: it forced me to step back and re-evaluate my priorities. I will end positively with a provocative question this book left me with:
+
+**What is a dry, boring, or deeply unsexy system that is intellectually thrilling to dissect, which everyone else is ignoring?**
+
+
+
 Good Inside by Becky Kennedy
 ===
 rating: no
