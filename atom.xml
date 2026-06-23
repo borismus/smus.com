@@ -5,8 +5,216 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-06-02T12:31:08-00:00</updated>
+  <updated>2026-06-22T19:08:23-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Moral Ambition by Rutger Bregman</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/moral-ambition-by-rutger-bregman"/>
+    
+    <updated>2026-06-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/moral-ambition-by-rutger-bregman</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>Without moral ambition, argues Bregman, you just end up as a money maximizing consultant. Or working for big tech on the trend du jour. Overall I found this book to be not especially groundbreaking, perhaps in part because I've been stewing in EA adjacent circles for over a decade. That said it's a good reminder for me as I think about what's next and there were plenty of interesting stories that I hadn't heard of before.</p>
+<p>I'll evaluate the book through three distinct lenses: its tactical playbook for change, its framework for identifying future moral domains, and the critical blind spots where Bregman’s romanticism gets the better of him.</p>
+<h1>A playbook for change</h1>
+<p>My last encounter with Ralph Nader was in <a class="wiki" href="https://z3.ca/Abundance_book_by_Klein_and_Thompson#^eb451d">Abundance book by Klein and Thompson#^eb451d</a>. Rather than emphasizing his pioneering of righteous crusades against the government, Klein and Thompson focus on the pandora's box that his methods unlocked. Nader's Raiders saw the government as an enemy and used lawfare to stop its bad actions. The same standing-to-sue and procedural-veto architecture that blocked a polluting highway now blocks a solar farm, a transmission line, or dense housing.</p>
+<p>Despite this, I liked Bregman's synthesis of Nader's wisdom in 5 points (emphasis mine):</p>
+<ol>
+<li>Most <strong>reporters are lazy</strong> and don't investigate things for themselves. You get press coverage by handing them ready-made scoops, preferably along with telephone numbers for your sources.<ul>
+<li>(I've definitely observed this from the Big Tech perspective. Especially for launches circa 2010-12, Google PR would draft press releases which would be published almost verbatim in the tech press.)</li>
+</ul>
+</li>
+<li>Don't bother contacting members of Congress directly because politicians are chronically short on time. You'd do better <strong>lobbying their staffers</strong>. They're younger, more idealistic, and better prepared.</li>
+<li>The best <strong>whistleblowers</strong> are found from middle management on down. <strong>Folks lower on the company ladder</strong> know more about how things really work than the big bosses in the boardroom. They'll generally also have a stronger moral compass.<ul>
+<li>(Points 2 and 3 suggest that young and junior staff is more malleable. This is good to keep in mind.)</li>
+</ul>
+</li>
+<li><strong>The drier</strong> something seems, <strong>the more exciting</strong> it is. If your eyes glaze over while reading policy, then you know: here's where the money is.<ul>
+<li>(This is definitely an angle to focus on — so much of my career has been spent bouncing from one trend to the next, but there is much alpha in the obscure.)</li>
+</ul>
+</li>
+<li>The less praise you need, the stronger your position. "If you want to be effective in Washington, put your own ego aside," Nader said. "Feed other people's egos”</li>
+</ol>
+<h1>Cultivating moral imagination</h1>
+<p>I’m pleased that the book walks back the breathless enthusiasm about Effective Altruism (EA) often present in 80k hour circles. I think the movement has major problems mostly stemming from the limitations of utilitarianism. Like where is the arts and music in all this?</p>
+<p>A seasoned EA will agree that the movement is explicitly designed to be non-universalizable. It only works when treated as a marginal correction to an otherwise "normal" world. Morality is just one axis of many that I would like to embrace. On its own it is too narrow, and needn't be the only avenue for impact.</p>
+<p>With this in mind, I am especially inspired by Bregman's discussion around the second order impact of scientific and technological impact. One example from the book are bicycles. This technology had profound implications for women's physical (and more importantly societal) mobility. Helping advance other technological and scientific discoveries can in this way be seen as an indirect moral contribution.</p>
+<p>A more recent case is the story of German politician Hans-Josef Fell and Chinese entrepreneur Shi Zhengrong, the "Solar King." In 2000, Fell co-drafted a dry piece of German policy that heavily subsidized solar power. Sensing the massive German demand, Shi founded Suntech and scaled manufacturing at a blistering pace. Suntech flooded the market with product, and although it failed commercially, helped drive the cost curve of solar down at unprecedented speed. (See <a class="wiki" href="https://z3.ca/Solar_and_Wind_power_has_become_cheap_faster_than_expected">Solar and Wind power has become cheap faster than expected</a>)</p>
+<p>Helping advance these technological leaps can, in this way, be seen as a powerful, indirect moral contribution. Catalyzing discovery is a deep, abiding interest of mine, and it is exactly where the promise of frontier AI has the potential to shine.</p>
+<p>Bicycles and solar panels were a singularly positive invention for the world, but technology in general can have varied, sometimes directly negative moral outcomes. The influential <a href="https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf">"Do Artifacts Have Politics" essay from Langdon Winner</a> is worth a read. Technological leaps often outpace our ethical frameworks, setting the stage for new moral crises. But how do we identify these moral gaps?</p>
+<p>Bregman implores us to cultivate our moral imagination. Slavery was normalized in the 18th century, with very few dissenting voices. His narrative spends a lot of time following anti-slavery activist Thomas Clarkson, one of the rare few that could see the moral abhorrence of slavery decades before that idea became mainstream. What modern practices will we see as barbaric in the decades and centuries to come?</p>
+<p>Six signs a common practice may be wrong (borrowed from Kwame Anthony Appiah):</p>
+<ol>
+<li>We've long heard what's wrong with it.</li>
+<li>We say, 'That's just the way it is!</li>
+<li>We avoid uncomfortable facts about the practice.</li>
+<li>We ridicule its opponents.</li>
+<li>We find it hard to justify it to our children.</li>
+<li>We suspect future generations will see it as barbaric.</li>
+</ol>
+<p>One obvious cause that is well represented in EA / moral ambition circles are animal rights. Indeed, the business model of industrial animal agriculture ("Big Poultry") is truly shocking.</p>
+<p>In this world, farmers get a shipment of just hatched chicks from a "meat integrator". These companies like Perdue or Tyson own the chicks and the feed, and rely on "contract farmers" to grow them as quickly as possible, then slaughter and package the meat. Most U.S. chicken farmers today lie under the poverty line and are deep in debt. They can't break free without selling their farmland, which has sometimes been in the family for generations.</p>
+<p>A couple of other candidate causes come to my mind that were not mentioned in the book:</p>
+<p><strong>Commercial mining of human attention</strong>: allowing corporate algorithms to systematically hijack human pathways seems highly problematic.</p>
+<p>Using a few points from Bregman/Appiah's framework we can see how this cause plays out:</p>
+<ul>
+<li>Known wrong: young women's depression, blaming "lack of discipline."</li>
+<li>Ridicule opponents: critics are called Luddites, technophobes, or alarmists.</li>
+<li>Future generations: it's like 19th century cocaine-and-opium teething syrups.</li>
+</ul>
+<p><strong>Cheapened care for the elderly</strong>: outsourcing the care of aging parents to corporations being juiced by Private Equity interests and eventually robots seems morally wrong. Applying the same Bregman/Appiah framework:</p>
+<ul>
+<li>Known wrong: nursing homes are depressing, lonely places with low quality care.</li>
+<li>Avoid uncomfortable facts: adult children rarely visit, and tend to change the subject.</li>
+<li>Child justification: why does their loving grandparent have to live in a clinical box with strangers?</li>
+</ul>
+<h1>Things that did not pass the sniff test</h1>
+<h2>Negative externalities are hard to quantify</h2>
+<blockquote>
+<p>A corporate lawyer, for instance, does some $30,000 of damage to society each year, a commercial banker more than $100,000.'</p>
+</blockquote>
+<p>I'll admit this sounds directionally correct, but these numbers are very fishy and involve a ton of assumptions. I'd love to be able to quantify such externalities, but I just don't trust that we can do that yet.</p>
+<h2>Activist subcultures are not behind every civilizational milestone</h2>
+<p>Bregman asserts:</p>
+<blockquote>
+<p>Every milestone of civilization was first seen as a crazy idea of some subculture or another</p>
+</blockquote>
+<p>Many examples he cites in the book do fit the bill, specifically the Abolition of Slavery and Women’s Suffrage. But are these the exception to the rule?</p>
+<p>Certainly this is NOT true for technological revolutions which underpin many massive civilizational milestones. The green revolution or the eradication of smallpox weren't driven by "fringe activist subcultures," but by technocratic state-backed scientific initiatives. Rutger seems to elevate charismatic moral campaigns while ignoring the quiet, institutional, and technological grinding that actually scales human welfare.</p>
+<p>Even in the realm of moral revolutions this reads like romantic hyperbole. The Magna Carta, for example, did not emerge because of some fringe peasant groups, but because it was forced upon the King by the richest, most powerful, and highest-status military elites in the country. The Barons were driven by self-interest and tax protection, not human rights and altruism.</p>
+<p>International humanitarian law similarly did not come from activist pacifists, but as a pragmatic reaction to the shocking, systemic slaughter of World Wars I and II. They were drafted and signed by mainstream career diplomats and military generals.</p>
+<h2>Monastic fallacy of ignoring passion</h2>
+<p>Rutger's ideal is monastic. Don’t start out by asking “what’s my passion”, but ask instead “how can I contribute most?” You, dear reader, should become an optimization engine for worldly utility. Your personal preferences are treated as noise to be minimized.</p>
+<blockquote>
+<p>To earn a spot, you must first of all be radically open-minded. Forget your passions. Abandon your pet causes. Odds are you'll soon be setting up an organization to do something you'd never ever considered. "I think the cause I'm now working on would have ranked lowest on my list going in," one graduate tells me.</p>
+</blockquote>
+<p>Some people don't care what they work on. But if I am not intellectually stimulated, I struggle to be excited about the project. Perhaps it's a character flaw, or being overly spoiled in my career. But I think ignoring passion is the wrong call.</p>
+<h2>Sizable problems are rarely overlooked</h2>
+<p>Rutger proposes the 3S framework for selecting a problem. Ensure that it is:</p>
+<ol>
+<li>Sizable</li>
+<li>Solvable</li>
+<li>Sorely overlooked</li>
+</ol>
+<p>I would like to take issue with 1. Truly overlooked problems are almost never sizable at inception. If you only look at things that are already pre-quantified as "sizable," you will end up working on the same consensus issues as everyone else.</p>
+<p>I really like the idea of solving niche problems that affect a few people, but profoundly. Maybe the total addressible market is bigger than you think!</p>
+<p>One example of this is accessibility. The markets for blind and deaf people are far smaller than the general public, hard to monetize, and largely done as a PR play. But if we allow ourselves to start there, the ultimate product experience will be better for everyone. In a loud environment, we are all hard of hearing.</p>
+<p>Small is beautiful.</p>
+<hr />
+<p>Moral Ambition is a useful lens through which to consider what's important in a life, but it's not the only one. Rutger agrees, and his quote buttresses the argument:</p>
+<blockquote>
+<p>Your legacy is never one thing. Your legacy is every life you've touched, every person whose life was either moved or not. It's every person you've harmed or helped. That's your legacy. — Maya Angelou</p>
+</blockquote>
+<p>Despite my criticisms, this book succeeded in doing exactly what a good book should do: it forced me to step back and re-evaluate my priorities. I will end positively with a provocative question this book left me with:</p>
+<p><strong>What is a dry, boring, or deeply unsexy system that is intellectually thrilling to dissect, which everyone else is ignoring?</strong></p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Good Inside by Becky Kennedy</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/good-inside-by-becky-kennedy"/>
+    
+    <updated>2026-06-17T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/good-inside-by-becky-kennedy</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I’m not actually going to recommend this book, but I figured I might as well post a quick review anyway.</p>
+<p>Becky's pitch of the book is highly attractive: <em>I don't believe in trade-offs. You can have it all, and everyone is good inside.</em> Of course this is a bestseller. It tells highly anxious, guilt-ridden, burnt-out parents exactly what they want to hear, interspersed with heavy-handed cheerleading: "It's not too late," "You're doing great". I was left waiting for the hard truth, and though I found anything but that, the book was definitely a catalyst to get me thinking about parenting.</p>
+<p>Because to me, "good inside" is insufficient. Of course our kids are good inside! But my job as a parent is to raise kids that are also <em>good outside</em>.</p>
+<p><img alt="Why not good outside?" src="/assets/book-reviews/good-outside.jpg" /></p>
+<hr />
+<p>When S initially pitched this book to me, it sounded like Becky was aiming for a synthesis between old and new school parenting:</p>
+<ol>
+<li>Thesis (old school): Punish them and tell them off and send them to their room</li>
+<li>Antithesis (new school): Do nothing and just say “ok I hear what you’re saying, that must be hard”</li>
+<li>Synthesis. Somehow acknowledge their behavior is unacceptable while reaffirming that they are fundamentally good.</li>
+</ol>
+<p>But as far as I can tell Becky lands right back at new school parenting. Under her system, there are no consequences, no loss of privileges, no friction afterward. The only remedy is to build more connection capital with the misbehaving kid and hope that eventually their behavior will change.</p>
+<p>But here's what I'm most confused about. Why not ALSO let the kid sit with the tension that "I am good inside" and "I just did something bad outside?" That tension is supposed to feel uncomfortable. It’s called having a conscience.</p>
+<h1>What I liked</h1>
+<ul>
+<li>Most Generous Interpretation (MGI), rhymes with 'do not attribute to malice what can be adequately explained by incompetence' and 'reasonable person principle'. These concepts are close to my heart.</li>
+<li>Connection capital and "emotional bank account"<ul>
+<li>When things get tough between me and the kids, it really helps to have this blanket of good times and happy and sweet moments between us to fall back on and paper over some of the fissures as they may disagree with me or misbehave. And as they get older, I'm going to be able to control them less and sticker charts and such. So we need to come to a good place now.</li>
+<li>Why is it that my youngest kid keeps asking to go to the toy store and I keep saying no? Maybe I should initiate sometime. Like, hey, let's do something fun and get you a treat that you really want!</li>
+</ul>
+</li>
+<li>Becky proposes what could almost be described as an OODA loop, except it never really closes<ul>
+<li>Observe: There's a misbehavior.</li>
+<li>Orient: Take a breath. Understand what is the most generous interpretation of what the kid is thinking inside. Use a few of her questions, like, what do you think is happening in their head right now? What is a similar example from your own life that you can think of?</li>
+<li>Decide: is anyone in danger? Action A, otherwise Action B.</li>
+<li>Action A: get them out of the situation immediately.</li>
+<li>Action B: have a non-punitive conversation with them. Just kind of echoing to them what you think is happening in their head. Build more connection capital and they will eventually stop misbehaving.</li>
+</ul>
+</li>
+</ul>
+<h1>What I didn't like</h1>
+<p>Becky is imprecise about guilt and shame.</p>
+<ul>
+<li>She collapses all negative self-evaluation in children under the umbrella of toxic shame, and then claims that shame is always bad.</li>
+<li>But feeling guilty about misdeeds can be quite good! Reiterating: it's not that the kid is bad. It's that their action was bad. Differentiate actions from identity.</li>
+<li>If we define guilt as 'what you did was bad' and shame as 'you are bad,' we find a distinction that Becky fails to discuss properly.</li>
+<li>This is a framework I like:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Target: Behavior/Action</th>
+<th>Target: Identity/Self</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Source: Internal</strong> <br><em>(Private / Conscience)</em></td>
+<td>✅ <strong>1. GUILT</strong>: "I did a bad thing." <br>• Function: <strong>Self-Correction.</strong> Signals that your actions violated your own moral compass. Drives repair.</td>
+<td>🚫 <strong>2. CORE SHAME</strong>: "I am bad/defective." <br>• <em>Function:</em> <strong>None</strong>. Self-loathing that leads to hiding, depression, or defensive rage.</td>
+</tr>
+<tr>
+<td><strong>Source: External</strong> <br><em>(Public / Social)</em></td>
+<td>✅  <strong>3. ACCOUNTABILITY</strong>: "The group says my action was wrong." <br>• Function: <strong>Pro-Social Alignment.</strong> Teaches kids the cost of breaking social contracts.</td>
+<td>🚫 <strong>4. HUMILIATION</strong>: "The group sees me as worthless." <br>• <em>Function:</em> <strong>Tribal Policing.</strong> Historically kept individuals in line under threat of banishment.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>We want to avoid targeting the self (second column) because I agree that of course the kid is "good inside", but the first column is fair game.</li>
+<li>It aligns with <a class="wiki" href="https://z3.ca/Kegan's_adult_development_theory_(ADT)">Kegan's adult development theory (ADT)</a> too. A Kegan 3 child is entirely governed by external social forces (demanding external accountability), whereas a Kegan 4 child has internalized those boundaries to form a self-governed conscience (which experiences internal guilt when failing its own standards)</li>
+<li>“Connection is the opposite of shame”</li>
+<li>No. This is just outright confusing. Yes connection is good, and right shame is not good. But how are they opposites?!</li>
+</ul>
+<p>No feeling should ever be suppressed. She doesn't even state it explicitly, but it is implied everywhere.</p>
+<ul>
+<li>Modern therapeutic parenting (Dr. Becky) has imported IFS, a psychoanalytic model designed for severe trauma and applied it to everyday childhood tantrums. The result is an ideology that treats basic self-discipline and emotional containment as if they are forms of violence.</li>
+<li>Not all human impulses are equally benign! Some human impulses are genuinely destructive and antisocial. Sitting with the discomfort of having done something bad (and feeling the sharp sting of internal judgment) is how moral character is forged. If you treat every antisocial behavior as a delicate "part of the self" that needs gentle dialogue, you rob the child of the adaptive training data they need to survive in a world that will judge them on their behavior, not their internal intent.</li>
+</ul>
+<p>Anyway now that I've processed this book, I think I'm somewhat in agreement but would augment the OODA loop:</p>
+<ul>
+<li>Observe: There's a misbehavior.</li>
+<li>Orient: Take a breath. MGI: what's happening in their head right now? What is a similar example from your own life that you can think of?</li>
+<li>Decide: is anyone in danger? Action A, otherwise Action B.</li>
+<li>Action A: get them out of the situation immediately.</li>
+<li>Action B: Be firm but kind, and don't be afraid to articulate that "I know you're a good kid" but "this behavior is totally unacceptable". Echo what you think is happening in their head. Build more connection capital and they will eventually stop misbehaving. But also, lean on natural consequences.</li>
+</ul>
+<p>I want my child to sit in the uncomfortable gap between their identity (good) and their action (bad) so they develop a self-correcting conscience (Kegan 4). But I think Becky wants to eliminate that discomfort immediately.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>The Immense Journey by Loren Eiseley</title>
@@ -3529,91 +3737,6 @@ Mark what you leave.</p>
 <li>Two antagonistic "super cloud fiefs". Chinese and American. But I don’t think that the Chinese superfiefdom is open for business.</li>
 <li>After US froze Russia central bank out of the global financial system, Varoufakis claims that it’s the first time this happened. Even during the Russia-Britain war in 1850 (Crimean war?) British and Russian bankers continued to collaborate. True?</li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>David: The Divided Heart by David Wolpe</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/david-the-divided-heart-by-david-wolpe"/>
-    
-    <updated>2024-02-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/david-the-divided-heart-by-david-wolpe</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I read this book as respite from Samuel I and before tackling Samuel II. Wolpe's retelling of David's stories is lively, easy to read, and insightful. Most of this book summarizes David's story from various perspectives: as a young man, on the run from Saul, as a king, as a father, at the end of his journey, and as the progenitor of the Messiah. I found Wolpe's negative insights to be the most incisive.</p>
-<p>Wolpe observes that</p>
-<blockquote>
-<p>Conventional religion has a regrettable tendency to do surgery on the human soul, leaving only the exalted parts.</p>
-</blockquote>
-<p>Not so with David. In the words of Baruch Halpern, "David is the first human being in world literature". Wolpe's overall portrait of David is not super sympathetic. David's flaws, sins, and moral failings are so great that this sentiment from former Israeli president Shimon Peres seems like an understatement:</p>
-<blockquote>
-<p>Not everything David did on land, or on roofs, appears to me to be Judaism.</p>
-</blockquote>
-<p>The author of this book is my radar from a number of different directions, most surprisingly via his <a href="https://www.youtube.com/watch?v=aQzPhEbyZ5g">interview with Sadhguru</a>.</p>
-<p><strong>The supernatural and the feminine</strong>: With the exception of Saul raising Samuel from the dead, there is not a single supernatural miracle in the entire story of David. Wolpe observes that when David needs a miracle, God finds a woman to enact it in an earthly manner. Is this like <a href="https://youtu.be/txqiwrbYGrs?si=9PPAGRrQ5006kbis&amp;t=15">real life</a>?</p>
-<p><strong>Family strife</strong>: Wolpe writes resonantly that “for king or commoner, the pain in families dwarfs even the final, eschatological battle”. David's family is rather extreme, a wild caricature of the sorts of pedestrian problems most people experience in their life. In a modern reading, does one soften and interpret them as allegory?</p>
-<ul>
-<li>David commits both adultery and murder in one sordid chapter, sleeping with Bathsheva ("I saw her bathing on the roof") and sending her husband Uriah to die at the hands of the Ammonites.</li>
-<li>Nathan's prophecy that David and Bathsheba's first child would die then comes true.</li>
-<li>David's children reenact David's own rape-and-murder when Amnon rapes his half-sister Tamar. Tamar's brother Absalom then avenges this act by murdering Amnon. All three are David's children.</li>
-<li>Absalom attempts to usurp the throne from David in his moment of weakness. David flees like he fled from his stepfather Saul. Eventually David tries to spare Absalom, but his general kills his son against his will.</li>
-<li>David's parting words to his son and heir Solomon are ruthless: kill Joab (David's general), kill Shimei (a man from Saul's lineage), and dispatch of Adonijah (David's son). Solomon systematically executes his father's wishes and secures his succession.</li>
-</ul>
-<p>I must say, recalling David's story in detail really enhances my appreciation the much loved "Hallelujah":</p>
-<blockquote>
-<p>But all I ever learned from love,
-Was how to shoot somebody who outdrew you.</p>
-</blockquote>
-<p>Wolpe argues that David is the cho­sen of God exact­ly because of his com­plex­i­ty, which strikes me as a very modern take. Would the authors of the Bible considered complexity a desirable quality? I suspect they would laud David for being a great warrior king. A gentler modern reading is far more damning. David was "a man after God’s own heart", at the cost of sordid and tragic personal and family affairs. A broken hallelujah.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Every Life is on Fire by Jeremy England</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/every-life-is-on-fire-by-jeremy-england"/>
-    
-    <updated>2024-02-09T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/every-life-is-on-fire-by-jeremy-england</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I came across this peculiar book in a circuitous way. I listened to part of an interview in which a certain Beff Jesos spent an inordinate amount of time speculating about non-equilibrium systems and how they might relate to the genesis of life. He also casually name-dropped Jeremy England. On his lead, I read an article about some of recent research on life-like simulations that seem to spontaneously reach orderly states, and came across this book. Turns out England is not just a statistical physicist, but also an ordained rabbi, and that "Every Life is On Fire" is a strange amalgam of condensed matter theory and The Torah, which sounded right up my alley.</p>
-<p>Overall, I found the book thought-provoking and worthwhile despite its unevenness, abrupt end, and overreliance on scripture. One obscure episode from Exodus in which God teaches Moses to turn his hand sickly white and revert it back to normal was given far too much weight, resulting in a contorted and unconvincing analogy. On the other hand, some Torah references illuminated the author's thought process, and at a meta-level, reminded me about the flexibility of human minds to synthesize across such seemingly disparate fields. Anyway here are some ideas that stood out to me:</p>
-<p><strong>Escape velocity and state changes</strong>: An intuitive and new-to-me way of looking at changes in state. Consider a particle in its transition from liquid to gas (e.g. boiling water), we can apply the concept of escape velocity. This particle is like a rocket trying to escape the gravitational field of earth. In this analogy, the earth is made out of these rocket-particles, so as more of them leave, the earth's mass decreases, effectively reducing escape velocity. This bandwagon effect applies generally to state changes, explaining why we observe quick transitions rather than gradual ones.</p>
-<p><strong>Limitations of "first principles thinking"</strong>: Reductionism holds that you can understand system by just understanding its constituent parts. But a complex system is often greater than the sum of its parts, exhibiting emergent behavior, so reductive thinking is inherently limited. Emergence is the opposite of reductionism. Multiple different fields have evolved to study phenomena from different perspectives. Each field has their scope and level of abstraction, suited to best study the phenomenons in their scope.</p>
-<p><strong>Life and life-likeness</strong>: Physics doesn't concern itself with defining life, but some life-like properties can be described in physical terms. For example, life tends to replicate itself, tends to require external energy and use it to repair itself. Considering some edge cases reveals how complex the barrier between life and not-life is:</p>
-<ul>
-<li>Fire can self-replicate by spreading through a dry forest</li>
-<li>Ice can repair itself if you make a hole in it and wait for the water to freeze</li>
-</ul>
-<p><strong>Active and passive stability</strong>: Consider the self repair of an ice sheet crushed by a stick and the self repair that happens when skin repairs a cut. These are very different processes; skin is capable of dynamic self-repair, but ice is passively self-repaired.</p>
-<p>Life has a tendency to exist in states that require constant energy input just to remain alive; repair happens continuously in response to ongoing wear and tear. In the event of a cut, the same regular maintenance occurs but perhaps at an accelerated rate.</p>
-<p>A frozen pond, in contrast, requires no continuous energy to remain frozen. The crystal structure of the ice is sufficiently stable that it can just continue to exist as long as the temperature doesn't increase. If the structure is disrupted, water under the ice will naturally return to the surface and spontaneously freeze because of the temperature of the surroundings, self-repairing spontaneously.</p>
-<p>The downside of the frozen pond strategy is that ice's crystal structure is highly vulnerable to changes in the environment. When it gets warm, the crystal will reliably melt and turn into water. This is static stability.</p>
-<p>A biological system, in contrast, typically has a broader operating range, and is more resilient to environmental variation. Life is complex and constantly requires external energy to survive, but it is far more resilient.</p>
-<p><strong>Everything interesting flows</strong>: is it true that all interesting systems require a constant flow of inbound energy? Equilibrium is death. There is a cascade of systems in which energy flows from one system to the next, with each of the energy flows cyclical in nature. These sub-systems are not in equilibrium, but they are still in predictable flow states. (There's an amazing visualization to be made on this theme, along the lines of <a href="https://www.youtube.com/watch?v=0fKBhvDjuy0">Powers of Ten</a>)</p>
-<p><strong>Resonance and adaptation</strong>: Energy does not just come into a system in some random way. Instead, its flow and properties have a certain structure. For example, a singer can break a glass with her voice if her pitch matches the resonance frequency of the glass. The singer's voice can be represented as a spectrum of frequencies and powers. In this case, the singer modulates the frequency of the sound wave she emits until it matches that of the glass, and then cranks up the amplitude.</p>
-<p>The singer's pitch is the source of energy for the singer-glass system. Unlike the singer-glass, most systems have a fixed source of energy, and entities in the system can adapt to it. In the singer-glass system, imagine an imaginary glass that changes size to match the resonance frequency of the singer's voice. Like the singer's voice, the sun's rays transmit electromagnetic energy in a particular spectrum of frequencies and powers. And like the glass, every living creature adapts to this structured energy to survive.</p>
-<p><strong>Energy in the Goldilocks zone</strong>: If energy is not structured correctly or is overpowering, it can be destructive to a system. England makes an interesting Goldilocks zone argument (see <a class="wiki" href="https://z3.ca/Goldilocks_principle">Goldilocks principle</a>) inspired by the paradoxical story of Moses and the burning bush.</p>
-<ul>
-<li>A bush subject to no external driving force will die of neglect.</li>
-<li>A bush subject to too chaotic an external driving force will die of immolation.</li>
-<li>A bush needs to have structured external driving forces to thrive.</li>
-</ul>
-<p>This is what inspired the name of the book. Every life is a bit on fire.</p>
 
         
       </div>
