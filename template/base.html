@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{title}} | {{site.title}}</title>
+  {% set display_title = yaml.headline or title %}
+  <title>{{ display_title }} | {{site.title}}</title>
 
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
@@ -12,13 +13,13 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:title" content="{{ display_title }}" />
   <meta name="twitter:description" content="{{meta_description}}" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{site.domain}}{{permalink}}/" />
-  <meta property="og:title" content="{{title}}" />
+  <meta property="og:title" content="{{ display_title }}" />
   <meta property="og:description" content="{{meta_description}}" />
 
   <!-- Mastodon -->

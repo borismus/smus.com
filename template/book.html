@@ -3,7 +3,11 @@
 {% block content %}
 <section id='main'>
   <article>
-    <a href='{{permalink}}'><h1 class='title'>{{ title }}</h1></a>
+    {% set display_title = yaml.headline or title %}
+    <a href='{{ permalink }}'><h1 class='title'>{{ display_title }}</h1></a>
+    {% if yaml.headline %}
+    <div class='book-context'>On {{ title }} <span aria-hidden='true'>📚</span></div>
+    {% endif %}
     {% if yaml.cover %}
     <img class="book-cover" loading="lazy" src="{{ yaml.cover }}"/>
     {% endif %}

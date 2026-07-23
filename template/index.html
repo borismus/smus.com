@@ -27,8 +27,15 @@
 {% if post.type_name == 'book' and post.yaml.rating %}
 <article class="type-book">
   <a href='{{ post.permalink }}'>
-    <h1 class='title'>Book: {{ post.title }}</h1>
+    {% if post.yaml.headline %}
+    <h1 class='title'>{{ post.yaml.headline }}</h1>
+    {% else %}
+    <h1 class='title'>{{ post.title }} <span aria-hidden='true'>📚</span></h1>
+    {% endif %}
   </a>
+  {% if post.yaml.headline %}
+  <div class='book-context'>On {{ post.title }} <span aria-hidden='true'>📚</span></div>
+  {% endif %}
   {% if post.yaml.cover %}
   <a href='{{ post.permalink }}'>
     <img class="book-cover" loading="lazy" src="{{ post.yaml.cover }}"/>
