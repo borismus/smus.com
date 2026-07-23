@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="680" viewBox="0 0 680 680" font-family="system-ui, sans-serif">
+  <rect width="680" height="680" fill="#ffffff"/>
+
+  <!-- Circles -->
+  <circle cx="340" cy="340" r="300" fill="#f8d7da" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="340" cy="340" r="205" fill="#fff3cd" stroke="#b8860b" stroke-width="2"/>
+  <circle cx="340" cy="340" r="110" fill="#d6f5d6" stroke="#2e7d32" stroke-width="2"/>
+
+  <!-- Divider: splits abstract (top) from example (bottom) -->
+  <line x1="42" y1="340" x2="638" y2="340" stroke="#999" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="636" y="333" text-anchor="end" font-size="10" fill="#999" font-style="italic">concept ▲</text>
+  <text x="636" y="354" text-anchor="end" font-size="10" fill="#999" font-style="italic">example ▼</text>
+
+  <defs>
+    <!-- top arcs (read L→R over the top) -->
+    <path id="redTop"    d="M 60,340 A 280,280 0 0,1 620,340" fill="none"/>
+    <path id="redTopSub" d="M 95,340 A 245,245 0 0,1 585,340" fill="none"/>
+    <path id="yelTop"    d="M 160,340 A 180,180 0 0,1 520,340" fill="none"/>
+    <path id="yelTopSub" d="M 200,340 A 140,140 0 0,1 480,340" fill="none"/>
+    <!-- bottom arcs (read L→R under the bottom) -->
+    <path id="redBot"    d="M 60,340 A 280,280 0 0,0 620,340" fill="none"/>
+    <path id="redBotSub" d="M 95,340 A 245,245 0 0,0 585,340" fill="none"/>
+    <path id="yelBot"    d="M 160,340 A 180,180 0 0,0 520,340" fill="none"/>
+    <path id="yelBotSub" d="M 200,340 A 140,140 0 0,0 480,340" fill="none"/>
+  </defs>
+
+  <!-- ===== TOP: abstract ===== -->
+  <!-- Red -->
+  <text font-size="16" font-weight="700" fill="#7b241c">
+    <textPath href="#redTop" startOffset="50%" text-anchor="middle">company + customers + employees + community</textPath>
+  </text>
+  <text font-size="12.5" font-weight="600" fill="#7b241c">
+    <textPath href="#redTopSub" startOffset="50%" text-anchor="middle">(globally unprofitable)</textPath>
+  </text>
+  <!-- Yellow -->
+  <text font-size="15" font-weight="700" fill="#7d6608">
+    <textPath href="#yelTop" startOffset="50%" text-anchor="middle">company + customers + employees</textPath>
+  </text>
+  <text font-size="12.5" font-weight="600" fill="#7d6608">
+    <textPath href="#yelTopSub" startOffset="50%" text-anchor="middle">(marginal)</textPath>
+  </text>
+  <!-- Green center (top) — raised so it clears the divider -->
+  <text x="340" y="265" text-anchor="middle" fill="#1e5620">
+    <tspan x="340" dy="0" font-size="16" font-weight="700">company</tspan>
+    <tspan x="340" dy="20" font-size="16" font-weight="700">+ paying customers</tspan>
+    <tspan x="340" dy="19" font-size="12.5" font-weight="600">(locally profitable)</tspan>
+  </text>
+
+  <!-- ===== BOTTOM: worked example (riverside dye mill) ===== -->
+  <!-- Red -->
+  <text font-size="14.5" font-weight="700" fill="#7b241c">
+    <textPath href="#redBot" startOffset="50%" text-anchor="middle">+ river poisoned, downstream towns pay cleanup</textPath>
+  </text>
+  <text font-size="12.5" font-weight="600" fill="#7b241c">
+    <textPath href="#redBotSub" startOffset="50%" text-anchor="middle">true cost &gt; revenue → net negative</textPath>
+  </text>
+  <!-- Yellow -->
+  <text font-size="14" font-weight="700" fill="#7d6608">
+    <textPath href="#yelBot" startOffset="50%" text-anchor="middle">+ workers' health, safety, fair wages</textPath>
+  </text>
+  <text font-size="12.5" font-weight="600" fill="#7d6608">
+    <textPath href="#yelBotSub" startOffset="50%" text-anchor="middle">margins thin once costs are real</textPath>
+  </text>
+  <!-- Green center (bottom) -->
+  <text x="340" y="378" text-anchor="middle" fill="#1e5620">
+    <tspan x="340" dy="0" font-size="14.5" font-weight="700">dye mill sells cloth</tspan>
+    <tspan x="340" dy="18" font-size="13" font-weight="600">books a tidy profit</tspan>
+  </text>
+</svg>

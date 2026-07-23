@@ -5,8 +5,129 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-06-22T19:08:23-00:00</updated>
+  <updated>2026-07-22T22:30:58-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Defying Financial Gravity</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/incorruptible-by-eric-ries"/>
+    
+    <updated>2026-07-22T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/incorruptible-by-eric-ries</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>When a bridge collapses, blaming gravity is a non-answer. Engineers are supposed to design for gravity, and people who design companies should similarly design for financial gravity. This book is about how to do that.</p>
+<p>Eric Ries, author of "The Lean Startup", spent most of his career advising early stage startups, but unlike most of the rest of the venture class, he seems to have become disillusioned with the enterprise. Startups are inherently short-termist, and corporations in general tend to start great and degrade over time, straying from their original mission as more and more of the corporation's efforts go towards appeasing shareholders.</p>
+<p>As a systems thinker and builder, Ries naturally wanted to fix the problem he identified. The result was the LTSE, a new stock exchange that would focus on the long term by changing various incentives for listed companies. But this is a heavy lift: you cannot simply change the system by willing a new one into existence.</p>
+<p>A reasonable parallel question then is: how can you build a company in the existing system, warts and all, without having it fall prey to the same known failure modes. This is what <em>Incorruptible</em> attempts to answer.</p>
+<p>Ries's own journey from Big VC enthusiast to a reformer feels like a bit of an apology circuit. It's like LTSE and Incorruptible are attempts at giving back to the community as a sort of indulgence. But I understand. I feel a similar microcosm of self-imposed pressure after 15 years at Big Tech.</p>
+<p>Incorruptible is full of practical tips for a founder to structure their already-viable business in a way that is suited to the long term, able to resist the pressures of the market.</p>
+<p>I often paused to reflect: why am I reading the book given that I am not a founder and have never built a viable business? I have a few provisional answers. Firstly, in the spirit of the temporarily embarrassed millionaire, I'm not a founder... YET. Secondly, ideas in this book can equally apply to help <strong>identify whether a company you'd be joining is value aligned</strong>. And lastly, corporate governance is more interesting than I expected, just as a matter of academic curiosity.</p>
+<p>Ries skips the hardest step: how to actually define and create a company ethos worth protecting with a viable business model in the first place. But this feels too tacit to learn from a book.</p>
+<h2>Financial gravity pulls on every corporation</h2>
+<p>Like the engineer, whoever designs a company is designing against a constant gravitational load. The financial system exerts constant, predictable forces. Here's the pattern, echoing <a class="wiki" href="https://z3.ca/The_Authoritarian_High-Modernist_Recipe_for_Failure">The Authoritarian High-Modernist Recipe for Failure</a>. The outcome is a form of enshittification:</p>
+<ol>
+<li>A viable company has goodwill worth protecting.</li>
+<li>Ownership dilutes or careerism creeps in, with shareholder primacy dragging resources away from users.</li>
+<li>The "best practice" playbook via outside consultancy liquidates the sources of goodwill (quality, wages, R&amp;D) and converts goodwill into near-term profit.</li>
+<li>Reputation drains slower than the cash arrives, so the P&amp;L looks really good while the actual damage is invisible.</li>
+<li>Over time, the reservoir empties; deferred damage lands all at once.</li>
+</ol>
+<p>Attempts at systemic reform (e.g. Long-Term Stock Exchange) have not solved all known problems. No surprise there; after all, nobody's invented an anti-gravity device either. The LTSE tries to weaken financial gravity at the systemic level but Incorruptible takes the more practical approach: designing companies to withstand the load.</p>
+<p>There's a whole graveyard of companies ruined by financial gravity, but many examples come from following "best practices" from seasoned board members and hired professional CEOs. Consider Boeing under the James McNerney transition. As Boeing's first CEO without a deep background in aviation, he followed the usual CEO playbook: outsource engineering, optimize margin, financialize. The result was disastrous for Boeing, and Yale management professor Gautam Mukunda called McNerney "arguably the worst CEO in American history".</p>
+<p><a href="https://ln.hixie.ch/">Hixie</a> describes the culture at Google as shifting from what's "best for the user" to what's "best for Google" to what's "best for the decision-maker". I had front-row seats to that movie, and "Don't be evil" was scrubbed from Google's Code of Conduct by 2018.</p>
+<p>Ries argues that often there's nobody to blame for the decline of a company; neither the founder, nor the professional CEO, nor the conservative board member. Nobody but the resulting superorganism. "The bank is something more than men, I tell you. It's the monster. Men made it, but they can't control it." — Steinbeck</p>
+<p>But this blamelessness smells a bit fishy to me. Remember financial gravity? If an individual owns 61% of the voting shares of a company, then shouldn't he be able to build a better bridge? More on this later.</p>
+<h2>Redrawing the fiduciary boundary</h2>
+<p>I found it annoying that Eric Ries was trying to redefine what "profit" means. But I found a way that sits better with me. If you pick a narrow boundary for your circle of concern (e.g. shareholders), you can do a ton of things that are terrible for users and employees and make the shareholders short-term happy. Here's my synthesis in a diagram:</p>
+<p><img alt="Incorruptible - Boris synthesis of fiduciary boundaries" src="/assets/incorruptible-circles.svg" /></p>
+<p>If you define profit broadly, <strong>net social value can flip sign as the boundary expands</strong>. Internalizing externalities, redrawing the accounting boundary so the actor bears the full cost, you end up with a very different situation.</p>
+<p>Just as companies are often blind to negative externalities, they are also blind to positive externalities. In the diagram above, a dye mill is blind to the decline of the health of their workers, and the deleterious effects on the river. Conversely, take Sol Price. The tight circle around Price Club ultimately failed, but widen it one ring and the sign flips. Price invented the warehouse-club model and then shared it with his protégé Sinegal who created Costco.</p>
+<p>All externalities are difficult for corporations to internalize, but companies can extend their positive impact beyond their own walls and into the ecosystem. Many of Ries's examples illustrate how high standards can percolate through the entire supply chain:</p>
+<ol>
+<li><strong>Costco's food safety &gt; FDA</strong> since it inspects more facilities than the FDA and holds suppliers to a higher standard than federal law.</li>
+<li>After a scandal, <strong>Patagonia set a forced labor floor</strong> on its suppliers, ensuring that migrant workers cannot be trapped by recruitment-debt bondage among their Taiwanese suppliers. Similarly <strong>Tony's chocolate fights forced child labor in the cocoa industry</strong>. Started by Dutch journalists angry about this issue, their awareness writing went nowhere. They tried another approach and their ethically-sourced test batch sold out instantly, so they built a business on strict supplier requirements.</li>
+<li><strong>Volvo's seatbelt patent, given away</strong>. Invented the three-point belt (1959) and released the patent rather than enforce it, judging lives saved &gt; licensing revenue. It became an informal industry best practice, then a US national highway standard.</li>
+<li><strong>The Walmart effect vs. the Costco effect</strong>. A Walmart supercenter opening measurably drains its town: grocery wages down, aggregate local income down over time. The Costco effect is the opposite: the same act of "big-box store arrives" runs the externality the other way.</li>
+</ol>
+<h2>Mission lock: history and a contemporary revival?</h2>
+<p>So why do some companies radiate benefits while others drain their towns? It comes down to who they answer to.</p>
+<p>Most companies are owned by institutions and the public, meaning there really is no specific person to blame. But it wasn't always the default. Before general incorporation spread in the late 1800s, a company needed a special charter from the legislature to exist at all, granted for a specific public purpose it was legally bound to pursue. The charter was a mission lock. General corporations for "any lawful purpose" made mission optional; Ries's SHC rebuilds that leash with private law.</p>
+<p>Concentration fixes one thing diffusion breaks: accountability. If a founder holds 61% of the votes, "blame the superorganism" stops working; there's a driver at the wheel, and someone to blame. What you don't have is any guarantee that he's worth trusting.</p>
+<p>One solution to this is to lean back into employee ownership. At the very least, employee ownership can help align the company with their needs and the needs of the users. Sears in 1968 looked like this. Employees held a controlling-sized bloc through a profit-sharing trust, but it operated as a retirement fund, didn't steer the company, and Sears died anyway. Today, Big Tech pays lavish equity but employees control a small fraction of the company because they tend to sell as they vest and no trust holds the shares.</p>
+<table>
+<thead>
+<tr>
+<th>Voting power</th>
+<th>Sears (1968)</th>
+<th>Apple</th>
+<th>Meta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Employees</strong></td>
+<td>30%</td>
+<td>&lt;1%</td>
+<td>&lt;1%</td>
+</tr>
+<tr>
+<td><strong>Founders</strong></td>
+<td>5%</td>
+<td>&lt;1%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td><strong>Institutions &amp; public</strong></td>
+<td>65%</td>
+<td>99%</td>
+<td>39%</td>
+</tr>
+</tbody>
+</table>
+<p>So you're stuck between two bad options: either concentrate control and you're betting on a founder's virtue, or distribute control and you're back to nobody-in-charge. Ries proposes a third path: don't rely on who holds the wheel, lock the wheel to the mission again.</p>
+<h2>Defying Financial Gravity: checks and balances with teeth</h2>
+<p>Financial gravity pushes companies into shareholder primacy, but there are alternatives! Building a company around a mission is in many ways much harder than the default path but there are ways in which it is easier:</p>
+<ol>
+<li>Lower alignment cost: self-selection filters in people who already share the same goal.</li>
+<li>Faster decisions: a clear north star prunes the option space.</li>
+<li>Recruiting/retention: mission attracts talent that money alone wouldn't and gives it a reason to stay.</li>
+<li>Trust: Not extracting maximally builds durable equity.</li>
+</ol>
+<p>Though Ries never frames it this way, many of the corporate governance ideas in his book remind me of checks and balances in the government. It's a little like the Magna Carta or the US Constitution, but applied to firms. I like how his remedies are grounded in corporate charters from the 19th century, not greenfield solutions.</p>
+<p>A key thing about checks and balances is that they need teeth. And I think Ries praises some institutions which lack enforceability and instead introduce new problems. I balked at the idea of a Department of Corporate Purpose, ESG, Chief Purpose Officer. The idea of two-sided review just sounds like invasive monitoring unless the culture of the company is already super bottom-up.</p>
+<p>The heart of Ries's book is the <strong>Spiritual Holding Company</strong> (SHC), whose goal is to split the two things a company usually fuses: the profit engine and the mission. Ries advocates for putting them into separate entities so that the profit engine can be beholden to the mission.</p>
+<p>A corporation is by default a despotic monarchy. The SHC makes it more like a constitutional republic: mission as the inalienable-rights layer, the trust as the branch that can't be captured by capital.</p>
+<p>Ries spends much ink on how specifically to structure a constellation of companies to make an incorruptible mission lock. A separate spiritual holding company seems reasonable, but some of the examples of a multi-corporate interlocking structure seem overly complex for a fledgling company. How much to lean into his "it's always too early until it's too late" advice remains an open question.</p>
+<p>Examples of the SHC pattern in practice:</p>
+<ol>
+<li><strong>Anthropic</strong> Long Term Benefit Trust (LTBT) is a Delaware purpose trust. Five trustees can appoint and remove the board. Their power grows as Anthropic grows, eventually assigning all board seats.</li>
+<li>Triggered by Chouinard landing on the Forbes billionaire list, the founder of <strong>Patagonia</strong> reacted by shedding the net worth of the company into the holding company. Patagonia also added an extra layer: a protector who checks the holding board itself for corruption.</li>
+<li>The <strong>Novo Nordisk Foundation</strong> controls the drug company. Societal health gain (Ozempic) that dwarfs captured revenue. The foundation structure dates to 1989 with roots to the 1920s insulin-era Novo/Nordisk entities.</li>
+</ol>
+<p>Costco is not controlled by a SHC but has a lot of different charter lockouts. This has given Costco amazing stability and it remains excellent after almost half a century. But it is vulnerable. What happens when the Sinegal → Jelinek → Vachris chain is interrupted by a James McNerney?</p>
+<p>Novo Nordisk is definitely a lindy example of this model working well, but only time can tell whether Anthropic is a long term success and whether its governance structure can hold against financial gravity.</p>
+<h2>Put user trust first and beware value capture</h2>
+<p>Governance can lock the company to the mission, but the day-to-day still runs on numbers, and as <a href="/books/the-score-by-c-thi-nguyen/">The Score by C. Thi Nguyen</a> illustrates, it's really easy to get this wrong. Ries calls it surrogation, but I prefer Nguyen's framing: <a class="wiki" href="https://z3.ca/Value_capture_and_collapse_involves_complex_values_being_simplified_and_replaced_by_institutional_metrics">Value capture and collapse involves complex values being simplified and replaced by institutional metrics</a>.</p>
+<p>According to pollsters in the 1950s, 35% of Americans were dissatisfied with customer support. Companies responded by introducing new metrics. Customer support reps were told to minimize metrics like "average time per conversation" thinking that shorter calls would mean more effective resolution of issues. But of course customer service reps would just hang up mid-call. By the 70s, American dissatisfaction with customer support doubled.</p>
+<p>Wells Fargo had a famous "eight is great" policy (8 products per customer). The result was ~3.5M accounts opened without customers' consent, resulting in disaster for users and ultimately Wells Fargo itself.</p>
+<p>New York state and Pennsylvania publish cardiac-surgery report cards which measured per-surgeon mortality rates to make quality legible and reward the best. The result is that surgeons refuse the sickest patients in order to boost their stat.</p>
+<p>Ad-supported video platforms like TikTok and YouTube optimize for watch-time, chosen ostensibly as a proxy for value delivered to the user. But the best way to ramp that metric is to autoplay the next episode, feed users outrage-bait, and pull them deeper into the rabbit hole.</p>
+<p>In contrast, Costco’s ~90% voluntary membership renewal rate is the gold standard. It works well for a few reasons. Members explicitly choose to re-up every year; there's no auto-renew. There's a costly fee associated with it, and you can walk at any point.</p>
+<p>Ries suggests implementing a culture bank. If anyone does something that is aligned with the culture, that's a deposit to the bank. Anything misaligned is a withdrawal. This is very similar to Duolingo's idea of a <strong>trust battery</strong>, which seems much more specific to me. It's much easier to know if your actions will increase or decrease user trust than whether something you do is going to improve or hurt company culture.</p>
+<p>One thing I'm still mulling: the sportswear company I actually reach for has no moral narrative at all. How ironic, given I just finished <a href="/books/moral-ambition-by-rutger-bregman/">Moral Ambition by Rutger Bregman</a> and its case for exactly the opposite. I find myself continually gravitating toward Arc'teryx over Patagonia. Patagonia has a pristine moral manifesto but when my Arc'teryx jacket failed a decade ago, they didn't send me a beautiful pamphlet on environmentalism but gave me $900 in credit. Now whether they would do it today is unclear, especially since in 2019, Chinese sportswear giant Anta Sports bought their parent company Amer and took it public in 2024. Whether they can withstand financial gravity without an SHC or any self-imposed Costco-like constraints remains to be seen.</p>
+<h2>A couple of personal reflections</h2>
+<p>Overall I really enjoyed Incorruptible. I'm inspired by spiritual holding companies and it's exciting to see Anthropic and others try to implement SHCs. Fingers crossed this experiment passes the test of time. Perhaps some of the corporate governance ideas in this book are part of the puzzle for reversing Enshittification? But it skips the prior and harder problem: deciding which ethos deserves preservation and building a product people genuinely want.</p>
+<p>If I ever graduate from temporarily embarrassed founder to actual founder, I'm drawn to companies like Obsidian or Home Assistant which start small, don't attempt to hyperscale with VC money, provide a compelling product for free, put users first, and then become very profitable by selling infrastructural features.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Moral Ambition by Rutger Bregman</title>
@@ -3558,232 +3679,6 @@ Anastasia screamed in vain<br></p>
 <p>“A good science fiction story should be able to predict not the automobile but the traffic jam.” – Frederik Pohl</p>
 </blockquote>
 <p>By Pohl's metric, The Mountain in The Sea is great science fiction. I enjoyed the book thoroughly, major thanks to Captain A for the recommendation.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Boyd by Robert Coram</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/boyd-by-robert-coram"/>
-    
-    <updated>2023-06-02T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/boyd-by-robert-coram</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I've heard a lot about Boyd in various FLUX-adjacent circles. His ideas seem to have reached a critical mass, in which they are widely known in the business world, having matriculated there from their origin in the military. I enjoyed this account of Boyd's larger than life legacy. Boyd is vividly depicted as a complex, brilliant, funny, and flawed character. He made great contributions to organizational dynamics, but was abrasive and broadly disliked. He was a great mentor to his followers, but an uncaring and absent father.</p>
-<p>Boyd seemed to combine two incongruous personas. On one hand, he was a "big jock", a boastful fighter pilot who was constantly in your face. In retrospect, Top Gun does a good job of conveying some of this fighter pilot machismo. On the other, he was a history nerd, and read widely on war and philosophy.</p>
-<p>There's a lot to digest in this book, and I've tried to categorize the things I've learned (TIL!) into a few categories:</p>
-<h1>Organizational analogies to Google</h1>
-<p><strong>Military performance reviews</strong> parallel my experience at Google. Except, their performance reviews are called ERs and peer reviews are called "indorsements". Similar to Google, positive indorsements from Generals (I guess L8+ Directors) are weighted heavily and are reason for promotion.</p>
-<p>I was most interested in the author's insights on the dynamics of the military.</p>
-<p>Boyd had an interesting pattern of ERs:</p>
-<blockquote>
-<p>As had happened again and again in Boyd’s career, his immediate supervisor gave him a poor or mediocre rating, one that signaled it was time to get out of the Air Force, and again and again a general officer rescued him.</p>
-</blockquote>
-<p><strong>Politics between branches of the Military</strong>. Just like at Google, where different "orgs" are often less than friendly towards one another, the military has significant rivalries between branches:</p>
-<blockquote>
-<p>THE Air Force has never made a serious study of warfare because every historically based effort to do so has come to the inescapable conclusion that the use of air power should be consistent with or—better yet— subordinate to the ground commander’s battle plans, a conclusion that argues against the existence of an independent Air Force.</p>
-</blockquote>
-<p>Indeed,</p>
-<blockquote>
-<p>Nothing galvanized an Air Force general more than being told the Navy was on his six.</p>
-</blockquote>
-<p>Boyd's impact on the Air Force peaked with E-M theory, and his intellectual contributions did not really stick. They had a much warmer reception with the Army and especially with the Marine Corps, a warrior culture with utter contempt for the Air Force technocrats.</p>
-<p><strong>Military briefs</strong> seem to be a very specific kind of medium. This is a fascinating digression in itself:</p>
-<blockquote>
-<p>The briefer has a pointer, which he should not use too often. He stands on a stage but should not move about too much. He has a lectern upon which he should not lean. He has slides or charts but is expected to know the material far beyond what is displayed.</p>
-</blockquote>
-<p>It's also interesting how some of the culture parallels some aspects of culture at Google, perhaps analogous to pitching a project to a director or senior PM:</p>
-<blockquote>
-<p>It is obvious that most people can read and assimilate information faster than they can learn something by listening to a dog and pony show. But the U.S. military culture is an oral culture and the bedrock of that culture is the briefing.</p>
-</blockquote>
-<p><strong>Franklin Roosevelt theory of management</strong>, bypassing sycophantic generals and seeking out from among relatively junior officers a few men who would tell him the truth. (See <a class="wiki" href="https://z3.ca/Franklin_Roosevelt_theory_of_management">Franklin Roosevelt theory of management</a>).</p>
-<p><strong>Corruption in the Pentagon</strong>. The real business of the Pentagon is buying weapons, which is a very idiosyncratic process. One big problem Spinney (one of Boyd's acolytes) identified was that defense contractors routinely underestimate costs so that Congress funds their programs. This is called front-loading.</p>
-<p>Another issue has to do with the "revolving door" that shuffles former military officers into high-level jobs as defense contractors, just as the door pulls former hired guns into government careers.</p>
-<p><strong>Leaders are opposed to free play</strong>. To hone skills around OODA, Boyd set up exercises which were "immensely popular with most junior officers and just as unpopular with most senior officers." because</p>
-<blockquote>
-<p>Free play means winners and losers; it means postexercise critiques by enlisted men as well as junior officers. No battalion commander enjoys being contradicted by a sergeant, especially if the sergeant is correct. And if a battalion commander loses a free-play exercise, he might lose his chance at promotion.</p>
-</blockquote>
-<p>This is exactly the problem with prediction markets (see <a class="wiki" href="https://z3.ca/Prediction_markets_do_not_align_with_what_leaders_want">Prediction markets do not align with what leaders want</a>).</p>
-<h1>Fighter pilot culture</h1>
-<p><strong>A shocking number of pilots died training at Nellis</strong>, training to be fighter pilots. Incoming F-86 students were told, “If you see the flag at full staff, take a picture.” Boyd says that in one year, more than seventy pilots were killed. A historian at Nellis says he probably was conservative—that wing commanders sometimes doctored statistics if too many pilots died.</p>
-<blockquote>
-<p>When a pilot augered in, screwed the pooch, fucked the duck, and bought the farm, then the base siren wailed and the blue car drove slowly and wives stood in the windows and the chaplain consoled and the flag hung at half staff.</p>
-</blockquote>
-<p>This was a temporary trend, and safety was becoming paramount in the Air Force.</p>
-<blockquote>
-<p>Dogfighting was becoming an arcane and almost lost art in the Air Force.</p>
-</blockquote>
-<p><strong>Cool fighter pilot slang</strong>
-- To "get on someone's six" is to be directly behind them.
-- To "have someone in your pipper" means to be missile-locked onto another fighter plane.
-- To "pull high G's" means to climb or bank abruptly, creating a lot of acceleration.
-- "Guns. Guns. Guns." is what you say when you have someone in your pipper as if shooting them in a training exercise.
-- A variable-geometry wing, commonly called the “swing wing.”</p>
-<p><strong>Fast transients</strong> are fighter pilot maneuvers like "flat-plating the bird." and the "buttonhook turn" and "energy dumping" were strongly preferred by the Fighter Mafia, describing planes like the YF-16 that could perform them as "shit hot".</p>
-<blockquote>
-<p>He would be in the defensive position with a challenger tight on his tail, both pulling heavy Gs, when he would suddenly pull the stick full aft, brace his elbows on either side of the cockpit, so the stick would not move laterally, and stomp the rudder. It was as if a manhole cover were sailing through the air and then suddenly flipped 90 degrees. The underside of the fuselage, wings, and horizontal stabilizer became a speed brake that slowed the Hun from 400 knots to 150 knots in seconds. The pursuing pilot was thrown forward and now Boyd was on his tail radioing "Guns. Guns. Guns."</p>
-</blockquote>
-<p>This "energy dumping" or <a href="https://en.wikipedia.org/wiki/Cobra_maneuver">Cobra maneuver</a> used to be prohibitively expensive, but became common for lightweight fighters.</p>
-<p>More complicated maneuvers like the <a href="https://www.youtube.com/watch?v=Qf1cRPs8CQo">button-hook turn</a> also became possible. Even crazier, <a href="https://en.wikipedia.org/wiki/Tailslide">Kvochur's Bell</a> or "tail sliding" became possible.</p>
-<p>TIL there's a whole diagramming language of aerial maneuvers: https://en.wikipedia.org/wiki/Aresti_Catalog.</p>
-<p><strong>Many fighter pilots are short</strong> to fit into a tight cockpit of the plane. Tom Cruise comes to mind... :)</p>
-<p><strong>IDF Cameo</strong> involving Mordecai Hod, head of the Israeli Air Force (IAF), who reified the idea that aircraft guns make a lot of sense. In the Six Day War of June, the Israeli Air Force shot down sixty Arab jets while losing only ten fighters—an exchange ratio of six to one. Every Israeli kill was a gun kill. At the end of Hod's briefing,</p>
-<blockquote>
-<p>a fighter pilot stood up and asked how the IAF got sixty gun kills. Hod paused, shrugged, and said, “Why waste a missile on an Arab?”</p>
-</blockquote>
-<p><strong>Fighters vs. bombers vs. test pilot culture</strong>. Bombers were in favor, with the military retooling for nuclear bombs because they believed that the next war would be nuclear.</p>
-<p>Meanwhile, fighter pilots were the obsolete cowboys, but they had the fun job.</p>
-<blockquote>
-<p>SAC’s bomber pilots might be the glamour boys. But to a fighter pilot, flying a B-47 or a B-52 was the aviation equivalent of being a bus driver.</p>
-</blockquote>
-<p>Test pilots were another breed,</p>
-<blockquote>
-<p>detached from the airplane they flew. Fighter pilots fell in love with their airplane. Test pilots talked of going into space. Space? And in a capsule? You don’t fly a fucking capsule, you sit in it and watch the instruments. You’re a passenger. To hell with space. Fighter pilots wanted to get on an enemy’s six and hose the sonofabitch.</p>
-</blockquote>
-<h1>Fighter pilot design</h1>
-<p><strong>Energy–maneuverability theory</strong> is one of Boyd's first intellectual contributions. Fundamentally, it's a tool for fighter pilots to intuit the rate of change of energy available to the aircraft. For example, If I am at 30,000 feet and 450 knots and pull six Gs, how fast am I gaining or losing energy? Can my adversary gain or lose energy faster than I can?</p>
-<p>The theory eventually became accepted in the Air Force and was instrumental in designing the F-16.</p>
-<p><strong>Guns or missiles?</strong> The Air Force was inherently technology obsessed, and rushed to embrace any new technology. This led to over eager adoption of missiles before they could lock very well. It also led to fighter planes that were crippled by having too many features in them (feature creep!)</p>
-<blockquote>
-<p>The Air Force was only seven years old, but it was fast becoming not only a bureaucracy, but a technocracy that worshiped equipment and gadgets more than any other branch of the military. It was becoming hardware oriented and the goals for its hardware were simple: Bigger-Faster-Higher-Farther.</p>
-</blockquote>
-<p>In particular, many generals mistakenly thought that "if an American pilot saw a blip on his radar, he pressed a button, launched a missile, and the blip disappeared. Poof! It was that simple.", but E-M data and computer simulations proved that reality was far different. And pilots knew it too:</p>
-<blockquote>
-<p>Sparrow missiles performed so poorly they were considered little more than extra weight; more than one pilot punched them off his aircraft as soon as he was away from his home base.</p>
-<p>Signs began showing up on the walls in the Pentagon: “It takes a fighter with a gun to kill a MiG-21.”</p>
-</blockquote>
-<p><strong>Swing-wing were too heavy</strong> and did not justify the benefits that they purported to provide. A straight wing is most efficient for low-speed flight, but swept wings are superior for supersonic speeds. However, this design became obsolete by the 1970s, and Boyd foresaw it.</p>
-<blockquote>
-<p>During the summer of 1967, the Soviets introduced two new fighters: the swing-wing MiG-23 and the MiG-25. American fighter pilots laughed at the MiG-23 and said the only good thing about the F-111 was that the Soviets had copied it and thereby lost at least one generation of aircraft to bad technology.</p>
-</blockquote>
-<p><strong>F-111 design had too many miracles</strong></p>
-<p>When Boyd was coming up in his career, he predicted that the F-111 would be a failure.</p>
-<blockquote>
-<p>Prudent designers usually make significant technological advances in only one of the three categories when they plan a new aircraft. But the F-111 was a high-tech wonder with two bold innovations, both of which were later to cause enormous problems.</p>
-</blockquote>
-<p>Boyd knew that, left to its own devices, the bureaucracy always came up with an aircraft such as the F-111.</p>
-<p><a class="wiki" href="https://z3.ca/Startups_should_have_exactly_one_miracle">Startups should have exactly one miracle</a></p>
-<p>Ultimately, Boyd was proven right when the disastrous results of Vietnam became well known. During the Korean War, the US boasted a 10-to-1 kill ratio, but in Vietnam, the ratio sank close to parity, at one point favoring the North Vietnamese.</p>
-<blockquote>
-<p>When the war finally ended, one Air Force pilot would be an ace. North Vietnam would have sixteen.</p>
-</blockquote>
-<p><strong>F-X was designed with maneuvering specifications</strong>, the first plane in the US Air Force designed with dogfighting in mind.</p>
-<blockquote>
-<p>The closest Boyd came to defining a specific technical solution was when he said the aircraft should pull enough Gs at 30,000 feet to “roll down your goddamn socks.”</p>
-</blockquote>
-<p><strong>Design by committee sucks</strong>. The design process of all projects Boyd was involved in was a huge struggle since it was designed by committee, and the plane became a huge kitchen sink.</p>
-<blockquote>
-<p>...Boyd worked daily to remove things from the F-X, seemingly everyone else in the Air Force—the fire-control people, missile people, electronic-warfare people—wanted to add something. Maintenance people even insisted the aircraft carry a built-in maintenance ladder</p>
-</blockquote>
-<p>Ultimately, Boyd lost many design battles:</p>
-<blockquote>
-<p>The Air Force insisted on a speed greater than Mach 2. The Air Force insisted on a radar with a thirty-six-inch dome—a requirement that dictated a much larger fuselage than Boyd wanted.</p>
-</blockquote>
-<p>This scope creep is a massive problem for products at Google too. Boyd was part of a ragtag team that tried to develop an alternative prototype:</p>
-<blockquote>
-<p>Night after night they labored at the Pentagon, drawing plans for an airplane they called the “Red Bird,” a 33,000-pound stripped-down version of the F-X.</p>
-</blockquote>
-<p>But it was never brought into production, since</p>
-<blockquote>
-<p>all the three-stars who worked for [the Chief of Staff] wanted the bigger and heavier version of the F-X</p>
-</blockquote>
-<p>Which was a huge blow to Boyd's ego:</p>
-<blockquote>
-<p>He had cut some weight, and yes, he had killed the variable-sweep wing. But it had taken just about everything out of him to fight and fight and fight for so much that was so obvious.</p>
-</blockquote>
-<p>Perhaps this disempowerment is just a feature of working for a large bureaucratic organization.</p>
-<p><strong>Tropospheric discontinuity</strong> is an interesting phenomenon (see <a href="https://en.wikipedia.org/wiki/Tropopause">wikipedia</a>), explaining why it is meaningful to talk about discrete parts of the atmosphere. The speed of sound at sea level is ~340 m/s, and decreases as the temperature decreases until reaching ~10 km altitude, where it drops to 300 m/s. This part of the atmosphere is called the tropopause, the boundary that marks the troposphere from the stratosphere. Higher than that, temperature and the speed of sound decrease at a much slower rate than in the troposphere.</p>
-<h1>Boyd the person</h1>
-<p>Coram spends quite a bit of time pontificating on Boyd's personal life, which was often in a state of disrepair.</p>
-<p><strong>Boyd sayings</strong>
-- “Stroking the bishop. You’re just stroking the bishop.”
-- “I have found the dripping cock.” Secretaries wept at Boyd’s language. (Instead of "smoking gun")
-- It is said that Air Force careerists—“Blue Suiters”—would put on track shoes and climb up the backs of their mothers for [appealing] assignments.
-- “It’s too goddamn big, too goddamn expensive, too goddamn underpowered. It’s just not worth a good goddamn.”
-- “We don’t care what the Russians are doing. We only care about what the Navy is doing.”
-- Boyd asked “How did you get this data on the wing design?” The vice president charged off the cliff. “Wind-tunnel tests,” he said. “Fuck a wind tunnel,” Boyd roared. He pointed up. “The biggest wind tunnel in the world is up there. It’s called reality. This is not reality.”
-- “Goddamn airplane is made out of balonium.”
-- Boyd's “air-to-rug maneuver,” happened once, where his phone call with a Blue Suiter caused him to fall out of his chair.
-- “If your boss demands loyalty, give him integrity. But if he demands integrity, then give him loyalty.”
-- “There are only so many ulcers in the world and it is your job to see that other people get them.”
-- “Machines don’t fight wars, people do, and they use their minds.”
-- “People, ideas, hardware—in that order.”
-- “They still believe in high diddle diddle, straight up the middle.”
-- “So you got your reward; you got kicked in the teeth. That means you were doing good work. Getting kicked in the teeth is the reward for good work.”</p>
-<p><strong>Boyd's "Acolytes"</strong> all subscribed to the "do something" idea, were not career oriented. They were "extraordinarily bright, all have an almost messianic desire to make a contribution to the world in which they live, all are men of probity and rectitude, and all—while independent in the extreme"</p>
-<p>Many of these people were long-term collaborators from all over the military. Notably Thomas Christie, Pierre Sprey, Everest Riccioni, and others also formed a controversial ad-hoc group jokingly called the <strong>Fighter Mafia</strong> (a rejoinder to the <a href="https://en.wikipedia.org/wiki/Bomber_Mafia">Bomber Mafia</a>) and strongly advocated for a lightweight fighter pilot.</p>
-<p>Christie the Finagler, Sprey the Intelligent, Leopold the First, Spinney the Brash, and Burton the Unbending.</p>
-<p><strong>Boyd the Legend</strong> Separating legend from truth was an ongoing challenge for me while reading the book, especially considering that</p>
-<blockquote>
-<p>deep in the bone marrow of a fighter pilot—exaggeration and the belief that a good story is more important than sticking with the bare facts.</p>
-</blockquote>
-<p><strong>Incapable of compromise</strong>. The author speculates that had Boyd been promoted, he would have been a terrible general because of his inability to compromise, and lack of patience for those that disagreed with him. <a class="wiki" href="https://z3.ca/Compromise_is_often_a_strength_for_Very_Senior_Leadership">Compromise is often a strength for Very Senior Leadership</a></p>
-<p><strong>Extreme frugality</strong>. Boyd's Stoic approach to life led him astray. He thought that if</p>
-<blockquote>
-<p>if a man can reduce his needs to zero, he is truly free: there is nothing that can be taken from him and nothing anyone can do to hurt him (если у вас нену тети...)</p>
-</blockquote>
-<p>He refused to ever purchase a home to raise his five children, and they despised him for it. He was so cheap that he carried his glasses in an old sock.</p>
-<h1>Big Ideas</h1>
-<p><strong>To Be or To Do</strong> refers to a famous speech delivered by Boyd, which came out of his realization that he would never make general:</p>
-<blockquote>
-<p>But hard work and success do not always go together in the military, where success is defined by rank, and reaching higher rank requires conforming to the military’s value system.</p>
-</blockquote>
-<p>Boyd made powerful enemies due to his outspoken nature, his lack of reluctance to criticize his superiors, and his love of conflict with others.</p>
-<p>Study after study shows that the higher in rank a military officer ascends, the less likely he is to make change.</p>
-<p>Boyd's speech summarized succinctly:</p>
-<blockquote>
-<p>If you decide you want to do something, you may not get promoted and you may not get the good assignments and you certainly will not be a favorite of your superiors. But you won’t have to compromise yourself. You will be true to your friends and to yourself. And your work might make a difference.” He paused and stared into Leopold’s eyes and heart. “To be somebody or to do something. In life there is often a roll call. That’s when you will have to make a decision. To be or to do? Which way will you go?”</p>
-</blockquote>
-<p><strong>How to comply without really complying</strong>, Boyd was a master of this, for example when a general gave him a direct order to write a paper Boyd disagreed with, he complied, but then wrote a follow-up paper explaining in detail why he disagreed with his own paper.</p>
-<blockquote>
-<p>And he told the general he considered the two papers a package; if the first one were released, he would release the second.</p>
-</blockquote>
-<p>Boyd did not succeed in <a class="wiki" href="https://z3.ca/Disagree_without_being_disagreeable">Disagree without being disagreeable</a>, but still an interesting path.</p>
-<p><strong>Snowmobiling</strong>, John Boyd’s term, is how creativity really happens. It is destructive deduction combined with creative synthesis. Boyd used a thought experiment to show how destruction and creation lead to creativity. Unlike <a href="https://en.wikipedia.org/wiki/Creative_destruction">Schumpeter's gale</a>, Boyd emphasized creative synthesis. (see <a class="wiki" href="https://z3.ca/Snowmobiling_-_creativity_is_deduction_followed_by_synthesis">Snowmobiling - creativity is deduction followed by synthesis</a>).</p>
-<p><strong>Sun Tzu &gt; von Clausewitz</strong>. Here I am really unmoored, not having read von Clausewitz. Boyd was opposed to a WWI-era idea of bringing the enemy to a gigantic decisive battle, instead favoring Sun Tzu's approach of unraveling the enemy before the battle occurs, perhaps avoiding the battle entirely!</p>
-<ul>
-<li>Von Clausewitz believes wars are decided by set piece battles more than by strategy, deception, and guerrilla-like tactics. This means that even if he wins, there is a bloodbath.</li>
-<li>Sun Tzu believes in generating confusion, disorder, panic, and chaos. It's analogous to clipping the nerves, muscles, and tendons of an enemy, thus reducing him to jelly.</li>
-</ul>
-<p><strong>Observe-Orient-Decide-Act</strong>. Boyd is probably most famous for formulating the OODA loop, the process by which military strategists make decisions. By understanding it, one can develop an understanding of how to unravel one's enemy (see <a class="wiki" href="https://z3.ca/OODA_Loops">OODA Loops</a>).</p>
-<p>A key idea is that speed is of the essence. A successful commander must operate at a faster OODA Loop than does his opponent. This is why Boyd was so opposed to the idea of synchronization. This evening up the front line meant an army moves at the speed of its slowest unit.</p>
-<p>One must truly understand how the enemy thinks to get under their skin (see <a class="wiki" href="https://z3.ca/Theory_of_Mind_and_unpredictability">Theory of Mind and unpredictability</a>). Boyd's rejoinder to the machine-obsessed Air Force mindset was that</p>
-<blockquote>
-<p>“Machines don’t fight wars,” he responded. “Terrain doesn’t fight wars. Humans fight wars. You must get into the minds of humans. That’s where the battles are won.”</p>
-</blockquote>
-<p>I love this human-centricity, and it's what got me into HCI in the first place. Without a good interface, the best software is garbage.</p>
-<hr />
-<p>Next
-- Watch El Cid, one of Boyd's favorite movies
-- Is there some high level overview of military history? I feel a large gap, and Coram has done some good name-dropping:</p>
-<blockquote>
-<p>But some had never heard of Sun Tzu and could not spell “von Clausewitz.” They might have known the names of Douhet or Jomini or von Schlieffen or Fuller or Guderian or Lawrence or Balck, but few knew the theories espoused by these men.</p>
-</blockquote>
-<p>(I know none of these men)</p>
-<blockquote>
-<p>He told them of Sun Tzu and the Battle of Leuctra in 371 B.C. and of Arbela in 331 B.C. and of Cannae in 216 B.C. He told them of Genghis Khan and Belisarius and Napoléon, of Heinz Guderian and of what made great commanders.</p>
-</blockquote>
-<p>(I know few of these battles)</p>
-<ul>
-<li>Look into General Patton because this quote is amazing. Perhaps time to watch "Patton".</li>
-</ul>
-<blockquote>
-<p>A simplistic explanation of cheng and ch’i comes from General George Patton, who in World War II said his plan for attacking the Germans was to “hold them by the ~~nose~~ balls and kick them in the ass.” Holding them by the nose is the cheng. Kicking them in the ass is the ch’i.</p>
-</blockquote>
-<ul>
-<li>Probably worth reading Thomas Cleary's translation of Art of War. Lots of interesting aikido style ideas: "swordlessness", etc.</li>
-<li>What’s the story with Dick Cheney? In my mind he is forever tainted by the Iraq war, but honestly don't know much beyond that. He seems to have been quite respected in Boyd's acolyte circles.</li>
-<li>Check out the <a href="https://mca-marines.org/magazines/marine-corps-gazette/">Marine Corps Gazette</a>, which published a translation of Mao on guerrilla warfare in 1941, wrote extensively about Sun Tzu.</li>
-<li>Maybe read "Certain to Win: The Strategy of John Boyd, Applied to Business" for a more pre-digested take.</li>
-<li>Maybe watch "Legends of the Fall", a movie that seems to have affected Boyd emotionally (a rare thing).</li>
-</ul>
 
         
       </div>
