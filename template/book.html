@@ -9,7 +9,7 @@
     <div class='book-context'>On {{ title }} <span aria-hidden='true'>📚</span></div>
     {% endif %}
     {% if yaml.cover %}
-    <img class="book-cover" loading="lazy" src="{{ yaml.cover }}"/>
+    <img class="book-cover" loading="lazy" src="{{ yaml.cover }}" alt="{{ title }} cover"/>
     {% endif %}
     <div class='body'>
       {{content}}

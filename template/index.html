@@ -38,7 +38,7 @@
   {% endif %}
   {% if post.yaml.cover %}
   <a href='{{ post.permalink }}'>
-    <img class="book-cover" loading="lazy" src="{{ post.yaml.cover }}"/>
+    <img class="book-cover" loading="lazy" src="{{ post.yaml.cover }}" alt="{{ post.title }} cover"/>
   </a>
   {% endif %}
   <div class='subfooter'>
