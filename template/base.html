@@ -2,31 +2,31 @@
 <html>
 <head>
   {% set display_title = yaml.headline or title %}
-  <title>{{ display_title }} | {{site.title}}</title>
+  {% set is_article = type_name in ['post', 'book', 'note', 'draft'] %}
+  <title>{% if type_name == 'index' %}{{site.title}}{% else %}{{ display_title }} | {{site.title}}{% endif %}</title>
 
   <meta charset='utf-8' />
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
 
   <meta name="description" content="{{meta_description}}" />
   <meta name="author" content="Boris Smus" />
-  <link rel="canonical" href="{{site.domain}}{{permalink}}/" />
+  <link rel="canonical" href="{{site.domain}}{{ (permalink ~ '/') | replace('//', '/') }}" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ display_title }}" />
   <meta name="twitter:description" content="{{meta_description}}" />
+  {% if yaml.cover %}<meta name="twitter:image" content="{{site.domain}}{{yaml.cover}}" />{% endif %}
 
   <!-- Facebook -->
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{site.domain}}{{permalink}}/" />
+  <meta property="og:type" content="{% if is_article %}article{% else %}website{% endif %}" />
+  <meta property="og:url" content="{{site.domain}}{{ (permalink ~ '/') | replace('//', '/') }}" />
   <meta property="og:title" content="{{ display_title }}" />
   <meta property="og:description" content="{{meta_description}}" />
+  {% if yaml.cover %}<meta property="og:image" content="{{site.domain}}{{yaml.cover}}" />{% endif %}
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
-
-  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
-  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
