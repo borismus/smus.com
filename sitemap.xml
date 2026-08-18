@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage and section index pages: these are class:index, so the filter
+       below (which only collects single articles) can't see them. -->
+  <url><loc>https://smus.com/</loc></url>
+  <url><loc>https://smus.com/blog/</loc></url>
+  <url><loc>https://smus.com/posts/</loc></url>
+  <url><loc>https://smus.com/books/</loc></url>
+  <url><loc>https://smus.com/notes/</loc></url>
+  
+  <url>
+    <loc>https://smus.com/assets/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/press/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/site/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/talks/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/about/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/projects/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/patents/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/papers/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/portfolio/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/and-suddenly-the-inventor-appeared-by-genrikh-altshuller/</loc>
+    <lastmod>2026-08-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/incorruptible-by-eric-ries/</loc>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/moral-ambition-by-rutger-bregman/</loc>
+    <lastmod>2026-06-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/good-inside-by-becky-kennedy/</loc>
+    <lastmod>2026-06-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-immense-journey-by-loren-eiseley/</loc>
+    <lastmod>2026-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/invention-cards-3-stories/</loc>
+    <lastmod>2026-05-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/dungeon-crawler-carl-by-matt-dinniman/</loc>
+    <lastmod>2026-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2026/supernote-cli-pen-paper-and-a-pipe/</loc>
+    <lastmod>2026-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-courage-to-be-by-paul-tillich/</loc>
+    <lastmod>2026-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/breath-by-james-nestor/</loc>
+    <lastmod>2026-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/definitely-maybe-by-the-strugatskys/</loc>
+    <lastmod>2026-04-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-way-of-man-by-martin-buber/</loc>
+    <lastmod>2026-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/ancillary-justice-by-ann-leckie/</loc>
+    <lastmod>2026-03-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/alloy-local-first-ai-workbench/</loc>
+    <lastmod>2026-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-score-by-c-thi-nguyen/</loc>
+    <lastmod>2026-02-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/in-patagonia-by-bruce-chatwin/</loc>
+    <lastmod>2026-01-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/children-of-time-by-adrian-tchaikovsky/</loc>
+    <lastmod>2026-01-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2025/local-e-ink-handwriting-recognition-with-on-device-vlms/</loc>
+    <lastmod>2025-12-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-crisis-of-narration-by-byung-chul-han/</loc>
+    <lastmod>2025-12-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/livewired-by-david-eagleman/</loc>
+    <lastmod>2025-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/monkey-by-arthur-waley/</loc>
+    <lastmod>2025-10-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2025/the-pursuit-of-frictionless-capture/</loc>
+    <lastmod>2025-09-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/hard-to-be-a-god-by-the-strugatskys/</loc>
+    <lastmod>2025-08-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/battle-of-maldon-homecoming-of-beorhtnoth/</loc>
+    <lastmod>2025-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/piranesi-by-susanne-clark/</loc>
+    <lastmod>2025-07-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/secret-of-our-success-by-joseph-henrich/</loc>
+    <lastmod>2025-07-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/math-from-three-to-seven-by-a-k-zvonkin/</loc>
+    <lastmod>2025-06-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/abundance-by-ezra-klein-and-derek-thompson/</loc>
+    <lastmod>2025-05-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/valis-by-phillip-k-dick/</loc>
+    <lastmod>2025-04-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-maniac-by-benjamín-labatut/</loc>
+    <lastmod>2025-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/large-and-oppressive-language-models/</loc>
+    <lastmod>2025-03-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/a-peace-to-end-all-peace-by-david-fromkin/</loc>
+    <lastmod>2025-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/horse-invention-cards/</loc>
+    <lastmod>2025-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2025/invention-discovery-cards-work-complete/</loc>
+    <lastmod>2025-01-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/john-dee-and-the-empire-of-angels-by-jason-louv/</loc>
+    <lastmod>2025-01-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/use-of-weapons-by-iain-banks/</loc>
+    <lastmod>2024-12-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2024/unintended-consequences-of-false-equity/</loc>
+    <lastmod>2024-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/when-we-cease-to-understand-the-world-by-benjamín-labatut/</loc>
+    <lastmod>2024-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2024/seattle-public-schools-accountability-problem/</loc>
+    <lastmod>2024-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/absolutely-on-music-by-haruki-murakami/</loc>
+    <lastmod>2024-10-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/neurobiology-of-we-by-daniel-siegel/</loc>
+    <lastmod>2024-09-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/entangled-life-by-merlin-sheldrake/</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/blindsight-by-peter-watts/</loc>
+    <lastmod>2024-08-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/invention-cards-ai/</loc>
+    <lastmod>2024-05-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-blessing-of-a-skinned-knee-by-wendy-mogel/</loc>
+    <lastmod>2024-05-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/visual-chronology-science-discovery-v2/</loc>
+    <lastmod>2024-05-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/annihilation-by-jeff-vandermeer/</loc>
+    <lastmod>2024-05-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/a-sand-county-almanac-by-aldo-leopold/</loc>
+    <lastmod>2024-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/disappearance-of-ritual-by-byung-chul-han/</loc>
+    <lastmod>2024-04-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/good-omens-by-pratchett-and-gaiman/</loc>
+    <lastmod>2024-04-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/mystery-teachings-by-j-m-greer/</loc>
+    <lastmod>2024-03-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/technofeudalism-by-yanis-varoufakis/</loc>
+    <lastmod>2024-03-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/david-the-divided-heart-by-david-wolpe/</loc>
+    <lastmod>2024-02-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/every-life-is-on-fire-by-jeremy-england/</loc>
+    <lastmod>2024-02-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/telejam/</loc>
+    <lastmod>2024-02-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/end-of-the-world-by-peter-zeihan/</loc>
+    <lastmod>2024-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/exupery/</loc>
+    <lastmod>2024-01-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2024/nine-links-for-fall-2023/</loc>
+    <lastmod>2024-01-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/great-work-of-time-by-john-crowley/</loc>
+    <lastmod>2023-12-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/letters-to-my-palestinian-neighbor-by-halevi/</loc>
+    <lastmod>2023-12-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/tales-from-the-ant-world-by-e-o-wilson/</loc>
+    <lastmod>2023-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-burnout-society-by-byung-chul-han/</loc>
+    <lastmod>2023-10-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/tools-for-thinking-in-systems/</loc>
+    <lastmod>2023-10-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/this-is-how-you-lose-the-time-war/</loc>
+    <lastmod>2023-10-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2023/five-links-for-summer-2023/</loc>
+    <lastmod>2023-09-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/empowered-by-cagan-jones/</loc>
+    <lastmod>2023-09-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/russian-revolutions-by-mike-duncan/</loc>
+    <lastmod>2023-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-mountain-in-the-sea-by-ray-nayler/</loc>
+    <lastmod>2023-07-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2023/five-links-for-spring-2023/</loc>
+    <lastmod>2023-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/boyd-by-robert-coram/</loc>
+    <lastmod>2023-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2023/seven-links-for-winter-2023/</loc>
+    <lastmod>2023-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/medieval-robots-by-e-r-truitt/</loc>
+    <lastmod>2023-03-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/old-mans-war-by-john-scalzi/</loc>
+    <lastmod>2023-01-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-sabbath-by-heschel/</loc>
+    <lastmod>2022-12-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/impossible-owls-by-brian-phillips/</loc>
+    <lastmod>2022-12-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-november-2022/</loc>
+    <lastmod>2022-11-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-timeless-way-of-building/</loc>
+    <lastmod>2022-11-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-power-of-ritual-by-casper-ter-kuile/</loc>
+    <lastmod>2022-10-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-october-2022/</loc>
+    <lastmod>2022-10-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/semantic-similarity-note-taking/</loc>
+    <lastmod>2022-10-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-toynbee-convector-by-ray-bradbury/</loc>
+    <lastmod>2022-10-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-september-2022/</loc>
+    <lastmod>2022-09-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/wild-problems-by-russ-roberts/</loc>
+    <lastmod>2022-09-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/forever-flowing-by-vasily-grossman/</loc>
+    <lastmod>2022-09-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-goal-a-business-graphic-novel/</loc>
+    <lastmod>2022-08-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-august-2022/</loc>
+    <lastmod>2022-08-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ai-note-garden-dreamer/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-secret-life-of-groceries/</loc>
+    <lastmod>2022-08-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-july-2022/</loc>
+    <lastmod>2022-07-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/bloodlands-by-timothy-snyder/</loc>
+    <lastmod>2022-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/parables-by-franz-kafka/</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-june-2022/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/arcadia-by-tom-stoppard/</loc>
+    <lastmod>2022-06-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/creativity-by-mihaly-csikszentmihalyi/</loc>
+    <lastmod>2022-06-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-may-2022/</loc>
+    <lastmod>2022-05-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-end-of-eternity-by-isaac-asimov/</loc>
+    <lastmod>2022-05-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/genesis-by-translated-by-robert-alter/</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-april-2022/</loc>
+    <lastmod>2022-04-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/ministry-for-the-future/</loc>
+    <lastmod>2022-04-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/grand-transitions-by-vaclav-smil/</loc>
+    <lastmod>2022-04-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-march-2022/</loc>
+    <lastmod>2022-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-february-2022/</loc>
+    <lastmod>2022-02-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2022/links-for-january-2022/</loc>
+    <lastmod>2022-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/practical-doomsday-by-michal-zalewski/</loc>
+    <lastmod>2022-01-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ai-note-garden-linker/</loc>
+    <lastmod>2022-01-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/a-psalm-for-the-wild-built-by-becky-chambers/</loc>
+    <lastmod>2022-01-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2021/article-highlights-of-2021/</loc>
+    <lastmod>2021-12-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ai-note-garden-summarizer/</loc>
+    <lastmod>2021-12-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/collapse-of-complex-societies-by-joseph-tainter/</loc>
+    <lastmod>2021-11-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/understanding-how-we-learn-a-visual-guide/</loc>
+    <lastmod>2021-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-scout-mindset-by-julia-galef/</loc>
+    <lastmod>2021-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/history-of-future-cities-by-daniel-brook/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-protestant-ethic-and-the-spirit-of-capitalism-by-max-weber/</loc>
+    <lastmod>2021-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/abc-by-illich-and-sanders/</loc>
+    <lastmod>2021-09-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/file-systems-for-thought/</loc>
+    <lastmod>2021-09-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/never-let-me-go-by-kazuo-ishiguro/</loc>
+    <lastmod>2021-08-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/gardener-carpenter-by-alison-gopnik/</loc>
+    <lastmod>2021-08-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/late-middle-ages/</loc>
+    <lastmod>2021-07-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/medieval-technology-and-social-change/</loc>
+    <lastmod>2021-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/understanding-complexity-by-scott-page/</loc>
+    <lastmod>2021-06-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/diffusion-of-literacy-canada/</loc>
+    <lastmod>2021-06-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/consider-phlebas-by-iain-m-banks/</loc>
+    <lastmod>2021-06-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/why-information-grows-by-cesar-hidalgo/</loc>
+    <lastmod>2021-05-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/emotional-life-of-the-toddler/</loc>
+    <lastmod>2021-05-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/high-middle-ages/</loc>
+    <lastmod>2021-05-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/thirteenth-tribe/</loc>
+    <lastmod>2021-04-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/evogami/</loc>
+    <lastmod>2021-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/early-middle-ages/</loc>
+    <lastmod>2021-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/why-greatness-cannot-be-planned/</loc>
+    <lastmod>2021-03-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/how-to-take-smart-notes/</loc>
+    <lastmod>2021-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/thinking-in-systems-a-primer/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/sid-meiers-memoir/</loc>
+    <lastmod>2021-01-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2020/article-highlights-of-2020/</loc>
+    <lastmod>2020-12-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/profiles-of-the-future-by-arthur-c-clarke/</loc>
+    <lastmod>2020-12-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/dune-by-frank-herbert/</loc>
+    <lastmod>2020-12-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/night-by-elie-wiesel/</loc>
+    <lastmod>2020-11-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/tools-for-conviviality-by-ivan-illich/</loc>
+    <lastmod>2020-10-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/frank-herbert-by-tim-oreilly/</loc>
+    <lastmod>2020-10-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/story-of-us/</loc>
+    <lastmod>2020-09-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/rewiring-america/</loc>
+    <lastmod>2020-09-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/братья-карамазовы-читает-ульянов/</loc>
+    <lastmod>2020-09-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/quicksilver-by-neal-stephenson/</loc>
+    <lastmod>2020-08-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/esup-builders/</loc>
+    <lastmod>2020-07-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-road-by-cormac-mccarthy/</loc>
+    <lastmod>2020-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/red-plenty-by-francis-spufford/</loc>
+    <lastmod>2020-06-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/shadow-of-the-torturer/</loc>
+    <lastmod>2020-05-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/little-free-library/</loc>
+    <lastmod>2020-04-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/selected-short-stories-of-philip-k-dick/</loc>
+    <lastmod>2020-04-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/where-good-ideas-come-from-by-steven-johnson/</loc>
+    <lastmod>2020-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/lost-enlightenment-by-frederick-starr/</loc>
+    <lastmod>2020-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/debt-the-first-5000-years/</loc>
+    <lastmod>2020-03-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/revenge-of-analog/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/visual-chronology-science-discovery/</loc>
+    <lastmod>2020-02-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-circle-by-dave-eggers/</loc>
+    <lastmod>2020-02-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/fatherhood-in-pieces-by-chabon/</loc>
+    <lastmod>2020-01-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/smoke-and-mirrors-by-neil-gaiman/</loc>
+    <lastmod>2020-01-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2019/books-highlights-of-2019/</loc>
+    <lastmod>2019-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2019/article-highlights-of-2019/</loc>
+    <lastmod>2019-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-right-it-audio/</loc>
+    <lastmod>2019-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/webusb-arduino/</loc>
+    <lastmod>2019-11-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-name-of-the-wind-audio/</loc>
+    <lastmod>2019-11-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-fiddler-is-a-good-woman/</loc>
+    <lastmod>2019-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/range-by-david-epstein-audio/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/timefulness-by-marcia-bjornerud-audio/</loc>
+    <lastmod>2019-10-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/toddler-music-box/</loc>
+    <lastmod>2019-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/yes-brain-by-siegel-and-bryson/</loc>
+    <lastmod>2019-09-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/zelda-lego/</loc>
+    <lastmod>2019-09-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/diamond-age-by-stephenson-audio/</loc>
+    <lastmod>2019-09-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/hyperion-by-dan-simmons-audio/</loc>
+    <lastmod>2019-08-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/deschooling-society-by-ivan-illich/</loc>
+    <lastmod>2019-07-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/asimovs-chronology-of-science-and-discovery/</loc>
+    <lastmod>2019-07-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/palaces-for-the-people-audio/</loc>
+    <lastmod>2019-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-odyssey-translated-by-emily-wilson-audio/</loc>
+    <lastmod>2019-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-fifth-season-by-n-k-jemisin/</loc>
+    <lastmod>2019-05-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2019/avoiding-local-maximums/</loc>
+    <lastmod>2019-05-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/radical-markets-by-posner-and-weyl/</loc>
+    <lastmod>2019-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/seeing-like-a-state-by-james-scott/</loc>
+    <lastmod>2019-03-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/invisible-cities-by-italo-calvino/</loc>
+    <lastmod>2019-02-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-story-of-medieval-england-audio/</loc>
+    <lastmod>2019-02-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/real-estate-and-cash-flow/</loc>
+    <lastmod>2019-02-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-new-father/</loc>
+    <lastmod>2019-02-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/tribe-by-sebastian-junger/</loc>
+    <lastmod>2019-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/12-rules-for-life/</loc>
+    <lastmod>2019-01-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/building-a-bridge-to-the-18th-century/</loc>
+    <lastmod>2019-01-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2019/reading-in-2018/</loc>
+    <lastmod>2019-01-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/infinite-planets/</loc>
+    <lastmod>2019-01-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/bowling-alone-by-robert-putnam/</loc>
+    <lastmod>2018-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-shape-of-tomorrow-by-george-soule/</loc>
+    <lastmod>2018-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/bird-by-bird-by-anne-lamott/</loc>
+    <lastmod>2018-11-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-fall-and-rise-of-china-audio/</loc>
+    <lastmod>2018-10-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/war-and-peace-and-war-by-peter-turchin/</loc>
+    <lastmod>2018-10-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/three-body-problem-by-liu-cixin-audio/</loc>
+    <lastmod>2018-09-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/classical-interpreters/</loc>
+    <lastmod>2018-09-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/book-of-why-by-judea-pearl/</loc>
+    <lastmod>2018-09-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/living-the-french-revolution-audio/</loc>
+    <lastmod>2018-09-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/against-retweets/</loc>
+    <lastmod>2018-09-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/make-twitter-great-again/</loc>
+    <lastmod>2018-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/lynched-on-twitter/</loc>
+    <lastmod>2018-08-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/tao-of-philosophy-by-alan-watts/</loc>
+    <lastmod>2018-08-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/the-difficult-middle/</loc>
+    <lastmod>2018-07-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/bad-blood-by-john-carreyrou/</loc>
+    <lastmod>2018-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/darkness-at-noon-by-arthur-koestler-audio/</loc>
+    <lastmod>2018-07-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/required-reading-for-vr-enthusiasts/</loc>
+    <lastmod>2018-06-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/you-belong-to-the-universe-audio/</loc>
+    <lastmod>2018-05-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/balancing-technological-pessimism/</loc>
+    <lastmod>2018-05-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/unsong-by-scott-alexander/</loc>
+    <lastmod>2018-05-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/reason-in-human-affairs-by-herbert-simon/</loc>
+    <lastmod>2018-04-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-fourth-turning-by-howe-and-strauss/</loc>
+    <lastmod>2018-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2018/how-rationalists-can-win/</loc>
+    <lastmod>2018-04-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-coffee-house-a-cultural-history/</loc>
+    <lastmod>2018-04-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/player-of-games-by-iain-m-banks/</loc>
+    <lastmod>2018-03-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/skin-in-the-game-by-taleb-audio/</loc>
+    <lastmod>2018-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-modern-political-tradition-hobbes-to-habermas/</loc>
+    <lastmod>2018-03-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/scale-by-geoffrey-west/</loc>
+    <lastmod>2018-02-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/anthem-by-ayn-rand/</loc>
+    <lastmod>2018-01-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/impro-by-keith-johnstone/</loc>
+    <lastmod>2018-01-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/web-voice-command-recognition/</loc>
+    <lastmod>2018-01-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang/</loc>
+    <lastmod>2018-01-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/is-that-a-fish-in-your-ear-by-david-bellos/</loc>
+    <lastmod>2017-12-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/web-audio-ml-features/</loc>
+    <lastmod>2017-12-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/my-russian-grandmother-by-meir-shalev/</loc>
+    <lastmod>2017-11-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/uist-2017/</loc>
+    <lastmod>2017-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/neurochemistry-music/</loc>
+    <lastmod>2017-10-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/memento-mori/</loc>
+    <lastmod>2017-10-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/on-the-shortness-of-life/</loc>
+    <lastmod>2017-10-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/stories-of-your-life-and-others/</loc>
+    <lastmod>2017-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/nothing-is-true-and-everything-is-possible/</loc>
+    <lastmod>2017-09-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/benjamin-franklin-an-american-life/</loc>
+    <lastmod>2017-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/a-respectful-truce/</loc>
+    <lastmod>2017-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/filter-playground/</loc>
+    <lastmod>2017-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/the-end-of-endings/</loc>
+    <lastmod>2017-07-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/whole-earth-discipline-by-stewart-brand/</loc>
+    <lastmod>2017-07-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/intelligence-aliens-and-self-improvement/</loc>
+    <lastmod>2017-07-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/convincing-the-inconvincible/</loc>
+    <lastmod>2017-06-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/psychology-of-curiosity/</loc>
+    <lastmod>2017-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/climate-metaquiz-results/</loc>
+    <lastmod>2017-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/on-tyranny-by-timothy-snyder/</loc>
+    <lastmod>2017-06-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/great-gatsby-by-f-scott-fitzgerald/</loc>
+    <lastmod>2017-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/viewpoint-tolerance-through-curiosity/</loc>
+    <lastmod>2017-06-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/remembering-my-personal-wiki/</loc>
+    <lastmod>2017-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/short-posts-using-split-markdown/</loc>
+    <lastmod>2017-05-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/notes/2017/analogies-from-the-industrial-revolution/</loc>
+    <lastmod>2017-05-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/finite-and-infinite-games-by-james-carse/</loc>
+    <lastmod>2017-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/homo-deus-by-yuval-noah-harari/</loc>
+    <lastmod>2017-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/understanding-japan-a-cultural-history-audio/</loc>
+    <lastmod>2017-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-lessons-of-history-by-will-and-ariel-durant/</loc>
+    <lastmod>2017-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-winds-twelve-quarters-by-ursula-k-le-guin/</loc>
+    <lastmod>2017-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/deep-work-by-cal-newport/</loc>
+    <lastmod>2017-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/debaters-friendly-disagreement/</loc>
+    <lastmod>2017-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/mindstorms-by-seymour-papert/</loc>
+    <lastmod>2017-02-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/dont-think-of-an-elephant-by-george-lakoff/</loc>
+    <lastmod>2017-02-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/headlines-meet-sparklines-news-in-context/</loc>
+    <lastmod>2017-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/making-better-decisions/</loc>
+    <lastmod>2017-02-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-futurological-congress-by-stanislav-lem/</loc>
+    <lastmod>2017-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/on-venus-have-we-got-a-rabbi-by-william-tenn/</loc>
+    <lastmod>2017-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/superforecasters-by-phil-tetlock/</loc>
+    <lastmod>2017-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/why-teach-thinking-by-jonathan-baron/</loc>
+    <lastmod>2016-12-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/front-page-blues/</loc>
+    <lastmod>2016-12-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/brief-wondrous-life-of-oscar-wao/</loc>
+    <lastmod>2016-11-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/vr-view-2.0/</loc>
+    <lastmod>2016-11-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/election-2016/</loc>
+    <lastmod>2016-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/future-babble/</loc>
+    <lastmod>2016-10-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/i-am-a-strange-loop/</loc>
+    <lastmod>2016-10-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ray-input-webvr-interaction-patterns/</loc>
+    <lastmod>2016-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-hedgehog-and-the-fox/</loc>
+    <lastmod>2016-09-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/sapiens-audio/</loc>
+    <lastmod>2016-09-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/how-to-actually-change-your-mind-by-big-yud/</loc>
+    <lastmod>2016-08-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/exploring-the-world-of-lucid-dreaming/</loc>
+    <lastmod>2016-08-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/copresence-webvr/</loc>
+    <lastmod>2016-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-persuaders-audio/</loc>
+    <lastmod>2016-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-righteous-mind-by-jon-haidt/</loc>
+    <lastmod>2016-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/must-mankind-repeat-historys-great-mistakes/</loc>
+    <lastmod>2016-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-man-who-loved-only-numbers/</loc>
+    <lastmod>2016-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/mother-of-all-demos/</loc>
+    <lastmod>2016-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-one-minute-manager/</loc>
+    <lastmod>2016-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/gantenbein-by-max-frisch/</loc>
+    <lastmod>2016-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/physics-beyond-the-edge-audio/</loc>
+    <lastmod>2016-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/inspirata/</loc>
+    <lastmod>2016-05-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/wikipedia-vr/</loc>
+    <lastmod>2016-05-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/great-ideas-of-philosophy-audio/</loc>
+    <lastmod>2016-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/vr-lens-distortion/</loc>
+    <lastmod>2016-04-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/how-to-fail-at-almost-everything-by-scott-adams/</loc>
+    <lastmod>2016-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/art-of-tidying-by-marie-kondo/</loc>
+    <lastmod>2016-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/vr-views/</loc>
+    <lastmod>2016-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-moral-landscape-by-sam-harris/</loc>
+    <lastmod>2016-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/a-canticle-for-leibowitz-by-walter-m-miller-jr/</loc>
+    <lastmod>2016-02-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/simulating-wealth-inequality/</loc>
+    <lastmod>2016-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/in-praise-of-idleness-by-bertrand-russell/</loc>
+    <lastmod>2015-12-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/gateway-by-frederik-pohl/</loc>
+    <lastmod>2015-12-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/sophies-world-by-jostein-gaardner/</loc>
+    <lastmod>2015-11-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/sensor-fusion-prediction-webvr/</loc>
+    <lastmod>2015-11-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/the-united-states-and-the-middle-east-audio/</loc>
+    <lastmod>2015-10-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/hot-bread-delicious-deadly/</loc>
+    <lastmod>2015-09-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/science-and-human-values/</loc>
+    <lastmod>2015-09-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/thinking-fast-and-slow-by-kahnemann-tversky/</loc>
+    <lastmod>2015-09-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ubicomp-iswc-2015/</loc>
+    <lastmod>2015-09-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/magnetic-input-mobile-vr/</loc>
+    <lastmod>2015-09-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/skeptics-guide-to-american-history-audio/</loc>
+    <lastmod>2015-08-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/digital-signal-processing-coursera/</loc>
+    <lastmod>2015-07-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/understanding-the-secrets-of-human-perception-audio/</loc>
+    <lastmod>2015-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/design-v5/</loc>
+    <lastmod>2015-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/john-napier-hands/</loc>
+    <lastmod>2015-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/vernor-vinge-rainbows-end/</loc>
+    <lastmod>2015-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/spatial-audio-web-vr/</loc>
+    <lastmod>2015-03-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/books/blue-mind/</loc>
+    <lastmod>2015-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/responsive-vr/</loc>
+    <lastmod>2015-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/web-sensor-api/</loc>
+    <lastmod>2014-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/uist-2014/</loc>
+    <lastmod>2014-10-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/spectrogram-and-oscillator/</loc>
+    <lastmod>2014-06-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/addressable-apps/</loc>
+    <lastmod>2014-05-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ebb-of-the-web/</loc>
+    <lastmod>2014-04-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/remote-controls-web-media/</loc>
+    <lastmod>2014-01-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/uist-2013/</loc>
+    <lastmod>2013-10-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/responsive-image-workflow/</loc>
+    <lastmod>2013-09-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ultrasonic-networking/</loc>
+    <lastmod>2013-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/easier-link-blogging/</loc>
+    <lastmod>2013-07-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/installable-webapps/</loc>
+    <lastmod>2013-06-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/gestural-music-direction/</loc>
+    <lastmod>2013-05-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/webaudio-book/</loc>
+    <lastmod>2013-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/really-simple-social-syndication/</loc>
+    <lastmod>2013-03-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/touch-laptop-experiments/</loc>
+    <lastmod>2013-02-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/moved-to-s3/</loc>
+    <lastmod>2013-01-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/mashup-of-things/</loc>
+    <lastmod>2013-01-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/reusable-js-mvc-frameworks/</loc>
+    <lastmod>2012-11-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/how-the-web-should-work/</loc>
+    <lastmod>2012-09-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/mouse-touch-pointer/</loc>
+    <lastmod>2012-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/platform-fertility/</loc>
+    <lastmod>2012-06-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/physical-units/</loc>
+    <lastmod>2012-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/redesign-2012/</loc>
+    <lastmod>2012-03-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/backbone-and-ember/</loc>
+    <lastmod>2012-02-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/pdf-conversion-client-side-scraping/</loc>
+    <lastmod>2012-02-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/mobile-web-app-tech-stack/</loc>
+    <lastmod>2012-01-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/hybrid-operating-systems/</loc>
+    <lastmod>2011-11-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/stack-exchange-question-notifier/</loc>
+    <lastmod>2011-11-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/uist-2011/</loc>
+    <lastmod>2011-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/screen-capture-for-chrome-os/</loc>
+    <lastmod>2011-10-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/game-asset-loader/</loc>
+    <lastmod>2011-09-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/multiplayer-html5-games-with-node/</loc>
+    <lastmod>2011-08-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/chrome-media-keys-revisited/</loc>
+    <lastmod>2011-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/extending-chrome-developer-tools/</loc>
+    <lastmod>2011-07-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/oauth2-chrome-extensions/</loc>
+    <lastmod>2011-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/brazil-trip/</loc>
+    <lastmod>2011-06-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/dynamic-icons-chrome-extensions/</loc>
+    <lastmod>2011-06-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/nhl-finals-numbers/</loc>
+    <lastmod>2011-05-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/devtools-cheatsheet/</loc>
+    <lastmod>2011-05-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/multi-touch-browser-patch/</loc>
+    <lastmod>2011-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/jquery-conference/</loc>
+    <lastmod>2011-04-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/wordpress-to-hyde/</loc>
+    <lastmod>2011-04-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/chrome-media-keys/</loc>
+    <lastmod>2011-04-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/chronos/</loc>
+    <lastmod>2011-03-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/sxsw-mindstorms-hackathon/</loc>
+    <lastmod>2011-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/crowdsourcing-sound/</loc>
+    <lastmod>2011-02-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/crowdforge/</loc>
+    <lastmod>2011-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/kml-tours-google-earth/</loc>
+    <lastmod>2010-12-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/tweetbacks-in-javascript/</loc>
+    <lastmod>2010-12-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/android-phonegap-plugins/</loc>
+    <lastmod>2010-11-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/jquery-mobile-hacker-news/</loc>
+    <lastmod>2010-11-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/phonegap-games-android-market/</loc>
+    <lastmod>2010-11-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/chrome-extension-mashups/</loc>
+    <lastmod>2010-10-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/best-question-answering-sites/</loc>
+    <lastmod>2010-10-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/mobile-html-games/</loc>
+    <lastmod>2010-10-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/instant-search/</loc>
+    <lastmod>2010-10-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/stairs-elevator-bluetooth/</loc>
+    <lastmod>2010-09-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/skip-running-gesture/</loc>
+    <lastmod>2010-08-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/minimal-business-card-design/</loc>
+    <lastmod>2010-07-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/android-powered-mindstorms/</loc>
+    <lastmod>2010-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/prototyping-wii-remote-python/</loc>
+    <lastmod>2010-05-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/nike-hacking-with-python/</loc>
+    <lastmod>2010-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/jam-hunt/</loc>
+    <lastmod>2010-04-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/chi-2010-poster/</loc>
+    <lastmod>2010-03-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/lightweight-wordpress-on-slicehost/</loc>
+    <lastmod>2010-02-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/visualizing-mturk-requester/</loc>
+    <lastmod>2010-02-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/crowdsourcing-code/</loc>
+    <lastmod>2010-01-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/crowdsourcing-articles-with-mechanical-turk/</loc>
+    <lastmod>2010-01-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/ubiquitous-drums/</loc>
+    <lastmod>2009-11-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/arduino-nerf/</loc>
+    <lastmod>2009-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/new-design/</loc>
+    <lastmod>2009-09-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/offline-web-iphone/</loc>
+    <lastmod>2009-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/gmail-rant/</loc>
+    <lastmod>2009-08-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/nxt-plotter/</loc>
+    <lastmod>2009-08-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/extending-google-wave-terminology/</loc>
+    <lastmod>2009-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/generating-guitar-chord-diagrams/</loc>
+    <lastmod>2009-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/carnegie-mellon-university/</loc>
+    <lastmod>2009-04-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/guitar-unleashed/</loc>
+    <lastmod>2009-03-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/prettifying-embedded-youtube/</loc>
+    <lastmod>2009-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/clean-drag-and-drop-upload-in-safari/</loc>
+    <lastmod>2009-02-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/the-best-iphone-car-kit/</loc>
+    <lastmod>2009-02-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/canvas-vs-svg-performance/</loc>
+    <lastmod>2009-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/iworkcom-feedback/</loc>
+    <lastmod>2009-01-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/i-see-dead-css/</loc>
+    <lastmod>2008-12-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/mashups-in-pure-js/</loc>
+    <lastmod>2008-12-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/moving-day/</loc>
+    <lastmod>2008-11-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/robotic-piano-playback/</loc>
+    <lastmod>2008-11-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/the-sorry-state-of-html-mail/</loc>
+    <lastmod>2008-10-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smus.com/top-5-sessions-of-web-2-expo-ny/</loc>
+    <lastmod>2008-09-23</lastmod>
+  </url>
+  
+</urlset>
