@@ -5,8 +5,135 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-07-22T22:30:58-00:00</updated>
+  <updated>2026-08-18T12:14:31-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>TRIZ and the Elusive Invention Machine</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/and-suddenly-the-inventor-appeared-by-genrikh-altshuller"/>
+    
+    <updated>2026-08-18T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/and-suddenly-the-inventor-appeared-by-genrikh-altshuller</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>This book is an odd one. Is it written for children? Most of the text focuses on invention case studies that are presented like math-olympiad puzzles for precocious ten-year-olds. Altshuller eggs the reader on. A sixth grader can solve this; why can't you, dumbass?</p>
+<p>The English edition often reads like an excessively literal, amateurish translation. One problem, poorly titled "A and B Were Sitting on the Pipe," is rendered word-for-word from "А и Б сидели на трубе", destroying the rhyme which was trite even in Russian.</p>
+<p>In this 1984 book, Altshuller really thinks that we’re on the verge of a new, systematic approach to inventing. The book is optimistic and sometimes inspiring, but it oscillates between methods so specific they resemble a catalog of physical effects and abstractions so general they are difficult to apply. Perhaps AI is the missing piece: a way to access and combine the right method at the right time.</p>
+<h2>Can we replace trial-and-error invention with an organized method?</h2>
+<blockquote>
+<p>The method of developing new machines is changing. Organized ways of thinking replace the old chaotic ones. Every step in the thinking process should be as accurate as the movements of a pilot flying an airplane.</p>
+</blockquote>
+<p>Altshuller criticizes the process of invention thus far as one largely dominated by trial and error. Instead, he proposes Теория Решения Изобретательских Задач (ТРИЗ), translated as Theory of Solving Invention Problems and anglicized as TRIZ. As far as I can discern from the book, TRIZ consists of two components:</p>
+<ol>
+<li>A procedure for approaching an invention problem, seeking a tension (Altshuller calls it a contradiction) between two desirable goals.</li>
+<li>A catalog of principles and physical effects that might help resolve the tension.</li>
+</ol>
+<h3>A simplified TRIZ procedure</h3>
+<p>Broadly speaking, here are the TRIZ steps:</p>
+<ol>
+<li>Formulate the problem</li>
+<li>Construct a model</li>
+<li>State the contradiction</li>
+<li>Imagine the Ideal Final Result (IFR)</li>
+<li>Search the catalog</li>
+<li>Evaluate and generalize</li>
+<li>Review the reasoning</li>
+</ol>
+<p>Calling it an algorithm is overly optimistic. This set of steps is abstract and applying it to a specific problem is nontrivial. The transformations between steps are unspecified. Model construction and contradiction framing remain highly creative and expertise-dependent. Ultimately, evaluation requires domain knowledge and physical experimentation.</p>
+<p>Let's run this "algorithm" through one of the invention problems he provides.</p>
+<h3>Example: make evenly spaced holes in a garden hose</h3>
+<p>Your goal is to create evenly spaced holes in a flexible garden hose for a drip irrigation system. A conventional approach might put the hose in a jig and tolerate uneven holes, or strengthen it to make it less flexible. But there is a tension between wanting even holes and a flexible hose. TRIZ instead asks how both requirements might be satisfied. Here's the TRIZ algorithm applied to this problem:</p>
+<ol>
+<li><strong>Formulate the problem</strong>: we need to drill evenly spaced holes in a flexible hose.</li>
+<li><strong>Construct a model</strong>: the drilling tool acts on the hose, but the process of drilling deforms and moves the hose.</li>
+<li><strong>State the contradiction</strong>: the hose must be rigid while the holes are made, but flexible when it is used.</li>
+<li><strong>Imagine the Ideal Final Result</strong><sup id="fnref:ifr"><a class="footnote-ref" href="#fn:ifr">1</a></sup>: the hose becomes rigid by itself while the holes are being drilled, then returns to being flexible without adding a permanent structure or complicated machinery.</li>
+<li><strong>Search the catalog</strong>: now consider the catalog of inventive principles and physical effects. Several prompts might apply:<ul>
+<li><strong>Do it in advance:</strong> prepare the hose before drilling.</li>
+<li><strong>Change the physical state:</strong> introduce a material that can temporarily become solid.</li>
+<li><strong>Use an intermediary:</strong> fill the empty hose with something that supports it.</li>
+<li><strong>Separation in time:</strong> the hose is rigid during manufacture and flexible during use.
+Together these suggest filling the straightened hose with water and freezing it. The ice temporarily makes the hose rigid; after drilling, it melts away.</li>
+</ul>
+</li>
+<li><strong>Evaluate and generalize</strong>: the solution avoids permanently changing the hose. More generally, when an object must temporarily possess a contradictory property, introduce a removable material whose physical state supplies that property.</li>
+<li><strong>Review the reasoning</strong>: the breakthrough came from treating “rigid” and “flexible” not as a forced compromise, but as properties needed under different conditions.</li>
+</ol>
+<p>The book supplies the problem and solution; I have reconstructed the intervening TRIZ steps from principles explained elsewhere. Unfortunately, this is a bit of a just-so story. The decisive leap to fill the hose with water and freeze it does not logically fall out of the preceding prompts. Could an LLM really solve this problem?</p>
+<h3>Catalog of methods</h3>
+<p>Altshuller proposes a catalog of methods. Many of them are extremely specific, pertaining to physical laws, for example:</p>
+<ul>
+<li><strong>Add ferromagnetic particles.</strong> If a substance is difficult to manipulate directly, mix in iron particles and use a magnetic field to move, shape, separate, or measure it. (<a href="https://smus.com/magnetic-input-mobile-vr/">I share his obsession with magnets</a>)</li>
+<li><strong>Use Möbius-strip geometry.</strong> Give a belt or abrasive surface a half-twist before joining its ends, causing both sides to wear rather than only one and extending its useful life.</li>
+</ul>
+<p>But some of them are far more generalizable and applicable to a wide range of situations, not just ones dealing with narrow physical phenomena. Here are some of the more promising ones:</p>
+<ul>
+<li><strong>Do it inversely</strong>. When making liqueur-filled chocolate bottles, prevent the hot syrup from melting the chocolate by precooling the mold.</li>
+<li><strong>Do it in advance</strong>. To facilitate safe removal of an arm cast, build in a small embedded blade facing away from the arm. When the cast needs to be removed, pull on that razor to easily "unzip" the cast, far safer than risking cuts to the patient. (I guess this predates <a href="https://en.wikipedia.org/wiki/Cast_saw">cast saws</a>.)</li>
+<li><strong>Do a little less</strong>. When slicing a metal pipe it may be sufficient to make a partial cut and then complete the separation with a high current.</li>
+<li><strong>Size-Time-Cost (STC)</strong>. What happens if the size of an object is decreased or increased? What will happen if the time for an action increases or decreases? What would happen if cost requirements changed to be zero, or unlimited? This method helps break out of "psychological inertia" and helps the inventor look at the problem with less prejudice.</li>
+<li><strong>Model with Miniature Dwarfs (MMD)</strong>. Replace a troublesome component with many tiny agents and imagine how they should behave, then find a physical system that reproduces the desired collective behavior.</li>
+</ul>
+<p>Why miniature dwarfs? Altshuller criticizes overuse of technical empathy, which he attributes to <a href="https://en.wikipedia.org/wiki/William_J._J._Gordon">William Gordon</a>. If you put yourself in a situation that the machine will be in, you risk caring too much about that machine's outcomes. Miniature dwarfs solve this ethical hazard by being, apparently, more expendable than the machine.</p>
+<h2>A theory of technical systems and how they evolve</h2>
+<p>Altshuller emphasizes that systems are composed of nested subsystems. A bulb in a car is subordinate to the car, which itself is subordinate to the car industry, which consists of millions of cars, roads, gas stations, car washes, and auto mechanics.</p>
+<p>Using this framework, he argues that inventions do not develop randomly. He describes four stages in the evolution of inventions. Start with a barely working combination of subsystems, then improve each subsystem, later make the overall system more dynamic and finally increasingly autonomous.</p>
+<ol>
+<li><strong>Initial viable system</strong>: what's the barely working combination of subsystems that can work? The MVP? For airplanes, fixed airfoil-shaped wings and an internal combustion engine.</li>
+<li><strong>Improve the subsystems</strong>: once the basic architecture works, development shifts toward its individual parts. For airplanes, lighter and more durable materials, optimized wing-to-fuselage geometry, monoplane designs, standardized controls and human factors for pilots.</li>
+<li><strong>Dynamize the system</strong>: how can the system become more flexible and adjustable? For airplanes, inventors added retractable landing gear, variable-sweep wings, and experimental movable noses and fuselages.</li>
+<li><strong>Make the system self-regulating</strong>: how can the system become more autonomous? For airplanes, sensors detect changing conditions and control mechanisms automatically respond. Now we have sophisticated computer-controlled autopilots. This is largely speculative in Altshuller's writing.</li>
+</ol>
+<p>The way this ties into TRIZ is that inventors can identify which phase of the system's evolution they are currently at and attempt to work at the correct frontier. More generally, this evolutionary approach could help predict technological futures.</p>
+<p>Altshuller’s sequence is appealing, but actual technologies do not climb it cleanly. Dynamization can be reversed when flexibility proves too costly. Apparently promising branches like the Presniakov engine, ground-effect vehicles, and droop-nose aircraft can all stall out for economic, institutional, or practical reasons. Technical evolution has selection pressures and dead ends. It's not just a one-way ascent.</p>
+<h2>Why TRIZ matters now</h2>
+<p>The bottleneck is often not a lack of knowledge but the way the knowledge is structured and organized. If only you could access and combine the right knowledge at the right time... quoting Sherlock Holmes from Conan Doyle's "A Study in Scarlet":</p>
+<blockquote>
+<p>I consider that a man's brain originally is like a little empty attic, and you have to stock it with such furniture as you choose. A fool takes in all the lumber of every sort that he comes across [...] Now the skillful workman is very careful indeed as to what he takes into his brain-attic. He will have nothing but the tools which may help him in doing his work, but of these he has a large assortment, and all in the most perfect order.</p>
+</blockquote>
+<p>In practice, the algorithm is extremely abstract, while the catalog ranges from broadly generative prompts to domain-specific facts about magnets, Curie points, and Möbius strips. The difficult part is selecting and translating the right principle, and this is left as an exercise to the reader.</p>
+<p>That said, throughout the book, the author repeatedly gestures toward a unified theory of problem solving:</p>
+<blockquote>
+<p>At the dawn of the human race, mankind conquered fire. Now we are learning to conquer something much greater: the power of mind capable of penetrating an unknown future.</p>
+</blockquote>
+<p>This vision has not yet come to pass. It's been over half a century since TRIZ was formulated and four decades since the publication of this book. TRIZ developed a durable international niche, including industrial and consulting applications, but never became the universal discipline Altshuller envisioned.</p>
+<p>I tried presenting a few of Altshuller's problems to GPT-5.6-Sol without any mention of TRIZ or the context of the problem. The LLM did remarkably well.</p>
+<p>The hose problem was solved in 6 seconds. When I asked how, the LLM mentioned TRIZ:</p>
+<blockquote>
+<p>This resembles two TRIZ patterns:
+  Separation in time: rigid during manufacturing, flexible during use.
+  Phase transition: change a material’s state to gain a temporary property.</p>
+</blockquote>
+<p>For problem 60, "Gascon's Flag", the LLM immediately mentioned an existing <a href="https://patentimages.storage.googleapis.com/1c/7b/99/2a10e5c454c89e/US1725250.pdf">U.S. Patent</a> for a self-waving flag with a hollow flagpole.</p>
+<p>For the unsolved Problem 71 "Coffee in weightlessness", the LLM came up with some solutions that sounded plausible, while the book's appendix mysteriously listed "No answer".</p>
+<p>These results suggest that LLMs may be effective interfaces to a large, uneven catalog of inventive methods. But the experiment was scientifically useless. Because the problem and solution have circulated for decades, there is no way to distinguish invention from retrieval. The model’s unsolicited identification of TRIZ makes retrieval especially plausible.</p>
+<p>Invention problems rarely arrive on one’s workbench packaged as neatly as Altshuller’s puzzles. Defining the right problem, boundary, and contradiction may be the harder half of invention, and both TRIZ and my experiment largely assume that work away.</p>
+<h2>Techno-optimism with Soviet characteristics</h2>
+<p>The book’s optimism is earnest, occasionally cringeworthy, and extremely Soviet:</p>
+<blockquote>
+<p>In Technical Creativity you will have a lot of fascinating adventures—enough for the rest of your life. You have to start preparing yourself for such activity from an early age. The earlier the better, just as in sports. So do not lose any time. <strong>I wish you success!</strong></p>
+</blockquote>
+<p>TRIZ reflects a characteristically Soviet confidence that creativity could be studied, organized, and taught. Invention need not remain a mysterious gift possessed by a few geniuses.</p>
+<p>And now I leave you with “Весёлый ветер,” from the 1936 Soviet film Дети капитана Гранта (The Children of Captain Grant) — a song from Altshuller’s cultural world whose refrain neatly captures TRIZ’s faith: “Those who seek will always find.” The unresolved question is whether AI and TRIZ can finally build the invention machine Altshuller imagined.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:ifr">
+<p><strong>Ideal Final Result (IFR)</strong>. Imagine what a perfect though impossible solution to a problem might be, and then work on something approximating that solution but slightly less ideal.&#160;<a class="footnote-backref" href="#fnref:ifr" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Defying Financial Gravity</title>
@@ -3698,109 +3825,6 @@ Mark what you leave.</p>
 <blockquote>
 <p>Let us think the unthinkable, let us do the undoable, let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.</p>
 </blockquote>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Mystery Teachings by J. M. Greer</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/mystery-teachings-by-j-m-greer"/>
-    
-    <updated>2024-03-04T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/mystery-teachings-by-j-m-greer</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Ecology, complexity, and other interdisciplinary fields can easily slip into woo. Initially I expected this book to suffer from this problem, but luckily there were no dizzying invocations of Deepak Chiopra™ style quantum physics. Instead, Greer presents a grounded worldview, rejecting spiritual stereotypes and "half truths that you create your own reality".</p>
-<p>The bulk of Greer's book features seven laws, which may be better described as perspectives or lenses. The first three are foundational, the fourth is a bridge, and the last three are somewhat derived from the first. Many of these so-called laws overlap with one another. Law of Planes and Law of Evolution are highly interrelated. Why are there seven laws? For relatively unconvincing reasons resembling gematria. I found these "laws" unevenly resonant, with the Law of Cause and Effect quite uninspiring, but others much more evocative.</p>
-<p>(The <a class="wiki" href="https://z3.ca/Seven_Fundamental_Laws_of_Spiritual_Ecology">Seven Fundamental Laws of Spiritual Ecology</a> are well documented, so rather than enumerating them I'll just focus on the ideas across the laws that I found compelling.)</p>
-<p><strong>An alternative entry point to complex systems</strong> Greer's first three laws can be cleanly mapped to the canon of complexity science. Wholeness is all about the world consisting of complex adaptive systems. Flow is about stocks and flows. Finally, balance is about balancing feedback loops.</p>
-<p><strong>Everything flows at different rates</strong>. Flow rates vary, often moving at a pace far slower or faster than humans are capable of perceiving:</p>
-<blockquote>
-<p>the boulder left by a glacier on one corner of the meadow during the last ice age fifteen thousand years ago is slowly being weathered away by rain, wind, and the slow action of lichens, and fifteen thousand years from now, it will be a fraction of its present size. Solid as it seems, the stone is also flowing.</p>
-</blockquote>
-<p>Perhaps there is a general scaling law that the smaller, the faster, and the higher the frequency? (Also see <a class="wiki" href="https://z3.ca/Small_animals_perceive_time_more_quickly">Small animals perceive time more quickly</a> and <a class="wiki" href="https://z3.ca/Smaller_objects_move_faster">Smaller objects move faster</a>)</p>
-<p><strong>Accumulation is poison</strong> because it effectively stops the natural flow of things. My initial reaction to this was one of skepticism: some accumulations seem alright. Organisms need a store of energy to survive. Accumulation also afford freedom. Freedom to consider something other than just constant toil for the purpose of survival.</p>
-<p>Greer seems less judgmental about accumulation in the human realm, especially when this is for the future of one’s own life. He explicitly rejects that material wealth is an evil thing and the only right path is one of abject poverty. Instead, in the spirit of seeking a middle way (see <a class="wiki" href="https://z3.ca/Middle_way_in_Buddhism">Middle way in Buddhism</a>), Greer suggests something that resonates with me:</p>
-<blockquote>
-<p>If material wealth is flowing into your life, material wealth in some form should be flowing out of it at an equal rate.</p>
-</blockquote>
-<p><strong>Goldilocks zones and balance</strong>: The opposite of thirst is not too much water, it’s just enough water. By default, people seek extremes and this intuition is often wrong. This section evoked a lot of related ideas for me:</p>
-<ul>
-<li><a class="wiki" href="https://z3.ca/Balancing_loops_are_goal_seeking">Balancing loops are goal seeking</a></li>
-<li><a class="wiki" href="https://z3.ca/Active_stability_is_related_to_non-equilibrium_systems">Active stability is related to non-equilibrium systems</a></li>
-<li><a class="wiki" href="https://z3.ca/Goldilocks_principle">Goldilocks principle</a></li>
-<li><a class="wiki" href="https://z3.ca/Too_much_of_a_virtue_becomes_a_vice">Too much of a virtue becomes a vice</a></li>
-<li><a class="wiki" href="https://z3.ca/Scale_causes_ossification">Scale causes ossification</a></li>
-<li><a class="wiki" href="https://z3.ca/Two_Watersheds_-_too_much_institutionalization">Two Watersheds - too much institutionalization</a></li>
-<li><a class="wiki" href="https://z3.ca/People_favor_addition_over_subtraction">People favor addition over subtraction</a></li>
-</ul>
-<p><strong>Principle of rebound</strong>: Intriguingly, Greer writes about a practical application of his Law of Balance. Deliberately push a balanced system one way, and you will make it swing back the other way with redoubled force. Fast so that you enjoy food more during the next days. This is a sort of synthesized delayed gratification. Related to <a class="wiki" href="https://z3.ca/Manufactured_suffering_for_resilience,_antifragility_and_happiness">Manufactured suffering for resilience, antifragility and happiness</a>.</p>
-<p><strong>Constraints are a source of power and elegance</strong>: Like the flow of water through a thinning tube, as the tube thins, the flow will become more and more powerful.</p>
-<blockquote>
-<p>Power is born when a flow of energy encounters firm limits, and the more narrow the outlet left open by those limits, the greater the power will be.</p>
-</blockquote>
-<p>This resonated with me, and reminded me of the benefit of constraints:</p>
-<ul>
-<li><a class="wiki" href="https://z3.ca/Constraints_can_be_good_for_innovation">Constraints can be good for innovation</a></li>
-<li><a class="wiki" href="https://z3.ca/Judaism_encourages_robust_debate_within_constraints">Judaism encourages robust debate within constraints</a></li>
-<li><a class="wiki" href="https://z3.ca/Benefits_of_manufactured_childhood_rebellion">Benefits of manufactured childhood rebellion</a></li>
-</ul>
-<p>I found that reframing beauty as "elegance" is generative, and fits well with Greer's example of bird flight, in which nature "engineered" or "designed" an elegant system:</p>
-<blockquote>
-<p>To achieve the power of flight, sparrows and most other birds accept strict and inflexible limits that prevent them from engaging in many activities that other living things can do. These limits are anything but arbitrary; rather, they are the other side of the power of flight itself.</p>
-</blockquote>
-<p>Every manifestation in the real world is limited. If you break through these limits, you don't thrive, you die.</p>
-<blockquote>
-<p>When a cell ignores the limits placed on it by the body as a whole system and instead grows in an unlimited way, doctors call that condition "cancer." Freed from all limits, the human body would not become something superhuman; it would simply turn into a puddle of red slush, powerless, ugly, and dead.</p>
-</blockquote>
-<p><strong>Overlapping planes of mind and body</strong>: Greer's notion of planes is very abstract: "Everything exists and functions on one of several planes of being." The most concrete and interesting planes are the mind and the body plane. These planes interact, but only in very specific ways.</p>
-<p><strong>Ecosystem lifecycles</strong>: One intriguing idea in this chapter and the next was about the lifecycle of ecosystems:</p>
-<blockquote>
-<p>Just as every creature begins with a single cell and passes through its life cycle, every ecosystem begins with bare, nonliving elements and passes through stages, called "sers." Those stages reach from the first or pioneer sere that forms on bare ground right up to the final relatively stable sere, which ecologists call "the climax community."</p>
-</blockquote>
-<p>(Also see the excellent Wikipedia article on this topic. <a href="https://en.wikipedia.org/wiki/Climax_community">Climax community</a> and <a href="https://en.wikipedia.org/wiki/Seral_community">Seral community</a>).</p>
-<blockquote>
-<p>A seral community is an intermediate stage found in ecological succession in an ecosystem advancing towards its climax community</p>
-</blockquote>
-<p><strong>Placeholders in ecosystems</strong>: I found powerful the idea that individuals in an ecosystem can be seen as placeholders. The organism may die, but its immediate life wasn't that important for the whole system. The individual was playing a role that many had played in the past, and many will play in the future.</p>
-<blockquote>
-<p>The meadow in which the mouse and the grass thrive, in other words, is simply one phase of a greater process of change that began long before either one was born, and that meadow will continue long after both have died.</p>
-</blockquote>
-<p>Furthermore, this role can be played by a variety of creatures that evolve, but are still fundamentally of the same lineage.</p>
-<blockquote>
-<p>Ten million years ago, some other species of small rodent filled the same role in meadow ecologies in the same region that the field house fills today, and ten million years from now, todays field mouse will likely be replaced by another species of rodent or some other creature not too different.</p>
-</blockquote>
-<p><strong>Magic is about the mind</strong>: Greer has a very hard boiled, realist take on magic. It mainly operates on the “plane of the mind”, and affects other planes only insofar as they overlap to the mind one. He talks lucidly of real limits when it comes to what you can expect magic to be able to achieve.</p>
-<p><strong>Societal lifecycles</strong>: Greer compares societies to ecosystems and suggests that they too have lifecycle. But what are the seres, and what is the climax community for societies? Perhaps the notion of progress is less clear.</p>
-<blockquote>
-<p>Each human society arises out of the chaos left behind by some previous society and it takes shape in response to whatever challenge the old society couldn’t meet.</p>
-</blockquote>
-<p>This reminds me of Turchin (<a class="wiki" href="https://z3.ca/Fathers-and-sons_cycles">Fathers-and-sons cycles</a>) as well as Tainter (<a class="wiki" href="https://z3.ca/Collapse_of_Complex_Societies_by_Joseph_Tainter">Collapse of Complex Societies by Joseph Tainter</a>). But there is less of a clear sense of progress from one society to the next. This rhymes with the nonlinearity of moral progress (see <a class="wiki" href="https://z3.ca/Moral_progress_is_a_cycle,_technological_progress_is_an_arrow">Moral progress is a cycle, technological progress is an arrow</a>).</p>
-<blockquote>
-<p>It is unfortunately common for the people of one society to ignore the hard won wisdom of older societies and suffer as a result.</p>
-</blockquote>
-<p><strong>Technological lifecycles?</strong> Greer goes further. He wouldn’t be surprised if at the end of our industrial society in several decades, many of today’s tech will become the stuff of legend. Atlantis, an advanced but lost civilization is a common trope in mystery schools. All of this has happened before, and it will all happen again.</p>
-<blockquote>
-<p>The people of Atlantis ignored the laws of spiritual ecology and by the time those laws finished with them, nothing remained of Atlantis but gray waves rolling across empty ocean.</p>
-</blockquote>
-<p><strong>Dealing with higher ideals vs. disappointing realities</strong>: paraphrasing Greer, there are a few options:</p>
-<ol>
-<li>Settle for the world as it is, optimizing for pleasure and profit.</li>
-<li>Turn to ordinary religion with the hope of a better world after death.</li>
-<li>Join social movements or political activism to make the world a better place.</li>
-<li>Convince yourselves that changing your own thinking will scale up.</li>
-<li>Sit and wait for some apocalyptic event to make the world live up to our expectations.</li>
-</ol>
-<blockquote>
-<p>Yet there is also another way: the way of the mysteries. This way starts by realizing that our everyday life in the world of manifestation, here and now, exactly as it is, is a lesson to be studied and understood, rather than a trap to be escaped or an illusion to be ignored. It goes on to recognize that the same laws that shape our ecological relationships with the world around us also define our existence in the subtler realms of mind and spirit and that learning to live and act in harmony.</p>
-</blockquote>
-<p>I like Greer's call to curiosity, but it seems to me that the mystery schools are just one of many different ways to study and understand the lessons from daily life. Still, I'm pleasantly surprised how neatly Greer's ideas map onto my existing canon of Complexity-related notes. Also, it's useful to find giant gaps in my understanding of ecology (e.g. sers, climax communities, etc) will surely make for an illuminating follow-up.</p>
 
         
       </div>

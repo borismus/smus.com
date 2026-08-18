@@ -2,10 +2,11 @@
 <html>
 <head>
   
+  
   <title>Sensor fusion and motion prediction | Boris Smus</title>
 
   <meta charset='utf-8' />
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
 
   <meta name="description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
   <meta name="author" content="Boris Smus" />
@@ -15,18 +16,17 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Sensor fusion and motion prediction" />
   <meta name="twitter:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
+  
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/sensor-fusion-prediction-webvr/" />
   <meta property="og:title" content="Sensor fusion and motion prediction" />
   <meta property="og:description" content="A major technical challenge for VR is to make head tracking as good as possible. The metric that matters is called  motion-to-photon latency . For mobile VR purposes, this is the time that it takes for a user's head rotation to be fully reflected in the rendered content.       The simplest way to get up-and-running with head tracking on the web today is to use the  deviceorientation  events, which are generally well supported across most browsers. However, this approach suffers from several drawbacks which can be remedied by implementing our own sensor fusion. We can do even better by predicting head orientation from the gyroscope.   I'll dig into these techniques and their open web implementations.  Everything discussed in this post is implemented and available open source as part of the  WebVR Polyfill  project. If you want to skip ahead, check out the  latest head tracker  in action, and play around with this  motion sensor visualizer ." />
+  
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
-
-  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
-  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">

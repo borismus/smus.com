@@ -2,10 +2,11 @@
 <html>
 <head>
   
+  
   <title>Web-based voice command recognition | Boris Smus</title>
 
   <meta charset='utf-8' />
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
 
   <meta name="description" content="[Last time][audio-features] we converted audio buffers into images. This time we'll take these images and train a neural network using [deeplearn.js][deeplearn]. The result is [a browser-based demo][infer-yesno] that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:     Curious to play with it, see whether or not it recognizes *yay* or *nay* in addition to *yes* and *no*? [Try it out live][infer-yesno]. You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
   <meta name="author" content="Boris Smus" />
@@ -15,18 +16,17 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Web-based voice command recognition" />
   <meta name="twitter:description" content="[Last time][audio-features] we converted audio buffers into images. This time we'll take these images and train a neural network using [deeplearn.js][deeplearn]. The result is [a browser-based demo][infer-yesno] that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:     Curious to play with it, see whether or not it recognizes *yay* or *nay* in addition to *yes* and *no*? [Try it out live][infer-yesno]. You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
+  
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/web-voice-command-recognition/" />
   <meta property="og:title" content="Web-based voice command recognition" />
   <meta property="og:description" content="[Last time][audio-features] we converted audio buffers into images. This time we'll take these images and train a neural network using [deeplearn.js][deeplearn]. The result is [a browser-based demo][infer-yesno] that  lets you speak a command ("yes" or "no"), and see the output of the classifier in real-time, like this:     Curious to play with it, see whether or not it recognizes *yay* or *nay* in addition to *yes* and *no*? [Try it out live][infer-yesno]. You will quickly see that the performance is far from perfect. But that's ok with me: this example is intended to be a reasonable starting point for doing all sorts of audio recognition on the web. Now, let's dive into how this works." />
+  
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
-
-  <!-- Coil monetization experiment: https://coil.com/settings/monetize -->
-  <meta name="monetization" content="$ilp.uphold.com/4Fnyw8KLaPZG">
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
