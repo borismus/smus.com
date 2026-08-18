@@ -18,6 +18,11 @@ echo Do a production build to the gh-pages repo.
 popd
 uv run ../lightning/lightning -o=$DEPLOY_PATH
 
+# The builder only emits .html/.xml at the site root and wipes everything else
+# on each build, so copy robots.txt in after the build (before commit).
+echo Copy robots.txt to the site root.
+cp robots.txt "$DEPLOY_PATH/robots.txt"
+
 echo Add all of the things, commit and push to the repo.
 
 pushd $DEPLOY_PATH

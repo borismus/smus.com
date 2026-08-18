@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage and section index pages: these are class:index, so the filter
+       below (which only collects single articles) can't see them. -->
+  <url><loc>{{site.domain}}/</loc></url>
+  <url><loc>{{site.domain}}/blog/</loc></url>
+  <url><loc>{{site.domain}}/posts/</loc></url>
+  <url><loc>{{site.domain}}/books/</loc></url>
+  <url><loc>{{site.domain}}/notes/</loc></url>
+  {% for post in posts %}
+  <url>
+    <loc>{{site.domain}}{{ (post.permalink ~ '/') | replace('//', '/') }}</loc>
+    {% if post.date_created %}<lastmod>{{ post.date_created.Format('%Y-%m-%d') }}</lastmod>{% endif %}
+  </url>
+  {% endfor %}
+</urlset>
