@@ -4,6 +4,135 @@ class: split
 type: book
 
 
+And Suddenly the Inventor Appeared by Genrikh Altshuller
+===
+rating: yes
+posted: Aug 18, 2026
+headline: TRIZ and the Elusive Invention Machine
+cover: /assets/book-covers/and-suddenly-the-inventor-appeared.jpg
+
+This book is an odd one. Is it written for children? Most of the text focuses on invention case studies that are presented like math-olympiad puzzles for precocious ten-year-olds. Altshuller eggs the reader on. A sixth grader can solve this; why can't you, dumbass?
+
+The English edition often reads like an excessively literal, amateurish translation. One problem, poorly titled "A and B Were Sitting on the Pipe," is rendered word-for-word from "А и Б сидели на трубе", destroying the rhyme which was trite even in Russian.
+
+In this 1984 book, Altshuller really thinks that we’re on the verge of a new, systematic approach to inventing. The book is optimistic and sometimes inspiring, but it oscillates between methods so specific they resemble a catalog of physical effects and abstractions so general they are difficult to apply. Perhaps AI is the missing piece: a way to access and combine the right method at the right time.
+
+## Can we replace trial-and-error invention with an organized method?
+> The method of developing new machines is changing. Organized ways of thinking replace the old chaotic ones. Every step in the thinking process should be as accurate as the movements of a pilot flying an airplane.
+
+Altshuller criticizes the process of invention thus far as one largely dominated by trial and error. Instead, he proposes Теория Решения Изобретательских Задач (ТРИЗ), translated as Theory of Solving Invention Problems and anglicized as TRIZ. As far as I can discern from the book, TRIZ consists of two components:
+
+1. A procedure for approaching an invention problem, seeking a tension (Altshuller calls it a contradiction) between two desirable goals.
+2. A catalog of principles and physical effects that might help resolve the tension.
+
+### A simplified TRIZ procedure
+Broadly speaking, here are the TRIZ steps:
+
+1. Formulate the problem
+2. Construct a model
+3. State the contradiction
+4. Imagine the Ideal Final Result (IFR)
+5. Search the catalog
+6. Evaluate and generalize
+7. Review the reasoning
+
+Calling it an algorithm is overly optimistic. This set of steps is abstract and applying it to a specific problem is nontrivial. The transformations between steps are unspecified. Model construction and contradiction framing remain highly creative and expertise-dependent. Ultimately, evaluation requires domain knowledge and physical experimentation.
+
+Let's run this "algorithm" through one of the invention problems he provides.
+
+### Example: make evenly spaced holes in a garden hose
+Your goal is to create evenly spaced holes in a flexible garden hose for a drip irrigation system. A conventional approach might put the hose in a jig and tolerate uneven holes, or strengthen it to make it less flexible. But there is a tension between wanting even holes and a flexible hose. TRIZ instead asks how both requirements might be satisfied. Here's the TRIZ algorithm applied to this problem:
+
+1. **Formulate the problem**: we need to drill evenly spaced holes in a flexible hose.
+2. **Construct a model**: the drilling tool acts on the hose, but the process of drilling deforms and moves the hose.
+3. **State the contradiction**: the hose must be rigid while the holes are made, but flexible when it is used.
+4. **Imagine the Ideal Final Result**[^ifr]: the hose becomes rigid by itself while the holes are being drilled, then returns to being flexible without adding a permanent structure or complicated machinery.
+5. **Search the catalog**: now consider the catalog of inventive principles and physical effects. Several prompts might apply:
+    - **Do it in advance:** prepare the hose before drilling.
+    - **Change the physical state:** introduce a material that can temporarily become solid.
+    - **Use an intermediary:** fill the empty hose with something that supports it.
+    - **Separation in time:** the hose is rigid during manufacture and flexible during use.
+	Together these suggest filling the straightened hose with water and freezing it. The ice temporarily makes the hose rigid; after drilling, it melts away.
+6. **Evaluate and generalize**: the solution avoids permanently changing the hose. More generally, when an object must temporarily possess a contradictory property, introduce a removable material whose physical state supplies that property.
+7. **Review the reasoning**: the breakthrough came from treating “rigid” and “flexible” not as a forced compromise, but as properties needed under different conditions.
+
+The book supplies the problem and solution; I have reconstructed the intervening TRIZ steps from principles explained elsewhere. Unfortunately, this is a bit of a just-so story. The decisive leap to fill the hose with water and freeze it does not logically fall out of the preceding prompts. Could an LLM really solve this problem?
+
+[^ifr]: **Ideal Final Result (IFR)**. Imagine what a perfect though impossible solution to a problem might be, and then work on something approximating that solution but slightly less ideal.
+
+### Catalog of methods
+Altshuller proposes a catalog of methods. Many of them are extremely specific, pertaining to physical laws, for example:
+
+- **Add ferromagnetic particles.** If a substance is difficult to manipulate directly, mix in iron particles and use a magnetic field to move, shape, separate, or measure it. ([I share his obsession with magnets](https://smus.com/magnetic-input-mobile-vr/))
+- **Use Möbius-strip geometry.** Give a belt or abrasive surface a half-twist before joining its ends, causing both sides to wear rather than only one and extending its useful life.
+
+But some of them are far more generalizable and applicable to a wide range of situations, not just ones dealing with narrow physical phenomena. Here are some of the more promising ones:
+
+- **Do it inversely**. When making liqueur-filled chocolate bottles, prevent the hot syrup from melting the chocolate by precooling the mold.
+- **Do it in advance**. To facilitate safe removal of an arm cast, build in a small embedded blade facing away from the arm. When the cast needs to be removed, pull on that razor to easily "unzip" the cast, far safer than risking cuts to the patient. (I guess this predates [cast saws](https://en.wikipedia.org/wiki/Cast_saw).)
+- **Do a little less**. When slicing a metal pipe it may be sufficient to make a partial cut and then complete the separation with a high current.
+- **Size-Time-Cost (STC)**. What happens if the size of an object is decreased or increased? What will happen if the time for an action increases or decreases? What would happen if cost requirements changed to be zero, or unlimited? This method helps break out of "psychological inertia" and helps the inventor look at the problem with less prejudice.
+- **Model with Miniature Dwarfs (MMD)**. Replace a troublesome component with many tiny agents and imagine how they should behave, then find a physical system that reproduces the desired collective behavior.
+
+Why miniature dwarfs? Altshuller criticizes overuse of technical empathy, which he attributes to [William Gordon](https://en.wikipedia.org/wiki/William_J._J._Gordon). If you put yourself in a situation that the machine will be in, you risk caring too much about that machine's outcomes. Miniature dwarfs solve this ethical hazard by being, apparently, more expendable than the machine.
+
+## A theory of technical systems and how they evolve
+Altshuller emphasizes that systems are composed of nested subsystems. A bulb in a car is subordinate to the car, which itself is subordinate to the car industry, which consists of millions of cars, roads, gas stations, car washes, and auto mechanics.
+
+Using this framework, he argues that inventions do not develop randomly. He describes four stages in the evolution of inventions. Start with a barely working combination of subsystems, then improve each subsystem, later make the overall system more dynamic and finally increasingly autonomous.
+
+1. **Initial viable system**: what's the barely working combination of subsystems that can work? The MVP? For airplanes, fixed airfoil-shaped wings and an internal combustion engine.
+2. **Improve the subsystems**: once the basic architecture works, development shifts toward its individual parts. For airplanes, lighter and more durable materials, optimized wing-to-fuselage geometry, monoplane designs, standardized controls and human factors for pilots.
+3. **Dynamize the system**: how can the system become more flexible and adjustable? For airplanes, inventors added retractable landing gear, variable-sweep wings, and experimental movable noses and fuselages.
+4. **Make the system self-regulating**: how can the system become more autonomous? For airplanes, sensors detect changing conditions and control mechanisms automatically respond. Now we have sophisticated computer-controlled autopilots. This is largely speculative in Altshuller's writing.
+
+The way this ties into TRIZ is that inventors can identify which phase of the system's evolution they are currently at and attempt to work at the correct frontier. More generally, this evolutionary approach could help predict technological futures.
+
+Altshuller’s sequence is appealing, but actual technologies do not climb it cleanly. Dynamization can be reversed when flexibility proves too costly. Apparently promising branches like the Presniakov engine, ground-effect vehicles, and droop-nose aircraft can all stall out for economic, institutional, or practical reasons. Technical evolution has selection pressures and dead ends. It's not just a one-way ascent.
+
+## Why TRIZ matters now
+The bottleneck is often not a lack of knowledge but the way the knowledge is structured and organized. If only you could access and combine the right knowledge at the right time... quoting Sherlock Holmes from Conan Doyle's "A Study in Scarlet":
+
+> I consider that a man's brain originally is like a little empty attic, and you have to stock it with such furniture as you choose. A fool takes in all the lumber of every sort that he comes across [...] Now the skillful workman is very careful indeed as to what he takes into his brain-attic. He will have nothing but the tools which may help him in doing his work, but of these he has a large assortment, and all in the most perfect order.
+
+In practice, the algorithm is extremely abstract, while the catalog ranges from broadly generative prompts to domain-specific facts about magnets, Curie points, and Möbius strips. The difficult part is selecting and translating the right principle, and this is left as an exercise to the reader.
+
+That said, throughout the book, the author repeatedly gestures toward a unified theory of problem solving:
+
+> At the dawn of the human race, mankind conquered fire. Now we are learning to conquer something much greater: the power of mind capable of penetrating an unknown future.
+
+This vision has not yet come to pass. It's been over half a century since TRIZ was formulated and four decades since the publication of this book. TRIZ developed a durable international niche, including industrial and consulting applications, but never became the universal discipline Altshuller envisioned.
+
+I tried presenting a few of Altshuller's problems to GPT-5.6-Sol without any mention of TRIZ or the context of the problem. The LLM did remarkably well.
+
+The hose problem was solved in 6 seconds. When I asked how, the LLM mentioned TRIZ:
+
+> This resembles two TRIZ patterns:
+>	Separation in time: rigid during manufacturing, flexible during use.
+>	Phase transition: change a material’s state to gain a temporary property.
+
+For problem 60, "Gascon's Flag", the LLM immediately mentioned an existing [U.S. Patent](https://patentimages.storage.googleapis.com/1c/7b/99/2a10e5c454c89e/US1725250.pdf) for a self-waving flag with a hollow flagpole.
+
+For the unsolved Problem 71 "Coffee in weightlessness", the LLM came up with some solutions that sounded plausible, while the book's appendix mysteriously listed "No answer".
+
+These results suggest that LLMs may be effective interfaces to a large, uneven catalog of inventive methods. But the experiment was scientifically useless. Because the problem and solution have circulated for decades, there is no way to distinguish invention from retrieval. The model’s unsolicited identification of TRIZ makes retrieval especially plausible.
+
+Invention problems rarely arrive on one’s workbench packaged as neatly as Altshuller’s puzzles. Defining the right problem, boundary, and contradiction may be the harder half of invention, and both TRIZ and my experiment largely assume that work away.
+
+## Techno-optimism with Soviet characteristics
+
+The book’s optimism is earnest, occasionally cringeworthy, and extremely Soviet:
+
+> In Technical Creativity you will have a lot of fascinating adventures—enough for the rest of your life. You have to start preparing yourself for such activity from an early age. The earlier the better, just as in sports. So do not lose any time. **I wish you success!**
+
+TRIZ reflects a characteristically Soviet confidence that creativity could be studied, organized, and taught. Invention need not remain a mysterious gift possessed by a few geniuses.
+
+And now I leave you with “Весёлый ветер,” from the 1936 Soviet film Дети капитана Гранта (The Children of Captain Grant) — a song from Altshuller’s cultural world whose refrain neatly captures TRIZ’s faith: “Those who seek will always find.” The unresolved question is whether AI and TRIZ can finally build the invention machine Altshuller imagined.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 Incorruptible by Eric Ries
 ===
 rating: yes
