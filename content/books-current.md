@@ -129,7 +129,7 @@ TRIZ reflects a characteristically Soviet confidence that creativity could be st
 
 And now I leave you with “Весёлый ветер,” from the 1936 Soviet film Дети капитана Гранта (The Children of Captain Grant) — a song from Altshuller’s cultural world whose refrain neatly captures TRIZ’s faith: “Those who seek will always find.” The unresolved question is whether AI and TRIZ can finally build the invention machine Altshuller imagined.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" style="aspect-ratio: 16 / 9; height: auto;" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
