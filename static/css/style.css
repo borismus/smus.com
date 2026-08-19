@@ -265,7 +265,6 @@ footer {
 
 footer nav a {
   display: inline-block;
-  margin-right: 1rem;
   text-decoration: none;
   color: darkgreen;
   border-bottom: 1px solid transparent;
