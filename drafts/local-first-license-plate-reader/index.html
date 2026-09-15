@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  <title>My compost bin had 38 license plates | Boris Smus</title>
+
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+
+  <meta name="description" content="How it started   Although we live in a beautiful part of a beautiful city, our alley is not immune from petty theft. Thieves usually arrive in the summer and smash their way into detached garages in the early morning. They drive through a shared alley, attempt some break-ins and then drive off. Since it's petty crime, the police hardly care, we often have scant evidence to help find the culprits. Last time this happened, we didn't even have camera footage to capture their license plate.   Determined not to repeat mistakes of the past, I installed an affordable alley camera, hooked it up to Home Assistant, and built an on-device license plate recognition system using off-the-shelf   fast-alpr   models. I built a Home Assistant automation: when the camera emits vehicle detection events, it captures five snapshots per event 200 ms apart. These images are then processed locally and never leave my local network. Camera frames, plate history, and vibe coded UI all run live on my Mac Mini, and alert us when new plates are detected entering the alley.   Garbage in, garbage out   The Reolink camera I bought produces "vehicle detected" events. I started with the simplest possible thing: when a vehicle is detected, run the plate recognizer and tell me what the plates are. Most of the vehicle detection were of cars passing by on the street. Their plate was not visible, but the plate recognition model was still producing high confidence readings of gibberish plates. The model was finding text on the compost bin:       ...and producing garbage results.   Detecting license plates reliably   The pipeline I arrived at works pretty well:       One key insight is to detect the license plate boundary itself. This is a good filter for eliminating cars that are crossing in the street rather than driving through the alley. It's also a good filter for filtering out non-license plate text like the Food &amp; Yard compost label. Critically, this entire pipeline runs locally on the Mac. Plates are stored in a local SQLite ledger and notifications for strange plates are only issued after a period of familiarization." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/drafts/local-first-license-plate-reader/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="My compost bin had 38 license plates" />
+  <meta name="twitter:description" content="How it started   Although we live in a beautiful part of a beautiful city, our alley is not immune from petty theft. Thieves usually arrive in the summer and smash their way into detached garages in the early morning. They drive through a shared alley, attempt some break-ins and then drive off. Since it's petty crime, the police hardly care, we often have scant evidence to help find the culprits. Last time this happened, we didn't even have camera footage to capture their license plate.   Determined not to repeat mistakes of the past, I installed an affordable alley camera, hooked it up to Home Assistant, and built an on-device license plate recognition system using off-the-shelf   fast-alpr   models. I built a Home Assistant automation: when the camera emits vehicle detection events, it captures five snapshots per event 200 ms apart. These images are then processed locally and never leave my local network. Camera frames, plate history, and vibe coded UI all run live on my Mac Mini, and alert us when new plates are detected entering the alley.   Garbage in, garbage out   The Reolink camera I bought produces "vehicle detected" events. I started with the simplest possible thing: when a vehicle is detected, run the plate recognizer and tell me what the plates are. Most of the vehicle detection were of cars passing by on the street. Their plate was not visible, but the plate recognition model was still producing high confidence readings of gibberish plates. The model was finding text on the compost bin:       ...and producing garbage results.   Detecting license plates reliably   The pipeline I arrived at works pretty well:       One key insight is to detect the license plate boundary itself. This is a good filter for eliminating cars that are crossing in the street rather than driving through the alley. It's also a good filter for filtering out non-license plate text like the Food &amp; Yard compost label. Critically, this entire pipeline runs locally on the Mac. Plates are stored in a local SQLite ledger and notifications for strange plates are only issued after a period of familiarization." />
+  
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/drafts/local-first-license-plate-reader/" />
+  <meta property="og:title" content="My compost bin had 38 license plates" />
+  <meta property="og:description" content="How it started   Although we live in a beautiful part of a beautiful city, our alley is not immune from petty theft. Thieves usually arrive in the summer and smash their way into detached garages in the early morning. They drive through a shared alley, attempt some break-ins and then drive off. Since it's petty crime, the police hardly care, we often have scant evidence to help find the culprits. Last time this happened, we didn't even have camera footage to capture their license plate.   Determined not to repeat mistakes of the past, I installed an affordable alley camera, hooked it up to Home Assistant, and built an on-device license plate recognition system using off-the-shelf   fast-alpr   models. I built a Home Assistant automation: when the camera emits vehicle detection events, it captures five snapshots per event 200 ms apart. These images are then processed locally and never leave my local network. Camera frames, plate history, and vibe coded UI all run live on my Mac Mini, and alert us when new plates are detected entering the alley.   Garbage in, garbage out   The Reolink camera I bought produces "vehicle detected" events. I started with the simplest possible thing: when a vehicle is detected, run the plate recognizer and tell me what the plates are. Most of the vehicle detection were of cars passing by on the street. Their plate was not visible, but the plate recognition model was still producing high confidence readings of gibberish plates. The model was finding text on the compost bin:       ...and producing garbage results.   Detecting license plates reliably   The pipeline I arrived at works pretty well:       One key insight is to detect the license plate boundary itself. This is a good filter for eliminating cars that are crossing in the street rather than driving through the alley. It's also a good filter for filtering out non-license plate text like the Food &amp; Yard compost label. Critically, this entire pipeline runs locally on the Mac. Plates are stored in a local SQLite ledger and notifications for strange plates are only issued after a period of familiarization." />
+  
+
+  <!-- Mastodon -->
+  <link rel="me" href="https://mastodon.social/@borismus">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/icons/site.webmanifest">
+
+  <!-- Styles -->
+  <link
+  href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/style.css'>
+  <link rel='stylesheet' href='/static/css/prism.css'>
+
+  <!-- Feed -->
+  <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/projects/' >Projects</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href="/drafts/local-first-license-plate-reader"><h1 class="title">My compost bin had 38 license plates (draft)</h1></a>
+    <p style="color: white; background: red;">Note: this is an unpublished draft. If you are reading this, please don't forget to share your feedback with the author!</p>
+    <div class='body'>
+      <h1>How it started</h1>
+<p>Although we live in a beautiful part of a beautiful city, our alley is not immune from petty theft. Thieves usually arrive in the summer and smash their way into detached garages in the early morning. They drive through a shared alley, attempt some break-ins and then drive off. Since it's petty crime, the police hardly care, we often have scant evidence to help find the culprits. Last time this happened, we didn't even have camera footage to capture their license plate.</p>
+<p>Determined not to repeat mistakes of the past, I installed an affordable alley camera, hooked it up to Home Assistant, and built an on-device license plate recognition system using off-the-shelf <a href="https://github.com/ankandrew/fast-alpr"><code>fast-alpr</code></a> models. I built a Home Assistant automation: when the camera emits vehicle detection events, it captures five snapshots per event 200 ms apart. These images are then processed locally and never leave my local network. Camera frames, plate history, and vibe coded UI all run live on my Mac Mini, and alert us when new plates are detected entering the alley.</p>
+<h1>Garbage in, garbage out</h1>
+<p>The Reolink camera I bought produces "vehicle detected" events. I started with the simplest possible thing: when a vehicle is detected, run the plate recognizer and tell me what the plates are. Most of the vehicle detection were of cars passing by on the street. Their plate was not visible, but the plate recognition model was still producing high confidence readings of gibberish plates. The model was finding text on the compost bin:</p>
+<p><img alt="The compost-bin label that repeatedly became a license plate" src="compost-bin-false-positive.png" /></p>
+<p>...and producing garbage results.</p>
+<h1>Detecting license plates reliably</h1>
+<p>The pipeline I arrived at works pretty well:</p>
+<p><img alt="The local ALPR pipeline" src="local-alpr-pipeline.png" /></p>
+<p>One key insight is to detect the license plate boundary itself. This is a good filter for eliminating cars that are crossing in the street rather than driving through the alley. It's also a good filter for filtering out non-license plate text like the Food &amp; Yard compost label. Critically, this entire pipeline runs locally on the Mac. Plates are stored in a local SQLite ledger and notifications for strange plates are only issued after a period of familiarization.</p>
+    </div>
+  </article>
+</section>
+
+<footer>
+  <div>
+    © Copyright 2005–2026 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
+    <a href='https://smus.com/atom.xml'>RSS</a>
+    <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
+  </nav>
+</footer>
+
+<!-- Syntax highlighting for code (only for tagged code blocks). -->
+<script src="/static/js/prism.js"></script>
+<!-- Lightning builder error check. -->
+<script src="/lightning_error.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38Y45XD5VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38Y45XD5VQ');
+</script>
+
+
+</body>
+</html>

@@ -5,8 +5,80 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-08-18T17:00:18-00:00</updated>
+  <updated>2026-09-15T15:55:34-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Anarchy’s Middle Managers</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-dispossessed-by-u-k-le-guin"/>
+    
+    <updated>2026-09-15T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-dispossessed-by-u-k-le-guin</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I started hostile. Urras seemed like a transparent critique of Earth, while Anarres seemed too good to be true. By the end, I realized I was right about Anarres and wrong about why: its failure to live up to its ideals is exactly Le Guin’s subject. It's not about the superiority of anarchy to capitalism, but the way power survives every attempt to abolish it and how a society's ideals dilute over generations. Faced with the failures of Urrasti capitalism, Thuvian communism, and Anarresti anarchism, Shevek gives his life's work away to the commons.</p>
+<h2>Power games are inescapable</h2>
+<p>Bedap calls the Production and Distribution Coordination (PDC) "an archistic bureaucracy." This exchange drives it home:</p>
+<blockquote>
+<p>Shevek: “What are you talking about, Dap? We have no power structure.”</p>
+<p>Bedap: “No? What makes Sabul so strong?” [...] “Public opinion! That’s the power structure he’s part of, and knows how to use.”</p>
+</blockquote>
+<p>Sabul initially rejects Shevek's requests to publish his work in a local journal. But when Takver shrewdly suggests Shevek invite Sabul as a coauthor, Sabul agrees and proceeds to redact Shevek's work into a coauthored package, taking credit for work that wasn't his. Sabul’s power resembles C. S. Lewis’s <a href="https://www.lewissociety.org/innerring/">Inner Ring</a>: he controls access and recognition, while others' fear of exclusion makes that informal authority effective.</p>
+<p>The episode reminded me of graduate school. I was first author on a paper rejected from CHI. My advisor then took the same work, repackaged it, resubmitted it with himself as first author, and got it accepted to UIST. The maneuver worked: the paper was published, and I benefited from remaining a coauthor. What soured me was not simply losing first authorship but understanding the system’s incentives. That experience encouraged me to return to industry sooner, without pursuing a PhD.</p>
+<p>Anarchy and bureaucracy are not opposites. Anarres can be highly bureaucratic without formally ceasing to be anarchist. On Anarres, no hierarchy is supposed to exist, so nobody possesses an acknowledged right to command. But its hostile environment makes coordination unavoidable. Anything scarce must be allocated, and whoever controls its allocation acquires power, whether or not the society calls it that.</p>
+<p>Even Anarresti names encode this paradox. Abolishing inherited surnames and honorifics eliminates markers of lineage and rank, but assigning every citizen a unique name requires centralized administration. Anarres has abolished many forms of hierarchy, but not the machinery of coordination in which hierarchy can reappear.</p>
+<p>When a society denies that power exists, informal power becomes illegible and unaccountable. It concentrates in shadow hierarchies whose authority is obscured by the society’s own language games.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Formal power</strong></th>
+<th><strong>Shadow power</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Archy</strong></td>
+<td><strong>A-Io:</strong> courts, contracts, property, rank, and openly exercised state power</td>
+<td><strong>Thu:</strong> party discipline, surveillance, and concealed coercion</td>
+</tr>
+<tr>
+<td><strong>Anarchy</strong></td>
+<td><strong>Odo’s design:</strong> delegated, rotating, recallable coordination</td>
+<td><strong>Mature Anarres:</strong> reputation, conformity, and informal gatekeeping</td>
+</tr>
+</tbody>
+</table>
+<h2>Freedom must be taught again and again</h2>
+<p>On a world with no jails and no word for jail, four boys transform a closet into a prison. They rig a door and a lock, and shut one of their friends inside for thirty hours to see what it feels like. Bedap explains it in a monologue:</p>
+<blockquote>
+<p>...the will to dominance is as central in human beings as the impulse to mutual aid is, and has to be trained in each individual, in each new generation. Nobody’s born an Odonian [anarchist] any more than he’s born civilized! But we’ve forgotten that. We don’t educate for freedom. Education, the most important activity of the social organism, has become rigid, moralistic, authoritarian.</p>
+</blockquote>
+<p>The original settlers did not merely believe in permanent revolution, they made one. Later generations inherit many of their institutions without having made the choices that made these institutions work.</p>
+<p>Every idea or institution requires not just creation, but active maintenance. And this is often the harder, less glamorous part.</p>
+<h2>Three societies, three forms of control</h2>
+<p>Le Guin makes no attempt to hide her disdain for the splendor and inequality of the Ioti. And although Thu is not critiqued in depth, the many dysfunctions of the Soviet Union are readily transposed onto the Thuvian communist bureaucracy. In the familiar Urran Cold War, the belligerents fight proxy wars over resources while indulging the same jingoistic patriotism.</p>
+<p>Le Guin comes closest to endorsing Anarres, but with heavy caveats. At bottom, she has strong critiques of all of the societies she's invented. For the Urrasti, Anarres is just a mining outpost, so even Anarres’s material independence is ambiguous, exporting minerals to Urras in return for goods it cannot produce itself.</p>
+<p>Economics aside, Anarres is also the source of a lot of outlandish anti-Urrasti propaganda. Bedap realizes that they are being lied to, and the unfortunate answer to "who's lying to us?" in an egalitarian anarchist society is "ourselves." A century and a half into the Anarresti experiment, freedom has ceased to be the galvanizing force it used to be. It has become a premise that citizens are discouraged from questioning.</p>
+<p>A-Io controls through property and status; Thu through the state; Anarres through conformity and informal exclusion. Le Guin does not treat these systems as equivalent, but none escapes the problem of power.</p>
+<h2>Giving the work away</h2>
+<p>When Shevek has a conversation with the Terran ambassador Keng, he names what he dislikes about the hypercapitalist Ioti: "You cannot say good morning without knowing your relative status." To the Ioti, other people are merely <a href="https://boz.com/articles/think-pavlov">trainable organisms</a>, not autonomous individuals.</p>
+<p>Keng imagines that the ansible will unite the worlds. At last, humanity will be able to talk across interstellar distances. But Shevek dispels her optimism: “And what will you say?” Instantaneous communication abolishes delay, not domination, prejudice, or stupidity. Same human shit, transmitted faster.</p>
+<p>Shevek knows that his work on Simultaneity is important, yet he experiences its creation not as an assertion of ego but as an act of surrender. I am reminded of Bach's devotional posture toward composition, beginning his works with “Jesus, help” and ending with “glory to God alone.” (See <a class="wiki" href="https://z3.ca/The_best_work_can_feel_like_something_working_through_you">The best work can feel like something working through you</a>)</p>
+<blockquote>
+<p>The false starts and futility of these past years proved themselves to be groundwork, foundations laid in the dark but well laid. On these, methodically and carefully but with a deftness and certainty that <strong>seemed nothing of his own but a knowledge working through him, using him as its vehicle</strong>, he built up the beautiful steadfast structure of the Principles of Simultaneity.</p>
+</blockquote>
+<p>When Shevek views himself as a medium channeling a discovery, discovery becomes less an achievement to possess than a gift passing through him. Shevek wants his relationships and his work to increase what is available to everyone, rather than improve his position relative to others.</p>
+<p>Neither world reliably permits this. Urras wants to own his work and Anarres lets Sabul control its circulation. Capital captures it as property, while bureaucracy captures it through gatekeeping. Shevek’s answer is to transmit the theory to every world, preventing either government from monopolizing it. This is what attracts me to open source: knowledge can escape its gatekeepers and become the starting point for <a href="/books/why-greatness-cannot-be-planned/">work its creator could never have imagined</a>.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>TRIZ and the Elusive Invention Machine</title>
@@ -3793,37 +3865,6 @@ Mark what you leave.</p>
 <p>In contrast, modern warfare involves soldiers, which in his BCH-ish fashion, literally translates as "the one who is in someone's pay", from salary and salt. He risks his life not because he is a live player (see <a class="wiki" href="https://z3.ca/Live_player_vs_dead_player">Live player vs dead player</a>), but because he receives payment for it. And honor is rarely taken into account, with cynicism and realpolitik the dominant stances.</p>
 <blockquote>
 <p>The rules of the game to which all belligerents commit themselves ensure that, after the war is over, there is space left for politics. By contrast, killing without rules, pure violence, destroys the political space. War as large-scale dueling differs fundamentally from the kind of military action we see today, which is increasingly degenerating into ruthless killing.</p>
-</blockquote>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Good Omens by Pratchett and Gaiman</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/good-omens-by-pratchett-and-gaiman"/>
-    
-    <updated>2024-04-06T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/good-omens-by-pratchett-and-gaiman</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I picked this one up on Sr. B's recommendation and enjoyed it in multi-voice audiobook form. Overall, a fun listen. Very (in-)effable(?). Lots of jokes and satirical observations reminiscent of Doug Adams' Hitchhiker's Guide to the Galaxy and I think way more Pratchett than Gaiman.</p>
-<p>I couldn't help but wonder which of the two authors identified and wrote more of the demon Crowley and the angel Aziraphale. Their hilarious love-hate dynamic reminded me of the starkly different and far more self-serious duo depicted in <a class="wiki" href="https://z3.ca/This_is_How_You_Lose_the_Time_War">This is How You Lose the Time War</a>.</p>
-<p>On that more serious note, Good Omens explores the possibility of Angels, Demons, and God having a free will. As the end of the world nears it becomes clear that the great conflict of this book is not between good and evil. Both sides act wrongly, and dream only of a war of total annihilation in which one of them wins and the other loses. A zero-sum game. In a real sense, the Biblical "good" is also evil.</p>
-<p>Instead, the real struggle is between forces that want the world to end, and those that, despite all imperfections, would prefer it to continue. Framed this way, I am reminded a lot of Carse (see <a class="wiki" href="https://z3.ca/Finite_and_Infinite_Games_by_James_Carse">Finite and Infinite Games by James Carse</a>). And when the world of course doesn't end, my stance against millenarianism is only strengthened (see <a class="wiki" href="https://z3.ca/Millenarianism_is_always_wrong">Millenarianism is always wrong</a>).</p>
-<p>Little notes:</p>
-<ul>
-<li>Adam Young is well named</li>
-<li>"Piss artist" is a great expression</li>
-<li>I knew all the "ineffable" jokes seemed familiar, and I must have recalled Dirk Gently, to whom I leave the last word:</li>
-</ul>
-<blockquote>
-<p>Let us think the unthinkable, let us do the undoable, let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.</p>
 </blockquote>
 
         
