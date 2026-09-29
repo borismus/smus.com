@@ -4,6 +4,36 @@ type: note
 class: split
 
 
+We are as gods, we are as cogs
+===
+posted: Sep 29, 2026
+
+> Everyone must have two pockets, with a note in each pocket, so that he can reach into the one or the other, depending on the need. When feeling lowly and depressed, one should reach into the right pocket, and, there, find the words: "For my sake was the world created." But when feeling high and mighty, one should reach into the left pocket, and find the words: "I am but dust and ashes." — Rabbi Simcha Bunim of Peshischa
+
+Technological revolutions pull in two directions at once. On one hand they are *Promethean*, enlarging our command over the world. On the other, they are *decentering*, diminishing our imagined place within it.
+
+<!--more-->
+
+The telescope extended our ability to see into the heavens, but it also supplied evidence for the Copernican worldview. Earth was not the center of the universe, and ours was one world among many.
+
+![Pale Blue Dot](/assets/earth-pale-blue-dot.jpg)
+*Pale Blue Dot, Voyager 1, 1990, ~6 billion km*
+
+Spaceflight let us escape Earth's gravity and set foot on another world. But later photographs of Earth from space showed a tiny, fragile world suspended in a lethal void.
+
+Darwin argued that we are apes, shaped by the same evolutionary processes as all living things. Then we learned to read the genetic code. When we read the chimpanzee genome beside ours, Darwin's argument came back in writing: letter for letter, nearly 99% the same. We had learned to read the book of life, and it turned out we weren't the main character.
+
+Alan Turing described a universal computing machine, and within a lifetime these machines guided Apollo to the Moon, sequenced the genome, and put the sum of human knowledge in our pockets. Turing also asked whether machines could think, and anticipated the reaction:
+
+> The consequences of machines thinking would be too dreadful. Let us hope and believe that they cannot do so.
+
+Large language models ended the hoping.
+
+Every major technological revolution is simultaneously Promethean and carries the seeds of decentering. Those of us enthusiastically building systems with AI have never felt more powerful, while many on the sidelines are watching machines do what they thought only a human mind could. I see myself in both camps, sometimes within the same afternoon agentic coding session.
+
+Rabbi Bunim would hand each of us the note they most need. To the AI-pilled builders: "I am but dust and ashes." To everyone else: "For my sake was the world created." Let us not forget: everyone must have two pockets.
+
+
 supernote-cli: pen, paper, and a pipe
 ===
 posted: May 9, 2026
