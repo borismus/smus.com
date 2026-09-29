@@ -4,7 +4,7 @@ type: note
 class: split
 
 
-We are as gods, we are as cogs
+We Are as Gods, We Are as Cogs
 ===
 posted: Sep 29, 2026
 
