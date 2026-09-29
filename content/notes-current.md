@@ -8,11 +8,9 @@ We Are as Gods, We Are as Cogs
 ===
 posted: Sep 29, 2026
 
-> Everyone must have two pockets, with a note in each pocket, so that he can reach into the one or the other, depending on the need. When feeling lowly and depressed, one should reach into the right pocket, and, there, find the words: "For my sake was the world created." But when feeling high and mighty, one should reach into the left pocket, and find the words: "I am but dust and ashes." — Rabbi Simcha Bunim of Peshischa
+> Everyone must have two pockets… In one: “For my sake was the world created.” In the other: “I am but dust and ashes. — Rabbi Simcha Bunim of Peshischa
 
 Technological revolutions pull in two directions at once. On one hand they are *Promethean*, enlarging our command over the world. On the other, they are *decentering*, diminishing our imagined place within it.
-
-<!--more-->
 
 The telescope extended our ability to see into the heavens, but it also supplied evidence for the Copernican worldview. Earth was not the center of the universe, and ours was one world among many.
 
