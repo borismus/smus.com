@@ -8,7 +8,7 @@ We Are as Gods, We Are as Cogs
 ===
 posted: Sep 29, 2026
 
-> Everyone must have two pockets… In one: “For my sake was the world created.” In the other: “I am but dust and ashes. — Rabbi Simcha Bunim of Peshischa
+> Everyone must have two pockets with a note in each pocket… In one: “For my sake was the world created.” In the other: “I am but dust and ashes." — Rabbi Simcha Bunim of Peshischa
 
 Technological revolutions pull in two directions at once. On one hand they are *Promethean*, enlarging our command over the world. On the other, they are *decentering*, diminishing our imagined place within it.
 
