@@ -5,8 +5,47 @@
   <title>Boris Smus (Books)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-09-29T22:17:45-00:00</updated>
+  <updated>2026-10-19T21:22:37-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Outsourcing to the Gods</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/troy-by-stephen-fry"/>
+    
+    <updated>2026-10-19T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/troy-by-stephen-fry</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I listened to Troy rather than reading it, which is how I imagine Homer's audience would have received the story: one performer, many voices, and a long recitation. Fry isn't improvising in hexameter; he's reading his own text word-for-word. But he still does what the bard did: adds his own variation to that tradition (see <a class="wiki" href="https://z3.ca/Every_generation_rewrites_the_classics">Every generation rewrites the classics</a>). Where Emily Wilson's <a href="/books/the-odyssey-translated-by-emily-wilson-audio/">great translations</a> render one written work, Fry interweaves sources written centuries apart.</p>
+<p>Fry is an excellent comic storyteller and voice actor. Sinon's hawking and cursing, and Cassandra's prescient but consistently dismissed wails, are performances in their own right.</p>
+<h2>Gods or metaphors</h2>
+<p>In the appendix, Fry says he won't get into how myth differs from fantasy like LOTR, and then he does anyway. His point is that in myth, the gods drive the heroes' actions, and you can read those gods rationally or literally. I think it's deeper than that. Fantasy builds what Tolkien called a "secondary world," where the author sets the rules, including whether the gods are real. Myth is set in our own world, where gods have always been deniable, and Homer's gods are as ambiguous as our gods have ever been.</p>
+<ul>
+<li>When Achilles draws his sword on Agamemnon, and Athena grabs his hair, did Athena stop him, or did he have second thoughts?</li>
+<li>When Aphrodite forces Helen back to Paris's bed after his humiliating duel, was it divine compulsion or desire that she's ashamed of?</li>
+<li>When Helen circles the Trojan Horse imitating the Achaean wives' voices and Menelaus says "some god drove you," was she possessed, or was it divided loyalty?</li>
+</ul>
+<h2>Delegating to fate</h2>
+<p>In some legends, founders let an animal choose a new city's site. Thebes, Ilium, and Durham were all determined in this way. This makes sense as a heuristic: cattle head for water, grazing and sheltered ground, which are the same things you'd want in a city site, so good enough for a cow may be a sensible way to choose.</p>
+<p>Calchas's bird augury is a similar move, except there it feels like the birds are being used more as a random number generator (see <a class="wiki" href="https://z3.ca/Random_chance_can_be_seen_as_divine_phenomenon">Random chance can be seen as divine phenomenon</a>)</p>
+<h2>Divine responsibility laundering</h2>
+<p><a class="wiki" href="https://z3.ca/Artists_often_describe_their_best_work_as_a_higher_power_working_through_them">Artists often describe their best work as a higher power working through them</a>, which I’ve usually understood as humility. Odysseus uses the same move for leverage. Once he credits the horse to Athena, arguing with the plan means arguing with a goddess, and if it fails, the failure is hers. Then Sinon sells the same horse to the Trojans as Athena's offering.</p>
+<hr />
+<p>The opening is a thicket of names. But once Peleus and Thetis get married, Fry turns centuries of competing sources into stories worth following. I came for the Trojan War but left laughing and thinking about how humans use gods to make decisions, borrow authority, or dodge blame.</p>
+<p>Related:</p>
+<ul>
+<li><a class="wiki" href="https://z3.ca/"Laconic"_comes_from_the_Spartans'_reputation_for_brevity">"Laconic" comes from the Spartans' reputation for brevity</a></li>
+<li><a class="wiki" href="https://z3.ca/The_Olympics_may_have_grown_out_of_funeral_games">The Olympics may have grown out of funeral games</a></li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Anarchy’s Middle Managers</title>
@@ -3617,52 +3656,6 @@ When I saw it was a time for a change<br>
 Killed Tsar and his ministers<br>
 Anastasia screamed in vain<br></p>
 </blockquote>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Empowered by Cagan &amp; Jones</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/empowered-by-cagan-jones"/>
-    
-    <updated>2023-09-17T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/empowered-by-cagan-jones</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>My skip-skip-skip level manager at work recommended it to all of his manager reports, and so I decided to read this book to get closer to the top brass. Overall it was a sobering read, actively reminding me how far my organization is from being customer-centric. The book mostly addresses product managers, but tries to also apply to leaders in general, and "product people" in particular. It's a bit unclear who these people are, but I suspect they include product-minded engineers and designers.</p>
-<p>Things I liked:</p>
-<ul>
-<li><strong>Coach-as-manager</strong>: Emphasis on coach-as-manager was interesting. "You can no longer be a good manager without being a good coach."</li>
-<li><strong>Build Right Thing</strong>: The goal of a product manager is to ensure that the features being built by the product engineering team are the right features to be building.</li>
-<li><strong>Product Discovery</strong>: The product development process is a process of discovery. It's like the product is already there, you just need to discover it, as opposed to inventing it from whole cloth.</li>
-<li><strong>PM's fault</strong>: for a product to be successful, all cross-functional stakeholders have to have been successful. But if a product is not successful, it's the fault of the product manager.</li>
-<li><strong>Platform vs. experience</strong>: Platform teams are not the same as experience teams and I strongly gravitate towards experience teams. The worst is when your experience team gets reorged to become a platform team.</li>
-<li><strong>Against the agency model</strong>: The authors advocate strongly against the agency model, which encourages employees to behave like mercenaries rather than like missionaries.</li>
-<li><strong>Strategy means focus</strong>:</li>
-<li><strong>Four big product risks</strong>: (<a class="wiki" href="https://z3.ca/Four_Big_Product_Risks">Four Big Product Risks</a>)<ol>
-<li>Value: will they buy it?</li>
-<li>Usability: will they figure out how to use it?</li>
-<li>Feasibility: can we build it?</li>
-<li>Business viability: will it work for the business?</li>
-</ol>
-</li>
-</ul>
-<p>Things I did not like:</p>
-<ul>
-<li>Perpetuating Silicon Valley tropes:<ul>
-<li>Bill Campbell cult (reminds me of CB)</li>
-<li>Favorite essay is "Software is Eating the World". How trite!</li>
-</ul>
-</li>
-<li>Unclear how lessons from this book apply to completely new products like Smart Glasses. How we be customer-centric in a world where we have no customers?</li>
-<li>Authors seem overly optimistic about equity based compensation as a way to perfectly align incentives. At a company the size of Google, I don't think that sufficiently aligns individual actions. Might work better at a smaller company though!</li>
-</ul>
 
         
       </div>

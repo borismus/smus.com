@@ -5,8 +5,47 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-09-29T22:17:45-00:00</updated>
+  <updated>2026-10-19T21:22:37-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Outsourcing to the Gods</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/troy-by-stephen-fry"/>
+    
+    <updated>2026-10-19T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/troy-by-stephen-fry</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I listened to Troy rather than reading it, which is how I imagine Homer's audience would have received the story: one performer, many voices, and a long recitation. Fry isn't improvising in hexameter; he's reading his own text word-for-word. But he still does what the bard did: adds his own variation to that tradition (see <a class="wiki" href="https://z3.ca/Every_generation_rewrites_the_classics">Every generation rewrites the classics</a>). Where Emily Wilson's <a href="/books/the-odyssey-translated-by-emily-wilson-audio/">great translations</a> render one written work, Fry interweaves sources written centuries apart.</p>
+<p>Fry is an excellent comic storyteller and voice actor. Sinon's hawking and cursing, and Cassandra's prescient but consistently dismissed wails, are performances in their own right.</p>
+<h2>Gods or metaphors</h2>
+<p>In the appendix, Fry says he won't get into how myth differs from fantasy like LOTR, and then he does anyway. His point is that in myth, the gods drive the heroes' actions, and you can read those gods rationally or literally. I think it's deeper than that. Fantasy builds what Tolkien called a "secondary world," where the author sets the rules, including whether the gods are real. Myth is set in our own world, where gods have always been deniable, and Homer's gods are as ambiguous as our gods have ever been.</p>
+<ul>
+<li>When Achilles draws his sword on Agamemnon, and Athena grabs his hair, did Athena stop him, or did he have second thoughts?</li>
+<li>When Aphrodite forces Helen back to Paris's bed after his humiliating duel, was it divine compulsion or desire that she's ashamed of?</li>
+<li>When Helen circles the Trojan Horse imitating the Achaean wives' voices and Menelaus says "some god drove you," was she possessed, or was it divided loyalty?</li>
+</ul>
+<h2>Delegating to fate</h2>
+<p>In some legends, founders let an animal choose a new city's site. Thebes, Ilium, and Durham were all determined in this way. This makes sense as a heuristic: cattle head for water, grazing and sheltered ground, which are the same things you'd want in a city site, so good enough for a cow may be a sensible way to choose.</p>
+<p>Calchas's bird augury is a similar move, except there it feels like the birds are being used more as a random number generator (see <a class="wiki" href="https://z3.ca/Random_chance_can_be_seen_as_divine_phenomenon">Random chance can be seen as divine phenomenon</a>)</p>
+<h2>Divine responsibility laundering</h2>
+<p><a class="wiki" href="https://z3.ca/Artists_often_describe_their_best_work_as_a_higher_power_working_through_them">Artists often describe their best work as a higher power working through them</a>, which I’ve usually understood as humility. Odysseus uses the same move for leverage. Once he credits the horse to Athena, arguing with the plan means arguing with a goddess, and if it fails, the failure is hers. Then Sinon sells the same horse to the Trojans as Athena's offering.</p>
+<hr />
+<p>The opening is a thicket of names. But once Peleus and Thetis get married, Fry turns centuries of competing sources into stories worth following. I came for the Trojan War but left laughing and thinking about how humans use gods to make decisions, borrow authority, or dodge blame.</p>
+<p>Related:</p>
+<ul>
+<li><a class="wiki" href="https://z3.ca/"Laconic"_comes_from_the_Spartans'_reputation_for_brevity">"Laconic" comes from the Spartans' reputation for brevity</a></li>
+<li><a class="wiki" href="https://z3.ca/The_Olympics_may_have_grown_out_of_funeral_games">The Olympics may have grown out of funeral games</a></li>
+</ul>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>We Are as Gods, We Are as Cogs</title>
@@ -3774,60 +3813,6 @@ Overwhelmingly, people found this very confusing. Rather than attempt to wedge b
 <p>I found this to be a captivating read with a very rich atmosphere, despite the world building being extremely shrouded in uncertainty. Nothing can be trusted. Neither your senses nor your sensors. The vibes this book emanates are unlike anything else I can remember. Reading this book gave me a perpetual sense of Déjà vu.</p>
 <p>Annihilation was a very quick read. I don't plan to read the rest of the books in the Southern Cross trilogy yet, although I am somewhat intrigued. I hope that the next book reveals something about the authorities that send missions to Area X. I found this to be the most fruitfully mysterious part for a sequel.</p>
 <p>Let me speculate about the book overall and provide my overall theory of what is happening in Area X. This is based on a book club discussion with VK, MM, MK &amp; AK. What if Area X is a generalized next token predictor that uses human cells as its tokens? The gibberish writing spiraling inside the tower could have easily been generated by an LLM. What if this whole world of Area X is an LLM in biological space?</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>A Sand County Almanac by Aldo Leopold</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/books/a-sand-county-almanac-by-aldo-leopold"/>
-    
-    <updated>2024-04-23T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/books/a-sand-county-almanac-by-aldo-leopold</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>Inspired to read more about ecology after enjoying <a href="/books/mystery-teachings-by-j-m-greer/">Mystery Teachings from the Living Earth by J. M. Greer</a>, I picked up "Sand County Almanac". I'm not sure how I managed to miss this gem for so long.</p>
-<p>Aldo Leopold was an ecosystems' genius, and this most famous book of his contains deep analysis couched in poetic but accessible prose. Leopold was one of the O.G. environmentalists, perhaps an east coast John Muir? I really loved this collection of essays, especially "Good Oak", "Axe in Hand" and "The Land Ethic". These three essays stand alone, contain great quotes, and should be required reading.</p>
-<h1>Good Oak</h1>
-<p>In his "Good Oak" chapter, Leopold recalls felling a dead oak, peeling back the layers of time as his saw cuts through each annual circle in the cross-section of the tree. As he does this, Leopold recalls the history of his 80 acre Sand County farm from an Oak's perspective. This is such a great device, noticed by others as well, as in this blog post entitled <a href="https://forestbathingcentral.com/tree-ring-span-storytelling/">Tree Ring-Span Storytelling</a>. I loved this quote from the chapter:</p>
-<blockquote>
-<p>There are two spiritual dangers in not owning a farm. One is the danger of supposing that breakfast comes from the grocery, and the other that heat comes from the furnace.</p>
-</blockquote>
-<h1>Axe in Hand</h1>
-<p>"Axe in Hand" focuses on the almost god-like role of farmers, and a deep discussion on bias (along the lines of my <a class="wiki" href="https://z3.ca/Maybe_biases_are_good">Maybe biases are good</a>). Leopold muses on why he prefers pine trees to birches, digging deeply and honestly to try to understand why. I'm impressed at the number of possible reasons he produces to favor the pine, but ultimately concedes:</p>
-<blockquote>
-<p>The only conclusion I have ever reached is that I love all trees, but I am in love with pines.</p>
-</blockquote>
-<p>Farmers decide which plants should live and which should die. Improvements to farming tools are all still fundamentally concerned with doing these god-like activities more efficiently. It's an interesting sentiment expressed many years later, in 1968 by Stewart Brand "We are as gods and might as well get good at it". Leopold quotes "Tristram" by Edwin Arlington Robinson:</p>
-<blockquote>
-<p>Whether you will or not
-You are a King, Tristram, for you are one
-Of the time-tested few that leave the world,
-When they are gone, not the same place it was.
-Mark what you leave.</p>
-</blockquote>
-<h1>The Land Ethic</h1>
-<p>In "The Land Ethic", Leopold describes a model for the natural world he calls the land pyramid. This is similar to the food chain, except with soil as the foundation. Leopold observes that soil is not just a place to plant things, but the substrate in which life can evolve and flourish.</p>
-<p>The land pyramid tends to grow in height over evolutionary time, increasing in complexity as life figures out increasingly clever adaptations and ways of being. Leopold laments the loss of megafauna and other apex predators due to human over-hunting, as this flattened the land pyramid for the first time in a long time.</p>
-<p>Leopold describes his conservationist philosophy in a few choice quotes:</p>
-<blockquote>
-<p>Ethical behavior is doing the right thing when no one else is watching- even when doing the wrong thing is legal.</p>
-<p>We are remodeling the Alhambra with a steam-shovel, and we are proud of our yardage. We shall hardly relinquish the shovel, which after all has many good points, but we are in need of gentler and more objective criteria for its successful use.</p>
-<p>A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.</p>
-</blockquote>
-<p>Throughout the narrative, Leopold intertwines natural phenomena that were new to me and raised many questions in my mind:</p>
-<ul>
-<li>Rabbits apparently girdle Oak trees. (What does girdling mean? What is the rabbit-tree symbiosis he alludes to?)</li>
-<li>You can apparently tell how good a year was by the vertical spacing between branches on the trunk. (How do trees grow? How do bones grow?)</li>
-<li>I am really intrigued by this sky dance that the Woodcock does. They are <a href="https://www.youtube.com/watch?v=YF3-LvmHM4E">hilarious birds</a>.</li>
-</ul>
-<p>"Sand County Almanac" is well worth a read or a listen.</p>
 
         
       </div>
