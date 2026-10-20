@@ -4,6 +4,44 @@ class: split
 type: book
 
 
+Troy by Stephen Fry
+===
+rating: yes
+posted: Oct 19, 2026
+headline: Outsourcing to the Gods
+cover: /assets/book-covers/troy.jpg
+
+I listened to Troy rather than reading it, which is how I imagine Homer's audience would have received the story: one performer, many voices, and a long recitation. Fry isn't improvising in hexameter; he's reading his own text word-for-word. But he still does what the bard did: adds his own variation to that tradition (see [[Every generation rewrites the classics]]). Where Emily Wilson's [great translations](/books/the-odyssey-translated-by-emily-wilson-audio/) render one written work, Fry interweaves sources written centuries apart.
+
+Fry is an excellent comic storyteller and voice actor. Sinon's hawking and cursing, and Cassandra's prescient but consistently dismissed wails, are performances in their own right.
+
+## Gods or metaphors
+In the appendix, Fry says he won't get into how myth differs from fantasy like LOTR, and then he does anyway. His point is that in myth, the gods drive the heroes' actions, and you can read those gods rationally or literally. I think it's deeper than that. Fantasy builds what Tolkien called a "secondary world," where the author sets the rules, including whether the gods are real. Myth is set in our own world, where gods have always been deniable, and Homer's gods are as ambiguous as our gods have ever been.
+
+- When Achilles draws his sword on Agamemnon, and Athena grabs his hair, did Athena stop him, or did he have second thoughts?
+- When Aphrodite forces Helen back to Paris's bed after his humiliating duel, was it divine compulsion or desire that she's ashamed of?
+- When Helen circles the Trojan Horse imitating the Achaean wives' voices and Menelaus says "some god drove you," was she possessed, or was it divided loyalty?
+
+## Delegating to fate
+
+In some legends, founders let an animal choose a new city's site. Thebes, Ilium, and Durham were all determined in this way. This makes sense as a heuristic: cattle head for water, grazing and sheltered ground, which are the same things you'd want in a city site, so good enough for a cow may be a sensible way to choose.
+
+Calchas's bird augury is a similar move, except there it feels like the birds are being used more as a random number generator (see [[Random chance can be seen as divine phenomenon]])
+
+## Divine responsibility laundering
+
+[[Artists often describe their best work as a higher power working through them]], which I’ve usually understood as humility. Odysseus uses the same move for leverage. Once he credits the horse to Athena, arguing with the plan means arguing with a goddess, and if it fails, the failure is hers. Then Sinon sells the same horse to the Trojans as Athena's offering.
+
+---
+
+The opening is a thicket of names. But once Peleus and Thetis get married, Fry turns centuries of competing sources into stories worth following. I came for the Trojan War but left laughing and thinking about how humans use gods to make decisions, borrow authority, or dodge blame.
+
+Related:
+
+- [["Laconic" comes from the Spartans' reputation for brevity]]
+- [[The Olympics may have grown out of funeral games]]
+
+
 The Dispossessed by U. K. Le Guin
 ===
 rating: yes
