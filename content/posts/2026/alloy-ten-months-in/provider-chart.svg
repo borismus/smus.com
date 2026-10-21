@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" role="img" aria-label="Messages I sent per month in Alloy, by how they reached the model: direct APIs through May, OpenRouter in June, then mostly Codex and Claude subscriptions">
+  <style>
+    :root { --bg:#ffffff; --ink:#1f2328; --muted:#656d76; --grid:#e6e8eb; --axis:#8c959f; --subs:#2a78d6; --or:#d6457f; --api:#e8a317; --local:#1baf7a; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --ink:#e6edf3; --muted:#9198a1; --grid:#21262d; --axis:#6e7681; --subs:#3987e5; --or:#d0457d; --api:#c2860a; --local:#199e70; }
+    }
+    .bg { fill: var(--bg); }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 1; }
+    .tick { fill: var(--muted); font-size: 12px; }
+    .year { fill: var(--ink); font-size: 12px; font-weight: 600; }
+    .label { fill: #fff; font-size: 13px; font-weight: 600; }
+    .note { fill: var(--muted); font-size: 12px; font-style: italic; }
+    .marker { stroke: var(--axis); stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .subs { fill: var(--subs); } .or { fill: var(--or); } .api { fill: var(--api); } .local { fill: var(--local); }
+  </style>
+  <rect class="bg" width="790" height="400"/>
+  <line class="axis" x1="64" x2="770" y1="330.0" y2="330.0"/>
+  <text class="tick" x="56" y="334.0" text-anchor="end">0</text>
+  <line class="grid" x1="64" x2="770" y1="261.5" y2="261.5"/>
+  <text class="tick" x="56" y="265.5" text-anchor="end">250</text>
+  <line class="grid" x1="64" x2="770" y1="193.0" y2="193.0"/>
+  <text class="tick" x="56" y="197.0" text-anchor="end">500</text>
+  <line class="grid" x1="64" x2="770" y1="124.5" y2="124.5"/>
+  <text class="tick" x="56" y="128.5" text-anchor="end">750</text>
+  <line class="grid" x1="64" x2="770" y1="56.0" y2="56.0"/>
+  <text class="tick" x="56" y="60.0" text-anchor="end">1,000</text>
+  <line class="marker" x1="456.2" x2="456.2" y1="34" y2="330.0"/>
+  <text class="note" x="462.2" y="44">Switched to OpenRouter</text>
+  <path class="api" d="M79.2 330.0 V131.2 Q79.2 127.2 83.2 127.2 H123.2 Q127.2 127.2 127.2 131.2 V330.0 Z"><title>Jan: 740 via Direct APIs</title></path>
+  <text class="tick" x="103.2" y="348" text-anchor="middle">Jan</text>
+  <path class="api" d="M157.7 330.0 V174.5 Q157.7 170.5 161.7 170.5 H201.7 Q205.7 170.5 205.7 174.5 V330.0 Z"><title>Feb: 582 via Direct APIs</title></path>
+  <text class="tick" x="181.7" y="348" text-anchor="middle">Feb</text>
+  <path class="api" d="M236.1 330.0 V94.2 Q236.1 90.2 240.1 90.2 H280.1 Q284.1 90.2 284.1 94.2 V330.0 Z"><title>Mar: 875 via Direct APIs</title></path>
+  <text class="tick" x="260.1" y="348" text-anchor="middle">Mar</text>
+  <rect class="subs" x="314.6" y="324.8" width="48" height="5.2"><title>Apr: 19 via Codex &amp; Claude subscriptions</title></rect>
+  <path class="api" d="M314.6 322.8 V97.6 Q314.6 93.6 318.6 93.6 H358.6 Q362.6 93.6 362.6 97.6 V322.8 Z"><title>Apr: 851 via Direct APIs</title></path>
+  <text class="tick" x="338.6" y="348" text-anchor="middle">Apr</text>
+  <rect class="subs" x="393.0" y="319.0" width="48" height="11.0"><title>May: 40 via Codex &amp; Claude subscriptions</title></rect>
+  <rect class="or" x="393.0" y="258.6" width="48" height="58.5"><title>May: 228 via OpenRouter</title></rect>
+  <rect class="api" x="393.0" y="120.7" width="48" height="133.8"><title>May: 503 via Direct APIs</title></rect>
+  <rect class="local" x="393.0" y="118.3" width="48" height="0.6"><title>May: 9 via Local</title></rect>
+  <text class="tick" x="417.0" y="348" text-anchor="middle">May</text>
+  <rect class="subs" x="471.4" y="273.3" width="48" height="56.7"><title>Jun: 207 via Codex &amp; Claude subscriptions</title></rect>
+  <path class="or" d="M471.4 271.3 V114.9 Q471.4 110.9 475.4 110.9 H515.4 Q519.4 110.9 519.4 114.9 V271.3 Z"><title>Jun: 600 via OpenRouter</title></path>
+  <text class="tick" x="495.4" y="348" text-anchor="middle">Jun</text>
+  <rect class="subs" x="549.9" y="145.0" width="48" height="185.0"><title>Jul: 675 via Codex &amp; Claude subscriptions</title></rect>
+  <rect class="or" x="549.9" y="114.7" width="48" height="28.3"><title>Jul: 118 via OpenRouter</title></rect>
+  <path class="local" d="M549.9 110.7 V98.2 Q549.9 94.2 553.9 94.2 H593.9 Q597.9 94.2 597.9 98.2 V110.7 Z"><title>Jul: 75 via Local</title></path>
+  <text class="tick" x="573.9" y="348" text-anchor="middle">Jul</text>
+  <rect class="subs" x="628.3" y="147.0" width="48" height="183.0"><title>Aug: 668 via Codex &amp; Claude subscriptions</title></rect>
+  <rect class="or" x="628.3" y="142.7" width="48" height="2.3"><title>Aug: 23 via OpenRouter</title></rect>
+  <rect class="local" x="628.3" y="136.1" width="48" height="2.6"><title>Aug: 24 via Local</title></rect>
+  <text class="tick" x="652.3" y="348" text-anchor="middle">Aug</text>
+  <rect class="subs" x="706.8" y="106.4" width="48" height="223.6"><title>Sep: 816 via Codex &amp; Claude subscriptions</title></rect>
+  <rect class="or" x="706.8" y="102.4" width="48" height="2.0"><title>Sep: 22 via OpenRouter</title></rect>
+  <path class="local" d="M706.8 98.4 V92.7 Q706.8 88.7 710.8 88.7 H750.8 Q754.8 88.7 754.8 92.7 V98.4 Z"><title>Sep: 50 via Local</title></path>
+  <text class="tick" x="730.8" y="348" text-anchor="middle">Sep</text>
+  <text class="year" x="103.2" y="366" text-anchor="middle">2026</text>
+  <text class="label" x="260.1" y="214.1" text-anchor="middle" style="fill:#1f2328">APIs</text>
+  <text class="label" x="495.4" y="195.1" text-anchor="middle">OR</text>
+  <text class="label" x="730.8" y="222.2" text-anchor="middle">Subs</text>
+  <rect class="subs" x="64" y="12" width="12" height="12" rx="2"/>
+  <text class="tick" x="82" y="22" style="fill:var(--ink)">Codex &amp; Claude subscriptions</text>
+  <rect class="or" x="288" y="12" width="12" height="12" rx="2"/>
+  <text class="tick" x="306" y="22" style="fill:var(--ink)">OpenRouter</text>
+  <rect class="api" x="394" y="12" width="12" height="12" rx="2"/>
+  <text class="tick" x="412" y="22" style="fill:var(--ink)">Direct APIs</text>
+  <rect class="local" x="506" y="12" width="12" height="12" rx="2"/>
+  <text class="tick" x="524" y="22" style="fill:var(--ink)">Local</text>
+  <text class="tick" x="770" y="22" text-anchor="end">Messages I sent per month</text>
+</svg>

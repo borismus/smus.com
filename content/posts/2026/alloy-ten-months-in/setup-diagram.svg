@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 510" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <style>
+    :root { --bg:#ffffff; --ink:#1f2328; --muted:#656d76; --line:#8c959f; --box:#f6f8fa; --edge:#d0d7de; --alloy:#ddeafe; --alloy-ink:#0b4fae; --private:#1a7f37; --cloud:#f3f6fb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --ink:#e6edf3; --muted:#9198a1; --line:#6e7681; --box:#161b22; --edge:#30363d; --alloy:#12305c; --alloy-ink:#9ecbff; --private:#3fb950; --cloud:#141a24; }
+    }
+    .bg { fill: var(--bg); }
+    .title { fill: var(--ink); font-size: 15px; font-weight: 600; }
+    .sub { fill: var(--muted); font-size: 12.5px; }
+    .label { fill: var(--ink); font-size: 13.5px; }
+    .tag { fill: var(--muted); font-size: 12px; font-style: italic; }
+    .machine { fill: var(--box); stroke: var(--edge); stroke-width: 1.5; }
+    .chip { fill: var(--bg); stroke: var(--edge); stroke-width: 1.2; }
+    .alloy { fill: var(--alloy); stroke: var(--alloy-ink); stroke-width: 1.2; }
+    .alloy-text { fill: var(--alloy-ink); font-size: 14px; font-weight: 600; }
+    .home { fill: none; stroke: var(--line); stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .cloud-outline { fill: var(--line); stroke: var(--line); stroke-width: 3; }
+    .cloud-fill { fill: var(--cloud); }
+    .wire { fill: none; stroke: var(--ink); stroke-width: 1.6; }
+    .private { fill: none; stroke: var(--private); stroke-width: 2.2; }
+    .remote { fill: none; stroke: var(--line); stroke-width: 1.6; stroke-dasharray: 6 4; }
+    .head-ink { fill: var(--ink); }
+    .head-private { fill: var(--private); }
+    .head-remote { fill: var(--line); }
+  </style>
+  <defs>
+    <marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="head-ink" d="M0 0 L10 5 L0 10 z"/></marker>
+    <marker id="a-private" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="head-private" d="M0 0 L10 5 L0 10 z"/></marker>
+    <marker id="a-remote" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="head-remote" d="M0 0 L10 5 L0 10 z"/></marker>
+  </defs>
+
+  <rect class="bg" width="790" height="510"/>
+
+  <!-- The cloud -->
+  <g class="cloud-outline">
+    <rect x="205" y="100" width="540" height="68" rx="34"/>
+    <circle cx="265" cy="112" r="40"/>
+    <circle cx="345" cy="88" r="52"/>
+    <circle cx="455" cy="70" r="64"/>
+    <circle cx="570" cy="80" r="58"/>
+    <circle cx="665" cy="100" r="46"/>
+  </g>
+  <g class="cloud-fill">
+    <rect x="250" y="85" width="440" height="60"/>
+    <rect x="205" y="100" width="540" height="68" rx="34"/>
+    <circle cx="265" cy="112" r="40"/>
+    <circle cx="345" cy="88" r="52"/>
+    <circle cx="455" cy="70" r="64"/>
+    <circle cx="570" cy="80" r="58"/>
+    <circle cx="665" cy="100" r="46"/>
+  </g>
+  <rect class="chip" x="240" y="108" width="130" height="40" rx="8"/>
+  <text class="label" x="305" y="133" text-anchor="middle">Cloudflare</text>
+  <rect class="chip" x="545" y="108" width="130" height="40" rx="8"/>
+  <text class="label" x="610" y="133" text-anchor="middle">Codex · Claude</text>
+
+  <!-- Phone -->
+  <rect class="machine" x="48" y="72" width="54" height="94" rx="10"/>
+  <rect class="chip" x="55" y="84" width="40" height="66" rx="3"/>
+  <text class="title" x="75" y="190" text-anchor="middle">iPhone</text>
+  <text class="sub" x="75" y="207" text-anchor="middle">browser</text>
+  <path class="wire" d="M 102 128 L 238 128" marker-end="url(#a-ink)"/>
+
+  <!-- Home network -->
+  <rect class="home" x="185" y="215" width="575" height="245" rx="14"/>
+  <text class="sub" x="745" y="236" text-anchor="end" letter-spacing="1.5">HOME NETWORK</text>
+
+  <!-- Mac mini -->
+  <rect class="machine" x="205" y="250" width="200" height="190" rx="12"/>
+  <text class="title" x="222" y="410">Mac mini</text>
+  <text class="sub" x="222" y="428">always on · scheduled tasks</text>
+  <rect class="alloy" x="245" y="275" width="120" height="42" rx="8"/>
+  <text class="alloy-text" x="305" y="301" text-anchor="middle">Alloy</text>
+
+  <!-- MacBook Pro -->
+  <rect class="machine" x="430" y="250" width="310" height="190" rx="12"/>
+  <text class="title" x="447" y="410">MacBook Pro</text>
+  <text class="sub" x="447" y="428">plugged in overnight</text>
+  <rect class="alloy" x="455" y="275" width="120" height="42" rx="8"/>
+  <text class="alloy-text" x="515" y="301" text-anchor="middle">Alloy</text>
+  <rect class="chip" x="595" y="335" width="130" height="42" rx="8"/>
+  <text class="label" x="660" y="361" text-anchor="middle">oMLX · Qwen 27B</text>
+
+  <!-- Tunnel: only the Mac mini's Alloy is reachable from outside -->
+  <path class="wire" d="M 305 148 L 305 273" marker-end="url(#a-ink)"/>
+  <text class="tag" x="313" y="198">tunnel</text>
+
+  <!-- Everything else goes to cloud models -->
+  <path class="remote" d="M 350 275 C 380 215, 520 200, 580 150" marker-end="url(#a-remote)"/>
+  <path class="remote" d="M 540 275 C 560 220, 600 190, 615 150" marker-end="url(#a-remote)"/>
+
+  <!-- Private conversations stay on Qwen -->
+  <path class="private" d="M 365 305 C 420 315, 470 356, 593 356" marker-end="url(#a-private)"/>
+  <path class="private" d="M 575 305 C 610 307, 640 315, 650 333" marker-end="url(#a-private)"/>
+
+  <!-- Legend -->
+  <path class="private" d="M 200 487 L 236 487"/>
+  <text class="sub" x="244" y="491">private: stays on the local model</text>
+  <path class="remote" d="M 470 487 L 506 487"/>
+  <text class="sub" x="514" y="491">everything else: cloud models</text>
+</svg>
