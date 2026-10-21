@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  <title>Ten months of Alloy: local where it counts | Boris Smus</title>
+
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+
+  <meta name="description" content="I started  Alloy  almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow." />
+  <meta name="author" content="Boris Smus" />
+  <link rel="canonical" href="https://smus.com/alloy-ten-months-in/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ten months of Alloy: local where it counts" />
+  <meta name="twitter:description" content="I started  Alloy  almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow." />
+  
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://smus.com/alloy-ten-months-in/" />
+  <meta property="og:title" content="Ten months of Alloy: local where it counts" />
+  <meta property="og:description" content="I started  Alloy  almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow." />
+  
+
+  <!-- Mastodon -->
+  <link rel="me" href="https://mastodon.social/@borismus">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/icons/site.webmanifest">
+
+  <!-- Styles -->
+  <link
+  href='//fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans+Condensed:700|Source+Serif+Pro:400,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/style.css'>
+  <link rel='stylesheet' href='/static/css/prism.css'>
+
+  <!-- Feed -->
+  <link href="https://smus.com/atom.xml" rel="alternate" title="Boris Smus" type="application/atom+xml"/>
+</head>
+<body>
+<header>
+  <div id='title'>
+    <h1><a href='/'>Boris Smus</a></h1>
+    <h2>interaction engineering</h2>
+  </div>
+  <nav role='navigation'>
+    <a href='/about/' >About</a>
+    <a href='/blog/' >Blog</a>
+    <a href='/projects/' >Projects</a>
+  </nav>
+</header>
+
+<section id='main'>
+  <article>
+    <a href='/alloy-ten-months-in'><h1 class='title'>Ten months of Alloy: local where it counts</h1></a>
+    <div class='body'>
+      <p>I started <a href="/alloy-local-first-ai-workbench/">Alloy</a> almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow.</p>
+<!--more-->
+
+<h1>How I use Alloy</h1>
+<p><img alt="Messages I sent per month" src="usage-chart.svg" /></p>
+<p>This chart is just a sliver of how I actually use AI. Alloy is an AI chat app, not an agent harness, so I continue to rely on Pi, Codex, or Claude Code for coding and deeper project work.</p>
+<h2>Interfacing with cloud models</h2>
+<p>I started out with a direct API integration for each provider (Anthropic, OpenAI, Gemini, Grok), but keeping up with each one's quirks was a pain, so in May I replaced them all with OpenRouter's single API. Most of my chats go through OpenAI and Anthropic subscriptions via the <code>codex</code> and <code>claude</code> command line tools. Local models run through <a href="https://github.com/jundot/omlx">oMLX</a>.</p>
+<p><img alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
+<p>The mix has shifted a lot. In the spring, nearly everything went through direct APIs, mostly Gemini Flash because of price. But whether direct or via OpenRouter, pay-per-token usage adds up, and since I'm already paying for subscriptions to the frontier labs, I've embraced their clouds at no extra cost.</p>
+<h2>Enabling local and remote access</h2>
+<p><img alt="My Alloy setup" src="setup-diagram.svg" /></p>
+<p>The same Alloy runs on both of my Macs. The only difference is that the Mac mini's copy is reachable from outside my home network through an authenticated <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/">Cloudflare Tunnel</a>. My local model, Qwen 3.8 27B, runs on the MacBook Pro, which has 128 GB of unified memory.</p>
+<h2>It works on my phone!</h2>
+<p><img alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
+<p>Alloy is a PWA which lives on my phone's home screen and behaves like an app. It's served by the always-on Mac mini, which is reachable from anywhere through the tunnel and can relay to the MacBook Pro if it's home, enabling private conversations to work on the go. Since I started tracking this in early October, about a quarter of my messages have come from my phone.</p>
+<h1>Local where it counts</h1>
+<p>Local models are still slow. On private data, a typical local reply takes about two minutes, and one in ten takes over 15 minutes. This is a very long time compared to under half a minute for Codex or Claude. Even so, there are two places where local is now my default: processing private data at night, and starting private chats locally before switching to the cloud.</p>
+<h2>Slowly processing at night</h2>
+<p>Two recurring tasks run on the local model overnight, reading private data and taking their sweet time:</p>
+<ol>
+<li>
+<p><strong>Reading suggestion</strong>: the local model reads my most recent notes, infers what I'm into lately, and suggests one paper or article to read. If it can't find a good match, it stays quiet. It remembers what it suggested on previous runs, so it doesn't repeat itself. Over the last 40 nights, it made 16 suggestions and stayed quiet on the rest, which is by design: I'd rather get nothing than filler. The best one so far was Elinor Ostrom's <em>Governing the Commons</em>. I'd been sketching a shared "family commons" for a side project, and it pointed me to Ostrom's principles for how communities govern shared resources. It got there from my project notes alone, but Ostrom was already on my to-read list, which felt like a good sign. I haven't read it yet. Its main weakness is that when my notes are about a book, it sometimes recommends that same book back to me.</p>
+</li>
+<li>
+<p><strong>Spending audit</strong>: every week, the local model audits transactions, comparing totals and categorical breakdowns against the previous weeks, tracking new merchants, and big or duplicate charges.</p>
+</li>
+</ol>
+<p>The transactions come from <a href="https://www.simplefin.org/">SimpleFIN</a>, a cheap, read-only bridge to my bank and card accounts. A small script on the Mac mini pulls each week's transactions down as CSVs, and the Alloy task just reads those files. Honestly, an agent that owned the whole pipeline, SimpleFIN included, would be less fiddly. But my transactions map to locations, times, and spending habits, so keeping them private is worth the friction (see <a class="wiki" href="https://z3.ca/Tyranny_of_convenience_rests_on_felt_benefits_and_abstract_costs">Tyranny of convenience rests on felt benefits and abstract costs</a>).</p>
+<p>Not everything financial is private, though. A weekly stock dip alert runs on Codex, because I don't mind a cloud model knowing which stocks I follow.</p>
+<h2>Start local, switch to cloud</h2>
+<p>One of Alloy's strengths is that it lets me switch model providers in the middle of a conversation, which enables a pattern that's useful for privacy.</p>
+<p>For anything personal, I start local and switch to the cloud only when I need to. The local model has full read access to my Obsidian vault, which is about as personal as my data gets. If what it finds isn't itself sensitive, I switch to a cloud model on the second turn for higher intelligence and faster responses.</p>
+<p><img alt="What each model can access" src="access-diagram.svg" /></p>
+<p>When I switch models from local to cloud, Alloy warns me that the cloud model will see my messages and the local model's replies, but not the files it reads or its reasoning.</p>
+<hr />
+<p>If you'd like to try Alloy, you can <a href="https://github.com/borismus/alloy/releases">download it for macOS</a>. The <a href="https://github.com/borismus/alloy">source is on GitHub</a>. If you try it, or you're experimenting with local models yourself, drop me a <a href="mailto:boris@smus.com">line</a>.</p>
+    </div>
+    <div class='subfooter'>
+      <div class='tombstone'>▪</div>
+      <time class='published'>October 21, 2026</time>
+    </div>
+  </article>
+</section>
+
+
+<footer>
+  <div>
+    © Copyright 2005–2026 Boris Smus.
+  </div>
+  <nav role="footer">
+    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
+    <a href='https://smus.com/atom.xml'>RSS</a>
+    <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
+  </nav>
+</footer>
+
+<!-- Syntax highlighting for code (only for tagged code blocks). -->
+<script src="/static/js/prism.js"></script>
+<!-- Lightning builder error check. -->
+<script src="/lightning_error.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-38Y45XD5VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-38Y45XD5VQ');
+</script>
+
+
+</body>
+</html>

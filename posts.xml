@@ -5,8 +5,63 @@
   <title>Boris Smus (Posts)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-10-19T21:22:37-00:00</updated>
+  <updated>2026-10-21T12:19:13-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Ten months of Alloy: local where it counts</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/alloy-ten-months-in"/>
+    
+    <updated>2026-10-21T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/alloy-ten-months-in</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>I started <a href="/alloy-local-first-ai-workbench/">Alloy</a> almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow.</p>
+<!--more-->
+
+<h1>How I use Alloy</h1>
+<p><img alt="Messages I sent per month" src="usage-chart.svg" /></p>
+<p>This chart is just a sliver of how I actually use AI. Alloy is an AI chat app, not an agent harness, so I continue to rely on Pi, Codex, or Claude Code for coding and deeper project work.</p>
+<h2>Interfacing with cloud models</h2>
+<p>I started out with a direct API integration for each provider (Anthropic, OpenAI, Gemini, Grok), but keeping up with each one's quirks was a pain, so in May I replaced them all with OpenRouter's single API. Most of my chats go through OpenAI and Anthropic subscriptions via the <code>codex</code> and <code>claude</code> command line tools. Local models run through <a href="https://github.com/jundot/omlx">oMLX</a>.</p>
+<p><img alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
+<p>The mix has shifted a lot. In the spring, nearly everything went through direct APIs, mostly Gemini Flash because of price. But whether direct or via OpenRouter, pay-per-token usage adds up, and since I'm already paying for subscriptions to the frontier labs, I've embraced their clouds at no extra cost.</p>
+<h2>Enabling local and remote access</h2>
+<p><img alt="My Alloy setup" src="setup-diagram.svg" /></p>
+<p>The same Alloy runs on both of my Macs. The only difference is that the Mac mini's copy is reachable from outside my home network through an authenticated <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/">Cloudflare Tunnel</a>. My local model, Qwen 3.8 27B, runs on the MacBook Pro, which has 128 GB of unified memory.</p>
+<h2>It works on my phone!</h2>
+<p><img alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
+<p>Alloy is a PWA which lives on my phone's home screen and behaves like an app. It's served by the always-on Mac mini, which is reachable from anywhere through the tunnel and can relay to the MacBook Pro if it's home, enabling private conversations to work on the go. Since I started tracking this in early October, about a quarter of my messages have come from my phone.</p>
+<h1>Local where it counts</h1>
+<p>Local models are still slow. On private data, a typical local reply takes about two minutes, and one in ten takes over 15 minutes. This is a very long time compared to under half a minute for Codex or Claude. Even so, there are two places where local is now my default: processing private data at night, and starting private chats locally before switching to the cloud.</p>
+<h2>Slowly processing at night</h2>
+<p>Two recurring tasks run on the local model overnight, reading private data and taking their sweet time:</p>
+<ol>
+<li>
+<p><strong>Reading suggestion</strong>: the local model reads my most recent notes, infers what I'm into lately, and suggests one paper or article to read. If it can't find a good match, it stays quiet. It remembers what it suggested on previous runs, so it doesn't repeat itself. Over the last 40 nights, it made 16 suggestions and stayed quiet on the rest, which is by design: I'd rather get nothing than filler. The best one so far was Elinor Ostrom's <em>Governing the Commons</em>. I'd been sketching a shared "family commons" for a side project, and it pointed me to Ostrom's principles for how communities govern shared resources. It got there from my project notes alone, but Ostrom was already on my to-read list, which felt like a good sign. I haven't read it yet. Its main weakness is that when my notes are about a book, it sometimes recommends that same book back to me.</p>
+</li>
+<li>
+<p><strong>Spending audit</strong>: every week, the local model audits transactions, comparing totals and categorical breakdowns against the previous weeks, tracking new merchants, and big or duplicate charges.</p>
+</li>
+</ol>
+<p>The transactions come from <a href="https://www.simplefin.org/">SimpleFIN</a>, a cheap, read-only bridge to my bank and card accounts. A small script on the Mac mini pulls each week's transactions down as CSVs, and the Alloy task just reads those files. Honestly, an agent that owned the whole pipeline, SimpleFIN included, would be less fiddly. But my transactions map to locations, times, and spending habits, so keeping them private is worth the friction (see <a class="wiki" href="https://z3.ca/Tyranny_of_convenience_rests_on_felt_benefits_and_abstract_costs">Tyranny of convenience rests on felt benefits and abstract costs</a>).</p>
+<p>Not everything financial is private, though. A weekly stock dip alert runs on Codex, because I don't mind a cloud model knowing which stocks I follow.</p>
+<h2>Start local, switch to cloud</h2>
+<p>One of Alloy's strengths is that it lets me switch model providers in the middle of a conversation, which enables a pattern that's useful for privacy.</p>
+<p>For anything personal, I start local and switch to the cloud only when I need to. The local model has full read access to my Obsidian vault, which is about as personal as my data gets. If what it finds isn't itself sensitive, I switch to a cloud model on the second turn for higher intelligence and faster responses.</p>
+<p><img alt="What each model can access" src="access-diagram.svg" /></p>
+<p>When I switch models from local to cloud, Alloy warns me that the cloud model will see my messages and the local model's replies, but not the files it reads or its reasoning.</p>
+<hr />
+<p>If you'd like to try Alloy, you can <a href="https://github.com/borismus/alloy/releases">download it for macOS</a>. The <a href="https://github.com/borismus/alloy">source is on GitHub</a>. If you try it, or you're experimenting with local models yourself, drop me a <a href="mailto:boris@smus.com">line</a>.</p>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Invention Cards 3.0: Stories</title>
@@ -6157,125 +6212,6 @@ prospect of the <a href="https://plus.sandbox.google.com/+ChrisWilson/posts/Qapz
 <li>Not web-based, but a painstakingly recorded and tweaked <a href="https://www.youtube.com/watch?v=IUDTlvagjJA">binaural
   haircut simulation</a> just to illustrate the potential.</li>
 </ul>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Responsive WebVR, headset optional</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/responsive-vr"/>
-    
-    <updated>2015-02-02T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/responsive-vr</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>VR on the web threatens to cleave the web platform in twain, like mobile
-did before it. The solution then and the solution now is <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Web
-Design</a>, which websites to scale well for all form factors.
-Similarly, for VR to succeed on the web, we need to figure out how to
-make VR experiences that work both in any VR headset, and also without a
-VR headset at all.</p>
-<p><img alt="Various head mounted displays." src="hmds.png" /></p>
-<p><a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate</a> is a new starting point for building
-responsive web VR experiences that work on popular VR headsets and
-degrace gracefully on other platforms. Check out a couple of demos, <a href="http://borismus.github.io/webvr-boilerplate/">a
-simple one</a> and one <a href="http://borismus.github.io/sechelt">ported from MozVR</a>.</p>
-<!--more-->
-
-<h2>Preview the VR experience for everyone</h2>
-<p>Say you visit a webpage, and it opens up in split-screen mode barrel
-distortion, chromatic aberration correction, personalized interpupillary
-distance, and provides 6 DOF tracking. <a href="https://www.youtube.com/watch?v=PkFyGNjaQ8k">Whoa</a>. You reach for your
-VR headset only to find that you forgot it at work! How disappointing!
-The vast majority of normal people with no head mounted display lying
-around will surely be even more disappointed.</p>
-<p>Responsive web design promises content which automatically adapts to
-your viewing environment by using fluid layouts, flexible images,
-proportional grids; a cocktail of modern web technologies. Similarly,
-WebVR experiences need to work even without VR hardware. This has two
-obvious advantages:</p>
-<ol>
-<li>The vast majority of people that don't have VR hardware can still get
-   a feeling for the experience.</li>
-<li>Even if you have VR gear, donning it is a pain. This preview lets you
-   quickly evaluate whether or not wearing is worth the hassle.</li>
-</ol>
-<p>What are some reasonable fallbacks to the in-helmet VR experience? The
-main question boils down to emulating head tracking without wearing
-anything on your head. On mobile phones, the obvious answer is to use
-the gyroscope, for a <a href="http://googlespotlightstories.com/">Spotlight Stories</a>-type experience. On
-desktop, we use the mouse to free-look, and also support turning using
-the arrow keys. This covers enough of the 3DOF orientation that all HMDs
-provide. Clearly missing are the three translational degrees of freedom,
-but these are provided only by some VR headsets, and we can imagine some
-<a href="http://topheman.github.io/parallax/">interesting fallbacks</a> for those too.</p>
-<h2>Write once, run in any VR headset</h2>
-<p>Remember the old "write once, run anywhere" promise? The web is the
-closest thing we have to fulfilling it, but what it actually delivers is
-often far from this ideal. The latest VR wave has barely begun and
-already the web VR world is fragmented. Case in point,
-<a href="http://vr.chromeexperiments.com/">vr.chromeexperiments.com</a> don't work on Oculus, and
-<a href="http://mozvr.com/">mozvr.com</a> demos don't work in Cardboard.  The promise of WebVR
-is that once it lands, all will be well in the world. However, this
-means that we need to wait for WebVR to become fully baked. In other
-words, we are blocked on the valiant efforts of our dear <a href="https://twitter.com/vvuk">WebVR</a>
-<a href="https://twitter.com/Tojiro">implementers</a> (as well as the heavyweight browser development
-process consisting of spec authors, security reviews, binary size, etc).</p>
-<p>To speed up the process, we need a polyfill for WebVR which uses web
-APIs to provide functionality to the WebVR specification (currently, in
-<a href="https://github.com/vvuk/gecko-dev/blob/oculus/dom/webidl/VRDevice.webidl">IDL form</a>). In the absence of a WebVR implementation, the polyfill
-kicks in and supports mobile VR headsets like Cardboard and Durovis
-Dive, which are passive contraptions that just piggyback on the
-smartness found in your smartphone.</p>
-<h2>Introducing: WebVR Boilerplate</h2>
-<p>The <a href="https://github.com/borismus/webvr-boilerplate">WebVR boilerplate project</a> is on github, and consists of
-two parts. Firstly, the <a href="https://github.com/borismus/webvr-polyfill">WebVR polyfill</a> provides WebVR
-support for Cardboard-compatible devices, and orientation tracking
-fallbacks where no headset is available. The WebVR polyfill can also be
-installed from npm (available via <code>npm install webvr-polyfill</code>).</p>
-<ol>
-<li>A <code>CardboardHMDDevice</code>, provides a reasonable default for
-   interpupillary distance and field of view for cardboard-like devices.</li>
-<li>On mobile devices, a <code>GyroPositionSensorVRDevice</code>, which provides
-   orientation through the <code>DeviceOrientationEvent</code>.</li>
-<li>On PCs, a <code>MouseKeyboardPositionSensorVRDevice</code>, which provides
-   orientation through keyboard and mouse events.</li>
-</ol>
-<p>It is designed to be used with <a href="http://threejs.org/">THREE.js</a> plugins that are built
-for the WebVR API: <a href="https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js">VRControls.js</a> and
-<a href="https://github.com/mrdoob/three.js/blob/master/examples/js/effects/VREffect.js">VREffect.js</a>, but of course any valid usage of the WebVR API
-should work (modulo bugs).</p>
-<p>Secondly, the <a href="https://github.com/borismus/webvr-boilerplate/blob/master/js/webvr-manager.js">WebVR manager</a> surfaces VR compatibility
-using consistent iconography and simplifies transitioning in and out of
-full VR mode. It also contains some of the best practices for making VR
-work on the web, for example, using orientation lock to keep the phone
-in landscape orientation, and a means of keeping the phone screen on. If
-you're ready to dive in, the <a href="https://github.com/borismus/webvr-boilerplate">github has all of the technical
-information</a> available.</p>
-<p>WebVR boilerplate is meant to make it easy to develop immersive
-experiences that run on all VR hardware, including Oculus and Cardboard,
-and also provide reasonable fallbacks when no specialized viewer is
-available.</p>
-<h2>WebVR boilerplate in action</h2>
-<p><img alt="Screenshot of the mozvr.com Sechelt demo." src="sechelt.png" /></p>
-<p>I really liked Mozilla's <a href="http://mozvr.com/projects/sechelt/">Sechelt demo</a>, inspired by the
-eponymous town on British Columbia's beautiful Sunshine Coast. I've
-<a href="http://borismus.github.io/sechelt">ported it</a> to WebVR Boilerplate. The result is the same
-demo, which works in Cardboard, as well as continuing to work on desktop
-and mobile devices, and on the Oculus Rift via <a href="https://nightly.mozilla.org/">Firefox Nightly</a> and
-<a href="https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&amp;usp=sharing#list">Brandon's WebVR Chrome builds</a>. It also yielded less confusing
-boilerplate code and a <a href="https://github.com/borismus/sechelt/commit/671cff9fc283b58d2ebce0ae6f0dfa3580050aab">simplified code base</a> since
-there is no longer need for an unweildy conditional to determine whether
-to use <code>DeviceOrientationControls</code>, <code>OrbitControls</code>, or <code>VRControls</code>,
-and decide between <code>VREffect</code> and <code>StereoEffect</code>.</p>
-<p>As always, <a href="https://twitter.com/borismus">let me know what you think</a> and feel free to point
-out (or fix!) my mistakes on <a href="https://github.com/borismus/webvr-boilerplate">the github</a>.</p>
 
         
       </div>

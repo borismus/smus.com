@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <style>
+    :root { --bg:#ffffff; --ink:#1f2328; --muted:#656d76; --edge:#d0d7de; --alloy:#ddeafe; --alloy-ink:#0b4fae; --private:#1a7f37; --private-fill:#eef8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --ink:#e6edf3; --muted:#9198a1; --edge:#30363d; --alloy:#12305c; --alloy-ink:#9ecbff; --private:#3fb950; --private-fill:#0f2117; }
+    }
+    .bg { fill: var(--bg); }
+    .local { fill: var(--private-fill); stroke: var(--private); stroke-width: 2; }
+    .cloud { fill: var(--alloy); stroke: var(--alloy-ink); stroke-width: 2; }
+    .local-title { fill: var(--private); font-size: 16px; font-weight: 600; }
+    .cloud-title { fill: var(--alloy-ink); font-size: 16px; font-weight: 600; }
+    .chip { fill: var(--bg); stroke: var(--edge); stroke-width: 1.2; }
+    .label { fill: var(--ink); font-size: 14px; font-weight: 500; }
+    .sub { fill: var(--muted); font-size: 12.5px; }
+  </style>
+
+  <rect class="bg" width="760" height="400"/>
+
+  <!-- Everything the local model can read -->
+  <ellipse class="local" cx="380" cy="205" rx="350" ry="180"/>
+  <text class="local-title" x="150" y="120">Local model</text>
+
+  <rect class="chip" x="95" y="198" width="220" height="56" rx="8"/>
+  <text class="label" x="205" y="222" text-anchor="middle">Sensitive directories</text>
+  <text class="sub" x="205" y="241" text-anchor="middle">read only</text>
+
+  <!-- The cloud model's access is a subset -->
+  <ellipse class="cloud" cx="530" cy="220" rx="165" ry="115"/>
+  <text class="cloud-title" x="530" y="160" text-anchor="middle">Cloud model</text>
+
+  <rect class="chip" x="445" y="198" width="170" height="56" rx="8"/>
+  <text class="label" x="530" y="222" text-anchor="middle">Alloy notes</text>
+  <text class="sub" x="530" y="241" text-anchor="middle">read-write</text>
+</svg>
