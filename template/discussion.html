@@ -1,0 +1,15 @@
+{% if yaml.discussion %}
+<div class='discussion'>
+  Discussed on
+  {% for url in yaml.discussion %}
+  {%- set host = url.split('/')[2] -%}
+  <a href='{{ url }}'>
+    {%- if 'reddit.com' in host %}r/{{ url.split('/')[4] }}
+    {%- elif 'ycombinator.com' in host %}Hacker News
+    {%- elif 'bsky.app' in host %}Bluesky
+    {%- elif 'mastodon' in host %}Mastodon
+    {%- else %}{{ host }}{% endif -%}
+  </a>{{ ',' if not loop.last }}
+  {% endfor %}
+</div>
+{% endif %}
