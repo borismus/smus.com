@@ -1,6 +1,8 @@
 Ultrasonic networking on the web
 ================================
 posted: 2013-08-08
+discussion:
+  - https://news.ycombinator.com/item?id=6181627
 
 The phone in your pocket is an amazing, fluid, multi-functional tool.
 When it comes to talking to other devices, such as your TV or laptop,

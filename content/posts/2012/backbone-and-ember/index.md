@@ -2,6 +2,8 @@ Backbone and ember
 ==================
 categories: [web]
 posted: 2012-02-15
+discussion:
+  - https://news.ycombinator.com/item?id=3597182
 
 
 

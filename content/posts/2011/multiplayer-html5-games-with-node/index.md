@@ -4,6 +4,8 @@ categories: [web, games, multiplayer]
 posted: 2011-08-30
 snip: Introducing osmus, a multiplayer HTML5 game written with web sockets, canvas
   and a game engine that runs shared code on the client and server.
+discussion:
+  - https://news.ycombinator.com/item?id=2942412
 
 
 

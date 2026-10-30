@@ -1,6 +1,8 @@
 Invention Cards 3.0: Stories
 ===
 posted: May 20, 2026
+discussion:
+  - https://www.reddit.com/r/historyteachers/comments/1tow4ae/i_built_an_interactive_tech_tree_of_human_history/
 
 Last month, after a long hiatus, I showed [invention.cards](/visual-chronology-science-discovery-v2/) to a friend in SF and came away unsatisfied. Indeed, the work was [not yet done](/notes/2025/invention-discovery-cards-work-complete/). Three things drove this revision:
 

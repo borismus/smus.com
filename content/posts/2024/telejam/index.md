@@ -1,6 +1,8 @@
 Telejam: Interplanetary Musical Ensembles
 ===
 posted: Feb 8, 2024
+discussion:
+  - https://mastodon.social/@borismus/111897642682358776
 
 Telejam is a web application for musicians to collaborate online in almost real time. Existing solutions like Sonulus, JamKazam and others attempt to provide live, in-sync musical collaboration over the internet. This sometimes works, especially if specialized network hardware is involved and if your collaborators are nearby. The just noticeable delay for music performance is about 30 milliseconds, and players positioned at opposite ends of the Earth will experience at least a 70-millisecond delay.
 

@@ -48,6 +48,8 @@ rating: yes
 posted: Sep 15, 2026
 headline: Anarchy’s Middle Managers
 cover: /assets/book-covers/the-dispossessed.jpg
+discussion:
+  - https://bsky.app/profile/smus.com/post/3mvlurlep3k2c
 
 I started hostile. Urras seemed like a transparent critique of Earth, while Anarres seemed too good to be true. By the end, I realized I was right about Anarres and wrong about why: its failure to live up to its ideals is exactly Le Guin’s subject. It's not about the superiority of anarchy to capitalism, but the way power survives every attempt to abolish it and how a society's ideals dilute over generations. Faced with the failures of Urrasti capitalism, Thuvian communism, and Anarresti anarchism, Shevek gives his life's work away to the commons.
 

@@ -4,6 +4,8 @@ categories: [web, google, chrome]
 posted: 2011-10-04
 snip: An effective way of creating video screen captures in Chrome without relying
   on a plugin.
+discussion:
+  - https://news.ycombinator.com/item?id=3075311
 
 
 
