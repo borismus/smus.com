@@ -585,8 +585,7 @@ article .book-context {
     color: inherit;
   }
 
-  article time.published,
-  article .discussion {
+  article time.published {
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -615,8 +614,5 @@ article .book-context {
 }
 
 article .discussion {
-  padding-top: 2rem;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.3rem;
-  color: rgba(0, 0, 0, 0.5);
+  padding-top: 1rem;
 }

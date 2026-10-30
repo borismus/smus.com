@@ -9,7 +9,7 @@
     {%- elif 'bsky.app' in host %}Bluesky
     {%- elif 'mastodon' in host %}Mastodon
     {%- else %}{{ host }}{% endif -%}
-  </a>{{ ',' if not loop.last }}
+  </a>{{ ',' if not loop.last else '.' }}
   {% endfor %}
 </div>
 {% endif %}
