@@ -34,5 +34,6 @@ discussion:
 - r/Supernote: supernote-cli and the e-ink handwriting VLM note both got good threads.
 - r/historyteachers: the Invention Cards tech tree.
 - Hacker News worked in 2011–13 for practical web-dev posts (Backbone vs Ember: 40 comments). Recent submissions there have drawn little.
+- r/LocalLLaMA: blocked as of Oct 2026, because Boris doesn't have enough karma there to post. Suggest commenting in relevant threads, or r/ObsidianMD for vault/local-model angles.
 - Bluesky/Mastodon: mostly likes. Occasional good threads (Telejam, The Dispossessed).
 - Practical build/tool posts get discussion more easily than reflective essays and book reviews. For those, emailing a few people or one small matching community fits better.
