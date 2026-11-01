@@ -4,6 +4,52 @@ class: split
 type: book
 
 
+The Death of Ivan Ilyich by Lev Tolstoy
+===
+rating: yes
+posted: Oct 31, 2026
+headline: Can a Book Review Be a Memento Mori?
+cover: /assets/book-covers/death-ivan-ilyich.jpg
+
+On graduating from law school, Ivan Ilyich outfits himself with fashionable clothes and a medallion inscribed *respice finem*: consider the end. Then he dines at a first-class restaurant. Decades later, dying in agony, he finally asks whether he has lived wrongly. What troubles me is that he already had the warning: he wore it.
+
+The plot is minimal: a judge falls ill and dies over a few months. His life, Tolstoy tells us, was "most simple and most ordinary and therefore most terrible" (самая простая и обыкновенная и самая ужасная). Tolstoy savages Russian officialdom for its conformism, pretense, and default drift toward money, power, and status (see [[The Inner Ring by C. S. Lewis]]). The [EconTalk episode](https://www.econtalk.org/lives-wasted-and-well-lived-david-wolpe-on-the-death-of-ivan-ilyich/) inspired me to read it first. I wanted to form my own opinion before hearing Roberts and Wolpe.
+
+# Living "comme il faut" (as one should)
+The novella opens not with Ivan's death per se, but with others' reaction to his death. Many of his friends are inwardly pleased that they're still kicking, and jockey for promotion to fill the vacancy, while his wife seeks to squeeze more pension out of the state. Yet outwardly all put on a mask and work hard to act the way one should at a somber memorial service.
+
+Ivan's entire outward existence is based on social expectation. His house looks like every other "almost-rich" house:
+
+> In reality, it was just what is usually seen in the houses of people of moderate means who want to appear rich, and therefore succeed only in resembling others like themselves: there are damasks, dark wood, plants, rugs, and dull and polished bronzes — all the things people of a certain class have in order to resemble other people of that class.[^1]
+
+Even his facial hair is a fashion statement: on joining the new courts he adopts "moderate liberalism" and, in the same breath, stops shaving his chin. Even the reminder of death, the respice finem medallion, was an accessory.
+
+# Career drift and numbness
+Unlike his father, whom Tolstoy scathingly describes as a superfluous member of superfluous institutions (ненужный член разных ненужных учреждений), Ivan does not have a bullshit job and is proud of his craft. But over time, his work becomes formal and impersonal. The numbness starts earlier, in law school. He does things he finds vile, then notices respectable people do them too. He doesn't decide they're fine; he just forgets them:
+
+> At school, he had done things which had formerly seemed to him very horrid and made him feel disgusted with himself when he did them; but when later on he saw that such actions were done by people of good position and that they did not regard them as wrong, he was able not exactly to regard them as right, but to forget about them entirely or not be at all troubled at remembering them.[^2]
+
+When his own health turns and he goes to a similarly formal and impersonal doctor, he is frustrated that the doctor cares about the case but not about him. The doctor treats Ivan exactly the way Ivan treated defendants, weighing floating kidney against appendicitis like a judge summing up, while Ivan only wants to know if he's in danger. Yet Ivan's only conclusion is that it's unpleasant to be on the receiving end, not that he did the same thing to other people.
+
+# Pain shows the truth
+Ivan slips on a stepladder while showing the upholsterer how to hang the drapes, and bangs his side on the window frame. That's how he thinks his illness starts: decorating a house he believed exceptional, which was exactly like every other almost-rich house.
+
+No memento mori can shake Ivan out of his automatic, sleepwalking life. Physical pain becomes mental pain, mental pain becomes clarity, and Ivan finally sees what is bothering him: everyone pretends he's only ill and not dying. And this pretense is just an extension of life before his illness: everyone was lying to him all the time. Everyone except the simple Gerasim, who performs unpleasant care without evasion or resentment, and sees that Ivan is dying. Gerasim doesn't pretend otherwise, saying «все умирать будем, отчего же не потрудиться?» (we'll all die, so why not take the trouble?). Roberts links Gerasim to the kindness of tending the dying, which is true because it can't be repaid. Gerasim doesn't mind the work because he hopes someone will do the same for him when his time comes.
+
+# (How) To Live?
+Ivan's redemption is largely internal. Hours before the end, his flailing hand falls on his son's head; the boy kisses it and weeps. Ivan opens his eyes and feels sorry for someone other than himself: his son, then his weeping wife. He tries to say «прости» (forgive me) but gets out only «пропусти» (let me through). Tolstoy shows the bad life in full detail and the good one only in glimpses. That's honest, because a positive recipe might just become another comme il faut.
+
+I watched Kurosawa's film *Ikiru* ("To Live") last year, not knowing it was loosely inspired by this book. It diverges from Tolstoy's work in the way the hero reacts to his epiphany. Months away from inevitable death, the lonely protagonist Watanabe channels his energies into finally building a much-requested neighborhood park, which previously bounced between departments. Both men's real poverty was relational. It was only after Watanabe tried to confide in his son and got brushed off that he turned to the park. Kurosawa appears to suggest that the park redeemed him, but his relationship with his son remained broken. I found Ivan's peace troubling too: his attempt at repair is one garbled word, and he's absolved anyway.
+
+Watanabe gets months to live, Ivan gets hours, and we have years and decades, God willing. But that's also the problem. At Watanabe's wake, his coworkers, who have no deadline, vow to live like him; by the next morning they're bouncing petitions between departments again. Wolpe suspects the same of deathbed regrets: give that person thirty more years and they'd be back at the office.
+
+I'm tempted to read the book as a reminder to trust one's conscience over social approval. But Ivan's conscience has already learned to accommodate whatever respectable people do. I'm left with questions: Ivan wore a *respice finem* medallion from graduation and understood it only hours before his death; Gerasim never needed the reminder. Why? Rabbi Wolpe recommends a regular practice of stopping and silence. Is that a better medallion, or can the end only be suffered, not practiced? And if a medallion couldn't do it, can a book review?
+
+[^1]: В сущности же, было то самое, что бывает у всех не совсем богатых людей, но таких, которые хотят быть похожими на богатых и потому только похожи друг на друга: штофы, черное дерево, цветы, ковры и бронзы. Темное и блестящее, – все то, что все известного рода люди делают, чтобы быть похожими на всех людей известного рода.
+
+[^2]: Были в Правоведении совершены им поступки, которые прежде представлялись ему большими гадостями и внушали ему отвращение к самому себе в то время, как он совершал их; но впоследствии, увидав, что поступки эти были совершаемы и высоко стоящими людьми и не считались ими дурными, он не то что признал их хорошими, но совершенно забыл их и нисколько не огорчался воспоминаниями о них.
+
+
 Troy by Stephen Fry
 ===
 rating: yes
