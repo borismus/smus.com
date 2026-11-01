@@ -8,7 +8,7 @@ The Death of Ivan Ilyich by Lev Tolstoy
 ===
 rating: yes
 posted: Oct 31, 2026
-headline: Can a Book Review Be a Memento Mori?
+headline: Is Memento Mori Futile?
 cover: /assets/book-covers/death-ivan-ilyich.jpg
 
 On graduating from law school, Ivan Ilyich outfits himself with fashionable clothes and a medallion inscribed *respice finem*: consider the end. Then he dines at a first-class restaurant. Decades later, dying in agony, he finally asks whether he has lived wrongly. What troubles me is that he already had the warning: he wore it.
