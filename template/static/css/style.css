@@ -562,12 +562,23 @@ article .book-context {
     background: none;
   }
 
-  hr {
+  hr,
+  footer {
     border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  header {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
   }
 
   body a {
     color: #80ff80bd;
+  }
+
+  footer,
+  footer nav a {
+    color: #80ff80bd;
+    font-weight: 400;
   }
 
   article h1.title {
@@ -615,4 +626,88 @@ article .book-context {
 
 article .discussion {
   padding-top: 1rem;
+}
+
+section#subscribe {
+  background: #fff6d5;
+  padding: 2.5rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+section#subscribe form {
+  width: 700px;
+  max-width: 100%;
+  font-family: "Source Serif Pro", serif;
+  font-size: 21px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.6);
+  text-wrap: pretty;
+}
+
+section#subscribe h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+section#subscribe .subscribe-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+section#subscribe input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  font-size: 18px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  padding: 0.4rem 0.6rem;
+}
+
+section#subscribe button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background: darkgreen;
+  border: none;
+  border-radius: 3px;
+  padding: 0.4rem 1.4rem;
+  cursor: pointer;
+}
+
+section#subscribe button:hover {
+  background: forestgreen;
+}
+
+@media (prefers-color-scheme: dark) {
+  section#subscribe {
+    background: #17241b;
+  }
+
+  section#subscribe form {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  section#subscribe h2 {
+    color: #eee;
+  }
+
+  section#subscribe input {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  section#subscribe button {
+    background: forestgreen;
+  }
+
+  section#subscribe button:hover {
+    background: #2ea32e;
+  }
 }
