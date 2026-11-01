@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/really-simple-social-syndication/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Really simple social syndication" />
   <meta name="twitter:description" content="I've been thinking about this for a while, but the recent  sunset announcement of Google Reader  made me revisit this topic. Google Reader isn't the only thing that's dead. RSS (aka. Really Simple Syndication) has long been proclaimed dead as well. In fact most people never even knew what RSS was. That said, it was a very useful tool for me and many others that like to stay up-to-date in their areas of interest. Increasingly, I've been getting my dose of news through social networks. However, social networks contain a lot of noise that I care little for. I want to rebuild the RSS spirit using modern social networks. This post describes one possible approach, which I refer to as  Really Simple Social Syndication (RSSS) ." />
-  
+  <meta name="twitter:image" content="https://smus.com/really-simple-social-syndication/rss-flow.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/really-simple-social-syndication/" />
   <meta property="og:title" content="Really simple social syndication" />
   <meta property="og:description" content="I've been thinking about this for a while, but the recent  sunset announcement of Google Reader  made me revisit this topic. Google Reader isn't the only thing that's dead. RSS (aka. Really Simple Syndication) has long been proclaimed dead as well. In fact most people never even knew what RSS was. That said, it was a very useful tool for me and many others that like to stay up-to-date in their areas of interest. Increasingly, I've been getting my dose of news through social networks. However, social networks contain a lot of noise that I care little for. I want to rebuild the RSS spirit using modern social networks. This post describes one possible approach, which I refer to as  Really Simple Social Syndication (RSSS) ." />
-  
+  <meta property="og:image" content="https://smus.com/really-simple-social-syndication/rss-flow.png" />
+  <meta property="article:published_time" content="2013-03-14" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -94,7 +97,7 @@ social networks, I think we can come to a syndication solution that
 might rival the old RSS-based one, but enjoy the benefits of having some
 extra signals from all of the social network junk. Here's the model I'm
 thinking of:</p>
-<p><img alt="Social-based content syndication" src="social-flow.png" /></p>
+<p><img loading="lazy" alt="Social-based content syndication" src="social-flow.png" /></p>
 <p>Now for a little bit more about Pub and Sub.</p>
 <h2>Sub: Requirements for consumption</h2>
 <ul>
@@ -178,11 +181,22 @@ using social networks as a delivery mechanism, I will be very happy to
 minimize the amount of time spent on social networks directly, and focus
 on consuming and producing interesting things. Also, happy &pi; day!</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>March 14, 2013</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -191,7 +205,6 @@ on consuming and producing interesting things. Also, happy &pi; day!</p>
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

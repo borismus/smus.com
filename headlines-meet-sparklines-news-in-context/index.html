@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/headlines-meet-sparklines-news-in-context/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Headlines, meet sparklines: news in context" />
   <meta name="twitter:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.   These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.   In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
-  
+  <meta name="twitter:image" content="https://smus.com/headlines-meet-sparklines-news-in-context/rigopiano.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/headlines-meet-sparklines-news-in-context/" />
   <meta property="og:title" content="Headlines, meet sparklines: news in context" />
   <meta property="og:description" content="News reporting suffers from two major issues I'd like to tackle. The first is a bias towards negative, emotionally laden events. The second is the difficulty of capturing information about gradual changes.   These two deficiencies distort our perception. They make it easy for demagogues to claim that the world has gone to shit. The data tells a different story, as the late  Hans Rosling  was fond of reminding us. My hypothesis is that if base rates were provided in a compelling way alongside news stories (or even headlines), the public would be better informed. The challenges are many: first, getting and analyzing the data, but even more important, presenting it in a reasonable way.   In this post, let's explore what that would entail, from data collection, to analysis, to visualization. We'll go through a couple of examples." />
-  
+  <meta property="og:image" content="https://smus.com/headlines-meet-sparklines-news-in-context/rigopiano.png" />
+  <meta property="article:published_time" content="2017-02-17" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -172,14 +175,14 @@ significantly, but that the number of avalanche deaths in uncontrolled terrain
 remains significant (in the Alps, 100 yearly) and stable. Note that the numbers are
 not adjusted for the increasing global population, or for the increasing numbers
 of back country tourists.</p>
-<p><img alt="Avalanche deaths in the European Alps between 1970 and 2015" src="alps-graph.png" /></p>
+<p><img loading="lazy" alt="Avalanche deaths in the European Alps between 1970 and 2015" src="alps-graph.png" /></p>
 <p>One of the things that becomes clear is the important distinction between
 controlled and uncontrolled accidents. We now have context for better
 understanding the tragedy at Rigopiano: it was a controlled accident that will
 send the statistics for 2017 through the roof. Let's see it in the context of
 other significant avalanches (controlled and not) over the years. The following
 claimed more than 20 people since 1970, according to Wikipedia:</p>
-<p><img alt="Significant global avalanches since 1970" src="avalanches-since-1970.png" /></p>
+<p><img loading="lazy" alt="Significant global avalanches since 1970" src="avalanches-since-1970.png" /></p>
 <p>Now we are armed to the teeth with data, but how do we present inline in the
 news? There are <a href="http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/">tons of ways</a> of visualizing data in a compelling
 way, but in this case we want it to appear in-situ in a digital newspaper. Why
@@ -191,7 +194,7 @@ iframe#avalanche {
   height: 200px;
 }
 </style>
-<iframe id="avalanche" src="avalanche-example.html"></iframe>
+<iframe loading="lazy" id="avalanche" src="avalanche-example.html"></iframe>
 
 <p>From the first graph, we can immediately see that significant avalanches are
 rare, so this event is definitely newsworthy, but didn't claim as many lives as
@@ -235,7 +238,7 @@ iframe#cabinet {
   height: 200px;
 }
 </style>
-<iframe id="cabinet" src="cabinet-example.html"></iframe>
+<iframe loading="lazy" id="cabinet" src="cabinet-example.html"></iframe>
 
 <p>To summarize, <a href="/headlines-meet-sparklines-news-in-context/cabinet-sign.jpg">I've seen stronger cabinets at IKEA</a>!</p>
 <p>One thing that is clear from the above is that indeed, Australia has a very
@@ -296,11 +299,22 @@ with visualizations of relevant base rates would make for a much more
 informative and interesting read, and ultimately make us better informed
 citizens. What do you think?</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>February 17, 2017</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -309,7 +323,6 @@ citizens. What do you think?</p>
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

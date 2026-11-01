@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/easier-link-blogging/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Easier link blogging" />
   <meta name="twitter:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :        Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
-  
+  <meta name="twitter:image" content="https://smus.com/easier-link-blogging/composing-long-post.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/easier-link-blogging/" />
   <meta property="og:title" content="Easier link blogging" />
   <meta property="og:description" content="As usual, I want two conflicting things. Firstly, I want to own the content I write, and control how it is authored. My weapon of choice is MacVim and  Lightning , a static blog engine I wrote to address my  very specific requirements :        Secondly, I want people to read the things I write and follow the stories that I link to, since it feels good, and sometimes generates interesting discussions. I wrote a Mac GUI that automates link blogging and  POSSE style  cross-posting to social networks." />
-  
+  <meta property="og:image" content="https://smus.com/easier-link-blogging/composing-long-post.png" />
+  <meta property="article:published_time" content="2013-07-29" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -119,7 +122,7 @@ link entry on the local static blog (with commentary). After the link is
 posted and deployed publicly, it also broadcasts the content to
 supported social networks, sometimes linking back to the link page on
 this site.</p>
-<p><img alt="Lightning linker Mac GUI" src="lightning-link.png" /></p>
+<p><img loading="lazy" alt="Lightning linker Mac GUI" src="lightning-link.png" /></p>
 <p>As you can see, there are three fields: the URL, a title (pre-populated
 from the <code>&lt;body&gt;&lt;title&gt;</code> of the URL), and the body of the post (in
 Markdown), all of which are clearly visible in the link page.
@@ -161,11 +164,22 @@ to try it, the <a href="https://github.com/borismus/lightning/tree/master/link">
 link-blogging approach with automatic syndication to social networks,
 tell me about it!</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>July 29, 2013</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -174,7 +188,6 @@ tell me about it!</p>
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

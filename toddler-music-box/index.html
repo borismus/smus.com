@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/toddler-music-box/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Toddler’s First Music Box" />
   <meta name="twitter:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!    So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
-  
+  <meta name="twitter:image" content="https://smus.com/toddler-music-box/final-box.jpg" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/toddler-music-box/" />
   <meta property="og:title" content="Toddler’s First Music Box" />
   <meta property="og:description" content="Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better!    So I set out to design her a perfect music box: an old concept infused with modern technology, without subjecting her to the hazards of screens. I wanted the box to play her favorite songs, be durable and portable, have long battery life, all while being a beautiful object. This is the result:" />
-  
+  <meta property="og:image" content="https://smus.com/toddler-music-box/final-box.jpg" />
+  <meta property="article:published_time" content="2019-09-26" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -73,7 +76,7 @@
 </ol>
 <p>An alternative to running embedded Linux is programming a prototyping board directly. So I dusted off an old Arduino Uno and discovered the <a href="https://www.adafruit.com/product/94">Adafruit Wave Shield</a>, which does exactly what I needed. It reads audio from an SD card, and plays it back through a speaker. When the Wave Shield kit arrived, I was somewhat shocked to see a bare PCB and all of the components in a little baggie. </p>
 <p>Luckily, there’s an incredible Makerspace at work, so I dropped by after my actual work was done, picked up a soldering iron, and got to work. I’ve soldered before, but not much since my favorite class of all time: Making Things Interact at CMU, taught by Mark Gross. Initially daunting, I knocked it out in no time thanks to some really detailed instructions. The results were amazing. Fuse a bunch of metal and silicon together, attach a battery and 1.5 seconds later (that’s the boot time), a song is playing through the speaker! Any sufficiently advanced technology is indistinguishable from magic.</p>
-<p><img alt="Soldering the Adafruit Wave Hat" src="solder.jpg" /></p>
+<p><img loading="lazy" alt="Soldering the Adafruit Wave Hat" src="solder.jpg" /></p>
 <h1>Randomly playing songs</h1>
 <p>The <a href="https://learn.adafruit.com/adafruit-wave-shield-audio-shield-for-arduino/play6-hc">sample software</a> for the Wave Shield plays all of the .wav files on the SD card in lexical order. I wanted something a bit more delightful than playing the same playlist in the same order. So I wrote a program that plays a random song instead. Easy peasy, here we go.</p>
 <p>I enumerated all of the wavs on the card and stored all of their filenames in a <code>char**</code> dynamically allocated on the heap. Oops! There’s barely enough space there to allocate a dozen file names, and I’d selected 60 songs. It appears that years of front-end UI engineering have dulled my low level embedded software development instincts. After fighting the C++ compiler about static 2D array allocation, I took a simpler and more memory efficient approach, first counting all of the songs, then picking a random song number to play. </p>
@@ -81,13 +84,13 @@
 <h1>Prototyping in plastic</h1>
 <p>One of the great perks of my work’s Makerspace is access to all sorts of awesome prototype manufacturing equipment, including a <a href="https://www.inventables.com/technologies/carvey">Carvey</a>. So I went to Rockler and bought a 5”x5” maple block, thinking I’d hollow it out into a box with the CNC machine. Not so fast! It’d take a mere 15 hours of drilling. </p>
 <p>Rather than wait, I opted for a faster route: prototyping with 3D printing. So I began designing music boxes on paper, then in OnShape, then printing them using the <a href="https://www.prusa3d.com/">Prusa</a> printers. Seeing a design evolve from figment of imagination to tangible physical object is incredibly satisfying. However, once that satisfaction wore off, I can honestly say that the results were functional, but not at all aesthetically pleasing:</p>
-<p><img alt="Early 3D printed plastic box" src="plastic-box.jpg" /></p>
+<p><img loading="lazy" alt="Early 3D printed plastic box" src="plastic-box.jpg" /></p>
 <h1>That old time wooden aesthetic</h1>
 <p>So I went for a different strategy: buy a nice off-the-shelf box to house everything and just design its insides. This way, the 3D print is mostly hidden, and can be capped off with a laser cut or CNC milled wooden lid. I can learn about CNC joinery later.</p>
 <p>I found a <a href="https://www.amazon.com/gp/product/B071WFSRBD/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">nice hexagonal box</a> on Amazon and bought two, discarding both lids. The bottom half of the clam would house the Arduino, Shield and battery, while the top would house the speaker. They’d be connected with a speaker wire and joined by wood hinges.</p>
 <p>Designing the innards was a delight. <a href="https://www.onshape.com">OnShape’s</a> UI is excellent and responsive. The constraint system makes a lot of sense, sketching on arbitrary surfaces and then extruding them is amazingly powerful. The Assembly View and Edit-in-Context feature made aligning elements between upper and lower clamshells a cinch. This included the speaker wire port and holes for the microswitch. I experimented with a variety of designs for fastening lid to container. Initially, I opted for ambitious <a href="https://markforged.com/blog/embedding-nuts-3d-printing/">embedded nut</a> designs, but ultimately went with a self-tapping (into plastic) approach using <a href="https://www.homedepot.com/b/Hardware-Fasteners-Screws/Internal-Hex/Flat/N-5yc1vZc2b0Z1z0sfp4Z1z0sgtn">flat head screws</a>. For fastening electronics to the plastic, I printed offsets and used nuts.</p>
 <p>After a few iterations of fastener tweaking, design adjustments, and measurement corrections, I had a top insert for housing the speaker, and a speaker grille to protect the speaker’s membrane, a bottom insert for housing the electronic core, and a cover to hide them. The <a href="https://github.com/borismus/toddler-music-box">STL files</a> are all in the GitHub repo. Here’s the result:</p>
-<p><img alt="Finished wooden musical box" src="final-disassembly.jpg" /></p>
+<p><img loading="lazy" alt="Finished wooden musical box" src="final-disassembly.jpg" /></p>
 <p>If you’re curious, the <a href="https://cad.onshape.com/documents/786c5f0b153cdd48f9b0f2f8/w/b4275650dc7aac134e30275f/e/4a850077e5ce208659a14aab">OnShape project is public</a>, you just need to make an OnShape account.</p>
 <h1>Toddler user testing</h1>
 <p>Once everything was in place, it was time for toddler testing! Luckily I have a very cute and curious user on retainer for the next 18 years. I asked her to open the box, and when she did, she began wiggling along to Cat Stevens’ “la-la-la”s. I’ve since corrected the poor initial music choice – the music box now plays a healthy milieu of classics from Soviet cartoons.</p>
@@ -101,11 +104,22 @@
 <p>Finally, massive thanks to Matthew Wilson and Jon Ward for their sage advice and friendly encouragement with this project. How might we imbue other beautiful everyday objects with magical abilities?</p>
 <p>Until next time.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>September 26, 2019</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -114,7 +128,6 @@
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

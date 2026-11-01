@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/dynamic-icons-chrome-extensions/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dynamic chrome extension icons" />
   <meta name="twitter:description" content="Adding a bit of pizzazz to your extension UIs with dynamic, maybe even animated browser and page actions." />
-  
+  <meta name="twitter:image" content="https://smus.com/dynamic-icons-chrome-extensions/music-vis.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/dynamic-icons-chrome-extensions/" />
   <meta property="og:title" content="Dynamic chrome extension icons" />
   <meta property="og:description" content="Adding a bit of pizzazz to your extension UIs with dynamic, maybe even animated browser and page actions." />
-  
+  <meta property="og:image" content="https://smus.com/dynamic-icons-chrome-extensions/music-vis.png" />
+  <meta property="article:published_time" content="2011-06-06" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -135,7 +138,7 @@ div's width, which will change when the font loads (<a href="https://github.com/
 checking out the <a href="http://kottke.org/plus/type/silkscreen/">silkscreen font</a> for 8-bit style designs that lend
 themselves well to small resolution envirnoments. You can fit about 3x3
 characters inside a 16x16 canvas:</p>
-<p><img alt="silkscreen" src="silkscreen.png" /></p>
+<p><img loading="lazy" alt="silkscreen" src="silkscreen.png" /></p>
 <p>To show that the extension is still loading, I went with a progress bar instead
 of a message. A second issue arose when I wanted to show the progress
 bar animating while the mp3 loads. Unfortunately the Web Audio API doesn't
@@ -161,11 +164,22 @@ some awesome Chrome extensions which tastefully use dynamic icons for page
 actions, browser actions, and favicons to make our browsing experience even
 better.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>June 6, 2011</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -174,7 +188,6 @@ better.</p>
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/alloy-ten-months-in/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ten months of Alloy: local where it counts" />
   <meta name="twitter:description" content="I started  Alloy  almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow." />
-  
+  <meta name="twitter:image" content="https://smus.com/alloy-ten-months-in/alloy-phone.jpg" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/alloy-ten-months-in/" />
   <meta property="og:title" content="Ten months of Alloy: local where it counts" />
   <meta property="og:description" content="I started  Alloy  almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow." />
-  
+  <meta property="og:image" content="https://smus.com/alloy-ten-months-in/alloy-phone.jpg" />
+  <meta property="article:published_time" content="2026-10-21" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -68,13 +71,13 @@
 <p>This chart is just a sliver of how I actually use AI. Alloy is an AI chat app, not an agent harness, so I continue to rely on Pi, Codex, or Claude Code for coding and deeper project work.</p>
 <h2>Interfacing with cloud models</h2>
 <p>I started out with a direct API integration for each provider (Anthropic, OpenAI, Gemini, Grok), but keeping up with each one's quirks was a pain, so in May I replaced them all with OpenRouter's single API. Most of my chats go through OpenAI and Anthropic subscriptions via the <code>codex</code> and <code>claude</code> command line tools. Local models run through <a href="https://github.com/jundot/omlx">oMLX</a>.</p>
-<p><img alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
+<p><img loading="lazy" alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
 <p>The mix has shifted a lot. In the spring, nearly everything went through direct APIs, mostly Gemini Flash because of price. But whether direct or via OpenRouter, pay-per-token usage adds up, and since I'm already paying for subscriptions to the frontier labs, I've embraced their clouds at no extra cost.</p>
 <h2>Enabling local and remote access</h2>
-<p><img alt="My Alloy setup" src="setup-diagram.svg" /></p>
+<p><img loading="lazy" alt="My Alloy setup" src="setup-diagram.svg" /></p>
 <p>The same Alloy runs on both of my Macs. The only difference is that the Mac mini's copy is reachable from outside my home network through an authenticated <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/">Cloudflare Tunnel</a>. My local model, Qwen 3.8 27B, runs on the MacBook Pro, which has 128 GB of unified memory.</p>
 <h2>It works on my phone!</h2>
-<p><img alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
+<p><img loading="lazy" alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
 <p>Alloy is a PWA which lives on my phone's home screen and behaves like an app. It's served by the always-on Mac mini, which is reachable from anywhere through the tunnel and can relay to the MacBook Pro if it's home, enabling private conversations to work on the go. Since I started tracking this in early October, about a quarter of my messages have come from my phone.</p>
 <h1>Local where it counts</h1>
 <p>Local models are still slow. On private data, a typical local reply takes about two minutes, and one in ten takes over 15 minutes. This is a very long time compared to under half a minute for Codex or Claude. Even so, there are two places where local is now my default: processing private data at night, and starting private chats locally before switching to the cloud.</p>
@@ -93,16 +96,27 @@
 <h2>Start local, switch to cloud</h2>
 <p>One of Alloy's strengths is that it lets me switch model providers in the middle of a conversation, which enables a pattern that's useful for privacy.</p>
 <p>For anything personal, I start local and switch to the cloud only when I need to. The local model has full read access to my Obsidian vault, which is about as personal as my data gets. If what it finds isn't itself sensitive, I switch to a cloud model on the second turn for higher intelligence and faster responses.</p>
-<p><img alt="What each model can access" src="access-diagram.svg" /></p>
+<p><img loading="lazy" alt="What each model can access" src="access-diagram.svg" /></p>
 <p>When I switch models from local to cloud, Alloy warns me that the cloud model will see my messages and the local model's replies, but not the files it reads or its reasoning.</p>
 <hr />
 <p>If you'd like to try Alloy, you can <a href="https://github.com/borismus/alloy/releases">download it for macOS</a>. The <a href="https://github.com/borismus/alloy">source is on GitHub</a>. If you try it, or you're experimenting with local models yourself, drop me a <a href="mailto:boris@smus.com">line</a>.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>October 21, 2026</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -111,7 +125,6 @@
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

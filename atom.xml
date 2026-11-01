@@ -5,8 +5,60 @@
   <title>Boris Smus</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-10-21T12:19:13-00:00</updated>
+  <updated>2026-10-31T23:30:24-00:00</updated>
   <id>https://smus.com/atom.xml</id>
+  
+  <entry>
+    <title>Can a Book Review Be a Memento Mori?</title>
+    <author><name>Boris Smus</name></author>
+    <link href="https://smus.com/books/the-death-of-ivan-ilyich-by-lev-tolstoy"/>
+    
+    <updated>2026-10-31T09:00:00-00:00</updated>
+    
+    <id>https://smus.com/books/the-death-of-ivan-ilyich-by-lev-tolstoy</id>
+    <content type="html">
+      <![CDATA[
+      <div>
+        <p>On graduating from law school, Ivan Ilyich outfits himself with fashionable clothes and a medallion inscribed <em>respice finem</em>: consider the end. Then he dines at a first-class restaurant. Decades later, dying in agony, he finally asks whether he has lived wrongly. What troubles me is that he already had the warning: he wore it.</p>
+<p>The plot is minimal: a judge falls ill and dies over a few months. His life, Tolstoy tells us, was "most simple and most ordinary and therefore most terrible" (самая простая и обыкновенная и самая ужасная). Tolstoy savages Russian officialdom for its conformism, pretense, and default drift toward money, power, and status (see <a class="wiki" href="https://z3.ca/The_Inner_Ring_by_C._S._Lewis">The Inner Ring by C. S. Lewis</a>). The <a href="https://www.econtalk.org/lives-wasted-and-well-lived-david-wolpe-on-the-death-of-ivan-ilyich/">EconTalk episode</a> inspired me to read it first. I wanted to form my own opinion before hearing Roberts and Wolpe.</p>
+<h1>Living "comme il faut" (as one should)</h1>
+<p>The novella opens not with Ivan's death per se, but with others' reaction to his death. Many of his friends are inwardly pleased that they're still kicking, and jockey for promotion to fill the vacancy, while his wife seeks to squeeze more pension out of the state. Yet outwardly all put on a mask and work hard to act the way one should at a somber memorial service.</p>
+<p>Ivan's entire outward existence is based on social expectation. His house looks like every other "almost-rich" house:</p>
+<blockquote>
+<p>In reality, it was just what is usually seen in the houses of people of moderate means who want to appear rich, and therefore succeed only in resembling others like themselves: there are damasks, dark wood, plants, rugs, and dull and polished bronzes — all the things people of a certain class have in order to resemble other people of that class.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</blockquote>
+<p>Even his facial hair is a fashion statement: on joining the new courts he adopts "moderate liberalism" and, in the same breath, stops shaving his chin. Even the reminder of death, the respice finem medallion, was an accessory.</p>
+<h1>Career drift and numbness</h1>
+<p>Unlike his father, whom Tolstoy scathingly describes as a superfluous member of superfluous institutions (ненужный член разных ненужных учреждений), Ivan does not have a bullshit job and is proud of his craft. But over time, his work becomes formal and impersonal. The numbness starts earlier, in law school. He does things he finds vile, then notices respectable people do them too. He doesn't decide they're fine; he just forgets them:</p>
+<blockquote>
+<p>At school, he had done things which had formerly seemed to him very horrid and made him feel disgusted with himself when he did them; but when later on he saw that such actions were done by people of good position and that they did not regard them as wrong, he was able not exactly to regard them as right, but to forget about them entirely or not be at all troubled at remembering them.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+</blockquote>
+<p>When his own health turns and he goes to a similarly formal and impersonal doctor, he is frustrated that the doctor cares about the case but not about him. The doctor treats Ivan exactly the way Ivan treated defendants, weighing floating kidney against appendicitis like a judge summing up, while Ivan only wants to know if he's in danger. Yet Ivan's only conclusion is that it's unpleasant to be on the receiving end, not that he did the same thing to other people.</p>
+<h1>Pain shows the truth</h1>
+<p>Ivan slips on a stepladder while showing the upholsterer how to hang the drapes, and bangs his side on the window frame. That's how he thinks his illness starts: decorating a house he believed exceptional, which was exactly like every other almost-rich house.</p>
+<p>No memento mori can shake Ivan out of his automatic, sleepwalking life. Physical pain becomes mental pain, mental pain becomes clarity, and Ivan finally sees what is bothering him: everyone pretends he's only ill and not dying. And this pretense is just an extension of life before his illness: everyone was lying to him all the time. Everyone except the simple Gerasim, who performs unpleasant care without evasion or resentment, and sees that Ivan is dying. Gerasim doesn't pretend otherwise, saying «все умирать будем, отчего же не потрудиться?» (we'll all die, so why not take the trouble?). Roberts links Gerasim to the kindness of tending the dying, which is true because it can't be repaid. Gerasim doesn't mind the work because he hopes someone will do the same for him when his time comes.</p>
+<h1>(How) To Live?</h1>
+<p>Ivan's redemption is largely internal. Hours before the end, his flailing hand falls on his son's head; the boy kisses it and weeps. Ivan opens his eyes and feels sorry for someone other than himself: his son, then his weeping wife. He tries to say «прости» (forgive me) but gets out only «пропусти» (let me through). Tolstoy shows the bad life in full detail and the good one only in glimpses. That's honest, because a positive recipe might just become another comme il faut.</p>
+<p>I watched Kurosawa's film <em>Ikiru</em> ("To Live") last year, not knowing it was loosely inspired by this book. It diverges from Tolstoy's work in the way the hero reacts to his epiphany. Months away from inevitable death, the lonely protagonist Watanabe channels his energies into finally building a much-requested neighborhood park, which previously bounced between departments. Both men's real poverty was relational. It was only after Watanabe tried to confide in his son and got brushed off that he turned to the park. Kurosawa appears to suggest that the park redeemed him, but his relationship with his son remained broken. I found Ivan's peace troubling too: his attempt at repair is one garbled word, and he's absolved anyway.</p>
+<p>Watanabe gets months to live, Ivan gets hours, and we have years and decades, God willing. But that's also the problem. At Watanabe's wake, his coworkers, who have no deadline, vow to live like him; by the next morning they're bouncing petitions between departments again. Wolpe suspects the same of deathbed regrets: give that person thirty more years and they'd be back at the office.</p>
+<p>I'm tempted to read the book as a reminder to trust one's conscience over social approval. But Ivan's conscience has already learned to accommodate whatever respectable people do. I'm left with questions: Ivan wore a <em>respice finem</em> medallion from graduation and understood it only hours before his death; Gerasim never needed the reminder. Why? Rabbi Wolpe recommends a regular practice of stopping and silence. Is that a better medallion, or can the end only be suffered, not practiced? And if a medallion couldn't do it, can a book review?</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>В сущности же, было то самое, что бывает у всех не совсем богатых людей, но таких, которые хотят быть похожими на богатых и потому только похожи друг на друга: штофы, черное дерево, цветы, ковры и бронзы. Темное и блестящее, – все то, что все известного рода люди делают, чтобы быть похожими на всех людей известного рода.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Были в Правоведении совершены им поступки, которые прежде представлялись ему большими гадостями и внушали ему отвращение к самому себе в то время, как он совершал их; но впоследствии, увидав, что поступки эти были совершаемы и высоко стоящими людьми и не считались ими дурными, он не то что признал их хорошими, но совершенно забыл их и нисколько не огорчался воспоминаниями о них.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+        
+      </div>
+      ]]>
+    </content>
+  </entry>
   
   <entry>
     <title>Ten months of Alloy: local where it counts</title>
@@ -27,13 +79,13 @@
 <p>This chart is just a sliver of how I actually use AI. Alloy is an AI chat app, not an agent harness, so I continue to rely on Pi, Codex, or Claude Code for coding and deeper project work.</p>
 <h2>Interfacing with cloud models</h2>
 <p>I started out with a direct API integration for each provider (Anthropic, OpenAI, Gemini, Grok), but keeping up with each one's quirks was a pain, so in May I replaced them all with OpenRouter's single API. Most of my chats go through OpenAI and Anthropic subscriptions via the <code>codex</code> and <code>claude</code> command line tools. Local models run through <a href="https://github.com/jundot/omlx">oMLX</a>.</p>
-<p><img alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
+<p><img loading="lazy" alt="How my messages reached models, per month" src="provider-chart.svg" /></p>
 <p>The mix has shifted a lot. In the spring, nearly everything went through direct APIs, mostly Gemini Flash because of price. But whether direct or via OpenRouter, pay-per-token usage adds up, and since I'm already paying for subscriptions to the frontier labs, I've embraced their clouds at no extra cost.</p>
 <h2>Enabling local and remote access</h2>
-<p><img alt="My Alloy setup" src="setup-diagram.svg" /></p>
+<p><img loading="lazy" alt="My Alloy setup" src="setup-diagram.svg" /></p>
 <p>The same Alloy runs on both of my Macs. The only difference is that the Mac mini's copy is reachable from outside my home network through an authenticated <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/">Cloudflare Tunnel</a>. My local model, Qwen 3.8 27B, runs on the MacBook Pro, which has 128 GB of unified memory.</p>
 <h2>It works on my phone!</h2>
-<p><img alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
+<p><img loading="lazy" alt="Alloy running as a PWA on my phone" src="alloy-phone.jpg" /></p>
 <p>Alloy is a PWA which lives on my phone's home screen and behaves like an app. It's served by the always-on Mac mini, which is reachable from anywhere through the tunnel and can relay to the MacBook Pro if it's home, enabling private conversations to work on the go. Since I started tracking this in early October, about a quarter of my messages have come from my phone.</p>
 <h1>Local where it counts</h1>
 <p>Local models are still slow. On private data, a typical local reply takes about two minutes, and one in ten takes over 15 minutes. This is a very long time compared to under half a minute for Codex or Claude. Even so, there are two places where local is now my default: processing private data at night, and starting private chats locally before switching to the cloud.</p>
@@ -52,7 +104,7 @@
 <h2>Start local, switch to cloud</h2>
 <p>One of Alloy's strengths is that it lets me switch model providers in the middle of a conversation, which enables a pattern that's useful for privacy.</p>
 <p>For anything personal, I start local and switch to the cloud only when I need to. The local model has full read access to my Obsidian vault, which is about as personal as my data gets. If what it finds isn't itself sensitive, I switch to a cloud model on the second turn for higher intelligence and faster responses.</p>
-<p><img alt="What each model can access" src="access-diagram.svg" /></p>
+<p><img loading="lazy" alt="What each model can access" src="access-diagram.svg" /></p>
 <p>When I switch models from local to cloud, Alloy warns me that the cloud model will see my messages and the local model's replies, but not the files it reads or its reasoning.</p>
 <hr />
 <p>If you'd like to try Alloy, you can <a href="https://github.com/borismus/alloy/releases">download it for macOS</a>. The <a href="https://github.com/borismus/alloy">source is on GitHub</a>. If you try it, or you're experimenting with local models yourself, drop me a <a href="mailto:boris@smus.com">line</a>.</p>
@@ -318,7 +370,7 @@ Together these suggest filling the straightened hose with water and freezing it.
 </blockquote>
 <p>TRIZ reflects a characteristically Soviet confidence that creativity could be studied, organized, and taught. Invention need not remain a mysterious gift possessed by a few geniuses.</p>
 <p>And now I leave you with “Весёлый ветер,” from the 1936 Soviet film Дети капитана Гранта (The Children of Captain Grant) — a song from Altshuller’s cultural world whose refrain neatly captures TRIZ’s faith: “Those who seek will always find.” The unresolved question is whether AI and TRIZ can finally build the invention machine Altshuller imagined.</p>
-<iframe width="560" height="315" style="aspect-ratio: 16 / 9; height: auto;" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" style="aspect-ratio: 16 / 9; height: auto;" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="footnote">
 <hr />
@@ -685,7 +737,7 @@ Together these suggest filling the straightened hose with water and freezing it.
 </blockquote>
 <p>Thompson was involved in the laying of the first transatlantic cable, and hoped to find an ancient world in the depths, but was ultimately disappointed.</p>
 <p>I'm obsessed with time becoming space and I see it everywhere now. I'm not normally a Wagner fan; four hours is too long for an opera, and the associatiation with Nazis is a challenge, but I made an exception for Parsifal. In Wagner's mythic realm, Parsifal remarks that he feels he has barely walked, yet has traveled vast distances. You see, my son, here time becomes space:</p>
-<iframe width="560" height="400" src="https://www.youtube.com/embed/Ysm44rqhLss?si=_zzqon9Xibg2ObeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="400" src="https://www.youtube.com/embed/Ysm44rqhLss?si=_zzqon9Xibg2ObeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>Despite having conquered terrestrial space, we are fundamentally limited in time. We have our ~80 year lifespan to experience the world directly. Other than that, we can time travel only through geological strata and great books like these (see <a class="wiki" href="https://z3.ca/Temporal_range_hasn't_expanded_like_spatial_range">Temporal range hasn't expanded like spatial range</a>). Eiseley describes it well:</p>
 <blockquote>
@@ -795,11 +847,11 @@ Together these suggest filling the straightened hose with water and freezing it.
    <img alt="" src="invention-cards-v3-dots-labels.png" /></li>
 <li>
 <p>Half-cards — folded cards with only artwork and title. It helps to have evocative artwork that can stand on its own:
-   <img alt="" src="invention-cards-v3-half-cards.png" /></p>
+   <img loading="lazy" alt="" src="invention-cards-v3-half-cards.png" /></p>
 </li>
 <li>
 <p>Full-cards — unfolded cards with image, description, inventor, and footer. This design is largely unchanged:
-   <img alt="" src="invention-cards-v3-full-cards.png" /></p>
+   <img loading="lazy" alt="" src="invention-cards-v3-full-cards.png" /></p>
 </li>
 </ol>
 <h1>Stories: highlighting connections</h1>
@@ -809,15 +861,15 @@ Together these suggest filling the straightened hose with water and freezing it.
 <ol>
 <li>
 <p><a href="https://invention.cards/story/knights">Gone are the days of the knights</a> — From a tame horse pulling a chariot to the salaried musketeer that retired the knight
-  <img alt="" src="invention-cards-v3-stories-knights.png" /></p>
+  <img loading="lazy" alt="" src="invention-cards-v3-stories-knights.png" /></p>
 </li>
 <li>
 <p><a href="https://invention.cards/story/steam-diffusion">Steam diffusion over seventeen centuries</a> — Hero’s toy → Watt’s engines: a two-millennia ping-pong match between the laboratory and the coal mine
-  <img alt="" src="invention-cards-v3-stories-steam.png" /></p>
+  <img loading="lazy" alt="" src="invention-cards-v3-stories-steam.png" /></p>
 </li>
 <li>
 <p><a href="https://invention.cards/story/republic-of-letters">Toward a Republic of Letters</a> — Sumerian ledgers → the printing press and scientific societies
-  <img alt="" src="invention-cards-v3-stories-letters.png" /></p>
+  <img loading="lazy" alt="" src="invention-cards-v3-stories-letters.png" /></p>
 </li>
 </ol>
 <h1>Fit and finish</h1>
@@ -1305,7 +1357,7 @@ Those that you have not yet visited)</p>
 <h1>How it works</h1>
 <p>When you start a chat, Alloy picks one of your favorite models from a list you configure. As you talk with a model, the exchange is appended to the file that backs it. Files have the benefit of being local, permanent, and searchable with any tool you already use. You can always switch models even mid-conversation.</p>
 <p>The orchestrator has access to built-in tools and any custom skills you've added to your vault. For example:</p>
-<p><img alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
+<p><img loading="lazy" alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
 <p>Here I asked Alloy to "critique this writing using 3 top-tier AI models from different providers." It loaded the <code>writing-critique</code> skill, spawned Anthropic Opus, OpenAI o3, and Google Gemini 2.5 Pro as parallel sub-agents, each critiquing an early draft of this post independently. The orchestrating agent then synthesized their responses into a single structured critique.</p>
 <h1>Design philosophy</h1>
 <p><strong>File over app</strong>: conversations, notes, triggers, and memory are all stored locally as plain text files. Everything is inspectable, searchable, and portable. The app still feels like ChatGPT or Claude Desktop though. Sync these files however you want: iCloud Drive, Google Drive, or whatever. Since I'm a heavy Obsidian user, I personally keep my Alloy directory as a subdirectory of my Obsidian vault and rely on Obsidian Sync.</p>
@@ -1684,7 +1736,7 @@ Those that you have not yet visited)</p>
 <p>To make this concrete, here's a page I wrote from my travel log and the ground truth I manually transcribed:</p>
 <p><img alt="Handwritten journal page from Supernote e-ink tablet with ground truth transcription" src="/assets/ocr-original-to-groundtruth-comparison.png" /></p>
 <p>And here's a side-by-side comparison of the transcript produced by qwen3-vl:8b, Supernote's on-device model, and tesseract:</p>
-<p><img alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
+<p><img loading="lazy" alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
 <p>As you can see, tesseract produces terrible output. This is not surprising, since it's not trained for handwritten text but printed text. To do this right, you'd need to retrain it with a corpus of handwritten documents, but I still wanted to include it as a baseline.</p>
 <p>Supernote's real-time on-device handwriting recognizer does reasonably well sometimes, but other times goes off the rails, as you can see in the example above. For the curious, code for these benchmark scripts <a href="https://github.com/borismus/supernote-ocr-bench">is available</a>.</p>
 <p>Calculating word error rates and aggregating all the pages' WER scores resulted in the following table:</p>
@@ -1968,7 +2020,7 @@ Where is the knowledge we have lost in information?</p>
 <li>What if you could dictate notes while walking, running, or riding a bike <em>without even requiring a smartphone</em>?</li>
 </ol>
 <p>To motivate this, watch this quick summary of the scenarios above, and read on for some tech details for how it all works.</p>
-<iframe width="600" height="394" src="https://www.youtube-nocookie.com/embed/7B-42UeuIps?si=dNDpceiSLafEifhh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="600" height="394" src="https://www.youtube-nocookie.com/embed/7B-42UeuIps?si=dNDpceiSLafEifhh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--more-->
 
@@ -2914,7 +2966,7 @@ There are subjects in which I might make mistakes. <strong>I'd better keep quiet
 <h3>Horses according to invention.cards</h3>
 <p>The horse, first domesticated a 3500-<a href="https://invention.cards/horse">2000 BCE</a> was initially only used to drive chariots. With the invention of saddles and <a href="https://invention.cards/metal-stirrup">metal stirrups</a> in 300 CE, riders could mount the horse, enabling mounted archers as a new form of warfare. As they grew in strength and size, horses were incorporated in agriculture. By <a href="https://invention.cards/iron-horseshoes">770, horseshoes</a> were coming into common use in Europe. Despite this, horses were still weak pullers compared to other beasts of burden. By 900 however, a brilliant observer found that horse anatomy was different from the ox and devised the <a href="https://invention.cards/horse-collar">horse collar</a>. This let horses pull by their shoulders instead of their trachea, increasing their effective strength by an order of magnitude. This marked a shift in global power from the Mediterranean to Northern Europe.</p>
 <p>I placed the above-mentioned horse-related invention.cards in a timeline:</p>
-<p><img alt="Invention Card Vignette 1 — Horse tech" src="horse-tech.png" /></p>
+<p><img loading="lazy" alt="Invention Card Vignette 1 — Horse tech" src="horse-tech.png" /></p>
 <h3>Horse-shaped gaps in invention.cards</h3>
 <p>Underneath the timeline above are some important gaps that don't have an invention card associated with them. These came to mind as I was recalling from the long and engaging lecture series about the middle ages by Philip Daileader (<a href="/books/early-middle-ages/">early</a>, <a href="/books/high-middle-ages/">high</a>, <a href="/books/late-middle-ages/">late</a>). When I first listened to these lectures, I modified an existing sketch to create "The Cyborg Horse" at the start of this post. The gaps are indicated in dashed boxes, and are nowhere mentioned in Asimov's encyclopedia.</p>
 <p>By prioritizing breadth, Asimov's encyclopedia inevitably sacrifices depth. Even the niche microcosm of horse-related technology can be deep and complex, and scholars of the Middle Ages have spilled much ink debating and discussing medieval technology (see <a href="/books/medieval-technology-and-social-change/">Medieval Technology and Social Change</a>).</p>
@@ -3676,12 +3728,12 @@ Furthermore, prioritizing FFEJ students also leads to <strong>less equity for hi
 <p>To handle the page boundary robustly in the future, I'm imagining a two pass solution: 1) Extract the headings from the page. 2) Send a bi-fold image of the current and next page, and in the prompt, ask to provide summaries for the headings extracted from the first pass. How well <code>gpt-4o</code> or the next crop of models will handle multi-page images remains to be seen.</p>
 <h3>Data workflow</h3>
 <p>Here's my overall data extraction workflow:</p>
-<p><img alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
+<p><img loading="lazy" alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
 <p>I run the script for a range of pages:</p>
 <p><code>&gt; python3 src/extract_cards.py --from=388 --to=400</code></p>
 <p>This outputs TSV for all entries on the page (terminal, window 2). I copy the TSV into the master spreadsheet (sheets, window 3), and then cross-reference the fields with the original text (preview, window 1).</p>
 <p>Once ready, the spreadsheet is exported as TSV. I then load this TSV in the <a href="https://invention.cards">https://invention.cards</a> site, and also use it as the source of truth for further processing. The inventions and discoveries on page 367-368 will be transformed into cards like this: <a href="https://invention.cards/glider">Glider</a>, <a href="https://invention.cards/cholera">Cholera</a>, <a href="https://invention.cards/kerosene">Kerosene</a>, and <a href="https://invention.cards/age-of-the-sun">Age of the sun</a>.</p>
-<p><img alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
+<p><img loading="lazy" alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
 <p>At this point you might be wondering where the snazzy images came from. Read on to find out!</p>
 <h1>Visually consistent imagery</h1>
 <p>After I have a TSV file of inventions and discoveries from the AI-assisted process I described above, we can begin generating consistent imagery for these inventions. I use OpenAI's <code>dall-e-3</code> model to generate an image using the metadata provided. The f-string prompt looks something like this:</p>
@@ -3697,17 +3749,17 @@ Furthermore, prioritizing FFEJ students also leads to <strong>less equity for hi
 </blockquote>
 <p>The results are stylistically consistent and visually pleasing. Sometimes things are a bit off though. Here are a few failure modes I've observed:</p>
 <p>A. The image does not correspond to the factual details of the card (e.g. <a href="https://invention.cards/aerodynamics">Aerodynamics (1809)</a>, <a href="https://invention.cards/binary-system">Binary System (1700)</a> pictured):</p>
-<p><img alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
+<p><img loading="lazy" alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
 <p>B. The card title has multiple meanings, and the image generator latches on to the wrong one (e.g. <a href="https://invention.cards/percussion">Percussion (1761)</a> and <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> pictured):</p>
-<p><img alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
+<p><img loading="lazy" alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
 <p>C. The card is obscure and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/discovery-of-lanthanum">Lanthanum (1839)</a>, <a href="https://invention.cards/molybdenum">Molybdenum (1778)</a>, and <a href="https://invention.cards/thallium">Thallium (1861)</a> pictured):</p>
-<p><img alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
+<p><img loading="lazy" alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
 <p>D. The card is abstract and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/celsius">Celsius (1742)</a>, <a href="https://invention.cards/celluloid">Celluloid (1869)</a>, and <a href="https://invention.cards/positive-negative-charge">Positive negative charge (1733)</a> pictured):</p>
-<p><img alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
+<p><img loading="lazy" alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
 <p>E. The card includes an object that the image generator struggles to generate, so creates a crazy version of the object (e.g. <a href="https://invention.cards/safety-pin">Safety Pin (1849)</a>, <a href="https://invention.cards/telescope">Telescope (1668)</a>):</p>
-<p><img alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
+<p><img loading="lazy" alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
 <p>Two common and undesirable occurrences in these generated card images are people and text. The image often focuses on the visage of the inventor to the detriment of his actual invention. Sometimes it's not the inventor or the discoverer, but a beautiful woman depicted in art nouveau style. The other failure mode is that the image contains unnecessary text. My favorite is when it is prominently misspelled, as in this set of attempts for <a href="https://invention.cards/carbon-dioxide">Carbon Dioxide (1754)</a>.</p>
-<p><img alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
+<p><img loading="lazy" alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
 <p>First I tried threats to discourage these misbehaviors. Unfortunately threatening to kill <code>dall-e-3</code>'s firstborn child triggers their AI safety subsystem. Then I tried cajoling. In the end I ended up pleading with very clear instructions. The prompt ends with:</p>
 <blockquote>
 <p>Please do not include any typography or text. Please do not draw any people.</p>
@@ -3754,98 +3806,6 @@ Furthermore, prioritizing FFEJ students also leads to <strong>less equity for hi
 <li>Mogel observes that many find the word "God" to be awkward to say, and that we ought to get over it. For me, "God" is a weird word to say mainly because it's so closely associated with trite concepts related to Jesus and a simple conception of God as a sort of bearded superman in the sky. Abstract Jewish terms like HaShem (literally "The Name") is a good workaround I think, although HaShem in particular connotes a deep religiosity which I do not possess. Does anyone call it "The Lord"? Sounds formal and creepy but kinda cool. Maybe I should try calling it "The Name"?</li>
 </ul>
 <p>Most importantly, a parenting book should have parenting advice! I left "Skinned Knee" with many promising parenting ideas to incorporate into our life, but I'll spare you those details.</p>
-
-        
-      </div>
-      ]]>
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Visual Chronology of Science &amp; Discovery 2.0</title>
-    <author><name>Boris Smus</name></author>
-    <link href="https://smus.com/visual-chronology-science-discovery-v2"/>
-    
-    <updated>2024-05-16T09:00:00-00:00</updated>
-    
-    <id>https://smus.com/visual-chronology-science-discovery-v2</id>
-    <content type="html">
-      <![CDATA[
-      <div>
-        <p>I recently resumed my Visual Chronology of Science &amp; Discovery <a href="/visual-chronology-science-discovery/">project</a>, a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:</p>
-<iframe width="560" height="400" src="https://www.youtube.com/embed/THE4xSGTQzc?si=E-_y2GX2j2poPHkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p>And some major improvements vis-à-vis the original version:</p>
-<ul>
-<li>Revised the visual design of the cards, each of which now features an illustration.</li>
-<li>Improved the UI of the overall system including search and field filtering and a separate timeline component.</li>
-<li>Addressed table-stakes like panning, zooming, and mobile web support.</li>
-<li>Extended the timeline from 1700 to 1850, more than doubling the number of cards to 597.</li>
-</ul>
-<p>In the remainder of this short post, I describe challenges I encountered along the way, and their solutions.</p>
-<p><strong>Update 2025</strong>: See <a href="https://invention.cards">https://invention.cards</a> for the latest version of this project.</p>
-<!--more-->
-
-<h1>Challenge 1: chronological graphs</h1>
-<p>I <a href="/visual-chronology-science-discovery/">previously</a> described the challenge of combining a chronological timeline with a dependency graph. I had originally incorporated both in a single visualization:</p>
-<blockquote>
-<p>Technologies that enabled the focused card are shown to the left and technologies that the focused card enabled are shown to the right, along the x-axis. Chronologically previous and next entries are shown along the y-axis.
-f
-Overwhelmingly, people found this very confusing. Rather than attempt to wedge both dependencies and chronology into to the same view, I've split out the temporal bits into its own timeline component, which also allows search and filtering by field. This is much clearer!</p>
-</blockquote>
-<p><img alt="Timeline component screenshot" src="visual-chronology-timeline.png" /></p>
-<h1>Challenge 2: location, location, location?</h1>
-<p>Asimov's <a href="/books/asimovs-chronology-of-science-and-discovery/">book</a> is not particularly consistent with location names. England is often used interchangeably with Britain, Great Britain, the United Kingdom, etc. As I create a more structured version of his encyclopedia, I feel the need to rectify these inconsistencies.</p>
-<p>One option is to provide the temporally correct name of the originating place. For example, if an invention was created on the territory of modern day Crimea in the 7th century, perhaps it should be called a Greek invention. In the 13th century it ought to be labeled Mongolian. In the 18th century it ought to be labeled Russian. In 2000, it ought to be Ukrainian. Another option is to use the modern name for the territory, regardless of its historically accurate name.</p>
-<p>I think I've arrived at a compromise with an arbitrary dividing line between the ancient world and the modern world.</p>
-<p>For ancient inventions and discoveries, I use the name of the empire or civilization broadly speaking, following Asimov's lead. For example, <a href="https://invention.cards/library">Libraries</a> are attributed to Assyria in 640 BCE, and <a href="https://invention.cards/arch">Architectural arches</a> to the Etruscans in 750 BCE. Assyria and Etruria are no longer part of the political landscape, but I still think this makes a lot of sense.</p>
-<p>For inventions in the last half-millennium is to use the modern country's name for the place where the discovery or invention occurred. Attempting to provide a historically accurate place name is difficult and potentially confusing. Also, historically accurate place names would often change depending on political events irrelevant to the arc of invention and discovery, making it hard to trace golden ages to a meaningful place.</p>
-<p>Conveniently this approach allows for a distinction between English and Scottish inventors, so subsequent analysis should be able to pinpoint the Scottish Enlightenment, for example.</p>
-<h1>Challenge 3: improved design</h1>
-<p>I was originally inspired by a set of physical card games and technology trees from computer games (see <a href="https://www.are.na/boris-smus/tech-tree-cards">are.na</a>), and finally decided to bite the bullet and clone the original Magic the Gathering card design. I also managed to solve the problem of consistent imagery across whole collection.</p>
-<h1>Challenge 4: consistent imagery</h1>
-<p>One of the biggest limitations of the first version of this project was to create a consistent visual design for this set of cards.</p>
-<blockquote>
-<p>While you can find reams of royalty free images, [...] finding a set that is visually consistent was tough.</p>
-</blockquote>
-<p>Four years ago I speculated:</p>
-<blockquote>
-<p>Theoretically a style transfer model might be able to convert them all to a consistent look.</p>
-</blockquote>
-<p>Modern AI models helped me solve this problem by generating a set of imagery using a textual prompt to guide the content and ensure a consistent style. I'm pleased with the results:</p>
-<p><img alt="New visual style" src="visual-chronology-illustrations-v2.jpg" /></p>
-<p>Compare to where I began several years ago:</p>
-<p><img alt="Old visual style" src="visual-chronology-illustrations-v1.jpg" /></p>
-<h1>Challenge 5: data entry</h1>
-<p>It was difficult to fully digitize the original book because of its multi-columnar and sectional layout. As I wrote <a href="/visual-chronology-science-discovery/">before</a>:</p>
-<blockquote>
-<p>optical character recognition (OCR) is not easy if your content is laid out like a newspaper [...] Cloud Vision and tesseract don’t do well on complex text flows, often failing to recognize section boundaries.</p>
-</blockquote>
-<p>With modern AI, I've been able to extract content from the pages of the book into a structured output. This has been a boon to my productivity, and although I still verify the output of the model, my speed of data entry has greatly accelerated.</p>
-<p>This project continues to be backed by a <a href="https://docs.google.com/spreadsheets/d/1hDNXas7DzwglB95HV2_2u1utWAwBZR2hQHlMPz-fj5A/edit#gid=0">spreadsheet</a> which has now grown to nearly 600 entries.</p>
-<h1>Open challenge: dependencies</h1>
-<p>One of my goals with the visual chronology of science &amp; discovery was to explore how science builds on itself and to articulate the way in which one invention sometimes serendipitously leads to the next.</p>
-<p>Asimov sometimes cites previous inventions in his encyclopedic entries, but truly connecting the dots is left as an exercise to the reader. To capture this relationship, each entry has a list of dependencies that led to its invention or discovery. This list of dependencies is quite subjective, and produced mostly by my judgement.</p>
-<p>There are a number of ways of interpreting this parent-child relationship between cards:</p>
-<ol>
-<li>Parent card loosely or directly inspired the person(s) to come up with their invention or discovery. Example: <a href="https://invention.cards/paved-road">Paved roads</a> were improved upon with <a href="https://invention.cards/macadamized-roads">Macadamized roads</a>.</li>
-<li>Parent card was necessary to enable the child invention or discovery. Example: <a href="https://invention.cards/improved-steam-engine">Improved steam engine</a> was necessary to build the <a href="https://invention.cards/steamboat">Steamboat</a>. <a href="https://invention.cards/screw-propeller">Screw propeller</a> was necessary to build <a href="https://invention.cards/transatlantic-liner">Transatlantic liner</a>.</li>
-<li>Parent represents a resource that became scarce, causing a child invention to be invented. Example: <a href="https://invention.cards/bronze">Bronze</a> required tin, which was rare, causing Phoenicians to venture into the Atlantic and discover <a href="https://invention.cards/ocean-navigation">Ocean navigation</a>.</li>
-</ol>
-<p>I think this is the shakiest part of the data that powers the visualization. If you are an expert in the history of science, let's talk. I'd love to discuss where to draw the line. Pun intended.</p>
-<h1>What's next for this project?</h1>
-<ol>
-<li>
-<p>I've only digitized half of the book! Another 600 cards spanning from 1850 to 1993 have yet to be added. I'll continue chipping away at this.</p>
-</li>
-<li>
-<p>Much of my recent progress on this project is due to hot new AI models. I'll have more details to share about that in a future post.</p>
-</li>
-<li>
-<p>In parallel, I want to explore a printed version of the same cards. Perhaps 1200 cards is an unwieldy number to hold in hand, but I can easily see the appeal of a deck containing a subset of the cards. It's easy to imagine a deck of space-related discoveries, or one centered around chemistry, mechanical engineering, or any sufficiently deep scientific field. Is there a game to be played in there?</p>
-</li>
-</ol>
-<p>Please <a href="https://invention.cards">try it out</a> for yourself and <a href="mailto:boris@smus.com">send me</a> your feedback. I'm especially interested in hearing from you if you are a print designer (or an aspiring print designer) and want to collaborate on a physical version of this project! I'd also love to chat about the challenge of determining the dependency structure. On that note, if you find a mistake in the content, field, deps, or visual presentation, you can also file a <a href="https://github.com/borismus/asimov/issues/new">GitHub issue</a>, which is also linked to from the top right icon of any card. See you in the captivating world of invention &amp; discovery!</p>
 
         
       </div>

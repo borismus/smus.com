@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/addressable-apps/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Addressable apps" />
   <meta name="twitter:description" content="It is human nature to create taxonomies for everything: people, places, and things.  Without such a system of reference, we become lost and disoriented.  Imagine your city with street names and addresses blanked out. Finding your favorite cafe, meeting up with your friend on the weekend, even locating your own parked car would become incredibly difficult. Travel outside your city would become far more challenging.   The web's defining property is addressability. URLs on the web are like street names and addresses in the physical world. This makes sharing and cross-linking easy. Non-web platforms are a little bit like our city with blanked out street names and addresses. There's no good way of talking about where you currently are, or how to get somewhere else. These platforms typically give users a crutch to help with the issue, such as a share button or dialog. But these create an inherently inferior experience, since addressability is no longer built-in. Addressability becomes a burden on the app developer, and as a result, the platform is no longer navigable.   In light of the success of Android and iOS, and given a potential explosion in new types of lower power computing (wearables, IoT, etc), it's unclear if  browsers will be as ubiquitous  as they are today (at least in the near term). I'm very interested in seeing if and how non-web platforms can embrace URLs.  How closely coupled are URLs to HTML, and do they make sense without a presentation layer?" />
-  
+  <meta name="twitter:image" content="https://smus.com/addressable-apps/data-vs-program.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/addressable-apps/" />
   <meta property="og:title" content="Addressable apps" />
   <meta property="og:description" content="It is human nature to create taxonomies for everything: people, places, and things.  Without such a system of reference, we become lost and disoriented.  Imagine your city with street names and addresses blanked out. Finding your favorite cafe, meeting up with your friend on the weekend, even locating your own parked car would become incredibly difficult. Travel outside your city would become far more challenging.   The web's defining property is addressability. URLs on the web are like street names and addresses in the physical world. This makes sharing and cross-linking easy. Non-web platforms are a little bit like our city with blanked out street names and addresses. There's no good way of talking about where you currently are, or how to get somewhere else. These platforms typically give users a crutch to help with the issue, such as a share button or dialog. But these create an inherently inferior experience, since addressability is no longer built-in. Addressability becomes a burden on the app developer, and as a result, the platform is no longer navigable.   In light of the success of Android and iOS, and given a potential explosion in new types of lower power computing (wearables, IoT, etc), it's unclear if  browsers will be as ubiquitous  as they are today (at least in the near term). I'm very interested in seeing if and how non-web platforms can embrace URLs.  How closely coupled are URLs to HTML, and do they make sense without a presentation layer?" />
-  
+  <meta property="og:image" content="https://smus.com/addressable-apps/data-vs-program.png" />
+  <meta property="article:published_time" content="2014-05-21" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -128,7 +131,7 @@ requirements:</p>
 <li>Given a URL, the platform should open it in a way that yields the
    best available user experience.</li>
 </ol>
-<p><img alt="Platforms handle content URLs and provide them on demand." src="url-in-url-out.png" /></p>
+<p><img loading="lazy" alt="Platforms handle content URLs and provide them on demand." src="url-in-url-out.png" /></p>
 <p>However, to bring URL friendliness to a platform retroactively takes a
 lot of effort. Taking a quick look at today's trending web-alternatives,
 it's plain to see that Android has some form of URL in (via intent
@@ -199,11 +202,22 @@ addressability alive.</p>
 <p>That URLs become a universal address that works across all platforms,
 and not just the web, is a proposition worth considering.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>May 21, 2014</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -212,7 +226,6 @@ and not just the web, is a proposition worth considering.</p>
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

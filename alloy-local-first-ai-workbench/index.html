@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/alloy-local-first-ai-workbench/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Alloy: a local-first AI workbench" />
   <meta name="twitter:description" content="AI model vendors usually ship their own desktop apps, and aside from coding agents, these tend to be the ways in which I interface with AIs the most. But these apps are sticky by design: each vendor wants you to stay with them and continue to use them. As a result, I tend to have very lumpy usage patterns, focusing on one model at a time to the detriment of the others. This leads to an incomplete understanding of the ever-shifting AI landscape, with models constantly leapfrogging one another on the leaderboards.   To remedy this, I built my own web-based desktop app which is model agnostic. Beyond easy access to Gemini, Grok, Claude, and GPT, I had a few additional goals in mind:     Local-first: all conversations are stored as plaintext   Build an orchestrator to gain intuition around agents, tools, skills, etc,   Play around with new interaction patterns beyond the usual chat-and-wait     The result of this is Alloy, which I began in December and have used daily since then. With it, I've been able to more easily see how good each model is at using tools, agent skills, etc. Alloy also serves as a personal playground for experimenting with new interaction patterns: freewriting with a quiet AI collaborator, delegating to sub-agents mid-conversation, and setting up triggers that monitor the world on your behalf." />
-  
+  <meta name="twitter:image" content="https://smus.com/alloy-local-first-ai-workbench/alloy-simple-screenshot.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/alloy-local-first-ai-workbench/" />
   <meta property="og:title" content="Alloy: a local-first AI workbench" />
   <meta property="og:description" content="AI model vendors usually ship their own desktop apps, and aside from coding agents, these tend to be the ways in which I interface with AIs the most. But these apps are sticky by design: each vendor wants you to stay with them and continue to use them. As a result, I tend to have very lumpy usage patterns, focusing on one model at a time to the detriment of the others. This leads to an incomplete understanding of the ever-shifting AI landscape, with models constantly leapfrogging one another on the leaderboards.   To remedy this, I built my own web-based desktop app which is model agnostic. Beyond easy access to Gemini, Grok, Claude, and GPT, I had a few additional goals in mind:     Local-first: all conversations are stored as plaintext   Build an orchestrator to gain intuition around agents, tools, skills, etc,   Play around with new interaction patterns beyond the usual chat-and-wait     The result of this is Alloy, which I began in December and have used daily since then. With it, I've been able to more easily see how good each model is at using tools, agent skills, etc. Alloy also serves as a personal playground for experimenting with new interaction patterns: freewriting with a quiet AI collaborator, delegating to sub-agents mid-conversation, and setting up triggers that monitor the world on your behalf." />
-  
+  <meta property="og:image" content="https://smus.com/alloy-local-first-ai-workbench/alloy-simple-screenshot.png" />
+  <meta property="article:published_time" content="2026-02-24" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -74,7 +77,7 @@
 <h1>How it works</h1>
 <p>When you start a chat, Alloy picks one of your favorite models from a list you configure. As you talk with a model, the exchange is appended to the file that backs it. Files have the benefit of being local, permanent, and searchable with any tool you already use. You can always switch models even mid-conversation.</p>
 <p>The orchestrator has access to built-in tools and any custom skills you've added to your vault. For example:</p>
-<p><img alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
+<p><img loading="lazy" alt="Alloy complex screenshot" src="alloy-complex-screenshot.png" /></p>
 <p>Here I asked Alloy to "critique this writing using 3 top-tier AI models from different providers." It loaded the <code>writing-critique</code> skill, spawned Anthropic Opus, OpenAI o3, and Google Gemini 2.5 Pro as parallel sub-agents, each critiquing an early draft of this post independently. The orchestrating agent then synthesized their responses into a single structured critique.</p>
 <h1>Design philosophy</h1>
 <p><strong>File over app</strong>: conversations, notes, triggers, and memory are all stored locally as plain text files. Everything is inspectable, searchable, and portable. The app still feels like ChatGPT or Claude Desktop though. Sync these files however you want: iCloud Drive, Google Drive, or whatever. Since I'm a heavy Obsidian user, I personally keep my Alloy directory as a subdirectory of my Obsidian vault and rely on Obsidian Sync.</p>
@@ -111,11 +114,22 @@
 <hr />
 <p>I’ve been using Alloy daily for a couple of months. It’s early and rough, but I think it’s ready for you to kick the tires. It’s a "bring your own API keys" tool — if you’re comfortable with that and care about owning your AI conversations, <a href="https://github.com/borismus/alloy/releases">give it a try</a>. The <a href="http://github.com/borismus/alloy">source is on GitHub</a>, and I’d love to <a href="mailto:boris@smus.com">hear what you think</a>.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>February 24, 2026</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -124,7 +138,6 @@
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

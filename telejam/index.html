@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/telejam/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Telejam: Interplanetary Musical Ensembles" />
   <meta name="twitter:description" content="Telejam is a web application for musicians to collaborate online in almost real time. Existing solutions like Sonulus, JamKazam and others attempt to provide live, in-sync musical collaboration over the internet. This sometimes works, especially if specialized network hardware is involved and if your collaborators are nearby. The just noticeable delay for music performance is about 30 milliseconds, and players positioned at opposite ends of the Earth will experience at least a 70-millisecond delay." />
-  
+  <meta name="twitter:image" content="https://smus.com/telejam/telejam-illustration.jpg" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/telejam/" />
   <meta property="og:title" content="Telejam: Interplanetary Musical Ensembles" />
   <meta property="og:description" content="Telejam is a web application for musicians to collaborate online in almost real time. Existing solutions like Sonulus, JamKazam and others attempt to provide live, in-sync musical collaboration over the internet. This sometimes works, especially if specialized network hardware is involved and if your collaborators are nearby. The just noticeable delay for music performance is about 30 milliseconds, and players positioned at opposite ends of the Earth will experience at least a 70-millisecond delay." />
-  
+  <meta property="og:image" content="https://smus.com/telejam/telejam-illustration.jpg" />
+  <meta property="article:published_time" content="2024-02-08" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -66,17 +69,34 @@
 <p><img alt="Illustration of collaborative music across the universe." src="telejam-illustration.jpg" /></p>
 <p>This theoretical bound is dictated by a fundamental speed limit of the universe: the speed of light. Jamming with a moon dweller would bring that theoretical minimum latency up to 1.3 seconds and you can forget about jamming with your Martian friends, where the delay is hundreds of seconds depending on orbital alignments. And remember that are just idealized thresholds; additional delays from network protocols are inevitable.</p>
 <p>Rather than trying to beat the speed of light, we embrace the space-time continuum and other fundamental laws of the universe. Telejam lets musicians layer recordings into an instantly produced final mix regardless of the physical distance (and therefore time) between musicians. Musicians are arranged in a sequential chain where each participant contributes their "track" to the final mix:</p>
-<p><img alt="Telejam Daisy Chain" src="telejam-daisy-chain.svg" /></p>
+<p><img loading="lazy" alt="Telejam Daisy Chain" src="telejam-daisy-chain.svg" /></p>
 <p>The leader is the participant who determines the order of players, balances their respective gain, starts and stops the recording, switches between sequential and synchronized modes.</p>
 <p>The great thing about Telejam is that musicians experience ZERO latency. Because of the unidirectional chain, however, they only hear musicians to their left in the chain. They do not hear music from musicians chained on their right. It's lonely being first in the chain, and it's helpful to have a backing track or a drummer in the first slot. Conversely, the last musician hears all the others. The final mix is available on demand as soon as the performance ends, and is a good opportunity for those early in the chain to hear the whole ensemble. At this point, the leader can reorder the chain to give others a turn on the coveted last position.</p>
 <p>Telejam is not going to replace in-person jam sessions, but it's the closest we're going to get to jamming with a man on the moon.</p>
 <p>My contribution to this prototype was most of the implementation including the WebRTC + Web Audio + Firebase implementation of the daisy chain as well as the rudimentary UI. It's been a pleasure to see Mark use Telejam in practice with his many musical collaborators. To hear some of those recordings and for more information about the project, check out <a href="https://telejam.net">https://telejam.net</a>.</p>
     </div>
+    
+<div class='discussion'>
+  Discussed on
+  <a href='https://mastodon.social/@borismus/111897642682358776'>Mastodon</a>.
+  
+</div>
+
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>February 8, 2024</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -85,7 +105,6 @@
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

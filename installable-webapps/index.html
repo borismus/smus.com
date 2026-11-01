@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/installable-webapps/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Installable webapps: extend the sandbox" />
   <meta name="twitter:description" content="article img.border {   margin: 0 auto;   max-width: 100%;   box-shadow: inset 0 0 10px #999 }         Have you seen the  extensible web manifesto ? It's the formalization of a recent trend in web standards: a tendency towards lower level APIs. Lower levels of abstraction enable developers to build more on top of a solid foundation. By going down a level of abstraction in the web platform, web developers can contribute to the platform itself in a more fundamental way, working along with browser vendors and spec writers. This is  how the web should work .   But there is a big missing piece in the extensible web vision. Our beloved platform is stuck in a constrictive security sandbox. The "drive by" web's security philosophy is that users of the web should be able to feel safe on any webpage they visit. While very important for the well being of web denizens, it prevents developers from using increasingly important features enjoyed by native platforms such as access to contacts, TCP/UDP sockets, interfaces to external USB/Bluetooth devices. Breaching this sandbox is a huge barrier for the web as a compelling application platform.   Some recent features, such as  getUserMedia , which gives web developers access to the audio and video streams of your device's camera and microphone, have started to break out of the sandbox. There are two approaches to this problem today: (a) infobars and (b) packaged apps. In the rest of this post I'll describe why these are bad solutions, deconstruct them down into small pieces and then glue the pieces back together. The ultimate goal is a modest proposal for installable web apps. Read on for my take on the background of the problem, or skip ahead to read my  illustrated proposal  for fixing it." />
-  
+  <meta name="twitter:image" content="https://smus.com/installable-webapps/infobar-apocalypse.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/installable-webapps/" />
   <meta property="og:title" content="Installable webapps: extend the sandbox" />
   <meta property="og:description" content="article img.border {   margin: 0 auto;   max-width: 100%;   box-shadow: inset 0 0 10px #999 }         Have you seen the  extensible web manifesto ? It's the formalization of a recent trend in web standards: a tendency towards lower level APIs. Lower levels of abstraction enable developers to build more on top of a solid foundation. By going down a level of abstraction in the web platform, web developers can contribute to the platform itself in a more fundamental way, working along with browser vendors and spec writers. This is  how the web should work .   But there is a big missing piece in the extensible web vision. Our beloved platform is stuck in a constrictive security sandbox. The "drive by" web's security philosophy is that users of the web should be able to feel safe on any webpage they visit. While very important for the well being of web denizens, it prevents developers from using increasingly important features enjoyed by native platforms such as access to contacts, TCP/UDP sockets, interfaces to external USB/Bluetooth devices. Breaching this sandbox is a huge barrier for the web as a compelling application platform.   Some recent features, such as  getUserMedia , which gives web developers access to the audio and video streams of your device's camera and microphone, have started to break out of the sandbox. There are two approaches to this problem today: (a) infobars and (b) packaged apps. In the rest of this post I'll describe why these are bad solutions, deconstruct them down into small pieces and then glue the pieces back together. The ultimate goal is a modest proposal for installable web apps. Read on for my take on the background of the problem, or skip ahead to read my  illustrated proposal  for fixing it." />
-  
+  <meta property="og:image" content="https://smus.com/installable-webapps/infobar-apocalypse.png" />
+  <meta property="article:published_time" content="2013-06-25" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -258,18 +261,18 @@ constructive answers.</p>
 <p>In order to keep things constructive, the second half of the post
 proposes a solution to get us out of the sandbox. There's a whole world
 out there! Here is my birds-eye-view of the install-from-the-web world:</p>
-<p><img alt="flow" src="flow.png" /></p>
+<p><img loading="lazy" alt="flow" src="flow.png" /></p>
 <p>This diagram is intended to be general enough to work across
 operating systems and device types, but the mocks themselves will be
 sketched out with a phone form factor in mind. We'll be installing
 <code>app.io</code>, a mobile app that lets you leave audio notes.</p>
-<p><img src="/installable-webapps/screen1.png" class="border" /></p>
+<p><img loading="lazy" src="screen1.png" class="border" /></p>
 <p><em>Screen 1: App.io example.</em></p>
 <h2>An API for installing webapps</h2>
 <p>This can be done with an iOS-style approach (and corresponding Chrome
 for Android <a href="https://code.google.com/p/chromium/issues/detail?id=153066">feature request</a>), which presents a generic UI
 for adding apps to the homescreen (see Screen 2).</p>
-<p><img src="/installable-webapps/screen2.png" class="border" /></p>
+<p><img loading="lazy" src="screen2.png" class="border" /></p>
 <p><em>Screen 2: Add via browser button.</em></p>
 <p>There are trade-offs between having a button or an opt-in developer
 <strong>API for installing web apps</strong>. With a button, any URL can be added to
@@ -303,7 +306,7 @@ the following code should work:</p>
 <p>This action should also result in a standard browser-specific dialog to
 accept installation, showing which permissions have been requested
 (Screen 3).</p>
-<p><img src="/installable-webapps/screen3.png" class="border" /></p>
+<p><img loading="lazy" src="screen3.png" class="border" /></p>
 <p><em>Screen 3: Confirm installation.</em></p>
 <p>Once accepted, a launcher shortcut should be created (Screen 4). Two
 pieces of metadata are necessary for this launcher:</p>
@@ -321,7 +324,7 @@ pieces of metadata are necessary for this launcher:</p>
    title.</p>
 </li>
 </ol>
-<p><img src="/installable-webapps/screen4.png" class="border" /></p>
+<p><img loading="lazy" src="screen4.png" class="border" /></p>
 <p><em>Screen 4: New launcher added to the home screen.</em></p>
 <h2>Launching in standalone mode</h2>
 <p>iOS already has an <strong>API to know if a webapp was launched in standalone
@@ -333,7 +336,7 @@ For example, something like <code>window.app.standalone</code>, if only for nami
 consistency could be implemented, and a polyfill provided for the Apple
 spec. It would also make sense to launch homescreen apps in full screen,
 providing the same UX as the full-screen API (Screen 5):</p>
-<p><img src="/installable-webapps/screen5.png" class="border" /></p>
+<p><img loading="lazy" src="screen5.png" class="border" /></p>
 <p><em>Screen 5: App launched in standalone mode.</em></p>
 <h2>Requesting additional permissions</h2>
 <p>Apps might need additional permissions that go beyond the default
@@ -346,7 +349,7 @@ permissions</strong> might look like the following:</p>
 modal optional permissions dialog (Screen 6) similar to the one seen at
 installation. After granting it, the associated API call (in this case,
 <code>getUserMedia</code>) can be invoked without incurring any infobars.</p>
-<p><img src="/installable-webapps/screen6.png" class="border" /></p>
+<p><img loading="lazy" src="screen6.png" class="border" /></p>
 <p><em>Screen 6: Additional permissions request.</em></p>
 <h2>Removing installed web apps and extra permissions</h2>
 <p>If the installed webapp has a native launcher, removing the launcher can
@@ -383,11 +386,22 @@ more than a <a href="http://code.google.com/intl/en-US/chrome/apps/docs/no_crx.h
 <p>To my knowledge, the most active project along the lines of this
 proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open Web Apps</a> work from Firefox OS. </p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>June 25, 2013</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -396,7 +410,6 @@ proposal is the <a href="https://developer.mozilla.org/en-US/docs/Web/Apps">Open
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

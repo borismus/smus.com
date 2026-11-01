@@ -5,7 +5,7 @@
   <title>Boris Smus (Notes)</title>
   <link href="https://smus.com/atom.xml" rel="self"/>
   <link href="https://smus.com"/>
-  <updated>2026-10-21T12:19:13-00:00</updated>
+  <updated>2026-10-31T23:30:24-00:00</updated>
   <id>https://smus.com/atom.xml</id>
   
   <entry>
@@ -137,7 +137,7 @@ seems ridiculous — so do night guards do the same?
 <p>To make this concrete, here's a page I wrote from my travel log and the ground truth I manually transcribed:</p>
 <p><img alt="Handwritten journal page from Supernote e-ink tablet with ground truth transcription" src="/assets/ocr-original-to-groundtruth-comparison.png" /></p>
 <p>And here's a side-by-side comparison of the transcript produced by qwen3-vl:8b, Supernote's on-device model, and tesseract:</p>
-<p><img alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
+<p><img loading="lazy" alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
 <p>As you can see, tesseract produces terrible output. This is not surprising, since it's not trained for handwritten text but printed text. To do this right, you'd need to retrain it with a corpus of handwritten documents, but I still wanted to include it as a baseline.</p>
 <p>Supernote's real-time on-device handwriting recognizer does reasonably well sometimes, but other times goes off the rails, as you can see in the example above. For the curious, code for these benchmark scripts <a href="https://github.com/borismus/supernote-ocr-bench">is available</a>.</p>
 <p>Calculating word error rates and aggregating all the pages' WER scores resulted in the following table:</p>
@@ -229,7 +229,7 @@ Critical constraints:
 <li>What if you could dictate notes while walking, running, or riding a bike <em>without even requiring a smartphone</em>?</li>
 </ol>
 <p>To motivate this, watch this quick summary of the scenarios above, and read on for some tech details for how it all works.</p>
-<iframe width="600" height="394" src="https://www.youtube-nocookie.com/embed/7B-42UeuIps?si=dNDpceiSLafEifhh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="600" height="394" src="https://www.youtube-nocookie.com/embed/7B-42UeuIps?si=dNDpceiSLafEifhh&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--more-->
 

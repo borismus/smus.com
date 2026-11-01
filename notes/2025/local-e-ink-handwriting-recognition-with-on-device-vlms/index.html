@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/notes/2025/local-e-ink-handwriting-recognition-with-on-device-vlms/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Local e-ink handwriting recognition with on-device VLMs" />
   <meta name="twitter:description" content="For decades, I've carried a Field Notes notebook and a pen. I mainly used them to capture ideas on the go, but it would also be great to sketch out a diagram, or to journal a little bit, especially while traveling.    Fast note-taking via the iPhone's action button has alleviated a lot of my need for quickly capturing ideas. But nothing can replace pen and paper for long form stream-of-consciousness writing or diagramming.    I wanted to give my writing a digital life alongside the rest of my notes. So a year ago, I bought an A5 e-ink writer called Supernote. I really like it so far: it's a good size, input latency is reasonable, and the overall writing experience is fine. The device provides real-time text recognition on-device and a modest cloud syncing service. I've been using their unofficial API to sync notes and bring them into my Obsidian inbox. But then something happened..." />
-  
+  <meta name="twitter:image" content="https://smus.com/assets/ocr-original-to-groundtruth-comparison.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/notes/2025/local-e-ink-handwriting-recognition-with-on-device-vlms/" />
   <meta property="og:title" content="Local e-ink handwriting recognition with on-device VLMs" />
   <meta property="og:description" content="For decades, I've carried a Field Notes notebook and a pen. I mainly used them to capture ideas on the go, but it would also be great to sketch out a diagram, or to journal a little bit, especially while traveling.    Fast note-taking via the iPhone's action button has alleviated a lot of my need for quickly capturing ideas. But nothing can replace pen and paper for long form stream-of-consciousness writing or diagramming.    I wanted to give my writing a digital life alongside the rest of my notes. So a year ago, I bought an A5 e-ink writer called Supernote. I really like it so far: it's a good size, input latency is reasonable, and the overall writing experience is fine. The device provides real-time text recognition on-device and a modest cloud syncing service. I've been using their unofficial API to sync notes and bring them into my Obsidian inbox. But then something happened..." />
-  
+  <meta property="og:image" content="https://smus.com/assets/ocr-original-to-groundtruth-comparison.png" />
+  <meta property="article:published_time" content="2025-12-18" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -83,7 +86,7 @@
 <p>To make this concrete, here's a page I wrote from my travel log and the ground truth I manually transcribed:</p>
 <p><img alt="Handwritten journal page from Supernote e-ink tablet with ground truth transcription" src="/assets/ocr-original-to-groundtruth-comparison.png" /></p>
 <p>And here's a side-by-side comparison of the transcript produced by qwen3-vl:8b, Supernote's on-device model, and tesseract:</p>
-<p><img alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
+<p><img loading="lazy" alt="Side-by-side comparison of handwriting recognition output from qwen3-vl, Supernote, and tesseract" src="/assets/ocr-qwen-to-supernote-to-tesseract-comparison.png" /></p>
 <p>As you can see, tesseract produces terrible output. This is not surprising, since it's not trained for handwritten text but printed text. To do this right, you'd need to retrain it with a corpus of handwritten documents, but I still wanted to include it as a baseline.</p>
 <p>Supernote's real-time on-device handwriting recognizer does reasonably well sometimes, but other times goes off the rails, as you can see in the example above. For the curious, code for these benchmark scripts <a href="https://github.com/borismus/supernote-ocr-bench">is available</a>.</p>
 <p>Calculating word error rates and aggregating all the pages' WER scores resulted in the following table:</p>
@@ -149,11 +152,28 @@ Critical constraints:
 <p>I went with <code>qwen3-vl:8b</code>. It takes about a minute to process a page on my $450 Mac Mini. The word error rate is about 5% which is not far from the best possible results of 3% via Claude's high-end model.</p>
 <p>Handwriting transcription is now implemented in my <code>note-vault-utilities</code>, a suite of scripts that <a href="https://smus.com/file-systems-for-thought/">garden my plaintext note corpus</a>. Cloud sync to desktop is achieved using the <a href="https://support.supernote.com/en_US/Tools-Features/supernote-partner-app-for-desktop">Supernote Mac app</a> and my daily note cron job picks up and transcribes any new handwritten notes into the Obsidian note corpus.</p>
     </div>
+    
+<div class='discussion'>
+  Discussed on
+  <a href='https://www.reddit.com/r/Supernote/comments/1pqs7zy/local_vlms_for_handwriting_recognition_way_better/'>r/Supernote</a>.
+  
+</div>
+
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>December 18, 2025</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -162,7 +182,6 @@ Critical constraints:
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

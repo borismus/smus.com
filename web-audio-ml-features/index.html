@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/web-audio-ml-features/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Audio features for web-based ML" />
   <meta name="twitter:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the  MNIST dataset . This was recently  ported to the web  thanks to  deeplearn.js . The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this:        Into images like this, called log-mel spectrograms, and in the  next post , feed these images into the same types of models that do handwriting recognition so well:       The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to  see the code , or  play with some live demos , be my guest!" />
-  
+  <meta name="twitter:image" content="https://smus.com/web-audio-ml-features/final-log-mel-spectrogram.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/web-audio-ml-features/" />
   <meta property="og:title" content="Audio features for web-based ML" />
   <meta property="og:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the  MNIST dataset . This was recently  ported to the web  thanks to  deeplearn.js . The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this:        Into images like this, called log-mel spectrograms, and in the  next post , feed these images into the same types of models that do handwriting recognition so well:       The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to  see the code , or  play with some live demos , be my guest!" />
-  
+  <meta property="og:image" content="https://smus.com/web-audio-ml-features/final-log-mel-spectrogram.png" />
+  <meta property="article:published_time" content="2017-12-15" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -103,7 +106,7 @@ to work on matrices representing 2D images, so a natural idea is to take our raw
 audio and generate an image from it. Generating these images from audio is
 sometimes called a frontend in <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43960.pdf">speech recognition papers</a>. Just to
 hammer the point home, here's a diagram explaining why we need to do this step:</p>
-<p><img alt="Audio processing vs. image processing" src="front-end-diagram.png" /></p>
+<p><img loading="lazy" alt="Audio processing vs. image processing" src="front-end-diagram.png" /></p>
 <p>The standard way of generating images from audio is by looking at the audio
 chunk-by-chunk, and analyzing it in the frequency domain, and then applying
 various techniques to massage that data into a form that is well suited to
@@ -128,7 +131,7 @@ useful companion to that tutorial.</p>
 <p>Let's begin with an audio example (a man saying the word "left"):</p>
 <p><audio src="/web-audio-ml-features/left.wav" controls></audio></p>
 <p>Here's that raw waveform plotted as pressure as a function of time:</p>
-<p><img alt="Raw audio" src="1-raw-audio.png" /></p>
+<p><img loading="lazy" alt="Raw audio" src="1-raw-audio.png" /></p>
 <p>We could take the FFT over the whole signal, but it changes a lot over time.
 In our example above, the "left" utterance only takes about 200 ms, and most of
 the signal is silence. Instead, we break up the raw audio signal into
@@ -147,18 +150,18 @@ another by 50%. For illustration purposes only, the buffer and hop durations are
 large (400 ms and 200ms respectively). In practice, we tend to use much shorter
 buffers (eg. 20-40 ms), and often even shorter hop lengths to capture minute
 changes in audio signal.</p>
-<p><img alt="Break-up audio" src="2-buffer-hop.png" /></p>
+<p><img loading="lazy" alt="Break-up audio" src="2-buffer-hop.png" /></p>
 <p>Then, we consider each buffer in the frequency domain. We can do this using an
 Fast Fourier Transform (FFT) algorithm. This algorithm gives us complex values
 from which we can extract magnitudes or energies. For example, here are the FFT
 energies of one of the buffers, approximately the second one in the above image,
 where the speaker begins saying the "le" syllable of "left":</p>
-<p><img alt="Frequency of buffer" src="3-fft-buffer-linear.png" /></p>
+<p><img loading="lazy" alt="Frequency of buffer" src="3-fft-buffer-linear.png" /></p>
 <p>Now imagine we do this for every buffer we generated in the previous step, take
 each FFT arrays and instead of showing energy as a function of frequency, stack
 the array vertically so that y-axis represents frequency and color represents
 energy. We end up with a spectrogram:</p>
-<p><img alt="STFT spectrogram" src="4-fft-spectrogram.png" /></p>
+<p><img loading="lazy" alt="STFT spectrogram" src="4-fft-spectrogram.png" /></p>
 <p>We could feed this image into our neural network, but you'll agree that it looks
 pretty sparse. We have wasted so much space, and there's not much signal there
 for a neural network to train on.</p>
@@ -166,22 +169,22 @@ for a neural network to train on.</p>
 frequencies in this plot are bunched up below 5 KHz since the speaker isn't
 producing particularily high frequency sound. Human audition tends to be
 logarithmic, so we can view the same range on a log-plot:</p>
-<p><img alt="Frequency of buffer" src="5-fft-buffer-log.png" /></p>
+<p><img loading="lazy" alt="Frequency of buffer" src="5-fft-buffer-log.png" /></p>
 <p>Let's generate new spectrograms as we did in an earlier step, but rather than
 using a linear plot of energies, use can a log-plot of FFT energies:</p>
-<p><img alt="STFT log spectrogram" src="9-log-spectrogram.png" /></p>
+<p><img loading="lazy" alt="STFT log spectrogram" src="9-log-spectrogram.png" /></p>
 <p>Looks a bit better, but there is room for improvement. Humans are much better at
 discerning small changes in pitch at low frequencies than at high frequencies.
 The Mel scale relates pitch of a pure tone to its actual measured frequency. To
 go from frequencies to Mels, we create a triangular filter bank:</p>
-<p><img alt="Mel filter bank" src="6-mel-filterbank.png" /></p>
+<p><img loading="lazy" alt="Mel filter bank" src="6-mel-filterbank.png" /></p>
 <p>Each colorful triangle above is a window that we can apply to the frequency
 representation of the sound. Applying each window to the FFT energies we
 generated earlier will give us the Mel spectrum, in this case an array of 20
 values:</p>
-<p><img alt="Mel spectrum" src="7-mel-spectrum.png" /></p>
+<p><img loading="lazy" alt="Mel spectrum" src="7-mel-spectrum.png" /></p>
 <p>Plotting this as a spectrogram, we get our feature, the log-mel spectrogram:</p>
-<p><img alt="Mel spectrogram" src="10-mel-spectrogram.png" /></p>
+<p><img loading="lazy" alt="Mel spectrogram" src="10-mel-spectrogram.png" /></p>
 <p>The 1s images above are generated using audio feature extraction software
 written in TypeScript, which I've released publicly. Here's a <a href="https://google.github.io/web-audio-recognition/audio-features/">demo</a> that
 lets you run the feature extractor on your own audio, and <a href="https://github.com/google/web-audio-recognition/tree/master/audio-features">the code on
@@ -205,7 +208,7 @@ suggests the Emscripten-compiled KissFFT is the fastest (but still 2-5x slower
 than native), and the one I used.</p>
 <p>Here is a sanity check comparing the output of my web-based feature extractor to
 that of other libraries, most notably <a href="https://github.com/librosa/librosa">librosa</a> and from <a href="https://github.com/tensorflow/models/blob/master/research/audioset/mel_features.py">AudioSet</a>:</p>
-<p><img alt="Log mel feature comparison" src="mel-comparison.png" /></p>
+<p><img loading="lazy" alt="Log mel feature comparison" src="mel-comparison.png" /></p>
 <p>The images resulting from the three implementations are similar, which is a good
 sanity check, but they are not identical. I haven't found the time yet, but it
 would be very worthwhile to have a consistent cross platform audio feature
@@ -224,11 +227,22 @@ to delve deeper into sound understanding.</p>
 that are ready to feed into a neural network. Oh yeah, the actual machine
 learning part? That's the <a href="/web-voice-command-recognition/">next post</a>.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>December 15, 2017</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -237,7 +251,6 @@ learning part? That's the <a href="/web-voice-command-recognition/">next post</a
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>

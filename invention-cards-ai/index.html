@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   
   
@@ -12,18 +12,21 @@
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/invention-cards-ai/" />
 
+  
+  
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Invention Cards enhanced by AI" />
   <meta name="twitter:description" content="I used GPT4's multimodal features to accelerate and improve my recently rebooted  Visual Chronology of Science &amp; Discovery  project now hosted at  https://invention.cards . First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for  accelerated data entry . Then I used text-to-image models to generate  visually consistent imagery  for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my  asimov-gpt repository ." />
-  
+  <meta name="twitter:image" content="https://smus.com/invention-cards-ai/asimov-example-pages.jpg" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/invention-cards-ai/" />
   <meta property="og:title" content="Invention Cards enhanced by AI" />
   <meta property="og:description" content="I used GPT4's multimodal features to accelerate and improve my recently rebooted  Visual Chronology of Science &amp; Discovery  project now hosted at  https://invention.cards . First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for  accelerated data entry . Then I used text-to-image models to generate  visually consistent imagery  for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my  asimov-gpt repository ." />
-  
+  <meta property="og:image" content="https://smus.com/invention-cards-ai/asimov-example-pages.jpg" />
+  <meta property="article:published_time" content="2024-05-30" />
 
   <!-- Mastodon -->
   <link rel="me" href="https://mastodon.social/@borismus">
@@ -109,12 +112,12 @@
 <p>To handle the page boundary robustly in the future, I'm imagining a two pass solution: 1) Extract the headings from the page. 2) Send a bi-fold image of the current and next page, and in the prompt, ask to provide summaries for the headings extracted from the first pass. How well <code>gpt-4o</code> or the next crop of models will handle multi-page images remains to be seen.</p>
 <h3>Data workflow</h3>
 <p>Here's my overall data extraction workflow:</p>
-<p><img alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
+<p><img loading="lazy" alt="Three windows showing the accelerated data workflow." src="asimov-ai-workflow.png" /></p>
 <p>I run the script for a range of pages:</p>
 <p><code>&gt; python3 src/extract_cards.py --from=388 --to=400</code></p>
 <p>This outputs TSV for all entries on the page (terminal, window 2). I copy the TSV into the master spreadsheet (sheets, window 3), and then cross-reference the fields with the original text (preview, window 1).</p>
 <p>Once ready, the spreadsheet is exported as TSV. I then load this TSV in the <a href="https://invention.cards">https://invention.cards</a> site, and also use it as the source of truth for further processing. The inventions and discoveries on page 367-368 will be transformed into cards like this: <a href="https://invention.cards/glider">Glider</a>, <a href="https://invention.cards/cholera">Cholera</a>, <a href="https://invention.cards/kerosene">Kerosene</a>, and <a href="https://invention.cards/age-of-the-sun">Age of the sun</a>.</p>
-<p><img alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
+<p><img loading="lazy" alt="Four cards from 1853-54." src="asimov-cardified.jpg" /></p>
 <p>At this point you might be wondering where the snazzy images came from. Read on to find out!</p>
 <h1>Visually consistent imagery</h1>
 <p>After I have a TSV file of inventions and discoveries from the AI-assisted process I described above, we can begin generating consistent imagery for these inventions. I use OpenAI's <code>dall-e-3</code> model to generate an image using the metadata provided. The f-string prompt looks something like this:</p>
@@ -130,17 +133,17 @@
 </blockquote>
 <p>The results are stylistically consistent and visually pleasing. Sometimes things are a bit off though. Here are a few failure modes I've observed:</p>
 <p>A. The image does not correspond to the factual details of the card (e.g. <a href="https://invention.cards/aerodynamics">Aerodynamics (1809)</a>, <a href="https://invention.cards/binary-system">Binary System (1700)</a> pictured):</p>
-<p><img alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
+<p><img loading="lazy" alt="Binary Systems bloopers" src="binary-system-problems.jpg" /></p>
 <p>B. The card title has multiple meanings, and the image generator latches on to the wrong one (e.g. <a href="https://invention.cards/percussion">Percussion (1761)</a> and <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> pictured):</p>
-<p><img alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
+<p><img loading="lazy" alt="Black Bodies bloopers" src="black-bodies-problems.jpg" /></p>
 <p>C. The card is obscure and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/discovery-of-lanthanum">Lanthanum (1839)</a>, <a href="https://invention.cards/molybdenum">Molybdenum (1778)</a>, and <a href="https://invention.cards/thallium">Thallium (1861)</a> pictured):</p>
-<p><img alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
+<p><img loading="lazy" alt="Thallium bloopers" src="thallium-problems.jpg" /></p>
 <p>D. The card is abstract and the image generator doesn't really know what to do (e.g. <a href="https://invention.cards/celsius">Celsius (1742)</a>, <a href="https://invention.cards/celluloid">Celluloid (1869)</a>, and <a href="https://invention.cards/positive-negative-charge">Positive negative charge (1733)</a> pictured):</p>
-<p><img alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
+<p><img loading="lazy" alt="Positive Negative Charge bloopers" src="positive-negative-charge-problems.jpg" /></p>
 <p>E. The card includes an object that the image generator struggles to generate, so creates a crazy version of the object (e.g. <a href="https://invention.cards/safety-pin">Safety Pin (1849)</a>, <a href="https://invention.cards/telescope">Telescope (1668)</a>):</p>
-<p><img alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
+<p><img loading="lazy" alt="Telescope and Safety Pin bloopers" src="telescope-safety-pin-problems.jpg" /></p>
 <p>Two common and undesirable occurrences in these generated card images are people and text. The image often focuses on the visage of the inventor to the detriment of his actual invention. Sometimes it's not the inventor or the discoverer, but a beautiful woman depicted in art nouveau style. The other failure mode is that the image contains unnecessary text. My favorite is when it is prominently misspelled, as in this set of attempts for <a href="https://invention.cards/carbon-dioxide">Carbon Dioxide (1754)</a>.</p>
-<p><img alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
+<p><img loading="lazy" alt="Carbon Dioxide misspelling bloopers" src="carbon-dioxide-spelling-bloopers.jpg" /></p>
 <p>First I tried threats to discourage these misbehaviors. Unfortunately threatening to kill <code>dall-e-3</code>'s firstborn child triggers their AI safety subsystem. Then I tried cajoling. In the end I ended up pleading with very clear instructions. The prompt ends with:</p>
 <blockquote>
 <p>Please do not include any typography or text. Please do not draw any people.</p>
@@ -154,11 +157,22 @@
 <p>I'd say that more than half of the card images generated on the first pass are good enough for my bar. Some images end up requiring multiple generations and eventually produce something compelling. Other cards fail completely and require workarounds. In some cases, like <a href="https://invention.cards/morphine">Morphine (1805)</a>, <code>dall-e-3</code> simply refused to generate any image because it violated their policies. Winners don't use drugs!</p>
 <p>In other cases, <code>dall-e-3</code> gets confused by Asimov's terms and generates consistently wonky images. In these rare cases, I took liberties and retitled the card. Though a separture from the original text, the new names are less confusing to both the image generator and to the general public. I renamed <a href="https://invention.cards/black-bodies">Black Bodies (1860)</a> to "Blackbody Radiation" to be able to generate images without a black human body. Similarly, I renamed <a href="https://invention.cards/percussion">Percussion (1761)</a>, to "Medical Percussion" to avoid spurious musical instruments.</p>
     </div>
+    
     <div class='subfooter'>
       <div class='tombstone'>▪</div>
       <time class='published'>May 30, 2024</time>
     </div>
   </article>
+</section>
+<section id='subscribe'>
+  <form action='https://buttondown.com/api/emails/embed-subscribe/borismus'
+    method='post' target='popupwindow' onsubmit="window.open('https://buttondown.com/borismus', 'popupwindow')">
+    <h2>Want my essays, projects, and book reviews once a month?</h2>
+    <div class='subscribe-row'>
+      <input type='email' name='email' placeholder='you@example.com' aria-label='Email address' required />
+      <button type='submit'>Subscribe</button>
+    </div>
+  </form>
 </section>
 
 
@@ -167,7 +181,6 @@
     © Copyright 2005–2026 Boris Smus.
   </div>
   <nav role="footer">
-    <a href='https://buttondown.com/borismus'>Subscribe via email</a> ·
     <a href='https://smus.com/atom.xml'>RSS</a>
     <a style="display: none" rel="me" href="https://mastodon.social/@borismus">Mastodon</a>
   </nav>
