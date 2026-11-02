@@ -530,6 +530,11 @@ article .book-context {
   section#gallery {
     margin: 0;
   }
+
+  section#subscribe form {
+    font-size: 1.2rem;
+    padding: 1.25rem;
+  }
 }
 
 /* Dark mode 🌙 */
@@ -629,8 +634,7 @@ article .discussion {
 }
 
 section#subscribe {
-  background: #fff6d5;
-  padding: 2.5rem 1rem;
+  padding: 0 1rem 3rem;
   display: flex;
   justify-content: center;
 }
@@ -638,6 +642,9 @@ section#subscribe {
 section#subscribe form {
   width: 700px;
   max-width: 100%;
+  background: #edf4ea;
+  border-radius: 6px;
+  padding: 1.75rem 2rem;
   font-family: "Source Serif Pro", serif;
   font-size: 21px;
   line-height: 1.6;
@@ -645,16 +652,15 @@ section#subscribe form {
   text-wrap: pretty;
 }
 
-section#subscribe h2 {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.7rem;
-  color: rgba(0, 0, 0, 0.8);
-}
-
 section#subscribe .subscribe-row {
   display: flex;
   gap: 0.75rem;
   margin-top: 1rem;
+}
+
+section#subscribe .signoff {
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 section#subscribe input {
@@ -686,16 +692,9 @@ section#subscribe button:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-  section#subscribe {
-    background: #17241b;
-  }
-
   section#subscribe form {
+    background: #17241b;
     color: rgba(255, 255, 255, 0.6);
-  }
-
-  section#subscribe h2 {
-    color: #eee;
   }
 
   section#subscribe input {
