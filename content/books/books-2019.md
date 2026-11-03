@@ -1649,13 +1649,13 @@ valley entrepreneurial techno-optimist. Unfortunately, Postman's position is so
 extreme and arguments so cliched, I found myself rooting for the other side. 
 
 
-Infinite Planets
+Invisible Planets
 ===
 posted: January 2, 2019
 rating: yes
 
 I've only just touched the tip of the Chinese Sci-Fi iceberg by reading [Three
-Body Problem](/books/three-body-problem-by-liu-cixin-audio/). So I picked up Infinite Planets, also translated by the same guy, Ken Liu.
+Body Problem](/books/three-body-problem-by-liu-cixin-audio/). So I picked up Invisible Planets, also translated by the same guy, Ken Liu.
 
 Many of the stories were just too out there for me to fully enjoy. I'm not sure
 if this is what's meant by "wuxia", but some had a sort of Crouching Tiger,

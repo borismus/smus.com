@@ -21,7 +21,7 @@ I read and listened to a few [books](/books) in 2018. My highlights include
 speculative fiction stories from Chinese authors: [Ted
 Chiang](/books/the-truth-of-fact-the-truth-of-feeling-by-ted-chiang/), [Liu
 Cixin](/books/three-body-problem-by-liu-cixin-audio/), [Ken Liu's translations
-of](/books/infinite-planets/), Chen Qiufan, Xia Jia, Hao Jingfang. Also really
+of](/books/invisible-planets/), Chen Qiufan, Xia Jia, Hao Jingfang. Also really
 enjoyed [Player of Games](/books/player-of-games-by-iain-m-banks/) and [Darkness
 at Noon](/books/darkness-at-noon-by-arthur-koestler-audio/). On the non-fiction
 front, I listened to two excellent history lectures: one on [modern

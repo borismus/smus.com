@@ -752,7 +752,7 @@ understanding.
 [evolving-minds]: https://www.samharris.org/podcast/item/evolving-minds
 
 
-Must Mankind Repeat History's Great Mistakes
+Must History Repeat the Great Conflicts of This Century?
 ===
 posted: July 2016
 rating: no
