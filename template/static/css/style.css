@@ -633,13 +633,39 @@ article .discussion {
   padding-top: 1rem;
 }
 
+/* 404 page */
+article.not-found .poem {
+  font-style: italic;
+  margin: 1.5rem 0 2rem;
+  padding-left: 1.25rem;
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+article.not-found #missing-path {
+  word-break: break-all;
+}
+
+article.not-found #suggestions {
+  margin-top: 1.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  article.not-found .poem {
+    border-left-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.related-cards[hidden] {
+  display: none;
+}
+
 section#related {
   padding: 0 1rem 3rem;
   display: flex;
   justify-content: center;
 }
 
-section#related .related-cards {
+.related-cards {
   width: 700px;
   max-width: 100%;
   font-family: "Source Serif Pro", serif;
@@ -653,7 +679,7 @@ section#related .related-cards {
   gap: 1rem;
 }
 
-section#related a.related-card {
+a.related-card {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
@@ -664,11 +690,11 @@ section#related a.related-card {
   transition: border-color 0.15s ease;
 }
 
-section#related a.related-card:hover {
+a.related-card:hover {
   border-color: forestgreen;
 }
 
-section#related .related-meta {
+.related-meta {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.06em;
@@ -676,7 +702,7 @@ section#related .related-meta {
   color: rgba(0, 0, 0, 0.45);
 }
 
-section#related .related-title {
+.related-title {
   font-size: 1.05rem;
   font-weight: bold;
   line-height: 1.3;
@@ -685,11 +711,11 @@ section#related .related-title {
   transition: color 0.15s ease;
 }
 
-section#related a.related-card:hover .related-title {
+a.related-card:hover .related-title {
   color: forestgreen;
 }
 
-section#related .related-excerpt {
+.related-excerpt {
   font-size: 0.92rem;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.6);
@@ -700,34 +726,34 @@ section#related .related-excerpt {
 }
 
 @media screen and (max-width: 720px) {
-  section#related .related-cards {
+  .related-cards {
     grid-auto-flow: row;
     font-size: 1.2rem;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  section#related a.related-card {
+  a.related-card {
     border-color: rgba(255, 255, 255, 0.12);
   }
 
-  section#related .related-meta {
+  .related-meta {
     color: rgba(255, 255, 255, 0.45);
   }
 
-  section#related .related-title {
+  .related-title {
     color: rgba(255, 255, 255, 0.88);
   }
 
-  section#related .related-excerpt {
+  .related-excerpt {
     color: rgba(255, 255, 255, 0.6);
   }
 
-  section#related a.related-card:hover {
+  a.related-card:hover {
     border-color: #80ff80bd;
   }
 
-  section#related a.related-card:hover .related-title {
+  a.related-card:hover .related-title {
     color: #80ff80bd;
   }
 }

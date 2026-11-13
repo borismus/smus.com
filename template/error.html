@@ -1,22 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Page not found</title>
-  </head>
+{% extends "base.html" %}
 
-  <meta charset='utf-8' />
-  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
-
-  <meta name="description" content="Page not found" />
-  <meta name="author" content="Boris Smus" />
-
-  <!-- Icons -->
-  <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico" />
-  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
-
-  <body>
-    <section id='error'>
+{% block content %}
+{#- Every post, note and book review as [title, permalink, meta], so the script
+    below can suggest pages whose titles match the missing URL. -#}
+{% set labels = {'post': 'Post', 'note': 'Note', 'book': 'Book review'} %}
+{% set ns = namespace(pages=[]) %}
+{% for entry in site.articles %}
+  {% for a in (entry.children if entry.children is defined else [entry]) %}
+    {% if a.type_name in labels %}
+      {% set meta = labels[a.type_name] ~ ((' · ' ~ a.date_created.Format('%B %Y' if a.type_name == 'book' else '%b %-d, %Y')) if a.date_created else '') %}
+      {% set ns.pages = ns.pages + [[a.title, a.permalink, meta]] %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+<section id='main'>
+  <article class='not-found'>
+    <h1 class='title'>{{ title }}</h1>
+    <div class='body'>
       {{content}}
-    </section>
-  </body>
-</html>
+      <p>There's nothing at <code id='missing-path'>this address</code>.<span id='suggest-intro' hidden> Perhaps you meant:</span></p>
+    </div>
+    <div id='suggestions' class='related-cards' hidden></div>
+  </article>
+</section>
+
+<script>
+// Suggest up to three pages whose title or URL shares most of the missing
+// URL's words. Plurals and truncations count ("unit" matches "units").
+const PAGES = {{ ns.pages | tojson }};
+const SKIP = new Set(['the', 'and', 'for', 'html', 'index', 'blog', 'posts', 'notes', 'books']);
+const words = text => text.toLowerCase().split(/[^a-z0-9]+/)
+    .filter(w => w.length > 2 && !/^\d+$/.test(w) && !SKIP.has(w));
+const same = (a, b) => a === b ||
+    (Math.min(a.length, b.length) >= 4 && (a.startsWith(b) || b.startsWith(a)));
+
+const path = location.pathname;
+document.getElementById('missing-path').textContent = path;
+const query = words(path);
+
+const matches = PAGES.map(([title, permalink, meta]) => {
+  const pageWords = words(title + ' ' + permalink);
+  const hits = query.filter(q => pageWords.some(w => same(q, w))).length;
+  return {title, permalink, meta, score: hits / query.length, size: pageWords.length};
+}).filter(m => m.score >= 0.5)
+  .sort((a, b) => b.score - a.score || a.size - b.size)
+  .filter((m, i, sorted) => m.score === sorted[0].score)
+  .slice(0, 3);
+
+if (matches.length) {
+  const suggestions = document.getElementById('suggestions');
+  suggestions.innerHTML = matches.map(m => `
+    <a class='related-card' href='${m.permalink}'>
+      <span class='related-meta'>${m.meta}</span>
+      <span class='related-title'>${m.title}</span>
+    </a>`).join('');
+  suggestions.hidden = false;
+  document.getElementById('suggest-intro').hidden = false;
+}
+</script>
+{% endblock %}
