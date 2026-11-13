@@ -1,6 +1,7 @@
-Projects
-========
+---
+title: Projects
 type: custom
+---
 
 <main class="projects">
   <style scoped>

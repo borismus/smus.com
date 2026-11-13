@@ -1,11 +1,10 @@
-jQuery mobile hacker news
-=========================
+---
+title: jQuery mobile hacker news
 categories: [web]
 posted: 2010-11-17
 snip: My first jQuery Mobile application (using Alpha 1). I found a few bugs and contributed
   a couple of plugins.
-
-
+---
 
 I'm about to embark on a 3-week heads-down coding spree to finish off
 the final project of my masters. I convinced my team and our clients
@@ -118,4 +117,3 @@ stay tuned!
   [@ronnieroller]: http://twitter.com/ronnieroller
   [Android browser has a bug]: http://code.google.com/p/android/issues/detail?id=12558
   [on github]: https://github.com/borismus/jQuery-Mobile-Hacker-News/tree/master/assets/www/
-

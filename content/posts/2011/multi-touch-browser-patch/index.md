@@ -1,12 +1,10 @@
-Multi-touch for your desktop browser
-====================================
+---
+title: Multi-touch for your desktop browser
 categories: [web]
 posted: 2011-05-02
 snip: Prototyping multi-touch applications? Simulate spec-compatible touch events
   without a mobile device.
-
-
-
+---
 
 In mobile development, it's often easier to start prototyping on the desktop
 and then tackle the mobile-specific parts on the devices you intend to support.
@@ -109,5 +107,3 @@ If you're interested in multi-touch mobile web development, check out this
 [article on html5rocks.com]: http://www.html5rocks.com/mobile/touch.html
 [npTuioClient NPAPI plugin]: https://github.com/fajran/npTuioClient#readme
 [TongSeng TUIO tracker]: https://github.com/fajran/tongseng/downloads
-
-

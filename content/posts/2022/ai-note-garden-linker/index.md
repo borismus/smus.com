@@ -1,6 +1,7 @@
-AI note garden: link suggestions
-===
+---
+title: "AI note garden: link suggestions"
 posted: January 14, 2022
+---
 
 My latest [AI gardener apprentice](/ai-note-garden-summarizer) finds pairs of notes that aren't explicitly linked, but maybe ought to be. This project was inspired by the human subconscious, which creates, cements, and removes neural connections during sleep.
 

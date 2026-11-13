@@ -1,9 +1,8 @@
-CHI 2010 poster
-===============
+---
+title: CHI 2010 poster
 categories: [design]
 posted: 2010-03-21
-
-
+---
 
 I'm confirmed to go to [CHI2010][] in Atlanta, so I spent some time
 making a poster for the [Ubiquitous Drums][] project that was
@@ -21,4 +20,3 @@ they usually so ugly?
   [CHI2010]: http://chi2010.org/
   [Ubiquitous Drums]: /ubiquitous-drums
   [WIP]: ubiquitous-drums-paper.pdf
-

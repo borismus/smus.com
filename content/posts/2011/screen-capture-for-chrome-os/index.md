@@ -1,14 +1,12 @@
-Screen video capture for Chrome OS
-==================================
+---
+title: Screen video capture for Chrome OS
 categories: [web, google, chrome]
 posted: 2011-10-04
 snip: An effective way of creating video screen captures in Chrome without relying
   on a plugin.
 discussion:
   - https://news.ycombinator.com/item?id=3075311
-
-
-
+---
 
 This post is about video capture in Chrome that doesn't rely on any
 external dependencies like Flash (no fun), NPAPI (not supported on
@@ -138,5 +136,3 @@ to make my life a bit easier.
 [deviceapi]: http://www.w3.org/2009/dap/
 [webrtc]: http://www.webrtc.org/
 [markdown]: https://github.com/borismus/markdown-preview
-
-

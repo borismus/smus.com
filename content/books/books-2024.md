@@ -1,14 +1,14 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-Use of Weapons by Iain Banks
-===
+---
+title: Use of Weapons by Iain Banks
 rating: yes
 posted: Dec 20, 2024
 cover: /assets/book-covers/use-of-weapons.jpg
+---
 
 This book meanders and takes its time building up to a double twist of a conclusion, leaving the reader winded. Its unusual structure is disorienting and leads to moments of annoyance, but it's ultimately worth it. I found the twist surprising despite there being plenty of foreshadowing, but these tells were only visible in retrospect. Recency bias may be deluding me here, but I think Use of Weapons all told was the most compelling installment of The Culture Series I've read, followed by Player of Games, then Consider Phlebas. That said, I wouldn't recommend it as an introduction to The Culture because of the slow build. It's impossible to write in any more detail without spoilers, so consider yourself warned henceforth.
 
@@ -55,12 +55,12 @@ In manned spaceship design, is it ever reasonable to have actual windows made of
 
 Great made-up words: "Hegemonarchy" and also "Ethnark".
 
-
-When We Cease to Understand the World by Benjamín Labatut
-===
+---
+title: When We Cease to Understand the World by Benjamín Labatut
 rating: yes
 posted: Oct 20, 2024
 cover: /assets/book-covers/when-we-cease-to-understand-the-world.jpg
+---
 
 Labatut's work is a collection of stories strike an unusual balance between fiction and non-fiction. More than historical fiction, these stories are well researched and deeply grounded in science, and the lives of famous scientists. But their lives are subtly embellished, biographical gaps filled, and their personalities augmented in a way that makes their stories more relatable and engaging. What these men have in common is that they stumble in the dark on the fringes of the known, and grapple with the second and third order effects of their work.
 
@@ -94,12 +94,12 @@ This was clarified with a concluding story, The Night Gardener, which I thought 
 
 Still this book was well worth my time. It's highly original, only slightly reminding me of [Red Plenty by Francis Spufford](/books/red-plenty-by-francis-spufford) in the way it straddles fiction and non. Thanks for the recommendation, KO!
 
-
-Absolutely On Music by Haruki Murakami
-===
+---
+title: Absolutely On Music by Haruki Murakami
 rating: yes
 posted: Oct 3, 2024
 cover: /assets/book-covers/absolutely-on-music.jpg
+---
 
 This book situates the reader as a fly on the wall during multiple personal discussion between Haruki Murakami and his friend Seiji Ozawa. Ozawa was an accomplished classical conductor who was the music director of many world-class symphonies including SF, Toronto, and Boston. I didn't know much about Ozawa before reading the book, but after reading and listening, I liked his interpretations. Overall worth it for me, but mostly as a forcing function to listen to more music. Mahler's first Symphony, and Ozawa's rendition of it really grew on me.
 
@@ -131,11 +131,11 @@ Overall, I didn't find too many other deep insights in this book but I enjoyed t
 - Shin’ichi Mori
 - Keiko Fuji
 
-
-Neurobiology of We by Daniel Siegel
-===
+---
+title: Neurobiology of We by Daniel Siegel
 rating: no
 posted: Sep 22, 2024
+---
 
 This book came to my attention because of S's interest in "The Developing Mind", Daniel J. Siegel's magnum opus. Some of the ideas related to memory integration and childhood attachment theory sounded interesting enough to delve into, but the book itself was too long. Luckily Siegel is a prolific writer, producing many popularizations of his research for a variety of audiences, from parents to mindfulness practitioners. I picked up "Neurobiology of We" because it was short and relatively highly rated.
 
@@ -171,13 +171,12 @@ The book has many new-to-me ideas like the emphasis on "memory integration", as 
   - Unfortunately I was unable to any information theory concepts or analogies for any of the subsequent content. Although information is passed between mind and brain, and between brain and other people, I don't think this is enough to call it "information theory".
   - It feels to be like brain and mind are a useful dyad, but bringing in "people" into the mix felt out of place. One specific critique of the triad is the murky connection between "mind" and "people". Doesn't that necessarily go through "brain"?
 
-
-
-Entangled Life by Merlin Sheldrake
-===
+---
+title: Entangled Life by Merlin Sheldrake
 posted: Aug 28, 2024
 rating: yes
 cover: /assets/book-covers/entangled-life.jpg
+---
 
 Entangled Life is about the world of fungi, especially focused on the symbiosis between mushrooms and plants, called mycorrhiza. This symbiosis is achieved through the entanglement of plant roots and fungal mycelia. Mycelia are underground networks built out of hyphae, thin and long strands of fungal material. Hypha branch and grow and connect with other fungi and plants. In most fungi, hyphae are the main mode of vegetative growth. The part that lives underground is collectively called a mycelium.
 
@@ -293,13 +292,12 @@ Interestingly, fungal decomposition of plants is by far a larger source of carbo
 - Why do so few mushrooms or fungi live underwater?
 - How quickly would you die if all fungi became extinct? What would you die from?
 
-
-
-Blindsight by Peter Watts
-===
+---
+title: Blindsight by Peter Watts
 posted: August 1, 2024
 rating: yes
 cover: /assets/book-covers/blindsight.jpg
+---
 
 Blindsight was recommended to me by GB, DK, and maybe NA. I resisted for a long time, but as the recommendations piled up, I decided it was time. I was not disappointed. The book is masterfully written, a slow and often baffling build (wtf, vampires?) culminates in an excellent story with lots of twists and turns. This is indeed a hard science fiction book and really shows off how good fiction can be at articulating complex ideas (see [[Power of Fiction]]).
 
@@ -334,11 +332,11 @@ Provocations:
 - Why would we expect higher beings to be merciful to us if we treat lower beings the way that we do?
 - Are art and our general sense of aesthetics drived from our over-active sense of the mundane questions of say what makes a good habitat?
 
-
-The Blessing of a Skinned Knee by Wendy Mogel
-===
+---
+title: The Blessing of a Skinned Knee by Wendy Mogel
 posted: May 20, 2024
 rating: no
+---
 
 This is a Jewish take on parenting from a former psychologist who became disenchanted with her profession and sought wisdom in the tradition of her ancestors. I found myself nodding along in agreement to many of her ideas, which try to synthesize Jewish concepts with "common sense" parenting. Less charitably, this book can also be seen as a conservative reaction to modern parenting trends. Either way, a better than average parenting book. Thanks to LL for the recommendation.
 
@@ -358,12 +356,12 @@ What I wanted to debate with the author:
 
 Most importantly, a parenting book should have parenting advice! I left "Skinned Knee" with many promising parenting ideas to incorporate into our life, but I'll spare you those details.
 
-
-Annihilation by Jeff VanderMeer
-===
+---
+title: Annihilation by Jeff VanderMeer
 posted: May 11, 2024
 rating: yes
 cover: /assets/book-covers/annihilation.jpg
+---
 
 Annihilation was first recommended to me by KO. This book is a creepy combination of Roadside Picnic and Soylent Green. It was advertised to me as Sci-Fi, but I think it really leans into horror, which is Jeff VanderMeer's specialty.
 
@@ -373,11 +371,12 @@ Annihilation was a very quick read. I don't plan to read the rest of the books i
 
 Let me speculate about the book overall and provide my overall theory of what is happening in Area X. This is based on a book club discussion with VK, MM, MK & AK. What if Area X is a generalized next token predictor that uses human cells as its tokens? The gibberish writing spiraling inside the tower could have easily been generated by an LLM. What if this whole world of Area X is an LLM in biological space?
 
-A Sand County Almanac by Aldo Leopold
-===
+---
+title: A Sand County Almanac by Aldo Leopold
 posted: April 23, 2024
 rating: yes
 cover: /assets/book-covers/sand-county-almanac.jpg
+---
 
 Inspired to read more about ecology after enjoying [Mystery Teachings from the Living Earth by J. M. Greer](/books/mystery-teachings-by-j-m-greer/), I picked up "Sand County Almanac". I'm not sure how I managed to miss this gem for so long.
 
@@ -425,12 +424,12 @@ Throughout the narrative, Leopold intertwines natural phenomena that were new to
 
 "Sand County Almanac" is well worth a read or a listen.
 
-
-Disappearance of Ritual by Byung-Chul Han
-===
+---
+title: Disappearance of Ritual by Byung-Chul Han
 posted: April 15, 2024
 rating: no
 cover: /assets/book-covers/dissapearance-of-rituals.jpg
+---
 
 I recently read [The Burnout Society by Byung-Chul Han](/books/the-burnout-society-by-byung-chul-han/), a chaotic, disorganized read full of interesting ideas. "Disappearance of Ritual" continues in the same tradition, but I found the ideas presented in it somewhat weaker and less original than in "Burnout Society". In one section, BCH extols the virtues of beautiful and playful language and laments its disappearance. Yet he writes woeful passages like this:
 
@@ -493,12 +492,12 @@ In contrast, modern warfare involves soldiers, which in his BCH-ish fashion, lit
 
 > The rules of the game to which all belligerents commit themselves ensure that, after the war is over, there is space left for politics. By contrast, killing without rules, pure violence, destroys the political space. War as large-scale dueling differs fundamentally from the kind of military action we see today, which is increasingly degenerating into ruthless killing.
 
-
-Good Omens by Pratchett and Gaiman
-===
+---
+title: Good Omens by Pratchett and Gaiman
 posted: April 6, 2024
 rating: yes
 cover: /assets/book-covers/good-omens.jpg
+---
 
 I picked this one up on Sr. B's recommendation and enjoyed it in multi-voice audiobook form. Overall, a fun listen. Very (in-)effable(?). Lots of jokes and satirical observations reminiscent of Doug Adams' Hitchhiker's Guide to the Galaxy and I think way more Pratchett than Gaiman.
 
@@ -516,12 +515,12 @@ Little notes:
 
 > Let us think the unthinkable, let us do the undoable, let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.
 
-
-Mystery Teachings by J. M. Greer
-===
+---
+title: Mystery Teachings by J. M. Greer
 posted: Mar 4, 2024
 rating: yes
 cover: /assets/book-covers/mystery-teachings.jpg
+---
 
 Ecology, complexity, and other interdisciplinary fields can easily slip into woo. Initially I expected this book to suffer from this problem, but luckily there were no dizzying invocations of Deepak Chiopra™ style quantum physics. Instead, Greer presents a grounded worldview, rejecting spiritual stereotypes and "half truths that you create your own reality".
 
@@ -617,12 +616,12 @@ This reminds me of Turchin ([[Fathers-and-sons cycles]]) as well as Tainter ([[C
 
 I like Greer's call to curiosity, but it seems to me that the mystery schools are just one of many different ways to study and understand the lessons from daily life. Still, I'm pleasantly surprised how neatly Greer's ideas map onto my existing canon of Complexity-related notes. Also, it's useful to find giant gaps in my understanding of ecology (e.g. sers, climax communities, etc) will surely make for an illuminating follow-up.
 
-
-Technofeudalism by Yanis Varoufakis
-===
+---
+title: Technofeudalism by Yanis Varoufakis
 posted: Mar 1, 2024
 rating: no
 cover: /assets/book-covers/technofeudalism.jpg
+---
 
 Varoufakis' book is written as a missive to his late socialist father, as an attempt to answer his question “Now that computers speak to each other, will capitalism self-destruct or become unassailable?”. His answer is confidently that capitalism has already metastasized into something much worse, characterized by a highly centralized Big Tech sector which engages in rent seeking behavior. He sensationally calls this diagnosis Technofeudalism, and his remedies are unconvincing.
 
@@ -672,12 +671,12 @@ Random:
 - Two antagonistic "super cloud fiefs". Chinese and American. But I don’t think that the Chinese superfiefdom is open for business.
 - After US froze Russia central bank out of the global financial system, Varoufakis claims that it’s the first time this happened. Even during the Russia-Britain war in 1850 (Crimean war?) British and Russian bankers continued to collaborate. True?
 
-
-David: The Divided Heart by David Wolpe
-===
+---
+title: "David: The Divided Heart by David Wolpe"
 posted: Feb 23, 2024
 rating: yes
 cover: /assets/book-covers/david-divided-heart.jpg
+---
 
 I read this book as respite from Samuel I and before tackling Samuel II. Wolpe's retelling of David's stories is lively, easy to read, and insightful. Most of this book summarizes David's story from various perspectives: as a young man, on the run from Saul, as a king, as a father, at the end of his journey, and as the progenitor of the Messiah. I found Wolpe's negative insights to be the most incisive.
 
@@ -708,12 +707,12 @@ I must say, recalling David's story in detail really enhances my appreciation th
 
 Wolpe argues that David is the cho­sen of God exact­ly because of his com­plex­i­ty, which strikes me as a very modern take. Would the authors of the Bible considered complexity a desirable quality? I suspect they would laud David for being a great warrior king. A gentler modern reading is far more damning. David was "a man after God’s own heart", at the cost of sordid and tragic personal and family affairs. A broken hallelujah.
 
-
-Every Life is on Fire by Jeremy England
-===
+---
+title: Every Life is on Fire by Jeremy England
 posted: Feb 9, 2024
 rating: yes
 cover: /assets/book-covers/every-life-is-on-fire.jpg
+---
 
 I came across this peculiar book in a circuitous way. I listened to part of an interview in which a certain Beff Jesos spent an inordinate amount of time speculating about non-equilibrium systems and how they might relate to the genesis of life. He also casually name-dropped Jeremy England. On his lead, I read an article about some of recent research on life-like simulations that seem to spontaneously reach orderly states, and came across this book. Turns out England is not just a statistical physicist, but also an ordained rabbi, and that "Every Life is On Fire" is a strange amalgam of condensed matter theory and The Torah, which sounded right up my alley.
 
@@ -752,12 +751,12 @@ The singer's pitch is the source of energy for the singer-glass system. Unlike t
 
 This is what inspired the name of the book. Every life is a bit on fire.
 
-
-End of the World by Peter Zeihan
-===
+---
+title: End of the World by Peter Zeihan
 posted: Jan 18, 2024
 rating: yes
 cover: /assets/book-covers/end-of-the-world.jpg
+---
 
 Zeihan's book is an interesting exercise in scenario planning: what if America decides to step back from its role as policeman of the world? But this is not the framing that the author uses. Instead, the book is a high-confidence prediction about the future based on geopolitical and demographic trends. In short, America will step down as global hegemon, global trade will end, supply chains will be irreparably damaged, the world will turn multipolar, and everyone will starve to death, except the Americans who will be a-OK!
 

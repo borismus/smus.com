@@ -1,15 +1,15 @@
-Book list
-===
+---
 class: split
 type: book
+---
 
-
-The Death of Ivan Ilyich by Lev Tolstoy
-===
+---
+title: The Death of Ivan Ilyich by Lev Tolstoy
 rating: yes
 posted: Oct 31, 2026
 headline: Is Memento Mori Futile?
 cover: /assets/book-covers/death-ivan-ilyich.jpg
+---
 
 On graduating from law school, Ivan Ilyich outfits himself with fashionable clothes and a medallion inscribed *respice finem*: consider the end. Then he dines at a first-class restaurant. Decades later, dying in agony, he finally asks whether he has lived wrongly. What troubles me is that he already had the warning: he wore it.
 
@@ -49,13 +49,13 @@ I'm tempted to read the book as a reminder to trust one's conscience over social
 
 [^2]: Были в Правоведении совершены им поступки, которые прежде представлялись ему большими гадостями и внушали ему отвращение к самому себе в то время, как он совершал их; но впоследствии, увидав, что поступки эти были совершаемы и высоко стоящими людьми и не считались ими дурными, он не то что признал их хорошими, но совершенно забыл их и нисколько не огорчался воспоминаниями о них.
 
-
-Troy by Stephen Fry
-===
+---
+title: Troy by Stephen Fry
 rating: yes
 posted: Oct 19, 2026
 headline: Outsourcing to the Gods
 cover: /assets/book-covers/troy.jpg
+---
 
 I listened to Troy rather than reading it, which is how I imagine Homer's audience would have received the story: one performer, many voices, and a long recitation. Fry isn't improvising in hexameter; he's reading his own text word-for-word. But he still does what the bard did: adds his own variation to that tradition (see [[Every generation rewrites the classics]]). Where Emily Wilson's [great translations](/books/the-odyssey-translated-by-emily-wilson-audio/) render one written work, Fry interweaves sources written centuries apart.
 
@@ -87,15 +87,15 @@ Related:
 - [["Laconic" comes from the Spartans' reputation for brevity]]
 - [[The Olympics may have grown out of funeral games]]
 
-
-The Dispossessed by U. K. Le Guin
-===
+---
+title: The Dispossessed by U. K. Le Guin
 rating: yes
 posted: Sep 15, 2026
 headline: Anarchy’s Middle Managers
 cover: /assets/book-covers/the-dispossessed.jpg
 discussion:
   - https://bsky.app/profile/smus.com/post/3mvlurlep3k2c
+---
 
 I started hostile. Urras seemed like a transparent critique of Earth, while Anarres seemed too good to be true. By the end, I realized I was right about Anarres and wrong about why: its failure to live up to its ideals is exactly Le Guin’s subject. It's not about the superiority of anarchy to capitalism, but the way power survives every attempt to abolish it and how a society's ideals dilute over generations. Faced with the failures of Urrasti capitalism, Thuvian communism, and Anarresti anarchism, Shevek gives his life's work away to the commons.
 
@@ -154,13 +154,13 @@ When Shevek views himself as a medium channeling a discovery, discovery becomes 
 
 Neither world reliably permits this. Urras wants to own his work and Anarres lets Sabul control its circulation. Capital captures it as property, while bureaucracy captures it through gatekeeping. Shevek’s answer is to transmit the theory to every world, preventing either government from monopolizing it. This is what attracts me to open source: knowledge can escape its gatekeepers and become the starting point for [work its creator could never have imagined](/books/why-greatness-cannot-be-planned/).
 
-
-And Suddenly the Inventor Appeared by Genrikh Altshuller
-===
+---
+title: And Suddenly the Inventor Appeared by Genrikh Altshuller
 rating: yes
 posted: Aug 18, 2026
 headline: TRIZ and the Elusive Invention Machine
 cover: /assets/book-covers/and-suddenly-the-inventor-appeared.jpg
+---
 
 This book is an odd one. Is it written for children? Most of the text focuses on invention case studies that are presented like math-olympiad puzzles for precocious ten-year-olds. Altshuller eggs the reader on. A sixth grader can solve this; why can't you, dumbass?
 
@@ -282,14 +282,13 @@ And now I leave you with “Весёлый ветер,” from the 1936 Soviet f
 
 <iframe width="560" height="315" style="aspect-ratio: 16 / 9; height: auto;" src="https://www.youtube.com/embed/vVzzpHxpaqA?si=jO9VH1MNTQ5Dhj-Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
-Incorruptible by Eric Ries
-===
+---
+title: Incorruptible by Eric Ries
 rating: yes
 posted: July 22, 2026
 headline: Defying Financial Gravity
 cover: /assets/book-covers/incorruptible.jpg
+---
 
 When a bridge collapses, blaming gravity is a non-answer. Engineers are supposed to design for gravity, and people who design companies should similarly design for financial gravity. This book is about how to do that.
 
@@ -411,12 +410,12 @@ Overall I really enjoyed Incorruptible. I'm inspired by spiritual holding compan
 
 If I ever graduate from temporarily embarrassed founder to actual founder, I'm drawn to companies like Obsidian or Home Assistant which start small, don't attempt to hyperscale with VC money, provide a compelling product for free, put users first, and then become very profitable by selling infrastructural features.
 
-
-Moral Ambition by Rutger Bregman
-===
+---
+title: Moral Ambition by Rutger Bregman
 rating: yes
 posted: June 22, 2026
 cover: /assets/book-covers/moral-ambition.jpg
+---
 
 Without moral ambition, argues Bregman, you just end up as a money maximizing consultant. Or working for big tech on the trend du jour. Overall I found this book to be not especially groundbreaking, perhaps in part because I've been stewing in EA adjacent circles for over a decade. That said it's a good reminder for me as I think about what's next and there were plenty of interesting stories that I hadn't heard of before.
 
@@ -533,12 +532,11 @@ Despite my criticisms, this book succeeded in doing exactly what a good book sho
 
 **What is a dry, boring, or deeply unsexy system that is intellectually thrilling to dissect, which everyone else is ignoring?**
 
-
-
-Good Inside by Becky Kennedy
-===
+---
+title: Good Inside by Becky Kennedy
 rating: no
 posted: June 17, 2026
+---
 
 I’m not actually going to recommend this book, but I figured I might as well post a quick review anyway.
 
@@ -607,12 +605,12 @@ Anyway now that I've processed this book, I think I'm somewhat in agreement but 
 
 I want my child to sit in the uncomfortable gap between their identity (good) and their action (bad) so they develop a self-correcting conscience (Kegan 4). But I think Becky wants to eliminate that discomfort immediately.
 
-
-The Immense Journey by Loren Eiseley
-===
+---
+title: The Immense Journey by Loren Eiseley
 rating: yes
 posted: June 2, 2026
 cover: /assets/book-covers/immense-journey.jpg
+---
 
 Loren Eiseley's *The Immense Journey* is a collection of personal naturalist story-essays from the 1940s and 1950s. It's hard to classify, but I would describe it as a highly imaginative intersection of natural history, poetic memoir, and evolutionary philosophy. I especially loved "The Slit", "The Flow of the River", "The Deeps", "How Flowers Changed the World", and "The Bird and the Machine". Best read in nature to match the slow and contemplative pace.
 
@@ -722,13 +720,12 @@ Sometimes Eiseley veers into contemplative, almost theological awe a bit like En
 
 > The need is not really for more brains, the need is now for a gentler, a more tolerant people than those who won for us against the ice, the tiger, and the bear. The hand that hefted the ax, out of some old blind allegiance to the past fondles the machine gun as lovingly. It is a habit man will have to break to survive, but the roots go very deep.
 
-
-
-Dungeon Crawler Carl by Matt Dinniman
-===
+---
+title: Dungeon Crawler Carl by Matt Dinniman
 rating: yes
 posted: May 18, 2026
 cover: /assets/book-covers/dungeon-crawler-carl.jpg
+---
 
 It’s definitely pulp, but is it fiction? McLuhan would have a heart attack. Am I listening to a game? Am I playing a book? Dinniman bizarrely splices a traditional narrative with literal video game interfaces. While entertaining, it feels like cheating because it borrows the dopamine loops of a different medium rather than offering literary depth.
 
@@ -736,12 +733,12 @@ But underneath the veneer of juvenile humor, the crawler's world is bleak. The t
 
 Despite everything, it's a genuinely fun ten hour joke. And Jeff Hays' narration is excellent.
 
-
-The Courage to Be by Paul Tillich
-===
+---
+title: The Courage to Be by Paul Tillich
 rating: yes
 posted: April 28, 2026
 cover: /assets/book-covers/courage-to-be.jpg
+---
 
 Paul Tillich’s The Courage to Be is a dense, philosophical manual for meaning masquerading as theology. Born from the ashes of post-war Europe, Tillich rails against collectivism with an almost Randian fervor. Beneath this mid-century veneer lies a deeply resonant, borderline heretical framework proposing a "God above God" that feels acutely relevant to our modern crises and reminded me of the abstractions of the Rambam (see [[Negative theology and via negativa (Maimonedes)]]).
 
@@ -780,12 +777,12 @@ Tillich's "Courage to Be as Oneself" requires what he calls active negativity: 
 
 Our challenge is not just that we face the void, but that our predominant coping mechanisms are tribalism, mindless hedonism, and digital withdrawal, ensuring we never live fully. Tillich’s Second Reformation may not have materialized, but his prescription remains vital: true courage requires riding forward into an uncertain future, looking the Devil in the eye.
 
-
-Breath by James Nestor
-===
+---
+title: Breath by James Nestor
 rating: yes
 posted: April 23, 2026
 cover: /assets/book-covers/breath.jpg
+---
 
 After falling down a rabbit hole on interoception, the vagus nerve, and cortical overrides, reading Breath was the logical next step. Overall I found it a good pop-sci overview that filled some gaps in my reading, but I wish it was more rigorously written. There are some issues with structure and Nestor takes too many liberties for my taste. The result is that separating the wheat from the chaff is left to the reader.
 
@@ -866,11 +863,12 @@ I found that [4-7-8 breaths](https://www.youtube.com/watch?v=gz4G31LGyog) seem t
 
 I've also started to incorporate Wim Hof-style pre-shower breathing (a few rounds of: 30–40 deep, rhythmic breaths, followed by a long exhale and breath-hold), then a shower that ends with 30s of cold exposure. The huffing and puffing is odd, but definitely helps to withstand the brutally cold shower.
 
-Definitely Maybe by The Strugatskys
-===
+---
+title: Definitely Maybe by The Strugatskys
 rating: yes
 posted: April 17, 2026
 cover: /assets/book-covers/a-billion-years-before-the-end-of-the-world.jpg
+---
 
 *Note: I listened to the audio version of this book in Russian. The original title (1977) is directly translated as "A Billion Years Before the End of the World", which I prefer to the English translation "Definitely Maybe", which has nothing to do with the Oasis Album (1994) or the romcom (2008).*
 
@@ -921,13 +919,12 @@ The book quotes only the second half of the poem above, without attribution.
 
 A Billion Years Before the End of the World offers no satisfying exit. Vecherovsky's freedom is real but purchased at the cost of everything that makes freedom worth having. Malyanov keeps his family and his ordinary life, but his intellectual path becomes crooked and forsaken. Whether the universe is cosmic, Soviet, or otherwise, it doesn't care which path you take. It only cares that you stop.
 
-
-
-The Way of Man by Martin Buber
-===
+---
+title: The Way of Man by Martin Buber
 rating: yes
 posted: March 29, 2026
 cover: /assets/book-covers/way-of-man.jpg
+---
 
 As it turns out, Buber is surprisingly accessible. This classic reads like a self-help book grounded in Hasidic tradition. The book is fundamentally an exegesis of 18th-century folklore—a sharp contrast to [PKD's manic exegesis](/books/valis-by-phillip-k-dick/). My summary of Buber's take:
 
@@ -990,11 +987,12 @@ Buber gets the last word:
 
 > This is the ultimate purpose: to let God in. But **we can let him in only where we really stand, where we live, where we live a true life**.
 
-Ancillary Justice by Ann Leckie
-===
+---
+title: Ancillary Justice by Ann Leckie
 rating: yes
 posted: Mar 27, 2026
 cover: /assets/book-covers/ancillary-justice.jpg
+---
 
 Ancillary Justice is a well-crafted book with nice, slow reveals. I was satisfied by how Leckie merged two initially confusing storylines towards the second half of the book. Some scenes especially stuck with me, like Awn's interactions with the Lord of the Radch, throwing emotional fuel onto my pre-existing distaste for military/corporate hierarchies. I especially liked how she handled the mechanics of ancillaries interacting with themselves. For example:
 
@@ -1023,12 +1021,12 @@ Yet The Lord of the Radch is an ancillary system literally at war with herself. 
 
 Thanks to BS and KD for their recommendations. Excited to discuss this book in the Campania book club reboot!
 
-
-The Score by C. Thi Nguyen
-===
+---
+title: The Score by C. Thi Nguyen
 rating: yes
 posted: Feb 15, 2026
 cover: /assets/book-covers/the-score.jpg
+---
 
 C. Thi Nguyen frames the book with a provocative question. Why is it that mechanical rules, constraints, and scoring systems lead to such great pleasure in games, but such misery in real world domains where metrics dominate?
 
@@ -1199,12 +1197,12 @@ Here are some of Nguyen's pointers to games to check out and play. These are spr
 
 Overall an excellent book with deep ideas on the boundary of self-help and philosophy. Highly recommended.
 
-
-In Patagonia by Bruce Chatwin
-===
+---
+title: In Patagonia by Bruce Chatwin
 rating: yes
 posted: Jan 22, 2026
 cover: /assets/book-covers/in-patagonia.jpg
+---
 
 Oral history in written form.
 
@@ -1214,11 +1212,12 @@ Oral history in written form.
 
 **Verdict**: I came looking for a preview of Patagonian nature and got "quick snapshots of ordinary people" instead. Still worth it for the prose.
 
-Children of Time by Adrian Tchaikovsky
-===
+---
+title: Children of Time by Adrian Tchaikovsky
 rating: yes
 posted: Jan 11, 2026
 cover: /assets/book-covers/children-of-time.jpg
+---
 
 A compelling first contact story with many twists. Spiders, Ants, Monkeys, AI, Spaceships, Cryogenics, oh my! Tchaikovsky really crams a lot into this work. Definitely worth a read in and of itself, but also a good example of exploring ideas through fiction (see [[Power of Fiction]]). As usual, some of my highlights follow.
 

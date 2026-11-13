@@ -1,14 +1,14 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-The Sabbath by Heschel
-===
+---
+title: The Sabbath by Heschel
 rating: yes
 posted: Dec 15, 2022
 cover: /assets/book-covers/the-sabbath.jpg
+---
 
 This is a great example of a branch book (see [[Narrative, tree, and branch books]]), containing one big idea followed by elaboration. In this case, the core idea is that the Jewish Sabbath celebrates time over space, which is a rare thing to celebrate. The elaboration is a poetic meditation on time's superiority over space, and it quickly gets koan-like, but in a way that is less repetitive than [[Finite and Infinite Games by James Carse]].
 
@@ -82,12 +82,12 @@ The sabbath prohibitions are in place to prevent “vulgarization of the grandeu
 
 The adage "buy experiences, not things" rhymes with some of the time over space wisdom in this book, although of course buying is far too vulgar, and explicitly prohibited on Shabbat.
 
-
-Impossible Owls by Brian Phillips
-===
+---
+title: Impossible Owls by Brian Phillips
 rating: yes
 posted: Dec 10, 2022
 cover: /assets/book-covers/impossible-owls.jpg
+---
 
 It's hard to call these essays, because they have a tinge of magic to them, despite appearing to be completely factual. It's as if the fictional genre of magical realism has somehow found its non-fiction counterpart? Anyway, as A says, the boundary between fiction and non-fiction is overrated.
 
@@ -112,12 +112,12 @@ A pointers to follow: Robert Service poems about Alaska & co... pretty good, eg.
  From the big, dizzy mountains that screen it
    To the deep, deathlike valleys below.
 
-
-The Timeless Way of Building
-===
+---
+title: The Timeless Way of Building
 rating: yes
 posted: Nov 28, 2022
 cover: /assets/book-covers/timeless-way-of-building.jpg
+---
 
 The built world is defined by a small number of patterns, which keep repeating over and over and over again. The patterns are deep and mostly relational. This applies at all scales in human construction: to American cities, Gothic cathedrals, Paris, Chinese kitchens, doors, and so on.
 
@@ -164,12 +164,12 @@ Subsequent books in the series present lists of specific patterns at various sca
   - Can this be somehow adapted when considering what to look for in a new house? It's a bit like Marie Kondo's "do these underwear spark joy" question. Evocative but also silly.
 - Alexander implores us to design without drawing plans. Keep the whole project plan in the mind as you conceive it to be maximally flexible. As you add new patterns to the design, the whole system may need to morph, so any representation other than that of the mind's eye is too inflexible. This seems too extreme, but also somehow appealing.
 
-
-The Power of Ritual by Casper ter Kuile
-===
+---
+title: The Power of Ritual by Casper ter Kuile
 rating: yes
 posted: Oct 30, 2022
 cover: /assets/book-covers/power-of-ritual.jpg
+---
 
 Ritual is closely associated with an ancient monolithic tradition, but Casper ter Kuile encourages us to cherry-pick the good parts from many traditions, and reconstruct your own rituals. At times, the book gives off obnoxious self-help vibes, other times it came off as overly woke. Overall, I'm pretty sure it was ghost written by a slightly flamboyant gay alien who just landed on Earth.
 
@@ -238,13 +238,12 @@ Rhymes so much with the C. S. Lewis' Inner Circle and John Boyd's "To be somebod
 - Beyond Monteverdi: Jacobus Clemens non Papa wrote some dope choral music, including a [bunch of motets](https://www.youtube.com/watch?v=yLRgLM0HHek).
 - Simone Weil wrote that god and prayer can be found in the most surprising places, like in a [geometry problem](https://www.wabashcenter.wabash.edu/2018/08/simone-weil-on-study-prayer-and-love/).
 
-
-
-The Toynbee Convector by Ray Bradbury
-===
+---
+title: The Toynbee Convector by Ray Bradbury
 rating: yes
 posted: Oct 10, 2022
 cover: /assets/book-covers/toynbee-convector.jpg
+---
 
 I picked up this volume after reading The Toynbee Convector and really enjoying it. I'm surprised Ray Bradbury wrote so much horror and so little science fiction. Perhaps it's selection bias in this volume? Here are a few stories that really stood out to me:
 
@@ -279,12 +278,12 @@ Stray thoughts still linger:
 
 - Is Stiles a science fiction writer? So many technological efforts are inspired by fiction, even dystopian fiction (see [[Dystopian fiction that inspires real products]]). In this light, this is a pretty self serving story, Mr. Bradbury!
 
-
-Wild Problems by Russ Roberts
-===
+---
+title: Wild Problems by Russ Roberts
 rating: yes
 posted: Sep 22, 2022
 cover: /assets/book-covers/wild-problems.jpg
+---
 
 Despite being a famous economist, Russ Roberts has a tendency to disparage his own field for its shortcomings. His core argument is that a lot of the thinking employed by economists applies to overly simplified models along the lines of "imagine a spherical cow". In particular, Roberts focuses on so-called Wild problems, which seem to be the same as Wicked problems (see [[Kind and wicked problems]]), but usually in the personal domain. The thrust of this short book is that such problems can’t be solved in a naïve way. Who to marry, who to hire, who to befriend, whether to have children? There are many different ways to live. There are many different destinations that you may pick for yourself, and which destination to pick is often the hardest part of the exercise.
 
@@ -345,12 +344,12 @@ Pointers for later:
 
 - The Agency of Becoming by Agnes Callard
 
-
-Forever Flowing by Vasily Grossman
-===
+---
+title: Forever Flowing by Vasily Grossman
 rating: yes
 posted: Sep 3, 2022
 cover: /assets/book-covers/forever-flowing.jpg
+---
 
 This unfinished work begins as a novel, and ends as a scathing critique of the Soviet Union under Stalin.
 
@@ -467,12 +466,12 @@ Glimpses of Russian influence were imagined during the height of Russia's monarc
 
 Rather than shining as a beacon for those dreaming of a communist utopia, Lenin's Soviet Russia rose up as an example of a simpler totalitarian society for the west to emulate. First Italy, then Nazi Germany followed suite. Leninism inspired authoritarian regimes in Asia too, including Communist China. Its legacy continues, with menacing echoes into the present day.
 
-
-The Goal - A Business Graphic Novel
-===
+---
+title: The Goal - A Business Graphic Novel
 rating: yes
 posted: August 31, 2022
 cover: /assets/book-covers/the-goal.jpg
+---
 
 The Goal: A Business Graphic novel is crass, outdated and overly on the nose. At the same time, it is a relatively entertaining illustrated introduction to a boring idea (a management paradigm). For this alone, I can't help but recommend it.
 
@@ -505,11 +504,11 @@ A funny parable to summarize the concept involves Jonah visiting the Rogo househ
 
 The whole book has a sleazy vibe to it. In one scene, Alex bets the head of sales that they will produce a quantity of units a new pair of Gucci loafers. And in the end, Alex wins the battle with the terrible accounting division, who is trying to subdue Alex's creative problem solving. Gotcha!
 
-
-The Secret Life of Groceries
-===
+---
+title: The Secret Life of Groceries
 rating: no
 posted: August 17, 2022
+---
 
 At first I was taken by the surprisingly well written prose (for a non-fiction book). Here Lorr recollects his feelings after having lived abroad for a while and seeing an American supermarket for the first time in a while. This feeling of awe is familiar to me having immigrated from the Soviet Union in 1990:
 
@@ -523,12 +522,12 @@ I learned that SKUs stand for "Shop Keeping Units", and that the average adult s
 
 Despite the relative interestingness, the book kind of drones on. The section on Trader Joe's was overly fanboyish and protracted. Further, I am ashamed to admit that my interest in groceries and supply chains appears to be dwindling as the pandemic comes to a close.
 
-
-Bloodlands by Timothy Snyder
-===
+---
+title: Bloodlands by Timothy Snyder
 rating: yes
 posted: July 20, 2022
 cover: /assets/book-covers/bloodlands.jpg
+---
 
 At a high level, Bloodlands is a deep look into a variety of organized mass killings conducted by the Nazis and Soviets from roughly 1932 to about 1953 in The Bloodlands, loosely defined as territories in Eastern Europe, centered on modern Ukraine, but including modern Poland, Belarus, the Baltic states, and western Russian regions occupied by Germany. Snyder estimates 14 million non-combatant victims, 2/3 of which were murdered by the Nazis, 1/3 by the Soviets.
 
@@ -633,11 +632,11 @@ The breakdown of victims in these events is as follows:
 - Check out Vassiliy Grossman. In my mind, at least, he seems to be in the same category as Arendt: bearing witness. Novels that might be worthwhile: Life and Fate, and Everything Flows.
 - Read more Анна Ахматова poems.
 
-
-Ministry for the Future
-===
+---
+title: Ministry for the Future
 rating: no
 posted: April 22, 2022
+---
 
 The Ministry for the Future opens with an emotional and memorable vignette. Frank, an American doctor on a mission to Rajasthan, finds himself in the middle of a monstrous heatwave. Wet bulb temperatures reach a point that is no longer survivable by humans. He and many others try to seek shelter in a lake, but it is warmer than the air. Thousands die, but he miraculously survives. Frank is emotionally scarred for the rest of his life.
 
@@ -645,12 +644,12 @@ After the strong opening, Ministry veers away from its narrative roots. A nomina
 
 Ministry is a fine introduction to climate adjacent issues in a more digestible form. But I found the bait-and-switch aspect downright annoying. I sought a novel (see [[Power of Fiction]]), but instead found a series of didactic asides.
 
-
-Parables by Franz Kafka
-===
+---
+title: Parables by Franz Kafka
 rating: yes
 posted: July 7, 2022
 cover: /assets/book-covers/parables.jpg
+---
 
 Many misses, for sure. But the hits I enjoyed were worthwhile:
 
@@ -668,11 +667,11 @@ A fascinating, self-referential, format. I see the man as a stand-in for K., and
 
 **Poseidon**: tracks the gate of an unhappy executive, appointed God of the Sea in the beginning, but perpetually unhappy, pining for “more cheerful work”. He was unable to sufficiently delegate to his subordinates and burned out completely.
 
-
-Arcadia by Tom Stoppard
-===
+---
+title: Arcadia by Tom Stoppard
 rating: no
 posted: June 11, 2022
+---
 
 It's pretty funny but in a very high falutin’ way, which detracts from the
 comedy.
@@ -691,12 +690,12 @@ imagination on my part? Perhaps it takes more work to truly imagine each
 character delivering their lines without any of the scaffolding a narrator
 provides...
 
-
-Creativity by Mihaly Csikszentmihalyi
-===
+---
+title: Creativity by Mihaly Csikszentmihalyi
 rating: yes
 posted: June 7, 2022
 cover: /assets/book-covers/creativity.jpg
+---
 
 I recently ran a book club at work discussing [Range](/books/range-by-david-epstein-audio), and CB mentioned that this book is less Gladwellian and more nuanced covering a similar theme.
 
@@ -851,12 +850,12 @@ Interesting tidbit on relationships: it’s important to be able to shift moment
 
 > We can see depth only because looking with two eyes give us slightly different perspectives. How much deeper can we see when instead of two eyes we rely on four?
 
-
-The End of Eternity by Isaac Asimov
-===
+---
+title: The End of Eternity by Isaac Asimov
 rating: yes
 posted: May 11, 2022
 cover: /assets/book-covers/end-of-eternity.jpg
+---
 
 Truly masterful, this book. The way Harlan wants to control Noys mirrors perfectly the way the Eternals want to control reality. Just like Harlan takes her for himself by transporting her to the 100,000th century,
 
@@ -912,12 +911,12 @@ To which Harlan woodenly replies “The greatest good for the greatest…”, a 
 
 The end is a bit rushed and marred with overly complex time loops, but overall a great work!
 
-
-Genesis by ✨ translated by Robert Alter
-===
+---
+title: Genesis by ✨ translated by Robert Alter
 rating: yes
 posted: May 1, 2022
 cover: /assets/book-covers/genesis.jpg
+---
 
 Genesis is not so much a book, but an “accretion of sundry traditions, shot through with disjunctions and contradictions, and accumulated in an uneven editorial process over several centuries”. The Hebrew word for book, “Sefer” actually translates more to scroll than to book, and scrolls are much more fungible than books. A scroll can be stitched to another scroll, split, and spliced, and rarely has named attribution. Not a coherent artwork by a single author, Genesis is more like a cathedral of medieval Europe, the product of many hands, involving an elaborate process of editing, like the greatest Hollywood films.
 
@@ -979,11 +978,12 @@ The narrative arc is really clean: “Genesis begins with the making heaven and 
 
 **Jacob and Joseph were embalmed**: Jacob was embalmed (50:3), and Joseph was even mummified and placed in a coffin (50:26). Surprisingly Egyptian for a forefather.
 
-Grand Transitions by Vaclav Smil
-===
+---
+title: Grand Transitions by Vaclav Smil
 rating: yes
 posted: April 8, 2022
 cover: /assets/book-covers/grand-transitions-smil.jpg
+---
 
 Up front approach is interesting. Having worked with Jay Forester at MIT on early modeling, Smil is not a big believer in models.
 
@@ -1179,11 +1179,11 @@ Minimalism:
 
 - Systemic small changes can help a lot. Not all fruits need to be available year round. Not all cars need to be SUVs.
 
-
-Practical Doomsday by Michal Zalewski
-===
+---
+title: Practical Doomsday by Michal Zalewski
 rating: no
 posted: January 28, 2022
+---
 
 Not sure how I got suckered into reading this. It must have appealed to some
 deepseated prepper instincts in me. Provenance aside, this prepper book started
@@ -1196,13 +1196,12 @@ Two useful things I got from this book:
 2. A reminder to check on some of the rudimentary gear I have in the house and
    in the car (eg. water, basic food supplies).
 
-
-
-A Psalm for the Wild-Built by Becky Chambers
-===
+---
+title: A Psalm for the Wild-Built by Becky Chambers
 rating: yes
 posted: January 12, 2022
 cover: /assets/book-covers/psalm-wild-built.jpg
+---
 
 January 2022
 
@@ -1243,4 +1242,3 @@ January 2022
 - I'm a bit obsessed by this idea that [[Subsystems that integrate conflict can lead to resilient systems]], and this fragment resonated with me:
 
 > It must have been such a relief to be free of predators and eat whatever the hell you wanted. But that was the exact opposite of what the ecosystem needed. The ecosystem required the elk to be afraid in order to stay in balance. But elk don’t want to be afraid. Fear is miserable, as is pain. As is hunger. Every animal is hardwired to do absolutely anything to stop those feelings as fast as possible. We’re all just trying to be comfortable, and well fed, and unafraid. It wasn’t the elk’s fault. The elk just wanted to relax.” Dex nodded at the ruined factory. “And the people who made places like this weren’t at fault either—at least, not at first. They just wanted to be comfortable. They wanted their children to live past the age of five. They wanted everything to stop being so fucking hard. Any animal would do the same—and they do, if given the chance.” “Just like the elk.”
-

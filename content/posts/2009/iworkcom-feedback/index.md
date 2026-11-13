@@ -1,9 +1,8 @@
-iWork.com feedback
-==================
+---
+title: iWork.com feedback
 categories: [personal]
 posted: 2009-01-07
-
-
+---
 
 After spending a fair bit of time [monitoring twitter feeds][], I was
 pleasantly surprised by the [world][]'s [response][] to the recently
@@ -19,4 +18,3 @@ which is especially endearing to me as an insider.
   [premature]: http://www.engadget.com/2009/01/06/apple-announces-iwork-com-beta/
   [flames]: http://www.gizmodo.com.au/2009/01/apple_sends_iwork_to_the_clouds_introduces_iworkcom.html
   [technical breakdown]: http://ajaxian.com/archives/technical-details-behind-iworkcom/
-

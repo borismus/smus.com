@@ -1,11 +1,10 @@
-An onslaught of mobile HTML games
-=================================
+---
+title: An onslaught of mobile HTML games
 categories: [web]
 posted: 2010-10-16
 snip: Porting Onslaught! to a mobile web-based game controller. Also featuring frustrations
   involving multi-touch on Android.
-
-
+---
 
 HTML5 games are really picking up. Casual Girl Gamer recently produced a
 nice [list of impressive titles][]. The modern web platform (namely,
@@ -93,4 +92,3 @@ it to this [mobile HTML game contest][]. Let the games begin!
   [Lost Decade Games]: http://blog.lostdecadegames.com/
   [Mozilla's Game On]: http://mozillalabs.com/gaming/2010/09/30/game-on-2010-is-here/
   [mobile HTML game contest]: http://www.html5contest.com/
-

@@ -1,11 +1,10 @@
-Skip to skip: a running gesture
-===============================
+---
+title: "Skip to skip: a running gesture"
 categories: [physical, music]
 posted: 2010-08-06
 snip: What if you had accelerometers in your shoes? Could mid-stride gestures replace
   the headphone remote for changing tracks?
-
-
+---
 
 Like many other runners, I like to listen to my music while training.
 Even with a playlist of running music, I often want to change the
@@ -63,4 +62,3 @@ on A0!
   [github]: http://github.com/borismus/Running-Gestures
   [paper]: running-gestures-paper.pdf
   [poster]: running-gestures-poster.pdf
-

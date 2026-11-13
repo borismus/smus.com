@@ -1,10 +1,9 @@
-CrowdForge: crowdsourcing complex tasks
-=======================================
+---
+title: "CrowdForge: crowdsourcing complex tasks"
 categories: [social, web, crowdsourcing]
 posted: 2011-02-02
 snip: A MapReduce approach to Human Computation. I wrote a Django app for that.
-
-
+---
 
 Work marketplaces like MTurk are great for accomplishing small, well
 defined nuggets of work, such as labeling images and transcribing audio,

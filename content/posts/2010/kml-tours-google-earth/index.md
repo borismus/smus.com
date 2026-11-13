@@ -1,11 +1,10 @@
-KML tours in Google Earth
-=========================
+---
+title: KML tours in Google Earth
 categories: [web]
 posted: 2010-12-25
 snip: My take on visualizing surprisingly large amounts of travel in 2010. I built
   a web application that uses Google Earth KML Tours for the purpose.
-
-
+---
 
 Over this last year and a half, I spent a lot of time in airports,
 flying nearly 150,000 km (queue environmental angst). I lived in Europe
@@ -100,4 +99,3 @@ work...
   [handy JavaScript library]: http://www.movable-type.co.uk/scripts/latlon.js
   [picasaweb API]: http://code.google.com/apis/picasaweb/overview.html
   [the github]: https://github.com/borismus/That-Trip
-

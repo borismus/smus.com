@@ -1,10 +1,9 @@
-Chronos: Chrome browsing metrics
-================================
+---
+title: "Chronos: Chrome browsing metrics"
 categories: [web, chrome, statistics]
 posted: 2011-03-21
 snip: Ever wondered how much time you spend in your browser?
-
-
+---
 
 Like most people, I'm slowly lifting most of my work into the cloud.
 This leads to a lot of time spent in the browser. Just how much, I'm not
@@ -43,4 +42,3 @@ usual, the [source code][] is on github.
   [StayFocusd]: https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji
   [AntiRSI]: http://tech.inhelsinki.nl/antirsi/
   [source code]: https://github.com/borismus/Chronos
-

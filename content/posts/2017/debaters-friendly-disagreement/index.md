@@ -1,6 +1,7 @@
-Debaters: friendly disagreement
-===============================
+---
+title: "Debaters: friendly disagreement"
 posted: 2017-03-05
+---
 
 > We have a choice. We have two options as human beings. We have a choice
 > between conversation and violence. That's it. 

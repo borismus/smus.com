@@ -1,6 +1,7 @@
-UbiComp and ISWC 2015
-=====================
+---
+title: UbiComp and ISWC 2015
 posted: 2015-09-16
+---
 
 I recently returned from ISWC 2015, where I presented the [Cardboard
 Magnet](/magnetic-input-mobile-vr/) paper. In addition to seeing old friends,

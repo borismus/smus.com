@@ -1,6 +1,7 @@
-Platform fertility: open for innovation?
-========================================
+---
+title: "Platform fertility: open for innovation?"
 posted: 2012-06-06
+---
 
 Although I love Apple's design aesthetic and ability to consistently
 churn out amazing hardware, I'm never quite comfortable fully embracing

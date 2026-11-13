@@ -1,6 +1,7 @@
-From VPS to static hosting
-==========================
+---
+title: From VPS to static hosting
 posted: 2013-01-16
+---
 
 All good things must come to an end. VPS hosting paid for by my former
 university is no exception! Ever since the University of

@@ -1,13 +1,13 @@
-Books I read in 2017
-=========
+---
 class: split
 type: book
+---
 
-
-Is That a Fish in Your Ear? by David Bellos
-===
+---
+title: Is That a Fish in Your Ear? by David Bellos
 posted: December 26, 2017
 rating: no
+---
 
 David Bellos drops many interesting tidbits in this book about translation.
 Unfortunately, I feel unlikely to retain most of them. Each chapter stands on
@@ -128,12 +128,11 @@ I end with food for thought:
 > [...]
 > Translating is a first step towards civilization.
 
-
-
-My Russian Grandmother... by Meir Shalev
-===
+---
+title: My Russian Grandmother... by Meir Shalev
 posted: November 25, 2017
 rating: yes
+---
 
 My parents have been longtime Meir Shalev readers, but I haven't gotten around
 to reading any of his books yet. Ido's recommendation put me over the edge. I
@@ -160,11 +159,11 @@ minimalism.  In one word: Russian Jewish family dynamics.
 Most importantly, Shalev writes masterfully, and given the Russian topic,
 translation into Russian may have even enhanced the experience.
 
-
-On the Shortness of Life
-===
+---
+title: On the Shortness of Life
 posted: October 13, 2017
 rating: yes
+---
 
 Seneca lies at the intersection of Roman history, stoic philosophy and Buddhism.
 Despite many endorsements, I haven’t had the time to sit down and read any of
@@ -227,11 +226,11 @@ example in their celestial worldview:
 
 I’ll have to revisit more of his writings, perhaps Letter to Lucretius next?
 
-
-Stories of Your Life and Others
-===
+---
+title: Stories of Your Life and Others
 posted: September 25, 2017
 rating: yes
+---
 
 Ted's formula is this:
 
@@ -339,13 +338,11 @@ Overall I think the format is effective, presenting the complexity of the issue,
 and I’m not left with a strong opinion favoring one side or another. However my
 prior is against mental manipulation...
 
-
-
-
-Nothing is True and Everything is Possible
-===
+---
+title: Nothing is True and Everything is Possible
 posted: September 12, 2017
 rating: yes
+---
 
 I was catching up on [Leningrad][leningrad] while reading this book (thanks Vitya),
 and found the combination of the two to be very powerful. The [song about Prada
@@ -434,11 +431,11 @@ barrage of pessimism.
 [piter]: https://www.youtube.com/watch?v=1ugivNRYfjc
 [bag]: https://www.youtube.com/watch?v=Uz0pUMN7i7w
 
-
-Benjamin Franklin: An American Life
-===
+---
+title: "Benjamin Franklin: An American Life"
 posted: August 24, 2017
 rating: no
+---
 
 I read Walter Isaacson's Steve Jobs biography, which I recalled enjoying
 thoroughly. Having always been an uncritical fan of Benjamin Franklin (BF), I
@@ -504,11 +501,11 @@ His epitaph, attributed to a French minister, says it all: eripuit coelo fulmen
 sceptrumque tyrannis ("He seized lightning from the heavens and the scepter from
 tyrants").
 
-
-Whole Earth Discipline by Stewart Brand
-===
+---
+title: Whole Earth Discipline by Stewart Brand
 posted: July 12, 2017
 rating: yes
+---
 
 In the spirit of the Whole Earth Catalog, this book reads more like an extended
 blog post than a non-fiction book, mainly because it covers so much material at
@@ -743,11 +740,11 @@ earth from space motivated huge interest in ecology.
 Brand dazzles with an array of convincing arguments. I’d like to read a
 similarly researched argument from the other side to see where I land.
 
-
-On Tyranny by Timothy Snyder
-===
+---
+title: On Tyranny by Timothy Snyder
 posted: June 13, 2017
 rating: no
+---
 
 More of a pamphlet than a book, both in brevity and in alarmist urgency.
 
@@ -794,11 +791,11 @@ vigilance cannot hurt, but hyperbole can be dangerous too. This book feels like
 a classic case of crying wolf. I find it hard to believe that it will stand the
 test of time.
 
-
-Great Gatsby by F. Scott Fitzgerald
-===
+---
+title: Great Gatsby by F. Scott Fitzgerald
 posted: June 10, 2017
 rating: yes
+---
 
 Incredibly vividly written. Fascinating to see the self made struggles of people
 that are so fantastically well off.  Very unsympathetic characters throughout,
@@ -808,12 +805,11 @@ Something about Gatsby's lifestyle reminds me of my time in SF. Large house
 parties, loose connections, endless networking and small talk.  There is a
 certain aimlessness to it that I found very relatable.
 
-
-
-Finite and Infinite Games by James Carse
-===
+---
+title: Finite and Infinite Games by James Carse
 posted: May 2017
 rating: no
+---
 
 I was intrigued by the premise of the book, which introduces a theory of games
 (emphatically not the game theory of economics), in which there are two kinds of
@@ -838,11 +834,11 @@ examples? What good is a grand theoretical framework that only has one instance?
 Lastly, given the author's definition, infinite games seem hardly game-like at
 all.
 
-
-Homo Deus by Yuval Noah Harari
-===
+---
+title: Homo Deus by Yuval Noah Harari
 posted: May 2017
 rating: yes
+---
 
 I decided to read Homo Deus because I enjoyed Harari's previous book, Sapiens.
 The first 2/3 of Homo Deus is basically a rehash and more succinct version of
@@ -1013,11 +1009,11 @@ with the feeling that this was a fast follow for Harari. A lot of the solid
 stuff in the first 2/3 of the book is a rehash of Sapiens. The last part was
 stimulating but mainly to get me thinking about why I disagree.
 
-
-Understanding Japan: A Cultural History (audio)
-===
+---
+title: "Understanding Japan: A Cultural History (audio)"
 posted: May 2017
 rating: yes
+---
 
 Overall an engaging lecturer and super interesting subject. Would have greatly
 informed my trips to Japan. Most of these are quick notes about things that were
@@ -1060,11 +1056,11 @@ Arts
 Lecturer provides a good summary of why he is interested in Japan: it's
 incredibly interesting and exotic, but still has enough western services.
 
-
-The Lessons of History by Will and Ariel Durant
-===
+---
+title: The Lessons of History by Will and Ariel Durant
 posted: April 2017
 rating: yes
+---
 
 This book attempts to distill authors' previously written and incredibly popular
 multi-tome historical "The Story of Civilization" into under 100 pages. Full
@@ -1135,12 +1131,11 @@ The authors allude to some historical patterns:
 Civilizations don't die completely. There are more readers of Homer today than
 ever before.
 
-
-The Wind's Twelve Quarters by Ursula K. Le Guin
-===
+---
+title: The Wind's Twelve Quarters by Ursula K. Le Guin
 posted: March 2017
 rating: yes
-
+---
 
 Each short story explores a novel premise that is vaguely science-fictiony. But
 Le Guin's writings favor soft over hard sci-fi, rarely delving into Asimovesque
@@ -1174,11 +1169,11 @@ of some vague but unpleasant thoughts I had about VR.
 I wonder if sf writers write with their future audience in mind. Like how would
 their books read after we actually have become an interplanetary species?"
 
-
-Deep Work by Cal Newport
-===
+---
+title: Deep Work by Cal Newport
 posted: March 2017
 rating: yes
+---
 
 Several strategies for deeply working:
 
@@ -1200,11 +1195,11 @@ completely distraction free: no email, social media etc.
 Suggests not using social media at all. I like the idea but want to still read
 articles from there. Probably get a twitter to rss thing?
 
-
-Mindstorms by Seymour Papert
-===
+---
+title: Mindstorms by Seymour Papert
 posted: February 2017
 rating: yes
+---
 
 I enjoyed this short book by the inventor of LOGO, which I fondly remember first
 hearing about from Yuri as a kid. It was a challenging read, especially in the
@@ -1257,10 +1252,11 @@ Throughout the book Papert makes amazing analogies I haven't heard of before:
 
 "The most powerful idea is that there are powerful ideas."
 
-Don't Think of an Elephant by George Lakoff
-===
+---
+title: Don't Think of an Elephant by George Lakoff
 posted: February 2017
 rating: no
+---
 
 He's way too simple in his breakdown. The two family views is ridiculous. It's
 not fucking binary. People have much more granular and specific world views.
@@ -1272,11 +1268,11 @@ steel man.
 I forgot the book on a plane. But I won't be attempting it again despite its
 short length.
 
-
-The Futurological Congress by Stanislav Lem
-===
+---
+title: The Futurological Congress by Stanislav Lem
 posted: January 2017
 rating: yes
+---
 
 I'm a huge fan of Lem's work. I'm especially fond of Cyberiad, Star Diaries and
 Solaris, but it has probably been over a decade since I've read one of his
@@ -1321,12 +1317,11 @@ quickly and is incredibly engaging. Despite its humor, this book is quite deep.
 It explores a lot of the same issues that concern me with VR. Chemistry is just
 another of virtualizing reality.
 
-
-
-On Venus, Have We Got a Rabbi by William Tenn
-===
+---
+title: On Venus, Have We Got a Rabbi by William Tenn
 posted: January 2017
 rating: yes
+---
 
 An entertaining short story in the newly formed genre of Jewish Science Fiction.
 Very memorable characters: the conservative father, his liberal son.
@@ -1343,11 +1338,11 @@ Loved the punch line:
 > I don’t know. Let’s talk about something cheerful. How many people would you
 say were killed in that earthquake on Callisto?
 
-
-Superforecasters by Phil Tetlock
-===
+---
+title: Superforecasters by Phil Tetlock
 posted: January 2017
 rating: yes
+---
 
 Good vs bad experts is apparently thing. I wondered: was there enough data to
 really know? What if everyone is a bad forecaster in aggregate? Luckily Tetlock
@@ -1396,4 +1391,3 @@ But surely there must be some good arguments in defense of hedgehogs.
 
 [uncertain-sw]: https://en.wikipedia.org/wiki/List_of_uncertainty_propagation_software
 [guesstimate]: https://www.getguesstimate.com/scratchpad
-

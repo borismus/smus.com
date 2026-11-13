@@ -1,7 +1,7 @@
-Filter playground
-===
+---
+title: Filter playground
 posted: August 10, 2017
-
+---
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=AM_HTMLorMML"></script>
 <style>

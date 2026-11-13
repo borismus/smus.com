@@ -1,6 +1,7 @@
-Audio features for web-based ML
-===
+---
+title: Audio features for web-based ML
 posted: December 15, 2017
+---
 
 One of the first problems presented to students of deep learning is to classify
 handwritten digits in the [MNIST dataset][mnist]. This was recently [ported to

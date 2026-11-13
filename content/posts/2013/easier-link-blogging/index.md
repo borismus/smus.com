@@ -1,6 +1,7 @@
-Easier link blogging
-====================
+---
+title: Easier link blogging
 posted: 2013-07-29
+---
 
 As usual, I want two conflicting things. Firstly, I want to own the
 content I write, and control how it is authored. My weapon of choice is

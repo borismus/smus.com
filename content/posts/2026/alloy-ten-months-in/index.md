@@ -1,6 +1,7 @@
-Ten months of Alloy: local where it counts
-===
+---
+title: "Ten months of Alloy: local where it counts"
 posted: Oct 21, 2026
+---
 
 I started [Alloy](/alloy-local-first-ai-workbench/) almost a year ago as a model-agnostic AI chat app, so that my conversations would live in plaintext files I control. It has since become my AI chat app of choice. I use it daily on my laptop and on my phone as a PWA. Local means private, and that matters a lot; I fully trust my own machine in a way I can't trust a cloud, even one that claims to run in a trusted execution environment. When Alloy started, local models weren't good enough to do much, but now they are quite good, if still slow.
 

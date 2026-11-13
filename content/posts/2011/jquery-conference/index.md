@@ -1,11 +1,9 @@
-jQuery conference 2011
-======================
+---
+title: jQuery conference 2011
 categories: [web, conference]
 posted: 2011-04-26
 snip: I went to the Bay Area jQuery Conference and learned some interesting things.
-
-
-
+---
 
 A few weekends ago I went to the jQuery Conference held at the MS campus in
 Mountain View. And I took notes!
@@ -128,5 +126,3 @@ For example:
 [jDrop]: http://jdrop.org/
 [underscore.js]: http://documentcloud.github.com/underscore/
 [mustache.js]: http://mustache.github.com/
-
-

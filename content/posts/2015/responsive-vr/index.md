@@ -1,6 +1,7 @@
-Responsive WebVR, headset optional
-==================================
+---
+title: Responsive WebVR, headset optional
 posted: 2015-02-02
+---
 
 VR on the web threatens to cleave the web platform in twain, like mobile
 did before it. The solution then and the solution now is [Responsive Web
@@ -149,4 +150,3 @@ out (or fix!) my mistakes on [the github][webvrbp].
 [sechelt]: http://mozvr.com/projects/sechelt/
 [sechelt-demo]: http://borismus.github.io/sechelt
 [sechelt-github]: https://github.com/borismus/sechelt/commit/671cff9fc283b58d2ebce0ae6f0dfa3580050aab
-

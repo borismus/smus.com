@@ -1,6 +1,7 @@
-Site redesign, version five
-===========================
+---
+title: Site redesign, version five
 posted: 2015-06-10
+---
 
 It's been over three years since the design of this site has been
 updated. Time to change that!

@@ -1,9 +1,8 @@
-PDF conversion and client-side scraping
-=======================================
+---
+title: PDF conversion and client-side scraping
 categories: [web, extension]
 posted: 2012-02-08
-
-
+---
 
 One of my ongoing projects is called smusique, a mobile web-based sheet
 music viewer. The application was designed for tablets, enabling a
@@ -171,5 +170,3 @@ The source of the extension is somewhat messy but available also on
 [ext-src]: https://github.com/borismus/smusique-extension
 [content scripts]: http://code.google.com/chrome/extensions/content_scripts.html
 [screenshot]: http://i.imgur.com/6YhZ2.png
-
-

@@ -1,6 +1,7 @@
-Generalized input on the cross-device web
-=========================================
+---
+title: Generalized input on the cross-device web
 posted: 2012-06-14
+---
 
 **Update (August 7, 2013): Pointer.js is deprecated. Please use the
 [PointerEvents polyfill][pe] instead.**

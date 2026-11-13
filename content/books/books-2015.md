@@ -1,13 +1,13 @@
-Books I read in 2015
-=========
+---
 class: split
 type: book
+---
 
-
-In Praise of Idleness by Bertrand Russell
-===
+---
+title: In Praise of Idleness by Bertrand Russell
 posted: December 2015
 rating: yes
+---
 
 Fascinating collection of essays. In "In praise of idleness", Russell in 1930
 predicts that automation will reduce the working day drastically. If your quota
@@ -19,12 +19,11 @@ distancing from Marx, and Russian communism. Essentially, he lays groundwork for
 social democracy. His views on socialism are very reasonable and still relevant
 today.
 
-
-
-Gateway by Frederik Pohl
-===
+---
+title: Gateway by Frederik Pohl
 posted: December 2015
 rating: yes
+---
 
 Humanity discovers an advanced civilization, which has become extinct, but has
 left a mysterious Gateway in our solar system. Gateway is a small world which
@@ -53,11 +52,11 @@ babes are also I think a hallmark of this style of science fiction. I also
 enjoyed Pohl's excerpts of Gateway public announcements, mission reports and
 classifieds littered throughout the book.
 
-
-Sophie's World by Jostein Gaardner
-===
+---
+title: Sophie's World by Jostein Gaardner
 posted: November 2015
 rating: yes
+---
 
 I really enjoyed this one. Clearly a novel for kids, this book provides a nice
 overview of philosophy. However, it is also quite entertaining. Events center
@@ -80,11 +79,11 @@ philosophy course into a relatively short book, and still make it entertaining.
 It passed my bar with flying colors, and I'm keen to give it to Ben. It can be
 his high school philosophy class!
 
-
-The United States and the Middle East (audio)
-===
+---
+title: The United States and the Middle East (audio)
 posted: October 2015
 rating: no
+---
 
 A historical account of modern middle eastern history from a US lens. Covers the
 period between the late Ottoman Empire and September 11th, 2001 and its
@@ -118,11 +117,11 @@ decomposing the lecturers bias and not enough spent to process the actual
 content. Also, the speaking cadence made it quite hard to listen to. Ended up
 going to 1.5x by the end, which I rarely do. 
 
-
-Science and Human Values
-===
+---
+title: Science and Human Values
 posted: September 2015
 rating: no
+---
 
 Broznowski tries really hard to impress with his breadth of knowledge. He
 constantly drops references to art, literature and philosophy to make his point.
@@ -144,24 +143,22 @@ institution, and compares it to the rest of society. This part I thought was
 interesting.  Science has many attractive, democratic properties that I agree
 could really stand to be ported into other human domains.
 
-
-
-Thinking Fast and Slow by Kahnemann & Tversky
-===
+---
+title: Thinking Fast and Slow by Kahnemann & Tversky
 posted: September 2015
 rating: yes
+---
 
 An excellent read. Kahneman basically summarizes his career as a psychologist,
 in which he systematically found flaws in human ability to think rationally.
 He's a founder of behavioral economics, which describes the ways in which humans
 make systematic thinking errors (deviating from "pure" rationality).
 
-
-
-Skeptic's Guide to American History (audio)
-===
+---
+title: Skeptic's Guide to American History (audio)
 posted: August 2015
 rating: yes
+---
 
 Well done overview of American History with a historiographical twist. Reminded
 me of Mr. Begin's history classes, but probably a little more sophisticated. I
@@ -171,10 +168,11 @@ model of historical progress, and also the fact that he dropped enough
 references that I now have plenty of follow-up work to do. A worthwhile course
 for any non-American. Buy it on [TTC](http://www.thegreatcourses.com/courses/the-skeptic-s-guide-to-american-history.html).
 
-Digital Signal Processing Coursera
-===
+---
+title: Digital Signal Processing Coursera
 posted: July 2015
 rating: no
+---
 
 <https://class.coursera.org/dsp-004/>
 
@@ -224,11 +222,11 @@ a much better sense of second order IIRs that ship with the Web Audio API.
 Overall a mathematically challenging, but interesting class.  I really wish
 there was a better way to build intuition for a lot of the theory, though.
 
-
-Understanding the Secrets of Human Perception (audio)
-===
+---
+title: Understanding the Secrets of Human Perception (audio)
 posted: June 2015
 rating: yes
+---
 
 <http://www.thegreatcourses.com/courses/understanding-the-secrets-of-human-perception.html>
 
@@ -248,10 +246,11 @@ to opponent-process theory, which explains a great deal of perception phenomena
 across the senses. From a UX and VR perspective, the material in this course is
 totally invaluable. 
 
-John Napier - Hands
-===
+---
+title: John Napier - Hands
 posted: May 2015
 rating: yes
+---
 
 Fascinating deep-dive into human hands from many different perspectives:
 anatomical, evolutionary, functional and social. The book is packed with facts.
@@ -268,11 +267,11 @@ too brief and incomplete.
 
 > With the eye, the hand is our main source of contact with the physical environment. The hand has advantages over the eye because it can observe the environment by means of touch, and having observed it, it can immediately proceed to do something about it. The hand has other great advantages over the eye. It can see around corners, and it can see in the dark.
 
-
-Vernor Vinge - Rainbow's End
-===
+---
+title: Vernor Vinge - Rainbow's End
 posted: April 2015
 rating: no
+---
 
 Real science fiction, in a bad way, focusing more on the science than the
 fiction, Asimov style. Not that great of a book, underdeveloped characters,
@@ -284,12 +283,11 @@ to finish.
 The library allegory felt too obvious, as if the author was just shoving the out
 with the old, in with the new in your face.
 
-
-
-Blue Mind
-===
+---
+title: Blue Mind
 posted: March 2015
 rating: no
+---
 
 The message was good and clear, but the writing was tedious. Like Gladwell
 books, this one could be compressed to a short pamphlet. I liked the distinction

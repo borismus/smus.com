@@ -1,12 +1,10 @@
-Crunching numbers for the NHL finals
-====================================
+---
+title: Crunching numbers for the NHL finals
 categories: [math, travel]
 posted: 2011-05-31
 snip: Doing some math to decide when to visit Vancouver in order to make the best
   of the Canucks final
-
-
-
+---
 
 Now that the Vancouver Canucks are in the NHL Finals, a special visit to
 Vancouver is in order. Unfortunately, the recently posted schedule really
@@ -98,5 +96,3 @@ to work from home, book flights and bask in Canuck glory!
 [python script]: /x/nhl/
 [Arthur Benjamin]: http://www.ted.com/talks/arthur_benjamin_s_formula_for_changing_math_education.html
 [wikipedia page]: http://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions
-
-

@@ -1,6 +1,7 @@
-Three approaches to VR lens distortion
-======================================
+---
+title: Three approaches to VR lens distortion
 posted: 2016-04-20
+---
 
 Immersion requires a large field of view. This could be achieved by putting a
 large curved spherical display on your face, but alas such technology is

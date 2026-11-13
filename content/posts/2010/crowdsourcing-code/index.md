@@ -1,11 +1,10 @@
-Crowdsourcing code
-==================
+---
+title: Crowdsourcing code
 categories: [social]
 posted: 2010-01-16
 snip: A brief Mechanical Turk survey to determine whether or not turkers might be
   willing to write code.
-
-
+---
 
 As a follow up to my [last post][], I posted a HIT on Mechanical Turk
 asking 20 turkers if they know Java. I paid them 5 cents to answer the
@@ -42,4 +41,3 @@ The Turk to implement whole classes. Code quality aside, what sort of
 software quality could be achieved by following this approach?
 
   [last post]: /crowdsourcing-articles-with-mechanical-turk/
-

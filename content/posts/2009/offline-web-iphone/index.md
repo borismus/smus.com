@@ -1,11 +1,10 @@
-Offline web apps on the iPhone
-==============================
+---
+title: Offline web apps on the iPhone
 categories: [web]
 posted: 2009-09-06
 snip: A how-to about building offline-capable mobile web applications using AppCache.
   Also, a rough version of the Guitar Unleashed mobile app.
-
-
+---
 
 In the midst of my graduate studies, I somehow found the time to write a
 simple prototype for a mobile Guitar Unleashed client. It's more of a
@@ -88,4 +87,3 @@ a proof of concept.
   [database.js]: offline-mobile/database.js
   [cache manifest]: http://www.w3.org/TR/2009/WD-html5-20090212/offline.html
   [http://www.guitarunleashed.com/m/]: http://www.guitarunleashed.com/m/
-

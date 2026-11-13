@@ -1,6 +1,7 @@
-Invention Cards enhanced by AI
 ---
+title: Invention Cards enhanced by AI
 posted: May 30, 2024
+---
 
 I used GPT4's multimodal features to accelerate and improve my recently rebooted [Visual Chronology of Science & Discovery](/visual-chronology-science-discovery-v2/) project now hosted at <https://invention.cards>. First I used image-to-text models to extract and structure content from pages of Asimov's encyclopedia for **accelerated data entry**. Then I used text-to-image models to generate **visually consistent imagery** for each invention and discovery card. This post describes both workflows and my findings. Relevant source code is available in my [asimov-gpt repository](https://github.com/borismus/asimov-gpt).
 

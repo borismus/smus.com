@@ -1,12 +1,10 @@
-Global chrome media keys with Key Socket
-========================================
+---
+title: Global chrome media keys with Key Socket
 categories: [chrome, web, keyboard, websockets, music]
 posted: 2011-07-28
 snip: An extension that lets you bind global keyboard shortcuts to control your favorite
   music player in chrome.
-
-
-
+---
 
 I just skipped to the next Google Music track without leaving vim. Wanna play?
 Here's the [app][] and [Chrome extension][crx]. To learn how it works, read on!
@@ -132,5 +130,3 @@ And of course, here's the [source][src].
 [app]: https://github.com/downloads/borismus/keysocket/KeySocket.zip
 [src]: https://github.com/borismus/keysocket
 [manifest]: https://github.com/borismus/keysocket/blob/master/extension/manifest.json
-
-

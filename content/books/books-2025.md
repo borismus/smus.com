@@ -1,14 +1,14 @@
-Book list
-===
+---
 class: split
 type: book
+---
 
-
-The Crisis of Narration by Byung-Chul Han
-===
+---
+title: The Crisis of Narration by Byung-Chul Han
 rating: yes
 posted: Dec 12, 2025
 cover: /assets/book-covers/crisis-of-narration.jpg
+---
 
 Han spends much of The Crisis of Narration mourning a lost world, one where humans were born into compelling, unifying narratives full of wisdom. Over time, this way of life shattered into many little narratives that fail to create the same level of overarching framework. Wisdom collapsed into knowledge, knowledge into information, and information into data. This is well captured in the [[Data Information Knowledge Wisdom (DIKW) pyramid]], and by T. S. Eliot, who wrote:
  
@@ -64,12 +64,12 @@ I found BCH's general attitude towards storytelling to be somewhat endearing. Us
 
 This is the third BCH pamphlet I've tackled. I do like his ideas, but they feel derivative. (Is this a summary of a summary? Likely, yes.) BCH's most insightful points derive from Walter Benjamin's essays. These include "The Storyteller" and "Experience and Poverty", which I plan to read soon.
 
-
-Livewired by David Eagleman
-===
+---
+title: Livewired by David Eagleman
 rating: yes
 posted: Nov 2, 2025
 cover: /assets/book-covers/livewired.jpg
+---
 
 Eagleman's book is an easy read given the complexity of the topic. I have a feeling that he is simplifying a lot for dramatic effect. Here are a few big ideas I took away from it:
 
@@ -117,12 +117,12 @@ It's tempting to regard our brain as just a complex computer (see [Six metaphors
 - Neurogenesis: Brains grow new neurons, artificial neural nets don't
 - Relevance detection: Brains have interests, AI doesn't
 
-
-Monkey by Arthur Waley
-===
+---
+title: Monkey by Arthur Waley
 rating: yes
 posted: Oct 17, 2025
 cover: /assets/book-covers/monkey.jpg
+---
 
 I recently sat down with B^2 and we decided to watch a Chinese film. We considered Wolf Warrior, but Ne Zha 2 had just blown up to become China's most popular film ever made, and currently stands as the #5 top grossing worldwide film in history, so we set out to watch it. I didn't last long. While I did not love the video game rendering style, I felt like I was missing cultural prerequisites to understand what was actually happening.
 
@@ -198,12 +198,12 @@ Tropes that might be East Asian specific?
 
 I'll be re-watching Ne Zha 2 soon. However I will probably hold off on reading the full Journey to the West in Anthony C. Yu's acclaimed four-volume translation for a while.
 
-
-Hard to Be a God by The Strugatskys
-===
+---
+title: Hard to Be a God by The Strugatskys
 rating: yes
 posted: Aug 31, 2025
 cover: /assets/book-covers/hard-to-be-god.jpg
+---
 
 Finally got around to reading this masterpiece of Soviet science fiction. In the distant future, Earth's advanced civilization has achieved spaceflight and discovered a planet populated by humans caught in humanity's medieval past. This world remains locked in early feudalism, both morally and technologically backward. Earth dispatches a team of scientists and historians to observe this society and test their theories of civilizational development.
 
@@ -238,11 +238,11 @@ Despite possessing superior technology and unmatched abilities, Rumata cannot ef
 
 This sentiment proves far richer than Stewart Brand's hubristic "We are as Gods, so we might as well get good at it." The Strugatskys emphasize the perils of godlike power—the constant risk of moral contamination, the impossibility of remaining pure while wielding absolute authority. Brand's techno-optimism ignores what the novel demonstrates: that godhood corrupts even the best intentions.
 
-
-Battle of Maldon & Homecoming of Beorhtnoth
-===
+---
+title: Battle of Maldon & Homecoming of Beorhtnoth
 rating: no
 posted: Aug 11, 2025
+---
 
 I learned about the Old English Poem "Battle of Maldon" from a David Chapman in a [recent podcast](https://jimruttshow.blubrry.net/david-chapman/) with Jim Rutt, which I found really insightful. I haven't read meaningness for a long time. But Chapman seems to have reemerged onto my radar recently in a series of compelling articles on his (new?) [substack](https://meaningness.substack.com/).
 
@@ -268,11 +268,12 @@ Much of this book is devoted to quite academic essays but I did enjoy The Homeco
 
 [[Old English pronounciation cheatsheet]]
 
-Piranesi by Susanne Clark
-===
+---
+title: Piranesi by Susanne Clark
 rating: yes
 posted: July 25, 2025
 cover: /assets/book-covers/piranesi.jpg
+---
 
 I enjoyed this book so much that I bought a copy for S. It's a slow build, but I found it compelling from the start. Although the overall mystery of the novel is revealed by the end, the explanation the Clark offers is a bit disappointing. Not to brag, but I found it less compelling than some of the alternative theories I imagined while reading the book. As the book unfolded, I enjoyed the variety of possible explanations Clark's writing evoked in my mind. 
 
@@ -290,12 +291,12 @@ Perhaps an LLM is all that remains once you strip a human of all of his embodied
 
 Anyway, I really liked this one — well worth your time!
 
-
-Secret of our Success by Joseph Henrich
-===
+---
+title: Secret of our Success by Joseph Henrich
 rating: yes
 posted: July 9, 2025
 cover: /assets/book-covers/soos.jpg
+---
 
 Humans are remarkably successful as a species. Why? Many would say it's because we're just so darn smart compared to other animals, but Henrich suggests that individual intelligence plays a small role. Our collective culture is what gives our species superpowers. Henrich's thesis is that human success is due to our adaptability, which we owe not to individual intelligence but due to collective culture built over generations. Culture is so central to our species that over a long enough time horizon, cultural evolution even feeds back into our genetic evolution.
 
@@ -547,12 +548,12 @@ Most members of traditional societies, when asked for the reason they respect a 
 
 Modernity makes people see their traditional background from the outside. They begin think from first principles whether they want it in their life. Many balk at the primitive and superstitious ways of their ancestors and abandon their ancestral traditions. But doing this wholesale they may be throwing out the baby with the bathwater. By discarding tradition, we drop constraints but also lose the benefits associated with them. (See [[Infohazards - some true information can harm]]).
 
-
-Math from Three to Seven by A. K. Zvonkin
-===
+---
+title: Math from Three to Seven by A. K. Zvonkin
 rating: yes
 posted: Jun 8, 2025
 cover: /assets/book-covers/math-three-to-seven.jpg
+---
 
 More a journal than an educational treatise, Math from Three to Seven chronicles the uniquely soviet phenomenon known as Математические Кружки (Math Circles), applied specifically to young kids. I personally experienced a version of this growing up in Vancouver courtesy of my parent's Компания (a tight-knit friend-group) where various uncles and aunts DP, AL, GJ, YX, MS, and others took to supplementing the education of the next generation. DP led the math circle, and I, having had the least soviet schooling, really struggled compared to my peers. It was revealing and humbling and formative. DP's circle was more formal and rigorous since we were older, but Zvonkin's circles remind me a lot of that experience.
 
@@ -609,12 +610,12 @@ Books and pointers to check out:
 - Hailstone numbers: $U_{n+1} = u_n/2$ if $U_n$ is even and $U_{n+1} = 3 U_n$ otherwise. The [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) says this sequence converges to 1 but remains unproven.
 - Frames Of Mind: The Theory Of Multiple Intelligences by Howard Gardner
 
-
-Abundance by Ezra Klein and Derek Thompson
-===
+---
+title: Abundance by Ezra Klein and Derek Thompson
 rating: yes
 posted: May 4, 2025
 cover: /assets/book-covers/abundance.jpg
+---
 
 A while ago I began wondering where all the optimistic leftwing voices went. The rest of the camps, I thought, were well represented:
 
@@ -665,12 +666,12 @@ One evening I was listening to Abundance in San Francisco, walking towards a bar
 
 Abundance does a great job of synthesizing myriads of observations and policies in a neat little package. Most importantly, it makes these wonky ideas accessible and addressable under one memorable word: Abundance. In these times of pith, "a liberalism that builds" feels sufficiently meme-like to change the discourse. One can hope?
 
-
-VALIS by Phillip K. Dick
-===
+---
+title: VALIS by Phillip K. Dick
 rating: yes
 posted: April 9, 2025
 cover: /assets/book-covers/valis.jpg
+---
 
 VALIS stands for _Vast Active Living Intelligence System_, a critical piece in Horselover Fat's vision of God. This revelation comes at a turbulent time in Fat's life, shortly after his wife's suicide and the subsequent suicide of multiple girlfriends in the Bay Area of the 1960s.
 
@@ -796,12 +797,12 @@ This can also apply to empires. Dick's refrain "the empire never ended" is a cor
 
 > ...During the interval in which he had experienced the two-world superimposition, he had seen not only California, USA, of the year 1974 but also ancient Rome, he had discerned within the superimposition a Gestalt shared by both space-time continua, their common element: a Black Iron Prison. This is what the dream referred to as “the Empire.” He knew it because, upon seeing the Black Iron Prison, he had recognized it. Everyone dwelt in it without realizing it. The Black Iron Prison was their world.
 
-
-The Maniac by Benjamín Labatut
-===
+---
+title: The Maniac by Benjamín Labatut
 rating: yes
 posted: March 31, 2025
 cover: /assets/book-covers/the-maniac.jpg
+---
 
 I recently watched a movie called "The Bit Player" bankrolled by IEEE, about Claude Shannon and his contributions. The film was informative something was a bit off. In what could be described as a fauxcumentary or docudrama, Shannon was portrayed relatively convincingly by an actor, but rather than creating a narrative arc of his life and work, this fake Shannon was portrayed in a sequence of reenacted interviews. Some of them were informative and entertaining, others cringeworthy and irrelevant, almost bordering on mockumentary.
 
@@ -825,12 +826,12 @@ Upon reflection, I found "The Maniac" a little bit like "The Bit Player", which 
 
 **The Legends of Go** are really awesome. This was probably my favorite part of the book. Labatut evocatively describes the legendary Emperor Yao who invented the game of Go to challenge his wayward, evil son Danzhu. The victor would rule the universe. It seems like Labatut greatly embellishes the traditional tale, but it's worth it. Another memorable Go story retold in the second part of the book was that of the blood-vomiting game of 1835 which lasted four consecutive days after which the loser Akaboshi coughed or vomited blood all over the board, dying within a few months.
 
-
-A Peace to End All Peace by David Fromkin
-===
+---
+title: A Peace to End All Peace by David Fromkin
 rating: yes
 posted: Feb 24, 2025
 cover: /assets/book-covers/peace-to-end-all-peace.jpg
+---
 
 Worth it for the name alone, this is a comprehensive presentation of what happened when the sick man of Europe finally died. It gives excellent background on the complexity of the Ottoman Empire's demographics, enmities between Turk and Arab, Sunni and Sunni-Wahhabi. It paints a vivid picture of the Three Pasha triumvirate, their unforgivable warcrimes, blunders and colorful deaths. It documents the victorious Allies scramble to divide up the spoils of war through shifting alliances, how they backstabbed each other, misunderstood the people they sought to govern, and mismanaged their own bureaucracies.
 
@@ -921,12 +922,12 @@ Great context for trying to understand what the fuck is happening in the Middle 
 - Uncle Sam Wants You is in fact a rip-off of [[Lord Kitchener Wants You]].
 - Pan-Arabism is largely a British invention imposed on the Arab world. This includes the Pan-Arabic flag, an initially British designed and British produced item.
 
-
-John Dee and the Empire of Angels by Jason Louv
-===
+---
+title: John Dee and the Empire of Angels by Jason Louv
 rating: yes
 posted: Jan 14, 2025
 cover: /assets/book-covers/john-dee-empire-of-angels.jpg
+---
 
 I liked this book, although it could use a bit of additional structure. It came across my radar from a [podcast conversation](https://www.youtube.com/watch?v=A6P5LUsfRxE) between Rick Rubin and Jason Louv about the book. Although it exaggerates and studies Dee in arguably too much depth, it paints a fascinating picture of the Elizabethan age.
 

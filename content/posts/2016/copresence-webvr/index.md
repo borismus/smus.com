@@ -1,6 +1,7 @@
-Copresence in WebVR
-===================
+---
+title: Copresence in WebVR
 posted: 2016-08-08
+---
 
 The web platform is uniquely great for networked copresence. To demonstrate, I
 built a multi-user chat prototype that uses peer-to-peer audio and data

@@ -1,11 +1,10 @@
-Robotic piano playback
-======================
+---
+title: Robotic piano playback
 categories: [physical]
 posted: 2008-11-15
 snip: About a LEGO Mindstorms robot that listens to a melody and then plays it back
   on the piano.
-
-
+---
 
 After several weeks of casual spare-time research and implementation,
 I've finally built a fully working piano playback robot. The usage is
@@ -54,4 +53,3 @@ Please let me know if you have any questions or suggestions!
   [an NXC program]: http://bricxcc.sourceforge.net/nbc/
   [Lightblue Glue]: http://www.cs.wlu.edu/~levy/software/nxt_lightblue_glue/
   [NXT_Python]: http://home.comcast.net/~dplau/nxt_python/
-

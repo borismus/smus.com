@@ -1,11 +1,10 @@
-The sorry state of HTML mail
-==============================
+---
+title: The sorry state of HTML mail
 categories: [web]
 posted: 2008-10-31
 snip: Complaining about how terrible it is to create HTML email that renders properly
   in multiple mail clients.
-
-
+---
 
 Web design used to be a black art. Ten years ago, browser differences used to
 be so dramatic that the only viable solution for an HTML designer was to fall
@@ -60,4 +59,3 @@ like there is light at the end of the tunnel for downtrodden HTML email
 designers. In the meantime though, I send them my deepest condolences.
 
   [email client usage statistics]: http://fingerprintapp.com/email-client-stats
-

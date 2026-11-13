@@ -1,11 +1,10 @@
-Stairs or elevator? Use bluetooth!
-==================================
+---
+title: Stairs or elevator? Use bluetooth!
 categories: [physical]
 posted: 2010-09-30
 snip: An exploration into using Bluetooth Sensor Networks for tracking patterns in
   behavior.
-
-
+---
 
 Most people carry mobile phones, and many of those phones have
 integrated bluetooth functionality. Some of these phones are in
@@ -100,4 +99,3 @@ at UMa.
   [Raphael]: http://raphaeljs.com/
   [Google Visualization]: http://code.google.com/apis/charttools/index.html
   [Vassilis' work]: http://dme.uma.pt/people/faculty/vassilis.kostakos/
-

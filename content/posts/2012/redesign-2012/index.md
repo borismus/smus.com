@@ -1,6 +1,7 @@
-New design
-==========
+---
+title: New design
 posted: 2012-03-30
+---
 
 I re-designed this site using the [PT Sans font][ptsans], aiming for
 appealing typography for optimal readability. Interestingly,

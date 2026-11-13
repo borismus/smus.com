@@ -1,6 +1,7 @@
-Memento Mori
-===
+---
+title: Memento Mori
 posted: October 19, 2017
+---
 
 > The association of sundials with time has inspired their designers over the
 > centuries to display mottoes as part of the design. Often these cast the

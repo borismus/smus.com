@@ -1,6 +1,7 @@
-UIST 2014 highlights
-====================
+---
+title: UIST 2014 highlights
 posted: 2014-10-14
+---
 
 This year's [UIST][uist] was held in Waikiki, Honolulu, the undisputed
 tourist capital of Hawaii. I've stuck to my now three year old habit of

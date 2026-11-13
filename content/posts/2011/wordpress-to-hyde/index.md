@@ -1,11 +1,9 @@
-From Wordpress to Hyde
-======================
+---
+title: From Wordpress to Hyde
 categories: [web]
 posted: 2011-04-20
 snip: or, how I stopped worrying and switched this blog to a Django static site generator.
-
-
-
+---
 
 I've used [Wordpress][] for a couple of years now as my web publishing platform of
 choice. I customized it a little bit, and made a [custom theme][] for it. But 
@@ -157,5 +155,3 @@ You, for reading this post and continuing to read this blog. Until next time!
 [new]: new-design.png
 [old perf]: old-perf.png
 [new perf]: new-perf.png
-
-

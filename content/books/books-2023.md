@@ -1,14 +1,14 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-Great Work Of Time by John Crowley
-===
+---
+title: Great Work Of Time by John Crowley
 rating: no
 posted: Dec 19, 2023
 cover: /assets/book-covers/great-work-of-time.jpg
+---
 
 Thanks to AK for the suggestion, I found this to be a more historical and literary take on a concept similar to [End of Eternity by Isaac Asimov](/books/the-end-of-eternity-by-isaac-asimov/). It's also a short novella, which I think is part of why a lot of the details feel like they are left as an exercise to the reader.
 
@@ -32,12 +32,12 @@ You can never enter the same present twice.
 
 But how does time travel work in such a world? Well, I guess one possibility is that in the next time step, you move into a world that is a lot like the one before. With the many-worlds interpretation, it's possible that anything happens. So there's a non-zero probability of having a time machine and using it to time travel to a world that looks just like 1893. There is also a non-zero probability that you will use a chicken to time travel to a magical rainbow under the surface of Jupiter's smallest monkey. The only difference between these two scenarios is their respective probabilities.
 
-
-Letters to my Palestinian Neighbor by Halevi
-===
+---
+title: Letters to my Palestinian Neighbor by Halevi
 rating: yes
 posted: Dec 7, 2023
 cover: /assets/book-covers/letters-palestinian-neighbor.jpg
+---
 
 I discovered Yossi Klein Halevi following Hamas' massacre on Oct 7 on a podcast. Halevi's ability to combine a firmly pro-Israeli position with a gentle touch impressed me. This comes through in his book too, which I liked overall. I'll recommend it to left-leaning friends struggling to understand the situation.
 
@@ -94,12 +94,12 @@ Now in the 3rd millennium, Judaism lacks religious surrender, while Islam lacks 
 
 A solution to the Israeli-Palestinian conflict remains as illusive as ever, and while no book will provide one, this one shed light on some historical details I did not know about. I hope that "Letters" might be even more illuminating to left leaning friends that feel less intrinsically connected to Israel than I do.
 
-
-Tales from the Ant World by E. O. Wilson
-===
+---
+title: Tales from the Ant World by E. O. Wilson
 rating: yes
 posted: Nov 8, 2023
 cover: /assets/book-covers/tales-ant-world.jpg
+---
 
 As a kid growing up in the Soviet Union, I remember eyeing a book called Пароль скрещенных антенн (literally "password of the crossed antennae") on my grandfather's bookshelf. It had a green leather home-made cover on it with just the title on it in block capital lettering. My grandfather bound it himself, as he did with many other books, from popular science books to books banned by the authorities. Grandma told me many stories about his obsession with books and bookbinding hobby which he took on after retirement. He would read everywhere: on the pot, at the dinner table, on the sofa. He always had a book on his person, which came in handy because Soviet life involved waiting in so many long queues, you could get a lot of reading done.
 
@@ -135,12 +135,12 @@ Overall it was well written and crazy interesting, a nice diversion from my usua
 - Leaf cutter ants are especially coherent and work as a single unit.
     - At which point are a collection of individuals better understood as a Super-organism?
 
-
-The Burnout Society by Byung-Chul Han
-===
+---
+title: The Burnout Society by Byung-Chul Han
 rating: yes
 posted: Oct 25, 2023
 cover: /assets/book-covers/burnout-society.jpg
+---
 
 Some interesting ideas in this philosophical pamphlet, but they are atomized and not woven into a strong coherent argument. The book is not especially well written: rambling and repetitive and lacking structure. I'd recommend a shorter summary (hello, you're welcome) or listening to [Episode 188 of Philosophize This](https://www.youtube.com/watch?v=Jm56nQ31kBk), which is what turned me onto Byung-Chul Han in the first place.
 
@@ -223,11 +223,12 @@ Han dunks on Freud and declares psychoanalysis obsolete. If I was more versed in
 
 My assessment from the first read is "great ideas poorly assembled". Maybe it flows better in the original German?
 
-This is How You Lose the Time War
-===
+---
+title: This is How You Lose the Time War
 rating: yes
 posted: Oct 5, 2023
 cover: /assets/book-covers/time-war.jpg
+---
 
 A stylistically beautiful novella reminiscent of [Invisible cities by Italo Calvino](/books/invisible-cities-by-italo-calvino/). Written in an innovative format, this is more poetry than prose. "Time War" was certainly worth my time, but I could see how it may be annoying to some. At least it is mercifully short!
 
@@ -266,11 +267,11 @@ A stylistically beautiful novella reminiscent of [Invisible cities by Italo Calv
 > Killed Tsar and his ministers<br>
 > Anastasia screamed in vain<br>
 
-
-Empowered by Cagan & Jones
-===
+---
+title: Empowered by Cagan & Jones
 rating: no
 posted: Sep 17, 2023
+---
 
 My skip-skip-skip level manager at work recommended it to all of his manager reports, and so I decided to read this book to get closer to the top brass. Overall it was a sobering read, actively reminding me how far my organization is from being customer-centric. The book mostly addresses product managers, but tries to also apply to leaders in general, and "product people" in particular. It's a bit unclear who these people are, but I suspect they include product-minded engineers and designers.
 
@@ -297,12 +298,12 @@ Things I did not like:
 - Unclear how lessons from this book apply to completely new products like Smart Glasses. How we be customer-centric in a world where we have no customers?
 - Authors seem overly optimistic about equity based compensation as a way to perfectly align incentives. At a company the size of Google, I don't think that sufficiently aligns individual actions. Might work better at a smaller company though!
 
-
-Russian Revolutions by Mike Duncan
-===
+---
+title: Russian Revolutions by Mike Duncan
 rating: yes
 posted: July 20, 2023
 cover: /assets/book-covers/revolutions-podcast.jpg
+---
 
 Mike Duncan covers a ton of ground on the events, people, and the necessary background to understand the Russian Revolution.
 
@@ -509,12 +510,12 @@ Lenin's own big personality is largely at fault for the Communist party's oligar
 - [[Russia and the Horde]]
 - [[Russian pathologies through the centuries]]
 
-
-The Mountain in the Sea by Ray Nayler
-===
+---
+title: The Mountain in the Sea by Ray Nayler
 rating: yes
 posted: July 4, 2023
 cover: /assets/book-covers/the-mountain-in-the-sea.jpg
+---
 
 What if a book review could be composed entirely of "what if?" questions?
 
@@ -568,12 +569,12 @@ Nayler draws analogies between octopuses and fictional drone army operators (Alt
 
 By Pohl's metric, The Mountain in The Sea is great science fiction. I enjoyed the book thoroughly, major thanks to Captain A for the recommendation.
 
-
-Boyd by Robert Coram
-===
+---
+title: Boyd by Robert Coram
 rating: yes
 posted: Jun 2, 2023
 cover: /assets/book-covers/boyd.jpg
+---
 
 I've heard a lot about Boyd in various FLUX-adjacent circles. His ideas seem to have reached a critical mass, in which they are widely known in the business world, having matriculated there from their origin in the military. I enjoyed this account of Boyd's larger than life legacy. Boyd is vividly depicted as a complex, brilliant, funny, and flawed character. He made great contributions to organizational dynamics, but was abrasive and broadly disliked. He was a great mentor to his followers, but an uncaring and absent father.
 
@@ -828,11 +829,12 @@ Next
 - Maybe read "Certain to Win: The Strategy of John Boyd, Applied to Business" for a more pre-digested take.
 - Maybe watch "Legends of the Fall", a movie that seems to have affected Boyd emotionally (a rare thing).
 
-Medieval Robots by E. R. Truitt
-===
+---
+title: Medieval Robots by E. R. Truitt
 rating: yes
 posted: Mar 19, 2023
 cover: /assets/book-covers/medieval-robots.jpg
+---
 
 One of my early childhood fixations was the golden peacock clock in the Hermitage in Leningrad. Now, here is a whole book about ancient automata, combining my interests in Medieval history and AI! I listened to the audio version, which perhaps impoverished my experience of "reading", assuming the non-audio book includes the beautiful paintings, illustrations, and diagrams described in prose.
 
@@ -891,12 +893,12 @@ The Latin word for bell is "clocca", which is the etymology of the word clock. S
 <https://en.wikipedia.org/wiki/Virgilius_the_Sorcerer>
 - Obsession with Troy... The French wanted to aspire to be descended from the Trojans. Francius was apparently such a Trojan. High time to read the Anaeid.
 
-
-Old Man's War by John Scalzi
-===
+---
+title: Old Man's War by John Scalzi
 rating: yes
 posted: January 28, 2023
 cover: /assets/book-covers/old-man-war.jpg
+---
 
 A recommendation from MP, this is apparently one of the classics of the genre of Military Science Fiction. In addition to being a fun and quick read, I found it thought-provoking, and a really cool concept.
 

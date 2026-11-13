@@ -1,6 +1,7 @@
-The ebb of the web
-==================
+---
+title: The ebb of the web
 posted: 2014-04-15
+---
 
 Tech pundits like to lament that the web has [no viable
 future][no-viable], while web idealists hold that in fact the web is

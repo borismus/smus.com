@@ -1,10 +1,9 @@
-Extending Google Wave terminology
-=================================
+---
+title: Extending Google Wave terminology
 categories: [social]
 posted: 2009-07-22
 snip: A chronicle of some emergent lingo from the Google Wave service.
-
-
+---
 
 For the last few days, I've had the chance to get my feet wet in the
 [developer sandbox][] of Google Wave. My first impressions are very
@@ -55,4 +54,3 @@ it's in my things to do!
   [video from Google I/O]: http://wave.google.com/
   [Wave terminology]: http://mashable.com/2009/05/28/google-wave-guide/
   [this one]: http://www.borismus.com/wp-content/uploads/2009/07/google-wave-short-story.txt
-

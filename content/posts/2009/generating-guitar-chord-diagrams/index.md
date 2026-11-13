@@ -1,11 +1,10 @@
-Generating guitar chord diagrams
-================================
+---
+title: Generating guitar chord diagrams
 categories: [music]
 posted: 2009-06-14
 snip: A python script that generates all possible ways of playing the specified guitar
   chord. I used this for Guitar Unleashed.
-
-
+---
 
 One day I wanted to add a feature to [Guitar Unleashed][] which exists
 in some of the better guitar tab sites. When a user hovers over a chord,
@@ -80,4 +79,3 @@ also see the diagrams live at [guitarunleashed.com][Guitar Unleashed].
   [GCHORDS]: http://www.aei.mpg.de/~peekas/gchords/
   [lilypond bundle for textmate]: http://netcetera.org/cgi-bin/tmbundles.cgi#Lilypond
   [available for download]: chord-image-generator.zip
-

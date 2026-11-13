@@ -1,6 +1,7 @@
-Evogami: evolution meets origami
-===
+---
+title: "Evogami: evolution meets origami"
 posted: April 5, 2021
+---
 
 In my latest side project, I borrow a couple of ideas from evolution and apply
 them to origami. Starting from a blank square apply a random crease, then again,

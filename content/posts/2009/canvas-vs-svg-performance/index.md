@@ -1,11 +1,10 @@
-Performance of canvas versus SVG
-================================
+---
+title: Performance of canvas versus SVG
 categories: [web]
 posted: 2009-01-19
 snip: A benchmark for comparing Canvas to SVG performance as a function of render
   element size and number of objects drawn.
-
-
+---
 
 At the core of the traditional HTML/CSS developer's toolkit is a set of nested
 boxes describing offset, margin, border and padding, known as the box model.
@@ -77,4 +76,3 @@ omitted. Thanks!
   [collecting performance data]: canvas-svg-benchmark/
   [Varying the number of objects]: varying-number-of-objects.png
   [Varying drawing area height]: varying-drawing-area-height.png
-

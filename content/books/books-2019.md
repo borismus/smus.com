@@ -1,13 +1,13 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-The Name of the Wind (audio)
-===
+---
+title: The Name of the Wind (audio)
 posted: November 25, 2019
 rating: no
+---
 
 I’ll admit, I only got about 20% through this book when I decided to abandon it.
 
@@ -15,12 +15,12 @@ I enjoyed the world building somewhat, but it felt like a really cut-and-dry Tol
 
 [This review](https://chimaeraspeaks.wordpress.com/2011/06/30/kvothe-a-mary-sue-case-study/) seems to mirror my sentiments directly. Enough said.
 
-
-The Fiddler is a Good Woman
-===
+---
+title: The Fiddler is a Good Woman
 posted: November 13, 2019
 rating: yes
 cover: /assets/book-covers/fiddler-good-woman.jpg
+---
 
 I think it was A that originally turned me on to Geoff Berner’s existence. At the very least, he gave me the book (thanks!) Berner exists at the tenuous intersection of musician, comedian, and apparently author! I went to a klezmer show in Seattle for which he was one of the openers, and can vouch for him as a pretty good accordionist, and a pretty funny guy (although I still can’t quite tell if he’s serious about his politics). After reading, I can also confirm that Geoff Berner is a pretty good author.
 
@@ -30,12 +30,12 @@ At its core, this book paints a portrait of a complex protagonist, so-called “
 
 In some ways, I was reminded of Foobar, the Canadian Cult Classic film. Maybe because many of the characters are in some undeniable sense lowlifes, but in another, profoundly vulnerable and human.
 
-
-Range by David Epstein (audio)
-===
+---
+title: Range by David Epstein (audio)
 posted: November 4, 2019
 rating: yes
 cover: /assets/book-covers/range.jpg
+---
 
 I learned of David Epstein through his interview with [NonProphets](http://longnow.org/seminars/02019/jul/22/timefulness/), a podcast I enjoy listening to. He had featured one of the generalist podcast hosts in the segment about super forecasters, and came off as super interesting. I had just committed to sorting my reading list by least recent publish date, biasing it towards works that have stood the test of time. But looking over my options in Audible, I kept coming back to Range.
 
@@ -79,11 +79,11 @@ It gets even better when you combine the animals you like into one super animal:
 
 One critique: it’s easy to create a compelling narrative by cherry picking facts. Certainly there are successful hedgehogs, and some child prodigies do change their field. Mozart, for example.
 
-
-Timefulness by Marcia Bjornerud (audio)
-===
+---
+title: Timefulness by Marcia Bjornerud (audio)
 posted: October 6, 2019
 rating: yes
+---
 
 I heard the author’s [Long Now talk](https://en.wikipedia.org/wiki/Seven_generation_sustainability) and thought she did an excellent job. The book did not disappoint.
 
@@ -169,10 +169,11 @@ This book had a lot of facts packed into a small package (short listen). Two mai
 2. Effect of climate change on human history. There’s a [Wikipedia page about this](https://en.wikipedia.org/wiki/Sneeze), maybe I can find a good book too?
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
 
-Yes Brain by Siegel and Bryson
-===
+---
+title: Yes Brain by Siegel and Bryson
 posted: September 20, 2019
 rating: no
+---
 
 Yes Brain is a parenting book. This immediately means several things:
 
@@ -204,11 +205,11 @@ Random things I disliked:
 
 The good parts of this book provide some interesting strategies for teaching stoicism and mindfulness to young children. Perhaps in a few years, I’ll revisit one of its many clones.
 
-
-Diamond Age by Stephenson (audio)
-===
+---
+title: Diamond Age by Stephenson (audio)
 posted: September 5, 2019
 rating: yes
+---
 
 It's official: I'm on a science fiction kick! It's been a while since I
 read Stephenson. It's not that I don't like reading long books, I do. It's just
@@ -285,12 +286,11 @@ to understand elements of the story. Not unlike real life, I might add!
 The ending is ambiguous but still satisfying. I can't help but wonder: was the
 primer comissioned deliberately to subvert the world order by Finkel-McGraw?
 
-
-
-Hyperion by Dan Simmons (audio)
-===
+---
+title: Hyperion by Dan Simmons (audio)
 posted: August 4, 2019
 rating: yes
+---
 
 I attempted Hyperion a decade or so ago, but couldn't get into it. If I recall,
 I found the introduction obscure and difficult to follow and gave up.
@@ -335,12 +335,11 @@ acclaimed books. Whether or not the series itself wraps up coherently, the way
 to read this book is to enjoy the Hyperion universe and each of the pilgrim's
 tales for their brilliance in their own right.
 
-
-
-Asimov's Chronology of Science and Discovery
-===
+---
+title: Asimov's Chronology of Science and Discovery
 posted: July 10, 2019
 rating: yes
+---
 
 Asimov attempts to create a real-world technology chronology. This reminds me of
 the tech trees found in strategy games like Civilization. This encyclopedic tome
@@ -383,11 +382,11 @@ Please help me by filling in the remainder of the spreadsheet for the remaining
 500 years (1519 - 2019). My goal is to ultimately generate a visual,
 Civilization-style technology tree for this whole book.
 
-
-Deschooling Society by Ivan Illich
-===
+---
+title: Deschooling Society by Ivan Illich
 posted: July 14, 2019
 rating: no
+---
 
 > I have never let my schooling interfere with my education. – Mark Twain
 
@@ -465,11 +464,11 @@ I got through the third essay, but it was a slog. Overall, there are interesting
 tidbits but the overall tone is so anarchic, marxist and idealistic, I found it
 a draining read.
 
-
-Palaces for the People (audio)
-===
+---
+title: Palaces for the People (audio)
 posted: June 27, 2019
 rating: no
+---
 
 The phrase "palaces for the people" comes from Andrew Carnegie. A prolific
 philanthropist, Carnegie helped to fund more than 2,500 libraries around the
@@ -578,10 +577,11 @@ mind are the [Little Free Library project](https://www.bricecjones.com/blog/tele
 [PEPS in Seattle](https://www.etymonline.com/word/mentor).
 > > > > > > > 3a0c1ae34992d6c43823d47bb4da4f09a49b3463
 
-The Odyssey translated by Emily Wilson (audio)
-===
+---
+title: The Odyssey translated by Emily Wilson (audio)
 posted: June 14, 2019
 rating: yes
+---
 
 As a kid, I read The Odyssey in some canonical translation. That is to say, I
 knew it was a classic, and wanted to check the box. I read it quickly and
@@ -682,10 +682,11 @@ venture off again to appease Posideon. Sounds like another arduous journey, and
 another decade of disappointment for Penelope. Her patience and the ambiguity
 with which they reunite is palpable.
 
-The Fifth Season by N. K. Jemisin
-===
+---
+title: The Fifth Season by N. K. Jemisin
 posted: May 22, 2019
 rating: yes
+---
 
 The Fifth Season is a well crafted fantasy book, the first of the Broken Earth
 trilogy. Each book in the trilogy won a Hugo Award in subsequent years, which is an
@@ -727,13 +728,11 @@ somewhat surprised at the revolutionary tone the author sets, especially towards
 the end of the book, and particularily in the cryptic ending. I suppose it's a
 powerful hook to read the next book in the trilogy.
 
-
-
-
-Radical Markets by Posner and Weyl
-===
+---
+title: Radical Markets by Posner and Weyl
 posted: April 18, 2019
 rating: no
+---
 
 The book Radical Markets is centered on one central premise: \*\*Competitive, free
 markets are awesome, but most in reality are either not perfectly competitive,
@@ -926,10 +925,11 @@ system that controls your work and life. Unlike slavery, data work does not
 capitalize at the expense of a specific identity group. Unlike "siren servers",
 the lure of social networks can be resisted.
 
-Seeing Like a State by James Scott
-===
+---
+title: Seeing Like a State by James Scott
 posted: March 28, 2019
 rating: yes
+---
 
 The most succinct version summary of Seeing Like a State this is what has been
 called The Authoritarian High-Modernist [Recipe for Failure](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/):
@@ -1125,10 +1125,11 @@ very functional and completely safe (as long as no humans were involved in
 driving decisions). I feel that we are very far from such a world, but it's fun
 to think about.
 
-Invisible Cities by Italo Calvino
-===
+---
+title: Invisible Cities by Italo Calvino
 posted: February 22, 2019
 rating: yes
+---
 
 Calvino writes in some of the most poetic prose in my recent memory. At times it
 borders on obscurity, but often it is beautiful almost beyond words.
@@ -1192,12 +1193,11 @@ admit that all their calculations were wrong and their figures are unable to
 describe the heavens, or else they must reveal that the order of the gods is
 reflected exactly in the city of monsters.
 
-
-
-The Story of Medieval England (audio)
-===
+---
+title: The Story of Medieval England (audio)
 posted: February 19, 2019
 rating: yes
+---
 
 In the grand scheme of things, the western world today is pretty great. To what
 do we owe its prosperity? I got curious about this and realized that the answer
@@ -1445,13 +1445,11 @@ flowed also over 3 centuries. This is of course easy to see in retrospect, but
 it made me wonder what sorts of 3-century long historical events people of 2500
 will remember about us?
 
-
-
-Real Estate and Cash Flow
-===
+---
+title: Real Estate and Cash Flow
 posted: February 15, 2019
 rating: no
-
+---
 
 "What Every Real Estate Investor Needs to Know About Cash Flow... And 36 Other
 Key Financial Measures, Updated Edition"... What a title!
@@ -1496,12 +1494,11 @@ titled, but much dumber "Rental Property Investing: how to invest in profitable
 properties to rent and derive maximum profit from them". Complete drivel. Skip
 it.
 
-
-
-The New Father
-===
+---
+title: The New Father
 posted: February 3, 2019
 rating: yes
+---
 
 My daughter Elichka is a year old! She's the best, let me show you a picture?
 Actually no. Not on the internet.
@@ -1510,11 +1507,11 @@ This book was a trusty reference for me when things got a bit dicey. Rather
 than reading daddy or mommy blogs (urgh), a quick look at the relevant age was
 sometimes helpful in calming the nerves. I'd recommend it to a new father.
 
-
-Tribe by Sebastian Junger
-===
+---
+title: Tribe by Sebastian Junger
 posted: January 18, 2019
 rating: yes
+---
 
 Junger disparages modern western life, and has a very fond attitude towards
 traditional hunter-gatherer civilization.
@@ -1588,10 +1585,11 @@ Nodding, I wondered: how disconnected am I? Why don't we go build a [house or a
 tractor](https://www.opensourceecology.org/), or maybe learn the answers to some
 of [these questions?](https://kk.org/cooltools/the-big-here-qu/)
 
-12 Rules for Life
-===
+---
+title: 12 Rules for Life
 posted: January 17, 2019
 rating: no
+---
 
 One of my rules for life is: listicles are always clickbait, even in book form.
 There is a balance to be found between order and chaos. These rules are
@@ -1621,11 +1619,11 @@ Peterson seems to be writing for an audience of very low self-esteem men. This
 is a recipe book for escaping this rut, at worst by becoming a narcissistic
 psychopath. By rule four, I'd had my fill and decided to cut my losses.
 
-
-Building a Bridge to the 18th Century
-===
+---
+title: Building a Bridge to the 18th Century
 posted: January 11, 2019
 rating: no
+---
 
 Neil Postman has strong opinions:
 
@@ -1648,11 +1646,11 @@ were intended to provoke thought for some hypothetical starry eyed silicon
 valley entrepreneurial techno-optimist. Unfortunately, Postman's position is so
 extreme and arguments so cliched, I found myself rooting for the other side. 
 
-
-Invisible Planets
-===
+---
+title: Invisible Planets
 posted: January 2, 2019
 rating: yes
+---
 
 I've only just touched the tip of the Chinese Sci-Fi iceberg by reading [Three
 Body Problem](/books/three-body-problem-by-liu-cixin-audio/). So I picked up Invisible Planets, also translated by the same guy, Ken Liu.

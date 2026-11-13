@@ -1,9 +1,8 @@
-
-How to build an electric boat
-===
+---
+title: How to build an electric boat
 posted: July 30, 2020
 type: draft
-
+---
 
 # What I learned
 

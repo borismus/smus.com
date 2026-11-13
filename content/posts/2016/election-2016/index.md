@@ -1,6 +1,7 @@
-Election 2016
-=============
+---
+title: Election 2016
 posted: 2016-11-13
+---
 
 Back in June, I gave Trump a coldhearted 55% chance of winning the 2016 US
 election. You don't have to believe me, since I recorded it in my

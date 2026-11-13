@@ -1,8 +1,8 @@
-The Psychology of Curiosity
-===========================
+---
+title: The Psychology of Curiosity
 posted: June 2017
 rating: yes
-
+---
 
 I read [an academic paper on curiosity][paper] by [George Loewenstein][author].
 It was surprisingly readable and very insightful.
@@ -203,6 +203,3 @@ interrupted tasks better than completed tasks. I was very curious to see how the
 paper ended, so had to finish reading the last page online.
 
 [zeigarnik]: https://en.wikipedia.org/wiki/Zeigarnik_effect
-
-
-

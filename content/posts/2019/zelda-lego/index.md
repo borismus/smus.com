@@ -1,6 +1,7 @@
-Link's Awakening LEGO Mosaic
-===
+---
+title: Link's Awakening LEGO Mosaic
 posted: September 13, 2019
+---
 
 A parismonious use of pixels (160 x 114) and color (four-color greenscale) lends
 itself super well to reproduction as a LEGO mosaic! LEGO has this amazing

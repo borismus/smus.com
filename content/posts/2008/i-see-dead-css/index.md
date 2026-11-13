@@ -1,10 +1,9 @@
-I see dead CSS
-==============
+---
+title: I see dead CSS
 categories: [web]
 posted: 2008-12-11
 snip: A rudimentary attempt to write a tool that detects unused CSS styles in a stylesheet.
-
-
+---
 
 I wanted a tool that would analyze a complete web site, and report what
 CSS selectors and IDs are dead. By dead, I mean one of two things --
@@ -62,4 +61,3 @@ limitations are very much appreciated!
   [cssutils]: http://cthedot.de/cssutils/
   [the movie]: http://www.imdb.com/title/tt0167404/
   [7sense so far]: http://www.borismus.com/wp-content/uploads/2008/12/7sense.py
-

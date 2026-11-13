@@ -1,14 +1,12 @@
-Developing multiplayer HTML5 games with node.js
-===============================================
+---
+title: Developing multiplayer HTML5 games with node.js
 categories: [web, games, multiplayer]
 posted: 2011-08-30
 snip: Introducing osmus, a multiplayer HTML5 game written with web sockets, canvas
   and a game engine that runs shared code on the client and server.
 discussion:
   - https://news.ycombinator.com/item?id=2942412
-
-
-
+---
 
 One day I had some friends over at my house introducing me some cool iPad
 games. One of the games was Osmos, developed by an Canadian indie studio called
@@ -207,5 +205,3 @@ posted on html5rocks.
 [commonjs]: http://www.commonjs.org/
 [requirejs]: http://requirejs.org/
 [nginx]: http://nginx.net/
-
-

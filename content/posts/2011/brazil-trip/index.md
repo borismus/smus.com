@@ -1,12 +1,10 @@
-Brazil trip
-===========
+---
+title: Brazil trip
 categories: [web, chrome, travel]
 posted: 2011-06-21
 snip: Wherein I spoke to Brazilian web developers, ate strange fruits and heard some
   fantastic samba rock.
-
-
-
+---
 
 Last month I took a work trip to São Paulo, Brazil. I gave four Chrome/HTML5
 presentations and talked to many engineers and designers over the course of the
@@ -55,5 +53,3 @@ Magdalena!
 [slide deck]: http://code.google.com/p/html5slides/
 [Samba da Minha Terra]: https://picasaweb.google.com/boris.smus/Brazil#5612942830070183426
 [text editor]: http://www.vim.org/
-
-

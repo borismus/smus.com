@@ -1,6 +1,7 @@
-Alloy: a local-first AI workbench
-===
+---
+title: "Alloy: a local-first AI workbench"
 posted: Feb 24, 2026
+---
 
 AI model vendors usually ship their own desktop apps, and aside from coding agents, these tend to be the ways in which I interface with AIs the most. But these apps are sticky by design: each vendor wants you to stay with them and continue to use them. As a result, I tend to have very lumpy usage patterns, focusing on one model at a time to the detriment of the others. This leads to an incomplete understanding of the ever-shifting AI landscape, with models constantly leapfrogging one another on the leaderboards.
 

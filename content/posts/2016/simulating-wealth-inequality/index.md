@@ -1,6 +1,7 @@
-Simulating wealth inequality
-============================
+---
+title: Simulating wealth inequality
 posted: 2016-01-19
+---
 
 Economic inequality is rising in the US. A viral video from several years ago
 made this abundantly clear:

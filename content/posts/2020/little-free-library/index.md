@@ -1,6 +1,7 @@
-DIY Community Library
-===
+---
+title: DIY Community Library
 posted: April 25, 2020
+---
 
 When my sailing class was canceled back in early March, I realized it was time for a more individualistic hobby. And so, I furled the sails and tied up the boat and picked up a circular saw from the hardware store. After I got over my fears of loud, terrifyingly quickly spinning metal blades, a whole bunch of cutting and screwing, then digging and painting, I have a Little Free Library standing outside my house, and a little bit more confidence for the next woodworking project!
 
@@ -39,4 +40,3 @@ I drafted some [initial plans in OnShape](https://cad.onshape.com/documents/d57c
 Here are some [more photos](https://photos.app.goo.gl/K3xP2XjPmUQ2bX1N7) that document the process. The results are passable but honestly, a little bit sloppy. Build quality aside, I’m thrilled to see actual use: the roster of books changing quickly. My initial dump of philosophy books was partially picked off, and then swiftly amended. I had predicted very little movement during the pandemic because of decreased foot traffic and increased paranoia about touching public things, but was sorely mistaken.
 
 Many thanks to Matthew for the pro-tips and help!
-

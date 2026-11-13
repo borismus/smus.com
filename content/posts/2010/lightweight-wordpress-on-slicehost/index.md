@@ -1,10 +1,9 @@
-Lightweight Wordpress on Slicehost
-==================================
+---
+title: Lightweight Wordpress on Slicehost
 categories: [web]
 posted: 2010-02-26
 snip: My experiences moving from the WebFaction shared host to the Slicehost VPS.
-
-
+---
 
 I recently switched from shared hosting to a VPS, expecting to get an
 immediate and automatic performance boost. I was overly optimistic and
@@ -79,4 +78,3 @@ hosting configuration better?
   [php-fastcgi init script]: http://tomasz.sterna.tv/2009/04/php-fastcgi-with-nginx-on-ubuntu/
   [WP Super Cache]: http://wordpress.org/extend/plugins/wp-super-cache/
   [django site]: http://www.guitarunleashed.com
-

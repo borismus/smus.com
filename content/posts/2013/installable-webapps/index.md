@@ -1,6 +1,7 @@
-Installable webapps: extend the sandbox
-=======================================
+---
+title: "Installable webapps: extend the sandbox"
 posted: 2013-06-25
+---
 
 <style>
 article img.border {

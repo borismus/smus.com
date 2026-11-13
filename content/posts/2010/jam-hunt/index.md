@@ -1,10 +1,9 @@
-Jam Hunt: friendly jam sessions
-===============================
+---
+title: "Jam Hunt: friendly jam sessions"
 categories: [web, music]
 posted: 2010-04-24
 snip: A Facebook application for finding impromptu jam partners.
-
-
+---
 
 Ever wanted to join a band? I bet you have! Why? Because collaborative
 music making is an incredibly enjoyable and rewarding experience. But
@@ -65,4 +64,3 @@ appealing, pointless, ugly, or just outright broken, let me know.
   [bridge that gap]: http://code.google.com/p/minifb/
   [forum.developers.facebook.com]: http://forum.developers.facebook.com/
   [documentation-wiki]: http://wiki.developers.facebook.com/index.php/New_Design_Platform_Changes
-

@@ -1,10 +1,9 @@
-Soundsourcing: the sound of the crowd
-=====================================
+---
+title: "Soundsourcing: the sound of the crowd"
 categories: [social, music, web]
 posted: 2011-02-20
 snip: An experiment in which Mechanical Turkers generated sound effects on demand.
-
-
+---
 
 After having dabbled in crowdsourcing research, I wanted to find a
 compelling MTurk application around which to build a real service that
@@ -74,4 +73,3 @@ noise!!
   [CrowdForge]: /crowdforge
   [1]: soundsourcing.jpg
   [lion roars]: http://soundsourcing.com/set/a-lion-roaring/
-

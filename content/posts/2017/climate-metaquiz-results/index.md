@@ -1,6 +1,7 @@
-Climate metaquiz results
-===
+---
+title: Climate metaquiz results
 posted: June 14, 2017
+---
 
 [Last week][post] I ran a [Climate metaquiz][quiz], and 123 people responded.
 The point of a metaquiz is to test how well political groups know the other

@@ -1,6 +1,7 @@
-Project Exupery
-===
+---
+title: Project Exupery
 posted: Jan 16, 2024
+---
 
 Exupery was a voice-powered sketching robot. I named it after Antoine de Saint-Exupéry because of the conversation in his most famous book where the Little Prince asks the pilot to draw him a picture of a sheep. You, too, can now ask Exupery to sketch pictures of things, and it will try to oblige. It replicates sketches drawn by real people playing the game [Quick, Draw!](https://quickdraw.withgoogle.com/data/), and adding a bit of flourish. Try the [online demo][demo], and read on to find out more.
 

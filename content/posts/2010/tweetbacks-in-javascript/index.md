@@ -1,11 +1,10 @@
-Tweetbacks in JavaScript
-========================
+---
+title: Tweetbacks in JavaScript
 categories: [web]
 posted: 2010-12-16
 snip: A wordpress widget that uses topsy to show all of the twitterverse mentions
   of your blog posts.
-
-
+---
 
 Every new post on this blog gets an unsolicited [pingback][] from
 [topsy][], a service that tracks which users mentioned the post on
@@ -106,4 +105,3 @@ button.
   [twitter search]: http://search.twitter.com
   [tweetback plugin]: http://yoast.com/wordpress/tweetbacks/
   [topsy-twitterized files]: topsy-tweetback.zip
-

@@ -1,12 +1,10 @@
-Arduino-nerf mashup
-===================
+---
+title: Arduino-nerf mashup
 categories: [physical]
 posted: 2009-10-20
 snip: Using an Arduino and a servo motor to retrofit a nerf gun with an auto-fire
   mechanism.
-
-
-
+---
 
 My favorite class at CMU is probably [Making Things Interactive][]. For me
 it is an opportunity to take my thus far casual electronics hacking to to
@@ -37,4 +35,3 @@ The circuit was dead simple.  The door acted as a switch for the pull down
 resistor circuit. 
 
   [Making Things Interactive]: http://mtifall09.wordpress.com/
-

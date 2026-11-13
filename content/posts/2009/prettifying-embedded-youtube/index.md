@@ -1,10 +1,9 @@
-Prettifying embedded YouTube
-============================
+---
+title: Prettifying embedded YouTube
 categories: [web]
 posted: 2009-02-27
 snip: Raving about the Smart Youtube wordpress plugin.
-
-
+---
 
 In late January 2009, [YouTube][] decided to change the default look of their
 embedded videos. They silently added an informative header which includes the
@@ -33,4 +32,3 @@ all of your embedded videos look with one fell swoop.
   [Vimeo]: http://www.vimeo.com
   [YouTube Embedding API]: http://code.google.com/apis/youtube/player_parameters.html
   [Smart YouTube]: http://www.prelovac.com/vladimir/wordpress-plugins/smart-youtube
-

@@ -1,6 +1,7 @@
-Ray Input: WebVR interaction patterns
-=====================================
+---
+title: "Ray Input: WebVR interaction patterns"
 posted: 2016-10-11
+---
 
 What would the web look like if there were no scrollbars, no mouse cursors, and
 no clickable links? That's what VR is like today. On one hand, this is great!

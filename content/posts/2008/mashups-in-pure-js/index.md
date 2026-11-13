@@ -1,10 +1,9 @@
-Musical mashups in pure JavaScript
-==================================
+---
+title: Musical mashups in pure JavaScript
 categories: [web, music]
 posted: 2008-12-04
 snip: A musical hack about using JSONP to fetch lyrics cross domain from LyricWiki.org.
-
-
+---
 
 When I want to learn a new song on guitar, I often search for chords
 online. There are many sites that provide chords and tabs, and Google
@@ -48,4 +47,3 @@ jQuery, humanmsg, and the LyricsWiki API!
   [XSS]: http://unclehulka.com/ryan/blog/archives/2005/12/12/jsonpyoure-joking-right/
   [vulnerabilities]: http://www.west-wind.com/Weblog/posts/107136.aspx
   [little demo application]: lyricwiki
-

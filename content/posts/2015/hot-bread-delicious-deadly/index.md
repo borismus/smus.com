@@ -1,6 +1,7 @@
-Hot bread: delicious or deadly?
-===============================
+---
+title: "Hot bread: delicious or deadly?"
 posted: 2015-09-23
+---
 
 Despite free access to information via the Internet and an increasingly global
 world, people still seem to have all sorts of divergent ideas about how the world

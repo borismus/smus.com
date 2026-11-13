@@ -1,6 +1,7 @@
-Headlines, meet sparklines: news in context
-===========================================
+---
+title: "Headlines, meet sparklines: news in context"
 posted: 2017-02-17
+---
 
 News reporting suffers from two major issues I'd like to tackle. The first is a
 bias towards negative, emotionally laden events. The second is the difficulty of

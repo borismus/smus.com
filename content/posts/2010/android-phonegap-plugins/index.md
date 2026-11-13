@@ -1,11 +1,10 @@
-WebIntent, an Android PhoneGap plugin
-=====================================
+---
+title: WebIntent, an Android PhoneGap plugin
 categories: [web, android]
 posted: 2010-11-25
 snip: An article on how to write your own PhoneGap plugin for Android. I also write
   about the WebIntent plugin which lets you create Android intents from the web.
-
-
+---
 
 [PhoneGap][] is a very useful cross-platform web application wrapper
 that lets developers package web applications into native apps. It also
@@ -142,4 +141,3 @@ make web applications fit better into native mobile platforms.
   [WebIntent.java]: https://github.com/phonegap/phonegap-plugins/blob/master/Android/WebIntent/WebIntent.java
   [plugin architecture]: http://blogs.nitobi.com/joe/2009/12/17/introducing-ponygap-phonegap-plugins-for-android/
   [the github]: https://github.com/phonegap/phonegap-plugins/tree/master/Android/
-

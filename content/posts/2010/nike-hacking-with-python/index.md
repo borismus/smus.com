@@ -1,11 +1,10 @@
-Nike+ hacking with python
-=========================
+---
+title: Nike+ hacking with python
 categories: [physical]
 posted: 2010-05-18
 snip: A deep dive into the Nike+ shoe sensor and USB dongle system, and how to get
   data from it using Python.
-
-
+---
 
 [Nike+][] is a clever little system designed by Apple and Nike to infer
 the runner's speed and augment the running experience. The runner places

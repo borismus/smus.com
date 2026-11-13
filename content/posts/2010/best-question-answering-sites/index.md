@@ -1,11 +1,10 @@
-The best question answering sites
-=================================
+---
+title: The best question answering sites
 categories: [social]
 posted: 2010-10-25
 snip: A fun self-referential experiment in which I asked (via question answering sites)
   what the best question answering site is.
-
-
+---
 
 There are hundreds of question answering sites on the Internet. Most of
 them focus on specific topics ([Stack Overflow][] for software
@@ -96,4 +95,3 @@ details of that approach to the reader :) PS. Thanks Sean, Jenn and Pat!
   [AskVille]: http://askville.amazon.com/question-answering-site-askville/AnswerViewer.do?requestId=74225856&startIndex=1&filter=ActivityOnQuestionsOnly
   [Yahoo! Answers]: http://answers.yahoo.com/question/index;_ylt=AlzEGEI5OLG69C1Ev0RgR4Pty6IX;_ylv=3?qid=20101007131829AA8cjLR
   [Answers.com]: http://wiki.answers.com/Q/What_is_the_best_question_answering_site_besides_Answers_dot_com_and_why
-

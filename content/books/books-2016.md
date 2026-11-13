@@ -1,13 +1,13 @@
-Books I read in 2016
-=========
+---
 class: split
 type: book
+---
 
-
-Why Teach Thinking by Jonathan Baron
-===
+---
+title: Why Teach Thinking by Jonathan Baron
 posted: December 2016
 rating: yes
+---
 
 I learned about J. Baron from reading Superforecasters, where he was cited in
 the context of his notion of "active open mindedness". I got so excited that I
@@ -70,11 +70,11 @@ Update (Jan 2017): I read a fragment of a book on thinking that he sent me. Two
 chapters are relevant: the first, where he attempts to formalize what thinking
 is as a process, and then the ninth, on actively open minded thinking.
 
-
-Brief Wondrous Life of Oscar Wao
-===
+---
+title: Brief Wondrous Life of Oscar Wao
 posted: November 2016
 rating: yes
+---
 
 Liked:
 
@@ -100,12 +100,11 @@ Disliked:
 - A little too sappy and charicaturey. Oscar's self-loathing is comical, and
   it's hard to really empathize with the guy.
 
-
-
-Future Babble
-===
+---
+title: Future Babble
 posted: October 2016
 rating: yes
+---
 
 The best predictors are foxes, but even they do poorly. Interesting weakness:
 foxes tend to be more swayed by scenario planning. Because they start vividly
@@ -150,12 +149,11 @@ How to predict better:
 - Be humble. Predictions are always uncertain. Predictions too far into the
   future even more so.
 
-
-
-I Am A Strange Loop
-===
+---
+title: I Am A Strange Loop
 posted: October 2016
 rating: no
+---
 
 I read Godel Escher Bach many years ago and really enjoyed it at the time. When
 I got my hands on this book, I was excited to read a late Doug Hofstadter work.
@@ -172,10 +170,11 @@ I can remember). I competely agreed with a goodreads review of it, courtesy of
     steeped in a fireside chat mentality that the meat of his ideas is
     completely devoured by his good-natured cleverness.
 
-The Hedgehog and the Fox
-===
+---
+title: The Hedgehog and the Fox
 posted: September 2016
 rating: yes
+---
 
     The fox knows many things, but the hedgehog knows one big thing.
     -- Archilochus
@@ -216,11 +215,11 @@ My conclusion is that Foxes > Hedgehogs. The world really is complex, and a
 simple unified theory seems very unlikely. Also, I'll have to read more IB,
 in less turbulent circumstances. And more Tolstoy!
 
-
-Sapiens (audio)
-===
+---
+title: Sapiens (audio)
 posted: September 2016
 rating: yes
+---
 
 Yuval Noah Harari presents an outside view of humanity, from the perspective of
 a complete outsider, an alien with no particular interest in the human species.
@@ -284,10 +283,11 @@ open to new insights.
 
 Overall, very worth a read (or listen, as I did).
 
-How to Actually Change Your Mind by Big Yud
-===
+---
+title: How to Actually Change Your Mind by Big Yud
 posted: August 2016
 rating: yes
+---
 
 Technically the second book in a giant epic entitled "Rationality: From AI to
 Zombies". The author is a well known rationalist and active member/founder of
@@ -538,10 +538,11 @@ opinion when confronted by clear evidence against it.
 [rpp]: http://www.cs.cmu.edu/~weigand/staff/
 [judmin]: https://en.wikipedia.org/wiki/Judicial_minimalism
 
-Exploring the World of Lucid Dreaming
-===
+---
+title: Exploring the World of Lucid Dreaming
 posted: August 2016
 rating: maybe
+---
 
 I bought this book 10 years ago, and it just sat on my shelf ever since. Not
 sure how I got into it in the first place, but my interest in lucid dreaming has
@@ -561,11 +562,11 @@ lucid dreaming is reliable dream recall. So, while I'm unlikely to become an
 oneironaut, at the very least I've started a handwritten dream journal, which I
 keep on my bedside table.
 
-
-The Persuaders (audio)
-===
+---
+title: The Persuaders (audio)
 posted: July 2016
 rating: no
+---
 
 Rationality used to pervade English scene. Now no appeal to reason is even
 attempted.
@@ -620,11 +621,11 @@ Strongest part: chapter 5 about politics, etc.
 Democrats), provide a one-sided argument. Otherwise, go both ways. Discrediting
 the other POV is effective.
 
-
-The Righteous Mind by Jon Haidt
-===
+---
+title: The Righteous Mind by Jon Haidt
 posted: July 2016
 rating: yes
+---
 
 I discovered The Righteous Mind via [Jon Haidt's conversation with Sam
 Harris][evolving-minds]. I read it while on our Honeymoon, while Sarah was
@@ -751,11 +752,11 @@ understanding.
 
 [evolving-minds]: https://www.samharris.org/podcast/item/evolving-minds
 
-
-Must History Repeat the Great Conflicts of This Century?
-===
+---
+title: Must History Repeat the Great Conflicts of This Century?
 posted: July 2016
 rating: no
+---
 
 Nice insight and guiding theme: international politics is complicated because
 there isn't really an organization that stands above all nations. Unlike other
@@ -783,10 +784,11 @@ The lecturer wasn't very engaging, and I found myself listening to a lot of the
 lectures without getting much out of them. Additionally, the volume was low and
 the recording was poor quality, which contributed to my meta objections.
 
-The Man Who Loved Only Numbers
-===
+---
+title: The Man Who Loved Only Numbers
 posted: July 2016
 rating: yes
+---
 
 I really loved this one. It captures perfectly the quirkiness of Erdos, and his
 mathematician circles. Much more than a biography, this book popularizes a lot
@@ -820,11 +822,11 @@ argument about the countability of rational numbers, and then the famous
 diagonalization argument which proves that the set of real numbers is a bigger
 infinity.
 
-
-Mother of All Demos
-===
+---
+title: Mother of All Demos
 posted: June 2016
 rating: yes
+---
 
 Took some notes from the famous [Doug Englebart
 demo](http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/1968Demo.html).
@@ -868,11 +870,11 @@ groups I've had the pleasure of being part of:
 - Evolutionary: make incremental improvements to a real system, not grand visions.
 - Eat your own dogfood: use the thing you build, and test it on yourself.
 
-
-The One Minute Manager
-===
+---
+title: The One Minute Manager
 posted: June 2016
 rating: yes
+---
 
 This little book was recommended to me by a ski instructor after a ski lesson at
 Squaw.  The man was probably in his 70s, but skied incredibly well, and had a
@@ -893,11 +895,11 @@ reminds me a little bit of Christian's management style. There are three parts:
 3. Reprimand unwanted behavior as it happens, but emphasize their worth as
    people. (This seems quite hard to pull off without being a dick).
 
-
-Gantenbein by Max Frisch
-===
+---
+title: Gantenbein by Max Frisch
 posted: June 2016
 rating: yes
+---
 
 Gantenbein was recommended to me by a close friend, who said it made a really
 big impact on him. It took me a long time to get through this book, and I often
@@ -927,12 +929,11 @@ surprised to, after finishing it, have a feeling that some coherence emerged by
 the end. My understanding of this book would benefit from a re-reading, but I
 know that this is unlikely to happen.
 
-
-
-Physics Beyond the Edge (audio)
-===
+---
+title: Physics Beyond the Edge (audio)
 posted: June 2016
 rating: yes
+---
 
 An interesting follow up to what I remember from high school & first year
 physics. My guess is that the subject of the class is too basic for those with a
@@ -1000,11 +1001,11 @@ information-related profession.
 [noether]: https://en.wikipedia.org/wiki/Noether%27s_theorem
 [observable-universe]: http://physics.stackexchange.com/questions/25460/can-we-see-all-of-the-observable-universe
 
-
-Great Ideas of Philosophy (audio)
-===
+---
+title: Great Ideas of Philosophy (audio)
 posted: May 2016
 rating: yes
+---
 
 Really great series of 60 lectures – that's 24 hours worth as an overview of
 philosophers and their main points. I took very few sporadic notes, as the
@@ -1093,13 +1094,11 @@ thought into what constitutes a good life:
 [popper]: https://en.wikipedia.org/wiki/Falsifiability
 [mary]: https://en.wikipedia.org/wiki/Knowledge_argument
 
-
-
-
-How to Fail at Almost Everything by Scott Adams
-===
+---
+title: How to Fail at Almost Everything by Scott Adams
 posted: April 2016
 rating: no
+---
 
 (...including writing books)
 
@@ -1124,11 +1123,11 @@ conversationalist and a public speaker. He devotes a chapter of the book to
 learning a special command voice in order to manipulate people better. Move
 along!
 
-
-Art of Tidying by Marie Kondo
-===
+---
+title: Art of Tidying by Marie Kondo
 posted: April 2016
 rating: no
+---
 
 An endearing manual for tidying up. I'm naturally inclined to minimalism as it
 stands and did a massive cleanup of my old room in my parents house just last
@@ -1148,10 +1147,11 @@ insists on treading over the same ground multiple times.
 By the end if the book I was curious more about Marie's eccentricity than her
 organizational method.
 
-The Moral Landscape by Sam Harris
-===
+---
+title: The Moral Landscape by Sam Harris
 posted: March 2016
 rating: yes
+---
 
 In many ways a rehashing of many ideas in philosophy, I think Sam did a good job
 of bringing some longstanding ideas and debates to the fore without requiring a
@@ -1177,11 +1177,11 @@ that we may not know what the best collective course of action is, but that one
 (or in fact many) must surely exist. These many local maxima are the peaks of
 The Moral Landscape.
 
-
-A Canticle for Leibowitz by Walter M. Miller Jr
-===
+---
+title: A Canticle for Leibowitz by Walter M. Miller Jr
 posted: February 2016
 rating: yes
+---
 
 Amazing.
 
@@ -1212,6 +1212,3 @@ progression toward better  times, and just how fragile our current paradise is.
 
 The threat of nuclear war may feel like a bygone but I'm quite concerned about
 it still.
-
-
-

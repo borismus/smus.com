@@ -1,12 +1,10 @@
-Chrome developer tools cheatsheet
-=================================
+---
+title: Chrome developer tools cheatsheet
 categories: [web]
 posted: 2011-05-13
 snip: I/O 2011 featured excellent Chrome Developer Tools coverage. New to Chrome DevTools?
   Check out this cheat sheet!
-
-
-
+---
 
 Chrome's Developer Tools have been getting much deserved love at this last
 Google I/O. Paul Irish and I started with an [bootcamp lab][], a hands-on 
@@ -39,5 +37,3 @@ see what people create to make these developer tools even better!
 [html5 cake]: html5-cake.jpg
 [bootcamp lab]: http://www.io-bootcamp.com/
 [I/O talk]: http://www.youtube.com/watch?v=N8SS-rUEZPg
-
-

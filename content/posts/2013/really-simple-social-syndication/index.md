@@ -1,6 +1,7 @@
-Really simple social syndication
-================================
+---
+title: Really simple social syndication
 posted: 2013-03-14
+---
 
 I've been thinking about this for a while, but the recent [sunset
 announcement of Google Reader][sunset] made me revisit this topic.

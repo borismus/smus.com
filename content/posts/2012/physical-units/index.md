@@ -1,6 +1,7 @@
-Let's get physical (units)
-==========================
+---
+title: Let's get physical (units)
 posted: 2012-05-02
+---
 
 There's an increasing variety of devices in use today. Even generally
 rectangular touch enabled devices vary hugely in their physical sizes,

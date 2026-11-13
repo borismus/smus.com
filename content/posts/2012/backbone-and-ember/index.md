@@ -1,11 +1,10 @@
-Backbone and ember
-==================
+---
+title: Backbone and ember
 categories: [web]
 posted: 2012-02-15
 discussion:
   - https://news.ycombinator.com/item?id=3597182
-
-
+---
 
 [Ember][] and [Backbone][] are both promising JavaScript frameworks but have
 completely different philosophies. In this post, I'll compare the two, both
@@ -313,4 +312,3 @@ particularly hairy custom view situations, or large amounts of data, but
 I'll have a better sense of the limitations soon.
 
 [boilerplate]: https://github.com/tbranyen/backbone-boilerplate
-

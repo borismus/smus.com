@@ -1,13 +1,13 @@
-Books I read in 2018
-=========
+---
 class: split
 type: book
+---
 
-
-Bowling Alone by Robert Putnam
-===
+---
+title: Bowling Alone by Robert Putnam
 posted: November 29, 2018
 rating: yes
+---
 
 This one's a doozie. I don't recommend it unless you are a naturally optimistic
 and mentally stable person. I read Bowling Alone as part of my quest to understand
@@ -166,11 +166,11 @@ maturation, Gen Z emergence.)
 [turchin]: /books/war-and-peace-and-war-by-peter-turchin/
 [charts]: http://download.audible.com/product_related_docs/BK_SANS_007716.pdf
 
-
-The Shape of Tomorrow by George Soule
-===
+---
+title: The Shape of Tomorrow by George Soule
 posted: November 27, 2018
 rating: no
+---
 
 I picked up Shape of Tomorrow, its 35 cent price imbued proudly on the front
 cover, on a foray to Powell’s books in Portland.
@@ -189,11 +189,11 @@ innovations of the day. That said, if you’re looking for a time capsule into t
 technocratic mind of the 1950s, George Soule might just be the retro-futurist
 you are looking for.
 
-
-Bird by Bird by Anne Lamott
-===
+---
+title: Bird by Bird by Anne Lamott
 posted: November 3, 2018
 rating: no
+---
 
 I've forgotten how this book appeared on my radar, but I think it was on
 someone's list of most influential books ever. I am more ambivalent.
@@ -260,11 +260,11 @@ fulfillment. But this turns out to be a joke because they are just props, and
 when we check out of this life, we have to give them all back to the great
 propmaster in the sky. "They're just on loan," he said,"they're not ours."
 
-
-The Fall and Rise of China (audio)
-===
+---
+title: The Fall and Rise of China (audio)
 posted: October 31, 2018
 rating: yes
+---
 
 Inspired by the Three Body Problem's best part, that is, the beginning of the
 book set in Cultural Revolution China, I realized that I know nothing about
@@ -759,10 +759,11 @@ Overall a great introduction to modern China. Check it out.
 [whatevers]: #
 [jiang]: #
 
-War and Peace and War by Peter Turchin
-===
+---
+title: War and Peace and War by Peter Turchin
 posted: October 24, 2018
 rating: yes
+---
 
 At its core, this book addresses the question raised by Asimov (his protagonist
 Hari Seldon, a scientist of Psychohistory from the Foundation Trilogy): Is a
@@ -1062,11 +1063,11 @@ future.
 [ineq]: /simulating-wealth-inequality/
 [lime]: https://en.wikipedia.org/wiki/Limes
 
-
-Three Body Problem by Liu Cixin (audio)
-===
+---
+title: Three Body Problem by Liu Cixin (audio)
 posted: September 27, 2018
 rating: yes
+---
 
 Everyone’s reading it, so I finally got around to it too. I guess this is a
 science fiction mystery book, and I enjoyed it overall. I was a bit disappointed
@@ -1111,11 +1112,11 @@ This book made me want to read Silent Spring, and get more informed about the
 Chinese Communist Party and Chinese history in general. I found the end to be
 both a humbling and hopeful. We may be bugs, but we are proud of it!
 
-
-Book of Why by Judea Pearl
-===
+---
+title: Book of Why by Judea Pearl
 posted: September 15, 2018
 rating: yes
+---
 
 [Book of Why][book] came up as part of a reading group I'm involved in. I
 recommend this book only reluctantly. In the end, Pearl convinced me that causal
@@ -1283,11 +1284,11 @@ great job of explaining the technical parts. I'll pause for now, and try
 approaching the material with this course instead:
 <https://www.coursera.org/learn/crash-course-in-causality/home/welcome>.
 
-
-Living the French Revolution (audio)
-===
+---
+title: Living the French Revolution (audio)
 posted: September 11, 2018
 rating: yes
+---
 
 Over the summer, I spent three weeks in Paris with my family. I'd visited a few
 times in the past, but only for a few days at a time. Since we had so much time
@@ -1495,12 +1496,11 @@ lecture series was as close as TTC offered on this turbulent period. I'd have
 loved to hear the lecturer continue on in French history. It will be nice to
 return to the subject later.
 
-
-
-Tao of Philosophy by Alan Watts
-===
+---
+title: Tao of Philosophy by Alan Watts
 posted: August 3, 2018
 rating: yes
+---
 
 Every society operates on very deeply rooted assumptions that are worth
 understanding. Watts thinks we can seek wisdom from Chinese and Indian culture
@@ -1547,12 +1547,11 @@ conception? Or is it fundamentally trustworthy and essentially good as in the
 Chinese conception? The sentiment “I do not trust nature, it has to be watched”
 quickly leads to totalitarianism since you assume the worst in people.
 
-
-
-Bad Blood by John Carreyrou
-===
+---
+title: Bad Blood by John Carreyrou
 posted: July 20, 2018
 rating: no
+---
 
 A sad story about Theranos and it’s leadership, in large part Elisabeth Holmes,
 a tragic hero with a fatal flaw: unbridled ambition.
@@ -1582,11 +1581,11 @@ The Theranos story may in part be a cautionary tale of digital culture colliding
 with physical culture. But it is not helped by a morally compromised leader who
 believes that the ends justify the means.
 
-
-Darkness at Noon by Arthur Koestler (audio)
-===
+---
+title: Darkness at Noon by Arthur Koestler (audio)
 posted: July 5, 2018
 rating: yes
+---
 
 I learned about "Darkness at Noon" from a [Herb Simon
 essay](/books/reason-in-human-affairs-by-herbert-simon/), where he praised
@@ -1635,11 +1634,11 @@ I really liked this book. Not having read the transcript of Stalin's purges, I
 am going to assume that Herbert Simon was right: Darkness at Noon is well
 written, interesting, and visceral.
 
-
-You Belong to the Universe (audio)
-===
+---
+title: You Belong to the Universe (audio)
 posted: May 28, 2018
 rating: no
+---
 
 Buckminster Fuller's name seems to pop up everywhere in the last few years. I
 saw Jonathon Keats talk at The Interval a few years ago, on a book tour about
@@ -1678,10 +1677,11 @@ Leads from the book:
 [shigeru]: http://www.shigerubanarchitects.com/works/2013_CCC/index.html
 [smart]: http://www.domerama.com/general/smart-but-not-wise/
 
-Unsong by Scott Alexander
-===
+---
+title: Unsong by Scott Alexander
 posted: May 10, 2018
 rating: no
+---
 
 Unsong is based on a really compelling concept. As it turns out, the Torah is
 literally true. God is real, angels and demons literally control the fate of the
@@ -1712,11 +1712,11 @@ have decided to declare bankruptcy. I am not invested in the story, I don't care
 about the characters, and I don't care what happens in the end. Perhaps one day,
 if it is aggressively edited, I will give it another chance.
 
-
-Reason in Human Affairs by Herbert Simon
-===
+---
+title: Reason in Human Affairs by Herbert Simon
 posted: April 26, 2018
 rating: yes
+---
 
 One of the people I worked with at CMU was a "Herbert A. Simon Professor of
 Human-Computer Interaction". I hadn't heard of Herbert Simon before, but his
@@ -1780,11 +1780,11 @@ novelists have to get it right. The scientific content must be valid.” Example
 Freud’s stuff still permeates novels despite very few orthodox Freudians left in
 psych today.
 
-
-The Fourth Turning by Howe and Strauss
-===
+---
+title: The Fourth Turning by Howe and Strauss
 posted: April 23, 2018
 rating: yes
+---
 
 I don’t remember why I decided to read this book. The political theory it
 describes is loved by both Gore and Bannon. This surprisingly heterogeneous
@@ -1847,11 +1847,11 @@ Overall, the theory is unfalsifiable and overly general. Specific claims in the
 book are often unsubstantiated. However I found it an entertaining read, and
 potentially a fruitful “fake framework”.
 
-
-The Coffee-House: A Cultural History
-===
+---
+title: "The Coffee-House: A Cultural History"
 posted: April 11, 2018
 rating: no
+---
 
 A chronicle of coffee, especially focused on the coffee houses of 17th and 18th
 century England. I found it too long-winded to recommend outright. So here's a
@@ -2009,11 +2009,11 @@ And rave till grown as Piping Hot,
 As the dull Grout o’er which they sot.
 &mdash; Vulgus Britannicus: or The British Hudibras
 
-
-Player of Games by Iain M. Banks
-===
+---
+title: Player of Games by Iain M. Banks
 posted: March 30, 2018
 rating: yes
+---
 
 Culture, the dominant empire in the known universe, is an interesting place.
 People have fully tamed their hormones, able to secrete anything at will, change
@@ -2027,11 +2027,11 @@ does Culture interface with other civilizations?
 This book is definitely a page turner: great story telling, with an air of
 mystery throughout.
 
-
-Skin in the Game by Taleb (audio)
-===
+---
+title: Skin in the Game by Taleb (audio)
 posted: March 29, 2018
 rating: no
+---
 
 Taleb is back with another book. It has interesting, but poorly organized ideas.
 Fortunately, it is mercifully short acting more of a summary of his previous
@@ -2129,12 +2129,11 @@ names that Taleb mentions instead:
 - Ken Binmore - the word “rational” is ill defined. It’s all about revealed
   preferences.
 
-
-
-The Modern Political Tradition: Hobbes to Habermas
-===
+---
+title: "The Modern Political Tradition: Hobbes to Habermas"
 posted: March 4, 2018
 rating: yes
+---
 
 An impressively comprehensive series of 36 half-hour [lectures on political
 philosophy][link]. I wanted a political philosophy survey to better understand
@@ -2515,11 +2514,11 @@ with because of superior summarization, and learning about completely new
 philosophers I hadn't even heard of before. Well worth a listen, and a
 re-listen.
 
-
-Scale by Geoffrey West
-===
+---
+title: Scale by Geoffrey West
 posted: February 23, 2018
 rating: yes
+---
 
 I listened to a podcast with Geoffrey West and thought his ideas were compelling
 enough that I should delve deeper. "Scale" covers a lot of ground, but the main
@@ -2700,11 +2699,11 @@ lot of interesting ideas. I recommend it!
 [fractal]: https://en.wikipedia.org/wiki/Fractal_dimension
 [lsystem]: https://en.wikipedia.org/wiki/L-system
 
-
-Anthem by Ayn Rand
-===
+---
+title: Anthem by Ayn Rand
 posted: January 28, 2018
 rating: no
+---
 
 I’ve made multiple attempts at reading both Fountainhead and Atlas Shrugged, but can get no further than the first 50 or so pages. Luckily, this novella only has 50 or so pages in it, so this is an Ayn Rand book I can finish!
 
@@ -2735,11 +2734,11 @@ Oh, and in case you were wondering why this society collapsed in the first place
 
 Ayn Rand’s writing is intense and views are extreme. At the very least, the book is historically interesting, and provides a counterpoint to the left leaning views espoused by my friends. Unfortunately this short novella is written in a way too closely resembling a wrecking ball persistently swinging at an already crumbling building.
 
-
-Impro by Keith Johnstone
-===
+---
+title: Impro by Keith Johnstone
 posted: January 24, 2018
 rating: yes
+---
 
 I picked this book up because of a recommendation from the Internet. My first reaction was negative: the author’s claim pointing at things and calling them wrong names will cause your whole sense of perception to shift: colors become more vivid, outlines become sharper, people look smaller, the shape of the room changes. This, presented not as metaphorical truth, or a parable, but as actual truth, is something I continue to find hard to swallow. That said I think the essays in the book are worth it, if you suspend a bit of disbelief.
 
@@ -2831,11 +2830,11 @@ Some exercises to create stories:
 
 >You have to trick students into believing that content isn’t important and that it looks after itself, or they never get anywhere. It’s the same kind of trick you use when you tell them that their imaginations have nothing to do with them, and they’re in no way responsible for what their mind gives them.
 
-
-The Truth of Fact, the Truth of Feeling by Ted Chiang
-===
+---
+title: The Truth of Fact, the Truth of Feeling by Ted Chiang
 posted: January 4, 2018
 rating: yes
+---
 
 Ted Chiang wrote a bunch of short stories that aren't published in book form. I
 really wish he would sell another anthology. He deserves more recognition, and I
@@ -2958,5 +2957,3 @@ These two concepts are given indigenous terms:
 [Go read it.][link]
 
 [link]: https://subterraneanpress.com/magazine/fall_2013/the_truth_of_fact_the_truth_of_feeling_by_ted_chiang
-
-

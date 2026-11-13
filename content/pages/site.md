@@ -1,5 +1,6 @@
-About this site
-===============
+---
+title: About this site
+---
 
 This site is statically generated with [Lightning][lightning], a
 blogging engine I wrote. The basic idea is that I write all of my

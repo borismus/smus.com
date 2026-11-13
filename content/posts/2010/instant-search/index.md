@@ -1,11 +1,10 @@
-Instant search in 60 lines
-==========================
+---
+title: Instant search in 60 lines
 categories: [web]
 posted: 2010-10-09
 snip: A short snippet of jQuery code that approximately implements the instant search
   experience.
-
-
+---
 
 Google recently unveiled Instant, a search enhancement which show
 results as you type. The real technical challenge here is scaling the
@@ -30,4 +29,3 @@ handle the load!
   [implementation]: instant-search.html
   [http://suggestqueries.google.com/complete/search]: http://suggestqueries.google.com/complete/search
   [http://ajax.googleapis.com/ajax/services/search/web]: http://ajax.googleapis.com/ajax/services/search/web
-

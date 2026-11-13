@@ -1,11 +1,9 @@
-Ubiquitous drums
-================
+---
+title: Ubiquitous drums
 categories: [physical]
 posted: 2009-11-18
 snip: Is that a portable drum kit in your pants or are you just happy to see me?
-
-
-
+---
 
 Look at the riders of any city bus. Many of them are plugged into their music
 players, tapping away to the beat. I propose to augment our natural love of
@@ -82,4 +80,3 @@ like this idea? Please give me feedback below!
   [wifi shield]: http://asynclabs.com/wiki/index.php?title=WiShield_1.0
   [instructable]: http://www.instructables.com/id/Drum-Wear-drums-in-your-clothing/
   [Mark Gross]: http://code.arc.cmu.edu/~mdg/
-

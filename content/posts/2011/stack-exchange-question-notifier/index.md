@@ -1,8 +1,8 @@
-Stack Exchange question notifier
-================================
+---
+title: Stack Exchange question notifier
 categories: [web, chrome]
 posted: 2011-11-15
-
+---
 
 I've been a member of the Chrome developer relations team for the last 9
 months, where one aspect of my job is developer support. I actively
@@ -50,5 +50,3 @@ give me constructive feedback and consider monitoring the
 [src]: https://github.com/borismus/Question-Monitor-for-Stack-Exchange
 [cws]: https://chrome.google.com/webstore/detail/bnnkhapbhkejookmhgpgaikfdoegkmdp
 [closure]: http://code.google.com/closure/
-
-

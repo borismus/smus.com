@@ -1,6 +1,7 @@
-Spatial audio and web VR
-========================
+---
+title: Spatial audio and web VR
 posted: 2015-03-19
+---
 
 Last summer I visited Austria, the capital of classical music. I had the
 pleasure of hearing the [Vespers of 1610][vespers] in the great

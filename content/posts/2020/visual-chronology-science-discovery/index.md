@@ -1,6 +1,7 @@
-Visual Chronology of Science & Discovery
-===
+---
+title: Visual Chronology of Science & Discovery
 posted: February 11, 2020
+---
 
 As Newton wrote, “If I have seen further it is by standing on the shoulders of giants”. But whose giant shoulders did Newton stand on? And did those giants stand on the shoulders of other giants? And how about Newton’s successors, or people working in other fields? As far as I can tell, it’s giants all the way down.
 

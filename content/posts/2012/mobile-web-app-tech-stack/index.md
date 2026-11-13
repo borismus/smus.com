@@ -1,8 +1,8 @@
-A mobile web application tech stack
-===================================
+---
+title: A mobile web application tech stack
 categories: [web, mobile]
 posted: 2012-01-18
-
+---
 
 There are many technical decisions to make when writing web applications. I've
 come back to writing modern web applications lately, and wanted to consolidate
@@ -233,5 +233,3 @@ important type of framework? Let me know!
 [flipboard-phone]: flipboard-phone.jpg
 [flipboard-tablet]: flipboard-tablet.jpg
 [separation]: separation.jpg
-
-

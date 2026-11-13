@@ -1,6 +1,7 @@
-Front page blues
-================
+---
+title: Front page blues
 posted: 2016-12-07
+---
 
 According to the [American Press Institute][api],
 

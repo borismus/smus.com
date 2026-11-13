@@ -1,7 +1,7 @@
-Web-based voice command recognition
-===
+---
+title: Web-based voice command recognition
 posted: January 4, 2018
-
+---
 
 [Last time][audio-features] we converted audio buffers into images. This time
 we'll take these images and train a neural network using

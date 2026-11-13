@@ -1,11 +1,10 @@
-Extending chrome developer tools
-================================
+---
+title: Extending chrome developer tools
 categories: [web, google, chrome]
 posted: 2011-07-11
 snip: Make the devtools/webkit inspector even better by writing devtools extensions
   and submitting Javascript patches.
-
-
+---
 
 Chrome’s developer tools (also known as the WebKit inspector) are super useful
 for web developers. If you aren't ramped up already, take a look at this
@@ -205,5 +204,3 @@ patch. Let me know if you do!
 [messaging]: http://code.google.com/chrome/extensions/messaging.html
 [zip]: http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html?path=Mac/91508/
 [github]: https://github.com/borismus/jshint-extension
-
-

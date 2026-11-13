@@ -1,5 +1,6 @@
-Press Coverage
-=====
+---
+title: Press Coverage
+---
 
 Selected media coverage about my work:
 

@@ -1,10 +1,9 @@
-Never delete your gmail account
-===============================
+---
+title: Never delete your gmail account
 categories: [misc]
 posted: 2009-08-28
 snip: Bitching and moaning about the perils of deleting your GMail account.
-
-
+---
 
 Since moving to the states, I have had nothing but grief from the .ca at the
 end of my all-purpose email address. Even in Canada, people would constantly
@@ -64,4 +63,3 @@ account deletion rules?
 
   [F.A.Q.]: http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=32046
   [just two connected clients]: http://mail.google.com/support/bin/answer.py?hl=en&answer=97150
-

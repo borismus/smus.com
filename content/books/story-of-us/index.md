@@ -1,8 +1,9 @@
-Story of Us by Tim Urban
-=========
+---
+title: Story of Us by Tim Urban
 posted: September 23, 2020
 rating: yes
 cover: /assets/book-covers/story-of-us.png
+---
 
 Tim Urban describes the evo-devo view of humanity in an entertaining light in this long, illustrated series. It’s cumbersome to read as separate articles, and would be more natural in book or pamphlet form (surely this is coming).
 

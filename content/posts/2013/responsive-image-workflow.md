@@ -1,6 +1,7 @@
-Responsive image workflow
-=========================
+---
+title: Responsive image workflow
 posted: 2013-09-09
+---
 
 About a year ago, I wrote an overview of many of the different [responsive
 image approaches][h5r1] in an HTML5Rocks article, all of which try to solve the

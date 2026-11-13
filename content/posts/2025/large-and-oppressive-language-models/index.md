@@ -1,6 +1,7 @@
-Large and sometimes Oppressive Language Models (LOLs)
-===
+---
+title: Large and sometimes Oppressive Language Models (LOLs)
 posted: Mar 3, 2025
+---
 
 Authoritarian governments have latched onto open-source LLMs like Llama to craft their own models, complete with censorship rules. In places like Russia and China, these censors manifest as an abrupt cutoff, where a stream of text is replaced with an uncanny canned response like "I'd better keep quiet". In this post I'm interested in probing for subtler, more insidious manipulations potentially present in language models controlled by authoritarian governments. How might these warped filters influence entire populations? Are they already shaping our collective understanding in ways we barely notice?
 

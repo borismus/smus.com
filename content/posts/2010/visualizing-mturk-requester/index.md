@@ -1,13 +1,11 @@
-Visualizing MTurk requesters
-============================
+---
+title: Visualizing MTurk requesters
 categories: [web, social]
 posted: 2010-02-06
 snip: A quick stab at scraping Mechanical Turk for statistics into a Google Spreadsheet,
   and then using Google's Visualization APIs to present that data in a meaningful
   way.
-
-
-
+---
 
 I signed up to do one month of paid research at CMU|Portugal before
 spring classes start. My task boils down to creating interesting
@@ -76,4 +74,3 @@ Visualization API. Stay chooned!
   [GData framework]: http://code.google.com/p/gdata-python-client/
   [python program]: turk-visualizer/turkviz_scraper.py
   [The results]: http://www.borismus.com/wp-content/uploads/2010/02/turk_requester_visualizer.html
-

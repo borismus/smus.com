@@ -1,6 +1,7 @@
-Internet mashup of things
-=========================
+---
+title: Internet mashup of things
 posted: 2013-01-11
+---
 
 Many new devices come with unexpected connectivity - often a WiFi
 connection that enables them to connect to a hotspot and the larger

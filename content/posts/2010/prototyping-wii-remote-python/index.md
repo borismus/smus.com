@@ -1,10 +1,9 @@
-Prototyping with Wii remotes in python
-======================================
+---
+title: Prototyping with Wii remotes in python
 categories: [physical]
 posted: 2010-05-28
 snip: A how-to about getting access to a wii remote using Python.
-
-
+---
 
 I've been working on a couple of researchy projects involving gait
 recognition and running foot strike analysis. For my proof of concept, I
@@ -84,4 +83,3 @@ Android 2.2 still doesn't ship with L2CAP APIs, I hit the wall.
   [wiibrew wiki]: http://wiibrew.org/wiki/Wiimote#Accelerometer
   [lightblue]: http://lightblue.sourceforge.net/
   [hexbyte.py]: https://github.com/borismus/Running-Gestures/blob/master/hexbyte.py
-

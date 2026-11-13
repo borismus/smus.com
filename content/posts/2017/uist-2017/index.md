@@ -1,6 +1,7 @@
-UIST 2017 highlights
-===
+---
+title: UIST 2017 highlights
 posted: October 28, 2017
+---
 
 Picking up where I left off [3 years ago](/uist-2014) with this year's UIST
 highlight reel. As expected, the research creatively applied interesting

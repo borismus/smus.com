@@ -1,6 +1,7 @@
-WebUSB, Arduino, and Nunchucks!
-===
+---
+title: WebUSB, Arduino, and Nunchucks!
 posted: 2019-11-25
+---
 
 WebUSB bridges two amazing universes: the open web and the maker movement. Web pages can now talk directly to external hardware over USB, and it works on both mobile and desktop (at least in Chrome). There are a [few basic samples][1] out there, but for my own edification, I wanted to get my hands dirty. I hooked up a Wii Nunchuck to an Arduino, and built a webpage to plot sensor readings in real-time. Here’s the resulting [video][2] and [code][3].
 

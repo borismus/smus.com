@@ -1,11 +1,10 @@
-PhoneGap games in the Android Market
-====================================
+---
+title: PhoneGap games in the Android Market
 categories: [web]
 posted: 2010-11-11
 snip: On how I took Onslaught, wrapped it in PhoneGap published, it to the Android
   Market and got angry emails.
-
-
+---
 
 A little while ago I took an existing game called [Onslaught!][] by
 [Lost Decade Games][] and hacked it to use onscreen controls instead of
@@ -65,4 +64,3 @@ Looking forward to trying it out!
   [image]: stats.png
   [this documentation page]: http://wiki.phonegap.com/w/page/16494774/Getting-started-with-Android-PhoneGap-in-Eclipse
   [PhoneGap Build]: http://build.phonegap.com/start
-

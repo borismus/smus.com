@@ -1,6 +1,7 @@
-Semantic Similarity for Note Taking
-===
+---
+title: Semantic Similarity for Note Taking
 posted: Oct 13, 2022
+---
 
 Days after capturing a "new" insight, it can be humbling to realize that you are
 repeating yourself. This might not be a bad thing, as you mull over a complex

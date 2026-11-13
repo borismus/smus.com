@@ -1,11 +1,9 @@
-Loading large assets in modern HTML5 games
-==========================================
+---
+title: Loading large assets in modern HTML5 games
 categories: [web, offline, games]
 posted: 2011-09-22
 snip: An HTML5 filesystem-based approach to loading game assets. Still a work in progress.
-
-
-
+---
 
 HTML5 games are here today, and rapidly increasing in complexity. Impressive
 [demos][water] are [everywhere][chromeexp], and prominent titles like [Gun
@@ -248,6 +246,3 @@ library to write a game of your own!
 [source]: https://github.com/borismus/game-asset-loader
 [sample]: https://github.com/borismus/game-asset-loader/tree/master/tests/game
 [tests]: https://github.com/borismus/game-asset-loader/blob/master/tests/tests.js
-
-
-

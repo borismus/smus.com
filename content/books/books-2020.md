@@ -1,14 +1,14 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-Profiles of the Future by Arthur C. Clarke
-===
+---
+title: Profiles of the Future by Arthur C. Clarke
 posted: December 18, 2020
 rating: yes
 cover: /assets/book-covers/profiles-future.jpg
+---
 
 Originally written in 1960, I’m reading the edition revised in 1977. Clarke begins by reflecting on the last few decades and observing that although there were many important and expected inventions (eg. automobiles, planes, submarines, and spaceships), many of the most important were completely unexpected (eg. X-rays, nuclear energy, radio and television, electronics, and photography).
 
@@ -138,13 +138,12 @@ One downside of this book was the persistence of much wild and baseless speculat
 
 **Center of the earth**: Not sure why we'd wanna do this. But I guess another frontier is center of Earth. Or really dense gas giants. Or like trying to land on the sun. Or a neutron star. Why do all this? The only reason appears to be for extracting natural resources.
 
-
-
-Dune by Frank Herbert
-===
+---
+title: Dune by Frank Herbert
 posted: December 1, 2020
 rating: yes
 cover: /assets/book-covers/dune.jpg
+---
 
 I first read Dune 20 years ago. Earlier in the year, excited by the upcoming movie, I read “Frank Herbert” by Tim O’Reilly, and my overall feeling was one of omission. And I thought that revisiting Dune would be illuminating. Re-reading books is not something I’ve done much of. I wish I had written notes on my first reading!
 
@@ -162,23 +161,23 @@ I first read Dune 20 years ago. Earlier in the year, excited by the upcoming mov
 
 At the end of Dune, it's very unclear that the author’s goal is to discredit hero worship. At this point you can't help but worship Pail Muad’dib yourself. Unless of course Herbert’s deliberate plan is to get the reader feeling what a Fremen zealot would feel, before tearing you down in the sequels.
 
-
-Night by Elie Wiesel
-===
+---
+title: Night by Elie Wiesel
 posted: November 15, 2020
 rating: yes
 cover: /assets/book-covers/night.jpg
+---
 
 Written in relatively dry prose, this book packs a punch in few words. I found it similar in affect to [The Road](/books/the-road-by-cormac-mccarthy/), until remembering that this book is in a completely different genre. This is not speculative science fiction. It is an autobiography. That’s when the horror and depravity really hits home. 
 
 If you’re feeling a bit iffy on humanity, consider waiting this one out.
 
-
-Tools for Conviviality by Ivan Illich
-===
+---
+title: Tools for Conviviality by Ivan Illich
 posted: October 25, 2020
 rating: yes
 cover: /assets/book-covers/tools-for-conviviality.jpg
+---
 
 My main objection to [Deschooling Society](/books/deschooling-society-by-ivan-illich) was that Illich completely neglected the babysitting aspect of the institution. With that out the window, feels like a reread is in order. However, I donated Deschooling to the LFL at work, but happened to have a copy of Tools for Conviviality. So here we are!
 
@@ -256,12 +255,12 @@ As usual, Illich does a good job of critiquing society, but path to specific sol
 
 Thus, how to move a whole society towards Illich’s post-industrial convivial vision is unclear. The main way in which I can see operationalizing it is by changing one’s personal life to live more convivially: live near work, walk and bike more, genuinely care more about others, do less busy work, home school your children, be present for major life events, build your own house, host more guests, etc.
 
-
-Frank Herbert by Tim O’Reilly
-===
+---
+title: Frank Herbert by Tim O’Reilly
 posted: October 10, 2020
 rating: yes
 cover: /assets/book-covers/frank-herbert.jpg
+---
 
 # Meta: things about “Frank Herbert”, its author, the style in which it is written.
 - I’ll be honest, I’m excited about the upcoming Dune movie. Prior failed attempts do not inspire confidence.
@@ -340,13 +339,12 @@ cover: /assets/book-covers/frank-herbert.jpg
 - Science Fiction and a World in Crisis essay.
 - Alvin Toffler's Future Shock
 
-
-
-Rewiring America
-===
+---
+title: Rewiring America
 posted: September 20, 2020
 rating: yes
 cover: /assets/book-covers/rewiring-america.jpg
+---
 
 This is less of a book and more of a propaganda pamphlet, which can be succinctly summarized as follows:
 
@@ -378,12 +376,11 @@ I picked this book up because I admire the author for being a prolific inventor 
 
 Overall I found the message to a bit monistic, but also pragmatic. I liked the outright rejection of approaches like CCS that won’t actually work. And hard boiled assessments of individual actions that are admirable but ultimately won’t be enough, like eating less meat.
 
-
-
-Братья Карамазовы, читает Ульянов
-===
+---
+title: Братья Карамазовы, читает Ульянов
 posted: September 16, 2020
 rating: yes
+---
 
 First time listening to a book in Russian.
 
@@ -401,12 +398,12 @@ The mystery aspect of this book is intense, with the missed scene. Is there a pa
 
 Clearly things are missing in this abridged edition. Reading more into the story, I was disappointed to find whole characters missing, and reading more into it, I think that Ivan comes off somewhat flat, and could have been portrayed in more idealistic detail. 
 
-
-Quicksilver by Neal Stephenson 
-===
+---
+title: Quicksilver by Neal Stephenson
 posted: August 22, 2020
 rating: yes
 cover: /assets/book-covers/quicksilver.jpg
+---
 
 One of the better written Neal Stephenson books I’ve read so far. I found the first half especially engaging. Extremely varied, this book covers a lot of ground. 
 
@@ -425,12 +422,12 @@ Part of the fun of reading Quicksilver is that, unless you cheat or happen to kn
 
 The book feels a bit unfinished. For example, what happened to Enoch Root? Some passages are a bit rough, like the repetitive dialog with the Jew, who is continually called “The Ashkenazi”, “The Forelocked One”, “The Circumsized One”, etc. The last half felt a bit rushed, and the battle which Waterhouse solves with Trigonometry was a bit of a stretch!
 
-
-The Road by Cormac McCarthy
-===
+---
+title: The Road by Cormac McCarthy
 posted: July 20, 2020
 rating: yes
 cover: /assets/book-covers/the-road.jpg
+---
 
 Somehow I am just now reading Cormac McCarthy for the first time. Thanks for the recommendation, M!
 
@@ -448,12 +445,12 @@ And yet so dark, so biblical.
 
 At the core of this book is the father son dynamic between the anonymous man and anonymous boy. It is deeply touching. Oh man, how incredibly sad that last scene is, even though you can see it coming for miles. I spent a good amount of time shedding tears, so surely this is a great work.
 
-
-Red Plenty by Francis Spufford
-===
+---
+title: Red Plenty by Francis Spufford
 posted: June 19, 2020
 rating: yes
 cover: /assets/book-covers/red-plenty.jpg
+---
 
 Red Plenty is written as a series of vignettes that together do a remarkably good job of painting a picture of soviet life. It finds a comfortable spot between fiction and non-fiction. If someone ever asks me for a book on what life was like in the Soviet Union, I’d recommend this.
 
@@ -472,11 +469,11 @@ Despite my familiarity with the general outlines of many pieces of this book, I 
 
 I’ve been listening to Галич lately…
 
-
-Shadow of the Torturer
-===
+---
+title: Shadow of the Torturer
 posted: May 12, 2020
 rating: no
+---
 
 - Twisting narrative, very hard to predict any sort of narrative arc. In a good way.
 - Some great descriptive and lively, well developed characters.
@@ -484,12 +481,12 @@ rating: no
 - Some really inventive fragments of world building, like the flower mechanic but I would say overall mostly unoriginal in that department.
 - In the end, I’m 50% hooked, but not hooked enough to jump right into the sequel. Maybe it’s because the grand arc of the whole thing is kind of known, and explicitly so.
 
-
-Selected Short Stories of Philip K. Dick
-===
+---
+title: Selected Short Stories of Philip K. Dick
 posted: April 24, 2020
 rating: yes
 cover: /assets/book-covers/selected-short-stories-philip-k-dick.jpg
+---
 
 Almost every story in this collection elicits a “wow” and “yikes” gut reaction from me. Well written and original, many of these have been adapted into movies. 
 
@@ -613,13 +610,12 @@ After resuscitating Rutavaara, one of the three person crew who died in an astro
 
 Interestingly written as a sort of apology from the Proxian perspective. The narrator appears to apologize to their deity. He concludes that the earthlings are thoroughly wrong about their umwelt. Meanwhile PKD is sitting and observing both bizarre theologies, and laughing.
 
-
-
-Where Good Ideas Come From by Steven Johnson
-===
+---
+title: Where Good Ideas Come From by Steven Johnson
 posted: April 23, 2020
 rating: yes
 cover: /assets/book-covers/where-good-ideas-come-from.jpg
+---
 
 I liked this book, a succinct refutal of a bunch of tropes associated with innovation, littered with nice analogies and good quotes, and mercifully short.
 
@@ -671,12 +667,12 @@ References some books that have been on my radar, but might be worth delving int
 - How Buildings Learn by Stewart Brand (and TV mini-series)
 - The Structure of Scientific Revolutions by Thomas Kuhn
 
-
-Lost Enlightenment by Frederick Starr
-===
+---
+title: Lost Enlightenment by Frederick Starr
 posted: April 13, 2020
 rating: yes
 cover: /assets/book-covers/lost-enlightenment.jpg
+---
 
 I first learned of this book after a quick conversation with Mark, whom I’ve only met once in-person. I was just finishing Debt, and found the book intriguing, especially the parts about the monetary systems in Islamic societies. Mark suggested this book, and indeed it covers a period of history that I know basically nothing about. With my interest piqued already, I decided to take the plunge.
 
@@ -883,12 +879,12 @@ Many open questions and lingering threads remain, as well as directions for furt
 - Read something by Omar Khayyam. Maybe “The Rubaiyat”?
 - The first poem in Lalla-Rookh (1817) by Thomas Moore is “The Veiled Prophet of Khorassan”.
 
-
-Debt: The First 5000 Years
-===
+---
+title: "Debt: The First 5000 Years"
 posted: March 6, 2020
 rating: yes
 cover: /assets/book-covers/debt-graeber.jpg
+---
 
 “Debt” has been on my reading list for a long time. I once attempted the hard copy, but abandoned it quickly. It was mentioned again on a podcast by Saul Griffith, just as I was starting to get interested in the role of financing advances in innovation and progress. So I decided to give it another shot. This is the second edition of the book, updated after the financial crisis and after the 99% protest movement, which the author helped organize.
 
@@ -1016,10 +1012,11 @@ So many tropes! The US supposedly uses its military power to terrorize the world
 
 Yeah, okay, maybe. I’m torn!
 
-Revenge of Analog
-===
+---
+title: Revenge of Analog
 posted: Feb 23, 2020
 rating: no
+---
 
 > “Digital’s overwhelming superiority initially renders analog alternatives worthless, but over time the perception of value shifts and when the honeymoon with a particular technology ends we are more readily able to judge its true merits and shortcomings.”
 
@@ -1041,11 +1038,11 @@ I like the idea that camp Walden doesn't allow any tech for its campers.
 
 Overall, this book could easily be compressed into a 10 minute article. I found no new ideas in this book, just an occasional head nod: confirmation.
 
-
-The Circle by Dave Eggers
-===
+---
+title: The Circle by Dave Eggers
 posted: Feb 9, 2020
 rating: no
+---
 
 The Circle is a thinly veiled parable for, well, Big Tech. At base this book suggests what can happen when high modernism goes too far in the 2010 version of tech. 
 
@@ -1059,29 +1056,29 @@ Completing the circle feels analogous to building Communism, and a stark reminde
 
 I really enjoyed the twist in the end. It was so well done from the moment that “Mae knew what she had to do” to Mae’s supposed aversion of the apocalypse, to the ultimate reveal of whose side she ultimately landed on. Other than the twist, the plot was predictable but immensely addictive anyway. I breezed through this book, but it definitely felt like junk food. Big thanks Mr. P for sending it to me!
 
-
-Fatherhood in Pieces by Chabon
-===
+---
+title: Fatherhood in Pieces by Chabon
 posted: January 10, 2020
 rating: no
+---
 
 Collection of essays, from wistful to banal. Nothing that special. But I liked a few vignettes: the one about how each kid costs you a book. And about how baseball is nostalgia, nicely tying three generations of men. 
 
-
-Smoke and Mirrors by Neil Gaiman
-===
+---
+title: Smoke and Mirrors by Neil Gaiman
 posted: January 5, 2020
 rating: no
+---
 
 I’ve never read Gaiman before, but his various works have frequented my to-read list. I wasn’t too thrilled by Sandman, but misattributed that feeling to the graphic novel medium. I abandoned this collection midway since the stories were often really boring or weirdly sexual. Even the best ones weren’t especially memorable or original. At first I optimistically found this unevenness appealing, like playing roulette. Half way through, I decided to cut my losses.
 
 One of the better stories was hidden in the introduction, but was basically a riff on Picture of Dorian Gray. I also found “Troll”, “Chivalry”, “Queen of Knives” and “Shoggoth” to be entertaining but not memorable. Other stories were just bad, like “Goldfish Pool”, and “White Road”, and “Changes”.
 
-
-The Right It (audio)
-===
+---
+title: The Right It (audio)
 posted: December 24, 2019
 rating: no
+---
 
 Cass suggested I check out The Right It by Alberto Savoia. This book is an ode to an idea: do as much as you can to vet an idea before committing a lot of time and energy on it. In other words, become as confident as possible in product-market fit before spending a lot of resources building even the first version. I strongly agree with the sentiment of the book, and have seen product and research teams fail for this exact reason. That said, it’s quite easy to condense into a substantially smaller format, and I might recommend that (if available) rather than reading the entire book.
 
@@ -1104,5 +1101,3 @@ Savoia describes a bunch of techniques that may be interesting to apply and riff
 - Infiltrator technique: negotiate with a store to show your prototype on their shelves for a limited time.
 
 I’ve seen focus groups and traditional user research fail in the exact way that Savoia describes: lack of skin in the game on the part of research participants.
-
-

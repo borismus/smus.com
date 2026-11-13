@@ -1,7 +1,7 @@
-
-ESUP Builders
-===
+---
+title: ESUP Builders
 posted: July 30, 2020
+---
 
 Since May, I’ve been tinkering with brushless electrical motors, trying to make floating objects move more quickly. The proximate result is this electric motorized paddleboard:
 

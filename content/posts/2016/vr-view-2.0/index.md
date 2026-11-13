@@ -1,6 +1,7 @@
-VR View 2.0: JavaScript API
-===========================
+---
+title: "VR View 2.0: JavaScript API"
 posted: 2016-11-14
+---
 
 [VR View][vrview] was just updated to version 2! This release includes some nice
 new features, the main one of which is a JavaScript API. This allows VR Views to

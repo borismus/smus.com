@@ -1,21 +1,21 @@
-Short notes written before 2020
-===
+---
 type: note
 class: split
+---
 
-
-Avoiding local maximums
-===
+---
+title: Avoiding local maximums
 posted: May 22, 2019
+---
 
 Easier said than done.
 
 ![Don't focus on local maxima: easier said than done.](/assets/local-maxima.png)
 
-
-Reading in 2018
-===
+---
+title: Reading in 2018
 posted: January 10, 2019
+---
 
 I read and listened to a few [books](/books) in 2018. My highlights include
 speculative fiction stories from Chinese authors: [Ted
@@ -143,22 +143,20 @@ not endorsements):
   Got So
   Loud](https://www.theatlantic.com/technology/archive/2018/11/how-restaurants-got-so-loud/576715/)
 
-
-
-
-Against retweets
-===
+---
+title: Against retweets
 posted: September 9, 2018
+---
 
 ![Create and consume time for content of various lengths.](/assets/against-retweets.png)
 
 One of these data points is not like the other. Also, isn't it neat that common
 units of time duration fall nicely onto a logarithmic scale?
 
-
-Make twitter great again?
-===
+---
+title: Make twitter great again?
 posted: September 6, 2018
+---
 
 I used twitter the most while working in developer relations, mainly sharing
 articles about web development that I thought deserved more attention. My feed
@@ -202,9 +200,10 @@ once got a lot out of my original use of the platform. If I do return, I'll be
 making use of the @reply quality filter, fully disable retweets, and unfollow
 more aggressively. Whether this makes twitter great again remains to be seen.
 
-Lynched on Twitter
-===
+---
+title: Lynched on Twitter
 posted: August 26, 2018
+---
 
 Last week, a [sarcastic twitter
 reply](https://twitter.com/borismus/status/798350680951910400) I posted two
@@ -272,11 +271,10 @@ orders of magnitude less than the lovely POTUS. I shouldn't grow attached.
 And so, just in time for my tenth twitter anniversary, it's time for me to make
 some changes. At the very least, I'll be taking a long break.
 
-
-
-The difficult middle
-===
+---
+title: The difficult middle
 posted: July 21, 2018
+---
 
 Monism gives life meaning through a single all-encompassing doctrine. Examples
 include some political ideologies, religions, and [variants of
@@ -303,9 +301,10 @@ In this view, we are condemned to an eternal balancing act, sometimes peering
 too far into the meaningless abyss, and other times relaxing too deeply into
 meaningful certainty. On balance, I hope to end up in this difficult middle.
 
-Required reading for VR enthusiasts
-===
+---
+title: Required reading for VR enthusiasts
 posted: June 3, 2018
+---
 
 Several books, movies, and articles have helped to shape my opinions on Virtual
 Reality. I've was initially surprised by some former colleagues that it is
@@ -323,9 +322,10 @@ prefer the dystopian interpretation.
 - 📜 [Asches to Asches](http://slatestarcodex.com/2014/06/03/asches-to-asches/)
 - 📜 Robert Nozick's [experience machine](https://en.wikipedia.org/wiki/Experience_machine)
 
-Balancing technological pessimism
-===
+---
+title: Balancing technological pessimism
 posted: May 16, 2018
+---
 
 [Pessimists archive](https://pessimists.co/) is a podcast that chronicles
 pessimistic reactions to emerging technology as it was becoming mainstream.
@@ -365,10 +365,10 @@ That said, I highly recommend the podcast series. The episodes are short,
 entertaining, and informative. I feel better equipped to recognize and overcome
 the traps that ensnared previous generations of techno pessimists.
 
-
-How rationalists can win
-===
+---
+title: How rationalists can win
 posted: April 12, 2018
+---
 
 The belief that ["rationalists should win"](https://wiki.lesswrong.com/wiki/Rationality_is_systematized_winning) is widely held in the
 rationalist community. So: does being a good rationalist actually help you win?
@@ -423,9 +423,10 @@ prevented you from drinking the night before. If your beliefs favors ice baths,
 partake in the polar bear plunge. Then take a moment to re-evaluate your
 beliefs.
 
-A respectful truce?
-===
+---
+title: A respectful truce?
 posted: August 24, 2017
+---
 
 It's a fact that men greatly outnumber women in software engineering. As for
 why, there is a fundamental disagreement between social constructivists and
@@ -476,9 +477,10 @@ Meanwhile, social constructivists should:
 
 Truce?
 
-The end of endings
-===
+---
+title: The end of endings
 posted: July 31, 2017
+---
 
 Despite the obnoxious title, [this a16z podcast](https://a16z.com/2017/07/15/popularity-addiction-thompson-alter/) was unusually insightful.
 
@@ -502,10 +504,10 @@ challenge is to focus on something mundane, like your breath. In the realm of
 entertainment, the challenge is to snap out of an immersive world carefully
 constructed to consume your attention for as long as possible.
 
-
-Intelligence, aliens, and self-improvement
-===
+---
+title: Intelligence, aliens, and self-improvement
 posted: July 10, 2017
+---
 
 I recently enjoyed a podcast about intelligence, aliens and learning where Kevin
 Kelly was interviewed by Sam Harris. Here are some things I liked about it:
@@ -543,9 +545,10 @@ Kelly was interviewed by Sam Harris. Here are some things I liked about it:
   we reduce the machine menace problem to merely the evils of humanity. 
  
 
-Convincing the inconvincible
-===
+---
+title: Convincing the inconvincible
 posted: June 20, 2017
+---
 
 I highly recommend two [podcast](http://loveandradio.org/2014/02/the-silver-dollar/) [episodes](http://loveandradio.org/2017/02/how-to-argue/) on the theme "how to argue",
 featuring Daryl Davis, *the* black friend of white supremacists. Mr. Davis is
@@ -581,9 +584,10 @@ for convincing the inconvincible.
 > "While you are actively learning about someone else you are passively teaching
 > them about yourself." – Daryl Davis
 
-Remembering my personal wiki
-===
+---
+title: Remembering my personal wiki
 posted: June 1, 2017
+---
 
 Before I started writing this blog, I used [MoinMoin](https://moinmo.in) as a personal wiki.
 It was self-hosted on a Linux box in my parents' basement. I used it for
@@ -615,9 +619,10 @@ actively from about 2002 to about 2008. Here are some blasts from the past:
 Embarassing and endearing, `wiki.z3.ca` serves as a time capsule of my late
 teens and early twenties. Je me souviens.
 
-Short posts using split Markdown
-===
+---
+title: Short posts using split Markdown
 posted: May 28, 2017
+---
 
 [Lightning](https://github.com/borismus/lightning), the static blog generator that powers this site, is
 awesome for long form content. But it does not work well for short form content,
@@ -658,10 +663,10 @@ reviews section][books](/books), and a [notes section](/notes). I'm hoping that 
 added convenience will encourage me to write shorter, more focused posts with
 increasing frequency.
 
-
-Analogies from the industrial revolution
-===
+---
+title: Analogies from the industrial revolution
 posted: May 24, 2017
+---
 
 Several centuries after the industrial revolution, machines still can't do all
 physical things humans can, not even by a long shot. Drawing a masterwork,

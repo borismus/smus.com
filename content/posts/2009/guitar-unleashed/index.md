@@ -1,11 +1,10 @@
-Guitar Unleashed
-================
+---
+title: Guitar Unleashed
 categories: [web, music]
 posted: 2009-03-23
 snip: A web application that lets users collaboratively edit guitar chords. It aims
   to globally improve the quality of guitar chords.
-
-
+---
 
 I've been collaborating with my dad on an experimental web-based guitar chord
 editing service. It's still a work in progress, but we are ready to launch a
@@ -47,4 +46,3 @@ contact us directly at [feedback@guitarunleashed.com][]
   [http://www.guitarunleashed.com/]: http://www.guitarunleashed.com
   [LyricWiki.org]: http://lyricwiki.org/Main_Page
   [feedback@guitarunleashed.com]: mailto:feedback@guitarunleashed.com
-

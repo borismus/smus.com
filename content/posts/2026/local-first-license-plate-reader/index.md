@@ -1,7 +1,8 @@
-My compost bin had 38 license plates
-===
+---
+title: My compost bin had 38 license plates
 posted: Sep 9, 2026
 type: draft
+---
 
 # How it started
 

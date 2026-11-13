@@ -1,10 +1,9 @@
-New design
-==========
+---
+title: New design
 categories: [design, web]
 posted: 2009-09-28
 snip: A much needed blog redesign.
-
-
+---
 
 Since starting this site, I've been using a lightly tweaked version of the
 [ClockWorkAir][] theme. The old design featured a prominent quote in prime
@@ -36,4 +35,3 @@ the odd discussion here or there. Thank you all.
   [web logs]: http://www.joehewitt.com/
   [old]: old-design.png
   [new]: new-design.png
-

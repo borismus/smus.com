@@ -1,6 +1,7 @@
-Browsing Wikipedia in VR
-========================
+---
+title: Browsing Wikipedia in VR
 posted: 2016-05-26
+---
 
 WebVR provides a solid technical foundation on which to build compelling VR
 experiences. But it does not answer a critical question, which is the topic of

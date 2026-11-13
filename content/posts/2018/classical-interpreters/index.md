@@ -1,6 +1,7 @@
-Comparing classical music interpretations
-===
+---
+title: Comparing classical music interpretations
 posted: September 20, 2018
+---
 
 I built an audio player to easily compare multiple interpretations of the same
 piece. Here's an interactive [demo][], and a video to give you a sense of how it

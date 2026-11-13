@@ -1,6 +1,7 @@
-AI note garden: summarizer
-===
+---
+title: "AI note garden: summarizer"
 posted: December 17, 2021
+---
 
 One benefit of keeping a long term note garden is that you can have
 conversations with your past self. You wake up a slightly different person every

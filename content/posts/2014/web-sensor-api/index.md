@@ -1,6 +1,7 @@
-Web Sensor API: raw and uncut
-=============================
+---
+title: "Web Sensor API: raw and uncut"
 posted: 2014-11-13
+---
 
 Sensors found in smartphones define the mobile experience. GPS and the
 magnetometer enable the fluid experience of maps; motion sensing enables

@@ -1,9 +1,8 @@
-Carnegie Mellon University!?
-============================
+---
+title: Carnegie Mellon University!?
 categories: [personal]
 posted: 2009-04-18
-
-
+---
 
 In late March, I was completely thrilled to hear that the [Carnegie
 Mellon University][] [Human Computer Interaction Institute][] accepted
@@ -52,4 +51,3 @@ resulting in the implementation of a human-robot interaction system.
   [Human Computer Interaction Institute]: http://www.hcii.cmu.edu/
   [Master]: http://www.hcii.cmu.edu/masters-program
   [Madeira]: http://en.wikipedia.org/wiki/Madeira
-

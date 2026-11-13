@@ -1,10 +1,9 @@
-iPhone car kit: roll your own
-=============================
+---
+title: "iPhone car kit: roll your own"
 categories: [physical]
 posted: 2009-02-05
 snip: A joke-hack involving a CD, duct tape, an iPhone dock and your car.
-
-
+---
 
 Shortly after buying my first iPhone over a year ago, I found the right,
 low-budget solution to my in-car music needs. The ingredients involved
@@ -26,4 +25,3 @@ car:
   allowfullscreen></iframe>
 
 In a word: awesome.
-

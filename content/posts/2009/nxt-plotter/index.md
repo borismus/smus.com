@@ -1,11 +1,10 @@
-Plotting something radial
-=========================
+---
+title: Plotting something radial
 categories: [physical]
 posted: 2009-08-07
 snip: Attempting to build a plotter based on the radial coordinate system using LEGO
   Mindstorms. Eventually I gave up and built a cartesian plotter.
-
-
+---
 
 In anticipation of 48-739: Making Things Interactive, I've been itching to
 build something interesting. I decided to create a printing plotter out of my
@@ -44,4 +43,3 @@ square, but maybe that's just me.
   [excellent plotter designs]: http://www.norgesgade14.dk/plotter.php
   [Kazimir Malevich]: http://en.wikipedia.org/wiki/Kazimir_Malevich
   [paintings of squares]: http://en.wikipedia.org/wiki/File:Malevich.black-square.jpg
-

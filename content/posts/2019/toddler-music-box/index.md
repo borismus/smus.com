@@ -1,6 +1,7 @@
-Toddler’s First Music Box
-===
+---
+title: Toddler’s First Music Box
 posted: 2019-09-26
+---
 
 Toddler toys are stacked with blinking lights, loud attention seeking noises, and earworm songs. They are often made of plastic and sadly, feel cheap. My daughter deserves better! 
 

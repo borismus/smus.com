@@ -1,6 +1,7 @@
-Diffusion of Literacy in 19th Century Canada
-===
+---
+title: Diffusion of Literacy in 19th Century Canada
 posted: June 21, 2021
+---
 
 The ancient Sumerians invented writing sometime around 3500 BCE. But how did
 writing get refined? How did it spread outside of Sumer? In general, tracking

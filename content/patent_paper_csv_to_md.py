@@ -73,8 +73,9 @@ def format_paper(row):
   return f'''<li><a class="paper" href="{paper_link}">{title}</a> <span class="authors">{authors}</span> <a href="{conference_url}"> {conference_name} {year}</a></li>'''
 
 def convert_patents():
-  out = '''Patents
-=======
+  out = '''---
+title: Patents
+---
 
 <ul>'''
   patents_csv_path = os.path.join(PATENTS_DIR, 'index.csv')
@@ -90,8 +91,9 @@ def convert_patents():
     f.write(out)
 
 def convert_papers():
-  out = '''Papers
-======
+  out = '''---
+title: Papers
+---
 
 <ul>'''
   csv_path = os.path.join(PAPERS_DIR, 'index.csv')

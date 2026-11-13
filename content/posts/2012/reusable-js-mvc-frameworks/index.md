@@ -1,6 +1,7 @@
-Reusable JavaScript for MVC frameworks
-======================================
+---
+title: Reusable JavaScript for MVC frameworks
 posted: 2012-11-06
+---
 
 These days, I write a lot more code, and my projects have increased in
 complexity. Often, a single application brings many kinds of data

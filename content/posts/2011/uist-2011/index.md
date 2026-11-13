@@ -1,9 +1,8 @@
-UIST 2011 greatest hits
-=======================
+---
+title: UIST 2011 greatest hits
 categories: [research, conference]
 posted: 2011-10-20
-
-
+---
 
 I went to UIST 2011 in Santa Barbara and presented our research on
 [CrowdForge][crowdforge].
@@ -135,5 +134,3 @@ the great work that this vibrant community generates.
 [ocarina]: http://www.youtube.com/watch?v=RhCJq7EAJJA
 [webaudio]: http://www.html5rocks.com/en/tutorials/webaudio/intro/
 [chuck]: http://chuck.cs.princeton.edu/doc/language/
-
-

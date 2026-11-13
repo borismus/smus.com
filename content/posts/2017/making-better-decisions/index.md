@@ -1,6 +1,7 @@
-Tools for making better decisions
-=================================
+---
+title: Tools for making better decisions
 posted: 2017-02-01
+---
 
 In a famous letter dating back to 1772, Benjamin Franklin described how he made
 decisions to a friend who was facing a dilemma. Franklin's method involved

@@ -1,6 +1,7 @@
-How the web should work
-=======================
+---
+title: How the web should work
 posted: 2012-09-12
+---
 
 When developing in a particular environment, say Android or Cocoa, we
 are subconsciously aware that the APIs are essentially fixed and beyond

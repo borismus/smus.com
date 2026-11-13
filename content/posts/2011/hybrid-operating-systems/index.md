@@ -1,8 +1,8 @@
-Hybrid operating systems
-========================
+---
+title: Hybrid operating systems
 categories: [web]
 posted: 2011-11-28
-
+---
 
 I've been thinking a bit about native and web applications, and how they can
 (or can't) coexist in the future. This topic has been steeping in my head for
@@ -102,4 +102,3 @@ get closer to PhoneGap's second goal.
 [goal]: http://wiki.phonegap.com/w/page/46311152/apache-callback-proposal
 [ft]: http://www.readwriteweb.com/archives/financial_times_proves_html5_can_beat_native_mobil.php
 [pdk]: https://developer.palm.com/content/api/dev-guide/pdk/overview.html
-

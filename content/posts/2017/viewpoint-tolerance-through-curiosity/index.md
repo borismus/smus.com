@@ -1,7 +1,7 @@
-Viewpoint tolerance through curiosity
-===
+---
+title: Viewpoint tolerance through curiosity
 posted: June 7, 2017
-
+---
 
 Polarization isn't necessarily problematic. Strictly defined, it refers to the
 divergence of political extremes. In fact, a wider variety of opinions may

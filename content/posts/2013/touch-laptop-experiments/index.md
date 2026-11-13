@@ -1,7 +1,7 @@
-Interactive touch laptop experiments
-====================================
+---
+title: Interactive touch laptop experiments
 posted: 2013-02-21
-
+---
 
 Largely because of the plummeting price and thickness of touch screens,
 these devices are increasingly ubiquitous. One of the latest trends is

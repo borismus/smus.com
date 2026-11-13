@@ -1,6 +1,7 @@
-Horsing around with invention.cards
-===
+---
+title: Horsing around with invention.cards
 posted: Feb 2, 2025
+---
 
 This is the first in a series of vignettes based on observations I captured while creating [invention.cards](https://invention.cards), a visual chronology of science and discovery. In this series I hope to explore bits of the history of science and technology I found fascinating ("that's funny...") while reading and digesting [Asimov's chronology](/books/asimovs-chronology-of-science-and-discovery/) and also examine the limitations of source material. First, let's take a really thin slice of human ingenuity: horse-related inventions and discoveries.
 

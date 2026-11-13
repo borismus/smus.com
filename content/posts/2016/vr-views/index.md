@@ -1,6 +1,7 @@
-Embedding VR content on the web
-===============================
+---
+title: Embedding VR content on the web
 posted: 2016-03-31
+---
 
 During a two week trip to India, I took over 1000 shots, including photos,
 videos and a few photospheres. A picture is worth one thousand words, but how

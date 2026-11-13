@@ -1,11 +1,10 @@
-Crowdsourcing articles with mechanical turk
-===========================================
+---
+title: Crowdsourcing articles with mechanical turk
 categories: [social]
 posted: 2010-01-14
 snip: At CMU we conducted user research with real life Mechanical Turk users. We also
   tried to get them to collaboratively write articles using etherpad.
-
-
+---
 
 Last semester at CMU, I was involved in a research project involving
 [Mechanical Turk][]. The goal was to get Mechanical Turk users (turkers)
@@ -79,4 +78,3 @@ so, please respond below!
   [mturk statistics monitor]: http://hyperion.stern.nyu.edu/mturk/
   [projecting a growing interest in Chrome]: http://jboriss.wordpress.com/2010/01/13/mechanical-turk-studies-show-ie-users-discontent-a-growing-interest-in-chrome/
   [collaborative essay writing experiment]: http://groups.csail.mit.edu/uid/deneme/?p=603
-

@@ -1,6 +1,7 @@
-Remote controls for web media
-=============================
+---
+title: Remote controls for web media
 posted: 2014-01-27
+---
 
 When the world wide web was first conceived, it was as a collection of
 interlinked textual documents. Today's web is full of rich media.

@@ -1,12 +1,12 @@
-Short notes
-===
+---
 type: note
 class: split
+---
 
-
-We Are as Gods, We Are as Cogs
-===
+---
+title: We Are as Gods, We Are as Cogs
 posted: Sep 29, 2026
+---
 
 > Everyone must have two pockets with a note in each pocket… In one: “For my sake was the world created.” In the other: “I am but dust and ashes." — Rabbi Simcha Bunim of Peshischa
 
@@ -31,13 +31,12 @@ Every major technological revolution is simultaneously Promethean and carries th
 
 Rabbi Bunim would hand each of us the note they most need. To the AI-pilled builders: "I am but dust and ashes." To everyone else: "For my sake was the world created." Let us not forget: everyone must have two pockets.
 
-
-supernote-cli: pen, paper, and a pipe
-===
+---
+title: "supernote-cli: pen, paper, and a pipe"
 posted: May 9, 2026
 discussion:
   - https://www.reddit.com/r/Supernote/comments/1tcijdh/supernotecli_open_source_terminal_tool_for_bulk/
-
+---
 
 A recent [NYT piece](https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html) argued we need a mental fitness revolution to combat the cognitive decay caused by algorithmic feeds and generative AI. It's an efficient one-two punch. If you're not brainrotting on short form video content, you're outsourcing all of your thinking to an LLM. The result is a kind of cognitive strip-mining. What's left requires active defense.
 

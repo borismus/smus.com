@@ -1,10 +1,9 @@
-Top 5 sessions of Web 2.0 Expo NY
-=================================
+---
+title: Top 5 sessions of Web 2.0 Expo NY
 categories: [conference, web]
 posted: 2008-09-23
 snip: A recap of my favorite sessions at my first web conference.
-
-
+---
 
 Yesterday I got back from the Web 2.0 Expo in New York. There were many
 interesting sessions, and I, for the most part, took notes! Here is a

@@ -1,6 +1,7 @@
-Spectrogram and oscillator
-==========================
+---
+title: Spectrogram and oscillator
 posted: 2014-06-09
+---
 
 A live-input spectrogram written using [Polymer][polymer] using the [Web
 Audio API][wapi].

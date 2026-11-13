@@ -1,11 +1,10 @@
-Chrome extension for thesixtyone
-================================
+---
+title: Chrome extension for thesixtyone
 categories: [web, chrome]
 posted: 2010-10-31
 snip: My first Chrome extension that encapsulates thesixtyone music player in a background
   page.
-
-
+---
 
 It's a little late to join the Chrome Extension writing party, and
 unfortunately [still too early][] for the Chrome Web Store launch.
@@ -88,4 +87,3 @@ available on [my github][].
   [image]: chrome-extension-diagram.png
   [1]: radio-61-screenshot.png
   [my github]: https://github.com/borismus/Radio-61
-

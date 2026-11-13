@@ -1,6 +1,7 @@
-Addressable apps
-================
+---
+title: Addressable apps
 posted: 2014-05-21
+---
 
 It is human nature to create taxonomies for everything: people, places,
 and things.  Without such a system of reference, we become lost and

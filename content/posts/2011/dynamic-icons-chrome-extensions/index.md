@@ -1,12 +1,10 @@
-Dynamic chrome extension icons
-==============================
+---
+title: Dynamic chrome extension icons
 categories: [web, chrome]
 posted: 2011-06-06
 snip: Adding a bit of pizzazz to your extension UIs with dynamic, maybe even animated
   browser and page actions.
-
-
-
+---
 
 Extension developers aren't given much freedom to modify Chrome's browser
 chrome. Without resorting to changing the page itself, or using the new devtools
@@ -144,5 +142,3 @@ better.
 [codified]: https://github.com/paulirish/font-face-detect/blob/master/isFontLoaded.js
 [data URIs]: http://en.wikipedia.org/wiki/Data_URI_scheme
 [screenshot]: music-vis.png
-
-

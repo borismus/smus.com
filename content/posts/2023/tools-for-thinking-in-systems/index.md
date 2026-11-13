@@ -1,6 +1,7 @@
-Tools for Thinking in Systems
-===
+---
+title: Tools for Thinking in Systems
 posted: Oct 5, 2023
+---
 
 With this post I aim to synthesize some ideas from the Tools for Thought movement (e.g. Roam) with Systems Thinking (e.g. feedback loops). The result, as advertised in the title, is a tool for helping people think in systems. Let me first explain what I'm talking about, then walk you through some design considerations, and finally show you a prototype which takes a description of a system and converts it into causal loop diagram. Imagine if every news article included a little visual explainer to help you understand the story better.
 

@@ -1,6 +1,7 @@
-AI note garden: Dreamer, note collider
-===
+---
+title: "AI note garden: Dreamer, note collider"
 posted: August 19, 2022
+---
 
 The process of interconnection is critical for creativity and divergent thought in general. Synthesis is how many new insights are generated. We humans have a knack for doing this, even in bed. Sleep intelligently interconnects newly gleaned information with prior memories. [Matt Walker](https://www.goodreads.com/book/show/34466963-why-we-sleep) describes this as “a form of informational alchemy”. A study he cites has shown that discovering a hidden pattern in a problem set is thrice more likely during sleep.
 

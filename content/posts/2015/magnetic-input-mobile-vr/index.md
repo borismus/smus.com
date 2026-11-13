@@ -1,6 +1,7 @@
-Magnetic Input for Mobile VR
-============================
+---
+title: Magnetic Input for Mobile VR
 posted: 2015-09-07
+---
 
 It's easy to do, just follow these steps:
 

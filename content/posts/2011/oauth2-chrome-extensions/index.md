@@ -1,12 +1,10 @@
-OAuth 2.0 from chrome extensions
-================================
+---
+title: OAuth 2.0 from chrome extensions
 categories: [web, google, chrome]
 posted: 2011-07-07
 snip: A JavaScript library that handles OAuth 2.0 for you, with a dead simple API.
   Comes with adapters for Google, Facebook and Github.
-
-
-
+---
 
 Applications that access online services often need to access a user's private
 data. Chrome Extensions are no different. OAuth has emerged as the standard way
@@ -218,5 +216,3 @@ we'll sort them out! The best way to do this is via [github][] or
 [fork]: https://github.com/borismus/oauth2-extensions
 [twitter]: http://twitter.com/borismus
 [github]: http://github.com/borismus
-
-

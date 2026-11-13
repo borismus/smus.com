@@ -1,5 +1,6 @@
-About Boris
-===========
+---
+title: About Boris
+---
 
 <img id='image-me' src='/static/images/stipple.png'/>
 

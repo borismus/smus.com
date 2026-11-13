@@ -1,6 +1,7 @@
-Gestural music direction
-========================
+---
+title: Gestural music direction
 posted: 2013-05-03
+---
 
 Imagine this: you start conducting as if you were in front of a great
 orchestra, and music fades in out of thin air, matching your tempo and time

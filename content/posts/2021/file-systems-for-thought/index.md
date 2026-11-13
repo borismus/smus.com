@@ -1,6 +1,7 @@
-File Systems for Thought
-===
+---
+title: File Systems for Thought
 posted: September 8, 2021
+---
 
 Tools for Thought are all the rage these days. Unfortunately, most of these tools assume one corpus per tool, and the interoperability story is [very poor](https://subconscious.substack.com/p/composability-with-other-tools). At the same time, it's pretty clear to me that no single app can serve as my [second brain](https://thesephist.com/posts/browser/). What I need instead is a [System for Thought](https://speakerdeck.com/adewale/tools-for-thought-from-the-memex-to-index-cards?slide=13) that supports many different tools working seamlessly together.
 

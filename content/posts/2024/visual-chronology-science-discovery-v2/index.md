@@ -1,6 +1,7 @@
-Visual Chronology of Science & Discovery 2.0
 ---
+title: Visual Chronology of Science & Discovery 2.0
 posted: May 16, 2024
+---
 
 I recently resumed my Visual Chronology of Science & Discovery [project][blog], a Civilization-inspired tech tree but for the real life history of science. The content is grounded in Asimov's [book][] with some flourishes added, courtesy of yours truly. Four years since starting the project I'm sharing a significant update. Here's a quick overview of the new viz:
 

@@ -1,11 +1,10 @@
-Clean drag and drop upload in Safari
-====================================
+---
+title: Clean drag and drop upload in Safari
 categories: [web, design]
 posted: 2009-02-15
 snip: A how-to about implementing file drag and drop from the desktop into Safari,
   and presenting the user with a nice UI.
-
-
+---
 
 Somehow I often find myself arguing in defense of the web browser as a
 viable platform for developing rich applications. In many such
@@ -47,4 +46,3 @@ they are reserved for developers who have nothing but disdain for their users.
   [difficult to style]: http://www.quirksmode.org/dom/inputfile.html
   [converted into a drag area]: drag-drop-upload.html
   [java applet]: http://www.radinks.com/upload/
-

@@ -1,6 +1,7 @@
-Web Audio book
-==============
+---
+title: Web Audio book
 posted: 2013-03-18
+---
 
 I wrote a short book about the Web Audio API. The book is meant as an
 introduction to the web audio API, as well as some audio basics for web

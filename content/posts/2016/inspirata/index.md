@@ -1,6 +1,7 @@
-Inspirata: for what inspires you
-================================
+---
+title: "Inspirata: for what inspires you"
 posted: 2016-05-31
+---
 
 My site has a little section called [Clippings][clip]. It's meant as a visual
 record of some of the things I've found inspiring on the web. How do I add

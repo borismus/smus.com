@@ -1,11 +1,10 @@
-Android-powered mindstorms
-==========================
+---
+title: Android-powered mindstorms
 categories: [android, web]
 posted: 2010-06-27
 snip: This LEGO Mindstorms robot is controlled using twitter. When the robot is online,
   it responds to at-replied command to @mindstorms.
-
-
+---
 
 A few projects around the internet use an Android phone to control the
 LEGO Mindstorms NXT brick. Most involve an ugly hack in which the phone
@@ -47,4 +46,3 @@ below!
   [teleoperation]: http://en.wikipedia.org/wiki/Teleoperation
   [@mindstorms]: http://twitter.com/mindstorms
   [github]: http://github.com/borismus/android-nxt
-

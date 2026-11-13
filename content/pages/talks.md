@@ -1,5 +1,6 @@
-Talks I've given
-================
+---
+title: Talks I've given
+---
 
 I'm thankful for many opportunities to co-present with and learn from amazing
 people. Here are some talks I gave recently.

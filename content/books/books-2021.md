@@ -1,14 +1,14 @@
-Book list
-=========
+---
 class: split
 type: book
+---
 
-
-Collapse of Complex Societies by Joseph Tainter
-===
+---
+title: Collapse of Complex Societies by Joseph Tainter
 rating: yes
 posted: November 12, 2021
 cover: /assets/book-covers/collapse-complex-societies.jpg
+---
 
 I read Collapse of Complex Societies on GB' suggestion. This one was a doozie, and I must say, often over my head for its breadth of references into specific civilizations that I have no background with at all. And Tainter assumes you are either familiar with a broad variety of civilizations in detail, or will do the legwork to get there. As a result, I felt that this book was better suited to an Anthropology/Archaeology professional.
 
@@ -167,12 +167,12 @@ The Ik People are really fascinating:
 
 > Children are minimally cared for by their mothers until age three, and then are put out to fend for themselves. This separation is absolute. By age three they are expected to find their own food and shelter, and those that survive do provide for themselves. Children band into age-sets for protection, since adults will steal a child's food whenever possible.
 
-
-Understanding How We Learn: A Visual Guide
-===
+---
+title: "Understanding How We Learn: A Visual Guide"
 rating: yes
 posted: November 4, 2021
 cover: /assets/book-covers/understanding-how-we-learn.jpg
+---
 
 I read this book because it was recommended by C for work. This book serves as a nice visual summary of what we know about learning from a cognitive science perspective. The authors lament the large gap between what we know from this field and how educators do their job in practice.
 
@@ -389,12 +389,12 @@ Spacing practice is hard to get into. Authors suggest getting students to do per
 
 **Scaffolding: guided notes**: Can LLMs intelligently generate a cloze reading activity?
 
-
-The Scout Mindset by Julia Galef
-===
+---
+title: The Scout Mindset by Julia Galef
 rating: yes
 posted: October 22, 2021
 cover: /assets/book-covers/scout-mindset.jpg
+---
 
 It's been years since I would have said that I aspire to be a rationalist. But I've been swimming in rationality circles for long enough that some of the arguments and ideas in the book are somewhat trite. But I have enjoyed Julia’s podcast for her crispness of thought, ability to popularize, and pleasant voice. I'd recommend this book for someone unfamiliar with modern rationalism that's looking to get their feet wet. It's definitely a more coherent and less overwhelming starting point than lesswrong.
 
@@ -471,12 +471,12 @@ Great. Reminder. About. Righteous. Sentences. Produced. By. Emphatic. Use. Of. P
 
 I 👋 Should 👋 Use 👋 This 👋 Trick 👋 Way 👋 More 👋 Often.
 
-
-History of Future Cities by Daniel Brook
-===
+---
+title: History of Future Cities by Daniel Brook
 rating: no
 posted: October 20, 2021
 cover: /assets/book-covers/history-future-cities.jpg
+---
 
 This book explores planned cities over the centuries, built in the not-west to emulate western iconic cities: St. Petersburg, Mumbai, Shanghai, and Dubai. The whole east-west distinction is a bit funny, and the author disparages it by the end. The selection of cities is also a bit arbitrary.
 
@@ -682,12 +682,12 @@ Valentina Matviyenko, Putin's puppet established the city as a Potemkin village,
 
 Great artists steal. 🎤👇
 
-
-The Protestant Ethic and the Spirit of Capitalism by Max Weber
-===
+---
+title: The Protestant Ethic and the Spirit of Capitalism by Max Weber
 rating: yes
 posted: September 26, 2021
 cover: /assets/book-covers/weber-protestant-ethic.jpg
+---
 
 Max Weber piqued my interest in an overview course in philosophy [[The Modern Political Tradition - Hobbes to Habermas]]. I took a note about Weber's ideas then:
 
@@ -806,12 +806,12 @@ And so Max Weber us forced into this mandatory system of a calling, works, origi
 
 Weber ends with a meta point. Modern man consistently underestimates the importance of religious influences in shaping modernity.
 
-
-ABC by Illich and Sanders
-===
+---
+title: ABC by Illich and Sanders
 rating: no
 posted: September 15, 2021
 cover: /assets/book-covers/abc.jpg
+---
 
 The Alphabetization of the Popular Mind is an interesting deep dive into the way
 that consciousness evolved throughout history, especially as a result of
@@ -904,12 +904,12 @@ I enjoyed the interpretation of the Ten Commandments. What did the Israelites he
 2. They heard only the first two: “I am the lord thy God”, and “thou shalt have no other gods before me”, before being overwhelmed. The rest had to be received through Moses.
 3. They heard only aleph (א), with which the first commandment begins, the first letter of anochi (אנוכי), and silent without a patach, merely commanding the mouth to open. “Rabbi Mendel Torum transforms the revelation on Mount Sinai into a mystical revelation, pregnant with infinite meaning, but devoid of any specific one.”
 
-
-Never Let Me Go by Kazuo Ishiguro
-===
+---
+title: Never Let Me Go by Kazuo Ishiguro
 rating: yes
 posted: August 30, 2021
 cover: /assets/book-covers/never-let-me-go.jpg
+---
 
 I really liked it. Author does a great job conveying little nuances of relationships. I feel similarly about past life and previous relationships that could have gone so differently.
 
@@ -937,12 +937,12 @@ I thought that Kazuo Ishiguro invented "Never Let Me Go" the song, and but it tu
 
 I found the ending to be a little bit drawn out. For example I thought that the book would end at the scene where Tommy and Kathy go and talk to Madame. A lot of the stuff after that was a little bit less clear and might have just been possible to cut.
 
-
-Gardener & Carpenter by Alison Gopnik
-===
+---
+title: Gardener & Carpenter by Alison Gopnik
 rating: yes
 posted: August 25, 2021
 cover: /assets/book-covers/gardener-and-carpenter.jpg
+---
 
 This one's been on my radar for years. I've read a lot of the author's articles and generally feel a strong affinity for Isaiah Berlin, whom Gopnik has done quite a bit to popularize. Self described as a Bubbie from Berkeley with a PhD in developmental neuroscience that sometimes dabbles in philosophy.
 
@@ -1076,12 +1076,12 @@ Most gardens have hundreds of plants growing in them. But your average kinder ga
 
 This is my fundamental criticism of the Gardener model of parenting. In other words, I am identifying the core challenge to the parent. If Gopnik is indeed right, and the gardener model is the one to adopt, it is difficult for ambitious parents to do this in practice, because they are so invested in their child's future and be subject to competitive parenting, etc.
 
-
-Late Middle Ages
-===
+---
+title: Late Middle Ages
 rating: yes
 posted: July 25, 2021
 cover: /assets/book-covers/late-middle-ages.jpg
+---
 
 An excellent ending to a worthwhile trilogy on Medieval History. Also see [Early
 Middle Ages](/books/early-middle-ages) and [High Middle
@@ -1325,12 +1325,12 @@ Based on this list, the Middle Ages continues well into the 16th century. Italia
 
 Daileader proposes a better potential endpoints to the Middle Ages, like the Scientific Revolution or the Protestant Reformation. But even these periods were rooted in the Middle Ages. Luther was a scholastic scholar following Aquinas' tradition. Newton was deeply religious. Perhaps an even better endpoint for the Middle Ages actually is the Enlightenment in the mid-18th century. The French Revolution was the antithesis to the Middle Ages and ushered in the drastic and abrupt end to many of the institutions central to the Middle Ages. (That said, the lecturer is a professor of Middle Age History, and is biased towards stretching the start and endpoints of his period of study.)
 
-
-Medieval Technology and Social Change
-===
+---
+title: Medieval Technology and Social Change
 posted: June 30, 2021
 rating: yes
 cover: /assets/book-covers/medieval-technology.jpg
+---
 
 I'm clearly on a serious history of the Middle Ages kick. I found this book by just searching the internet inspired by earlier courses on Medieval history, and didn't really know what I was getting into. Apparently it's really famous and influential among Medieval scholars, even causing the [Great Stirrup Controversy](https://en.wikipedia.org/wiki/Great_Stirrup_Controversy).
 
@@ -1485,12 +1485,12 @@ Asides:
 - I wondered if король comes from Carolingian. Nope, it comes from Charlemagne. That said, apparently "Carolingian" and in fact Charlemagne are both named after Charles Martel. In turn, Charles is a name from the common Germanic noun meaning "man". Go figure...
 - Lots of references to Bayeux tapestry. It's [available online...](https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/)
 
-
-Understanding Complexity by Scott Page
-===
+---
+title: Understanding Complexity by Scott Page
 posted: 2021-06-22
 rating: yes
 cover: /assets/book-covers/understanding-complexity.jpg
+---
 
 Overall a dense but short listen. Potpourri of new ideas, and far better than
 [[Why Information Grows by Cesar Hidalgo]]. This lecture is well organized,
@@ -1537,12 +1537,12 @@ constraints.
 [[Complexity is in the eyes of the beholder]] - if you're really smart, checkers
 is just tic-tac-toe, and no longer complex. Is that right?
 
-
-Consider Phlebas by Iain M. Banks
-===
+---
+title: Consider Phlebas by Iain M. Banks
 posted: 2021-06-06
 rating: no
 cover: /assets/book-covers/consider-phlebas.jpg
+---
 
 After reading [[Player of Games by Iain M. Banks]], I wanted to read another in the Culture Series mainly for the world-building.
 
@@ -1558,12 +1558,12 @@ Ultimately, Horza is killed by an Idiran that mistrusts him. A moral lesson from
 
 The scale conveyed in this novel is huge, and well executed. The destruction of the Vavatch orbital is well described. Epic battle scenes are extremely cinematic and would play out well in an adaptation to the screen. But the end could have been shortened significantly. I was quite tired of the endless underground tunnels of Char's World. Overall, a fun read if you're into a fast paced, sometimes ridiculous action novel.
 
-
-Why Information Grows by Cesar Hidalgo
-===
+---
+title: Why Information Grows by Cesar Hidalgo
 posted: 2021-05-20
 rating: no
 cover: /assets/book-covers/why-information-grows.jpg
+---
 
 Why Information Grows starts off strong with an accessible introduction to information theory and some interesting physics-inspired ideas. Sadly, as the book proceeds, it becomes clear that the author has pieced together multiple essays that were and remain loosely connected. It's clearly a derivative work, often far less clear than the books that are cited.
 
@@ -1691,13 +1691,12 @@ In the spirit of being a random amalgamation of cool ideas Hidalgo likes:
 - High trust enables lower transaction costs, as per [[Bowling Alone by Robert Putnam]]
 - Family is for communism, market is for capitalism.  [[Debt by David Graeber]]
 
-
-
-Emotional Life of the Toddler
-===
+---
+title: Emotional Life of the Toddler
 posted: 2021-05-06
 rating: yes
 cover: /assets/book-covers/emotional-life-toddler.jpg
+---
 
 "Every generation Western Civilization is invaded by barbarians. We call them children." — Hannah Arendt
 
@@ -1758,11 +1757,12 @@ The formula of this book is to take ordinary moments in child rearing, buttress 
 
 This is not a "how to" guide, or a collection of weird tricks to raise your children. It's so far the best written child rearing book I've encountered.
 
-High Middle Ages
-===
+---
+title: High Middle Ages
 posted: 2021-05-03
 rating: yes
 cover: /assets/book-covers/high-middle-ages.jpg
+---
 
 Why study the middle ages, and history in general? Daileader provides a pragmatic answer:
 
@@ -2040,13 +2040,12 @@ Frederic II ignored all of the above and continued on to Jerusalem. Taking advan
 
 A tentative peace breaks out for a decade. Pope Gregory IX, then his successor Innocent IV called for [a crusade against Frederic II](https://en.wikipedia.org/wiki/Sixth_Crusade). Crusaders with vows to the east are allowed to change course to fight Frederic II instead. Some of his own subjects turn against him. Civil wars rage beyond Frederic II's death in 1250, and Germany disintegrates further. The papacy denies election of further members of the Hohenstaufen dynasty. The result is a final decimation of the Holy Roman Empire into a loose confederacy with an elected emperor.
 
-
-
-Thirteenth Tribe
-===
+---
+title: Thirteenth Tribe
 posted: 2021-04-30
 rating: no
 cover: /assets/book-covers/thirteenth-tribe.jpg
+---
 
 When I came across The Thirteenth Tribe, I knew that the stars had aligned. I just finished [Early Middle Ages](/books/early-middle-ages/) and really enjoyed [Darkness at Noon](/books/darkness-at-noon-by-arthur-koestler-audio/) by Arthur Koestler.
 
@@ -2143,12 +2142,12 @@ Sadly, Koestler's theory has been used extensively by Arab anti-Zionists, and wh
 
 That all said, this Khazar question is historically fascinating, shrouded in mystery, and full of people on both sides, exhibiting classic motivated reasoning. We'll see where I eventually land.
 
-
-Early Middle Ages
-===
+---
+title: Early Middle Ages
 posted: 2021-03-17
 rating: yes
 cover: /assets/book-covers/early-middle-ages.jpg
+---
 
 12 hours dedicated to the period from 300 to 1000 CE, often called the Dark Ages. The modern official nomenclature refers to the fact that sources on the time period are scarce. The lecturer distances from the colloquial usage of backwardness, decline, evil, etc.
 
@@ -2328,12 +2327,12 @@ According to the lecturer, Roman population declined greatly between 2nd and 7th
 
 Gibbon and Pirenne saw Carolingian period as a low point in European history. Modern historians don't associate Dark Ages with a cultural darkness or decline, but a period lacking primary sources. Culturally and economically, the Carolingian Renaissance seems to have pushed Europe out of a decline, spurred on by exchanges with Vikings who had huge trade networks, and cultural interactions with Arabs who were just ramping up.
 
-
-Why Greatness Cannot Be Planned
-===
+---
+title: Why Greatness Cannot Be Planned
 posted: 2021-03-04
 rating: yes
 cover: /assets/book-covers/why-greatness-cannot-be-planned.jpg
+---
 
 Another GB recommendation that I really enjoyed. It's hard to summarize this book succinctly since it is such a potpourri of different fields and ideas.
 
@@ -2428,13 +2427,12 @@ A lot of this book rails against [[Perils of optimization]] and warns about maxi
 
 > You show me anything that depicts institutional progress in America: school test scores, crime stats, arrest reports, anything that a politician can run on, anything that someone can get a promotion on. And as soon as you invent that statistical category, fifty people in that institution will be at work trying to figure out a way to make it look as if progress is occurring when actually none is.
 
-
-
-How to Take Smart Notes
-===
+---
+title: How to Take Smart Notes
 posted: 2021-02-17
 rating: yes
 cover: /assets/book-covers/take-smart-notes.jpg
+---
 
 Zettelkasten Method, In Praise of Niklas Luhmann, or Ode To The Slip-box.
 
@@ -2482,12 +2480,12 @@ General reasons for keeping notes:
 
 > “On one hand, those with wandering, defocused, childlike minds seem to be the most creative; on the other, it seems to be analysis and application that’s important. The answer to this conundrum is that creative people need both … The key to creativity is being able to switch between a wide-open, playful mind and a narrow analytical frame.” - Jeremy Dean
 
-
-Thinking in Systems: A Primer
-===
+---
+title: "Thinking in Systems: A Primer"
 posted: 2021-02-10
 rating: yes
 cover: /assets/book-covers/thinking-in-systems.jpg
+---
 
 Thanks to a book club at work, I finally read this legendary book.
 
@@ -2646,12 +2644,12 @@ Unbridled growth with an amplifying loop is rare because such systems quickly le
 
 > There are these two young fish swimming along, and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning, boys. How’s the water?” And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, “What the hell is water?”
 
-
-Sid Meier's Memoir!
-===
+---
+title: Sid Meier's Memoir!
 posted: January 27, 2021
 rating: yes
 cover: /assets/book-covers/sid-meier-memoir.jpg
+---
 
 MJ recommended I pick up this book. I regret nothing.
 

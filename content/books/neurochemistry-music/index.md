@@ -1,7 +1,8 @@
-The neurochemistry of music
-===
+---
+title: The neurochemistry of music
 posted: October 23, 2017
 rating: yes
+---
 
 I picked up [“The Mozart Effect”](https://www.amazon.ca/Mozart-Effect-Tapping-Strengthen-Creative/dp/0060937203) on a whim, at Powell’s in Portland,
 hoping that it would provide some insights (via well conducted scientific

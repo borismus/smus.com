@@ -1,6 +1,7 @@
-Sensor fusion and motion prediction
-===================================
+---
+title: Sensor fusion and motion prediction
 posted: 2015-11-05
+---
 
 A major technical challenge for VR is to make head tracking as good as possible.
 The metric that matters is called **motion-to-photon latency**. For mobile VR

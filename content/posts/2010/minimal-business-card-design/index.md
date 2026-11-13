@@ -1,10 +1,9 @@
-Minimal business card design
-============================
+---
+title: Minimal business card design
 categories: [design]
 posted: 2010-07-21
 snip: My quest to create the most minimalist business cards possible!
-
-
+---
 
 Business card design is a tricky art. It's a fairly constrained space,
 but that's what design is all about, right? I'm ordering a personal set
@@ -29,4 +28,3 @@ forward to what you come up with! P.S. Thanks for the help, [Jenn][]!
   [moo mini cards]: http://us.moo.com/en/products/minicards.php
   [image]: business-card.png
   [Jenn]: http://www.jennlu.com/
-

@@ -1,11 +1,10 @@
-Chrome media keyboard shortcuts
-===============================
+---
+title: Chrome media keyboard shortcuts
 categories: [chrome, web, keyboard, shortcuts]
 posted: 2011-04-01
 snip: A Chrome extension that lets you bind keyboard shortcuts to control your favorite
   music player.
-
-
+---
 
 Few people want to synchronize their burgeoning music libraries across
 computers (SSDs are small), or even lift it into the clouds with
@@ -140,4 +139,3 @@ player.js into the correct domain. Feel free to fork the
   [2]: https://chrome.google.com/extensions/detail/cpgegiegacijlefhjkfodppcefjhgdeo
   [previous post]: /chrome-extension-mashups/
   [project on github]: https://github.com/borismus/Chrome-Media-Keys
-

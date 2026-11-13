@@ -1,10 +1,9 @@
-SXSW LEGO MINDSTORMS hackathon
-==============================
+---
+title: SXSW LEGO MINDSTORMS hackathon
 categories: [conference, physical]
 posted: 2011-03-17
 snip: My excellent adventures organizing a hackathon-party at South by Southwest.
-
-
+---
 
 I just returned to San Francisco after having a blast at my second SXSW.
 Last time I attended, two years ago, I spent most of my time attending
@@ -63,4 +62,3 @@ please let me know. Looking forward to next time!
   [@StevenCanvin]: http://twitter.com/StevenCanvin
   [@Chrysaora]: http://twitter.com/Chrysaora
   [mashable]: http://mashable.com/2011/03/13/league-of-extraordinary-hackers/
-
