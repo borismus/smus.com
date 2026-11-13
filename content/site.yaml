@@ -22,3 +22,9 @@ type_mapping:
   '/notes/': note
 # If no type is specified, use this type.
 default_type: page
+# Related articles shown at the end of each post, note, and book review,
+# chosen by text similarity (see Lightning's Related.py).
+related:
+  types: [post, note, book]
+  limit: 3
+  min_score: 0.1
