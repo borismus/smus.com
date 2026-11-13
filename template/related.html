@@ -1,7 +1,6 @@
 {% if related %}
 {% set labels = {'post': 'Post', 'note': 'Note', 'book': 'Book review'} %}
-<aside class='related'>
-  <p class='related-label'>Related</p>
+<section id='related' aria-label='Related'>
   <div class='related-cards'>
     {% for article in related %}
     <a class='related-card' href='{{ article.permalink }}'>
@@ -14,5 +13,5 @@
     </a>
     {% endfor %}
   </div>
-</aside>
+</section>
 {% endif %}
