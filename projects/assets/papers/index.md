@@ -1,5 +1,6 @@
-Papers
-======
+---
+title: Papers
+---
 
 <ul><li><a class="paper" href="/papers/2022 - Telejam - From Low Latency to No Latency.pdf">Telejam: From Low Latency to No Latency</a> <span class="authors">Goldstein M., McNabb M., Smus B.</span> <a href="https://webaudioconf.com/"> WAC 2022</a></li>
 <li><a class="paper" href="/papers/2020 - Unmet Needs and Opportunities for Mobile Translation AI.pdf">Unmet needs and opportunities for mobile translation AI</a> <span class="authors">Liebling D. J., Lahav M., Evans A., Donsbach A., Holbrook J., Smus B., Boran L.</span> <a href="https://chi2020.acm.org/"> CHI 2020</a></li>

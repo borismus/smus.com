@@ -8,7 +8,7 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
 
-  <meta name="description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the  MNIST dataset . This was recently  ported to the web  thanks to  deeplearn.js . The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this:        Into images like this, called log-mel spectrograms, and in the  next post , feed these images into the same types of models that do handwriting recognition so well:       The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to  see the code , or  play with some live demos , be my guest!" />
+  <meta name="description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the MNIST dataset. This was recently ported to the web thanks to deeplearn.js. The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this: Into images like this, called log-mel spectrograms, and in the next post, feed these images into the same types of models that do handwriting recognition so well: The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to see the code, or play with some live demos, be my guest!" />
   <meta name="author" content="Boris Smus" />
   <link rel="canonical" href="https://smus.com/web-audio-ml-features/" />
 
@@ -17,14 +17,14 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Audio features for web-based ML" />
-  <meta name="twitter:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the  MNIST dataset . This was recently  ported to the web  thanks to  deeplearn.js . The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this:        Into images like this, called log-mel spectrograms, and in the  next post , feed these images into the same types of models that do handwriting recognition so well:       The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to  see the code , or  play with some live demos , be my guest!" />
+  <meta name="twitter:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the MNIST dataset. This was recently ported to the web thanks to deeplearn.js. The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this: Into images like this, called log-mel spectrograms, and in the next post, feed these images into the same types of models that do handwriting recognition so well: The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to see the code, or play with some live demos, be my guest!" />
   <meta name="twitter:image" content="https://smus.com/web-audio-ml-features/final-log-mel-spectrogram.png" />
 
   <!-- Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://smus.com/web-audio-ml-features/" />
   <meta property="og:title" content="Audio features for web-based ML" />
-  <meta property="og:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the  MNIST dataset . This was recently  ported to the web  thanks to  deeplearn.js . The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this:        Into images like this, called log-mel spectrograms, and in the  next post , feed these images into the same types of models that do handwriting recognition so well:       The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to  see the code , or  play with some live demos , be my guest!" />
+  <meta property="og:description" content="One of the first problems presented to students of deep learning is to classify handwritten digits in the MNIST dataset. This was recently ported to the web thanks to deeplearn.js. The web version has distinct educational advantages over the relatively dry TensorFlow tutorial. You can immediately get a feeling for the model, and start building intuition for what works and what doesn't. Let's preserve this interactivity, but change domains to audio. This post sets the scene for the auditory equivalent of MNIST. Rather than recognize handwritten digits, we will focus on recognizing spoken commands. We'll do this by converting sounds like this: Into images like this, called log-mel spectrograms, and in the next post, feed these images into the same types of models that do handwriting recognition so well: The audio feature extraction technique I discuss here is generic enough to work for all sorts of audio, not just human speech. The rest of the post explains how. If you don't care and just want to see the code, or play with some live demos, be my guest!" />
   <meta property="og:image" content="https://smus.com/web-audio-ml-features/final-log-mel-spectrogram.png" />
   <meta property="article:published_time" content="2017-12-15" />
 
@@ -246,6 +246,32 @@ learning part? That's the <a href="/web-voice-command-recognition/">next post</a
     </div>
   </form>
 </section>
+
+
+<section id='related' aria-label='Related'>
+  <div class='related-cards'>
+    
+    <a class='related-card' href='/web-voice-command-recognition'>
+      <span class='related-meta'>Post · Jan 4, 2018</span>
+      <span class='related-title'>Web-based voice command recognition</span>
+      <span class='related-excerpt'>[Last time][audio-features] we converted audio buffers into images. This time we'll take these images and train a neural network using [deeplearn.js][deeplearn]. The result is [a browser-based demo][infer-yesno] that lets you speak a…</span>
+    </a>
+    
+    <a class='related-card' href='/spectrogram-and-oscillator'>
+      <span class='related-meta'>Post · Jun 9, 2014</span>
+      <span class='related-title'>Spectrogram and oscillator</span>
+      <span class='related-excerpt'>A live-input spectrogram written using Polymer using the Web Audio API. If you're running Chrome or Firefox, see it in action. Once the spectrogram is running, see if you can make a pattern with your speech or by whistling. You can also…</span>
+    </a>
+    
+    <a class='related-card' href='/filter-playground'>
+      <span class='related-meta'>Post · Aug 10, 2017</span>
+      <span class='related-title'>Filter playground</span>
+      <span class='related-excerpt'>iframe { width: 640px; height: 480px; border: 0; } "You don't understand anything until you learn it more than one way." – Marvin Minsky In my short Web Audio book, I covered the BiquadFilterNode, but didn't have any sense for how it…</span>
+    </a>
+    
+  </div>
+</section>
+
 
 
 <footer>
