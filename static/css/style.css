@@ -695,6 +695,9 @@ a.related-card:hover {
 }
 
 .related-meta {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.06em;
