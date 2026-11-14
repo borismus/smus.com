@@ -286,6 +286,17 @@ section#gallery-header {
   color: rgba(0, 0, 0, 0.7);
   line-height: 1.5;
 }
+section#gallery-header a {
+  color: rgba(0, 0, 0, 0.5);
+}
+section#gallery-header a:hover {
+  color: forestgreen;
+}
+section#gallery-header img {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+}
 section#gallery {
   margin: 2rem auto;
 }
