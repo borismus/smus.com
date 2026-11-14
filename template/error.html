@@ -8,7 +8,7 @@
 {% for entry in site.articles %}
   {% for a in (entry.children if entry.children is defined else [entry]) %}
     {% if a.type_name in labels %}
-      {% set meta = labels[a.type_name] ~ ((' · ' ~ a.date_created.Format('%B %Y' if a.type_name == 'book' else '%b %-d, %Y')) if a.date_created else '') %}
+      {% set meta = labels[a.type_name] ~ ((' · ' ~ a.date_created.Format('%b %Y' if a.type_name == 'book' else '%b %-d, %Y')) if a.date_created else '') %}
       {% set ns.pages = ns.pages + [[a.title, a.permalink, meta]] %}
     {% endif %}
   {% endfor %}

@@ -6,7 +6,7 @@
     <a class='related-card' href='{{ article.permalink }}'>
       <span class='related-meta'>
         {{- labels.get(article.type_name, '') -}}
-        {%- if article.date_created %} · {{ article.date_created.Format('%B %Y' if article.type_name == 'book' else '%b %-d, %Y') }}{% endif -%}
+        {%- if article.date_created %} · {{ article.date_created.Format('%b %Y' if article.type_name == 'book' else '%b %-d, %Y') }}{% endif -%}
       </span>
       <span class='related-title'>{{ article.title }}</span>
       <span class='related-excerpt'>{{ article.meta_description | truncate(240, end='…') }}</span>
