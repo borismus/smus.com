@@ -396,14 +396,18 @@ section#archives a {
   color: black;
   text-decoration: none;
   position: relative;
-  display: block;
+  /* Title takes whatever room the date leaves. */
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
 }
 
 section#archives .title {
-  display: inline-block;
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
   text-wrap: pretty;
   line-height: 1.2;
-  margin-right: 6rem;
 }
 
 section#archives a:hover .title {
@@ -411,17 +415,16 @@ section#archives a:hover .title {
 }
 
 section#archives time {
-  position: absolute;
-  right: 0;
-  top: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
   color: rgba(0, 0, 0, 0.3);
 }
 
 /** Rated archives section */
 section#archives .rating {
   position: absolute;
-  margin-top: -4px;
-  margin-left: -30px;
+  top: -4px;
+  left: -30px;
   opacity: 0.3;
 }
 
@@ -522,9 +525,15 @@ article .book-context {
     padding: 0 1rem;
   }
 
+  /* Room on the left for the rating stars, which hang outside the list. */
+  section#archives ol:has(.rating) {
+    padding-left: 2.5rem;
+  }
+
   section#gallery-header {
     width: 100%;
     padding: 0 1rem;
+    overflow-wrap: break-word;
   }
 
   section#gallery {
